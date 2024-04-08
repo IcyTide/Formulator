@@ -1,6 +1,6 @@
 from base.skill import PhysicalDamage, PhysicalDotDamage
 
-skills = {
+SKILLS = {
     32823: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",
@@ -282,7 +282,7 @@ skills = {
     }
 }
 
-for skill_id, detail in skills.items():
-    skills[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
+for skill_id, detail in SKILLS.items():
+    SKILLS[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
     for attr, value in detail.items():
-        setattr(skills[skill_id], attr, value)
+        setattr(SKILLS[skill_id], attr, value)

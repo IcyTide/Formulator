@@ -1,9 +1,96 @@
 from base.constant import *
 
 
-class Attribute:
-    level: int = 120
+class Target:
+    target_level: int = 124
 
+    _physical_shield_base: int = 0
+    _magical_shield_base: int = 0
+
+    _physical_shield_gain: int = 0
+    _magical_shield_gain: int = 0
+
+    _all_vulnerable: float = 0
+    _physical_vulnerable: float = 0
+    _magical_vulnerable: float = 0
+
+    @property
+    def shield_base(self):
+        raise NotImplementedError
+
+    @property
+    def physical_shield_base(self):
+        return SHIELD_BASE_MAP[self.target_level] + self._physical_shield_base
+
+    @physical_shield_base.setter
+    def physical_shield_base(self, physical_shield_base):
+        self._physical_shield_base = physical_shield_base
+
+    @property
+    def magical_shield_base(self):
+        return SHIELD_BASE_MAP[self.target_level] + self._magical_shield_base
+
+    @magical_shield_base.setter
+    def magical_shield_base(self, magical_shield_base):
+        self._magical_shield_base = magical_shield_base
+
+    @property
+    def shield_gain(self):
+        raise NotImplementedError
+
+    @property
+    def physical_shield_gain(self):
+        return self._physical_shield_gain / BINARY_SCALE
+
+    @physical_shield_gain.setter
+    def physical_shield_gain(self, physical_shield_gain):
+        self._physical_shield_gain = physical_shield_gain
+
+    @property
+    def magical_shield_gain(self):
+        return self._magical_shield_gain / BINARY_SCALE
+
+    @magical_shield_gain.setter
+    def magical_shield_gain(self, magical_shield_gain):
+        self._magical_shield_gain = magical_shield_gain
+
+    @property
+    def vulnerable(self):
+        raise NotImplementedError
+
+    @property
+    def all_vulnerable(self):
+        return self._all_vulnerable
+
+    @all_vulnerable.setter
+    def all_vulnerable(self, all_vulnerable):
+        residual = all_vulnerable - self._all_vulnerable
+        self.physical_vulnerable += residual
+        self.magical_vulnerable += residual
+        self._all_vulnerable = all_vulnerable
+
+    @property
+    def physical_vulnerable(self):
+        return self._physical_vulnerable / BINARY_SCALE
+
+    @physical_vulnerable.setter
+    def physical_vulnerable(self, physical_vulnerable):
+        self._physical_vulnerable = physical_vulnerable
+
+    @property
+    def magical_vulnerable(self):
+        return self._magical_vulnerable / BINARY_SCALE
+
+    @magical_vulnerable.setter
+    def magical_vulnerable(self, magical_vulnerable):
+        self._magical_vulnerable = magical_vulnerable
+
+    @property
+    def shield_constant(self):
+        return SHIELD_SCALE * (LEVEL_SCALE * self.target_level - LEVEL_CONSTANT)
+
+
+class Major:
     _all_major_base: int = 0
     _all_major_gain: int = 0
     _agility_base: int = 0
@@ -18,13 +105,6 @@ class Attribute:
     _spunk_base: int = 0
     _spunk_gain: int = 0
     _spunk: int = 0
-
-    surplus: int = 0
-
-    _strain_base: int = 0
-    _strain_percent: float = 0
-    _strain_gain: int = 0
-    _strain: float = 0
 
     _physical_attack_power_base: int = 0
     _base_physical_attack_power: int = 0
@@ -53,18 +133,6 @@ class Attribute:
     _magical_critical_strike_gain: int = 0
     _magical_critical_strike: float = 0
 
-    _all_critical_power_base: int = 0
-    _all_critical_power_gain: int = 0
-
-    _physical_critical_power_base: int = 0
-    _physical_critical_power_percent: float = 0
-    _physical_critical_power_gain: int = 0
-    _physical_critical_power: float = 0
-    _magical_critical_power_base: int = 0
-    _magical_critical_power_percent: float = 0
-    _magical_critical_power_gain: int = 0
-    _magical_critical_power: float = 0
-
     _physical_overcome_base: int = 0
     _base_physical_overcome: int = 0
     _final_physical_overcome: int = 0
@@ -78,36 +146,8 @@ class Attribute:
     _extra_magical_overcome: int = 0
     _magical_overcome: float = 0
 
-    _weapon_damage_rand: int = 0
-    _weapon_damage_base: int = 0
-    _weapon_damage_gain: int = 0
-    _weapon_damage: int = 0
-
-    _all_shield_ignore: float = 0
-
-    _physical_shield_ignore: float = 0
-    _magical_shield_ignore: float = 0
-
-    _all_damage_addition: float = 0
-    _physical_damage_addition: float = 0
-    _magical_damage_addition: float = 0
-
-    _pve_addition: float = 0
-
-    target_level: int = 124
-
-    _physical_shield_gain: int = 0
-    _magical_shield_gain: int = 0
-
-    _all_vulnerable: float = 0
-    _physical_vulnerable: float = 0
-    _magical_vulnerable: float = 0
-
-    def __init__(self):
-        self.all_major_base += MAJOR_BASE
-
     """ Major Attr Function"""
-
+    
     @property
     def all_major_base(self):
         return self._all_major_base
@@ -249,43 +289,6 @@ class Attribute:
         self._spunk = spunk
         self.base_magical_attack_power = self.magical_attack_power_base + spunk * SPUNK_TO_ATTACK_POWER
         self.base_magical_overcome = self.magical_overcome_base + spunk * SPUNK_TO_OVERCOME
-
-    """ Minor Function """
-
-    @property
-    def strain_base(self):
-        return self._strain_base
-
-    @strain_base.setter
-    def strain_base(self, strain_base):
-        self._strain_base = strain_base
-        self.strain_percent = strain_base / STRAIN_SCALE
-
-    @property
-    def strain_percent(self):
-        return self._strain_percent
-
-    @strain_percent.setter
-    def strain_percent(self, strain_percent):
-        self._strain_percent = strain_percent
-        self.strain = strain_percent + self.strain_gain
-
-    @property
-    def strain_gain(self):
-        return self._strain_gain / BINARY_SCALE
-
-    @strain_gain.setter
-    def strain_gain(self, strain_gain):
-        self._strain_gain = strain_gain
-        self.strain = self.strain_percent + self.strain_gain
-
-    @property
-    def strain(self):
-        return self._strain
-
-    @strain.setter
-    def strain(self, strain):
-        self._strain = strain
 
     """ Attack Power Function """
 
@@ -539,104 +542,6 @@ class Attribute:
     def magical_critical_strike(self, magical_critical_strike):
         self._magical_critical_strike = magical_critical_strike
 
-    """ Critical Power Function"""
-
-    @property
-    def critical_power(self):
-        raise NotImplementedError
-
-    @property
-    def all_critical_power_base(self):
-        return self._all_critical_power_base
-
-    @all_critical_power_base.setter
-    def all_critical_power_base(self, all_critical_power_base):
-        residual = all_critical_power_base - self._all_critical_power_base
-        self.physical_critical_power_base += residual
-        self.magical_critical_power_base += residual
-        self._all_critical_power_base = all_critical_power_base
-
-    @property
-    def all_critical_power_gain(self):
-        return self._all_critical_power_gain
-
-    @all_critical_power_gain.setter
-    def all_critical_power_gain(self, all_critical_power_gain):
-        residual = all_critical_power_gain - self._all_critical_power_gain
-        self.physical_critical_power_gain += residual
-        self.magical_critical_power_gain += residual
-        self._all_critical_power_gain = all_critical_power_gain
-
-    @property
-    def physical_critical_power_base(self):
-        return self._physical_critical_power_base
-
-    @physical_critical_power_base.setter
-    def physical_critical_power_base(self, physical_critical_power_base):
-        self._physical_critical_power_base = physical_critical_power_base
-        self.physical_critical_power_percent = self.physical_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def physical_critical_power_percent(self):
-        return CRITICAL_POWER_BASE + self._physical_critical_power_percent
-
-    @physical_critical_power_percent.setter
-    def physical_critical_power_percent(self, physical_critical_power_percent):
-        self._physical_critical_power_percent = physical_critical_power_percent
-        self.physical_critical_power = self.physical_critical_power_percent + self.physical_critical_power_gain
-
-    @property
-    def physical_critical_power_gain(self):
-        return self._physical_critical_power_gain / BINARY_SCALE
-
-    @physical_critical_power_gain.setter
-    def physical_critical_power_gain(self, physical_critical_power_gain):
-        self._physical_critical_power_gain = physical_critical_power_gain
-        self.physical_critical_power = self.physical_critical_power_percent + self.physical_critical_power_gain
-
-    @property
-    def physical_critical_power(self):
-        return self._physical_critical_power
-
-    @physical_critical_power.setter
-    def physical_critical_power(self, physical_critical_power):
-        self._physical_critical_power = physical_critical_power
-
-    @property
-    def magical_critical_power_base(self):
-        return self._magical_critical_power_base
-
-    @magical_critical_power_base.setter
-    def magical_critical_power_base(self, magical_critical_power_base):
-        self._magical_critical_power_base = magical_critical_power_base
-        self.magical_critical_power_percent = self.magical_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def magical_critical_power_percent(self):
-        return CRITICAL_POWER_BASE + self._magical_critical_power_percent
-
-    @magical_critical_power_percent.setter
-    def magical_critical_power_percent(self, magical_critical_power_percent):
-        self._magical_critical_power_percent = magical_critical_power_percent
-        self.magical_critical_power = self.magical_critical_power_percent + self.magical_critical_power_gain
-
-    @property
-    def magical_critical_power_gain(self):
-        return self._magical_critical_power_gain / BINARY_SCALE
-
-    @magical_critical_power_gain.setter
-    def magical_critical_power_gain(self, magical_critical_power_gain):
-        self._magical_critical_power_gain = magical_critical_power_gain
-        self.magical_critical_power = self.magical_critical_power_percent + self.magical_critical_power_gain
-
-    @property
-    def magical_critical_power(self):
-        return self._magical_critical_power
-
-    @magical_critical_power.setter
-    def magical_critical_power(self, magical_critical_power):
-        self._magical_critical_power = magical_critical_power
-
     """ Overcome Function"""
 
     @property
@@ -761,6 +666,178 @@ class Attribute:
     def magical_overcome(self, magical_overcome):
         self._magical_overcome = magical_overcome
 
+
+class Minor:
+    surplus: int = 0
+
+    _strain_base: int = 0
+    _strain_percent: float = 0
+    _strain_gain: int = 0
+    _strain: float = 0
+
+    _all_critical_power_base: int = 0
+    _all_critical_power_gain: int = 0
+
+    _physical_critical_power_base: int = 0
+    _physical_critical_power_percent: float = 0
+    _physical_critical_power_gain: int = 0
+    _physical_critical_power: float = 0
+    _magical_critical_power_base: int = 0
+    _magical_critical_power_percent: float = 0
+    _magical_critical_power_gain: int = 0
+    _magical_critical_power: float = 0
+
+    _weapon_damage_rand: int = 0
+    _weapon_damage_base: int = 0
+    _weapon_damage_gain: int = 0
+    _weapon_damage: int = 0
+
+    _all_shield_ignore: float = 0
+
+    _physical_shield_ignore: float = 0
+    _magical_shield_ignore: float = 0
+
+    _all_damage_addition: float = 0
+    _physical_damage_addition: float = 0
+    _magical_damage_addition: float = 0
+
+    _pve_addition: float = 0
+
+    """ Minor Function """
+
+    @property
+    def strain_base(self):
+        return self._strain_base
+
+    @strain_base.setter
+    def strain_base(self, strain_base):
+        self._strain_base = strain_base
+        self.strain_percent = strain_base / STRAIN_SCALE
+
+    @property
+    def strain_percent(self):
+        return self._strain_percent
+
+    @strain_percent.setter
+    def strain_percent(self, strain_percent):
+        self._strain_percent = strain_percent
+        self.strain = strain_percent + self.strain_gain
+
+    @property
+    def strain_gain(self):
+        return self._strain_gain / BINARY_SCALE
+
+    @strain_gain.setter
+    def strain_gain(self, strain_gain):
+        self._strain_gain = strain_gain
+        self.strain = self.strain_percent + self.strain_gain
+
+    @property
+    def strain(self):
+        return self._strain
+
+    @strain.setter
+    def strain(self, strain):
+        self._strain = strain
+
+    """ Critical Power Function"""
+
+    @property
+    def critical_power(self):
+        raise NotImplementedError
+
+    @property
+    def all_critical_power_base(self):
+        return self._all_critical_power_base
+
+    @all_critical_power_base.setter
+    def all_critical_power_base(self, all_critical_power_base):
+        residual = all_critical_power_base - self._all_critical_power_base
+        self.physical_critical_power_base += residual
+        self.magical_critical_power_base += residual
+        self._all_critical_power_base = all_critical_power_base
+
+    @property
+    def all_critical_power_gain(self):
+        return self._all_critical_power_gain
+
+    @all_critical_power_gain.setter
+    def all_critical_power_gain(self, all_critical_power_gain):
+        residual = all_critical_power_gain - self._all_critical_power_gain
+        self.physical_critical_power_gain += residual
+        self.magical_critical_power_gain += residual
+        self._all_critical_power_gain = all_critical_power_gain
+
+    @property
+    def physical_critical_power_base(self):
+        return self._physical_critical_power_base
+
+    @physical_critical_power_base.setter
+    def physical_critical_power_base(self, physical_critical_power_base):
+        self._physical_critical_power_base = physical_critical_power_base
+        self.physical_critical_power_percent = self.physical_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
+    def physical_critical_power_percent(self):
+        return CRITICAL_POWER_BASE + self._physical_critical_power_percent
+
+    @physical_critical_power_percent.setter
+    def physical_critical_power_percent(self, physical_critical_power_percent):
+        self._physical_critical_power_percent = physical_critical_power_percent
+        self.physical_critical_power = self.physical_critical_power_percent + self.physical_critical_power_gain
+
+    @property
+    def physical_critical_power_gain(self):
+        return self._physical_critical_power_gain / BINARY_SCALE
+
+    @physical_critical_power_gain.setter
+    def physical_critical_power_gain(self, physical_critical_power_gain):
+        self._physical_critical_power_gain = physical_critical_power_gain
+        self.physical_critical_power = self.physical_critical_power_percent + self.physical_critical_power_gain
+
+    @property
+    def physical_critical_power(self):
+        return self._physical_critical_power
+
+    @physical_critical_power.setter
+    def physical_critical_power(self, physical_critical_power):
+        self._physical_critical_power = physical_critical_power
+
+    @property
+    def magical_critical_power_base(self):
+        return self._magical_critical_power_base
+
+    @magical_critical_power_base.setter
+    def magical_critical_power_base(self, magical_critical_power_base):
+        self._magical_critical_power_base = magical_critical_power_base
+        self.magical_critical_power_percent = self.magical_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
+    def magical_critical_power_percent(self):
+        return CRITICAL_POWER_BASE + self._magical_critical_power_percent
+
+    @magical_critical_power_percent.setter
+    def magical_critical_power_percent(self, magical_critical_power_percent):
+        self._magical_critical_power_percent = magical_critical_power_percent
+        self.magical_critical_power = self.magical_critical_power_percent + self.magical_critical_power_gain
+
+    @property
+    def magical_critical_power_gain(self):
+        return self._magical_critical_power_gain / BINARY_SCALE
+
+    @magical_critical_power_gain.setter
+    def magical_critical_power_gain(self, magical_critical_power_gain):
+        self._magical_critical_power_gain = magical_critical_power_gain
+        self.magical_critical_power = self.magical_critical_power_percent + self.magical_critical_power_gain
+
+    @property
+    def magical_critical_power(self):
+        return self._magical_critical_power
+
+    @magical_critical_power.setter
+    def magical_critical_power(self, magical_critical_power):
+        self._magical_critical_power = magical_critical_power
+
     """ Weapon Damage Function """
 
     @property
@@ -870,73 +947,90 @@ class Attribute:
     def pve_addition(self, pve_addition):
         self._pve_addition = pve_addition
 
-    @property
-    def shield_base(self):
-        raise NotImplementedError
 
-    @property
-    def physical_shield_base(self):
-        return SHIELD_BASE_MAP[self.target_level]
+class Attribute(Major, Minor, Target):
+    level: int = 120
+    grad_attrs: dict = None
 
-    @property
-    def magical_shield_base(self):
-        return SHIELD_BASE_MAP[self.target_level]
-
-    @property
-    def shield_gain(self):
-        raise NotImplementedError
-
-    @property
-    def physical_shield_gain(self):
-        return self._physical_shield_gain / BINARY_SCALE
-
-    @physical_shield_gain.setter
-    def physical_shield_gain(self, physical_shield_gain):
-        self._physical_shield_gain = physical_shield_gain
-
-    @property
-    def magical_shield_gain(self):
-        return self._magical_shield_gain / BINARY_SCALE
-
-    @magical_shield_gain.setter
-    def magical_shield_gain(self, magical_shield_gain):
-        self._magical_shield_gain = magical_shield_gain
-
-    @property
-    def vulnerable(self):
-        raise NotImplementedError
-
-    @property
-    def all_vulnerable(self):
-        return self._all_vulnerable
-
-    @all_vulnerable.setter
-    def all_vulnerable(self, all_vulnerable):
-        residual = all_vulnerable - self._all_vulnerable
-        self.physical_vulnerable += residual
-        self.magical_vulnerable += residual
-        self._all_vulnerable = all_vulnerable
-
-    @property
-    def physical_vulnerable(self):
-        return self._physical_vulnerable / BINARY_SCALE
-
-    @physical_vulnerable.setter
-    def physical_vulnerable(self, physical_vulnerable):
-        self._physical_vulnerable = physical_vulnerable
-
-    @property
-    def magical_vulnerable(self):
-        return self._magical_vulnerable / BINARY_SCALE
-
-    @magical_vulnerable.setter
-    def magical_vulnerable(self, magical_vulnerable):
-        self._magical_vulnerable = magical_vulnerable
+    def __init__(self):
+        self.all_major_base += MAJOR_BASE
 
     @property
     def level_reduction(self):
         return LEVEL_REDUCTION * (self.target_level - self.level)
 
+
+class PhysicalAttribute(Attribute):
     @property
-    def shield_constant(self):
-        return SHIELD_SCALE * (LEVEL_SCALE * self.level - LEVEL_CONSTANT)
+    def attack_power(self):
+        return self.physical_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.physical_critical_strike
+
+    @property
+    def critical_power(self):
+        return self.physical_critical_power
+
+    @property
+    def overcome(self):
+        return self.physical_overcome
+
+    @property
+    def shield_ignore(self):
+        return self.physical_shield_ignore
+
+    @property
+    def damage_addition(self):
+        return self.physical_damage_addition
+
+    @property
+    def shield_base(self):
+        return self.physical_shield_base
+
+    @property
+    def shield_gain(self):
+        return self.physical_shield_gain
+
+    @property
+    def vulnerable(self):
+        return self.physical_vulnerable
+
+
+class MagicalAttribute(Attribute):
+    @property
+    def attack_power(self):
+        return self.magical_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.magical_critical_strike
+
+    @property
+    def critical_power(self):
+        return self.magical_critical_power
+
+    @property
+    def overcome(self):
+        return self.magical_overcome
+
+    @property
+    def shield_ignore(self):
+        return self.magical_shield_ignore
+
+    @property
+    def damage_addition(self):
+        return self.magical_damage_addition
+
+    @property
+    def shield_base(self):
+        return self.magical_shield_base
+
+    @property
+    def shield_gain(self):
+        return self.magical_shield_gain
+
+    @property
+    def vulnerable(self):
+        return self.magical_vulnerable

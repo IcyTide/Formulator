@@ -1,8 +1,8 @@
 from base.calculator import analyze_details
 from parse import Parser
 from schools.first.attribute import BeiAoJue
-from schools.first.buffs import buffs
-from schools.first.skills import skills
+from schools.first.buffs import BUFFS
+from schools.first.skills import SKILLS
 
 
 if __name__ == '__main__':
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     attribute.physical_overcome_base += 24303
     attribute.physical_critical_power_base += 7905
 
-    parser = Parser(skills, buffs)
-    summary = parser([line.split("\t") for line in open("logs.jcl")])
+    parser = Parser(SKILLS, BUFFS)
+    parser("logs.jcl")
     analyze_details(parser, attribute)
-    print(parser.summary)
+    print(parser.records)

@@ -1,6 +1,6 @@
 from base.buff import Buff
 
-buffs = {
+BUFFS = {
     18384: {
         "buff_name": "含风",
         "gain_attributes": {
@@ -27,7 +27,7 @@ buffs = {
     }
 }
 
-for buff_id, detail in buffs.items():
-    buffs[buff_id] = Buff(buff_id, detail.pop("buff_name"))
+for buff_id, detail in BUFFS.items():
+    BUFFS[buff_id] = Buff(buff_id, detail.pop("buff_name"))
     for attr, value in detail.items():
-        setattr(buffs[buff_id], attr, value)
+        setattr(BUFFS[buff_id], attr, value)

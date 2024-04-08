@@ -70,7 +70,10 @@ class Skill:
             cof = self._surplus_cof[self.skill_level - 1]
         else:
             cof = self._surplus_cof
-        return ((cof + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE * SURPLUS_SCALE
+        if cof:
+            return ((cof + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE * SURPLUS_SCALE
+        else:
+            return cof
 
     @surplus_cof.setter
     def surplus_cof(self, surplus_cof):
