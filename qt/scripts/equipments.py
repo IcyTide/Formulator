@@ -1,0 +1,327 @@
+from collections import defaultdict
+from typing import Dict, List
+
+from qt.components.equipments import EquipmentsWidget
+from qt.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
+from qt.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
+from qt.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
+
+
+class Enchant:
+    name: str
+    attr: Dict[str, int]
+
+    def clear(self):
+        self.name = ""
+        self.attr = {}
+
+
+class Stone:
+    name: str
+    level: int
+    attr: Dict[str, int]
+
+    def clear(self):
+        self.name = ""
+        self.attr = {}
+
+
+class Equipment:
+    name: str
+    base: Dict[str, int]
+    magic: Dict[str, int]
+    max_strength: int
+    embed: Dict[str, int]
+    gains: List[int]
+    special_enchant: List[int | List[int]]
+    special_enchant_gain: List[int | List[int]]
+    set_id: str
+    set_attr: Dict[int, Dict[str, int]]
+    set_gain: Dict[int, List[int]]
+
+    def __init__(self, label):
+        self.label = label
+        self.position = POSITION_MAP[label]
+
+        self.max_strength = MAX_STRENGTH_LEVEL
+        self.strength_level = MAX_STRENGTH_LEVEL
+        self.embed_levels = [MAX_EMBED_LEVEL for _ in range(EMBED_POSITIONS[self.position])]
+
+        self.enchant = Enchant()
+        if self.position in STONES_POSITIONS:
+            self.stone = Stone()
+        else:
+            self.stone = None
+
+    def clear(self):
+        self.name = ""
+        self.base = {}
+        self.magic = {}
+        self.embed = {}
+        self.gains = []
+        self.special_enchant_gain = []
+        self.set_id = ""
+        self.set_attr = {}
+        self.set_gain = {}
+
+    @property
+    def base_attr(self) -> Dict[str, int]:
+        return self.base
+
+    @property
+    def magic_attr(self) -> Dict[str, int]:
+        return self.magic
+
+    @property
+    def strength_attr(self) -> Dict[str, int]:
+        if self.strength_level:
+            return {k: round(STRENGTH_COF(self.strength_level) * v) for k, v in self.magic.items()}
+        else:
+            return {}
+
+    @property
+    def embed_attr(self) -> Dict[str, int]:
+        return {
+            k: int(EMBED_COF(self.embed_levels[i]) * self.embed[k])
+            for i, k in enumerate(self.embed) if self.embed_levels[i]
+        }
+
+    @property
+    def base_attr_text(self):
+        return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.base_attr.items()])
+
+    @property
+    def magic_attr_text(self):
+        if strength_attr := self.strength_attr:
+            return "\n".join([
+                f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}(+{strength_attr[k]})" for k, v in self.magic_attr.items()
+            ])
+        else:
+            return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.magic_attr.items()])
+
+    @property
+    def embed_attr_text(self):
+        return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.embed_attr.items()])
+
+
+class Equipments:
+    def __init__(self):
+        self.equipments = {label: Equipment(label) for label in POSITION_MAP}
+
+    def __getitem__(self, item) -> Equipment:
+        return self.equipments[item]
+    
+    @property
+    def attrs(self):
+        final_attrs = defaultdict(int)
+        set_count = {}
+        set_effect = {}
+        for equipment in self.equipments.values():
+            if not equipment.name:
+                continue
+            for attr, value in equipment.base_attr.items():
+                final_attrs[attr] += value
+            for attr, value in equipment.magic_attr.items():
+                final_attrs[attr] += value
+            for attr, value in equipment.strength_attr.items():
+                final_attrs[attr] += value
+            for attr, value in equipment.embed_attr.items():
+                final_attrs[attr] += value
+            for attr, value in equipment.enchant.attr.items():
+                final_attrs[attr] += value
+            if equipment.stone:
+                for attr, value in equipment.stone.attr.items():
+                    final_attrs[attr] += value
+
+            if equipment.set_id not in set_count:
+                set_count[equipment.set_id] = 0
+                set_effect[equipment.set_id] = equipment.set_attr
+            set_count[equipment.set_id] += 1
+
+        for set_id, set_attr in set_effect.items():
+            for count, attrs in set_attr.items():
+                if int(count) > set_count[set_id]:
+                    break
+                for attr, value in attrs.items():
+                    final_attrs[attr] += value
+
+        return final_attrs
+
+    @property
+    def gains(self):
+        final_gains = []
+        set_count = {}
+        set_effect = {}
+        for equipment in self.equipments.values():
+            if not equipment.name:
+                continue
+            final_gains += [gain for gain in equipment.gains + equipment.special_enchant]
+            if equipment.set_id not in set_count:
+                set_count[equipment.set_id] = 0
+                set_effect[equipment.set_id] = equipment.set_gain
+            set_count[equipment.set_id] += 1
+
+        for set_id, set_gain in set_effect.items():
+            for count, gains in set_gain.items():
+                if int(count) > set_count[set_id]:
+                    break
+                final_gains += gains
+
+        return [gain for gain in set(final_gains)]
+
+
+def equipments_script(equipments_widget: EquipmentsWidget):
+    equipments = Equipments()
+
+    def equipment_update(label):
+        widget = equipments_widget[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            equipment_name = widget.equipment.combo_box.currentText()
+
+            if not equipment_name:
+                equipment.clear()
+                widget.detail_widget.hide()
+                widget.output_widget.hide()
+                return
+
+            if equipment.strength_level == equipment.max_strength:
+                max_strength = True
+            else:
+                max_strength = False
+
+            equipment.name = equipment_name
+            equipment_detail = widget.equipment_json[equipment_name]
+            for k, v in equipment_detail.items():
+                setattr(equipment, k, v)
+
+            if equipment.base:
+                widget.base_attr.set_text(equipment.base_attr_text)
+                widget.base_attr.show()
+            else:
+                widget.base_attr.hide()
+
+            if max_strength:
+                equipment.strength_level = equipment.max_strength
+
+            widget.strength_level.set_items([str(i) for i in range(equipment.max_strength + 1)])
+            widget.strength_level.combo_box.setCurrentIndex(equipment.strength_level)
+
+            if equipment.embed:
+                for i, (attr, value) in enumerate(equipment.embed.items()):
+                    widget.embed_levels[i].set_label(f"镶嵌等级-{ATTR_TYPE_TRANSLATE[attr]}")
+                widget.embed_attr.set_text(equipment.embed_attr_text)
+                widget.embed_attr.show()
+            else:
+                widget.embed_attr.hide()
+
+            if equipment.special_enchant:
+                widget.special_enchant.set_text(str(equipment.special_enchant))
+
+            widget.detail_widget.show()
+            widget.output_widget.show()
+
+        return inner
+
+    def enchant_update(label):
+        widget = equipments_widget.equipments[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            enchant_name = widget.enchant.combo_box.currentText()
+            if enchant_name:
+                enchant_detail = widget.enchant_json[enchant_name]
+                equipment.enchant.name = enchant_name
+                for k, v in enchant_detail.items():
+                    setattr(equipment.enchant, k, v)
+            else:
+                equipment.enchant.clear()
+
+        return inner
+
+    def special_enchant_update(label):
+        widget = equipments_widget.equipments[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
+                equipment.special_enchant_gain = equipment.special_enchant
+            else:
+                equipment.special_enchant_gain = []
+
+        return inner
+
+    def strength_level_update(label):
+        widget = equipments_widget.equipments[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            equipment.strength_level = index
+            if magic_attr_text := equipment.magic_attr_text:
+                widget.magic_attr.text_browser.setText(magic_attr_text)
+                widget.magic_attr.show()
+            else:
+                widget.magic_attr.hide()
+
+        return inner
+
+    def embed_level_update(i, label):
+        widget = equipments_widget.equipments[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            equipment.embed_levels[i] = index
+            if embed_attr_text := equipment.embed_attr_text:
+                widget.embed_attr.text_browser.setText(embed_attr_text)
+                widget.embed_attr.show()
+            else:
+                widget.embed_attr.hide()
+
+        return inner
+
+    def stone_update(label):
+        widget = equipments_widget.equipments[label]
+        equipment = equipments[label]
+
+        def inner(index):
+            level = widget.stone_level.combo_box.currentText()
+
+            current = widget.stones_json
+            i = 0
+            while i < len(widget.stone_attrs):
+                attr = ATTR_TYPE_TRANSLATE_REVERSE.get(widget.stone_attrs[i].combo_box.currentText())
+                if attr in current:
+                    current = current[attr]
+                    i += 1
+                else:
+                    break
+            if level in current:
+                for k, v in current[level]:
+                    setattr(equipment.stone, k, v)
+            else:
+                widget.stone_attrs[i].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in current])
+
+            i += 1
+            while i < len(widget.stone_attrs):
+                widget.stone_attrs[i].set_items([""])
+                i += 1
+
+        return inner
+
+    for equipment_label, equipment_widget in equipments_widget.items():
+
+        equipment_widget.equipment.combo_box.currentIndexChanged.connect(equipment_update(equipment_label))
+        if equipment_widget.special_enchant:
+            equipment_widget.special_enchant.radio_button.clicked.connect(special_enchant_update(equipment_label))
+        if equipment_widget.enchant:
+            equipment_widget.enchant.combo_box.currentIndexChanged.connect(enchant_update(equipment_label))
+        equipment_widget.strength_level.combo_box.currentIndexChanged.connect(strength_level_update(equipment_label))
+        for n, embed_widget in enumerate(equipment_widget.embed_levels):
+            embed_widget.combo_box.currentIndexChanged.connect(embed_level_update(n, equipment_label))
+        if equipment_widget.stones_json:
+            equipment_widget.stone_level.combo_box.currentIndexChanged.connect(stone_update(equipment_label))
+            for stone_attr in equipment_widget.stone_attrs:
+                stone_attr.combo_box.currentIndexChanged.connect(stone_update(equipment_label))
+
+    return equipments

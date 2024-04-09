@@ -15,14 +15,14 @@ class Buff:
 
     stack: int = 1
 
-    gain_skills: Dict[str, ATTR_DICT] = None
+    gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None
 
     def __post_init__(self):
         self.gain_skills = {}
         self.gain_attributes = {}
 
-    def __radd__(self, other: Tuple[Attribute, Dict[str, Skill]]):
+    def __radd__(self, other: Tuple[Attribute, Dict[int, Skill]]):
         attribute, skills = other
         for skill_id, gain in self.gain_skills.items():
             skill = skills[skill_id]
@@ -32,7 +32,7 @@ class Buff:
             setattr(attribute, attr, getattr(attribute, attr) + value)
         return attribute, skills
 
-    def __rsub__(self, other: Tuple[Attribute, Dict[str, Skill]]):
+    def __rsub__(self, other: Tuple[Attribute, Dict[int, Skill]]):
         attribute, skills = other
         for skill_id, gain in self.gain_skills.items():
             skill = skills[skill_id]
