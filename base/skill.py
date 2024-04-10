@@ -1,6 +1,6 @@
 from base.attribute import Attribute
 from base.constant import *
-from base.damage import *
+from utils.damage import *
 
 from typing import List, Union
 from dataclasses import dataclass
@@ -30,6 +30,10 @@ class Skill:
     _skill_shield_gain: Union[List[int], int] = 0
     _skill_critical_strike: int = 0
     _skill_critical_power: int = 0
+
+    @property
+    def display_name(self):
+        return f"{self.skill_name}/{self.skill_id}-{self.skill_level}"
 
     @property
     def damage_base(self):
@@ -154,7 +158,7 @@ class Skill:
 
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 
-        return damage, critical_damage, expected_damage
+        return damage, critical_strike, critical_damage, expected_damage
     
     
 class PhysicalDamage(Skill):

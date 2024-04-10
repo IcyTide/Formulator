@@ -4,7 +4,9 @@ from PySide6.QtWidgets import QTabWidget, QFileDialog, QWidget
 
 from base.buff import Buff
 from base.skill import Skill
+from qt.components.dashboard import DashboardWidget
 from qt.components.equipments import EquipmentsWidget
+from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from utils.lua import parse
 # from qt.components.equipments import EquipmentsWidget
@@ -21,11 +23,12 @@ from qt.constant import School, SUPPORT_SCHOOL, MAX_RECIPES, MAX_STONE_LEVEL
 
 
 class Parser:
-    records: dict
+    records: list
     status: dict
 
     start_time: list
     end_time: list
+    record_index: Dict[str, int]
 
     fight_flag: bool
 
@@ -33,14 +36,19 @@ class Parser:
 
     school: School | None
 
+    def duration(self, i):
+        return round((self.end_time[i] - self.start_time[i]) / 1000, 3)
+
     def reset(self):
         self.fight_flag = False
 
-        self.records = {}
+        self.records = []
         self.status = {}
 
         self.start_time = []
         self.end_time = []
+
+        self.record_index = {}
 
         self.school = None
 
@@ -55,7 +63,7 @@ class Parser:
     def parse_time(self, detail, timestamp):
         if detail[1]:
             self.start_time.append(int(timestamp))
-            self.records[self.start_time[-1]] = {}
+            self.records.append({})
             self.fight_flag = True
         else:
             self.end_time.append(int(timestamp))
@@ -75,7 +83,7 @@ class Parser:
         if skill[0] not in self.school.skills:
             return
 
-        current_record = self.records[self.start_time[-1]]
+        current_record = self.records[len(self.start_time) - 1]
         if skill not in current_record:
             current_record[skill] = {}
         status = tuple(
@@ -102,26 +110,35 @@ class Parser:
             elif row[4] == "21" and self.fight_flag:
                 self.parse_skill(parse(row[-1]), row[3])
 
+        self.record_index = {
+            f"{i + 1}:{round((end_time - self.start_time[i]) / 1000, 3)}": i for i, end_time in enumerate(self.end_time)
+        }
 
-def top_script(top_widget: TopWidget, config_widget: QWidget,
-               equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget,
+
+def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: DashboardWidget,
+               equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
                ):
-               # equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
-               # consumables_widget: ConsumablesWidget, bonuses_widget: BonusesWidget,
-               # combat_widget: CombatWidget):
+    # equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
+    # consumables_widget: ConsumablesWidget, bonuses_widget: BonusesWidget,
+    # combat_widget: CombatWidget):
     parser = Parser()
 
     def upload_logs():
         file_name = QFileDialog(top_widget, "Choose File").getOpenFileName()
         parser(file_name[0])
+        school = parser.school
+        """ Update dashboard """
+        record_index = list(parser.record_index)
+        dashboard_widget.fight_select.set_items(record_index)
+        dashboard_widget.duration.set_value(parser.duration(parser.record_index[record_index[0]]))
 
         """ Update equipment options """
         for equipment_widget in equipments_widget.values():
             choices = [""]
             for name, detail in equipment_widget.equipment_json.items():
-                if detail['kind'] not in (parser.school.kind, parser.school.major):
+                if detail['kind'] not in (school.kind, school.major):
                     continue
-                if detail['school'] not in ("精简", "通用", parser.school.school):
+                if detail['school'] not in ("精简", "通用", school.school):
                     continue
                 choices.append(name)
 
@@ -132,10 +149,23 @@ def top_script(top_widget: TopWidget, config_widget: QWidget,
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
-            talents = parser.school.talents[i]
-            default_index = list(talents).index(parser.select_talents[i]) + 1
-            talent_widget.set_items([""] + list(talents.values()))
-            talent_widget.combo_box.setCurrentIndex(default_index)
+            talents = list(school.talent_gains[i])
+            default_index = talents.index(parser.select_talents[i]) + 1
+            talent_widget.set_items([""] + [school.talent_decoder[talent] for talent in talents],
+                                    default_index=default_index)
+
+        """ Update recipe options """
+        for recipe_widget in recipes_widget.values():
+            recipe_widget.list.clear()
+            recipe_widget.hide()
+
+        for i, (skill, recipes) in enumerate(school.recipes.items()):
+            recipes_widget[i].set_label(skill)
+            recipes_widget[i].set_items(recipes)
+            for n in range(MAX_RECIPES):
+                recipes_widget[i].list.item(n).setSelected(True)
+            recipes_widget[i].show()
+
         config_widget.show()
 
     top_widget.upload_button.clicked.connect(upload_logs)

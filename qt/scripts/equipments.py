@@ -11,6 +11,9 @@ class Enchant:
     name: str
     attr: Dict[str, int]
 
+    def __init__(self):
+        self.clear()
+
     def clear(self):
         self.name = ""
         self.attr = {}
@@ -20,6 +23,9 @@ class Stone:
     name: str
     level: int
     attr: Dict[str, int]
+
+    def __init__(self):
+        self.clear()
 
     def clear(self):
         self.name = ""
@@ -40,6 +46,8 @@ class Equipment:
     set_gain: Dict[int, List[int]]
 
     def __init__(self, label):
+        self.clear()
+
         self.label = label
         self.position = POSITION_MAP[label]
 
@@ -87,21 +95,19 @@ class Equipment:
         }
 
     @property
-    def base_attr_text(self):
-        return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.base_attr.items()])
+    def base_attr_content(self):
+        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.base_attr.items()]
 
     @property
-    def magic_attr_text(self):
+    def magic_attr_content(self):
         if strength_attr := self.strength_attr:
-            return "\n".join([
-                f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}(+{strength_attr[k]})" for k, v in self.magic_attr.items()
-            ])
+            return [[ATTR_TYPE_TRANSLATE[k], f"{v}(+{strength_attr[k]})"] for k, v in self.magic_attr.items()]
         else:
-            return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.magic_attr.items()])
+            return [[ATTR_TYPE_TRANSLATE[k], f"{v}"] for k, v in self.magic_attr.items()]
 
     @property
-    def embed_attr_text(self):
-        return "\n".join([f"{ATTR_TYPE_TRANSLATE[k]}:\t{v}" for k, v in self.embed_attr.items()])
+    def embed_attr_content(self):
+        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.embed_attr.items()]
 
 
 class Equipments:
@@ -177,8 +183,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         widget = equipments_widget[label]
         equipment = equipments[label]
 
-        def inner(index):
-            equipment_name = widget.equipment.combo_box.currentText()
+        def inner(equipment_name):
 
             if not equipment_name:
                 equipment.clear()
@@ -197,7 +202,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 setattr(equipment, k, v)
 
             if equipment.base:
-                widget.base_attr.set_text(equipment.base_attr_text)
+                widget.base_attr.set_content(equipment.base_attr_content)
                 widget.base_attr.show()
             else:
                 widget.base_attr.hide()
@@ -211,7 +216,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             if equipment.embed:
                 for i, (attr, value) in enumerate(equipment.embed.items()):
                     widget.embed_levels[i].set_label(f"镶嵌等级-{ATTR_TYPE_TRANSLATE[attr]}")
-                widget.embed_attr.set_text(equipment.embed_attr_text)
+                widget.embed_attr.set_content(equipment.embed_attr_content)
                 widget.embed_attr.show()
             else:
                 widget.embed_attr.hide()
@@ -228,8 +233,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         widget = equipments_widget.equipments[label]
         equipment = equipments[label]
 
-        def inner(index):
-            enchant_name = widget.enchant.combo_box.currentText()
+        def inner(enchant_name):
             if enchant_name:
                 enchant_detail = widget.enchant_json[enchant_name]
                 equipment.enchant.name = enchant_name
@@ -244,7 +248,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         widget = equipments_widget.equipments[label]
         equipment = equipments[label]
 
-        def inner(index):
+        def inner(_):
             if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
                 equipment.special_enchant_gain = equipment.special_enchant
             else:
@@ -258,8 +262,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
         def inner(index):
             equipment.strength_level = index
-            if magic_attr_text := equipment.magic_attr_text:
-                widget.magic_attr.text_browser.setText(magic_attr_text)
+            if magic_attr_content := equipment.magic_attr_content:
+                widget.magic_attr.set_content(magic_attr_content)
                 widget.magic_attr.show()
             else:
                 widget.magic_attr.hide()
@@ -272,8 +276,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
         def inner(index):
             equipment.embed_levels[i] = index
-            if embed_attr_text := equipment.embed_attr_text:
-                widget.embed_attr.text_browser.setText(embed_attr_text)
+            if embed_attr_content := equipment.embed_attr_content:
+                widget.embed_attr.set_content(embed_attr_content)
                 widget.embed_attr.show()
             else:
                 widget.embed_attr.hide()
@@ -284,7 +288,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         widget = equipments_widget.equipments[label]
         equipment = equipments[label]
 
-        def inner(index):
+        def inner(_):
             level = widget.stone_level.combo_box.currentText()
 
             current = widget.stones_json
@@ -297,10 +301,11 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 else:
                     break
             if level in current:
-                for k, v in current[level]:
+                for k, v in current[level].items():
                     setattr(equipment.stone, k, v)
             else:
                 widget.stone_attrs[i].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in current])
+                equipment.stone = {}
 
             i += 1
             while i < len(widget.stone_attrs):
@@ -311,11 +316,11 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
     for equipment_label, equipment_widget in equipments_widget.items():
 
-        equipment_widget.equipment.combo_box.currentIndexChanged.connect(equipment_update(equipment_label))
+        equipment_widget.equipment.combo_box.currentTextChanged.connect(equipment_update(equipment_label))
         if equipment_widget.special_enchant:
             equipment_widget.special_enchant.radio_button.clicked.connect(special_enchant_update(equipment_label))
         if equipment_widget.enchant:
-            equipment_widget.enchant.combo_box.currentIndexChanged.connect(enchant_update(equipment_label))
+            equipment_widget.enchant.combo_box.currentTextChanged.connect(enchant_update(equipment_label))
         equipment_widget.strength_level.combo_box.currentIndexChanged.connect(strength_level_update(equipment_label))
         for n, embed_widget in enumerate(equipment_widget.embed_levels):
             embed_widget.combo_box.currentIndexChanged.connect(embed_level_update(n, equipment_label))

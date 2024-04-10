@@ -1,4 +1,4 @@
-from base.calculator import analyze_details
+from utils.analyzer import analyze_details
 from qt.scripts.top import Parser
 from schools.first.attribute import BeiAoJue
 
@@ -17,5 +17,5 @@ if __name__ == '__main__':
 
     parser = Parser()
     parser("logs.jcl")
-    analyze_details(parser, attribute)
+    analyze_details(parser, attribute, parser.school)
     print(parser.records)

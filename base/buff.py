@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import Dict, List, Union, Tuple
+from typing import Dict, List, Union
 
 from base.attribute import Attribute
 from base.skill import Skill
@@ -9,11 +9,10 @@ ATTR_DICT = Dict[str, Union[List[int], int]]
 
 @dataclass
 class Buff:
-    buff_id: int
-    buff_name: str
+    buff_id: int = 0
+    buff_name: str = ""
     buff_level: int = 0
-
-    stack: int = 1
+    buff_stack: int = 0
 
     gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None
@@ -22,22 +21,29 @@ class Buff:
         self.gain_skills = {}
         self.gain_attributes = {}
 
-    def __radd__(self, other: Tuple[Attribute, Dict[int, Skill]]):
-        attribute, skills = other
-        for skill_id, gain in self.gain_skills.items():
-            skill = skills[skill_id]
-            for attr, value in gain.items():
-                setattr(skill, attr, getattr(skill, attr) + value)
-        for attr, value in self.gain_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + value)
-        return attribute, skills
+    @property
+    def display_name(self):
+        return f"{self.buff_name}/{self.buff_id}-{self.buff_level}-{self.buff_stack}"
 
-    def __rsub__(self, other: Tuple[Attribute, Dict[int, Skill]]):
-        attribute, skills = other
-        for skill_id, gain in self.gain_skills.items():
-            skill = skills[skill_id]
-            for attr, value in gain.items():
-                setattr(skill, attr, getattr(skill, attr) - value)
-        for attr, value in self.gain_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - value)
-        return attribute, skills
+    def __radd__(self, other: Union[Attribute, Dict[int, Skill]]):
+        if isinstance(other, Attribute):
+            for attr, value in self.gain_attributes.items():
+                setattr(other, attr, getattr(other, attr) + value * self.buff_stack)
+        else:
+            for skill_id, gain in self.gain_skills.items():
+                skill = other[skill_id]
+                for attr, value in gain.items():
+                    setattr(skill, attr, getattr(skill, attr) + value * self.buff_stack)
+        return other
+
+    def __rsub__(self, other: Union[Attribute, Dict[int, Skill]]):
+        if isinstance(other, Attribute):
+            for attr, value in self.gain_attributes.items():
+                setattr(other, attr, getattr(other, attr) - value * self.buff_stack)
+        else:
+            for skill_id, gain in self.gain_skills.items():
+                skill = other[skill_id]
+                for attr, value in gain.items():
+                    setattr(skill, attr, getattr(skill, attr) - value * self.buff_stack)
+        return other
+

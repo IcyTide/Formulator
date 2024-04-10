@@ -1,10 +1,13 @@
 import os
+
+
 from dataclasses import dataclass
-from typing import Type, Dict, List
+from typing import Type, List, Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
 from base.skill import Skill
+
 # from general.gains import equipment
 
 from schools import first
@@ -126,9 +129,24 @@ class School:
     kind: str
     attribute: Type[Attribute]
     formation: str
-    talents: List[Dict[int, Buff]]
+    talent_gains: List[Dict[int, Buff]]
+    talent_decoder: Dict[int, str]
+    talent_encoder: Dict[str, int]
+    recipe_gains: Dict[str, Dict[str, Buff]]
+    recipes: Dict[str, List[str]]
     skills: Dict[int, Skill]
     buffs: Dict[int, Buff]
+    display_attrs: Dict[str, str]
+
+    def attr_content(self, attribute):
+        content = []
+        for attr, name in self.display_attrs.items():
+            value = getattr(attribute, attr)
+            if isinstance(value, int):
+                content.append([name, f"{value}"])
+            else:
+                content.append([name, f"{round(value * 100, 2)}%"])
+        return content
 
 
 SUPPORT_SCHOOL = {
@@ -138,9 +156,30 @@ SUPPORT_SCHOOL = {
         kind="外功",
         attribute=first.BeiAoJue,
         formation="霜岚洗锋阵",
-        talents=first.TALENTS,
+        talent_gains=first.TALENT_GAINS,
+        talent_decoder=first.TALENT_DECODER,
+        talent_encoder=first.TALENT_ENCODER,
+        recipe_gains=first.RECIPE_GAINS,
+        recipes=first.RECIPES,
         skills=first.SKILLS,
-        buffs=first.BUFFS
+        buffs=first.BUFFS,
+        display_attrs={
+            "strength": "力道",
+            "base_physical_attack_power": "基础攻击",
+            "physical_attack_power": "攻击",
+            "base_physical_critical_strike": "会心等级",
+            "physical_critical_strike": "会心",
+            "physical_critical_power_base": "会效等级",
+            "physical_critical_power": "会效",
+            "base_physical_overcome": "基础破防",
+            "final_physical_overcome": "最终破防",
+            "physical_overcome": "破防",
+            "weapon_damage_base": "基础武器伤害",
+            "weapon_damage_rand": "浮动武器伤害",
+            "strain_base": "无双等级",
+            "strain": "无双",
+            "surplus": "破招",
+        }
     )
 }
 

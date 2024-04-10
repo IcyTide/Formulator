@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QAbstractItemView, QTableWidgetItem, \
-    QHeaderView, QSizePolicy
+    QHeaderView, QSizePolicy, QListWidgetItem, QSpacerItem
 from PySide6.QtWidgets import QComboBox, QRadioButton, QTextBrowser, QTextEdit, QSpinBox, QListWidget, QTableWidget
 from PySide6.QtCore import Qt
 
@@ -31,13 +31,16 @@ class TableWithLabel(LabelWidget):
         if headers:
             self.table.setColumnCount(len(headers))
             self.table.setHorizontalHeaderLabels(headers)
+        else:
+            self.table.horizontalHeader().setVisible(False)
 
         self.table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
+        self.table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.table.verticalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.table.verticalHeader().setVisible(False)
 
         layout.addWidget(self.label)
         layout.addWidget(self.table)
-
-        layout.addStretch()
 
     def set_content(self, content):
         self.table.setRowCount(len(content))
@@ -45,20 +48,22 @@ class TableWithLabel(LabelWidget):
         for i, row in enumerate(content):
             for j, e in enumerate(row):
                 self.table.setItem(i, j, QTableWidgetItem(e))
+
         self.table.resizeColumnsToContents()
 
 
 class ListWithLabel(LabelWidget):
-    def __init__(self, label, items: list = None):
+    def __init__(self, label, max_select: int = 4, items: list = None):
         super().__init__(label)
-        layout = QVBoxLayout()
-        self.setLayout(layout)
+        layout = QVBoxLayout(self)
+
+        self.max_select = max_select
 
         self.list = QListWidget()
         self.list.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
 
         if items:
-            self.list.addItems(items)
+            self.set_items(items)
         layout.addWidget(self.label)
         layout.addWidget(self.list)
 
@@ -86,11 +91,12 @@ class ComboWithLabel(LabelWidget):
 
         layout.addStretch()
 
-    def set_items(self, items):
+    def set_items(self, items, default_index=0):
         self.combo_box.blockSignals(True)
         self.combo_box.clear()
         self.combo_box.addItems(items)
         self.combo_box.blockSignals(False)
+        self.combo_box.setCurrentIndex(default_index)
 
 
 class RadioWithLabel(LabelWidget):
@@ -125,7 +131,7 @@ class SpinWithLabel(LabelWidget):
         if maximum:
             self.spin_box.setMaximum(maximum + 1)
         else:
-            self.spin_box.setMaximum(10e8)
+            self.spin_box.setMaximum(10 ** 8)
 
         if value:
             self.spin_box.setValue(value)
@@ -173,3 +179,6 @@ class LabelWithLabel(QWidget):
         layout.addWidget(self.text)
 
         layout.addStretch()
+
+    def set_text(self, text):
+        self.text.setText(text)

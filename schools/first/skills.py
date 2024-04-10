@@ -1,6 +1,8 @@
-from base.skill import PhysicalDamage, PhysicalDotDamage
+from typing import Dict
 
-SKILLS = {
+from base.skill import PhysicalDamage, PhysicalDotDamage, Skill
+
+SKILLS: Dict[int, Skill | dict] = {
     32823: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",
@@ -288,3 +290,6 @@ for skill_id, detail in SKILLS.items():
     SKILLS[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
     for attr, value in detail.items():
         setattr(SKILLS[skill_id], attr, value)
+
+SKILL_DECODER = {skill_id: skill.skill_name for skill_id, skill in SKILLS.items()}
+SKILL_ENCODER = {v: k for k, v in SKILL_DECODER.items()}

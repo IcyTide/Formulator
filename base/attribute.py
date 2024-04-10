@@ -147,7 +147,7 @@ class Major:
     _magical_overcome: float = 0
 
     """ Major Attr Function"""
-    
+
     @property
     def all_major_base(self):
         return self._all_major_base
@@ -779,7 +779,7 @@ class Minor:
 
     @property
     def physical_critical_power_percent(self):
-        return CRITICAL_POWER_BASE + self._physical_critical_power_percent
+        return BASE_CRITICAL_POWER + self._physical_critical_power_percent
 
     @physical_critical_power_percent.setter
     def physical_critical_power_percent(self, physical_critical_power_percent):
@@ -814,7 +814,7 @@ class Minor:
 
     @property
     def magical_critical_power_percent(self):
-        return CRITICAL_POWER_BASE + self._magical_critical_power_percent
+        return BASE_CRITICAL_POWER + self._magical_critical_power_percent
 
     @magical_critical_power_percent.setter
     def magical_critical_power_percent(self, magical_critical_power_percent):
@@ -954,6 +954,7 @@ class Attribute(Major, Minor, Target):
 
     def __init__(self):
         self.all_major_base += MAJOR_BASE
+        self.all_critical_power_base = 0  # init critical power attr
 
     @property
     def level_reduction(self):

@@ -2,9 +2,9 @@ from typing import Dict, List
 
 from base.buff import Buff
 
-TALENTS: List[Dict[int, dict | Buff]] = [
-    {16691: {}},
-    {16847: {}},
+TALENT_GAINS: List[Dict[int, dict | Buff]] = [
+    {16691: {"buff_name": "龙息"}},
+    {16847: {"buff_name": "归酣"}},
     {
         26904: {
             "buff_name": "冥鼔",
@@ -35,12 +35,12 @@ TALENTS: List[Dict[int, dict | Buff]] = [
             }
         }
     },
-    {16799: {}},
-    {25633: {}},
-    {32857: {}},
-    {17047: {}},
+    {16799: {"buff_name": "霜天"}},
+    {25633: {"buff_name": "含风"}},
+    {32857: {"buff_name": "见尘"}},
+    {17047: {"buff_name": "分疆"}},
     {
-        25258: {},
+        25258: {"buff_name": "掠关"},
         16728: {
             "buff_name": "星火",
             "gain_attributes": {
@@ -56,7 +56,7 @@ TALENTS: List[Dict[int, dict | Buff]] = [
             }
         }
     },
-    {16737: {}},
+    {16737: {"buff_name": "楚歌"}},
     {
         17056: {
             "buff_name": "绝期",
@@ -67,14 +67,19 @@ TALENTS: List[Dict[int, dict | Buff]] = [
             }
         }
     },
-    {16893: {}},
-    {21858: {}}
+    {16893: {"buff_name": "重烟"}},
+    {21858: {"buff_name": "降麒式"}}
 ]
 
-for talent in TALENTS:
+for talent in TALENT_GAINS:
     for talent_id, detail in talent.items():
         if not detail:
-            continue
-        talent[talent_id] = Buff(talent_id, detail.pop("buff_name"))
+            talent[talent_id] = Buff()
+        else:
+            talent[talent_id] = Buff(talent_id, detail.pop("buff_name"))
         for attr, value in detail.items():
             setattr(talent[talent_id], attr, value)
+
+
+TALENT_DECODER = {talent_id: talent.buff_name for talents in TALENT_GAINS for talent_id, talent in talents.items()}
+TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

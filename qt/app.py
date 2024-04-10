@@ -8,18 +8,17 @@ from qt.scripts.top import top_script
 from qt.components.equipments import EquipmentsWidget
 from qt.scripts.equipments import equipments_script
 from qt.components.talents import TalentsWidget
-# from qt.scripts.talents import talents_script
-# from qt.components.recipes import RecipesWidget
-# from qt.scripts.recipes import recipes_script
+from qt.scripts.talents import talents_script
+from qt.components.recipes import RecipesWidget
+from qt.scripts.recipes import recipes_script
 # from qt.components.consumables import ConsumablesWidget
 # from qt.scripts.consumables import consumables_script
 # from qt.components.bonuses import BonusesWidget
 # from qt.scripts.bonuses import bonuses_script
-# from qt.components.combat import CombatWidget
-# from qt.scripts.combat import combat_script
+from qt.components.dashboard import DashboardWidget
+from qt.scripts.dashboard import dashboard_script
 
-from PySide6.QtWidgets import QApplication, QMainWindow, QStyleFactory, QMessageBox, QVBoxLayout, QWidget, QTabWidget, \
-    QGridLayout
+from PySide6.QtWidgets import QApplication, QMainWindow, QStyleFactory, QVBoxLayout, QGridLayout, QWidget, QSizePolicy
 
 
 class MainWindow(QMainWindow):
@@ -30,9 +29,6 @@ class MainWindow(QMainWindow):
 
         icon = QIcon("qt/assets/icon.ico")
         self.setWindowIcon(icon)
-        self.message_box = QMessageBox()
-
-        self.message_box.setWindowIcon(icon)
 
         self.central_widget = QWidget(self)
         self.setCentralWidget(self.central_widget)
@@ -46,20 +42,31 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.top_widget)
         layout.addWidget(self.config_widget)
 
+        self.dashboard_widget = DashboardWidget()
+        config_layout.addWidget(self.dashboard_widget, 0, 1)
+        self.dashboard_widget.setSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding)
+
         self.equipments_widget = EquipmentsWidget()
         config_layout.addWidget(self.equipments_widget, 0, 0)
+        # self.equipments_widget.setSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding)
 
-        self.talent_widget = TalentsWidget()
-        config_layout.addWidget(self.talent_widget, 0, 1)
+        self.talents_widget = TalentsWidget()
+        config_layout.addWidget(self.talents_widget, 1, 0)
+        # self.talents_widget.setSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding)
 
-        parser = top_script(self.top_widget, self.config_widget, self.equipments_widget, self.talent_widget)
+        self.recipes_widget = RecipesWidget()
+        config_layout.addWidget(self.recipes_widget, 2, 0)
+        # self.recipes_widget.setSizePolicy(QSizePolicy.Policy.MinimumExpanding, QSizePolicy.Policy.MinimumExpanding)
+
+        parser = top_script(
+            self.top_widget, self.config_widget, self.dashboard_widget,
+            self.equipments_widget, self.talents_widget, self.recipes_widget
+        )
         equipments = equipments_script(self.equipments_widget)
+        talents = talents_script(self.talents_widget)
+        recipes = recipes_script(self.recipes_widget)
+        dashboard_script(parser, equipments, talents, recipes, self.dashboard_widget)
 
-        #
-        # config_layout.addWidget(self.equipments_widget, 1, 0)
-        #
-        # config_layout.addWidget(self.equipments_widget, 1, 1)
-        #
         # self.talents_widget = TalentsWidget()
         # self.tab_widget.addTab(self.talents_widget, "奇穴")
         #

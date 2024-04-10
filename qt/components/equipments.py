@@ -3,8 +3,8 @@ import os
 
 from qt.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR
 from qt.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, SPECIAL_ENCHANT_POSITIONS
-from qt.components import ComboWithLabel, RadioWithLabel, TextWithLabel
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
+from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget, QSizePolicy, QSpacerItem
 from PySide6.QtCore import Qt
 
 
@@ -72,14 +72,15 @@ class EquipmentWidget(QWidget):
                 stone_attr = ComboWithLabel(f"五彩石属性-{i + 1}")
                 self.stone_attrs.append(stone_attr)
                 detail_layout.addWidget(stone_attr, 2, i + 1)
+        self.detail_widget.hide()
 
-        self.base_attr = TextWithLabel("基本属性")
+        self.base_attr = TableWithLabel("基本属性", column_count=2)
         output_layout.addWidget(self.base_attr)
-        self.magic_attr = TextWithLabel("精炼属性")
+        self.magic_attr = TableWithLabel("精炼属性", column_count=2)
         output_layout.addWidget(self.magic_attr)
-        self.embed_attr = TextWithLabel("镶嵌属性")
+        self.embed_attr = TableWithLabel("镶嵌属性", column_count=2)
         output_layout.addWidget(self.embed_attr)
-        output_layout.addStretch()
+        self.output_widget.hide()
 
 
 class EquipmentsWidget(QTabWidget):
