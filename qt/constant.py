@@ -2,10 +2,11 @@ import os
 
 
 from dataclasses import dataclass
-from typing import Type, List, Dict
+from typing import Type, List, Dict, Union, Tuple
 
 from base.attribute import Attribute
 from base.buff import Buff
+from base.gain import Gain
 from base.skill import Skill
 
 # from general.gains import equipment
@@ -129,13 +130,15 @@ class School:
     kind: str
     attribute: Type[Attribute]
     formation: str
-    talent_gains: List[Dict[int, Buff]]
-    talent_decoder: Dict[int, str]
-    talent_encoder: Dict[str, int]
-    recipe_gains: Dict[str, Dict[str, Buff]]
-    recipes: Dict[str, List[str]]
     skills: Dict[int, Skill]
     buffs: Dict[int, Buff]
+    talent_gains: Dict[int, Gain]
+    talents: List[List[int]]
+    talent_decoder: Dict[int, str]
+    talent_encoder: Dict[str, int]
+    recipe_gains: Dict[str, Dict[str, Gain]]
+    recipes: Dict[str, List[str]]
+    gains: Dict[Union[Tuple[int, int], int], Gain]
     display_attrs: Dict[str, str]
 
     def attr_content(self, attribute):
@@ -156,13 +159,15 @@ SUPPORT_SCHOOL = {
         kind="外功",
         attribute=first.BeiAoJue,
         formation="霜岚洗锋阵",
+        skills=first.SKILLS,
+        buffs=first.BUFFS,
         talent_gains=first.TALENT_GAINS,
+        talents=first.TALENTS,
         talent_decoder=first.TALENT_DECODER,
         talent_encoder=first.TALENT_ENCODER,
         recipe_gains=first.RECIPE_GAINS,
         recipes=first.RECIPES,
-        skills=first.SKILLS,
-        buffs=first.BUFFS,
+        gains=first.GAINS,
         display_attrs={
             "strength": "力道",
             "base_physical_attack_power": "基础攻击",

@@ -80,6 +80,7 @@ class EquipmentWidget(QWidget):
         output_layout.addWidget(self.magic_attr)
         self.embed_attr = TableWithLabel("镶嵌属性", column_count=2)
         output_layout.addWidget(self.embed_attr)
+        output_layout.addStretch()
         self.output_widget.hide()
 
 

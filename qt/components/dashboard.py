@@ -4,11 +4,30 @@ from qt.components import ComboWithLabel, SpinWithLabel, TextWithLabel, LabelWit
 from base.constant import SHIELD_BASE_MAP
 
 
+class DetailWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QVBoxLayout(self)
+        self.details = {}
+        self.skill_combo = ComboWithLabel("选择技能")
+        layout.addWidget(self.skill_combo)
+        self.status_combo = ComboWithLabel("选择增益")
+        layout.addWidget(self.status_combo)
+        detail_table = QWidget()
+        detail_table_layout = QHBoxLayout(detail_table)
+        self.damage_detail = TableWithLabel("伤害细节", column_count=2)
+        detail_table_layout.addWidget(self.damage_detail)
+        self.gradient_detail = TableWithLabel("属性收益", column_count=2)
+        detail_table_layout.addWidget(self.gradient_detail)
+        layout.addWidget(detail_table)
+
+        layout.addStretch()
+
+
 class DashboardWidget(QWidget):
     def __init__(self):
         super().__init__()
-        layout = QVBoxLayout()
-        self.setLayout(layout)
+        layout = QVBoxLayout(self)
 
         top = QWidget()
         top_layout = QHBoxLayout(top)
@@ -43,23 +62,8 @@ class DashboardWidget(QWidget):
         self.final_attribute = TableWithLabel("增益后属性", column_count=2)
         attribute_layout.addWidget(self.final_attribute)
 
-        detail = QWidget()
-        detail_layout = QVBoxLayout(detail)
-        tab.addTab(detail, "伤害总结")
-        self.details = {}
-        self.skill_combo = ComboWithLabel("选择技能")
-        detail_layout.addWidget(self.skill_combo)
-        self.status_combo = ComboWithLabel("选择增益")
-        detail_layout.addWidget(self.status_combo)
-        detail_table = QWidget()
-        detail_table_layout = QHBoxLayout(detail_table)
-        self.damage_detail = TableWithLabel("伤害细节", column_count=2)
-        detail_table_layout.addWidget(self.damage_detail)
-        self.gradient_detail = TableWithLabel("属性收益", column_count=2)
-        detail_table_layout.addWidget(self.damage_detail)
-        detail_layout.addWidget(detail_table)
-
-        detail_layout.addStretch()
+        self.detail_widget = DetailWidget()
+        tab.addTab(self.detail_widget, "伤害总结")
 
         self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "命中/%", "会心/%", "伤害/%"])
 

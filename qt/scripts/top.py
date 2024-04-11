@@ -149,7 +149,7 @@ def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: 
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
-            talents = list(school.talent_gains[i])
+            talents = school.talents[i]
             default_index = talents.index(parser.select_talents[i]) + 1
             talent_widget.set_items([""] + [school.talent_decoder[talent] for talent in talents],
                                     default_index=default_index)

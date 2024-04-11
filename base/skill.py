@@ -26,10 +26,10 @@ class Skill:
     surplus_cof_gain: float = 0.
     weapon_damage_cof_gain: float = 0.
 
-    _skill_damage_addition: int = 0
+    skill_damage_addition: int = 0
     _skill_shield_gain: Union[List[int], int] = 0
-    _skill_critical_strike: int = 0
-    _skill_critical_power: int = 0
+    skill_critical_strike: int = 0
+    skill_critical_power: int = 0
 
     @property
     def display_name(self):
@@ -95,39 +95,23 @@ class Skill:
         self._weapon_damage_cof = weapon_damage_cof
 
     @property
-    def skill_damage_addition(self):
-        return self._skill_damage_addition / BINARY_SCALE
-
-    @skill_damage_addition.setter
-    def skill_damage_addition(self, skill_damage_addition):
-        self._skill_damage_addition = skill_damage_addition
-
-    @property
     def skill_shield_gain(self):
         if isinstance(self._skill_shield_gain, list):
-            return self._skill_shield_gain[self.skill_level - 1] / BINARY_SCALE
+            return self._skill_shield_gain[self.skill_level - 1]
         else:
-            return self._skill_shield_gain / BINARY_SCALE
+            return self._skill_shield_gain
 
     @skill_shield_gain.setter
     def skill_shield_gain(self, skill_shield_gain):
         self._skill_shield_gain = skill_shield_gain
 
     @property
-    def skill_critical_strike(self):
-        return self._skill_critical_strike / DECIMAL_SCALE
-
-    @skill_critical_strike.setter
-    def skill_critical_strike(self, skill_critical_strike):
-        self._skill_critical_strike = skill_critical_strike
+    def skill_critical_strike_gain(self):
+        return self.skill_critical_strike / DECIMAL_SCALE
 
     @property
-    def skill_critical_power(self):
-        return self._skill_critical_power / BINARY_SCALE
-
-    @skill_critical_power.setter
-    def skill_critical_power(self, skill_critical_power):
-        self._skill_critical_power = skill_critical_power
+    def skill_critical_power_gain(self):
+        return self.skill_critical_power / BINARY_SCALE
 
     def __call__(self, attribute: Attribute):
         damage = init_result(
@@ -144,7 +128,7 @@ class Skill:
                                  attribute.shield_ignore,
                                  attribute.shield_constant)
 
-        critical_damage = critical_result(damage, attribute.critical_power + self.skill_critical_power)
+        critical_damage = critical_result(damage, attribute.critical_power + self.skill_critical_power_gain)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
@@ -154,7 +138,7 @@ class Skill:
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)
         critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)
-        critical_strike = min(1, attribute.critical_strike + self.skill_critical_strike)
+        critical_strike = min(1, attribute.critical_strike + self.skill_critical_strike_gain)
 
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 

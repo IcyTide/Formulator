@@ -12,14 +12,16 @@ class Buff:
     buff_id: int = 0
     buff_name: str = ""
     buff_level: int = 0
-    buff_stack: int = 0
+    buff_stack: int = 1
 
     gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None
 
     def __post_init__(self):
-        self.gain_skills = {}
-        self.gain_attributes = {}
+        if self.gain_skills is None:
+            self.gain_skills = {}
+        if self.gain_attributes is None:
+            self.gain_attributes = {}
 
     @property
     def display_name(self):
@@ -33,7 +35,11 @@ class Buff:
             for skill_id, gain in self.gain_skills.items():
                 skill = other[skill_id]
                 for attr, value in gain.items():
-                    setattr(skill, attr, getattr(skill, attr) + value * self.buff_stack)
+                    if isinstance(value, list):
+                        setattr(skill, attr, value)
+                    else:
+                        setattr(skill, attr, getattr(skill, attr) + value * self.buff_stack)
+
         return other
 
     def __rsub__(self, other: Union[Attribute, Dict[int, Skill]]):
@@ -44,6 +50,10 @@ class Buff:
             for skill_id, gain in self.gain_skills.items():
                 skill = other[skill_id]
                 for attr, value in gain.items():
-                    setattr(skill, attr, getattr(skill, attr) - value * self.buff_stack)
+                    if isinstance(value, list):
+                        setattr(skill, attr, value)
+                    else:
+                        value *= self.buff_stack
+                        setattr(skill, attr, getattr(skill, attr) + value)
         return other
 

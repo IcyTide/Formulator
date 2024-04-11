@@ -1,11 +1,13 @@
 from functools import cache
 
+from base.constant import BINARY_SCALE
+
 
 @cache
 def defense(shield_base, shield_gain, shield_ignore, shield_constant):
     shield = shield_base
-    shield += int(shield * shield_gain)
-    shield -= int(shield * shield_ignore)
+    shield += int(shield * shield_gain / BINARY_SCALE)
+    shield -= int(shield * shield_ignore / BINARY_SCALE)
     return max(0, shield / (shield + shield_constant))
 
 
@@ -50,7 +52,7 @@ def init_result(damage_base, damage_rand, damage_gain,
 
 @cache
 def damage_addition_result(damage, damage_addition):
-    return int(damage * (1 + damage_addition))
+    return int(damage * (1 + damage_addition / BINARY_SCALE))
 
 
 @cache
@@ -76,9 +78,9 @@ def strain_result(damage, strain):
 
 @cache
 def pve_addition_result(damage, pve_addition):
-    return int(damage * (1 + pve_addition))
+    return int(damage * (1 + pve_addition / BINARY_SCALE))
 
 
 @cache
 def vulnerable_result(damage, vulnerable):
-    return int(damage * (1 + vulnerable))
+    return int(damage * (1 + vulnerable / BINARY_SCALE))

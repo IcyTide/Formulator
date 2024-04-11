@@ -1,0 +1,45 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Nuitka Packaging
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyside6
+    - uses: Nuitka/Nuitka-Action@main
+      with:
+        nuitka-version: main
+        script-name: qt/app.py
+        standalone: true
+        onefile: false
+        enable-plugins: pyside6
+        disable-console: true
+        windows-icon-from-ico: qt/assets/icon.ico
+        nofollow-import-to: http,email
+        include-data-dir: qt/assets=qt/assets/
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Formulator
+        path: build/app.dist

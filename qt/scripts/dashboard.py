@@ -67,37 +67,57 @@ def dashboard_script(parser: Parser,
         #     setattr(attribute, attr, getattr(attribute, attr) + value)
 
         dashboard_widget.init_attribute.set_content(school.attr_content(attribute))
-        # gains = sum([equipments.gains, talents.gains, recipes.gains, bonuses.gains], [])
-        #
-        # dashboard_widget.final_attribute.set_text(school.attr_text(attribute))
+
+        equipment_gains = [school.gains[gain] for gain in equipments.gains]
+        talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
+        recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
+        gains = sum([equipment_gains, talent_gains, recipe_gains], [])
+
+        for gain in gains:
+            attribute += gain
+            school.skills += gain
+
+        dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
+
         total_damage, total_gradient, details, summary = analyze_details(record, attribute, school)
+        for gain in gains:
+            attribute -= gain
+            school.skills -= gain
+
         dashboard_widget.dps.set_text(str(round(total_damage / duration)))
+
         dashboard_widget.gradients.set_content(
             [[ATTR_TYPE_TRANSLATE[k], f"{round(v, 2)}%"] for k, v in total_gradient.items()]
         )
-        dashboard_widget.details = details
-        dashboard_widget.skill_combo.set_items(list(details), default_index=-1)
+
+        detail_widget = dashboard_widget.detail_widget
+        detail_widget.details = details
+        detail_widget.skill_combo.set_items(list(details), default_index=-1)
+
         dashboard_widget.summary.set_content(summary_content(summary, total_damage))
 
     dashboard_widget.button.clicked.connect(formulate)
 
     def select_skill(skill):
+        detail_widget = dashboard_widget.detail_widget
         if skill:
-            dashboard_widget.status_combo.set_items(list(dashboard_widget.details[skill]))
+            status_choices = list(detail_widget.details[skill])
+            detail_widget.status_combo.set_items(status_choices, default_index=-1)
         else:
-            dashboard_widget.status_combo.combo_box.clear()
+            detail_widget.status_combo.combo_box.clear()
 
-    dashboard_widget.skill_combo.combo_box.currentTextChanged.connect(select_skill)
+    dashboard_widget.detail_widget.skill_combo.combo_box.currentTextChanged.connect(select_skill)
 
     def select_status(status):
+        detail_widget = dashboard_widget.detail_widget
+        skill = detail_widget.skill_combo.combo_box.currentText()
         if status:
-            skill = dashboard_widget.skill_combo.combo_box.currentText()
-            detail = dashboard_widget.details[skill][status]
+            detail = detail_widget.details[skill][status]
             damage_content, gradient_content = detail_content(detail)
-            dashboard_widget.damage_detail.set_content(damage_content)
-            dashboard_widget.gradient_detail.set_content(gradient_content)
+            detail_widget.damage_detail.set_content(damage_content)
+            detail_widget.gradient_detail.set_content(gradient_content)
         else:
-            dashboard_widget.damage_detail.table.clear()
-            dashboard_widget.gradient_detail.table.clear()
+            detail_widget.damage_detail.table.clear()
+            detail_widget.gradient_detail.table.clear()
 
-    dashboard_widget.status_combo.combo_box.currentTextChanged.connect(select_status)
+    dashboard_widget.detail_widget.status_combo.combo_box.currentTextChanged.connect(select_status)

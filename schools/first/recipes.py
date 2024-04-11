@@ -1,9 +1,9 @@
 from typing import Dict, List
 
-from base.buff import Buff
+from base.gain import Gain
 from base.recipe import damage_addition_recipe, critical_strike_recipe
 
-RECIPE_GAINS: Dict[str, Dict[str, dict | Buff]] = {
+RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "雷走风切": {
         "5%伤害": damage_addition_recipe([16631, 16599], 51),
         "4%伤害": damage_addition_recipe([16631, 16599], 41),

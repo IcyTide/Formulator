@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle("Simulator")
+        self.setWindowTitle("Formulator")
 
         icon = QIcon("qt/assets/icon.ico")
         self.setWindowIcon(icon)

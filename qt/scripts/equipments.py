@@ -1,6 +1,7 @@
 from collections import defaultdict
-from typing import Dict, List
+from typing import Dict, List, Union, Tuple
 
+from general.gains.equipment import EQUIPMENT_GAINS
 from qt.components.equipments import EquipmentsWidget
 from qt.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
 from qt.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
@@ -39,7 +40,7 @@ class Equipment:
     max_strength: int
     embed: Dict[str, int]
     gains: List[int]
-    special_enchant: List[int | List[int]]
+    special_enchant: Union[int | Tuple[int, int]]
     special_enchant_gain: List[int | List[int]]
     set_id: str
     set_attr: Dict[int, Dict[str, int]]
@@ -161,7 +162,7 @@ class Equipments:
         for equipment in self.equipments.values():
             if not equipment.name:
                 continue
-            final_gains += [gain for gain in equipment.gains + equipment.special_enchant]
+            final_gains += [gain for gain in equipment.gains + equipment.special_enchant_gain]
             if equipment.set_id not in set_count:
                 set_count[equipment.set_id] = 0
                 set_effect[equipment.set_id] = equipment.set_gain
@@ -173,7 +174,7 @@ class Equipments:
                     break
                 final_gains += gains
 
-        return [gain for gain in set(final_gains)]
+        return [gain for gain in final_gains]
 
 
 def equipments_script(equipments_widget: EquipmentsWidget):
@@ -221,8 +222,11 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             else:
                 widget.embed_attr.hide()
 
+            if isinstance(equipment.special_enchant, list):
+                equipment.special_enchant = tuple(*equipment.special_enchant)
+
             if equipment.special_enchant:
-                widget.special_enchant.set_text(str(equipment.special_enchant))
+                widget.special_enchant.set_text(EQUIPMENT_GAINS[equipment.special_enchant].gain_name)
 
             widget.detail_widget.show()
             widget.output_widget.show()
@@ -250,7 +254,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
         def inner(_):
             if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
-                equipment.special_enchant_gain = equipment.special_enchant
+                equipment.special_enchant_gain = [equipment.special_enchant]
             else:
                 equipment.special_enchant_gain = []
 
