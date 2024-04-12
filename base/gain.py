@@ -5,7 +5,7 @@ from base.skill import Skill
 
 
 class Gain:
-    def __init__(self, gain_name):
+    def __init__(self, gain_name="NotImplemented"):
         self.gain_name = gain_name
 
     def add(self, other):

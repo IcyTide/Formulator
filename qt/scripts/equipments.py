@@ -216,20 +216,19 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
             if equipment.embed:
                 for i, (attr, value) in enumerate(equipment.embed.items()):
-                    widget.embed_levels[i].set_label(f"镶嵌等级-{ATTR_TYPE_TRANSLATE[attr]}")
+                    widget.embed_levels[i].set_label(f"镶嵌等级-{ATTR_TYPE_TRANSLATE[attr]}\t")
                 widget.embed_attr.set_content(equipment.embed_attr_content)
                 widget.embed_attr.show()
             else:
                 widget.embed_attr.hide()
 
             if isinstance(equipment.special_enchant, list):
-                equipment.special_enchant = tuple(*equipment.special_enchant)
+                equipment.special_enchant = tuple(equipment.special_enchant)
 
             if equipment.special_enchant:
                 widget.special_enchant.set_text(EQUIPMENT_GAINS[equipment.special_enchant].gain_name)
 
             widget.detail_widget.show()
-            widget.output_widget.show()
 
         return inner
 
@@ -309,7 +308,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                     setattr(equipment.stone, k, v)
             else:
                 widget.stone_attrs[i].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in current])
-                equipment.stone = {}
+                equipment.stone = Stone()
 
             i += 1
             while i < len(widget.stone_attrs):

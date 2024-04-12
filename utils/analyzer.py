@@ -23,7 +23,7 @@ def refresh_status(existed_buffs, buffs, attribute: Attribute, school: School):
 def analyze_details(record, attribute: Attribute, school: School):
     details = {}
     total_damage = 0
-    total_gradients = {attr: 0 for attr in attribute.grad_attrs}
+    total_gradients = {attr: 0. for attr in attribute.grad_attrs}
 
     existed_buffs = []
     for skill, status in record.items():

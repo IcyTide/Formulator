@@ -19,7 +19,7 @@ class RecipesWidget(QWidget):
                 recipe = ListWithLabel("")
                 self.recipes.append(recipe)
                 layout.addWidget(recipe, i, j)
-        
+
     def __getitem__(self, item) -> ListWithLabel:
         return self.recipes[item]
 

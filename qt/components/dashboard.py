@@ -29,9 +29,8 @@ class DashboardWidget(QWidget):
         super().__init__()
         layout = QVBoxLayout(self)
 
-        top = QWidget()
-        top_layout = QHBoxLayout(top)
-        layout.addWidget(top)
+        top_layout = QHBoxLayout()
+        layout.addLayout(top_layout)
 
         self.fight_select = ComboWithLabel("选择战斗")
         top_layout.addWidget(self.fight_select)
@@ -43,15 +42,13 @@ class DashboardWidget(QWidget):
         self.button = QPushButton(text="开始模拟!")
         layout.addWidget(self.button)
 
-        bottom = QWidget()
-        bottom_layout = QHBoxLayout(bottom)
-        layout.addWidget(bottom)
+        bottom_layout = QHBoxLayout()
+        layout.addLayout(bottom_layout)
 
         tab = QTabWidget()
         bottom_layout.addWidget(tab, 2)
-        result = QWidget()
-        result_layout = QVBoxLayout(result)
-        bottom_layout.addWidget(result, 1)
+        result_layout = QVBoxLayout()
+        bottom_layout.addLayout(result_layout, 1)
 
         attribute = QWidget()
         attribute_layout = QHBoxLayout(attribute)
@@ -79,6 +76,3 @@ class DashboardWidget(QWidget):
         result_layout.addStretch()
 
         layout.addStretch()
-
-
-

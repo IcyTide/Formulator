@@ -4,6 +4,8 @@ from PySide6.QtWidgets import QTabWidget, QFileDialog, QWidget
 
 from base.buff import Buff
 from base.skill import Skill
+from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS
+from qt.components.consumables import ConsumablesWidget
 from qt.components.dashboard import DashboardWidget
 from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
@@ -116,11 +118,9 @@ class Parser:
 
 
 def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: DashboardWidget,
-               equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
+               talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
+               equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget
                ):
-    # equipments_widget: EquipmentsWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
-    # consumables_widget: ConsumablesWidget, bonuses_widget: BonusesWidget,
-    # combat_widget: CombatWidget):
     parser = Parser()
 
     def upload_logs():
@@ -131,21 +131,6 @@ def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: 
         record_index = list(parser.record_index)
         dashboard_widget.fight_select.set_items(record_index)
         dashboard_widget.duration.set_value(parser.duration(parser.record_index[record_index[0]]))
-
-        """ Update equipment options """
-        for equipment_widget in equipments_widget.values():
-            choices = [""]
-            for name, detail in equipment_widget.equipment_json.items():
-                if detail['kind'] not in (school.kind, school.major):
-                    continue
-                if detail['school'] not in ("精简", "通用", school.school):
-                    continue
-                choices.append(name)
-
-            equipment_widget.equipment.set_items(choices)
-
-            if equipment_widget.stones_json:
-                equipment_widget.stone_level.combo_box.setCurrentIndex(MAX_STONE_LEVEL)
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
@@ -165,6 +150,31 @@ def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: 
             for n in range(MAX_RECIPES):
                 recipes_widget[i].list.item(n).setSelected(True)
             recipes_widget[i].show()
+
+        """ Update equipment options """
+        for equipment_widget in equipments_widget.values():
+            choices = [""]
+            for name, detail in equipment_widget.equipment_json.items():
+                if detail['kind'] not in (school.kind, school.major):
+                    continue
+                if detail['school'] not in ("精简", "通用", school.school):
+                    continue
+                choices.append(name)
+
+            equipment_widget.equipment.set_items(choices)
+
+            if equipment_widget.stones_json:
+                equipment_widget.stone_level.combo_box.setCurrentIndex(MAX_STONE_LEVEL)
+
+        """ Update consumable options """
+        consumables_widget.major_food.set_items([""] + FOODS[school.major])
+        consumables_widget.minor_food.set_items([""] + FOODS[school.kind] + FOODS[""])
+        consumables_widget.major_potion.set_items([""] + POTIONS[school.major])
+        consumables_widget.minor_potion.set_items([""] + POTIONS[school.kind] + POTIONS[""])
+        consumables_widget.weapon_enchant.set_items([""] + WEAPON_ENCHANTS[school.kind])
+        consumables_widget.home_snack.set_items([""] + SNACKS[school.kind] + SNACKS[""])
+        consumables_widget.home_wine.set_items([""] + WINES[school.major] + WINES[""])
+        consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind])
 
         config_widget.show()
 

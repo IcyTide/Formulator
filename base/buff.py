@@ -53,7 +53,5 @@ class Buff:
                     if isinstance(value, list):
                         setattr(skill, attr, value)
                     else:
-                        value *= self.buff_stack
-                        setattr(skill, attr, getattr(skill, attr) + value)
+                        setattr(skill, attr, getattr(skill, attr) - value * self.buff_stack)
         return other
-

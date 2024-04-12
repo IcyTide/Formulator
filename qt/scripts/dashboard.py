@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QMessageBox
 
 from qt.components.dashboard import DashboardWidget
 from qt.constant import ATTR_TYPE_TRANSLATE
+from qt.scripts.consumables import Consumables
 from qt.scripts.top import Parser
 from qt.scripts.equipments import Equipments
 # from qt.scripts.consumables import Consumables
@@ -44,9 +45,8 @@ def detail_content(detail):
 
 
 def dashboard_script(parser: Parser,
-                     equipments: Equipments, talents: Talents, recipes: Recipes,
-                     # consumables: Consumables, bonuses: Bonuses,
-                     dashboard_widget: DashboardWidget):
+                     dashboard_widget: DashboardWidget, talents: Talents, recipes: Recipes,
+                     equipments: Equipments, consumables: Consumables):
 
     def select_fight(text):
         index = parser.record_index[text]
@@ -63,10 +63,10 @@ def dashboard_script(parser: Parser,
         attribute.target_level = int(dashboard_widget.target_level.combo_box.currentText())
         for attr, value in equipments.attrs.items():
             setattr(attribute, attr, getattr(attribute, attr) + value)
-        # for attr, value in consumables.attrs.items():
-        #     setattr(attribute, attr, getattr(attribute, attr) + value)
 
         dashboard_widget.init_attribute.set_content(school.attr_content(attribute))
+        for attr, value in consumables.attrs.items():
+            setattr(attribute, attr, getattr(attribute, attr) + value)
 
         equipment_gains = [school.gains[gain] for gain in equipments.gains]
         talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
@@ -90,29 +90,42 @@ def dashboard_script(parser: Parser,
             [[ATTR_TYPE_TRANSLATE[k], f"{round(v, 2)}%"] for k, v in total_gradient.items()]
         )
 
-        detail_widget = dashboard_widget.detail_widget
-        detail_widget.details = details
-        detail_widget.skill_combo.set_items(list(details), default_index=-1)
+        dashboard_widget.detail_widget.details = details
+        set_skills()
 
         dashboard_widget.summary.set_content(summary_content(summary, total_damage))
 
     dashboard_widget.button.clicked.connect(formulate)
 
-    def select_skill(skill):
-        detail_widget = dashboard_widget.detail_widget
-        if skill:
-            status_choices = list(detail_widget.details[skill])
-            detail_widget.status_combo.set_items(status_choices, default_index=-1)
-        else:
-            detail_widget.status_combo.combo_box.clear()
-
-    dashboard_widget.detail_widget.skill_combo.combo_box.currentTextChanged.connect(select_skill)
-
-    def select_status(status):
+    def set_skills():
+        set_detail(None)
         detail_widget = dashboard_widget.detail_widget
         skill = detail_widget.skill_combo.combo_box.currentText()
-        if status:
-            detail = detail_widget.details[skill][status]
+        skill_choices = list(detail_widget.details)
+        if skill in skill_choices:
+            default_index = skill_choices.index(skill)
+        else:
+            default_index = -1
+        detail_widget.skill_combo.set_items(skill_choices, default_index=default_index)
+
+    def set_status(_):
+        detail_widget = dashboard_widget.detail_widget
+        skill = detail_widget.skill_combo.combo_box.currentText()
+        status = detail_widget.status_combo.combo_box.currentText()
+        status_choices = list(detail_widget.details.get(skill, {}))
+        if status in status_choices:
+            default_index = status_choices.index(status)
+        else:
+            default_index = -1
+        detail_widget.status_combo.set_items(status_choices, default_index=default_index)
+
+    dashboard_widget.detail_widget.skill_combo.combo_box.currentTextChanged.connect(set_status)
+
+    def set_detail(_):
+        detail_widget = dashboard_widget.detail_widget
+        skill = detail_widget.skill_combo.combo_box.currentText()
+        status = detail_widget.status_combo.combo_box.currentText()
+        if detail := detail_widget.details.get(skill, {}).get(status):
             damage_content, gradient_content = detail_content(detail)
             detail_widget.damage_detail.set_content(damage_content)
             detail_widget.gradient_detail.set_content(gradient_content)
@@ -120,4 +133,4 @@ def dashboard_script(parser: Parser,
             detail_widget.damage_detail.table.clear()
             detail_widget.gradient_detail.table.clear()
 
-    dashboard_widget.detail_widget.status_combo.combo_box.currentTextChanged.connect(select_status)
+    dashboard_widget.detail_widget.status_combo.combo_box.currentTextChanged.connect(set_detail)

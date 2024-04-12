@@ -1,5 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QAbstractItemView, QTableWidgetItem, \
-    QHeaderView, QSizePolicy, QListWidgetItem, QSpacerItem
+    QHeaderView, QSizePolicy, QListWidgetItem, QSpacerItem, QListView
 from PySide6.QtWidgets import QComboBox, QRadioButton, QTextBrowser, QTextEdit, QSpinBox, QListWidget, QTableWidget
 from PySide6.QtCore import Qt
 
@@ -61,13 +61,12 @@ class ListWithLabel(LabelWidget):
 
         self.list = QListWidget()
         self.list.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
+        self.list.setResizeMode(QListView.ResizeMode.Adjust)
 
         if items:
             self.set_items(items)
         layout.addWidget(self.label)
         layout.addWidget(self.list)
-
-        layout.addStretch()
 
     def set_items(self, items):
         self.list.clear()
