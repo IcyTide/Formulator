@@ -174,7 +174,7 @@ class Equipments:
                     break
                 final_gains += gains
 
-        return [gain for gain in final_gains]
+        return [tuple(gain) if isinstance(gain, list) else int(gain) for gain in final_gains]
 
 
 def equipments_script(equipments_widget: EquipmentsWidget):
@@ -189,7 +189,6 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             if not equipment_name:
                 equipment.clear()
                 widget.detail_widget.hide()
-                widget.output_widget.hide()
                 return
 
             if equipment.strength_level == equipment.max_strength:

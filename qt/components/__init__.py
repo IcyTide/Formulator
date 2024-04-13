@@ -49,8 +49,6 @@ class TableWithLabel(LabelWidget):
             for j, e in enumerate(row):
                 self.table.setItem(i, j, QTableWidgetItem(e))
 
-        self.table.resizeColumnsToContents()
-
 
 class ListWithLabel(LabelWidget):
     def __init__(self, label, max_select: int = 4, items: list = None):

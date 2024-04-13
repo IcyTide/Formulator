@@ -142,7 +142,7 @@ class BeltSpecialEnchant(Gain):
 
     def __init__(self):
         self.all_damage_addition = sum(k * v for k, v in self.damage_addition.items()) * self.duration / self.cooldown
-        super().__init__(f"{self.all_damage_addition} 伤害增加")
+        super().__init__(f"{round(self.all_damage_addition, 2)} 伤害增加")
 
     def add(self, other):
         if isinstance(other, Attribute):

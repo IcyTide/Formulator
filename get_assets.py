@@ -107,6 +107,8 @@ def get_equips_list(position):
     result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips) if
               row['SubType'] != "0" or row['DetailType'] != "9"}
     result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
+    result = {k: v for k, v in result.items() if v['kind'] in KINDS}
+    result = {k: v for k, v in result.items() if v['school'] in SCHOOLS}
     return result
 
 

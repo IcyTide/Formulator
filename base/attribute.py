@@ -14,6 +14,10 @@ class Target:
     magical_vulnerable: float = 0
 
     @property
+    def level_shield_base(self):
+        return SHIELD_BASE_MAP[self.target_level]
+
+    @property
     def shield_base(self):
         raise NotImplementedError
 

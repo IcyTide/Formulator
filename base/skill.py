@@ -123,7 +123,7 @@ class Skill:
 
         damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.overcome,
-                                 attribute.shield_base,
+                                 attribute.level_shield_base + attribute.shield_base,
                                  attribute.shield_gain + self.skill_shield_gain,
                                  attribute.shield_ignore,
                                  attribute.shield_constant)

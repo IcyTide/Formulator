@@ -20,10 +20,11 @@ def refresh_status(existed_buffs, buffs, attribute: Attribute, school: School):
         school.skills = school.skills + buff
 
 
-def analyze_details(record, attribute: Attribute, school: School):
+def analyze_details(record, duration: int, attribute: Attribute, school: School):
     details = {}
     total_damage = 0
     total_gradients = {attr: 0. for attr in attribute.grad_attrs}
+    duration *= 1000
 
     existed_buffs = []
     for skill, status in record.items():
@@ -34,6 +35,9 @@ def analyze_details(record, attribute: Attribute, school: School):
         skill_detail = {}
         details[skill.display_name] = skill_detail
         for buffs, timeline in status.items():
+            timeline = [t for t in timeline if t < duration]
+            if not timeline:
+                continue
             refresh_status(existed_buffs, buffs, attribute, school)
 
             damage, critical_strike, critical_damage, expected_damage = skill(attribute)

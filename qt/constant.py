@@ -11,7 +11,7 @@ from base.skill import Skill
 
 # from general.gains import equipment
 
-from schools import first
+from schools import bei_ao_jue
 
 """ Directory """
 # ASSETS_DIR = os.path.join(os.getcwd(), "qt/assets")
@@ -157,17 +157,17 @@ SUPPORT_SCHOOL = {
         school="霸刀",
         major="力道",
         kind="外功",
-        attribute=first.BeiAoJue,
+        attribute=bei_ao_jue.BeiAoJue,
         formation="霜岚洗锋阵",
-        skills=first.SKILLS,
-        buffs=first.BUFFS,
-        talent_gains=first.TALENT_GAINS,
-        talents=first.TALENTS,
-        talent_decoder=first.TALENT_DECODER,
-        talent_encoder=first.TALENT_ENCODER,
-        recipe_gains=first.RECIPE_GAINS,
-        recipes=first.RECIPES,
-        gains=first.GAINS,
+        skills=bei_ao_jue.SKILLS,
+        buffs=bei_ao_jue.BUFFS,
+        talent_gains=bei_ao_jue.TALENT_GAINS,
+        talents=bei_ao_jue.TALENTS,
+        talent_decoder=bei_ao_jue.TALENT_DECODER,
+        talent_encoder=bei_ao_jue.TALENT_ENCODER,
+        recipe_gains=bei_ao_jue.RECIPE_GAINS,
+        recipes=bei_ao_jue.RECIPES,
+        gains=bei_ao_jue.GAINS,
         display_attrs={
             "strength": "力道",
             "base_physical_attack_power": "基础攻击",

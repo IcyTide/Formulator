@@ -160,8 +160,12 @@ def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: 
                 if detail['school'] not in ("精简", "通用", school.school):
                     continue
                 choices.append(name)
-
-            equipment_widget.equipment.set_items(choices)
+            current_equipment = equipment_widget.equipment.combo_box.currentText()
+            if current_equipment in choices:
+                default_index = choices.index(current_equipment)
+            else:
+                default_index = -1
+            equipment_widget.equipment.set_items(choices, default_index=default_index)
 
             if equipment_widget.stones_json:
                 equipment_widget.stone_level.combo_box.setCurrentIndex(MAX_STONE_LEVEL)

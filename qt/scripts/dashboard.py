@@ -79,7 +79,7 @@ def dashboard_script(parser: Parser,
 
         dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
 
-        total_damage, total_gradient, details, summary = analyze_details(record, attribute, school)
+        total_damage, total_gradient, details, summary = analyze_details(record, duration, attribute, school)
         for gain in gains:
             attribute -= gain
             school.skills -= gain
