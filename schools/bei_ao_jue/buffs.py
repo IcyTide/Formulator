@@ -1,4 +1,6 @@
 from base.buff import Buff
+from general.buffs import GENERAL_BUFFS
+
 
 BUFFS = {
     18384: {
@@ -31,3 +33,6 @@ for buff_id, detail in BUFFS.items():
     BUFFS[buff_id] = Buff(buff_id, detail.pop("buff_name"))
     for attr, value in detail.items():
         setattr(BUFFS[buff_id], attr, value)
+
+for buff_id, buff in GENERAL_BUFFS.items():
+    BUFFS[buff_id] = buff

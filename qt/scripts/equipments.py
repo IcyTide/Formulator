@@ -174,7 +174,7 @@ class Equipments:
                     break
                 final_gains += gains
 
-        return [tuple(gain) if isinstance(gain, list) else int(gain) for gain in final_gains]
+        return [tuple(gain) if isinstance(gain, list) else gain for gain in final_gains]
 
 
 def equipments_script(equipments_widget: EquipmentsWidget):

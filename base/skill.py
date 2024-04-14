@@ -11,7 +11,12 @@ class Skill:
     skill_id: int
     skill_name: str
     skill_level: int = 0
-    
+    skill_stack: int = 1
+
+    bind_skill: int = None
+    max_stack: int = 1
+    tick: int = 1
+
     _damage_base: Union[List[int], int] = 0
     _damage_rand: Union[List[int], int] = 0
 
@@ -33,7 +38,7 @@ class Skill:
 
     @property
     def display_name(self):
-        return f"{self.skill_name}/{self.skill_id}-{self.skill_level}"
+        return f"{self.skill_name}/{self.skill_id}-{self.skill_level}-{self.skill_stack}"
 
     @property
     def damage_base(self):
@@ -119,7 +124,7 @@ class Skill:
             self.attack_power_cof, self.attack_power_cof_gain, attribute.attack_power,
             self.weapon_damage_cof, self.weapon_damage_cof_gain, attribute.weapon_damage,
             self.surplus_cof, self.surplus_cof_gain, attribute.surplus
-        )
+        ) * self.skill_stack
 
         damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.overcome,
@@ -143,8 +148,8 @@ class Skill:
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 
         return damage, critical_strike, critical_damage, expected_damage
-    
-    
+
+
 class PhysicalDamage(Skill):
     @property
     def attack_power_cof(self):
@@ -161,7 +166,11 @@ class MagicalDamage(Skill):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
 
-class PhysicalDotDamage(Skill):
+class DotDamage(Skill):
+    interval: int = 0
+
+
+class PhysicalDotDamage(DotDamage):
     @property
     def attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
@@ -171,7 +180,7 @@ class PhysicalDotDamage(Skill):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDotDamage(Skill):
+class MagicalDotDamage(DotDamage):
     @property
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)

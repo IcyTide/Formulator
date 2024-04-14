@@ -9,7 +9,7 @@ from qt.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHA
 from qt.constant import ATTR_TYPE_MAP, ATTR_TYPE_TRANSLATE
 from qt.constant import MAX_STONE_ATTR, STONE_ATTR, MAX_STONE_LEVEL
 from qt.constant import EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR
-from qt.constant import SUPPORT_SCHOOL
+from utils.parser import SUPPORT_SCHOOL
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
 SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
@@ -60,16 +60,7 @@ SPECIAL_ENCHANT_MAP = {
         12800: [22151, 11],
         11500: [22151, 10],
         10600: [22151, 9]
-    },
-    6: {
-        0: 22169
-    },
-    10: {
-        0: 22166
-    },
-    9: {
-        0: 33247
-    },
+    }
 }
 
 equip_min_level = 11000

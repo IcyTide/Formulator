@@ -1,6 +1,7 @@
 from typing import Dict
 
 from base.skill import PhysicalDamage, PhysicalDotDamage, Skill
+from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
     32823: {
@@ -283,6 +284,21 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": [80, 88, 96, 106, 112, 118, 124, 132, 138, 142, 150, 158, 166, 172, 180],
         "damage_rand": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 48, 50],
         "attack_power_cof": 230 * 1.3
+    },
+    25782: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "上将军印·神兵",
+        "damage_base": 20,
+        "damage_rand": 2,
+        "attack_power_cof": 25
+    },
+    19555: {
+        "skill_class": PhysicalDotDamage,
+        "skill_name": "背水沉舟(DOT)",
+        "damage_base": 25,
+        "attack_power_cof": 380,
+        "interval": 48
+
     }
 }
 
@@ -291,5 +307,5 @@ for skill_id, detail in SKILLS.items():
     for attr, value in detail.items():
         setattr(SKILLS[skill_id], attr, value)
 
-SKILL_DECODER = {skill_id: skill.skill_name for skill_id, skill in SKILLS.items()}
-SKILL_ENCODER = {v: k for k, v in SKILL_DECODER.items()}
+for skill_id, skill in GENERAL_SKILLS.items():
+    SKILLS[skill_id] = skill

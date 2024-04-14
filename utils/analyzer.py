@@ -1,23 +1,39 @@
 from base.attribute import Attribute
-from qt.scripts.top import School
+from base.skill import Skill
+from utils.parser import School
 
 
-def refresh_status(existed_buffs, buffs, attribute: Attribute, school: School):
-    for buff in [buff for buff in existed_buffs if buff not in buffs]:
-        existed_buffs.remove(buff)
-        buff_id, buff_level, buff_stack = buff
+def filter_status(status, school: School, skill_id):
+    buffs = []
+    for buff_id, buff_level, buff_stack in status:
         buff = school.buffs[buff_id]
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
-        attribute = attribute - buff
-        school.skills = school.skills - buff
+        if buff.gain_attributes or skill_id in buff.gain_skills:
+            buffs.append(buff)
 
-    for buff in [buff for buff in buffs if buff not in existed_buffs]:
-        existed_buffs.append(buff)
-        buff_id, buff_level, buff_stack = buff
-        buff = school.buffs[buff_id]
-        buff.buff_level, buff.buff_stack = buff_level, buff_stack
-        attribute = attribute + buff
-        school.skills = school.skills + buff
+    return buffs
+
+
+def add_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
+    if not snapshot_buffs:
+        for buff in current_buffs:
+            buff.add_all(attribute, skill)
+    else:
+        for buff in snapshot_buffs:
+            buff.add_snapshot(attribute, skill)
+        for buff in current_buffs:
+            buff.add_current(attribute, skill)
+
+
+def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
+    if not snapshot_buffs:
+        for buff in current_buffs:
+            buff.sub_all(attribute, skill)
+    else:
+        for buff in snapshot_buffs:
+            buff.sub_snapshot(attribute, skill)
+        for buff in current_buffs:
+            buff.sub_current(attribute, skill)
 
 
 def analyze_details(record, duration: int, attribute: Attribute, school: School):
@@ -28,28 +44,35 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
 
     existed_buffs = []
     for skill, status in record.items():
-        skill_id, skill_level = skill
-        skill = school.skills[skill_id]
-        skill.skill_level = skill_level
+        skill_id, skill_level, skill_stack = skill
+        skill: Skill = school.skills[skill_id]
+        skill.skill_level, skill.skill_stack = skill_level, skill_stack
 
         skill_detail = {}
         details[skill.display_name] = skill_detail
-        for buffs, timeline in status.items():
+        for (current_status, snapshot_status), timeline in status.items():
             timeline = [t for t in timeline if t < duration]
             if not timeline:
                 continue
-            refresh_status(existed_buffs, buffs, attribute, school)
+
+            current_buffs = filter_status(current_status, school, skill_id)
+            snapshot_buffs = filter_status(snapshot_status, school, skill_id)
+            add_buffs(current_buffs, snapshot_buffs, attribute, skill)
 
             damage, critical_strike, critical_damage, expected_damage = skill(attribute)
             gradients = analyze_gradients(skill, attribute)
+
+            sub_buffs(current_buffs, snapshot_buffs, attribute, skill)
 
             total_damage += expected_damage * len(timeline)
             for attr, residual_damage in gradients.items():
                 total_gradients[attr] += residual_damage * len(timeline)
 
-            buffs = ";".join(school.buffs[buff_id].display_name for buff_id, _, _ in buffs)
+            buffs = (",".join(buff.display_name for buff in current_buffs) +
+                     ";" +
+                     ",".join(buff.display_name for buff in snapshot_buffs))
             if not buffs:
-                buffs = "~-~-~"
+                buffs = "~~~~~"
             skill_detail[buffs] = dict(
                 damage=damage,
                 critical_strike=critical_strike,
@@ -59,8 +82,6 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
                 count=len(timeline),
                 gradients=gradients
             )
-
-    refresh_status(existed_buffs, [], attribute, school)
 
     for attr, residual_damage in total_gradients.items():
         total_gradients[attr] = round(residual_damage / total_damage * 100, 4)

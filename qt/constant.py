@@ -1,6 +1,5 @@
 import os
 
-
 from dataclasses import dataclass
 from typing import Type, List, Dict, Union, Tuple
 
@@ -51,7 +50,7 @@ EMBED_POSITIONS = {
     "primary_weapon": 3,
     "secondary_weapon": 3
 }
-SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
+SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket"]
 """ Attrs """
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",
@@ -119,74 +118,6 @@ STONE_ATTR = [
     "atMagicAttackPowerBase", "atMagicCriticalStrike",
     "atMagicCriticalDamagePowerBase", "atMagicOvercome"
 ]
-
-""" Top """
-
-
-@dataclass
-class School:
-    school: str
-    major: str
-    kind: str
-    attribute: Type[Attribute]
-    formation: str
-    skills: Dict[int, Skill]
-    buffs: Dict[int, Buff]
-    talent_gains: Dict[int, Gain]
-    talents: List[List[int]]
-    talent_decoder: Dict[int, str]
-    talent_encoder: Dict[str, int]
-    recipe_gains: Dict[str, Dict[str, Gain]]
-    recipes: Dict[str, List[str]]
-    gains: Dict[Union[Tuple[int, int], int], Gain]
-    display_attrs: Dict[str, str]
-
-    def attr_content(self, attribute):
-        content = []
-        for attr, name in self.display_attrs.items():
-            value = getattr(attribute, attr)
-            if isinstance(value, int):
-                content.append([name, f"{value}"])
-            else:
-                content.append([name, f"{round(value * 100, 2)}%"])
-        return content
-
-
-SUPPORT_SCHOOL = {
-    10464: School(
-        school="霸刀",
-        major="力道",
-        kind="外功",
-        attribute=bei_ao_jue.BeiAoJue,
-        formation="霜岚洗锋阵",
-        skills=bei_ao_jue.SKILLS,
-        buffs=bei_ao_jue.BUFFS,
-        talent_gains=bei_ao_jue.TALENT_GAINS,
-        talents=bei_ao_jue.TALENTS,
-        talent_decoder=bei_ao_jue.TALENT_DECODER,
-        talent_encoder=bei_ao_jue.TALENT_ENCODER,
-        recipe_gains=bei_ao_jue.RECIPE_GAINS,
-        recipes=bei_ao_jue.RECIPES,
-        gains=bei_ao_jue.GAINS,
-        display_attrs={
-            "strength": "力道",
-            "base_physical_attack_power": "基础攻击",
-            "physical_attack_power": "攻击",
-            "base_physical_critical_strike": "会心等级",
-            "physical_critical_strike": "会心",
-            "physical_critical_power_base": "会效等级",
-            "physical_critical_power": "会效",
-            "base_physical_overcome": "基础破防",
-            "final_physical_overcome": "最终破防",
-            "physical_overcome": "破防",
-            "weapon_damage_base": "基础武器伤害",
-            "weapon_damage_rand": "浮动武器伤害",
-            "strain_base": "无双等级",
-            "strain": "无双",
-            "surplus": "破招",
-        }
-    )
-}
 
 """ Equip """
 

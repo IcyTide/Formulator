@@ -173,7 +173,5 @@ EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
         for i in range(12)
     },
     22169: BeltSpecialEnchant(),
-    22166: Gain(),
-    33247: Gain(),
 
 }
