@@ -33,8 +33,9 @@ def detail_content(detail):
     damage_content = [
         ["命中伤害", f"{detail['damage']}"],
         ["会心伤害", f"{detail['critical_damage']}"],
-        ["期望会心", f"{round(detail['critical_strike'] * 100, 2)}%"],
-        ["期望伤害", f"{round(detail['expected_damage'], 2)}"]
+        ["期望伤害", f"{round(detail['expected_damage'], 2)}"],
+        ["会心", f"{round(detail['critical_strike'] * 100, 2)}%"],
+        ["期望会心", f"{round(detail['expected_critical_strike'] * 100, 2)}%"],
     ]
     gradient_content = [
         [ATTR_TYPE_TRANSLATE[k], f"{round(v / detail['expected_damage'] * 100, 2)}%"]
@@ -109,6 +110,7 @@ def dashboard_script(parser: Parser,
         detail_widget.skill_combo.set_items(skill_choices, default_index=default_index)
 
     def set_status(_):
+        set_detail(None)
         detail_widget = dashboard_widget.detail_widget
         skill = detail_widget.skill_combo.combo_box.currentText()
         status = detail_widget.status_combo.combo_box.currentText()

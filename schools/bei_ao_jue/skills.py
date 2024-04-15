@@ -59,6 +59,13 @@ SKILLS: Dict[int, Skill | dict] = {
                             [280],
         "interval": 48
     },
+    17060: {
+        "skill_class": Skill,
+        "skill_name": "闹须弥",
+        "bind_skill": 11447,
+        "tick": 8
+
+    },
     16933: {
         "skill_class": PhysicalDamage,
         "skill_name": "惊燕式",
@@ -299,6 +306,12 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": 380,
         "interval": 48
 
+    },
+    26934: {
+        "skill_class": Skill,
+        "skill_name": "背水沉舟",
+        "bind_skill": 19555,
+        "tick": 8
     }
 }
 

@@ -11,7 +11,7 @@ def filter_status(status, school: School, skill_id):
         if buff.gain_attributes or skill_id in buff.gain_skills:
             buffs.append(buff)
 
-    return buffs
+    return tuple(buffs)
 
 
 def add_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
@@ -42,7 +42,6 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
     total_gradients = {attr: 0. for attr in attribute.grad_attrs}
     duration *= 1000
 
-    existed_buffs = []
     for skill, status in record.items():
         skill_id, skill_level, skill_stack = skill
         skill: Skill = school.skills[skill_id]
@@ -51,7 +50,13 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
         skill_detail = {}
         details[skill.display_name] = skill_detail
         for (current_status, snapshot_status), timeline in status.items():
-            timeline = [t for t in timeline if t < duration]
+            hit_timeline, critical_timeline = [], []
+            for timestamp, critical in timeline:
+                if critical:
+                    critical_timeline.append(timestamp)
+                else:
+                    hit_timeline.append(timestamp)
+            timeline = [t for t in timeline if t[0] < duration]
             if not timeline:
                 continue
 
@@ -59,7 +64,7 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             snapshot_buffs = filter_status(snapshot_status, school, skill_id)
             add_buffs(current_buffs, snapshot_buffs, attribute, skill)
 
-            damage, critical_strike, critical_damage, expected_damage = skill(attribute)
+            damage, expected_critical_strike, critical_damage, expected_damage = skill(attribute)
             gradients = analyze_gradients(skill, attribute)
 
             sub_buffs(current_buffs, snapshot_buffs, attribute, skill)
@@ -68,16 +73,18 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             for attr, residual_damage in gradients.items():
                 total_gradients[attr] += residual_damage * len(timeline)
 
-            buffs = (",".join(buff.display_name for buff in current_buffs) +
-                     ";" +
-                     ",".join(buff.display_name for buff in snapshot_buffs))
+            buffs = ",".join(buff.display_name for buff in current_buffs)
+            if snapshot_buffs and current_buffs != snapshot_buffs:
+                buffs += f"({','.join(buff.display_name for buff in snapshot_buffs)})"
+
             if not buffs:
-                buffs = "~~~~~"
+                buffs = "~"
             skill_detail[buffs] = dict(
                 damage=damage,
-                critical_strike=critical_strike,
                 critical_damage=critical_damage,
                 expected_damage=expected_damage,
+                critical_strike=len(critical_timeline) / (len(critical_timeline) + len(hit_timeline)),
+                expected_critical_strike=expected_critical_strike,
                 # "timeline": [round(t / 1000, 3) for t in timeline],
                 count=len(timeline),
                 gradients=gradients
@@ -95,10 +102,10 @@ def analyze_summary(details):
     for skill, skill_detail in details.items():
         skill = skill.split("/")[0]
         if skill not in summary:
-            summary[skill] = {"count": 0, "hit": 0, "critical": 0, "damage": 0}
+            summary[skill] = {"count": 0, "critical": 0, "damage": 0}
         for buff, detail in skill_detail.items():
             summary[skill]["count"] += detail['count']
-            summary[skill]["critical"] += detail['count'] * detail['critical_strike']
+            summary[skill]["critical"] += detail['count'] * detail['expected_critical_strike']
             summary[skill]["damage"] += detail['count'] * detail['expected_damage']
 
     return summary

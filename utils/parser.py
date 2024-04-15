@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import Dict, List, Type, Union, Tuple
+from collections import defaultdict
 
 from base.attribute import Attribute
 from base.buff import Buff
@@ -124,8 +125,8 @@ class Parser:
         self.records = []
         self.status = {}
         self.snapshot = {}
-        self.stacks = {}
-        self.ticks = {}
+        self.stacks = defaultdict(int)
+        self.ticks = defaultdict(int)
 
         self.start_time = []
         self.end_time = []
@@ -161,16 +162,16 @@ class Parser:
             self.status[(buff_id, buff_level)] = buff_stack
 
     def parse_skill(self, detail, timestamp):
-        skill_id, skill_level = detail[4], detail[5]
+        skill_id, skill_level, critical = detail[4], detail[5], detail[6]
         if skill_id not in self.school.skills:
             return
 
-        skill_stack = max(1, self.stacks.get(skill_id, 0))
-
-        if self.ticks.get(skill_id):
+        timestamp = int(timestamp) - self.start_time[-1]
+        skill_stack = max(1, self.stacks[skill_id])
+        if self.ticks[skill_id]:
             self.ticks[skill_id] -= 1
-            if not self.ticks[skill_id]:
-                self.stacks[skill_id] = 0
+        if not self.ticks[skill_id]:
+            self.stacks[skill_id] = 0
 
         skill_tuple = (skill_id, skill_level, skill_stack)
         skill = self.school.skills[skill_id]
@@ -181,10 +182,10 @@ class Parser:
         else:
             if skill_tuple not in self.current_record:
                 self.current_record[skill_tuple] = {}
-            status = self.available_status(skill_id)
-            if status not in self.current_record[skill_tuple]:
-                self.current_record[skill_tuple][status] = []
-            self.current_record[skill_tuple][status].append(int(timestamp) - self.start_time[-1])
+            status_tuple = self.available_status(skill_id)
+            if status_tuple not in self.current_record[skill_tuple]:
+                self.current_record[skill_tuple][status_tuple] = []
+            self.current_record[skill_tuple][status_tuple].append((timestamp, critical))
 
     def __call__(self, file_name):
         self.reset()

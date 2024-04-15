@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QFileDialog, QWidget
 
 from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS
+from qt.components.config import ConfigWidget
 from qt.components.consumables import ConsumablesWidget
 from qt.components.dashboard import DashboardWidget
 from qt.components.equipments import EquipmentsWidget
@@ -11,19 +12,22 @@ from qt.components.top import TopWidget
 # from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SPREADS, SNACKS, WINES
 # from general.gains.formation import FORMATIONS
 from qt.constant import MAX_RECIPES, MAX_STONE_LEVEL
+from qt.scripts.config import CONFIG
 from utils.parser import Parser
 
 
-def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: DashboardWidget,
-               talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
-               equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget
-               ):
+def top_script(top_widget: TopWidget, config_widget: ConfigWidget, bottom_widget: QWidget,
+               dashboard_widget: DashboardWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
+               equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget):
     parser = Parser()
 
     def upload_logs():
         file_name = QFileDialog(top_widget, "Choose File").getOpenFileName()
         parser(file_name[0])
         school = parser.school
+        """ Update config """
+        config_choices = list(CONFIG.get(school.school, {}))
+        config_widget.config_select.set_items(config_choices, default_index=-1)
         """ Update dashboard """
         record_index = list(parser.record_index)
         dashboard_widget.fight_select.set_items(record_index)
@@ -78,6 +82,7 @@ def top_script(top_widget: TopWidget, config_widget: QWidget, dashboard_widget: 
         consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind])
 
         config_widget.show()
+        bottom_widget.show()
 
     top_widget.upload_button.clicked.connect(upload_logs)
 

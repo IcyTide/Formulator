@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTabWidget
 
-from qt.components import ComboWithLabel, SpinWithLabel, TextWithLabel, LabelWithLabel, TableWithLabel
+from qt.components import ComboWithLabel, SpinWithLabel, LabelWithLabel, TableWithLabel
 from base.constant import SHIELD_BASE_MAP
 
 

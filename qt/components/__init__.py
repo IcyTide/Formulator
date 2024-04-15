@@ -1,7 +1,6 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QAbstractItemView, QTableWidgetItem, \
-    QHeaderView, QSizePolicy, QListWidgetItem, QSpacerItem, QListView
-from PySide6.QtWidgets import QComboBox, QRadioButton, QTextBrowser, QTextEdit, QSpinBox, QListWidget, QTableWidget
-from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
+from PySide6.QtWidgets import QAbstractItemView, QTableWidgetItem, QHeaderView, QListView
+from PySide6.QtWidgets import QComboBox, QRadioButton, QTextBrowser, QLineEdit, QSpinBox, QListWidget, QTableWidget
 
 
 class LabelWidget(QWidget):
@@ -143,20 +142,16 @@ class SpinWithLabel(LabelWidget):
 
 
 class TextWithLabel(LabelWidget):
-    def __init__(self, label, stretch: bool = True, editable: bool = False):
+    def __init__(self, label):
         super().__init__(label)
         layout = QVBoxLayout(self)
 
-        if editable:
-            self.text_browser = QTextEdit()
-        else:
-            self.text_browser = QTextBrowser()
+        self.text_browser = QLineEdit()
 
         layout.addWidget(self.label)
         layout.addWidget(self.text_browser)
 
-        if stretch:
-            layout.addStretch()
+        layout.addStretch()
 
     def set_text(self, text):
         self.text_browser.setText(text)
