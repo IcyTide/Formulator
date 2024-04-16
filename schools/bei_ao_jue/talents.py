@@ -2,68 +2,59 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.gain import Gain
+from base.skill import Skill
 
 
 class 冥鼓(Gain):
-    def add(self, other):
-        if isinstance(other, dict):
-            for skill_id in [16760, 16382, 20991]:
-                other[skill_id].skill_damage_addition += 205
-                other[skill_id].skill_shield_gain -= 512
-            other[32823].skill_shield_gain = [0, 0, -512, -512]
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (16760, 16382, 20991):
+            skills[skill_id].skill_damage_addition += 205
+            skills[skill_id].skill_shield_gain -= 512
+        skills[32823].skill_shield_gain = [0, 0, -512, -512]
 
-    def sub(self, other):
-        if isinstance(other, dict):
-            for skill_id in [16760, 16382, 20991]:
-                other[skill_id].skill_damage_addition -= 205
-                other[skill_id].skill_shield_gain += 512
-            other[32823].skill_shield_gain = 0
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in [16760, 16382, 20991]:
+            skills[skill_id].skill_damage_addition -= 205
+            skills[skill_id].skill_shield_gain += 512
+        skills[32823].skill_shield_gain = 0
 
 
 class 阳关(Gain):
-    def add(self, other):
-        if isinstance(other, dict):
-            for skill_id in [16803, 16802, 16801, 16800, 17043, 19423, 19424]:
-                other[skill_id].skill_damage_addition += 154
-                other[skill_id].skill_shield_gain -= 205
-            other[32859].skill_damage_addition += 154
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (16803, 16802, 16801, 16800, 17043, 19423, 19424):
+            skills[skill_id].skill_damage_addition += 154
+            skills[skill_id].skill_shield_gain -= 205
+        skills[32859].skill_damage_addition += 154
 
-    def sub(self, other):
-        if isinstance(other, dict):
-            for skill_id in [16803, 16802, 16801, 16800, 17043, 19423, 19424]:
-                other[skill_id].skill_damage_addition -= 154
-                other[skill_id].skill_shield_gain += 205
-            other[32859].skill_damage_addition -= 154
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (16803, 16802, 16801, 16800, 17043, 19423, 19424):
+            skills[skill_id].skill_damage_addition -= 154
+            skills[skill_id].skill_shield_gain += 205
+        skills[32859].skill_damage_addition -= 154
 
 
 class 星火(Gain):
-    def add(self, other):
-        if isinstance(other, Attribute):
-            other.strength_gain += 102
+    def add_attribute(self, attribute: Attribute):
+        attribute.strength_gain += 102
 
-    def sub(self, other):
-        if isinstance(other, Attribute):
-            other.strength_gain -= 102
+    def sub_attribute(self, attribute: Attribute):
+        attribute.strength_gain -= 102
 
 
 class 绝河(Gain):
-    def add(self, other):
-        if isinstance(other, dict):
-            other[20991].skill_damage_addition += 307
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[20991].skill_damage_addition += 307
 
-    def sub(self, other):
-        if isinstance(other, dict):
-            other[20991].skill_damage_addition -= 307
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[20991].skill_damage_addition -= 307
 
 
 class 绝期(Gain):
-    def add(self, other):
-        if isinstance(other, dict):
-            other[11447].attack_power_cof_gain += 0.7
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[11447].attack_power_cof_gain += 0.7
 
-    def sub(self, other):
-        if isinstance(other, dict):
-            other[11447].attack_power_cof_gain -= 0.7
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[11447].attack_power_cof_gain -= 0.7
 
 
 TALENT_GAINS: Dict[int, Gain] = {

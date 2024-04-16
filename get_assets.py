@@ -50,7 +50,7 @@ SUFFIX_MAP = {
     1: 'weapon',
     0: 'weapon'
 }
-SPECIAL_ENCHANT_MAP = {
+SPECIAL_ENCHANT_MAP = {     # TODO: need update lowest limit of new special enchant
     3: {
         12800: [15436, 11],
         11500: [15436, 10],
@@ -63,7 +63,7 @@ SPECIAL_ENCHANT_MAP = {
     }
 }
 
-equip_min_level = 11000
+equip_min_level = 12000
 equip_params = {
     "client": "std",
     "pv_type": 1,
@@ -71,7 +71,7 @@ equip_params = {
     "page": 1,
     "per": 300,
     "min_level": 9000,
-    "max_level": 15000
+    "max_level": 17000
 }
 
 enchant_params = {
@@ -152,7 +152,7 @@ def get_equip_detail(row):
         if attr[0] in ATTR_TYPE_MAP:
             magic_attrs[ATTR_TYPE_MAP[attr[0]]] = int(attr[1])
         elif attr[0] in ["atSetEquipmentRecipe", "atSkillEventHandler"]:
-            gains.append(attr[1])
+            gains.append(int(attr[1]))
         else:
             continue
     for i in range(MAX_EMBED_ATTR):
@@ -168,7 +168,7 @@ def get_equip_detail(row):
             break
 
     if row["SkillID"]:
-        gains.append((row['SkillID'], row['SkillLevel']))
+        gains.append((int(row['SkillID']), int(row['SkillLevel'])))
 
     if set_id := row['_SetAttrbs']:
         set_id = set_id['UiID']

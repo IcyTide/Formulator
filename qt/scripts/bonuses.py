@@ -1,18 +1,23 @@
-# from general.gains.formation import FORMATION_GAINS
+from general.gains.formation import FORMATION_GAINS
 from general.gains.team import TEAM_GAINS
 
 from qt.components import RadioWithLabel, ComboWithLabel, SpinWithLabel
 from qt.components.bonuses import BonusesWidget
-from qt.scripts.top import School
+from utils.parser import Parser
 
 
 class Bonuses(dict):
     @property
     def gains(self):
-        return list(self.values())
+        gains = list(self.values())
+
+        if "秋肃" in self and "戒火" in self:
+            gains.remove(self["戒火"])
+
+        return gains
 
 
-def bonuses_script(school: School, bonuses_widget: BonusesWidget):
+def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     bonuses = Bonuses()
 
     def formation_update(arg):
@@ -21,7 +26,7 @@ def bonuses_script(school: School, bonuses_widget: BonusesWidget):
         core_rate = widget.core_rate.spin_box.value()
         formation_rate = widget.formation_rate.spin_box.value()
 
-        if formation == school.formation:
+        if formation == parser.school.formation:
             widget.core_rate.show()
         else:
             core_rate = 0

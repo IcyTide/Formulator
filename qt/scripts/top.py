@@ -1,6 +1,8 @@
 from PySide6.QtWidgets import QFileDialog, QWidget
 
 from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS
+from general.gains.formation import FORMATIONS
+from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
 from qt.components.consumables import ConsumablesWidget
 from qt.components.dashboard import DashboardWidget
@@ -8,7 +10,6 @@ from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
-
 # from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SPREADS, SNACKS, WINES
 # from general.gains.formation import FORMATIONS
 from qt.constant import MAX_RECIPES, MAX_STONE_LEVEL
@@ -16,13 +17,17 @@ from qt.scripts.config import CONFIG
 from utils.parser import Parser
 
 
-def top_script(top_widget: TopWidget, config_widget: ConfigWidget, bottom_widget: QWidget,
-               dashboard_widget: DashboardWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
-               equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget):
+def top_script(
+        top_widget: TopWidget, config_widget: ConfigWidget, bottom_widget: QWidget,
+        dashboard_widget: DashboardWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
+        equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget, bonus_widget: BonusesWidget
+):
     parser = Parser()
 
     def upload_logs():
         file_name = QFileDialog(top_widget, "Choose File").getOpenFileName()
+        if not file_name[0]:
+            return
         parser(file_name[0])
         school = parser.school
         """ Update config """
@@ -81,6 +86,8 @@ def top_script(top_widget: TopWidget, config_widget: ConfigWidget, bottom_widget
         consumables_widget.home_wine.set_items([""] + WINES[school.major] + WINES[""])
         consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind])
 
+        """ Update bonus options """
+        bonus_widget.formation.formation.set_items([""] + FORMATIONS[school.kind] + FORMATIONS[""])
         config_widget.show()
         bottom_widget.show()
 

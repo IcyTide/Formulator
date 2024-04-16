@@ -16,6 +16,8 @@ def config_script(parser: Parser, config_widget: ConfigWidget, equipments_widget
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
         config = CONFIG.get(parser.school.school, {}).get(config_name, {})
+        if not config:
+            return
 
         for label, equipment in equipments_widget.items():
             if 'equipment' not in config[label]:

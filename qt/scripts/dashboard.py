@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QMessageBox
 
 from qt.components.dashboard import DashboardWidget
 from qt.constant import ATTR_TYPE_TRANSLATE
+from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
 from qt.scripts.top import Parser
 from qt.scripts.equipments import Equipments
@@ -47,7 +48,7 @@ def detail_content(detail):
 
 def dashboard_script(parser: Parser,
                      dashboard_widget: DashboardWidget, talents: Talents, recipes: Recipes,
-                     equipments: Equipments, consumables: Consumables):
+                     equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
 
     def select_fight(text):
         index = parser.record_index[text]
@@ -72,18 +73,16 @@ def dashboard_script(parser: Parser,
         equipment_gains = [school.gains[gain] for gain in equipments.gains]
         talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
         recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
-        gains = sum([equipment_gains, talent_gains, recipe_gains], [])
+        gains = sum([equipment_gains, talent_gains, recipe_gains, bonuses.gains], [])
 
         for gain in gains:
-            attribute += gain
-            school.skills += gain
+            gain.add(attribute, school.skills, school.buffs)
 
         dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
 
         total_damage, total_gradient, details, summary = analyze_details(record, duration, attribute, school)
         for gain in gains:
-            attribute -= gain
-            school.skills -= gain
+            gain.sub(attribute, school.skills, school.buffs)
 
         dashboard_widget.dps.set_text(str(round(total_damage / duration)))
 

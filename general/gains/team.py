@@ -12,17 +12,15 @@ class TeamGain(Gain):
         self.stack = stack
         self.variety = variety
 
-    def add(self, other):
-        if isinstance(other, Attribute):
-            for attr, value in self.gain_attributes:
-                value = (value + self.variety_values.get(self.variety, 0))
-                setattr(other, attr, getattr(other, attr) + int(value * self.rate * self.stack))
+    def add_attribute(self, attribute: Attribute):
+        for attr, value in self.gain_attributes.items():
+            value = (value + self.variety_values.get(self.variety, 0))
+            setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate * self.stack))
 
-    def sub(self, other):
-        if isinstance(other, Attribute):
-            for attr, value in self.gain_attributes:
-                value = value + self.variety_values.get(self.variety, 0)
-                setattr(other, attr, getattr(other, attr) - int(value * self.rate * self.stack))
+    def sub_attribute(self, attribute: Attribute):
+        for attr, value in self.gain_attributes.items():
+            value = value + self.variety_values.get(self.variety, 0)
+            setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate * self.stack))
 
 
 """ 七秀 """
@@ -79,7 +77,7 @@ class 舍身弘法(TeamGain):
 
 
 class 秋肃(TeamGain):
-    gain_attribute = {"all_vulnerable": 61}
+    gain_attributes = {"all_vulnerable": 61}
 
 
 class 皎素(TeamGain):

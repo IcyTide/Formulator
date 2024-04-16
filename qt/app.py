@@ -15,8 +15,8 @@ from qt.components.talents import TalentsWidget
 from qt.scripts.talents import talents_script
 from qt.components.recipes import RecipesWidget
 from qt.scripts.recipes import recipes_script
-# from qt.components.bonuses import BonusesWidget
-# from qt.scripts.bonuses import bonuses_script
+from qt.components.bonuses import BonusesWidget
+from qt.scripts.bonuses import bonuses_script
 from qt.components.dashboard import DashboardWidget
 from qt.scripts.dashboard import dashboard_script
 
@@ -60,21 +60,25 @@ class MainWindow(QMainWindow):
         self.detail_widget.addTab(self.equipments_widget, "配装")
         self.consumable_widget = ConsumablesWidget()
         self.detail_widget.addTab(self.consumable_widget, "消耗品")
+        self.bonus_widget = BonusesWidget()
+        self.detail_widget.addTab(self.bonus_widget, "增益")
         self.talents_widget = TalentsWidget()
         self.detail_widget.addTab(self.talents_widget, "奇穴")
         self.recipes_widget = RecipesWidget()
         self.detail_widget.addTab(self.recipes_widget, "秘籍")
 
         parser = top_script(
-            self.top_widget, self.config_widget, self.bottom_widget, self.dashboard_widget,
-            self.talents_widget, self.recipes_widget, self.equipments_widget, self.consumable_widget,
+            self.top_widget, self.config_widget, self.bottom_widget,
+            self.dashboard_widget, self.talents_widget, self.recipes_widget,
+            self.equipments_widget, self.consumable_widget, self.bonus_widget
         )
         config_script(parser, self.config_widget, self.equipments_widget)
-        equipments = equipments_script(self.equipments_widget)
-        consumables = consumables_script(self.consumable_widget)
         talents = talents_script(self.talents_widget)
         recipes = recipes_script(self.recipes_widget)
-        dashboard_script(parser, self.dashboard_widget, talents, recipes, equipments, consumables)
+        equipments = equipments_script(self.equipments_widget)
+        consumables = consumables_script(self.consumable_widget)
+        bonuses = bonuses_script(parser, self.bonus_widget)
+        dashboard_script(parser, self.dashboard_widget, talents, recipes, equipments, consumables, bonuses)
 
 
 if __name__ == "__main__":
