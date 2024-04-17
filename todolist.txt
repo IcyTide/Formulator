@@ -1,5 +1,2 @@
-apply critical set as mask
-apply wind pendant as mask
-apply water weapon as mask
 apply divine as mask
 apply some talents as mask

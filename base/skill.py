@@ -13,6 +13,8 @@ class Skill:
     skill_level: int = 0
     skill_stack: int = 1
 
+    activate: bool = True
+
     bind_skill: int = None
     max_stack: int = 1
     tick: int = 1
@@ -147,7 +149,7 @@ class Skill:
 
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 
-        return damage, critical_strike, critical_damage, expected_damage
+        return damage, critical_damage, expected_damage, critical_strike
 
 
 class PhysicalDamage(Skill):
@@ -166,11 +168,7 @@ class MagicalDamage(Skill):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
 
-class DotDamage(Skill):
-    interval: int = 0
-
-
-class PhysicalDotDamage(DotDamage):
+class PhysicalDotDamage(Skill):
     @property
     def attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
@@ -180,7 +178,7 @@ class PhysicalDotDamage(DotDamage):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDotDamage(DotDamage):
+class MagicalDotDamage(Skill):
     @property
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)

@@ -152,8 +152,9 @@ class Parser:
             self.end_time.append(int(timestamp))
             self.fight_flag = False
 
-    def parse_buff(self, detail):
-        buff_id, buff_stack, buff_level = detail[4], detail[5], detail[8]
+    def parse_buff(self, row):
+        detail = row.split(",")
+        buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
         if buff_id not in self.school.buffs:
             return
         if not buff_stack:
@@ -161,23 +162,23 @@ class Parser:
         else:
             self.status[(buff_id, buff_level)] = buff_stack
 
-    def parse_skill(self, detail, timestamp):
-        skill_id, skill_level, critical = detail[4], detail[5], detail[6]
+    def parse_skill(self, row, timestamp):
+        detail = row.split(",")
+        skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
         if skill_id not in self.school.skills:
             return
-
         timestamp = int(timestamp) - self.start_time[-1]
         skill_stack = max(1, self.stacks[skill_id])
         if self.ticks[skill_id]:
             self.ticks[skill_id] -= 1
-        if not self.ticks[skill_id]:
-            self.stacks[skill_id] = 0
+            if not self.ticks[skill_id]:
+                self.stacks[skill_id] = 0
 
         skill_tuple = (skill_id, skill_level, skill_stack)
         skill = self.school.skills[skill_id]
         if bind_skill := skill.bind_skill:
             self.stacks[bind_skill] = min(self.stacks[bind_skill] + 1, skill.max_stack)
-            self.ticks[bind_skill] = skill.tick - 1 if self.ticks[bind_skill] else skill.tick
+            self.ticks[bind_skill] = skill.tick if not self.ticks[bind_skill] else skill.tick - 1
             self.snapshot[bind_skill] = self.status.copy()
         else:
             if skill_tuple not in self.current_record:
@@ -200,9 +201,9 @@ class Parser:
             if row[4] == "5":
                 self.parse_time(parse(row[-1]), row[3])
             elif row[4] == "13":
-                self.parse_buff(parse(row[-1]))
+                self.parse_buff(row[-1])
             elif row[4] == "21" and self.fight_flag:
-                self.parse_skill(parse(row[-1]), row[3])
+                self.parse_skill(row[-1], row[3])
 
         self.record_index = {
             f"{i + 1}:{round((end_time - self.start_time[i]) / 1000, 3)}": i for i, end_time in enumerate(self.end_time)

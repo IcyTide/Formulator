@@ -21,5 +21,6 @@ GENERAL_SKILLS: Dict[int, Skill | dict] = {
 
 for skill_id, detail in GENERAL_SKILLS.items():
     GENERAL_SKILLS[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
+    GENERAL_SKILLS[skill_id].activate = False
     for attr, value in detail.items():
         setattr(GENERAL_SKILLS[skill_id], attr, value)

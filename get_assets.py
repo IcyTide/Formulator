@@ -50,16 +50,27 @@ SUFFIX_MAP = {
     1: 'weapon',
     0: 'weapon'
 }
-SPECIAL_ENCHANT_MAP = {     # TODO: need update lowest limit of new special enchant
+SPECIAL_ENCHANT_MAP = {
     3: {
+        14350: [15436, 12],
         12800: [15436, 11],
         11500: [15436, 10],
         10600: [15436, 9]
     },
     2: {
+        14350: [22151, 12],
         12800: [22151, 11],
         11500: [22151, 10],
         10600: [22151, 9]
+    },
+    6: {
+        0: 22169
+    },
+    10: {
+        0: 22166
+    },
+    9: {
+        0: 33247
     }
 }
 
@@ -186,6 +197,7 @@ def get_equip_detail(row):
                     set_gain[count] = []
                 set_gain[count].append(int(attr[1]))
     return {
+        "id": row["ID"],
         "school": row['BelongSchool'],
         "kind": row['MagicKind'],
         "level": level,
@@ -237,6 +249,7 @@ def get_enchant_detail(row):
             continue
         attrs[ATTR_TYPE_MAP[attr_type]] = int(row[f'Attribute{i + 1}Value1'])
     return {
+        "id": row['ID'],
         "score": row['Score'],
         "attr": attrs
     }

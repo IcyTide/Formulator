@@ -13,6 +13,9 @@ class Buff:
     buff_name: str
     buff_level: int = 0
     buff_stack: int = 1
+
+    activate: bool = True
+
     gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None
 

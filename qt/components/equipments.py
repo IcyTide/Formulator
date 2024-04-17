@@ -14,6 +14,7 @@ class EquipmentWidget(QWidget):
         layout = QVBoxLayout(self)
 
         self.equipment_json = json.load(open(os.path.join(EQUIPMENTS_DIR, self.position), encoding="utf-8"))
+        self.equipment_mapping = {v['id']: k for k, v in self.equipment_json.items()}
         self.enchant_json = json.load(open(os.path.join(ENCHANTS_DIR, self.position), encoding="utf-8"))
         self.equipment = ComboWithLabel("装备")
         layout.addWidget(self.equipment)

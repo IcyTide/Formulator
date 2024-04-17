@@ -167,10 +167,10 @@ class 霜岚洗锋阵(FormationGain):
 class 墟海引归阵(FormationGain):
     gain_attributes = {
         "physical_critical_strike_gain": 300,
-        "physical_attack_power_gain": 102,
+        "physical_attack_power_gain": 154,
         "physical_overcome_gain": 102
     }
-    core_gain_attributes = {"physical_attack_power_gain": 102}
+    core_gain_attributes = {"physical_attack_power_gain": 51}
 
 
 class 龙皇雪风阵(FormationGain):

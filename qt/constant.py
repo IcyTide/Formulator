@@ -50,7 +50,7 @@ EMBED_POSITIONS = {
     "primary_weapon": 3,
     "secondary_weapon": 3
 }
-SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket"]
+SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",

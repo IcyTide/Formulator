@@ -3,6 +3,13 @@ from general.buffs import GENERAL_BUFFS
 
 
 BUFFS = {
+    11378: {
+        "buff_name": "朔气",
+        "gain_attributes": {
+            "physical_critical_strike_gain": 400,
+            "physical_critical_power_gain": 41
+        }
+    },
     18384: {
         "buff_name": "含风",
         "gain_attributes": {

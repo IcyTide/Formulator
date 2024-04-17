@@ -60,9 +60,11 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["乘龙箭"]["rate"], 2, 0)
 
         self.team_gains["号令三军"] = {
-            "stack": SpinWithLabel("号令三军", "层数", maximum=48)
+            "stack": SpinWithLabel("号令三军", "层数", maximum=48),
+            "rate": SpinWithLabel("号令三军", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["号令三军"]["stack"], 3, 0)
+        tab_layout.addWidget(self.team_gains["号令三军"]["rate"], 3, 1)
 
         self.team_gains["激雷"] = {
             "rate": SpinWithLabel("激雷", "覆盖(%)", maximum=100)

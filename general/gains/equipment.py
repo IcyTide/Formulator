@@ -1,140 +1,114 @@
-from typing import Dict, Union, Tuple
+from typing import Dict, Union, Tuple, List
 
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
+from base.skill import Skill
 
 
-class WaterWeapon(Gain):
-    attr: str
-    max_stack = 10
+class EquipmentGain(Gain):
+    buff_ids: List[int] = None
+    skill_ids: List[int] = None
 
-    def __init__(self, value):
-        super().__init__(f"{value} 水特效")
-        self.value = value
+    def __init__(self):
+        super().__init__(type(self).__name__)
 
-    def add_attribute(self, attribute: Attribute):
-        setattr(attribute, self.attr, getattr(attribute, self.attr) + self.value * self.max_stack)
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        if self.buff_ids:
+            for buff_id in self.buff_ids:
+                buffs[buff_id].activate = True
 
-    def sub_attribute(self, attribute: Attribute):
-        setattr(attribute, self.attr, getattr(attribute, self.attr) - self.value * self.max_stack)
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        if self.buff_ids:
+            for buff_id in self.buff_ids:
+                buffs[buff_id].activate = False
 
+    def add_skills(self, skills: Dict[int, Skill]):
+        if self.skill_ids:
+            for skill_id in self.skill_ids:
+                skills[skill_id].activate = True
 
-class PhysicalWaterWeapon(WaterWeapon):
-    attr = "physical_attack_power_base"
-
-
-class MagicalWaterWeapon(WaterWeapon):
-    attr = "magical_attack_power_base"
-
-
-class WindPendant(Gain):
-    duration = 15
-    cooldown = 180
-    rate = duration / cooldown
-    physical_overcome = [0] * 101 + sum([[0, v] + [0] * 5 for v in [6408, 8330, 9291]], [])
-    magical_overcome = [0] * 101 + sum([[v, 0] + [0] * 5 for v in [6408, 8330, 9291]], [])
-
-    def __init__(self, level):
-        self.level = level
-        super().__init__(f"{self.physical_overcome[self.level] | self.magical_overcome[self.level]} 风特效")
-
-    def add_attribute(self, attribute: Attribute):
-        attribute.physical_overcome_base += int(self.physical_overcome[self.level] * self.rate)
-        attribute.magical_overcome_base += int(self.magical_overcome[self.level] * self.rate)
-
-    def sub_attribute(self, attribute: Attribute):
-        attribute.physical_overcome_base -= self.physical_overcome[self.level] * self.rate
-        attribute.magical_overcome_base -= int(self.magical_overcome[self.level] * self.rate)
+    def sub_skills(self, skills: Dict[int, Skill]):
+        if self.skill_ids:
+            for skill_id in self.skill_ids:
+                skills[skill_id].activate = False
 
 
-class CriticalSet(Gain):
-    critical_strike_value = 400
-    critical_power_value = 41
-    critical_strike_attr: str
-    critical_power_attr: str
-
-    def __init__(self, gain_name, rate):
-        super().__init__(gain_name)
-        self.rate = rate
-
-    def add_attribute(self, attribute: Attribute):
-        setattr(
-            attribute, self.critical_strike_attr,
-            getattr(attribute, self.critical_strike_attr) + int(self.critical_strike_value * self.rate)
-        )
-        setattr(
-            attribute, self.critical_power_attr,
-            getattr(attribute, self.critical_power_attr) + int(self.critical_power_value * self.rate)
-        )
-
-    def sub_attribute(self, attribute: Attribute):
-        setattr(
-            attribute, self.critical_strike_attr,
-            getattr(attribute, self.critical_strike_attr) - int(self.critical_strike_value * self.rate)
-        )
-        setattr(
-            attribute, self.critical_power_attr,
-            getattr(attribute, self.critical_power_attr) - int(self.critical_power_value * self.rate)
-        )
+class CriticalSet(EquipmentGain):
+    def __init__(self, buff_id):
+        self.buff_ids = [buff_id]
+        super().__init__()
 
 
-class PhysicalCriticalSet(CriticalSet):
-    critical_strike_attr = "physical_critical_strike_gain"
-    critical_power_attr = "physical_critical_power_gain"
-
-    def __init__(self, rate):
-        super().__init__("外功双会套装", rate)
+class DivineEffect(EquipmentGain):
+    skill_ids = []
 
 
-class MagicalCriticalSet(CriticalSet):
-    critical_strike_attr = "magical_critical_strike_gain"
-    critical_power_attr = "magical_critical_power_gain"
-
-    def __init__(self, rate):
-        super().__init__("内功双会套装", rate)
+class DivineSubSkill(EquipmentGain):
+    skill_ids = []
 
 
-class HatSpecialEnchant(Gain):
-    overcome = [0] * 9 + [822, 999, 1098, 1218]
+class WaterWeapon(EquipmentGain):
+    buff_ids = [4761]
+
+
+class WindPendant(EquipmentGain):
+    buff_ids = [6360]
+
+
+class HatSpecialEnchant(EquipmentGain):
+    overcome_base = [0] * 8 + [822, 999, 1098, 1218]
 
     def __init__(self, level):
+        super().__init__()
         self.level = level
-        super().__init__(f"{self.overcome[self.level]} 破防")
 
     def add_attribute(self, attribute: Attribute):
-        attribute.physical_overcome_base += self.overcome[self.level]
+        attribute.physical_overcome_base += self.overcome_base[self.level - 1]
+        attribute.magical_overcome_base += self.overcome_base[self.level - 1]
 
     def sub_attribute(self, attribute: Attribute):
-        attribute.physical_overcome_base -= self.overcome[self.level]
+        attribute.physical_overcome_base -= self.overcome_base[self.level - 1]
+        attribute.magical_overcome_base -= self.overcome_base[self.level - 1]
 
 
 class JacketSpecialEnchant(Gain):
-    physical_ap = [0] * 9 + [371, 450, 495, 549]
-    magical_ap = [0] * 9 + [442, 538, 591, 655]
+    physical_ap = [0] * 8 + [371, 450, 495, 549]
+    magical_ap = [0] * 8 + [442, 538, 591, 655]
 
     def __init__(self, level):
         self.level = level
-        super().__init__(f"{self.physical_ap[self.level]}/{self.magical_ap[self.level]} 外攻/内攻")
+        super().__init__(type(self).__name__)
 
     def add_attribute(self, attribute: Attribute):
-        attribute.physical_attack_power_base += self.physical_ap[self.level]
-        attribute.magical_attack_power_base += self.magical_ap[self.level]
+        attribute.physical_attack_power_base += self.physical_ap[self.level - 1]
+        attribute.magical_attack_power_base += self.magical_ap[self.level - 1]
 
     def sub_attribute(self, attribute: Attribute):
-        attribute.physical_attack_power_base -= self.physical_ap[self.level]
-        attribute.magical_attack_power_base -= self.magical_ap[self.level]
+        attribute.physical_attack_power_base -= self.physical_ap[self.level - 1]
+        attribute.magical_attack_power_base -= self.magical_ap[self.level - 1]
+
+
+class BeltSpecialEnchant(EquipmentGain):
+    buff_ids = [15455]
+
+
+class WristSpecialEnchant(EquipmentGain):
+    skill_ids = [22160]
+
+
+class ShoesSpecialEnchant(EquipmentGain):
+    skill_ids = [33257]
 
 
 EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
-    2400: MagicalWaterWeapon(81),
-    2401: PhysicalWaterWeapon(67),
-    2497: MagicalWaterWeapon(105),
-    2498: PhysicalWaterWeapon(88),
-    2539: MagicalWaterWeapon(117),
-    2540: PhysicalWaterWeapon(98),
     **{
-        (6800, i): WindPendant(i)
-        for i in range(101, 117)
+        k: WaterWeapon()
+        for k in (2400, 2401, 2497, 2498, 2539, 2540, 2604, 2605)
+    },
+    **{
+        (6800, i): WindPendant()
+        for i in range(100, 127 + 1)
     },
     **{
         (15436, i): HatSpecialEnchant(i)
@@ -144,4 +118,7 @@ EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
         (22151, i): JacketSpecialEnchant(i)
         for i in range(13)
     },
+    22169: BeltSpecialEnchant(),
+    22166: WristSpecialEnchant(),
+    33247: ShoesSpecialEnchant()
 }

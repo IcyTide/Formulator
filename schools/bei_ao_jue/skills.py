@@ -11,7 +11,7 @@ SKILLS: Dict[int, Skill | dict] = {
             1048576 * (0.875 - 1),
             1048576 * (0.1375 - 1),
             1048576 * (0.275 - 1),
-            1048576 * (0.504 - 1)
+            1048576 * (0.4032 - 1)
         ]
     },
     16419: {
@@ -124,6 +124,66 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [20 * 1.3 * 1.2] +
                             [(20 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
                             [104 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16939: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "起凤式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [16 * 1.3 * 1.2] +
+                            [(16 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [96 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16940: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "起凤式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [20 * 1.3 * 1.2] +
+                            [(20 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [120 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16941: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "腾蛟式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [16 * 1.3 * 1.2] +
+                            [(16 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [112 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16942: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "腾蛟式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [20 * 1.3 * 1.2] +
+                            [(20 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [128 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16943: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "擒龙式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [16 * 1.3 * 1.2] +
+                            [(16 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [112 * 1.3 * 1.2],
+        "weapon_damage_cof": 1024
+    },
+    16944: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "擒龙式",
+        "damage_base": [30, 35, 40, 45, 50, 55, 60, 65, 70, 80],
+        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 10],
+        "attack_power_cof": [20 * 1.3 * 1.2] +
+                            [(20 + (i - 1) * 8) * 1.3 * 1.2 for i in range(2, 10)] +
+                            [144 * 1.3 * 1.2],
         "weapon_damage_cof": 1024
     },
     16787: {
@@ -311,7 +371,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_class": Skill,
         "skill_name": "背水沉舟",
         "bind_skill": 19555,
-        "tick": 8
+        "max_stack": 3,
+        "tick": 6
     }
 }
 
