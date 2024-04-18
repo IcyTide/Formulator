@@ -45,7 +45,7 @@ def consumables_script(consumables_widget: ConsumablesWidget):
     for consumable_label, consumable_widget in consumables_widget.items():
 
         if isinstance(consumable_widget, ComboWithLabel):
-            consumable_widget.combo_box.currentIndexChanged.connect(consumable_combo_update(consumable_label))
+            consumable_widget.combo_box.currentTextChanged.connect(consumable_combo_update(consumable_label))
         elif isinstance(consumable_widget, RadioWithLabel):
             consumable_widget.radio_button.clicked.connect(consumable_radio_update(consumable_label))
 

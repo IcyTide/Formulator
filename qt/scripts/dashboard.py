@@ -99,25 +99,15 @@ def dashboard_script(parser: Parser,
 
     def set_skills():
         detail_widget = dashboard_widget.detail_widget
-        skill = detail_widget.skill_combo.combo_box.currentText()
-        skill_choices = list(detail_widget.details)
-        if skill in skill_choices:
-            default_index = skill_choices.index(skill)
-        else:
-            default_index = -1
-        detail_widget.skill_combo.set_items(skill_choices, default_index=default_index)
+        detail_widget.skill_combo.set_items(list(detail_widget.details), keep_index=True, default_index=-1)
         set_status(None)
 
     def set_status(_):
         detail_widget = dashboard_widget.detail_widget
         skill = detail_widget.skill_combo.combo_box.currentText()
-        status = detail_widget.status_combo.combo_box.currentText()
-        status_choices = list(detail_widget.details.get(skill, {}))
-        if status in status_choices:
-            default_index = status_choices.index(status)
-        else:
-            default_index = -1
-        detail_widget.status_combo.set_items(status_choices, default_index=default_index)
+        detail_widget.status_combo.set_items(
+            list(detail_widget.details.get(skill, {})), keep_index=True, default_index=-1
+        )
         set_detail(None)
 
     dashboard_widget.detail_widget.skill_combo.combo_box.currentTextChanged.connect(set_status)

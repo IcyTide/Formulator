@@ -70,7 +70,7 @@ class 北斗七星阵(FormationGain):
         "strain_gain": 20,
         "physical_critical_power_gain": 150
     }
-    rate_gain_attributes = {"physical_critical_strike_gain": 100}
+    rate_gain_attributes = {"physical_critical_strike_gain": 100 * 5}
 
 
 class 九宫八卦阵(FormationGain):
@@ -79,7 +79,7 @@ class 九宫八卦阵(FormationGain):
         "strain_gain": 20,
         "magical_critical_power_gain": 154
     }
-    rate_gain_attributes = {"magical_critical_strike_gain": 100}
+    rate_gain_attributes = {"magical_critical_strike_gain": 100 * 5}
 
 
 class 依山观澜阵(FormationGain):

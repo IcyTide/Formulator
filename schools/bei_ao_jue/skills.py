@@ -343,7 +343,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [60 * 1.45 * 1.1 * 0.7] +
                             [(60 + (i - 1) * 10) * 1.45 * 1.1 * 0.7 for i in range(2, 10)] +
                             [160 * 1.45 * 0.9 * 1.1 * 0.7],
-        "weapon_damage_cof": 1024 * 1.45 * 0.25
+        # "weapon_damage_cof": 1024 * 1.45 * 0.25
     },
     37458: {
         "skill_class": PhysicalDamage,

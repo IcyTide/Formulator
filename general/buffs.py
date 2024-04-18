@@ -17,8 +17,8 @@ GENERAL_BUFFS = {
     6360: {
         "buff_name": "风特效",
         "gain_attributes": {
-            "physical_overcome_base": [0] * 99 + sum([[0] + [0, v] + [0] * 5 for v in [6408, 8330, 9291, 10573]], []),
-            "magical_overcome_base": [0] * 99 + sum([[0] + [v, 0] + [0] * 5 for v in [6408, 8330, 9291, 10573]], [])
+            "physical_overcome_base": [0] * 99 + sum([[0] + [0, v] + [0] * 4 for v in [6408, 8330, 9291, 10573]], []),
+            "magical_overcome_base": [0] * 99 + sum([[0] + [v, 0] + [0] * 4 for v in [6408, 8330, 9291, 10573]], [])
         }
     }
 }

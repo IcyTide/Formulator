@@ -118,7 +118,6 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
                 skill_total.gradients[attr] += residual_damage * len(timeline)
 
         total.expected_damage += skill_total.expected_damage
-        total.count += skill_total.count
         skill_summary.expected_damage += skill_total.expected_damage
         skill_summary.critical_count += skill_total.critical_strike
         skill_summary.count += skill_total.count

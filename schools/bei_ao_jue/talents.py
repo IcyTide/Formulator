@@ -10,13 +10,15 @@ class 冥鼓(Gain):
         for skill_id in (16760, 16382, 20991):
             skills[skill_id].skill_damage_addition += 205
             skills[skill_id].skill_shield_gain -= 512
-        skills[32823].skill_shield_gain = [0, 0, -512, -512]
+        skills[32823].skill_shield_gain = [-512, 0, 0, -512]
+        skills[37458].skill_shield_gain -= 512
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in [16760, 16382, 20991]:
             skills[skill_id].skill_damage_addition -= 205
             skills[skill_id].skill_shield_gain += 512
         skills[32823].skill_shield_gain = 0
+        skills[37458].skill_shield_gain += 512
 
 
 class 阳关(Gain):

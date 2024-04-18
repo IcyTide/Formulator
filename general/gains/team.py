@@ -55,7 +55,7 @@ class 乘龙箭(TeamGain):
 
 
 class 号令三军(TeamGain):
-    gain_attributes = {"strain_base": 470}
+    gain_attributes = {"strain_base": (470 + 470 / 2) / 2}
 
 
 class 激雷(TeamGain):
@@ -118,7 +118,7 @@ class 戒火(TeamGain):
 
 class 朝圣言(TeamGain):
     gain_attributes = {"strain_base": 470}
-    variety_values = {"圣浴明心": 705 - 470}
+    variety_values = {"圣浴明心": 820 - 470}
 
 
 """ 丐帮 """
@@ -147,7 +147,7 @@ class 寒啸千军(TeamGain):
 
 
 class 庄周梦(TeamGain):
-    gain_attributes = {"strain_base": 60}
+    gain_attributes = {"strain_base": 50}
 
 
 """ 霸刀 """
@@ -168,6 +168,26 @@ class 配伍(TeamGain):
     gain_attributes = {"all_major_gain": 10 * 5}
 
 
+TEAM_GAIN_LIMIT = {
+    "左旋右转": {
+        "stack": 150
+    },
+    "号令三军": {
+        "stack": 48
+    },
+    "舍身弘法": {
+        "stack": 36
+    },
+    "朝圣言": {
+        "stack": 24
+    },
+    "振奋": {
+        "stack": 100
+    },
+    "庄周梦": {
+        "stack": 150
+    }
+}
 TEAM_GAINS = {
     "袖气": 袖气,
     "左旋右转": 左旋右转,

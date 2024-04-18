@@ -1,3 +1,4 @@
+from general.gains.team import TEAM_GAIN_LIMIT
 from qt.components import ComboWithLabel, SpinWithLabel, RadioWithLabel
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
 
@@ -12,8 +13,8 @@ class FormationWidget(QWidget):
         layout.addWidget(self.formation)
         self.core_rate = SpinWithLabel("四重覆盖(%)", maximum=100)
         layout.addWidget(self.core_rate)
-        self.formation_rate = SpinWithLabel("五重覆盖(%)", maximum=100)
-        layout.addWidget(self.formation_rate)
+        self.rate = SpinWithLabel("五重覆盖(%)", maximum=100)
+        layout.addWidget(self.rate)
 
 
 class TeamGainsWidget(QWidget):
@@ -34,7 +35,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["袖气"], 0, 0)
 
         self.team_gains["左旋右转"] = {
-            "stack": SpinWithLabel("左旋右转", "层数", maximum=133)
+            "stack": SpinWithLabel("左旋右转", "层数", maximum=TEAM_GAIN_LIMIT["左旋右转"]["stack"])
         }
         tab_layout.addWidget(self.team_gains["左旋右转"]["stack"], 1, 0)
         self.team_gains["泠风解怀"] = {
@@ -60,7 +61,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["乘龙箭"]["rate"], 2, 0)
 
         self.team_gains["号令三军"] = {
-            "stack": SpinWithLabel("号令三军", "层数", maximum=48),
+            "stack": SpinWithLabel("号令三军", "层数", maximum=TEAM_GAIN_LIMIT["号令三军"]["stack"]),
             "rate": SpinWithLabel("号令三军", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["号令三军"]["stack"], 3, 0)
@@ -81,7 +82,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["立地成佛"]["rate"], 0, 0)
 
         self.team_gains["舍身弘法"] = {
-            "stack": SpinWithLabel("舍身弘法", "层数", maximum=36),
+            "stack": SpinWithLabel("舍身弘法", "层数", maximum=TEAM_GAIN_LIMIT["舍身弘法"]["stack"]),
             "rate": SpinWithLabel("舍身弘法", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["舍身弘法"]["stack"], 1, 0)
@@ -114,7 +115,7 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "藏剑")
 
         self.team_gains["剑锋百锻"] = {
-            "rate": SpinWithLabel("剑锋百锻", "覆盖(%)", maximum=int(100 / 6))
+            "rate": SpinWithLabel("剑锋百锻", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["剑锋百锻"]["rate"], 0, 0)
 
@@ -135,7 +136,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["戒火"], 0, 0)
 
         self.team_gains["朝圣言"] = {
-            "stack": SpinWithLabel("朝圣言", "层数", maximum=24),
+            "stack": SpinWithLabel("朝圣言", "层数", maximum=TEAM_GAIN_LIMIT["朝圣言"]["stack"]),
             "rate": SpinWithLabel("朝圣言", "覆盖(%)", maximum=100),
             "variety": ComboWithLabel("朝圣言", "种类", ["", "朝圣言", "圣浴明心"])
         }
@@ -163,7 +164,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["寒啸千军"]["rate"], 1, 0)
 
         self.team_gains["振奋"] = {
-            "stack": SpinWithLabel("振奋", "层数"),
+            "stack": SpinWithLabel("振奋", "层数", maximum=TEAM_GAIN_LIMIT["振奋"]["stack"]),
             "rate": SpinWithLabel("振奋", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["振奋"]["stack"], 2, 0)
@@ -174,7 +175,7 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "长歌")
 
         self.team_gains["庄周梦"] = {
-            "stack": SpinWithLabel("庄周梦", "层数", maximum=133),
+            "stack": SpinWithLabel("庄周梦", "层数", maximum=TEAM_GAIN_LIMIT["庄周梦"]["stack"]),
             "rate": SpinWithLabel("庄周梦", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["庄周梦"]["stack"], 0, 0)
@@ -199,7 +200,7 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["配伍"]["rate"], 0, 0)
 
         # self.team_gains["飘黄"] = {
-        #     "rate": SpinWithLabel("飘黄", "覆盖", maximum=int(100 / 6))
+        #     "rate": SpinWithLabel("飘黄", "覆盖", maximum=100)
         # }
         # tab_layout.addWidget(self.team_gains["飘黄"]["rate"], 1, 0)
 

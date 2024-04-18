@@ -9,9 +9,9 @@ class DetailWidget(QWidget):
         super().__init__()
         layout = QVBoxLayout(self)
         self.details = {}
-        self.skill_combo = ComboWithLabel("选择技能")
+        self.skill_combo = ComboWithLabel("选择技能", info="技能名字/技能ID-技能等级-技能层数")
         layout.addWidget(self.skill_combo)
-        self.status_combo = ComboWithLabel("选择增益")
+        self.status_combo = ComboWithLabel("选择增益", info="增益名字/增益ID-增益等级-增益层数")
         layout.addWidget(self.status_combo)
         detail_table = QWidget()
         detail_table_layout = QHBoxLayout(detail_table)

@@ -76,6 +76,23 @@ SUPPORT_SCHOOL = {
 }
 
 
+LABEL_MAPPING = {
+    2: "远程武器",
+    3: "上衣",
+    4: "帽子",
+    5: "项链",
+    6: "戒指1",
+    7: "戒指2",
+    8: "腰带",
+    9: "腰坠",
+    10: "下装",
+    11: "鞋子",
+    12: "护腕",
+    0: "近战武器"
+}
+EMBED_MAPPING = {(5, 24449 - i): 8 - i for i in range(8)}
+
+
 class Parser:
     records: list
     status: dict
@@ -90,6 +107,7 @@ class Parser:
     fight_flag: bool
 
     select_talents: List[int]
+    select_equipments: Dict[int, Dict[str, int | list]]
 
     school: School | None
 
@@ -135,11 +153,23 @@ class Parser:
 
         self.school = None
 
+    def parse_equipments(self, detail):
+        self.select_equipments = {}
+        for row in detail:
+            if not (label := LABEL_MAPPING.get(row[0])):
+                continue
+            select_equipment = self.select_equipments[label] = {}
+            select_equipment['equipment'] = row[2]
+            select_equipment['strength_level'] = row[3]
+            select_equipment['embed_levels'] = [EMBED_MAPPING.get(tuple(e), 0) for e in row[4]]
+            select_equipment['enchant'] = row[5]
+
     def parse_info(self, detail):
         if isinstance(detail, list):
             self.school = SUPPORT_SCHOOL.get(detail[3])
             if not self.school:
                 raise AttributeError(f"Cannot support {detail[3]} now")
+            self.parse_equipments(detail[5])
             self.select_talents = [row[1] for row in detail[6]]
             return self.school
 

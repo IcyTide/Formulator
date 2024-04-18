@@ -77,8 +77,9 @@ class ComboWithLabel(LabelWidget):
         self.setLayout(layout)
 
         self.combo_box = QComboBox()
+        self.items = []
         if items:
-            self.combo_box.addItems(items)
+            self.set_items(items)
         if index:
             self.combo_box.setCurrentIndex(index)
 
@@ -87,12 +88,17 @@ class ComboWithLabel(LabelWidget):
 
         layout.addStretch()
 
-    def set_items(self, items, default_index=0):
+    def set_items(self, items, keep_index=False, default_index=0):
+        self.items = items
         self.combo_box.blockSignals(True)
+        current_text = self.combo_box.currentText()
         self.combo_box.clear()
         self.combo_box.addItems(items)
         self.combo_box.blockSignals(False)
-        self.combo_box.setCurrentIndex(default_index)
+        if keep_index and current_text and current_text in items:
+            self.combo_box.setCurrentIndex(items.index(current_text))
+        else:
+            self.combo_box.setCurrentIndex(default_index)
 
 
 class RadioWithLabel(LabelWidget):

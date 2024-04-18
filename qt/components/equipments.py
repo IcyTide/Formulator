@@ -16,6 +16,7 @@ class EquipmentWidget(QWidget):
         self.equipment_json = json.load(open(os.path.join(EQUIPMENTS_DIR, self.position), encoding="utf-8"))
         self.equipment_mapping = {v['id']: k for k, v in self.equipment_json.items()}
         self.enchant_json = json.load(open(os.path.join(ENCHANTS_DIR, self.position), encoding="utf-8"))
+        self.enchant_mapping = {v['id']: k for k, v in self.enchant_json.items()}
         self.equipment = ComboWithLabel("装备")
         layout.addWidget(self.equipment)
 
@@ -32,7 +33,7 @@ class EquipmentWidget(QWidget):
             self.enchant = None
         else:
             self.enchant = ComboWithLabel("附魔")
-            self.enchant.combo_box.addItems([""] + list(self.enchant_json))
+            self.enchant.set_items([""] + list(self.enchant_json))
             input_layout.addWidget(self.enchant, 0, 0, 1, 2)
 
         if self.position not in SPECIAL_ENCHANT_POSITIONS:
@@ -61,7 +62,8 @@ class EquipmentWidget(QWidget):
             self.stones_json = json.load(open(STONES_DIR, encoding="utf-8"))
 
             self.stone_level = ComboWithLabel(
-                "五彩石等级", items=[str(i) for i in range(MAX_STONE_LEVEL + 1)])
+                "五彩石等级", items=[str(i) for i in range(MAX_STONE_LEVEL + 1)]
+            )
             self.stone_attrs = []
             input_layout.addWidget(self.stone_level, 2, 0)
             for i in range(MAX_STONE_ATTR):

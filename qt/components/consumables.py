@@ -34,10 +34,10 @@ class ConsumablesWidget(QWidget):
         self.consumables['home_wine'] = self.home_wine
         layout.addWidget(self.home_wine, 1, 2)
 
-        self.guild_spread = RadioWithLabel("同泽宴", GUILD_FOOD)
+        self.guild_spread = RadioWithLabel("同泽宴", GUILD_SPREAD)
         self.consumables['guild_spread'] = self.guild_spread
         layout.addWidget(self.guild_spread, 2, 0)
-        self.guild_food = RadioWithLabel("蒸鱼餐盘", GUILD_SPREAD)
+        self.guild_food = RadioWithLabel("蒸鱼餐盘", GUILD_FOOD)
         self.consumables['guild_food'] = self.guild_food
         layout.addWidget(self.guild_food, 2, 1)
         self.spread = ComboWithLabel("宴席")
