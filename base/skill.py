@@ -40,7 +40,7 @@ class Skill:
 
     @property
     def display_name(self):
-        return f"{self.skill_name}/{self.skill_id}-{self.skill_level}-{self.skill_stack}"
+        return f"{self.skill_name}#{self.skill_id}-{self.skill_level}-{self.skill_stack}"
 
     @property
     def damage_base(self):

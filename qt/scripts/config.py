@@ -8,6 +8,7 @@ from qt.components.equipments import EquipmentsWidget
 from qt.components.consumables import ConsumablesWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
+from qt.components.top import TopWidget
 from utils.parser import Parser
 
 if not os.path.exists("config"):
@@ -78,7 +79,8 @@ def config_script(
 
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
-        config = CONFIG.get(parser.school.school, {}).get(config_name, {})
+        player_id = parser.current_player
+        config = CONFIG.get(parser.school[player_id].school, {}).get(config_name, {})
         if not config:
             return
         category = config_widget.config_category.combo_box.currentText()
@@ -149,10 +151,12 @@ def config_script(
 
     def save_config():
         config_name = config_widget.config_name.text_browser.text()
-        if parser.school.school not in CONFIG:
-            CONFIG[parser.school.school] = {}
-        if config_name not in CONFIG[parser.school.school]:
-            CONFIG[parser.school.school][config_name] = {
+        player_id = parser.current_player
+        school = parser.school[player_id].school
+        if school not in CONFIG:
+            CONFIG[school] = {}
+        if config_name not in CONFIG[school]:
+            CONFIG[school][config_name] = {
                 "equipments": {},
                 "consumables": {},
                 "bonuses": {"formation": {}, "team_gains": {}},
@@ -160,28 +164,30 @@ def config_script(
                 "recipes": []
             }
 
-        save_equipments(CONFIG[parser.school.school][config_name]['equipments'])
-        save_consumables(CONFIG[parser.school.school][config_name]['consumables'])
-        save_bonuses(CONFIG[parser.school.school][config_name]['bonuses'])
+        save_equipments(CONFIG[school][config_name]['equipments'])
+        save_consumables(CONFIG[school][config_name]['consumables'])
+        save_bonuses(CONFIG[school][config_name]['bonuses'])
         # save_recipes(CONFIG[parser.school.school][config_name]['recipes'])
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
         config_widget.config_select.set_items(
-            list(CONFIG.get(parser.school.school, {})), keep_index=True, default_index=-1
+            list(CONFIG.get(school, {})), keep_index=True, default_index=-1
         )
 
     config_widget.save_config.clicked.connect(save_config)
 
     def delete_config():
         config_name = config_widget.config_name.text_browser.text()
-        if config_name not in CONFIG.get(parser.school.school, {}):
+        player_id = parser.current_player
+        school = parser.school[player_id].school
+        if config_name not in CONFIG.get(school, {}):
             return
 
-        CONFIG[parser.school.school].pop(config_name)
+        CONFIG[school].pop(config_name)
 
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
-        config_widget.config_select.set_items(list(CONFIG.get(parser.school.school, {})), default_index=-1)
+        config_widget.config_select.set_items(list(CONFIG.get(school, {})), default_index=-1)
         config_widget.config_name.text_browser.clear()
 
     config_widget.delete_config.clicked.connect(delete_config)

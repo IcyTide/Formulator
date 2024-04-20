@@ -29,7 +29,7 @@ class Buff:
 
     @property
     def display_name(self):
-        return f"{self.buff_name}/{self.buff_id}-{self.buff_level}-{self.buff_stack}"
+        return f"{self.buff_name}#{self.buff_id}-{self.buff_level}-{self.buff_stack}"
 
     def level_value(self, value):
         if isinstance(value, list):

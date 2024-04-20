@@ -27,22 +27,35 @@ def top_script(
         if not file_name[0]:
             return
         parser(file_name[0])
-        school = parser.school
+        top_widget.player_select.set_items(
+            [parser.id2name[player_id] for player_id in parser.school], keep_index=True, default_index=0
+        )
+        top_widget.player_select.show()
+        select_player(None)
+
+    top_widget.upload_button.clicked.connect(upload_logs)
+
+    def select_player(_):
+        player_name = top_widget.player_select.combo_box.currentText()
+        if not player_name:
+            return
+        player_id = parser.name2id[player_name]
+        parser.current_player = player_id
+        school = parser.school[player_id]
         """ Update config """
         config_choices = list(CONFIG.get(school.school, {}))
         config_widget.config_select.set_items(config_choices, default_index=-1)
         """ Update dashboard """
-        record_index = list(parser.record_index)
-        dashboard_widget.fight_select.set_items(record_index)
-        dashboard_widget.duration.set_value(parser.duration(parser.record_index[record_index[0]]))
+        record_index = list(parser.record_index[player_id])
+        dashboard_widget.fight_select.set_items(record_index, default_index=0)
+        dashboard_widget.duration.set_value(parser.duration(player_id, parser.record_index[player_id][record_index[0]]))
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
             talents = school.talents[i]
-            default_index = talents.index(parser.select_talents[i]) + 1
+            default_index = talents.index(parser.select_talents[player_id][i]) + 1
             talent_widget.set_items(
-                [""] + [school.talent_decoder[talent] for talent in talents],
-                keep_index=True, default_index=default_index
+                [""] + [school.talent_decoder[talent] for talent in talents], default_index=default_index
             )
 
         """ Update recipe options """
@@ -71,7 +84,7 @@ def top_script(
                 if not (current_index := equipment_widget.stone_level.combo_box.currentIndex()):
                     current_index = MAX_STONE_LEVEL
                 equipment_widget.stone_level.combo_box.setCurrentIndex(current_index)
-            if select_equipment := parser.select_equipments.get(label, {}):
+            if select_equipment := parser.select_equipments[player_id].get(label, {}):
                 if equipment := equipment_widget.equipment_mapping.get(select_equipment['equipment']):
                     if equipment in equipment_widget.equipment.items:
                         equipment_widget.equipment.combo_box.setCurrentText(equipment)
@@ -97,6 +110,6 @@ def top_script(
         config_widget.show()
         bottom_widget.show()
 
-    top_widget.upload_button.clicked.connect(upload_logs)
+    top_widget.player_select.combo_box.currentTextChanged.connect(select_player)
 
     return parser

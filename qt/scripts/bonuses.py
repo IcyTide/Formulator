@@ -20,13 +20,13 @@ class Bonuses(dict):
 def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     bonuses = Bonuses()
 
-    def formation_update(arg):
+    def formation_update(_):
         widget = bonuses_widget.formation
         formation = widget.formation.combo_box.currentText()
         core_rate = widget.core_rate.spin_box.value()
         formation_rate = widget.rate.spin_box.value()
 
-        if formation == parser.school.formation:
+        if formation == parser.school[parser.current_player].formation:
             widget.core_rate.show()
         else:
             core_rate = 0

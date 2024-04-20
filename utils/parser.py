@@ -9,6 +9,14 @@ from base.skill import Skill
 from schools import bei_ao_jue
 from utils.lua import parse
 
+SKILL_TYPE = Tuple[int, int, int]
+BUFF_TYPE = Tuple[int, int, int]
+TIMELINE_TYPE = List[Tuple[int, bool]]
+SUB_RECORD_TYPE = Dict[Tuple[tuple, tuple], TIMELINE_TYPE]
+RECORD_TYPE = Dict[SKILL_TYPE, SUB_RECORD_TYPE]
+STATUS_TYPE = Dict[Tuple[int, int], int]
+SNAPSHOT_TYPE = Dict[int, STATUS_TYPE]
+
 
 @dataclass
 class School:
@@ -75,7 +83,6 @@ SUPPORT_SCHOOL = {
     )
 }
 
-
 LABEL_MAPPING = {
     2: "远程武器",
     3: "上衣",
@@ -94,42 +101,40 @@ EMBED_MAPPING = {(5, 24449 - i): 8 - i for i in range(8)}
 
 
 class Parser:
-    records: list
-    status: dict
-    snapshot: dict
-    stacks: dict
-    ticks: dict
+    current_player: int
+    id2name: Dict[int, str]
+    name2id: Dict[str, int]
+    records: Dict[int, List[RECORD_TYPE]]
+    status: Dict[int, STATUS_TYPE]
+    snapshot: Dict[int, SNAPSHOT_TYPE]
+    stacks: Dict[int, Dict[int, int]]
+    ticks: Dict[int, Dict[int, int]]
 
-    start_time: list
-    end_time: list
-    record_index: Dict[str, int]
+    fight_flag: Dict[int, bool]
+    start_time: Dict[int, List[int]]
+    end_time: Dict[int, List[int]]
+    record_index: Dict[int, Dict[str, int]]
 
-    fight_flag: bool
+    select_talents: Dict[int, List[int]]
+    select_equipments: Dict[int, Dict[int, Dict[str, int | list]]]
 
-    select_talents: List[int]
-    select_equipments: Dict[int, Dict[str, int | list]]
+    school: Dict[int, School]
 
-    school: School | None
+    def duration(self, player_id, i):
+        return round((self.end_time[player_id][i] - self.start_time[player_id][i]) / 1000, 3)
 
-    def duration(self, i):
-        return round((self.end_time[i] - self.start_time[i]) / 1000, 3)
-
-    @property
-    def current_record(self):
-        return self.records[len(self.start_time) - 1]
-
-    def available_status(self, skill_id):
+    def available_status(self, player_id, skill_id):
         current_status = []
-        for (buff_id, buff_level), buff_stack in self.status.items():
-            buff = self.school.buffs[buff_id]
+        for (buff_id, buff_level), buff_stack in self.status[player_id].items():
+            buff = self.school[player_id].buffs[buff_id]
             if buff.gain_attributes:
                 current_status.append((buff_id, buff_level, buff_stack))
             elif buff.gain_skills and skill_id in buff.gain_skills:
                 current_status.append((buff_id, buff_level, buff_stack))
 
         snapshot_status = []
-        for (buff_id, buff_level), buff_stack in self.snapshot.get(skill_id, {}).items():
-            buff = self.school.buffs[buff_id]
+        for (buff_id, buff_level), buff_stack in self.snapshot[player_id].get(skill_id, {}).items():
+            buff = self.school[player_id].buffs[buff_id]
             if buff.gain_attributes:
                 snapshot_status.append((buff_id, buff_level, buff_stack))
             elif buff.gain_skills and skill_id in buff.gain_skills:
@@ -138,103 +143,125 @@ class Parser:
         return tuple(current_status), tuple(snapshot_status)
 
     def reset(self):
-        self.fight_flag = False
+        self.id2name = {}
+        self.name2id = {}
+        self.records = defaultdict(list)
+        self.status = defaultdict(dict)
+        self.snapshot = defaultdict(dict)
+        self.stacks = defaultdict(lambda: defaultdict(lambda: 1))
+        self.ticks = defaultdict(lambda: defaultdict(int))
 
-        self.records = []
-        self.status = {}
-        self.snapshot = {}
-        self.stacks = defaultdict(int)
-        self.ticks = defaultdict(int)
+        self.fight_flag = defaultdict(bool)
+        self.start_time = defaultdict(list)
+        self.end_time = defaultdict(list)
 
-        self.start_time = []
-        self.end_time = []
-
-        self.record_index = {}
-
-        self.school = None
-
-    def parse_equipments(self, detail):
+        self.select_talents = {}
         self.select_equipments = {}
+        self.school = {}
+
+    @staticmethod
+    def parse_equipments(detail):
+        select_equipments = {}
         for row in detail:
             if not (label := LABEL_MAPPING.get(row[0])):
                 continue
-            select_equipment = self.select_equipments[label] = {}
+            select_equipment = select_equipments[label] = {}
             select_equipment['equipment'] = row[2]
             select_equipment['strength_level'] = row[3]
             select_equipment['embed_levels'] = [EMBED_MAPPING.get(tuple(e), 0) for e in row[4]]
             select_equipment['enchant'] = row[5]
+        return select_equipments
 
-    def parse_info(self, detail):
-        if isinstance(detail, list):
-            self.school = SUPPORT_SCHOOL.get(detail[3])
-            if not self.school:
-                raise AttributeError(f"Cannot support {detail[3]} now")
-            self.parse_equipments(detail[5])
-            self.select_talents = [row[1] for row in detail[6]]
-            return self.school
+    @staticmethod
+    def parse_talents(detail):
+        return [row[1] for row in detail]
 
-    def parse_time(self, detail, timestamp):
-        if detail[1]:
-            self.start_time.append(int(timestamp))
-            self.records.append({})
-            self.fight_flag = True
+    def parse_info(self, row):
+        detail = row.strip("{}").split(",")
+        player_id, school_id = int(detail[0]), int(detail[3])
+        if player_id in self.id2name or school_id not in SUPPORT_SCHOOL:
+            return
+        if isinstance(detail := parse(row), list):
+            player_name = detail[1]
+            self.id2name[player_id] = player_name
+            self.name2id[player_name] = player_id
+            if school := SUPPORT_SCHOOL.get(detail[3]):
+                self.school[player_id] = school
+                self.select_equipments[player_id] = self.parse_equipments(detail[5])
+                self.select_talents[player_id] = self.parse_talents(detail[6])
+
+    def parse_time(self, row, timestamp):
+        detail = row.strip("{}").split(",")
+        player_id = int(detail[0])
+        if player_id not in self.school:
+            return
+        if detail[1] == "true":
+            self.start_time[player_id].append(int(timestamp))
+            self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
+            self.fight_flag[player_id] = True
         else:
-            self.end_time.append(int(timestamp))
-            self.fight_flag = False
+            self.end_time[player_id].append(int(timestamp))
+            self.fight_flag[player_id] = False
 
     def parse_buff(self, row):
-        detail = row.split(",")
+        detail = row.strip("{}").split(",")
+        player_id = int(detail[0])
+        if player_id not in self.school:
+            return
         buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
-        if buff_id not in self.school.buffs:
+        if buff_id not in self.school[player_id].buffs:
             return
         if not buff_stack:
-            self.status.pop((buff_id, buff_level))
+            self.status[player_id].pop((buff_id, buff_level), None)
         else:
-            self.status[(buff_id, buff_level)] = buff_stack
+            self.status[player_id][(buff_id, buff_level)] = buff_stack
 
     def parse_skill(self, row, timestamp):
-        detail = row.split(",")
-        skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
-        if skill_id not in self.school.skills:
+        detail = row.strip("{}").split(",")
+        player_id = int(detail[0])
+        if not self.fight_flag[player_id] or player_id not in self.school:
             return
-        timestamp = int(timestamp) - self.start_time[-1]
-        skill_stack = max(1, self.stacks[skill_id])
-        if self.ticks[skill_id]:
-            self.ticks[skill_id] -= 1
-            if not self.ticks[skill_id]:
-                self.stacks[skill_id] = 0
+        skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
+        if skill_id not in self.school[player_id].skills:
+            return
+        timestamp = int(timestamp) - self.start_time[player_id][-1]
+        skill_stack = self.stacks[player_id][skill_id]
+        if self.ticks[player_id][skill_id]:
+            self.ticks[player_id][skill_id] -= 1
+            if not self.ticks[player_id][skill_id]:
+                self.stacks[player_id].pop(skill_id)
 
         skill_tuple = (skill_id, skill_level, skill_stack)
-        skill = self.school.skills[skill_id]
+        skill = self.school[player_id].skills[skill_id]
         if bind_skill := skill.bind_skill:
-            self.stacks[bind_skill] = min(self.stacks[bind_skill] + 1, skill.max_stack)
-            self.ticks[bind_skill] = skill.tick if not self.ticks[bind_skill] else skill.tick - 1
-            self.snapshot[bind_skill] = self.status.copy()
+            self.stacks[player_id][bind_skill] = min(self.stacks[player_id][bind_skill] + 1, skill.max_stack)
+            self.ticks[player_id][bind_skill] = skill.tick if not self.ticks[player_id][bind_skill] else skill.tick - 1
+            self.snapshot[player_id][bind_skill] = self.status[player_id].copy()
         else:
-            if skill_tuple not in self.current_record:
-                self.current_record[skill_tuple] = {}
-            status_tuple = self.available_status(skill_id)
-            if status_tuple not in self.current_record[skill_tuple]:
-                self.current_record[skill_tuple][status_tuple] = []
-            self.current_record[skill_tuple][status_tuple].append((timestamp, critical))
+            current_record = self.records[player_id][len(self.start_time) - 1]
+            status_tuple = self.available_status(player_id, skill_id)
+            current_record[skill_tuple][status_tuple].append((timestamp, critical))
 
     def __call__(self, file_name):
         self.reset()
         lines = open(file_name).readlines()
         for line in lines:
             row = line.split("\t")
-            if row[4] == "4" and self.parse_info(parse(row[-1])):
-                break
-
+            if row[4] == "4":
+                self.parse_info(row[-1])
         for line in lines:
             row = line.split("\t")
             if row[4] == "5":
-                self.parse_time(parse(row[-1]), row[3])
+                self.parse_time(row[-1], row[3])
             elif row[4] == "13":
                 self.parse_buff(row[-1])
-            elif row[4] == "21" and self.fight_flag:
+            elif row[4] == "21":
                 self.parse_skill(row[-1], row[3])
 
         self.record_index = {
-            f"{i + 1}:{round((end_time - self.start_time[i]) / 1000, 3)}": i for i, end_time in enumerate(self.end_time)
+            player_id: {
+                f"{i + 1}:{round((end_time - self.start_time[player_id][i]) / 1000, 3)}": i
+                for i, end_time in enumerate(self.end_time[player_id])
+            }
+            for player_id in self.end_time
         }

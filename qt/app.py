@@ -73,7 +73,8 @@ class MainWindow(QMainWindow):
             self.equipments_widget, self.consumable_widget, self.bonus_widget
         )
         config_script(
-            parser, self.config_widget, self.talents_widget, self.recipes_widget,
+            parser, self.config_widget,
+            self.talents_widget, self.recipes_widget,
             self.equipments_widget, self.consumable_widget, self.bonus_widget
         )
         talents = talents_script(self.talents_widget)
@@ -81,7 +82,8 @@ class MainWindow(QMainWindow):
         equipments = equipments_script(self.equipments_widget)
         consumables = consumables_script(self.consumable_widget)
         bonuses = bonuses_script(parser, self.bonus_widget)
-        dashboard_script(parser, self.dashboard_widget, talents, recipes, equipments, consumables, bonuses)
+        dashboard_script(parser, self.top_widget, self.dashboard_widget,
+                         talents, recipes, equipments, consumables, bonuses)
 
 
 if __name__ == "__main__":
