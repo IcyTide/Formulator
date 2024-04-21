@@ -64,7 +64,6 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "闹须弥",
         "bind_skill": 11447,
         "tick": 8
-
     },
     16933: {
         "skill_class": PhysicalDamage,

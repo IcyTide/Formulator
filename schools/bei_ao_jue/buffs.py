@@ -20,12 +20,10 @@ BUFFS = {
     23066: {
         "buff_name": "含风",
         "gain_skills": {
-            16787: {
-                "skill_damage_addition": 102,
-            },
-            16610: {
+            skill_id: {
                 "skill_damage_addition": 102,
             }
+            for skill_id in (16787, 16610, 16794)
         }
     },
     14972: {
