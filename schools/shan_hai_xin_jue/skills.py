@@ -1,10 +1,10 @@
 from typing import Dict
 
-from base.skill import PhysicalDamage, PhysicalDotDamage, Skill
+from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
-    32823: {
+    36177: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",
         "surplus_cof": 0
@@ -13,7 +13,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_class": PhysicalDamage,
         "skill_name": "风矢",
         "attack_power_cof": 16,
-        "weapon_damage_cof": 1024
+        "weapon_damage_cof": 1024,
+        "skill_damage_addition": 205
     },
     35866: {
         "skill_class": PhysicalDamage,
@@ -63,12 +64,18 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": 0
     },
     26856: {
-        "skill_class": PhysicalDamage,
+        "skill_class": PhysicalDotDamage,
         "skill_name": "贯穿(DOT)",
         "attack_power_cof": 0
     },
+    36165: {
+        "skill_class": DotConsumeSkill,
+        "skill_name": "贯穿",
+        "bind_skill": 26856,
+        "tick": 3
+    },
     35771: {
-        "skill_class": Skill,
+        "skill_class": DotSkill,
         "skill_name": "贯穿",
         "bind_skill": 26856,
         "max_stack": 6,

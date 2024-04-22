@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import PhysicalDamage, PhysicalDotDamage, Skill
+from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -60,7 +60,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "interval": 48
     },
     17060: {
-        "skill_class": Skill,
+        "skill_class": DotSkill,
         "skill_name": "闹须弥",
         "bind_skill": 11447,
         "tick": 8
@@ -367,7 +367,7 @@ SKILLS: Dict[int, Skill | dict] = {
 
     },
     26934: {
-        "skill_class": Skill,
+        "skill_class": DotSkill,
         "skill_name": "背水沉舟",
         "bind_skill": 19555,
         "max_stack": 3,

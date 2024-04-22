@@ -5,8 +5,8 @@ from collections import defaultdict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
-from schools import bei_ao_jue
+from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
+from schools import bei_ao_jue, shan_hai_xin_jue
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
@@ -80,6 +80,39 @@ SUPPORT_SCHOOL = {
             "strain": "无双",
             "surplus": "破招",
         }
+    ),
+    10756: School(
+        school="万灵",
+        major="身法",
+        kind="外功",
+        attribute=shan_hai_xin_jue.ShanHaiXinJue,
+        formation="苍梧引灵阵",
+        skills=shan_hai_xin_jue.SKILLS,
+        buffs=shan_hai_xin_jue.BUFFS,
+        talent_gains=shan_hai_xin_jue.TALENT_GAINS,
+        talents=shan_hai_xin_jue.TALENTS,
+        talent_decoder=shan_hai_xin_jue.TALENT_DECODER,
+        talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
+        recipe_gains=None,
+        recipes=None,
+        gains=None,
+        display_attrs={
+            "agility": "身法",
+            "base_physical_attack_power": "基础攻击",
+            "physical_attack_power": "攻击",
+            "base_physical_critical_strike": "会心等级",
+            "physical_critical_strike": "会心",
+            "physical_critical_power_base": "会效等级",
+            "physical_critical_power": "会效",
+            "base_physical_overcome": "基础破防",
+            "final_physical_overcome": "最终破防",
+            "physical_overcome": "破防",
+            "weapon_damage_base": "基础武器伤害",
+            "weapon_damage_rand": "浮动武器伤害",
+            "strain_base": "无双等级",
+            "strain": "无双",
+            "surplus": "破招",
+        }
     )
 }
 
@@ -107,8 +140,10 @@ class Parser:
     records: Dict[int, List[RECORD_TYPE]]
     status: Dict[int, STATUS_TYPE]
     snapshot: Dict[int, SNAPSHOT_TYPE]
+    last_dot: Dict[int, Dict[int, Tuple[Tuple[int, int, int], Tuple[tuple, tuple]]]]
     stacks: Dict[int, Dict[int, int]]
     ticks: Dict[int, Dict[int, int]]
+    pets: Dict[int, int]
 
     fight_flag: Dict[int, bool]
     start_time: Dict[int, List[int]]
@@ -148,8 +183,10 @@ class Parser:
         self.records = defaultdict(list)
         self.status = defaultdict(dict)
         self.snapshot = defaultdict(dict)
+        self.last_dot = defaultdict(dict)
         self.stacks = defaultdict(lambda: defaultdict(lambda: 1))
         self.ticks = defaultdict(lambda: defaultdict(int))
+        self.pets = {}
 
         self.fight_flag = defaultdict(bool)
         self.start_time = defaultdict(list)
@@ -190,6 +227,12 @@ class Parser:
                 self.select_equipments[player_id] = self.parse_equipments(detail[5])
                 self.select_talents[player_id] = self.parse_talents(detail[6])
 
+    def parse_pet(self, row):
+        detail = row.strip("{}").split(",")
+        pet_id, player_id = int(detail[0]), int(detail[3])
+        if player_id in self.school:
+            self.pets[pet_id] = player_id
+
     def parse_time(self, row, timestamp):
         detail = row.strip("{}").split(",")
         player_id = int(detail[0])
@@ -218,7 +261,12 @@ class Parser:
 
     def parse_skill(self, row, timestamp):
         detail = row.strip("{}").split(",")
-        player_id = int(detail[0])
+        caster_id = int(detail[0])
+        if caster_id in self.pets:
+            player_id = self.pets[caster_id]
+        else:
+            player_id = caster_id
+
         if not self.fight_flag[player_id] or player_id not in self.school:
             return
         skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
@@ -226,21 +274,34 @@ class Parser:
             return
         timestamp = int(timestamp) - self.start_time[player_id][-1]
         skill_stack = self.stacks[player_id][skill_id]
-        if self.ticks[player_id][skill_id]:
-            self.ticks[player_id][skill_id] -= 1
-            if not self.ticks[player_id][skill_id]:
-                self.stacks[player_id].pop(skill_id)
 
-        skill_tuple = (skill_id, skill_level, skill_stack)
         skill = self.school[player_id].skills[skill_id]
-        if bind_skill := skill.bind_skill:
+        if isinstance(skill, DotSkill):
+            bind_skill = skill.bind_skill
+            if not self.ticks[player_id][bind_skill]:
+                self.stacks[player_id][bind_skill] = 0
+            self.ticks[player_id][bind_skill] = skill.tick
             self.stacks[player_id][bind_skill] = min(self.stacks[player_id][bind_skill] + 1, skill.max_stack)
-            self.ticks[player_id][bind_skill] = skill.tick if not self.ticks[player_id][bind_skill] else skill.tick - 1
             self.snapshot[player_id][bind_skill] = self.status[player_id].copy()
-        else:
+        elif isinstance(skill, DotConsumeSkill):
+            bind_skill = skill.bind_skill
+            skill_tuple, status_tuple = self.last_dot[player_id][bind_skill]
+            skill_id, skill_level, skill_stack = skill_tuple
+            self.ticks[player_id][skill_id] += 1
+            tick = min(self.ticks[player_id][skill_id], skill.tick)
             current_record = self.records[player_id][len(self.start_time) - 1]
+            current_record[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
+                current_record[skill_tuple][status_tuple].pop()
+            )
+            self.ticks[player_id][skill_id] -= tick
+        elif isinstance(skill, Damage):
+            skill_tuple = (skill_id, skill_level, skill_stack)
             status_tuple = self.available_status(player_id, skill_id)
+            current_record = self.records[player_id][len(self.start_time) - 1]
             current_record[skill_tuple][status_tuple].append((timestamp, critical))
+            if isinstance(skill, DotDamage):
+                self.last_dot[player_id][skill_id] = (skill_tuple, status_tuple)
+                self.ticks[player_id][skill_id] -= 1
 
     def __call__(self, file_name):
         self.reset()
@@ -253,6 +314,8 @@ class Parser:
             row = line.split("\t")
             if row[4] == "5":
                 self.parse_time(row[-1], row[3])
+            if row[4] == "8":
+                self.parse_pet(row[-1])
             elif row[4] == "13":
                 self.parse_buff(row[-1])
             elif row[4] == "21":
@@ -265,3 +328,9 @@ class Parser:
             }
             for player_id in self.end_time
         }
+
+
+if __name__ == '__main__':
+    parser = Parser()
+    parser("../new.jcl")
+    print(parser)

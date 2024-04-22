@@ -58,4 +58,4 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    parser("单押.jcl")
+    parser("new.jcl")

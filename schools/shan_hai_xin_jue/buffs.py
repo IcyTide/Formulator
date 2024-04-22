@@ -1,7 +1,9 @@
+from typing import Dict
+
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-BUFFS = {
+BUFFS: Dict[int, Buff | dict] = {
     16025: {
         "buff_name": "雷引",
         "gain_attributes": {

@@ -3,7 +3,7 @@ from collections import defaultdict
 from typing import Dict
 
 from base.attribute import Attribute
-from base.skill import Skill
+from base.skill import Skill, DotDamage
 from utils.parser import School
 
 
@@ -46,22 +46,22 @@ def add_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill)
     if not snapshot_buffs:
         for buff in current_buffs:
             buff.add_all(attribute, skill)
-    else:
+    elif isinstance(skill, DotDamage):
         for buff in snapshot_buffs:
-            buff.add_snapshot(attribute, skill)
+            buff.add_dot(attribute, skill, True)
         for buff in current_buffs:
-            buff.add_current(attribute, skill)
+            buff.add_dot(attribute, skill, False)
 
 
 def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
     if not snapshot_buffs:
         for buff in current_buffs:
             buff.sub_all(attribute, skill)
-    else:
+    elif isinstance(skill, DotDamage):
         for buff in snapshot_buffs:
-            buff.sub_snapshot(attribute, skill)
+            buff.sub_dot(attribute, skill, True)
         for buff in current_buffs:
-            buff.sub_current(attribute, skill)
+            buff.sub_dot(attribute, skill, False)
 
 
 def concat_buffs(current_buffs, snapshot_buffs):
@@ -117,15 +117,17 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             for attr, residual_damage in detail.gradients.items():
                 skill_total.gradients[attr] += residual_damage * len(timeline)
 
-        total.expected_damage += skill_total.expected_damage
-        skill_summary.expected_damage += skill_total.expected_damage
-        skill_summary.critical_count += skill_total.critical_strike
-        skill_summary.count += skill_total.count
-
-        skill_total.damage /= skill_total.count
-        skill_total.critical_damage /= skill_total.count
-        skill_total.expected_damage /= skill_total.count
-        skill_total.critical_strike /= skill_total.count
+        if skill_total.count:
+            total.expected_damage += skill_total.expected_damage
+            skill_summary.expected_damage += skill_total.expected_damage
+            skill_summary.critical_count += skill_total.critical_strike
+            skill_summary.count += skill_total.count
+            skill_total.damage /= skill_total.count
+            skill_total.critical_damage /= skill_total.count
+            skill_total.expected_damage /= skill_total.count
+            skill_total.critical_strike /= skill_total.count
+        else:
+            summary.pop(skill_name)
         for attr, residual_damage in skill_total.gradients.items():
             total.gradients[attr] += residual_damage
             skill_total.gradients[attr] /= skill_total.count

@@ -20,6 +20,7 @@ class Buff:
     gain_attributes: ATTR_DICT = None
 
     SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition"]
+    PET_ATTRS = ["attack_power", "critical_power", "overcome", "strain"]
 
     def __post_init__(self):
         if self.gain_skills is None:
@@ -37,47 +38,24 @@ class Buff:
         else:
             return value
 
-    def add(self, attribute: Attribute, skill: Skill, snapshot=None):
-        if snapshot is None:
-            self.add_all(attribute, skill)
-        elif snapshot:
-            self.add_snapshot(attribute, skill)
-        else:
-            self.add_current(attribute, skill)
-
     def add_all(self, attribute: Attribute, skill: Skill):
         for attr, value in self.gain_attributes.items():
             setattr(attribute, attr, getattr(attribute, attr) + self.level_value(value) * self.buff_stack)
         for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
             setattr(skill, attr, getattr(skill, attr) + self.level_value(value) * self.buff_stack)
 
-    def add_snapshot(self, attribute: Attribute, skill: Skill):
+    def add_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
         for attr, value in self.gain_attributes.items():
-            if all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) + self.level_value(value) * self.buff_stack)
-        for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
-            if all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(skill, attr, getattr(skill, attr) + self.level_value(value) * self.buff_stack)
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + self.level_value(value) * self.buff_stack)
+            elif not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + self.level_value(value) * self.buff_stack)
 
-    def add_current(self, attribute: Attribute, skill: Skill):
-        for attr, value in self.gain_attributes.items():
-            if any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) + self.level_value(value) * self.buff_stack)
         for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
-            if any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(skill, attr, getattr(skill, attr) + self.level_value(value) * self.buff_stack)
-
-    def sub(self, attribute: Attribute, skill: Skill, snapshot=None):
-        if snapshot is None:
-            self.sub_all(attribute, skill)
-        elif snapshot:
-            self.sub_snapshot(attribute, skill)
-        else:
-            self.sub_current(attribute, skill)
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(skill, attr, getattr(skill, attr) + self.level_value(value) * self.buff_stack)
+            elif not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(skill, attr, getattr(skill, attr) + self.level_value(value) * self.buff_stack)
 
     def sub_all(self, attribute: Attribute, skill: Skill):
         for attr, value in self.gain_attributes.items():
@@ -85,22 +63,14 @@ class Buff:
         for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
             setattr(skill, attr, getattr(skill, attr) - self.level_value(value) * self.buff_stack)
 
-    def sub_snapshot(self, attribute: Attribute, skill: Skill):
+    def sub_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
         for attr, value in self.gain_attributes.items():
-            if all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) - self.level_value(value) * self.buff_stack)
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) - self.level_value(value) * self.buff_stack)
+            elif not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) - self.level_value(value) * self.buff_stack)
         for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
-            if all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(skill, attr, getattr(skill, attr) - self.level_value(value) * self.buff_stack)
-
-    def sub_current(self, attribute: Attribute, skill: Skill):
-        for attr, value in self.gain_attributes.items():
-            if any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) - self.level_value(value) * self.buff_stack)
-        for attr, value in self.gain_skills.get(skill.skill_id, {}).items():
-            if any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
-                continue
-            setattr(skill, attr, getattr(skill, attr) - self.level_value(value) * self.buff_stack)
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(skill, attr, getattr(skill, attr) - self.level_value(value) * self.buff_stack)
+            elif not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+                setattr(skill, attr, getattr(skill, attr) - self.level_value(value) * self.buff_stack)

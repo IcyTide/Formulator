@@ -1,0 +1,92 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Pyinstaller Packaging
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      PACKAGE_PREFIX: ${{ steps.get-package_prefix.outputs.PACKAGE_PREFIX }}
+      TAG_NAME: ${{ steps.get-package_prefix.outputs.TAG_NAME }}
+      HEAD_SHA_SHORT: ${{ steps.get-package_prefix.outputs.HEAD_SHA_SHORT }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: '0'
+      - name: get-package_prefix
+        id: get-package_prefix
+        run: |
+          LIB_NAME=Formulator
+          TAG_NAME=pre
+          HEAD_SHA_SHORT=$(git rev-parse --short HEAD)
+          echo "::set-output name=PACKAGE_PREFIX::${LIB_NAME}_${TAG_NAME}"
+          echo "::set-output name=TAG_NAME::${TAG_NAME}"
+          echo "::set-output name=HEAD_SHA_SHORT::${HEAD_SHA_SHORT}"
+
+  release:
+    needs: [setup]
+    runs-on: ubuntu-latest
+    outputs:
+      Up_Url: ${{ steps.create_release.outputs.upload_url }}
+    steps:
+      - name: create_release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v0.0
+          release_name: Pre Release
+          draft: true
+          prerelease: true
+
+  windows:
+    needs: [setup, release]
+    runs-on: windows-latest
+    env:
+      PACKAGENAME: ${{ needs.setup.outputs.PACKAGE_PREFIX }}_windows_x64
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyinstaller
+        pip install pyside6
+    - name: Build
+      run: |
+        mv qt/assets/icon.ico ./
+        pyinstaller -F -w -i icon.ico app.py 
+        mv dist formulator
+        mv qt/assets formulator/assets
+        mkdir ${{ env.PACKAGENAME }}
+        mv formulator ${{ env.PACKAGENAME }}
+        7z a -t7z -r "$($Env:PACKAGENAME + '.7z')" "formulator"
+    - name: Upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: formulator
+        path: ${{ env.PACKAGENAME }}
+    - name: upload-win
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ needs.release.outputs.Up_Url }}
+        asset_path: ${{ env.PACKAGENAME }}.7z
+        asset_name: ${{ env.PACKAGENAME }}.7z
+        asset_content_type: application/zip

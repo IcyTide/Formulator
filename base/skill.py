@@ -34,6 +34,7 @@ class Skill:
     weapon_damage_cof_gain: float = 0.
 
     skill_damage_addition: int = 0
+    skill_pve_addition: int = 0
     _skill_shield_gain: Union[List[int], int] = 0
     skill_critical_strike: int = 0
     skill_critical_power: int = 0
@@ -142,7 +143,7 @@ class Skill:
         damage = strain_result(damage, attribute.strain)
         critical_damage = strain_result(critical_damage, attribute.strain)
         damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)
         critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)
         critical_strike = min(1, attribute.critical_strike + self.skill_critical_strike_gain)
@@ -152,7 +153,27 @@ class Skill:
         return damage, critical_damage, expected_damage, critical_strike
 
 
-class PhysicalDamage(Skill):
+class DotSkill(Skill):
+    pass
+
+
+class DotConsumeSkill(Skill):
+    pass
+
+
+class Damage(Skill):
+    pass
+
+
+class DotDamage(Damage):
+    pass
+
+
+class PetDamage(Damage):
+    pass
+
+
+class PhysicalDamage(Damage):
     @property
     def attack_power_cof(self):
         return PHYSICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
@@ -162,13 +183,13 @@ class PhysicalDamage(Skill):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDamage(Skill):
+class MagicalDamage(Damage):
     @property
     def attack_power_cof(self):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
 
-class PhysicalDotDamage(Skill):
+class PhysicalDotDamage(DotDamage):
     @property
     def attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
@@ -178,7 +199,7 @@ class PhysicalDotDamage(Skill):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDotDamage(Skill):
+class MagicalDotDamage(DotDamage):
     @property
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
