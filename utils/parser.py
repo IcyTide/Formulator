@@ -93,9 +93,9 @@ SUPPORT_SCHOOL = {
         talents=shan_hai_xin_jue.TALENTS,
         talent_decoder=shan_hai_xin_jue.TALENT_DECODER,
         talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
-        recipe_gains=None,
-        recipes=None,
-        gains=None,
+        recipe_gains=shan_hai_xin_jue.RECIPE_GAINS,
+        recipes=shan_hai_xin_jue.RECIPES,
+        gains=shan_hai_xin_jue.GAINS,
         display_attrs={
             "agility": "身法",
             "base_physical_attack_power": "基础攻击",
@@ -310,6 +310,11 @@ class Parser:
             row = line.split("\t")
             if row[4] == "4":
                 self.parse_info(row[-1])
+
+        for player_id, school in self.school.items():
+            for talent_id in self.select_talents[player_id]:
+                school.talent_gains[talent_id].add_skills(school.skills)
+
         for line in lines:
             row = line.split("\t")
             if row[4] == "5":
@@ -321,6 +326,10 @@ class Parser:
             elif row[4] == "21":
                 self.parse_skill(row[-1], row[3])
 
+        for player_id, school in self.school.items():
+            for talent_id in self.select_talents[player_id]:
+                school.talent_gains[talent_id].sub_skills(school.skills)
+
         self.record_index = {
             player_id: {
                 f"{i + 1}:{round((end_time - self.start_time[player_id][i]) / 1000, 3)}": i
@@ -328,9 +337,3 @@ class Parser:
             }
             for player_id in self.end_time
         }
-
-
-if __name__ == '__main__':
-    parser = Parser()
-    parser("../new.jcl")
-    print(parser)

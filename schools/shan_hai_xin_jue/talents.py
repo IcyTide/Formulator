@@ -41,17 +41,27 @@ class 卢令(Gain):
 
 class 贯侯(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[26856].skill_pve_addition += 205
+        skills[36157].skill_pve_addition += 205
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[26856].skill_pve_addition -= 205
+        skills[36157].skill_pve_addition -= 205
+
+
+class 孰湖(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
+            skills[skill_id].skill_damage_addition += 62
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
+            skills[skill_id].skill_damage_addition -= 62
 
 
 TALENT_GAINS: Dict[int, Gain] = {
     35715: 素矰("素矰"),
     35714: 彤弓("彤弓"),
     35718: Gain("棘矢"),
-    35719: Gain("孰湖"),
+    35719: 孰湖("孰湖"),
     35721: Gain("襄尺"),
     35725: Gain("长右"),
     35729: Gain("鹿蜀"),

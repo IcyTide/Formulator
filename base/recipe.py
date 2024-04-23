@@ -31,9 +31,23 @@ class CriticalStrikeRecipe(RecipeGain):
             skills[skill_id].skill_critical_strike -= self.value
 
 
+class PveAdditionRecipe(RecipeGain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].skill_pve_addition += self.value
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].skill_pve_addition -= self.value
+
+
 def damage_addition_recipe(skill_ids, value, name="伤害增加"):
     return DamageAdditionRecipe(name, skill_ids, value)
 
 
 def critical_strike_recipe(skill_ids, value, name="会心增加"):
     return CriticalStrikeRecipe(name, skill_ids, value)
+
+
+def pve_addition_recipe(skill_ids, value, name="非侠伤害增加"):
+    return PveAdditionRecipe(name, skill_ids, value)
