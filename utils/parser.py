@@ -145,7 +145,6 @@ class Parser:
     ticks: Dict[int, Dict[int, int]]
     pets: Dict[int, int]
 
-    fight_flag: Dict[int, bool]
     start_time: Dict[int, List[int]]
     end_time: Dict[int, List[int]]
     record_index: Dict[int, Dict[str, int]]
@@ -188,7 +187,6 @@ class Parser:
         self.ticks = defaultdict(lambda: defaultdict(int))
         self.pets = {}
 
-        self.fight_flag = defaultdict(bool)
         self.start_time = defaultdict(list)
         self.end_time = defaultdict(list)
 
@@ -238,13 +236,11 @@ class Parser:
         player_id = int(detail[0])
         if player_id not in self.school:
             return
-        if detail[1] == "true":
+        if detail[1] == "true" and len(self.start_time[player_id]) == len(self.end_time[player_id]):
             self.start_time[player_id].append(int(timestamp))
             self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
-            self.fight_flag[player_id] = True
-        else:
+        elif detail[1] == "false" and len(self.start_time[player_id]) - len(self.end_time[player_id]) == 1:
             self.end_time[player_id].append(int(timestamp))
-            self.fight_flag[player_id] = False
 
     def parse_buff(self, row):
         detail = row.strip("{}").split(",")
@@ -267,11 +263,14 @@ class Parser:
         else:
             player_id = caster_id
 
-        if not self.fight_flag[player_id] or player_id not in self.school:
+        if player_id not in self.school:
             return
         skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
         if skill_id not in self.school[player_id].skills:
             return
+        if len(self.start_time[player_id]) == len(self.end_time[player_id]):
+            self.start_time[player_id].append(int(timestamp))
+            self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
         timestamp = int(timestamp) - self.start_time[player_id][-1]
         skill_stack = self.stacks[player_id][skill_id]
 

@@ -143,50 +143,11 @@ def STRENGTH_COF(level):
     return level * (0.7 + 0.3 * level) / 200
 
 
-# EQUIP_GAINS_NAME = {
-#     **equipment.EQUIP_GAINS_NAME,
-#     **wen_shui_jue.EQUIP_GAINS_NAME,
-#     **bei_ao_jue.EQUIP_GAINS_NAME,
-#     **bing_xin_jue.EQUIP_GAINS_NAME,
-#     **yi_jin_jing.EQUIP_GAINS_NAME,
-#     **ao_xue_zhan_yi.EQUIP_GAINS_NAME,
-#     **gu_feng_jue.EQUIP_GAINS_NAME,
-#     **fen_ying_sheng_jue.EQUIP_GAINS_NAME
-# }
-# EQUIP_GAINS = {
-#     **equipment.EQUIP_GAINS,
-#     **wen_shui_jue.EQUIP_GAINS,
-#     **bei_ao_jue.EQUIP_GAINS,
-#     **bing_xin_jue.EQUIP_GAINS,
-#     **yi_jin_jing.EQUIP_GAINS,
-#     **ao_xue_zhan_yi.EQUIP_GAINS,
-#     **gu_feng_jue.EQUIP_GAINS,
-#     **fen_ying_sheng_jue.EQUIP_GAINS
-# }
-
 """ Talent """
 MAX_TALENTS = 12
-
-# TALENT_GAINS = {
-#     **wen_shui_jue.TALENT_GAINS,
-#     **bei_ao_jue.TALENT_GAINS,
-#     **bing_xin_jue.TALENT_GAINS,
-#     **yi_jin_jing.TALENT_GAINS,
-#     **ao_xue_zhan_yi.TALENT_GAINS,
-#     **gu_feng_jue.TALENT_GAINS,
-#     **fen_ying_sheng_jue.TALENT_GAINS
-# }
 
 """ Recipes """
 MAX_RECIPE_SKILLS = 12
 MAX_RECIPES = 4
 
-# RECIPE_GAINS = {
-#     **wen_shui_jue.RECIPE_GAINS,
-#     **bei_ao_jue.RECIPE_GAINS,
-#     **bing_xin_jue.RECIPE_GAINS,
-#     **yi_jin_jing.RECIPE_GAINS,
-#     **ao_xue_zhan_yi.RECIPE_GAINS,
-#     **gu_feng_jue.RECIPE_GAINS,
-#     **fen_ying_sheng_jue.RECIPE_GAINS
-# }
+""" Consumables """

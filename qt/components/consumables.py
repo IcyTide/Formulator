@@ -43,7 +43,7 @@ class ConsumablesWidget(QWidget):
         self.spread = ComboWithLabel("宴席")
         self.consumables['spread'] = self.spread
         layout.addWidget(self.spread, 2, 2)
-        self.boiled_fish = ComboWithLabel("水煮鱼",  items=[""] + BOILED_FISH)
+        self.boiled_fish = ComboWithLabel("水煮鱼",  items=[""] + BOILED_FISH[""])
         self.consumables['boiled_fish'] = self.boiled_fish
         layout.addWidget(self.boiled_fish, 2, 3)
 

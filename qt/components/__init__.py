@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
 from PySide6.QtWidgets import QAbstractItemView, QTableWidgetItem, QHeaderView, QListView
-from PySide6.QtWidgets import QComboBox, QRadioButton, QTextBrowser, QLineEdit, QSpinBox, QListWidget, QTableWidget
+from PySide6.QtWidgets import QComboBox, QRadioButton, QLineEdit, QSpinBox, QDoubleSpinBox, QListWidget, QTableWidget
 
 
 class LabelWidget(QWidget):
@@ -146,6 +146,32 @@ class SpinWithLabel(LabelWidget):
     def set_value(self, value):
         self.spin_box.setValue(value)
 
+
+class DoubleSpinWithLabel(LabelWidget):
+    def __init__(self, label, info="", minimum=None, maximum=None, value=None):
+        super().__init__(label, info)
+        layout = QVBoxLayout()
+        self.setLayout(layout)
+
+        self.spin_box = QDoubleSpinBox()
+        if minimum:
+            self.spin_box.setMinimum(minimum)
+
+        if maximum:
+            self.spin_box.setMaximum(maximum + 1)
+        else:
+            self.spin_box.setMaximum(10 ** 8)
+
+        if value:
+            self.spin_box.setValue(value)
+
+        layout.addWidget(self.label)
+        layout.addWidget(self.spin_box)
+
+        layout.addStretch()
+
+    def set_value(self, value):
+        self.spin_box.setValue(value)
 
 class TextWithLabel(LabelWidget):
     def __init__(self, label):

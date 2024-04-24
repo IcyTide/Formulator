@@ -1,511 +1,307 @@
-""" Weapon Enchant """
+from typing import Tuple, List, Dict
 
 
-def physical_attack_power_enchant(value):
-    return {"physical_attack_power_base": value}
-
-
-def magical_attack_power_enchant(value):
-    return {"magical_attack_power_base": value}
-
-
-""" Spread """
-
-
-def agility_spread(value):
+def agility(value):
     return {"agility_base": value}
 
 
-def strength_spread(value):
+def strength(value):
     return {"strength_base": value}
 
 
-def spirit_spread(value):
+def spirit(value):
     return {"spirit_base": value}
 
 
-def spunk_spread(value):
+def spunk(value):
     return {"spunk_base": value}
 
 
-def physical_spread(value1, value2):
-    return {"physical_attack_power_base": value1,
-            "all_critical_strike_base": value2,
-            "surplus": value2}
+def physical_attack_power(value):
+    return {"physical_attack_power_base": value}
 
 
-def magical_spread(value1, value2):
-    return {"magical_attack_power_base": value1,
-            "all_critical_strike_base": value2,
-            "surplus": value2}
+def magical_attack_power(value):
+    return {"magical_attack_power_base": value}
+
+
+def surplus(value):
+    return {"surplus": value}
+
+
+def strain(value):
+    return {"strain_base": value}
+
+
+def haste(value):
+    return {"haste_base": value}
+
+
+def overcome(value):
+    return {"physical_overcome_base": value, "magical_overcome_base": value}
+
+
+def critical_strike(value):
+    return {"all_critical_strike_base": value}
+
+
+def physical_spread(values):
+    return {"physical_attack_power_base": values[0],
+            "all_critical_strike_base": values[1],
+            "surplus": values[1]}
+
+
+def magical_spread(values):
+    return {"magical_attack_power_base": values[0],
+            "all_critical_strike_base": values[1],
+            "surplus": values[1]}
 
 
 def guild_spread(value):
     return {"surplus": value, "strain_base": value}
 
 
-def boiled_fish_spread(value):
+def boiled_fish(value):
     return {"surplus": value, "strain_base": value}
 
 
-def guild_food(value):
-    return {"strain_base": value}
-
-
-""" Major Food """
-
-
-def agility_food(value):
-    return {"agility_base": value}
-
-
-def strength_food(value):
-    return {"strength_base": value}
-
-
-def spirit_food(value):
-    return {"spirit_base": value}
-
-
-def spunk_food(value):
-    return {"spunk_base": value}
-
-
-""" Minor Food """
-
-
-def physical_attack_power_food(value):
-    return {"physical_attack_power_base": value}
-
-
-def magical_attack_power_food(value):
-    return {"magical_attack_power_base": value}
-
-
-def surplus_food(value):
-    return {"surplus": value}
-
-
-def haste_food(value):
-    return {"haste_base": value}
-
-
-def all_overcome_food(value):
-    return {"physical_overcome_base": value, "magical_overcome_base": value}
-
-
-def all_critical_strike_food(value):
-    return {"all_critical_strike_base": value}
-
-
-""" Major Potion """
-
-
-def agility_potion(value):
-    return {"agility_base": value}
-
-
-def strength_potion(value):
-    return {"strength_base": value}
-
-
-def spirit_potion(value):
-    return {"spirit_base": value}
-
-
-def spunk_potion(value):
-    return {"spunk_base": value}
-
-
-""" Minor Potion """
-
-
-def physical_attack_power_potion(value):
-    return {"physical_attack_power_base": value}
-
-
-def magical_attack_power_potion(value):
-    return {"magical_attack_power_base": value}
-
-
-def surplus_potion(value):
-    return {"surplus": value}
-
-
-def haste_potion(value):
-    return {"haste_base": value}
-
-
-def all_overcome_potion(value):
-    return {"physical_overcome_base": value, "magical_overcome_base": value}
-
-
-def all_critical_strike_potion(value):
-    return {"all_critical_strike_base": value}
-
-
-""" Wine """
-
-
-def agility_wine(value):
-    return {"agility_base": value}
-
-
-def strength_wine(value):
-    return {"strength_base": value}
-
-
-def spirit_wine(value):
-    return {"spirit_base": value}
-
-
-def spunk_wine(value):
-    return {"spunk_base": value}
-
-
-def haste_wine(value):
-    return {"haste_base": value}
-
-
-""" Snack """
-
-
-def physical_attack_power_snack(value):
-    return {"physical_attack_power_base": value}
-
-
-def magical_attack_power_snack(value):
-    return {"magical_attack_power_base": value}
-
-
-def strain_snack(value):
-    return {"strain_base": value}
-
-
-def critical_snack(value):
-    return {"all_critical_strike_base": value}
-
-
-def overcome_snack(value):
-    return {"physical_overcome_base": value, "magical_overcome_base": value}
-
-
 class CONSUMABLES_NUMBER:
-    major_food_max: int = 347
-    major_food_min: int = 173
+    major_food_max: int = 382
+    major_food_min: int = 191
 
-    physical_food_max: int = 696
-    physical_food_min: int = 348
-    magical_food_max: int = 831
-    magical_food_min: int = 415
+    physical_food_max: int = 768
+    physical_food_min: int = 384
+    magical_food_max: int = 917
+    magical_food_min: int = 458
 
-    minor_food_max: int = 1545
-    minor_food_min: int = 773
+    minor_food_max: int = 1705
+    minor_food_min: int = 853
 
-    major_potion_max: int = 446
-    major_potion_min: int = 223
+    major_potion_max: int = 492
+    major_potion_min: int = 246
 
-    physical_potion_max: int = 895
-    physical_potion_min: int = 448
-    magical_potion_max: int = 1068
-    magical_potion_min: int = 534
+    physical_potion_max: int = 988
+    physical_potion_min: int = 494
+    magical_potion_max: int = 1179
+    magical_potion_min: int = 589
 
-    minor_potion_max: int = 1987
-    minor_potion_min: int = 993
+    minor_potion_max: int = 2192
+    minor_potion_min: int = 1096
 
-    physical_enchant_max: int = 597
-    physical_enchant_min: int = 298
-    magical_enchant_max: int = 712
-    magical_enchant_min: int = 356
+    physical_enchant_max: int = 658
+    physical_enchant_min: int = 439
+    magical_enchant_max: int = 786
+    magical_enchant_min: int = 524
 
     minor_snack_max: int = 1934
-    minor_snack_min: int = 858
-    physical_snack: int = 866
-    magical_snack: int = 1038
+    minor_snack_min: int = 1074
+    physical_snack_max: int = 866
+    physical_snack_min: int = 480
+    magical_snack_max: int = 1038
+    magical_snack_min: int = 576
 
     major_wine: int = 256
     haste_wine: int = 1144
 
-    guild_spread: int = 234
+    guild_spread: int = 258
     guild_food: int = 517
-    major_spread: int = 396
-    physical_spread: int = 398
-    magical_spread: int = 475
-    minor_spread: int = 883
+
+    major_spread: int = 437
+    physical_spread: Tuple[int, int] = (439, 975)
+    magical_spread: Tuple[int, int] = (524, 975)
+
     boiled_fish_max: int = 400
     boiled_fish_min: int = 100
 
 
-CONSUMABLES = {
-    f"杂锦鱼球粥({CONSUMABLES_NUMBER.major_food_max}身法)": agility_food(CONSUMABLES_NUMBER.major_food_max),
-    f"杂碎汤({CONSUMABLES_NUMBER.major_food_min}身法)": agility_food(CONSUMABLES_NUMBER.major_food_min),
-
-    f"三鲜粥({CONSUMABLES_NUMBER.major_food_max}力道)": strength_food(CONSUMABLES_NUMBER.major_food_max),
-    f"三鲜汤({CONSUMABLES_NUMBER.major_food_min}力道)": strength_food(CONSUMABLES_NUMBER.major_food_min),
-
-    f"咸骨粥({CONSUMABLES_NUMBER.major_food_max}根骨)": spirit_food(CONSUMABLES_NUMBER.major_food_max),
-    f"老火骨汤({CONSUMABLES_NUMBER.major_food_min}根骨)": spirit_food(CONSUMABLES_NUMBER.major_food_min),
-
-    f"鱼片砂锅粥({CONSUMABLES_NUMBER.major_food_max}元气)": spunk_food(CONSUMABLES_NUMBER.major_food_max),
-    f"鱼头豆腐汤({CONSUMABLES_NUMBER.major_food_min}元气)": spunk_food(CONSUMABLES_NUMBER.major_food_min),
-
-    f"太后饼({CONSUMABLES_NUMBER.physical_food_max}外攻)":
-        physical_attack_power_food(CONSUMABLES_NUMBER.physical_food_max),
-    f"煎饼果子({CONSUMABLES_NUMBER.physical_food_min}外攻)":
-        physical_attack_power_food(CONSUMABLES_NUMBER.physical_food_min),
-
-    f"灌汤包({CONSUMABLES_NUMBER.magical_food_max}内攻)":
-        magical_attack_power_food(CONSUMABLES_NUMBER.magical_food_max),
-    f"鲜肉包子({CONSUMABLES_NUMBER.magical_food_min}内攻)":
-        magical_attack_power_food(CONSUMABLES_NUMBER.magical_food_min),
-
-    f"白肉血肠({CONSUMABLES_NUMBER.minor_food_max}破招)":
-        surplus_food(CONSUMABLES_NUMBER.minor_food_max),
-    f"红烧扣肉({CONSUMABLES_NUMBER.minor_food_max}加速)":
-        haste_food(CONSUMABLES_NUMBER.minor_food_max),
-    f"红烧排骨({CONSUMABLES_NUMBER.minor_food_max}破防)":
-        all_overcome_food(CONSUMABLES_NUMBER.minor_food_max),
-    f"酸菜鱼({CONSUMABLES_NUMBER.minor_food_max}会心)":
-        all_critical_strike_food(CONSUMABLES_NUMBER.minor_food_max),
-    f"毛血旺({CONSUMABLES_NUMBER.minor_food_min}破招)":
-        surplus_food(CONSUMABLES_NUMBER.minor_food_min),
-    f"栗子烧肉({CONSUMABLES_NUMBER.minor_food_min}加速)":
-        haste_food(CONSUMABLES_NUMBER.minor_food_min),
-    f"水煮肉片({CONSUMABLES_NUMBER.minor_food_min}破防)":
-        all_overcome_food(CONSUMABLES_NUMBER.minor_food_min),
-    f"鱼香肉丝({CONSUMABLES_NUMBER.minor_food_min}会心)":
-        all_critical_strike_food(CONSUMABLES_NUMBER.minor_food_min),
-
-    f"上品轻身丹({CONSUMABLES_NUMBER.major_potion_max}身法)":
-        agility_potion(CONSUMABLES_NUMBER.major_potion_max),
-    f"中品轻身丹({CONSUMABLES_NUMBER.major_potion_min}身法)":
-        agility_potion(CONSUMABLES_NUMBER.major_potion_min),
-
-    f"上品大力丸({CONSUMABLES_NUMBER.major_potion_max}力道)":
-        strength_potion(CONSUMABLES_NUMBER.major_potion_max),
-    f"中品大力丸({CONSUMABLES_NUMBER.major_potion_min}力道)":
-        strength_potion(CONSUMABLES_NUMBER.major_potion_min),
-
-    f"上品静心丸({CONSUMABLES_NUMBER.major_potion_max}根骨)":
-        spirit_potion(CONSUMABLES_NUMBER.major_potion_max),
-    f"中品静心丸({CONSUMABLES_NUMBER.major_potion_min}根骨)":
-        spirit_potion(CONSUMABLES_NUMBER.major_potion_min),
-
-    f"上品聚魂丹({CONSUMABLES_NUMBER.major_potion_max}元气)":
-        spunk_potion(CONSUMABLES_NUMBER.major_potion_max),
-    f"中品聚魂丹({CONSUMABLES_NUMBER.major_potion_min}元气)":
-        spunk_potion(CONSUMABLES_NUMBER.major_potion_min),
-
-    f"上品亢龙散({CONSUMABLES_NUMBER.physical_potion_max}外攻)":
-        physical_attack_power_potion(CONSUMABLES_NUMBER.physical_potion_max),
-    f"中品亢龙散({CONSUMABLES_NUMBER.physical_potion_min}外攻)":
-        physical_attack_power_potion(CONSUMABLES_NUMBER.physical_potion_min),
-
-    f"上品展凤散({CONSUMABLES_NUMBER.magical_potion_max}内攻)":
-        magical_attack_power_potion(CONSUMABLES_NUMBER.magical_potion_max),
-    f"中品展凤散({CONSUMABLES_NUMBER.magical_potion_min}内攻)":
-        magical_attack_power_potion(CONSUMABLES_NUMBER.magical_potion_min),
-
-    f"上品凝神散({CONSUMABLES_NUMBER.minor_potion_max}破招)":
-        surplus_potion(CONSUMABLES_NUMBER.minor_potion_max),
-    f"上品活气散({CONSUMABLES_NUMBER.minor_potion_max}加速)":
-        haste_potion(CONSUMABLES_NUMBER.minor_potion_max),
-    f"上品破秽散({CONSUMABLES_NUMBER.minor_potion_max}破防)":
-        all_overcome_potion(CONSUMABLES_NUMBER.minor_potion_max),
-    f"上品玉璃散({CONSUMABLES_NUMBER.minor_potion_max}会心)":
-        all_critical_strike_potion(CONSUMABLES_NUMBER.minor_potion_max),
-    f"中品凝神散({CONSUMABLES_NUMBER.minor_potion_min}破招)":
-        surplus_potion(CONSUMABLES_NUMBER.minor_potion_min),
-    f"中品活气散({CONSUMABLES_NUMBER.minor_potion_min}加速)":
-        haste_potion(CONSUMABLES_NUMBER.minor_potion_min),
-    f"中品破秽散({CONSUMABLES_NUMBER.minor_potion_min}破防)":
-        all_overcome_potion(CONSUMABLES_NUMBER.minor_potion_min),
-    f"中品玉璃散({CONSUMABLES_NUMBER.minor_potion_min}会心)":
-        all_critical_strike_potion(CONSUMABLES_NUMBER.minor_potion_min),
-
-    f"瀑沙熔锭({CONSUMABLES_NUMBER.physical_enchant_max}外攻)":
-        physical_attack_power_enchant(CONSUMABLES_NUMBER.physical_enchant_max),
-    f"瀑沙磨石({CONSUMABLES_NUMBER.physical_enchant_min}外攻)":
-        physical_attack_power_enchant(CONSUMABLES_NUMBER.physical_enchant_min),
-    f"坠宵熔锭({CONSUMABLES_NUMBER.magical_enchant_max}内攻)":
-        magical_attack_power_enchant(CONSUMABLES_NUMBER.magical_enchant_max),
-    f"坠宵磨石({CONSUMABLES_NUMBER.magical_enchant_min}内攻)":
-        magical_attack_power_enchant(CONSUMABLES_NUMBER.magical_enchant_min),
-
-    f"创意料理({CONSUMABLES_NUMBER.physical_snack})外攻":
-        physical_attack_power_snack(CONSUMABLES_NUMBER.physical_snack),
-    f"创意料理({CONSUMABLES_NUMBER.magical_snack})内攻":
-        magical_attack_power_snack(CONSUMABLES_NUMBER.magical_snack),
-    f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})无双":
-        strain_snack(CONSUMABLES_NUMBER.minor_snack_max),
-    f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})会心":
-        critical_snack(CONSUMABLES_NUMBER.minor_snack_max),
-    f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})破防":
-        overcome_snack(CONSUMABLES_NUMBER.minor_snack_max),
-
-    f"关外白酒·旬又三({CONSUMABLES_NUMBER.major_wine}身法)":
-        agility_wine(CONSUMABLES_NUMBER.major_wine),
-    f"汾酒·旬又三({CONSUMABLES_NUMBER.major_wine}力道)":
-        strength_wine(CONSUMABLES_NUMBER.major_wine),
-    f"高粱酒·旬又三({CONSUMABLES_NUMBER.major_wine}根骨)":
-        spirit_wine(CONSUMABLES_NUMBER.major_wine),
-    f"状元红·旬又三({CONSUMABLES_NUMBER.major_wine}元气)":
-        spunk_wine(CONSUMABLES_NUMBER.major_wine),
-
-    f"女儿红·旬又三({CONSUMABLES_NUMBER.haste_wine}加速)":
-        haste_wine(CONSUMABLES_NUMBER.haste_wine),
-
-    "guild_spread":
-        guild_spread(CONSUMABLES_NUMBER.guild_spread),
-    "guild_food":
-        guild_food(CONSUMABLES_NUMBER.guild_food),
-
-    f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}身法)":
-        agility_spread(CONSUMABLES_NUMBER.major_spread),
-    f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}力道)":
-        strength_spread(CONSUMABLES_NUMBER.major_spread),
-    f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}根骨)":
-        spirit_spread(CONSUMABLES_NUMBER.major_spread),
-    f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}元气)":
-        spunk_spread(CONSUMABLES_NUMBER.major_spread),
-
-    f"玉笛谁家听落梅({CONSUMABLES_NUMBER.physical_spread}外攻{CONSUMABLES_NUMBER.minor_spread}会心/破招)":
-        physical_spread(CONSUMABLES_NUMBER.physical_spread, CONSUMABLES_NUMBER.minor_spread),
-    f"二十四桥明月夜({CONSUMABLES_NUMBER.magical_spread}内攻{CONSUMABLES_NUMBER.minor_spread}会心/破招)":
-        magical_spread(CONSUMABLES_NUMBER.magical_spread, CONSUMABLES_NUMBER.minor_spread),
-
-    f"炼狱水煮鱼({CONSUMABLES_NUMBER.boiled_fish_min}破招/无双)":
-        boiled_fish_spread(CONSUMABLES_NUMBER.boiled_fish_min),
-    f"百炼水煮鱼({CONSUMABLES_NUMBER.boiled_fish_max}破招/无双)":
-        boiled_fish_spread(CONSUMABLES_NUMBER.boiled_fish_max)
+FUNCTION_MAP = {
+    "身法": agility,
+    "力道": strength,
+    "根骨": spirit,
+    "元气": spunk,
+    "外攻": physical_attack_power,
+    "内攻": magical_attack_power,
+    "破招": surplus,
+    "无双": strain,
+    "加速": haste,
+    "破防": overcome,
+    "会心": critical_strike,
+    ("外攻", "会心/破招"): physical_spread,
+    ("内攻", "会心/破招"): magical_spread,
+    "破招/无双": boiled_fish
+}
+NAME_MAP = {
+    "身法": "身法",
+    "力道": "力道",
+    "根骨": "根骨",
+    "元气": "元气",
+    "外攻": "外功",
+    "内攻": "内功",
+    "破招": "",
+    "无双": "",
+    "加速": "",
+    "破防": "",
+    "会心": "",
+    ("外攻", "会心/破招"): "外功",
+    ("内攻", "会心/破招"): "内功",
+    "破招/无双": ""
+}
+FOODS: Dict[str, dict | list] = {
+    "身法": {
+        CONSUMABLES_NUMBER.major_food_max: "杂锦鱼球粥",
+        CONSUMABLES_NUMBER.major_food_min: "杂碎汤"
+    },
+    "力道": {
+        CONSUMABLES_NUMBER.major_food_max: "三鲜粥",
+        CONSUMABLES_NUMBER.major_food_min: "三鲜汤"
+    },
+    "根骨": {
+        CONSUMABLES_NUMBER.major_food_max: "咸骨粥",
+        CONSUMABLES_NUMBER.major_food_min: "老火骨汤"
+    },
+    "元气": {
+        CONSUMABLES_NUMBER.major_food_max: "鱼片砂锅粥",
+        CONSUMABLES_NUMBER.major_food_min: "鱼头豆腐汤"
+    },
+    "外攻": {
+        CONSUMABLES_NUMBER.physical_food_max: "太后饼",
+        CONSUMABLES_NUMBER.physical_food_min: "煎饼果子"
+    },
+    "内攻": {
+        CONSUMABLES_NUMBER.magical_food_max: "灌汤包",
+        CONSUMABLES_NUMBER.magical_food_min: "鲜肉包子"
+    },
+    "破招": {
+        CONSUMABLES_NUMBER.minor_food_max: "白肉血肠",
+        CONSUMABLES_NUMBER.minor_food_min: "毛血旺"
+    },
+    "加速": {
+        CONSUMABLES_NUMBER.minor_food_max: "红烧扣肉",
+        CONSUMABLES_NUMBER.minor_food_min: "栗子烧肉"
+    },
+    "破防": {
+        CONSUMABLES_NUMBER.minor_food_max: "红烧排骨",
+        CONSUMABLES_NUMBER.minor_food_min: "水煮肉片"
+    },
+    "会心": {
+        CONSUMABLES_NUMBER.minor_food_max: "酸菜鱼",
+        CONSUMABLES_NUMBER.minor_food_min: "鱼香肉丝"
+    }
+}
+POTIONS: Dict[str, dict | list] = {
+    "身法": {
+        CONSUMABLES_NUMBER.major_potion_max: "上品轻身丹",
+        CONSUMABLES_NUMBER.major_potion_min: "中品轻身丹"
+    },
+    "力道": {
+        CONSUMABLES_NUMBER.major_potion_max: "上品大力丸",
+        CONSUMABLES_NUMBER.major_potion_min: "中品大力丸"
+    },
+    "根骨": {
+        CONSUMABLES_NUMBER.major_potion_max: "上品静心丸",
+        CONSUMABLES_NUMBER.major_potion_min: "中品静心丸"
+    },
+    "元气": {
+        CONSUMABLES_NUMBER.major_potion_max: "上品聚魂丹",
+        CONSUMABLES_NUMBER.major_potion_min: "中品聚魂丹"
+    },
+    "外攻": {
+        CONSUMABLES_NUMBER.physical_potion_max: "上品亢龙散",
+        CONSUMABLES_NUMBER.physical_potion_min: "中品亢龙散"
+    },
+    "内攻": {
+        CONSUMABLES_NUMBER.magical_potion_max: "上品展凤散",
+        CONSUMABLES_NUMBER.magical_potion_min: "中品展凤散"
+    },
+    "破招": {
+        CONSUMABLES_NUMBER.minor_potion_max: "上品凝神散",
+        CONSUMABLES_NUMBER.minor_potion_min: "中品凝神散"
+    },
+    "加速": {
+        CONSUMABLES_NUMBER.minor_potion_max: "上品活气散",
+        CONSUMABLES_NUMBER.minor_potion_min: "中品活气散"
+    },
+    "破防": {
+        CONSUMABLES_NUMBER.minor_potion_max: "上品破秽散",
+        CONSUMABLES_NUMBER.minor_potion_min: "中品破秽散"
+    },
+    "会心": {
+        CONSUMABLES_NUMBER.minor_potion_max: "上品玉璃散",
+        CONSUMABLES_NUMBER.minor_potion_min: "中品玉璃散"
+    }
+}
+WEAPON_ENCHANTS: Dict[str, dict | list] = {
+    "外攻": {
+        CONSUMABLES_NUMBER.physical_enchant_max: "瀑沙熔锭",
+        CONSUMABLES_NUMBER.physical_enchant_min: "瀑沙磨石"
+    },
+    "内攻": {
+        CONSUMABLES_NUMBER.magical_enchant_max: "坠宵熔锭",
+        CONSUMABLES_NUMBER.magical_enchant_min: "坠宵磨石"
+    }
+}
+SNACKS: Dict[str, dict | list] = {
+    "外攻": {
+        CONSUMABLES_NUMBER.physical_snack_max: "创意料理",
+        CONSUMABLES_NUMBER.physical_snack_min: "葫芦叫花鸡"
+    },
+    "内攻": {
+        CONSUMABLES_NUMBER.magical_snack_max: "创意料理",
+        CONSUMABLES_NUMBER.magical_snack_min: "小炒青菜"
+    },
+    "无双": {
+        CONSUMABLES_NUMBER.minor_snack_max: "创意料理",
+        CONSUMABLES_NUMBER.minor_snack_min: "炖豆腐"
+    },
+    "破招": {CONSUMABLES_NUMBER.minor_snack_min: "煎豆腐"},
+    "破防": {
+        CONSUMABLES_NUMBER.minor_snack_max: "创意料理",
+        CONSUMABLES_NUMBER.minor_snack_min: "炸鱼干"
+    },
+    "会心": {
+        CONSUMABLES_NUMBER.minor_snack_max: "创意料理",
+        CONSUMABLES_NUMBER.minor_snack_min: "清蒸鲈鱼"
+    }
+}
+WINES: Dict[str, dict | list] = {
+    "身法": {CONSUMABLES_NUMBER.major_wine: "关外白酒·旬又三"},
+    "力道": {CONSUMABLES_NUMBER.major_wine: "汾酒·旬又三"},
+    "根骨": {CONSUMABLES_NUMBER.major_wine: "高粱酒·旬又三"},
+    "元气": {CONSUMABLES_NUMBER.major_wine: "状元红·旬又三"},
+    "加速": {CONSUMABLES_NUMBER.haste_wine: "女儿红·旬又三"}
+}
+SPREADS: Dict[str, dict | list] = {
+    "身法": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
+    "力道": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
+    "根骨": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
+    "元气": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
+    ("外攻", "会心/破招"): {CONSUMABLES_NUMBER.physical_spread: "玉笛谁家听落梅"},
+    ("内攻", "会心/破招"): {CONSUMABLES_NUMBER.magical_spread: "二十四桥明月夜"},
 }
 
-BOILED_FISH = [
-    f"炼狱水煮鱼({CONSUMABLES_NUMBER.boiled_fish_min}破招/无双)",
-    f"百炼水煮鱼({CONSUMABLES_NUMBER.boiled_fish_max}破招/无双)"
-]
-FOODS = {
-    "身法": [
-        f"杂锦鱼球粥({CONSUMABLES_NUMBER.major_food_max}身法)",
-        f"杂碎汤({CONSUMABLES_NUMBER.major_food_min}身法)",
-    ],
-    "力道": [
-        f"三鲜粥({CONSUMABLES_NUMBER.major_food_max}力道)",
-        f"三鲜汤({CONSUMABLES_NUMBER.major_food_min}力道)"
-    ],
-    "根骨": [
-        f"咸骨粥({CONSUMABLES_NUMBER.major_food_max}根骨)",
-        f"老火骨汤({CONSUMABLES_NUMBER.major_food_min}根骨)"
-    ],
-    "元气": [
-        f"鱼片砂锅粥({CONSUMABLES_NUMBER.major_food_max}元气)",
-        f"鱼头豆腐汤({CONSUMABLES_NUMBER.major_food_min}元气)"
-    ],
-    "": [
-        f"白肉血肠({CONSUMABLES_NUMBER.minor_food_max}破招)",
-        f"红烧扣肉({CONSUMABLES_NUMBER.minor_food_max}加速)",
-        f"红烧排骨({CONSUMABLES_NUMBER.minor_food_max}破防)",
-        f"酸菜鱼({CONSUMABLES_NUMBER.minor_food_max}会心)",
-        f"毛血旺({CONSUMABLES_NUMBER.minor_food_min}破招)",
-        f"栗子烧肉({CONSUMABLES_NUMBER.minor_food_min}加速)",
-        f"水煮肉片({CONSUMABLES_NUMBER.minor_food_min}破防)",
-        f"鱼香肉丝({CONSUMABLES_NUMBER.minor_food_min}会心)"
-    ],
-    "外功": [
-        f"太后饼({CONSUMABLES_NUMBER.physical_food_max}外攻)",
-        f"煎饼果子({CONSUMABLES_NUMBER.physical_food_min}外攻)"
-    ],
-    "内功": [
-        f"灌汤包({CONSUMABLES_NUMBER.magical_food_max}内攻)",
-        f"鲜肉包子({CONSUMABLES_NUMBER.magical_food_min}内攻)"
-    ]
-}
-POTIONS = {
-    "身法": [
-        f"上品轻身丹({CONSUMABLES_NUMBER.major_potion_max}身法)",
-        f"中品轻身丹({CONSUMABLES_NUMBER.major_potion_min}身法)",
-    ],
-    "力道": [
-        f"上品大力丸({CONSUMABLES_NUMBER.major_potion_max}力道)",
-        f"中品大力丸({CONSUMABLES_NUMBER.major_potion_min}力道)"
-    ],
-    "根骨": [
-        f"上品静心丸({CONSUMABLES_NUMBER.major_potion_max}根骨)",
-        f"中品静心丸({CONSUMABLES_NUMBER.major_potion_min}根骨)"
-    ],
-    "元气": [
-        f"上品聚魂丹({CONSUMABLES_NUMBER.major_potion_max}元气)",
-        f"中品聚魂丹({CONSUMABLES_NUMBER.major_potion_min}元气)"
-    ],
-    "": [
-        f"上品凝神散({CONSUMABLES_NUMBER.minor_potion_max}破招)",
-        f"上品活气散({CONSUMABLES_NUMBER.minor_potion_max}加速)",
-        f"上品破秽散({CONSUMABLES_NUMBER.minor_potion_max}破防)",
-        f"上品玉璃散({CONSUMABLES_NUMBER.minor_potion_max}会心)",
-        f"中品凝神散({CONSUMABLES_NUMBER.minor_potion_min}破招)",
-        f"中品活气散({CONSUMABLES_NUMBER.minor_potion_min}加速)",
-        f"中品破秽散({CONSUMABLES_NUMBER.minor_potion_min}破防)",
-        f"中品玉璃散({CONSUMABLES_NUMBER.minor_potion_min}会心)"
-    ],
-    "外功": [
-        f"上品亢龙散({CONSUMABLES_NUMBER.physical_potion_max}外攻)",
-        f"中品亢龙散({CONSUMABLES_NUMBER.physical_potion_min}外攻)"
-    ],
-    "内功": [
-        f"上品展凤散({CONSUMABLES_NUMBER.magical_potion_max}内攻)",
-        f"中品展凤散({CONSUMABLES_NUMBER.magical_potion_min}内攻)"
-    ]
-}
-WEAPON_ENCHANTS = {
-    "外功": [
-        f"瀑沙熔锭({CONSUMABLES_NUMBER.physical_enchant_max}外攻)",
-        f"瀑沙磨石({CONSUMABLES_NUMBER.physical_enchant_min}外攻)"
-    ],
-    "内功": [
-        f"坠宵熔锭({CONSUMABLES_NUMBER.magical_enchant_max}内攻)",
-        f"坠宵磨石({CONSUMABLES_NUMBER.magical_enchant_min}内攻)"
-    ]
-}
-SNACKS = {
-    "": [
-        f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})无双",
-        f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})会心",
-        f"创意料理({CONSUMABLES_NUMBER.minor_snack_max})破防",
-    ],
-    "外功": [
-        f"创意料理({CONSUMABLES_NUMBER.physical_snack})外攻"
-    ],
-    "内功": [
-        f"创意料理({CONSUMABLES_NUMBER.magical_snack})内攻"
-    ]
-}
-WINES = {
-    "": [f"女儿红·旬又三({CONSUMABLES_NUMBER.haste_wine}加速)"],
-    "身法": [f"关外白酒·旬又三({CONSUMABLES_NUMBER.major_wine}身法)"],
-    "力道": [f"汾酒·旬又三({CONSUMABLES_NUMBER.major_wine}力道)"],
-    "根骨": [f"高粱酒·旬又三({CONSUMABLES_NUMBER.major_wine}根骨)"],
-    "元气": [f"状元红·旬又三({CONSUMABLES_NUMBER.major_wine}元气)"]
-
-}
 GUILD_FOOD = f"{CONSUMABLES_NUMBER.guild_food}无双"
 GUILD_SPREAD = f"{CONSUMABLES_NUMBER.guild_spread}破招/无双"
-SPREADS = {
-    "身法": [
-        f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}身法)"
-    ],
-    "力道": [
-        f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}力道)"
-    ],
-    "根骨": [
-        f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}根骨)"
-    ],
-    "元气": [
-        f"水晶芙蓉宴({CONSUMABLES_NUMBER.major_spread}元气)"
-    ],
-    "外功": [
-        f"玉笛谁家听落梅({CONSUMABLES_NUMBER.physical_spread}外攻{CONSUMABLES_NUMBER.minor_spread}会心/破招)"
-    ],
-    "内功": [
-        f"二十四桥明月夜({CONSUMABLES_NUMBER.magical_spread}内攻{CONSUMABLES_NUMBER.minor_spread}会心/破招)"
-    ]
+
+BOILED_FISH: Dict[str, dict | list] = {
+    "破招/无双": {
+        CONSUMABLES_NUMBER.boiled_fish_max: "百炼水煮鱼",
+        CONSUMABLES_NUMBER.boiled_fish_min: "炼狱水煮鱼"
+    }
 }
+
+CONSUMABLES = {}
+for consumables in [FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, BOILED_FISH]:
+    for attr, params in consumables.copy().items():
+        consumables.pop(attr)
+        if NAME_MAP[attr] not in consumables:
+            consumables[NAME_MAP[attr]] = []
+        for param, name in params.items():
+            if isinstance(attr, tuple) and isinstance(param, tuple):
+                name = f"{name}({''.join(f'{p}{a}' for p, a in zip(param, attr))})"
+            else:
+                name = f"{name}({param}{attr})"
+            consumables[NAME_MAP[attr]].append(name)
+            CONSUMABLES[name] = FUNCTION_MAP[attr](param)
+
+CONSUMABLES["guild_food"] = strain(CONSUMABLES_NUMBER.guild_food)
+CONSUMABLES["guild_spread"] = guild_spread(CONSUMABLES_NUMBER.guild_spread)

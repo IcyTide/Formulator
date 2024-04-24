@@ -69,17 +69,17 @@ jobs:
         pip install pyside6
     - name: Build
       run: |
-        mv qt/assets/icon.ico ./
-        pyinstaller -F -w -i icon.ico app.py 
-        mv dist formulator
-        mv qt/assets formulator/assets
+        pyinstaller -F -w -i qt/assets/icon.ico qt/app.py 
+        mv dist Formulator
+        mkdir Formulator/qt
+        mv qt/assets Formulator/qt/assets
         mkdir ${{ env.PACKAGENAME }}
-        mv formulator ${{ env.PACKAGENAME }}
-        7z a -t7z -r "$($Env:PACKAGENAME + '.7z')" "formulator"
+        mv Formulator ${{ env.PACKAGENAME }}
+        7z a -t7z -r "$($Env:PACKAGENAME + '.7z')" "Formulator"
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
-        name: formulator
+        name: Formulator
         path: ${{ env.PACKAGENAME }}
     - name: upload-win
       uses: actions/upload-release-asset@v1
