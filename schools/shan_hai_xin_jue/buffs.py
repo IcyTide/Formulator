@@ -16,7 +16,14 @@ BUFFS: Dict[int, Buff | dict] = {
         "gain_attributes": {
             "all_damage_addition": 62
         }
-    }
+    },
+    27099: {
+        "buff_name": "诸怀",
+        "gain_attributes": {
+            "all_shield_ignore": 205,
+            "physical_attack_power_gain": 102
+        }
+    },
 }
 
 for buff_id, detail in BUFFS.items():

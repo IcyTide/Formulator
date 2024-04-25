@@ -20,7 +20,6 @@ class Buff:
     gain_attributes: ATTR_DICT = None
 
     SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition"]
-    PET_ATTRS = ["attack_power", "critical_power", "overcome", "strain"]
 
     def __post_init__(self):
         if self.gain_skills is None:
