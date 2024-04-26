@@ -392,6 +392,18 @@ class Attribute(Major, Minor, Target):
 
 
 class PhysicalAttribute(Attribute):
+    grad_attrs = {
+        "agility_base": MAJOR_DELTA,
+        "strength_base": MAJOR_DELTA,
+        "surplus": MINOR_DELTA,
+        "strain_base": MINOR_DELTA,
+        "physical_attack_power_base": PHYSICAL_DELTA,
+        "physical_critical_strike_base": MINOR_DELTA,
+        "physical_critical_power_base": MINOR_DELTA,
+        "physical_overcome_base": MINOR_DELTA,
+        "weapon_damage_base": WEAPON_DELTA
+    }
+
     @property
     def attack_power(self):
         return self.physical_attack_power

@@ -119,20 +119,20 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
 
         if skill_total.count:
             total.expected_damage += skill_total.expected_damage
+            skill_summary.expected_damage += skill_total.expected_damage
+            skill_summary.critical_count += skill_total.critical_strike
+            skill_summary.count += skill_total.count
             skill_total.damage /= skill_total.count
             skill_total.critical_damage /= skill_total.count
             skill_total.expected_damage /= skill_total.count
             skill_total.critical_strike /= skill_total.count
-            skill_summary.expected_damage += skill_total.expected_damage
-            skill_summary.critical_count += skill_total.critical_strike
-            skill_summary.count += skill_total.count
             for attr, residual_damage in skill_total.gradients.items():
                 total.gradients[attr] += residual_damage
                 skill_total.gradients[attr] /= skill_total.count
         else:
             details.pop(skill.display_name)
-            summary.pop(skill_name)
 
+    summary = {skill: detail for skill, detail in summary.items() if detail.count}
     return total, summary, details
 
 

@@ -66,7 +66,7 @@ def top_script(
         for i, (skill, recipes) in enumerate(school.recipes.items()):
             recipes_widget[i].set_label(skill)
             recipes_widget[i].set_items(recipes)
-            for n in range(MAX_RECIPES):
+            for n in range(min(MAX_RECIPES, len(recipes))):
                 recipes_widget[i].list.item(n).setSelected(True)
             recipes_widget[i].show()
 

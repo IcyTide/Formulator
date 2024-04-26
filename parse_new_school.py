@@ -52,7 +52,6 @@ class Parser:
         json.dump(self.skills, open("skills.json", "w", encoding="utf-8"))
         print(len(self.skills))
         json.dump(self.buffs, open("buffs.json", "w", encoding="utf-8"))
-        print({k: {} for k in self.buffs})
         print(len(self.buffs))
 
 

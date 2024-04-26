@@ -19,35 +19,32 @@ def base_result(damage_base, damage_rand, damage_gain):
 
 
 @cache
-def attack_power_result(attack_power_cof, attack_power_cof_gain, attack_power):
-    attack_power_cof += attack_power_cof * attack_power_cof_gain
+def attack_power_result(attack_power_cof, attack_power):
     damage = attack_power * attack_power_cof
     return int(damage)
 
 
 @cache
-def weapon_damage_result(weapon_damage_cof, weapon_damage_cof_gain, weapon_damage):
-    weapon_damage_cof += weapon_damage_cof * weapon_damage_cof_gain
+def weapon_damage_result(weapon_damage_cof, weapon_damage):
     damage = weapon_damage * weapon_damage_cof
     return int(damage)
 
 
 @cache
-def surplus_result(surplus_cof, surplus_cof_gain, surplus):
-    surplus_cof += surplus_cof * surplus_cof_gain
+def surplus_result(surplus_cof, surplus):
     damage = surplus * surplus_cof
     return int(damage)
 
 
 @cache
 def init_result(damage_base, damage_rand, damage_gain,
-                attack_power_cof, attack_power_cof_gain, attack_power,
-                weapon_damage_cof, weapon_damage_cof_gain, weapon_damage,
-                surplus_cof, surplus_cof_gain, surplus):
+                attack_power_cof, attack_power,
+                weapon_damage_cof, weapon_damage,
+                surplus_cof, surplus):
     return (base_result(damage_base, damage_rand, damage_gain) +
-            attack_power_result(attack_power_cof, attack_power_cof_gain, attack_power) +
-            weapon_damage_result(weapon_damage_cof, weapon_damage_cof_gain, weapon_damage) +
-            surplus_result(surplus_cof, surplus_cof_gain, surplus))
+            attack_power_result(attack_power_cof, attack_power) +
+            weapon_damage_result(weapon_damage_cof, weapon_damage) +
+            surplus_result(surplus_cof, surplus))
 
 
 @cache

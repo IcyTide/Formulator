@@ -68,9 +68,9 @@ class Skill:
     @property
     def attack_power_cof(self):
         if isinstance(self._attack_power_cof, list):
-            return self._attack_power_cof[self.skill_level - 1]
+            return int(self._attack_power_cof[self.skill_level - 1] * (1 + self.attack_power_cof_gain))
         else:
-            return self._attack_power_cof
+            return int(self._attack_power_cof * (1 + self.attack_power_cof_gain))
 
     @attack_power_cof.setter
     def attack_power_cof(self, attack_power_cof):
@@ -79,13 +79,11 @@ class Skill:
     @property
     def surplus_cof(self):
         if isinstance(self._surplus_cof, list):
-            cof = self._surplus_cof[self.skill_level - 1]
+            cof = self._surplus_cof[self.skill_level - 1] * (1 + self.surplus_cof_gain)
+            return SURPLUS_COF(cof)
         else:
-            cof = self._surplus_cof
-        if cof:
-            return ((cof + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE * SURPLUS_SCALE
-        else:
-            return cof
+            cof = self._surplus_cof * (1 + self.surplus_cof_gain)
+            return SURPLUS_COF(cof) if cof else 0
 
     @surplus_cof.setter
     def surplus_cof(self, surplus_cof):
@@ -94,9 +92,9 @@ class Skill:
     @property
     def weapon_damage_cof(self):
         if isinstance(self._weapon_damage_cof, list):
-            return self._weapon_damage_cof[self.skill_level - 1] / BINARY_SCALE
+            return self._weapon_damage_cof[self.skill_level - 1] * (1 + self.weapon_damage_cof_gain) / BINARY_SCALE
         else:
-            return self._weapon_damage_cof / BINARY_SCALE
+            return self._weapon_damage_cof * (1 + self.weapon_damage_cof_gain) / BINARY_SCALE
 
     @weapon_damage_cof.setter
     def weapon_damage_cof(self, weapon_damage_cof):
@@ -124,9 +122,9 @@ class Skill:
     def __call__(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, self.damage_rand, self.damage_gain,
-            self.attack_power_cof, self.attack_power_cof_gain, attribute.attack_power,
-            self.weapon_damage_cof, self.weapon_damage_cof_gain, attribute.weapon_damage,
-            self.surplus_cof, self.surplus_cof_gain, attribute.surplus
+            self.attack_power_cof, attribute.attack_power,
+            self.weapon_damage_cof, attribute.weapon_damage,
+            self.surplus_cof, attribute.surplus
         ) * self.skill_stack
 
         damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
@@ -142,7 +140,7 @@ class Skill:
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
         damage = strain_result(damage, attribute.strain)
         critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
+        damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)
         critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)

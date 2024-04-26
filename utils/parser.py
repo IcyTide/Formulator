@@ -6,7 +6,7 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
-from schools import bei_ao_jue, shan_hai_xin_jue
+from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
@@ -47,73 +47,48 @@ class School:
         return content
 
 
+PHYSICAL_DISPLAY_ATTRS = {
+    "base_physical_attack_power": "基础攻击",
+    "physical_attack_power": "攻击",
+    "base_physical_critical_strike": "会心等级",
+    "physical_critical_strike": "会心",
+    "physical_critical_power_base": "会效等级",
+    "physical_critical_power": "会效",
+    "base_physical_overcome": "基础破防",
+    "final_physical_overcome": "最终破防",
+    "physical_overcome": "破防",
+    "weapon_damage_base": "基础武器伤害",
+    "weapon_damage_rand": "浮动武器伤害",
+    "strain_base": "无双等级",
+    "strain": "无双",
+    "surplus": "破招",
+}
+
 SUPPORT_SCHOOL = {
     10464: School(
-        school="霸刀",
-        major="力道",
-        kind="外功",
-        attribute=bei_ao_jue.BeiAoJue,
-        formation="霜岚洗锋阵",
-        skills=bei_ao_jue.SKILLS,
-        buffs=bei_ao_jue.BUFFS,
-        talent_gains=bei_ao_jue.TALENT_GAINS,
-        talents=bei_ao_jue.TALENTS,
-        talent_decoder=bei_ao_jue.TALENT_DECODER,
-        talent_encoder=bei_ao_jue.TALENT_ENCODER,
-        recipe_gains=bei_ao_jue.RECIPE_GAINS,
-        recipes=bei_ao_jue.RECIPES,
-        gains=bei_ao_jue.GAINS,
-        display_attrs={
-            "strength": "力道",
-            "base_physical_attack_power": "基础攻击",
-            "physical_attack_power": "攻击",
-            "base_physical_critical_strike": "会心等级",
-            "physical_critical_strike": "会心",
-            "physical_critical_power_base": "会效等级",
-            "physical_critical_power": "会效",
-            "base_physical_overcome": "基础破防",
-            "final_physical_overcome": "最终破防",
-            "physical_overcome": "破防",
-            "weapon_damage_base": "基础武器伤害",
-            "weapon_damage_rand": "浮动武器伤害",
-            "strain_base": "无双等级",
-            "strain": "无双",
-            "surplus": "破招",
-        }
+        school="霸刀", major="力道", kind="外功", attribute=bei_ao_jue.BeiAoJue, formation="霜岚洗锋阵",
+        skills=bei_ao_jue.SKILLS, buffs=bei_ao_jue.BUFFS,
+        talent_gains=bei_ao_jue.TALENT_GAINS, talents=bei_ao_jue.TALENTS,
+        talent_decoder=bei_ao_jue.TALENT_DECODER, talent_encoder=bei_ao_jue.TALENT_ENCODER,
+        recipe_gains=bei_ao_jue.RECIPE_GAINS, recipes=bei_ao_jue.RECIPES,
+        gains=bei_ao_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10756: School(
-        school="万灵",
-        major="身法",
-        kind="外功",
-        attribute=shan_hai_xin_jue.ShanHaiXinJue,
-        formation="苍梧引灵阵",
-        skills=shan_hai_xin_jue.SKILLS,
-        buffs=shan_hai_xin_jue.BUFFS,
-        talent_gains=shan_hai_xin_jue.TALENT_GAINS,
-        talents=shan_hai_xin_jue.TALENTS,
-        talent_decoder=shan_hai_xin_jue.TALENT_DECODER,
-        talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
-        recipe_gains=shan_hai_xin_jue.RECIPE_GAINS,
-        recipes=shan_hai_xin_jue.RECIPES,
-        gains=shan_hai_xin_jue.GAINS,
-        display_attrs={
-            "agility": "身法",
-            "base_physical_attack_power": "基础攻击",
-            "physical_attack_power": "攻击",
-            "base_physical_critical_strike": "会心等级",
-            "physical_critical_strike": "会心",
-            "physical_critical_power_base": "会效等级",
-            "physical_critical_power": "会效",
-            "base_physical_overcome": "基础破防",
-            "final_physical_overcome": "最终破防",
-            "physical_overcome": "破防",
-            "weapon_damage_base": "基础武器伤害",
-            "weapon_damage_rand": "浮动武器伤害",
-            "strain_base": "无双等级",
-            "strain": "无双",
-            "surplus": "破招",
-        }
-    )
+        school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.ShanHaiXinJue, formation="苍梧引灵阵",
+        skills=shan_hai_xin_jue.SKILLS, buffs=shan_hai_xin_jue.BUFFS,
+        talent_gains=shan_hai_xin_jue.TALENT_GAINS, talents=shan_hai_xin_jue.TALENTS,
+        talent_decoder=shan_hai_xin_jue.TALENT_DECODER, talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
+        recipe_gains=shan_hai_xin_jue.RECIPE_GAINS, recipes=shan_hai_xin_jue.RECIPES,
+        gains=shan_hai_xin_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
+    ),
+    10533: School(
+        school="蓬莱", major="身法", kind="外功", attribute=ling_hai_jue.LingHaiJue, formation="墟海引归阵",
+        skills=ling_hai_jue.SKILLS, buffs=ling_hai_jue.BUFFS,
+        talent_gains=ling_hai_jue.TALENT_GAINS, talents=ling_hai_jue.TALENTS,
+        talent_decoder=ling_hai_jue.TALENT_DECODER, talent_encoder=ling_hai_jue.TALENT_ENCODER,
+        recipe_gains=ling_hai_jue.RECIPE_GAINS, recipes=ling_hai_jue.RECIPES,
+        gains=ling_hai_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
+    ),
 }
 
 LABEL_MAPPING = {
@@ -203,7 +178,10 @@ class Parser:
             select_equipment = select_equipments[label] = {}
             select_equipment['equipment'] = row[2]
             select_equipment['strength_level'] = row[3]
-            select_equipment['embed_levels'] = [EMBED_MAPPING.get(tuple(e), 0) for e in row[4]]
+            if isinstance(row[4], list):
+                select_equipment['embed_levels'] = [EMBED_MAPPING.get(tuple(e), 0) for e in row[4]]
+            else:
+                select_equipment['embed_levels'] = []
             select_equipment['enchant'] = row[5]
         return select_equipments
 
@@ -265,8 +243,8 @@ class Parser:
 
         if player_id not in self.school:
             return
-        skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
-        if skill_id not in self.school[player_id].skills:
+        react, skill_id, skill_level, critical = int(detail[2]), int(detail[4]), int(detail[5]), detail[6] == "true"
+        if react or skill_id not in self.school[player_id].skills:
             return
         if len(self.start_time[player_id]) == len(self.end_time[player_id]):
             self.start_time[player_id].append(int(timestamp))
@@ -288,7 +266,7 @@ class Parser:
             skill_id, skill_level, skill_stack = skill_tuple
             self.ticks[player_id][skill_id] += 1
             tick = min(self.ticks[player_id][skill_id], skill.tick)
-            current_record = self.records[player_id][len(self.start_time) - 1]
+            current_record = self.records[player_id][-1]
             current_record[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
                 current_record[skill_tuple][status_tuple].pop()
             )
@@ -296,7 +274,7 @@ class Parser:
         elif isinstance(skill, Damage):
             skill_tuple = (skill_id, skill_level, skill_stack)
             status_tuple = self.available_status(player_id, skill_id)
-            current_record = self.records[player_id][len(self.start_time) - 1]
+            current_record = self.records[player_id][-1]
             current_record[skill_tuple][status_tuple].append((timestamp, critical))
             if isinstance(skill, DotDamage):
                 self.last_dot[player_id][skill_id] = (skill_tuple, status_tuple)
