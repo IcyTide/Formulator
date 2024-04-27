@@ -442,6 +442,17 @@ class PhysicalAttribute(Attribute):
 
 
 class MagicalAttribute(Attribute):
+    grad_attrs = {
+        "spirit_base": MAJOR_DELTA,
+        "spunk_base": MAJOR_DELTA,
+        "surplus": MINOR_DELTA,
+        "strain_base": MINOR_DELTA,
+        "magical_attack_power_base": MAGICAL_DELTA,
+        "magical_critical_strike_base": MINOR_DELTA,
+        "magical_critical_power_base": MINOR_DELTA,
+        "magical_overcome_base": MINOR_DELTA
+    }
+
     @property
     def attack_power(self):
         return self.magical_attack_power

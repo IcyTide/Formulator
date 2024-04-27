@@ -6,7 +6,7 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
-from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue
+from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
@@ -63,6 +63,22 @@ PHYSICAL_DISPLAY_ATTRS = {
     "strain": "无双",
     "surplus": "破招",
 }
+MAGICAL_DISPLAY_ATTRS = {
+    "base_magical_attack_power": "基础攻击",
+    "magical_attack_power": "攻击",
+    "base_magical_critical_strike": "会心等级",
+    "magical_critical_strike": "会心",
+    "magical_critical_power_base": "会效等级",
+    "magical_critical_power": "会效",
+    "base_magical_overcome": "基础破防",
+    "final_magical_overcome": "最终破防",
+    "magical_overcome": "破防",
+    "weapon_damage_base": "基础武器伤害",
+    "weapon_damage_rand": "浮动武器伤害",
+    "strain_base": "无双等级",
+    "strain": "无双",
+    "surplus": "破招",
+}
 
 SUPPORT_SCHOOL = {
     10464: School(
@@ -89,6 +105,14 @@ SUPPORT_SCHOOL = {
         recipe_gains=ling_hai_jue.RECIPE_GAINS, recipes=ling_hai_jue.RECIPES,
         gains=ling_hai_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
+    10627: School(
+        school="药宗", major="根骨", kind="内功", attribute=wu_fang.WuFang, formation="乱暮浊茵阵",
+        skills=wu_fang.SKILLS, buffs=wu_fang.BUFFS,
+        talent_gains=wu_fang.TALENT_GAINS, talents=wu_fang.TALENTS,
+        talent_decoder=wu_fang.TALENT_DECODER, talent_encoder=wu_fang.TALENT_ENCODER,
+        recipe_gains=wu_fang.RECIPE_GAINS, recipes=wu_fang.RECIPES,
+        gains=wu_fang.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
+    ),
 }
 
 LABEL_MAPPING = {
@@ -105,11 +129,16 @@ LABEL_MAPPING = {
     12: "护腕",
     0: "近战武器"
 }
-EMBED_MAPPING = {(5, 24449 - i): 8 - i for i in range(8)}
+EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
+
+
+BUFF_DELAY = 4
 
 
 class Parser:
     current_player: int
+    current_flame: int
+
     id2name: Dict[int, str]
     name2id: Dict[str, int]
     records: Dict[int, List[RECORD_TYPE]]

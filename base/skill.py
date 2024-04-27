@@ -186,6 +186,10 @@ class MagicalDamage(Damage):
     def attack_power_cof(self):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
+    @attack_power_cof.setter
+    def attack_power_cof(self, attack_power_cof):
+        self._attack_power_cof = attack_power_cof
+
 
 class PhysicalDotDamage(DotDamage):
     @property
@@ -201,3 +205,7 @@ class MagicalDotDamage(DotDamage):
     @property
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
+
+    @attack_power_cof.setter
+    def attack_power_cof(self, attack_power_cof):
+        self._attack_power_cof = attack_power_cof

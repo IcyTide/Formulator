@@ -23,6 +23,16 @@ class 素矰(Gain):
         skills[26856].attack_power_cof_gain -= 0.05
 
 
+class 孰湖(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
+            skills[skill_id].skill_damage_addition += 62
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
+            skills[skill_id].skill_damage_addition -= 62
+
+
 class 桑柘(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[35771].tick += 1
@@ -45,16 +55,6 @@ class 贯侯(Gain):
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[36157].skill_pve_addition -= 205
-
-
-class 孰湖(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
-            skills[skill_id].skill_damage_addition += 62
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
-            skills[skill_id].skill_damage_addition -= 62
 
 
 TALENT_GAINS: Dict[int, Gain] = {

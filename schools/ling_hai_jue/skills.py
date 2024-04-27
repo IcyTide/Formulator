@@ -175,6 +175,28 @@ SKILLS: Dict[int, Skill | dict] = {
         "bind_skill": 18386,
         "max_stack": 6,
         "tick": 6
+    },
+    25783: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "木落雁归·神兵",
+        "damage_base": 20,
+        "damage_rand": 2,
+        "attack_power_cof": 50
+    },
+    19557: {
+        "skill_class": PhysicalDotDamage,
+        "skill_name": "御波驾澜(DOT)",
+        "damage_base": 25,
+        "attack_power_cof": 680,
+        "interval": 48
+
+    },
+    26935: {
+        "skill_class": DotSkill,
+        "skill_name": "御波驾澜",
+        "bind_skill": 19557,
+        "max_stack": 3,
+        "tick": 6
     }
 }
 
