@@ -4,12 +4,14 @@ from collections import defaultdict
 
 from base.attribute import Attribute
 from base.buff import Buff
+from base.constant import FRAME_PER_SECOND
 from base.gain import Gain
 from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
 from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
+BUFFER_TYPE = Tuple[int, int, int, bool]
 BUFF_TYPE = Tuple[int, int, int]
 TIMELINE_TYPE = List[Tuple[int, bool]]
 SUB_RECORD_TYPE = Dict[Tuple[tuple, tuple], TIMELINE_TYPE]
@@ -131,17 +133,17 @@ LABEL_MAPPING = {
 }
 EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
 
-
-BUFF_DELAY = 4
+BUFFER_DELAY = 4
 
 
 class Parser:
     current_player: int
-    current_flame: int
+    current_frame: int
 
     id2name: Dict[int, str]
     name2id: Dict[str, int]
     records: Dict[int, List[RECORD_TYPE]]
+    buffers: Dict[int, Dict[int, List[BUFFER_TYPE]]]
     status: Dict[int, STATUS_TYPE]
     snapshot: Dict[int, SNAPSHOT_TYPE]
     last_dot: Dict[int, Dict[int, Tuple[Tuple[int, int, int], Tuple[tuple, tuple]]]]
@@ -159,7 +161,7 @@ class Parser:
     school: Dict[int, School]
 
     def duration(self, player_id, i):
-        return round((self.end_time[player_id][i] - self.start_time[player_id][i]) / 1000, 3)
+        return round((self.end_time[player_id][i] - self.start_time[player_id][i]) / FRAME_PER_SECOND, 3)
 
     def available_status(self, player_id, skill_id):
         current_status = []
@@ -181,9 +183,12 @@ class Parser:
         return tuple(current_status), tuple(snapshot_status)
 
     def reset(self):
+        self.current_frame = 0
+
         self.id2name = {}
         self.name2id = {}
         self.records = defaultdict(list)
+        self.buffers = defaultdict(lambda: defaultdict(list))
         self.status = defaultdict(dict)
         self.snapshot = defaultdict(dict)
         self.last_dot = defaultdict(dict)
@@ -238,16 +243,16 @@ class Parser:
         if player_id in self.school:
             self.pets[pet_id] = player_id
 
-    def parse_time(self, row, timestamp):
+    def parse_time(self, row):
         detail = row.strip("{}").split(",")
         player_id = int(detail[0])
         if player_id not in self.school:
             return
         if detail[1] == "true" and len(self.start_time[player_id]) == len(self.end_time[player_id]):
-            self.start_time[player_id].append(int(timestamp))
+            self.start_time[player_id].append(self.current_frame)
             self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
         elif detail[1] == "false" and len(self.start_time[player_id]) - len(self.end_time[player_id]) == 1:
-            self.end_time[player_id].append(int(timestamp))
+            self.end_time[player_id].append(self.current_frame)
 
     def parse_buff(self, row):
         detail = row.strip("{}").split(",")
@@ -262,7 +267,7 @@ class Parser:
         else:
             self.status[player_id][(buff_id, buff_level)] = buff_stack
 
-    def parse_skill(self, row, timestamp):
+    def parse_skill(self, row):
         detail = row.strip("{}").split(",")
         caster_id = int(detail[0])
         if caster_id in self.pets:
@@ -275,19 +280,22 @@ class Parser:
         react, skill_id, skill_level, critical = int(detail[2]), int(detail[4]), int(detail[5]), detail[6] == "true"
         if react or skill_id not in self.school[player_id].skills:
             return
-        if len(self.start_time[player_id]) == len(self.end_time[player_id]):
-            self.start_time[player_id].append(int(timestamp))
-            self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
-        timestamp = int(timestamp) - self.start_time[player_id][-1]
         skill_stack = self.stacks[player_id][skill_id]
+        self.buffers[self.current_frame][player_id].append((skill_id, skill_level, skill_stack, critical))
 
+        if len(self.start_time[player_id]) == len(self.end_time[player_id]):
+            self.start_time[player_id].append(self.current_frame)
+            self.records[player_id].append(defaultdict(lambda: defaultdict(list)))
+
+    def record(self, current_frame, player_id, skill_id, skill_level, skill_stack, critical):
         skill = self.school[player_id].skills[skill_id]
         if isinstance(skill, DotSkill):
             bind_skill = skill.bind_skill
             if not self.ticks[player_id][bind_skill]:
                 self.stacks[player_id][bind_skill] = 0
             self.ticks[player_id][bind_skill] = skill.tick
-            self.stacks[player_id][bind_skill] = min(self.stacks[player_id][bind_skill] + 1, skill.max_stack)
+            self.stacks[player_id][bind_skill] = min(self.stacks[player_id][bind_skill] + 1,
+                                                     skill.max_stack)
             self.snapshot[player_id][bind_skill] = self.status[player_id].copy()
         elif isinstance(skill, DotConsumeSkill):
             bind_skill = skill.bind_skill
@@ -304,10 +312,20 @@ class Parser:
             skill_tuple = (skill_id, skill_level, skill_stack)
             status_tuple = self.available_status(player_id, skill_id)
             current_record = self.records[player_id][-1]
-            current_record[skill_tuple][status_tuple].append((timestamp, critical))
+            current_record[skill_tuple][status_tuple].append(
+                (current_frame - self.start_time[player_id][-1], critical)
+            )
             if isinstance(skill, DotDamage):
                 self.last_dot[player_id][skill_id] = (skill_tuple, status_tuple)
                 self.ticks[player_id][skill_id] -= 1
+
+    def parse_record(self):
+        last_frame = self.current_frame - BUFFER_DELAY
+        pop_frames = [frame for frame in self.buffers if frame <= last_frame]
+        for pop_frame in pop_frames:
+            for player_id, buffers in self.buffers.pop(pop_frame).items():
+                for buffer_tuple in buffers:
+                    self.record(pop_frame, player_id, *buffer_tuple)
 
     def __call__(self, file_name):
         self.reset()
@@ -323,14 +341,19 @@ class Parser:
 
         for line in lines:
             row = line.split("\t")
-            if row[4] == "5":
-                self.parse_time(row[-1], row[3])
-            if row[4] == "8":
-                self.parse_pet(row[-1])
-            elif row[4] == "13":
-                self.parse_buff(row[-1])
-            elif row[4] == "21":
-                self.parse_skill(row[-1], row[3])
+            if self.current_frame != int(row[1]):
+                self.parse_record()
+                self.current_frame = int(row[1])
+
+            match row[4]:
+                case "5":
+                    self.parse_time(row[-1])
+                case "8":
+                    self.parse_pet(row[-1])
+                case "13":
+                    self.parse_buff(row[-1])
+                case "21":
+                    self.parse_skill(row[-1])
 
         for player_id, school in self.school.items():
             for talent_id in self.select_talents[player_id]:
@@ -338,7 +361,7 @@ class Parser:
 
         self.record_index = {
             player_id: {
-                f"{i + 1}:{round((end_time - self.start_time[player_id][i]) / 1000, 3)}": i
+                f"{i + 1}:{round((end_time - self.start_time[player_id][i]) / FRAME_PER_SECOND, 3)}": i
                 for i, end_time in enumerate(self.end_time[player_id])
             }
             for player_id in self.end_time

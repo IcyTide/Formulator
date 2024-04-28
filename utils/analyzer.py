@@ -3,6 +3,7 @@ from collections import defaultdict
 from typing import Dict
 
 from base.attribute import Attribute
+from base.constant import FRAME_PER_SECOND
 from base.skill import Skill, DotDamage
 from utils.parser import School
 
@@ -77,7 +78,7 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
     total = Detail()
     details = {}
     summary = {}
-    duration *= 1000
+    duration *= FRAME_PER_SECOND
 
     for skill, status in record.items():
         skill_id, skill_level, skill_stack = skill

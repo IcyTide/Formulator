@@ -52,40 +52,7 @@ EMBED_POSITIONS = {
 }
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
-ATTR_TYPE_MAP = {
-    "atMeleeWeaponDamageBase": "weapon_damage_base",
-    "atMeleeWeaponDamageRand": "weapon_damage_rand",
-    "atBasePotentialAdd": "all_major_base",
-    "atAgilityBase": "agility_base",
-    "atStrengthBase": "strength_base",
-    "atSpiritBase": "spirit_base",
-    "atSpunkBase": "spunk_base",
-    "atPhysicsAttackPowerBase": "physical_attack_power_base",
-    "atMagicAttackPowerBase": "magical_attack_power_base",
-    "atLunarAttackPowerBase": "magical_attack_power_base",
-    "atSolarAttackPowerBase": "magical_attack_power_base",
-    "atSolarAndLunarAttackPowerBase": "magical_attack_power_base",
-    "atPhysicsOvercomeBase": "physical_overcome_base",
-    "atMagicOvercome": "magical_overcome_base",
-    "atLunarOvercomeBase": "magical_overcome_base",
-    "atSolarOvercomeBase": "magical_overcome_base",
-    "atSolarAndLunarOvercomeBase": "magical_overcome_base",
-    "atAllTypeCriticalStrike": "all_critical_strike_base",
-    "atPhysicsCriticalStrike": "physical_critical_strike_base",
-    "atMagicCriticalStrike": "magical_critical_strike_base",
-    "atLunarCriticalStrike": "magical_critical_strike_base",
-    "atSolarCriticalStrike": "magical_critical_strike_base",
-    "atSolarAndLunarCriticalStrike": "magical_critical_strike_base",
-    "atAllTypeCriticalDamagePowerBase": "all_critical_power_base",
-    "atPhysicsCriticalDamagePowerBase": "physical_critical_power_base",
-    "atMagicCriticalDamagePowerBase": "magical_critical_power_base",
-    "atLunarCriticalDamagePowerBase": "magical_critical_power_base",
-    "atSolarCriticalDamagePowerBase": "magical_critical_power_base",
-    "atSolarAndLunarCriticalDamagePowerBase": "magical_critical_power_base",
-    "atSurplusValueBase": "surplus",
-    "atStrainBase": "strain_base",
-    "atHasteBase": "haste_base",
-}
+
 ATTR_TYPE_TRANSLATE = {
     "weapon_damage_base": "基础武器伤害",
     "weapon_damage_rand": "浮动武器伤害",

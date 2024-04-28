@@ -6,13 +6,52 @@ import requests
 from tqdm import tqdm
 
 from qt.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR
-from qt.constant import ATTR_TYPE_MAP, ATTR_TYPE_TRANSLATE
+from qt.constant import ATTR_TYPE_TRANSLATE
 from qt.constant import MAX_STONE_ATTR, STONE_ATTR, MAX_STONE_LEVEL
 from qt.constant import EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR
 from utils.parser import SUPPORT_SCHOOL
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
 SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
+
+ATTR_TYPE_MAP = {
+    "atMeleeWeaponDamageBase": "weapon_damage_base",
+    "atMeleeWeaponDamageRand": "weapon_damage_rand",
+    "atBasePotentialAdd": "all_major_base",
+    "atAgilityBase": "agility_base",
+    "atStrengthBase": "strength_base",
+    "atSpiritBase": "spirit_base",
+    "atSpunkBase": "spunk_base",
+    "atPhysicsAttackPowerBase": "physical_attack_power_base",
+    "atMagicAttackPowerBase": "magical_attack_power_base",
+    "atSolarAttackPowerBase": "magical_attack_power_base",
+    "atLunarAttackPowerBase": "magical_attack_power_base",
+    "atSolarAndLunarAttackPowerBase": "magical_attack_power_base",
+    "atPoisonAttackPowerBase": "magical_attack_power_base",
+    "atPhysicsOvercomeBase": "physical_overcome_base",
+    "atMagicOvercome": "magical_overcome_base",
+    "atSolarOvercomeBase": "magical_overcome_base",
+    "atLunarOvercomeBase": "magical_overcome_base",
+    "atSolarAndLunarOvercomeBase": "magical_overcome_base",
+    "atPoisonOvercomeBase": "magical_overcome_base",
+    "atAllTypeCriticalStrike": "all_critical_strike_base",
+    "atPhysicsCriticalStrike": "physical_critical_strike_base",
+    "atMagicCriticalStrike": "magical_critical_strike_base",
+    "atSolarCriticalStrike": "magical_critical_strike_base",
+    "atLunarCriticalStrike": "magical_critical_strike_base",
+    "atSolarAndLunarCriticalStrike": "magical_critical_strike_base",
+    "atPoisonCriticalStrike": "magical_critical_strike_base",
+    "atAllTypeCriticalDamagePowerBase": "all_critical_power_base",
+    "atPhysicsCriticalDamagePowerBase": "physical_critical_power_base",
+    "atMagicCriticalDamagePowerBase": "magical_critical_power_base",
+    "atSolarCriticalDamagePowerBase": "magical_critical_power_base",
+    "atLunarCriticalDamagePowerBase": "magical_critical_power_base",
+    "atSolarAndLunarCriticalDamagePowerBase": "magical_critical_power_base",
+    "atPoisonCriticalDamagePowerBase": "magical_critical_power_base",
+    "atSurplusValueBase": "surplus",
+    "atStrainBase": "strain_base",
+    "atHasteBase": "haste_base",
+}
 
 EQUIP_ATTR_MAP = {
     "Overcome": "破防",
