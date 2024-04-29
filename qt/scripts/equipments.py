@@ -84,7 +84,7 @@ class Equipment:
     @property
     def strength_attr(self) -> Dict[str, int]:
         if self.strength_level:
-            return {k: round(STRENGTH_COF(self.strength_level) * v) for k, v in self.magic.items()}
+            return {k: int(STRENGTH_COF(self.strength_level) * v + 0.5) for k, v in self.magic.items()}
         else:
             return {}
 

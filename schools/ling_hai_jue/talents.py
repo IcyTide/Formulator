@@ -7,11 +7,11 @@ from base.skill import Skill
 
 class 江汉(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[19819].skill_critical_strike += 102
+        skills[19819].skill_critical_strike += 1000
         skills[19819].skill_critical_power += 102
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[19819].skill_critical_strike -= 102
+        skills[19819].skill_critical_strike -= 1000
         skills[19819].skill_critical_power -= 102
 
 

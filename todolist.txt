@@ -1,2 +1,3 @@
+fix damage calculate chain
 apply divine as mask
 apply some talents as mask

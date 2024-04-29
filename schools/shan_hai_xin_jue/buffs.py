@@ -6,6 +6,7 @@ from general.buffs import GENERAL_BUFFS
 BUFFS: Dict[int, Buff | dict] = {
     16025: {
         "buff_name": "雷引",
+        "activate": False,
         "gain_attributes": {
             "physical_critical_strike_gain": 400,
             "physical_critical_power_gain": 41

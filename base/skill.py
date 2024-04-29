@@ -68,9 +68,9 @@ class Skill:
     @property
     def attack_power_cof(self):
         if isinstance(self._attack_power_cof, list):
-            return int(self._attack_power_cof[self.skill_level - 1] * (1 + self.attack_power_cof_gain))
+            return self._attack_power_cof[self.skill_level - 1] * (1 + self.attack_power_cof_gain)
         else:
-            return int(self._attack_power_cof * (1 + self.attack_power_cof_gain))
+            return self._attack_power_cof * (1 + self.attack_power_cof_gain)
 
     @attack_power_cof.setter
     def attack_power_cof(self, attack_power_cof):
@@ -115,10 +115,6 @@ class Skill:
     def skill_critical_strike_gain(self):
         return self.skill_critical_strike / DECIMAL_SCALE
 
-    @property
-    def skill_critical_power_gain(self):
-        return self.skill_critical_power / BINARY_SCALE
-
     def __call__(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, self.damage_rand, self.damage_gain,
@@ -129,17 +125,18 @@ class Skill:
 
         damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.overcome,
-                                 attribute.level_shield_base + attribute.shield_base,
+                                 attribute.level_shield_base + attribute.strain_base,
                                  attribute.shield_gain + self.skill_shield_gain,
                                  attribute.shield_ignore,
                                  attribute.shield_constant)
 
-        critical_damage = critical_result(damage, attribute.critical_power + self.skill_critical_power_gain)
+        critical_power_gain = attribute.critical_power_gain + self.skill_critical_power
+        critical_damage = critical_result(damage, attribute.base_critical_power, critical_power_gain)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
+        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
+        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
         damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)
@@ -159,6 +156,88 @@ class DotConsumeSkill(Skill):
     pass
 
 
+class PureSkill(Skill):
+    def __call__(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, self.damage_rand, self.damage_gain,
+            0, 0,
+            0, 0, 0, 0
+        )
+
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        damage = vulnerable_result(damage, attribute.physical_vulnerable)
+
+        return damage, damage, damage, 0
+
+
+class PhysicalSkill(Skill):
+    def __call__(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, self.damage_rand, self.damage_gain,
+            self.attack_power_cof, attribute.physical_attack_power,
+            self.weapon_damage_cof, attribute.weapon_damage,
+            self.surplus_cof, attribute.surplus
+        ) * self.skill_stack
+
+        damage = damage_addition_result(damage, attribute.physical_damage_addition + self.skill_damage_addition)
+        damage = overcome_result(damage, attribute.physical_overcome,
+                                 attribute.level_shield_base + attribute.physical_shield_base,
+                                 attribute.physical_shield_gain + self.skill_shield_gain,
+                                 attribute.physical_shield_ignore,
+                                 attribute.shield_constant)
+
+        critical_power_gain = attribute.physical_critical_power_gain + self.skill_critical_power
+        critical_damage = critical_result(damage, attribute.base_physical_critical_power, critical_power_gain)
+
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
+        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
+        damage = vulnerable_result(damage, attribute.physical_vulnerable)
+        critical_damage = vulnerable_result(critical_damage, attribute.physical_vulnerable)
+        critical_strike = min(1, attribute.physical_critical_strike + self.skill_critical_strike_gain)
+
+        expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
+
+        return damage, critical_damage, expected_damage, critical_strike
+
+
+class MagicalSkill(Skill):
+    def __call__(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, self.damage_rand, self.damage_gain,
+            self.attack_power_cof, attribute.magical_attack_power,
+            self.weapon_damage_cof, attribute.weapon_damage,
+            self.surplus_cof, attribute.surplus
+        ) * self.skill_stack
+
+        damage = damage_addition_result(damage, attribute.magical_damage_addition + self.skill_damage_addition)
+        damage = overcome_result(damage, attribute.magical_overcome,
+                                 attribute.level_shield_base + attribute.magical_shield_base,
+                                 attribute.magical_shield_gain + self.skill_shield_gain,
+                                 attribute.magical_shield_ignore,
+                                 attribute.shield_constant)
+
+        critical_power_gain = attribute.magical_critical_power_gain + self.skill_critical_power
+        critical_damage = critical_result(damage, attribute.base_magical_critical_power, critical_power_gain)
+
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
+        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
+        damage = vulnerable_result(damage, attribute.magical_vulnerable)
+        critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
+        critical_strike = min(1, attribute.magical_critical_strike + self.skill_critical_strike_gain)
+
+        expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
+
+        return damage, critical_damage, expected_damage, critical_strike
+
+
 class Damage(Skill):
     pass
 
@@ -171,7 +250,7 @@ class PetDamage(Damage):
     pass
 
 
-class PhysicalDamage(Damage):
+class PhysicalDamage(PhysicalSkill, Damage):
     @property
     def attack_power_cof(self):
         return PHYSICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
@@ -181,7 +260,7 @@ class PhysicalDamage(Damage):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDamage(Damage):
+class MagicalDamage(MagicalSkill, Damage):
     @property
     def attack_power_cof(self):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
@@ -191,7 +270,7 @@ class MagicalDamage(Damage):
         self._attack_power_cof = attack_power_cof
 
 
-class PhysicalDotDamage(DotDamage):
+class PhysicalDotDamage(PhysicalSkill, DotDamage):
     @property
     def attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
@@ -201,7 +280,7 @@ class PhysicalDotDamage(DotDamage):
         self._attack_power_cof = attack_power_cof
 
 
-class MagicalDotDamage(DotDamage):
+class MagicalDotDamage(MagicalSkill, DotDamage):
     @property
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)

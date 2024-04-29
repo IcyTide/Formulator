@@ -1,14 +1,15 @@
 from functools import cache
 
-from base.constant import BINARY_SCALE
+from base.constant import BINARY_SCALE, BASE_CRITICAL_POWER
 
 
 @cache
-def defense(shield_base, shield_gain, shield_ignore, shield_constant):
+def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
     shield = shield_base
     shield += int(shield * shield_gain / BINARY_SCALE)
     shield -= int(shield * shield_ignore / BINARY_SCALE)
-    return max(0, shield / (shield + shield_constant))
+    shield = max(0, shield)
+    return int(shield * BINARY_SCALE / (shield + shield_constant))
 
 
 @cache
@@ -54,13 +55,18 @@ def damage_addition_result(damage, damage_addition):
 
 @cache
 def overcome_result(damage, overcome, shield_base, shield_gain, shield_ignore, shield_constant):
-    defense_reduction = defense(shield_base, shield_gain, shield_ignore, shield_constant)
-    return int(damage * (1 + overcome) * (1 - defense_reduction))
+    overcome = int(overcome * BINARY_SCALE)
+    defense = defense_result(shield_base, shield_gain, shield_ignore, shield_constant)
+    rate = (BINARY_SCALE + overcome) - int((BINARY_SCALE + overcome) * defense / BINARY_SCALE)
+    return int(damage * rate / BINARY_SCALE)
 
 
 @cache
-def critical_result(damage, critical_power):
-    return int(damage * critical_power)
+def critical_result(damage, base_critical_power, critical_power_gain):
+    critical_power = int(base_critical_power * BINARY_SCALE)
+    critical_power += critical_power_gain
+    rate = critical_power / BINARY_SCALE
+    return int(damage * BASE_CRITICAL_POWER) + int(damage * rate)
 
 
 @cache
@@ -69,8 +75,9 @@ def level_reduction_result(damage, level_reduction):
 
 
 @cache
-def strain_result(damage, strain):
-    return int(damage * (1 + strain))
+def strain_result(damage, base_strain, strain_gain):
+    strain = int(base_strain * BINARY_SCALE) + strain_gain
+    return int(damage * (1 + strain / BINARY_SCALE))
 
 
 @cache

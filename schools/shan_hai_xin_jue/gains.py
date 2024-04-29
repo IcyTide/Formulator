@@ -6,6 +6,7 @@ from base.gain import Gain
 GAINS = {
     2568: CriticalSet(16025),
     5438: damage_addition_recipe([35987], 102),
+    17250: Gain(),
     5461: damage_addition_recipe([36157], 51),
     5462: damage_addition_recipe([35987], 51),
     5463: critical_strike_recipe([36157], 500),

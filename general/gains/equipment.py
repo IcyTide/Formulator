@@ -94,11 +94,11 @@ class BeltSpecialEnchant(EquipmentGain):
 
 
 class WristSpecialEnchant(EquipmentGain):
-    skill_ids = [22160]
+    skill_ids = [22160, 22164, 37562]
 
 
 class ShoesSpecialEnchant(EquipmentGain):
-    skill_ids = [33257]
+    skill_ids = [33257, 33261, 37561]
 
 
 EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {

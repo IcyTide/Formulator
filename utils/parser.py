@@ -7,7 +7,7 @@ from base.buff import Buff
 from base.constant import FRAME_PER_SECOND
 from base.gain import Gain
 from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
-from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang
+from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang, tai_xu_jian_yi
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
@@ -115,6 +115,14 @@ SUPPORT_SCHOOL = {
         recipe_gains=wu_fang.RECIPE_GAINS, recipes=wu_fang.RECIPES,
         gains=wu_fang.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
+    # 0: School(
+    #     school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="",
+    #     skills=tai_xu_jian_yi.SKILLS, buffs=tai_xu_jian_yi.BUFFS,
+    #     talent_gains=tai_xu_jian_yi.TALENT_GAINS, talents=tai_xu_jian_yi.TALENTS,
+    #     talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
+    #     recipe_gains=tai_xu_jian_yi.RECIPE_GAINS, recipes=tai_xu_jian_yi.RECIPES,
+    #     gains=tai_xu_jian_yi.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
+    # )
 }
 
 LABEL_MAPPING = {
@@ -133,7 +141,7 @@ LABEL_MAPPING = {
 }
 EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
 
-BUFFER_DELAY = 4
+BUFFER_DELAY = 2
 
 
 class Parser:

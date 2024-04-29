@@ -274,31 +274,35 @@ class Minor:
     weapon_damage_base: int = 0
     weapon_damage_gain: int = 0
 
-    _all_shield_ignore: float = 0
+    _all_shield_ignore: int = 0
 
-    physical_shield_ignore: float = 0
-    magical_shield_ignore: float = 0
+    physical_shield_ignore: int = 0
+    magical_shield_ignore: int = 0
 
-    _all_damage_addition: float = 0
-    physical_damage_addition: float = 0
-    magical_damage_addition: float = 0
+    _all_damage_addition: int = 0
+    physical_damage_addition: int = 0
+    magical_damage_addition: int = 0
 
-    pve_addition: float = 0
+    pve_addition: int = 0
 
     """ Minor Function """
 
     @property
-    def strain_percent(self):
+    def base_strain(self):
         return self.strain_base / STRAIN_SCALE
 
     @property
     def strain(self):
-        return self.strain_percent + self.strain_gain / BINARY_SCALE
+        return self.base_strain + self.strain_gain / BINARY_SCALE
 
     """ Critical Power Function"""
 
     @property
-    def critical_power(self):
+    def base_critical_power(self):
+        raise NotImplementedError
+
+    @property
+    def critical_power_gain(self):
         raise NotImplementedError
 
     @property
@@ -324,12 +328,20 @@ class Minor:
         self._all_critical_power_gain = all_critical_power_gain
 
     @property
+    def base_physical_critical_power(self):
+        return self.physical_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
     def physical_critical_power_percent(self):
-        return BASE_CRITICAL_POWER + self.physical_critical_power_base / CRITICAL_POWER_SCALE
+        return BASE_CRITICAL_POWER + self.base_physical_critical_power
 
     @property
     def physical_critical_power(self):
         return self.physical_critical_power_percent + self.physical_critical_power_gain / BINARY_SCALE
+
+    @property
+    def base_magical_critical_power(self):
+        return self.magical_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
     def magical_critical_power_percent(self):
@@ -388,7 +400,7 @@ class Attribute(Major, Minor, Target):
 
     @property
     def level_reduction(self):
-        return LEVEL_REDUCTION * (self.target_level - self.level)
+        return int(LEVEL_REDUCTION * (self.target_level - self.level) * BINARY_SCALE) / BINARY_SCALE
 
 
 class PhysicalAttribute(Attribute):
@@ -413,20 +425,24 @@ class PhysicalAttribute(Attribute):
         return self.physical_critical_strike
 
     @property
-    def critical_power(self):
-        return self.physical_critical_power
+    def base_critical_power(self):
+        return self.base_physical_critical_power
+
+    @property
+    def critical_power_gain(self):
+        return self.physical_critical_power_gain
 
     @property
     def overcome(self):
         return self.physical_overcome
 
     @property
-    def shield_ignore(self):
-        return self.physical_shield_ignore
-
-    @property
     def damage_addition(self):
         return self.physical_damage_addition
+
+    @property
+    def shield_ignore(self):
+        return self.physical_shield_ignore
 
     @property
     def shield_base(self):
@@ -462,8 +478,12 @@ class MagicalAttribute(Attribute):
         return self.magical_critical_strike
 
     @property
-    def critical_power(self):
-        return self.magical_critical_power
+    def base_critical_power(self):
+        return self.base_magical_critical_power
+
+    @property
+    def critical_power_gain(self):
+        return self.magical_critical_power_gain
 
     @property
     def overcome(self):

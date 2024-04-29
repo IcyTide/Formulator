@@ -4,12 +4,13 @@ from general.buffs import GENERAL_BUFFS
 BUFFS = {
     21758: {
         "buff_name": "断肠",
+        "activate": False,
         "gain_attributes": {
             "magical_critical_strike_gain": 400,
             "magical_critical_power_gain": 41
         }
     },
-    14083: {
+    20680: {
         "buff_name": "相使",
         "gain_attributes": {
             "magical_attack_power_gain": 154,
