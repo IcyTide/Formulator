@@ -14,41 +14,24 @@ SKILLS: Dict[int, Skill | dict] = {
             1048576 * (0.4032 - 1)
         ]
     },
-    16419: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "霜风刀法",
-        "attack_power_cof": 16,
-        "weapon_damage_cof": 1024
+    **{
+        skill_id: {
+            "skill_class": PhysicalDamage,
+            "skill_name": "霜风刀法",
+            "attack_power_cof": 16,
+            "weapon_damage_cof": 1024
+        } for skill_id in (16419, 16820, 16822)
     },
-    16820: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "霜风刀法",
-        "attack_power_cof": 16,
-        "weapon_damage_cof": 1024
-    },
-    16822: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "霜风刀法",
-        "attack_power_cof": 16,
-        "weapon_damage_cof": 1024
-    },
-    16631: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "雷走风切",
-        "damage_base": [35, 45, 55, 70, 85, 100, 115, 130, 145, 175],
-        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 15],
-        "attack_power_cof": [45 * 0.8 * 0.7] +
-                            [(16 + (i - 1) * 17) * 0.8 * 0.7 for i in range(2, 10)] +
-                            [224 * 0.8 * 0.7],
-    },
-    16599: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "雷走风切",
-        "damage_base": [35, 45, 55, 70, 85, 100, 115, 130, 145, 175],
-        "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 15],
-        "attack_power_cof": [45 * 0.8 * 0.7] +
-                            [(16 + (i - 1) * 17) * 0.8 * 0.7 for i in range(2, 10)] +
-                            [224 * 0.8 * 0.7],
+    **{
+        skill_id: {
+            "skill_class": PhysicalDamage,
+            "skill_name": "雷走风切",
+            "damage_base": [35, 45, 55, 70, 85, 100, 115, 130, 145, 175],
+            "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 15],
+            "attack_power_cof": [45 * 0.8 * 0.7] +
+                                [(16 + (i - 1) * 17) * 0.8 * 0.7 for i in range(2, 10)] +
+                                [224 * 0.8 * 0.7],
+        } for skill_id in (16599, 16631)
     },
     11447: {
         "skill_class": PhysicalDotDamage,
@@ -242,75 +225,20 @@ SKILLS: Dict[int, Skill | dict] = {
                             [400 * 0.9 * 0.95 * 1.1 * 1.15 * 1.1],
         "weapon_damage_cof": 2048
     },
-    16803: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [100, 140, 160, 180, 200, 220, 240, 260, 280, 300],
-        "damage_rand": [10, 10, 10, 10, 10, 15, 15, 15, 15, 15],
-        "attack_power_cof": [60 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024
-    },
-    16802: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.15) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.15) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.15 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.15 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.15 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.15
-    },
-    16801: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.3) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.3) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.3 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.3 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.3 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.3
-    },
-    16800: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.45) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.45) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.45 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.45 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.45 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.45
-    },
-    17043: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.6) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.6) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.6 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.6 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.6 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.6
-    },
-    19423: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.75) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.75) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.75 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.75 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.75 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.6
-    },
-    19424: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "上将军印",
-        "damage_base": [int(e * 1.9) for e in [100, 140, 160, 180, 200, 220, 240, 260, 280, 300]],
-        "damage_rand": [int(e * 1.9) for e in [10, 10, 10, 10, 10, 15, 15, 15, 15, 15]],
-        "attack_power_cof": [60 * 1.9 * 0.9 * 1.1 * 1.05] +
-                            [(60 + (i - 1) * 10) * 1.9 * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
-                            [160 * 1.9 * 0.9 * 1.1 * 1.05],
-        "weapon_damage_cof": 1024 * 1.6
+    **{
+        skill_id: {
+            "skill_class": PhysicalDamage,
+            "skill_name": "上将军印",
+            "damage_base": [100, 140, 160, 180, 200, 220, 240, 260, 280, 300],
+            "damage_rand": [10, 10, 10, 10, 10, 15, 15, 15, 15, 15],
+            "damage_gain": 1 + 0.15 * i,
+            "attack_power_cof": [60 * 0.9 * 1.1 * 1.05] +
+                                [(60 + (i - 1) * 10) * 0.9 * 1.1 * 1.05 for i in range(2, 10)] +
+                                [160 * 0.9 * 1.1 * 1.05],
+            "attack_power_cof_gain": 1 + 0.15 * i,
+            "weapon_damage_cof": 1024,
+            "weapon_damage_cof_gain": 1 + max(0.15 * i, 0.6)
+        } for i, skill_id in enumerate([16803, 16802, 16801, 16800, 17043, 19423, 19424])
     },
     36486: {
         "skill_class": PhysicalDamage,

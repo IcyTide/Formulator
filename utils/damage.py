@@ -13,9 +13,8 @@ def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
 
 
 @cache
-def base_result(damage_base, damage_rand, damage_gain):
-    damage = damage_base + damage_rand / 2
-    damage += damage * damage_gain
+def base_result(damage_base, damage_rand):
+    damage = int(damage_base) + damage_rand / 2
     return int(damage)
 
 
@@ -38,11 +37,11 @@ def surplus_result(surplus_cof, surplus):
 
 
 @cache
-def init_result(damage_base, damage_rand, damage_gain,
+def init_result(damage_base, damage_rand,
                 attack_power_cof, attack_power,
                 weapon_damage_cof, weapon_damage,
                 surplus_cof, surplus):
-    return (base_result(damage_base, damage_rand, damage_gain) +
+    return (base_result(damage_base, damage_rand) +
             attack_power_result(attack_power_cof, attack_power) +
             weapon_damage_result(weapon_damage_cof, weapon_damage) +
             surplus_result(surplus_cof, surplus))

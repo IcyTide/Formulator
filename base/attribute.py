@@ -400,7 +400,7 @@ class Attribute(Major, Minor, Target):
 
     @property
     def level_reduction(self):
-        return int(LEVEL_REDUCTION * (self.target_level - self.level) * BINARY_SCALE) / BINARY_SCALE
+        return LEVEL_REDUCTION * (self.target_level - self.level)
 
 
 class PhysicalAttribute(Attribute):

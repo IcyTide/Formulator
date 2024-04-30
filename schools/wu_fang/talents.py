@@ -23,6 +23,7 @@ class 疾根(Gain):
 
 TALENT_GAINS: Dict[int, Gain] = {
     28343: Gain("淮茵"),
+    28338: Gain("怯邪"),
     28344: 鸩羽("鸩羽"),
     28361: Gain("结草"),
     29498: Gain("灵荆"),
@@ -37,7 +38,7 @@ TALENT_GAINS: Dict[int, Gain] = {
 }
 
 TALENTS = [
-    [28343],
+    [28343, 28338],
     [28344],
     [28361],
     [29498],

@@ -6,8 +6,8 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.constant import FRAME_PER_SECOND
 from base.gain import Gain
-from base.skill import Skill, DotSkill, DotConsumeSkill, Damage, DotDamage
-from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang, tai_xu_jian_yi
+from base.skill import Skill
+from schools import *
 from utils.lua import parse
 
 SKILL_TYPE = Tuple[int, int, int]
@@ -115,8 +115,16 @@ SUPPORT_SCHOOL = {
         recipe_gains=wu_fang.RECIPE_GAINS, recipes=wu_fang.RECIPES,
         gains=wu_fang.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
+    10698: School(
+        school="刀宗", major="力道", kind="外功", attribute=gu_feng_jue.GuFengJue, formation="横云破锋阵",
+        skills=gu_feng_jue.SKILLS, buffs=gu_feng_jue.BUFFS,
+        talent_gains=gu_feng_jue.TALENT_GAINS, talents=gu_feng_jue.TALENTS,
+        talent_decoder=gu_feng_jue.TALENT_DECODER, talent_encoder=gu_feng_jue.TALENT_ENCODER,
+        recipe_gains=gu_feng_jue.RECIPE_GAINS, recipes=gu_feng_jue.RECIPES,
+        gains=gu_feng_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
+    ),
     # 0: School(
-    #     school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="",
+    #     school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
     #     skills=tai_xu_jian_yi.SKILLS, buffs=tai_xu_jian_yi.BUFFS,
     #     talent_gains=tai_xu_jian_yi.TALENT_GAINS, talents=tai_xu_jian_yi.TALENTS,
     #     talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
@@ -297,35 +305,7 @@ class Parser:
 
     def record(self, current_frame, player_id, skill_id, skill_level, skill_stack, critical):
         skill = self.school[player_id].skills[skill_id]
-        if isinstance(skill, DotSkill):
-            bind_skill = skill.bind_skill
-            if not self.ticks[player_id][bind_skill]:
-                self.stacks[player_id][bind_skill] = 0
-            self.ticks[player_id][bind_skill] = skill.tick
-            self.stacks[player_id][bind_skill] = min(self.stacks[player_id][bind_skill] + 1,
-                                                     skill.max_stack)
-            self.snapshot[player_id][bind_skill] = self.status[player_id].copy()
-        elif isinstance(skill, DotConsumeSkill):
-            bind_skill = skill.bind_skill
-            skill_tuple, status_tuple = self.last_dot[player_id][bind_skill]
-            skill_id, skill_level, skill_stack = skill_tuple
-            self.ticks[player_id][skill_id] += 1
-            tick = min(self.ticks[player_id][skill_id], skill.tick)
-            current_record = self.records[player_id][-1]
-            current_record[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
-                current_record[skill_tuple][status_tuple].pop()
-            )
-            self.ticks[player_id][skill_id] -= tick
-        elif isinstance(skill, Damage):
-            skill_tuple = (skill_id, skill_level, skill_stack)
-            status_tuple = self.available_status(player_id, skill_id)
-            current_record = self.records[player_id][-1]
-            current_record[skill_tuple][status_tuple].append(
-                (current_frame - self.start_time[player_id][-1], critical)
-            )
-            if isinstance(skill, DotDamage):
-                self.last_dot[player_id][skill_id] = (skill_tuple, status_tuple)
-                self.ticks[player_id][skill_id] -= 1
+        skill.record(current_frame, player_id, skill_level, skill_stack, critical, self)
 
     def parse_record(self):
         last_frame = self.current_frame - BUFFER_DELAY

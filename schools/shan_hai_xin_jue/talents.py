@@ -17,10 +17,10 @@ class 彤弓(Gain):
 
 class 素矰(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[26856].attack_power_cof_gain += 0.05
+        skills[26856].attack_power_cof_gain *= 1.05
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[26856].attack_power_cof_gain -= 0.05
+        skills[26856].attack_power_cof_gain /= 1.05
 
 
 class 孰湖(Gain):

@@ -67,4 +67,4 @@ def WEAPON_DAMAGE_COF(cof):
 
 
 def SURPLUS_COF(cof):
-    return ((cof + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE * SURPLUS_SCALE
+    return ((int(cof) + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE * SURPLUS_SCALE

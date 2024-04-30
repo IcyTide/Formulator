@@ -65,7 +65,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 10,
         "attack_power_cof": [16] * 3 +
                             [(12 * (i - 4) + 16) for i in range(4, 9)] +
-                            [120] * 2,
+                            [120],
     },
     27557: {
         "skill_class": MagicalDamage,
@@ -76,7 +76,7 @@ SKILLS: Dict[int, Skill | dict] = {
                         15, 15, 15, 15, 15, 15],
         "attack_power_cof": [25] * 2 +
                             [(12 * (i - 3) + 25) for i in range(3, 9)] +
-                            [208] * 2,
+                            [208],
     },
     27579: {
         "skill_class": MagicalDamage,
@@ -94,7 +94,7 @@ SKILLS: Dict[int, Skill | dict] = {
                         15, 15, 15, 15, 15, 15],
         "attack_power_cof": [30 * 1.8 * 1.2 * 1.15] * 6 +
                             [(3 * (i - 7) + 40) * 1.8 * 1.2 * 1.15 for i in range(7, 14)] +
-                            [72 * 1.8 * 1.2 * 1.15] * 2,
+                            [72 * 1.8 * 1.2 * 1.15],
     },
     28346: {
         "skill_class": MagicalDamage,
@@ -113,6 +113,15 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [20] * 5 +
                             [(10 * (i - 6) + 24) for i in range(6, 15)] +
                             [120],
+    },
+    27539: {
+        "skill_class": MagicalDamage,
+        "skill_name": "惊鸿掠水",
+        "damage_base": [30, 39, 48, 57, 66, 75, 84, 93, 102, 111, 120, 129, 138, 147, 156],
+        "damage_rand": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15, 15, 15],
+        "attack_power_cof": [40] * 6 +
+                            [(4 * (i - 7) + 40) for i in range(7, 14)] +
+                            [100],
     },
     29505: {
         "skill_class": MagicalDamage,
@@ -165,7 +174,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 10,
         "attack_power_cof": [70 * 0.9] * 3 +
                             [(3 * (i - 4) + 70) * 0.9 for i in range(4, 9)] +
-                            [300 * 0.9] * 2,
+                            [300 * 0.9],
     },
     29674: {
         "skill_class": MagicalDamage,

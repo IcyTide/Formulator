@@ -13,7 +13,6 @@ GAINS = {
     2414: Gain(),
     2138: Gain(),
     17458: Gain(),
-    17239: Gain(),
     17459: Gain(),
     **EQUIPMENT_GAINS,
 }

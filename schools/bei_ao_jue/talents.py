@@ -14,7 +14,7 @@ class 冥鼓(Gain):
         skills[37458].skill_shield_gain -= 512
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in [16760, 16382, 20991]:
+        for skill_id in (16760, 16382, 20991):
             skills[skill_id].skill_damage_addition -= 205
             skills[skill_id].skill_shield_gain += 512
         skills[32823].skill_shield_gain = 0
@@ -53,10 +53,10 @@ class 绝河(Gain):
 
 class 绝期(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[11447].attack_power_cof_gain += 0.7
+        skills[11447].attack_power_cof_gain *= 1.7
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[11447].attack_power_cof_gain -= 0.7
+        skills[11447].attack_power_cof_gain /= 1.7
 
 
 TALENT_GAINS: Dict[int, Gain] = {

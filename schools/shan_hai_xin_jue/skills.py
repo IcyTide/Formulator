@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.constant import DOT_DAMAGE_SCALE
+from base.constant import DOT_DAMAGE_SCALE, FRAME_PER_SECOND
 from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
@@ -112,7 +112,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "贯穿(DOT)",
         "damage_base": 32,
         "attack_power_cof": 215 * 0.7 * 1.15 * 0.9 * 0.9 * 0.9,
-        "interval": DOT_DAMAGE_SCALE * 4
+        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 4
     },
     36165: {
         "skill_class": DotConsumeSkill,

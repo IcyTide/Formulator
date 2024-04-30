@@ -1,12 +1,9 @@
 import json
-import os.path
 
 from utils.lua import parse
 
 
 class Parser:
-    buffs: dict = None
-
     @staticmethod
     def parse_talents(detail):
         return [row[1] for row in detail]
@@ -41,6 +38,7 @@ class Parser:
             row = line.split("\t")
             if row[4] == "4":
                 detail = parse(row[-1])
+                self.school_id = int(detail[3])
                 if isinstance(detail, list):
                     self.talents = self.parse_talents(detail[6])
         for line in lines:
@@ -49,6 +47,8 @@ class Parser:
                 self.parse_buff(row[-1])
             elif row[4] == "21":
                 self.parse_skill(row[-1])
+        print(self.school_id)
+        print(self.talents)
         json.dump(self.skills, open("skills.json", "w", encoding="utf-8"))
         print(len(self.skills))
         json.dump(self.buffs, open("buffs.json", "w", encoding="utf-8"))
