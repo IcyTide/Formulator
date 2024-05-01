@@ -76,15 +76,6 @@ ATTR_TYPE_TRANSLATE = {
     "haste_base": "加速",
 }
 ATTR_TYPE_TRANSLATE_REVERSE = {v: k for k, v in ATTR_TYPE_TRANSLATE.items()}
-STONE_ATTR = [
-    "atMeleeWeaponDamageBase", "atSurplusValueBase", "atStrainBase", "atHasteBase",
-    "atAllTypeCriticalStrike", "atAllTypeCriticalDamagePowerBase",
-    "atAgilityBase", "atStrengthBase", "atSpiritBase", "atSpunkBase",
-    "atPhysicsAttackPowerBase", "atPhysicsCriticalStrike",
-    "atPhysicsCriticalDamagePowerBase", "atPhysicsOvercomeBase",
-    "atMagicAttackPowerBase", "atMagicCriticalStrike",
-    "atMagicCriticalDamagePowerBase", "atMagicOvercome"
-]
 
 """ Equip """
 

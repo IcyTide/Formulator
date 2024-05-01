@@ -43,6 +43,22 @@ BUFFS = {
             }
             for skill_id in (20322, 20684, 20685, 20323)
         }
+    },
+    14317: {
+        "buff_name": "神降",
+        "gain_skills": {
+            20054: {
+                "skill_critical_strike": [1000, 2000, 3000, 4000, 5000],
+                "skill_critical_power": [102, 205, 307, 410, 512]
+            }
+        }
+    },
+    14029: {
+        "buff_name": "神降",
+        "activate": False,
+        "gain_attributes": {
+            "all_damage_addition": 102
+        }
     }
 }
 

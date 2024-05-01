@@ -20,7 +20,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "飘遥伞击",
         "attack_power_cof": 16,
         "weapon_damage_cof": 1024,
-        "skill_damage_addition": 205 + 250
+        "skill_damage_addition": 205
     },
     20016: {
         "skill_class": PhysicalDamage,
@@ -201,7 +201,7 @@ SKILLS: Dict[int, Skill | dict] = {
 }
 
 for skill_id, detail in SKILLS.items():
-    SKILLS[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
+    SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
     for attr, value in detail.items():
         setattr(SKILLS[skill_id], attr, value)
 

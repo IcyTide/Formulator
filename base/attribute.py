@@ -508,3 +508,56 @@ class MagicalAttribute(Attribute):
     @property
     def vulnerable(self):
         return self.magical_vulnerable
+
+
+class MixingAttribute(Attribute):
+    grad_attrs = {
+        "agility_base": MAJOR_DELTA,
+        "spunk_base": MAJOR_DELTA,
+        "surplus": MINOR_DELTA,
+        "strain_base": MINOR_DELTA,
+        "magical_attack_power_base": MAGICAL_DELTA,
+        "physical_critical_strike_base": MINOR_DELTA,
+        "physical_critical_power_base": MINOR_DELTA,
+        "magical_overcome_base": MINOR_DELTA
+    }
+
+    @property
+    def attack_power(self):
+        return self.magical_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.physical_critical_strike
+
+    @property
+    def base_critical_power(self):
+        return self.base_magical_critical_power
+
+    @property
+    def critical_power_gain(self):
+        return self.physical_critical_power_gain
+
+    @property
+    def overcome(self):
+        return self.magical_overcome
+
+    @property
+    def shield_ignore(self):
+        return self.magical_shield_ignore
+
+    @property
+    def damage_addition(self):
+        return self.magical_damage_addition
+
+    @property
+    def shield_base(self):
+        return self.magical_shield_base
+
+    @property
+    def shield_gain(self):
+        return self.magical_shield_gain
+
+    @property
+    def vulnerable(self):
+        return self.magical_vulnerable

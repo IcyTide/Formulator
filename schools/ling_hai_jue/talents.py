@@ -1,6 +1,7 @@
 from typing import Dict
 
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
 
@@ -21,6 +22,22 @@ class 扶桑(Gain):
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[20016].skill_damage_addition -= 102
+
+
+class 神降(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[20054].skill_critical_strike += 5000
+        skills[20054].skill_critical_power += 512
+
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[14029].activate = True
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[20054].skill_critical_strike -= 5000
+        skills[20054].skill_critical_power -= 512
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[14029].activate = False
 
 
 class 梦悠(Gain):
@@ -50,6 +67,7 @@ TALENT_GAINS: Dict[int, Gain] = {
     25270: Gain("烟涛"),
     21293: Gain("溯徊"),
     20374: Gain("驰行"),
+    20758: 神降("神降"),
     20747: 梦悠("梦悠"),
     20701: 濯流("濯流")
 }
@@ -64,7 +82,7 @@ TALENTS = [
     [20751],
     [25270],
     [21293],
-    [20374],
+    [20374, 20758],
     [20747],
     [20701]
 ]

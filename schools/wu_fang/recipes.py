@@ -28,10 +28,10 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "2%伤害": damage_addition_recipe([27584], 21),
     },
     "银光照雪": {
-        "3%伤害": damage_addition_recipe([28346], 31),
-        "2%伤害": damage_addition_recipe([28346], 21),
-        "5%会心": critical_strike_recipe([28346], 500),
-        "4%会心": critical_strike_recipe([28346], 400),
+        "3%伤害": damage_addition_recipe([28346, 34699], 31),
+        "2%伤害": damage_addition_recipe([28346, 34699], 21),
+        "5%会心": critical_strike_recipe([28346, 34699], 500),
+        "4%会心": critical_strike_recipe([28346, 34699], 400),
     },
 }
 

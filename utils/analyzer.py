@@ -85,7 +85,8 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
         skill: Skill = school.skills[skill_id]
         if not skill.activate:
             continue
-        skill.skill_level, skill.skill_stack, skill_name = skill_level, skill_stack, skill.skill_name
+        skill.skill_level, skill.skill_stack = skill_level, skill_stack
+        skill_name = skill.skill_name
 
         skill_detail = details[skill.display_name] = {}
         if not (skill_summary := summary.get(skill_name)):

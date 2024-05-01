@@ -1,5 +1,5 @@
 def node_to_table(node):
-    if len(node["entries"]) == node["lualen"]:
+    if len(node["entries"]) == node["lua_len"]:
         lst = []
         for kv in node["entries"]:
             lst.append(kv[1])
@@ -20,16 +20,16 @@ def sorter(kv):
 def node_entries_append(node, key, val):
     node["entries"].append([key, val])
     node["entries"].sort(key=sorter)
-    lualen = 0
+    lua_len = 0
     for kv in node["entries"]:
-        if kv[0] == lualen + 1:
-            lualen = lualen + 1
-    node["lualen"] = lualen
+        if kv[0] == lua_len + 1:
+            lua_len = lua_len + 1
+    node["lua_len"] = lua_len
 
 
-def parse(raw, encoding="utf-8", multival=False, verbose=False):
+def parse(raw, encoding="utf-8", multi_val=False, verbose=False):
     sbins = raw.encode(encoding)
-    root = {"entries": [], "lualen": 0, "is_root": True}
+    root = {"entries": [], "lua_len": 0, "is_root": True}
     node = root
     stack = []
     state = "SEEK_CHILD"
@@ -73,8 +73,8 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 comment = "INLINE"
                 pos = pos + 1
             elif not node["is_root"] and (
-                    (byte_current >= b"A" and byte_current <= b"Z")
-                    or (byte_current >= b"a" and byte_current <= b"z")
+                    (b"A" <= byte_current <= b"Z")
+                    or (b"a" <= byte_current <= b"z")
                     or byte_current == b"_"
             ):
                 state = "KEY_SIMPLE"
@@ -101,7 +101,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                     key = None
                 node = prev_env["node"]
             elif not byte_current_is_space:
-                key = node["lualen"] + 1
+                key = node["lua_len"] + 1
                 state = "VALUE"
                 pos = pos - 1
         elif state == "VALUE":
@@ -120,7 +120,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 pos1 = pos + 1
                 byte_quoting_char = byte_current
             elif byte_current == b"-" or (
-                    byte_current >= b"0" and byte_current <= b"9"
+                    b"0" <= byte_current <= b"9"
             ):
                 state = "INT"
                 component_name = "VALUE"
@@ -142,7 +142,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
             elif byte_current == b"{":
                 stack.append({"node": node, "state": state, "key": key})
                 state = "SEEK_CHILD"
-                node = {"entries": [], "lualen": 0, "is_root": False}
+                node = {"entries": [], "lua_len": 0, "is_root": False}
         elif state == "TEXT":
             if byte_current is None:
                 errmsg = "unexpected string ending: missing close quote."
@@ -232,7 +232,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 pos1 = pos + 1
                 byte_quoting_char = byte_current
             elif byte_current == b"-" or (
-                    byte_current >= b"0" and byte_current <= b"9"
+                    b"0" <= byte_current <= b"9"
             ):
                 state = "INT"
                 component_name = "KEY"
@@ -258,7 +258,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 break
                 state = "SEEK_CHILD"
                 stack.push({"node": node, "state": state, "key": key})
-                node = {"entries": [], "lualen": 0}
+                node = {"entries": [], "lua_len": 0}
         elif state == "KEY_EXPRESSION_FINISH":
             if byte_current is None:
                 errmsg = 'unexpected end of table key expression, "]" expected.'
@@ -288,9 +288,9 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 break
         elif state == "KEY_SIMPLE":
             if not (
-                    (byte_current >= b"A" and byte_current <= b"Z")
-                    or (byte_current >= b"a" and byte_current <= b"z")
-                    or (byte_current >= b"0" and byte_current <= b"9")
+                    (b"A" <= byte_current <= b"Z")
+                    or (b"a" <= byte_current <= b"z")
+                    or (b"0" <= byte_current <= b"9")
                     or byte_current == b"_"
             ):
                 key = sbins[pos1:pos].decode(encoding)
@@ -309,12 +309,12 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
                 state = "VALUE"
             elif byte_current == b"," or byte_current == b"}":
                 if key == "true":
-                    node_entries_append(node, node["lualen"] + 1, True)
+                    node_entries_append(node, node["lua_len"] + 1, True)
                     state = "VALUE_END"
                     key = None
                     pos = pos - 1
                 elif key == "false":
-                    node_entries_append(node, node["lualen"] + 1, False)
+                    node_entries_append(node, node["lua_len"] + 1, False)
                     state = "VALUE_END"
                     key = None
                     pos = pos - 1
@@ -329,7 +329,7 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
     # check if there is any errors
     if errmsg is None and len(stack) != 0:
         errmsg = 'unexpected end of table, "}" expected.'
-    if errmsg is None and root["lualen"] == 0:
+    if errmsg is None and root["lua_len"] == 0:
         errmsg = "nothing can be unserialized from input string."
     if errmsg is not None:
         pos = min(pos, slen)
@@ -345,6 +345,6 @@ def parse(raw, encoding="utf-8", multival=False, verbose=False):
     res = []
     for kv in root["entries"]:
         res.append(kv[1])
-    if multival:
+    if multi_val:
         return tuple(res)
     return res[0]

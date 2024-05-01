@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
+from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -21,7 +21,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "裁叶饮刃",
         "attack_power_cof": 16,
         "weapon_damage_cof": 1024,
-        "skill_damage_addition": 205 + 250
+        "skill_damage_addition": 205
     },
     28081: {
         "skill_class": MagicalDamage,
@@ -38,7 +38,6 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": 95,
         "attack_power_cof": 90 * 1.5 * 0.8 * 1.05 * 1.1,
         "interval": 32
-
     },
     27560: {
         "skill_class": DotSkill,
@@ -124,7 +123,7 @@ SKILLS: Dict[int, Skill | dict] = {
                             [100],
     },
     29505: {
-        "skill_class": MagicalDamage,
+        "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
         "skill_name": "含锋破月",
         "damage_base": [35, 53, 71, 89, 107, 125, 143, 161, 179, 197, 215, 233, 251, 269, 287, 305, 323, 341, 359, 377,
                         395, 413, 431, 449, 467, 485, 503, 521, 539, 557, 575],
@@ -133,9 +132,11 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [50 * 1.15 * 0.85] * 5 +
                             [(9 * (i - 6) + 50) * 1.15 * 0.85 for i in range(6, 31)] +
                             [280 * 1.15 * 0.85],
+        "bind_skill": 20052,
+        "tick": 2
     },
     34700: {
-        "skill_class": MagicalDamage,
+        "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
         "skill_name": "含锋破月·结草",
         "damage_base": [35, 53, 71, 89, 107, 125, 143, 161, 179, 197, 215, 233, 251, 269, 287, 305, 323, 341, 359, 377,
                         395, 413, 431, 449, 467, 485, 503, 521, 539, 557, 575],
@@ -144,9 +145,11 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [50 * 1.15 * 0.85] * 5 +
                             [(9 * (i - 6) + 50) * 1.15 * 0.85 for i in range(6, 31)] +
                             [280 * 1.15 * 0.85],
+        "bind_skill": 20052,
+        "tick": 2
     },
     29506: {
-        "skill_class": MagicalDamage,
+        "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
         "skill_name": "飞叶满襟",
         "damage_base": [55, 74, 93, 112, 131, 150, 169, 188, 207, 226, 245, 264, 283, 302, 321, 340, 359, 378, 397, 416,
                         435, 454, 473, 492, 511, 530, 549, 568, 587, 606, 625],
@@ -155,9 +158,11 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [55 * 1.15 * 0.85] * 5 +
                             [(9 * (i - 6) + 55) * 1.15 * 0.85 for i in range(6, 31)] +
                             [340 * 1.15 * 0.85],
+        "bind_skill": 20052,
+        "tick": 2
     },
     34702: {
-        "skill_class": MagicalDamage,
+        "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
         "skill_name": "飞叶满襟·结草",
         "damage_base": [55, 74, 93, 112, 131, 150, 169, 188, 207, 226, 245, 264, 283, 302, 321, 340, 359, 378, 397, 416,
                         435, 454, 473, 492, 511, 530, 549, 568, 587, 606, 625],
@@ -166,6 +171,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [55 * 1.15 * 0.85] * 5 +
                             [(9 * (i - 6) + 55) * 1.15 * 0.85 for i in range(6, 31)] +
                             [340 * 1.15 * 0.85],
+        "bind_skill": 20052,
+        "tick": 2
     },
     27657: {
         "skill_class": MagicalDamage,
@@ -223,7 +230,7 @@ SKILLS: Dict[int, Skill | dict] = {
 }
 
 for skill_id, detail in SKILLS.items():
-    SKILLS[skill_id] = detail.pop('skill_class')(skill_id, detail.pop('skill_name'))
+    SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
     for attr, value in detail.items():
         setattr(SKILLS[skill_id], attr, value)
 

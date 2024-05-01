@@ -26,7 +26,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pyside6
+        pip install - ./requirements.txt
     - uses: Nuitka/Nuitka-Action@main
       with:
         nuitka-version: main

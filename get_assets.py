@@ -7,9 +7,9 @@ from tqdm import tqdm
 
 from qt.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR
 from qt.constant import ATTR_TYPE_TRANSLATE
-from qt.constant import MAX_STONE_ATTR, STONE_ATTR, MAX_STONE_LEVEL
+from qt.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from qt.constant import EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR
-from utils.parser import SUPPORT_SCHOOL
+from schools import SUPPORT_SCHOOL
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
 SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
@@ -337,7 +337,7 @@ def get_stone_detail(row):
     for i in range(MAX_STONE_ATTR):
         if not (attr_type := row[f'Attribute{i + 1}ID']):
             break
-        if attr_type not in STONE_ATTR:
+        if attr_type not in ATTR_TYPE_MAP:
             return
         attrs[ATTR_TYPE_MAP[attr_type]] = int(row[f'Attribute{i + 1}Value1'])
 
@@ -353,19 +353,19 @@ if __name__ == '__main__':
     if not os.path.exists(ENCHANTS_DIR):
         os.makedirs(ENCHANTS_DIR)
 
-    for pos in tqdm(POSITION_MAP):
-        json.dump(
-            get_equips_list(pos),
-            open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-        json.dump(
-            get_enchants_list(pos),
-            open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-    json.dump(
-        get_secondary_weapons(), open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
-        ensure_ascii=False)
-    json.dump(
-        get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
-    )
+    # for pos in tqdm(POSITION_MAP):
+    #     json.dump(
+    #         get_equips_list(pos),
+    #         open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+    #     )
+    #     json.dump(
+    #         get_enchants_list(pos),
+    #         open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+    #     )
+    # json.dump(
+    #     get_secondary_weapons(), open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
+    #     ensure_ascii=False)
+    # json.dump(
+    #     get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
+    # )
     json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)
