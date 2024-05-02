@@ -8,16 +8,6 @@ from base.skill import Skill
 
 from schools import bei_ao_jue, shan_hai_xin_jue, ling_hai_jue, wu_fang, gu_feng_jue, tai_xu_jian_yi, tian_luo_gui_dao
 
-SKILL_TYPE = Tuple[int, int, int]
-BUFFER_TYPE = Tuple[int, int, int, bool]
-# BUFFER_TYPE = Tuple[int, int]
-BUFF_TYPE = Tuple[int, int, int]
-TIMELINE_TYPE = List[Tuple[int, bool]]
-SUB_RECORD_TYPE = Dict[Tuple[tuple, tuple], TIMELINE_TYPE]
-RECORD_TYPE = Dict[SKILL_TYPE, SUB_RECORD_TYPE]
-STATUS_TYPE = Dict[Tuple[int, int], int]
-SNAPSHOT_TYPE = Dict[int, STATUS_TYPE]
-
 
 @dataclass
 class School:

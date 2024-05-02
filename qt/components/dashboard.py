@@ -32,8 +32,6 @@ class DashboardWidget(QWidget):
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
 
-        self.fight_select = ComboWithLabel("选择战斗")
-        top_layout.addWidget(self.fight_select)
         self.target_level = ComboWithLabel("目标等级", items=[str(level) for level in SHIELD_BASE_MAP])
         top_layout.addWidget(self.target_level)
         self.duration = DoubleSpinWithLabel("战斗时长", maximum=3600, value=180)

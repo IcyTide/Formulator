@@ -82,7 +82,7 @@ class MainWindow(QMainWindow):
         equipments = equipments_script(self.equipments_widget)
         consumables = consumables_script(self.consumable_widget)
         bonuses = bonuses_script(parser, self.bonus_widget)
-        dashboard_script(parser, self.top_widget, self.dashboard_widget,
+        dashboard_script(parser, self.dashboard_widget,
                          talents, recipes, equipments, consumables, bonuses)
 
 

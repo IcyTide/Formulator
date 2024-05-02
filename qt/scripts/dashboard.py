@@ -46,24 +46,15 @@ def detail_content(detail: Detail):
     return damage_content, gradient_content
 
 
-def dashboard_script(parser: Parser, top_widget: TopWidget,
+def dashboard_script(parser: Parser,
                      dashboard_widget: DashboardWidget, talents: Talents, recipes: Recipes,
                      equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
 
-    def select_fight(text):
-        player_id = parser.current_player
-        index = parser.record_index[player_id][text]
-        dashboard_widget.duration.set_value(parser.duration(player_id, index))
-
-    dashboard_widget.fight_select.combo_box.currentTextChanged.connect(select_fight)
-
     def formulate():
         duration = dashboard_widget.duration.spin_box.value()
-        player_id = parser.current_player
-        record_index = dashboard_widget.fight_select.combo_box.currentText()
-        record = parser.records[player_id][parser.record_index[player_id][record_index]]
+        record = parser.current_records
+        school = parser.school[parser.current_player]
 
-        school = parser.school[player_id]
         attribute = school.attribute()
         attribute.target_level = int(dashboard_widget.target_level.combo_box.currentText())
         for attr, value in equipments.attrs.items():

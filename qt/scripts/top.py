@@ -46,9 +46,7 @@ def top_script(
         config_choices = list(CONFIG.get(school.school, {}))
         config_widget.config_select.set_items(config_choices, default_index=-1)
         """ Update dashboard """
-        record_index = list(parser.record_index[player_id])
-        dashboard_widget.fight_select.set_items(record_index, default_index=0)
-        dashboard_widget.duration.set_value(parser.duration(player_id, parser.record_index[player_id][record_index[0]]))
+        dashboard_widget.duration.set_value(parser.duration)
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):

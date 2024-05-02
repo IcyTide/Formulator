@@ -168,7 +168,7 @@ class Skill:
         else:
             self._skill_shield_gain = [skill_shield_gain]
 
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
+    def record(self, skill_level, skill_stack, critical, parser):
         pass
 
     def __call__(self, attribute: Attribute):
@@ -184,38 +184,33 @@ class BuffConsumeSkill(Skill):
 
 
 class DotSkill(Skill):
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
-        super().record(current_frame, player_id, skill_level, skill_stack, critical, parser)
+    def record(self, skill_level, skill_stack, critical, parser):
+        super().record(skill_level, skill_stack, critical, parser)
         bind_skill = self.bind_skill
-        if not parser.ticks[player_id][bind_skill]:
-            parser.stacks[player_id][bind_skill] = 0
-        parser.ticks[player_id][bind_skill] = self.tick
-        parser.stacks[player_id][bind_skill] = min(parser.stacks[player_id][bind_skill] + 1, self.max_stack)
-        parser.snapshot[player_id][bind_skill] = parser.status[player_id].copy()
+        if not parser.current_ticks[bind_skill]:
+            parser.current_stacks[bind_skill] = 0
+        parser.current_ticks[bind_skill] = self.tick
+        parser.current_stacks[bind_skill] = min(parser.current_stacks[bind_skill] + 1, self.max_stack)
+        parser.current_snapshot[bind_skill] = parser.current_status.copy()
 
 
 class DotConsumeSkill(Skill):
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
-        super().record(current_frame, player_id, skill_level, skill_stack, critical, parser)
+    def record(self, skill_level, skill_stack, critical, parser):
+        super().record(skill_level, skill_stack, critical, parser)
         bind_skill = self.bind_skill
-        skill_tuple, status_tuple = parser.last_dot[player_id][bind_skill]
+        skill_tuple, status_tuple = parser.current_last_dot[bind_skill]
         skill_id, skill_level, skill_stack = skill_tuple
-        parser.ticks[player_id][skill_id] += 1
-        tick = min(parser.ticks[player_id][skill_id], self.tick)
-        current_record = parser.records[player_id][-1]
-        current_record[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
-            current_record[skill_tuple][status_tuple].pop()
+        parser.current_ticks[skill_id] += 1
+        tick = min(parser.current_ticks[skill_id], self.tick)
+        parser.current_records[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
+            parser.current_records[skill_tuple][status_tuple].pop()
         )
-        parser.ticks[player_id][skill_id] -= tick
+        parser.current_ticks[skill_id] -= tick
 
 
 class PureSkill(Skill):
     def __call__(self, attribute: Attribute):
-        damage = init_result(
-            self.damage_base, self.damage_rand,
-            0, 0,
-            0, 0, 0, 0
-        )
+        damage = init_result(self.damage_base, self.damage_rand, 0, 0, 0, 0, 0, 0)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         damage = vulnerable_result(damage, attribute.vulnerable)
@@ -326,22 +321,21 @@ class MixingSkill(Skill):
 
 
 class Damage(Skill):
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
-        super().record(current_frame, player_id, skill_level, skill_stack, critical, parser)
+    def record(self, skill_level, skill_stack, critical, parser):
+        super().record(skill_level, skill_stack, critical, parser)
         skill_tuple = (self.skill_id, skill_level, skill_stack)
-        status_tuple = parser.available_status(player_id, self.skill_id)
-        current_record = parser.records[player_id][-1]
-        current_record[skill_tuple][status_tuple].append(
-            (current_frame - parser.start_time[player_id][-1], critical)
+        status_tuple = parser.available_status(self.skill_id)
+        parser.current_records[skill_tuple][status_tuple].append(
+            (parser.current_frame - parser.start_frame, critical)
         )
         return skill_tuple, status_tuple
 
 
 class DotDamage(Damage):
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
-        skill_tuple, status_tuple = super().record(current_frame, player_id, skill_level, skill_stack, critical, parser)
-        parser.last_dot[player_id][self.skill_id] = (skill_tuple, status_tuple)
-        parser.ticks[player_id][self.skill_id] -= 1
+    def record(self, skill_level, skill_stack, critical, parser):
+        skill_tuple, status_tuple = super().record(skill_level, skill_stack, critical, parser)
+        parser.current_last_dot[self.skill_id] = (skill_tuple, status_tuple)
+        parser.current_ticks[self.skill_id] -= 1
 
 
 class PetDamage(Damage):
