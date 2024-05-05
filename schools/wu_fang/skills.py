@@ -30,7 +30,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 10,
         "attack_power_cof": [20 * 0.9 * 0.92 * 1.1 * 1.1] * 3 +
                             [(20 * (i - 4) + 20) * 0.9 * 0.92 * 1.1 * 1.1 for i in range(4, 9)] +
-                            [160 * 0.9 * 0.92 * 1.1 * 1.1] * 2,
+                            [160 * 0.9 * 0.92 * 1.1 * 1.1],
     },
     20052: {
         "skill_class": MagicalDotDamage,

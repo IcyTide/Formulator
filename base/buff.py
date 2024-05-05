@@ -14,6 +14,7 @@ class Buff:
     buff_level: int = 0
     buff_stack: int = 1
 
+    frame_shift: int = 0
     activate: bool = True
 
     stackable: bool = True

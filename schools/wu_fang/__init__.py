@@ -4,3 +4,7 @@ from schools.wu_fang.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, TALEN
 from schools.wu_fang.recipes import RECIPE_GAINS, RECIPES
 from schools.wu_fang.gains import GAINS
 from schools.wu_fang.attribute import WuFang
+
+
+def prepare(self, player_id):
+    pass

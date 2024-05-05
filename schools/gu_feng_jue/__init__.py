@@ -4,3 +4,7 @@ from schools.gu_feng_jue.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, T
 from schools.gu_feng_jue.recipes import RECIPE_GAINS, RECIPES
 from schools.gu_feng_jue.gains import GAINS
 from schools.gu_feng_jue.attribute import GuFengJue
+
+
+def prepare(self, player_id):
+    pass

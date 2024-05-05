@@ -4,3 +4,7 @@ from schools.bei_ao_jue.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, TA
 from schools.bei_ao_jue.recipes import RECIPE_GAINS, RECIPES
 from schools.bei_ao_jue.gains import GAINS
 from schools.bei_ao_jue.attribute import BeiAoJue
+
+
+def prepare(self, player_id):
+    pass

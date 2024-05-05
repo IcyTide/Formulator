@@ -35,6 +35,7 @@ BUFFS = {
     },
     24659: {
         "buff_name": "应理以药",
+        "frame_shift": -2,
         "gain_skills": {
             28081: {
                 "skill_damage_addition": 3277,

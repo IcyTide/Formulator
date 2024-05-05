@@ -353,19 +353,19 @@ if __name__ == '__main__':
     if not os.path.exists(ENCHANTS_DIR):
         os.makedirs(ENCHANTS_DIR)
 
-    # for pos in tqdm(POSITION_MAP):
-    #     json.dump(
-    #         get_equips_list(pos),
-    #         open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-    #     )
-    #     json.dump(
-    #         get_enchants_list(pos),
-    #         open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-    #     )
-    # json.dump(
-    #     get_secondary_weapons(), open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
-    #     ensure_ascii=False)
-    # json.dump(
-    #     get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
-    # )
-    json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)
+    for pos in tqdm(POSITION_MAP):
+        json.dump(
+            get_equips_list(pos),
+            open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+        )
+        json.dump(
+            get_enchants_list(pos),
+            open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+        )
+    json.dump(
+        get_secondary_weapons(), open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
+        ensure_ascii=False)
+    json.dump(
+        get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
+    )
+    # json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

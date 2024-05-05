@@ -37,6 +37,7 @@ BUFFS = {
     },
     14321: {
         "buff_name": "驰行",
+        "frame_shift": -2,
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 307,

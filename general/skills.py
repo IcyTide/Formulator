@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import PhysicalDamage, MagicalDamage, Skill, PureSkill
+from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage
 
 GENERAL_SKILLS: Dict[int, Skill | dict] = {
     29535: {
@@ -48,12 +48,12 @@ GENERAL_SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [50, 100]
     },
     37562: {
-        "skill_class": PureSkill,
+        "skill_class": PureDamage,
         "skill_name": "昆吾·弦刃",
         "damage_base": 145300
     },
     37561: {
-        "skill_class": PureSkill,
+        "skill_class": PureDamage,
         "skill_name": "刃凌",
         "damage_base": 96900,
     },

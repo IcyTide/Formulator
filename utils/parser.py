@@ -6,7 +6,7 @@ from utils.lua import parse
 
 FRAME_TYPE, PLAYER_ID_TYPE, PLAYER_NAME_TYPE, PET_ID_TYPE = int, int, int, int
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
-SKILL_BUFFER_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE]
+SKILL_BUFFER_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_CRITICAL_TYPE]
 SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
 BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE = int, int, int
 STATUS_BUFFER_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE]
@@ -34,7 +34,7 @@ LABEL_MAPPING = {
 }
 EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
 
-BUFFER_DELAY = -2
+BUFFER_DELAY = 0
 
 
 class Parser:
@@ -172,25 +172,30 @@ class Parser:
         if buff_id not in self.school[player_id].buffs:
             return
 
+        buff = self.school[player_id].buffs[buff_id]
+        frame_shift = buff.frame_shift
         if (buff_id, buff_level) in self.status_buffer[player_id]:
             buffer_stack, start_frame = self.status_buffer[player_id][(buff_id, buff_level)]
             if buff_stack == buffer_stack:
                 return
-            for frame in range(start_frame + BUFFER_DELAY, self.current_frame + BUFFER_DELAY):
-                self.status[frame][player_id].append((buff_id, buff_level, buffer_stack))
+            end_frame = self.current_frame + frame_shift
+            self.refresh_status(start_frame, end_frame, player_id, buff_id, buff_level, buffer_stack)
             self.status_buffer[player_id].pop((buff_id, buff_level))
 
             # self.status_buffer[player_id][(buff_id, buff_level, buffer_stack)] = self.status_buffer[player_id].get(
             #     (buff_id, buff_level, buffer_stack), []) + [(start_frame, self.current_frame)]
         if buff_stack:
-            self.status_buffer[player_id][(buff_id, buff_level)] = (buff_stack, self.current_frame)
+            self.status_buffer[player_id][(buff_id, buff_level)] = (buff_stack, self.current_frame + frame_shift)
+
+    def refresh_status(self, start_frame, end_frame, player_id, buff_id, buff_level, buff_stack):
+        for frame in range(start_frame, end_frame + 1):
+            self.status[frame][player_id].append((buff_id, buff_level, buff_stack))
 
     def clear_status_buffer(self):
         self.end_frame = self.current_frame
         for player_id, status in self.status_buffer.items():
             for (buff_id, buff_level), (buff_stack, start_frame) in status.items():
-                for frame in range(start_frame + BUFFER_DELAY, self.end_frame + BUFFER_DELAY):
-                    self.status[frame][player_id].append((buff_id, buff_level, buff_stack))
+                self.refresh_status(start_frame, self.end_frame, player_id, buff_id, buff_level, buff_stack)
 
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")
@@ -205,9 +210,8 @@ class Parser:
         react, skill_id, skill_level, critical = int(detail[2]), int(detail[4]), int(detail[5]), detail[6] == "true"
         if react or skill_id not in self.school[player_id].skills:
             return
-        skill_stack = self.stacks[player_id][skill_id]
 
-        self.skills[self.current_frame][player_id].append((skill_id, skill_level, skill_stack, critical))
+        self.skills[self.current_frame][player_id].append((skill_id, skill_level, critical))
 
         if not self.start_frame:
             self.start_frame = self.current_frame
@@ -231,10 +235,6 @@ class Parser:
 
         return tuple(current_status), tuple(snapshot_status)
 
-    def record(self, skill_id, skill_level, skill_stack, critical):
-        skill = self.school[self.current_player].skills[skill_id]
-        skill.record(skill_level, skill_stack, critical, self)
-
     def __call__(self, file_name):
         self.reset()
         lines = open(file_name).readlines()
@@ -242,6 +242,11 @@ class Parser:
             row = line.split("\t")
             if row[4] == "4":
                 self.parse_info(row[-1])
+        self.current_frame = int(lines[0].split("\t")[1])
+        for player_id, school in self.school.items():
+            school.prepare(self, player_id)
+            for talent_id in self.select_talents[player_id]:
+                school.talent_gains[talent_id].add_skills(school.skills)
 
         for line in lines:
             row = line.split("\t")
@@ -257,17 +262,13 @@ class Parser:
 
         self.clear_status_buffer()
 
-        for player_id, school in self.school.items():
-            for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].add_skills(school.skills)
-
         for frame, players in self.skills.items():
             self.current_frame = frame
             for player_id, skills in players.items():
                 self.current_player = player_id
-                for skill_id, skill_level, skill_stack, critical in skills:
+                for skill_id, skill_level, critical in skills:
                     skill = self.school[player_id].skills[skill_id]
-                    skill.record(skill_level, skill_stack, critical, self)
+                    skill.record(skill_level, critical, self)
 
         for player_id, school in self.school.items():
             for talent_id in self.select_talents[player_id]:

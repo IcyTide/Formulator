@@ -4,3 +4,7 @@ from schools.ling_hai_jue.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, 
 from schools.ling_hai_jue.recipes import RECIPE_GAINS, RECIPES
 from schools.ling_hai_jue.gains import GAINS
 from schools.ling_hai_jue.attribute import LingHaiJue
+
+
+def prepare(self, player_id):
+    pass

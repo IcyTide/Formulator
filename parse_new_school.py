@@ -23,6 +23,8 @@ class Parser:
         detail = row.strip("{}").split(",")
 
         skill_id, skill_level, critical = int(detail[4]), int(detail[5]), detail[6] == "true"
+        # if not sum(parse(row)[-1].values()):
+        #     return
         if skill_id not in self.skills:
             self.skills[skill_id] = []
         if skill_level not in self.skills[skill_id]:
@@ -57,4 +59,4 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    parser("new.jcl")
+    parser(r"new.jcl")
