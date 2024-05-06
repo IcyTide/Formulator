@@ -205,7 +205,7 @@ class 乱暮浊茵阵(FormationGain):
 class 横云破锋阵(FormationGain):
     gain_attributes = {
         "physical_attack_power_gain": 50,
-        "surplus": 1516,
+        "surplus_base": 1516,
         "physical_overcome_gain": 256
     }
     core_gain_attributes = {"physical_critical_power_gain": 100}

@@ -48,7 +48,7 @@ ATTR_TYPE_MAP = {
     "atLunarCriticalDamagePowerBase": "magical_critical_power_base",
     "atSolarAndLunarCriticalDamagePowerBase": "magical_critical_power_base",
     "atPoisonCriticalDamagePowerBase": "magical_critical_power_base",
-    "atSurplusValueBase": "surplus",
+    "atSurplusValueBase": "surplus_base",
     "atStrainBase": "strain_base",
     "atHasteBase": "haste_base",
 }
@@ -368,4 +368,4 @@ if __name__ == '__main__':
     json.dump(
         get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
     )
-    # json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

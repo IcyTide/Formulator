@@ -26,6 +26,27 @@ GENERAL_SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 17,
         "attack_power_cof": 75
     },
+    22161: {
+        "skill_class": MagicalDamage,
+        "skill_name": "昆吾·弦刃",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": 90
+    },
+    22162: {
+        "skill_class": MagicalDamage,
+        "skill_name": "昆吾·弦刃",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": 90
+    },
+    22163: {
+        "skill_class": MagicalDamage,
+        "skill_name": "昆吾·弦刃",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": 90
+    },
     22164: {
         "skill_class": MagicalDamage,
         "skill_name": "昆吾·弦刃",
@@ -39,6 +60,27 @@ GENERAL_SKILLS: Dict[int, Skill | dict] = {
         "damage_base": 40,
         "damage_rand": 17,
         "attack_power_cof": [60, 100, 60, 100, 100]
+    },
+    33258: {
+        "skill_class": MagicalDamage,
+        "skill_name": "刃凌",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": [50, 100]
+    },
+    33259: {
+        "skill_class": MagicalDamage,
+        "skill_name": "刃凌",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": [50, 100]
+    },
+    33260: {
+        "skill_class": MagicalDamage,
+        "skill_name": "刃凌",
+        "damage_base": 40,
+        "damage_rand": 17,
+        "attack_power_cof": [50, 100]
     },
     33261: {
         "skill_class": MagicalDamage,

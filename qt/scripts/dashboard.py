@@ -53,7 +53,7 @@ def dashboard_script(parser: Parser,
     def formulate():
         duration = dashboard_widget.duration.spin_box.value()
         record = parser.current_records
-        school = parser.school[parser.current_player]
+        school = parser.current_school
 
         attribute = school.attribute()
         attribute.target_level = int(dashboard_widget.target_level.combo_box.currentText())

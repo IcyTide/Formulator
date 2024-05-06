@@ -13,7 +13,7 @@ BUFFS = {
     409: {
         "buff_name": "剑舞",
         "gain_attributes": {
-            "magical_attack_power_gain": 15
+            "magical_attack_power_gain": 31
         }
     },
     10240: {

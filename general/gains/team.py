@@ -150,6 +150,10 @@ class 庄周梦(TeamGain):
     gain_attributes = {"strain_base": 50}
 
 
+class 弄梅(TeamGain):
+    gain_attributes = {"all_shield_ignore": 205, "physical_overcome_base": 700, "magical_overcome_base": 700}
+
+
 """ 霸刀 """
 
 
@@ -222,6 +226,7 @@ TEAM_GAINS = {
     "寒啸千军": 寒啸千军,
 
     "庄周梦": 庄周梦,
+    "弄梅": 弄梅,
 
     "疏狂": 疏狂,
 

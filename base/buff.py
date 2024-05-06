@@ -18,6 +18,7 @@ class Buff:
     activate: bool = True
 
     stackable: bool = True
+    max_stack: int = 1
 
     gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None

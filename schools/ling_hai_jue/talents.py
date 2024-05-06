@@ -25,16 +25,8 @@ class 扶桑(Gain):
 
 
 class 神降(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[20054].skill_critical_strike += 5000
-        skills[20054].skill_critical_power += 512
-
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[14029].activate = True
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[20054].skill_critical_strike -= 5000
-        skills[20054].skill_critical_power -= 512
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
         buffs[14029].activate = False

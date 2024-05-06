@@ -255,7 +255,8 @@ class Major:
 
 
 class Minor:
-    surplus: int = 0
+    surplus_base: int = 0
+    surplus_gain: int = 0
 
     strain_base: int = 0
     strain_gain: int = 0
@@ -286,6 +287,10 @@ class Minor:
     pve_addition: int = 0
 
     """ Minor Function """
+
+    @property
+    def surplus(self):
+        return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
 
     @property
     def base_strain(self):
@@ -355,7 +360,7 @@ class Minor:
 
     @property
     def weapon_damage(self):
-        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain) + self.weapon_damage_rand / 2)
+        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE) + self.weapon_damage_rand / 2)
 
     """ Others """
 
@@ -407,7 +412,7 @@ class PhysicalAttribute(Attribute):
     grad_attrs = {
         "agility_base": MAJOR_DELTA,
         "strength_base": MAJOR_DELTA,
-        "surplus": MINOR_DELTA,
+        "surplus_base": MINOR_DELTA,
         "strain_base": MINOR_DELTA,
         "physical_attack_power_base": PHYSICAL_DELTA,
         "physical_critical_strike_base": MINOR_DELTA,
@@ -461,7 +466,7 @@ class MagicalAttribute(Attribute):
     grad_attrs = {
         "spirit_base": MAJOR_DELTA,
         "spunk_base": MAJOR_DELTA,
-        "surplus": MINOR_DELTA,
+        "surplus_base": MINOR_DELTA,
         "strain_base": MINOR_DELTA,
         "magical_attack_power_base": MAGICAL_DELTA,
         "magical_critical_strike_base": MINOR_DELTA,
@@ -514,7 +519,7 @@ class MixingAttribute(Attribute):
     grad_attrs = {
         "agility_base": MAJOR_DELTA,
         "spunk_base": MAJOR_DELTA,
-        "surplus": MINOR_DELTA,
+        "surplus_base": MINOR_DELTA,
         "strain_base": MINOR_DELTA,
         "magical_attack_power_base": MAGICAL_DELTA,
         "physical_critical_strike_base": MINOR_DELTA,

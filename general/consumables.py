@@ -26,7 +26,7 @@ def magical_attack_power(value):
 
 
 def surplus(value):
-    return {"surplus": value}
+    return {"surplus_base": value}
 
 
 def strain(value):
@@ -48,21 +48,21 @@ def critical_strike(value):
 def physical_spread(values):
     return {"physical_attack_power_base": values[0],
             "all_critical_strike_base": values[1],
-            "surplus": values[1]}
+            "surplus_base": values[1]}
 
 
 def magical_spread(values):
     return {"magical_attack_power_base": values[0],
             "all_critical_strike_base": values[1],
-            "surplus": values[1]}
+            "surplus_base": values[1]}
 
 
 def guild_spread(value):
-    return {"surplus": value, "strain_base": value}
+    return {"surplus_base": value, "strain_base": value}
 
 
 def boiled_fish(value):
-    return {"surplus": value, "strain_base": value}
+    return {"surplus_base": value, "strain_base": value}
 
 
 class CONSUMABLES_NUMBER:

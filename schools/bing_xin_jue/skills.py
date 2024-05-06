@@ -9,6 +9,11 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "破",
         "surplus_cof": 1048576 * (1.2 * 0.33 * 0.33 - 1)
     },
+    32957: {
+        "skill_class": MagicalDamage,
+        "skill_name": "破·虚空",
+        "surplus_cof": 1048576 * (0.55 * 0.7 * 1.33 - 1)
+    },
     15: {
         "skill_class": PhysicalDamage,
         "skill_name": "连环双刀",
@@ -20,7 +25,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_class": MagicalDotDamage,
         "skill_name": "急曲(DOT)",
         "damage_base": 100,
-        "attack_power_cof": 114 * 1.1*0.9 * 1.1,
+        "attack_power_cof": 114 * 1.1 * 0.9 * 1.1,
         "interval": 48
     },
     18716: {
@@ -45,7 +50,8 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(36 + (i - 9) * 1) * 1.3 * 1.1 for i in range(10, 32)] +
                             [164 * 1.3 * 1.1],
         "bind_skill": 2920,
-        "tick": 99
+        "tick": 99,
+        "last_dot": False,
     },
     30524: {
         "skill_class": MagicalDamage,
@@ -60,6 +66,17 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [64 * 1.1 * 1.2 * 1.1 * 1.1 * 1.1 * 1.1 * 1.1] * 9 +
                             [(64 + (i - 9) * 4) * 1.1 * 1.2 * 1.1 * 1.1 * 1.1 * 1.1 * 1.1 for i in range(10, 28)] +
                             [152 * 1.1 * 1.2 * 1.1 * 1.1 * 1.1 * 1.1 * 1.1],
+    },
+    2716: {
+        "skill_class": MagicalDamage,
+        "skill_name": "剑破虚空",
+        "damage_base": [e * 0.98 / 2 + 10 for e in
+                        [125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 174, 182, 190, 198, 206, 214, 222, 230]],
+        "damage_rand": [e * 0.04 / 2 + 10 for e in
+                        [94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198, 206, 214, 222, 230]],
+        "attack_power_cof": [80 * 1.1 * 1.1 * 1.1] * 9 +
+                            [(80 + (i - 9) * 15) * 1.1 * 1.1 * 1.1 for i in range(10, 18)] +
+                            [220 * 1.1 * 1.1 * 1.1],
     },
     6234: {
         "skill_class": MagicalDamage,
@@ -188,7 +205,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_class": MagicalDotDamage,
         "skill_name": "气吞长江(DOT)",
         "damage_base": 25,
-        "attack_power_cof": 400*1.4,
+        "attack_power_cof": 400 * 1.4,
         "interval": 48
     },
     25757: {

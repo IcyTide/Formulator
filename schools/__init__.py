@@ -8,7 +8,7 @@ from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi
-from schools import tian_luo_gui_dao
+from schools import yi_jin_jing, tian_luo_gui_dao
 from schools import wu_fang, bing_xin_jue
 
 
@@ -92,6 +92,14 @@ MIXING_DISPLAY_ATTRS = {
 }
 
 SUPPORT_SCHOOL = {
+    10003: School(
+        school="少林", major="元气", kind="内功", attribute=yi_jin_jing.YiJinJing, formation="天鼓雷音阵",
+        skills=yi_jin_jing.SKILLS, buffs=yi_jin_jing.BUFFS, prepare=yi_jin_jing.prepare,
+        talent_gains=yi_jin_jing.TALENT_GAINS, talents=yi_jin_jing.TALENTS,
+        talent_decoder=yi_jin_jing.TALENT_DECODER, talent_encoder=yi_jin_jing.TALENT_ENCODER,
+        recipe_gains=yi_jin_jing.RECIPE_GAINS, recipes=yi_jin_jing.RECIPES,
+        gains=yi_jin_jing.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
+    ),
     10015: School(
         school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
         skills=tai_xu_jian_yi.SKILLS, buffs=tai_xu_jian_yi.BUFFS, prepare=tai_xu_jian_yi.prepare,
@@ -101,7 +109,7 @@ SUPPORT_SCHOOL = {
         gains=tai_xu_jian_yi.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10081: School(
-        school="七秀", major="根骨", kind="内功", attribute=bing_xin_jue.WuFang, formation="九音惊弦阵",
+        school="七秀", major="根骨", kind="内功", attribute=bing_xin_jue.BingXinJue, formation="九音惊弦阵",
         skills=bing_xin_jue.SKILLS, buffs=bing_xin_jue.BUFFS, prepare=bing_xin_jue.prepare,
         talent_gains=bing_xin_jue.TALENT_GAINS, talents=bing_xin_jue.TALENTS,
         talent_decoder=bing_xin_jue.TALENT_DECODER, talent_encoder=bing_xin_jue.TALENT_ENCODER,

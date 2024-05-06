@@ -6,13 +6,13 @@ from general.skills import GENERAL_SKILLS
 
 
 class 横刀断浪流血(Skill):
-    def record(self, current_frame, player_id, skill_level, skill_stack, critical, parser):
+    def record(self, skill_level, critical, parser):
         bind_skill = self.bind_skill
         bind_buff = self.bind_buff
-        parser.ticks[player_id][bind_skill] = self.tick
-        parser.stacks[player_id][bind_skill] = self.max_stack
-        parser.status[player_id][(bind_buff, 1)] = self.max_stack
-        parser.snapshot[player_id][bind_skill] = parser.status[player_id].copy()
+        parser.current_ticks[bind_skill] = self.tick
+        parser.current_stacks[bind_skill] = self.max_stack
+        parser.current_status[(bind_buff, 1)] = self.max_stack
+        parser.current_snapshot[bind_skill] = parser.current_status.copy()
 
 
 SKILLS: Dict[int, Skill | dict] = {

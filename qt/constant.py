@@ -71,7 +71,7 @@ ATTR_TYPE_TRANSLATE = {
     "all_critical_power_base": "全会效",
     "physical_overcome_base": "外功破防",
     "magical_overcome_base": "内功破防",
-    "surplus": "破招",
+    "surplus_base": "破招",
     "strain_base": "无双",
     "haste_base": "加速",
 }

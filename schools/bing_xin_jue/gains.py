@@ -8,7 +8,7 @@ GAINS = {
     1524: damage_addition_recipe([6234, 6554], 51),
     1525: damage_addition_recipe([6559], 51),
     1137: critical_strike_recipe([30524], 500),
-    1977: critical_strike_recipe([], 500),  # 剑破
+    1977: critical_strike_recipe([2716], 500),
     2416: Gain(),
     1930: Gain(),
     17380: Gain(),

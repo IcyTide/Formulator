@@ -61,14 +61,16 @@ def config_script(
         bonus_widget.formation.formation.combo_box.setCurrentText(config['formation']['formation'])
         bonus_widget.formation.core_rate.spin_box.setValue(config['formation']['core_rate'])
         bonus_widget.formation.rate.spin_box.setValue(config['formation']['rate'])
-        for label, team_gain in bonus_widget.team_gains.items():
-            if isinstance(team_gain, RadioWithLabel):
-                if team_gain.radio_button.isChecked() != config['team_gains'][label]:
+        for label, value in config['team_gains'].items():
+            team_gain = bonus_widget.team_gains[label]
+            if isinstance(value, bool):
+                if team_gain.radio_button.isChecked() != value:
                     team_gain.radio_button.click()
-            elif isinstance(team_gain, dict):
-                for sub_label, sub_team_gain in team_gain.items():
+            elif isinstance(value, dict):
+                for sub_label, sub_value in value.items():
+                    sub_team_gain = team_gain[sub_label]
                     if isinstance(sub_team_gain, ComboWithLabel):
-                        sub_team_gain.combo_box.setCurrentText(config['team_gains'][label][sub_label])
+                        sub_team_gain.combo_box.setCurrentText(sub_value)
                     elif isinstance(sub_team_gain, SpinWithLabel):
                         sub_team_gain.spin_box.setValue(config['team_gains'][label][sub_label])
 
@@ -79,8 +81,7 @@ def config_script(
 
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
-        player_id = parser.current_player
-        config = CONFIG.get(parser.school[player_id].school, {}).get(config_name, {})
+        config = CONFIG.get(parser.current_school.school, {}).get(config_name, {})
         if not config:
             return
         category = config_widget.config_category.combo_box.currentText()
@@ -151,8 +152,7 @@ def config_script(
 
     def save_config():
         config_name = config_widget.config_name.text_browser.text()
-        player_id = parser.current_player
-        school = parser.school[player_id].school
+        school = parser.current_school.school
         if school not in CONFIG:
             CONFIG[school] = {}
         if config_name not in CONFIG[school]:
@@ -178,8 +178,7 @@ def config_script(
 
     def delete_config():
         config_name = config_widget.config_name.text_browser.text()
-        player_id = parser.current_player
-        school = parser.school[player_id].school
+        school = parser.current_school.school
         if config_name not in CONFIG.get(school, {}):
             return
 
