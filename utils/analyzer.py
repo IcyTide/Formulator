@@ -4,7 +4,7 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.constant import FRAME_PER_SECOND
-from base.skill import Skill, DotDamage
+from base.skill import Skill, DotDamage, PetDamage
 from utils.parser import School
 
 
@@ -37,7 +37,9 @@ def filter_status(status, school: School, skill_id):
         if not buff.activate:
             continue
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
-        if buff.gain_attributes or skill_id in buff.gain_skills:
+        if buff.gain_attributes:
+            buffs.append(buff)
+        if skill_id in buff.gain_skills:
             buffs.append(buff)
 
     return tuple(sorted(buffs, key=lambda x: x.buff_id))
@@ -52,6 +54,9 @@ def add_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill)
             buff.add_dot(attribute, skill, True)
         for buff in current_buffs:
             buff.add_dot(attribute, skill, False)
+    elif isinstance(skill, PetDamage):
+        for buff in snapshot_buffs:
+            buff.add_all(attribute, skill)
 
 
 def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
@@ -63,6 +68,9 @@ def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill)
             buff.sub_dot(attribute, skill, True)
         for buff in current_buffs:
             buff.sub_dot(attribute, skill, False)
+    elif isinstance(skill, PetDamage):
+        for buff in snapshot_buffs:
+            buff.sub_all(attribute, skill)
 
 
 def concat_buffs(current_buffs, snapshot_buffs):

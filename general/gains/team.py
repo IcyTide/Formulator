@@ -31,7 +31,7 @@ class 袖气(TeamGain):
 
 
 class 左旋右转(TeamGain):
-    gain_attributes = {"surplus": 54}
+    gain_attributes = {"surplus_base": 54}
 
 
 class 泠风解怀(TeamGain):

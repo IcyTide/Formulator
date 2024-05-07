@@ -285,6 +285,7 @@ class Minor:
     magical_damage_addition: int = 0
 
     pve_addition: int = 0
+    global_damage_factor: float = 1.
 
     """ Minor Function """
 

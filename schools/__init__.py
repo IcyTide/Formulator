@@ -8,8 +8,8 @@ from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi
-from schools import yi_jin_jing, tian_luo_gui_dao
-from schools import wu_fang, bing_xin_jue
+from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
+from schools import wu_fang, bing_xin_jue, mo_wen
 
 
 @dataclass
@@ -108,6 +108,14 @@ SUPPORT_SCHOOL = {
         recipe_gains=tai_xu_jian_yi.RECIPE_GAINS, recipes=tai_xu_jian_yi.RECIPES,
         gains=tai_xu_jian_yi.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
+    10021: School(
+        school="万花", major="元气", kind="内功", attribute=hua_jian_you.HuaJianYou, formation="七绝逍遥阵",
+        skills=hua_jian_you.SKILLS, buffs=hua_jian_you.BUFFS, prepare=hua_jian_you.prepare,
+        talent_gains=hua_jian_you.TALENT_GAINS, talents=hua_jian_you.TALENTS,
+        talent_decoder=hua_jian_you.TALENT_DECODER, talent_encoder=hua_jian_you.TALENT_ENCODER,
+        recipe_gains=hua_jian_you.RECIPE_GAINS, recipes=hua_jian_you.RECIPES,
+        gains=hua_jian_you.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
+    ),
     10081: School(
         school="七秀", major="根骨", kind="内功", attribute=bing_xin_jue.BingXinJue, formation="九音惊弦阵",
         skills=bing_xin_jue.SKILLS, buffs=bing_xin_jue.BUFFS, prepare=bing_xin_jue.prepare,
@@ -123,6 +131,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=tian_luo_gui_dao.TALENT_DECODER, talent_encoder=tian_luo_gui_dao.TALENT_ENCODER,
         recipe_gains=tian_luo_gui_dao.RECIPE_GAINS, recipes=tian_luo_gui_dao.RECIPES,
         gains=tian_luo_gui_dao.GAINS, display_attrs={"spunk": "元气", **MIXING_DISPLAY_ATTRS}
+    ),
+    10447: School(
+        school="长歌", major="根骨", kind="内功", attribute=mo_wen.MoWen, formation="万籁金弦阵",
+        skills=mo_wen.SKILLS, buffs=mo_wen.BUFFS, prepare=mo_wen.prepare,
+        talent_gains=mo_wen.TALENT_GAINS, talents=mo_wen.TALENTS,
+        talent_decoder=mo_wen.TALENT_DECODER, talent_encoder=mo_wen.TALENT_ENCODER,
+        recipe_gains=mo_wen.RECIPE_GAINS, recipes=mo_wen.RECIPES,
+        gains=mo_wen.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10464: School(
         school="霸刀", major="力道", kind="外功", attribute=bei_ao_jue.BeiAoJue, formation="霜岚洗锋阵",

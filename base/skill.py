@@ -35,6 +35,8 @@ class Skill:
     surplus_cof_gain: float = 1.
     weapon_damage_cof_gain: float = 1.
 
+    global_damage_factor: float = 1.
+
     skill_damage_addition: int = 0
     skill_pve_addition: int = 0
     _skill_shield_gain: Union[List[int], int] = 0
@@ -151,7 +153,7 @@ class Skill:
             self._weapon_damage_cof = weapon_damage_cof
         else:
             self._weapon_damage_cof = [weapon_damage_cof]
-
+        
     @property
     def skill_shield_gain(self):
         if not isinstance(self._skill_shield_gain, list):
@@ -237,6 +239,15 @@ class Damage(Skill):
         return skill_tuple, status_tuple
 
 
+class PetDamage(Damage):
+    def record(self, skill_level, critical, parser):
+        skill_tuple, status_tuple = super().record(skill_level, critical, parser)
+        pet_status_tuple = parser.available_status(self.skill_id, parser.current_caster)
+        parser.current_records[skill_tuple][pet_status_tuple].append(
+            parser.current_records[skill_tuple][status_tuple].pop()
+        )
+
+
 class DotDamage(Damage):
     def record(self, skill_level, critical, parser):
         skill_tuple, status_tuple = super().record(skill_level, critical, parser)
@@ -269,7 +280,7 @@ class PhysicalSkill(Skill):
             self.attack_power_cof, attribute.physical_attack_power,
             self.weapon_damage_cof, attribute.weapon_damage,
             self.surplus_cof, attribute.surplus
-        ) * self.skill_stack
+        ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
 
         damage = damage_addition_result(damage, attribute.physical_damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.physical_overcome,
@@ -303,7 +314,7 @@ class MagicalSkill(Skill):
             self.attack_power_cof, attribute.magical_attack_power,
             self.weapon_damage_cof, attribute.weapon_damage,
             self.surplus_cof, attribute.surplus
-        ) * self.skill_stack
+        ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor * attribute.global_damage_factor
 
         damage = damage_addition_result(damage, attribute.magical_damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.magical_overcome,
@@ -334,14 +345,14 @@ class MixingSkill(Skill):
     def __call__(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, self.damage_rand,
-            self.attack_power_cof, attribute.magical_attack_power,
+            self.attack_power_cof, attribute.attack_power,
             self.weapon_damage_cof, attribute.weapon_damage,
             self.surplus_cof, attribute.surplus
-        ) * self.skill_stack
+        ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
 
-        damage = damage_addition_result(damage, attribute.magical_damage_addition + self.skill_damage_addition)
-        damage = overcome_result(damage, attribute.magical_overcome,
-                                 attribute.level_shield_base + attribute.magical_shield_base,
+        damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
+        damage = overcome_result(damage, attribute.overcome,
+                                 attribute.level_shield_base + attribute.shield_base,
                                  attribute.magical_shield_gain + self.skill_shield_gain,
                                  attribute.magical_shield_ignore,
                                  attribute.shield_constant)
@@ -362,10 +373,6 @@ class MixingSkill(Skill):
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 
         return damage, critical_damage, expected_damage, critical_strike
-
-
-class PetDamage(Damage):
-    pass
 
 
 class PureDamage(PureSkill, Damage):
@@ -406,3 +413,15 @@ class MixingDotDamage(MixingSkill, DotDamage):
     @Damage.attack_power_cof.getter
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
+
+
+class PhysicalPetDamage(PhysicalSkill, PetDamage):
+    @Damage.attack_power_cof.getter
+    def attack_power_cof(self):
+        return PHYSICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
+
+
+class MagicalPetDamage(MagicalSkill, PetDamage):
+    @Damage.attack_power_cof.getter
+    def attack_power_cof(self):
+        return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)

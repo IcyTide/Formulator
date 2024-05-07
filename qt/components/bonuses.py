@@ -181,11 +181,9 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["庄周梦"]["stack"], 0, 0)
         tab_layout.addWidget(self.team_gains["庄周梦"]["rate"], 0, 1)
         self.team_gains["弄梅"] = {
-            "stack": SpinWithLabel("弄梅", "层数", maximum=TEAM_GAIN_LIMIT["庄周梦"]["stack"]),
             "rate": SpinWithLabel("弄梅", "覆盖(%)", maximum=100)
         }
-        tab_layout.addWidget(self.team_gains["弄梅"]["stack"], 1, 0)
-        tab_layout.addWidget(self.team_gains["弄梅"]["rate"], 1, 1)
+        tab_layout.addWidget(self.team_gains["弄梅"]["rate"], 1, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)

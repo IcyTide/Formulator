@@ -5,6 +5,7 @@ from schools import *
 from utils.lua import parse
 
 FRAME_TYPE, PLAYER_ID_TYPE, PLAYER_NAME_TYPE, PET_ID_TYPE = int, int, int, int
+CASTER_ID_TYPE = PLAYER_ID_TYPE | PET_ID_TYPE
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
 SKILL_BUFFER_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_CRITICAL_TYPE]
 SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
@@ -12,7 +13,7 @@ BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE = int, int, int
 BUFF_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE]
 STATUS_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE]
 
-SNAPSHOT_TYPE = Dict[SKILL_ID_TYPE, List[STATUS_TYPE]]
+SNAPSHOT_TYPE = Dict[SKILL_ID_TYPE | PET_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
 
 TIMELINE_TYPE = List[Tuple[FRAME_TYPE, SKILL_CRITICAL_TYPE]]
 SUB_RECORD_TYPE = Dict[Tuple[tuple, tuple], TIMELINE_TYPE]
@@ -39,6 +40,7 @@ BUFFER_DELAY = 0
 
 class Parser:
     current_player: PLAYER_ID_TYPE
+    current_caster: CASTER_ID_TYPE
     current_frame: FRAME_TYPE
     frames: List[FRAME_TYPE]
 
@@ -163,15 +165,11 @@ class Parser:
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
             if school := SUPPORT_SCHOOL.get(detail[3]):
-                self.school[player_id] = school
                 self.select_equipments[player_id] = self.parse_equipments(detail[5])
                 self.select_talents[player_id] = self.parse_talents(detail[6])
-
-    def parse_pet(self, row):
-        detail = row.strip("{}").split(",")
-        pet_id, player_id = int(detail[0]), int(detail[3])
-        if player_id in self.school:
-            self.pets[pet_id] = player_id
+                if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
+                    return
+                self.school[player_id] = school
 
     def parse_shift_buff(self, row):
         detail = row.strip("{}").split(",")
@@ -237,14 +235,25 @@ class Parser:
         if react or skill_id not in self.school[player_id].skills:
             return
 
+        if not self.start_frame:
+            self.start_frame = self.current_frame - 1
+
         self.current_player = player_id
+        self.current_caster = caster_id
         skill = self.school[player_id].skills[skill_id]
         skill.record(skill_level, critical, self)
 
-        if not self.start_frame:
-            self.start_frame = self.current_frame
+    def parse_pet(self, row):
+        detail = row.strip("{}").split(",")
+        pet_id, player_id = int(detail[0]), int(detail[3])
+        if player_id in self.school:
+            self.pets[pet_id] = player_id
+            self.snapshot[player_id][pet_id] = self.status[player_id].copy()
 
-    def available_status(self, skill_id):
+    def available_status(self, skill_id, snapshot_id=None):
+        if not snapshot_id:
+            snapshot_id = skill_id
+
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_status.items():
             buff = self.current_school.buffs[buff_id]
@@ -254,7 +263,7 @@ class Parser:
                 current_status.append((buff_id, buff_level, buff_stack))
 
         snapshot_status = []
-        for (buff_id, buff_level), buff_stack in self.current_snapshot.get(skill_id, {}).items():
+        for (buff_id, buff_level), buff_stack in self.current_snapshot.get(snapshot_id, {}).items():
             buff = self.current_school.buffs[buff_id]
             if buff.gain_attributes:
                 snapshot_status.append((buff_id, buff_level, buff_stack))

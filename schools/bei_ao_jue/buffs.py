@@ -36,7 +36,7 @@ BUFFS = {
 }
 
 for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id, detail.pop("buff_name"))
+    BUFFS[buff_id] = Buff(buff_id)
     for attr, value in detail.items():
         setattr(BUFFS[buff_id], attr, value)
 

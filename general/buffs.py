@@ -24,7 +24,7 @@ GENERAL_BUFFS = {
 }
 
 for buff_id, detail in GENERAL_BUFFS.items():
-    GENERAL_BUFFS[buff_id] = Buff(buff_id, detail.pop("buff_name"))
+    GENERAL_BUFFS[buff_id] = Buff(buff_id)
     GENERAL_BUFFS[buff_id].activate = False
     for attr, value in detail.items():
         setattr(GENERAL_BUFFS[buff_id], attr, value)

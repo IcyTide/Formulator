@@ -21,6 +21,16 @@ class IntervalRecipe(RecipeGain):
             skills[skill_id].interval -= self.value
 
 
+class AttackPowerRecipe(RecipeGain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].attack_power_cof_gain *= self.value
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].attack_power_cof_gain /= self.value
+
+
 class DamageAdditionRecipe(RecipeGain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in self.skill_ids:
@@ -53,6 +63,10 @@ class PveAdditionRecipe(RecipeGain):
 
 def interval_recipe(skill_ids, value, name="减少运功时间"):
     return IntervalRecipe(name, skill_ids, value)
+
+
+def attack_power_recipe(skill_ids, value, name="系数增加"):
+    return AttackPowerRecipe(name, skill_ids, value)
 
 
 def damage_addition_recipe(skill_ids, value, name="伤害增加"):
