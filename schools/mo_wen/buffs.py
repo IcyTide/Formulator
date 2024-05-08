@@ -35,7 +35,7 @@ BUFFS = {
             },
             **{
                 skill_id: {
-                    "attack_power_cof_gain": 0.2
+                    "attack_power_cof_gain": 1.2
                 } for skill_id in (9357, 9361)
             }
         }

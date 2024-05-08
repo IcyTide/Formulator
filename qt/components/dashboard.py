@@ -32,13 +32,19 @@ class DashboardWidget(QWidget):
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
 
+        self.target_select = ComboWithLabel("选择目标")
+        top_layout.addWidget(self.target_select)
         self.target_level = ComboWithLabel("目标等级", items=[str(level) for level in SHIELD_BASE_MAP])
         top_layout.addWidget(self.target_level)
         self.duration = DoubleSpinWithLabel("战斗时长", maximum=3600, value=180)
         top_layout.addWidget(self.duration)
 
-        self.button = QPushButton(text="开始模拟!")
-        layout.addWidget(self.button)
+        mid_layout = QHBoxLayout()
+        layout.addLayout(mid_layout)
+        self.formulate_button = QPushButton(text="开始模拟!")
+        mid_layout.addWidget(self.formulate_button)
+        self.save_button = QPushButton(text="保存JSON")
+        mid_layout.addWidget(self.save_button)
 
         bottom_layout = QHBoxLayout()
         layout.addLayout(bottom_layout)

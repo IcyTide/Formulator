@@ -5,17 +5,19 @@ from general.skills import GENERAL_SKILLS
 
 
 class DotConsumeSkill(Skill):
-    buff_levels: dict
+    bind_buff_levels: dict
 
-    def record(self, skill_level, critical, parser):
+    def record(self, critical, parser):
         if not (last_dot := parser.current_last_dot.pop(self.bind_skill, None)):
             return
-        if skill_level not in self.buff_levels:
+        if self.skill_level not in self.bind_buff_levels:
             return
 
         skill_tuple, status_tuple = last_dot
-        if buff_level := self.buff_levels[skill_level]:
-            new_status_tuple = (*status_tuple, (-32489, buff_level, 1))
+        if buff_level := self.bind_buff_levels[self.skill_level]:
+            current_status, snapshot_status, target_status = status_tuple
+            new_target_status = (*target_status, (-32489, buff_level, 1))
+            new_status_tuple = (current_status, snapshot_status, new_target_status)
         else:
             new_status_tuple = status_tuple
         skill_id, skill_level, skill_stack = skill_tuple
@@ -31,15 +33,15 @@ class GeneraConsumeSkill(DotConsumeSkill):
     bind_skills = {
         **{i + 9: skill_id for i, skill_id in enumerate([714, 666, 711, 24158])}
     }
-    buff_levels = {
+    bind_buff_levels = {
         **{i + 9: 1 for i in range(4)}
     }
 
-    def record(self, skill_level, critical, parser):
-        if skill_level not in self.bind_skills:
+    def record(self, critical, parser):
+        if self.skill_level not in self.bind_skills:
             return
-        self.bind_skill = self.bind_skills[skill_level]
-        super().record(skill_level, critical, parser)
+        self.bind_skill = self.bind_skills[self.skill_level]
+        super().record(critical, parser)
 
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -81,7 +83,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "兰摧玉折",
         "bind_skill": 711,
         "tick": 99,
-        "buff_levels": {5: 2, 6: 1}
+        "bind_buff_levels": {5: 2, 6: 1}
     },
     714: {
         "skill_class": MagicalDotDamage,
@@ -106,13 +108,15 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "钟林毓秀",
         "bind_skill": 714,
         "tick": 99,
-        "buff_levels": {5: 2, 6: 1}
+        "bind_buff_levels": {5: 2, 6: 1}
     },
     14941: {
         "skill_class": MagicalDamage,
         "skill_name": "阳明指",
-        "damage_base": [38, 44, 49, 54, 59, 63, 69, 71, 73, 75, 77, 79, 81, 83, 85, 86, 90, 94, 98, 102, 105, 110, 115, 120, 125, 135, 145, 155],
-        "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28],
+        "damage_base": [38, 44, 49, 54, 59, 63, 69, 71, 73, 75, 77, 79, 81, 83, 85, 86, 90, 94, 98, 102, 105, 110, 115,
+                        120, 125, 135, 145, 155],
+        "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+                        27, 28],
         "attack_power_cof": [48 * 1.365 * 1.2 * 1.05 * 1.1 * 1.15] * 9 +
                             [(48 + (i - 9) * 4) * 1.365 * 1.2 * 1.05 * 1.1 * 1.15 for i in range(10, 28)] +
                             [130 * 1.365 * 1.2 * 1.05 * 1.1 * 1.15],
@@ -140,7 +144,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "商阳指",
         "bind_skill": 666,
         "tick": 99,
-        "buff_levels": {5: 2, 6: 1}
+        "bind_buff_levels": {5: 2, 6: 1}
     },
     6693: {
         "skill_class": MagicalDamage,
@@ -196,7 +200,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "快雪时晴",
         "bind_skill": 24158,
         "tick": 99,
-        "buff_levels": {2: 2, 3: 1}
+        "bind_buff_levels": {2: 2, 3: 1}
     },
     601: {
         "skill_class": GeneraConsumeSkill,

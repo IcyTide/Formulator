@@ -7,7 +7,7 @@ from base.gain import Gain
 from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue
-from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi
+from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
 from schools import wu_fang, bing_xin_jue, mo_wen
 
@@ -131,6 +131,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=tian_luo_gui_dao.TALENT_DECODER, talent_encoder=tian_luo_gui_dao.TALENT_ENCODER,
         recipe_gains=tian_luo_gui_dao.RECIPE_GAINS, recipes=tian_luo_gui_dao.RECIPES,
         gains=tian_luo_gui_dao.GAINS, display_attrs={"spunk": "元气", **MIXING_DISPLAY_ATTRS}
+    ),
+    10390: School(
+        school="苍云", major="身法", kind="外功", attribute=fen_shan_jing.FenShanJing, formation="锋凌横绝阵",
+        skills=fen_shan_jing.SKILLS, buffs=fen_shan_jing.BUFFS, prepare=fen_shan_jing.prepare,
+        talent_gains=fen_shan_jing.TALENT_GAINS, talents=fen_shan_jing.TALENTS,
+        talent_decoder=fen_shan_jing.TALENT_DECODER, talent_encoder=fen_shan_jing.TALENT_ENCODER,
+        recipe_gains=fen_shan_jing.RECIPE_GAINS, recipes=fen_shan_jing.RECIPES,
+        gains=fen_shan_jing.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10447: School(
         school="长歌", major="根骨", kind="内功", attribute=mo_wen.MoWen, formation="万籁金弦阵",

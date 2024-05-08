@@ -7,18 +7,19 @@ from general.skills import GENERAL_SKILLS
 class 明法判定(Skill):
     final_buff = 19635
 
-    def record(self, skill_level, critical, parser):
-        buff_level = parser.current_status[(self.bind_buff, 1)]
+    def record(self, critical, parser):
+        buff_level = parser.current_target_buffs.get((self.bind_buff, 1))
         if buff_level:
-            parser.current_status[(self.final_buff, buff_level)] = 1
+            parser.current_target_buffs[(self.final_buff, buff_level)] = 1
 
 
 class 明法移除(Skill):
     final_buff = 19635
 
-    def record(self, skill_level, critical, parser):
-        for level in range(3):
-            parser.current_status.pop((self.final_buff, level + 1), None)
+    def record(self, critical, parser):
+        buff_level = parser.current_target_buffs.get((self.bind_buff, 1), 0)
+        for level in range(buff_level):
+            parser.current_target_buffs.pop((self.final_buff, level + 1), None)
 
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -47,13 +48,6 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "明法移除",
         "bind_buff": 890,
     },
-    743: {
-        "skill_class": MagicalDotDamage,
-        "skill_name": "横扫六合(DOT)",
-        "damage_base": 45,
-        "attack_power_cof": 70 * 1.2 * 1.65 * 1.15 * 1.15 * 1.05 * 1.25 * 1.1 * 1.1,
-        "interval": 32
-    },
     19090: {
         "skill_class": PhysicalDamage,
         "skill_name": ["普渡四方", "韦陀献杵", "横扫六合", "摩诃无量"],
@@ -79,6 +73,13 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": [11, 13, 15, 18, 20, 22],
         "damage_rand": 2,
         "attack_power_cof": 16,
+    },
+    743: {
+        "skill_class": MagicalDotDamage,
+        "skill_name": "横扫六合(DOT)",
+        "damage_base": 45,
+        "attack_power_cof": 70 * 1.2 * 1.65 * 1.15 * 1.15 * 1.05 * 1.25 * 1.1 * 1.1,
+        "interval": 32
     },
     3810: {
         "skill_class": type("Mixing", (MagicalDamage, DotSkill), {}),
@@ -144,7 +145,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "守缺式",
         "damage_base": [52, 62, 72, 82, 92, 102, 112, 122, 132, 142],
         "damage_rand": 5,
-        "attack_power_cof": [(120 + i * 5) * 1.15 * 0.95 * 1.05 * 1.2 * 1.1 for i in range(10)] +
+        "attack_power_cof": [(120 + i * 5) * 1.15 * 0.95 * 1.05 * 1.2 * 1.1 for i in range(9)] +
                             [200 * 1.2 * 1.15 * 0.95 * 1.05 * 1.2 * 1.1],
     },
     3816: {
@@ -152,7 +153,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "守缺式",
         "damage_base": [52, 62, 72, 82, 92, 102, 112, 122, 132, 142],
         "damage_rand": 5,
-        "attack_power_cof": [(120 + i * 5) * 1.15 * 0.95 * 1.05 * 1.1 for i in range(10)] +
+        "attack_power_cof": [(120 + i * 5) * 1.15 * 0.95 * 1.05 * 1.1 for i in range(9)] +
                             [200 * 1.2 * 1.15 * 0.95 * 1.05 * 1.1],
     },
     13685: {
