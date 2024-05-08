@@ -7,7 +7,7 @@ from base.gain import Gain
 from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue
-from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi
+from schools import shan_hai_xin_jue, ling_hai_jue, zi_xia_gong, tai_xu_jian_yi
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
 from schools import wu_fang, bing_xin_jue, mo_wen
 
@@ -99,6 +99,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=yi_jin_jing.TALENT_DECODER, talent_encoder=yi_jin_jing.TALENT_ENCODER,
         recipe_gains=yi_jin_jing.RECIPE_GAINS, recipes=yi_jin_jing.RECIPES,
         gains=yi_jin_jing.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
+    ),
+    10014: School(
+        school="纯阳", major="根骨", kind="内功", attribute=zi_xia_gong.ZiXiaGong, formation="九宫八卦阵",
+        skills=zi_xia_gong.SKILLS, buffs=zi_xia_gong.BUFFS, prepare=zi_xia_gong.prepare,
+        talent_gains=zi_xia_gong.TALENT_GAINS, talents=zi_xia_gong.TALENTS,
+        talent_decoder=zi_xia_gong.TALENT_DECODER, talent_encoder=zi_xia_gong.TALENT_ENCODER,
+        recipe_gains=zi_xia_gong.RECIPE_GAINS, recipes=zi_xia_gong.RECIPES,
+        gains=zi_xia_gong.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10015: School(
         school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
