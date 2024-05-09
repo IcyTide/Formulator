@@ -26,11 +26,9 @@ SKILLS: Dict[int, Skill | dict] = {
         skill_id: {
             "skill_class": PhysicalDamage,
             "skill_name": "雷走风切",
-            "damage_base": [35, 45, 55, 70, 85, 100, 115, 130, 145, 175],
-            "damage_rand": [5, 5, 5, 5, 5, 10, 10, 10, 10, 15],
-            "attack_power_cof": [45 * 0.8 * 0.7] +
-                                [(16 + (i - 1) * 17) * 0.8 * 0.7 for i in range(2, 10)] +
-                                [224 * 0.8 * 0.7],
+            "damage_base": 175,
+            "damage_rand": 15,
+            "attack_power_cof": 224 * 0.8 * 0.7,
         } for skill_id in (16599, 16631)
     },
     11447: {
@@ -40,13 +38,13 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [50] +
                             [50 + (i - 1) * 25 for i in range(2, 10)] +
                             [280],
-        "interval": 48
+        "interval": 48,
+        "tick": 8
     },
     17060: {
         "skill_class": DotSkill,
         "skill_name": "闹须弥",
         "bind_skill": 11447,
-        "tick": 8
     },
     16933: {
         "skill_class": PhysicalDamage,
@@ -270,7 +268,6 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [60 * 1.45 * 1.1 * 0.7] +
                             [(60 + (i - 1) * 10) * 1.45 * 1.1 * 0.7 for i in range(2, 10)] +
                             [160 * 1.45 * 0.9 * 1.1 * 0.7],
-        # "weapon_damage_cof": 1024 * 1.45 * 0.25
     },
     37458: {
         "skill_class": PhysicalDamage,
@@ -291,15 +288,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "背水沉舟(DOT)",
         "damage_base": 25,
         "attack_power_cof": 380,
-        "interval": 48
-
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 6
     },
     26934: {
         "skill_class": DotSkill,
         "skill_name": "背水沉舟",
         "bind_skill": 19555,
-        "max_stack": 3,
-        "tick": 6
     }
 }
 

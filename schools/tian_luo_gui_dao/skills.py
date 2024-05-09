@@ -65,14 +65,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_class": MixingDotDamage,
         "skill_name": "化血(DOT)",
         "damage_base": 90,
-        "attack_power_cof": 140 * 1.3 * 1.05*2.0*1.1,
-        "interval": 48
+        "attack_power_cof": 140 * 1.3 * 1.05 * 2.0 * 1.1,
+        "interval": 48,
+        "tick": 16
     },
     21266: {
         "skill_class": DotSkill,
         "skill_name": "化血",
-        "bind_skill": 14611,
-        "tick": 16
+        "bind_skill": 14611
     },
     3105: {
         "skill_class": MixingDamage,

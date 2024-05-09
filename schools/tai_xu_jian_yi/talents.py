@@ -29,10 +29,10 @@ class 无意(Gain):
 
 class 裂云(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[600].max_stack += 2
+        skills[748].max_stack += 2
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[600].max_stack -= 2
+        skills[748].max_stack -= 2
 
 
 class 虚极(Gain):

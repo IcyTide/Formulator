@@ -51,14 +51,14 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(48 + (i - 9) * 7) * 1.1 * 1.05 * 1.05 * 1.05 * 1.12 * 1.05 * 1.1 * 1.05 for i in
                              range(10, 25)] +
                             [160 * 1.1 * 1.05 * 1.05 * 1.05 * 1.12 * 1.05 * 1.1 * 1.05],
-        "interval": 48
+        "interval": 48,
+        "tick": 6
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "商",
-            "bind_skill": 9357,
-            "tick": 6
+            "bind_skill": 9357
         } for skill_id in (14287, 17788)
     },
     14311: {
@@ -81,14 +81,14 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(48 + (i - 9) * 8) * 1.05 * 1.05 * 1.12 * 1.05 * 1.1 * 1.05 for i in
                              range(10, 25)] +
                             [180 * 1.05 * 1.05 * 1.12 * 1.05 * 1.1 * 1.05],
-        "interval": 48
+        "interval": 48,
+        "tick": 6
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "角",
-            "bind_skill": 9361,
-            "tick": 6
+            "bind_skill": 9361
         } for skill_id in (14291, 17792)
     },
     14312: {
@@ -189,14 +189,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "神兵·宫(DOT)",
         "damage_base": 58,
         "attack_power_cof": 360 * 1.1 * 1.05 * 1.05 * 1.05 * 1.35,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 10
     },
     31005: {
         "skill_class": DotSkill,
         "skill_name": "神兵·宫",
-        "bind_skill": 23187,
-        "max_stack": 3,
-        "tick": 10
+        "bind_skill": 23187
     }
 }
 

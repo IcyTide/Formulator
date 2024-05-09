@@ -26,14 +26,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "急曲(DOT)",
         "damage_base": 100,
         "attack_power_cof": 114 * 1.1 * 0.9 * 1.1,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 6
     },
     18716: {
         "skill_class": DotSkill,
         "skill_name": "急曲",
-        "bind_skill": 2920,
-        "max_stack": 3,
-        "tick": 6
+        "bind_skill": 2920
     },
     6559: {
         "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
@@ -206,14 +206,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "气吞长江(DOT)",
         "damage_base": 25,
         "attack_power_cof": 400 * 1.4,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 10
     },
     25757: {
         "skill_class": DotSkill,
         "skill_name": "气吞长江",
         "bind_skill": 18512,
-        "max_stack": 3,
-        "tick": 10
     }
 }
 

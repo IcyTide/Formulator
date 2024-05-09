@@ -22,6 +22,7 @@ BUFFS: Dict[int, Buff | dict] = {
     },
     2757: {
         "buff_name": "紫气东来",
+        "frame_shift": -1,
         "gain_attributes": {
             "physical_attack_power_gain": [256, 256, 512, 256],
             "magical_attack_power_gain": [256, 256, 512, 256],

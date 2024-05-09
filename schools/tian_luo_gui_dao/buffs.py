@@ -63,12 +63,12 @@ BUFFS = {
             } for skill_id in (3313, 36502, 30894, 30727)
         }
     },
-    24668: {
-        "buff_name": "杀机断魂",
-        "gain_attributes": {
-            "all_damage_addition": 103
-        }
-    }
+    # 24668: {
+    #     "buff_name": "杀机断魂",
+    #     "gain_attributes": {
+    #         "all_damage_addition": 103
+    #     }
+    # }
 }
 
 for buff_id, detail in BUFFS.items():

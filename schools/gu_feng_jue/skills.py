@@ -7,14 +7,14 @@ from general.skills import GENERAL_SKILLS
 
 class 横刀断浪流血(Skill):
     def record(self, critical, parser):
-        bind_skill = self.bind_skill
+        bind_skill = parser.current_school.skills(self.bind_skill)
         bind_buff = self.bind_buff
-        parser.current_ticks[bind_skill] = self.tick
-        parser.current_stacks[bind_skill] = self.max_stack
+        parser.current_ticks[self.bind_skill] = bind_skill.tick
+        parser.current_stacks[self.bind_skill] = self.max_stack
         for level in range(self.max_stack):
             parser.current_target_buffs.pop((bind_buff, level + 1), None)
         parser.current_target_buffs[(bind_buff, self.max_stack)] = 1
-        parser.current_dot_snapshot[bind_skill] = parser.current_player_buffs.copy()
+        parser.current_dot_snapshot[self.bind_skill] = parser.current_player_buffs.copy()
 
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -36,7 +36,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "避实击虚",
         "damage_base": [35, 42, 45, 50, 55, 60],
         "damage_rand": 5,
-        "attack_power_cof": [80 * 0.9, 100 * 0.9 * 0.9, 120 * 0.9 * 0.9, 160 * 0.8 * 0.9, 160 * 0.9, 200 * 0.9]
+        "attack_power_cof": [80 * 0.9, 100 * 0.9 * 0.9, 120 * 0.9 * 0.9, 160 * 0.8 * 0.9, 160 * 0.9, 200 * 0.9],
+        "weapon_damage_cof": 1024,
     },
     32246: {
         "skill_class": PhysicalDamage,
@@ -168,6 +169,14 @@ SKILLS: Dict[int, Skill | dict] = {
                             [290],
         "weapon_damage_cof": 3072
     },
+    24443: {
+        "skill_class": PhysicalDotDamage,
+        "skill_name": "流血(DOT)",
+        "damage_base": 114,
+        "attack_power_cof": 100,
+        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 3,
+        "tick": 3
+    },
     **{
         skill_id: {
             "skill_class": 横刀断浪流血,
@@ -175,15 +184,7 @@ SKILLS: Dict[int, Skill | dict] = {
             "bind_skill": 24443,
             "bind_buff": -32513,
             "max_stack": i + 1,
-            "tick": 3
         } for i, skill_id in enumerate([32874, 32873, 32872, 32871, 32870, 32869])
-    },
-    24443: {
-        "skill_class": PhysicalDotDamage,
-        "skill_name": "流血(DOT)",
-        "damage_base": 114,
-        "attack_power_cof": 100,
-        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 3
     },
     32234: {
         "skill_class": PhysicalDamage,

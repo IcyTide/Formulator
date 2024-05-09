@@ -37,14 +37,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "逆乱(DOT)",
         "damage_base": 95,
         "attack_power_cof": 90 * 1.5 * 0.8 * 1.05 * 1.1,
-        "interval": 32
+        "interval": 32,
+        "max_stack": 8,
+        "tick": 7
     },
     27560: {
         "skill_class": DotSkill,
         "skill_name": "逆乱",
-        "bind_skill": 20052,
-        "max_stack": 8,
-        "tick": 7
+        "bind_skill": 20052
     },
     27552: {
         "skill_class": MagicalDamage,

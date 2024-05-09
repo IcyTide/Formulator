@@ -2,7 +2,7 @@ from base.buff import Buff
 
 GENERAL_BUFFS = {
     15455: {
-        "buff_name": "输出伤害波动",
+        "buff_name": "伤害波动",
         "gain_attributes": {
             "all_damage_addition": [10, 51]
         }

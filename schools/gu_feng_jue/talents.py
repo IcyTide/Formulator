@@ -42,12 +42,10 @@ class 放皓(Gain):
 
 class 涣衍(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (32874, 32873, 32872, 32871, 32870, 32869):
-            skills[skill_id].tick += 3
+        skills[24443].tick += 3
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (32874, 32873, 32872, 32871, 32870, 32869):
-            skills[skill_id].tick -= 3
+        skills[24443].tick -= 3
 
 
 class 涤瑕(Gain):

@@ -1,6 +1,13 @@
 from base.buff import Buff
 
 GENERAL_BUFFS = {
+    15413: {
+        "buff_name": "基础攻击",
+        "gain_attributes": {
+            "physical_attack_power_base": [0] * 8 + [371, 450, 495, 549],
+            "magical_attack_power_base": [0] * 8 + [442, 538, 591, 655]
+        }
+    },
     20938: {
         "buff_name": "左旋右转",
         "gain_attributes": {
@@ -11,6 +18,12 @@ GENERAL_BUFFS = {
         "buff_name": "泠风解怀",
         "gain_attributes": {
             "all_damage_addition": 154
+        }
+    },
+    3465: {
+        "buff_name": "破甲",
+        "gain_attributes": {
+            "physical_shield_gain": -102
         }
     },
     23107: {

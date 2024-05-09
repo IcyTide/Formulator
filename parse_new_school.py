@@ -59,4 +59,4 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    parser(r"new.jcl")
+    parser(r"qi_chun.jcl")

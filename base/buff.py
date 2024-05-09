@@ -15,6 +15,7 @@ class Buff:
     buff_stack: int = 1
 
     frame_shift: int = 0
+    second_shift: int = 0
     activate: bool = True
 
     max_stack: int = 1
@@ -29,6 +30,10 @@ class Buff:
             self.gain_skills = {}
         if self.gain_attributes is None:
             self.gain_attributes = {}
+
+    @property
+    def shifted(self):
+        return self.second_shift or self.frame_shift
 
     @property
     def buff_name(self):

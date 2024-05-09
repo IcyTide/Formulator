@@ -1,152 +1,262 @@
 from typing import Dict
 
-from base.constant import DOT_DAMAGE_SCALE, FRAME_PER_SECOND
 from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
-    36177: {
+    32745: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",
         "surplus_cof": [
-            1048576 * (0.3 - 1),
-            1048576 * (0.3 - 1)
+            1048576 * (0.4 - 1),
+            1048576 * (0.55 * 0.33 - 1),
+            1048576 * (0.7 - 1),
+            1048576 * (0.8 * 0.33 - 1),
+            1048576 * (0.9 - 1),
         ]
     },
-    35894: {
+    13039: {
         "skill_class": PhysicalDamage,
-        "skill_name": "风矢",
+        "skill_name": "卷雪刀",
         "attack_power_cof": 16,
-        "weapon_damage_cof": 1024,
-        "skill_damage_addition": 205
-    },
-    35866: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "劲风簇",
-        "damage_base": [35, 70, 105, 140, 157, 175, 193, 210, 228, 245, 263, 280, 298, 315, 333],
-        "damage_rand": 5,
-        "attack_power_cof": [25 * 0.9 * 0.9 * 0.95] * 3 +
-                            [(25 + (i - 4) * 10) * 0.9 * 0.9 * 0.95 for i in range(4, 15)] +
-                            [175 * 0.9 * 0.9 * 0.95],
         "weapon_damage_cof": 1024
     },
-    35987: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "饮羽簇",
-        "damage_base": [77, 154, 321, 308, 347, 385, 424, 462, 501, 539, 578, 616, 655, 693, 732],
-        "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10],
-        "attack_power_cof": [66 * 0.9 * 0.9 * 0.95 * 0.9 * 0.95] * 3 +
-                            [(66 + (i - 4) * 38) * 0.9 * 0.9 * 0.95 * 0.9 * 0.95 for i in range(4, 15)] +
-                            [552 * 0.9 * 0.9 * 0.95 * 0.9 * 0.95],
-        "weapon_damage_cof": 2048
+    **{
+        skill_id: {
+            "skill_class": PhysicalDamage,
+            "skill_name": "盾击",
+            "damage_base": [150, 180, 210, 240, 270, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 520],
+            "damage_rand": [e * 0.1 for e in
+                            [50, 80, 100, 120, 140, 160, 180, 200, 240, 280, 320, 360, 400, 440, 480, 520]],
+            "damage_gain": 1 / 5,
+            "attack_power_cof": [16 * 1.05 * 1.05 * 1.1 * 1.1] * 4 +
+                                [(16 + (i - 4) * 5) * 1.05 * 1.05 * 1.1 * 1.1 for i in range(5, 16)] +
+                                [100 * 1.05 * 1.05 * 1.1 * 1.1],
+            "weapon_damage_cof": 1024,
+            "skill_shield_gain": -512,
+        } for skill_id in (13106, 13160, 13161)
     },
-    36056: {
+    19409: {
         "skill_class": PhysicalDamage,
-        "skill_name": "践踏",
-        "damage_base": [16, 44, 72, 100, 128, 156, 184, 212, 240, 268, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [70 * 1.05] * 2 +
-                            [(70 + (i - 3) * 58) * 1.05 for i in range(3, 11)] +
-                            [607 * 1.05],
-        "skill_damage_addition": 62
+        "skill_name": "盾压",
+        "damage_base": [30, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315, 330, 345,
+                        360, 375, 390, 405],
+        "damage_rand": [e * 0.1 for e in
+                        [20, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315,
+                         330, 345, 360, 375]],
+        "damage_gain": 1 / 2,
+        "attack_power_cof": [40 * 1.05 * 1.05 * 1.05 * 1.1] * 4 +
+                            [(40 + (i - 4) * 7) * 1.05 * 1.05 * 1.05 * 1.1 for i in range(5, 24)] +
+                            [190 * 1.05 * 1.05 * 1.05 * 1.1],
+        "weapon_damage_cof": 1024,
     },
-    36057: {
+    13099: {
         "skill_class": PhysicalDamage,
-        "skill_name": "重击",
-        "damage_base": [16, 44, 72, 100, 128, 156, 184, 212, 240, 268, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [33 * 1.05] * 2 +
-                            [(33 + (i - 3) * 26) * 1.05 for i in range(3, 11)] +
-                            [276 * 1.05],
-        "skill_damage_addition": 62
+        "skill_name": "盾猛",
+        "damage_base": [35, 75, 85, 95, 105, 115, 125, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315,
+                        330, 345, 360, 375, 390],
+        "damage_rand": [e * 0.1 for e in
+                        [35, 45, 55, 65, 75, 85, 95, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285,
+                         300, 315, 330, 345, 360]],
+        "damage_gain": 1 / 3,
+        "attack_power_cof": [40 * 1.05 * 1.05 * 1.05] * 4 +
+                            [(40 + (i - 4) * 4) * 1.05 * 1.05 * 1.05 for i in range(5, 25)] +
+                            [150 * 1.05 * 1.05 * 1.05],
+        "weapon_damage_cof": 1024,
     },
-    36111: {
+    13463: {
         "skill_class": PhysicalDamage,
-        "skill_name": "攻击",
-        "damage_base": [16, 44, 72, 100, 128, 156, 184, 212, 240, 268, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [33 * 1.05] * 2 +
-                            [(33 + (i - 3) * 26) * 1.05 for i in range(3, 11)] +
-                            [276 * 1.05],
-        "skill_damage_addition": 62
+        "skill_name": "盾飞",
+        "damage_base": [30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 300],
+        "damage_rand": [e * 0.1 for e in
+                        [20, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 300]],
+        "damage_gain": 1 / 10,
+        "attack_power_cof": [16] * 4 +
+                            [16 + (i - 4) * 1 for i in range(5, 18)] +
+                            [35],
+        "weapon_damage_cof": 1024,
     },
-    36112: {
+    13044: {
         "skill_class": PhysicalDamage,
-        "skill_name": "攻击",
-        "damage_base": [48, 132, 216, 300, 384, 468, 552, 636, 720, 804, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [99 * 1.05] * 2 +
-                            [(99 + (i - 3) * 26) * 1.05 for i in range(3, 11)] +
-                            [828 * 1.05],
-        "skill_damage_addition": 62
+        "skill_name": "盾刀",
+        "damage_base": [31, 40, 45, 48, 55, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96,
+                        98, 102, 106, 110, 114, 118, 122, 126, 130],
+        "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15, 15, 15, 15,
+                        15, 15, 15, 15, 15, 15, 15],
+        "attack_power_cof": [16 * 1.05 * 1.05 * 1.1] * 4 +
+                            [(16 + (i - 4) * 3) * 1.05 * 1.05 * 1.1 for i in range(5, 33)] +
+                            [100 * 1.05 * 1.05 * 1.1],
+        "weapon_damage_cof": 1024,
     },
-    36113: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "攻击",
-        "damage_base": [16, 44, 72, 100, 128, 156, 184, 212, 240, 268, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [70 * 1.05] * 2 +
-                            [(70 + (i - 3) * 26) * 1.05 for i in range(3, 11)] +
-                            [607 * 1.05],
-        "skill_damage_addition": 62
-    },
-    36114: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "攻击",
-        "damage_base": [16, 44, 72, 100, 128, 156, 184, 212, 240, 268, 296],
-        "damage_rand": 20,
-        "attack_power_cof": [23 * 1.05] * 2 +
-                            [(23 + (i - 3) * 26) * 1.05 for i in range(3, 11)] +
-                            [165 * 1.05],
-        "skill_damage_addition": 62
-    },
-    36157: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "标鹄",
-        "damage_base": 30,
-        "damage_rand": 20,
-        "attack_power_cof": 512 * 1.15 * 0.9 * 0.95
-    },
-    26856: {
+    8249: {
         "skill_class": PhysicalDotDamage,
-        "skill_name": "贯穿(DOT)",
-        "damage_base": 32,
-        "attack_power_cof": 215 * 0.7 * 1.15 * 0.9 * 0.9 * 0.9,
-        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 4
+        "skill_name": "流血(DOT)",
+        "damage_base": 47,
+        "attack_power_cof": [16 * 1.5 * 2 * 1.05 * 1.1] * 9 +
+                            [(16 + (i - 9) * 4) * 1.5 * 2 * 1.05 * 1.1 for i in range(10, 22)] +
+                            [70 * 1.5 * 2 * 1.05 * 1.1],
+        "interval": 32,
+        "tick": 13
     },
-    36165: {
-        "skill_class": DotConsumeSkill,
-        "skill_name": "贯穿",
-        "bind_skill": 26856,
-        "tick": 3
-    },
-    35771: {
+    29188: {
         "skill_class": DotSkill,
-        "skill_name": "贯穿",
-        "bind_skill": 26856,
-        "max_stack": 6,
-        "tick": 4
+        "skill_name": "流血",
+        "bind_skill": 8249
     },
-    36453: {
+    13075: {
         "skill_class": PhysicalDamage,
-        "skill_name": "朝仪万汇",
-        "damage_base": 37,
-        "damage_rand": 5,
-        "attack_power_cof": 215
+        "skill_name": "绝刀",
+        "damage_base": [240, 270, 300, 330, 350, 370, 390, 410, 430, 450, 470, 490, 510, 540, 570, 600, 630, 660, 690,
+                        720],
+        "damage_rand": [e * 0.1 for e in
+                        [80, 100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440,
+                         500]],
+        "damage_gain": 1 / 4,
+        "attack_power_cof": [60 * 0.9 * 0.75 * 0.9 * 1.1 * 1.05 * 1.05 * 1.05 * 1.22 * 1.05 * 1.05 * 1.1 * 1.06] * 4 +
+                            [(60 + (i - 4) * 12) * 0.9 * 0.75 * 0.9 * 1.1 * 1.05 * 1.05 * 1.05 * 1.22 * 1.05 * 1.05 *
+                             1.1 * 1.06 for i in range(5, 20)] +
+                            [250 * 0.75 * 0.9 * 1.1 * 1.05 * 1.05 * 1.05 * 1.22 * 1.05 * 1.05 * 1.1 * 1.06],
+        "weapon_damage_cof": 1024,
     },
-    36579: {
+    13092: {
         "skill_class": PhysicalDamage,
-        "skill_name": "劲风簇·神兵",
+        "skill_name": "斩刀",
+        "damage_base": [230, 260, 290, 320, 350, 380, 410, 440, 470, 510, 550, 580, 610, 640, 670, 700, 710, 720, 730,
+                        740, 750, 760],
+        "damage_rand": [e * 0.1 for e in
+                        [20, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315,
+                         330, 345]],
+        "damage_gain": 0.3,
+        "attack_power_cof": [50 * 0.9 * 0.85 * 1.05 * 1.1 * 1.15 * 1.15 * 1.05 * 1.1 * 1.1 * 1.06 * 1.2] * 4 +
+                            [(50 + (i - 4) * 10) * 0.9 * 0.85 * 1.05 * 1.1 * 1.15 * 1.15 * 1.05 * 1.1 * 1.1 * 1.06 * 1.2
+                             for i in range(5, 22)] +
+                            [250 * 0.9 * 0.85 * 1.05 * 1.1 * 1.15 * 1.15 * 1.05 * 1.1 * 1.1 * 1.06 * 1.2],
+        "weapon_damage_cof": 1024,
+    },
+    28479: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "劫刀",
+        "damage_base": [e / 5 for e in
+                        [120, 150, 180, 210, 230, 250, 270, 290, 310, 330, 350, 370, 390, 400, 410, 420, 430, 440, 450,
+                         460, 470, 480, 490, 500, 510, 520, 530, 550]],
+        "damage_rand": [e * 0.1 for e in
+                        [80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 120, 130, 140, 150, 160, 170, 180, 190, 200,
+                         210, 220, 230, 240, 250, 260, 270, 280, 290]],
+        "attack_power_cof": [20 * 1.1 * 1.05 * 1.1 * 1.05 * 1.1 * 1.05 * 1.06] * 9 +
+                            [(20 + (i - 9) * 7) * 1.1 * 1.05 * 1.1 * 1.05 * 1.1 * 1.05 * 1.06
+                             for i in range(10, 28)] +
+                            [160 * 1.1 * 1.05 * 1.1 * 1.05 * 1.1 * 1.05 * 1.06],
+        "weapon_damage_cof": 1024,
+    },
+    36065: {
+        "skill_class": PhysicalDamage,
+        "skill_name": ["击破·援戈", "斩破·惊涌", "绝破·惊涌", "闪破·惊涌", "劫破·惊涌"],
+        "surplus_cof": [
+            1048576 * (0.697 * 0.5 * 1.2 - 1),
+            1048576 * (0.697 * 0.14 * 1.2 * 1.2 - 1),
+            1048576 * (0.697 * 0.14 * 1.2 * 1.2 - 1),
+            1048576 * (0.697 * 0.14 * 1.2 - 1),
+            1048576 * (0.697 * 0.14 * 1.2 - 1),
+        ]
+    },
+    36482: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "援戈·血影",
+        "damage_base": 400 / 5,
+        "damage_rand": 150 * 0.1,
+        "attack_power_cof": 300 * 2.3 * 0.83 * 1.2,
+        "weapon_damage_cof": 1024
+    },
+    37253: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "麾远",
+        "damage_base": 400 / 5,
+        "damage_rand": 150 * 0.1,
+        "attack_power_cof": 170 * 2,
+    },
+    34673: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "业火焚城",
+        "attack_power_cof": 40,
+        "weapon_damage_cof": 1024
+    },
+    34674: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "麟光甲寒",
+        "damage_base": 400 / 5,
+        "damage_rand": 150 * 0.1,
+        "attack_power_cof": 220 * 1.3 * 1.2,
+        "weapon_damage_cof": 1024
+    },
+    34714: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "业火焚城·云盾",
+        "damage_base": 400 / 5,
+        "damage_rand": 150 * 0.1,
+        "attack_power_cof": 160 * 1.3,
+        "weapon_damage_cof": 1024
+    },
+    37448: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "破·麟光",
+        "surplus_cof": 1048576 * (0.697 * 0.14 * 1.2 - 1)
+    },
+    30925: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "阵云结晦",
+        "damage_base": 240,
+        "damage_rand": 80 * 0.1,
+        "damage_gain": 1.2 / 4,
+        "attack_power_cof": 80 * 2 * 1.5,
+        "weapon_damage_cof": 1024,
+        "skill_pve_addition": 614
+    },
+    30926: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "月照连营",
+        "damage_base": 320,
+        "damage_rand": 120 * 0.1,
+        "damage_gain": 1.2 / 4,
+        "attack_power_cof": 100 * 2 * 1.5,
+        "weapon_damage_cof": 1024,
+        "skill_pve_addition": 614
+    },
+    30857: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "雁门迢递",
+        "damage_base": [400, 460, 520, 580, 640, 700, 760],
+        "damage_rand": [e * 0.1 for e in [300, 320, 340, 360, 380, 400, 420]],
+        "damage_gain": 1.2 / 4,
+        "attack_power_cof": 120 * 2 * 1.5,
+        "weapon_damage_cof": 1024,
+        "skill_pve_addition": 614
+    },
+    30858: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "绝国",
+        "damage_base": 24,
+        "damage_rand": 15 * 0.1,
+        "damage_gain": 1.2 / 4,
+        "attack_power_cof": [20 * (i + 1) * 1.2 * 1.3 for i in range(16)] +
+                            [40 * (i + 1) * 1.2 * 1.3 for i in range(16, 80)],
+        "weapon_damage_cof": 1024,
+    },
+    30859: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "阵云绝",
+        "damage_base": 47,
+        "damage_rand": 28 * 0.1,
+        "damage_gain": 1.2 / 4,
+        "attack_power_cof": 80 * 1.2,
+        "weapon_damage_cof": 1024,
+        "skill_pve_addition": 614
+    },
+    25780: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "盾击·神兵",
         "damage_base": 20,
         "damage_rand": 2,
-        "attack_power_cof": 60
-    },
-    36580: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "月弦激星",
-        "damage_base": 20,
-        "damage_rand": 2,
-        "attack_power_cof": 390
+        "attack_power_cof": 50
     }
 }
 

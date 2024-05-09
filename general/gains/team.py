@@ -3,15 +3,26 @@ from typing import Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
+from base.skill import Skill
 from general.buffs.team import GENERAL_BUFFS
+from general.skills.team import GENERAL_SKILLS
 
 
 class RealTeamGain(Gain):
+    skill_ids = list(GENERAL_SKILLS)
     buff_ids = list(GENERAL_BUFFS)
+
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].activate = True
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         for buff_id in self.buff_ids:
             buffs[buff_id].activate = True
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].activate = False
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
         for buff_id in self.buff_ids:
@@ -180,10 +191,6 @@ class 疏狂(TeamGain):
 """ 药宗 """
 
 
-class 飘黄:
-    pass
-
-
 class 配伍(TeamGain):
     gain_attributes = {"all_major_gain": 10 * 5}
 
@@ -246,6 +253,5 @@ TEAM_GAINS = {
 
     "疏狂": 疏狂,
 
-    "飘黄": 飘黄,
     "配伍": 配伍,
 }

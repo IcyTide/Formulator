@@ -35,10 +35,10 @@ class 孰湖(Gain):
 
 class 桑柘(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35771].tick += 1
+        skills[26856].tick += 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35771].tick -= 1
+        skills[26856].tick -= 1
 
 
 class 卢令(Gain):

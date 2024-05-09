@@ -22,11 +22,10 @@ class DotConsumeSkill(Skill):
             new_status_tuple = status_tuple
         skill_id, skill_level, skill_stack = skill_tuple
         parser.current_ticks[skill_id] += 1
-        tick = min(parser.current_ticks[skill_id], self.tick)
+        tick = parser.current_ticks.pop(skill_id)
         parser.current_records[(skill_id, skill_level, skill_stack * tick)][new_status_tuple].append(
             parser.current_records[skill_tuple][status_tuple].pop()
         )
-        parser.current_ticks[skill_id] -= tick
 
 
 class GeneraConsumeSkill(DotConsumeSkill):
@@ -68,21 +67,20 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(28 + (48 + (i - 9) * 9) * 0.9 * 1.25 * 1.15 * 1.05 * 1.1 * 1.05 * 1.15 * 1.1) * 1.05 *
                              1.05 * 1.05 for i in range(10, 19)] +
                             [(28 + 155 * 0.9 * 1.25 * 1.15 * 1.05 * 1.1 * 1.05 * 1.15 * 1.1) * 1.05 * 1.05 * 1.05],
-        "interval": 48
+        "interval": 48,
+        "tick": 6 + 1
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "兰摧玉折",
-            "bind_skill": 711,
-            "tick": 6 + 1
+            "bind_skill": 711
         } for skill_id in (13848, 6136)  # 18730
     },
     6129: {
         "skill_class": DotConsumeSkill,
         "skill_name": "兰摧玉折",
         "bind_skill": 711,
-        "tick": 99,
         "bind_buff_levels": {5: 2, 6: 1}
     },
     714: {
@@ -93,21 +91,20 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(48 + (i - 9) * 8) * 0.9 * 1.25 * 1.15 * 1.05 * 1.15 * 1.1 * 1.05 * 1.05 * 1.05 for i in
                              range(10, 24)] +
                             [175 * 0.9 * 1.25 * 1.15 * 1.05 * 1.15 * 1.1 * 1.05 * 1.05 * 1.05],
-        "interval": 48
+        "interval": 48,
+        "tick": 6 + 1
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "钟林毓秀",
-            "bind_skill": 714,
-            "tick": 6 + 1
+            "bind_skill": 714
         } for skill_id in (285, 13847, 6135)
     },
     6126: {
         "skill_class": DotConsumeSkill,
         "skill_name": "钟林毓秀",
         "bind_skill": 714,
-        "tick": 99,
         "bind_buff_levels": {5: 2, 6: 1}
     },
     14941: {
@@ -129,21 +126,20 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(64 + (i - 9) * 4) * 0.9 * 1.25 * 1.15 * 1.05 * 1.15 * 1.05 * 1.05 * 1.1 for i in
                              range(10, 29)] +
                             [161 * 0.9 * 1.25 * 1.15 * 1.05 * 1.15 * 1.05 * 1.05 * 1.1],
-        "interval": 48
+        "interval": 48,
+        "tick": 6 + 1
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "商阳指",
-            "bind_skill": 666,
-            "tick": 6 + 1
+            "bind_skill": 666
         } for skill_id in (180, 6134)
     },
     6128: {
         "skill_class": DotConsumeSkill,
         "skill_name": "商阳指",
         "bind_skill": 666,
-        "tick": 99,
         "bind_buff_levels": {5: 2, 6: 1}
     },
     6693: {
@@ -184,22 +180,21 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "快雪时晴(DOT)",
         "damage_base": 38,
         "attack_power_cof": (28 + 155 * 0.9 * 1.25 * 1.15 * 1.05 * 1.1 * 1.05 * 1.15 * 1.1) * 1.05 * 1.2 * 0.12,
-        "interval": 64
+        "interval": 64,
+        "tick": 7,
+        "max_stack": 6
     },
     **{
         skill_id: {
             "skill_class": DotSkill,
             "skill_name": "快雪时晴",
-            "bind_skill": 24158,
-            "tick": 7,
-            "max_stack": 6
+            "bind_skill": 24158
         } for skill_id in (32409, 32481)
     },
     32410: {
         "skill_class": DotConsumeSkill,
         "skill_name": "快雪时晴",
         "bind_skill": 24158,
-        "tick": 99,
         "bind_buff_levels": {2: 2, 3: 1}
     },
     601: {

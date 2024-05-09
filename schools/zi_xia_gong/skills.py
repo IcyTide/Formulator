@@ -4,6 +4,23 @@ from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDo
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
+    32813: {
+        "skill_class": MagicalDamage,
+        "skill_name": "破",
+        "surplus_cof": [
+            1024 * 1024 * (0.06 - 1),
+            1024 * 1024 * (0.30 - 1),
+            1024 * 1024 * (0.83 - 1),
+            1024 * 1024 * (0.60 - 1)
+        ]
+    },
+    18121: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "三柴剑法",
+        "attack_power_cof": 16,
+        "weapon_damage_cof": 1024,
+        "skill_damage_addition": 205
+    },
     303: {
         "skill_class": MagicalDamage,
         "skill_name": "三才化生",
@@ -45,20 +62,6 @@ SKILLS: Dict[int, Skill | dict] = {
             "attack_power_cof": [(14 * i * 0.8) for i in range(1, 11)],
         } for skill_id in (6091, 6092, 6093, 6094, 6095, 6096, 6097, 6098, 6099, 6100)
     },
-    6424: {
-        "skill_class": MagicalDotDamage,
-        "skill_name": "气竭(DOT)",
-        "damage_base": 10,
-        "attack_power_cof": 229 * 1.7,
-        "interval": 48
-    },
-    18121: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "三柴剑法",
-        "attack_power_cof": 16,
-        "weapon_damage_cof": 1024,
-        "skill_damage_addition": 205
-    },
     **{
         skill_id: {
             "skill_class": MagicalDamage,
@@ -81,6 +84,13 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 78,
         "attack_power_cof": 300 * 1.1 * 1.15 * 1.1 * 1.12
     },
+    36439: {
+        "skill_class": MagicalDamage,
+        "skill_name": "颠越苍穹击",
+        "damage_base": 1038,
+        "damage_rand": 104,
+        "attack_power_cof": 155 * 0.9
+    },
     25770: {
         "skill_class": MagicalDamage,
         "skill_name": "四象轮回·神兵",
@@ -88,30 +98,20 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 2,
         "attack_power_cof": 65
     },
-    32813: {
-        "skill_class": MagicalDamage,
-        "skill_name": "破",
-        "surplus_cof": [
-            1024 * 1024 * (0.06 - 1),
-            1024 * 1024 * (0.30 - 1),
-            1024 * 1024 * (0.83 - 1),
-            1024 * 1024 * (0.60 - 1)
-        ]
+    6424: {
+        "skill_class": MagicalDotDamage,
+        "skill_name": "气竭(DOT)",
+        "damage_base": 10,
+        "attack_power_cof": 229 * 1.7,
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 10
     },
     33592: {
         "skill_class": DotSkill,
         "skill_name": "气竭",
-        "bind_skill": 6424,
-        "max_stack": 3,
-        "tick": 10
+        "bind_skill": 6424
     },
-    36439: {
-        "skill_class": MagicalDamage,
-        "skill_name": "颠越苍穹击",
-        "damage_base": 1038,
-        "damage_rand": 104,
-        "attack_power_cof": 155 * 0.9
-    }
 }
 
 for skill_id, detail in SKILLS.items():

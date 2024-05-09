@@ -15,10 +15,10 @@ class 鸩羽(Gain):
 
 class 疾根(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[27560].tick += 1
+        skills[20052].tick += 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[27560].tick -= 1
+        skills[20052].tick -= 1
 
 
 TALENT_GAINS: Dict[int, Gain] = {

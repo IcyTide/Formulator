@@ -194,12 +194,12 @@ class BuffSkill(Skill):
 class DotSkill(Skill):
     def record(self, critical, parser):
         super().record(critical, parser)
-        bind_skill = self.bind_skill
-        if not parser.current_ticks[bind_skill]:
-            parser.current_stacks[bind_skill] = 0
-        parser.current_ticks[bind_skill] = self.tick
-        parser.current_stacks[bind_skill] = min(parser.current_stacks[bind_skill] + 1, self.max_stack)
-        parser.current_dot_snapshot[bind_skill] = parser.current_player_buffs.copy()
+        bind_skill = parser.current_school.skills[self.bind_skill]
+        if not parser.current_ticks[self.bind_skill]:
+            parser.current_stacks[self.bind_skill] = 0
+        parser.current_ticks[self.bind_skill] = bind_skill.tick
+        parser.current_stacks[self.bind_skill] = min(parser.current_stacks[self.bind_skill] + 1, bind_skill.max_stack)
+        parser.current_dot_snapshot[self.bind_skill] = parser.current_player_buffs.copy()
 
 
 class DotConsumeSkill(Skill):
@@ -336,7 +336,7 @@ class MagicalSkill(Skill):
         return damage, critical_damage, expected_damage, critical_strike
 
 
-class MixingSkill(Skill):
+class AdaptiveSkill(Skill):
     def __call__(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, self.damage_rand,
@@ -348,12 +348,12 @@ class MixingSkill(Skill):
         damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
         damage = overcome_result(damage, attribute.overcome,
                                  attribute.level_shield_base + attribute.shield_base,
-                                 attribute.magical_shield_gain + self.skill_shield_gain,
-                                 attribute.magical_shield_ignore,
+                                 attribute.strain_gain + self.skill_shield_gain,
+                                 attribute.shield_ignore,
                                  attribute.shield_constant)
 
-        critical_power_gain = attribute.physical_critical_power_gain + self.skill_critical_power
-        critical_damage = critical_result(damage, attribute.base_physical_critical_power, critical_power_gain)
+        critical_power_gain = attribute.critical_power_gain + self.skill_critical_power
+        critical_damage = critical_result(damage, attribute.base_critical_power, critical_power_gain)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
@@ -361,9 +361,9 @@ class MixingSkill(Skill):
         critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
         damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
-        damage = vulnerable_result(damage, attribute.magical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
-        critical_strike = min(1, attribute.physical_critical_strike + self.skill_critical_strike / DECIMAL_SCALE)
+        damage = vulnerable_result(damage, attribute.vulnerable)
+        critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)
+        critical_strike = min(1, attribute.critical_strike + self.skill_critical_strike / DECIMAL_SCALE)
 
         expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
 
@@ -386,7 +386,7 @@ class MagicalDamage(MagicalSkill, Damage):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
 
-class MixingDamage(MixingSkill, Damage):
+class MixingDamage(AdaptiveSkill, Damage):
     @Damage.attack_power_cof.getter
     def attack_power_cof(self):
         return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
@@ -404,7 +404,7 @@ class MagicalDotDamage(MagicalSkill, DotDamage):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
 
 
-class MixingDotDamage(MixingSkill, DotDamage):
+class MixingDotDamage(AdaptiveSkill, DotDamage):
     @Damage.attack_power_cof.getter
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)

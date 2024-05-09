@@ -79,7 +79,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "横扫六合(DOT)",
         "damage_base": 45,
         "attack_power_cof": 70 * 1.2 * 1.65 * 1.15 * 1.15 * 1.05 * 1.25 * 1.1 * 1.1,
-        "interval": 32
+        "interval": 32,
+        "tick": 6 + 3
     },
     3810: {
         "skill_class": type("Mixing", (MagicalDamage, DotSkill), {}),
@@ -88,8 +89,7 @@ SKILLS: Dict[int, Skill | dict] = {
                         66, 68, 71, 73, 75, 36, 39, 41, 43, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
                         60, 61, 62, 63, 64, 66, 68, 71, 73, 75],
         "attack_power_cof": 70 * 1.2 * 1.65 * 1.15 * 1.15 * 1.05 * 1.25 * 1.1 * 1.1,
-        "bind_skill": 743,
-        "tick": 6 + 3
+        "bind_skill": 743
     },
     3848: {
         "skill_class": type("Mixing", (MagicalDamage, BuffSkill), {}),

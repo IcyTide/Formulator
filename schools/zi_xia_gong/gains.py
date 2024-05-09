@@ -22,6 +22,6 @@ GAINS = {
     # 无界特效1
     17300: Gain(),
     # 无界特效2
-    17239: Gain(),
+    17312: Gain(),
     **EQUIPMENT_GAINS,
 }

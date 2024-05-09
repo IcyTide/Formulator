@@ -25,14 +25,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "叠刃(DOT)",
         "damage_base": 10,
         "attack_power_cof": 58 * 1.15 * 1.1 * 1.1,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 5,
+        "tick": 8
     },
     600: {
         "skill_class": DotSkill,
         "skill_name": "叠刃",
-        "bind_skill": 748,
-        "max_stack": 5,
-        "tick": 8
+        "bind_skill": 748
     },
     **{
         skill_id: {
@@ -98,13 +98,13 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "人剑合一(DOT)",
         "damage_base": 16,
         "attack_power_cof": 450,
-        "interval": 48
+        "interval": 48,
+        "tick": 4
     },
     37453: {
         "skill_class": DotSkill,
         "skill_name": "人剑合一",
-        "bind_skill": 889,
-        "tick": 4
+        "bind_skill": 889
     },
     21979: {
         "skill_class": PhysicalDamage,
@@ -148,14 +148,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "万象归元(DOT)",
         "damage_base": 10,
         "attack_power_cof": 450,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 10
     },
     30944: {
         "skill_class": DotSkill,
         "skill_name": "万象归元",
-        "bind_skill": 23170,
-        "max_stack": 3,
-        "tick": 10
+        "bind_skill": 23170
     }
 }
 

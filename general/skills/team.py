@@ -1,8 +1,14 @@
 from typing import Dict
 
-from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage
+from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage, BuffSkill
 
 GENERAL_SKILLS: Dict[int, Skill | dict] = {
+    13778: {
+        "skill_class": BuffSkill,
+        "skill_name": "乘龙箭",
+        "bind_buff": 3465,
+        "duration": 128
+    },
     29535: {
         "skill_class": MagicalDamage,
         "skill_name": "逐云寒蕊",

@@ -14,12 +14,16 @@ class 流星赶月(Gain):
         skills[3228].skill_critical_power -= 102
 
 
-class 疾根(Gain):
+class 杀机断魂(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[27560].tick += 1
+        for skill_id in (36502, 30894, 30727):
+            skills[skill_id].skill_damage_addition += 103 * 2 * 3
+        skills[3313].skill_damage_addition += 103 * 3
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[27560].tick -= 1
+        for skill_id in (36502, 30894, 30727):
+            skills[skill_id].skill_damage_addition -= 103 * 2 * 3
+        skills[3313].skill_damage_addition -= 103 * 3
 
 
 TALENT_GAINS: Dict[int, Gain] = {
@@ -30,7 +34,7 @@ TALENT_GAINS: Dict[int, Gain] = {
     37326: 流星赶月("流星赶月"),
     6451: Gain("聚精凝神"),
     18249: Gain("化血迷心"),
-    33134: Gain("杀机断魂"),
+    33134: 杀机断魂("杀机断魂"),
     6461: Gain("秋风散影"),
     37327: Gain("云合影从"),
     14856: Gain("曙色催寒"),

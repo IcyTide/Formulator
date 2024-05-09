@@ -4,7 +4,8 @@ from base.constant import FRAME_PER_SECOND
 from schools import *
 from utils.lua import parse
 
-FRAME_TYPE, PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = int, int, int, int, int
+FRAME_TYPE, SECOND_TYPE = int, int
+PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = int, int, int, int
 CASTER_ID_TYPE = PLAYER_ID_TYPE | PET_ID_TYPE
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
 SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
@@ -39,14 +40,17 @@ class Parser:
     current_caster: CASTER_ID_TYPE
     current_target: TARGET_ID_TYPE
     current_skill: SKILL_ID_TYPE
+
     current_frame: FRAME_TYPE
+    current_second: SECOND_TYPE
 
     id2name: Dict[PLAYER_ID_TYPE | TARGET_ID_TYPE, PLAYER_NAME_TYPE]
     name2id: Dict[PLAYER_NAME_TYPE, PLAYER_ID_TYPE | TARGET_ID_TYPE]
     pets: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
     records: Dict[PLAYER_ID_TYPE, Dict[TARGET_ID_TYPE, RECORD_TYPE]]
 
-    shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
+    frame_shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
+    second_shift_buffs: Dict[SECOND_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
     hidden_buffs: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, FRAME_TYPE]]]
 
     player_buffs: Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
@@ -127,6 +131,7 @@ class Parser:
 
     def reset(self):
         self.current_frame = 0
+        self.current_second = 0
 
         self.id2name = {}
         self.name2id = {}
@@ -135,7 +140,8 @@ class Parser:
         self.records = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
 
         self.hidden_buffs = defaultdict(lambda: defaultdict(dict))
-        self.shift_buffs = defaultdict(lambda: defaultdict(dict))
+        self.frame_shift_buffs = defaultdict(lambda: defaultdict(dict))
+        self.second_shift_buffs = defaultdict(lambda: defaultdict(dict))
 
         self.player_buffs = defaultdict(dict)
         self.target_buffs = defaultdict(lambda: defaultdict(dict))
@@ -219,16 +225,28 @@ class Parser:
         buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
         if buff_id not in self.players[player_id].buffs:
             return
+        buff = self.players[player_id].buffs[buff_id]
+        if frame_shift := buff.frame_shift:
+            self.frame_shift_buffs[self.current_frame + frame_shift][player_id][(buff_id, buff_level)] = buff_stack
+        # elif second_shift := buff.second_shift:
+        #     self.second_shift_buffs[self.current_second + second_shift][player_id][(buff_id, buff_level)] = buff_stack
 
-        frame_shift = self.players[player_id].buffs[buff_id].frame_shift
-        if frame_shift:
-            self.shift_buffs[self.current_frame + frame_shift][player_id][(buff_id, buff_level)] = buff_stack
-
-    def parse_shift_status(self):
-        for frame in list(self.shift_buffs):
+    def parse_frame_shift_status(self):
+        for frame in list(self.frame_shift_buffs):
             if frame > self.current_frame:
                 break
-            for player_id, shift_buffs in self.shift_buffs.pop(frame).items():
+            for player_id, shift_buffs in self.frame_shift_buffs.pop(frame).items():
+                for buff, buff_stack in shift_buffs.items():
+                    if buff_stack:
+                        self.player_buffs[player_id][buff] = buff_stack
+                    else:
+                        self.player_buffs[player_id].pop(buff, None)
+
+    def parse_second_shift_status(self):
+        for second in list(self.second_shift_buffs):
+            if second > self.current_second:
+                break
+            for player_id, shift_buffs in self.second_shift_buffs.pop(second).items():
                 for buff, buff_stack in shift_buffs.items():
                     if buff_stack:
                         self.player_buffs[player_id][buff] = buff_stack
@@ -337,13 +355,19 @@ class Parser:
 
         for row in rows:
             self.current_frame = int(row[1])
+            # self.current_second = int(row[3])
             if row[4] == "13":
                 self.parse_shift_buff(row[-1])
 
         for row in rows:
-            self.current_frame = int(row[1])
-            self.parse_shift_status()
-            self.parse_hidden_buffs()
+            if (current_frame := int(row[1])) != self.current_frame:
+                self.current_frame = current_frame
+                self.parse_frame_shift_status()
+                self.parse_hidden_buffs()
+            # if (current_second := int(row[3])) != self.current_second:
+            #     self.current_second = current_second
+            #     self.parse_frame_shift_status()
+
             if row[4] == "8":
                 self.parse_pet(row[-1])
             elif row[4] == "13":

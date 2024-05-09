@@ -112,20 +112,20 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "贯穿(DOT)",
         "damage_base": 32,
         "attack_power_cof": 215 * 0.7 * 1.15 * 0.9 * 0.9 * 0.9,
-        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 4
+        "interval": FRAME_PER_SECOND * DOT_DAMAGE_SCALE / 4,
+        "max_stack": 6,
+        "tick": 4
+    },
+    35771: {
+        "skill_class": DotSkill,
+        "skill_name": "贯穿",
+        "bind_skill": 26856
     },
     36165: {
         "skill_class": DotConsumeSkill,
         "skill_name": "贯穿",
         "bind_skill": 26856,
         "tick": 3
-    },
-    35771: {
-        "skill_class": DotSkill,
-        "skill_name": "贯穿",
-        "bind_skill": 26856,
-        "max_stack": 6,
-        "tick": 4
     },
     36453: {
         "skill_class": PhysicalDamage,

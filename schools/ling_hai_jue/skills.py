@@ -166,15 +166,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "青冥(DOT)",
         "damage_base": 50,
         "attack_power_cof": 550,
-        "interval": 32
-
+        "interval": 32,
+        "max_stack": 6,
+        "tick": 6
     },
     25640: {
         "skill_class": DotSkill,
         "skill_name": "青冥",
-        "bind_skill": 18386,
-        "max_stack": 6,
-        "tick": 6
+        "bind_skill": 18386
     },
     25783: {
         "skill_class": PhysicalDamage,
@@ -188,15 +187,15 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "御波驾澜(DOT)",
         "damage_base": 25,
         "attack_power_cof": 680,
-        "interval": 48
+        "interval": 48,
+        "max_stack": 3,
+        "tick": 6
 
     },
     26935: {
         "skill_class": DotSkill,
         "skill_name": "御波驾澜",
-        "bind_skill": 19557,
-        "max_stack": 3,
-        "tick": 6
+        "bind_skill": 19557
     }
 }
 
