@@ -7,4 +7,4 @@ from schools.tai_xu_jian_yi.attribute import TaiXuJianYi
 
 
 def prepare(self, player_id):
-    self.status[player_id][(9949, 1)] = 3
+    self.player_buffs[player_id][(9949, 1)] = 3

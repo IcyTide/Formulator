@@ -1,3 +1,4 @@
+import json
 from typing import Dict
 
 from qt.components.dashboard import DashboardWidget
@@ -10,6 +11,7 @@ from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
 from utils.analyzer import analyze_details, Detail
+from utils.io import serialize
 
 
 def summary_content(summary: Dict[str, Detail], total_damage):
@@ -34,7 +36,7 @@ def detail_content(detail: Detail):
         ["命中伤害", f"{round(detail.damage)}"],
         ["会心伤害", f"{round(detail.critical_damage)}"],
         ["期望伤害", f"{round(detail.expected_damage)}"],
-        ["会心", f"{round(detail.critical_strike * 100, 2)}%"],
+        ["期望会心", f"{round(detail.critical_strike * 100, 2)}%"],
         ["实际会心", f"{round(detail.actual_critical_strike * 100, 2)}%"],
         ["数量", f"{detail.count}"]
     ]
@@ -49,9 +51,10 @@ def detail_content(detail: Detail):
 def dashboard_script(parser: Parser,
                      dashboard_widget: DashboardWidget, talents: Talents, recipes: Recipes,
                      equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
-
     def formulate():
-        duration = dashboard_widget.duration.spin_box.value()
+        target_name = dashboard_widget.target_select.combo_box.currentText()
+        target_id = parser.name2id.get(target_name, 0)
+        parser.current_target = target_id
         record = parser.current_records
         school = parser.current_school
 
@@ -72,6 +75,7 @@ def dashboard_script(parser: Parser,
         for gain in gains:
             gain.add(attribute, school.skills, school.buffs)
 
+        duration = dashboard_widget.duration.spin_box.value()
         dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
         total, summary, details = analyze_details(record, duration, attribute, school)
 
@@ -90,7 +94,17 @@ def dashboard_script(parser: Parser,
 
         dashboard_widget.summary.set_content(summary_content(summary, total.expected_damage))
 
-    dashboard_widget.button.clicked.connect(formulate)
+    dashboard_widget.formulate_button.clicked.connect(formulate)
+
+    def save_json():
+        target_name = dashboard_widget.target_select.combo_box.currentText()
+        target_id = parser.name2id.get(target_name, 0)
+        parser.current_target = target_id
+        record = parser.current_records
+        duration = dashboard_widget.duration.spin_box.value()
+        json.dump(serialize(record, duration), open(parser.file_name.strip(".jcl") + ".json", "w", encoding="utf-8"))
+
+    dashboard_widget.save_button.clicked.connect(save_json)
 
     def set_skills():
         detail_widget = dashboard_widget.detail_widget

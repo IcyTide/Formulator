@@ -1,5 +1,5 @@
 from general.gains.formation import FORMATION_GAINS
-from general.gains.team import TEAM_GAINS
+from general.gains.team import TEAM_GAINS, RealTeamGain
 
 from qt.components import RadioWithLabel, ComboWithLabel, SpinWithLabel
 from qt.components.bonuses import BonusesWidget
@@ -10,7 +10,6 @@ class Bonuses(dict):
     @property
     def gains(self):
         gains = list(self.values())
-
         if "秋肃" in self and "戒火" in self:
             gains.remove(self["戒火"])
 
@@ -40,6 +39,14 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     bonuses_widget.formation.formation.combo_box.currentTextChanged.connect(formation_update)
     bonuses_widget.formation.core_rate.spin_box.valueChanged.connect(formation_update)
     bonuses_widget.formation.rate.spin_box.valueChanged.connect(formation_update)
+
+    def real_team_gain():
+        widget = bonuses_widget.team_gains.real_formulation
+        if widget.radio_button.isChecked():
+            bonuses[None] = RealTeamGain()
+        else:
+            bonuses.pop(None, None)
+    bonuses_widget.team_gains.real_formulation.radio_button.clicked.connect(real_team_gain)
 
     def radio_update(label):
         widget = bonuses_widget.team_gains[label]

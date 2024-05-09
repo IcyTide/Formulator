@@ -2,11 +2,6 @@ from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
 
-class 涤瑕(Buff):
-    def value(self, values):
-        return 1 + values * self.buff_stack
-
-
 BUFFS = {
     11378: {
         "buff_name": "朔气",
@@ -52,7 +47,7 @@ BUFFS = {
         "activate": False,
         "gain_skills": {
             24443: {
-                "attack_power_cof_gain": 0.1
+                "attack_power_cof_gain": [1 + 0.1 * (i + 1) for i in range(6)]
             }
         }
     }

@@ -28,10 +28,13 @@ def top_script(
             return
         parser(file_name[0])
         top_widget.player_select.set_items(
-            [parser.id2name[player_id] for player_id in parser.school], keep_index=True, default_index=0
+            [parser.id2name[player_id] for player_id in parser.players], keep_index=True, default_index=0
         )
         top_widget.player_select.show()
         select_player(None)
+        dashboard_widget.target_select.set_items(
+            [""] + [parser.id2name[target_id] for target_id in parser.current_targets], keep_index=True, default_index=0
+        )
 
     top_widget.upload_button.clicked.connect(upload_logs)
 
@@ -41,7 +44,7 @@ def top_script(
             return
         player_id = parser.name2id[player_name]
         parser.current_player = player_id
-        school = parser.school[player_id]
+        school = parser.players[player_id]
         """ Update config """
         config_choices = list(CONFIG.get(school.school, {}))
         config_widget.config_select.set_items(config_choices, default_index=-1)

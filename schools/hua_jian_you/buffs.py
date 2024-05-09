@@ -38,10 +38,9 @@ BUFFS = {
     },
     24599: {
         "buff_name": "雪中行",
-        "stackable": False,
         "gain_attributes": {
-            "magical_attack_power_gain": [102, 204, 306],
-            "magical_critical_strike_gain": [600, 1200, 1800]
+            "magical_attack_power_gain": 102,
+            "magical_critical_strike_gain": 600
         },
         "gain_skills": {
             skill_id: {
@@ -60,7 +59,10 @@ BUFFS = {
         "buff_name": "青冠",
         "activate": False,
         "gain_attributes": {
-            "global_damage_factor": [0.25, 1.]
+            "global_damage_factor": [
+                1.25,
+                2.
+            ]
         }
     },
     9722: {

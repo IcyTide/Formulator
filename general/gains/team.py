@@ -1,5 +1,21 @@
+from typing import Dict
+
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
+from general.buffs.team import GENERAL_BUFFS
+
+
+class RealTeamGain(Gain):
+    buff_ids = list(GENERAL_BUFFS)
+
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        for buff_id in self.buff_ids:
+            buffs[buff_id].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        for buff_id in self.buff_ids:
+            buffs[buff_id].activate = False
 
 
 class TeamGain(Gain):
@@ -55,7 +71,7 @@ class 乘龙箭(TeamGain):
 
 
 class 号令三军(TeamGain):
-    gain_attributes = {"strain_base": (470 + 470 / 2) / 2}
+    gain_attributes = {"strain_base": (500 + 500 / 2) / 2}
 
 
 class 激雷(TeamGain):
@@ -70,7 +86,7 @@ class 立地成佛(TeamGain):
 
 
 class 舍身弘法(TeamGain):
-    gain_attributes = {"strain_base": 470}
+    gain_attributes = {"strain_base": 500}
 
 
 """ 万花 """
@@ -117,8 +133,8 @@ class 戒火(TeamGain):
 
 
 class 朝圣言(TeamGain):
-    gain_attributes = {"strain_base": 470}
-    variety_values = {"圣浴明心": 820 - 470}
+    gain_attributes = {"strain_base": 500}
+    variety_values = {"圣浴明心": 875 - 500}
 
 
 """ 丐帮 """
@@ -186,10 +202,10 @@ TEAM_GAIN_LIMIT = {
         "stack": 24
     },
     "振奋": {
-        "stack": 100
+        "stack": 125
     },
     "庄周梦": {
-        "stack": 150
+        "stack": 200
     }
 }
 TEAM_GAINS = {

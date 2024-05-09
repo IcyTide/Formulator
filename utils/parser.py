@@ -223,11 +223,6 @@ class Parser:
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")
         caster_id, target_id = int(detail[0]), int(detail[1])
-
-        # 目标为气纯黑洞时伤害会被重写为1，先通过不记录这次事件dirty fix
-        if target_id in self.pets:
-            return
-
         if caster_id in self.pets:
             player_id = self.pets[caster_id]
         else:
@@ -250,9 +245,8 @@ class Parser:
 
     def parse_pet(self, row):
         detail = row.strip("{}").split(",")
-        pet_id, template_id, player_id = int(detail[0]), int(detail[2]), int(detail[3])
-        # 对气纯黑洞（模板ID125406，敌对目标）的特殊处理
-        if player_id in self.school or template_id == 125406:
+        pet_id, player_id = int(detail[0]), int(detail[3])
+        if player_id in self.school:
             self.pets[pet_id] = player_id
             self.snapshot[player_id][pet_id] = self.status[player_id].copy()
 
@@ -280,7 +274,7 @@ class Parser:
 
     def __call__(self, file_name):
         self.reset()
-        lines = open(file_name, encoding="gbk").readlines()
+        lines = open(file_name).readlines()
         rows = []
         for line in lines:
             row = line.split("\t")

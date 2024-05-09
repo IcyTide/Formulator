@@ -24,6 +24,10 @@ class TeamGainsWidget(QWidget):
 
         self.team_gains = {}
 
+        self.real_formulation = RadioWithLabel("开启真实团队增益模拟(仅包括存在覆盖率的角色BUFF,不包含目标和常驻BUFF)")
+
+        layout.addWidget(self.real_formulation)
+
         tabs = QTabWidget()
         layout.addWidget(tabs)
 
@@ -35,9 +39,11 @@ class TeamGainsWidget(QWidget):
         tab_layout.addWidget(self.team_gains["袖气"], 0, 0)
 
         self.team_gains["左旋右转"] = {
-            "stack": SpinWithLabel("左旋右转", "层数", maximum=TEAM_GAIN_LIMIT["左旋右转"]["stack"])
+            "stack": SpinWithLabel("左旋右转", "层数", maximum=TEAM_GAIN_LIMIT["左旋右转"]["stack"]),
+            "rate": SpinWithLabel("左旋右转", "覆盖(%)", maximum=100)
         }
         tab_layout.addWidget(self.team_gains["左旋右转"]["stack"], 1, 0)
+        tab_layout.addWidget(self.team_gains["左旋右转"]["rate"], 1, 1)
         self.team_gains["泠风解怀"] = {
             "rate": SpinWithLabel("泠风解怀", "覆盖(%)", maximum=100)
         }

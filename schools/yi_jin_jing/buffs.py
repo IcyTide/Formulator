@@ -19,7 +19,7 @@ BUFFS = {
         "max_stack": 3
     },
     19635: {
-        "buff_name": "明法",
+        "buff_name": "普渡",
         "gain_attributes": {
             "magical_vulnerable": [41, 82, 123]
         }
@@ -62,7 +62,7 @@ BUFFS = {
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 205
-            } for skill_id in (3848, 3849, 3850, 3814, 3816, 13685, 32887)
+            } for skill_id in (3848, 3849, 3850, 3814, 3816, 13685)
         }
     },
     24453: {
@@ -76,7 +76,7 @@ BUFFS = {
         "gain_skills": {
             skill_id: {
                 "skill_pve_addition": 820
-            } for skill_id in (17641, 3848, 3849, 3850, 236, 3810, 271)
+            } for skill_id in (17641, 3848, 3849, 3850, 236, 3810, 271, 743)
         }
     },
     1919: {
@@ -84,7 +84,7 @@ BUFFS = {
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 922
-            } for skill_id in (3848, 3849, 3850)
+            } for skill_id in (3848, 3849, 3850, 271)
         }
     }
 }

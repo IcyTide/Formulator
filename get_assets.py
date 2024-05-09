@@ -180,11 +180,9 @@ def get_secondary_weapons():
 
 def get_equip_name(row):
     name = row['Name']
-    if "无封" in name:
-        name = f"{row['MagicKind']}{name}"
     attrs = " ".join([EQUIP_ATTR_MAP[attr] for attr in EQUIP_ATTR_MAP if attr in row['_Attrs']])
     level = row['Level']
-    return f"{name} ({attrs}) {level}"
+    return f"{name}#{row['ID']}({attrs}) {level}"
 
 
 def get_equip_detail(row):

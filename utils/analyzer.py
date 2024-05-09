@@ -39,27 +39,36 @@ def filter_status(status, school: School, skill_id):
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
         if buff.gain_attributes:
             buffs.append(buff)
-        if skill_id in buff.gain_skills:
+        elif skill_id in buff.gain_skills:
             buffs.append(buff)
 
     return tuple(sorted(buffs, key=lambda x: x.buff_id))
 
 
-def add_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
+def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
+    final_buffs = []
     if not snapshot_buffs:
         for buff in current_buffs:
             buff.add_all(attribute, skill)
+            final_buffs.append(buff)
     elif isinstance(skill, DotDamage):
         for buff in snapshot_buffs:
-            buff.add_dot(attribute, skill, True)
+            if buff.add_dot(attribute, skill, True):
+                final_buffs.append(buff)
         for buff in current_buffs:
-            buff.add_dot(attribute, skill, False)
+            if buff.add_dot(attribute, skill, False):
+                final_buffs.append(buff)
     elif isinstance(skill, PetDamage):
         for buff in snapshot_buffs:
             buff.add_all(attribute, skill)
+            final_buffs.append(buff)
+    for buff in target_buffs:
+        buff.add_all(attribute, skill)
+
+    return final_buffs + list(target_buffs)
 
 
-def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill):
+def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
     if not snapshot_buffs:
         for buff in current_buffs:
             buff.sub_all(attribute, skill)
@@ -71,12 +80,12 @@ def sub_buffs(current_buffs, snapshot_buffs, attribute: Attribute, skill: Skill)
     elif isinstance(skill, PetDamage):
         for buff in snapshot_buffs:
             buff.sub_all(attribute, skill)
+    for buff in target_buffs:
+        buff.sub_all(attribute, skill)
 
 
-def concat_buffs(current_buffs, snapshot_buffs):
-    buffs = ",".join(buff.display_name for buff in current_buffs)
-    if snapshot_buffs and current_buffs != snapshot_buffs:
-        buffs += f"({','.join(buff.display_name for buff in snapshot_buffs)})"
+def concat_buffs(buffs):
+    buffs = ",".join(buff.display_name for buff in buffs)
     if not buffs:
         buffs = "~"
     return buffs
@@ -100,20 +109,20 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
         if not (skill_summary := summary.get(skill_name)):
             skill_summary = summary[skill_name] = Detail()
         skill_total = skill_detail[""] = Detail()
-        for (current_status, snapshot_status), timeline in status.items():
+        for (current_status, snapshot_status, target_status), timeline in status.items():
             if not (timeline := [t for t in timeline if t[0] < duration]):
                 continue
             critical_timeline = [t for t in timeline if t[1]]
 
             current_buffs = filter_status(current_status, school, skill_id)
             snapshot_buffs = filter_status(snapshot_status, school, skill_id)
-            buffs = concat_buffs(current_buffs, snapshot_buffs)
+            target_buffs = filter_status(target_status, school, skill_id)
 
-            if not (detail := skill_detail.get(buffs)):
-                add_buffs(current_buffs, snapshot_buffs, attribute, skill)
-                detail = skill_detail[buffs] = Detail(*skill(attribute))
-                detail.gradients = analyze_gradients(skill, attribute)
-                sub_buffs(current_buffs, snapshot_buffs, attribute, skill)
+            buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
+            buffs = concat_buffs(buffs)
+            detail = skill_detail[buffs] = Detail(*skill(attribute))
+            detail.gradients = analyze_gradients(skill, attribute)
+            sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
 
             detail.critical_count += len(critical_timeline)
             detail.count += len(timeline)
