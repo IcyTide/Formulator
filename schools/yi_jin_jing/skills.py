@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, BuffSkill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
+from base.skill import Skill, HiddenBuffSkill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 
@@ -54,7 +54,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "weapon_damage_cof": [1024, 2048, 1024, 1024, 2048],
     },
     17641: {
-        "skill_class": type("Mixing", (MagicalDamage, BuffSkill), {}),
+        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
         "skill_name": "普渡四方",
         "damage_base": [23, 27, 31, 38, 43, 50, 54, 58] + [e * 0.5 for e in
                                                            [123, 133, 143, 153, 163, 173, 183, 193, 203, 213, 223, 233,
@@ -92,7 +92,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "bind_skill": 743
     },
     3848: {
-        "skill_class": type("Mixing", (MagicalDamage, BuffSkill), {}),
+        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
         "skill_name": "韦陀献杵",
         "damage_base": [77, 83, 90, 94, 100, 105, 108, 111, 114, 117, 120, 123, 126, 129, 132, 135, 138, 141, 144, 147,
                         150, 153, 156, 159, 162, 165, 168, 171, 174],
@@ -103,7 +103,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "duration": 352
     },
     3849: {
-        "skill_class": type("Mixing", (MagicalDamage, BuffSkill), {}),
+        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
         "skill_name": "韦陀献杵",
         "damage_base": [73, 87, 100, 114, 127, 141, 154, 168, 181, 195, 208, 222, 235, 249, 262, 276, 289, 303, 316,
                         330, 343, 357, 370, 384, 397, 411, 424, 438, 451],
@@ -113,7 +113,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "duration": 352
     },
     3850: {
-        "skill_class": type("Mixing", (MagicalDamage, BuffSkill), {}),
+        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
         "skill_name": "韦陀献杵",
         "damage_base": [73, 87, 100, 114, 127, 141, 154, 168, 181, 195, 208, 222, 235, 249, 262, 276, 289, 303, 316,
                         330, 343, 357, 370, 384, 397, 411, 424, 438, 451],

@@ -47,8 +47,8 @@ def init_result(damage_base, damage_rand,
 
 
 @cache
-def damage_addition_result(damage, damage_addition):
-    return int(damage * (1 + damage_addition / BINARY_SCALE))
+def damage_addition_result(damage, damage_addition, extra_damage_addition):
+    return int(damage * (1 + damage_addition / BINARY_SCALE) * (1 + extra_damage_addition / BINARY_SCALE))
 
 
 @cache

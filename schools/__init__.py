@@ -7,7 +7,7 @@ from base.gain import Gain
 from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue
-from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing
+from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong
 
@@ -171,6 +171,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=ling_hai_jue.TALENT_DECODER, talent_encoder=ling_hai_jue.TALENT_ENCODER,
         recipe_gains=ling_hai_jue.RECIPE_GAINS, recipes=ling_hai_jue.RECIPES,
         gains=ling_hai_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
+    ),
+    10585: School(
+        school="凌雪", major="身法", kind="外功", attribute=yin_long_jue.YinLongJue, formation="龙皇雪风阵",
+        skills=yin_long_jue.SKILLS, buffs=yin_long_jue.BUFFS, prepare=yin_long_jue.prepare,
+        talent_gains=yin_long_jue.TALENT_GAINS, talents=yin_long_jue.TALENTS,
+        talent_decoder=yin_long_jue.TALENT_DECODER, talent_encoder=yin_long_jue.TALENT_ENCODER,
+        recipe_gains=yin_long_jue.RECIPE_GAINS, recipes=yin_long_jue.RECIPES,
+        gains=yin_long_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10627: School(
         school="药宗", major="根骨", kind="内功", attribute=wu_fang.WuFang, formation="乱暮浊茵阵",

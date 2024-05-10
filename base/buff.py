@@ -23,7 +23,7 @@ class Buff:
     gain_skills: Dict[int, ATTR_DICT] = None
     gain_attributes: ATTR_DICT = None
 
-    SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition"]
+    SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"]
 
     def __post_init__(self):
         if self.gain_skills is None:

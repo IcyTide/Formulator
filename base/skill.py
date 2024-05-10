@@ -38,6 +38,7 @@ class Skill:
     global_damage_factor: float = 1.
 
     skill_damage_addition: int = 0
+    extra_damage_addition: int = 0
     skill_pve_addition: int = 0
     _skill_shield_gain: Union[List[int], int] = 0
     skill_critical_strike: int = 0
@@ -178,7 +179,7 @@ class Skill:
         return 0
 
 
-class BuffSkill(Skill):
+class HiddenBuffSkill(Skill):
     def record(self, critical, parser):
         super().record(critical, parser)
         if self.bind_buff not in parser.current_school.buffs:
@@ -277,7 +278,9 @@ class PhysicalSkill(Skill):
             self.surplus_cof, attribute.surplus
         ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
 
-        damage = damage_addition_result(damage, attribute.physical_damage_addition + self.skill_damage_addition)
+        damage = damage_addition_result(
+            damage, attribute.physical_damage_addition + self.skill_damage_addition, self.extra_damage_addition
+        )
         damage = overcome_result(damage, attribute.physical_overcome,
                                  attribute.level_shield_base + attribute.physical_shield_base,
                                  attribute.physical_shield_gain + self.skill_shield_gain,
@@ -311,7 +314,9 @@ class MagicalSkill(Skill):
             self.surplus_cof, attribute.surplus
         ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
 
-        damage = damage_addition_result(damage, attribute.magical_damage_addition + self.skill_damage_addition)
+        damage = damage_addition_result(
+            damage, attribute.magical_damage_addition + self.skill_damage_addition, self.extra_damage_addition
+        )
         damage = overcome_result(damage, attribute.magical_overcome,
                                  attribute.level_shield_base + attribute.magical_shield_base,
                                  attribute.magical_shield_gain + self.skill_shield_gain,
@@ -345,7 +350,9 @@ class AdaptiveSkill(Skill):
             self.surplus_cof, attribute.surplus
         ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
 
-        damage = damage_addition_result(damage, attribute.damage_addition + self.skill_damage_addition)
+        damage = damage_addition_result(
+            damage, attribute.damage_addition + self.skill_damage_addition, self.extra_damage_addition
+        )
         damage = overcome_result(damage, attribute.overcome,
                                  attribute.level_shield_base + attribute.shield_base,
                                  attribute.strain_gain + self.skill_shield_gain,
