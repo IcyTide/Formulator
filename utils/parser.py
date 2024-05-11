@@ -299,7 +299,7 @@ class Parser:
 
         self.current_player = player_id
         self.current_caster = caster_id
-        if target_id not in self.current_targets:
+        if target_id in self.id2name and target_id not in self.current_targets:
             self.current_targets.append(target_id)
         self.current_target = target_id
         self.current_skill = skill_id

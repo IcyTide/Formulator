@@ -35,7 +35,8 @@ GENERAL_BUFFS = {
     6363: {
         "buff_name": "激雷",
         "gain_attributes": {
-            "physical_attack_power_gain": 205, "physical_overcome_gain": 205
+            "physical_attack_power_gain": 205,
+            "physical_overcome_gain": 205
         }
     },
     10208: {

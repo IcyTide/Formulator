@@ -41,4 +41,5 @@ for buff_id, detail in BUFFS.items():
         setattr(BUFFS[buff_id], attr, value)
 
 for buff_id, buff in GENERAL_BUFFS.items():
-    BUFFS[buff_id] = buff
+    if buff_id not in BUFFS:
+        BUFFS[buff_id] = buff

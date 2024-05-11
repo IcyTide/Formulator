@@ -1,0 +1,74 @@
+from base.buff import Buff
+from general.buffs import GENERAL_BUFFS
+
+BUFFS = {
+    1428: {
+        "buff_name": "军啸",
+        "activate": False,
+        "gain_attributes": {
+            "physical_critical_strike_gain": 400,
+            "physical_critical_power_gain": 41
+        }
+    },
+    6121: {
+        "buff_name": "驰骋",
+        "gain_attributes": {
+            "physical_attack_power_gain": [154, 307]
+        }
+    },
+    6363: {
+        "buff_name": "激雷",
+        "gain_attributes": {
+            "physical_attack_power_gain": [205, 0] * 2,
+            "physical_overcome_gain": [205, 0] * 2,
+            "physical_critical_strike_gain": [0] + [3000] * 3,
+            "all_shield_ignore": [0] * 3 + [717]
+        }
+    },
+    14981: {
+        "buff_name": "百折",
+        "gain_attributes": {
+            "all_damage_addition": 307
+        }
+    },
+    7671: {
+        "buff_name": "牧云",
+        "gain_attributes": {
+            "physical_critical_strike_gain": 300,
+            "physical_critical_power_gain": 102
+        }
+    },
+    21638: {
+        "buff_name": "龙驭",
+        "gain_attributes": {
+            "all_damage_addition": 72
+        }
+    },
+    # 12608: {
+    #     "buff_name": "风虎",
+    #     "frame_shift": 1,
+    #     "gain_skills": {
+    #         skill_id: {
+    #             "skill_damage_addition": [51, 102, 154, 205, 256]
+    #         } for skill_id in [18207] + [18603] + [18773, 15002] + [702, 24898, 6526]
+    #     }
+    # },
+    26008: {
+        "buff_name": "战心",
+        "frame_shift": -2,
+        "gain_skills": {
+            3442: {
+                "attack_power_cof_gain": 1.2
+            }
+        }
+    }
+}
+
+for buff_id, detail in BUFFS.items():
+    BUFFS[buff_id] = Buff(buff_id)
+    for attr, value in detail.items():
+        setattr(BUFFS[buff_id], attr, value)
+
+for buff_id, buff in GENERAL_BUFFS.items():
+    if buff_id not in BUFFS:
+        BUFFS[buff_id] = buff

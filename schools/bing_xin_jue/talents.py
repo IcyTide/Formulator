@@ -26,10 +26,21 @@ class 惊寒(Gain):
         skills[6559].skill_damage_addition -= 154
 
 
+class 千里冰封(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2716].skill_critical_strike += 1000
+        skills[2716].skill_critical_power += 102
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2716].skill_critical_strike -= 1000
+        skills[2716].skill_critical_power -= 102
+
+
 TALENT_GAINS: Dict[int, Gain] = {
     6569: Gain("明妃"),
     5849: 青梅嗅("青梅嗅"),
     5869: 惊寒("惊寒"),
+    5868: 千里冰封("千里冰封"),
     5852: Gain("新妆"),
     37316: Gain("芳姿畅音"),
     5864: Gain("枕上"),
