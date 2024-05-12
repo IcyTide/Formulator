@@ -46,7 +46,8 @@ class Parser:
 
     id2name: Dict[PLAYER_ID_TYPE | TARGET_ID_TYPE, PLAYER_NAME_TYPE]
     name2id: Dict[PLAYER_NAME_TYPE, PLAYER_ID_TYPE | TARGET_ID_TYPE]
-    pets: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
+    employers: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
+
     records: Dict[PLAYER_ID_TYPE, Dict[TARGET_ID_TYPE, RECORD_TYPE]]
 
     frame_shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
@@ -60,6 +61,7 @@ class Parser:
     ticks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
 
     pet_snapshot: Dict[PET_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
+    next_pet_snapshot: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
     dot_snapshot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]]
 
     last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Tuple[SKILL_TYPE, Tuple[tuple, tuple]]]]]
@@ -106,6 +108,10 @@ class Parser:
             return self.dot_snapshot[self.current_target][self.current_player].get(self.current_skill, {})
 
     @property
+    def current_next_pet_snapshot(self):
+        return self.next_pet_snapshot[self.current_player]
+
+    @property
     def current_dot_snapshot(self):
         return self.dot_snapshot[self.current_target][self.current_player]
 
@@ -135,7 +141,7 @@ class Parser:
 
         self.id2name = {}
         self.name2id = {}
-        self.pets = {}
+        self.employers = {}
 
         self.records = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
 
@@ -150,6 +156,7 @@ class Parser:
         self.ticks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
 
         self.pet_snapshot = dict()
+        self.next_pet_snapshot = defaultdict(list)
         self.dot_snapshot = defaultdict(lambda: defaultdict(dict))
         self.last_dot = defaultdict(lambda: defaultdict(dict))
         self.next_dot = defaultdict(lambda: defaultdict(dict))
@@ -207,14 +214,19 @@ class Parser:
         npc_name = detail[1]
         self.id2name[npc_id] = npc_name
         self.name2id[npc_name] = npc_id
-        if player_id:
-            self.pets[npc_id] = player_id
+        if player_id in self.players:
+            self.employers[npc_id] = player_id
 
     def parse_pet(self, row):
-        detail = row.strip("{}").split(",")
-        pet_id, player_id = int(detail[0]), int(detail[3])
-        if pet_id in self.pets:
-            self.pet_snapshot[pet_id] = self.player_buffs[player_id].copy()
+        detail = row.strip().strip("{}")
+        pet_id = int(detail[0])
+        if pet_id in self.employers:
+            player_id = self.employers[pet_id]
+            if self.next_pet_snapshot[player_id]:
+                pet_buffs = self.next_pet_snapshot[player_id].pop()
+            else:
+                pet_buffs = {}
+            self.pet_snapshot[pet_id] = {**self.player_buffs[player_id].copy(), **pet_buffs}
 
     def parse_shift_buff(self, row):
         detail = row.strip("{}").split(",")
@@ -262,7 +274,14 @@ class Parser:
 
     def parse_buff(self, row):
         detail = row.strip("{}").split(",")
-        player_id = int(detail[0])
+        caster_id = int(detail[0])
+        if caster_id in self.employers:
+            player_id = self.employers[caster_id]
+            buffs = self.pet_snapshot.get(caster_id, {})
+        else:
+            player_id = caster_id
+            buffs = self.player_buffs[player_id]
+
         if player_id not in self.players:
             return
 
@@ -275,15 +294,15 @@ class Parser:
             return
 
         if buff_stack:
-            self.player_buffs[player_id][(buff_id, buff_level)] = buff_stack
+            buffs[(buff_id, buff_level)] = buff_stack
         else:
-            self.player_buffs[player_id].pop((buff_id, buff_level), None)
+            buffs.pop((buff_id, buff_level), None)
 
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")
         caster_id, target_id = int(detail[0]), int(detail[1])
-        if caster_id in self.pets:
-            player_id = self.pets[caster_id]
+        if caster_id in self.employers:
+            player_id = self.employers[caster_id]
         else:
             player_id = caster_id
 
@@ -368,7 +387,7 @@ class Parser:
             #     self.current_second = current_second
             #     self.parse_frame_shift_status()
 
-            if row[4] == "8":
+            if row[4] == "6":
                 self.parse_pet(row[-1])
             elif row[4] == "13":
                 self.parse_buff(row[-1])

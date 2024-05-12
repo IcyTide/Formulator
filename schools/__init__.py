@@ -9,7 +9,7 @@ from base.skill import Skill
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
-from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong
+from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
 
 
 @dataclass
@@ -139,6 +139,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=bing_xin_jue.TALENT_DECODER, talent_encoder=bing_xin_jue.TALENT_ENCODER,
         recipe_gains=bing_xin_jue.RECIPE_GAINS, recipes=bing_xin_jue.RECIPES,
         gains=bing_xin_jue.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
+    ),
+    10175: School(
+        school="五毒", major="根骨", kind="内功", attribute=du_jing.DuJing, formation="万蛊噬心阵",
+        skills=du_jing.SKILLS, buffs=du_jing.BUFFS, prepare=du_jing.prepare,
+        talent_gains=du_jing.TALENT_GAINS, talents=du_jing.TALENTS,
+        talent_decoder=du_jing.TALENT_DECODER, talent_encoder=du_jing.TALENT_ENCODER,
+        recipe_gains=du_jing.RECIPE_GAINS, recipes=du_jing.RECIPES,
+        gains=du_jing.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10225: School(
         school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao, formation="千机百变阵",

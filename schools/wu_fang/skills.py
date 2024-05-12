@@ -95,6 +95,17 @@ SKILLS: Dict[int, Skill | dict] = {
                             [(3 * (i - 7) + 40) * 1.8 * 1.2 * 1.15 for i in range(7, 14)] +
                             [72 * 1.8 * 1.2 * 1.15],
     },
+    28409: {
+        "skill_class": MagicalDamage,
+        "skill_name": "且待时休",
+        "damage_base": [33, 45, 58, 70, 83, 95, 107, 120, 132, 144, 157, 169, 182, 194, 206, 219, 231, 244, 256, 268,
+                        281, 293, 306, 318, 330, 343, 355, 367, 380, 392, 405, 417],
+        "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 15, 15, 15, 15, 15, 15, 15,
+                        15, 15, 15, 15, 15, 15],
+        "attack_power_cof": [30 * 1.8] * 6 +
+                            [(3 * (i - 7) + 40) * 1.8 for i in range(7, 14)] +
+                            [72 * 1.8],
+    },
     28346: {
         "skill_class": MagicalDamage,
         "skill_name": "银光照雪",
@@ -174,6 +185,22 @@ SKILLS: Dict[int, Skill | dict] = {
         "bind_skill": 20052,
         "tick": 2
     },
+    30735: {
+        "skill_class": type("Mixing", (MagicalDamage, DotConsumeSkill), {}),
+        "skill_name": "折枝拂露",
+        "damage_base": 730,
+        "damage_rand": 20,
+        "attack_power_cof": 410 * 1.15 * 1.1 * 0.65,
+        "bind_skill": 20052,
+        "tick": 2
+    },
+    32922: {
+        "skill_class": MagicalDamage,
+        "skill_name": "折枝留春",
+        "damage_base": 730,
+        "damage_rand": 20,
+        "attack_power_cof": 600,
+    },
     27657: {
         "skill_class": MagicalDamage,
         "skill_name": "苍棘缚地",
@@ -220,12 +247,12 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_rand": 2,
         "attack_power_cof": 65
     },
-    36580: {
+    29695: {
         "skill_class": MagicalDamage,
-        "skill_name": "银羽南徊",
+        "skill_name": "鹿王本生",
         "damage_base": 20,
         "damage_rand": 2,
-        "attack_power_cof": 390
+        "attack_power_cof": 220
     }
 }
 

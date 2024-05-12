@@ -24,6 +24,14 @@ class 扶桑(Gain):
         skills[20016].skill_damage_addition -= 102
 
 
+class 羽彰(Gain):
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[13560].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[13560].activate = False
+
+
 class 神降(Gain):
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[14029].activate = True
@@ -51,7 +59,7 @@ class 濯流(Gain):
 TALENT_GAINS: Dict[int, Gain] = {
     20333: 江汉("江汉"),
     20335: 扶桑("扶桑"),
-    20746: Gain("羽彰"),
+    20746: 羽彰("羽彰"),
     20348: Gain("清源"),
     30912: Gain("游仙"),
     25272: Gain("青冥"),

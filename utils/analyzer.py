@@ -4,7 +4,7 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.constant import FRAME_PER_SECOND
-from base.skill import Skill, DotDamage, PetDamage
+from base.skill import Skill, DotDamage, NpcDamage, PetDamage
 from utils.parser import School
 
 
@@ -58,6 +58,10 @@ def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         for buff in current_buffs:
             if buff.add_dot(attribute, skill, False):
                 final_buffs.append(buff)
+    elif isinstance(skill, NpcDamage):
+        for buff in snapshot_buffs:
+            buff.add_all(attribute, skill)
+            final_buffs.append(buff)
     elif isinstance(skill, PetDamage):
         for buff in snapshot_buffs:
             buff.add_all(attribute, skill)
@@ -77,6 +81,9 @@ def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
             buff.sub_dot(attribute, skill, True)
         for buff in current_buffs:
             buff.sub_dot(attribute, skill, False)
+    elif isinstance(skill, NpcDamage):
+        for buff in snapshot_buffs:
+            buff.sub_all(attribute, skill)
     elif isinstance(skill, PetDamage):
         for buff in snapshot_buffs:
             buff.sub_all(attribute, skill)

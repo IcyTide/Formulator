@@ -124,27 +124,20 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": 197 * 1.1 * 1.1 * 1.15 * 0.4 * 1.1 * 1.1 * 1.12 * 0.9 * 1.1 * 1.05,
         "weapon_damage_cof": 1024 * 0.1
     },
-    25782: {
+    25772: {
         "skill_class": PhysicalDamage,
-        "skill_name": "上将军印·神兵",
+        "skill_name": "龙牙·神兵",
         "damage_base": 20,
         "damage_rand": 2,
-        "attack_power_cof": 25
+        "attack_power_cof": 50
     },
-    19555: {
-        "skill_class": PhysicalDotDamage,
-        "skill_name": "背水沉舟(DOT)",
-        "damage_base": 25,
-        "attack_power_cof": 380,
-        "interval": 48,
-        "max_stack": 3,
-        "tick": 6
+    31031: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "画角闻龙",
+        "damage_base": 523 * 0.95,
+        "damage_rand": 523 * 0.1,
+        "attack_power_cof": 205
     },
-    26934: {
-        "skill_class": DotSkill,
-        "skill_name": "背水沉舟",
-        "bind_skill": 19555,
-    }
 }
 
 for skill_id, detail in SKILLS.items():

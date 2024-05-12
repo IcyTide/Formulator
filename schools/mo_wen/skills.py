@@ -1,7 +1,7 @@
 from typing import Dict
 
 from base.constant import GLOBAL_DAMAGE_FACTOR
-from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage, MagicalPetDamage
+from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage, MagicalNpcDamage
 from general.skills import GENERAL_SKILLS
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -33,7 +33,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": 64 * 1.4,
     },
     15076: {
-        "skill_class": MagicalPetDamage,
+        "skill_class": MagicalNpcDamage,
         "skill_name": "宫",
         "damage_base": [34, 45, 55, 65, 75, 85, 90, 93, 96, 99, 102, 105, 108, 111, 114, 117, 120, 125, 130, 135, 140,
                         145, 150, 155, 160],

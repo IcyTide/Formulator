@@ -11,6 +11,15 @@ class RecipeGain(Gain):
         self.value = value
 
 
+class DoubleRecipeGain(Gain):
+    def __init__(self, gain_name, attack_skill_ids, damage_skill_ids, attack_value, damage_value):
+        super().__init__(gain_name)
+        self.attack_skill_ids = attack_skill_ids
+        self.damage_skill_ids = damage_skill_ids
+        self.attack_value = attack_value
+        self.damage_value = damage_value
+
+
 class IntervalRecipe(RecipeGain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in self.skill_ids:
@@ -39,6 +48,20 @@ class DamageAdditionRecipe(RecipeGain):
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in self.skill_ids:
             skills[skill_id].skill_damage_addition -= self.value
+
+
+class DoubleAdditionRecipe(DoubleRecipeGain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.attack_skill_ids:
+            skills[skill_id].attack_power_cof_gain *= self.attack_value
+        for skill_id in self.damage_skill_ids:
+            skills[skill_id].skill_damage_addition += self.damage_value
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.attack_skill_ids:
+            skills[skill_id].attack_power_cof_gain /= self.attack_value
+        for skill_id in self.damage_skill_ids:
+            skills[skill_id].skill_damage_addition /= self.damage_value
 
 
 class CriticalStrikeRecipe(RecipeGain):
@@ -79,3 +102,11 @@ def critical_strike_recipe(skill_ids, value, name="会心增加"):
 
 def pve_addition_recipe(skill_ids, value, name="非侠伤害增加"):
     return PveAdditionRecipe(name, skill_ids, value)
+
+
+def double_addition_recipe(
+        attack_power_skill_ids, damage_addition_skill_ids, attack_power_value, damage_addition_value, name="伤害增加"
+):
+    return DoubleAdditionRecipe(
+        name, attack_power_skill_ids, damage_addition_skill_ids, attack_power_value, damage_addition_value
+    )

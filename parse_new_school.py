@@ -59,4 +59,4 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    parser(r"ling_xue.jcl")
+    parser(r"2024-05-11-22-42-47-长安(15)-极境试炼木桩(24538).jcl")

@@ -17,9 +17,10 @@ BUFFS = {
         }
     },
     13560: {
-        "buff_name": "翼绝云天",
+        "buff_name": "羽彰",
+        "activate": False,
         "gain_attributes": {
-            "physical_overcome_gain": [0, 0, 205]
+            "physical_overcome_gain": 205
         }
     },
     17094: {

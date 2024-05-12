@@ -39,7 +39,7 @@ class Skill:
 
     skill_damage_addition: int = 0
     extra_damage_addition: int = 0
-    skill_pve_addition: int = 0
+    _skill_pve_addition: Union[List[int], int] = 0
     _skill_shield_gain: Union[List[int], int] = 0
     skill_critical_strike: int = 0
     skill_critical_power: int = 0
@@ -172,6 +172,23 @@ class Skill:
         else:
             self._skill_shield_gain = [skill_shield_gain]
 
+    @property
+    def skill_pve_addition(self):
+        if not isinstance(self._skill_pve_addition, list):
+            return 0
+
+        if self.skill_level > len(self._skill_pve_addition):
+            return self._skill_pve_addition[-1]
+        else:
+            return self._skill_pve_addition[self.skill_level - 1]
+
+    @skill_pve_addition.setter
+    def skill_pve_addition(self, skill_pve_addition):
+        if isinstance(skill_pve_addition, list):
+            self._skill_pve_addition = skill_pve_addition
+        else:
+            self._skill_pve_addition = [skill_pve_addition]
+            
     def record(self, critical, parser):
         pass
 
@@ -240,8 +257,43 @@ class Damage(Skill):
         return skill_tuple, status_tuple
 
 
-class PetDamage(Damage):
+class NpcDamage(Damage):
     pass
+
+
+class PetDamage(Damage):
+    def __call__(self, attribute: Attribute):
+        attack_power = int(attribute.attack_power * 0.87 + attribute.surplus * 59 / 1664)
+        damage = init_result(
+            self.damage_base, self.damage_rand,
+            self.attack_power_cof, attack_power, 0, 0, 0, 0
+        ) * self.skill_stack * self.global_damage_factor * attribute.global_damage_factor
+
+        damage = damage_addition_result(
+            damage, attribute.damage_addition + self.skill_damage_addition, self.extra_damage_addition
+        )
+        damage = overcome_result(damage, attribute.overcome,
+                                 attribute.level_shield_base + attribute.shield_base,
+                                 attribute.shield_gain + self.skill_shield_gain,
+                                 0,
+                                 attribute.shield_constant)
+
+        critical_power_gain = attribute.critical_power_gain + self.skill_critical_power
+        critical_damage = critical_result(damage, attribute.base_critical_power, critical_power_gain)
+
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
+        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
+        damage = vulnerable_result(damage, attribute.vulnerable)
+        critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)
+        critical_strike = min(1, attribute.critical_strike + self.skill_critical_strike / DECIMAL_SCALE)
+
+        expected_damage = critical_strike * critical_damage + (1 - critical_strike) * damage
+
+        return damage, critical_damage, expected_damage, critical_strike
 
 
 class DotDamage(Damage):
@@ -355,7 +407,7 @@ class AdaptiveSkill(Skill):
         )
         damage = overcome_result(damage, attribute.overcome,
                                  attribute.level_shield_base + attribute.shield_base,
-                                 attribute.strain_gain + self.skill_shield_gain,
+                                 attribute.shield_gain + self.skill_shield_gain,
                                  attribute.shield_ignore,
                                  attribute.shield_constant)
 
@@ -417,10 +469,16 @@ class MixingDotDamage(AdaptiveSkill, DotDamage):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
 
 
-class PhysicalPetDamage(PhysicalSkill, PetDamage):
+class PhysicalNpcDamage(PhysicalSkill, NpcDamage):
     @Damage.attack_power_cof.getter
     def attack_power_cof(self):
         return PHYSICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
+
+
+class MagicalNpcDamage(MagicalSkill, NpcDamage):
+    @Damage.attack_power_cof.getter
+    def attack_power_cof(self):
+        return MAGICAL_ATTACK_POWER_COF(super().attack_power_cof + self.interval)
 
 
 class MagicalPetDamage(MagicalSkill, PetDamage):
