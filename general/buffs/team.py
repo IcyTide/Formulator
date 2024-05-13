@@ -22,6 +22,7 @@ GENERAL_BUFFS = {
     },
     3465: {
         "buff_name": "破甲",
+        "interval": 128,
         "gain_attributes": {
             "physical_shield_gain": -102
         }

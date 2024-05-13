@@ -3,6 +3,16 @@ from typing import Dict
 from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
+
+class 战意判定(Skill):
+    final_buff = -12608
+    bind_buff = -1
+
+    def record(self, critical, parser):
+        if buff_level := parser.current_buff_stacks.get((self.bind_buff, 1)):
+            parser.refresh_buff(self.final_buff, buff_level)
+
+
 SKILLS: Dict[int, Skill | dict] = {
     32820: {
         "skill_class": PhysicalDamage,
@@ -37,7 +47,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": 39,
         "damage_rand": 3,
         "attack_power_cof": 16,
-        "weapon_damage_cof": 1024
+        "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): 3}
     },
     431: {
         "skill_class": PhysicalDamage,
@@ -55,13 +66,14 @@ SKILLS: Dict[int, Skill | dict] = {
         "weapon_damage_cof": 1024
     },
     702: {
-        "skill_class": PhysicalDamage,
+        "skill_class": type("Mixing", (PhysicalDamage, DotSkill), {}),
         "skill_name": "灭",
         "skill_level": 19,
         "damage_base": 160 * 1.3,
         "damage_rand": 10,
         "attack_power_cof": 170 * 1.12,
-        "weapon_damage_cof": 1024
+        "weapon_damage_cof": 1024,
+        "bind_skill": 3442,
     },
     18207: {
         "skill_class": PhysicalDamage,
@@ -69,8 +81,9 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_level": 28,
         "damage_base": 160,
         "damage_rand": 15,
-        "attack_power_cof": 158 * 1.05*1.1*1.1*1.12*1.1,
-        "weapon_damage_cof": 1024
+        "attack_power_cof": 158 * 1.05 * 1.1 * 1.1 * 1.12 * 1.1,
+        "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): 1}
     },
     18603: {
         "skill_class": PhysicalDamage,
@@ -79,7 +92,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": 289 * 0.65,
         "damage_rand": 15,
         "attack_power_cof": 184 * 1.1 * 1.1 * 1.12 * 1.1 * 1.1 * 1.2,
-        "weapon_damage_cof": 1024
+        "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): 2}
     },
     18773: {
         "skill_class": PhysicalDamage,
@@ -88,7 +102,8 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_base": 445 * 0.5,
         "damage_rand": 15,
         "attack_power_cof": 197 * 1.1 * 1.1 * 1.15 * 1.1 * 1.1 * 1.12 * 0.9 * 1.1 * 1.05,
-        "weapon_damage_cof": 1024
+        "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): -3}
     },
     37618: {
         "skill_class": PhysicalDamage,
@@ -114,6 +129,10 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": 170 * 1.12 * 1,
         "weapon_damage_cof": 1024 / 4
     },
+    18740: {
+        "skill_class": 战意判定,
+        "skill_name": "战意判定"
+    },
     15002: {
         "skill_class": PhysicalDamage,
         "skill_name": "龙牙",
@@ -123,6 +142,11 @@ SKILLS: Dict[int, Skill | dict] = {
         "damage_gain": 0.1,
         "attack_power_cof": 197 * 1.1 * 1.1 * 1.15 * 0.4 * 1.1 * 1.1 * 1.12 * 0.9 * 1.1 * 1.05,
         "weapon_damage_cof": 1024 * 0.1
+    },
+    1850: {
+        "skill_class": Skill,
+        "skill_name": "特效触发",
+        "post_buffs": {(-1, 1): 5}
     },
     25772: {
         "skill_class": PhysicalDamage,
@@ -136,7 +160,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "skill_name": "画角闻龙",
         "damage_base": 523 * 0.95,
         "damage_rand": 523 * 0.1,
-        "attack_power_cof": 205
+        "attack_power_cof": 205,
     },
 }
 

@@ -8,6 +8,7 @@ def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
     shield = shield_base
     shield += int(shield * shield_gain / BINARY_SCALE)
     shield -= int(shield * shield_ignore / BINARY_SCALE)
+    shield = max(shield, 0)
     return int(shield * BINARY_SCALE / (shield + shield_constant))
 
 

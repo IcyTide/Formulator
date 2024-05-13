@@ -21,8 +21,8 @@ class DotConsumeSkill(Skill):
         else:
             new_status_tuple = status_tuple
         skill_id, skill_level, skill_stack = skill_tuple
-        parser.current_ticks[skill_id] += 1
-        tick = parser.current_ticks.pop(skill_id)
+        parser.current_dot_ticks[skill_id] += 1
+        tick = parser.current_dot_ticks.pop(skill_id)
         parser.current_records[(skill_id, skill_level, skill_stack * tick)][new_status_tuple].append(
             parser.current_records[skill_tuple][status_tuple].pop()
         )

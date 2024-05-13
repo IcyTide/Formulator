@@ -3,13 +3,15 @@ from typing import Dict
 from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage
 
 GENERAL_SKILLS: Dict[int, Skill | dict] = {
-    29535: {
-        "skill_class": MagicalDamage,
-        "skill_name": "逐云寒蕊",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [90, 200 * 1.2],
-        "skill_shield_gain": -1024
+    **{
+        skill_id: {
+            "skill_class": MagicalDamage,
+            "skill_name": "逐云寒蕊",
+            "damage_base": 40,
+            "damage_rand": 17,
+            "attack_power_cof": [90, 200 * 1.2],
+            "skill_shield_gain": -1024
+        } for skill_id in (29532, 29533, 29534, 29535)
     },
     29536: {
         "skill_class": PhysicalDamage,

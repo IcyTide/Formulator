@@ -12,14 +12,17 @@ BUFFS = {
     },
     890: {
         "buff_name": "普渡",
+        "interval": 352,
         "max_stack": 2
     },
     12479: {
         "buff_name": "普渡",
+        "interval": 352,
         "max_stack": 3
     },
     19635: {
         "buff_name": "普渡",
+        "interval": 4,
         "gain_attributes": {
             "magical_vulnerable": [41, 82, 123]
         }

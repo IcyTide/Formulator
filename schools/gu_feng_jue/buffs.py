@@ -1,7 +1,6 @@
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-
 BUFFS = {
     11378: {
         "buff_name": "朔气",
@@ -16,7 +15,7 @@ BUFFS = {
         "gain_attributes": {
             "physical_overcome_gain": 102,
             "physical_critical_strike_gain": 1000,
-            "physical_critical_power_gain": 102
+            "physical_critical_power_gain": 100
         }
     },
     24557: {
@@ -25,7 +24,7 @@ BUFFS = {
             skill_id: {
                 "skill_damage_addition": 154,
             }
-            for skill_id in [32602, 32603, 32604, 32234] + [32235, 32236, 32237, 32238, 32239, 32891, 32892]
+            for skill_id in [32602, 32603, 32604] + [32234] + [32235, 32236, 32237, 32238, 32239, 32891, 32892]
         }
     },
     24180: {
@@ -42,7 +41,7 @@ BUFFS = {
             "all_shield_ignore": 410
         }
     },
-    -32513: {
+    -24056: {
         "buff_name": "涤瑕",
         "activate": False,
         "gain_skills": {

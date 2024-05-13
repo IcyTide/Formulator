@@ -7,33 +7,16 @@ from base.skill import Skill
 ATTR_DICT = Dict[str, Union[List[int], int]]
 
 
-@dataclass
-class Buff:
-    buff_id: int
+class BaseBuff:
+    SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"]
+    PET_ATTRS = ["attack_power", "critical_power", "overcome", "strain", "damage_addition", "pve_addition"]
+
     _buff_name: Union[List[str], str] = ""
     buff_level: int = 0
     buff_stack: int = 1
 
-    frame_shift: int = 0
-    second_shift: int = 0
-    activate: bool = True
-
     max_stack: int = 1
-
-    gain_skills: Dict[int, ATTR_DICT] = None
-    gain_attributes: ATTR_DICT = None
-
-    SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"]
-
-    def __post_init__(self):
-        if self.gain_skills is None:
-            self.gain_skills = {}
-        if self.gain_attributes is None:
-            self.gain_attributes = {}
-
-    @property
-    def shifted(self):
-        return self.second_shift or self.frame_shift
+    interval: int = 0
 
     @property
     def buff_name(self):
@@ -51,6 +34,28 @@ class Buff:
             self._buff_name = buff_name
         else:
             self._buff_name = [buff_name]
+
+
+@dataclass
+class Buff(BaseBuff):
+    buff_id: int
+
+    frame_shift: int = 0
+    second_shift: int = 0
+    activate: bool = True
+
+    gain_skills: Dict[int, ATTR_DICT] = None
+    gain_attributes: ATTR_DICT = None
+
+    def __post_init__(self):
+        if self.gain_skills is None:
+            self.gain_skills = {}
+        if self.gain_attributes is None:
+            self.gain_attributes = {}
+
+    @property
+    def shifted(self):
+        return self.second_shift or self.frame_shift
 
     @property
     def display_name(self):

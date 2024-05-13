@@ -7,4 +7,4 @@ from schools.tai_xu_jian_yi.attribute import TaiXuJianYi
 
 
 def prepare(self, player_id):
-    self.player_buffs[player_id][(9949, 1)] = 3
+    self.buff_stacks[player_id][(9949, 1)] = 3

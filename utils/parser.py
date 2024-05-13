@@ -35,7 +35,7 @@ LABEL_MAPPING = {
 EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
 
 
-class Parser:
+class BaseParser:
     current_player: PLAYER_ID_TYPE
     current_caster: CASTER_ID_TYPE
     current_target: TARGET_ID_TYPE
@@ -46,23 +46,23 @@ class Parser:
 
     id2name: Dict[PLAYER_ID_TYPE | TARGET_ID_TYPE, PLAYER_NAME_TYPE]
     name2id: Dict[PLAYER_NAME_TYPE, PLAYER_ID_TYPE | TARGET_ID_TYPE]
-    employers: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
+    pet2employer: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
 
     records: Dict[PLAYER_ID_TYPE, Dict[TARGET_ID_TYPE, RECORD_TYPE]]
 
     frame_shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
     second_shift_buffs: Dict[SECOND_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
-    hidden_buffs: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, FRAME_TYPE]]]
 
-    player_buffs: Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
-    target_buffs: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
+    buff_stacks: Dict[CASTER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
+    buff_intervals: Dict[CASTER_ID_TYPE, Dict[BUFF_TYPE, FRAME_TYPE]]
+    target_buff_stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
+    target_buff_intervals: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, FRAME_TYPE]]]
 
-    stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
-    ticks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
-
-    pet_snapshot: Dict[PET_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
-    next_pet_snapshot: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
+    dot_stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
+    dot_ticks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
     dot_snapshot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]]
+
+    next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
 
     last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Tuple[SKILL_TYPE, Tuple[tuple, tuple]]]]]
     next_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
@@ -89,39 +89,43 @@ class Parser:
         return self.records[self.current_player][self.current_target]
 
     @property
-    def current_hidden_buffs(self):
-        return self.hidden_buffs[self.current_target][self.current_player]
+    def current_buff_stacks(self):
+        return self.buff_stacks[self.current_player]
 
     @property
-    def current_player_buffs(self):
-        return self.player_buffs[self.current_player]
+    def current_buff_intervals(self):
+        return self.buff_intervals[self.current_player]
 
     @property
-    def current_target_buffs(self):
-        return self.target_buffs[self.current_target][self.current_player]
+    def current_target_buff_stacks(self):
+        return self.target_buff_stacks[self.current_target][self.current_player]
+
+    @property
+    def current_target_buff_intervals(self):
+        return self.target_buff_intervals[self.current_target][self.current_player]
 
     @property
     def current_snapshot(self):
-        if self.current_caster in self.pet_snapshot:
-            return self.pet_snapshot[self.current_caster]
+        if self.current_caster in self.pet2employer:
+            return self.buff_stacks[self.current_caster]
         else:
             return self.dot_snapshot[self.current_target][self.current_player].get(self.current_skill, {})
 
     @property
-    def current_next_pet_snapshot(self):
-        return self.next_pet_snapshot[self.current_player]
+    def current_next_pet_buff_stacks(self):
+        return self.next_pet_buff_stacks[self.current_player]
 
     @property
     def current_dot_snapshot(self):
         return self.dot_snapshot[self.current_target][self.current_player]
 
     @property
-    def current_stacks(self):
-        return self.stacks[self.current_target][self.current_player]
+    def current_dot_stacks(self):
+        return self.dot_stacks[self.current_target][self.current_player]
 
     @property
-    def current_ticks(self):
-        return self.ticks[self.current_target][self.current_player]
+    def current_dot_ticks(self):
+        return self.dot_ticks[self.current_target][self.current_player]
 
     @property
     def current_last_dot(self):
@@ -131,32 +135,28 @@ class Parser:
     def current_next_dot(self):
         return self.next_dot[self.current_target][self.current_player]
 
-    @property
-    def duration(self):
-        return round((self.end_frame - self.start_frame) / FRAME_PER_SECOND, 3)
-
     def reset(self):
         self.current_frame = 0
         self.current_second = 0
 
         self.id2name = {}
         self.name2id = {}
-        self.employers = {}
+        self.pet2employer = {}
 
         self.records = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
 
-        self.hidden_buffs = defaultdict(lambda: defaultdict(dict))
         self.frame_shift_buffs = defaultdict(lambda: defaultdict(dict))
         self.second_shift_buffs = defaultdict(lambda: defaultdict(dict))
 
-        self.player_buffs = defaultdict(dict)
-        self.target_buffs = defaultdict(lambda: defaultdict(dict))
+        self.buff_stacks = defaultdict(dict)
+        self.buff_intervals = defaultdict(dict)
+        self.target_buff_stacks = defaultdict(lambda: defaultdict(dict))
+        self.target_buff_intervals = defaultdict(lambda: defaultdict(dict))
 
-        self.stacks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 1)))
-        self.ticks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
+        self.dot_stacks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 1)))
+        self.dot_ticks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
 
-        self.pet_snapshot = dict()
-        self.next_pet_snapshot = defaultdict(list)
+        self.next_pet_buff_stacks = defaultdict(list)
         self.dot_snapshot = defaultdict(lambda: defaultdict(dict))
         self.last_dot = defaultdict(lambda: defaultdict(dict))
         self.next_dot = defaultdict(lambda: defaultdict(dict))
@@ -168,6 +168,46 @@ class Parser:
 
         self.players = {}
         self.targets = defaultdict(list)
+
+    def refresh_buff(self, buff_id, buff_level, buff_stack=1):
+        buff = self.current_school.buffs[buff_id]
+        buff_tuple = (buff_id, buff_level)
+        stack = max(min(self.current_buff_stacks.get(buff_tuple, 0) + buff_stack, buff.max_stack), 0)
+        if stack:
+            self.current_buff_stacks[buff_tuple] = stack
+            if buff.interval > 0:
+                self.current_buff_intervals[buff_tuple] = self.current_frame + buff.interval + 1
+        else:
+            self.current_buff_stacks.pop(buff_tuple, None)
+            self.current_buff_intervals.pop(buff_tuple, None)
+
+    def refresh_target_buff(self, buff_id, buff_level, buff_stack=1):
+        buff = self.current_school.buffs[buff_id]
+        buff_tuple = (buff_id, buff_level)
+        stack = max(min(self.current_target_buff_stacks.get(buff_tuple, 0) + buff_stack, buff.max_stack), 0)
+        if stack:
+            self.current_target_buff_stacks[buff_tuple] = stack
+            if buff.interval > 0:
+                self.current_target_buff_intervals[buff_tuple] = self.current_frame + buff.interval + 1
+        else:
+            self.current_target_buff_stacks.pop(buff_tuple, None)
+            self.current_target_buff_intervals.pop(buff_tuple, None)
+
+    def clear_buff(self, buff_id, buff_level):
+        buff_tuple = (buff_id, buff_level)
+        self.current_buff_stacks.pop(buff_tuple, None)
+        self.current_buff_intervals.pop(buff_tuple, None)
+
+    def clear_target_buff(self, buff_id, buff_level):
+        buff_tuple = (buff_id, buff_level)
+        self.current_target_buff_stacks.pop(buff_tuple, None)
+        self.current_target_buff_intervals.pop(buff_tuple, None)
+
+
+class Parser(BaseParser):
+    @property
+    def duration(self):
+        return round((self.end_frame - self.start_frame) / FRAME_PER_SECOND, 3)
 
     @staticmethod
     def parse_equipments(detail):
@@ -207,26 +247,25 @@ class Parser:
 
     def parse_npc(self, row):
         detail = row.strip("{}").split(",")
-        npc_id, player_id = int(detail[0]), int(detail[3])
+        npc_id, employer_id = int(detail[0]), int(detail[3])
         if npc_id in self.id2name:
             return
 
         npc_name = detail[1]
         self.id2name[npc_id] = npc_name
         self.name2id[npc_name] = npc_id
-        if player_id in self.players:
-            self.employers[npc_id] = player_id
+        if employer_id in self.players:
+            self.pet2employer[npc_id] = employer_id
 
     def parse_pet(self, row):
         detail = row.strip().strip("{}")
         pet_id = int(detail[0])
-        if pet_id in self.employers:
-            player_id = self.employers[pet_id]
-            if self.next_pet_snapshot[player_id]:
-                pet_buffs = self.next_pet_snapshot[player_id].pop()
+        if player_id := self.pet2employer.get(pet_id):
+            if self.next_pet_buff_stacks[player_id]:
+                pet_buff_stacks = self.next_pet_buff_stacks[player_id].pop()
             else:
-                pet_buffs = {}
-            self.pet_snapshot[pet_id] = {**self.player_buffs[player_id].copy(), **pet_buffs}
+                pet_buff_stacks = {}
+            self.buff_stacks[pet_id] = {**self.buff_stacks[player_id].copy(), **pet_buff_stacks}
 
     def parse_shift_buff(self, row):
         detail = row.strip("{}").split(",")
@@ -250,9 +289,9 @@ class Parser:
             for player_id, shift_buffs in self.frame_shift_buffs.pop(frame).items():
                 for buff, buff_stack in shift_buffs.items():
                     if buff_stack:
-                        self.player_buffs[player_id][buff] = buff_stack
+                        self.buff_stacks[player_id][buff] = buff_stack
                     else:
-                        self.player_buffs[player_id].pop(buff, None)
+                        self.buff_stacks[player_id].pop(buff, None)
 
     def parse_second_shift_status(self):
         for second in list(self.second_shift_buffs):
@@ -261,26 +300,44 @@ class Parser:
             for player_id, shift_buffs in self.second_shift_buffs.pop(second).items():
                 for buff, buff_stack in shift_buffs.items():
                     if buff_stack:
-                        self.player_buffs[player_id][buff] = buff_stack
+                        self.buff_stacks[player_id][buff] = buff_stack
                     else:
-                        self.player_buffs[player_id].pop(buff, None)
+                        self.buff_stacks[player_id].pop(buff, None)
 
-    def parse_hidden_buffs(self):
-        for target_id in self.hidden_buffs:
-            for player_id, hidden_buffs in self.hidden_buffs[target_id].items():
-                for buff, end_frame in hidden_buffs.items():
+    def parse_buff_intervals(self):
+        for caster_id, buffs in self.buff_intervals.items():
+            pop_buffs = []
+            for buff, end_frame in buffs.items():
+                if end_frame < self.current_frame:
+                    self.buff_stacks[caster_id].pop(buff, None)
+                    pop_buffs.append(buff)
+            for pop_buff in pop_buffs:
+                buffs.pop(pop_buff)
+        for target_id in self.target_buff_intervals:
+            for caster_id, buffs in self.target_buff_intervals[target_id].items():
+                pop_buffs = []
+                for buff, end_frame in buffs.items():
                     if end_frame < self.current_frame:
-                        self.target_buffs[target_id][player_id].pop(buff, None)
+                        self.target_buff_stacks[target_id][caster_id].pop(buff, None)
+                        pop_buffs.append(buff)
+                for pop_buff in pop_buffs:
+                    buffs.pop(pop_buff)
 
     def parse_buff(self, row):
         detail = row.strip("{}").split(",")
         caster_id = int(detail[0])
-        if caster_id in self.employers:
-            player_id = self.employers[caster_id]
-            buffs = self.pet_snapshot.get(caster_id, {})
+        if caster_id in self.pet2employer:
+            player_id = self.pet2employer[caster_id]
+            if caster_id in self.buff_stacks:
+                buff_stacks = self.buff_stacks[caster_id]
+            elif self.next_pet_buff_stacks[player_id]:
+                buff_stacks = self.next_pet_buff_stacks[player_id][0]
+            else:
+                buff_stacks = {}
+                self.next_pet_buff_stacks[player_id].append(buff_stacks)
         else:
             player_id = caster_id
-            buffs = self.player_buffs[player_id]
+            buff_stacks = self.buff_stacks[player_id]
 
         if player_id not in self.players:
             return
@@ -294,15 +351,15 @@ class Parser:
             return
 
         if buff_stack:
-            buffs[(buff_id, buff_level)] = buff_stack
+            buff_stacks[(buff_id, buff_level)] = buff_stack
         else:
-            buffs.pop((buff_id, buff_level), None)
+            buff_stacks.pop((buff_id, buff_level), None)
 
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")
         caster_id, target_id = int(detail[0]), int(detail[1])
-        if caster_id in self.employers:
-            player_id = self.employers[caster_id]
+        if caster_id in self.pet2employer:
+            player_id = self.pet2employer[caster_id]
         else:
             player_id = caster_id
 
@@ -324,11 +381,11 @@ class Parser:
         self.current_skill = skill_id
         skill = self.players[player_id].skills[skill_id]
         skill.skill_level = skill_level
-        skill.record(critical, self)
+        skill.parse(critical, self)
 
     def status(self, skill_id):
         current_status = []
-        for (buff_id, buff_level), buff_stack in self.current_player_buffs.items():
+        for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
             if buff.gain_attributes:
                 current_status.append((buff_id, buff_level, buff_stack))
@@ -345,7 +402,7 @@ class Parser:
                 snapshot_status.append((buff_id, buff_level, buff_stack))
 
         target_status = []
-        for (buff_id, buff_level), buff_stack in self.current_target_buffs.items():
+        for (buff_id, buff_level), buff_stack in self.current_target_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
             if buff.gain_attributes:
                 target_status.append((buff_id, buff_level, buff_stack))
@@ -382,7 +439,7 @@ class Parser:
             if (current_frame := int(row[1])) != self.current_frame:
                 self.current_frame = current_frame
                 self.parse_frame_shift_status()
-                self.parse_hidden_buffs()
+                self.parse_buff_intervals()
             # if (current_second := int(row[3])) != self.current_second:
             #     self.current_second = current_second
             #     self.parse_frame_shift_status()

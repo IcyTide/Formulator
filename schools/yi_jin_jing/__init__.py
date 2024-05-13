@@ -7,4 +7,4 @@ from schools.yi_jin_jing.attribute import YiJinJing
 
 
 def prepare(self, player_id):
-    self.player_buffs[player_id][(10023, 1)] = 1
+    self.buff_stacks[player_id][(10023, 1)] = 1

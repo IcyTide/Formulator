@@ -11,7 +11,7 @@ class 灵蛇引(Skill):
     def record(self, critical, parser):
         super().record(critical, parser)
         pet_buffs = {(bind_buff, 1): 1 for bind_buff in self.bind_buffs}
-        parser.current_next_pet_snapshot.append(pet_buffs)
+        parser.current_next_pet_buff_stacks.append(pet_buffs)
 
 
 SKILLS: Dict[int, Skill | dict] = {

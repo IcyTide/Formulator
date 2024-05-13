@@ -15,15 +15,17 @@ class 涅果(Gain):
 class 明法(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in (26989, 26991, 17641):
-            skills[skill_id].bind_buff = 12479
+            skills[skill_id].post_target_buffs.pop((890, 1))
+            skills[skill_id].post_target_buffs = {(12479, 1): 1}
         for skill_id in (3848, 3849, 3850):
-            skills[skill_id].bind_buff = 12479
+            skills[skill_id].post_target_buffs[(12479, 1)] = 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in (26989, 26991, 17641):
-            skills[skill_id].bind_buff = 890
+            skills[skill_id].post_target_buffs.pop((12479, 1))
+            skills[skill_id].post_target_buffs[(890, 1)] = 1
         for skill_id in (3848, 3849, 3850):
-            skills[skill_id].bind_buff = 0
+            skills[skill_id].post_target_buffs.pop((12479, 1))
 
 
 class 华香(Gain):

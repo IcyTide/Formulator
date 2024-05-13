@@ -12,14 +12,14 @@ BUFFS: Dict[int, Buff | dict] = {
             "physical_critical_power_gain": 41
         }
     },
-    9052: {
-        "buff_name": "绝刀",
-        "gain_skills": {
-            13075: {
-                "skill_damage_addition": [205, 410, 614, 819] * 2
-            }
-        }
-    },
+    # 9052: {
+    #     "buff_name": "绝刀",
+    #     "gain_skills": {
+    #         13075: {
+    #             "skill_damage_addition": [205, 410, 614, 819] * 2
+    #         }
+    #     }
+    # },
     8244: {
         "buff_name": "血怒",
         "gain_attributes": {

@@ -1,7 +1,6 @@
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-
 BUFFS = {
     11378: {
         "buff_name": "朔气",
@@ -11,15 +10,17 @@ BUFFS = {
             "physical_critical_power_gain": 41
         }
     },
-    18384: {
+    -18384: {
         "buff_name": "含风",
+        "interval": 384,
         "gain_attributes": {
             "physical_critical_strike_gain": 1000,
             "physical_critical_power_gain": 102
         }
     },
-    23066: {
+    -23066: {
         "buff_name": "含风",
+        "interval": 384,
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 102,

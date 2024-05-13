@@ -1,25 +1,26 @@
 from typing import Dict
 
-from base.skill import Skill, HiddenBuffSkill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
+from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
 from general.skills import GENERAL_SKILLS
 
 
 class 明法判定(Skill):
     final_buff = 19635
+    bind_buff = 890
 
     def record(self, critical, parser):
-        buff_level = parser.current_target_buffs.get((self.bind_buff, 1))
-        if buff_level:
-            parser.current_target_buffs[(self.final_buff, buff_level)] = 1
+        if buff_level := parser.current_target_buff_stacks.get((self.bind_buff, 1)):
+            parser.current_target_buff_stacks[(self.final_buff, buff_level)] = 1
 
 
 class 明法移除(Skill):
     final_buff = 19635
+    bind_buff = 890
 
     def record(self, critical, parser):
-        buff_level = parser.current_target_buffs.get((self.bind_buff, 1), 0)
+        buff_level = parser.current_target_buff_stacks.get((self.bind_buff, 1), 0)
         for level in range(buff_level):
-            parser.current_target_buffs.pop((self.final_buff, level + 1), None)
+            parser.current_target_buff_stacks.pop((self.final_buff, level + 1), None)
 
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -41,7 +42,6 @@ SKILLS: Dict[int, Skill | dict] = {
     26989: {
         "skill_class": 明法判定,
         "skill_name": "明法判定",
-        "bind_buff": 890,
     },
     26991: {
         "skill_class": 明法移除,
@@ -54,7 +54,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "weapon_damage_cof": [1024, 2048, 1024, 1024, 2048],
     },
     17641: {
-        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
+        "skill_class": MagicalDamage,
         "skill_name": "普渡四方",
         "damage_base": [23, 27, 31, 38, 43, 50, 54, 58] + [e * 0.5 for e in
                                                            [123, 133, 143, 153, 163, 173, 183, 193, 203, 213, 223, 233,
@@ -64,8 +64,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [16 * 1.1 * 1.15 * 1.1 * 1.05 * 1.2] * 9 +
                             [(16 + (i - 9) * 6) * 1.1 * 1.15 * 1.1 * 1.05 * 1.2 for i in range(10, 28)] +
                             [128 * 1.1 * 1.15 * 1.1 * 1.05 * 1.2],
-        "bind_buff": 890,
-        "duration": 352
+        "post_target_buffs": {(890, 1): 1}
     },
     236: {
         "skill_class": MagicalDamage,
@@ -92,35 +91,29 @@ SKILLS: Dict[int, Skill | dict] = {
         "bind_skill": 743
     },
     3848: {
-        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
+        "skill_class": MagicalDamage,
         "skill_name": "韦陀献杵",
         "damage_base": [77, 83, 90, 94, 100, 105, 108, 111, 114, 117, 120, 123, 126, 129, 132, 135, 138, 141, 144, 147,
                         150, 153, 156, 159, 162, 165, 168, 171, 174],
         "damage_rand": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10,
                         10],
-        "attack_power_cof": 144 * 1.2 * 1.15 * 1.15 * 1.35 * 0.9 * 1.15 * 1.1 * 1.05 * 1.1,
-        "bind_buff": 0,
-        "duration": 352
+        "attack_power_cof": 144 * 1.2 * 1.15 * 1.15 * 1.35 * 0.9 * 1.15 * 1.1 * 1.05 * 1.1
     },
     3849: {
-        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
+        "skill_class": MagicalDamage,
         "skill_name": "韦陀献杵",
         "damage_base": [73, 87, 100, 114, 127, 141, 154, 168, 181, 195, 208, 222, 235, 249, 262, 276, 289, 303, 316,
                         330, 343, 357, 370, 384, 397, 411, 424, 438, 451],
         "damage_gain": 0.4 / 3,
         "attack_power_cof": 48 * 1.2 * 1.15 * 1.15 * 1.35 * 0.9 * 1.15 * 1.1 * 1.05 * 1.1,
-        "bind_buff": 0,
-        "duration": 352
     },
     3850: {
-        "skill_class": type("Mixing", (MagicalDamage, HiddenBuffSkill), {}),
+        "skill_class": MagicalDamage,
         "skill_name": "韦陀献杵",
         "damage_base": [73, 87, 100, 114, 127, 141, 154, 168, 181, 195, 208, 222, 235, 249, 262, 276, 289, 303, 316,
                         330, 343, 357, 370, 384, 397, 411, 424, 438, 451],
         "damage_gain": 0.4 * 2 / 3,
         "attack_power_cof": 96 * 1.2 * 1.15 * 1.15 * 1.35 * 0.9 * 1.15 * 1.1 * 1.05 * 1.1,
-        "bind_buff": 0,
-        "duration": 352
     },
     28619: {
         "skill_class": MagicalDamage,

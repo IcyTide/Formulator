@@ -6,15 +6,18 @@ from general.skills import GENERAL_SKILLS
 
 
 class 横刀断浪流血(Skill):
+    bind_buff: int = -24222
+    stack: int
+
     def record(self, critical, parser):
-        bind_skill = parser.current_school.skills(self.bind_skill)
+        bind_skill = parser.current_school.skills[self.bind_skill]
         bind_buff = self.bind_buff
-        parser.current_ticks[self.bind_skill] = bind_skill.tick
-        parser.current_stacks[self.bind_skill] = self.max_stack
-        for level in range(self.max_stack):
-            parser.current_target_buffs.pop((bind_buff, level + 1), None)
-        parser.current_target_buffs[(bind_buff, self.max_stack)] = 1
-        parser.current_dot_snapshot[self.bind_skill] = parser.current_player_buffs.copy()
+        for level in range(self.stack):
+            parser.clear_target_buff(bind_buff, level + 1)
+        parser.refresh_target_buff(bind_buff, self.stack, 1)
+        parser.current_dot_ticks[self.bind_skill] = bind_skill.tick
+        parser.current_dot_stacks[self.bind_skill] = self.stack
+        parser.current_dot_snapshot[self.bind_skill] = parser.current_buff_stacks.copy()
 
 
 SKILLS: Dict[int, Skill | dict] = {
@@ -182,8 +185,7 @@ SKILLS: Dict[int, Skill | dict] = {
             "skill_class": 横刀断浪流血,
             "skill_name": "流血",
             "bind_skill": 24443,
-            "bind_buff": -32513,
-            "max_stack": i + 1,
+            "stack": i + 1,
         } for i, skill_id in enumerate([32874, 32873, 32872, 32871, 32870, 32869])
     },
     32234: {
