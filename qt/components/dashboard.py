@@ -39,12 +39,8 @@ class DashboardWidget(QWidget):
         self.duration = DoubleSpinWithLabel("战斗时长", maximum=3600, value=180)
         top_layout.addWidget(self.duration)
 
-        mid_layout = QHBoxLayout()
-        layout.addLayout(mid_layout)
         self.formulate_button = QPushButton(text="开始模拟!")
-        mid_layout.addWidget(self.formulate_button)
-        self.save_button = QPushButton(text="保存JSON")
-        mid_layout.addWidget(self.save_button)
+        layout.addWidget(self.formulate_button)
 
         bottom_layout = QHBoxLayout()
         layout.addLayout(bottom_layout)

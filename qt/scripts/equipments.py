@@ -3,9 +3,9 @@ from typing import Dict, List, Union, Tuple
 
 from general.gains.equipment import EQUIPMENT_GAINS
 from qt.components.equipments import EquipmentsWidget
-from qt.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
-from qt.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
-from qt.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
+from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
+from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
+from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 
 
 class Enchant:

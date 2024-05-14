@@ -3,7 +3,7 @@ from typing import List
 from qt.components import ComboWithLabel
 from PySide6.QtWidgets import QWidget, QGridLayout
 
-from qt.constant import MAX_TALENTS
+from assets.constant import MAX_TALENTS
 
 
 class TalentsWidget(QWidget):

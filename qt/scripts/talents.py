@@ -1,6 +1,6 @@
 from qt.components.talents import TalentsWidget
 
-from qt.constant import MAX_TALENTS
+from assets.constant import MAX_TALENTS
 
 
 class Talents:

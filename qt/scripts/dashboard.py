@@ -1,9 +1,7 @@
-import json
 from typing import Dict
 
 from qt.components.dashboard import DashboardWidget
-from qt.components.top import TopWidget
-from qt.constant import ATTR_TYPE_TRANSLATE
+from assets.constant import ATTR_TYPE_TRANSLATE
 from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
 from qt.scripts.top import Parser
@@ -11,7 +9,6 @@ from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
 from utils.analyzer import analyze_details, Detail
-from utils.io import serialize
 
 
 def summary_content(summary: Dict[str, Detail], total_damage):
@@ -53,7 +50,7 @@ def dashboard_script(parser: Parser,
                      equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
     def formulate():
         target_name = dashboard_widget.target_select.combo_box.currentText()
-        target_id = parser.name2id.get(target_name, 0)
+        target_id = parser.name2id.get(target_name, "")
         parser.current_target = target_id
         record = parser.current_records
         school = parser.current_school
@@ -95,16 +92,6 @@ def dashboard_script(parser: Parser,
         dashboard_widget.summary.set_content(summary_content(summary, total.expected_damage))
 
     dashboard_widget.formulate_button.clicked.connect(formulate)
-
-    def save_json():
-        target_name = dashboard_widget.target_select.combo_box.currentText()
-        target_id = parser.name2id.get(target_name, 0)
-        parser.current_target = target_id
-        record = parser.current_records
-        duration = dashboard_widget.duration.spin_box.value()
-        json.dump(serialize(record, duration), open(parser.file_name.strip(".jcl") + ".json", "w", encoding="utf-8"))
-
-    dashboard_widget.save_button.clicked.connect(save_json)
 
     def set_skills():
         detail_widget = dashboard_widget.detail_widget

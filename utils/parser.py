@@ -5,7 +5,7 @@ from schools import *
 from utils.lua import parse
 
 FRAME_TYPE, SECOND_TYPE = int, int
-PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = int, int, int, int
+PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
 CASTER_ID_TYPE = PLAYER_ID_TYPE | PET_ID_TYPE
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
 SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
@@ -231,7 +231,7 @@ class Parser(BaseParser):
 
     def parse_player(self, row):
         detail = row.strip("{}").split(",")
-        player_id, school_id = int(detail[0]), int(detail[3])
+        player_id, school_id = detail[0], int(detail[3])
         if player_id in self.id2name or school_id not in SUPPORT_SCHOOL:
             return
 
@@ -247,11 +247,14 @@ class Parser(BaseParser):
 
     def parse_npc(self, row):
         detail = row.strip("{}").split(",")
-        npc_id, employer_id = int(detail[0]), int(detail[3])
+        npc_id, employer_id = detail[0], detail[3]
         if npc_id in self.id2name:
             return
 
-        npc_name = detail[1]
+        npc_name = detail[1].strip('"')
+        if not npc_name:
+            return
+
         self.id2name[npc_id] = npc_name
         self.name2id[npc_name] = npc_id
         if employer_id in self.players:
@@ -259,7 +262,7 @@ class Parser(BaseParser):
 
     def parse_pet(self, row):
         detail = row.strip().strip("{}")
-        pet_id = int(detail[0])
+        pet_id = detail[0]
         if player_id := self.pet2employer.get(pet_id):
             if self.next_pet_buff_stacks[player_id]:
                 pet_buff_stacks = self.next_pet_buff_stacks[player_id].pop()
@@ -269,7 +272,7 @@ class Parser(BaseParser):
 
     def parse_shift_buff(self, row):
         detail = row.strip("{}").split(",")
-        player_id = int(detail[0])
+        player_id = detail[0]
         if player_id not in self.players:
             return
 
@@ -325,7 +328,7 @@ class Parser(BaseParser):
 
     def parse_buff(self, row):
         detail = row.strip("{}").split(",")
-        caster_id = int(detail[0])
+        caster_id = detail[0]
         if caster_id in self.pet2employer:
             player_id = self.pet2employer[caster_id]
             if caster_id in self.buff_stacks:
@@ -357,7 +360,7 @@ class Parser(BaseParser):
 
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")
-        caster_id, target_id = int(detail[0]), int(detail[1])
+        caster_id, target_id = detail[0], detail[1]
         if caster_id in self.pet2employer:
             player_id = self.pet2employer[caster_id]
         else:
@@ -463,4 +466,4 @@ class Parser(BaseParser):
                 for skill_tuple, status in records.items():
                     for status_tuple, timeline in status.items():
                         player_record[skill_tuple][status_tuple] += timeline
-            self.records[player_id][0] = player_record
+            self.records[player_id][""] = player_record

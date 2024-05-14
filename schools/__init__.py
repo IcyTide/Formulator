@@ -14,6 +14,7 @@ from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
 
 @dataclass
 class School:
+    id: int
     school: str
     major: str
     kind: str
@@ -93,7 +94,7 @@ MIXING_DISPLAY_ATTRS = {
 
 SUPPORT_SCHOOL = {
     10003: School(
-        school="少林", major="元气", kind="内功", attribute=yi_jin_jing.YiJinJing, formation="天鼓雷音阵",
+        id=10003, school="少林", major="元气", kind="内功", attribute=yi_jin_jing.YiJinJing, formation="天鼓雷音阵",
         skills=yi_jin_jing.SKILLS, buffs=yi_jin_jing.BUFFS, prepare=yi_jin_jing.prepare,
         talent_gains=yi_jin_jing.TALENT_GAINS, talents=yi_jin_jing.TALENTS,
         talent_decoder=yi_jin_jing.TALENT_DECODER, talent_encoder=yi_jin_jing.TALENT_ENCODER,
@@ -101,7 +102,7 @@ SUPPORT_SCHOOL = {
         gains=yi_jin_jing.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
     ),
     10014: School(
-        school="纯阳", major="根骨", kind="内功", attribute=zi_xia_gong.ZiXiaGong, formation="九宫八卦阵",
+        id=10014, school="纯阳", major="根骨", kind="内功", attribute=zi_xia_gong.ZiXiaGong, formation="九宫八卦阵",
         skills=zi_xia_gong.SKILLS, buffs=zi_xia_gong.BUFFS, prepare=zi_xia_gong.prepare,
         talent_gains=zi_xia_gong.TALENT_GAINS, talents=zi_xia_gong.TALENTS,
         talent_decoder=zi_xia_gong.TALENT_DECODER, talent_encoder=zi_xia_gong.TALENT_ENCODER,
@@ -109,7 +110,7 @@ SUPPORT_SCHOOL = {
         gains=zi_xia_gong.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10015: School(
-        school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
+        id=10015, school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
         skills=tai_xu_jian_yi.SKILLS, buffs=tai_xu_jian_yi.BUFFS, prepare=tai_xu_jian_yi.prepare,
         talent_gains=tai_xu_jian_yi.TALENT_GAINS, talents=tai_xu_jian_yi.TALENTS,
         talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
@@ -117,7 +118,7 @@ SUPPORT_SCHOOL = {
         gains=tai_xu_jian_yi.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10021: School(
-        school="万花", major="元气", kind="内功", attribute=hua_jian_you.HuaJianYou, formation="七绝逍遥阵",
+        id=10021, school="万花", major="元气", kind="内功", attribute=hua_jian_you.HuaJianYou, formation="七绝逍遥阵",
         skills=hua_jian_you.SKILLS, buffs=hua_jian_you.BUFFS, prepare=hua_jian_you.prepare,
         talent_gains=hua_jian_you.TALENT_GAINS, talents=hua_jian_you.TALENTS,
         talent_decoder=hua_jian_you.TALENT_DECODER, talent_encoder=hua_jian_you.TALENT_ENCODER,
@@ -125,7 +126,7 @@ SUPPORT_SCHOOL = {
         gains=hua_jian_you.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
     ),
     10026: School(
-        school="天策", major="力道", kind="外功", attribute=ao_xue_zhan_yi.AoXueZhanYi, formation="卫公折冲阵",
+        id=10026, school="天策", major="力道", kind="外功", attribute=ao_xue_zhan_yi.AoXueZhanYi, formation="卫公折冲阵",
         skills=ao_xue_zhan_yi.SKILLS, buffs=ao_xue_zhan_yi.BUFFS, prepare=ao_xue_zhan_yi.prepare,
         talent_gains=ao_xue_zhan_yi.TALENT_GAINS, talents=ao_xue_zhan_yi.TALENTS,
         talent_decoder=ao_xue_zhan_yi.TALENT_DECODER, talent_encoder=ao_xue_zhan_yi.TALENT_ENCODER,
@@ -133,7 +134,7 @@ SUPPORT_SCHOOL = {
         gains=ao_xue_zhan_yi.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10081: School(
-        school="七秀", major="根骨", kind="内功", attribute=bing_xin_jue.BingXinJue, formation="九音惊弦阵",
+        id=10081, school="七秀", major="根骨", kind="内功", attribute=bing_xin_jue.BingXinJue, formation="九音惊弦阵",
         skills=bing_xin_jue.SKILLS, buffs=bing_xin_jue.BUFFS, prepare=bing_xin_jue.prepare,
         talent_gains=bing_xin_jue.TALENT_GAINS, talents=bing_xin_jue.TALENTS,
         talent_decoder=bing_xin_jue.TALENT_DECODER, talent_encoder=bing_xin_jue.TALENT_ENCODER,
@@ -141,7 +142,7 @@ SUPPORT_SCHOOL = {
         gains=bing_xin_jue.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10175: School(
-        school="五毒", major="根骨", kind="内功", attribute=du_jing.DuJing, formation="万蛊噬心阵",
+        id=10175, school="五毒", major="根骨", kind="内功", attribute=du_jing.DuJing, formation="万蛊噬心阵",
         skills=du_jing.SKILLS, buffs=du_jing.BUFFS, prepare=du_jing.prepare,
         talent_gains=du_jing.TALENT_GAINS, talents=du_jing.TALENTS,
         talent_decoder=du_jing.TALENT_DECODER, talent_encoder=du_jing.TALENT_ENCODER,
@@ -149,7 +150,7 @@ SUPPORT_SCHOOL = {
         gains=du_jing.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10225: School(
-        school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao, formation="千机百变阵",
+        id=10225, school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao, formation="千机百变阵",
         skills=tian_luo_gui_dao.SKILLS, buffs=tian_luo_gui_dao.BUFFS, prepare=tian_luo_gui_dao.prepare,
         talent_gains=tian_luo_gui_dao.TALENT_GAINS, talents=tian_luo_gui_dao.TALENTS,
         talent_decoder=tian_luo_gui_dao.TALENT_DECODER, talent_encoder=tian_luo_gui_dao.TALENT_ENCODER,
@@ -157,7 +158,7 @@ SUPPORT_SCHOOL = {
         gains=tian_luo_gui_dao.GAINS, display_attrs={"spunk": "元气", **MIXING_DISPLAY_ATTRS}
     ),
     10390: School(
-        school="苍云", major="身法", kind="外功", attribute=fen_shan_jing.FenShanJing, formation="锋凌横绝阵",
+        id=10390, school="苍云", major="身法", kind="外功", attribute=fen_shan_jing.FenShanJing, formation="锋凌横绝阵",
         skills=fen_shan_jing.SKILLS, buffs=fen_shan_jing.BUFFS, prepare=fen_shan_jing.prepare,
         talent_gains=fen_shan_jing.TALENT_GAINS, talents=fen_shan_jing.TALENTS,
         talent_decoder=fen_shan_jing.TALENT_DECODER, talent_encoder=fen_shan_jing.TALENT_ENCODER,
@@ -165,7 +166,7 @@ SUPPORT_SCHOOL = {
         gains=fen_shan_jing.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10447: School(
-        school="长歌", major="根骨", kind="内功", attribute=mo_wen.MoWen, formation="万籁金弦阵",
+        id=10447, school="长歌", major="根骨", kind="内功", attribute=mo_wen.MoWen, formation="万籁金弦阵",
         skills=mo_wen.SKILLS, buffs=mo_wen.BUFFS, prepare=mo_wen.prepare,
         talent_gains=mo_wen.TALENT_GAINS, talents=mo_wen.TALENTS,
         talent_decoder=mo_wen.TALENT_DECODER, talent_encoder=mo_wen.TALENT_ENCODER,
@@ -173,7 +174,7 @@ SUPPORT_SCHOOL = {
         gains=mo_wen.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10464: School(
-        school="霸刀", major="力道", kind="外功", attribute=bei_ao_jue.BeiAoJue, formation="霜岚洗锋阵",
+        id=10464, school="霸刀", major="力道", kind="外功", attribute=bei_ao_jue.BeiAoJue, formation="霜岚洗锋阵",
         skills=bei_ao_jue.SKILLS, buffs=bei_ao_jue.BUFFS, prepare=bei_ao_jue.prepare,
         talent_gains=bei_ao_jue.TALENT_GAINS, talents=bei_ao_jue.TALENTS,
         talent_decoder=bei_ao_jue.TALENT_DECODER, talent_encoder=bei_ao_jue.TALENT_ENCODER,
@@ -181,7 +182,7 @@ SUPPORT_SCHOOL = {
         gains=bei_ao_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10533: School(
-        school="蓬莱", major="身法", kind="外功", attribute=ling_hai_jue.LingHaiJue, formation="墟海引归阵",
+        id=10533, school="蓬莱", major="身法", kind="外功", attribute=ling_hai_jue.LingHaiJue, formation="墟海引归阵",
         skills=ling_hai_jue.SKILLS, buffs=ling_hai_jue.BUFFS, prepare=ling_hai_jue.prepare,
         talent_gains=ling_hai_jue.TALENT_GAINS, talents=ling_hai_jue.TALENTS,
         talent_decoder=ling_hai_jue.TALENT_DECODER, talent_encoder=ling_hai_jue.TALENT_ENCODER,
@@ -189,7 +190,7 @@ SUPPORT_SCHOOL = {
         gains=ling_hai_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10585: School(
-        school="凌雪", major="身法", kind="外功", attribute=yin_long_jue.YinLongJue, formation="龙皇雪风阵",
+        id=10585, school="凌雪", major="身法", kind="外功", attribute=yin_long_jue.YinLongJue, formation="龙皇雪风阵",
         skills=yin_long_jue.SKILLS, buffs=yin_long_jue.BUFFS, prepare=yin_long_jue.prepare,
         talent_gains=yin_long_jue.TALENT_GAINS, talents=yin_long_jue.TALENTS,
         talent_decoder=yin_long_jue.TALENT_DECODER, talent_encoder=yin_long_jue.TALENT_ENCODER,
@@ -197,7 +198,7 @@ SUPPORT_SCHOOL = {
         gains=yin_long_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10627: School(
-        school="药宗", major="根骨", kind="内功", attribute=wu_fang.WuFang, formation="乱暮浊茵阵",
+        id=10627, school="药宗", major="根骨", kind="内功", attribute=wu_fang.WuFang, formation="乱暮浊茵阵",
         skills=wu_fang.SKILLS, buffs=wu_fang.BUFFS, prepare=wu_fang.prepare,
         talent_gains=wu_fang.TALENT_GAINS, talents=wu_fang.TALENTS,
         talent_decoder=wu_fang.TALENT_DECODER, talent_encoder=wu_fang.TALENT_ENCODER,
@@ -205,7 +206,7 @@ SUPPORT_SCHOOL = {
         gains=wu_fang.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10698: School(
-        school="刀宗", major="力道", kind="外功", attribute=gu_feng_jue.GuFengJue, formation="横云破锋阵",
+        id=10698, school="刀宗", major="力道", kind="外功", attribute=gu_feng_jue.GuFengJue, formation="横云破锋阵",
         skills=gu_feng_jue.SKILLS, buffs=gu_feng_jue.BUFFS, prepare=gu_feng_jue.prepare,
         talent_gains=gu_feng_jue.TALENT_GAINS, talents=gu_feng_jue.TALENTS,
         talent_decoder=gu_feng_jue.TALENT_DECODER, talent_encoder=gu_feng_jue.TALENT_ENCODER,
@@ -213,7 +214,7 @@ SUPPORT_SCHOOL = {
         gains=gu_feng_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10756: School(
-        school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.ShanHaiXinJue, formation="苍梧引灵阵",
+        id=10756, school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.ShanHaiXinJue, formation="苍梧引灵阵",
         skills=shan_hai_xin_jue.SKILLS, buffs=shan_hai_xin_jue.BUFFS, prepare=shan_hai_xin_jue.prepare,
         talent_gains=shan_hai_xin_jue.TALENT_GAINS, talents=shan_hai_xin_jue.TALENTS,
         talent_decoder=shan_hai_xin_jue.TALENT_DECODER, talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,

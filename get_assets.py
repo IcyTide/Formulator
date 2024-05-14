@@ -5,10 +5,10 @@ from functools import cache
 import requests
 from tqdm import tqdm
 
-from qt.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR
-from qt.constant import ATTR_TYPE_TRANSLATE
-from qt.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
-from qt.constant import EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR
+from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR
+from assets.constant import ATTR_TYPE_TRANSLATE
+from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
+from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
 from schools import SUPPORT_SCHOOL
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))

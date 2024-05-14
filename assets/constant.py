@@ -1,20 +1,7 @@
 import os
 
-from dataclasses import dataclass
-from typing import Type, List, Dict, Union, Tuple
-
-from base.attribute import Attribute
-from base.buff import Buff
-from base.gain import Gain
-from base.skill import Skill
-
-# from general.gains import equipment
-
-from schools import bei_ao_jue
-
 """ Directory """
-# ASSETS_DIR = os.path.join(os.getcwd(), "qt/assets")
-ASSETS_DIR = "qt/assets"
+ASSETS_DIR = "assets"
 EQUIPMENTS_DIR = os.path.join(ASSETS_DIR, "equipments")
 ENCHANTS_DIR = os.path.join(ASSETS_DIR, "enchants")
 STONES_DIR = os.path.join(ASSETS_DIR, "stones.json")

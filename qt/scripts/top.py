@@ -1,5 +1,8 @@
+import json
+
 from PySide6.QtWidgets import QFileDialog, QWidget
 
+from base.constant import FRAME_PER_SECOND
 from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS
 from general.gains.formation import FORMATIONS
 from qt.components.bonuses import BonusesWidget
@@ -10,9 +13,11 @@ from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
-from qt.constant import MAX_RECIPES, MAX_STONE_LEVEL
+from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
 from qt.scripts.config import CONFIG
+from schools import SUPPORT_SCHOOL
 from utils.parser import Parser
+from utils.io import serialize, unserialize
 
 
 def top_script(
@@ -31,9 +36,48 @@ def top_script(
             [parser.id2name[player_id] for player_id in parser.players], keep_index=True, default_index=0
         )
         top_widget.player_select.show()
+        top_widget.save_json.show()
         select_player(None)
 
-    top_widget.upload_button.clicked.connect(upload_logs)
+    top_widget.upload_log.clicked.connect(upload_logs)
+
+    def save_json():
+        result = dict(
+            records=serialize(parser.records),
+            file_name=parser.file_name,
+            start_frame=parser.start_frame,
+            end_frame=parser.end_frame,
+            id2name=parser.id2name,
+            name2id=parser.name2id,
+            players={player_id: school.id for player_id, school in parser.players.items()},
+            targets=parser.targets,
+            select_talents=parser.select_talents,
+            select_equipments=parser.select_equipments,
+        )
+        json.dump(result, open(parser.file_name.split(".jcl")[0] + ".json", "w", encoding="utf-8"), ensure_ascii=False)
+
+    top_widget.save_json.clicked.connect(save_json)
+
+    def load_json():
+        file_name = QFileDialog(top_widget, "Choose File").getOpenFileName()
+        if not file_name[0]:
+            return
+        result = json.load(open(file_name[0], encoding="utf-8"))
+        result['records'] = unserialize(result['records'])
+        for player_id, school_id in result['players'].items():
+            result['players'][player_id] = SUPPORT_SCHOOL[school_id]
+
+        for k, v in result.items():
+            setattr(parser, k, v)
+
+        top_widget.player_select.set_items(
+            [parser.id2name[player_id] for player_id in parser.players], keep_index=True, default_index=0
+        )
+        top_widget.player_select.show()
+        top_widget.save_json.show()
+        select_player(None)
+
+    top_widget.upload_json.clicked.connect(load_json)
 
     def select_player(_):
         player_name = top_widget.player_select.combo_box.currentText()

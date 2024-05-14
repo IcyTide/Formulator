@@ -35,9 +35,9 @@ jobs:
         onefile: false
         enable-plugins: pyside6
         disable-console: true
-        windows-icon-from-ico: qt/assets/icon.ico
+        windows-icon-from-ico: assets/icon.ico
         nofollow-import-to: http,email
-        include-data-dir: qt/assets=qt/assets/
+        include-data-dir: assets=assets/
     - name: Upload Artifact
       uses: actions/upload-artifact@v4
       with:
