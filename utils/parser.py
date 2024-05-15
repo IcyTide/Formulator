@@ -418,7 +418,7 @@ class Parser(BaseParser):
     def __call__(self, file_name):
         self.file_name = os.path.basename(file_name)
         self.reset()
-        lines = open(file_name).readlines()
+        lines = open(file_name, encoding="gbk").readlines()
         rows = []
         for line in lines:
             row = line.split("\t")

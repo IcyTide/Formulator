@@ -13,20 +13,21 @@ class CombatComponent:
 
         with gr.Tab("属性"):
             with gr.Row():
-                self.init_attribute = gr.Textbox("初始属性")
-                self.final_attribute = gr.Textbox("增益后属性")
+                self.init_attribute = gr.Textbox(label="初始属性")
+                self.final_attribute = gr.Textbox(label="增益后属性")
         with gr.Tab("伤害总结"):
+            self.details = gr.State({})
             self.skill_select = gr.Dropdown(label="选择技能")
             self.status_select = gr.Dropdown(label="选择增益")
             with gr.Row():
                 self.damage_detail = gr.Textbox(label="伤害细节")
-                self.gradient_detail = gr.Textbox(label="属性收益")
+                self.damage_gradient = gr.Textbox(label="属性收益")
         with gr.Tab("战斗统计"):
             with gr.Row():
                 self.summary = gr.DataFrame(label="战斗总结", headers=["技能/次数", "命中/%", "会心/%", "伤害/%"], scale=3)
                 with gr.Column(scale=1):
-                    self.dps = gr.Textbox("每秒伤害")
-                    self.gradient = gr.Textbox("属性收益")
+                    self.dps = gr.Textbox(label="每秒伤害")
+                    self.gradient = gr.Textbox(label="属性收益", lines=10)
 
 
 

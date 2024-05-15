@@ -1,4 +1,5 @@
 import json
+import os
 
 import gradio as gr
 
@@ -59,7 +60,7 @@ def top_script(
             return [None] * 4
         result = json.load(open(file_path, encoding="utf-8"))
 
-        file_name = result['file_name'].split(".jcl")[0] + ".json"
+        file_name = os.path.basename(result['file_name']).split(".jcl")[0] + ".json"
         json.dump(result, open(file_name, "w", encoding="utf-8"), ensure_ascii=False)
 
         result['records'] = unserialize(result['records'])

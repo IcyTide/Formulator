@@ -1,9 +1,9 @@
 import json
 import os
 
-from assets.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR, \
-    ATTR_TYPE_TRANSLATE
-from assets.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, SPECIAL_ENCHANT_POSITIONS
+from assets.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR
+from assets.constant import EMBED_POSITIONS, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL, MAX_STONE_LEVEL
+from assets.constant import SPECIAL_ENCHANT_POSITIONS
 import gradio as gr
 
 
@@ -30,7 +30,7 @@ class EquipmentComponent:
                         self.special_enchant = gr.Checkbox(label="大附魔")
 
                 with gr.Row():
-                    self.strength_level = gr.Dropdown(label="精炼等级")
+                    self.strength_level = gr.Dropdown(choices=list(range(MAX_STRENGTH_LEVEL + 1)), label="精炼等级")
 
                     self.embed_levels = []
                     for i in range(EMBED_POSITIONS[self.position]):
