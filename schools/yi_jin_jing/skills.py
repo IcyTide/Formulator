@@ -45,8 +45,7 @@ SKILLS: Dict[int, Skill | dict] = {
     },
     26991: {
         "skill_class": 明法移除,
-        "skill_name": "明法移除",
-        "bind_buff": 890,
+        "skill_name": "明法移除"
     },
     19090: {
         "skill_class": PhysicalDamage,

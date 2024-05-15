@@ -127,8 +127,11 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
 
             buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
             buffs = concat_buffs(buffs)
-            detail = skill_detail[buffs] = Detail(*skill(attribute))
-            detail.gradients = analyze_gradients(skill, attribute)
+            if buffs in skill_detail:
+                detail = skill_detail[buffs]
+            else:
+                detail = skill_detail[buffs] = Detail(*skill(attribute))
+                detail.gradients = analyze_gradients(skill, attribute)
             sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
 
             detail.critical_count += len(critical_timeline)
