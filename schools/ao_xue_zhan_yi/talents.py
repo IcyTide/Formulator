@@ -64,7 +64,7 @@ class 骁勇(Gain):
 class 虎贲(Gain):
     @staticmethod
     def effect(parser):
-        if parser.current_buff_stacks.get((-28169, 1)) == 3:
+        if parser.current_buffs.get((-28169, 1)) == 3:
             parser.refresh_buff(-1, 1, 3)
         parser.refresh_buff(-28169, 1)
 

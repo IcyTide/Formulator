@@ -55,13 +55,13 @@ BUFFS = {
             }
         }
     },
-    14029: {
-        "buff_name": "神降",
-        "activate": False,
-        "gain_attributes": {
-            "all_damage_addition": 102
-        }
-    }
+    # 14029: {
+    #     "buff_name": "神降",
+    #     "activate": False,
+    #     "gain_attributes": {
+    #         "all_damage_addition": 102
+    #     }
+    # }
 }
 
 for buff_id, detail in BUFFS.items():

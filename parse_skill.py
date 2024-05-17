@@ -1,8 +1,8 @@
-from utils.lua import parse
+from utils.lua import parse_player
 lua = """
 
 """
-result = parse(lua)
+result = parse_player(lua)
 damage_base = [row['nDamageBase'] for row in result]
 print(f'"damage_base": {damage_base},')
 damage_rand = [row['nDamageRand'] for row in result]

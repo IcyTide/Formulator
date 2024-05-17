@@ -9,7 +9,7 @@ class 战意判定(Skill):
     bind_buff = -1
 
     def record(self, critical, parser):
-        if buff_level := parser.current_buff_stacks.get((self.bind_buff, 1)):
+        if buff_level := parser.current_buffs.get((self.bind_buff, 1)):
             parser.refresh_buff(self.final_buff, buff_level)
 
 

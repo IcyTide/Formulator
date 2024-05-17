@@ -7,4 +7,4 @@ from schools.zi_xia_gong.attribute import ZiXiaGong
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(17918, 1)] = 1
+    self.buffs[player_id][(17918, 1)] = 1

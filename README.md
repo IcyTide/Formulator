@@ -1,3 +1,14 @@
+---
+title: Formulator
+emoji: 🚀
+colorFrom: yellow
+colorTo: purple
+sdk: gradio
+sdk_version: 4.31.0
+python_version: 3.11
+app_file: app.py
+license: mit
+---
 # Comprehensive Damage Formulator with JCL Parser
 
 ## User Guide

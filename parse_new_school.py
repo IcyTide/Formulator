@@ -1,6 +1,6 @@
 import json
 
-from utils.lua import parse
+from utils.lua import parse_player
 
 
 class Parser:
@@ -39,7 +39,7 @@ class Parser:
         for line in lines:
             row = line.split("\t")
             if row[4] == "4":
-                detail = parse(row[-1])
+                detail = parse_player(row[-1])
                 self.school_id = int(detail[3])
                 if isinstance(detail, list):
                     self.talents = self.parse_talents(detail[6])

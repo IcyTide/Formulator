@@ -7,5 +7,5 @@ from schools.bing_xin_jue.attribute import BingXinJue
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(409, 21)] = 10
-    self.buff_stacks[player_id][(17969, 1)] = 1
+    self.buffs[player_id][(409, 21)] = 10
+    self.buffs[player_id][(17969, 1)] = 1

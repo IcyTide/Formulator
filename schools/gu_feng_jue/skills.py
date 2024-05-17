@@ -17,7 +17,7 @@ class 横刀断浪流血(Skill):
         parser.refresh_target_buff(bind_buff, self.stack, 1)
         parser.current_dot_ticks[self.bind_skill] = bind_skill.tick
         parser.current_dot_stacks[self.bind_skill] = self.stack
-        parser.current_dot_snapshot[self.bind_skill] = parser.current_buff_stacks.copy()
+        parser.current_dot_buffs[self.bind_skill] = parser.current_buffs.copy()
 
 
 SKILLS: Dict[int, Skill | dict] = {

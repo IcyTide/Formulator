@@ -59,7 +59,7 @@ class Buff(BaseBuff):
 
     @property
     def display_name(self):
-        return f"{self.buff_name}#{self.buff_id}-{self.buff_level}-{self.buff_stack}"
+        return f"{self.buff_name}#{self.buff_id}-{self.buff_level}"
 
     def value(self, values, stackable):
         if isinstance(values, list):

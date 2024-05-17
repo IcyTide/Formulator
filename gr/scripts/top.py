@@ -1,5 +1,4 @@
 import json
-import os
 
 import gradio as gr
 
@@ -37,9 +36,8 @@ def top_script(
             select_talents=parser.select_talents,
             select_equipments=parser.select_equipments,
         )
-        file_name = parser.file_name.split(".jcl")[0] + ".json"
-        json.dump(result, open(file_name, "w", encoding="utf-8"), ensure_ascii=False)
-        return file_name
+        result = json.dumps(result, ensure_ascii=False)
+        return result
 
     def upload_log(file_path):
         if not file_path:
@@ -47,38 +45,35 @@ def top_script(
         parser(file_path)
         players = [parser.id2name[player_id] for player_id in parser.players]
         player_select_update = gr.update(choices=players, value=players[0], visible=True)
-        json_link = f"/file={save_json()}"
-        return player_select_update, gr.update(visible=True), gr.update(visible=True), gr.update(value=json_link)
+        json_copy_update = gr.update(value=save_json(), visible=True)
+        return player_select_update, json_copy_update, gr.update(visible=True)
 
     top_component.upload_log.upload(
         upload_log, top_component.upload_log,
-        [top_component.player_select, top_component.save_json, bottom_component, top_component.save_json]
+        [top_component.player_select, top_component.copy_json, bottom_component], show_progress="full"
     )
 
-    def load_json(file_path):
-        if not file_path:
-            return [None] * 4
-        result = json.load(open(file_path, encoding="utf-8"))
-
-        file_name = os.path.basename(result['file_name']).split(".jcl")[0] + ".json"
-        json.dump(result, open(file_name, "w", encoding="utf-8"), ensure_ascii=False)
-
-        result['records'] = unserialize(result['records'])
-        for player_id, school_id in result['players'].items():
-            result['players'][player_id] = SUPPORT_SCHOOL[school_id]
-        for k, v in result.items():
-            setattr(parser, k, v)
-
-        json_link = f"/file={save_json()}"
-
-        players = [parser.id2name[player_id] for player_id in parser.players]
-        player_select_update = gr.update(choices=players, value=players[0], visible=True)
-        return player_select_update, gr.update(visible=True), gr.update(visible=True), gr.update(value=json_link)
-
-    top_component.upload_json.upload(
-        load_json, top_component.upload_json,
-        [top_component.player_select, top_component.save_json, bottom_component, top_component.save_json]
-    )
+    # def load_json(file_path):
+    #     if not file_path:
+    #         return [None] * 4
+    #     result = json.load(open(file_path, encoding="utf-8"))
+    #
+    #     result['records'] = unserialize(result['records'])
+    #     for player_id, school_id in result['players'].items():
+    #         result['players'][player_id] = SUPPORT_SCHOOL[school_id]
+    #     for k, v in result.items():
+    #         setattr(parser, k, v)
+    #
+    #     json_link = f"/file={save_json()}"
+    #
+    #     players = [parser.id2name[player_id] for player_id in parser.players]
+    #     player_select_update = gr.update(choices=players, value=players[0], visible=True)
+    #     return player_select_update, gr.update(visible=True), gr.update(visible=True), gr.update(value=json_link)
+    #
+    # top_component.upload_json.upload(
+    #     load_json, top_component.upload_json,
+    #     [top_component.player_select, top_component.save_json, bottom_component, top_component.save_json]
+    # )
 
     def player_select(player_name):
         if not player_name:
@@ -89,9 +84,9 @@ def top_script(
 
         top_update = {
             top_component.target_select: gr.update(
-                choices=[""] + [parser.id2name[target_id] for target_id in parser.current_targets],
+                choices=[""] + [parser.id2name[target_id] for target_id in parser.current_targets], visible=True
             ),
-            combat_component.combat_duration: gr.update(value=parser.duration)
+            combat_component.combat_duration: gr.update(value=parser.duration, maximum=parser.duration)
         }
 
         # """ Update config """
@@ -161,11 +156,11 @@ def top_script(
         player_select, top_component.player_select,
         sum([[e.equipment, e.enchant, e.strength_level, *e.embed_levels] for e in equipments_component.values()], []) +
         talents_component.talents + recipes_component.recipes +
-        [combat_component.combat_duration] + [top_component.target_select]
+        [combat_component.combat_duration] + [top_component.target_select],
     )
 
     def target_select(target_name):
-        target_id = parser.name2id.get(target_name, "")
+        target_id = parser.name2id.get(target_name)
         parser.current_target = target_id
 
     top_component.target_select.change(

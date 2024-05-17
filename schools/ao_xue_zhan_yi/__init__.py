@@ -7,4 +7,4 @@ from schools.ao_xue_zhan_yi.attribute import AoXueZhanYi
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(-1, 1)] = 5
+    self.buffs[player_id][(-1, 1)] = 5
