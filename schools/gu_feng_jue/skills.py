@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.constant import DOT_DAMAGE_SCALE, FRAME_PER_SECOND
 from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
@@ -20,7 +20,7 @@ class 横刀断浪流血(Skill):
         parser.current_dot_snapshot[self.bind_skill] = parser.current_buff_stacks.copy()
 
 
-SKILLS: Dict[int, Skill | dict] = {
+SKILLS: Dict[int, Union[Skill, dict]] = {
     33146: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",
@@ -85,7 +85,7 @@ SKILLS: Dict[int, Skill | dict] = {
         "attack_power_cof": [50 * 1.5] * 12 +
                             [(50 + (i - 12) * 5) * 1.5 for i in range(13, 30)] +
                             [159 * 1.5],
-        "weapon_damage_cof": 2048
+        "weapon_damage_cof": 1536
     },
     32151: {
         "skill_class": PhysicalDamage,

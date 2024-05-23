@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
@@ -13,7 +13,7 @@ class 战意判定(Skill):
             parser.refresh_buff(self.final_buff, buff_level)
 
 
-SKILLS: Dict[int, Skill | dict] = {
+SKILLS: Dict[int, Union[Skill, dict]] = {
     32820: {
         "skill_class": PhysicalDamage,
         "skill_name": "破",

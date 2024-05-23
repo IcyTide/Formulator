@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage
 from general.skills import GENERAL_SKILLS
@@ -23,7 +23,7 @@ class 明法移除(Skill):
             parser.current_target_buff_stacks.pop((self.final_buff, level + 1), None)
 
 
-SKILLS: Dict[int, Skill | dict] = {
+SKILLS: Dict[int, Union[Skill, dict]] = {
     32887: {
         "skill_class": MagicalDamage,
         "skill_name": "破",

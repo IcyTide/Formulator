@@ -40,8 +40,8 @@ class Equipment:
     max_strength: int
     embed: Dict[str, int]
     gains: List[int]
-    special_enchant: Union[int | Tuple[int, int]]
-    special_enchant_gain: List[int | List[int]]
+    special_enchant: Union[int, Tuple[int, int]]
+    special_enchant_gain: List[List[int]]
     set_id: str
     set_attr: Dict[int, Dict[str, int]]
     set_gain: Dict[int, List[int]]

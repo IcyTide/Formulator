@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage, \
     MagicalPetDamage
@@ -14,7 +14,7 @@ class 灵蛇引(Skill):
         parser.current_next_pet_buff_stacks.append(pet_buffs)
 
 
-SKILLS: Dict[int, Skill | dict] = {
+SKILLS: Dict[int, Union[Skill, dict]] = {
     32818: {
         "skill_class": MagicalDamage,
         "skill_name": "破",

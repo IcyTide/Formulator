@@ -5,7 +5,7 @@ from functools import cache
 import requests
 from tqdm import tqdm
 
-from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR
+from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR, STONES_DIR
 from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
@@ -370,4 +370,4 @@ if __name__ == '__main__':
     json.dump(
         get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
     )
-    # json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)
+    json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

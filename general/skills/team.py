@@ -1,8 +1,8 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.skill import PhysicalDamage, MagicalDamage, Skill
 
-GENERAL_SKILLS: Dict[int, Skill | dict] = {
+GENERAL_SKILLS: Dict[int, Union[Skill, dict]] = {
     13778: {
         "skill_class": Skill,
         "skill_name": "乘龙箭",

@@ -2,7 +2,7 @@ from typing import Dict
 
 from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage
 
-GENERAL_SKILLS: Dict[int, Skill | dict] = {
+GENERAL_SKILLS: Dict[int, Union[Skill, dict]] = {
     **{
         skill_id: {
             "skill_class": MagicalDamage,

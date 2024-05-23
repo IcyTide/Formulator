@@ -1,10 +1,10 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.constant import GLOBAL_DAMAGE_FACTOR
 from base.skill import Skill, DotSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage, MagicalNpcDamage
 from general.skills import GENERAL_SKILLS
 
-SKILLS: Dict[int, Skill | dict] = {
+SKILLS: Dict[int, Union[Skill, dict]] = {
     32738: {
         "skill_class": MagicalDamage,
         "skill_name": ["破", "破", "破", "破·流照", "破·争鸣"],

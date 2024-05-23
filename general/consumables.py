@@ -1,4 +1,4 @@
-from typing import Tuple, List, Dict
+from typing import Tuple, List, Dict, Union
 
 
 def agility(value):
@@ -146,7 +146,7 @@ NAME_MAP = {
     ("内攻", "会心/破招"): "内功",
     "破招/无双": ""
 }
-FOODS: Dict[str, dict | list] = {
+FOODS: Dict[str, Union[dict, list]] = {
     "身法": {
         CONSUMABLES_NUMBER.major_food_max: "杂锦鱼球粥",
         CONSUMABLES_NUMBER.major_food_min: "杂碎汤"
@@ -188,7 +188,7 @@ FOODS: Dict[str, dict | list] = {
         CONSUMABLES_NUMBER.minor_food_min: "鱼香肉丝"
     }
 }
-POTIONS: Dict[str, dict | list] = {
+POTIONS: Dict[str, Union[dict, list]] = {
     "身法": {
         CONSUMABLES_NUMBER.major_potion_max: "上品轻身丹",
         CONSUMABLES_NUMBER.major_potion_min: "中品轻身丹"
@@ -230,7 +230,7 @@ POTIONS: Dict[str, dict | list] = {
         CONSUMABLES_NUMBER.minor_potion_min: "中品玉璃散"
     }
 }
-WEAPON_ENCHANTS: Dict[str, dict | list] = {
+WEAPON_ENCHANTS: Dict[str, Union[dict, list]] = {
     "外攻": {
         CONSUMABLES_NUMBER.physical_enchant_max: "瀑沙熔锭",
         CONSUMABLES_NUMBER.physical_enchant_min: "瀑沙磨石"
@@ -240,7 +240,7 @@ WEAPON_ENCHANTS: Dict[str, dict | list] = {
         CONSUMABLES_NUMBER.magical_enchant_min: "坠宵磨石"
     }
 }
-SNACKS: Dict[str, dict | list] = {
+SNACKS: Dict[str, Union[dict, list]] = {
     "外攻": {
         CONSUMABLES_NUMBER.physical_snack_max: "创意料理",
         CONSUMABLES_NUMBER.physical_snack_min: "葫芦叫花鸡"
@@ -263,14 +263,14 @@ SNACKS: Dict[str, dict | list] = {
         CONSUMABLES_NUMBER.minor_snack_min: "清蒸鲈鱼"
     }
 }
-WINES: Dict[str, dict | list] = {
+WINES: Dict[str, Union[dict, list]] = {
     "身法": {CONSUMABLES_NUMBER.major_wine: "关外白酒·旬又三"},
     "力道": {CONSUMABLES_NUMBER.major_wine: "汾酒·旬又三"},
     "根骨": {CONSUMABLES_NUMBER.major_wine: "高粱酒·旬又三"},
     "元气": {CONSUMABLES_NUMBER.major_wine: "状元红·旬又三"},
     "加速": {CONSUMABLES_NUMBER.haste_wine: "女儿红·旬又三"}
 }
-SPREADS: Dict[str, dict | list] = {
+SPREADS: Dict[str, Union[dict, list]] = {
     "身法": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
     "力道": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
     "根骨": {CONSUMABLES_NUMBER.major_spread: "水晶芙蓉宴"},
@@ -282,7 +282,7 @@ SPREADS: Dict[str, dict | list] = {
 GUILD_FOOD = f"{CONSUMABLES_NUMBER.guild_food}无双"
 GUILD_SPREAD = f"{CONSUMABLES_NUMBER.guild_spread}破招/无双"
 
-BOILED_FISH: Dict[str, dict | list] = {
+BOILED_FISH: Dict[str, Union[dict, list]] = {
     "破招/无双": {
         CONSUMABLES_NUMBER.boiled_fish_max: "百炼水煮鱼",
         CONSUMABLES_NUMBER.boiled_fish_min: "炼狱水煮鱼"

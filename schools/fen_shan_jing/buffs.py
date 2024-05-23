@@ -1,9 +1,9 @@
-from typing import Dict
+from typing import Dict, Union
 
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-BUFFS: Dict[int, Buff | dict] = {
+BUFFS: Dict[int, Union[Buff, dict]] = {
     1428: {
         "buff_name": "军啸",
         "activate": False,

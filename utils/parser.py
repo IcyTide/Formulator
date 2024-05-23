@@ -6,7 +6,7 @@ from utils.lua import parse
 
 FRAME_TYPE, SECOND_TYPE = int, int
 PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
-CASTER_ID_TYPE = PLAYER_ID_TYPE | PET_ID_TYPE
+CASTER_ID_TYPE = Union[PLAYER_ID_TYPE, PET_ID_TYPE]
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
 SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
 BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE = int, int, int
@@ -44,8 +44,8 @@ class BaseParser:
     current_frame: FRAME_TYPE
     current_second: SECOND_TYPE
 
-    id2name: Dict[PLAYER_ID_TYPE | TARGET_ID_TYPE, PLAYER_NAME_TYPE]
-    name2id: Dict[PLAYER_NAME_TYPE, PLAYER_ID_TYPE | TARGET_ID_TYPE]
+    id2name: Dict[Union[CASTER_ID_TYPE, TARGET_ID_TYPE], PLAYER_NAME_TYPE]
+    name2id: Dict[PLAYER_NAME_TYPE, Union[CASTER_ID_TYPE, TARGET_ID_TYPE]]
     pet2employer: Dict[PET_ID_TYPE, PLAYER_ID_TYPE]
 
     records: Dict[PLAYER_ID_TYPE, Dict[TARGET_ID_TYPE, RECORD_TYPE]]
@@ -71,7 +71,7 @@ class BaseParser:
     end_frame: FRAME_TYPE
 
     select_talents: Dict[PLAYER_ID_TYPE, List[int]]
-    select_equipments: Dict[PLAYER_ID_TYPE, Dict[int, Dict[str, int | list]]]
+    select_equipments: Dict[PLAYER_ID_TYPE, Dict[int, Dict[str, Union[int, list]]]]
 
     players: Dict[PLAYER_ID_TYPE, School]
     targets: Dict[PLAYER_ID_TYPE, List[TARGET_ID_TYPE]]

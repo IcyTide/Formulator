@@ -8,7 +8,7 @@ from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
-from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you
+from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
 
 
@@ -196,6 +196,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=yin_long_jue.TALENT_DECODER, talent_encoder=yin_long_jue.TALENT_ENCODER,
         recipe_gains=yin_long_jue.RECIPE_GAINS, recipes=yin_long_jue.RECIPES,
         gains=yin_long_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
+    ),
+    10615: School(
+        id=10615, school="衍天", major="元气", kind="内功", attribute=tai_xuan_jing.TaiXuanJing, formation="九星游年阵",
+        skills=tai_xuan_jing.SKILLS, buffs=tai_xuan_jing.BUFFS, prepare=tai_xuan_jing.prepare,
+        talent_gains=tai_xuan_jing.TALENT_GAINS, talents=tai_xuan_jing.TALENTS,
+        talent_decoder=tai_xuan_jing.TALENT_DECODER, talent_encoder=tai_xuan_jing.TALENT_ENCODER,
+        recipe_gains=tai_xuan_jing.RECIPE_GAINS, recipes=tai_xuan_jing.RECIPES,
+        gains=tai_xuan_jing.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
     ),
     10627: School(
         id=10627, school="药宗", major="根骨", kind="内功", attribute=wu_fang.WuFang, formation="乱暮浊茵阵",

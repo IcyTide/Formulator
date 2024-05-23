@@ -1,7 +1,9 @@
+from typing import Dict, Union
+
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-BUFFS = {
+BUFFS: Dict[int, Union[Buff, dict]] = {
     9586: {
         "buff_name": "挥散",
         "activate": False,
