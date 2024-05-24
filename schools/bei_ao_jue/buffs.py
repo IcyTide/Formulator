@@ -12,7 +12,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             "physical_critical_power_gain": 41
         }
     },
-    -18384: {
+    18384: {
         "buff_name": "含风",
         "interval": 384,
         "gain_attributes": {
@@ -20,7 +20,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             "physical_critical_power_gain": 102
         }
     },
-    -23066: {
+    23066: {
         "buff_name": "含风",
         "interval": 384,
         "gain_skills": {

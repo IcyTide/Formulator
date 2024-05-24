@@ -20,7 +20,7 @@ and add the following files to your directory:
 ### Integrate Your School into UI
 Once the school framework is ready, make your school data available on our QT-UI:
 
-Open the **parser.py** under **utils** dir, and add your school into **SUPPORT_SCHOOL** dictionary like below:
+Open the **\_\_init__.py** under **schools** dir, and add your school into **SUPPORT_SCHOOL** dictionary like below:
 
 - key: the school id you can find in LUA or ask me
 - value: a School instance set by the details import from **schools/<YOUR_SCHOOL>**

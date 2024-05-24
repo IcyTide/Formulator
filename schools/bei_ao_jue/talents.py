@@ -35,16 +35,6 @@ class 阳关(Gain):
         skills[32859].skill_damage_addition -= 154
 
 
-class 含风(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[16610].pre_buffs[(-18384, 1)] = 1
-        skills[16610].pre_buffs[(-23066, 2)] = 1
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[16610].pre_buffs.pop((-18384, 1))
-        skills[16610].pre_buffs.pop((-23066, 2))
-
-
 class 星火(Gain):
     def add_attribute(self, attribute: Attribute):
         attribute.strength_gain += 102
@@ -75,7 +65,7 @@ TALENT_GAINS: Dict[int, Gain] = {
     26904: 冥鼓("冥鼔"),
     17042: 阳关("阳关"),
     16799: Gain("霜天"),
-    25633: 含风("含风"),
+    25633: Gain("含风"),
     32857: Gain("见尘"),
     17047: Gain("分疆"),
     25258: Gain("掠关"),

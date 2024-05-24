@@ -84,6 +84,16 @@ class PveAdditionRecipe(RecipeGain):
             skills[skill_id].skill_pve_addition -= self.value
 
 
+class ShieldGainRecipe(RecipeGain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].skill_shield_gain += self.value
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].skill_shield_gain -= self.value
+
+
 def interval_recipe(skill_ids, value, name="减少运功时间"):
     return IntervalRecipe(name, skill_ids, value)
 
@@ -102,6 +112,10 @@ def critical_strike_recipe(skill_ids, value, name="会心增加"):
 
 def pve_addition_recipe(skill_ids, value, name="非侠伤害增加"):
     return PveAdditionRecipe(name, skill_ids, value)
+
+
+def shield_gain_recipe(skill_ids, value, name="无视防御"):
+    return ShieldGainRecipe(name, skill_ids, value)
 
 
 def double_addition_recipe(

@@ -16,11 +16,6 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "weapon_damage_cof": 1024,
         "skill_damage_addition": 205
     },
-    3306: {
-        "skill_class": MixingDamage,
-        "skill_name": "铁爪",
-        "damage_rand": 20
-    },
     3401: {
         "skill_class": MixingDamage,
         "skill_name": "连弩",
@@ -50,6 +45,13 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_rand": 34,
         "damage_gain": 0.2,
         "attack_power_cof": 92 * 1.1 * 1.15 * 0.9 * 1.15 * 1.8 * 1.05
+    },
+    3223: {
+        "skill_class": MixingDamage,
+        "skill_name": "孔雀翎",
+        "damage_base": [e * 0.95 for e in [310, 41, 69, 99, 144, 189, 260, 310]],
+        "damage_rand": [e * 0.1 for e in [310, 41, 69, 99, 144, 189, 260, 310]],
+        "attack_power_cof": 130
     },
     3228: {
         "skill_class": MixingDamage,

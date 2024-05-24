@@ -54,18 +54,16 @@ def damage_addition_result(damage, damage_addition, extra_damage_addition):
 
 @cache
 def overcome_result(damage, overcome, shield_base, shield_gain, shield_ignore, shield_constant):
-    overcome = int(overcome * BINARY_SCALE)
+    overcome = int(overcome * BINARY_SCALE + BINARY_SCALE)
     defense = defense_result(shield_base, shield_gain, shield_ignore, shield_constant)
-    rate = (BINARY_SCALE + overcome) - int((BINARY_SCALE + overcome) * defense / BINARY_SCALE)
-    return int(damage * rate / BINARY_SCALE)
+    rate = (overcome - int(overcome * defense / BINARY_SCALE)) / BINARY_SCALE
+    return int(damage * rate)
 
 
 @cache
 def critical_result(damage, base_critical_power, critical_power_gain):
-    critical_power = int(base_critical_power * BINARY_SCALE)
-    critical_power += critical_power_gain
-    rate = critical_power / BINARY_SCALE
-    return int(damage * BASE_CRITICAL_POWER) + int(damage * rate)
+    critical_power = int(base_critical_power * BINARY_SCALE) + critical_power_gain
+    return int(damage * BASE_CRITICAL_POWER) + int(damage * critical_power / BINARY_SCALE)
 
 
 @cache

@@ -6,7 +6,7 @@ from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
 
-from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi
+from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
@@ -148,6 +148,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=du_jing.TALENT_DECODER, talent_encoder=du_jing.TALENT_ENCODER,
         recipe_gains=du_jing.RECIPE_GAINS, recipes=du_jing.RECIPES,
         gains=du_jing.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
+    ),
+    10224: School(
+        id=10224, school="唐门", major="力道", kind="外功", attribute=jing_yu_jue.JingYuJue, formation="流星赶月阵",
+        skills=jing_yu_jue.SKILLS, buffs=jing_yu_jue.BUFFS, prepare=jing_yu_jue.prepare,
+        talent_gains=jing_yu_jue.TALENT_GAINS, talents=jing_yu_jue.TALENTS,
+        talent_decoder=jing_yu_jue.TALENT_DECODER, talent_encoder=jing_yu_jue.TALENT_ENCODER,
+        recipe_gains=jing_yu_jue.RECIPE_GAINS, recipes=jing_yu_jue.RECIPES,
+        gains=jing_yu_jue.GAINS, display_attrs={"strength": "力道", **MIXING_DISPLAY_ATTRS}
     ),
     10225: School(
         id=10225, school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao, formation="千机百变阵",
