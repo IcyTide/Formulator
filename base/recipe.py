@@ -50,6 +50,16 @@ class DamageAdditionRecipe(RecipeGain):
             skills[skill_id].skill_damage_addition -= self.value
 
 
+class ExtraAdditionRecipe(RecipeGain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].extra_damage_addition += self.value
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].extra_damage_addition -= self.value
+
+
 class DoubleAdditionRecipe(DoubleRecipeGain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in self.attack_skill_ids:
@@ -104,6 +114,10 @@ def attack_power_recipe(skill_ids, value, name="系数增加"):
 
 def damage_addition_recipe(skill_ids, value, name="伤害增加"):
     return DamageAdditionRecipe(name, skill_ids, value)
+
+
+def extra_addition_recipe(skill_ids, value, name="伤害增加"):
+    return ExtraAdditionRecipe(name, skill_ids, value)
 
 
 def critical_strike_recipe(skill_ids, value, name="会心增加"):

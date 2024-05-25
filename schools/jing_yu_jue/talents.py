@@ -36,12 +36,12 @@ class 妙手连环(Gain):
 
 class 逐一击破(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in ():
+        for skill_id in (3095, 3125, 3187, 6920, 33870, 37504):
             skills[skill_id].skill_damage_addition += 103 + 103
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in ():
-            skills[skill_id].skill_damage_addition += 103 + 103
+        for skill_id in (3095, 3125, 3187, 6920, 33870, 37504):
+            skills[skill_id].skill_damage_addition -= 103 + 103
 
 
 TALENT_GAINS: Dict[int, Gain] = {

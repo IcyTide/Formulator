@@ -8,7 +8,7 @@ from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
-from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing
+from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing, fen_ying_sheng_jue
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
 
 
@@ -110,7 +110,8 @@ SUPPORT_SCHOOL = {
         gains=zi_xia_gong.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
     ),
     10015: School(
-        id=10015, school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi, formation="北斗七星阵",
+        id=10015, school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.TaiXuJianYi,
+        formation="北斗七星阵",
         skills=tai_xu_jian_yi.SKILLS, buffs=tai_xu_jian_yi.BUFFS, prepare=tai_xu_jian_yi.prepare,
         talent_gains=tai_xu_jian_yi.TALENT_GAINS, talents=tai_xu_jian_yi.TALENTS,
         talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
@@ -126,7 +127,8 @@ SUPPORT_SCHOOL = {
         gains=hua_jian_you.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
     ),
     10026: School(
-        id=10026, school="天策", major="力道", kind="外功", attribute=ao_xue_zhan_yi.AoXueZhanYi, formation="卫公折冲阵",
+        id=10026, school="天策", major="力道", kind="外功", attribute=ao_xue_zhan_yi.AoXueZhanYi,
+        formation="卫公折冲阵",
         skills=ao_xue_zhan_yi.SKILLS, buffs=ao_xue_zhan_yi.BUFFS, prepare=ao_xue_zhan_yi.prepare,
         talent_gains=ao_xue_zhan_yi.TALENT_GAINS, talents=ao_xue_zhan_yi.TALENTS,
         talent_decoder=ao_xue_zhan_yi.TALENT_DECODER, talent_encoder=ao_xue_zhan_yi.TALENT_ENCODER,
@@ -158,12 +160,22 @@ SUPPORT_SCHOOL = {
         gains=jing_yu_jue.GAINS, display_attrs={"strength": "力道", **MIXING_DISPLAY_ATTRS}
     ),
     10225: School(
-        id=10225, school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao, formation="千机百变阵",
+        id=10225, school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao,
+        formation="千机百变阵",
         skills=tian_luo_gui_dao.SKILLS, buffs=tian_luo_gui_dao.BUFFS, prepare=tian_luo_gui_dao.prepare,
         talent_gains=tian_luo_gui_dao.TALENT_GAINS, talents=tian_luo_gui_dao.TALENTS,
         talent_decoder=tian_luo_gui_dao.TALENT_DECODER, talent_encoder=tian_luo_gui_dao.TALENT_ENCODER,
         recipe_gains=tian_luo_gui_dao.RECIPE_GAINS, recipes=tian_luo_gui_dao.RECIPES,
         gains=tian_luo_gui_dao.GAINS, display_attrs={"spunk": "元气", **MIXING_DISPLAY_ATTRS}
+    ),
+    10242: School(
+        id=10242, school="明教", major="元气", kind="内功", attribute=fen_ying_sheng_jue.FenYingShengJue,
+        formation="炎威破魔阵",
+        skills=fen_ying_sheng_jue.SKILLS, buffs=fen_ying_sheng_jue.BUFFS, prepare=fen_ying_sheng_jue.prepare,
+        talent_gains=fen_ying_sheng_jue.TALENT_GAINS, talents=fen_ying_sheng_jue.TALENTS,
+        talent_decoder=fen_ying_sheng_jue.TALENT_DECODER, talent_encoder=fen_ying_sheng_jue.TALENT_ENCODER,
+        recipe_gains=fen_ying_sheng_jue.RECIPE_GAINS, recipes=fen_ying_sheng_jue.RECIPES,
+        gains=fen_ying_sheng_jue.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
     ),
     10390: School(
         id=10390, school="苍云", major="身法", kind="外功", attribute=fen_shan_jing.FenShanJing, formation="锋凌横绝阵",
@@ -230,7 +242,8 @@ SUPPORT_SCHOOL = {
         gains=gu_feng_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10756: School(
-        id=10756, school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.ShanHaiXinJue, formation="苍梧引灵阵",
+        id=10756, school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.ShanHaiXinJue,
+        formation="苍梧引灵阵",
         skills=shan_hai_xin_jue.SKILLS, buffs=shan_hai_xin_jue.BUFFS, prepare=shan_hai_xin_jue.prepare,
         talent_gains=shan_hai_xin_jue.TALENT_GAINS, talents=shan_hai_xin_jue.TALENTS,
         talent_decoder=shan_hai_xin_jue.TALENT_DECODER, talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,

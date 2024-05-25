@@ -3,15 +3,15 @@ from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from base.gain import Gain
 
 GAINS = {
-    1911: CriticalSet(1436),
-    818: damage_addition_recipe([3848, 3849, 3850, 271], 102),
-    1147: damage_addition_recipe([13685], 102),
-    1512: damage_addition_recipe([17641], 51),
-    1513: damage_addition_recipe([3814, 3816], 51),
-    1139: critical_strike_recipe([3848, 3849, 3850, 271], 500),
-    2410: Gain(),
-    1928: Gain(),
-    17351: Gain(),
-    17352: Gain(),
+    1922: CriticalSet(4671),
+    948: damage_addition_recipe([4483 + i for i in range(8)] + [4476] + [26916], 102),
+    1542: damage_addition_recipe([4480, 4482], 51),
+    1543: damage_addition_recipe([4483 + i for i in range(8)] + [4476] + [26916], 51),
+    1148: critical_strike_recipe([13468, 4202], 500),
+    1149: critical_strike_recipe([3963], 500),
+    2421: Gain(),
+    1938: Gain(),
+    17332: Gain(),
+    17334: Gain(),
     **EQUIPMENT_GAINS,
 }

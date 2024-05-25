@@ -16,9 +16,9 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "5%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 51),
         "4%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 41),
         "3%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 31),
-        "4%会心": critical_strike_recipe([3848, 3849, 3850], 400),
-        "3%会心": critical_strike_recipe([3848, 3849, 3850], 300),
-        "2%会心": critical_strike_recipe([3848, 3849, 3850], 200),
+        "4%会心": critical_strike_recipe([3848, 3849, 3850, 271], 400),
+        "3%会心": critical_strike_recipe([3848, 3849, 3850, 271], 300),
+        "2%会心": critical_strike_recipe([3848, 3849, 3850, 271], 200),
     },
     "捕风式": {
         "15%伤害": damage_addition_recipe([14951], 150),

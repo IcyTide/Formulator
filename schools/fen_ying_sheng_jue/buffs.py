@@ -61,7 +61,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "gain_skills": {
             skill_id: {
                 "skill_attack_power": 246,
-            } for skill_id in [4036, 34374] + [34349] + [4476]
+            } for skill_id in [4036, 25726] + [34349] + [4476]
         }
     },
     25759: {
@@ -70,7 +70,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             skill_id: {
                 "skill_critical_strike": 1500,
                 "skill_critical_power": 102
-            } for skill_id in [4035, 34373] + [34348] + [4483 + i for i in range(8)] + [26916]
+            } for skill_id in [4035, 25725] + [34348] + [4483 + i for i in range(8)] + [26916]
         }
     },
 }

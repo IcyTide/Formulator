@@ -1,49 +1,49 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import damage_addition_recipe, extra_addition_recipe, critical_strike_recipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
-    "普渡四方": {
-        "5%伤害": damage_addition_recipe([17641], 51),
-        "4%伤害": damage_addition_recipe([17641], 41),
-        "3%伤害": damage_addition_recipe([17641], 31),
+    "烈日斩": {
+        "10%伤害": extra_addition_recipe([3963], 51),
+        "5%伤害": damage_addition_recipe([3963], 51),
+        "4%伤害": damage_addition_recipe([3963], 41),
+        "3%伤害": damage_addition_recipe([3963], 31),
+        "4%会心": critical_strike_recipe([3963], 400),
+        "3%会心": critical_strike_recipe([3963], 300)
     },
-    "横扫六合": {
-        "50%伤害": damage_addition_recipe([3810], 512),
+    "银月斩": {
+        "5%会心": critical_strike_recipe([13468, 402], 500),
+        "4%会心": critical_strike_recipe([13468, 402], 400),
+        "3%会心": critical_strike_recipe([13468, 402], 300)
     },
-    "韦陀献杵": {
-        "5%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 51),
-        "4%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 41),
-        "3%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 31),
-        "4%会心": critical_strike_recipe([3848, 3849, 3850], 400),
-        "3%会心": critical_strike_recipe([3848, 3849, 3850], 300),
-        "2%会心": critical_strike_recipe([3848, 3849, 3850], 200),
+    "生死劫": {
+        "5%伤害": damage_addition_recipe([4036, 25726, 4035, 25725], 51),
+        "4%伤害": damage_addition_recipe([4036, 25726, 4035, 25725], 41),
+        "3%伤害": damage_addition_recipe([4036, 25726, 4035, 25725], 31),
     },
-    "捕风式": {
-        "15%伤害": damage_addition_recipe([14951], 150),
-        "10%伤害": damage_addition_recipe([14951], 102),
+    "净世破魔击": {
+        "5%伤害": damage_addition_recipe([4483 + i for i in range(8)] + [4476] + [26916], 51),
+        "4%伤害": damage_addition_recipe([4483 + i for i in range(8)] + [4476] + [26916], 41),
+        "3%伤害": damage_addition_recipe([4483 + i for i in range(8)] + [4476] + [26916], 31),
+        "5%会心": critical_strike_recipe([4483 + i for i in range(8)] + [4476] + [26916], 500),
+        "4%会心": critical_strike_recipe([4483 + i for i in range(8)] + [4476] + [26916], 400),
+        "3%会心": critical_strike_recipe([4483 + i for i in range(8)] + [4476] + [26916], 300),
     },
-    "守缺式": {
-        "5%伤害": damage_addition_recipe([3814, 3816], 51),
-        "4%伤害": damage_addition_recipe([3814, 3816], 41),
-        "3%伤害": damage_addition_recipe([3814, 3816], 31),
-        "4%会心": critical_strike_recipe([3814, 3816], 400),
-        "3%会心": critical_strike_recipe([3814, 3816], 300),
-        "2%会心": critical_strike_recipe([3814, 3816], 200),
-    },
-    "拿云式": {
-        "5%伤害": damage_addition_recipe([13685], 51),
-        "4%伤害": damage_addition_recipe([13685], 41),
-        "3%伤害": damage_addition_recipe([13685], 31)
+    "驱夜断愁": {
+        "5%伤害": damage_addition_recipe([4480, 4482], 51),
+        "4%伤害": damage_addition_recipe([4480, 4482], 41),
+        "3%伤害": damage_addition_recipe([4480, 4482], 31),
+        "5%会心": critical_strike_recipe([4480, 4482], 500),
+        "4%会心": critical_strike_recipe([4480, 4482], 400),
+        "3%会心": critical_strike_recipe([4480, 4482], 300),
     },
 }
 
 RECIPES: Dict[str, List[str]] = {
-    "普渡四方": ["5%伤害", "4%伤害", "3%伤害"],
-    "横扫六合": ["50%伤害"],
-    "韦陀献杵": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "捕风式": ["15%伤害", "10%伤害", "10%伤害"],
-    "守缺式": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "拿云式": ["5%伤害", "4%伤害", "3%伤害"],
+    "烈日斩": ["10%伤害", "5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心"],
+    "银月斩": ["5%会心", "4%会心", "3%会心"],
+    "生死劫": ["5%伤害", "4%伤害", "3%伤害"],
+    "净世破魔击": ["5%伤害", "5%会心", "4%伤害", "4%会心", "3%伤害", "3%会心"],
+    "驱夜断愁": ["5%伤害", "5%会心", "4%伤害", "4%会心", "3%伤害", "3%会心"]
 }
