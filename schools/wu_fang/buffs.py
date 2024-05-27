@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "断肠",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     20680: {
@@ -42,6 +42,13 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             28081: {
                 "skill_damage_addition": 3277,
             }
+        }
+    },
+    20699: {
+        "buff_name": "养荣",
+        "gain_attributes": {
+            "magical_overcome_gain": 256,
+            "strain_gain": 307
         }
     }
 }

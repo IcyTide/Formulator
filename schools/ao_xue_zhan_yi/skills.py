@@ -143,10 +143,12 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "attack_power_cof": 197 * 1.1 * 1.1 * 1.15 * 0.4 * 1.1 * 1.1 * 1.12 * 0.9 * 1.1 * 1.05,
         "weapon_damage_cof": 1024 * 0.1
     },
-    1850: {
-        "skill_class": Skill,
-        "skill_name": "特效触发",
-        "post_buffs": {(-1, 1): 5}
+    **{
+        skill_id: {
+            "skill_class": Skill,
+            "skill_name": "特效触发",
+            "post_buffs": {(-1, 1): 5}
+        } for skill_id in (1850, 1861)
     },
     25772: {
         "skill_class": PhysicalDamage,

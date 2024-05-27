@@ -164,7 +164,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "skill_class": PhysicalDotDamage,
         "skill_name": "寂洪荒(DOT)",
         "damage_base": 25,
-        "attack_power_cof": 250 * 1.2 * 1.15,
+        "attack_power_cof": 250 * 1.2 * 1.15 * 1.2,
         "interval": 48,
         "tick": 5,
         "max_stack": 3,

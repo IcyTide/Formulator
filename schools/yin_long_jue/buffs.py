@@ -8,16 +8,16 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "雷引",
         "activate": False,
         "gain_attributes": {
-            "physical_critical_strike_gain": 400,
-            "physical_critical_power_gain": 41
+            "physical_critical_strike_rate": 400,
+            "physical_critical_power_rate": 41
         }
     },
     16596: {
         "buff_name": "崔嵬鬼步",
         "gain_attributes": {
             "physical_attack_power_gain": 154,
-            "physical_critical_strike_gain": 1500,
-            "physical_critical_power_gain": 150
+            "physical_critical_strike_rate": 1500,
+            "physical_critical_power_rate": 150
         }
     },
     15893: {

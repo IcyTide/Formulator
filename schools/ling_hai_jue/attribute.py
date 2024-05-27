@@ -10,7 +10,6 @@ class LingHaiJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3621
         self.physical_critical_strike_base += 2158
-        self.pve_addition += 31
 
     @property
     def extra_physical_attack_power(self):

@@ -190,7 +190,7 @@ class BaseSkill:
             self._skill_critical_strike = skill_critical_strike
         else:
             self._skill_critical_strike = [skill_critical_strike]
-    
+
 
 @dataclass
 class Skill(BaseSkill):
@@ -256,7 +256,7 @@ class Skill(BaseSkill):
         self.pre_record(parser)
         self.record(critical, parser)
         self.post_record(parser)
-        
+
     def __call__(self, attribute: Attribute):
         return 0
 
@@ -309,8 +309,8 @@ class Damage(Skill):
             (parser.current_frame - parser.start_frame, critical)
         )
         return skill_tuple, status_tuple
-        
-        
+
+
 class DotDamage(Damage):
     def record(self, critical, parser):
         skill_tuple, status_tuple = super().record(critical, parser)
@@ -331,6 +331,7 @@ class NpcDamage(Damage):
 
 
 class PetDamage(Damage):
+
     def __call__(self, attribute: Attribute):
         attack_power = int(attribute.attack_power * 0.87 + attribute.surplus * 59 / 1664)
         damage = init_result(
@@ -346,14 +347,14 @@ class PetDamage(Damage):
                                  attribute.shield_gain + self.skill_shield_gain,
                                  0,
                                  attribute.shield_constant)
-
-        critical_power_gain = attribute.critical_power_gain + self.skill_critical_power
-        critical_damage = critical_result(damage, attribute.base_critical_power, critical_power_gain)
+        
+        critical_power = attribute.critical_power + self.skill_critical_power / BINARY_SCALE
+        critical_damage = critical_result(damage, critical_power)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
-        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
         damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)
@@ -378,20 +379,20 @@ class PureSkill(Skill):
 class PhysicalSkill(Skill):
     def pre_damage(self, attribute: Attribute):
         attribute.physical_attack_power_gain += self.skill_attack_power
-        attribute.physical_critical_strike_gain += self.skill_critical_strike
-        attribute.physical_critical_power_gain += self.skill_critical_power
+        attribute.physical_critical_strike_rate += self.skill_critical_strike
+        attribute.physical_critical_power_rate += self.skill_critical_power
         attribute.physical_damage_addition += self.skill_damage_addition
         attribute.pve_addition += self.skill_pve_addition
         attribute.physical_shield_gain += self.skill_shield_gain
 
     def post_damage(self, attribute: Attribute):
         attribute.physical_attack_power_gain -= self.skill_attack_power
-        attribute.physical_critical_strike_gain -= self.skill_critical_strike
-        attribute.physical_critical_power_gain -= self.skill_critical_power
+        attribute.physical_critical_strike_rate -= self.skill_critical_strike
+        attribute.physical_critical_power_rate -= self.skill_critical_power
         attribute.physical_damage_addition -= self.skill_damage_addition
         attribute.pve_addition -= self.skill_pve_addition
         attribute.physical_shield_gain -= self.skill_shield_gain
-        
+
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)
         damage = init_result(
@@ -410,14 +411,12 @@ class PhysicalSkill(Skill):
                                  attribute.physical_shield_ignore,
                                  attribute.shield_constant)
 
-        critical_damage = critical_result(
-            damage, attribute.base_physical_critical_power, attribute.physical_critical_power_gain
-        )
+        critical_damage = critical_result(damage, attribute.physical_critical_power)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
-        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
         damage = pve_addition_result(damage, attribute.pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
         damage = vulnerable_result(damage, attribute.physical_vulnerable)
@@ -432,20 +431,20 @@ class PhysicalSkill(Skill):
 class MagicalSkill(Skill):
     def pre_damage(self, attribute: Attribute):
         attribute.magical_attack_power_gain += self.skill_attack_power
-        attribute.magical_critical_strike_gain += self.skill_critical_strike
-        attribute.magical_critical_power_gain += self.skill_critical_power
+        attribute.magical_critical_strike_rate += self.skill_critical_strike
+        attribute.magical_critical_power_rate += self.skill_critical_power
         attribute.magical_damage_addition += self.skill_damage_addition
         attribute.pve_addition += self.skill_pve_addition
         attribute.magical_shield_gain += self.skill_shield_gain
 
     def post_damage(self, attribute: Attribute):
         attribute.magical_attack_power_gain -= self.skill_attack_power
-        attribute.magical_critical_strike_gain -= self.skill_critical_strike
-        attribute.magical_critical_power_gain -= self.skill_critical_power
+        attribute.magical_critical_strike_rate -= self.skill_critical_strike
+        attribute.magical_critical_power_rate -= self.skill_critical_power
         attribute.magical_damage_addition -= self.skill_damage_addition
         attribute.pve_addition -= self.skill_pve_addition
         attribute.magical_shield_gain -= self.skill_shield_gain
-        
+
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)
         damage = init_result(
@@ -464,14 +463,12 @@ class MagicalSkill(Skill):
                                  attribute.magical_shield_ignore,
                                  attribute.shield_constant)
 
-        critical_damage = critical_result(
-            damage, attribute.base_magical_critical_power, attribute.magical_critical_power_gain
-        )
+        critical_damage = critical_result(damage, attribute.magical_critical_power)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
-        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
         damage = pve_addition_result(damage, attribute.pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
         damage = vulnerable_result(damage, attribute.magical_vulnerable)
@@ -501,13 +498,13 @@ class AdaptiveSkill(Skill):
                                  attribute.shield_ignore,
                                  attribute.shield_constant)
 
-        critical_power_gain = attribute.critical_power_gain + self.skill_critical_power
-        critical_damage = critical_result(damage, attribute.base_critical_power, critical_power_gain)
+        critical_power = attribute.critical_power + self.skill_critical_power / BINARY_SCALE
+        critical_damage = critical_result(damage, critical_power)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.base_strain, attribute.strain_gain)
-        critical_damage = strain_result(critical_damage, attribute.base_strain, attribute.strain_gain)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
         damage = pve_addition_result(damage, attribute.pve_addition + self.skill_pve_addition)
         critical_damage = pve_addition_result(critical_damage, attribute.pve_addition + self.skill_pve_addition)
         damage = vulnerable_result(damage, attribute.vulnerable)

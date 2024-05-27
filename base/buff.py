@@ -72,6 +72,12 @@ class Buff(BaseBuff):
 
         return value
 
+    def begin(self, parser):
+        pass
+
+    def end(self, parser):
+        pass
+
     def attribute_value(self, values):
         return self.value(values, True)
 

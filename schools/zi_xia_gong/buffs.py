@@ -8,22 +8,22 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "气涌",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     375: {
         "buff_name": "破苍穹",
         "gain_attributes": {
-            "magical_critical_strike_gain": [300, 350, 400, 450, 0, 600, 700, 800, 900, 500, 500, 1000, 500, 1000],
-            "magical_critical_power_gain": [61, 71, 81, 82, 102, 122, 143, 163, 184, 102, 102, 204, 102, 204],
+            "magical_critical_strike_rate": [300, 350, 400, 450, 0, 600, 700, 800, 900, 500, 500, 1000, 500, 1000],
+            "magical_critical_power_rate": [61, 71, 81, 82, 102, 122, 143, 163, 184, 102, 102, 204, 102, 204],
             "all_shield_ignore": [0] * 12 + [614] * 2
         }
     },
     1908: {
         "buff_name": "会神",
         "gain_attributes": {
-            "magical_critical_power_gain": 204,
+            "magical_critical_power_rate": 204,
         }
     },
     2757: {
@@ -32,8 +32,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "gain_attributes": {
             "physical_attack_power_gain": [256, 256, 512, 256],
             "magical_attack_power_gain": [256, 256, 512, 256],
-            "all_critical_strike_gain": 2500,
-            "all_critical_power_gain": 256
+            "all_critical_strike_rate": 2500,
+            "all_critical_power_rate": 256
         }
     },
     9966: {

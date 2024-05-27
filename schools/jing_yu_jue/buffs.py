@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "神力",
         "activate": False,
         "gain_attributes": {
-            "physical_critical_strike_gain": 400,
-            "physical_critical_power_gain": 41
+            "physical_critical_strike_rate": 400,
+            "physical_critical_power_rate": 41
         }
     },
     3254: {
@@ -30,15 +30,15 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     8210: {
         "buff_name": "心无旁骛",
         "gain_attributes": {
-            "physical_critical_strike_gain": 1500,
-            "physical_critical_power_gain": 300
+            "physical_critical_strike_rate": 1500,
+            "physical_critical_power_rate": 300
         }
     },
     9981: {
         "buff_name": "秋风散影",
         "gain_attributes": {
-            "physical_critical_strike_gain": 1000,
-            "physical_critical_power_gain": 102
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 102
         }
     },
     # 23074: {

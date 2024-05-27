@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "军啸",
         "activate": False,
         "gain_attributes": {
-            "physical_critical_strike_gain": 400,
-            "physical_critical_power_gain": 41
+            "physical_critical_strike_rate": 400,
+            "physical_critical_power_rate": 41
         }
     },
     -1: {
@@ -27,7 +27,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "gain_attributes": {
             "physical_attack_power_gain": [205, 0, 205, 0],
             "physical_overcome_gain": [205, 0, 205, 0],
-            "physical_critical_strike_gain": [0, 3000, 3000, 3000],
+            "physical_critical_strike_rate": [0, 3000, 3000, 3000],
             "all_shield_ignore": [0, 0, 0, 717]
         }
     },
@@ -40,8 +40,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     7671: {
         "buff_name": "牧云",
         "gain_attributes": {
-            "physical_critical_strike_gain": 300,
-            "physical_critical_power_gain": 102
+            "physical_critical_strike_rate": 300,
+            "physical_critical_power_rate": 102
         }
     },
     21638: {
@@ -53,7 +53,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     -12608: {
         "buff_name": "风虎",
         "activate": False,
-        "interval": 16,
+        "interval": 1,
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": [51, 102, 154, 205, 256]

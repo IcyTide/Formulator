@@ -10,7 +10,7 @@ class GuFengJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3346
         self.physical_critical_strike_base += 2775
-        self.pve_addition += 61
+        self.pve_addition += 133
 
     @property
     def extra_physical_attack_power(self):

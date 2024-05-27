@@ -61,9 +61,9 @@ def overcome_result(damage, overcome, shield_base, shield_gain, shield_ignore, s
 
 
 @cache
-def critical_result(damage, base_critical_power, critical_power_gain):
-    critical_power = int(base_critical_power * BINARY_SCALE) + critical_power_gain
-    return int(damage * BASE_CRITICAL_POWER) + int(damage * critical_power / BINARY_SCALE)
+def critical_result(damage, critical_power):
+    rate = int((critical_power - BASE_CRITICAL_POWER) * BINARY_SCALE) / BINARY_SCALE
+    return int(damage * BASE_CRITICAL_POWER) + int(damage * rate)
 
 
 @cache
@@ -72,9 +72,9 @@ def level_reduction_result(damage, level_reduction):
 
 
 @cache
-def strain_result(damage, base_strain, strain_gain):
-    strain = int(base_strain * BINARY_SCALE) + strain_gain
-    return int(damage * (1 + strain / BINARY_SCALE))
+def strain_result(damage, strain):
+    rate = int(strain * BINARY_SCALE) / BINARY_SCALE
+    return int(damage * (1 + rate))
 
 
 @cache

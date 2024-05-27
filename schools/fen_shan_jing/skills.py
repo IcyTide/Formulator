@@ -3,6 +3,36 @@ from typing import Dict, Union
 from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
 from general.skills import GENERAL_SKILLS
 
+
+class 盾压(PhysicalDamage):
+    def record(self, critical, parser):
+        if parser.current_buff_stacks.get((8474, 13)):
+            self.post_buffs[(-1, 1)] = 15 * 2
+        else:
+            self.post_buffs[(-1, 1)] = 15
+
+        super().record(critical, parser)
+
+
+class 绝刀(PhysicalDamage):
+    final_buff = -9052
+    bind_buff = -1
+
+    def record(self, critical, parser):
+        current_rage = parser.current_buff_stacks.get((-1, 1), 0)
+        cost_rage = min(current_rage, 50)
+        buff_level = cost_rage // 10 - 1
+        if buff_level > 0:
+            parser.refresh_buff(self.final_buff, buff_level)
+        if parser.current_buff_stacks.get((8451, 1)):
+            self.post_buffs[(-1, 1)] = 0
+        elif parser.current_buff_stacks.get((8474, 13)):
+            self.post_buffs[(-1, 1)] = 0
+        else:
+            self.post_buffs[(-1, 1)] = -cost_rage
+        super().record(critical, parser)
+
+
 SKILLS: Dict[int, Union[Skill, dict]] = {
     32745: {
         "skill_class": PhysicalDamage,
@@ -34,10 +64,11 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                                 [100 * 1.05 * 1.05 * 1.1 * 1.1],
             "weapon_damage_cof": 1024,
             "skill_shield_gain": -512,
+            "post_buffs": {(-1, 1): 10}
         } for skill_id in (13106, 13160, 13161)
     },
     19409: {
-        "skill_class": PhysicalDamage,
+        "skill_class": 盾压,
         "skill_name": "盾压",
         "damage_base": [30, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315, 330, 345,
                         360, 375, 390, 405],
@@ -48,7 +79,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "attack_power_cof": [40 * 1.05 * 1.05 * 1.05 * 1.1] * 4 +
                             [(40 + (i - 4) * 7) * 1.05 * 1.05 * 1.05 * 1.1 for i in range(5, 24)] +
                             [190 * 1.05 * 1.05 * 1.05 * 1.1],
-        "weapon_damage_cof": 1024,
+        "weapon_damage_cof": 1024
     },
     13099: {
         "skill_class": PhysicalDamage,
@@ -63,6 +94,12 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [(40 + (i - 4) * 4) * 1.05 * 1.05 * 1.05 for i in range(5, 25)] +
                             [150 * 1.05 * 1.05 * 1.05],
         "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): 15}
+    },
+    13040: {
+        "skill_class": Skill,
+        "skill_name": "血怒",
+        "post_buffs": {(-1, 1): 10 + 15}
     },
     13463: {
         "skill_class": PhysicalDamage,
@@ -75,6 +112,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [16 + (i - 4) * 1 for i in range(5, 18)] +
                             [35],
         "weapon_damage_cof": 1024,
+        "post_target_buffs": {(-8248, 1): 1}
     },
     13044: {
         "skill_class": PhysicalDamage,
@@ -87,6 +125,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [(16 + (i - 4) * 3) * 1.05 * 1.05 * 1.1 for i in range(5, 33)] +
                             [100 * 1.05 * 1.05 * 1.1],
         "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): 5}
     },
     8249: {
         "skill_class": PhysicalDotDamage,
@@ -101,10 +140,11 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
     29188: {
         "skill_class": DotSkill,
         "skill_name": "流血",
-        "bind_skill": 8249
+        "bind_skill": 8249,
+        "post_target_buffs": {(-8248, 1): -1}
     },
     13075: {
-        "skill_class": PhysicalDamage,
+        "skill_class": 绝刀,
         "skill_name": "绝刀",
         "damage_base": [240, 270, 300, 330, 350, 370, 390, 410, 430, 450, 470, 490, 510, 540, 570, 600, 630, 660, 690,
                         720],
@@ -116,7 +156,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [(60 + (i - 4) * 12) * 0.9 * 0.75 * 0.9 * 1.1 * 1.05 * 1.05 * 1.05 * 1.22 * 1.05 * 1.05 *
                              1.1 * 1.06 for i in range(5, 20)] +
                             [250 * 0.75 * 0.9 * 1.1 * 1.05 * 1.05 * 1.05 * 1.22 * 1.05 * 1.05 * 1.1 * 1.06],
-        "weapon_damage_cof": 1024,
+        "weapon_damage_cof": 1024
     },
     13092: {
         "skill_class": PhysicalDamage,
@@ -132,6 +172,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                              for i in range(5, 22)] +
                             [250 * 0.9 * 0.85 * 1.05 * 1.1 * 1.15 * 1.15 * 1.05 * 1.1 * 1.1 * 1.06 * 1.2],
         "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): -15}
     },
     28479: {
         "skill_class": PhysicalDamage,
@@ -147,6 +188,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                              for i in range(10, 28)] +
                             [160 * 1.1 * 1.05 * 1.1 * 1.05 * 1.1 * 1.05 * 1.06],
         "weapon_damage_cof": 1024,
+        "post_buffs": {(-1, 1): -5}
     },
     36065: {
         "skill_class": PhysicalDamage,

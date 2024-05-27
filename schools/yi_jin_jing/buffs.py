@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "佛吼",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     890: {
@@ -57,8 +57,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     24285: {
         "buff_name": "金刚日轮",
         "gain_attributes": {
-            "magical_critical_strike_gain": 600,
-            "magical_critical_power_gain": 62
+            "magical_critical_strike_rate": 600,
+            "magical_critical_power_rate": 62
         }
     },
     13910: {
@@ -85,7 +85,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         }
     },
     1919: {
-        "buff_name": "桑莲妙境",
+        "buff_name": "特效触发",
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 922

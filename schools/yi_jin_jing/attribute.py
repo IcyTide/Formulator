@@ -9,7 +9,7 @@ class YiJinJing(MagicalAttribute):
     def __init__(self):
         super().__init__()
         self.magical_attack_power_base += 4139
-        self.pve_addition += 102
+        self.pve_addition += 62
 
     @property
     def extra_magical_attack_power(self):

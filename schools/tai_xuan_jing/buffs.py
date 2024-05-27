@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "星悬",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     28303: {

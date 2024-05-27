@@ -108,18 +108,18 @@ class 秋肃(TeamGain):
 
 
 class 皎素(TeamGain):
-    gain_attributes = {"all_critical_power_gain": 51}
+    gain_attributes = {"all_critical_power_rate": 51}
 
 
 """ 纯阳 """
 
 
 class 碎星辰(TeamGain):
-    gain_attributes = {"physical_critical_power_gain": 100}
+    gain_attributes = {"physical_critical_power_rate": 100}
 
 
 class 破苍穹:
-    gain_attributes = {"magical_critical_power_gain": 100}
+    gain_attributes = {"magical_critical_power_rate": 100}
 
 
 """ 藏剑 """
@@ -152,7 +152,7 @@ class 朝圣言(TeamGain):
 
 
 class 酒中仙(TeamGain):
-    gain_attributes = {"physical_critical_strike_gain": 100}
+    gain_attributes = {"physical_critical_strike_rate": 100}
 
 
 """ 苍云 """

@@ -10,7 +10,7 @@ class TianLuoGuiDao(MixingAttribute):
         super().__init__()
         self.magical_attack_power_base += 3725
         self.physical_critical_strike_base += 1279
-        self.pve_addition += 41
+        self.pve_addition += 21
 
     @property
     def extra_magical_attack_power(self):

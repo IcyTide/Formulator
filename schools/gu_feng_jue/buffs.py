@@ -8,16 +8,16 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "朔气",
         "activate": False,
         "gain_attributes": {
-            "physical_critical_strike_gain": 400,
-            "physical_critical_power_gain": 41
+            "physical_critical_strike_rate": 400,
+            "physical_critical_power_rate": 41
         }
     },
     24553: {
         "buff_name": "灭影追风",
         "gain_attributes": {
             "physical_overcome_gain": 102,
-            "physical_critical_strike_gain": 1000,
-            "physical_critical_power_gain": 100
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 100
         }
     },
     24557: {
@@ -40,7 +40,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     24209: {
         "buff_name": "流岚",
         "gain_attributes": {
-            "all_shield_ignore": 410
+            "all_shield_ignore": 256
         }
     },
     -24056: {

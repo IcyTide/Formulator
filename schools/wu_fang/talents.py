@@ -36,7 +36,8 @@ TALENT_GAINS: Dict[int, Gain] = {
     28433: Gain("紫伏"),
     30734: Gain("折枝拂露"),
     28443: Gain("甘遂"),
-    32896: Gain("应理与药")
+    32896: Gain("应理与药"),
+    28426: Gain("养荣")
 }
 
 TALENTS = [
@@ -51,7 +52,7 @@ TALENTS = [
     [28432],
     [28433, 30734],
     [28443],
-    [32896]
+    [32896, 28426]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

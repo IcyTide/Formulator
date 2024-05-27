@@ -63,12 +63,12 @@ class Major:
     magical_attack_power_gain: int = 0
 
     _all_critical_strike_base: int = 0
-    _all_critical_strike_gain: int = 0
+    _all_critical_strike_rate: int = 0
 
     physical_critical_strike_base: int = 0
-    physical_critical_strike_gain: int = 0
+    physical_critical_strike_rate: int = 0
     magical_critical_strike_base: int = 0
-    magical_critical_strike_gain: int = 0
+    magical_critical_strike_rate: int = 0
 
     physical_overcome_base: int = 0
     physical_overcome_gain: int = 0
@@ -169,15 +169,15 @@ class Major:
         self._all_critical_strike_base = all_critical_strike_base
 
     @property
-    def all_critical_strike_gain(self):
-        return self._all_critical_strike_gain
+    def all_critical_strike_rate(self):
+        return self._all_critical_strike_rate
 
-    @all_critical_strike_gain.setter
-    def all_critical_strike_gain(self, all_critical_strike_gain):
-        residual = all_critical_strike_gain - self._all_critical_strike_gain
-        self.physical_critical_strike_gain += residual
-        self.magical_critical_strike_gain += residual
-        self._all_critical_strike_gain = all_critical_strike_gain
+    @all_critical_strike_rate.setter
+    def all_critical_strike_rate(self, all_critical_strike_rate):
+        residual = all_critical_strike_rate - self._all_critical_strike_rate
+        self.physical_critical_strike_rate += residual
+        self.magical_critical_strike_rate += residual
+        self._all_critical_strike_rate = all_critical_strike_rate
 
     @property
     def extra_physical_critical_strike(self):
@@ -194,7 +194,7 @@ class Major:
 
     @property
     def physical_critical_strike(self):
-        return self.physical_critical_strike_percent + self.physical_critical_strike_gain / DECIMAL_SCALE
+        return self.physical_critical_strike_percent + self.physical_critical_strike_rate / DECIMAL_SCALE
 
     @property
     def extra_magical_critical_strike(self):
@@ -211,7 +211,7 @@ class Major:
 
     @property
     def magical_critical_strike(self):
-        return self.magical_critical_strike_percent + self.magical_critical_strike_gain / DECIMAL_SCALE
+        return self.magical_critical_strike_percent + self.magical_critical_strike_rate / DECIMAL_SCALE
 
     """ Overcome Function"""
 
@@ -260,16 +260,17 @@ class Minor:
 
     strain_base: int = 0
     strain_gain: int = 0
+    strain_rate: int = 0
 
     haste_base: int = 0  # Not Apply
 
     _all_critical_power_base: int = 0
-    _all_critical_power_gain: int = 0
+    _all_critical_power_rate: int = 0
 
     physical_critical_power_base: int = 0
-    physical_critical_power_gain: int = 0
+    physical_critical_power_rate: int = 0
     magical_critical_power_base: int = 0
-    magical_critical_power_gain: int = 0
+    magical_critical_power_rate: int = 0
 
     weapon_damage_rand: int = 0
     weapon_damage_base: int = 0
@@ -294,21 +295,17 @@ class Minor:
         return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
 
     @property
-    def base_strain(self):
-        return self.strain_base / STRAIN_SCALE
+    def final_strain(self):
+        return int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
 
     @property
     def strain(self):
-        return self.base_strain + self.strain_gain / BINARY_SCALE
+        return self.final_strain / STRAIN_SCALE + self.strain_rate / BINARY_SCALE
 
     """ Critical Power Function"""
 
     @property
-    def base_critical_power(self):
-        raise NotImplementedError
-
-    @property
-    def critical_power_gain(self):
+    def critical_power(self):
         raise NotImplementedError
 
     @property
@@ -323,15 +320,15 @@ class Minor:
         self._all_critical_power_base = all_critical_power_base
 
     @property
-    def all_critical_power_gain(self):
-        return self._all_critical_power_gain
+    def all_critical_power_rate(self):
+        return self._all_critical_power_rate
 
-    @all_critical_power_gain.setter
-    def all_critical_power_gain(self, all_critical_power_gain):
-        residual = all_critical_power_gain - self._all_critical_power_gain
-        self.physical_critical_power_gain += residual
-        self.magical_critical_power_gain += residual
-        self._all_critical_power_gain = all_critical_power_gain
+    @all_critical_power_rate.setter
+    def all_critical_power_rate(self, all_critical_power_rate):
+        residual = all_critical_power_rate - self._all_critical_power_rate
+        self.physical_critical_power_rate += residual
+        self.magical_critical_power_rate += residual
+        self._all_critical_power_rate = all_critical_power_rate
 
     @property
     def base_physical_critical_power(self):
@@ -343,7 +340,7 @@ class Minor:
 
     @property
     def physical_critical_power(self):
-        return self.physical_critical_power_percent + self.physical_critical_power_gain / BINARY_SCALE
+        return self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
 
     @property
     def base_magical_critical_power(self):
@@ -355,7 +352,7 @@ class Minor:
 
     @property
     def magical_critical_power(self):
-        return self.magical_critical_power_percent + self.magical_critical_power_gain / BINARY_SCALE
+        return self.magical_critical_power_percent + self.magical_critical_power_rate / BINARY_SCALE
 
     """ Weapon Damage Function """
 
@@ -431,12 +428,8 @@ class PhysicalAttribute(Attribute):
         return self.physical_critical_strike
 
     @property
-    def base_critical_power(self):
-        return self.base_physical_critical_power
-
-    @property
-    def critical_power_gain(self):
-        return self.physical_critical_power_gain
+    def critical_power(self):
+        return self.physical_critical_power
 
     @property
     def overcome(self):
@@ -484,12 +477,8 @@ class MagicalAttribute(Attribute):
         return self.magical_critical_strike
 
     @property
-    def base_critical_power(self):
-        return self.base_magical_critical_power
-
-    @property
-    def critical_power_gain(self):
-        return self.magical_critical_power_gain
+    def critical_power(self):
+        return self.magical_critical_power
 
     @property
     def overcome(self):
@@ -537,12 +526,8 @@ class MixingAttribute(Attribute):
         return self.physical_critical_strike
 
     @property
-    def base_critical_power(self):
-        return self.base_magical_critical_power
-
-    @property
-    def critical_power_gain(self):
-        return self.physical_critical_power_gain
+    def critical_power(self):
+        return self.physical_critical_power
 
     @property
     def overcome(self):

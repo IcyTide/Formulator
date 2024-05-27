@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "怒叱",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     1487: {
@@ -42,7 +42,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "雪中行",
         "gain_attributes": {
             "magical_attack_power_gain": 102,
-            "magical_critical_strike_gain": 600
+            "magical_critical_strike_rate": 600
         },
         "gain_skills": {
             skill_id: {
@@ -70,8 +70,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     9722: {
         "buff_name": "涓流",
         "gain_attributes": {
-            "magical_critical_strike_gain": 160,
-            "magical_critical_power_gain": 16
+            "magical_critical_strike_rate": 160,
+            "magical_critical_power_rate": 16
         }
     },
 }

@@ -6,11 +6,11 @@ from base.skill import Skill
 
 class 黯影(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6218, 25917, 2509, 2295):
+        for skill_id in (6218, 25917, 2509, 2295, 18882):
             skills[skill_id].attack_power_cof_gain *= 1.25
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6218, 25917, 2509, 2295):
+        for skill_id in (6218, 25917, 2509, 2295, 18882):
             skills[skill_id].attack_power_cof_gain /= 1.25
 
 

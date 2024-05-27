@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "明尊",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     890: {
@@ -46,8 +46,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     6277: {
         "buff_name": "无明业火",
         "gain_attributes": {
-            "magical_critical_strike_gain": 1000,
-            "magical_critical_power_gain": 52
+            "magical_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 52
         }
     },
     12575: {

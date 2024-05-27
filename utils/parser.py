@@ -349,14 +349,16 @@ class Parser(BaseParser):
         if buff_id not in self.players[player_id].buffs:
             return
 
-        frame_shift = self.players[player_id].buffs[buff_id].frame_shift
-        if frame_shift:
+        buff = self.players[player_id].buffs[buff_id]
+        if buff.frame_shift:
             return
 
         if buff_stack:
             buff_stacks[(buff_id, buff_level)] = buff_stack
+            buff.begin(self)
         else:
             buff_stacks.pop((buff_id, buff_level), None)
+            buff.end(self)
 
     def parse_skill(self, row):
         detail = row.strip("{}").split(",")

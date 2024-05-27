@@ -32,8 +32,8 @@ class FormationGain(Gain):
 class 九音惊弦阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 50,
-        "magical_critical_strike_gain": 300,
-        "magical_critical_power_gain": 51,
+        "magical_critical_strike_rate": 300,
+        "magical_critical_power_rate": 51,
     }
     core_gain_attributes = {"magical_overcome_gain": 307}
     rate_gain_attributes = {"magical_attack_power_gain": 50}
@@ -58,7 +58,7 @@ class 卫公折冲阵(FormationGain):
 class 天鼓雷音阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 51,
-        "strain_gain": 20,
+        "strain_rate": 20,
         "magical_overcome_gain": 102
     }
     rate_gain_attributes = {"magical_attack_power_gain": 21 * 5}
@@ -66,35 +66,35 @@ class 天鼓雷音阵(FormationGain):
 
 class 北斗七星阵(FormationGain):
     gain_attributes = {
-        "physical_critical_strike_gain": 300,
-        "strain_gain": 20,
-        "physical_critical_power_gain": 150
+        "physical_critical_strike_rate": 300,
+        "strain_rate": 20,
+        "physical_critical_power_rate": 150
     }
-    rate_gain_attributes = {"physical_critical_strike_gain": 100 * 5}
+    rate_gain_attributes = {"physical_critical_strike_rate": 100 * 5}
 
 
 class 九宫八卦阵(FormationGain):
     gain_attributes = {
-        "magical_critical_strike_gain": 300,
-        "strain_gain": 20,
-        "magical_critical_power_gain": 154
+        "magical_critical_strike_rate": 300,
+        "strain_rate": 20,
+        "magical_critical_power_rate": 154
     }
-    rate_gain_attributes = {"magical_critical_strike_gain": 100 * 5}
+    rate_gain_attributes = {"magical_critical_strike_rate": 100 * 5}
 
 
 class 依山观澜阵(FormationGain):
     gain_attributes = {
         "agility_gain": 30,
         "physical_attack_power_gain": 51,
-        "physical_critical_power_gain": 204
+        "physical_critical_power_rate": 204
     }
 
 
 class 万蛊噬心阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 51,
-        "magical_critical_strike_gain": 300,
-        "magical_critical_power_gain": 102
+        "magical_critical_strike_rate": 300,
+        "magical_critical_power_rate": 102
     }
     core_gain_attributes = {"magical_attack_power_gain": 51}
     rate_gain_attributes = {"magical_overcome_gain": 102}
@@ -103,28 +103,28 @@ class 万蛊噬心阵(FormationGain):
 class 流星赶月阵(FormationGain):
     gain_attributes = {
         "strength_gain": 30,
-        "strain_gain": 20,
+        "strain_rate": 20,
         "physical_overcome_gain": 205
     }
-    rate_gain_attributes = {"physical_critical_strike_gain": 500}
+    rate_gain_attributes = {"physical_critical_strike_rate": 500}
 
 
 class 千机百变阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 51,
         "all_shield_ignore": 52,
-        "all_critical_power_gain": 150
+        "all_critical_power_rate": 150
     }
-    rate_gain_attributes = {"all_critical_strike_gain": 500}
+    rate_gain_attributes = {"all_critical_strike_rate": 500}
 
 
 class 炎威破魔阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 51,
-        "magical_critical_strike_gain": 300,
+        "magical_critical_strike_rate": 300,
     }
-    core_gain_attributes = {"magical_critical_power_gain": 200}
-    rate_gain_attributes = {"magical_critical_strike_gain": 1000}
+    core_gain_attributes = {"magical_critical_power_rate": 200}
+    rate_gain_attributes = {"magical_critical_strike_rate": 1000}
 
 
 class 降龙伏虎阵(FormationGain):
@@ -138,35 +138,35 @@ class 降龙伏虎阵(FormationGain):
 
 class 锋凌横绝阵(FormationGain):
     gain_attributes = {
-        "physical_critical_strike_gain": 300,
-        "strain_gain": 20,
+        "physical_critical_strike_rate": 300,
+        "strain_rate": 20,
     }
     core_gain_attributes = {"physical_overcome_gain": 153}
-    rate_gain_attributes = {"physical_critical_power_gain": 20 * 5}
+    rate_gain_attributes = {"physical_critical_power_rate": 20 * 5}
 
 
 class 万籁金弦阵(FormationGain):
     gain_attributes = {
-        "magical_critical_strike_gain": 300,
-        "strain_gain": 20,
+        "magical_critical_strike_rate": 300,
+        "strain_rate": 20,
         "magical_attack_power_gain": 102
     }
-    core_gain_attributes = {"magical_critical_power_gain": 205}
-    rate_gain_attributes = {"magical_critical_strike_gain": 500}
+    core_gain_attributes = {"magical_critical_power_rate": 205}
+    rate_gain_attributes = {"magical_critical_strike_rate": 500}
 
 
 class 霜岚洗锋阵(FormationGain):
     gain_attributes = {
         "physical_attack_power_gain": 50,
-        "strain_gain": 20,
+        "strain_rate": 20,
         "physical_overcome_gain": 102,
     }
-    rate_gain_attributes = {"all_critical_strike_gain": 500}
+    rate_gain_attributes = {"all_critical_strike_rate": 500}
 
 
 class 墟海引归阵(FormationGain):
     gain_attributes = {
-        "physical_critical_strike_gain": 300,
+        "physical_critical_strike_rate": 300,
         "physical_attack_power_gain": 133,
         "physical_overcome_gain": 102
     }
@@ -175,11 +175,11 @@ class 墟海引归阵(FormationGain):
 
 class 龙皇雪风阵(FormationGain):
     gain_attributes = {
-        "physical_critical_strike_gain": 300,
+        "physical_critical_strike_rate": 300,
         "physical_attack_power_gain": 50,
-        "physical_critical_power_gain": 154,
+        "physical_critical_power_rate": 154,
     }
-    core_gain_attributes = {"physical_critical_power_gain": 100}
+    core_gain_attributes = {"physical_critical_power_rate": 100}
     rate_gain_attributes = {"physical_attack_power_gain": 102}
 
 
@@ -187,10 +187,10 @@ class 九星游年阵(FormationGain):
     values = [102, 92, 82, 71, 61, 51, 41, 31, 20, 10]
     gain_attributes = {
         "magical_attack_power_gain": 51,
-        "strain_gain": 20,
-        "magical_critical_power_gain": 100
+        "strain_rate": 20,
+        "magical_critical_power_rate": 100
     }
-    core_gain_attributes = {"magical_critical_power_gain": sum(values) / len(values)}
+    core_gain_attributes = {"magical_critical_power_rate": sum(values) / len(values)}
     rate_gain_attributes = {"all_damage_addition": int(154 / 2)}
 
 
@@ -198,7 +198,7 @@ class 乱暮浊茵阵(FormationGain):
     gain_attributes = {
         "magical_attack_power_gain": 51,
         "all_damage_addition": 31,
-        "all_critical_strike_gain": 300
+        "all_critical_strike_rate": 300
     }
 
 
@@ -208,16 +208,16 @@ class 横云破锋阵(FormationGain):
         "surplus_base": 1516,
         "physical_overcome_gain": 256
     }
-    core_gain_attributes = {"physical_critical_power_gain": 100}
+    core_gain_attributes = {"physical_critical_power_rate": 100}
 
 
 class 苍梧引灵阵(FormationGain):
     gain_attributes = {
-        "all_critical_strike_gain": 300,
-        "strain_gain": 20,
+        "all_critical_strike_rate": 300,
+        "strain_rate": 20,
         "all_damage_addition": 62,
     }
-    rate_gain_attributes = {"all_critical_power_gain": 150}
+    rate_gain_attributes = {"all_critical_power_rate": 150}
 
 
 FORMATIONS = {

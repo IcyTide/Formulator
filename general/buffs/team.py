@@ -51,7 +51,7 @@ GENERAL_BUFFS: Dict[int, Union[Buff, dict]] = {
     24350: {
         "buff_name": "皎素",
         "gain_attributes": {
-            "all_critical_power_gain": 51
+            "all_critical_power_rate": 51
         }
     },
     24742: {

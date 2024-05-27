@@ -23,9 +23,8 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
             1048576 * (0.575 - 1),
             1048576 * (0.92 - 1),
             1048576 * (1.035 - 1),
-            1048576 * (0.2 - 1)
-        ],
-        "skill_shield_gain": [-819] * 4 + [0],
+            1048576 * (0.389 - 1)
+        ]
     },
     2183: {
         "skill_class": PhysicalDamage,
@@ -133,8 +132,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_base": 43 * 0.95,
         "damage_rand": 43 * 0.1,
         "attack_power_cof": 100 * 0.9 * 1.1 * 1.1,
-        "pve_addition": 256,
-        "skill_shield_ignore": -819
+        "pve_addition": 256
     },
     30918: {
         "skill_class": MagicalDamage,
@@ -142,8 +140,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_base": [e * 0.95 for e in [43, 70, 94, 117, 141, 164, 188, 212, 235, 259, 384]],
         "damage_rand": [e * 0.1 for e in [43, 70, 94, 117, 141, 164, 188, 212, 235, 259, 384]],
         "attack_power_cof": [100 * (i + 1) * 1.1 * 1.1 for i in range(11)],
-        "skill_pve_addition": 256,
-        "skill_shield_ignore": -819
+        "skill_pve_addition": 256
     },
     2223: {
         "skill_class": 灵蛇引,
@@ -178,7 +175,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "skill_name": "荒息",
         "damage_base": [e * 0.95 for e in [43, 70, 94, 117, 141, 164, 188, 212, 235, 259, 384]],
         "damage_rand": [e * 0.1 for e in [43, 70, 94, 117, 141, 164, 188, 212, 235, 259, 384]],
-        "attack_power_cof": 86 * 1.5 * 2 * 0.9 * 0.9,
+        "attack_power_cof": 250,
     },
     25773: {
         "skill_class": MagicalDamage,

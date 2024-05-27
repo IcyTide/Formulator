@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "嗔怒",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     409: {
@@ -21,8 +21,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     10240: {
         "buff_name": "满堂",
         "gain_attributes": {
-            "magical_critical_strike_gain": 800,
-            "magical_critical_power_gain": 21
+            "magical_critical_strike_rate": 800,
+            "magical_critical_power_rate": 21
         }
     },
     25902: {
@@ -42,7 +42,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     17010: {
         "buff_name": "广陵月",
         "gain_attributes": {
-            "magical_critical_power_gain": 20
+            "magical_critical_power_rate": 20
         }
     },
     5788: {

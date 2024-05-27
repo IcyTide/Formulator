@@ -8,8 +8,8 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "挥散",
         "activate": False,
         "gain_attributes": {
-            "magical_critical_strike_gain": 400,
-            "magical_critical_power_gain": 41
+            "magical_critical_strike_rate": 400,
+            "magical_critical_power_rate": 41
         }
     },
     9433: {
@@ -52,7 +52,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
         "buff_name": "知音妙意",
         "frame_shift": -1,
         "gain_attributes": {
-            "magical_critical_power_gain": [102, 204, 410]
+            "magical_critical_power_rate": [102, 204, 410]
         }
     },
 }

@@ -233,6 +233,13 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                         15, 15, 15, 15, 15, 15],
         "attack_power_cof": 125 * 1.5
     },
+    36508: {
+        "skill_class": MagicalDamage,
+        "skill_name": "养荣",
+        "damage_base": 100,
+        "damage_rand": 10,
+        "attack_power_cof": 300
+    },
     35367: {
         "skill_class": MagicalDamage,
         "skill_name": "应理与药",
