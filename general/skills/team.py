@@ -3,11 +3,6 @@ from typing import Dict, Union
 from base.skill import PhysicalDamage, MagicalDamage, Skill
 
 GENERAL_SKILLS: Dict[int, Union[Skill, dict]] = {
-    13778: {
-        "skill_class": Skill,
-        "skill_name": "乘龙箭",
-        "post_target_buffs": {(3465, 1): 1},
-    },
     29535: {
         "skill_class": MagicalDamage,
         "skill_name": "逐云寒蕊",

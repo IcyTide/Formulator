@@ -7,7 +7,7 @@ from base.gain import Gain
 from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue
-from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue
+from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing, fen_ying_sheng_jue
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
 
@@ -142,6 +142,15 @@ SUPPORT_SCHOOL = {
         talent_decoder=bing_xin_jue.TALENT_DECODER, talent_encoder=bing_xin_jue.TALENT_ENCODER,
         recipe_gains=bing_xin_jue.RECIPE_GAINS, recipes=bing_xin_jue.RECIPES,
         gains=bing_xin_jue.GAINS, display_attrs={"spirit": "根骨", **MAGICAL_DISPLAY_ATTRS}
+    ),
+    10145: School(
+        id=10145, school="藏剑", major="身法", kind="外功", attribute=wen_shui_jue.WenShuiJue,
+        formation="依山观澜阵",
+        skills=wen_shui_jue.SKILLS, buffs=wen_shui_jue.BUFFS, prepare=wen_shui_jue.prepare,
+        talent_gains=wen_shui_jue.TALENT_GAINS, talents=wen_shui_jue.TALENTS,
+        talent_decoder=wen_shui_jue.TALENT_DECODER, talent_encoder=wen_shui_jue.TALENT_ENCODER,
+        recipe_gains=wen_shui_jue.RECIPE_GAINS, recipes=wen_shui_jue.RECIPES,
+        gains=wen_shui_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10175: School(
         id=10175, school="五毒", major="根骨", kind="内功", attribute=du_jing.DuJing, formation="万蛊噬心阵",

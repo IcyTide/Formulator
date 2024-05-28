@@ -9,10 +9,6 @@ from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_E
 from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
-from schools import SUPPORT_SCHOOL
-
-KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
-SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
 
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",
@@ -76,8 +72,7 @@ POSITION_MAP = {
     "necklace": 4,
     "pendant": 7,
     "ring": 5,
-    "tertiary_weapon": 1,
-    "primary_weapon": 0
+    "tertiary_weapon": 1
 }
 
 SUFFIX_MAP = {
@@ -135,7 +130,6 @@ enchant_params = {
 }
 
 
-# @cache
 def get_equips_list(position):
     position_id = POSITION_MAP[position]
     url = f"https://node.jx3box.com/equip/{SUFFIX_MAP[position_id]}"
@@ -149,18 +143,14 @@ def get_equips_list(position):
         res = requests.get(url, params=params).json()
         equips.extend(res['list'])
 
-    result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips) if
-              row['SubType'] != "0" or row['DetailType'] != "9"}
+    result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips)}
     result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
-    result = {k: v for k, v in result.items() if v['kind'] in KINDS}
-    result = {k: v for k, v in result.items() if v['school'] in SCHOOLS}
     return result
 
 
-def get_secondary_weapons():
+def get_weapon_equips():
     params = equip_params.copy()
     params['position'] = 0
-    params['DetailType'] = 9
 
     url = f"https://node.jx3box.com/equip/weapon"
     equips = []
@@ -170,12 +160,26 @@ def get_secondary_weapons():
         params['page'] += 1
         res = requests.get(url, params=params).json()
         equips.extend(res['list'])
-
-    result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips)}
-    result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
-    result = {k: v for k, v in result.items() if v['kind'] in KINDS}
-    result = {k: v for k, v in result.items() if v['school'] in SCHOOLS}
-    return result
+    primary_weapon_result, secondary_weapon_result = {}, {}
+    for row in reversed(equips):
+        if row['DetailType'] == 9:
+            secondary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
+        else:
+            primary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
+    primary_weapon_result = {
+        k: v for k, v in primary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
+    }
+    secondary_weapon_result = {
+        k: v for k, v in secondary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
+    }
+    json.dump(
+        primary_weapon_result, open(os.path.join(EQUIPMENTS_DIR, "primary_weapon"), "w", encoding="utf-8"),
+        ensure_ascii=False
+    )
+    json.dump(
+        secondary_weapon_result, open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
+        ensure_ascii=False
+    )
 
 
 def get_equip_name(row):
@@ -270,7 +274,21 @@ def get_enchants_list(position):
 
 
 def get_weapon_enchants():
-    return get_enchants_list("primary_weapon")
+    position_id = 0
+    url = f"https://node.jx3box.com/enchant/primary"
+    params = enchant_params.copy()
+    params['position'] = position_id
+    res = requests.get(url, params=params)
+    enchants = [e for e in sorted(res.json(), key=lambda x: x['Score'], reverse=True) if
+                e['Attribute1ID'] in ATTR_TYPE_MAP]
+
+    weapon_enchants = {get_enchant_name(row): get_enchant_detail(row) for row in enchants}
+    json.dump(
+        weapon_enchants, open(os.path.join(ENCHANTS_DIR, "primary_weapon"), "w", encoding="utf-8")
+    )
+    json.dump(
+        weapon_enchants, open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
+    )
 
 
 def get_enchant_name(row):
@@ -355,19 +373,15 @@ if __name__ == '__main__':
     if not os.path.exists(ENCHANTS_DIR):
         os.makedirs(ENCHANTS_DIR)
 
-    for pos in tqdm(POSITION_MAP):
-        json.dump(
-            get_equips_list(pos),
-            open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-        json.dump(
-            get_enchants_list(pos),
-            open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-    json.dump(
-        get_secondary_weapons(), open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
-        ensure_ascii=False)
-    json.dump(
-        get_weapon_enchants(), open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
-    )
+    # for pos in tqdm(POSITION_MAP):
+    #     json.dump(
+    #         get_equips_list(pos),
+    #         open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+    #     )
+    #     json.dump(
+    #         get_enchants_list(pos),
+    #         open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+    #     )
+    get_weapon_equips()
+    get_weapon_enchants()
     json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

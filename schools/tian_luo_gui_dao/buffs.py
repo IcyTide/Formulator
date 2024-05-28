@@ -65,15 +65,17 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             } for skill_id in (3313, 36502, 30894, 30727)
         }
     },
-27457: {
-  "buff_name": "诡鉴拟态天绝数量",
-},
-    # 24668: {
-    #     "buff_name": "杀机断魂",
-    #     "gain_attributes": {
-    #         "all_damage_addition": 103
-    #     }
-    # }
+    27457: {
+        "buff_name": "诡鉴拟态天绝数量",
+    },
+    -24668: {
+        "buff_name": "杀机断魂",
+        "activate": False,
+        "max_stack": 5,
+        "gain_attributes": {
+            "all_damage_addition": 103
+        }
+    }
 }
 
 for buff_id, detail in BUFFS.items():

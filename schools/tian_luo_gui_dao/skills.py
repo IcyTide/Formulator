@@ -3,6 +3,20 @@ from typing import Dict, Union
 from base.skill import Skill, DotSkill, PhysicalDamage, MixingDamage, MixingDotDamage
 from general.skills import GENERAL_SKILLS
 
+
+class 杀机断魂增伤(MixingDamage):
+    final_buff = -24668
+
+    def pre_record(self, parser):
+        super().pre_record(parser)
+        if buff_stack := parser.current_buff_stacks.get((27457, 1)):
+            parser.refresh_buff(self.final_buff, 1, buff_stack)
+
+    def post_record(self, parser):
+        super().post_record(parser)
+        parser.clear_buff(self.final_buff, 1)
+
+
 SKILLS: Dict[int, Union[Skill, dict]] = {
     32885: {
         "skill_class": MixingDamage,
@@ -17,21 +31,21 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "skill_damage_addition": 205
     },
     3401: {
-        "skill_class": MixingDamage,
+        "skill_class": 杀机断魂增伤,
         "skill_name": "连弩",
         "damage_base": 37,
         "damage_rand": 5,
         "attack_power_cof": 94 * 1.1 * 0.9 * 1.05
     },
     3404: {
-        "skill_class": MixingDamage,
+        "skill_class": 杀机断魂增伤,
         "skill_name": "连弩",
         "damage_base": 50,
         "damage_rand": 10,
         "attack_power_cof": 144 * 1.1 * 1.15 * 0.9 * 1.05
     },
     3819: {
-        "skill_class": MixingDamage,
+        "skill_class": 杀机断魂增伤,
         "skill_name": "重弩",
         "damage_base": 267,
         "damage_rand": 34,
@@ -39,7 +53,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "attack_power_cof": 59 * 1.1 * 0.9 * 1.15 * 1.8 * 1.05
     },
     3824: {
-        "skill_class": MixingDamage,
+        "skill_class": 杀机断魂增伤,
         "skill_name": "重弩",
         "damage_base": 397,
         "damage_rand": 34,

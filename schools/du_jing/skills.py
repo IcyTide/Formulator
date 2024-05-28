@@ -132,7 +132,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_base": 43 * 0.95,
         "damage_rand": 43 * 0.1,
         "attack_power_cof": 100 * 0.9 * 1.1 * 1.1,
-        "pve_addition": 256
+        "skill_pve_addition": 256
     },
     30918: {
         "skill_class": MagicalDamage,

@@ -8,6 +8,7 @@ from qt.scripts.top import Parser
 from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
+from schools.wen_shui_jue.gains import SecondaryWeapon
 from utils.analyzer import analyze_details, Detail
 
 
@@ -65,6 +66,8 @@ def dashboard_script(parser: Parser,
             setattr(attribute, attr, getattr(attribute, attr) + value)
 
         equipment_gains = [school.gains[gain] for gain in equipments.gains]
+        if school.id == 10145:
+            equipment_gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))
         talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
         recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
         gains = sum([equipment_gains, talent_gains, recipe_gains, bonuses.gains], [])

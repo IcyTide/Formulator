@@ -10,7 +10,7 @@ class 明法判定(Skill):
 
     def record(self, critical, parser):
         if buff_level := parser.current_target_buff_stacks.get((self.bind_buff, 1)):
-            parser.current_target_buff_stacks[(self.final_buff, buff_level)] = 1
+            parser.refresh_target_buff(self.final_buff, buff_level)
 
 
 class 明法移除(Skill):
@@ -20,7 +20,7 @@ class 明法移除(Skill):
     def record(self, critical, parser):
         buff_level = parser.current_target_buff_stacks.get((self.bind_buff, 1), 0)
         for level in range(buff_level):
-            parser.current_target_buff_stacks.pop((self.final_buff, level + 1), None)
+            parser.clear_target_buff(self.final_buff, level + 1)
 
 
 SKILLS: Dict[int, Union[Skill, dict]] = {

@@ -117,14 +117,50 @@ class Equipments:
 
     def __getitem__(self, item) -> Equipment:
         return self.equipments[item]
-    
+
+    @property
+    def secondary_weapon(self):
+        return bool(self.equipments['额外武器'])
+
+    @property
+    def secondary_weapon_attrs(self):
+        primary_weapon, secondary_weapon = self.equipments["近战武器"], self.equipments['额外武器']
+
+        secondary_weapon_attrs = defaultdict(int)
+        for attr, value in secondary_weapon.base_attr.items():
+            secondary_weapon_attrs[attr] += value
+        for attr, value in secondary_weapon.magic_attr.items():
+            secondary_weapon_attrs[attr] += value
+        for attr, value in secondary_weapon.strength_attr.items():
+            secondary_weapon_attrs[attr] += value
+        for attr, value in secondary_weapon.embed_attr.items():
+            secondary_weapon_attrs[attr] += value
+        for attr, value in secondary_weapon.enchant.attr.items():
+            secondary_weapon_attrs[attr] += value
+        for attr, value in secondary_weapon.stone.attr.items():
+            secondary_weapon_attrs[attr] += value
+
+        for attr, value in primary_weapon.base_attr.items():
+            secondary_weapon_attrs[attr] -= value
+        for attr, value in primary_weapon.magic_attr.items():
+            secondary_weapon_attrs[attr] -= value
+        for attr, value in primary_weapon.strength_attr.items():
+            secondary_weapon_attrs[attr] -= value
+        for attr, value in primary_weapon.embed_attr.items():
+            secondary_weapon_attrs[attr] -= value
+        for attr, value in primary_weapon.enchant.attr.items():
+            secondary_weapon_attrs[attr] -= value
+        for attr, value in primary_weapon.stone.attr.items():
+            secondary_weapon_attrs[attr] -= value
+        return secondary_weapon_attrs
+
     @property
     def attrs(self):
         final_attrs = defaultdict(int)
         set_count = {}
         set_effect = {}
-        for equipment in self.equipments.values():
-            if not equipment.name:
+        for label, equipment in self.equipments.items():
+            if not equipment.name or label == "额外武器":
                 continue
             for attr, value in equipment.base_attr.items():
                 final_attrs[attr] += value
