@@ -328,7 +328,12 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
         def inner(_):
             level = widget.stone_level.combo_box.currentText()
-
+            if level == '0':
+                for stone in widget.stone_attrs:
+                    stone.set_items([""])
+                widget.stone_attrs[0].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in widget.stones_json])
+                equipment.stone = Stone()
+                return
             current = widget.stones_json
             i = 0
             while i < len(widget.stone_attrs):

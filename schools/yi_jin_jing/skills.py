@@ -23,6 +23,19 @@ class 明法移除(Skill):
             parser.clear_target_buff(self.final_buff, level + 1)
 
 
+class 众嗔判定(MagicalDamage):
+    final_buff = -13910
+
+    def pre_record(self, parser):
+        super().pre_record(parser)
+        if 743 in parser.current_dot_ticks:
+            parser.refresh_buff(self.final_buff, 1)
+
+    def post_record(self, parser):
+        super().post_record(parser)
+        parser.clear_buff(self.final_buff, 1)
+
+
 SKILLS: Dict[int, Union[Skill, dict]] = {
     32887: {
         "skill_class": MagicalDamage,
@@ -91,7 +104,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
     },
     **{
         skill_id: {
-            "skill_class": MagicalDamage,
+            "skill_class": 众嗔判定,
             "skill_name": "韦陀献杵",
             "damage_base": [77, 83, 90, 94, 100, 105, 108, 111, 114, 117, 120, 123, 126, 129, 132, 135, 138, 141, 144,
                             147,
@@ -122,7 +135,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [77 * 1.15 * 1.5 * 1.05],
     },
     3814: {
-        "skill_class": MagicalDamage,
+        "skill_class": 众嗔判定,
         "skill_name": "守缺式",
         "damage_base": [52, 62, 72, 82, 92, 102, 112, 122, 132, 142],
         "damage_rand": 5,
@@ -130,7 +143,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [200 * 1.2 * 1.15 * 0.95 * 1.05 * 1.2 * 1.1],
     },
     3816: {
-        "skill_class": MagicalDamage,
+        "skill_class": 众嗔判定,
         "skill_name": "守缺式",
         "damage_base": [52, 62, 72, 82, 92, 102, 112, 122, 132, 142],
         "damage_rand": 5,
@@ -138,7 +151,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [200 * 1.2 * 1.15 * 0.95 * 1.05 * 1.1],
     },
     13685: {
-        "skill_class": MagicalDamage,
+        "skill_class": 众嗔判定,
         "skill_name": "拿云式",
         "damage_base": [e * 0.95 for e in
                         [346, 370, 394, 418, 442, 466, 490, 514, 538, 562, 586, 610, 634, 658, 682, 706, 730, 754,

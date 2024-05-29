@@ -14,7 +14,6 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     18384: {
         "buff_name": "含风",
-        "interval": 384,
         "gain_attributes": {
             "physical_critical_strike_rate": 1000,
             "physical_critical_power_rate": 102
@@ -22,7 +21,6 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     23066: {
         "buff_name": "含风",
-        "interval": 384,
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 102,

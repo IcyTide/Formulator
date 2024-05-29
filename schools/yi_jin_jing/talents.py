@@ -1,5 +1,6 @@
 from typing import Dict
 
+from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
 
@@ -32,6 +33,14 @@ class 明法(Gain):
             skills[skill_id].post_target_buffs.pop((12479, 1))
 
 
+class 众嗔(Gain):
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-13910].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-13910].activate = False
+
+
 class 华香(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in (17641, 3848, 3849, 3850, 3814, 3816, 13685):
@@ -52,7 +61,7 @@ TALENT_GAINS: Dict[int, Gain] = {
     17730: Gain("金刚怒目"),
     6590: Gain("净果"),
     6586: Gain("三生"),
-    6596: Gain("众嗔"),
+    6596: 众嗔("众嗔"),
     5906: 华香("华香"),
     32648: Gain("金刚日轮"),
     32651: Gain("业因")

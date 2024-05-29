@@ -4,9 +4,9 @@ from typing import Tuple, List, Dict, Type, Union, Callable
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
+from base.skill import Skill, Damage
 
-from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue
+from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
 from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing, fen_ying_sheng_jue
 from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
@@ -166,7 +166,7 @@ SUPPORT_SCHOOL = {
         talent_gains=jing_yu_jue.TALENT_GAINS, talents=jing_yu_jue.TALENTS,
         talent_decoder=jing_yu_jue.TALENT_DECODER, talent_encoder=jing_yu_jue.TALENT_ENCODER,
         recipe_gains=jing_yu_jue.RECIPE_GAINS, recipes=jing_yu_jue.RECIPES,
-        gains=jing_yu_jue.GAINS, display_attrs={"strength": "力道", **MIXING_DISPLAY_ATTRS}
+        gains=jing_yu_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10225: School(
         id=10225, school="唐门", major="元气", kind="内功", attribute=tian_luo_gui_dao.TianLuoGuiDao,
@@ -185,6 +185,14 @@ SUPPORT_SCHOOL = {
         talent_decoder=fen_ying_sheng_jue.TALENT_DECODER, talent_encoder=fen_ying_sheng_jue.TALENT_ENCODER,
         recipe_gains=fen_ying_sheng_jue.RECIPE_GAINS, recipes=fen_ying_sheng_jue.RECIPES,
         gains=fen_ying_sheng_jue.GAINS, display_attrs={"spunk": "元气", **MAGICAL_DISPLAY_ATTRS}
+    ),
+    10268: School(
+        id=10268, school="丐帮", major="力道", kind="外功", attribute=xiao_chen_jue.XiaoChenJue, formation="降龙伏虎阵",
+        skills=xiao_chen_jue.SKILLS, buffs=xiao_chen_jue.BUFFS, prepare=xiao_chen_jue.prepare,
+        talent_gains=xiao_chen_jue.TALENT_GAINS, talents=xiao_chen_jue.TALENTS,
+        talent_decoder=xiao_chen_jue.TALENT_DECODER, talent_encoder=xiao_chen_jue.TALENT_ENCODER,
+        recipe_gains=xiao_chen_jue.RECIPE_GAINS, recipes=xiao_chen_jue.RECIPES,
+        gains=xiao_chen_jue.GAINS, display_attrs={"strength": "力道", **PHYSICAL_DISPLAY_ATTRS}
     ),
     10390: School(
         id=10390, school="苍云", major="身法", kind="外功", attribute=fen_shan_jing.FenShanJing, formation="锋凌横绝阵",

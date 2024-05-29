@@ -61,9 +61,9 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             "magical_critical_power_rate": 62
         }
     },
-    13910: {
+    -13910: {
         "buff_name": "众嗔",
-        "frame_shift": -2,
+        "activate": False,
         "gain_skills": {
             skill_id: {
                 "skill_damage_addition": 205

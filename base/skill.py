@@ -311,19 +311,17 @@ class Damage(Skill):
         return skill_tuple, status_tuple
 
 
-class DotDamage(Damage):
+class DotDamage(Skill):
     def record(self, critical, parser):
-        skill_tuple, status_tuple = super().record(critical, parser)
+        skill_stack = parser.current_dot_stacks[self.skill_id]
+        status_tuple = parser.status(self.skill_id)
+        tick = parser.current_next_dot.pop(self.skill_id, 1)
+        parser.current_dot_ticks[self.skill_id] -= tick
+        parser.current_last_dot[self.skill_id] = ((self.skill_id, self.skill_level, skill_stack), status_tuple)
 
-        if tick := parser.current_next_dot.pop(self.skill_id, None):
-            _, _, skill_stack = skill_tuple
-            parser.current_records[(self.skill_id, self.skill_level, skill_stack * tick)][status_tuple].append(
-                parser.current_records[skill_tuple][status_tuple].pop()
-            )
-            parser.current_dot_ticks[self.skill_id] -= tick
-        else:
-            parser.current_last_dot[self.skill_id] = (skill_tuple, status_tuple)
-            parser.current_dot_ticks[self.skill_id] -= 1
+        parser.current_records[(self.skill_id, self.skill_level, skill_stack * tick)][status_tuple].append(
+            (parser.current_frame - parser.start_frame, critical)
+        )
 
 
 class NpcDamage(Damage):
@@ -539,19 +537,19 @@ class MixingDamage(AdaptiveSkill, Damage):
 
 
 class PhysicalDotDamage(PhysicalSkill, DotDamage):
-    @Damage.attack_power_cof.getter
+    @DotDamage.attack_power_cof.getter
     def attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
 
 
 class MagicalDotDamage(MagicalSkill, DotDamage):
-    @Damage.attack_power_cof.getter
+    @DotDamage.attack_power_cof.getter
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
 
 
 class MixingDotDamage(AdaptiveSkill, DotDamage):
-    @Damage.attack_power_cof.getter
+    @DotDamage.attack_power_cof.getter
     def attack_power_cof(self):
         return MAGICAL_DOT_ATTACK_POWER_COF(super().attack_power_cof, self.interval)
 

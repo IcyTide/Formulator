@@ -34,7 +34,7 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
     1795: {
         "skill_class": PhysicalDamage,
         "skill_name": "四季剑法",
-        "attack_power_cof": 16,
+        "attack_power_cof": 32,
         "weapon_damage_cof": 1024,
         "skill_damage_addition": 205
     },
@@ -192,12 +192,19 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_rand": 22,
         "attack_power_cof": 250 * 1.1 * 1.1,
     },
-    25771: {
+    25776: {
         "skill_class": PhysicalDamage,
-        "skill_name": "八荒归元·神兵",
+        "skill_name": "云飞玉皇·神兵",
         "damage_base": 20,
         "damage_rand": 2,
-        "attack_power_cof": 65
+        "attack_power_cof": 60
+    },
+    35051: {
+        "skill_class": PhysicalDamage,
+        "skill_name": ["烟流暮景", "玉山揽云"],
+        "damage_base": 300,
+        "damage_rand": 35,
+        "attack_power_cof": [150 * 1.2, 200 * 1.2]
     }
 }
 

@@ -9,6 +9,10 @@ from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_E
 from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
+from schools import SUPPORT_SCHOOL
+
+KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
+SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
 
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",
@@ -145,6 +149,7 @@ def get_equips_list(position):
 
     result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips)}
     result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
+    result = {k: v for k, v in result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS}
     return result
 
 
@@ -169,8 +174,14 @@ def get_weapon_equips():
     primary_weapon_result = {
         k: v for k, v in primary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
     }
+    primary_weapon_result = {
+        k: v for k, v in primary_weapon_result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS
+    }
     secondary_weapon_result = {
         k: v for k, v in secondary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
+    }
+    secondary_weapon_result = {
+        k: v for k, v in secondary_weapon_result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS
     }
     json.dump(
         primary_weapon_result, open(os.path.join(EQUIPMENTS_DIR, "primary_weapon"), "w", encoding="utf-8"),
@@ -373,15 +384,15 @@ if __name__ == '__main__':
     if not os.path.exists(ENCHANTS_DIR):
         os.makedirs(ENCHANTS_DIR)
 
-    # for pos in tqdm(POSITION_MAP):
-    #     json.dump(
-    #         get_equips_list(pos),
-    #         open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-    #     )
-    #     json.dump(
-    #         get_enchants_list(pos),
-    #         open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-    #     )
+    for pos in tqdm(POSITION_MAP):
+        json.dump(
+            get_equips_list(pos),
+            open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+        )
+        json.dump(
+            get_enchants_list(pos),
+            open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
+        )
     get_weapon_equips()
     get_weapon_enchants()
     json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

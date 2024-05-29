@@ -279,8 +279,9 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "damage_base": 24,
         "damage_rand": 15 * 0.1,
         "damage_gain": 1.2 / 4,
-        "attack_power_cof": [20 * (i + 1) * 1.2 * 1.3 for i in range(16)] +
-                            [40 * (i + 1) * 1.2 * 1.3 for i in range(16, 80)],
+        "attack_power_cof": [20 * (i + 1) * 1.2 * 1.3 for i in range(15)] +
+                            [40 * i * 1.2 * 1.3 for i in range(16, 80)] +
+                            [40 * 80 * 1.2 * 1.3],
         "weapon_damage_cof": 1024,
     },
     30859: {
