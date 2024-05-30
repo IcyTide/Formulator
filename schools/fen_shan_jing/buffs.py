@@ -85,7 +85,6 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     26214: {
         "buff_name": "麟光计数",
-        "max_stack": 3,
     },
     27161: {
         "buff_name": "血怒·惊涌",
@@ -99,6 +98,12 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     #         "all_shield_ignore": 512
     #     }
     # },
+    16957: {
+        "buff_name": "单刀赴会·战",
+        "gain_attributes": {
+            "physical_attack_power_base": [4, 40, 100, 150]
+        }
+    },
     8474: {
         "buff_class": 特效触发,
         "buff_name": "特效触发"

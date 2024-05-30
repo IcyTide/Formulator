@@ -2,8 +2,7 @@ import json
 
 from PySide6.QtWidgets import QFileDialog, QWidget
 
-from base.constant import FRAME_PER_SECOND
-from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS
+from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, ZONGZI, CANDY
 from general.gains.formation import FORMATIONS
 from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
@@ -150,6 +149,8 @@ def top_script(
         consumables_widget.home_snack.set_items([""] + SNACKS[school.kind] + SNACKS[""], keep_index=True)
         consumables_widget.home_wine.set_items([""] + WINES[school.major] + WINES[""], keep_index=True)
         consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind], keep_index=True)
+        consumables_widget.zongzi.set_items([""] + ZONGZI[school.kind] + ZONGZI[""], keep_index=True)
+        consumables_widget.candy.set_items([""] + CANDY[school.kind], keep_index=True)
 
         """ Update bonus options """
         bonus_widget.formation.formation.set_items([""] + FORMATIONS[school.kind] + FORMATIONS[""], keep_index=True)

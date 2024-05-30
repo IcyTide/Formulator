@@ -25,12 +25,20 @@ def magical_attack_power(value):
     return {"magical_attack_power_base": value}
 
 
+def weapon_damage(value):
+    return {"weapon_damage_base": value}
+
+
 def surplus(value):
     return {"surplus_base": value}
 
 
 def strain(value):
     return {"strain_base": value}
+
+
+def strain_rate(value):
+    return {"strain_rate": value}
 
 
 def haste(value):
@@ -43,6 +51,10 @@ def overcome(value):
 
 def critical_strike(value):
     return {"all_critical_strike_base": value}
+
+
+def critical_strike_rate(value):
+    return {"all_critical_strike_gain": value}
 
 
 def physical_spread(values):
@@ -110,6 +122,15 @@ class CONSUMABLES_NUMBER:
     physical_spread: Tuple[int, int] = (439, 975)
     magical_spread: Tuple[int, int] = (524, 975)
 
+    physical_zongzi: int = 907
+    magical_zongzi: int = 1082
+    weapon_zongzi: int = 1360
+    critical_zongzi: int = 600
+    strain_zongzi: int = 61
+
+    physical_candy: int = 972
+    magical_candy: int = 1160
+
     boiled_fish_max: int = 400
     boiled_fish_min: int = 100
 
@@ -121,11 +142,14 @@ FUNCTION_MAP = {
     "元气": spunk,
     "外攻": physical_attack_power,
     "内攻": magical_attack_power,
+    "武器伤害": weapon_damage,
     "破招": surplus,
     "无双": strain,
+    "无双百分比": strain_rate,
     "加速": haste,
     "破防": overcome,
     "会心": critical_strike,
+    "会心百分比": critical_strike_rate,
     ("外攻", "会心/破招"): physical_spread,
     ("内攻", "会心/破招"): magical_spread,
     "破招/无双": boiled_fish
@@ -137,11 +161,14 @@ NAME_MAP = {
     "元气": "元气",
     "外攻": "外功",
     "内攻": "内功",
+    "武器伤害": "",
     "破招": "",
     "无双": "",
+    "无双百分比": "",
     "加速": "",
     "破防": "",
     "会心": "",
+    "会心百分比": "",
     ("外攻", "会心/破招"): "外功",
     ("内攻", "会心/破招"): "内功",
     "破招/无双": ""
@@ -289,8 +316,19 @@ BOILED_FISH: Dict[str, Union[dict, list]] = {
     }
 }
 
+CANDY = {
+    "外攻": {CONSUMABLES_NUMBER.physical_candy: "云片糕"},
+    "内攻": {CONSUMABLES_NUMBER.magical_candy: "芝麻杆"},
+}
+ZONGZI = {
+    "外攻": {CONSUMABLES_NUMBER.physical_zongzi: "芦兜粽"},
+    "内攻": {CONSUMABLES_NUMBER.magical_zongzi: "蛋黄粽"},
+    "武器伤害": {CONSUMABLES_NUMBER.weapon_zongzi: "瑰栗粽"},
+    "无双百分比": {CONSUMABLES_NUMBER.strain_zongzi: "瓜仁粽"},
+    "会心百分比": {CONSUMABLES_NUMBER.critical_zongzi: "瘦肉粽"}
+}
 CONSUMABLES = {}
-for consumables in [FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, BOILED_FISH]:
+for consumables in [FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, CANDY, ZONGZI, BOILED_FISH]:
     for attr, params in consumables.copy().items():
         consumables.pop(attr)
         if NAME_MAP[attr] not in consumables:

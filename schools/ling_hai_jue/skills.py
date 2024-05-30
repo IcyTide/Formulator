@@ -97,6 +97,16 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [300 * 1.1],
         "weapon_damage_cof": 1024
     },
+    20734: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "定波砥澜",
+        "damage_base": [100, 150, 200, 250],
+        "attack_power_cof": [75 * 1.3] +
+                            [150 * 1.3] +
+                            [300 * 1.3] +
+                            [500 * 1.3],
+        "weapon_damage_cof": 100
+    },
     19819: {
         "skill_class": PhysicalDamage,
         "skill_name": "木落雁归",
@@ -153,6 +163,13 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
                             [20 * i * 0.7 for i in range(3, 9)] +
                             [200 * 0.7],
         "weapon_damage_cof": 2048
+    },
+    32478: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "风驰",
+        "damage_base": 130,
+        "damage_rand": 5,
+        "attack_power_cof": 540
     },
     25273: {
         "skill_class": PhysicalDamage,

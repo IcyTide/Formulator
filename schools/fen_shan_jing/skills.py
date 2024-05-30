@@ -1,6 +1,6 @@
 from typing import Dict, Union
 
-from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage
+from base.skill import Skill, DotSkill, PhysicalDamage, PhysicalDotDamage, MagicalDamage
 from general.skills import GENERAL_SKILLS
 
 
@@ -293,6 +293,46 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "attack_power_cof": 80 * 1.2,
         "weapon_damage_cof": 1024,
         "skill_pve_addition": 614
+    },
+
+    16727: {
+        "skill_class": Skill,
+        "skill_name": "魂吸",
+        "post_buffs": {(-1, 1): 3}
+    },
+    23284: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "争神焱舞",
+        "damage_base": [86625, 88698, 119225],
+        "interval": 30,
+        "attack_power_cof": 16,
+        "weapon_damage_cof": 1024
+    },
+    23285: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "苍蛟扫狼",
+        "damage_base": [57750, 59132, 79483],
+        "attack_power_cof": 16,
+        "weapon_damage_cof": 1024
+    },
+    23286: {
+        "skill_class": PhysicalDamage,
+        "skill_name": "争神焱舞",
+        "damage_base": [144375, 147831, 198708],
+        "attack_power_cof": 16,
+        "weapon_damage_cof": 1024
+    },
+    23287: {
+        "skill_class": MagicalDamage,
+        "skill_name": "炎帝反击",
+        "damage_base": [121904, 286452, 410323],
+        "attack_power_cof": 16
+    },
+    23294: {
+        "skill_class": MagicalDamage,
+        "skill_name": "苍炎",
+        "damage_base": [122, 380, 380],
+        "attack_power_cof": 16
     },
     25780: {
         "skill_class": PhysicalDamage,
