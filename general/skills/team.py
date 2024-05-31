@@ -1,28 +1,17 @@
-from typing import Dict, Union
+from typing import Dict
 
-from base.skill import PhysicalDamage, MagicalDamage, Skill
+from base.skill import Damage
 
-GENERAL_SKILLS: Dict[int, Union[Skill, dict]] = {
-    29535: {
-        "skill_class": MagicalDamage,
-        "skill_name": "逐云寒蕊",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [90, 200 * 1.2],
-        "skill_shield_gain": -1024
-    },
-    29536: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "逐云寒蕊",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [90, 200 * 1.2],
-        "skill_shield_gain": -1024
+GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
+    Damage: {
+        **{skill_id: {} for skill_id in range(29532, 29537 + 1)},
     }
 }
 
-for skill_id, detail in GENERAL_SKILLS.items():
-    GENERAL_SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
-    GENERAL_SKILLS[skill_id].activate = False
-    for attr, value in detail.items():
-        setattr(GENERAL_SKILLS[skill_id], attr, value)
+SKILLS = {}
+for skill_class, skills in GENERAL_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        SKILLS[skill_id] = skill

@@ -217,10 +217,4 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
     }
 }
 
-for skill_id, detail in SKILLS.items():
-    SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
-    for attr, value in detail.items():
-        setattr(SKILLS[skill_id], attr, value)
 
-for skill_id, skill in GENERAL_SKILLS.items():
-    SKILLS[skill_id] = skill

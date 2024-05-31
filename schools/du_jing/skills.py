@@ -1,7 +1,7 @@
 from typing import Dict, Union
 
-from base.skill import Skill, DotSkill, DotConsumeSkill, PhysicalDamage, MagicalDamage, MagicalDotDamage, \
-    MagicalPetDamage
+from base.skill import Skill, DotSkill, DotConsumeSkill, MagicalDamage, PhysicalDamage, MagicalDotDamage, DotDamage, \
+    Damage, MagicalPetDamage
 from general.skills import GENERAL_SKILLS
 
 
@@ -34,13 +34,11 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "skill_damage_addition": 205
     },
     18590: {
-        "skill_class": MagicalDotDamage,
+        "skill_class": MagicalDamage,
         "skill_name": "蛊毒",
         "damage_base": 30 * 0.95,
         "damage_rand": 30 * 0.1,
         "attack_power_cof": 16,
-        "interval": 32,
-        "tick": 6
     },
     6218: {
         "skill_class": MagicalDotDamage,
@@ -206,11 +204,3 @@ SKILLS: Dict[int, Union[Skill, dict]] = {
         "bind_skill": 18882
     }
 }
-
-for skill_id, detail in SKILLS.items():
-    SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
-    for attr, value in detail.items():
-        setattr(SKILLS[skill_id], attr, value)
-
-for skill_id, skill in GENERAL_SKILLS.items():
-    SKILLS[skill_id] = skill

@@ -1,92 +1,20 @@
-from typing import Dict, Union
+from typing import Dict
 
-from base.skill import PhysicalDamage, MagicalDamage, Skill, PureDamage
+from base.skill import Damage
 
-GENERAL_SKILLS: Dict[int, Union[Skill, dict]] = {
-    22160: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": 75
-    },
-    22161: {
-        "skill_class": MagicalDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": 90
-    },
-    22162: {
-        "skill_class": MagicalDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": 90
-    },
-    22163: {
-        "skill_class": MagicalDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": 90
-    },
-    22164: {
-        "skill_class": MagicalDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": 90
-    },
-    33257: {
-        "skill_class": PhysicalDamage,
-        "skill_name": "刃凌",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [60, 100, 60, 100, 100]
-    },
-    33258: {
-        "skill_class": MagicalDamage,
-        "skill_name": "刃凌",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [50, 100]
-    },
-    33259: {
-        "skill_class": MagicalDamage,
-        "skill_name": "刃凌",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [50, 100]
-    },
-    33260: {
-        "skill_class": MagicalDamage,
-        "skill_name": "刃凌",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [50, 100]
-    },
-    33261: {
-        "skill_class": MagicalDamage,
-        "skill_name": "刃凌",
-        "damage_base": 40,
-        "damage_rand": 17,
-        "attack_power_cof": [50, 100]
-    },
-    37562: {
-        "skill_class": PureDamage,
-        "skill_name": "昆吾·弦刃",
-        "damage_base": 145300
-    },
-    37561: {
-        "skill_class": PureDamage,
-        "skill_name": "刃凌",
-        "damage_base": 96900,
-    },
+GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
+    Damage: {
+        **{skill_id: {} for skill_id in range(22160, 22164 + 1)},
+        **{skill_id: {} for skill_id in range(33257, 33261 + 1)},
+        37561: {"damage_base": 96900},
+        37562: {"damage_base": 145300},
+    }
 }
 
-for skill_id, detail in GENERAL_SKILLS.items():
-    GENERAL_SKILLS[skill_id] = detail.pop('skill_class')(skill_id)
-    GENERAL_SKILLS[skill_id].activate = False
-    for attr, value in detail.items():
-        setattr(GENERAL_SKILLS[skill_id], attr, value)
+SKILLS = {}
+for skill_class, skills in GENERAL_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        SKILLS[skill_id] = skill
