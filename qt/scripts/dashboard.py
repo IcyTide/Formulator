@@ -66,11 +66,11 @@ def dashboard_script(parser: Parser,
             setattr(attribute, attr, getattr(attribute, attr) + value)
 
         equipment_gains = [school.gains[gain] for gain in equipments.gains]
-        if school.id == 10145:
-            equipment_gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))
         talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
         recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
         gains = sum([equipment_gains, talent_gains, recipe_gains, bonuses.gains], [])
+        if school.id == 10145:
+            gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))
 
         for gain in gains:
             gain.add(attribute, school.skills, school.buffs)

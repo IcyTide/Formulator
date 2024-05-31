@@ -102,7 +102,7 @@ class ComboWithLabel(LabelWidget):
 
 
 class RadioWithLabel(LabelWidget):
-    def __init__(self, label, text: str = None):
+    def __init__(self, label, text: str = None, tag: bool = False):
         super().__init__(label)
         layout = QVBoxLayout()
         self.setLayout(layout)
@@ -110,6 +110,8 @@ class RadioWithLabel(LabelWidget):
         self.radio_button = QRadioButton()
         if text:
             self.radio_button.setText(text)
+        if tag:
+            self.radio_button.setChecked(tag)
 
         layout.addWidget(self.label)
         layout.addWidget(self.radio_button)

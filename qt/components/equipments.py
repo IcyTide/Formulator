@@ -1,9 +1,11 @@
 import json
 import os
 
-from assets.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR
+from assets.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR, \
+    MAX_STRENGTH_LEVEL
 from assets.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, SPECIAL_ENCHANT_POSITIONS
-from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel
+from general.gains.equipment import CriticalSet
+from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel, SpinWithLabel
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
 
 
@@ -82,13 +84,31 @@ class EquipmentWidget(QWidget):
         output_layout.addWidget(self.embed_attr)
 
 
-class EquipmentsWidget(QTabWidget):
+class EquipmentsWidget(QWidget):
     def __init__(self):
         super().__init__()
+        layout = QVBoxLayout(self)
+
+        top_layout = QHBoxLayout()
+        layout.addLayout(top_layout)
+        self.real_formulation = RadioWithLabel("开启真实装备增益模拟(仅包括存在覆盖率的角色BUFF,不包含额外技能)", tag=True)
+        top_layout.addWidget(self.real_formulation, 3)
+        self.critical_set_rate = SpinWithLabel("套装效果", "覆盖(%)", maximum=100, value=100 * CriticalSet.rate)
+        top_layout.addWidget(self.critical_set_rate, 1)
+        self.all_strength_level = ComboWithLabel(
+            "全部精炼等级", items=[str(i) for i in range(MAX_STRENGTH_LEVEL + 1)], index=MAX_STRENGTH_LEVEL)
+        top_layout.addWidget(self.all_strength_level, 1)
+        self.all_embed_level = ComboWithLabel(
+            "全部镶嵌等级", items=[str(i) for i in range(MAX_EMBED_LEVEL + 1)], index=MAX_STRENGTH_LEVEL)
+        top_layout.addWidget(self.all_embed_level, 1)
+
+        tabs = QTabWidget()
+        layout.addWidget(tabs)
+
         self.equipments = {}
         for label in POSITION_MAP:
             self.equipments[label] = EquipmentWidget(label)
-            self.addTab(self.equipments[label], label)
+            tabs.addTab(self.equipments[label], label)
 
     def __getitem__(self, item) -> EquipmentWidget:
         return self.equipments[item]

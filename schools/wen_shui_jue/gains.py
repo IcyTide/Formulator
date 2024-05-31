@@ -4,6 +4,7 @@ from base.buff import Buff
 from base.recipe import damage_addition_recipe, critical_strike_recipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from base.gain import Gain
+from schools.wen_shui_jue.buffs import BUFFS
 
 
 class SecondaryWeapon(Gain):
@@ -19,7 +20,7 @@ class SecondaryWeapon(Gain):
 
 
 GAINS = {
-    1920: CriticalSet(1955),
+    1920: CriticalSet(1955, BUFFS[1955].gain_attributes),
     818: damage_addition_recipe([1594, 1595, 18317], 102),
     4347: damage_addition_recipe([2896], 102),
     1536: damage_addition_recipe([1706], 51),

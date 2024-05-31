@@ -50,6 +50,12 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
             "all_damage_addition": 72
         }
     },
+    2779: {
+        "buff_name": "渊",
+        "gain_attributes": {
+            "physical_attack_power_gain": 512
+        }
+    },
     -12608: {
         "buff_name": "风虎",
         "activate": False,

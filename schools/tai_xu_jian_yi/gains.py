@@ -1,9 +1,10 @@
 from base.recipe import damage_addition_recipe, critical_strike_recipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from base.gain import Gain
+from schools.tai_xu_jian_yi.buffs import BUFFS
 
 GAINS = {
-    1915: CriticalSet(1438),
+    1915: CriticalSet(1438, BUFFS[1438].gain_attributes),
     818: damage_addition_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 102),
     1522: damage_addition_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 51),
     1523: damage_addition_recipe([13853, 4954], 51),

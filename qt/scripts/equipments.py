@@ -1,7 +1,7 @@
 from collections import defaultdict
 from typing import Dict, List, Union, Tuple
 
-from general.gains.equipment import EQUIPMENT_GAINS
+from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
 from qt.components.equipments import EquipmentsWidget
 from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
 from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
@@ -114,6 +114,7 @@ class Equipment:
 class Equipments:
     def __init__(self):
         self.equipments = {label: Equipment(label) for label in POSITION_MAP}
+        self.real_formulation = False
 
     def __getitem__(self, item) -> Equipment:
         return self.equipments[item]
@@ -215,6 +216,33 @@ class Equipments:
 
 def equipments_script(equipments_widget: EquipmentsWidget):
     equipments = Equipments()
+
+    def real_equipment_gain():
+        widget = equipments_widget.real_formulation
+        if widget.radio_button.isChecked():
+            set_real_formulation(True)
+        else:
+            set_real_formulation(False)
+
+    equipments_widget.real_formulation.radio_button.clicked.connect(real_equipment_gain)
+
+    def critical_set_rate(value):
+        set_critical_set_rate(value / 100)
+
+    equipments_widget.critical_set_rate.spin_box.valueChanged.connect(critical_set_rate)
+
+    def all_strength_level_update(index):
+        for label, widget in equipments_widget.items():
+            equipment = equipments[label]
+            index = min(equipment.max_strength, index)
+            widget.strength_level.combo_box.setCurrentIndex(index)
+    equipments_widget.all_strength_level.combo_box.currentIndexChanged.connect(all_strength_level_update)
+
+    def all_embed_level_update(index):
+        for widget in equipments_widget.values():
+            for embed_level in widget.embed_levels:
+                embed_level.combo_box.setCurrentIndex(index)
+    equipments_widget.all_embed_level.combo_box.currentIndexChanged.connect(all_embed_level_update)
 
     def equipment_update(label):
         widget = equipments_widget[label]

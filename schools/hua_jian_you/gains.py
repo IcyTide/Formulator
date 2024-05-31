@@ -1,9 +1,10 @@
 from base.recipe import attack_power_recipe, damage_addition_recipe, critical_strike_recipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from base.gain import Gain
+from schools.hua_jian_you.buffs import BUFFS
 
 GAINS = {
-    1912: CriticalSet(1440),
+    1912: CriticalSet(1440, BUFFS[1440].gain_attributes),
     817: attack_power_recipe([714], 1.15),
     1546: damage_addition_recipe([33222], 102),
     1516: damage_addition_recipe([14941], 51),

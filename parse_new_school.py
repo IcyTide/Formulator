@@ -59,4 +59,4 @@ class Parser:
 
 if __name__ == '__main__':
     parser = Parser()
-    parser(r"logs/peng_lai.jcl")
+    parser(r"new.jcl")
