@@ -8,7 +8,7 @@ FRAME_TYPE, SECOND_TYPE = int, int
 PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
 CASTER_ID_TYPE = Union[PLAYER_ID_TYPE, PET_ID_TYPE]
 SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
-SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE]
+DAMAGE_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]
 BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE = int, int, int
 BUFF_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE]
 
@@ -16,7 +16,7 @@ CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE = tuple, tuple, tu
 STATUS_TUPLE = Tuple[CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE]
 TIMELINE_TYPE = Tuple[FRAME_TYPE, SKILL_CRITICAL_TYPE]
 SUB_RECORD_TYPE = Dict[STATUS_TUPLE, List[TIMELINE_TYPE]]
-RECORD_TYPE = Dict[SKILL_TYPE, SUB_RECORD_TYPE]
+RECORD_TYPE = Dict[DAMAGE_TYPE, SUB_RECORD_TYPE]
 
 LABEL_MAPPING = {
     2: "远程武器",
@@ -60,6 +60,7 @@ class BaseParser:
 
     dot_stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
     dot_ticks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
+    dot_skills: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]]]]
     dot_snapshot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]]
 
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
@@ -128,6 +129,10 @@ class BaseParser:
         return self.dot_ticks[self.current_target][self.current_player]
 
     @property
+    def current_dot_skills(self):
+        return self.dot_skills[self.current_target][self.current_player]
+
+    @property
     def current_last_dot(self):
         return self.last_dot[self.current_target][self.current_player]
 
@@ -153,8 +158,9 @@ class BaseParser:
         self.target_buff_stacks = defaultdict(lambda: defaultdict(dict))
         self.target_buff_intervals = defaultdict(lambda: defaultdict(dict))
 
-        self.dot_stacks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 1)))
-        self.dot_ticks = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: 0)))
+        self.dot_stacks = defaultdict(lambda: defaultdict(dict))
+        self.dot_ticks = defaultdict(lambda: defaultdict(dict))
+        self.dot_skills = defaultdict(lambda: defaultdict(dict))
 
         self.next_pet_buff_stacks = defaultdict(list)
         self.dot_snapshot = defaultdict(lambda: defaultdict(dict))
@@ -232,10 +238,10 @@ class Parser(BaseParser):
     def parse_player(self, row):
         detail = row.strip("{}").split(",")
         player_id, school_id = detail[0], int(detail[3])
-        if player_id in self.id2name or school_id not in SUPPORT_SCHOOL:
+        if player_id in self.id2name or school_id not in SUPPORT_SCHOOLS:
             return
 
-        if isinstance(detail := parse(row), list) and (school := SUPPORT_SCHOOL.get(detail[3])):
+        if isinstance(detail := parse(row), list) and (school := SUPPORT_SCHOOLS.get(detail[3])):
             player_name = detail[1]
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id

@@ -69,4 +69,4 @@ def WEAPON_DAMAGE_COF(cof):
 
 
 def GLOBAL_DAMAGE_FACTOR(cof):
-    return ((int(cof) + int(cof < 0)) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE
+    return (int(cof) / BINARY_SCALE + BINARY_SCALE) / BINARY_SCALE

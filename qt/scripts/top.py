@@ -14,7 +14,7 @@ from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
 from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
 from qt.scripts.config import CONFIG
-from schools import SUPPORT_SCHOOL
+from schools import SUPPORT_SCHOOLS
 from utils.parser import Parser
 from utils.io import serialize, unserialize
 
@@ -64,7 +64,7 @@ def top_script(
         result = json.load(open(file_name[0], encoding="utf-8"))
         result['records'] = unserialize(result['records'])
         for player_id, school_id in result['players'].items():
-            result['players'][player_id] = SUPPORT_SCHOOL[school_id]
+            result['players'][player_id] = SUPPORT_SCHOOLS[school_id]
 
         for k, v in result.items():
             setattr(parser, k, v)

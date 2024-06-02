@@ -29,114 +29,7 @@ class BaseSkill:
             self._skill_name = [skill_name]
 
 
-@dataclass
-class Skill(BaseSkill):
-    skill_id: int
-
-    activate: bool = True
-
-    pre_effects: list = None
-    pre_buffs: dict = None
-    pre_target_buffs: dict = None
-    post_effects: list = None
-    post_buffs: dict = None
-    post_target_buffs: dict = None
-
-    def __post_init__(self):
-        if not self.pre_effects:
-            self.pre_effects = []
-        if not self.pre_buffs:
-            self.pre_buffs = {}
-        if not self.pre_target_buffs:
-            self.pre_target_buffs = {}
-        if not self.post_effects:
-            self.post_effects = []
-        if not self.post_buffs:
-            self.post_buffs = {}
-        if not self.post_target_buffs:
-            self.post_target_buffs = {}
-
-    @property
-    def display_name(self):
-        return f"{self.skill_name}#{self.skill_id}-{self.skill_level}-{self.skill_stack}"
-
-    def pre_record(self, parser):
-        for (buff_id, buff_level), buff_stack in self.pre_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.pre_target_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
-        for effect in self.pre_effects:
-            effect(parser)
-
-    def record(self, critical, parser):
-        pass
-
-    def post_record(self, parser):
-        for (buff_id, buff_level), buff_stack in self.post_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.post_target_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
-        for effect in self.post_effects:
-            effect(parser)
-
-    def parse(self, critical, parser):
-        self.pre_record(parser)
-        self.record(critical, parser)
-        self.post_record(parser)
-
-    def __call__(self, attribute: Attribute):
-        return 0
-
-
-class DotSkill(Skill):
-    bind_skill: int
-
-    def record(self, critical, parser):
-        super().record(critical, parser)
-        bind_skill = parser.current_school.skills[self.bind_skill]
-        if not parser.current_dot_ticks[self.bind_skill]:
-            parser.current_dot_stacks[self.bind_skill] = 0
-        parser.current_dot_ticks[self.bind_skill] = bind_skill.tick
-        parser.current_dot_stacks[self.bind_skill] = min(
-            parser.current_dot_stacks.get(self.bind_skill, 0) + 1, bind_skill.max_stack
-        )
-        parser.current_dot_snapshot[self.bind_skill] = parser.current_buff_stacks.copy()
-
-
-class DotConsumeSkill(Skill):
-    bind_skill: int
-    tick: int
-    last_dot: bool = True
-
-    def consume_next(self, parser):
-        tick = min(parser.current_dot_ticks[self.bind_skill], self.tick)
-        parser.current_next_dot[self.bind_skill] = tick
-
-    def consume_last(self, parser):
-        if not (last_dot := parser.current_last_dot.pop(self.bind_skill, None)):
-            return
-        skill_tuple, status_tuple = last_dot
-        skill_id, skill_level, skill_stack = skill_tuple
-        parser.current_dot_ticks[skill_id] += 1
-        tick = min(parser.current_dot_ticks[skill_id], self.tick)
-        parser.current_records[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
-            parser.current_records[skill_tuple][status_tuple].pop()
-        )
-        parser.current_dot_ticks[skill_id] -= tick
-
-    def record(self, critical, parser):
-        super().record(critical, parser)
-        if self.last_dot:
-            self.consume_last(parser)
-        else:
-            self.consume_next(parser)
-
-
-class BaseDamage(Skill):
+class BaseDamage(BaseSkill):
     PHYSICAL_KINDS = ["Physics"]
     MAGICAL_KINDS = ["SolarMagic", "LunarMagic", "NeutralMagic", "Poison"]
     kind_type: str = ""
@@ -589,7 +482,139 @@ class BaseDamage(Skill):
         return total_damage, total_critical_damage, critical_strike, expected_damage
 
 
-class Damage(BaseDamage):
+@dataclass
+class Skill(BaseDamage):
+    skill_id: int
+
+    activate: bool = True
+
+    bind_dot: int = None
+    consume_dot: int = None
+    consume_last: bool = True
+    tick: int = None
+
+    pre_effects: list = None
+    pre_buffs: dict = None
+    pre_target_buffs: dict = None
+    post_effects: list = None
+    post_buffs: dict = None
+    post_target_buffs: dict = None
+
+    def __post_init__(self):
+        if not self.pre_effects:
+            self.pre_effects = []
+        if not self.pre_buffs:
+            self.pre_buffs = {}
+        if not self.pre_target_buffs:
+            self.pre_target_buffs = {}
+        if not self.post_effects:
+            self.post_effects = []
+        if not self.post_buffs:
+            self.post_buffs = {}
+        if not self.post_target_buffs:
+            self.post_target_buffs = {}
+
+    @property
+    def display_name(self):
+        return f"{self.skill_name}#{self.skill_id}-{self.skill_level}-{self.skill_stack}"
+
+    def pre_record(self, parser):
+        for (buff_id, buff_level), buff_stack in self.pre_buffs.items():
+            buff_level = buff_level if buff_level else self.skill_level
+            parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for (buff_id, buff_level), buff_stack in self.pre_target_buffs.items():
+            buff_level = buff_level if buff_level else self.skill_level
+            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for effect in self.pre_effects:
+            effect(parser)
+
+    def record(self, critical, parser):
+        pass
+
+    def post_record(self, parser):
+        for (buff_id, buff_level), buff_stack in self.post_buffs.items():
+            buff_level = buff_level if buff_level else self.skill_level
+            parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for (buff_id, buff_level), buff_stack in self.post_target_buffs.items():
+            buff_level = buff_level if buff_level else self.skill_level
+            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for effect in self.post_effects:
+            effect(parser)
+
+    def parse(self, critical, parser):
+        self.pre_record(parser)
+        self.record(critical, parser)
+        self.post_record(parser)
+
+    def damage(self, parser):
+        skill_tuple = (self.skill_id, self.skill_level)
+        status_tuple = parser.status(self.skill_id)
+        parser.current_records[skill_tuple][status_tuple].append(
+            (parser.current_frame - parser.start_frame, critical)
+        )
+        return skill_tuple, status_tuple
+
+    def add_dot(self, parser):
+        bind_dot = parser.current_school.skills[self.bind_dot]
+        if not parser.current_dot_ticks[self.bind_dot]:
+            parser.current_dot_stacks[self.bind_dot] = 0
+        parser.current_dot_ticks[self.bind_dot] = bind_dot.tick
+        parser.current_dot_stacks[self.bind_dot] = min(
+            parser.current_dot_stacks.get(self.bind_dot, 0) + 1, bind_dot.max_stack
+        )
+        parser.current_dot_skills[self.bind_dot] = (self.skill_id, self.skill_level)
+        parser.current_dot_snapshot[self.bind_dot] = parser.current_buff_stacks.copy()
+
+    def consume_next_dot(self, parser):
+        tick = min(parser.current_dot_ticks[self.consume_dot], self.tick)
+        parser.current_next_dot[self.consume_dot] = tick
+
+    def consume_last_dot(self, parser):
+        if not (last_dot := parser.current_last_dot.pop(self.consume_dot, None)):
+            return
+        skill_tuple, status_tuple = last_dot
+        skill_id, skill_level, skill_stack = skill_tuple
+        parser.current_dot_ticks[skill_id] += 1
+        tick = min(parser.current_dot_ticks[skill_id], self.tick)
+        parser.current_records[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
+            parser.current_records[skill_tuple][status_tuple].pop()
+        )
+        parser.current_dot_ticks[skill_id] -= tick
+
+    def __call__(self, attribute: Attribute):
+        return 0
+
+
+class DotConsumeSkill(Skill):
+    bind_skill: int
+    tick: int
+    last_dot: bool = True
+
+    def consume_next(self, parser):
+        tick = min(parser.current_dot_ticks[self.bind_skill], self.tick)
+        parser.current_next_dot[self.bind_skill] = tick
+
+    def consume_last(self, parser):
+        if not (last_dot := parser.current_last_dot.pop(self.bind_skill, None)):
+            return
+        skill_tuple, status_tuple = last_dot
+        skill_id, skill_level, skill_stack = skill_tuple
+        parser.current_dot_ticks[skill_id] += 1
+        tick = min(parser.current_dot_ticks[skill_id], self.tick)
+        parser.current_records[(skill_id, skill_level, skill_stack * tick)][status_tuple].append(
+            parser.current_records[skill_tuple][status_tuple].pop()
+        )
+        parser.current_dot_ticks[skill_id] -= tick
+
+    def record(self, critical, parser):
+        super().record(critical, parser)
+        if self.last_dot:
+            self.consume_last(parser)
+        else:
+            self.consume_next(parser)
+
+
+class Damage(Skill):
     def record(self, critical, parser):
         super().record(critical, parser)
         skill_stack = parser.current_dot_stacks[self.skill_id]
@@ -607,9 +632,9 @@ class DotDamage(BaseDamage):
     extra_tick: int = 0
     max_stack: int = 1
 
-    # @property
-    # def tick(self):
-    #     return self.origin_tick + self.extra_tick
+    @property
+    def tick(self):
+        return self.origin_tick + self.extra_tick
 
     def physical_attack_power_cof(self):
         return PHYSICAL_DOT_ATTACK_POWER_COF(self.channel_interval, self.interval, self.origin_tick)
@@ -618,11 +643,12 @@ class DotDamage(BaseDamage):
         return MAGICAL_DOT_ATTACK_POWER_COF(self.channel_interval, self.interval, self.origin_tick)
 
     def record(self, critical, parser):
+        skill_id, skill_level = parser.current_dot_skill[self.skill_id]
         skill_stack = parser.current_dot_stacks[self.skill_id]
         status_tuple = parser.status(self.skill_id)
         tick = parser.current_next_dot.pop(self.skill_id, 1)
         parser.current_dot_ticks[self.skill_id] -= tick
-        parser.current_last_dot[self.skill_id] = ((self.skill_id, self.skill_level, skill_stack), status_tuple)
+        parser.current_last_dot[self.skill_id] = ((skill_id, skill_level, skill_stack), status_tuple)
         parser.current_records[(self.skill_id, self.skill_level, skill_stack * tick)][status_tuple].append(
             (parser.current_frame - parser.start_frame, critical)
         )
@@ -660,46 +686,13 @@ class PetDamage(Damage):
         return damage, critical_damage
 
 
-class PureSkill(Skill):
+class PureDamage(Skill):
     damage_base: int = 0
-    damage_rand: int = 0
 
     def __call__(self, attribute: Attribute):
-        damage = init_result(self.damage_base, self.damage_rand, 0, 0, 0, 0, 0, 0)
+        damage = init_result(self.damage_base, 0, 0, 0, 0, 0, 0, 0)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         damage = vulnerable_result(damage, attribute.vulnerable)
 
         return damage, damage, damage, 0
-
-
-class MagicalDamage(Damage):
-    pass
-
-
-class PhysicalDamage(Damage):
-    pass
-
-
-class MixingDamage(Damage):
-    pass
-
-
-class MagicalDotDamage(DotDamage):
-    pass
-
-
-class PhysicalDotDamage(DotDamage):
-    pass
-
-
-class MixingDotDamage(DotDamage):
-    pass
-
-
-class MagicalPetDamage(PetDamage):
-    pass
-
-
-class MagicalNpcDamage(NpcDamage):
-    pass

@@ -1,7 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, DotSkill, DotDamage, Damage
-from general.skills import GENERAL_SKILLS
+from base.skill import Skill, Damage, DotDamage, DotSkill
 
 
 class 战意判定(Skill):
@@ -21,22 +20,14 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         409: {"post_buffs": {(-1, 1): 3}},
         18773: {"post_buffs": {(-1, 1): -3}},
     },
-    DotDamage: {
-        3442: {"bind_skill": 702}
-    },
-    type("", (Damage, DotSkill), {}): {
-        702: {"bind_skill": 3442}
-    },
-    DotSkill: {
-        18591: {"bind_skill": 3442}
-    },
-    战意判定: {18740: {}},
-    Skill: {
-        skill_id: {"post_buffs": {(-1, 1): 5}} for skill_id in (1850, 1861)
-    }
+    DotDamage: {3442: {"bind_skill": 18591}},
+    type("", (Damage, DotSkill), {}): {702: {"bind_skill": 3442}},
+    DotSkill: {18591: {"bind_skill": 3442}},
+    Skill: {skill_id: {"post_buffs": {(-1, 1): 5}} for skill_id in (1850, 1861)},
+    战意判定: {18740: {}}
 }
 SKILLS = {}
-SKILLS.update(GENERAL_SKILLS)
+
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

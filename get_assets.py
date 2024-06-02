@@ -9,10 +9,10 @@ from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_E
 from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
-from schools import SUPPORT_SCHOOL
+from schools import SUPPORT_SCHOOLS
 
-KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOL.values()], []))
-SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL.values()])
+KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOLS.values()], []))
+SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOLS.values()])
 
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",

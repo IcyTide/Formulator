@@ -4,7 +4,7 @@ from typing import Tuple, List, Dict, Type, Union, Callable
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill, Damage, DotDamage
+from base.skill import Skill
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
@@ -92,7 +92,7 @@ MIXING_DISPLAY_ATTRS = {
     "surplus": "破招",
 }
 
-SUPPORT_SCHOOL = {
+SUPPORT_SCHOOLS = {
     10003: School(
         id=10003, school="少林", major="元气", kind="内功", attribute=yi_jin_jing.YiJinJing, formation="天鼓雷音阵",
         skills=yi_jin_jing.SKILLS, buffs=yi_jin_jing.BUFFS, prepare=yi_jin_jing.prepare,
@@ -268,13 +268,3 @@ SUPPORT_SCHOOL = {
         gains=shan_hai_xin_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
 }
-
-DOT_DAMAGES, DAMAGES = [], []
-for school in SUPPORT_SCHOOL.values():
-    for k, v in school.skills.items():
-        if issubclass(v['skill_class'], DotDamage):
-            DOT_DAMAGES.append(k)
-        elif issubclass(v['skill_class'], Damage):
-            DAMAGES.append(k)
-
-print(DAMAGES)

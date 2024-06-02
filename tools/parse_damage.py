@@ -1,24 +1,18 @@
-from tools import ATTRIBUTE_TYPE
+import pandas as pd
+
+from tools import *
+from tqdm import tqdm
+
+SCRIPTS_PATH = "scripts/skill"
 
 
-def empty_function(*args):
-    return
-
-
-class Skill:
-    skill_id = 0
-    skill_level = 0
-    skill_name = ""
-
-    kind_type = None
-
+class Damage(Skill):
     physical_damage_base = 0
     magical_damage_base = 0
     physical_damage_rand = 0
     magical_damage_rand = 0
 
     prepare_frame = 0
-    channel_interval = 0
     weapon_damage_cof = 0
     global_damage_factor = 0
 
@@ -37,38 +31,11 @@ class Skill:
     surplus_call = 0
 
     def __init__(self, skill_id, skill_level, skill_name, kind_type, weapon_request):
-        self.skill_id = skill_id
-        self.skill_level = skill_level
-        self.skill_name = skill_name
-        self.kind_type = kind_type
+        super().__init__(skill_id, skill_level, skill_name, kind_type)
         self.weapon_request = weapon_request
         if weapon_request:
             self.weapon_damage_cof = 1024
         self.channel_interval = 16
-
-    @property
-    def dwSkillID(self):
-        return self.skill_id
-
-    @dwSkillID.setter
-    def dwSkillID(self, dwSkillID):
-        self.skill_id = dwSkillID
-
-    @property
-    def dwLevel(self):
-        return self.skill_level
-
-    @dwLevel.setter
-    def dwLevel(self, dwLevel):
-        self.skill_level = dwLevel
-
-    @property
-    def nChannelInterval(self):
-        return self.channel_interval
-
-    @nChannelInterval.setter
-    def nChannelInterval(self, nChannelInterval):
-        self.channel_interval = nChannelInterval
 
     @property
     def nPrepareFrames(self):
@@ -100,14 +67,38 @@ class Skill:
         elif attr_type == 3:
             self.surplus_call += 1
 
-    def __getitem__(self, key):
-        if key in dir(self):
-            return getattr(self, key)
-        else:
-            return empty_function
 
-    def __setitem__(self, key, value):
-        if key in dir(self):
-            setattr(self, key, value)
+def parse_lua(skill_id):
+    skill_row = SKILL_TAB[SKILL_TAB.SkillID == skill_id].iloc[0]
+    max_level = int(skill_row.MaxLevel)
+    kind_type = skill_row.KindType
+    weapon_request = int(skill_row.WeaponRequest)
+    with open(os.path.join(BASE_DIR, SCRIPTS_PATH, skill_row.ScriptFile), encoding="gbk") as f:
+        lua_code = remove_include(f.read())
+    return max_level, kind_type, weapon_request, lua_code
 
 
+def collect_result():
+    result = []
+    for skill_id in tqdm(DAMAGES):
+        max_level, kind_type, weapon_request, lua_code = parse_lua(skill_id)
+        filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
+        LUA.execute(lua_code)
+        for skill_level in range(max_level):
+            skill_level += 1
+            if skill_level in filter_skill_txt.Level.tolist():
+                skill_name = filter_skill_txt[filter_skill_txt.Level == skill_level].iloc[0].Name
+            else:
+                skill_name = filter_skill_txt.iloc[-1].Name
+
+            skill = Damage(skill_id, skill_level, skill_name, kind_type, weapon_request)
+            LUA.globals()['GetSkillLevelData'](skill)
+            result.append(skill.__dict__)
+    return result
+
+
+if __name__ == '__main__':
+    results = collect_result()
+    df = pd.DataFrame(results)
+    df.to_csv("damages.csv")
+    print(df)

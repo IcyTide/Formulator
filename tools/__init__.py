@@ -2,10 +2,16 @@ import os.path
 import re
 
 import lupa.lua54 as lupa
+import pandas as pd
+
+from base.skill import DotDamage, Damage
+from schools import SUPPORT_SCHOOLS
 
 BASE_DIR = "../../jx3_hd_src"
-
-LUA = lupa.LuaRuntime()
+SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False, encoding="gbk")
+BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/buff.tab"), sep="\t", low_memory=False, encoding="gbk")
+SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/skill.txt"), sep="\t", low_memory=False, encoding="gbk")
+BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/buff.txt"), sep="\t", low_memory=False, encoding="gbk")
 
 ATTRIBUTE_TYPE = {
     -1: "physical_damage_base",
@@ -25,11 +31,11 @@ ATTRIBUTE_TYPE = {
 }
 INCLUDE_LUA = """
 function GetEditorString(param_1, param_2)
-	return true;
+    return true;
 end
 
 function IsClient()
-	return true;
+    return true;
 end
 
 ABSORB_ATTRIBUTE_SHIELD_TYPE = {};
@@ -104,16 +110,88 @@ ATTRIBUTE_TYPE = {
 };
 """
 
-LUA.execute(INCLUDE_LUA)
-
-pattern = re.compile(r'Include\("([^"]+)"\)')
+PATTERN = re.compile(r'Include\("([^"]+)"\)')
 
 
-def remove_include(s):
-    new_s = pattern.sub('', s)
-    return new_s
+def remove_include(code):
+    new_code = PATTERN.sub('', code)
+    return new_code
 
 
-with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
-    lua_code = remove_include(f.read())
-LUA.execute(lua_code)
+def prepare_lua_runtime(lua):
+    lua.execute(INCLUDE_LUA)
+    with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
+        lua_code = remove_include(f.read())
+    lua.execute(lua_code)
+
+
+LUA = lupa.LuaRuntime()
+prepare_lua_runtime(LUA)
+
+
+class Skill:
+    skill_id = 0
+    skill_level = 0
+    skill_name = ""
+
+    kind_type = None
+
+    channel_interval = 0
+
+    @staticmethod
+    def empty_function(*args):
+        return
+
+    def __init__(self, skill_id, skill_level, skill_name, kind_type):
+        self.skill_id = skill_id
+        self.skill_level = skill_level
+        self.skill_name = skill_name
+        self.kind_type = kind_type
+
+    @property
+    def dwSkillID(self):
+        return self.skill_id
+
+    @dwSkillID.setter
+    def dwSkillID(self, dwSkillID):
+        self.skill_id = dwSkillID
+
+    @property
+    def dwLevel(self):
+        return self.skill_level
+
+    @dwLevel.setter
+    def dwLevel(self, dwLevel):
+        self.skill_level = dwLevel
+
+    @property
+    def nChannelInterval(self):
+        return self.channel_interval
+
+    @nChannelInterval.setter
+    def nChannelInterval(self, nChannelInterval):
+        self.channel_interval = nChannelInterval
+
+    def __getitem__(self, key):
+        if key in dir(self):
+            return getattr(self, key)
+        else:
+            return self.empty_function
+
+    def __setitem__(self, key, value):
+        if key in dir(self):
+            setattr(self, key, value)
+
+
+def prepare_skills():
+    damages, dot_damages = {}, {}
+    for school in SUPPORT_SCHOOLS.values():
+        for skill_id, skill in school.skills.items():
+            if isinstance(skill, DotDamage):
+                dot_damages[skill_id] = skill
+            elif isinstance(skill, Damage):
+                damages[skill_id] = skill
+    return damages, dot_damages
+
+
+DAMAGES, DOT_DAMAGES = prepare_skills()
