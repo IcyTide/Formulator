@@ -1,19 +1,20 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        3095: {}, 3121: {}, 3187: {}, 3222: {}, 3227: {}, 6920: {}, 22789: {}, 25775: {}, 32884: {}, 33870: {},
-        37504: {}, 37616: {}
+        3121: dict(damage_addition=205),
+        3095: {}, 3187: {}, 3222: {}, 3227: {}, 6920: {}, 22789: {}, 25775: {}, 32884: {}, 33870: {}, 37504: {},
+        37616: {}
     },
     DotDamage: {
-        2237: {"bind_skill": 3125},
-        19625: {"bind_skill": 3478}
+        2237: dict(extra_tick=1),
+        19625: {}
     },
-    DotSkill: {
-        3125: {"bind_skill": 2237},
-        3478: {"bind_skill": 19625}
+    Skill: {
+        3125: dict(bind_dot=2237),
+        3478: dict(bind_dot=19625)
     }
 }
 SKILLS = {}

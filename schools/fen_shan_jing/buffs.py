@@ -22,7 +22,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     1428: {
         "buff_name": "军啸",
         "activate": False,
-        "gain_attributes": {
+        "attributes": {
             "physical_critical_strike_rate": 400,
             "physical_critical_power_rate": 41
         }
@@ -34,14 +34,14 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     -8248: {
         "buff_name": "虚弱",
         "interval": 400,
-        "gain_attributes": {
+        "attributes": {
             "physical_shield_gain": -51
         }
     },
     -9052: {
         "buff_name": "绝刀增伤",
-        "interval": 1,
-        "gain_skills": {
+        "interval": 4,
+        "gains": {
             13075: {
                 "skill_damage_addition": [205, 410, 614, 819] * 2
             }
@@ -49,31 +49,31 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     8244: {
         "buff_name": "血怒",
-        "gain_attributes": {
+        "attributes": {
             "physical_attack_power_gain": 102
         }
     },
     8627: {
         "buff_name": "刀魂",
-        "gain_attributes": {
+        "attributes": {
             "physical_attack_power_gain": 154
         }
     },
     17176: {
         "buff_name": "分野",
-        "gain_attributes": {
+        "attributes": {
             "all_damage_addition": 51
         }
     },
     8267: {
         "buff_name": "恋战",
-        "gain_attributes": {
+        "attributes": {
             "physical_critical_strike_rate": 300,
         }
     },
     14309: {
         "buff_name": "锋鸣",
-        "gain_attributes": {
+        "attributes": {
             "physical_overcome_gain": 154
         }
     },
@@ -88,19 +88,19 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     27161: {
         "buff_name": "血怒·惊涌",
-        "gain_attributes": {
+        "attributes": {
             "physical_attack_power_gain": 102
         }
     },
     # 9889: {
     #     "buff_name": "蔑视",
-    #     "gain_attributes": {
+    #     "attributes": {
     #         "all_shield_ignore": 512
     #     }
     # },
     16957: {
         "buff_name": "单刀赴会·战",
-        "gain_attributes": {
+        "attributes": {
             "physical_attack_power_base": [4, 40, 100, 150]
         }
     },

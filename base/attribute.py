@@ -9,9 +9,13 @@ class Target:
     physical_shield_gain: int = 0
     magical_shield_gain: int = 0
 
-    _all_vulnerable: float = 0
-    physical_vulnerable: float = 0
-    magical_vulnerable: float = 0
+    _all_vulnerable: int = 0
+    physical_vulnerable: int = 0
+    magical_vulnerable: int = 0
+
+    _all_damage_cof: int = 0
+    physical_damage_cof: int = 0
+    magical_damage_cof: int = 0
 
     @property
     def level_shield_base(self):
@@ -39,6 +43,21 @@ class Target:
         self.physical_vulnerable += residual
         self.magical_vulnerable += residual
         self._all_vulnerable = all_vulnerable
+
+    @property
+    def damage_cof(self):
+        raise NotImplementedError
+
+    @property
+    def all_damage_cof(self):
+        return self._all_damage_cof
+
+    @all_damage_cof.setter
+    def all_damage_cof(self, all_damage_cof):
+        residual = all_damage_cof - self._all_damage_cof
+        self.physical_damage_cof += residual
+        self.magical_damage_cof += residual
+        self._all_damage_cof = all_damage_cof
 
     @property
     def shield_constant(self):
@@ -287,7 +306,7 @@ class Minor:
 
     pve_addition: int = 0
     damage_gain: int = 0
-    global_damage_factor: float = 1.
+    global_damage_cof: float = 1.
 
     """ Minor Function """
 
@@ -453,6 +472,10 @@ class PhysicalAttribute(Attribute):
         return self.physical_shield_gain
 
     @property
+    def damage_cof(self):
+        return self.physical_damage_cof
+
+    @property
     def vulnerable(self):
         return self.physical_vulnerable
 
@@ -502,6 +525,10 @@ class MagicalAttribute(Attribute):
         return self.magical_shield_gain
 
     @property
+    def damage_cof(self):
+        return self.magical_damage_cof
+
+    @property
     def vulnerable(self):
         return self.magical_vulnerable
 
@@ -549,6 +576,10 @@ class MixingAttribute(Attribute):
     @property
     def shield_gain(self):
         return self.magical_shield_gain
+
+    @property
+    def damage_cof(self):
+        return self.magical_damage_cof
 
     @property
     def vulnerable(self):

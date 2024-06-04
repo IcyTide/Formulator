@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 
 class 杀机断魂增伤(Damage):
@@ -18,14 +18,15 @@ class 杀机断魂增伤(Damage):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        3105: {}, 3121: {}, 3223: {}, 3228: {}, 3313: {}, 3393: {}, 3480: {}, 25774: {}, 30727: {}, 30894: {},
-        32885: {}, 36502: {}
+        3121: dict(damage_addition=205),
+        3105: {}, 3223: {}, 3228: {}, 3313: {}, 3393: {}, 3480: {}, 25774: {}, 30727: {}, 30894: {}, 32885: {},
+        36502: {}
     },
     杀机断魂增伤: {
         3401: {}, 3404: {}, 3819: {}, 3824: {}, 37384: {}
     },
-    DotDamage: {14611: {"bind_skill": 21266}},
-    DotSkill: {21266: {"bind_skill": 14611}},
+    DotDamage: {14611: {}},
+    Skill: {21266: dict(bind_dot=14611)},
 }
 SKILLS = {}
 for skill_class, skills in SCHOOL_SKILLS.items():

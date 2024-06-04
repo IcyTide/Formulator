@@ -4,10 +4,13 @@ import re
 import lupa.lua54 as lupa
 import pandas as pd
 
+from base.buff import CustomBuff
 from base.skill import DotDamage, Damage
-from schools import SUPPORT_SCHOOLS
+from schools import SUPPORT_SCHOOLS, GENERAL_SKILLS, GENERAL_BUFFS
 
-BASE_DIR = "../../jx3_hd_src"
+BASE_DIR = "../JX3TABS"
+SAVE_DIR = "assets"
+
 SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False, encoding="gbk")
 BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/buff.tab"), sep="\t", low_memory=False, encoding="gbk")
 SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/skill.txt"), sep="\t", low_memory=False, encoding="gbk")
@@ -26,7 +29,7 @@ ATTRIBUTE_TYPE = {
     -10: "magical_critical_power_rate",
     -11: "physical_shield_gain",
     -12: "magical_shield_gain",
-    -13: "global_damage_factor",
+    -13: "global_damage_cof",
     -14: "pve_addition"
 }
 INCLUDE_LUA = """
@@ -66,18 +69,6 @@ ATTRIBUTE_TYPE = {
     SKILL_NEUTRAL_DAMAGE_RAND = -4,
     SKILL_POISON_DAMAGE_RAND = -4,
 
-    CALL_PHYSICS_DAMAGE = 1,
-    CALL_LUNAR_DAMAGE = 2,
-    CALL_SOLAR_DAMAGE = 2,
-    CALL_NEUTRAL_DAMAGE = 2,
-    CALL_POISON_DAMAGE = 2,
-
-    CALL_SURPLUS_PHYSICS_DAMAGE = 3,
-    CALL_SURPLUS_LUNAR_DAMAGE = 3,
-    CALL_SURPLUS_SOLAR_DAMAGE = 3,
-    CALL_SURPLUS_NEUTRAL_DAMAGE = 3,
-    CALL_SURPLUS_POISON_DAMAGE = 3,
-
     PHYSICS_ATTACK_POWER_PERCENT = -5,
     LUNAR_ATTACK_POWER_PERCENT = -6,
     SOLAR_ATTACK_POWER_PERCENT = -6,
@@ -105,8 +96,19 @@ ATTRIBUTE_TYPE = {
     POISON_MAGIC_SHIELD_PERCENT = -12,
 
     GLOBAL_DAMGAGE_FACTOR = -13,
-
     DST_NPC_DAMAGE_COEFFICIENT = -14,
+
+    CALL_PHYSICS_DAMAGE = 1,
+    CALL_LUNAR_DAMAGE = 2,
+    CALL_SOLAR_DAMAGE = 2,
+    CALL_NEUTRAL_DAMAGE = 2,
+    CALL_POISON_DAMAGE = 2,
+
+    CALL_SURPLUS_PHYSICS_DAMAGE = 3,
+    CALL_SURPLUS_LUNAR_DAMAGE = 3,
+    CALL_SURPLUS_SOLAR_DAMAGE = 3,
+    CALL_SURPLUS_NEUTRAL_DAMAGE = 3,
+    CALL_SURPLUS_POISON_DAMAGE = 3,
 };
 """
 
@@ -129,69 +131,30 @@ LUA = lupa.LuaRuntime()
 prepare_lua_runtime(LUA)
 
 
-class Skill:
-    skill_id = 0
-    skill_level = 0
-    skill_name = ""
+def prepare_data():
+    damages, dots, buffs = {}, {}, {}
+    for skill_id, skill in GENERAL_SKILLS.items():
+        damages[skill_id] = skill
 
-    kind_type = None
+    for buff_id, buff in GENERAL_BUFFS.items():
+        buffs[buff_id] = buff
 
-    channel_interval = 0
-
-    @staticmethod
-    def empty_function(*args):
-        return
-
-    def __init__(self, skill_id, skill_level, skill_name, kind_type):
-        self.skill_id = skill_id
-        self.skill_level = skill_level
-        self.skill_name = skill_name
-        self.kind_type = kind_type
-
-    @property
-    def dwSkillID(self):
-        return self.skill_id
-
-    @dwSkillID.setter
-    def dwSkillID(self, dwSkillID):
-        self.skill_id = dwSkillID
-
-    @property
-    def dwLevel(self):
-        return self.skill_level
-
-    @dwLevel.setter
-    def dwLevel(self, dwLevel):
-        self.skill_level = dwLevel
-
-    @property
-    def nChannelInterval(self):
-        return self.channel_interval
-
-    @nChannelInterval.setter
-    def nChannelInterval(self, nChannelInterval):
-        self.channel_interval = nChannelInterval
-
-    def __getitem__(self, key):
-        if key in dir(self):
-            return getattr(self, key)
-        else:
-            return self.empty_function
-
-    def __setitem__(self, key, value):
-        if key in dir(self):
-            setattr(self, key, value)
-
-
-def prepare_skills():
-    damages, dot_damages = {}, {}
     for school in SUPPORT_SCHOOLS.values():
         for skill_id, skill in school.skills.items():
             if isinstance(skill, DotDamage):
-                dot_damages[skill_id] = skill
-            elif isinstance(skill, Damage):
+                dots[skill_id] = skill
+            elif isinstance(skill, Damage) or skill.bind_dot:
                 damages[skill_id] = skill
-    return damages, dot_damages
+
+        for buff_id, buff in school.buffs.items():
+            if buff_id < 0:
+                buff_id = -buff_id
+
+            if isinstance(buff, CustomBuff):
+                continue
+            buffs[buff_id] = buff
+
+    return damages, dots, buffs
 
 
-DAMAGES, DOT_DAMAGES = prepare_skills()
+DAMAGES, DOTS, BUFFS = prepare_data()

@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 
 class 明法判定(Skill):
@@ -22,7 +22,7 @@ class 明法移除(Skill):
             parser.clear_target_buff(self.final_buff, level + 1)
 
 
-class 众嗔判定(Damage):
+class 众嗔增伤(Damage):
     final_buff = -13910
 
     def pre_record(self, parser):
@@ -37,12 +37,13 @@ class 众嗔判定(Damage):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        11: {}, 236: {}, 271: {}, 3810: {}, 14951: {},
-        17641: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {}, 32656: {}, 32659: {}, 32660: {}, 32887: {}
+        11: dict(damage_addition=205),
+        236: {}, 271: {}, 14951: {}, 17641: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {}, 32656: {}, 32659: {},
+        32660: {}, 32887: {}, 3814: {}, 3817: {},
+        3810: dict(bind_dot=743)
     },
-    众嗔判定: {3848: {}, 3849: {}, 3850: {}, 3814: {}, 3816: {}, 13685: {}},
-    DotDamage: {743: {'bind_skill': 3810}},
-    type("", (Damage, DotSkill), {}): {3810: {"bind_skill": 743}},
+    DotDamage: {743: dict(extra_tick=3)},
+    众嗔增伤: {3848: {}, 3849: {}, 3850: {}, 13685: {}},
     明法判定: {26989: {}},
     明法移除: {26991: {}},
 }

@@ -1,41 +1,41 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe, interval_recipe, shield_gain_recipe, \
-    attack_power_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe, ChannelIntervalRecipe, PrepareFrameRecipe, \
+    PhysicalShieldGainRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "暴雨梨花针": {
-        "5%伤害": damage_addition_recipe([3227], 51),
-        "4%伤害": damage_addition_recipe([3227], 41),
-        "4%会心": critical_strike_recipe([3227], 400),
-        "3%伤害": damage_addition_recipe([3227], 31),
-        "3%会心": critical_strike_recipe([3227], 300),
+        "5%伤害": DamageAdditionRecipe(51, 3093, 3093),
+        "4%伤害": DamageAdditionRecipe(41, 3093, 3093),
+        "3%伤害": DamageAdditionRecipe(31, 3093, 3093),
+        "4%会心": CriticalStrikeRecipe(400, 3093, 3093),
+        "3%会心": CriticalStrikeRecipe(300, 3093, 3093),
     },
     "夺魄箭": {
-        "-0.125运功": interval_recipe([3095, 37504], -2),
-        "5%会心": critical_strike_recipe([3095, 37504], 500),
-        "4%会心": critical_strike_recipe([3095, 37504], 400),
-        "4%伤害": damage_addition_recipe([3095, 37504], 41),
-        "3%伤害": damage_addition_recipe([3095, 37504], 31),
-        "3%会心": critical_strike_recipe([3095, 37504], 300),
+        "-0.125运功": PrepareFrameRecipe(-2, 3095, 3095),
+        "4%伤害": DamageAdditionRecipe(41, 3095, 3095),
+        "3%伤害": DamageAdditionRecipe(31, 3095, 3095),
+        "5%会心": CriticalStrikeRecipe(500, 3095, 3095),
+        "4%会心": CriticalStrikeRecipe(400, 3095, 3095),
+        "3%会心": CriticalStrikeRecipe(300, 3095, 3095),
     },
     "追命箭": {
-        "20%无视防御": shield_gain_recipe([6920], -205),
-        "5%伤害": damage_addition_recipe([6920], 51),
-        "4%伤害": damage_addition_recipe([6920], 41),
-        "4%会心": critical_strike_recipe([6920], 400),
-        "3%伤害": damage_addition_recipe([6920], 31),
-        "3%会心": critical_strike_recipe([6920], 300),
+        "20%无视防御": PhysicalShieldGainRecipe(-205, 3096, 3096),
+        "5%伤害": DamageAdditionRecipe(51, 3096, 3096),
+        "4%伤害": DamageAdditionRecipe(41, 3096, 3096),
+        "3%伤害": DamageAdditionRecipe(31, 3096, 3096),
+        "4%会心": CriticalStrikeRecipe(400, 3096, 3096),
+        "3%会心": CriticalStrikeRecipe(300, 3096, 3096),
     },
     "逐星箭": {
-        "5%伤害": damage_addition_recipe([3187], 51),
-        "4%伤害": damage_addition_recipe([3187], 41),
-        "3%伤害": damage_addition_recipe([3187], 31),
+        "5%伤害": DamageAdditionRecipe(51, 3101, 3101),
+        "4%伤害": DamageAdditionRecipe(41, 3101, 3101),
+        "3%伤害": DamageAdditionRecipe(31, 3101, 3101),
     },
     "穿心弩": {
-        "10%伤害": attack_power_recipe([2237], 1.1),
-        "5%伤害": attack_power_recipe([2237], 1.05)
+        "10%伤害": ChannelIntervalRecipe(1.1, 3098, 3098),
+        "5%伤害": ChannelIntervalRecipe(1.05, 3098, 3098)
     }
 }
 

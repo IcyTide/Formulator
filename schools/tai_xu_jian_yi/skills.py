@@ -1,27 +1,21 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, DotSkill, DotConsumeSkill
+from base.skill import Skill, Damage, DotDamage
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        589: {}, 4954: {}, 13853: {}, 18121: {}, 21726: {}, 21979: {}, 25771: {}, 32814: {}, 34693: {}, 34694: {},
-        **{skill_id: {} for skill_id in range(386, 394 + 1)}
-    },
-    type("", (Damage, DotConsumeSkill), {}): {
-        32408: {
-            "bind_skill": 748,
-            "tick": 1,
-        }
+        18121: dict(damage_addition=205),
+        589: {}, 4954: {}, 13853: {}, 21726: {}, 21979: {}, 25771: {}, 32814: {}, 34693: {}, 34694: {},
+        **{skill_id: {} for skill_id in range(386, 394 + 1)},
+        32408: dict(consume_dot=748, consume_tick=1)
     },
     DotDamage: {
-        748: {"bind_skill": 600},
-        889: {"bind_skill": 30944},
-        23170: {"bind_skill": 37453}
+        748: {}, 889: {}, 23170: {}
     },
-    DotSkill: {
-        600: {"bind_skill": 748},
-        30944: {"bind_skill": 889},
-        37453: {"bind_skill": 23170}
+    Skill: {
+        600: dict(bind_dot=748),
+        30944: dict(bind_dot=889),
+        37453: dict(bind_dot=23170)
     },
 }
 SKILLS = {}

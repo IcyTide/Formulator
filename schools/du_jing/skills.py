@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, PetDamage, DotDamage, DotSkill, DotConsumeSkill
+from base.skill import Skill, Damage, PetDamage, DotDamage
 
 
 class 灵蛇引(Skill):
@@ -15,30 +15,23 @@ class 灵蛇引(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        2183: {}, 3067: {}, 13472: {}, 18590: {}, 25044: {}, 25773: {}, 29573: {}, 30918: {}, 32818: {}, 34389: {}
+        2183: dict(damage_addition=205), 
+        3067: {}, 13472: {}, 18590: {}, 25044: {}, 25773: {}, 29573: {}, 30918: {}, 32818: {}, 34389: {},
     },
     PetDamage: {2472: {}, 22997: {}, 36292: {}, 25019: {}},
     DotDamage: {
-        6218: {"bind_skill": 13476},
-        25917: {"bind_skill": 34643},
-        2509: {"bind_skill": 6238},
-        2295: {"bind_skill": 6236},
-        18882: {"bind_skill": 26226},
+        6218: {}, 2509: {}, 2295: {}, 18882: {},
+        25917: dict(extra_tick=1),
     },
-    DotSkill: {
-        6621: {"bind_skill": 6218},
-        34643: {"bind_skill": 25917},
-        6238: {"bind_skill": 2509},
-        6236: {"bind_skill": 2295},
-        26226: {"bind_skill": 18882},
+    Skill: {
+        13476: dict(bind_dot=6218),
+        34643: dict(bind_dot=25917),
+        6238: dict(bind_dot=2509),
+        6236: dict(bind_dot=2295),
+        26226: dict(bind_dot=18882),
+        34879: dict(consume_dot=25917)
     },
-    DotConsumeSkill: {
-        34879: {
-            "bind_skill": 25917,
-            "tick": 99
-        }
-    },
-    灵蛇引: {2223: {"bind_buffs": []}}
+    灵蛇引: {2223: dict(bind_buffs=[16543])}
 }
 SKILLS = {}
 for skill_class, skills in SCHOOL_SKILLS.items():

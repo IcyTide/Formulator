@@ -83,5 +83,10 @@ def pve_addition_result(damage, pve_addition):
 
 
 @cache
+def damage_cof_result(damage, damage_cof):
+    return int(damage * (1 + damage_cof / BINARY_SCALE))
+
+
+@cache
 def vulnerable_result(damage, vulnerable):
     return int(damage * (1 + vulnerable / BINARY_SCALE))

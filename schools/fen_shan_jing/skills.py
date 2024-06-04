@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 
 class 盾压(Damage):
@@ -36,26 +36,21 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
         32745: {}, 13039: {}, 36065: {}, 36482: {}, 37253: {}, 34673: {}, 34674: {}, 34714: {}, 37448: {}, 30925: {},
         30926: {}, 30857: {}, 30858: {}, 30859: {}, 23284: {}, 23285: {}, 23286: {}, 23287: {}, 23294: {}, 25780: {},
-        **{skill_id: {"post_buffs": {(-1, 1): 10}} for skill_id in (13106, 13160, 13161)},
-        13099: {"post_buffs": {(-1, 1): 15}},
-        13463: {"post_target_buffs": {(-8248, 1): 1}},
-        13044: {"post_buffs": {(-1, 1): 5}},
-        13092: {"post_buffs": {(-1, 1): -15}},
-        28479: {"post_buffs": {(-1, 1): -5}}
+        **{skill_id: dict(post_buffs={(-1, 1): 10}) for skill_id in (13106, 13160, 13161)},
+        13099: dict(post_buffs={(-1, 1): 15}),
+        13044: dict(post_buffs={(-1, 1): 5}),
+        13092: dict(post_buffs={(-1, 1): -15}),
+        28479: dict(post_buffs={(-1, 1): -5}),
+        13463: dict(post_target_buffs={(-8248, 1): 1})
     },
     DotDamage: {8249: {}},
-    DotSkill: {
-        29188: {
-            "bind_skill": 8249,
-            "post_target_buffs": {(-8248, 1): -1}
-        }
+    Skill: {
+        13040: dict(post_buffs={(-1, 1): 10 + 15}),
+        16727: dict(post_buffs={(-1, 1): 3}),
+        29188: dict(bind_dot=8249, post_target_buffs={(-8248, 1): -1})
     },
     盾压: {19409: {}},
-    绝刀: {13075: {}},
-    Skill: {
-        13040: {"post_buffs": {(-1, 1): 10 + 15}},
-        16727: {"post_buffs": {(-1, 1): 3}}
-    }
+    绝刀: {13075: {}}
 }
 SKILLS = {}
 for skill_class, skills in SCHOOL_SKILLS.items():

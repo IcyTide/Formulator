@@ -1,27 +1,21 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, DotSkill, DotConsumeSkill
+from base.skill import Skill, Damage, DotDamage
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
-        15: {}, 2716: {}, 6234: {}, 6554: {}, 6559: {}, 23936: {}, 24999: {}, 25769: {}, 30524: {}, 30532: {},
-        32889: {}, 32957: {}, 33140: {}, 34611: {}, 34612: {}, 34642: {}, 34704: {}, 35058: {}, 37317: {}, 37318: {},
-        37319: {}, 37320: {}
-    },
-    type("", (Damage, DotConsumeSkill), {}): {
-        6559: {
-            "bind_skill": 2920,
-            "tick": 99,
-            "last_dot": False
-        }
+        15: dict(damage_addition=205),
+        2716: {}, 6234: {}, 6554: {}, 23936: {}, 24999: {}, 25769: {}, 30524: {}, 30532: {}, 32889: {}, 6559: {},
+        32957: {}, 33140: {}, 34611: {}, 34612: {}, 34642: {}, 34704: {}, 35058: {}, 37317: {}, 37318: {}, 37319: {},
+        37320: {},
     },
     DotDamage: {
-        2920: {"bind_skill": 6207},
-        18512: {"bind_skill": 25757}
+        2920: {}, 18716: {}
     },
-    DotSkill: {
-        **{skill_id: {"bind_skill": 2920} for skill_id in (6207, 18716)},
-        25757: {"bind_skill": 18512}
+    Skill: {
+        **{skill_id: dict(bind_dot=2920) for skill_id in (6207, 18716)},
+        25757: dict(bind_dot=18512),
+        3889: dict(consume_dot=2920)
     }
 }
 SKILLS = {}

@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
@@ -9,15 +9,11 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         26708: {}, 26709: {}, 26916: {}, 35056: {}, 35057: {}, 34985: {}, 34348: {}, 34349: {}, 34362: {},
         34363: {}, 34359: {}, 34361: {}, 37336: {}, 25777: {}
     },
-    DotDamage: {
-        4202: {"bind_skill": 13359},
-        25725: {},
-        25726: {}
-    },
-    DotSkill: {
-        13359: {"bind_skill": 4202},
-        **{skill_id: {"bind_skill": 25725} for skill_id in (34373, 35038)},
-        **{skill_id: {"bind_skill": 25726} for skill_id in (34374, 35039)}
+    DotDamage: {4202: {}, 25725: {}, 25726: {}},
+    Skill: {
+        13359: dict(bind_dot=4202),
+        **{skill_id: dict(bind_dot=25725) for skill_id in (34373, 35038)},
+        **{skill_id: dict(bind_dot=25726) for skill_id in (34374, 35039)}
     }
 }
 SKILLS = {}

@@ -39,6 +39,112 @@ EMBED_POSITIONS = {
 }
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
+ATTR_TYPE_MAP = dict(
+    atMeleeWeaponDamageBase="weapon_damage_base",
+    atMeleeWeaponDamageRand="weapon_damage_rand",
+    atBasePotentialAdd="all_major_base",
+
+    atAgilityBase="agility_base",
+    atStrengthBase="strength_base",
+    atSpiritBase="spirit_base",
+    atSpunkBase="spunk_base",
+    atAgilityBasePercentAdd="agility_gain",
+    atStrengthBasePercentAdd="strength_gain",
+    atSpiritBasePercentAdd="spirit_gain",
+    atSpunkBasePercentAdd="spunk_gain",
+
+    atPhysicsAttackPowerBase="physical_attack_power_base",
+    atMagicAttackPowerBase="magical_attack_power_base",
+    atSolarAttackPowerBase="magical_attack_power_base",
+    atLunarAttackPowerBase="magical_attack_power_base",
+    atNeutralAttackPowerBase="magical_attack_power_base",
+    atSolarAndLunarAttackPowerBase="magical_attack_power_base",
+    atPoisonAttackPowerBase="magical_attack_power_base",
+
+    atPhysicsAttackPowerPercent="physical_attack_power_gain",
+    atMagicAttackPowerPercent="magical_attack_power_gain",
+    atSolarAttackPowerPercent="magical_attack_power_gain",
+    atLunarAttackPowerPercent="magical_attack_power_gain",
+    atNeutralAttackPowerPercent="magical_attack_power_gain",
+    atSolarAndLunarAttackPowerPercent="magical_attack_power_gain",
+    atPoisonAttackPowerPercent="magical_attack_power_gain",
+
+    atPhysicsOvercomeBase="physical_overcome_base",
+    atMagicOvercome="magical_overcome_base",
+    atSolarOvercomeBase="magical_overcome_base",
+    atLunarOvercomeBase="magical_overcome_base",
+    atNeutralOvercomeBase="magical_overcome_base",
+    atSolarAndLunarOvercomeBase="magical_overcome_base",
+    atPoisonOvercomeBase="magical_overcome_base",
+
+    atPhysicsOvercomePercent="physical_overcome_gain",
+    atMagicOvercomePercent="magical_overcome_gain",
+    atSolarOvercomePercent="magical_overcome_gain",
+    atLunarOvercomePercent="magical_overcome_gain",
+    atNeutralOvercomePercent="magical_overcome_gain",
+    atSolarAndLunarOvercomePercent="magical_overcome_gain",
+    atPoisonOvercomePercent="magical_overcome_gain",
+
+    atAllTypeCriticalStrike="all_critical_strike_base",
+    atPhysicsCriticalStrike="physical_critical_strike_base",
+    atMagicCriticalStrike="magical_critical_strike_base",
+    atSolarCriticalStrike="magical_critical_strike_base",
+    atLunarCriticalStrike="magical_critical_strike_base",
+    atNeutralCriticalStrike="magical_critical_strike_base",
+    atSolarAndLunarCriticalStrike="magical_critical_strike_base",
+    atPoisonCriticalStrike="magical_critical_strike_base",
+
+    atAllTypeCriticalStrikeBaseRate="all_critical_strike_rate",
+    atPhysicsCriticalStrikeBaseRate="physical_critical_strike_rate",
+    atSolarCriticalStrikeBaseRate="magical_critical_strike_rate",
+    atLunarCriticalStrikeBaseRate="magical_critical_strike_rate",
+    atNeutralCriticalStrikeBaseRate="magical_critical_strike_rate",
+    atSolarAndLunarCriticalStrikeBaseRate="magical_critical_strike_rate",
+    atPoisonCriticalStrikeBaseRate="magical_critical_strike_rate",
+
+    atAllTypeCriticalDamagePowerBase="all_critical_power_base",
+    atPhysicsCriticalDamagePowerBase="physical_critical_power_base",
+    atMagicCriticalDamagePowerBase="magical_critical_power_base",
+    atSolarCriticalDamagePowerBase="magical_critical_power_base",
+    atLunarCriticalDamagePowerBase="magical_critical_power_base",
+    atNeutralCriticalDamagePowerBase="magical_critical_power_base",
+    atSolarAndLunarCriticalDamagePowerBase="magical_critical_power_base",
+    atPoisonCriticalDamagePowerBase="magical_critical_power_base",
+
+    atPhysicsCriticalDamagePowerBaseKiloNumRate="physical_critical_power_rate",
+    atMagicCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atSolarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atLunarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atNeutralCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atSolarAndLunarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atPoisonCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+
+    atSurplusValueBase="surplus_base",
+    atSurplusValueAddPercent="surplus_gain",
+
+    atStrainBase="strain_base",
+    atStrainPercent="strain_gain",
+    atStrainRate="strain_rate",
+    atHasteBase="haste_base",
+
+    atAllShieldIgnorePercent="all_shield_ignore",
+    atAllDamageAddPercent="all_damage_addition",
+    atDstNpcDamageCoefficient="pve_addition",
+
+    atPhysicsShieldBase="physical_shield_base",
+    atPhysicsShieldPercent="physical_shield_gain",
+    atMagicShield="magical_shield_base",
+    atSolarMagicShieldPercent="magical_shield_gain",
+    atLunarMagicShieldPercent="magical_shield_gain",
+    atNeutralMagicShieldPercent="magical_shield_gain",
+    atPoisonMagicShieldPercent="magical_shield_gain",
+
+    atPhysicsDamageCoefficient="physical_damage_coefficient",
+    atSolarDamageCoefficient="magical_damage_coefficient",
+    atLunarDamageCoefficient="magical_damage_coefficient",
+    atNeutralDamageCoefficient="magical_damage_coefficient",
+    atPoisonDamageCoefficient="magical_damage_coefficient",
+)
 
 ATTR_TYPE_TRANSLATE = {
     "weapon_damage_base": "基础武器伤害",

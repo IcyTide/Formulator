@@ -7,16 +7,18 @@ from utils.lua import parse
 FRAME_TYPE, SECOND_TYPE = int, int
 PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
 CASTER_ID_TYPE = Union[PLAYER_ID_TYPE, PET_ID_TYPE]
-SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_STACK_TYPE, SKILL_CRITICAL_TYPE = int, int, int, bool
-DAMAGE_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]
+SKILL_ID_TYPE, SKILL_LEVEL_TYPE, SKILL_CRITICAL_TYPE = int, int, bool
 BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE = int, int, int
+DAMAGE_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]
 BUFF_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE]
+DOT_DAMAGE_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE, BUFF_STACK_TYPE]
+SKILL_TYPE = Tuple[DAMAGE_TYPE, DOT_DAMAGE_TYPE]
 
 CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE = tuple, tuple, tuple
 STATUS_TUPLE = Tuple[CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE]
 TIMELINE_TYPE = Tuple[FRAME_TYPE, SKILL_CRITICAL_TYPE]
 SUB_RECORD_TYPE = Dict[STATUS_TUPLE, List[TIMELINE_TYPE]]
-RECORD_TYPE = Dict[DAMAGE_TYPE, SUB_RECORD_TYPE]
+RECORD_TYPE = Dict[SKILL_TYPE, SUB_RECORD_TYPE]
 
 LABEL_MAPPING = {
     2: "远程武器",
@@ -60,7 +62,7 @@ class BaseParser:
 
     dot_stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
     dot_ticks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
-    dot_skills: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]]]]
+    dot_skills: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, DAMAGE_TYPE]]]
     dot_snapshot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]]
 
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
@@ -395,29 +397,40 @@ class Parser(BaseParser):
         skill.parse(critical, self)
 
     def status(self, skill_id):
+        skill = self.current_school.skills[skill_id]
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
-            if buff.gain_attributes:
-                current_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gain_skills and skill_id in buff.gain_skills:
+            if buff.attributes:
+                if all("attack_power" in attr for attr in buff.attributes) and not skill.attack_power_call:
+                    pass
+                elif all("surplus" in attr for attr in buff.attributes) and not skill.surplus_call:
+                    pass
+                else:
+                    current_status.append((buff_id, buff_level, buff_stack))
+            elif buff.gains and skill_id in buff.gains:
                 current_status.append((buff_id, buff_level, buff_stack))
 
         self.current_skill = skill_id
         snapshot_status = []
         for (buff_id, buff_level), buff_stack in self.current_snapshot.items():
             buff = self.current_school.buffs[buff_id]
-            if buff.gain_attributes:
-                snapshot_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gain_skills and skill_id in buff.gain_skills:
+            if buff.attributes:
+                if all("attack_power" in attr for attr in buff.attributes) and not skill.attack_power_call:
+                    pass
+                elif all("surplus" in attr for attr in buff.attributes) and not skill.surplus_call:
+                    pass
+                else:
+                    current_status.append((buff_id, buff_level, buff_stack))
+            elif buff.gains and skill_id in buff.gains:
                 snapshot_status.append((buff_id, buff_level, buff_stack))
 
         target_status = []
         for (buff_id, buff_level), buff_stack in self.current_target_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
-            if buff.gain_attributes:
+            if buff.attributes:
                 target_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gain_skills and skill_id in buff.gain_skills:
+            elif buff.gains and skill_id in buff.gains:
                 target_status.append((buff_id, buff_level, buff_stack))
 
         return tuple(current_status), tuple(snapshot_status), tuple(target_status)

@@ -2,9 +2,15 @@ from dataclasses import dataclass
 from typing import Tuple, List, Dict, Type, Union, Callable
 
 from base.attribute import Attribute
-from base.buff import Buff
+from base.buff import Buff, CustomBuff
 from base.gain import Gain
-from base.skill import Skill
+from base.skill import Skill, Damage, DotDamage
+from base.talent import Talent
+from general.skills import GENERAL_SKILLS
+from general.buffs import GENERAL_BUFFS
+from assets.damages import DAMAGES
+from assets.dots import DOTS
+from assets.buffs import BUFFS
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
@@ -23,7 +29,7 @@ class School:
     prepare: Callable
     skills: Dict[int, Skill]
     buffs: Dict[int, Buff]
-    talent_gains: Dict[int, Gain]
+    talent_gains: Dict[int, Talent]
     talents: List[List[int]]
     talent_decoder: Dict[int, str]
     talent_encoder: Dict[str, int]
@@ -268,3 +274,37 @@ SUPPORT_SCHOOLS = {
         gains=shan_hai_xin_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
 }
+
+
+def read_config():
+    for skill_id, skill in GENERAL_SKILLS.items():
+        skill_id = str(skill_id)
+        for attr, value in DAMAGES[skill_id].items():
+            setattr(skill, attr, value)
+    for buff_id, buff in GENERAL_BUFFS.items():
+        buff_id = str(buff_id)
+        for attr, value in BUFFS.get(buff_id, {}).items():
+            setattr(buff, attr, value)
+
+    for school in SUPPORT_SCHOOLS.values():
+        for skill_id, skill in school.skills.items():
+            skill_id = str(skill_id)
+            if isinstance(skill, DotDamage):
+                for attr, value in DOTS[skill_id].items():
+                    setattr(skill, attr, value)
+            elif isinstance(skill, Damage) or skill.bind_dot:
+                for attr, value in DAMAGES[skill_id].items():
+                    setattr(skill, attr, value)
+        school.skills.update(GENERAL_SKILLS)
+
+        for buff_id, buff in school.buffs.items():
+            if buff_id < 0:
+                buff_id = -buff_id
+            buff_id = str(buff_id)
+            if isinstance(buff, CustomBuff):
+                continue
+            for attr, value in BUFFS.get(buff_id, {}).items():
+                setattr(buff.attributes, attr, value)
+        school.buffs.update(GENERAL_BUFFS)
+
+# fill_damage_attrs()

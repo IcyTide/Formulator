@@ -1,58 +1,35 @@
 from typing import Dict
 
+from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
-
-
-class 黯影(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6218, 25917, 2509, 2295, 18882):
-            skills[skill_id].attack_power_cof_gain *= 1.25
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6218, 25917, 2509, 2295, 18882):
-            skills[skill_id].attack_power_cof_gain /= 1.25
-
-
-class 重蛊(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (29573, 25044, 30918):
-            skills[skill_id].skill_damage_addition += 154
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (29573, 25044, 30918):
-            skills[skill_id].skill_damage_addition -= 154
-
-
-class 曲致(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[25917].tick += 2
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[25917].tick -= 2
+from base.recipe import ChannelIntervalRecipe, ExtraTickRecipe
+from base.talent import Talent
 
 
 class 引魂(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[2223].bind_buffs.append(16102)  # type: ignore
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[16102].activate = True
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2223].bind_buffs.remove(16102)  # type: ignore
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[16102].activate = False
 
 
-TALENT_GAINS: Dict[int, Gain] = {
-    6620: Gain("蝎毒"),
-    6649: Gain("食髓"),
-    6629: 黯影("黯影"),
-    6879: Gain("虫兽"),
-    34388: 重蛊("重蛊"),
-    34640: Gain("忘情"),
-    30088: Gain("嗜蛊"),
-    25040: 曲致("曲致"),
-    25018: Gain("荒息"),
-    29545: Gain("篾片蛊"),
-    18325: 引魂("引魂"),
-    25043: Gain("连缘蛊")
+TALENT_GAINS: Dict[int, Talent] = {
+    6620: Talent("蝎毒"),
+    6649: Talent("食髓"),
+    6629: Talent("黯影", [
+        ChannelIntervalRecipe(1.25, skill_id, 0)
+        for skill_id in (6237, 6238, 6236, 13476, 26226, 18700, 34643, 37352)
+    ]),
+    6879: Talent("虫兽"),
+    34388: Talent("重蛊"),
+    34640: Talent("忘情"),
+    30088: Talent("嗜蛊"),
+    25040: Talent("曲致", [ExtraTickRecipe(2, 25917, 0)]),
+    25018: Talent("荒息"),
+    29545: Talent("篾片蛊"),
+    18325: Talent("引魂", [引魂()]),
+    25043: Talent("连缘蛊")
 }
 
 TALENTS = [
@@ -69,5 +46,5 @@ TALENTS = [
     [18325],
     [25043]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

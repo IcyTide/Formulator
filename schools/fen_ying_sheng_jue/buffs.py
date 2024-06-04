@@ -7,58 +7,27 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     4671: {
         "buff_name": "明尊",
         "activate": False,
-        "gain_attributes": {
+        "attributes": {
             "magical_critical_strike_rate": 400,
             "magical_critical_power_rate": 41
         }
     },
-    890: {
-        "buff_name": "普渡",
-        "interval": 352,
-        "max_stack": 2
-    },
-    19635: {
-        "buff_name": "普渡",
-        "interval": 4,
-        "gain_attributes": {
-            "magical_vulnerable": [41, 82, 123]
-        }
-    },
-    11979: {
-        "buff_name": "罗汉金身",
-        "gain_attributes": {
-            "magical_attack_power_gain": 308,
-            "magical_overcome_gain": 308
-        }
-    },
-    2686: {
-        "buff_name": "擒龙诀",
-        "gain_attributes": {
-            "magical_attack_power_gain": 204
-        }
-    },
-    10023: {
-        "buff_name": "伏魔",
-        "gain_attributes": {
-            "all_damage_addition": 102
-        }
-    },
     6277: {
         "buff_name": "无明业火",
-        "gain_attributes": {
+        "attributes": {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         }
     },
     12575: {
         "buff_name": "用晦而明",
-        "gain_attributes": {
+        "attributes": {
             "all_shield_ignore": 563
         }
     },
     25758: {
         "buff_name": "明光月",
-        "gain_skills": {
+        "gains": {
             skill_id: {
                 "skill_attack_power": 246,
             } for skill_id in [4036, 25726] + [34349] + [4476]
@@ -66,7 +35,7 @@ BUFFS: Dict[int, Union[Buff, dict]] = {
     },
     25759: {
         "buff_name": "明光日",
-        "gain_skills": {
+        "gains": {
             skill_id: {
                 "skill_critical_strike": 1500,
                 "skill_critical_power": 102

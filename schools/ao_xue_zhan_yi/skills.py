@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage, DotSkill
+from base.skill import Skill, Damage, DotDamage
 
 
 class 战意判定(Skill):
@@ -15,19 +15,19 @@ class 战意判定(Skill):
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Damage: {
         12: {}, 431: {}, 6526: {}, 14882: {}, 15002: {}, 24898: {}, 25772: {}, 31031: {}, 32820: {}, 37618: {},
-        18207: {"post_buffs": {(-1, 1): 1}},
-        18603: {"post_buffs": {(-1, 1): 2}},
-        409: {"post_buffs": {(-1, 1): 3}},
-        18773: {"post_buffs": {(-1, 1): -3}},
+        18207: dict(post_buffs={(-1, 1): 1}),
+        18603: dict(post_buffs={(-1, 1): 2}),
+        409: dict(post_buffs={(-1, 1): 3}),
+        18773: dict(post_buffs={(-1, 1): -3})
     },
-    DotDamage: {3442: {"bind_skill": 18591}},
-    type("", (Damage, DotSkill), {}): {702: {"bind_skill": 3442}},
-    DotSkill: {18591: {"bind_skill": 3442}},
-    Skill: {skill_id: {"post_buffs": {(-1, 1): 5}} for skill_id in (1850, 1861)},
+    DotDamage: {3442: {}},
+    Skill: {
+        18591: dict(bind_dot=3442),
+        **{skill_id: dict(post_buffs={(-1, 1): 5}) for skill_id in (1850, 1861)},
+    },
     战意判定: {18740: {}}
 }
 SKILLS = {}
-
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)
