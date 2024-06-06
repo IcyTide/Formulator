@@ -1,37 +1,16 @@
-from typing import Dict, Union
+from typing import Dict
 
 from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    16025: {
-        "buff_name": "雷引",
-        "activate": False,
-        "gain_attributes": {
-            "physical_critical_strike_rate": 400,
-            "physical_critical_power_rate": 41
-        }
-    },
-    26857: {
-        "buff_name": "承契",
-        "gain_attributes": {
-            "all_damage_addition": 62
-        }
-    },
-    27099: {
-        "buff_name": "诸怀",
-        "gain_attributes": {
-            "all_shield_ignore": 205,
-            "physical_attack_power_gain": 102
-        }
-    },
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        16025: {}, 26857: {}, 27099: {}, 27406: {}
+    }
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff

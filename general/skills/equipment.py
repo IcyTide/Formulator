@@ -1,13 +1,13 @@
 from typing import Dict
 
-from base.skill import Damage, PureDamage
+from base.skill import Skill, PureSkill
 
 GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         **{skill_id: {} for skill_id in range(22160, 22164 + 1)},
         **{skill_id: {} for skill_id in range(33257, 33261 + 1)}
     },
-    PureDamage: {
+    PureSkill: {
         37561: dict(damage_base=96900),
         37562: dict(damage_base=145300)
     }

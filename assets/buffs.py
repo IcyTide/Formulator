@@ -2280,7 +2280,7 @@ BUFFS = {
         "buff_name": "普渡"
     },
     "19635": {
-        "magical_damage_coefficient": [
+        "magical_damage_cof": [
             41,
             82,
             123

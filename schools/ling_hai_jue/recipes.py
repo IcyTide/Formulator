@@ -1,53 +1,53 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "击水三千": {
-        "5%伤害": damage_addition_recipe([19766, 19767], 51),
-        "4%伤害": damage_addition_recipe([19766, 19767], 41),
-        "3%伤害": damage_addition_recipe([19766, 19767], 31),
-        "4%会心": critical_strike_recipe([19766, 19767], 400),
-        "3%会心": critical_strike_recipe([19766, 19767], 300),
-        "2%会心": critical_strike_recipe([19766, 19767], 200),
+        "5%伤害": DamageAdditionRecipe(51, 19737, 19737),
+        "4%伤害": DamageAdditionRecipe(41, 19737, 19737),
+        "3%伤害": DamageAdditionRecipe(31, 19737, 19737),
+        "4%会心": CriticalStrikeRecipe(400, 19737, 19737),
+        "3%会心": CriticalStrikeRecipe(300, 19737, 19737),
+        "2%会心": CriticalStrikeRecipe(200, 19737, 19737),
     },
     "木落雁归": {
-        "5%伤害": damage_addition_recipe([19819], 51),
-        "4%伤害": damage_addition_recipe([19819], 41),
-        "3%伤害": damage_addition_recipe([19819], 31),
-        "4%会心": critical_strike_recipe([19819], 400),
-        "3%会心": critical_strike_recipe([19819], 300),
-        "2%会心": critical_strike_recipe([19819], 200),
+        "5%伤害": DamageAdditionRecipe(51, 19818, 19818),
+        "4%伤害": DamageAdditionRecipe(41, 19818, 19818),
+        "3%伤害": DamageAdditionRecipe(31, 19818, 19818),
+        "4%会心": CriticalStrikeRecipe(400, 19818, 19818),
+        "3%会心": CriticalStrikeRecipe(300, 19818, 19818),
+        "2%会心": CriticalStrikeRecipe(200, 19818, 19818),
     },
     "海运南冥": {
-        "4%伤害": damage_addition_recipe([20684, 20685], 41),
-        "3%伤害": damage_addition_recipe([20684, 20685], 31),
-        "2%伤害": damage_addition_recipe([20684, 20685], 21),
-        "4%会心": critical_strike_recipe([20684, 20685], 400),
-        "3%会心": critical_strike_recipe([20684, 20685], 300),
-        "2%会心": critical_strike_recipe([20684, 20685], 200),
+        "4%伤害": DamageAdditionRecipe(41, 20082, 20082),
+        "3%伤害": DamageAdditionRecipe(31, 20082, 20082),
+        "2%伤害": DamageAdditionRecipe(21, 20082, 20082),
+        "4%会心": CriticalStrikeRecipe(400, 20082, 20082),
+        "3%会心": CriticalStrikeRecipe(300, 20082, 20082),
+        "2%会心": CriticalStrikeRecipe(200, 20082, 20082),
     },
     "翼绝云天": {
-        "5%伤害": damage_addition_recipe([20016], 51),
-        "4%伤害": damage_addition_recipe([20016], 41),
-        "3%伤害": damage_addition_recipe([20016], 31),
-        "4%会心": critical_strike_recipe([20016], 400),
-        "3%会心": critical_strike_recipe([20016], 300),
-        "2%会心": critical_strike_recipe([20016], 200),
+        "5%伤害": DamageAdditionRecipe(51, 19827, 19827),
+        "4%伤害": DamageAdditionRecipe(41, 19827, 19827),
+        "3%伤害": DamageAdditionRecipe(31, 19827, 19827),
+        "4%会心": CriticalStrikeRecipe(400, 19827, 19827),
+        "3%会心": CriticalStrikeRecipe(300, 19827, 19827),
+        "2%会心": CriticalStrikeRecipe(200, 19827, 19827),
     },
     "振翅图南": {
-        "5%伤害": damage_addition_recipe([31250], 51),
-        "4%伤害": damage_addition_recipe([31250], 41),
-        "3%伤害": damage_addition_recipe([31250], 31),
-        "4%会心": critical_strike_recipe([31250], 400),
-        "3%会心": critical_strike_recipe([31250], 300),
-        "2%会心": critical_strike_recipe([31250], 200),
+        "5%伤害": DamageAdditionRecipe(51, 20259, 20259),
+        "4%伤害": DamageAdditionRecipe(41, 20259, 20259),
+        "3%伤害": DamageAdditionRecipe(31, 20259, 20259),
+        "4%会心": CriticalStrikeRecipe(400, 20259, 20259),
+        "3%会心": CriticalStrikeRecipe(300, 20259, 20259),
+        "2%会心": CriticalStrikeRecipe(200, 20259, 20259),
     },
     "浮游天地": {
-        "4%会心": critical_strike_recipe([20052], 400),
-        "3%会心": critical_strike_recipe([20052], 300),
-        "2%会心": critical_strike_recipe([20052], 200),
+        "4%会心": CriticalStrikeRecipe(400, 19828, 19828),
+        "3%会心": CriticalStrikeRecipe(300, 19828, 19828),
+        "2%会心": CriticalStrikeRecipe(200, 19828, 19828),
     }
 }
 

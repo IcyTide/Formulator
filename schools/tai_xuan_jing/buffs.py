@@ -1,60 +1,21 @@
-from typing import Dict, Union
+from typing import Dict
 
 from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
+from schools.tai_xuan_jing.talents import 重山
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    18555: {
-        "buff_name": "星悬",
-        "activate": False,
-        "gain_attributes": {
-            "magical_critical_strike_rate": 400,
-            "magical_critical_power_rate": 41
-        }
-    },
-    28303: {
-        "buff_name": "重山·一",
-        "gain_skills": {
-            skill_id: {
-                "attack_power_cof_gain": 1.074,
-            } for skill_id in (24676, 24813, 24823, 34683)
-        }
-    },
-    28304: {
-        "buff_name": "重山·二",
-        "gain_skills": {
-            skill_id: {
-                "attack_power_cof_gain": 1.14815
-            } for skill_id in (24676, 24813, 24823, 34683)
-        }
-    },
-    28305: {
-        "buff_name": "重山·三",
-        "gain_skills": {
-            skill_id: {
-                "attack_power_cof_gain": 1.2223,
-            } for skill_id in (24676, 24813, 24823, 34683)
-        }
-    },
-    18021: {
-        "buff_name": "荧入白",
-        "gain_attributes": {
-            "all_shield_ignore": 512
-        }
-    },
-    18174: {
-        "buff_name": "鬼遁",
-        "gain_attributes": {
-            "magical_attack_power_gain": 308
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        18555: {}, 18021: {}, 18174: {},
+        **{
+            buff_id: dict(gains=[重山(value, skill_id, skill_id) for skill_id in (24369, 24371, 24372)])
+            for buff_id, value in ((28303, 1.074), (28304, 1.14815), (28305, 1.2223))
         }
     }
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff

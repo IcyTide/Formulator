@@ -18,10 +18,7 @@ class Gain:
             buff_id: int = None, buff_recipe: int = None,
             name: str = None,
     ):
-        if name:
-            self.gain_name = name
-        else:
-            self.gain_name = type(self).__name__
+        self.gain_name = type(self).__name__
         if value:
             self.value = value
         if skill_id:

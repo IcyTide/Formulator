@@ -37,16 +37,18 @@ class 骁勇(Gain):
 
 class 虎贲(Gain):
     @staticmethod
-    def effect(parser):
-        if parser.current_buff_stacks.get((-28169, 1)) == 3:
-            parser.refresh_buff(-1, 1, 3)
-        parser.refresh_buff(-28169, 1)
+    def begin_effect(parser):
+        parser.skills[18773].post_buffs[(-1, 1)] = -3
 
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[18773].post_effects.append(self.effect)
+    @staticmethod
+    def end_effect(parser):
+        parser.skills[18773].post_buffs[(-1, 1)] = 0
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[18773].post_effects.remove(self.effect)
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[28169].begin_effects.append(self.begin_effect)
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[28169].begin_effects.remove(self.begin_effect)
 
 
 TALENT_GAINS: Dict[int, Talent] = {

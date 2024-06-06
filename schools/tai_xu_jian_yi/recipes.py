@@ -1,33 +1,33 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "三环套月": {
-        "5%伤害": damage_addition_recipe([32408], 51),
-        "4%伤害": damage_addition_recipe([32408], 41),
-        "3%伤害": damage_addition_recipe([32408], 31),
-        "4%会心": critical_strike_recipe([32408], 400),
-        "3%会心": critical_strike_recipe([32408], 300),
-        "2%会心": critical_strike_recipe([32408], 200),
+        "5%伤害": DamageAdditionRecipe(51, 364, 364),
+        "4%伤害": DamageAdditionRecipe(41, 364, 364),
+        "3%伤害": DamageAdditionRecipe(31, 364, 364),
+        "4%会心": CriticalStrikeRecipe(400, 364, 364),
+        "3%会心": CriticalStrikeRecipe(300, 364, 364),
+        "2%会心": CriticalStrikeRecipe(200, 364, 364),
     },
     "无我无剑": {
-        "5%伤害": damage_addition_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 51),
-        "4%伤害": damage_addition_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 41),
-        "3%伤害": damage_addition_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 31),
-        "4%会心": critical_strike_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 400),
-        "3%会心": critical_strike_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 300),
-        "2%会心": critical_strike_recipe([386, 387, 388, 389, 390, 391, 392, 393, 394], 200),
+        "5%伤害": DamageAdditionRecipe(51, 365, 365),
+        "4%伤害": DamageAdditionRecipe(41, 365, 365),
+        "3%伤害": DamageAdditionRecipe(31, 365, 365),
+        "4%会心": CriticalStrikeRecipe(400, 365, 365),
+        "3%会心": CriticalStrikeRecipe(300, 365, 365),
+        "2%会心": CriticalStrikeRecipe(200, 365, 365),
     },
     "八荒归元": {
-        "5%伤害": damage_addition_recipe([13853, 4954], 51),
-        "4%伤害": damage_addition_recipe([13853, 4954], 41),
-        "3%伤害": damage_addition_recipe([13853, 4954], 31),
+        "5%伤害": DamageAdditionRecipe(51, 2699, 2699),
+        "4%伤害": DamageAdditionRecipe(41, 2699, 2699),
+        "3%伤害": DamageAdditionRecipe(31, 2699, 2699),
     },
     "人剑合一": {
-        "60%伤害": damage_addition_recipe([589], 614),
-        "40%伤害": damage_addition_recipe([589], 410),
+        "60%伤害": DamageAdditionRecipe(614, 588, 588),
+        "40%伤害": DamageAdditionRecipe(410, 588, 588),
     }
 }
 

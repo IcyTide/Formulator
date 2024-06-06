@@ -1,17 +1,17 @@
 from typing import Dict
 
-from base.buff import Buff
 from base.gain import Gain
 from base.recipe import ChannelIntervalRecipe, ExtraTickRecipe
+from base.skill import Skill
 from base.talent import Talent
 
 
 class 引魂(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[16102].activate = True
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pet_buffs[(16102, 1)] = 1
 
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[16102].activate = False
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pet_buffs.pop((16102, 1))
 
 
 TALENT_GAINS: Dict[int, Talent] = {

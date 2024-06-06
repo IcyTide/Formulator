@@ -1,21 +1,19 @@
 from typing import Dict
 
-from base.skill import Damage, DotDamage, Skill
-
+from base.skill import Skill, Dot
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
-        33146: {}, 32974: {}, 32975: {}, 32510: {}, 32246: {}, 32766: {}, 32149: {}, 32150: {}, 32151: {}, 32154: {},
-        32167: {}, 32348: {}, 32602: {}, 32603: {}, 32604: {}, 32234: {}, 32235: {}, 32236: {}, 32237: {}, 32238: {},
-        32239: {}, 32891: {}, 32892: {}, 32357: {}, 36118: {}, 33239: {}
-    },
-    DotDamage: {
-        24443: {}, 27820: {}
-    },
     Skill: {
+        33146: {}, 32974: {}, 32975: {}, 32510: {}, 32246: {}, 32766: {}, 32149: {}, 32150: {}, 32151: {}, 32154: {},
+        32167: {}, 32348: {}, 32602: {}, 32603: {}, 32604: {}, 32891: {}, 32892: {}, 32357: {}, 36118: {}, 33239: {},
+        **{skill_id: {} for skill_id in range(32234, 32239 + 1)},
         36851: dict(bind_dot=27820),
+        **{skill_id: dict(bind_dot=24132) for skill_id in range(32369, 32372 + 1)},
         **{skill_id: dict(bind_dot=24443) for skill_id in range(32869, 32874 + 1)}
-    }
+    },
+    Dot: {
+        24132: {}, 24443: {}, 27820: {}
+    },
 }
 SKILLS = {}
 for skill_class, skills in SCHOOL_SKILLS.items():

@@ -374,7 +374,7 @@ class Minor:
     def magical_critical_power(self):
         return self.magical_critical_power_percent + self.magical_critical_power_rate / BINARY_SCALE
 
-    """ Weapon Damage Function """
+    """ Weapon Skill Function """
 
     @property
     def weapon_damage(self):

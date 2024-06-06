@@ -1,4 +1,4 @@
-DAMAGES = {
+SKILLS = {
     "22160": {
         "kind_type": "Physics",
         "recipe_type": 0,

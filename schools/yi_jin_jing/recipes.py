@@ -1,41 +1,41 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "普渡四方": {
-        "5%伤害": damage_addition_recipe([17641], 51),
-        "4%伤害": damage_addition_recipe([17641], 41),
-        "3%伤害": damage_addition_recipe([17641], 31),
+        "5%伤害": DamageAdditionRecipe(51, 232, 232),
+        "4%伤害": DamageAdditionRecipe(41, 232, 232),
+        "3%伤害": DamageAdditionRecipe(31, 232, 232),
     },
     "横扫六合": {
-        "50%伤害": damage_addition_recipe([3810], 512),
+        "50%伤害": DamageAdditionRecipe(512, 235, 235),
     },
     "韦陀献杵": {
-        "5%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 51),
-        "4%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 41),
-        "3%伤害": damage_addition_recipe([3848, 3849, 3850, 271], 31),
-        "4%会心": critical_strike_recipe([3848, 3849, 3850, 271], 400),
-        "3%会心": critical_strike_recipe([3848, 3849, 3850, 271], 300),
-        "2%会心": critical_strike_recipe([3848, 3849, 3850, 271], 200),
+        "5%伤害": DamageAdditionRecipe(51, 233, 233),
+        "4%伤害": DamageAdditionRecipe(41, 233, 233),
+        "3%伤害": DamageAdditionRecipe(31, 233, 233),
+        "4%会心": CriticalStrikeRecipe(400, 233, 233),
+        "3%会心": CriticalStrikeRecipe(300, 233, 233),
+        "2%会心": CriticalStrikeRecipe(200, 233, 233),
     },
     "捕风式": {
-        "15%伤害": damage_addition_recipe([14951], 150),
-        "10%伤害": damage_addition_recipe([14951], 102),
+        "15%伤害": DamageAdditionRecipe(150, 238, 238),
+        "10%伤害": DamageAdditionRecipe(102, 238, 238),
     },
     "守缺式": {
-        "5%伤害": damage_addition_recipe([3814, 3816], 51),
-        "4%伤害": damage_addition_recipe([3814, 3816], 41),
-        "3%伤害": damage_addition_recipe([3814, 3816], 31),
-        "4%会心": critical_strike_recipe([3814, 3816], 400),
-        "3%会心": critical_strike_recipe([3814, 3816], 300),
-        "2%会心": critical_strike_recipe([3814, 3816], 200),
+        "5%伤害": DamageAdditionRecipe(51, 2572, 2572),
+        "4%伤害": DamageAdditionRecipe(41, 2572, 2572),
+        "3%伤害": DamageAdditionRecipe(31, 2572, 2572),
+        "4%会心": CriticalStrikeRecipe(400, 2572, 2572),
+        "3%会心": CriticalStrikeRecipe(300, 2572, 2572),
+        "2%会心": CriticalStrikeRecipe(200, 2572, 2572),
     },
     "拿云式": {
-        "5%伤害": damage_addition_recipe([13685], 51),
-        "4%伤害": damage_addition_recipe([13685], 41),
-        "3%伤害": damage_addition_recipe([13685], 31)
+        "5%伤害": DamageAdditionRecipe(51, 243, 243),
+        "4%伤害": DamageAdditionRecipe(41, 243, 243),
+        "3%伤害": DamageAdditionRecipe(31, 243, 243)
     },
 }
 

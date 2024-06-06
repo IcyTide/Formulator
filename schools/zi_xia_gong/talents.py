@@ -56,7 +56,7 @@ class 重光(Gain):
             skills[skill_id].skill_damage_addition -= int(i * 0.15 * 1024)
 
 
-TALENT_GAINS: Dict[int, Gain] = {
+TALENT_GAINS: Dict[int, Talent] = {
     5840: 雾锁("雾锁"),
     5827: 白虹("白虹"),
     5823: Gain("心固"),
@@ -88,5 +88,5 @@ TALENTS = [
     [18669],
     [14613]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

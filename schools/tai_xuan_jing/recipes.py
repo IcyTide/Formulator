@@ -1,37 +1,37 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "三星临": {
-        "5%伤害": damage_addition_recipe([24676, 24558, 24675, 24677], 51),
-        "4%伤害": damage_addition_recipe([24676, 24558, 24675, 24677], 41),
-        "3%伤害": damage_addition_recipe([24676, 24558, 24675, 24677], 31),
-        "4%会心": critical_strike_recipe([24676, 24558, 24675, 24677], 400),
-        "3%会心": critical_strike_recipe([24676, 24558, 24675, 24677], 300),
-        "2%会心": critical_strike_recipe([24676, 24558, 24675, 24677], 200),
+        "5%伤害": DamageAdditionRecipe(51, 24369, 24369),
+        "4%伤害": DamageAdditionRecipe(41, 24369, 24369),
+        "3%伤害": DamageAdditionRecipe(31, 24369, 24369),
+        "4%会心": CriticalStrikeRecipe(400, 24369, 24369),
+        "3%会心": CriticalStrikeRecipe(300, 24369, 24369),
+        "2%会心": CriticalStrikeRecipe(200, 24369, 24369),
     },
     "兵主逆": {
-        "5%伤害": damage_addition_recipe([24813, 24811, 24812, 24814], 51),
-        "4%伤害": damage_addition_recipe([24813, 24811, 24812, 24814], 41),
-        "3%伤害": damage_addition_recipe([24813, 24811, 24812, 24814], 31),
-        "4%会心": critical_strike_recipe([24813, 24811, 24812, 24814], 400),
-        "3%会心": critical_strike_recipe([24813, 24811, 24812, 24814], 300),
+        "5%伤害": DamageAdditionRecipe(51, 24371, 24371),
+        "4%伤害": DamageAdditionRecipe(41, 24371, 24371),
+        "3%伤害": DamageAdditionRecipe(31, 24371, 24371),
+        "4%会心": CriticalStrikeRecipe(400, 24371, 24371),
+        "3%会心": CriticalStrikeRecipe(300, 24371, 24371),
     },
     "天斗旋": {
-        "5%伤害": damage_addition_recipe([24823, 24821, 24822, 24824, 34683], 51),
-        "4%伤害": damage_addition_recipe([24823, 24821, 24822, 24824, 34683], 41),
-        "3%伤害": damage_addition_recipe([24823, 24821, 24822, 24824, 34683], 31),
-        "4%会心": critical_strike_recipe([24823, 24821, 24822, 24824, 34683], 400),
-        "3%会心": critical_strike_recipe([24823, 24821, 24822, 24824, 34683], 300),
-        "2%会心": critical_strike_recipe([24823, 24821, 24822, 24824, 34683], 200),
+        "5%伤害": DamageAdditionRecipe(51, 24372, 24372),
+        "4%伤害": DamageAdditionRecipe(41, 24372, 24372),
+        "3%伤害": DamageAdditionRecipe(31, 24372, 24372),
+        "4%会心": CriticalStrikeRecipe(400, 24372, 24372),
+        "3%会心": CriticalStrikeRecipe(300, 24372, 24372),
+        "2%会心": CriticalStrikeRecipe(200, 24372, 24372),
     },
     "鬼星开穴": {
-        "5%伤害": damage_addition_recipe([24870], 51),
-        "4%伤害": damage_addition_recipe([24870], 41),
-        "4%会心": critical_strike_recipe([24870], 400),
-        "3%会心": critical_strike_recipe([24870], 300),
+        "5%伤害": DamageAdditionRecipe(51, 24379, 24379),
+        "4%伤害": DamageAdditionRecipe(41, 24379, 24379),
+        "4%会心": CriticalStrikeRecipe(400, 24379, 24379),
+        "3%会心": CriticalStrikeRecipe(300, 24379, 24379),
     },
 }
 

@@ -1,9 +1,29 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage
+from base.skill import Skill, Dot
+
+
+class 跬步判定(Skill):
+    def record(self, _, parser):
+        if parser.current_buff_stacks.get((12779, 1)):
+            parser.refresh_buff(-12550, 1)
+            parser.refresh_buff(-12551, 1)
+        elif parser.current_buff_stacks.get((12780, 1)):
+            parser.refresh_buff(-12550, 2)
+            parser.refresh_buff(-12551, 2)
+        elif parser.current_buff_stacks.get((12781, 1)):
+            parser.refresh_buff(-12550, 3)
+            parser.refresh_buff(-12551, 3)
+        elif parser.current_buff_stacks.get((12782, 1)):
+            parser.refresh_buff(-12550, 4)
+            parser.refresh_buff(-12551, 4)
+        elif parser.current_buff_stacks.get((12783, 1)):
+            parser.refresh_buff(-12550, 5)
+            parser.refresh_buff(-12551, 5)
+
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         18121: dict(damage_addition=205),
         32813: {}, 303: {}, 896: {}, 18670: {}, 22014: {}, 36439: {}, 25770: {},
         **{skill_id: {} for skill_id in range(327, 331 + 1)},
@@ -11,9 +31,10 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: {} for skill_id in range(3439, 3448 + 1)},
         **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
         **{skill_id: {} for skill_id in range(18649, 18653 + 1)},
+        33592: dict(bind_dot=6424)
     },
-    DotDamage: {6424: {}},
-    Skill: {33592: dict(bind_dot=6424)}
+    Dot: {6424: {}},
+    跬步判定: {18698: {}}
 }
 SKILLS = {}
 for skill_class, skills in SCHOOL_SKILLS.items():

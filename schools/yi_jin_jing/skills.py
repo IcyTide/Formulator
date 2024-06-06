@@ -1,49 +1,37 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage
+from base.skill import Skill, Dot
 
 
 class 明法判定(Skill):
     final_buff = 19635
-    bind_buff = 890
+    bind_buff_1 = 890
+    bind_buff_2 = 12479
 
     def record(self, critical, parser):
-        if buff_level := parser.current_target_buff_stacks.get((self.bind_buff, 1)):
+        if buff_level := parser.current_target_buff_stacks.get((self.bind_buff_1, 1)):
+            parser.refresh_target_buff(self.final_buff, buff_level)
+        elif buff_level := parser.current_target_buff_stacks.get((self.bind_buff_2, 1)):
             parser.refresh_target_buff(self.final_buff, buff_level)
 
 
 class 明法移除(Skill):
     final_buff = 19635
-    bind_buff = 890
 
     def record(self, critical, parser):
-        buff_level = parser.current_target_buff_stacks.get((self.bind_buff, 1), 0)
-        for level in range(buff_level):
-            parser.clear_target_buff(self.final_buff, level + 1)
-
-
-class 众嗔增伤(Damage):
-    final_buff = -13910
-
-    def pre_record(self, parser):
-        super().pre_record(parser)
-        if 743 in parser.current_dot_ticks:
-            parser.refresh_buff(self.final_buff, 1)
-
-    def post_record(self, parser):
-        super().post_record(parser)
-        parser.clear_buff(self.final_buff, 1)
+        for buff_id, buff_level in parser.current_target_buff_stacks:
+            if buff_id == self.final_buff:
+                parser.clear_target_buff(self.final_buff, buff_level)
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         11: dict(damage_addition=205),
         236: {}, 271: {}, 14951: {}, 17641: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {}, 32656: {}, 32659: {},
-        32660: {}, 32887: {}, 3814: {}, 3817: {},
+        32660: {}, 32887: {}, 3814: {}, 3817: {},3848: {}, 3849: {}, 3850: {}, 13685: {}
         3810: dict(bind_dot=743)
     },
-    DotDamage: {743: dict(extra_tick=3)},
-    众嗔增伤: {3848: {}, 3849: {}, 3850: {}, 13685: {}},
+    Dot: {743: dict(extra_tick=3)},
     明法判定: {26989: {}},
     明法移除: {26991: {}},
 }

@@ -1,27 +1,27 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "阳明指": {
-        "4%伤害": damage_addition_recipe([14941], 41),
-        "3%伤害": damage_addition_recipe([14941], 31),
-        "3%会心": critical_strike_recipe([14941], 300),
-        "2%会心": critical_strike_recipe([14941], 200),
+        "4%伤害": DamageAdditionRecipe(41, 179, 179),
+        "3%伤害": DamageAdditionRecipe(31, 179, 179),
+        "3%会心": CriticalStrikeRecipe(300, 179, 179),
+        "2%会心": CriticalStrikeRecipe(200, 179, 179),
     },
     "芙蓉并蒂": {
-        "5%伤害": damage_addition_recipe([186], 51),
-        "4%伤害": damage_addition_recipe([186], 41),
-        "3%伤害": damage_addition_recipe([186], 31),
-        "4%会心": critical_strike_recipe([186], 400),
-        "3%会心": critical_strike_recipe([186], 300),
-        "2%会心": critical_strike_recipe([186], 200),
+        "5%伤害": DamageAdditionRecipe(51, 186, 0),
+        "4%伤害": DamageAdditionRecipe(41, 186, 0),
+        "3%伤害": DamageAdditionRecipe(31, 186, 0),
+        "4%会心": CriticalStrikeRecipe(400, 186, 0),
+        "3%会心": CriticalStrikeRecipe(300, 186, 0),
+        "2%会心": CriticalStrikeRecipe(200, 186, 0),
     },
     "快雪时晴": {
-        "5%伤害": damage_addition_recipe([33222], 51),
-        "4%伤害": damage_addition_recipe([33222], 41),
-        "3%伤害": damage_addition_recipe([33222], 31)
+        "5%伤害": DamageAdditionRecipe(51, 2636, 2636),
+        "4%伤害": DamageAdditionRecipe(41, 2636, 2636),
+        "3%伤害": DamageAdditionRecipe(31, 2636, 2636)
     },
 }
 

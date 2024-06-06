@@ -8,8 +8,12 @@ ATTR_DICT = Dict[str, Union[List[int], int]]
 
 
 class BaseBuff:
-    SNAPSHOT_ATTRS = ["attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"]
-    PET_ATTRS = ["attack_power", "critical_power", "overcome", "strain", "damage_addition", "pve_addition"]
+    DOT_SNAPSHOT_ATTRS = [
+        "attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"
+    ]
+    PET_SNAPSHOT_ATTRS = [
+        "attack_power", "critical_power", "overcome", "strain", "damage_addition", "pve_addition"
+    ]
 
     _buff_name: Union[List[str], str] = ""
     buff_level: int = 0
@@ -47,11 +51,30 @@ class Buff(BaseBuff):
     gains: list = None
     attributes: ATTR_DICT = None
 
+    begin_effects: list = None
+    begin_buffs: dict = None
+    begin_target_buffs: dict = None
+    end_effects: list = None
+    end_buffs: dict = None
+    end_target_buffs: dict = None
+
     def __post_init__(self):
         if self.gains is None:
             self.gains = []
         if self.attributes is None:
             self.attributes = {}
+        if not self.begin_buffs:
+            self.begin_buffs = {}
+        if not self.begin_target_buffs:
+            self.begin_target_buffs = {}
+        if not self.begin_effects:
+            self.begin_effects = []
+        if not self.end_buffs:
+            self.end_buffs = {}
+        if not self.end_target_buffs:
+            self.end_target_buffs = {}
+        if not self.end_effects:
+            self.end_effects = []
 
     @property
     def shifted(self):
@@ -74,10 +97,24 @@ class Buff(BaseBuff):
             return values
 
     def begin(self, parser):
-        pass
+        for (buff_id, buff_level), buff_stack in self.begin_buffs.items():
+            buff_level = buff_level if buff_level else self.buff_level
+            parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for (buff_id, buff_level), buff_stack in self.begin_target_buffs.items():
+            buff_level = buff_level if buff_level else self.buff_level
+            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for effect in self.begin_effects:
+            effect(parser)
 
     def end(self, parser):
-        pass
+        for (buff_id, buff_level), buff_stack in self.end_buffs.items():
+            buff_level = buff_level if buff_level else self.buff_level
+            parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for (buff_id, buff_level), buff_stack in self.end_target_buffs.items():
+            buff_level = buff_level if buff_level else self.buff_level
+            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for effect in self.end_effects:
+            effect(parser)
 
     def add_all(self, attribute: Attribute, skill: Skill):
         return_tag = False
@@ -99,7 +136,23 @@ class Buff(BaseBuff):
             value = self.attribute_value(values)
             if not value:
                 continue
-            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + value)
+                return_tag = True
+        if snapshot:
+            for values in self.gains:
+                if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):
+                    return_tag = True
+
+        return return_tag
+
+    def add_pet(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
+        return_tag = False
+        for attr, values in self.attributes.items():
+            value = self.attribute_value(values)
+            if not value:
+                continue
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
         if snapshot:
@@ -123,7 +176,18 @@ class Buff(BaseBuff):
             value = self.attribute_value(values)
             if not value:
                 continue
-            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.SNAPSHOT_ATTRS):
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + value)
+        if snapshot:
+            for values in self.gains:
+                self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
+
+    def sub_pet(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
+        for attr, values in self.attributes.items():
+            value = self.attribute_value(values)
+            if not value:
+                continue
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
         if snapshot:
             for values in self.gains:

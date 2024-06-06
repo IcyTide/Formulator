@@ -1,20 +1,31 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage
+from base.skill import Skill, Dot
+
+
+class 逐一击破增伤(Skill):
+    bind_buff = 1
+    final_buff = -1
+
+    def record(self, critical, parser):
+        parser.refresh_buff(self.final_buff, 1)
+        super().record(critical, parser)
+        parser.clear_buff(self.final_buff, 1)
+
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         3121: dict(damage_addition=205),
-        3095: {}, 3187: {}, 3222: {}, 3227: {}, 6920: {}, 22789: {}, 25775: {}, 32884: {}, 33870: {}, 37504: {},
-        37616: {}
+        3222: {}, 3227: {}, 22789: {}, 25775: {}, 32884: {}, 37616: {},
+        3478: dict(bind_dot=19625)
     },
-    DotDamage: {
+    Dot: {
         2237: dict(extra_tick=1),
         19625: {}
     },
-    Skill: {
-        3125: dict(bind_dot=2237),
-        3478: dict(bind_dot=19625)
+    逐一击破增伤: {
+        3095: {}, 3187: {}, 6920: {}, 33870: {}, 37504: {},
+        3125: dict(bind_dot=2237)
     }
 }
 SKILLS = {}

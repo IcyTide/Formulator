@@ -1,9 +1,9 @@
 from typing import Dict
 
-from base.skill import Damage
+from base.skill import Skill
 
 GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         **{skill_id: {} for skill_id in range(29532, 29537 + 1)},
     }
 }

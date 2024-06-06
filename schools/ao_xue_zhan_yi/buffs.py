@@ -18,7 +18,7 @@ class 战心(Gain):
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1428: {}, 6121: {}, 6363: {}, 14981: {}, 7671: {}, 21638: {}, 2779: {},
+        1428: {}, 6121: {}, 6363: {}, 14981: {}, 7671: {}, 21638: {}, 2779: {}, 28169: {},
         -12608: dict(buff_name="风虎", activate=False, interval=4,
                      gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for value in (51, 102, 154, 205, 256)]
                             for skill_id in (400, 403, 415, 423)]),
@@ -26,7 +26,6 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     },
     CustomBuff: {
         -1: dict(buff_name="战意", max_stack=5),
-        -28169: dict(buff_name="龙印", interval=480, max_stack=3)
     }
 }
 BUFFS: Dict[int, Buff] = {}

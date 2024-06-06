@@ -5,7 +5,7 @@ import lupa.lua54 as lupa
 import pandas as pd
 
 from base.buff import CustomBuff
-from base.skill import DotDamage, Damage
+from base.skill import Dot, Skill
 from schools import SUPPORT_SCHOOLS, GENERAL_SKILLS, GENERAL_BUFFS
 
 BASE_DIR = "../JX3TABS"
@@ -132,19 +132,19 @@ prepare_lua_runtime(LUA)
 
 
 def prepare_data():
-    damages, dots, buffs = {}, {}, {}
+    skills, dots, buffs = {}, {}, {}
     for skill_id, skill in GENERAL_SKILLS.items():
-        damages[skill_id] = skill
+        skills[skill_id] = skill
 
     for buff_id, buff in GENERAL_BUFFS.items():
         buffs[buff_id] = buff
 
     for school in SUPPORT_SCHOOLS.values():
         for skill_id, skill in school.skills.items():
-            if isinstance(skill, DotDamage):
+            if isinstance(skill, Dot):
                 dots[skill_id] = skill
-            elif isinstance(skill, Damage) or skill.bind_dot:
-                damages[skill_id] = skill
+            else:
+                skills[skill_id] = skill
 
         for buff_id, buff in school.buffs.items():
             if buff_id < 0:
@@ -154,7 +154,7 @@ def prepare_data():
                 continue
             buffs[buff_id] = buff
 
-    return damages, dots, buffs
+    return skills, dots, buffs
 
 
-DAMAGES, DOTS, BUFFS = prepare_data()
+SKILLS, DOTS, BUFFS = prepare_data()

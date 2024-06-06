@@ -44,6 +44,14 @@ class CriticalStrikeRecipe(Gain):
         skill.magical_critical_strike_rate_extra -= self.value
 
 
+class MagicalAttackPowerRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.magical_attack_power_gain_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.magical_attack_power_gain_extra -= self.value
+
+
 class PhysicalCriticalRecipe(Gain):
     def add_skill(self, skill: Skill):
         skill.physical_critical_strike_rate_extra += self.value[0]
@@ -72,6 +80,14 @@ class PhysicalShieldGainRecipe(Gain):
         skill.physical_shield_gain_extra -= self.value
 
 
+class MagicalShieldGainRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.magical_shield_gain_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.magical_shield_gain_extra -= self.value
+
+
 class PveAdditionRecipe(Gain):
     def add_skill(self, skill: Skill):
         skill.pve_addition_extra += self.value
@@ -82,7 +98,7 @@ class PveAdditionRecipe(Gain):
 
 class ExtraTickRecipe(Gain):
     def add_skill(self, skill: Skill):
-        skill.extra_tick += self.value
+        skill.tick_extra += self.value
 
     def sub_skill(self, skill: Skill):
-        skill.extra_tick -= self.value
+        skill.tick_extra -= self.value

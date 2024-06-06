@@ -1,95 +1,21 @@
-from typing import Dict, Union
+from typing import Dict
 
-from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
+from base.buff import Buff, CustomBuff
+from base.recipe import DamageAdditionRecipe, PveAdditionRecipe
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    3401: {
-        "buff_name": "神力",
-        "activate": False,
-        "gain_attributes": {
-            "physical_critical_strike_rate": 400,
-            "physical_critical_power_rate": 41
-        }
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        3401: {}, 3254: {}, 8210: {}, 9981: {}, 7659: {},
+        17103: dict(buff_name="追命无声", gains=[DamageAdditionRecipe(205, 3096, 3096)]),
+        **{buff_id: dict(gains=[PveAdditionRecipe(value, 0, 3096)])
+           for buff_id, value in ((28225, 1229), (28226, 820), (28227, 615))}
     },
-    3254: {
-        "buff_name": "气魄",
-        "gain_attributes": {
-            "strength_gain": 20,
-            "spunk_gain": 20
-        }
-    },
-    17103: {
-        "buff_name": "追命无声",
-        "gain_skills": {
-            6920: {
-                "skill_damage_addition": 205
-            }
-        }
-    },
-    8210: {
-        "buff_name": "心无旁骛",
-        "gain_attributes": {
-            "physical_critical_strike_rate": 1500,
-            "physical_critical_power_rate": 300
-        }
-    },
-    9981: {
-        "buff_name": "秋风散影",
-        "gain_attributes": {
-            "physical_critical_strike_rate": 1000,
-            "physical_critical_power_rate": 102
-        }
-    },
-    # 23074: {
-    #     "buff_name": "逐一击破",
-    #     "gain_attributes": {
-    #         "all_damage_addition": 103
-    #     }
-    # },
-    # 10169: {
-    #     "buff_name": "逐一击破",
-    #     "gain_attributes": {
-    #         "all_damage_addition": 103
-    #     }
-    # },
-    7659: {
-        "buff_name": "命陨",
-        "gain_attributes": {
-            "physical_attack_power_gain": 205
-        }
-    },
-    28225: {
-        "buff_name": "蹑景",
-        "gain_skills": {
-            6920: {
-                "skill_pve_addition": 1229
-            }
-        }
-    },
-    28226: {
-        "buff_name": "蹑景",
-        "gain_skills": {
-            6920: {
-                "skill_pve_addition": 820
-            }
-        }
-    },
-    28227: {
-        "buff_name": "蹑景",
-        "gain_skills": {
-            6920: {
-                "skill_pve_addition": 615
-            }
-        }
-    }
+    CustomBuff: {-1: dict(buff_name="逐一击破", attributes=dict(all_damage_addition=103 + 103))}
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff

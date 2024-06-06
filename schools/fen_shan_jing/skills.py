@@ -1,9 +1,9 @@
 from typing import Dict
 
-from base.skill import Skill, Damage, DotDamage
+from base.skill import Skill, Dot
 
 
-class 盾压(Damage):
+class 盾压(Skill):
     def record(self, critical, parser):
         if parser.current_buff_stacks.get((8474, 13)):
             self.post_buffs[(-1, 1)] = 15 * 2
@@ -13,7 +13,7 @@ class 盾压(Damage):
         super().record(critical, parser)
 
 
-class 绝刀(Damage):
+class 绝刀(Skill):
     final_buff = -9052
     bind_buff = -1
 
@@ -33,7 +33,7 @@ class 绝刀(Damage):
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
-    Damage: {
+    Skill: {
         32745: {}, 13039: {}, 36065: {}, 36482: {}, 37253: {}, 34673: {}, 34674: {}, 34714: {}, 37448: {}, 30925: {},
         30926: {}, 30857: {}, 30858: {}, 30859: {}, 23284: {}, 23285: {}, 23286: {}, 23287: {}, 23294: {}, 25780: {},
         **{skill_id: dict(post_buffs={(-1, 1): 10}) for skill_id in (13106, 13160, 13161)},
@@ -41,14 +41,12 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         13044: dict(post_buffs={(-1, 1): 5}),
         13092: dict(post_buffs={(-1, 1): -15}),
         28479: dict(post_buffs={(-1, 1): -5}),
-        13463: dict(post_target_buffs={(-8248, 1): 1})
-    },
-    DotDamage: {8249: {}},
-    Skill: {
+        13463: dict(post_target_buffs={(-8248, 1): 1}),
         13040: dict(post_buffs={(-1, 1): 10 + 15}),
         16727: dict(post_buffs={(-1, 1): 3}),
         29188: dict(bind_dot=8249, post_target_buffs={(-8248, 1): -1})
     },
+    Dot: {8249: {}},
     盾压: {19409: {}},
     绝刀: {13075: {}}
 }

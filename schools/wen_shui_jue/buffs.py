@@ -1,93 +1,23 @@
-from typing import Dict, Union
+from typing import Dict
 
-from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
+from base.buff import Buff, CustomBuff
+from base.recipe import DamageAdditionRecipe
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    1955: {
-        "buff_name": "器攻",
-        "activate": False,
-        "gain_attributes": {
-            "physical_critical_strike_rate": 400,
-            "physical_critical_power_rate": 41
-        }
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        1955: {}, 1728: {}, 22913: {}, 12317: {}, 9714: {}, 26047: {},
+        9903: dict(gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for value in (102, 154)]
+                          for skill_id in (1593, 1600)]),
+        21640: dict(gains=[[DamageAdditionRecipe(value, 18333, 18333) for value in (0, 102, 205, 307, 410, 512)]]),
+        26207: dict(gains=[DamageAdditionRecipe(307, skill_id, skill_id) for skill_id in (1593, 1596, 1600)]),
+        18008: dict(gains=[DamageAdditionRecipe(410, 18299, 0)])
     },
-    -1905: {
-        "buff_name": "重剑",
-        "gain_attributes": True
-    },
-    1728: {
-        "buff_name": "莺鸣",
-        "gain_attributes": {
-            "physical_critical_strike_rate": 2000
-        }
-    },
-    22913: {
-        "buff_name": "岱宗",
-        "gain_attributes": {
-            "physical_critical_power_rate": 82
-        }
-    },
-    9903: {
-        "buff_name": "造化",
-        "gain_skills": {
-            skill_id: {
-                "skill_damage_addition": [102, 154]
-            } for skill_id in [2896] + [1594, 1595, 18317]
-        }
-    },
-    12317: {
-        "buff_name": "怜光",
-        "gain_attributes": {
-            "all_damage_addition": 102
-        }
-    },
-    21640: {
-        "buff_name": "层云",
-        "gain_skills": {
-            18991: {
-                "skill_damage_addition": [0, 102, 205, 307, 410, 512]
-            }
-        }
-    },
-    26207: {
-        "buff_name": "碧归",
-        "gain_skills": {
-            skill_id: {
-                "skill_damage_addition": 307
-            } for skill_id in [2896] + [1594, 1595, 18317] + [1598]
-        }
-    },
-    9714: {
-        "buff_name": "雾锁",
-        "gain_attributes": {
-            "all_shield_ignore": 614,
-        }
-    },
-    18008: {
-        "buff_name": "闻踪",
-        "gain_attributes": {
-            "physical_critical_strike_rate": 1000
-        },
-        "gain_skills": {
-            18299: {
-                "skill_damage_addition": 410
-            }
-        }
-    },
-    26047: {
-        "buff_name": "飞来",
-        "gain_attributes": {
-            "physical_critical_power_rate": [150, 120, 90]
-        }
-    }
+    CustomBuff: {-1: dict(buff_name="重剑")}
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff
