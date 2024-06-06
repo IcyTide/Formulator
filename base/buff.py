@@ -139,6 +139,10 @@ class Buff(BaseBuff):
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + value)
+                return_tag = True
+
         if snapshot:
             for values in self.gains:
                 if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):
@@ -153,6 +157,9 @@ class Buff(BaseBuff):
             if not value:
                 continue
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) + value)
+                return_tag = True
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
         if snapshot:
@@ -177,7 +184,9 @@ class Buff(BaseBuff):
             if not value:
                 continue
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) + value)
+                setattr(attribute, attr, getattr(attribute, attr) - value)
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) - value)
         if snapshot:
             for values in self.gains:
                 self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
@@ -188,7 +197,9 @@ class Buff(BaseBuff):
             if not value:
                 continue
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) + value)
+                setattr(attribute, attr, getattr(attribute, attr) - value)
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
+                setattr(attribute, attr, getattr(attribute, attr) - value)
         if snapshot:
             for values in self.gains:
                 self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})

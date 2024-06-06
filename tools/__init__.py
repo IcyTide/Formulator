@@ -147,11 +147,10 @@ def prepare_data():
                 skills[skill_id] = skill
 
         for buff_id, buff in school.buffs.items():
-            if buff_id < 0:
-                buff_id = -buff_id
-
             if isinstance(buff, CustomBuff):
                 continue
+            if buff_id < 0:
+                buff_id = -buff_id
             buffs[buff_id] = buff
 
     return skills, dots, buffs

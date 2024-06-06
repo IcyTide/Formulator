@@ -75,7 +75,7 @@ def dashboard_script(parser: Parser,
         for gain in gains:
             gain.add(attribute, school.skills, school.buffs)
 
-        duration = dashboard_widget.duration.spin_box.attribute_value()
+        duration = dashboard_widget.duration.spin_box.value()
         dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
         total, summary, details = analyze_details(record, duration, attribute, school)
 

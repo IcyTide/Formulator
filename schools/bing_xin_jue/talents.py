@@ -37,5 +37,5 @@ TALENTS = [
     [14934],
     [34603]
 ]
-TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

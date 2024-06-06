@@ -5,7 +5,8 @@ from base.buff import Buff
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1437: {}, 409: {}, 10240: {}, 538: {}, 17010: {}, 5788: {}, 9927: {}, 17969: {},
+        1437: {}, 409: {}, 10240: {}, 538: {}, 5788: {}, 9927: {}, 17969: {},
+        17010: dict(buff_name="广陵月"),
         25902: dict(gains=[DamageAdditionRecipe(512, 2707, 2707)]),
     }
 }

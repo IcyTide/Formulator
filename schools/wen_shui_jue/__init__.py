@@ -8,5 +8,5 @@ from schools.wen_shui_jue.attribute import WenShuiJue
 
 def prepare(self, player_id):
     self.buff_stacks[player_id][(-1, 1)] = 1
-    if 5964 in self.select_talents[player_id]:
+    if 5957 in self.select_talents[player_id]:
         self.buff_stacks[player_id][(12317, 1)] = 1

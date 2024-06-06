@@ -103,32 +103,37 @@ class SkillLua:
         self.prepare_frame = nPrepareFrames
 
     @property
-    def nWeaponSkillPercent(self):
+    def nWeaponDamagePercent(self):
         return self.weapon_damage_cof
 
-    @nWeaponSkillPercent.setter
-    def nWeaponSkillPercent(self, nWeaponSkillPercent):
+    @nWeaponDamagePercent.setter
+    def nWeaponDamagePercent(self, nWeaponDamagePercent):
         if self.weapon_request:
-            self.weapon_damage_cof = nWeaponSkillPercent
+            self.weapon_damage_cof = nWeaponDamagePercent
 
     def AddAttribute(self, effect_mode, attr_type, *params):
-        if not params or not (param := params[0]):
+        if not params:
             return
 
-        if attr := ATTRIBUTE_TYPE.get(attr_type):
-            setattr(self, attr, param)
-        elif attr_type == 1:
+        param = params[0]
+        if attr_type == 1:
             self.physical_call += 1
         elif attr_type == 2:
             self.magical_call += 1
         elif attr_type == 3:
             self.surplus_call += 1
 
+        if attr := ATTRIBUTE_TYPE.get(attr_type):
+            setattr(self, attr, param)
+
+    def __call__(self, *args, **kwargs):
+        pass
+
 
 def parse_lua(skill_id):
     skill_row = SKILL_TAB[SKILL_TAB.SkillID == skill_id].iloc[0]
     max_level = int(skill_row.MaxLevel)
-    kind_type = skill_row.KindType
+    kind_type = skill_row.KindType if pd.notna(skill_row.KindType) else ""
     recipe_type = skill_row.RecipeType if pd.notna(skill_row.RecipeType) else 0
     event_mask_1 = int(skill_row.SkillEventMask1) if pd.notna(skill_row.SkillEventMask1) else 0
     event_mask_2 = int(skill_row.SkillEventMask2) if pd.notna(skill_row.SkillEventMask2) else 0
@@ -140,7 +145,7 @@ def parse_lua(skill_id):
 
 def collect_result():
     result = []
-    for skill_id in tqdm(DAMAGES):
+    for skill_id in tqdm(SKILLS):
         max_level, kind_type, recipe_type, event_mask_1, event_mask_2, weapon_request, lua_code = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
         LUA.execute(lua_code)
@@ -175,7 +180,7 @@ def convert_json(result):
         first_row = filter_result.iloc[0]
         result_json[skill_id] = dict(
             kind_type=first_row.kind_type, recipe_type=int(first_row.recipe_type),
-            event_mask_1=first_row.event_mask_1, event_mask_2=first_row.event_mask_2,
+            event_mask_1=int(first_row.event_mask_1), event_mask_2=int(first_row.event_mask_2),
         )
         for column in result.columns:
             if column in exclude_columns:

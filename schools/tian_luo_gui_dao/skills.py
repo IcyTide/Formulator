@@ -22,7 +22,7 @@ class 杀机断魂天绝地灭(杀机断魂移除):
             parser.refresh_buff(self.final_buff, 1, 6)
         elif parser.current_buff_stacks.get((16235, 1)):
             parser.refresh_buff(self.final_buff, 1, 4)
-        elif parser.current_buff_stack.get((16234, 1)):
+        elif parser.current_buff_stacks.get((16234, 1)):
             parser.refresh_buff(self.final_buff, 1, 2)
 
 

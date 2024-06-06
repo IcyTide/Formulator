@@ -16,11 +16,11 @@ class SecondaryWeapon(Gain):
         buffs[-1].attributes = self.secondary_weapon_attrs
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-1].attributes = {}
+        buffs[-1].attributes = True
 
 
 GAINS = {
-    1920: CriticalSet(1955, BUFFS[1955].attributes),
+    1920: CriticalSet(1955, BUFFS[1955]),
     818: DamageAdditionRecipe(102, 0, 1593),
     4347: DamageAdditionRecipe(102, 1600, 1600),
     1536: DamageAdditionRecipe(51, 1646, 1646),

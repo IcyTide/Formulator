@@ -22,8 +22,8 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     def formation_update(_):
         widget = bonuses_widget.formation
         formation = widget.formation.combo_box.currentText()
-        core_rate = widget.core_rate.spin_box.attribute_value()
-        formation_rate = widget.rate.spin_box.attribute_value()
+        core_rate = widget.core_rate.spin_box.value()
+        formation_rate = widget.rate.spin_box.value()
 
         if formation == parser.current_school.formation:
             widget.core_rate.show()
@@ -68,7 +68,7 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
                 if isinstance(widget, ComboWithLabel):
                     kwargs[attr] = widget.combo_box.currentText()
                 elif isinstance(widget, SpinWithLabel):
-                    kwargs[attr] = widget.spin_box.attribute_value()
+                    kwargs[attr] = widget.spin_box.value()
             if all(kwargs.values()):
                 bonuses[label] = TEAM_GAINS[label](**kwargs)
             else:

@@ -4,7 +4,7 @@ from base.gain import Gain
 from schools.mo_wen.buffs import BUFFS
 
 GAINS = {
-    1924: CriticalSet(9586, BUFFS[9586].attributes),
+    1924: CriticalSet(9586, BUFFS[9586]),
     2209: DamageAdditionRecipe(102, 14064, 14064),
     2210: DamageAdditionRecipe(102, 14067, 14067),
     2401: DamageAdditionRecipe(51, 14064, 14064),

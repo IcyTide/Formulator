@@ -4,20 +4,20 @@ import os.path
 from tools import *
 from tqdm import tqdm
 
-MAX_ATTRIB = 15
+MAX_ATTRIB = 2
 
 
 def parse_dot(row):
     result = dict(
-        interval=row["Interval"], origin_tick=row["Count"], max_stack=row["MaxStackNum"]
+        interval=row["Interval"], tick=row["Count"], max_stack=row["MaxStackNum"]
     )
     for i in range(MAX_ATTRIB):
-        attr, param_1 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"]
+        attr, param_1 = row[f"ActiveAttrib{i + 1}"], row[f"ActiveValue{i + 1}A"]
 
-        if attr == "atCallPhysicsSkill":
+        if attr == "atCallPhysicsDamage":
             result["damage_base"] = int(param_1)
             result["physical_call"] = 1
-        elif attr in ["atCallSolarSkill", "atCallLunarSkill", "atCallNeutralSkill", "atCallPoisonSkill"]:
+        elif attr in ["atCallSolarDamage", "atCallLunarDamage", "atCallNeutralDamage", "atCallPoisonDamage"]:
             result["damage_base"] = int(param_1)
             result["magical_call"] = 1
         # elif attr in ATTR_TYPE_MAP:

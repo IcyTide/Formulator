@@ -13,7 +13,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         3889: dict(consume_dot=2920)
     },
     Dot: {
-        2920: {}, 18716: {}
+        2920: {}
     }
 }
 SKILLS = {}

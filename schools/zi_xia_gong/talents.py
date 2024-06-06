@@ -1,77 +1,40 @@
 from typing import Dict
 
+from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
-
-
-class 雾锁(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_damage_addition += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_damage_addition -= 102
-
-
-class 白虹(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_critical_strike += 1000
-        skills[896].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_critical_strike -= 1000
-        skills[896].skill_critical_power -= 102
-
-
-class 霜锋(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448):
-            skills[skill_id].skill_damage_addition += 102
-        skills[18670].skill_damage_addition += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448):
-            skills[skill_id].skill_damage_addition -= 102
-        skills[18670].skill_damage_addition -= 102
+from base.talent import Talent
+from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
 
 
 class 跬步(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_damage_addition += 204
-        for skill_id in (3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448):
-            skills[skill_id].skill_damage_addition += 204
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-12550].activate = True
+        buffs[-12551].activate = True
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[896].skill_damage_addition -= 204
-        for skill_id in (3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448):
-            skills[skill_id].skill_damage_addition -= 204
-
-
-class 重光(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for i, skill_id in enumerate([18649, 18650, 18651, 18652, 18653]):
-            skills[skill_id].skill_damage_addition += int(i * 0.15 * 1024)
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for i, skill_id in enumerate([18649, 18650, 18651, 18652, 18653]):
-            skills[skill_id].skill_damage_addition -= int(i * 0.15 * 1024)
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-12550].activate = False
+        buffs[-12551].activate = False
 
 
 TALENT_GAINS: Dict[int, Talent] = {
-    5840: 雾锁("雾锁"),
-    5827: 白虹("白虹"),
-    5823: Gain("心固"),
-    5828: 霜锋("霜锋"),
-    357: Gain("化三清"),
-    5846: Gain("无形"),
-    23614: Gain("归元"),
-    5819: Gain("同尘"),
-    18695: Gain("跬步"),
-    32411: Gain("正气"),
-    14834: Gain("抱阳"),
-    18679: Gain("浮生"),
-    24945: Gain("破势"),
-    18669: 重光("重光"),
-    14613: Gain("固本"),
+    5840: Talent("雾锁", [DamageAdditionRecipe(102, 367, 367)]),
+    5827: Talent("白虹", [MagicalCriticalRecipe((1000, 102), 367, 367)]),
+    5823: Talent("心固"),
+    5828: Talent("霜锋", [DamageAdditionRecipe(102, skill_id, skill_id) for skill_id in (301, 368)]),
+    357: Talent("化三清"),
+    5846: Talent("无形"),
+    23614: Talent("归元"),
+    5819: Talent("同尘"),
+    18695: Talent("跬步", [跬步()]),
+    32411: Talent("正气"),
+    14834: Talent("抱阳"),
+    18679: Talent("浮生"),
+    24945: Talent("破势"),
+    18669: Talent("重光", [
+        DamageAdditionRecipe(value, skill_id, 0)
+        for skill_id, value in ((18650, 154), (18651, 307), (18652, 461), (18653, 614))
+    ]),
+    14613: Talent("固本"),
 }
 
 TALENTS = [
@@ -88,5 +51,5 @@ TALENTS = [
     [18669],
     [14613]
 ]
-TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

@@ -276,40 +276,43 @@ SUPPORT_SCHOOLS = {
 }
 
 
-def read_config():
-    for skill_id, skill in GENERAL_SKILLS.items():
-        skill_id = str(skill_id)
+def set_skill(skill: Skill):
+    skill_id = str(skill.skill_id)
+    if isinstance(skill, Dot):
+        for attr, value in DOTS[skill_id].items():
+            setattr(skill, attr, value)
+    else:
         for attr, value in SKILLS[skill_id].items():
             setattr(skill, attr, value)
-    for buff_id, buff in GENERAL_BUFFS.items():
-        buff_id = str(buff_id)
-        for attr, value in BUFFS.get(buff_id, {}).items():
-            setattr(buff, attr, value)
+
+
+def set_buff(buff: Buff):
+    buff_id = buff.buff_id
+    if buff_id < 0:
+        buff_id = -buff_id
+    buff_id = str(buff_id)
+    if not (buff_info := BUFFS.get(buff_id)):
+        return
+    buff_name = buff_info.pop("buff_name", "")
+    if not buff.buff_name:
+        buff.buff_name = buff_name
+    for attr, value in buff_info.items():
+        buff.attributes[attr] = value
+
+
+def read_config():
+    for skill in GENERAL_SKILLS.values():
+        set_skill(skill)
+    for buff in GENERAL_BUFFS.values():
+        set_buff(buff)
 
     for school in SUPPORT_SCHOOLS.values():
-        for skill_id, skill in school.skills.items():
-            skill_id = str(skill_id)
-            if isinstance(skill, Dot):
-                for attr, value in DOTS[skill_id].items():
-                    setattr(skill, attr, value)
-            else:
-                for attr, value in SKILLS[skill_id].items():
-                    setattr(skill, attr, value)
+        for skill in school.skills.values():
+            set_skill(skill)
         school.skills.update(GENERAL_SKILLS)
-
-        for buff_id, buff in school.buffs.items():
-            if isinstance(buff, CustomBuff):
-                continue
-            if buff_id < 0:
-                buff_id = -buff_id
-            buff_id = str(buff_id)
-            if not (buff_info := BUFFS.get(buff_id)):
-                continue
-            buff_name = buff_info.pop("buff_name")
-            if not buff.buff_name:
-                buff.buff_name = buff_name
-            for attr, value in BUFFS.get(buff_id, {}).items():
-                setattr(buff.attributes, attr, value)
+        for buff in school.buffs.values():
+            set_buff(buff)
         school.buffs.update(GENERAL_BUFFS)
 
-# fill_damage_attrs()
+
+read_config()

@@ -4,7 +4,7 @@ from base.gain import Gain
 from schools.wu_fang.buffs import BUFFS
 
 GAINS = {
-    2125: CriticalSet(21758, BUFFS[21758].attributes),
+    2125: CriticalSet(21758, BUFFS[21758]),
     2839: DamageAdditionRecipe(102, 27556, 27556),
     2840: DamageAdditionRecipe(102, 27551, 27551),
     2842: DamageAdditionRecipe(51, 27556, 27556),

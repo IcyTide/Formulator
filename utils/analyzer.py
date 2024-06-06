@@ -12,8 +12,8 @@ from utils.parser import School
 class Detail:
     damage: int = 0
     critical_damage: int = 0
-    expected_damage: float = 0.
     critical_strike: float = 0.
+    expected_damage: float = 0.
 
     gradients: Dict[str, float] = None
 
@@ -30,7 +30,7 @@ class Detail:
         return 0
 
 
-def filter_status(status, school: School):
+def filter_status(status, school: School, skill: Skill):
     buffs = []
     for buff_id, buff_level, buff_stack in status:
         buff = school.buffs[buff_id]
@@ -39,40 +39,27 @@ def filter_status(status, school: School):
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
         buffs.append(buff)
 
-    return tuple(sorted(buffs, key=lambda x: x.buff_id))
+    return sorted(buffs, key=lambda x: x.buff_id)
 
 
 def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
-    final_buffs = []
     if not snapshot_buffs:
-        for buff in current_buffs:
-            buff.add_all(attribute, skill)
-            final_buffs.append(buff)
+        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
+        display_snapshot_buffs = []
     elif isinstance(skill, Dot):
-        for buff in current_buffs:
-            if buff.add_dot(attribute, skill, False):
-                final_buffs.append(buff)
-        for buff in snapshot_buffs:
-            if buff.add_dot(attribute, skill, True):
-                final_buffs.append(buff)
+        display_current_buffs = [buff for buff in current_buffs if buff.add_dot(attribute, skill, False)]
+        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_dot(attribute, skill, True)]
     elif isinstance(skill, NpcSkill):
-        for buff in current_buffs:
-            buff.add_all(attribute, skill)
-            final_buffs.append(buff)
-        for buff in snapshot_buffs:
-            buff.add_all(attribute, skill)
-            final_buffs.append(buff)
+        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
+        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_all(attribute, skill)]
     elif isinstance(skill, PetSkill):
-        for buff in current_buffs:
-            buff.add_pet(attribute, skill, False)
-            final_buffs.append(buff)
-        for buff in snapshot_buffs:
-            buff.add_pet(attribute, skill, True)
-            final_buffs.append(buff)
-    for buff in target_buffs:
-        buff.add_all(attribute, skill)
+        display_current_buffs = [buff for buff in current_buffs if buff.add_pet(attribute, skill, False)]
+        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, skill, True)]
+    else:
+        raise NotImplementedError
+    display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, skill, False)]
 
-    return final_buffs + list(target_buffs)
+    return display_current_buffs, display_snapshot_buffs, display_target_buffs
 
 
 def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
@@ -98,9 +85,18 @@ def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         buff.sub_all(attribute, skill)
 
 
-def concat_buffs(buffs):
-    buffs = ",".join(buff.display_name for buff in buffs)
-    if not buffs:
+def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
+    buffs = []
+    if current_buffs:
+        buffs.append(",".join(buff.display_name for buff in current_buffs))
+    if snapshot_buffs:
+        buffs.append(",".join(buff.display_name for buff in snapshot_buffs))
+    if target_buffs:
+        buffs.append(",".join(buff.display_name for buff in target_buffs))
+
+    if buffs:
+        buffs = ";".join(buffs)
+    else:
         buffs = "~"
     return buffs
 
@@ -123,7 +119,7 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             skill.skill_stack = dot_skill_stack
             dot_skill = school.skills[dot_skill_id]
             dot_skill.skill_level = dot_skill_level
-            skill.bind_damage = dot_skill
+            skill.bind_skill = dot_skill
 
         skill_detail = details[skill.display_name] = {}
         if not (skill_summary := summary.get(skill_name)):
@@ -134,12 +130,12 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
                 continue
             critical_timeline = [t for t in timeline if t[1]]
 
-            current_buffs = filter_status(current_status, school, skill_id)
-            snapshot_buffs = filter_status(snapshot_status, school, skill_id)
-            target_buffs = filter_status(target_status, school, skill_id)
+            current_buffs = filter_status(current_status, school, skill)
+            snapshot_buffs = filter_status(snapshot_status, school, skill)
+            target_buffs = filter_status(target_status, school, skill)
 
-            buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
-            buffs = concat_buffs(buffs)
+            display_buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
+            buffs = concat_buffs(*display_buffs)
             if buffs in skill_detail:
                 detail = skill_detail[buffs]
             else:
@@ -154,8 +150,8 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
 
             skill_total.damage += detail.damage * len(timeline)
             skill_total.critical_damage += detail.critical_damage * len(timeline)
-            skill_total.expected_damage += detail.expected_damage * len(timeline)
             skill_total.critical_strike += detail.critical_strike * len(timeline)
+            skill_total.expected_damage += detail.expected_damage * len(timeline)
             for attr, residual_damage in detail.gradients.items():
                 skill_total.gradients[attr] += residual_damage * len(timeline)
 
@@ -183,6 +179,6 @@ def analyze_gradients(skill, attribute):
     for attr, value in attribute.grad_attrs.items():
         origin_value = getattr(attribute, attr)
         setattr(attribute, attr, origin_value + value)
-        _, _, results[attr], _ = skill(attribute)
+        _, _, _, results[attr] = skill(attribute)
         setattr(attribute, attr, origin_value)
     return results

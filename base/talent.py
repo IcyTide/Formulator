@@ -6,15 +6,11 @@ from base.gain import Gain
 from base.skill import Skill
 
 
-class Talent:
-    talent_name: str
+class Talent(Gain):
     gains: List[Gain]
 
     def __init__(self, name: str = None, gains: List[Gain] = None):
-        if name:
-            self.talent_name = name
-        else:
-            self.talent_name = type(self).__name__
+        super().__init__(name=name)
         if gains:
             self.gains = gains
         else:

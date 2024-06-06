@@ -10,18 +10,18 @@ from base.skill import Skill
 class 冥鼓(Gain):
     def add_skill(self, skill: Skill):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
-            skill.physical_shield_gain_extra -= 512
-        skill.damage_addition += 205
+            skill.physical_shield_gain_extra += self.value[0]
+        skill.damage_addition += self.value[1]
 
     def add_skills(self, skills: Dict[int, Skill]):
         super().add_skills(skills)
-        skills[32823].physical_shield_gain = [-512, 0, 0, -512]
-        skills[37458].physical_shield_gain = -512
+        skills[32823].physical_shield_gain = [self.value[0], 0, 0, self.value[0]]
+        skills[37458].physical_shield_gain = self.value[0]
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
-            skill.physical_shield_gain_extra += 512
-        skill.damage_addition -= 205
+            skill.physical_shield_gain_extra -= self.value[0]
+        skill.damage_addition -= self.value[1]
 
     def sub_skills(self, skills: Dict[int, Skill]):
         super().sub_skills(skills)
@@ -32,13 +32,13 @@ class 冥鼓(Gain):
 class 阳关(Gain):
     def add_skill(self, skill: Skill):
         if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
-            skill.physical_shield_gain_extra -= 512
-        skill.damage_addition += 205
+            skill.physical_shield_gain_extra += self.value[0]
+        skill.damage_addition += self.value[1]
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
-            skill.physical_shield_gain_extra += 512
-        skill.damage_addition -= 205
+            skill.physical_shield_gain_extra -= self.value[0]
+        skill.damage_addition -= self.value[1]
 
 
 class 星火(Gain):
@@ -52,8 +52,8 @@ class 星火(Gain):
 TALENT_GAINS: Dict[int, Talent] = {
     16691: Talent("龙息"),
     16847: Talent("归酣"),
-    26904: Talent("冥鼓", [冥鼓(skill_id=skill_id, skill_recipe=skill_id) for skill_id in (16601, 16602)]),
-    17042: Talent("阳关", [阳关(skill_id=16627, skill_recipe=16627)]),
+    26904: Talent("冥鼓", [冥鼓((-512, 205), skill_id, skill_id) for skill_id in (16601, 16602)]),
+    17042: Talent("阳关", [阳关((-205, 154), 16627, 16627)]),
     16799: Talent("霜天"),
     25633: Talent("含风"),
     32857: Talent("见尘"),
@@ -81,5 +81,5 @@ TALENTS = [
     [16893],
     [21858]
 ]
-TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

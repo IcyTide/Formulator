@@ -6,7 +6,7 @@ from base.recipe import MagicalAttackPowerRecipe, MagicalCriticalRecipe
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        4671: {}, 6277: {}, 12575: {},
+        4671: {}, 4754: {}, 6277: {}, 12575: {},
         25758: dict(gains=[MagicalAttackPowerRecipe(246, skill_id, skill_recipe)
                            for skill_id, skill_recipe in ((0, 3966), (0, 3967), (34348, 0))]),
         25759: dict(gains=[MagicalCriticalRecipe(246, skill_id, skill_recipe)

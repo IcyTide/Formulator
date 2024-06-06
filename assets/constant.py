@@ -40,8 +40,8 @@ EMBED_POSITIONS = {
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
 ATTR_TYPE_MAP = dict(
-    atMeleeWeaponSkillBase="weapon_damage_base",
-    atMeleeWeaponSkillRand="weapon_damage_rand",
+    atMeleeWeaponDamageBase="weapon_damage_base",
+    atMeleeWeaponDamageRand="weapon_damage_rand",
     atBasePotentialAdd="all_major_base",
 
     atAgilityBase="agility_base",
@@ -102,23 +102,23 @@ ATTR_TYPE_MAP = dict(
     atSolarAndLunarCriticalStrikeBaseRate="magical_critical_strike_rate",
     atPoisonCriticalStrikeBaseRate="magical_critical_strike_rate",
 
-    atAllTypeCriticalSkillPowerBase="all_critical_power_base",
-    atPhysicsCriticalSkillPowerBase="physical_critical_power_base",
-    atMagicCriticalSkillPowerBase="magical_critical_power_base",
-    atSolarCriticalSkillPowerBase="magical_critical_power_base",
-    atLunarCriticalSkillPowerBase="magical_critical_power_base",
-    atNeutralCriticalSkillPowerBase="magical_critical_power_base",
-    atSolarAndLunarCriticalSkillPowerBase="magical_critical_power_base",
-    atPoisonCriticalSkillPowerBase="magical_critical_power_base",
+    atAllTypeCriticalDamagePowerBase="all_critical_power_base",
+    atPhysicsCriticalDamagePowerBase="physical_critical_power_base",
+    atMagicCriticalDamagePowerBase="magical_critical_power_base",
+    atSolarCriticalDamagePowerBase="magical_critical_power_base",
+    atLunarCriticalDamagePowerBase="magical_critical_power_base",
+    atNeutralCriticalDamagePowerBase="magical_critical_power_base",
+    atSolarAndLunarCriticalDamagePowerBase="magical_critical_power_base",
+    atPoisonCriticalDamagePowerBase="magical_critical_power_base",
 
-    atPhysicsCriticalSkillPowerBaseKiloNumRate="physical_critical_power_rate",
-    atMagicCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-    atSolarCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-    atLunarCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-    atNeutralCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-    atSolarAndLunarCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-    atPoisonCriticalSkillPowerBaseKiloNumRate="magical_critical_power_rate",
-
+    atPhysicsCriticalDamagePowerBaseKiloNumRate="physical_critical_power_rate",
+    atMagicCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atSolarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atLunarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atNeutralCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atSolarAndLunarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    atPoisonCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
+    
     atSurplusValueBase="surplus_base",
     atSurplusValueAddPercent="surplus_gain",
 
@@ -128,8 +128,8 @@ ATTR_TYPE_MAP = dict(
     atHasteBase="haste_base",
 
     atAllShieldIgnorePercent="all_shield_ignore",
-    atAllSkillAddPercent="all_damage_addition",
-    atDstNpcSkillCoefficient="pve_addition",
+    atAllDamageAddPercent="all_damage_addition",
+    atDstNpcDamageCoefficient="pve_addition",
 
     atPhysicsShieldBase="physical_shield_base",
     atPhysicsShieldPercent="physical_shield_gain",
@@ -139,11 +139,11 @@ ATTR_TYPE_MAP = dict(
     atNeutralMagicShieldPercent="magical_shield_gain",
     atPoisonMagicShieldPercent="magical_shield_gain",
 
-    atPhysicsSkillCoefficient="physical_damage_cof",
-    atSolarSkillCoefficient="magical_damage_cof",
-    atLunarSkillCoefficient="magical_damage_cof",
-    atNeutralSkillCoefficient="magical_damage_cof",
-    atPoisonSkillCoefficient="magical_damage_cof",
+    atPhysicsDamageCoefficient="physical_damage_cof",
+    atSolarDamageCoefficient="magical_damage_cof",
+    atLunarDamageCoefficient="magical_damage_cof",
+    atNeutralDamageCoefficient="magical_damage_cof",
+    atPoisonDamageCoefficient="magical_damage_cof",
 )
 
 ATTR_TYPE_TRANSLATE = {

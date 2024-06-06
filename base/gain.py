@@ -18,8 +18,11 @@ class Gain:
             buff_id: int = None, buff_recipe: int = None,
             name: str = None,
     ):
-        self.gain_name = type(self).__name__
-        if value:
+        if name:
+            self.gain_name = name
+        else:
+            self.gain_name = type(self).__name__
+        if value is not None:
             self.value = value
         if skill_id:
             self.skill_id = skill_id
@@ -39,8 +42,8 @@ class Gain:
 
         for skill_id, skill in skills.items():
             if skill_id == self.skill_id or skill.recipe_type == self.skill_recipe:
-                if self.add_skill(skill):
-                    return_tag = True
+                return_tag = True
+                self.add_skill(skill)
 
         return return_tag
 
@@ -48,8 +51,10 @@ class Gain:
         pass
 
     def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
-        return_tags = (self.add_attribute(attribute), self.add_skills(skills), self.add_buffs(buffs))
-        return any(return_tags)
+        self.add_buffs(buffs)
+        return_tag = self.add_skills(skills)
+        self.add_attribute(attribute)
+        return return_tag
 
     def sub_attribute(self, attribute: Attribute):
         pass
@@ -68,6 +73,6 @@ class Gain:
         pass
 
     def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
-        self.sub_attribute(attribute)
-        self.sub_skills(skills)
         self.sub_buffs(buffs)
+        self.sub_skills(skills)
+        self.sub_attribute(attribute)

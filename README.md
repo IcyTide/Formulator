@@ -1,4 +1,4 @@
-# Comprehensive Skill Formulator with JCL Parser
+# Comprehensive Damage Formulator with JCL Parser
 
 ## User Guide
 ### In Progress

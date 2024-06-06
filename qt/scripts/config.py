@@ -132,8 +132,8 @@ def config_script(
 
     def save_bonuses(config):
         config['formation']['formation'] = bonus_widget.formation.formation.combo_box.currentText()
-        config['formation']['core_rate'] = bonus_widget.formation.core_rate.spin_box.attribute_value()
-        config['formation']['rate'] = bonus_widget.formation.rate.spin_box.attribute_value()
+        config['formation']['core_rate'] = bonus_widget.formation.core_rate.spin_box.value()
+        config['formation']['rate'] = bonus_widget.formation.rate.spin_box.value()
         for label, team_gain in bonus_widget.team_gains.items():
             if isinstance(team_gain, RadioWithLabel):
                 config['team_gains'][label] = team_gain.radio_button.isChecked()
@@ -143,7 +143,7 @@ def config_script(
                     if isinstance(sub_team_gain, ComboWithLabel):
                         config['team_gains'][label][sub_label] = sub_team_gain.combo_box.currentText()
                     elif isinstance(sub_team_gain, SpinWithLabel):
-                        config['team_gains'][label][sub_label] = sub_team_gain.spin_box.attribute_value()
+                        config['team_gains'][label][sub_label] = sub_team_gain.spin_box.value()
 
     def save_recipes(config):
         for recipe in recipe_widget.values():

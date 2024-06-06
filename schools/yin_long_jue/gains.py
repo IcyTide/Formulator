@@ -5,7 +5,7 @@ from schools.yin_long_jue.buffs import BUFFS
 
 GAINS = {
     (36726, 1): Gain(),
-    1927: CriticalSet(16025, BUFFS[16025].attributes),
+    1927: CriticalSet(16025, BUFFS[16025]),
     5037: DamageAdditionRecipe(102, 22327, 22327),
     5038: DamageAdditionRecipe(102, 22144, 22144),
     5091: DamageAdditionRecipe(51, 22143, 22143),

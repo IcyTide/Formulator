@@ -55,9 +55,10 @@ class EquipmentGain(Gain):
 class CriticalSet(EquipmentGain):
     rate = 0.7
 
-    def __init__(self, buff_id, attributes):
+    def __init__(self, buff_id, buff):
         self.buff_ids = [buff_id]
-        self.attributes = attributes
+        self.attributes = buff.attributes
+        buff.activate = False
         super().__init__()
 
 
@@ -113,11 +114,11 @@ class 大附魔腰(EquipmentGain):
 
 
 class 大附魔腕(EquipmentGain):
-    skill_ids = [22160, 22161, 22162, 22163, 22164, 37562]
+    skill_ids = list(range(22160, 22164 + 1)) + [37562]
 
 
 class 大附魔鞋(EquipmentGain):
-    skill_ids = [33257, 33258, 33259, 33260, 33261, 37561]
+    skill_ids = list(range(33257, 33261 + 1)) + [37561]
 
 
 def set_real_formulation(tag):

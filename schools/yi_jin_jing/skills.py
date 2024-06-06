@@ -19,16 +19,19 @@ class 明法移除(Skill):
     final_buff = 19635
 
     def record(self, critical, parser):
+        buff_levels = []
         for buff_id, buff_level in parser.current_target_buff_stacks:
             if buff_id == self.final_buff:
-                parser.clear_target_buff(self.final_buff, buff_level)
+                buff_levels.append(buff_level)
+        for buff_level in buff_levels:
+            parser.clear_target_buff(self.final_buff, buff_level)
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         11: dict(damage_addition=205),
         236: {}, 271: {}, 14951: {}, 17641: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {}, 32656: {}, 32659: {},
-        32660: {}, 32887: {}, 3814: {}, 3817: {},3848: {}, 3849: {}, 3850: {}, 13685: {}
+        32660: {}, 32887: {}, 3814: {}, 3816: {}, 3848: {}, 3849: {}, 3850: {}, 13685: {},
         3810: dict(bind_dot=743)
     },
     Dot: {743: dict(extra_tick=3)},

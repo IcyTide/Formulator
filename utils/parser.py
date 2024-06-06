@@ -1,4 +1,5 @@
 from collections import defaultdict
+from copy import deepcopy
 
 from base.constant import FRAME_PER_SECOND
 from schools import *
@@ -68,7 +69,6 @@ class BaseParser:
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
 
     last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, Tuple[SKILL_TYPE, Tuple[tuple, tuple]]]]]
-    next_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[SKILL_ID_TYPE, int]]]
 
     start_frame: FRAME_TYPE
     end_frame: FRAME_TYPE
@@ -138,10 +138,6 @@ class BaseParser:
     def current_last_dot(self):
         return self.last_dot[self.current_target][self.current_player]
 
-    @property
-    def current_next_dot(self):
-        return self.next_dot[self.current_target][self.current_player]
-
     def reset(self):
         self.current_frame = 0
         self.current_second = 0
@@ -167,7 +163,6 @@ class BaseParser:
         self.next_pet_buff_stacks = defaultdict(list)
         self.dot_snapshot = defaultdict(lambda: defaultdict(dict))
         self.last_dot = defaultdict(lambda: defaultdict(dict))
-        self.next_dot = defaultdict(lambda: defaultdict(dict))
 
         self.start_frame = 0
 
@@ -250,8 +245,9 @@ class Parser(BaseParser):
             self.select_equipments[player_id] = self.parse_equipments(detail[5])
             self.select_talents[player_id] = self.parse_talents(detail[6])
             if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
+                print(self.select_talents[player_id])
                 return
-            self.players[player_id] = school
+            self.players[player_id] = deepcopy(school)
 
     def parse_npc(self, row):
         detail = row.strip("{}").split(",")
@@ -361,6 +357,8 @@ class Parser(BaseParser):
         if buff.frame_shift:
             return
 
+        self.current_player = player_id
+        self.current_caster = caster_id
         if buff_stack:
             buff_stacks[(buff_id, buff_level)] = buff_stack
             buff.begin(self)
@@ -396,42 +394,37 @@ class Parser(BaseParser):
         skill.skill_level = skill_level
         skill.parse(critical, self)
 
-    def status(self, skill_id):
-        skill = self.current_school.skills[skill_id]
+    @staticmethod
+    def filter_buff(buff, skill):
+        if buff.gains:
+            return True
+        if buff.attributes:
+            if buff.attributes is True:
+                return True
+            elif all("attack_power" in attr for attr in buff.attributes) and not skill.attack_power_call:
+                return False
+            elif all("surplus" in attr for attr in buff.attributes) and not skill.surplus_call:
+                return False
+            return True
+
+    @property
+    def status(self):
+        skill = self.current_school.skills[self.current_skill]
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
-            if buff.attributes:
-                if all("attack_power" in attr for attr in buff.attributes) and not skill.attack_power_call:
-                    pass
-                elif all("surplus" in attr for attr in buff.attributes) and not skill.surplus_call:
-                    pass
-                else:
-                    current_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gains and skill_id in buff.gains:
+            if self.filter_buff(buff, skill):
                 current_status.append((buff_id, buff_level, buff_stack))
 
-        self.current_skill = skill_id
         snapshot_status = []
         for (buff_id, buff_level), buff_stack in self.current_snapshot.items():
             buff = self.current_school.buffs[buff_id]
-            if buff.attributes:
-                if all("attack_power" in attr for attr in buff.attributes) and not skill.attack_power_call:
-                    pass
-                elif all("surplus" in attr for attr in buff.attributes) and not skill.surplus_call:
-                    pass
-                else:
-                    current_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gains and skill_id in buff.gains:
+            if self.filter_buff(buff, skill):
                 snapshot_status.append((buff_id, buff_level, buff_stack))
 
         target_status = []
         for (buff_id, buff_level), buff_stack in self.current_target_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
-            if buff.attributes:
-                target_status.append((buff_id, buff_level, buff_stack))
-            elif buff.gains and skill_id in buff.gains:
-                target_status.append((buff_id, buff_level, buff_stack))
+            target_status.append((buff_id, buff_level, buff_stack))
 
         return tuple(current_status), tuple(snapshot_status), tuple(target_status)
 
@@ -449,13 +442,12 @@ class Parser(BaseParser):
                 self.parse_npc(row[-1])
 
         for player_id, school in self.players.items():
-            school.prepare(self, player_id)
             for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].add_skills(school.skills)
+                school.talent_gains[talent_id].add(school.attribute(), school.skills, school.buffs)
+            school.prepare(self, player_id)
 
         for row in rows:
             self.current_frame = int(row[1])
-            # self.current_second = int(row[3])
             if row[4] == "13":
                 self.parse_shift_buff(row[-1])
 
@@ -464,9 +456,6 @@ class Parser(BaseParser):
                 self.current_frame = current_frame
                 self.parse_frame_shift_status()
                 self.parse_buff_intervals()
-            # if (current_second := int(row[3])) != self.current_second:
-            #     self.current_second = current_second
-            #     self.parse_frame_shift_status()
 
             if row[4] == "6":
                 self.parse_pet(row[-1])
@@ -479,7 +468,7 @@ class Parser(BaseParser):
 
         for player_id, school in self.players.items():
             for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].sub_skills(school.skills)
+                school.talent_gains[talent_id].sub(school.attribute(), school.skills, school.buffs)
 
         for player_id in self.records:
             player_record = defaultdict(lambda: defaultdict(list))

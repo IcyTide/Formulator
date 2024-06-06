@@ -17,11 +17,11 @@ class 风虎(Gain):
 
 class 战心(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[702].pre_buffs[(-26008, 1)] = 1
+        skills[423].pre_buffs[(-26008, 1)] = 1
         skills[702].post_buffs[(-1, 1)] = 3
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[702].pre_buffs.pop((-26008, 1))
+        skills[423].pre_buffs.pop((-26008, 1))
         skills[702].post_buffs.pop((-1, 1))
 
 
@@ -38,11 +38,11 @@ class 骁勇(Gain):
 class 虎贲(Gain):
     @staticmethod
     def begin_effect(parser):
-        parser.skills[18773].post_buffs[(-1, 1)] = -3
+        parser.current_school.skills[18773].post_buffs[(-1, 1)] = -3
 
     @staticmethod
     def end_effect(parser):
-        parser.skills[18773].post_buffs[(-1, 1)] = 0
+        parser.current_school.skills[18773].post_buffs[(-1, 1)] = 0
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[28169].begin_effects.append(self.begin_effect)
@@ -84,5 +84,5 @@ TALENTS = [
     [15001],
     [6517],
 ]
-TALENT_DECODER = {talent_id: talent.talent_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

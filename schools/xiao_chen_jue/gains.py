@@ -5,7 +5,7 @@ from schools.xiao_chen_jue.buffs import BUFFS
 
 GAINS = {
     (22035, 1): Gain(),
-    1921: CriticalSet(1438, BUFFS[1438].attributes),
+    1921: CriticalSet(1438, BUFFS[1438]),
     1548: DamageAdditionRecipe(102, 5638, 5638),
     1540: DamageAdditionRecipe(51, 5258, 5258),
     1541: DamageAdditionRecipe(51, 5638, 5638),

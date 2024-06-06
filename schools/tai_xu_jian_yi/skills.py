@@ -7,6 +7,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         18121: dict(damage_addition=205),
         589: {}, 4954: {}, 13853: {}, 21726: {}, 21979: {}, 25771: {}, 32814: {}, 34693: {}, 34694: {},
         **{skill_id: {} for skill_id in range(386, 394 + 1)},
+        **{skill_id: {} for skill_id in range(6076, 6085 + 1)},
         32408: dict(consume_dot=748, consume_tick=1),
         600: dict(bind_dot=748),
         30944: dict(bind_dot=889),

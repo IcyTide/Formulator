@@ -4,7 +4,7 @@ from base.gain import Gain
 from schools.hua_jian_you.buffs import BUFFS
 
 GAINS = {
-    1912: CriticalSet(1440, BUFFS[1440].attributes),
+    1912: CriticalSet(1440, BUFFS[1440]),
     817: ChannelIntervalRecipe(1.15, 189, 189),
     1546: DamageAdditionRecipe(102, 2636, 2636),
     1516: DamageAdditionRecipe(51, 179, 179),

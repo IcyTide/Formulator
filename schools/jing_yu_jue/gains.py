@@ -4,7 +4,7 @@ from base.gain import Gain
 from schools.jing_yu_jue.buffs import BUFFS
 
 GAINS = {
-    1919: CriticalSet(3401, BUFFS[3401].attributes),
+    1919: CriticalSet(3401, BUFFS[3401]),
     946: DamageAdditionRecipe(102, 3095, 3095),
     1969: DamageAdditionRecipe(102, 0, 3093),
     1534: DamageAdditionRecipe(51, 3095, 3095),
