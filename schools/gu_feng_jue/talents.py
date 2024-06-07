@@ -50,10 +50,10 @@ class 涣衍(Gain):
 
 class 涤瑕(Gain):
     def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24222].activate = True
+        buffs[-24056].activate = True
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24222].activate = False
+        buffs[-24056].activate = False
 
 
 TALENT_GAINS: Dict[int, Gain] = {

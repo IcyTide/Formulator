@@ -6,7 +6,7 @@ from general.skills import GENERAL_SKILLS
 
 
 class 横刀断浪流血(Skill):
-    bind_buff: int = -24222
+    bind_buff: int = -24056
     stack: int
 
     def record(self, critical, parser):
