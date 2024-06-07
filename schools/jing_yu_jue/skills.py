@@ -20,7 +20,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         3478: dict(bind_dot=19625)
     },
     Dot: {
-        2237: dict(extra_tick=1),
+        2237: dict(tick_extra=1),
         19625: {}
     },
     逐一击破增伤: {

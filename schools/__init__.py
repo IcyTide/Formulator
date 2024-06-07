@@ -293,10 +293,10 @@ def set_buff(buff: Buff):
     buff_id = str(buff_id)
     if not (buff_info := BUFFS.get(buff_id)):
         return
-    buff_name = buff_info.pop("buff_name", "")
+    buff_name = buff_info.get("buff_name", "")
     if not buff.buff_name:
         buff.buff_name = buff_name
-    for attr, value in buff_info.items():
+    for attr, value in buff_info.get("attributes", {}).items():
         buff.attributes[attr] = value
 
 

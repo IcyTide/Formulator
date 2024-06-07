@@ -30,7 +30,8 @@ ATTRIBUTE_TYPE = {
     -11: "physical_shield_gain",
     -12: "magical_shield_gain",
     -13: "global_damage_cof",
-    -14: "pve_addition"
+    -14: "pve_addition",
+    -15: "damage_addition"
 }
 INCLUDE_LUA = """
 function GetEditorString(param_1, param_2)
@@ -97,6 +98,7 @@ ATTRIBUTE_TYPE = {
 
     GLOBAL_DAMGAGE_FACTOR = -13,
     DST_NPC_DAMAGE_COEFFICIENT = -14,
+    ALL_DAMAGE_ADD_PERCENT = -15,
 
     CALL_PHYSICS_DAMAGE = 1,
     CALL_LUNAR_DAMAGE = 2,

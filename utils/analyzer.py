@@ -1,3 +1,4 @@
+from copy import copy
 from dataclasses import dataclass
 from collections import defaultdict
 from typing import Dict
@@ -30,14 +31,14 @@ class Detail:
         return 0
 
 
-def filter_status(status, school: School, skill: Skill):
+def filter_status(status, school: School):
     buffs = []
     for buff_id, buff_level, buff_stack in status:
         buff = school.buffs[buff_id]
         if not buff.activate:
             continue
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
-        buffs.append(buff)
+        buffs.append(copy(buff))
 
     return sorted(buffs, key=lambda x: x.buff_id)
 
@@ -47,8 +48,8 @@ def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
         display_snapshot_buffs = []
     elif isinstance(skill, Dot):
-        display_current_buffs = [buff for buff in current_buffs if buff.add_dot(attribute, skill, False)]
-        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_dot(attribute, skill, True)]
+        display_current_buffs = [buff for buff in current_buffs if buff.add_dot(attribute, skill.bind_skill, False)]
+        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_dot(attribute, skill.bind_skill, True)]
     elif isinstance(skill, NpcSkill):
         display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
         display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_all(attribute, skill)]
@@ -57,7 +58,7 @@ def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, skill, True)]
     else:
         raise NotImplementedError
-    display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, skill, False)]
+    display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, skill)]
 
     return display_current_buffs, display_snapshot_buffs, display_target_buffs
 
@@ -68,9 +69,9 @@ def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
             buff.sub_all(attribute, skill)
     elif isinstance(skill, Dot):
         for buff in current_buffs:
-            buff.sub_dot(attribute, skill, False)
+            buff.sub_dot(attribute, skill.bind_skill, False)
         for buff in snapshot_buffs:
-            buff.sub_dot(attribute, skill, True)
+            buff.sub_dot(attribute, skill.bind_skill, True)
     elif isinstance(skill, NpcSkill):
         for buff in current_buffs:
             buff.sub_all(attribute, skill)
@@ -130,9 +131,9 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
                 continue
             critical_timeline = [t for t in timeline if t[1]]
 
-            current_buffs = filter_status(current_status, school, skill)
-            snapshot_buffs = filter_status(snapshot_status, school, skill)
-            target_buffs = filter_status(target_status, school, skill)
+            current_buffs = filter_status(current_status, school)
+            snapshot_buffs = filter_status(snapshot_status, school)
+            target_buffs = filter_status(target_status, school)
 
             display_buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, skill)
             buffs = concat_buffs(*display_buffs)

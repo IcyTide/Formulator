@@ -3,13 +3,15 @@ from typing import Dict
 from base.buff import Buff
 from base.recipe import MagicalAttackPowerRecipe, MagicalCriticalRecipe
 
-
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        4671: {}, 4754: {}, 6277: {}, 12575: {},
-        25758: dict(gains=[MagicalAttackPowerRecipe(246, skill_id, skill_recipe)
+        4671: {}, 4754: {}, 6277: {},
+        12575: dict(buff_name="用晦而明"),
+        25758: dict(buff_name="明光·月",
+                    gains=[MagicalAttackPowerRecipe(246, skill_id, skill_recipe)
                            for skill_id, skill_recipe in ((0, 3966), (0, 3967), (34348, 0))]),
-        25759: dict(gains=[MagicalCriticalRecipe(246, skill_id, skill_recipe)
+        25759: dict(buff_name="明光·日",
+                    gains=[MagicalCriticalRecipe((1500, 102), skill_id, skill_recipe)
                            for skill_id, skill_recipe in ((0, 3966), (4476, 0), (34349, 0))])
     },
 }

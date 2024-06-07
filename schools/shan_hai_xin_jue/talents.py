@@ -1,9 +1,10 @@
 from typing import Dict
 
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
 from base.talent import Talent
-from base.recipe import ChannelIntervalRecipe, PhysicalCriticalRecipe, ExtraTickRecipe, PveAdditionRecipe
+from base.recipe import ExtraTickRecipe
 from base.skill import Skill
 
 
@@ -32,17 +33,29 @@ class 素矰(Gain):
 class 孰湖(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[35695].pet_buffs[(26857, 1)] += 1
+        skills[35696].pet_buffs[(26857, 1)] += 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[35695].pet_buffs[(26857, 1)] -= 1
+        skills[35696].pet_buffs[(26857, 1)] -= 1
 
 
 class 诸怀(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35696].pet_buffs[(27099, 1)] = 1
+        skills[35695].pet_buffs[(-27099, 1)] = 1
+        skills[35696].pet_buffs[(-27099, 1)] = 1
+
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[26857].begin_buffs[(-27099, 1)] = 1
+        buffs[26857].end_buffs[(-27099, 1)] = -1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35696].pet_buffs.pop((27099, 1))
+        skills[35695].pet_buffs.pop((-27099, 1))
+        skills[35696].pet_buffs.pop((-27099, 1))
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[26857].begin_buffs.pop((-27099, 1))
+        buffs[26857].end_buffs.pop((-27099, 1))
 
 
 class 卢令(Gain):

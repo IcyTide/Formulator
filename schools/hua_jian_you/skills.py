@@ -17,7 +17,7 @@ class 吞噬(Skill):
 
 
 class 折花吞噬(吞噬):
-    bind_dots = {
+    consume_dots = {
         **{i + 9: skill_id for i, skill_id in enumerate([714, 666, 711, 24158])}
     }
     bind_buff_levels = {
@@ -25,7 +25,7 @@ class 折花吞噬(吞噬):
     }
 
     def record(self, critical, parser):
-        self.consume_dot = self.bind_dots[self.skill_level]
+        self.consume_dot = self.consume_dots[self.skill_level]
         super().record(critical, parser)
 
 
@@ -39,9 +39,9 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dot=24158) for skill_id in (32409, 32481)},
     },
     Dot: {
-        711: dict(extra_tick=1),
-        714: dict(extra_tick=1),
-        666: dict(extra_tick=1),
+        711: dict(tick_extra=1),
+        714: dict(tick_extra=1),
+        666: dict(tick_extra=1),
         24158: {}
     },
     吞噬: {

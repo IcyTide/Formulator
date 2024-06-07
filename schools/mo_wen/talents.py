@@ -12,7 +12,7 @@ class 飞帆(Gain):
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id not in (14067, 14299):
-            skill.attack_power_cof_gain /= 1.1
+            skill.channel_interval_extra /= 1.1
 
 
 class 师襄(Gain):
@@ -32,7 +32,7 @@ class 刻梦(Gain):
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[14082].pet_buffs.pop((23101, 1))
-        skills[14082].pet_count += 1
+        skills[14082].pet_count -= 1
 
 
 TALENT_GAINS: Dict[int, Talent] = {

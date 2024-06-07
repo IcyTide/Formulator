@@ -86,6 +86,10 @@ class BaseDot(BaseSkill):
             self._tick = [tick]
 
     @property
+    def origin_tick(self):
+        return self.tick - self.tick_extra
+
+    @property
     def max_stack(self):
         if not self._max_stack:
             return 0
@@ -106,9 +110,9 @@ class BaseDamage(BaseSkill):
     PHYSICAL_KINDS = ["Physics"]
     MAGICAL_KINDS = ["SolarMagic", "LunarMagic", "NeutralMagic", "Poison"]
     kind_type: str = ""
-    physical_call: int = 0
-    magical_call: int = 0
-    surplus_call: int = 0
+    _physical_call: List[int] = []
+    _magical_call: List[int] = []
+    _surplus_call: List[int] = []
 
     _physical_damage_base: List[int] = []
     _physical_damage_rand: List[int] = []
@@ -153,6 +157,54 @@ class BaseDamage(BaseSkill):
     @property
     def damage_call(self):
         return self.surplus_call or self.attack_power_call
+
+    @property
+    def physical_call(self):
+        if not self._physical_call:
+            return 0
+        if self.skill_level > len(self._physical_call):
+            return self._physical_call[-1]
+        else:
+            return self._physical_call[self.skill_level - 1]
+
+    @physical_call.setter
+    def physical_call(self, physical_call):
+        if isinstance(physical_call, list):
+            self._physical_call = physical_call
+        else:
+            self._physical_call = [physical_call]
+
+    @property
+    def magical_call(self):
+        if not self._magical_call:
+            return 0
+        if self.skill_level > len(self._magical_call):
+            return self._magical_call[-1]
+        else:
+            return self._magical_call[self.skill_level - 1]
+
+    @magical_call.setter
+    def magical_call(self, magical_call):
+        if isinstance(magical_call, list):
+            self._magical_call = magical_call
+        else:
+            self._magical_call = [magical_call]
+
+    @property
+    def surplus_call(self):
+        if not self._surplus_call:
+            return 0
+        if self.skill_level > len(self._surplus_call):
+            return self._surplus_call[-1]
+        else:
+            return self._surplus_call[self.skill_level - 1]
+
+    @surplus_call.setter
+    def surplus_call(self, surplus_call):
+        if isinstance(surplus_call, list):
+            self._surplus_call = surplus_call
+        else:
+            self._surplus_call = [surplus_call]
 
     @property
     def physical_damage_base(self):
@@ -510,8 +562,7 @@ class BaseDamage(BaseSkill):
         damage = init_result(
             self.magical_damage_base, self.magical_damage_rand, attribute.damage_gain,
             self.magical_attack_power_cof, attribute.magical_attack_power,
-            self.weapon_damage_cof, attribute.weapon_damage,
-            0, 0
+            0, 0, 0, 0
         ) * attribute.global_damage_cof
         if not damage:
             return 0, 0
@@ -594,6 +645,7 @@ class Skill(BaseDamage, BaseDot):
     event_mask_2: int = 0
 
     bind_dot: int = 0
+    bind_tick: int = 1
     consume_dot: int = 0
     consume_tick: int = 0
 
@@ -639,14 +691,14 @@ class Skill(BaseDamage, BaseDot):
             effect(parser)
 
     def record(self, critical, parser):
+        if self.damage_call:
+            self.damage(critical, parser)
         if self.bind_dot:
             self.dot_add(parser)
         if self.consume_dot:
             self.dot_consume(parser)
         if self.pet_buffs:
             self.pet_create(parser)
-        if self.damage_call:
-            self.damage(critical, parser)
 
     def post_record(self, parser):
         for (buff_id, buff_level), buff_stack in self.post_buffs.items():
@@ -681,7 +733,7 @@ class Skill(BaseDamage, BaseDot):
         if not parser.current_dot_ticks.get(self.bind_dot):
             parser.current_dot_stacks[self.bind_dot] = 0
         parser.current_dot_ticks[self.bind_dot] = bind_dot.tick
-        parser.current_dot_stacks[self.bind_dot] = parser.current_dot_stacks.get(self.bind_dot, 0) + 1
+        parser.current_dot_stacks[self.bind_dot] = parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_tick
         parser.current_dot_skills[self.bind_dot] = (self.skill_id, self.skill_level)
         parser.current_dot_snapshot[self.bind_dot] = parser.current_buff_stacks.copy()
 
@@ -689,7 +741,6 @@ class Skill(BaseDamage, BaseDot):
         if not (last_dot := parser.current_last_dot.pop(self.consume_dot, None)):
             return
         skill_tuple, status_tuple = last_dot
-
         (skill_id, skill_level), (dot_skill_id, dot_skill_level, dot_skill_stack) = skill_tuple
         parser.current_dot_ticks[skill_id] += 1
         if not self.consume_tick:
@@ -697,7 +748,10 @@ class Skill(BaseDamage, BaseDot):
         else:
             tick = min(parser.current_dot_ticks[skill_id], self.consume_tick)
         new_skill_tuple = ((skill_id, skill_level), (dot_skill_id, dot_skill_level, dot_skill_stack * tick))
-        parser.current_records[new_skill_tuple][status_tuple].append(
+        parser.current_skill = skill_id
+        new_status_tuple = parser.status
+        parser.current_skill = self.skill_id
+        parser.current_records[new_skill_tuple][new_status_tuple].append(
             parser.current_records[skill_tuple][status_tuple].pop()
         )
         parser.current_dot_ticks[skill_id] -= tick
@@ -712,11 +766,11 @@ class Dot(Skill):
 
     @property
     def physical_attack_power_cof(self):
-        return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.tick)
+        return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
 
     @property
     def magical_attack_power_cof(self):
-        return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.tick)
+        return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
 
     def critical_strike(self, attribute: Attribute):
         return self.bind_skill.critical_strike(attribute)

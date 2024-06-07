@@ -122,7 +122,7 @@ class Buff(BaseBuff):
             value = self.attribute_value(values)
             if not value:
                 continue
-            setattr(attribute, attr, getattr(attribute, attr) + self.attribute_value(values))
+            setattr(attribute, attr, getattr(attribute, attr) + value)
             return_tag = True
         for values in self.gains:
             if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):

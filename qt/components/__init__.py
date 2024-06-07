@@ -95,7 +95,9 @@ class ComboWithLabel(LabelWidget):
         self.combo_box.clear()
         self.combo_box.addItems(items)
         self.combo_box.blockSignals(False)
-        if keep_index and current_text and current_text in items:
+        if not items:
+            self.combo_box.clear()
+        elif keep_index and current_text and current_text in items:
             self.combo_box.setCurrentIndex(items.index(current_text))
         else:
             self.combo_box.setCurrentIndex(default_index)

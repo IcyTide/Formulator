@@ -51,7 +51,10 @@ def dashboard_script(parser: Parser,
                      equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
     def formulate():
         target_name = dashboard_widget.target_select.combo_box.currentText()
-        target_id = parser.name2id.get(target_name, "")
+        if target_name:
+            target_id = parser.name2id.get(target_name, "")
+        else:
+            target_id = target_name
         parser.current_target = target_id
         record = parser.current_records
         school = parser.current_school

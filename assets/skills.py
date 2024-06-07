@@ -947,6 +947,77 @@ SKILLS = {
         ],
         "magical_call": 1
     },
+    "3808": {
+        "kind_type": "SolarMagic",
+        "recipe_type": 235,
+        "event_mask_1": 561,
+        "event_mask_2": 1048736,
+        "skill_name": "横扫六合",
+        "channel_interval": 176.42480625000002,
+        "magical_damage_base": [
+            36.0,
+            39.0,
+            41.0,
+            43.0,
+            45.0,
+            46.0,
+            47.0,
+            48.0,
+            49.0,
+            50.0,
+            51.0,
+            52.0,
+            53.0,
+            54.0,
+            55.0,
+            56.0,
+            57.0,
+            58.0,
+            59.0,
+            60.0,
+            61.0,
+            62.0,
+            63.0,
+            64.0,
+            66.0,
+            68.0,
+            71.0,
+            73.0,
+            75.0,
+            36.0,
+            39.0,
+            41.0,
+            43.0,
+            45.0,
+            46.0,
+            47.0,
+            48.0,
+            49.0,
+            50.0,
+            51.0,
+            52.0,
+            53.0,
+            54.0,
+            55.0,
+            56.0,
+            57.0,
+            58.0,
+            59.0,
+            60.0,
+            61.0,
+            62.0,
+            63.0,
+            64.0,
+            66.0,
+            68.0,
+            71.0,
+            73.0,
+            75.0
+        ],
+        "magical_damage_rand": 0.0,
+        "magical_call": 1,
+        "weapon_damage_cof": 1024.0
+    },
     "3810": {
         "kind_type": "SolarMagic",
         "recipe_type": 235,
@@ -5947,19 +6018,19 @@ SKILLS = {
         "skill_name": "叠刃",
         "channel_interval": 80.707
     },
+    "37453": {
+        "kind_type": "Physics",
+        "recipe_type": 0,
+        "event_mask_1": 0,
+        "event_mask_2": 0,
+        "channel_interval": 450.0
+    },
     "30944": {
         "kind_type": "Physics",
         "recipe_type": 0,
         "event_mask_1": 0,
         "event_mask_2": 0,
         "skill_name": "万象归元",
-        "channel_interval": 450.0
-    },
-    "37453": {
-        "kind_type": "Physics",
-        "recipe_type": 0,
-        "event_mask_1": 0,
-        "event_mask_2": 0,
         "channel_interval": 450.0
     },
     "16": {
@@ -6107,36 +6178,6 @@ SKILLS = {
             252.37812600000004,
             261.08082,
             282.837555
-        ],
-        "physical_call": [
-            4,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
         ],
         "magical_damage_base": [
             38.0,
@@ -6345,7 +6386,8 @@ SKILLS = {
             10.0
         ],
         "magical_call": 1,
-        "weapon_damage_cof": 1024.0
+        "weapon_damage_cof": 1024.0,
+        "damage_addition": 512
     },
     "37270": {
         "kind_type": "NeutralMagic",
@@ -15938,18 +15980,6 @@ SKILLS = {
         "magical_damage_rand": 2.0,
         "magical_call": 1
     },
-    "30799": {
-        "kind_type": "LunarMagic",
-        "recipe_type": 30799,
-        "event_mask_1": 0,
-        "event_mask_2": 0,
-        "skill_name": "流照",
-        "channel_interval": 61.425,
-        "magical_damage_base": 107.0,
-        "magical_damage_rand": 27.0,
-        "magical_call": 1,
-        "weapon_damage_cof": 1024.0
-    },
     "31008": {
         "kind_type": "LunarMagic",
         "recipe_type": 14064,
@@ -16171,6 +16201,18 @@ SKILLS = {
         "event_mask_2": 524288,
         "skill_name": "疏影横斜",
         "channel_interval": 16.0,
+        "weapon_damage_cof": 1024.0
+    },
+    "30799": {
+        "kind_type": "LunarMagic",
+        "recipe_type": 30799,
+        "event_mask_1": 0,
+        "event_mask_2": 0,
+        "skill_name": "流照",
+        "channel_interval": 61.425,
+        "magical_damage_base": 107.0,
+        "magical_damage_rand": 27.0,
+        "magical_call": 1,
         "weapon_damage_cof": 1024.0
     },
     "34676": {
@@ -24207,33 +24249,7 @@ SKILLS = {
         "event_mask_2": 0,
         "channel_interval": 500.0
     },
-    "32369": {
-        "kind_type": "Physics",
-        "recipe_type": 32144,
-        "event_mask_1": 0,
-        "event_mask_2": 0,
-        "channel_interval": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            50.0,
-            52.0,
-            54.0,
-            56.0,
-            58.0,
-            60.0,
-            62.0,
-            64.0,
-            66.0,
-            68.0,
-            70.0,
-            100.0
-        ],
-        "weapon_damage_cof": 1024.0
-    },
-    "32370": {
+    "32372": {
         "kind_type": "Physics",
         "recipe_type": 32144,
         "event_mask_1": 0,
@@ -24285,7 +24301,7 @@ SKILLS = {
         ],
         "weapon_damage_cof": 1024.0
     },
-    "32372": {
+    "32370": {
         "kind_type": "Physics",
         "recipe_type": 32144,
         "event_mask_1": 0,
@@ -24311,7 +24327,7 @@ SKILLS = {
         ],
         "weapon_damage_cof": 1024.0
     },
-    "32869": {
+    "32369": {
         "kind_type": "Physics",
         "recipe_type": 32144,
         "event_mask_1": 0,
@@ -24337,59 +24353,7 @@ SKILLS = {
         ],
         "weapon_damage_cof": 1024.0
     },
-    "32870": {
-        "kind_type": "Physics",
-        "recipe_type": 32144,
-        "event_mask_1": 0,
-        "event_mask_2": 0,
-        "channel_interval": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            50.0,
-            52.0,
-            54.0,
-            56.0,
-            58.0,
-            60.0,
-            62.0,
-            64.0,
-            66.0,
-            68.0,
-            70.0,
-            100.0
-        ],
-        "weapon_damage_cof": 1024.0
-    },
-    "32871": {
-        "kind_type": "Physics",
-        "recipe_type": 32144,
-        "event_mask_1": 0,
-        "event_mask_2": 0,
-        "channel_interval": [
-            10.0,
-            20.0,
-            30.0,
-            40.0,
-            50.0,
-            50.0,
-            52.0,
-            54.0,
-            56.0,
-            58.0,
-            60.0,
-            62.0,
-            64.0,
-            66.0,
-            68.0,
-            70.0,
-            100.0
-        ],
-        "weapon_damage_cof": 1024.0
-    },
-    "32872": {
+    "32874": {
         "kind_type": "Physics",
         "recipe_type": 32144,
         "event_mask_1": 0,
@@ -24441,7 +24405,85 @@ SKILLS = {
         ],
         "weapon_damage_cof": 1024.0
     },
-    "32874": {
+    "32872": {
+        "kind_type": "Physics",
+        "recipe_type": 32144,
+        "event_mask_1": 0,
+        "event_mask_2": 0,
+        "channel_interval": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            50.0,
+            52.0,
+            54.0,
+            56.0,
+            58.0,
+            60.0,
+            62.0,
+            64.0,
+            66.0,
+            68.0,
+            70.0,
+            100.0
+        ],
+        "weapon_damage_cof": 1024.0
+    },
+    "32871": {
+        "kind_type": "Physics",
+        "recipe_type": 32144,
+        "event_mask_1": 0,
+        "event_mask_2": 0,
+        "channel_interval": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            50.0,
+            52.0,
+            54.0,
+            56.0,
+            58.0,
+            60.0,
+            62.0,
+            64.0,
+            66.0,
+            68.0,
+            70.0,
+            100.0
+        ],
+        "weapon_damage_cof": 1024.0
+    },
+    "32870": {
+        "kind_type": "Physics",
+        "recipe_type": 32144,
+        "event_mask_1": 0,
+        "event_mask_2": 0,
+        "channel_interval": [
+            10.0,
+            20.0,
+            30.0,
+            40.0,
+            50.0,
+            50.0,
+            52.0,
+            54.0,
+            56.0,
+            58.0,
+            60.0,
+            62.0,
+            64.0,
+            66.0,
+            68.0,
+            70.0,
+            100.0
+        ],
+        "weapon_damage_cof": 1024.0
+    },
+    "32869": {
         "kind_type": "Physics",
         "recipe_type": 32144,
         "event_mask_1": 0,

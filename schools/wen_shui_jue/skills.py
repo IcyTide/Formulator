@@ -16,7 +16,8 @@ class 啸日(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        **{skill_id: dict(damage_addition=205) for skill_id in (18381, 1795)},
+        18381: dict(damage_addition=205),
+        1795: dict(channel_interval_extra=2., damage_addition=205),
         1594: {}, 1595: {}, 1598: {}, 1706: {}, 1707: {}, 2896: {}, 13471: {}, 18299: {}, 18317: {}, 18685: {},
         18991: {}, 25776: {}, 26673: {}, 30861: {}, 32821: {}, 32967: {}, 34984: {}, 35051: {}
     },

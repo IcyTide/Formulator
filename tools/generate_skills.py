@@ -162,7 +162,7 @@ def collect_result():
                 skill_id, skill_level, skill_name, kind_type, recipe_type, event_mask_1, event_mask_2, weapon_request
             )
             LUA.globals()['GetSkillLevelData'](skill)
-            result.append(skill.__dict__)
+            result.append(skill.__dict__.copy())
     return pd.DataFrame(result)
 
 
@@ -171,9 +171,9 @@ def convert_json(result):
         "skill_id", "skill_level", "kind_type", "recipe_type", "event_mask_1", "event_mask_2", "weapon_request"
     ]
     int_columns = ["physical_attack_power_gain", "physical_critical_strike_rate", "physical_critical_power_rate",
-                   "physical_shield_gain", "magical_attack_power_gain", "magical_critical_strike_rate",
-                   "magical_critical_power_rate", "magical_shield_gain", "pve_addition", "physical_call",
-                   "magical_call", "surplus_call"]
+                   "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
+                   "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition",
+                   "damage_addition", "physical_call", "magical_call", "surplus_call"]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():
         filter_result = result[result.skill_id == skill_id]

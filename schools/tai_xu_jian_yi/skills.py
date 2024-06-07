@@ -10,8 +10,8 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: {} for skill_id in range(6076, 6085 + 1)},
         32408: dict(consume_dot=748, consume_tick=1),
         600: dict(bind_dot=748),
-        30944: dict(bind_dot=889),
-        37453: dict(bind_dot=23170)
+        37453: dict(bind_dot=889),
+        30944: dict(bind_dot=23170)
     },
     Dot: {
         748: {}, 889: {}, 23170: {}

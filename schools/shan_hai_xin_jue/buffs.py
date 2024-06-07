@@ -4,7 +4,8 @@ from base.buff import Buff
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        16025: {}, 26857: {}, 27099: {}, 27406: {}
+        16025: {}, 26857: {}, -27099: {},
+        27406: dict(buff_name="朱厌")
     }
 }
 BUFFS: Dict[int, Buff] = {}

@@ -18,7 +18,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     PetSkill: {2472: {}, 22997: {}, 36292: {}, 25019: {}},
     Dot: {
         6218: {}, 2509: {}, 2295: {}, 18882: {},
-        25917: dict(extra_tick=1),
+        25917: dict(tick_extra=1),
     },
 }
 SKILLS = {}

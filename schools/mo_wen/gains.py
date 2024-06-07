@@ -8,7 +8,7 @@ GAINS = {
     2209: DamageAdditionRecipe(102, 14064, 14064),
     2210: DamageAdditionRecipe(102, 14067, 14067),
     2401: DamageAdditionRecipe(51, 14064, 14064),
-    2402: DamageAdditionRecipe(51, 14067, 14067),
+    2402: DamageAdditionRecipe(51, 14068, 14068),
     2415: Gain(),
     1941: Gain(),
     17306: Gain(),

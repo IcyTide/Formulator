@@ -21,12 +21,12 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "2%会心": CriticalStrikeRecipe(200, 19818, 19818),
     },
     "海运南冥": {
-        "4%伤害": DamageAdditionRecipe(41, 20082, 20082),
-        "3%伤害": DamageAdditionRecipe(31, 20082, 20082),
-        "2%伤害": DamageAdditionRecipe(21, 20082, 20082),
-        "4%会心": CriticalStrikeRecipe(400, 20082, 20082),
-        "3%会心": CriticalStrikeRecipe(300, 20082, 20082),
-        "2%会心": CriticalStrikeRecipe(200, 20082, 20082),
+        "4%伤害": DamageAdditionRecipe(41, 20715, 20715),
+        "3%伤害": DamageAdditionRecipe(31, 20715, 20715),
+        "2%伤害": DamageAdditionRecipe(21, 20715, 20715),
+        "4%会心": CriticalStrikeRecipe(400, 20715, 20715),
+        "3%会心": CriticalStrikeRecipe(300, 20715, 20715),
+        "2%会心": CriticalStrikeRecipe(200, 20715, 20715),
     },
     "翼绝云天": {
         "5%伤害": DamageAdditionRecipe(51, 19827, 19827),

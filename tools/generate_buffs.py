@@ -42,7 +42,7 @@ def convert_json(result):
     result_json = {}
     for buff_id in result.buff_id.unique().tolist():
         filter_result = result[result.buff_id == buff_id]
-        result_json[buff_id] = {}
+        result_json[buff_id] = {"attributes": {}}
         for column in result.columns:
             if column in exclude_columns:
                 continue
@@ -51,12 +51,14 @@ def convert_json(result):
 
             if filter_result[column].dtype == float:
                 filter_column = filter_result[column].fillna(0).astype(int)
+                result_dict = result_json[buff_id]["attributes"]
             else:
                 filter_column = filter_result[column]
+                result_dict = result_json[buff_id]
             if filter_column.nunique() == 1:
-                result_json[buff_id][column] = filter_column.tolist()[0]
+                result_dict[column] = filter_column.tolist()[0]
             else:
-                result_json[buff_id][column] = filter_column.tolist()
+                result_dict[column] = filter_column.tolist()
 
     with open(os.path.join(SAVE_DIR, "buffs.py"), "w", encoding="utf-8") as f:
         f.write(f"BUFFS = {json.dumps(result_json, indent=4, ensure_ascii=False)}")
