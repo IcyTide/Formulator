@@ -2338,11 +2338,6 @@ BUFFS = {
         },
         "buff_name": "金刚日轮"
     },
-    "13910": {
-        "attributes": {
-            "all_damage_addition": 205
-        }
-    },
     "24453": {
         "attributes": {
             "surplus_gain": -30
@@ -2360,6 +2355,11 @@ BUFFS = {
     "12479": {
         "attributes": {},
         "buff_name": "普渡"
+    },
+    "13910": {
+        "attributes": {
+            "all_damage_addition": 205
+        }
     },
     "12590": {
         "attributes": {
@@ -2667,11 +2667,6 @@ BUFFS = {
         },
         "buff_name": "倚天"
     },
-    "12588": {
-        "attributes": {
-            "all_damage_addition": 102
-        }
-    },
     "28116": {
         "attributes": {
             "magical_attack_power_gain": 102,
@@ -2685,6 +2680,11 @@ BUFFS = {
             "magical_critical_strike_rate": 160
         },
         "buff_name": "涓流"
+    },
+    "12588": {
+        "attributes": {
+            "all_damage_addition": 102
+        }
     },
     "14636": {
         "attributes": {}
@@ -3194,11 +3194,6 @@ BUFFS = {
         },
         "buff_name": "催寒"
     },
-    "23081": {
-        "attributes": {
-            "all_damage_addition": 205
-        }
-    },
     "27457": {
         "attributes": {}
     },
@@ -3213,6 +3208,11 @@ BUFFS = {
     "16236": {
         "attributes": {},
         "buff_name": "暗藏杀机C"
+    },
+    "23081": {
+        "attributes": {
+            "all_damage_addition": 205
+        }
     },
     "23082": {
         "attributes": {}
@@ -3390,6 +3390,17 @@ BUFFS = {
             ]
         },
         "buff_name": "单刀赴会·战"
+    },
+    "25937": {
+        "attributes": {
+            "physical_attack_power_gain": [
+                102,
+                204,
+                307,
+                410,
+                512
+            ]
+        }
     },
     "8627": {
         "attributes": {
@@ -3621,13 +3632,6 @@ BUFFS = {
         },
         "buff_name": "雷引"
     },
-    "16596": {
-        "attributes": {
-            "physical_attack_power_gain": 154,
-            "physical_critical_strike_rate": 1500,
-            "physical_critical_power_rate": 150
-        }
-    },
     "15893": {
         "attributes": {
             "physical_attack_power_gain": 256
@@ -3639,6 +3643,13 @@ BUFFS = {
             "all_shield_ignore": 512
         },
         "buff_name": "徵逐"
+    },
+    "16596": {
+        "attributes": {
+            "physical_attack_power_gain": 154,
+            "physical_critical_strike_rate": 1500,
+            "physical_critical_power_rate": 150
+        }
     },
     "15927": {
         "attributes": {}

@@ -3,10 +3,10 @@ from typing import Dict
 from base.buff import Buff, CustomBuff
 from base.recipe import DamageAdditionRecipe
 
-
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         1428: {}, 8244: {}, 17176: {}, 8267: {}, 14309: {}, 8451: {}, 27161: {}, 16957: {},
+        25937: dict(buff_name="祭血关山"),
         8627: dict(buff_name="锋鸣"),
         8474: dict(begin_buffs={(-1, 1): 70}, end_buffs={(-1, 1): 70}),
         26212: dict(begin_buffs={(-1, 1): 45}, begin_target_buffs={(-8248, 1): 1}),

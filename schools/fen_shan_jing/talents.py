@@ -36,7 +36,8 @@ TALENT_GAINS: Dict[int, Talent] = {
     36058: Talent("援戈"),
     36205: Talent("惊涌"),
     14838: Talent("蔑视", [蔑视()]),
-    30769: Talent("阵云结晦")
+    30769: Talent("阵云结晦"),
+    32619: Talent("祭血关山")
 }
 
 TALENTS = [
@@ -51,7 +52,7 @@ TALENTS = [
     [36058],
     [36205],
     [14838],
-    [30769]
+    [30769, 32619]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

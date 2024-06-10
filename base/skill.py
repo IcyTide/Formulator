@@ -856,7 +856,33 @@ class Dot(Skill):
 
 
 class NpcSkill(Skill):
-    pass
+    def call_physical_damage(self, attribute: Attribute):
+        damage = init_result(
+            self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
+            self.physical_attack_power_cof, attribute.physical_attack_power,
+            0, 0, 0, 0
+        ) * attribute.global_damage_cof
+        if not damage:
+            return 0, 0
+        damage = damage_addition_result(
+            damage, attribute.physical_damage_addition + self.damage_addition, self.damage_addition_extra
+        )
+        damage = overcome_result(
+            damage, attribute.physical_overcome, attribute.level_shield_base + attribute.physical_shield_base,
+            attribute.physical_shield_gain, attribute.physical_shield_ignore, attribute.shield_constant
+        )
+        critical_damage = critical_result(damage, self.critical_power(attribute))
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
+        damage = pve_addition_result(damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        damage = damage_cof_result(damage, attribute.physical_damage_cof)
+        critical_damage = damage_cof_result(critical_damage, attribute.physical_damage_cof)
+        damage = vulnerable_result(damage, attribute.physical_vulnerable)
+        critical_damage = vulnerable_result(critical_damage, attribute.physical_vulnerable)
+        return damage, critical_damage
 
 
 class PetSkill(Skill):
