@@ -22074,6 +22074,16 @@ SKILLS = {
         "physical_damage_rand": 2.0,
         "physical_call": 1
     },
+    "34695": {
+        "kind_type": "Physics",
+        "recipe_type": 0,
+        "skill_name": "界破",
+        "channel_interval": 423.5000000000001,
+        "physical_damage_base": 160.0,
+        "physical_damage_rand": 317.0,
+        "physical_call": 1,
+        "prepare_frame": 0.0
+    },
     "32234": {
         "kind_type": "Physics",
         "recipe_type": 32144,
