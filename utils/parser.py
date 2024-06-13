@@ -258,8 +258,8 @@ class Parser(BaseParser):
             if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
                 return
             self.players[player_id] = deepcopy(school)
-        elif isinstance(detail, dict) and 4 in detail and 6 in detail and 7 in detail and (
-                school := SUPPORT_SCHOOLS.get(detail[4])):
+        elif (isinstance(detail, dict) and all(i in detail for i in (1, 4, 6, 7)) and
+              (school := SUPPORT_SCHOOLS.get(detail[4]))):
             player_name = detail[1]
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id

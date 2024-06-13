@@ -167,8 +167,6 @@ def collect_result():
             LUA.globals()['GetSkillLevelData'](skill)
             if not skill.physical_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof
-            if not skill.physical_call and not skill.magical_call and skill.channel_interval:
-                del skill.channel_interval
             result.append(skill.__dict__.copy())
     return pd.DataFrame(result)
 

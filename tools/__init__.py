@@ -5,7 +5,7 @@ import lupa.lua54 as lupa
 import pandas as pd
 
 from base.buff import CustomBuff
-from base.skill import Dot, Skill
+from base.skill import Dot
 from schools import SUPPORT_SCHOOLS, GENERAL_SKILLS, GENERAL_BUFFS
 
 BASE_DIR = "../JX3TABS"

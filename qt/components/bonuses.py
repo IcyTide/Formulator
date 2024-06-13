@@ -6,9 +6,7 @@ from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QT
 class FormationWidget(QWidget):
     def __init__(self):
         super().__init__()
-        layout = QHBoxLayout()
-        self.setLayout(layout)
-
+        layout = QHBoxLayout(self)
         self.formation = ComboWithLabel("阵法")
         layout.addWidget(self.formation)
         self.core_rate = SpinWithLabel("四重覆盖(%)", maximum=100)
@@ -23,10 +21,6 @@ class TeamGainsWidget(QWidget):
         layout = QVBoxLayout(self)
 
         self.team_gains = {}
-
-        self.real_formulation = RadioWithLabel("开启真实团队增益模拟(仅包括存在覆盖率的角色BUFF,不包含目标和常驻BUFF)")
-
-        layout.addWidget(self.real_formulation)
 
         tabs = QTabWidget()
         layout.addWidget(tabs)
@@ -229,6 +223,8 @@ class BonusesWidget(QWidget):
         layout = QVBoxLayout()
         self.setLayout(layout)
 
+        self.real_formulation = RadioWithLabel("开启真实增益模拟(仅包括存在覆盖率的角色属性,不包含目标和常驻属性)")
+        layout.addWidget(self.real_formulation)
         self.tab = QTabWidget()
         layout.addWidget(self.tab)
         self.formation = FormationWidget()

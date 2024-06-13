@@ -1,32 +1,5 @@
-from typing import Dict
-
 from base.attribute import Attribute
-from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
-from general.buffs.team import GENERAL_BUFFS
-from general.skills.team import SKILLS
-
-
-class RealTeamGain(Gain):
-    skill_ids = list(SKILLS)
-    buff_ids = list(GENERAL_BUFFS)
-
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].activate = True
-
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        for buff_id in self.buff_ids:
-            buffs[buff_id].activate = True
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].activate = False
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        for buff_id in self.buff_ids:
-            buffs[buff_id].activate = False
 
 
 class TeamGain(Gain):
