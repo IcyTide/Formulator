@@ -1,22 +1,22 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe, pve_addition_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe, PveAdditionRecipe
 
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "劲风簇": {
-        "4%会心": critical_strike_recipe([35866], 400),
-        "3%伤害": damage_addition_recipe([35866, 36453], 31),
-        "3%会心": critical_strike_recipe([35866], 300),
-        "2%伤害": damage_addition_recipe([35866, 36453], 21)
+        "3%伤害": DamageAdditionRecipe(31, 35659, 35659),
+        "2%伤害": DamageAdditionRecipe(21, 35659, 35659),
+        "4%会心": CriticalStrikeRecipe(400, 35659, 35659),
+        "3%会心": CriticalStrikeRecipe(300, 35659, 35659),
     },
     "饮羽簇": {
-        "15%伤害": pve_addition_recipe([35987], 154),
-        "4%会心": critical_strike_recipe([35987], 400),
-        "3%伤害": damage_addition_recipe([35987], 31),
-        "3%会心": critical_strike_recipe([35987], 300),
-        "2%伤害": damage_addition_recipe([35987], 21)
+        "15%伤害": PveAdditionRecipe(154, 35661, 35661),
+        "3%伤害": DamageAdditionRecipe(31, 35661, 35661),
+        "2%伤害": DamageAdditionRecipe(21, 35661, 35661),
+        "4%会心": CriticalStrikeRecipe(400, 35661, 35661),
+        "3%会心": CriticalStrikeRecipe(300, 35661, 35661),
     },
 }
 

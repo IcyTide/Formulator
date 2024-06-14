@@ -1,24 +1,24 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "玳弦急曲": {
-        "5%伤害": damage_addition_recipe([6234, 6554], 51),
-        "4%伤害": damage_addition_recipe([6234, 6554], 41),
-        "3%伤害": damage_addition_recipe([6234, 6554], 31),
+        "5%伤害": DamageAdditionRecipe(51, 2707, 2707),
+        "4%伤害": DamageAdditionRecipe(41, 2707, 2707),
+        "3%伤害": DamageAdditionRecipe(31, 2707, 2707),
     },
     "剑气长江": {
-        "6%伤害": damage_addition_recipe([30524], 61),
-        "4%伤害": damage_addition_recipe([30524], 41),
-        "3%会心": critical_strike_recipe([30524], 300),
-        "2%会心": critical_strike_recipe([30524], 200),
+        "6%伤害": DamageAdditionRecipe(61, 561, 561),
+        "4%伤害": DamageAdditionRecipe(41, 561, 561),
+        "3%会心": CriticalStrikeRecipe(300, 561, 561),
+        "2%会心": CriticalStrikeRecipe(200, 561, 561),
     },
     "江海凝光": {
-        "15%伤害": damage_addition_recipe([6559], 154),
-        "3%会心": critical_strike_recipe([6559], 300),
-        "2%会心": critical_strike_recipe([6559], 200),
+        "15%伤害": DamageAdditionRecipe(154, 553, 553),
+        "3%会心": CriticalStrikeRecipe(300, 553, 553),
+        "2%会心": CriticalStrikeRecipe(200, 553, 553),
     },
 }
 

@@ -1,6 +1,7 @@
-from general.skills import equipment, team
+from general.skills import equipment, formation, team
 
 GENERAL_SKILLS = {
-    **equipment.GENERAL_SKILLS,
-    **team.GENERAL_SKILLS
+    **equipment.SKILLS,
+    **formation.SKILLS,
+    **team.SKILLS
 }

@@ -1,140 +1,104 @@
-from typing import List, Dict
-
 from base.gain import Gain
 from base.skill import Skill
 
 
-class RecipeGain(Gain):
-    def __init__(self, gain_name: str, skill_ids: List[int], value: int):
-        super().__init__(gain_name)
-        self.skill_ids = skill_ids
-        self.value = value
+class PrepareFrameRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.prepare_frame_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.prepare_frame_extra -= self.value
 
 
-class DoubleRecipeGain(Gain):
-    def __init__(self, gain_name, attack_skill_ids, damage_skill_ids, attack_value, damage_value):
-        super().__init__(gain_name)
-        self.attack_skill_ids = attack_skill_ids
-        self.damage_skill_ids = damage_skill_ids
-        self.attack_value = attack_value
-        self.damage_value = damage_value
+class ChannelIntervalRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.channel_interval_extra *= self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.channel_interval_extra /= self.value
 
 
-class IntervalRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].interval += self.value
+class DamageAdditionRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.damage_addition += self.value
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].interval -= self.value
+    def sub_skill(self, skill: Skill):
+        skill.damage_addition -= self.value
 
 
-class AttackPowerRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].attack_power_cof_gain *= self.value
+class ExtraDamageAdditionRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.damage_addition_extra += self.value
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].attack_power_cof_gain /= self.value
+    def sub_skill(self, skill: Skill):
+        skill.damage_addition_extra -= self.value
 
 
-class DamageAdditionRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_damage_addition += self.value
+class CriticalStrikeRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_extra += self.value
+        skill.magical_critical_strike_rate_extra += self.value
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_damage_addition -= self.value
-
-
-class ExtraAdditionRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].extra_damage_addition += self.value
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].extra_damage_addition -= self.value
+    def sub_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_extra -= self.value
+        skill.magical_critical_strike_rate_extra -= self.value
 
 
-class DoubleAdditionRecipe(DoubleRecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.attack_skill_ids:
-            skills[skill_id].attack_power_cof_gain *= self.attack_value
-        for skill_id in self.damage_skill_ids:
-            skills[skill_id].skill_damage_addition += self.damage_value
+class MagicalAttackPowerRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.magical_attack_power_gain_extra += self.value
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.attack_skill_ids:
-            skills[skill_id].attack_power_cof_gain /= self.attack_value
-        for skill_id in self.damage_skill_ids:
-            skills[skill_id].skill_damage_addition /= self.damage_value
+    def sub_skill(self, skill: Skill):
+        skill.magical_attack_power_gain_extra -= self.value
 
 
-class CriticalStrikeRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_critical_strike += self.value
+class PhysicalCriticalRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_extra += self.value[0]
+        skill.physical_critical_power_rate_extra += self.value[1]
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_critical_strike -= self.value
-
-
-class PveAdditionRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_pve_addition += self.value
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_pve_addition -= self.value
+    def sub_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_extra -= self.value[0]
+        skill.physical_critical_power_rate_extra -= self.value[1]
 
 
-class ShieldGainRecipe(RecipeGain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_shield_gain += self.value
+class MagicalCriticalRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.magical_critical_strike_rate_extra += self.value[0]
+        skill.magical_critical_power_rate_extra += self.value[1]
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in self.skill_ids:
-            skills[skill_id].skill_shield_gain -= self.value
-
-
-def interval_recipe(skill_ids, value, name="减少运功时间"):
-    return IntervalRecipe(name, skill_ids, value)
+    def sub_skill(self, skill: Skill):
+        skill.magical_critical_strike_rate_extra -= self.value[0]
+        skill.magical_critical_power_rate_extra -= self.value[1]
 
 
-def attack_power_recipe(skill_ids, value, name="系数增加"):
-    return AttackPowerRecipe(name, skill_ids, value)
+class PhysicalShieldGainRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.physical_shield_gain_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.physical_shield_gain_extra -= self.value
 
 
-def damage_addition_recipe(skill_ids, value, name="伤害增加"):
-    return DamageAdditionRecipe(name, skill_ids, value)
+class MagicalShieldGainRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.magical_shield_gain_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.magical_shield_gain_extra -= self.value
 
 
-def extra_addition_recipe(skill_ids, value, name="伤害增加"):
-    return ExtraAdditionRecipe(name, skill_ids, value)
+class PveAdditionRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.pve_addition_extra += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.pve_addition_extra -= self.value
 
 
-def critical_strike_recipe(skill_ids, value, name="会心增加"):
-    return CriticalStrikeRecipe(name, skill_ids, value)
+class ExtraTickRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.tick_extra += self.value
 
-
-def pve_addition_recipe(skill_ids, value, name="非侠伤害增加"):
-    return PveAdditionRecipe(name, skill_ids, value)
-
-
-def shield_gain_recipe(skill_ids, value, name="无视防御"):
-    return ShieldGainRecipe(name, skill_ids, value)
-
-
-def double_addition_recipe(
-        attack_power_skill_ids, damage_addition_skill_ids, attack_power_value, damage_addition_value, name="伤害增加"
-):
-    return DoubleAdditionRecipe(
-        name, attack_power_skill_ids, damage_addition_skill_ids, attack_power_value, damage_addition_value
-    )
+    def sub_skill(self, skill: Skill):
+        skill.tick_extra -= self.value

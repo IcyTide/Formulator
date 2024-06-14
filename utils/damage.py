@@ -13,8 +13,8 @@ def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
 
 
 @cache
-def base_result(damage_base, damage_rand):
-    damage = int(damage_base) + damage_rand / 2
+def base_result(damage_base, damage_rand, damage_gain):
+    damage = int(damage_base * (1 + damage_gain / BINARY_SCALE)) + damage_rand / 2
     return int(damage)
 
 
@@ -37,11 +37,11 @@ def surplus_result(surplus_cof, surplus):
 
 
 @cache
-def init_result(damage_base, damage_rand,
-                attack_power_cof, attack_power,
-                weapon_damage_cof, weapon_damage,
-                surplus_cof, surplus):
-    return (base_result(damage_base, damage_rand) +
+def init_result(
+        damage_base, damage_rand, damage_gain, attack_power_cof, attack_power,
+        weapon_damage_cof, weapon_damage, surplus_cof, surplus
+):
+    return (base_result(damage_base, damage_rand, damage_gain) +
             attack_power_result(attack_power_cof, attack_power) +
             weapon_damage_result(weapon_damage_cof, weapon_damage) +
             surplus_result(surplus_cof, surplus))
@@ -80,6 +80,11 @@ def strain_result(damage, strain):
 @cache
 def pve_addition_result(damage, pve_addition):
     return int(damage * (1 + pve_addition / BINARY_SCALE))
+
+
+@cache
+def damage_cof_result(damage, damage_cof):
+    return int(damage * (1 + damage_cof / BINARY_SCALE))
 
 
 @cache

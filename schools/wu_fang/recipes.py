@@ -1,37 +1,37 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "商陆缀寒": {
-        "3%伤害": damage_addition_recipe([27552], 31),
-        "2%伤害": damage_addition_recipe([27552], 21),
-        "4%会心": critical_strike_recipe([27552], 400),
-        "3%会心": critical_strike_recipe([27552], 300),
+        "3%伤害": DamageAdditionRecipe(31, 27551, 27551),
+        "2%伤害": DamageAdditionRecipe(21, 27551, 27551),
+        "4%会心": CriticalStrikeRecipe(400, 27551, 27551),
+        "3%会心": CriticalStrikeRecipe(300, 27551, 27551),
     },
     "钩吻断肠": {
-        "3%伤害": damage_addition_recipe([27555], 41),
-        "2%伤害": damage_addition_recipe([27555], 31),
-        "4%会心": critical_strike_recipe([27555], 400),
-        "3%会心": critical_strike_recipe([27555], 300),
-        "2%会心": critical_strike_recipe([27555], 200),
+        "3%伤害": DamageAdditionRecipe(41, 27554, 27554),
+        "2%伤害": DamageAdditionRecipe(31, 27554, 27554),
+        "4%会心": CriticalStrikeRecipe(400, 27554, 27554),
+        "3%会心": CriticalStrikeRecipe(300, 27554, 27554),
+        "2%会心": CriticalStrikeRecipe(200, 27554, 27554),
     },
     "川乌射罔": {
-        "3%伤害": damage_addition_recipe([27557], 31),
-        "2%伤害": damage_addition_recipe([27557], 21),
-        "4%会心": critical_strike_recipe([27557], 400),
-        "3%会心": critical_strike_recipe([27557], 300),
+        "3%伤害": DamageAdditionRecipe(31, 27556, 27556),
+        "2%伤害": DamageAdditionRecipe(21, 27556, 27556),
+        "4%会心": CriticalStrikeRecipe(400, 27556, 27556),
+        "3%会心": CriticalStrikeRecipe(300, 27556, 27556),
     },
     "且待时休": {
-        "3%伤害": damage_addition_recipe([27584], 31),
-        "2%伤害": damage_addition_recipe([27584], 21),
+        "3%伤害": DamageAdditionRecipe(31, 27582, 27582),
+        "2%伤害": DamageAdditionRecipe(21, 27582, 27582),
     },
     "银光照雪": {
-        "3%伤害": damage_addition_recipe([28346, 34699], 31),
-        "2%伤害": damage_addition_recipe([28346, 34699], 21),
-        "5%会心": critical_strike_recipe([28346, 34699], 500),
-        "4%会心": critical_strike_recipe([28346, 34699], 400),
+        "3%伤害": DamageAdditionRecipe(31, 28345, 28345),
+        "2%伤害": DamageAdditionRecipe(21, 28345, 28345),
+        "5%会心": CriticalStrikeRecipe(500, 28345, 28345),
+        "4%会心": CriticalStrikeRecipe(400, 28345, 28345),
     },
 }
 

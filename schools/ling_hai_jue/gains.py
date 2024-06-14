@@ -1,16 +1,16 @@
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from base.gain import Gain
 from schools.ling_hai_jue.buffs import BUFFS
 
 GAINS = {
-    1926: CriticalSet(14353, BUFFS[14353].gain_attributes),
-    4816: damage_addition_recipe([31250], 102),
-    4817: damage_addition_recipe([20684, 20685], 102),
-    4818: damage_addition_recipe([19819], 51),
-    4819: damage_addition_recipe([20016], 51),
-    4820: critical_strike_recipe([19819], 500),
-    4821: critical_strike_recipe([20684, 20685], 500),
+    1926: CriticalSet(14353, BUFFS[14353]),
+    4816: DamageAdditionRecipe(102, 20259, 20259),
+    4817: DamageAdditionRecipe(102, 20715, 20715),
+    4818: DamageAdditionRecipe(51, 19818, 19818),
+    4819: DamageAdditionRecipe(51, 19827, 19827),
+    4820: CriticalStrikeRecipe(500, 19818, 19818),
+    4821: CriticalStrikeRecipe(500, 20715, 20715),
     2423: Gain(),
     1943: Gain(),
     17409: Gain(),

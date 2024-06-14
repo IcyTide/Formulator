@@ -1,62 +1,59 @@
 from typing import Dict
 
 from base.gain import Gain
+from base.talent import Talent
+from base.recipe import PhysicalCriticalRecipe
 from base.skill import Skill
-
-
-class 迅电流光(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3095, 37504):
-            skills[skill_id].skill_critical_strike += 1000
-            skills[skill_id].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3095, 37504):
-            skills[skill_id].skill_critical_strike -= 1000
-            skills[skill_id].skill_critical_power -= 102
 
 
 class 穿林打叶(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2237].interval = 32
-        skills[2237].tick = 11
+        skills[2237].interval_extra -= 16
+        skills[2237].channel_interval_extra *= 1.5
+        skills[2237].tick_extra = 5
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2237].interval = 48
-        skills[2237].tick = 6 + 1
+        skills[2237].interval_extra += 16
+        skills[2237].channel_interval_extra /= 1.5
+        skills[2237].tick_extra = 1
 
 
 class 妙手连环(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[6920].skill_shield_gain -= 512
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (3096, 18801):
+            skill.physical_shield_gain_extra -= 512
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[6920].skill_shield_gain += 512
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (3096, 18801):
+            skill.physical_shield_gain_extra += 512
 
 
 class 逐一击破(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3095, 3125, 3187, 6920, 33870, 37504):
-            skills[skill_id].skill_damage_addition += 103 + 103
+        for skill_id, skill in skills.items():
+            if skill.event_mask_2 & 65536:
+                skills[skill_id].damage_addition += 103 + 103
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3095, 3125, 3187, 6920, 33870, 37504):
-            skills[skill_id].skill_damage_addition -= 103 + 103
+        for skill_id, skill in skills.items():
+            if skill.event_mask_2 & 65536:
+                skills[skill_id].damage_addition -= 103 + 103
 
 
-TALENT_GAINS: Dict[int, Gain] = {
-    6437: 迅电流光("迅电流光"),
-    6473: Gain("千里无痕"),
-    28366: Gain("寒江夜雨"),
-    21724: Gain("掠影穹苍"),
-    37324: Gain("蹑景追风"),
-    6451: Gain("聚精凝神"),
-    14851: Gain("逐一击破"),
-    28903: 穿林打叶("穿林打叶"),
-    6461: Gain("秋风散影"),
-    37325: Gain("牢甲利兵"),
-    14850: 妙手连环("妙手连环"),
-    18672: Gain("百里追魂")
+TALENT_GAINS: Dict[int, Talent] = {
+    6437: Talent("迅电流光", [PhysicalCriticalRecipe((1000, 100), 3095, 3095)]),
+    6473: Talent("千里无痕"),
+    28366: Talent("寒江夜雨"),
+    21724: Talent("掠影穹苍"),
+    37324: Talent("蹑景追风"),
+    6451: Talent("聚精凝神"),
+    14851: Talent("逐一击破", [逐一击破()]),
+    28903: Talent("穿林打叶", [穿林打叶()]),
+    6461: Talent("秋风散影"),
+    37325: Talent("牢甲利兵"),
+    14850: Talent("妙手连环", [妙手连环(skill_id=3096, skill_recipe=3096)]),
+    18672: Talent("百里追魂"),
+    30588: Talent("凝形逐踪")
 }
 
 TALENTS = [

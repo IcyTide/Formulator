@@ -1,32 +1,15 @@
-from typing import Dict, Union
+from typing import Dict
 
 from base.buff import Buff
 
-GENERAL_BUFFS: Dict[int, Union[Buff, dict]] = {
-    15455: {
-        "buff_name": "伤害波动",
-        "gain_attributes": {
-            "all_damage_addition": [10, 51]
-        }
-    },
-    4761: {
-        "buff_name": "水特效",
-        "gain_attributes": {
-            "physical_attack_power_base": [0] * 53 + sum([[0, 0, v, 0] for v in [67, 88, 98, 111]], []),
-            "magical_attack_power_base": [0] * 53 + sum([[0, v, 0, 0] for v in [81, 105, 117, 134]], []),
-        }
-    },
-    6360: {
-        "buff_name": "风特效",
-        "gain_attributes": {
-            "physical_overcome_base": [0] * 99 + sum([[0] + [0, v] + [0] * 4 for v in [6408, 8330, 9291, 10573]], []),
-            "magical_overcome_base": [0] * 99 + sum([[0] + [v, 0] + [0] * 4 for v in [6408, 8330, 9291, 10573]], [])
-        }
-    }
+GENERAL_BUFFS: Dict[int, dict] = {
+    15455: {}, 4761: {}, 6360: {}
 }
 
-for buff_id, detail in GENERAL_BUFFS.items():
-    GENERAL_BUFFS[buff_id] = Buff(buff_id)
-    GENERAL_BUFFS[buff_id].activate = False
-    for attr, value in detail.items():
-        setattr(GENERAL_BUFFS[buff_id], attr, value)
+BUFFS = {}
+for buff_id, attrs in GENERAL_BUFFS.items():
+    buff = Buff(buff_id)
+    buff.activate = False
+    for attr, value in attrs.items():
+        setattr(buff, attr, value)
+    BUFFS[buff_id] = buff

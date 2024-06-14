@@ -1,44 +1,61 @@
 from typing import Dict
 
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
+from base.talent import Talent
+from base.recipe import ExtraTickRecipe
 from base.skill import Skill
 
 
 class 彤弓(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[35866].skill_critical_strike += 1000
-        skills[35866].skill_critical_power += 102
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 35866:
+            skill.physical_critical_strike_rate_extra += 1000
+            skill.physical_critical_power_rate_extra += 102
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35866].skill_critical_strike -= 1000
-        skills[35866].skill_critical_power -= 102
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 35866:
+            skill.physical_critical_strike_rate_extra -= 1000
+            skill.physical_critical_power_rate_extra -= 102
 
 
 class 素矰(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[26856].attack_power_cof_gain *= 1.05
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 35771:
+            skill.channel_interval_extra *= 1.05
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[26856].attack_power_cof_gain /= 1.05
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 35771:
+            skill.channel_interval_extra /= 1.05
 
 
 class 孰湖(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
-            skills[skill_id].skill_damage_addition += 62
+        skills[35695].pet_buffs[(26857, 1)] += 1
+        skills[35696].pet_buffs[(26857, 1)] += 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (36056, 36057, 36111, 36112, 36113, 36114):
-            skills[skill_id].skill_damage_addition -= 62
+        skills[35695].pet_buffs[(26857, 1)] -= 1
+        skills[35696].pet_buffs[(26857, 1)] -= 1
 
 
-class 桑柘(Gain):
+class 诸怀(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[26856].tick += 1
+        skills[35695].pet_buffs[(-27099, 1)] = 1
+        skills[35696].pet_buffs[(-27099, 1)] = 1
+
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[26857].begin_buffs[(-27099, 1)] = 1
+        buffs[26857].end_buffs[(-27099, 1)] = -1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[26856].tick -= 1
+        skills[35695].pet_buffs.pop((-27099, 1))
+        skills[35696].pet_buffs.pop((-27099, 1))
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[26857].begin_buffs.pop((-27099, 1))
+        buffs[26857].end_buffs.pop((-27099, 1))
 
 
 class 卢令(Gain):
@@ -50,31 +67,41 @@ class 卢令(Gain):
 
 
 class 贯侯(Gain):
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 36157:
+            skill.pve_addition_extra += 205
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 36157:
+            skill.pve_addition_extra -= 205
+
+
+class 朱厌(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[36157].skill_pve_addition += 205
+        skills[35696].pet_buffs[(27406, 1)] = 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[36157].skill_pve_addition -= 205
+        skills[35696].pet_buffs.pop((27406, 1))
 
 
-TALENT_GAINS: Dict[int, Gain] = {
-    35715: 素矰("素矰"),
-    35714: 彤弓("彤弓"),
-    35718: Gain("棘矢"),
-    35719: 孰湖("孰湖"),
-    35721: Gain("襄尺"),
-    35725: Gain("长右"),
-    35729: Gain("鹿蜀"),
-    35736: 桑柘("桑柘"),
-    35733: Gain("诸怀"),
-    35737: Gain("于狩"),
-    35745: 卢令("卢令"),
-    35749: Gain("托月"),
-    35751: Gain("佩弦"),
-    35754: Gain("丛云隐月"),
-    35757: 贯侯("贯侯"),
-    35764: Gain("朝仪万汇"),
-    35761: Gain("朱厌")
+TALENT_GAINS: Dict[int, Talent] = {
+    35715: Talent("素矰", [素矰(skill_id=35771, skill_recipe=35771)]),
+    35714: Talent("彤弓", [彤弓(skill_id=0, skill_recipe=35659)]),
+    35718: Talent("棘矢"),
+    35719: Talent("孰湖", [孰湖()]),
+    35721: Talent("襄尺"),
+    35725: Talent("长右"),
+    35729: Talent("鹿蜀"),
+    35736: Talent("桑柘", [ExtraTickRecipe(1, 26856, 0)]),
+    35733: Talent("诸怀", [诸怀()]),
+    35737: Talent("于狩"),
+    35745: Talent("卢令", [卢令()]),
+    35749: Talent("托月"),
+    35751: Talent("佩弦"),
+    35754: Talent("丛云隐月"),
+    35757: Talent("贯侯", [贯侯(skill_id=36157, skill_recipe=36157)]),
+    35764: Talent("朝仪万汇"),
+    35761: Talent("朱厌", [朱厌()])
 }
 
 TALENTS = [

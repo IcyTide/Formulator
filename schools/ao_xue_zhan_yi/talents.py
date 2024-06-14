@@ -2,37 +2,9 @@ from typing import Dict
 
 from base.buff import Buff
 from base.gain import Gain
+from base.talent import Talent
+from base.recipe import DamageAdditionRecipe, PhysicalCriticalRecipe
 from base.skill import Skill
-
-
-class 封侯(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[18207].skill_damage_addition += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[18207].skill_damage_addition -= 102
-
-
-class 扬戈(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[18207].skill_critical_strike += 1000
-        skills[18207].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[18207].skill_critical_strike -= 1000
-        skills[18207].skill_critical_power -= 102
-
-
-class 神勇(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (18773, 15002):
-            skills[skill_id].skill_critical_strike += 1000
-            skills[skill_id].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (18773, 15002):
-            skills[skill_id].skill_critical_strike -= 1000
-            skills[skill_id].skill_critical_power -= 102
 
 
 class 风虎(Gain):
@@ -45,60 +17,65 @@ class 风虎(Gain):
 
 class 战心(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[702].pre_buffs[(-26008, 1)] = 1
+        skills[423].pre_buffs[(-26008, 1)] = 1
         skills[702].post_buffs[(-1, 1)] = 3
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[702].pre_buffs.pop((-26008, 1))
+        skills[423].pre_buffs.pop((-26008, 1))
         skills[702].post_buffs.pop((-1, 1))
 
 
 class 骁勇(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[3442].attack_power_cof_gain *= 1.12
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
+            skill.channel_interval_extra *= 1.12
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[3442].attack_power_cof_gain /= 1.12
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
+            skill.channel_interval_extra /= 1.12
 
 
 class 虎贲(Gain):
     @staticmethod
-    def effect(parser):
-        if parser.current_buff_stacks.get((-28169, 1)) == 3:
-            parser.refresh_buff(-1, 1, 3)
-        parser.refresh_buff(-28169, 1)
+    def begin_effect(parser):
+        parser.current_school.skills[18773].post_buffs[(-1, 1)] = -3
 
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[18773].post_effects.append(self.effect)
+    @staticmethod
+    def end_effect(parser):
+        parser.current_school.skills[18773].post_buffs[(-1, 1)] = 0
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[18773].post_effects.remove(self.effect)
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[28169].begin_effects.append(self.begin_effect)
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[28169].begin_effects.remove(self.begin_effect)
 
 
-TALENT_GAINS: Dict[int, Gain] = {
-    18487: Gain("百折"),
-    5656: 封侯("封侯"),
-    5657: 扬戈("扬戈"),
-    5660: 神勇("神勇"),
-    5659: Gain("大漠"),
-    18602: 骁勇("骁勇"),
-    24896: Gain("龙驭"),
-    14824: Gain("驰骋"),
-    6511: Gain("牧云"),
-    5666: 风虎("风虎"),
-    6781: 战心("战心"),
-    6524: Gain("破楼兰"),
-    2628: Gain("渊"),
-    5678: Gain("夜征"),
-    15001: Gain("龙血"),
-    6517: 虎贲("虎贲")
+TALENT_GAINS: Dict[int, Talent] = {
+    18487: Talent("百折"),
+    5656: Talent("封侯", [DamageAdditionRecipe(102, 0, 400)]),
+    5657: Talent("扬戈", [PhysicalCriticalRecipe((1000, 102), 400, 400)]),
+    5660: Talent("神勇", [PhysicalCriticalRecipe((1000, 102), 415, 415)]),
+    5659: Talent("大漠"),
+    18602: Talent("骁勇", [骁勇(skill_id=401, skill_recipe=401)]),
+    24896: Talent("龙驭"),
+    18226: Talent("击水"),
+    14824: Talent("驰骋"),
+    6511: Talent("牧云"),
+    5666: Talent("风虎", [风虎()]),
+    6781: Talent("战心", [战心()]),
+    6524: Talent("破楼兰"),
+    2628: Talent("渊"),
+    5678: Talent("夜征"),
+    15001: Talent("龙血"),
+    6517: Talent("虎贲", [虎贲()])
 }
 
 TALENTS = [
     [18487, 5656, 5657],
     [5660],
     [5659, 18602],
-    [24896],
+    [24896, 18226],
     [14824],
     [6511],
     [5666],

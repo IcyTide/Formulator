@@ -5,9 +5,9 @@ name: Pyinstaller Packaging
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "rebuild" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "rebuild" ]
 
 permissions:
   contents: write

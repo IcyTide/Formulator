@@ -1,33 +1,22 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.gain import Gain
-from base.skill import Skill
+from base.talent import Talent
+from base.recipe import DamageAdditionRecipe
 
 
-class 玄黄(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6369, 6370, 6371, 6372, 6373, 6374):
-            skills[skill_id].skill_damage_addition += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6369, 6370, 6371, 6372, 6373, 6374):
-            skills[skill_id].skill_damage_addition -= 102
-
-
-TALENT_GAINS: Dict[int, Gain] = {
-    6812: 玄黄("玄黄"),
-    26702: Gain("坚冰"),
-    6337: Gain("斜打狗背"),
-    6820: Gain("无疆"),
-    32725: Gain("酩酊"),
-    6832: Gain("越渊"),
-    28818: Gain("温酒"),
-    6818: Gain("雨龙"),
-    37339: Gain("易损"),
-    6814: Gain("复礼"),
-    14625: Gain("饮江"),
-    14927: Gain("御鸿于天")
+TALENT_GAINS: Dict[int, Talent] = {
+    6812: Talent("玄黄", [DamageAdditionRecipe(102, 0, 5638)]),
+    26702: Talent("坚冰"),
+    6337: Talent("斜打狗背"),
+    6820: Talent("无疆"),
+    32725: Talent("酩酊"),
+    6832: Talent("越渊"),
+    28818: Talent("温酒"),
+    6818: Talent("雨龙"),
+    37339: Talent("易损"),
+    6814: Talent("复礼"),
+    14625: Talent("饮江"),
+    14927: Talent("御鸿于天")
 }
 
 TALENTS = [

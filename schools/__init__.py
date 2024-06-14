@@ -2,9 +2,15 @@ from dataclasses import dataclass
 from typing import Tuple, List, Dict, Type, Union, Callable
 
 from base.attribute import Attribute
-from base.buff import Buff
+from base.buff import Buff, CustomBuff
 from base.gain import Gain
-from base.skill import Skill, Damage
+from base.skill import Skill, Dot
+from base.talent import Talent
+from general.skills import GENERAL_SKILLS
+from general.buffs import GENERAL_BUFFS
+from assets.skills import SKILLS
+from assets.dots import DOTS
+from assets.buffs import BUFFS
 
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
@@ -23,7 +29,7 @@ class School:
     prepare: Callable
     skills: Dict[int, Skill]
     buffs: Dict[int, Buff]
-    talent_gains: Dict[int, Gain]
+    talent_gains: Dict[int, Talent]
     talents: List[List[int]]
     talent_decoder: Dict[int, str]
     talent_encoder: Dict[str, int]
@@ -92,7 +98,7 @@ MIXING_DISPLAY_ATTRS = {
     "surplus": "破招",
 }
 
-SUPPORT_SCHOOL = {
+SUPPORT_SCHOOLS = {
     10003: School(
         id=10003, school="少林", major="元气", kind="内功", attribute=yi_jin_jing.YiJinJing, formation="天鼓雷音阵",
         skills=yi_jin_jing.SKILLS, buffs=yi_jin_jing.BUFFS, prepare=yi_jin_jing.prepare,
@@ -268,3 +274,45 @@ SUPPORT_SCHOOL = {
         gains=shan_hai_xin_jue.GAINS, display_attrs={"agility": "身法", **PHYSICAL_DISPLAY_ATTRS}
     ),
 }
+
+
+def set_skill(skill: Skill):
+    skill_id = str(skill.skill_id)
+    if isinstance(skill, Dot):
+        for attr, value in DOTS[skill_id].items():
+            setattr(skill, attr, value)
+    else:
+        for attr, value in SKILLS[skill_id].items():
+            setattr(skill, attr, value)
+
+
+def set_buff(buff: Buff):
+    buff_id = buff.buff_id
+    if buff_id < 0:
+        buff_id = -buff_id
+    buff_id = str(buff_id)
+    if not (buff_info := BUFFS.get(buff_id)):
+        return
+    buff_name = buff_info.get("buff_name", "")
+    if not buff.buff_name:
+        buff.buff_name = buff_name
+    for attr, value in buff_info.get("attributes", {}).items():
+        buff.attributes[attr] = value
+
+
+def read_config():
+    for skill in GENERAL_SKILLS.values():
+        set_skill(skill)
+    for buff in GENERAL_BUFFS.values():
+        set_buff(buff)
+
+    for school in SUPPORT_SCHOOLS.values():
+        for skill in school.skills.values():
+            set_skill(skill)
+        school.skills.update(GENERAL_SKILLS)
+        for buff in school.buffs.values():
+            set_buff(buff)
+        school.buffs.update(GENERAL_BUFFS)
+
+
+read_config()

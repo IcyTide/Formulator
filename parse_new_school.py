@@ -51,9 +51,9 @@ class Parser:
                 self.parse_skill(row[-1])
         print(self.school_id)
         print(self.talents)
-        json.dump(self.skills, open("skills.json", "w", encoding="utf-8"))
+        # json.dump(self.skills, open("skills.json", "w", encoding="utf-8"))
         print(len(self.skills))
-        json.dump(self.buffs, open("buffs.json", "w", encoding="utf-8"))
+        # json.dump(self.buffs, open("buffs.json", "w", encoding="utf-8"))
         print(len(self.buffs))
 
 

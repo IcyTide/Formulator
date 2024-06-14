@@ -1,80 +1,26 @@
-from typing import Dict, Union
+from typing import Dict
 
 from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
+from base.recipe import DamageAdditionRecipe, PveAdditionRecipe
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    1439: {
-        "buff_name": "气涌",
-        "activate": False,
-        "gain_attributes": {
-            "magical_critical_strike_rate": 400,
-            "magical_critical_power_rate": 41
-        }
-    },
-    375: {
-        "buff_name": "破苍穹",
-        "gain_attributes": {
-            "magical_critical_strike_rate": [300, 350, 400, 450, 0, 600, 700, 800, 900, 500, 500, 1000, 500, 1000],
-            "magical_critical_power_rate": [61, 71, 81, 82, 102, 122, 143, 163, 184, 102, 102, 204, 102, 204],
-            "all_shield_ignore": [0] * 12 + [614] * 2
-        }
-    },
-    1908: {
-        "buff_name": "会神",
-        "gain_attributes": {
-            "magical_critical_power_rate": 204,
-        }
-    },
-    2757: {
-        "buff_name": "紫气东来",
-        "frame_shift": -2,
-        "gain_attributes": {
-            "physical_attack_power_gain": [256, 256, 512, 256],
-            "magical_attack_power_gain": [256, 256, 512, 256],
-            "all_critical_strike_rate": 2500,
-            "all_critical_power_rate": 256
-        }
-    },
-    9966: {
-        "buff_name": "同尘",
-        "gain_skills": {
-            18670: {
-                "skill_damage_addition": [358, 716, 1075, 1433]
-            }
-        }
-    },
-    # 12550: {
-    #     "buff_name": "跬步",
-    #     "gain_skills": {
-    #         896: {
-    #             "skill_damage_addition": [40, 81, 122, 163, 204]
-    #         }
-    #     }
-    # },
-    # 12551: {
-    #     "buff_name": "跬步",
-    #     "gain_skills": {
-    #         skill_id: {
-    #             "skill_damage_addition": [40, 81, 122, 163, 204]
-    #         } for skill_id in (3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448)
-    #     }
-    # },
-    17918: {
-        "buff_name": "破势",
-        "gain_skills": {
-            skill_id: {
-                "skill_pve_addition": 1331
-            } for skill_id in (18649, 18650, 18651, 18652, 18653, 22014)
-        }
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        1439: {}, 375: {}, 1908: {},
+        **{buff_id: {} for buff_id in range(12779, 12783 + 1)},
+        2757: dict(frame_shift=-2),
+        9966: dict(buff_name="同尘",
+                   gains=[[DamageAdditionRecipe(value, 368, 368) for value in (359, 717, 1076, 1434)]]),
+        17918: dict(gains=[PveAdditionRecipe(1331, 18640, 18640)]),
+        -12550: dict(buff_name="跬步", activate=False, interval=4,
+                     gains=[[DamageAdditionRecipe(value, 367, 367) for value in (41, 82, 123, 164, 205)]]),
+        -12551: dict(buff_name="跬步", activate=False, interval=4,
+                     gains=[[DamageAdditionRecipe(value, 301, 301) for value in (41, 82, 123, 164, 205)]])
     }
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff

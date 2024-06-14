@@ -1,54 +1,54 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "星垂平野": {
-        "5%伤害": damage_addition_recipe([22170, 22550, 22551, 22298], 51),
-        "4%伤害": damage_addition_recipe([22170, 22550, 22551, 22298], 41),
-        "3%伤害": damage_addition_recipe([22170, 22550, 22551, 22298], 31),
-        "4%会心": critical_strike_recipe([22170, 22550, 22551, 22298], 400),
-        "3%会心": critical_strike_recipe([22170, 22550, 22551, 22298], 300),
-        "2%会心": critical_strike_recipe([22170, 22550, 22551, 22298], 200),
+        "5%伤害": DamageAdditionRecipe(51, 22143, 22143),
+        "4%伤害": DamageAdditionRecipe(41, 22143, 22143),
+        "3%伤害": DamageAdditionRecipe(31, 22143, 22143),
+        "4%会心": CriticalStrikeRecipe(400, 22143, 22143),
+        "3%会心": CriticalStrikeRecipe(300, 22143, 22143),
+        "2%会心": CriticalStrikeRecipe(200, 22143, 22143),
     },
     "金戈回澜": {
-        "5%伤害": damage_addition_recipe([22621, 22620], 51),
-        "4%伤害": damage_addition_recipe([22621, 22620], 41),
-        "4%会心": critical_strike_recipe([22621, 22620], 400),
-        "3%会心": critical_strike_recipe([22621, 22620], 300),
+        "5%伤害": DamageAdditionRecipe(51, 22144, 22144),
+        "4%伤害": DamageAdditionRecipe(41, 22144, 22144),
+        "4%会心": CriticalStrikeRecipe(400, 22144, 22144),
+        "3%会心": CriticalStrikeRecipe(300, 22144, 22144),
     },
     "寂洪荒": {
-        "5%伤害": damage_addition_recipe([22604, 22605, 36267, 36268], 51),
-        "4%伤害": damage_addition_recipe([22604, 22605, 36267, 36268], 41),
-        "3%伤害": damage_addition_recipe([22604, 22605, 36267, 36268], 31),
+        "5%伤害": DamageAdditionRecipe(51, 22327, 22327),
+        "4%伤害": DamageAdditionRecipe(41, 22327, 22327),
+        "3%伤害": DamageAdditionRecipe(31, 22327, 22327),
     },
     "乱天狼": {
-        "5%伤害": damage_addition_recipe([22490, 22554, 36265, 36266], 51),
-        "4%伤害": damage_addition_recipe([22490, 22554, 36265, 36266], 41),
-        "3%伤害": damage_addition_recipe([22490, 22554, 36265, 36266], 31),
-        "4%会心": critical_strike_recipe([22490, 22554, 36265, 36266], 400),
-        "3%会心": critical_strike_recipe([22490, 22554, 36265, 36266], 300),
-        "2%会心": critical_strike_recipe([22490, 22554, 36265, 36266], 200),
+        "5%伤害": DamageAdditionRecipe(51, 22320, 22320),
+        "4%伤害": DamageAdditionRecipe(41, 22320, 22320),
+        "3%伤害": DamageAdditionRecipe(31, 22320, 22320),
+        "4%会心": CriticalStrikeRecipe(400, 22320, 22320),
+        "3%会心": CriticalStrikeRecipe(300, 22320, 22320),
+        "2%会心": CriticalStrikeRecipe(200, 22320, 22320),
     },
     "隐风雷": {
-        "5%伤害": damage_addition_recipe([22610, 22611, 22612, 36269, 36270], 51),
-        "4%伤害": damage_addition_recipe([22610, 22611, 22612, 36269, 36270], 41),
-        "3%伤害": damage_addition_recipe([22610, 22611, 22612, 36269, 36270], 31),
-        "4%会心": critical_strike_recipe([22610, 22611, 22612, 36269, 36270], 400),
-        "3%会心": critical_strike_recipe([22610, 22611, 22612, 36269, 36270], 300),
-        "2%会心": critical_strike_recipe([22610, 22611, 22612, 36269, 36270], 200),
+        "5%伤害": DamageAdditionRecipe(51, 22321, 22321),
+        "4%伤害": DamageAdditionRecipe(41, 22321, 22321),
+        "3%伤害": DamageAdditionRecipe(31, 22321, 22321),
+        "4%会心": CriticalStrikeRecipe(400, 22321, 22321),
+        "3%会心": CriticalStrikeRecipe(300, 22321, 22321),
+        "2%会心": CriticalStrikeRecipe(200, 22321, 22321),
     },
     "斩无常": {
-        "5%伤害": damage_addition_recipe([], 51),
-        "4%伤害": damage_addition_recipe([], 41),
-        "4%会心": critical_strike_recipe([], 400),
-        "3%会心": critical_strike_recipe([], 300),
+        "5%伤害": DamageAdditionRecipe(51, 22358, 22358),
+        "4%伤害": DamageAdditionRecipe(41, 22358, 22358),
+        "4%会心": CriticalStrikeRecipe(400, 22358, 22358),
+        "3%会心": CriticalStrikeRecipe(300, 22358, 22358),
     },
     "幽冥窥月": {
-        "5%伤害": damage_addition_recipe([22787], 51),
-        "3%会心": critical_strike_recipe([22787], 300),
-        "2%会心": critical_strike_recipe([22787], 200),
+        "5%伤害": DamageAdditionRecipe(51, 22361, 22361),
+        "3%会心": CriticalStrikeRecipe(300, 22361, 22361),
+        "2%会心": CriticalStrikeRecipe(200, 22361, 22361),
     }
 }
 

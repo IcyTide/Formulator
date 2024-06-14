@@ -30,13 +30,12 @@ class MainWindow(QMainWindow):
 
         self.setWindowTitle("Formulator")
 
-        icon = QIcon("qt/assets/icon.ico")
+        icon = QIcon("assets/icon.ico")
         self.setWindowIcon(icon)
 
         self.central_widget = QWidget(self)
         self.setCentralWidget(self.central_widget)
 
-        self.showMaximized()
         layout = QVBoxLayout(self.central_widget)
 
         self.top_widget = TopWidget()

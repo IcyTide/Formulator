@@ -91,8 +91,10 @@ class EquipmentsWidget(QWidget):
 
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
-        self.real_formulation = RadioWithLabel("开启真实装备增益模拟(仅包括存在覆盖率的角色BUFF,不包含额外技能)", tag=True)
+        self.real_formulation = RadioWithLabel("开启真实装备增益模拟(仅包括存在覆盖率的BUFF,不包含额外技能)", tag=True)
         top_layout.addWidget(self.real_formulation, 3)
+        self.all_special_enchant = RadioWithLabel("一键大附魔")
+        top_layout.addWidget(self.all_special_enchant, 1)
         self.critical_set_rate = SpinWithLabel("套装效果", "覆盖(%)", maximum=100, value=100 * CriticalSet.rate)
         top_layout.addWidget(self.critical_set_rate, 1)
         self.all_strength_level = ComboWithLabel(

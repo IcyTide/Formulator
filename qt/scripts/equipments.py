@@ -231,17 +231,26 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
     equipments_widget.critical_set_rate.spin_box.valueChanged.connect(critical_set_rate)
 
+    def all_special_enchant_update():
+        for label, widget in equipments_widget.items():
+            if special_enchant := widget.special_enchant:
+                special_enchant.radio_button.setChecked(equipments_widget.all_special_enchant.radio_button.isChecked())
+                special_enchant_update(label)()
+    equipments_widget.all_special_enchant.radio_button.clicked.connect(all_special_enchant_update)
+
     def all_strength_level_update(index):
         for label, widget in equipments_widget.items():
             equipment = equipments[label]
             index = min(equipment.max_strength, index)
             widget.strength_level.combo_box.setCurrentIndex(index)
+
     equipments_widget.all_strength_level.combo_box.currentIndexChanged.connect(all_strength_level_update)
 
     def all_embed_level_update(index):
         for widget in equipments_widget.values():
             for embed_level in widget.embed_levels:
                 embed_level.combo_box.setCurrentIndex(index)
+
     equipments_widget.all_embed_level.combo_box.currentIndexChanged.connect(all_embed_level_update)
 
     def equipment_update(label):
@@ -314,7 +323,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         widget = equipments_widget.equipments[label]
         equipment = equipments[label]
 
-        def inner(_):
+        def inner():
             if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
                 equipment.special_enchant_gain = [equipment.special_enchant]
             else:

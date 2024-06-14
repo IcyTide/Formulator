@@ -1,41 +1,21 @@
 from typing import Dict
 
-from base.buff import Buff
-from base.gain import Gain
-from base.skill import Skill
+from base.talent import Talent
+from base.recipe import MagicalCriticalRecipe
 
-
-class 烟霞(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[14941].skill_critical_strike += 1000
-        skills[14941].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[14941].skill_critical_strike -= 1000
-        skills[14941].skill_critical_power -= 102
-
-
-class 青冠(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-32489].activate = True
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-32489].activate = False
-
-
-TALENT_GAINS: Dict[int, Gain] = {
-    5756: 烟霞("烟霞"),
-    32489: 青冠("青冠"),
-    17510: Gain("倚天"),
-    37267:  Gain("墨海临源"),
-    21744:  Gain("折花"),
-    32477: Gain("雪中行"),
-    16855:  Gain("清流"),
-    26692: Gain("钟灵"),
-    6682: Gain("流离"),
-    32480: Gain("雪弃"),
-    32469: Gain("焚玉"),
-    14643:  Gain("涓流")
+TALENT_GAINS: Dict[int, Talent] = {
+    5756: Talent("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
+    32489: Talent("青冠"),
+    17510: Talent("倚天"),
+    37267: Talent("墨海临源"),
+    21744: Talent("折花"),
+    32477: Talent("雪中行"),
+    16855: Talent("清流"),
+    26692: Talent("钟灵"),
+    6682: Talent("流离"),
+    32480: Talent("雪弃"),
+    32469: Talent("焚玉"),
+    14643: Talent("涓流")
 }
 
 TALENTS = [

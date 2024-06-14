@@ -1,46 +1,19 @@
-from typing import Dict, Union
+from typing import Dict
 
 from base.buff import Buff
-from general.buffs import GENERAL_BUFFS
+from base.recipe import DamageAdditionRecipe
 
-BUFFS: Dict[int, Union[Buff, dict]] = {
-    11378: {
-        "buff_name": "朔气",
-        "activate": False,
-        "gain_attributes": {
-            "physical_critical_strike_rate": 400,
-            "physical_critical_power_rate": 41
-        }
-    },
-    18384: {
-        "buff_name": "含风",
-        "gain_attributes": {
-            "physical_critical_strike_rate": 1000,
-            "physical_critical_power_rate": 102
-        }
-    },
-    23066: {
-        "buff_name": "含风",
-        "gain_skills": {
-            skill_id: {
-                "skill_damage_addition": 102,
-            }
-            for skill_id in (16787, 16610, 16794)
-        }
-    },
-    14972: {
-        "buff_name": "爆体",
-        "gain_attributes": {
-            "all_damage_addition": 205
-        }
+SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        11378: {}, 18384: {}, 14972: {},
+        23066: dict(gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for value in (51, 102)]
+                           for skill_id in (16085, 16027, 16621)])
     }
 }
-
-for buff_id, detail in BUFFS.items():
-    BUFFS[buff_id] = Buff(buff_id)
-    for attr, value in detail.items():
-        setattr(BUFFS[buff_id], attr, value)
-
-for buff_id, buff in GENERAL_BUFFS.items():
-    if buff_id not in BUFFS:
+BUFFS: Dict[int, Buff] = {}
+for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
         BUFFS[buff_id] = buff

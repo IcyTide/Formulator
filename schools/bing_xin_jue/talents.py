@@ -1,56 +1,26 @@
 from typing import Dict
 
-from base.gain import Gain
-from base.skill import Skill
+from base.talent import Talent
+from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
 
-
-class 青梅嗅(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6234, 6554):
-            skills[skill_id].skill_critical_strike += 1000
-            skills[skill_id].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (6234, 6554):
-            skills[skill_id].skill_critical_strike -= 1000
-            skills[skill_id].skill_critical_power -= 102
-
-
-class 惊寒(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[30524].skill_damage_addition += 154
-        skills[6559].skill_damage_addition += 154
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[30524].skill_damage_addition -= 154
-        skills[6559].skill_damage_addition -= 154
-
-
-class 千里冰封(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[2716].skill_critical_strike += 1000
-        skills[2716].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2716].skill_critical_strike -= 1000
-        skills[2716].skill_critical_power -= 102
-
-
-TALENT_GAINS: Dict[int, Gain] = {
-    6569: Gain("明妃"),
-    5849: 青梅嗅("青梅嗅"),
-    5869: 惊寒("惊寒"),
-    5868: 千里冰封("千里冰封"),
-    5852: Gain("新妆"),
-    37316: Gain("芳姿畅音"),
-    5864: Gain("枕上"),
-    23935: Gain("广陵月"),
-    34604: Gain("流玉"),
-    22732: Gain("钗燕"),
-    24995: Gain("盈袖"),
-    24996: Gain("化冰"),
-    14934: Gain("夜天"),
-    34603: Gain("凝华")
+TALENT_GAINS: Dict[int, Talent] = {
+    6569: Talent("明妃"),
+    5849: Talent("青梅嗅", [MagicalCriticalRecipe((1000, 102), 0, 2707)]),
+    5869: Talent("惊寒", [DamageAdditionRecipe(154, skill_id, skill_id) for skill_id in (561, 553)]),
+    5868: Talent("千里冰封", [
+        MagicalCriticalRecipe((1000, 102), skill_id, skill_recipe)
+        for skill_id, skill_recipe in ((2716, 2716), (6207, 0), (9346, 0))
+    ]),
+    5852: Talent("新妆"),
+    37316: Talent("芳姿畅音"),
+    5864: Talent("枕上"),
+    23935: Talent("广陵月"),
+    34604: Talent("流玉"),
+    22732: Talent("钗燕"),
+    24995: Talent("盈袖"),
+    24996: Talent("化冰"),
+    14934: Talent("夜天"),
+    34603: Talent("凝华")
 }
 
 TALENTS = [

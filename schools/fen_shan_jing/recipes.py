@@ -1,50 +1,50 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import damage_addition_recipe, critical_strike_recipe
+from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "盾刀": {
-        "5%伤害": damage_addition_recipe([13044], 51),
-        "4%伤害": damage_addition_recipe([13044], 41),
-        "3%伤害": damage_addition_recipe([13044], 31),
-        "4%会心": critical_strike_recipe([13044], 400),
-        "3%会心": critical_strike_recipe([13044], 300),
-        "2%会心": critical_strike_recipe([13044], 200),
+        "5%伤害": DamageAdditionRecipe(51, 13044, 13044),
+        "4%伤害": DamageAdditionRecipe(41, 13044, 13044),
+        "3%伤害": DamageAdditionRecipe(31, 13044, 13044),
+        "4%会心": CriticalStrikeRecipe(400, 13044, 13044),
+        "3%会心": CriticalStrikeRecipe(300, 13044, 13044),
+        "2%会心": CriticalStrikeRecipe(200, 13044, 13044),
     },
     "盾压": {
-        "5%伤害": damage_addition_recipe([19409], 51),
-        "4%伤害": damage_addition_recipe([19409], 41),
-        "4%会心": critical_strike_recipe([19409], 400),
-        "3%会心": critical_strike_recipe([19409], 300),
+        "5%伤害": DamageAdditionRecipe(51, 13045, 13045),
+        "4%伤害": DamageAdditionRecipe(41, 13045, 13045),
+        "4%会心": CriticalStrikeRecipe(400, 13045, 13045),
+        "3%会心": CriticalStrikeRecipe(300, 13045, 13045),
     },
     "劫刀": {
-        "5%伤害": damage_addition_recipe([28479], 51),
-        "4%伤害": damage_addition_recipe([28479], 41),
-        "3%伤害": damage_addition_recipe([28479], 31),
-        "4%会心": critical_strike_recipe([28479], 400),
-        "3%会心": critical_strike_recipe([28479], 300),
-        "2%会心": critical_strike_recipe([28479], 200),
+        "5%伤害": DamageAdditionRecipe(51, 13052, 13052),
+        "4%伤害": DamageAdditionRecipe(41, 13052, 13052),
+        "3%伤害": DamageAdditionRecipe(31, 13052, 13052),
+        "4%会心": CriticalStrikeRecipe(400, 13052, 13052),
+        "3%会心": CriticalStrikeRecipe(300, 13052, 13052),
+        "2%会心": CriticalStrikeRecipe(200, 13052, 13052),
     },
     "斩刀": {
-        "5%伤害": damage_addition_recipe([13092], 41),
-        "4%伤害": damage_addition_recipe([13092], 31),
-        "3%伤害": damage_addition_recipe([13092], 21),
-        "4%会心": critical_strike_recipe([13092, 8249], 400),
-        "3%会心": critical_strike_recipe([13092, 8249], 300),
-        "2%会心": critical_strike_recipe([13092, 8249], 200),
+        "5%伤害": DamageAdditionRecipe(41, 13054, 13054),
+        "4%伤害": DamageAdditionRecipe(31, 13054, 13054),
+        "3%伤害": DamageAdditionRecipe(21, 13054, 13054),
+        "4%会心": CriticalStrikeRecipe(400, 13054, 13054),
+        "3%会心": CriticalStrikeRecipe(300, 13054, 13054),
+        "2%会心": CriticalStrikeRecipe(200, 13054, 13054),
     },
     "绝刀": {
-        "5%伤害": damage_addition_recipe([13075], 51),
-        "4%伤害": damage_addition_recipe([13075], 41),
-        "4%会心": critical_strike_recipe([13075], 400),
-        "3%会心": critical_strike_recipe([13075], 300),
+        "5%伤害": DamageAdditionRecipe(51, 13055, 13055),
+        "4%伤害": DamageAdditionRecipe(41, 13055, 13055),
+        "4%会心": CriticalStrikeRecipe(400, 13055, 13055),
+        "3%会心": CriticalStrikeRecipe(300, 13055, 13055),
     },
     "盾飞": {
-        "4%伤害": damage_addition_recipe([13463], 41),
-        "3%伤害": damage_addition_recipe([13463], 31),
-        "3%会心": critical_strike_recipe([13463], 300),
-        "2%会心": critical_strike_recipe([13463], 200),
+        "4%伤害": DamageAdditionRecipe(41, 13050, 13050),
+        "3%伤害": DamageAdditionRecipe(31, 13050, 13050),
+        "3%会心": CriticalStrikeRecipe(300, 13050, 13050),
+        "2%会心": CriticalStrikeRecipe(200, 13050, 13050),
     },
 }
 

@@ -1,74 +1,79 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.buff import Buff
+from base.recipe import PhysicalCriticalRecipe, ExtraTickRecipe
+from base.talent import Talent
 from base.gain import Gain
 from base.skill import Skill
 
 
-class 渊冲(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (32149, 32150, 32151):
-            skills[skill_id].skill_critical_strike += 1000
-            skills[skill_id].skill_critical_power += 102
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (32149, 32150, 32151):
-            skills[skill_id].skill_critical_strike -= 1000
-            skills[skill_id].skill_critical_power -= 102
-
-
 class 放皓(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[32602].skill_critical_strike += 1000
-        skills[32602].skill_critical_power += 102
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (32216, 32359, 32602):
+            skill.physical_critical_strike_rate_extra += 1000
+            skill.physical_critical_power_rate_extra += 102
+        elif skill.skill_id in (32217, 32360, 32603):
+            skill.physical_critical_strike_rate_extra += 2000
+            skill.physical_critical_power_rate_extra += 205
+        elif skill.skill_id in (32218, 32361, 32604):
+            skill.physical_critical_strike_rate_extra += 3000
+            skill.physical_critical_power_rate_extra += 307
 
-        skills[32603].skill_critical_strike += 2000
-        skills[32603].skill_critical_power += 205
-
-        skills[32604].skill_critical_strike += 3000
-        skills[32604].skill_critical_power += 307
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[32602].skill_critical_strike -= 1000
-        skills[32602].skill_critical_power -= 102
-
-        skills[32603].skill_critical_strike -= 2000
-        skills[32603].skill_critical_power -= 205
-
-        skills[32604].skill_critical_strike -= 3000
-        skills[32604].skill_critical_power -= 307
-
-
-class 涣衍(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[24443].tick += 3
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[24443].tick -= 3
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (32216, 32359, 32602):
+            skill.physical_critical_strike_rate_extra -= 1000
+            skill.physical_critical_power_rate_extra -= 102
+        elif skill.skill_id in (32217, 32360, 32603):
+            skill.physical_critical_strike_rate_extra -= 2000
+            skill.physical_critical_power_rate_extra -= 205
+        elif skill.skill_id in (32218, 32361, 32604):
+            skill.physical_critical_strike_rate_extra -= 3000
+            skill.physical_critical_power_rate_extra -= 307
 
 
 class 涤瑕(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24056].activate = True
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (32372, 32874):
+            skill.channel_interval_extra *= 1.1
+        elif skill.skill_id in (32371, 32873):
+            skill.channel_interval_extra *= 1.2
+        elif skill.skill_id in (32370, 32872):
+            skill.channel_interval_extra *= 1.3
+        elif skill.skill_id in (32369, 32871):
+            skill.channel_interval_extra *= 1.4
+        elif skill.skill_id == 32870:
+            skill.channel_interval_extra *= 1.5
+        elif skill.skill_id == 32869:
+            skill.channel_interval_extra *= 1.6
 
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24056].activate = False
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (32372, 32874):
+            skill.channel_interval_extra /= 1.1
+        elif skill.skill_id in (32371, 32873):
+            skill.channel_interval_extra /= 1.2
+        elif skill.skill_id in (32370, 32872):
+            skill.channel_interval_extra /= 1.3
+        elif skill.skill_id in (32369, 32871):
+            skill.channel_interval_extra /= 1.4
+        elif skill.skill_id == 32870:
+            skill.channel_interval_extra /= 1.5
+        elif skill.skill_id == 32869:
+            skill.channel_interval_extra /= 1.6
 
 
-TALENT_GAINS: Dict[int, Gain] = {
-    32450: 渊冲("渊冲"),
-    32580: Gain("戗风"),
-    32464: Gain("溃延"),
-    32490: 放皓("放皓"),
-    32492: Gain("电逝"),
-    32500: Gain("承磊"),
-    32457: Gain("镇机"),
-    32508: Gain("长溯"),
-    32511: 涣衍("涣衍"),
-    32513: 涤瑕("涤瑕"),
-    32493: Gain("流岚"),
-    36035: Gain("潋风")
+TALENT_GAINS: Dict[int, Talent] = {
+    32450: Talent("渊冲", [PhysicalCriticalRecipe((1000, 102), 32132, 32132)]),
+    32580: Talent("戗风"),
+    32464: Talent("溃延"),
+    32490: Talent("放皓", [放皓(skill_id=32601, skill_recipe=32601)]),
+    32492: Talent("电逝"),
+    32500: Talent("承磊"),
+    32457: Talent("镇机"),
+    32512: Talent("界破"),
+    32508: Talent("长溯"),
+    32511: Talent("涣衍", [ExtraTickRecipe(6, 24443, 0)]),
+    32513: Talent("涤瑕", [涤瑕(skill_id=32144, skill_recipe=32144)]),
+    32493: Talent("流岚"),
+    36035: Talent("潋风")
 }
 
 TALENTS = [
@@ -78,7 +83,7 @@ TALENTS = [
     [32490],
     [32492],
     [32500],
-    [32457],
+    [32457, 32512],
     [32508],
     [32511],
     [32513],
