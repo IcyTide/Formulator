@@ -61,7 +61,7 @@ class Target:
 
     @property
     def shield_constant(self):
-        return SHIELD_SCALE * (LEVEL_SCALE * self.target_level - LEVEL_CONSTANT)
+        return SHIELD_CONSTANT_MAP[self.target_level]
 
 
 class Major:
@@ -423,7 +423,7 @@ class Attribute(Major, Minor, Target):
 
     @property
     def level_reduction(self):
-        return LEVEL_REDUCTION * (self.target_level - self.level)
+        return LEVEL_REDUCTION_MAP[self.target_level]
 
 
 class PhysicalAttribute(Attribute):

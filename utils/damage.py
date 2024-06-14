@@ -14,42 +14,42 @@ def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
 
 @cache
 def base_result(damage_base, damage_rand, damage_gain):
-    damage = int(damage_base * (1 + damage_gain / BINARY_SCALE)) + damage_rand / 2
-    return int(damage)
+    damage = damage_base * (1 + damage_gain / BINARY_SCALE) + damage_rand / 2
+    return damage
 
 
 @cache
 def attack_power_result(attack_power_cof, attack_power):
-    damage = attack_power * attack_power_cof
-    return int(damage)
+    return attack_power * attack_power_cof
 
 
 @cache
 def weapon_damage_result(weapon_damage_cof, weapon_damage):
-    damage = weapon_damage * weapon_damage_cof
-    return int(damage)
+    return weapon_damage * weapon_damage_cof
 
 
 @cache
 def surplus_result(surplus_cof, surplus):
-    damage = surplus * surplus_cof
-    return int(damage)
+    return surplus * surplus_cof
 
 
 @cache
 def init_result(
         damage_base, damage_rand, damage_gain, attack_power_cof, attack_power,
-        weapon_damage_cof, weapon_damage, surplus_cof, surplus
+        weapon_damage_cof, weapon_damage, surplus_cof, surplus, global_damage_factor
 ):
-    return (base_result(damage_base, damage_rand, damage_gain) +
-            attack_power_result(attack_power_cof, attack_power) +
-            weapon_damage_result(weapon_damage_cof, weapon_damage) +
-            surplus_result(surplus_cof, surplus))
+    damage = base_result(damage_base, damage_rand, damage_gain)
+    damage += attack_power_result(attack_power_cof, attack_power)
+    damage += weapon_damage_result(weapon_damage_cof, weapon_damage)
+    damage += surplus_result(surplus_cof, surplus)
+    return int(damage * global_damage_factor)
 
 
 @cache
-def damage_addition_result(damage, damage_addition, extra_damage_addition):
-    return int(damage * (1 + damage_addition / BINARY_SCALE) * (1 + extra_damage_addition / BINARY_SCALE))
+def damage_addition_result(damage, damage_addition, damage_addition_extra):
+    damage = int(damage * (1 + damage_addition / BINARY_SCALE))
+    damage = int(damage * (1 + damage_addition_extra / BINARY_SCALE))
+    return damage
 
 
 @cache

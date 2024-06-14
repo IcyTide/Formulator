@@ -534,8 +534,8 @@ class BaseDamage(BaseSkill):
             self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
             self.physical_attack_power_cof, attribute.physical_attack_power,
             self.weapon_damage_cof, attribute.weapon_damage,
-            0, 0
-        ) * attribute.global_damage_cof
+            0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(
@@ -562,8 +562,8 @@ class BaseDamage(BaseSkill):
         damage = init_result(
             self.magical_damage_base, self.magical_damage_rand, attribute.damage_gain,
             self.magical_attack_power_cof, attribute.magical_attack_power,
-            0, 0, 0, 0
-        ) * attribute.global_damage_cof
+            0, 0, 0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(
@@ -588,8 +588,8 @@ class BaseDamage(BaseSkill):
 
     def call_surplus_damage(self, attribute: Attribute):
         damage = init_result(
-            0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus
-        ) * attribute.global_damage_cof
+            0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(
@@ -781,8 +781,9 @@ class Dot(Skill):
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, 0, attribute.damage_gain,
-            self.physical_attack_power_cof, attribute.physical_attack_power, 0, 0, 0, 0
-        ) * attribute.global_damage_cof
+            self.physical_attack_power_cof, attribute.physical_attack_power,
+            0, 0, 0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(damage, attribute.physical_damage_addition, self.damage_addition_extra)
@@ -806,8 +807,9 @@ class Dot(Skill):
     def call_magical_damage(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, 0, attribute.damage_gain,
-            self.magical_attack_power_cof, attribute.magical_attack_power, 0, 0, 0, 0
-        ) * attribute.global_damage_cof
+            self.magical_attack_power_cof, attribute.magical_attack_power,
+            0, 0, 0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(damage, attribute.magical_damage_addition, self.damage_addition_extra)
@@ -860,8 +862,8 @@ class NpcSkill(Skill):
         damage = init_result(
             self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
             self.physical_attack_power_cof, attribute.physical_attack_power,
-            0, 0, 0, 0
-        ) * attribute.global_damage_cof
+            0, 0, 0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(
@@ -892,8 +894,8 @@ class PetSkill(Skill):
             self.magical_damage_base, self.magical_damage_rand, attribute.damage_gain,
             self.magical_attack_power_cof, attack_power,
             self.weapon_damage_cof, attribute.weapon_damage,
-            0, 0
-        ) * attribute.global_damage_cof
+            0, 0, attribute.global_damage_cof
+        )
         if not damage:
             return 0, 0
         damage = damage_addition_result(damage, attribute.magical_damage_addition, self.damage_addition_extra)
@@ -906,8 +908,8 @@ class PetSkill(Skill):
         critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
         damage = strain_result(damage, attribute.strain)
         critical_damage = strain_result(critical_damage, attribute.strain)
-        # damage = pve_addition_result(damage, attribute.pve_addition)
-        # critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        damage = pve_addition_result(damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
         damage = damage_cof_result(damage, attribute.magical_damage_cof)
         critical_damage = damage_cof_result(critical_damage, attribute.magical_damage_cof)
         damage = vulnerable_result(damage, attribute.magical_vulnerable)

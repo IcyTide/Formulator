@@ -25,7 +25,14 @@ SHIELD_BASE_MAP = {
     124: 27550,
     123: 26317,
     122: 15528,
-    121: 11073
+    121: 11073,
+    120: 7414
+}
+SHIELD_CONSTANT_MAP = {
+    level: SHIELD_SCALE * (LEVEL_SCALE * level - LEVEL_CONSTANT) for level in SHIELD_BASE_MAP
+}
+LEVEL_REDUCTION_MAP = {
+    level: LEVEL_REDUCTION * (level - LEVEL) for level in SHIELD_BASE_MAP
 }
 
 MAJOR_BASE = 41
