@@ -175,10 +175,13 @@ def convert_json(result):
     exclude_columns = [
         "skill_id", "skill_level", "kind_type", "recipe_type", "weapon_request", "use_skill_cof"
     ]
-    int_columns = ["physical_attack_power_gain", "physical_critical_strike_rate", "physical_critical_power_rate",
-                   "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
-                   "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition",
-                   "damage_addition", "physical_call", "magical_call", "surplus_call"]
+    int_columns = [
+        "physical_damage_base", "magical_damage_base", "physical_damage_rand", "magical_damage_rand",
+        "physical_attack_power_gain", "physical_critical_strike_rate", "physical_critical_power_rate",
+        "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
+        "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition",
+        "damage_addition", "physical_call", "magical_call", "surplus_call"
+    ]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():
         filter_result = result[result.skill_id == skill_id]
