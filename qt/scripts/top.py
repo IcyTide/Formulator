@@ -136,9 +136,6 @@ def top_script(
                 if enchant := equipment_widget.enchant_mapping.get(select_equipment['enchant']):
                     if enchant in equipment_widget.enchant.items:
                         equipment_widget.enchant.combo_box.setCurrentText(enchant)
-                equipment_widget.strength_level.combo_box.setCurrentIndex(select_equipment['strength_level'])
-                for i, embed_level in enumerate(select_equipment['embed_levels']):
-                    equipment_widget.embed_levels[i].combo_box.setCurrentIndex(embed_level)
 
         """ Update consumable options """
         consumables_widget.major_food.set_items([""] + FOODS[school.major], keep_index=True)

@@ -4,20 +4,20 @@ from base.skill import Skill, Dot
 
 
 class 盾压(Skill):
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks.get((8474, 13)):
             self.post_buffs[(-1, 1)] = 15 * 2
         else:
             self.post_buffs[(-1, 1)] = 15
 
-        super().record(critical, parser)
+        super().record(actual_critical_strike, actual_damage, parser)
 
 
 class 绝刀(Skill):
     final_buff = -9052
     bind_buff = -1
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         current_rage = parser.current_buff_stacks.get((-1, 1), 0)
         cost_rage = min(current_rage, 50)
         buff_level = cost_rage // 10 - 1
@@ -29,7 +29,7 @@ class 绝刀(Skill):
             self.post_buffs[(-1, 1)] = 0
         else:
             self.post_buffs[(-1, 1)] = -cost_rage
-        super().record(critical, parser)
+        super().record(actual_critical_strike, actual_damage, parser)
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {

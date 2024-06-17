@@ -6,8 +6,7 @@ from base.skill import Skill
 class 啸日(Skill):
     final_buff = -1
 
-    def record(self, critical, parser):
-        super().record(critical, parser)
+    def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks.get((self.final_buff, 1)):
             parser.clear_buff(self.final_buff, 1)
         else:

@@ -1,7 +1,18 @@
 from typing import Dict
 
+from base.buff import Buff
+from base.gain import Gain
 from base.talent import Talent
 from base.recipe import MagicalCriticalRecipe
+
+
+class 清流(Gain):
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-12588].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-12588].activate = False
+
 
 TALENT_GAINS: Dict[int, Talent] = {
     5756: Talent("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
@@ -10,7 +21,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     37267: Talent("墨海临源"),
     21744: Talent("折花"),
     32477: Talent("雪中行"),
-    16855: Talent("清流"),
+    16855: Talent("清流", [清流()]),
     26692: Talent("钟灵"),
     6682: Talent("流离"),
     32480: Talent("雪弃"),

@@ -7,9 +7,9 @@ class 逐一击破增伤(Skill):
     bind_buff = 1
     final_buff = -1
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         parser.refresh_buff(self.final_buff, 1)
-        super().record(critical, parser)
+        super().record(actual_critical_strike, actual_damage, parser)
         parser.clear_buff(self.final_buff, 1)
 
 

@@ -9,10 +9,10 @@ ATTR_DICT = Dict[str, Union[List[int], int]]
 
 class BaseBuff:
     DOT_SNAPSHOT_ATTRS = [
-        "attack_power", "critical_strike", "critical_power", "strain", "damage_addition", "pve_addition"
+        "attack_power", "critical_strike", "critical_power", "surplus", "strain", "damage_addition", "pve_addition"
     ]
     PET_SNAPSHOT_ATTRS = [
-        "attack_power", "critical_power", "overcome", "strain", "damage_addition", "pve_addition"
+        "attack_power", "critical_power", "overcome", "surplus", "strain", "damage_addition", "pve_addition"
     ]
 
     _buff_name: Union[List[str], str] = ""

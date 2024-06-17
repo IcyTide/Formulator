@@ -3,7 +3,7 @@ from typing import Dict
 from base.buff import Buff
 
 GENERAL_BUFFS: Dict[int, dict] = {
-    15455: {}, 4761: {}, 6360: {}
+    15455: dict(buff_name="输出伤害波动"), 4761: {}, 6360: {}
 }
 
 BUFFS = {}

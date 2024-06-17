@@ -3,7 +3,7 @@ from copy import deepcopy
 
 from base.constant import FRAME_PER_SECOND
 from schools import *
-from utils.lua import parse
+from utils.lua import parse_player, parse_damage
 
 FRAME_TYPE, SECOND_TYPE = int, int
 PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
@@ -230,11 +230,6 @@ class Parser(BaseParser):
                 continue
             select_equipment = select_equipments[label] = {}
             select_equipment['equipment'] = row[2]
-            select_equipment['strength_level'] = row[3]
-            if isinstance(row[4], list):
-                select_equipment['embed_levels'] = [EMBED_MAPPING.get(tuple(e), 0) for e in row[4]]
-            else:
-                select_equipment['embed_levels'] = []
             select_equipment['enchant'] = row[5]
         return select_equipments
 
@@ -248,26 +243,17 @@ class Parser(BaseParser):
         if player_id in self.id2name or school_id not in SUPPORT_SCHOOLS:
             return
 
-        detail = parse(row)
-        if isinstance(detail, list) and (school := SUPPORT_SCHOOLS.get(detail[3])):
+        try:
+            detail = parse_player(row)
             player_name = detail[1]
+            school = SUPPORT_SCHOOLS[school_id]
+            self.select_equipments[player_id] = self.parse_equipments(detail[5].values())
+            self.select_talents[player_id] = self.parse_talents(detail[6].values())
+            self.players[player_id] = deepcopy(school)
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
-            self.select_equipments[player_id] = self.parse_equipments(detail[5])
-            self.select_talents[player_id] = self.parse_talents(detail[6])
-            if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
-                return
-            self.players[player_id] = deepcopy(school)
-        elif (isinstance(detail, dict) and all(i in detail for i in (1, 4, 6, 7)) and
-              (school := SUPPORT_SCHOOLS.get(detail[4]))):
-            player_name = detail[1]
-            self.id2name[player_id] = player_name
-            self.name2id[player_name] = player_id
-            self.select_equipments[player_id] = self.parse_equipments(detail[6])
-            self.select_talents[player_id] = self.parse_talents(detail[7])
-            if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
-                return
-            self.players[player_id] = deepcopy(school)
+        except:
+            return
 
     def parse_npc(self, row):
         detail = row.strip("{}").split(",")
@@ -381,7 +367,7 @@ class Parser(BaseParser):
         if player_id not in self.players:
             return
 
-        react, skill_id, skill_level, critical = int(detail[2]), int(detail[4]), int(detail[5]), detail[6] == "true"
+        react, skill_id, skill_level = int(detail[2]), int(detail[4]), int(detail[5])
         if react or skill_id not in self.players[player_id].skills:
             return
 
@@ -396,7 +382,11 @@ class Parser(BaseParser):
         self.current_skill = skill_id
         skill = self.players[player_id].skills[skill_id]
         skill.skill_level = skill_level
-        skill.parse(critical, self)
+        if skill.damage_call:
+            actual_critical_strike, actual_damage = detail[6] == "true", parse_damage(row)
+        else:
+            actual_critical_strike, actual_damage = 0, 0
+        skill.parse(actual_critical_strike, actual_damage, self)
 
     @staticmethod
     def filter_buff(buff, skill):

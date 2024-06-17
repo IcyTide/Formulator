@@ -5,9 +5,9 @@ name: Pyinstaller Packaging
 
 on:
   push:
-    branches: [ "rebuild" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "rebuild" ]
+    branches: [ "master" ]
 
 permissions:
   contents: write
@@ -80,6 +80,7 @@ jobs:
       with:
         name: ${{ env.PACKAGENAME }}
         path: ${{ env.PACKAGENAME }}
+        retention-days: 5
     - name: upload-win
       uses: actions/upload-release-asset@v1
       env:
@@ -89,43 +90,3 @@ jobs:
         asset_path: ${{ env.PACKAGENAME }}.7z
         asset_name: ${{ env.PACKAGENAME }}.7z
         asset_content_type: application/zip
-
-  macos:
-    needs: [ setup, release ]
-    runs-on: macos-11
-    env:
-      PACKAGENAME: ${{ needs.setup.outputs.PACKAGE_PREFIX }}_macos_x64
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyinstaller
-          pip install pyside6
-      - name: Build
-        run: |
-          pyinstaller -F -w -i assets/icon.icns qt/app.py 
-          mv dist Formulator
-          mv assets Formulator/assets
-          mkdir ${{ env.PACKAGENAME }}
-          zip -9 "${{ env.PACKAGENAME }}.zip" "Formulator"
-          mv Formulator ${{ env.PACKAGENAME }}
-      - name: Upload
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.PACKAGENAME }}
-          path: ${{ env.PACKAGENAME }}
-      - name: upload-macos
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ needs.release.outputs.Up_Url }}
-          asset_path: ${{ env.PACKAGENAME }}.zip
-          asset_name: ${{ env.PACKAGENAME }}.zip
-          asset_content_type: application/gzip

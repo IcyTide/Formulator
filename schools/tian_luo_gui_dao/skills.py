@@ -6,18 +6,18 @@ from base.skill import Skill, Dot
 class 杀机断魂移除(Skill):
     final_buff = -24668
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         parser.clear_buff(self.final_buff, 1)
 
 
 class 杀机断魂千机变(杀机断魂移除):
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if buff_stack := parser.current_buff_stacks.get((27457, 1)):
             parser.refresh_buff(self.final_buff, 1, buff_stack)
 
 
 class 杀机断魂天绝地灭(杀机断魂移除):
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks.get((16236, 1)):
             parser.refresh_buff(self.final_buff, 1, 6)
         elif parser.current_buff_stacks.get((16235, 1)):
@@ -27,7 +27,7 @@ class 杀机断魂天绝地灭(杀机断魂移除):
 
 
 class 杀机断魂暗藏杀机(杀机断魂移除):
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         parser.refresh_buff(self.final_buff, 1, 3)
 
 

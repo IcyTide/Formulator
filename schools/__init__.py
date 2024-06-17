@@ -49,6 +49,13 @@ class School:
         return content
 
 
+GENERAL_DISPLAY_ATTRS = {
+    "weapon_damage_base": "基础武器伤害",
+    "weapon_damage_rand": "浮动武器伤害",
+    "strain_base": "无双等级",
+    "strain": "无双",
+    "surplus": "破招",
+}
 PHYSICAL_DISPLAY_ATTRS = {
     "base_physical_attack_power": "基础攻击",
     "physical_attack_power": "攻击",
@@ -59,11 +66,7 @@ PHYSICAL_DISPLAY_ATTRS = {
     "base_physical_overcome": "基础破防",
     "final_physical_overcome": "最终破防",
     "physical_overcome": "破防",
-    "weapon_damage_base": "基础武器伤害",
-    "weapon_damage_rand": "浮动武器伤害",
-    "strain_base": "无双等级",
-    "strain": "无双",
-    "surplus": "破招",
+    **GENERAL_DISPLAY_ATTRS
 }
 MAGICAL_DISPLAY_ATTRS = {
     "base_magical_attack_power": "基础攻击",
@@ -75,11 +78,7 @@ MAGICAL_DISPLAY_ATTRS = {
     "base_magical_overcome": "基础破防",
     "final_magical_overcome": "最终破防",
     "magical_overcome": "破防",
-    "weapon_damage_base": "基础武器伤害",
-    "weapon_damage_rand": "浮动武器伤害",
-    "strain_base": "无双等级",
-    "strain": "无双",
-    "surplus": "破招",
+    **GENERAL_DISPLAY_ATTRS
 }
 MIXING_DISPLAY_ATTRS = {
     "base_magical_attack_power": "基础攻击",
@@ -91,11 +90,7 @@ MIXING_DISPLAY_ATTRS = {
     "base_magical_overcome": "基础破防",
     "final_magical_overcome": "最终破防",
     "magical_overcome": "破防",
-    "weapon_damage_base": "基础武器伤害",
-    "weapon_damage_rand": "浮动武器伤害",
-    "strain_base": "无双等级",
-    "strain": "无双",
-    "surplus": "破招",
+    **GENERAL_DISPLAY_ATTRS
 }
 
 SUPPORT_SCHOOLS = {

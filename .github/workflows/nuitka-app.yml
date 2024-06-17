@@ -47,39 +47,3 @@ jobs:
       with:
         name: ${{ env.PACKAGENAME }}
         path: Formulator
-
-  macos:
-    runs-on: macos-latest
-    env:
-      PACKAGENAME: Formulator_macos_x64
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r ./requirements.txt
-      - uses: Nuitka/Nuitka-Action@main
-        with:
-          nuitka-version: main
-          script-name: qt/app.py
-          standalone: true
-          enable-plugins: pyside6
-          disable-console: true
-          macos-create-app-bundle: true
-          macos-app-icon: assets/icon.icns
-          nofollow-import-to: http,email
-          include-data-dir: assets=assets/
-      - name: Build
-        run: |
-          mv build/app.app Formulator
-          mv assets Formulator/Contents/MacOS/assets
-          zip -9 "${{ env.PACKAGENAME }}.zip" "Formulator"
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.PACKAGENAME }}
-          path: Formulator

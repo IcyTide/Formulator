@@ -7,4 +7,4 @@ from schools.hua_jian_you.attribute import HuaJianYou
 
 
 def prepare(self, player_id):
-    pass
+    self.buff_stacks[player_id][(-14636, 1)] = 1

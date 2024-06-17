@@ -645,7 +645,7 @@ class Skill(BaseDamage, BaseDot):
     event_mask_2: int = 0
 
     bind_dot: int = 0
-    bind_tick: int = 1
+    bind_stack: int = 1
     consume_dot: int = 0
     consume_tick: int = 0
 
@@ -690,9 +690,9 @@ class Skill(BaseDamage, BaseDot):
         for effect in self.pre_effects:
             effect(parser)
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if self.damage_call:
-            self.damage(critical, parser)
+            self.damage(actual_critical_strike, actual_damage, parser)
         if self.bind_dot:
             self.dot_add(parser)
         if self.consume_dot:
@@ -710,15 +710,17 @@ class Skill(BaseDamage, BaseDot):
         for effect in self.post_effects:
             effect(parser)
 
-    def parse(self, critical, parser):
+    def parse(self, actual_critical_strike, actual_damage, parser):
         self.pre_record(parser)
-        self.record(critical, parser)
+        self.record(actual_critical_strike, actual_damage, parser)
         self.post_record(parser)
 
-    def damage(self, critical, parser):
+    def damage(self, actual_critical_strike, actual_damage, parser):
         skill_tuple = ((self.skill_id, self.skill_level), tuple())
         status_tuple = parser.status
-        parser.current_records[skill_tuple][status_tuple].append((parser.current_frame - parser.start_frame, critical))
+        parser.current_records[skill_tuple][status_tuple].append(
+            (parser.current_frame - parser.start_frame, actual_critical_strike, actual_damage)
+        )
 
     def pet_create(self, parser):
         pet_buffs = {}
@@ -733,7 +735,7 @@ class Skill(BaseDamage, BaseDot):
         if not parser.current_dot_ticks.get(self.bind_dot):
             parser.current_dot_stacks[self.bind_dot] = 0
         parser.current_dot_ticks[self.bind_dot] = bind_dot.tick
-        parser.current_dot_stacks[self.bind_dot] = parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_tick
+        parser.current_dot_stacks[self.bind_dot] = parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_stack
         parser.current_dot_skills[self.bind_dot] = (self.skill_id, self.skill_level)
         parser.current_dot_snapshot[self.bind_dot] = parser.current_buff_stacks.copy()
 
@@ -782,7 +784,7 @@ class Dot(Skill):
         damage = init_result(
             self.damage_base, 0, attribute.damage_gain,
             self.physical_attack_power_cof, attribute.physical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_cof
+            0, 0, 0, 0, attribute.global_damage_cof, self.skill_stack
         )
         if not damage:
             return 0, 0
@@ -808,7 +810,7 @@ class Dot(Skill):
         damage = init_result(
             self.damage_base, 0, attribute.damage_gain,
             self.magical_attack_power_cof, attribute.magical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_cof
+            0, 0, 0, 0, attribute.global_damage_cof, self.skill_stack
         )
         if not damage:
             return 0, 0
@@ -830,26 +832,28 @@ class Dot(Skill):
         critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
         return damage, critical_damage
 
-    def damage(self, critical, parser):
+    def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.skill_id]
         dot_skill_stack = min(self.max_stack, parser.current_dot_stacks[self.skill_id])
         skill_tuple = ((self.skill_id, self.skill_level), (dot_skill_id, dot_skill_level, dot_skill_stack))
         status_tuple = parser.status
         parser.current_dot_ticks[self.skill_id] -= 1
         parser.current_last_dot[self.skill_id] = (skill_tuple, status_tuple)
-        parser.current_records[skill_tuple][status_tuple].append((parser.current_frame - parser.start_frame, critical))
+        parser.current_records[skill_tuple][status_tuple].append(
+            (parser.current_frame - parser.start_frame, actual_critical_strike, actual_damage)
+        )
 
     def __call__(self, attribute: Attribute):
         self.bind_skill.pre_damage(attribute)
         total_damage, total_critical_damage = 0, 0
         if self.physical_call:
             damage, critical_damage = self.call_physical_damage(attribute)
-            total_damage += damage * self.skill_stack
-            total_critical_damage += critical_damage * self.skill_stack
+            total_damage += damage
+            total_critical_damage += critical_damage
         if self.magical_call:
             damage, critical_damage = self.call_magical_damage(attribute)
-            total_damage += damage * self.skill_stack
-            total_critical_damage += critical_damage * self.skill_stack
+            total_damage += damage
+            total_critical_damage += critical_damage
 
         critical_strike = min(self.critical_strike(attribute), 1)
         expected_damage = total_damage * (1 - critical_strike) + total_critical_damage * critical_strike

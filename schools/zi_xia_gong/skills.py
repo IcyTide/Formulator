@@ -4,7 +4,7 @@ from base.skill import Skill, Dot
 
 
 class 跬步判定(Skill):
-    def record(self, _, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks.get((12779, 1)):
             parser.refresh_buff(-12550, 1)
             parser.refresh_buff(-12551, 1)

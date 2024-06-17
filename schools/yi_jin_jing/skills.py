@@ -8,7 +8,7 @@ class 明法判定(Skill):
     bind_buff_1 = 890
     bind_buff_2 = 12479
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         if buff_level := parser.current_target_buff_stacks.get((self.bind_buff_1, 1)):
             parser.refresh_target_buff(self.final_buff, buff_level)
         elif buff_level := parser.current_target_buff_stacks.get((self.bind_buff_2, 1)):
@@ -18,7 +18,7 @@ class 明法判定(Skill):
 class 明法移除(Skill):
     final_buff = 19635
 
-    def record(self, critical, parser):
+    def record(self, actual_critical_strike, actual_damage, parser):
         buff_levels = []
         for buff_id, buff_level in parser.current_target_buff_stacks:
             if buff_id == self.final_buff:

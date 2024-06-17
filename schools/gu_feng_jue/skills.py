@@ -9,8 +9,8 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         34695: {},
         **{skill_id: {} for skill_id in range(32234, 32239 + 1)},
         36851: dict(bind_dot=27820),
-        **{skill_id: dict(bind_dot=24132, bind_tick=i + 1) for i, skill_id in enumerate(range(32372, 32369 - 1, -1))},
-        **{skill_id: dict(bind_dot=24443, bind_tick=i + 1) for i, skill_id in enumerate(range(32874, 32869 - 1, -1))}
+        **{skill_id: dict(bind_dot=24132, bind_stack=i + 1) for i, skill_id in enumerate(range(32372, 32369 - 1, -1))},
+        **{skill_id: dict(bind_dot=24443, bind_stack=i + 1) for i, skill_id in enumerate(range(32874, 32869 - 1, -1))}
     },
     Dot: {
         24132: {}, 24443: {}, 27820: {}
