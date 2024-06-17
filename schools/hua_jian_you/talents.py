@@ -15,6 +15,10 @@ TALENT_GAINS: Dict[int, Talent] = {
     6682: Talent("流离"),
     32480: Talent("雪弃"),
     32469: Talent("焚玉"),
+    26669: Talent("故幽", [
+        MagicalCriticalRecipe((1500, 154), skill_id, skill_recipe)
+        for skill_id, skill_recipe in ((186, 186), (6134, 0), (6135, 0), (6136, 0), (0, 32409))
+    ]),
     14643: Talent("涓流")
 }
 
@@ -29,7 +33,7 @@ TALENTS = [
     [26692],
     [6682],
     [32480],
-    [32469],
+    [32469, 26669],
     [14643]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}

@@ -36,7 +36,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dot=711) for skill_id in (18730, 13848, 6136)},
         **{skill_id: dict(bind_dot=714) for skill_id in (285, 13847, 6135)},
         **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},
-        **{skill_id: dict(bind_dot=24158) for skill_id in (32409, 32481)},
+        **{skill_id: dict(bind_dot=24158) for skill_id in (32481, 32409)},
     },
     Dot: {
         711: dict(tick_extra=1),
