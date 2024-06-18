@@ -1,9 +1,9 @@
 from typing import Dict
 
-from base.recipe import PhysicalCriticalRecipe, ExtraTickRecipe
-from base.talent import Talent
 from base.gain import Gain
+from base.recipe import PhysicalCriticalRecipe, ExtraTickRecipe
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 放皓(Gain):

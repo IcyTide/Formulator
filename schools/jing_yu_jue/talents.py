@@ -1,9 +1,9 @@
 from typing import Dict
 
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import PhysicalCriticalRecipe
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 穿林打叶(Gain):

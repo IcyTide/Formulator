@@ -2,7 +2,7 @@ from base.constant import *
 
 
 class Target:
-    target_level: int = 124
+    level: int = list(SHIELD_BASE_MAP)[-1]
 
     physical_shield_base: int = 0
     magical_shield_base: int = 0
@@ -19,19 +19,7 @@ class Target:
 
     @property
     def level_shield_base(self):
-        return SHIELD_BASE_MAP[self.target_level]
-
-    @property
-    def shield_base(self):
-        raise NotImplementedError
-
-    @property
-    def shield_gain(self):
-        raise NotImplementedError
-
-    @property
-    def vulnerable(self):
-        raise NotImplementedError
+        return SHIELD_BASE_MAP[self.level]
 
     @property
     def all_vulnerable(self):
@@ -43,10 +31,6 @@ class Target:
         self.physical_vulnerable += residual
         self.magical_vulnerable += residual
         self._all_vulnerable = all_vulnerable
-
-    @property
-    def damage_cof(self):
-        raise NotImplementedError
 
     @property
     def all_damage_cof(self):
@@ -61,7 +45,7 @@ class Target:
 
     @property
     def shield_constant(self):
-        return SHIELD_CONSTANT_MAP[self.target_level]
+        return SHIELD_CONSTANT_MAP[self.level]
 
 
 class Major:
@@ -414,16 +398,29 @@ class Minor:
 
 
 class Attribute(Major, Minor, Target):
-    level: int = 120
+    level: int = LEVEL
     grad_attrs: dict = None
 
     def __init__(self):
         self.all_major_base += MAJOR_BASE
         self.all_critical_power_base = 0  # init critical power attr
+        self.target = Target()
 
     @property
     def level_reduction(self):
-        return LEVEL_REDUCTION_MAP[self.target_level]
+        return LEVEL_REDUCTION_MAP[self.target.level]
+
+    @property
+    def target_shield_base(self):
+        raise NotImplementedError
+
+    @property
+    def target_shield_gain(self):
+        raise NotImplementedError
+
+    @property
+    def target_damage_cof(self):
+        raise NotImplementedError
 
 
 class PhysicalAttribute(Attribute):
@@ -464,20 +461,16 @@ class PhysicalAttribute(Attribute):
         return self.physical_shield_ignore
 
     @property
-    def shield_base(self):
-        return self.physical_shield_base
+    def target_shield_base(self):
+        return self.target.physical_shield_base
 
     @property
-    def shield_gain(self):
-        return self.physical_shield_gain
+    def target_shield_gain(self):
+        return self.target.physical_shield_gain
 
     @property
-    def damage_cof(self):
-        return self.physical_damage_cof
-
-    @property
-    def vulnerable(self):
-        return self.physical_vulnerable
+    def target_damage_cof(self):
+        return self.target.physical_damage_cof
 
 
 class MagicalAttribute(Attribute):
@@ -517,20 +510,16 @@ class MagicalAttribute(Attribute):
         return self.magical_damage_addition
 
     @property
-    def shield_base(self):
-        return self.magical_shield_base
+    def target_shield_base(self):
+        return self.target.magical_shield_base
 
     @property
-    def shield_gain(self):
-        return self.magical_shield_gain
+    def target_shield_gain(self):
+        return self.target.magical_shield_gain
 
     @property
-    def damage_cof(self):
-        return self.magical_damage_cof
-
-    @property
-    def vulnerable(self):
-        return self.magical_vulnerable
+    def target_damage_cof(self):
+        return self.target.magical_damage_cof
 
 
 class MixingAttribute(Attribute):
@@ -570,17 +559,13 @@ class MixingAttribute(Attribute):
         return self.magical_damage_addition
 
     @property
-    def shield_base(self):
-        return self.magical_shield_base
+    def target_shield_base(self):
+        return self.target.magical_shield_base
 
     @property
-    def shield_gain(self):
-        return self.magical_shield_gain
+    def target_shield_gain(self):
+        return self.target.magical_shield_gain
 
     @property
-    def damage_cof(self):
-        return self.magical_damage_cof
-
-    @property
-    def vulnerable(self):
-        return self.magical_vulnerable
+    def target_damage_cof(self):
+        return self.target.magical_damage_cof

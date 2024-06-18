@@ -1,4 +1,4 @@
-from typing import Tuple, List, Dict, Union
+from typing import Tuple, Dict, Union
 
 
 def agility(value):

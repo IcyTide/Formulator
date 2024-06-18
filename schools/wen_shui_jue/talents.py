@@ -1,8 +1,7 @@
 from typing import Dict
 
-from base.talent import Talent
 from base.recipe import PhysicalCriticalRecipe
-
+from base.talent import Talent
 
 TALENT_GAINS: Dict[int, Talent] = {
     5953: Talent("淘尽", [PhysicalCriticalRecipe((1000, 102), 1600, 1600)]),

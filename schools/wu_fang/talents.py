@@ -1,9 +1,9 @@
 from typing import Dict
 
 from base.gain import Gain
+from base.recipe import ExtraTickRecipe
 from base.skill import Skill
 from base.talent import Talent
-from base.recipe import ExtraTickRecipe
 
 
 class 鸩羽(Gain):

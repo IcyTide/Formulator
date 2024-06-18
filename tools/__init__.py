@@ -1,3 +1,4 @@
+import json
 import os.path
 import re
 
@@ -6,7 +7,7 @@ import pandas as pd
 
 from base.buff import CustomBuff
 from base.skill import Dot
-from schools import SUPPORT_SCHOOLS, GENERAL_SKILLS, GENERAL_BUFFS
+from schools import SUPPORT_SCHOOLS
 
 BASE_DIR = "../JX3TABS"
 SAVE_DIR = "assets"
@@ -105,20 +106,23 @@ ATTRIBUTE_TYPE = {
     CALL_SOLAR_DAMAGE = 2,
     CALL_NEUTRAL_DAMAGE = 2,
     CALL_POISON_DAMAGE = 2,
-
-    CALL_SURPLUS_PHYSICS_DAMAGE = 3,
-    CALL_SURPLUS_LUNAR_DAMAGE = 3,
-    CALL_SURPLUS_SOLAR_DAMAGE = 3,
-    CALL_SURPLUS_NEUTRAL_DAMAGE = 3,
-    CALL_SURPLUS_POISON_DAMAGE = 3,
+    
+    CALL_ADAPTIVE_DAMAGE = 3,
+    
+    CALL_SURPLUS_PHYSICS_DAMAGE = 4,
+    CALL_SURPLUS_LUNAR_DAMAGE = 5,
+    CALL_SURPLUS_SOLAR_DAMAGE = 5,
+    CALL_SURPLUS_NEUTRAL_DAMAGE = 5,
+    CALL_SURPLUS_POISON_DAMAGE = 5,
 };
 """
 
-PATTERN = re.compile(r'Include\("([^"]+)"\)')
+INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')
+JSON_STR_KEY_PATTERN = re.compile(r'"(\d+)":')
 
 
 def remove_include(code):
-    new_code = PATTERN.sub('', code)
+    new_code = INCLUDE_PATTERN.sub('', code)
     return new_code
 
 
@@ -133,27 +137,33 @@ LUA = lupa.LuaRuntime()
 prepare_lua_runtime(LUA)
 
 
-def prepare_data():
-    skills, dots, buffs = {}, {}, {}
-    for skill_id, skill in GENERAL_SKILLS.items():
-        skills[skill_id] = skill
+def save_code(prefix, code):
+    code = json.dumps(code, indent=4, ensure_ascii=False)
+    code = f"{prefix.upper()} = " + JSON_STR_KEY_PATTERN.sub(r'\1:', code)
+    with open(os.path.join(SAVE_DIR, f"{prefix.lower()}.py"), "w", encoding="utf-8") as f:
+        f.write(code)
 
-    for buff_id, buff in GENERAL_BUFFS.items():
-        buffs[buff_id] = buff
+
+def prepare_data():
+    skills, dots, buffs = [], [], []
 
     for school in SUPPORT_SCHOOLS.values():
         for skill_id, skill in school.skills.items():
+            if skill_id in skills or skill_id in dots:
+                continue
             if isinstance(skill, Dot):
-                dots[skill_id] = skill
+                dots.append(skill_id)
             else:
-                skills[skill_id] = skill
+                skills.append(skill_id)
 
         for buff_id, buff in school.buffs.items():
+            if buff_id in buffs:
+                continue
             if isinstance(buff, CustomBuff):
                 continue
             if buff_id < 0:
                 buff_id = -buff_id
-            buffs[buff_id] = buff
+            buffs.append(buff_id)
 
     return skills, dots, buffs
 

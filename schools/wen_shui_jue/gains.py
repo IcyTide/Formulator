@@ -1,9 +1,9 @@
 from typing import Dict
 
 from base.buff import Buff
+from base.gain import Gain
 from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
-from base.gain import Gain
 from schools.wen_shui_jue.buffs import BUFFS
 
 

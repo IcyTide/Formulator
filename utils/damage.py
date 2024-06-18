@@ -53,7 +53,7 @@ def damage_addition_result(damage, damage_addition, damage_addition_extra):
 
 
 @cache
-def overcome_result(damage, overcome, shield_base, shield_gain, shield_ignore, shield_constant):
+def overcome_result(damage, overcome, shield_ignore, shield_base, shield_gain, shield_constant):
     overcome = int(overcome * BINARY_SCALE + BINARY_SCALE)
     defense = defense_result(shield_base, shield_gain, shield_ignore, shield_constant)
     rate = (overcome - int(overcome * defense / BINARY_SCALE)) / BINARY_SCALE

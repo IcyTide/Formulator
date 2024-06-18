@@ -1,6 +1,6 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
 from PySide6.QtWidgets import QAbstractItemView, QTableWidgetItem, QHeaderView, QListView
 from PySide6.QtWidgets import QComboBox, QRadioButton, QLineEdit, QSpinBox, QDoubleSpinBox, QListWidget, QTableWidget
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
 
 
 class LabelWidget(QWidget):
@@ -176,6 +176,7 @@ class DoubleSpinWithLabel(LabelWidget):
 
     def set_value(self, value):
         self.spin_box.setValue(value)
+
 
 class TextWithLabel(LabelWidget):
     def __init__(self, label):

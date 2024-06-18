@@ -1,27 +1,25 @@
 import sys
 
-
 from PySide6.QtGui import QIcon
-
-from qt.components.top import TopWidget
-from qt.scripts.config import config_script
-from qt.scripts.top import top_script
-from qt.components.config import ConfigWidget
-from qt.components.equipments import EquipmentsWidget
-from qt.scripts.equipments import equipments_script
-from qt.components.consumables import ConsumablesWidget
-from qt.scripts.consumables import consumables_script
-from qt.components.talents import TalentsWidget
-from qt.scripts.talents import talents_script
-from qt.components.recipes import RecipesWidget
-from qt.scripts.recipes import recipes_script
-from qt.components.bonuses import BonusesWidget
-from qt.scripts.bonuses import bonuses_script
-from qt.components.dashboard import DashboardWidget
-from qt.scripts.dashboard import dashboard_script
-
 from PySide6.QtWidgets import QApplication, QMainWindow, QStyleFactory
 from PySide6.QtWidgets import QVBoxLayout, QHBoxLayout, QWidget, QTabWidget
+
+from qt.components.bonuses import BonusesWidget
+from qt.components.config import ConfigWidget
+from qt.components.consumables import ConsumablesWidget
+from qt.components.dashboard import DashboardWidget
+from qt.components.equipments import EquipmentsWidget
+from qt.components.recipes import RecipesWidget
+from qt.components.talents import TalentsWidget
+from qt.components.top import TopWidget
+from qt.scripts.bonuses import bonuses_script
+from qt.scripts.config import config_script
+from qt.scripts.consumables import consumables_script
+from qt.scripts.dashboard import dashboard_script
+from qt.scripts.equipments import equipments_script
+from qt.scripts.recipes import recipes_script
+from qt.scripts.talents import talents_script
+from qt.scripts.top import top_script
 
 
 class MainWindow(QMainWindow):

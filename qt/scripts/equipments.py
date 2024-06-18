@@ -1,11 +1,11 @@
 from collections import defaultdict
 from typing import Dict, List, Union, Tuple
 
+from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
+from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
+from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
 from qt.components.equipments import EquipmentsWidget
-from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
-from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
-from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 
 
 class Enchant:
@@ -236,6 +236,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             if special_enchant := widget.special_enchant:
                 special_enchant.radio_button.setChecked(equipments_widget.all_special_enchant.radio_button.isChecked())
                 special_enchant_update(label)()
+
     equipments_widget.all_special_enchant.radio_button.clicked.connect(all_special_enchant_update)
 
     def all_strength_level_update(index):

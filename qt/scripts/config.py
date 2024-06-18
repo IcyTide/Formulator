@@ -4,8 +4,8 @@ import os
 from qt.components import ComboWithLabel, RadioWithLabel, SpinWithLabel
 from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
-from qt.components.equipments import EquipmentsWidget
 from qt.components.consumables import ConsumablesWidget
+from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget

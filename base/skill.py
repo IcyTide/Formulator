@@ -1,9 +1,9 @@
-from base.attribute import Attribute
+from dataclasses import dataclass
+from typing import List, Union
+
+from base.attribute import Attribute, PhysicalAttribute
 from base.constant import *
 from utils.damage import *
-
-from typing import List, Union
-from dataclasses import dataclass
 
 
 class BaseSkill:
@@ -110,9 +110,11 @@ class BaseDamage(BaseSkill):
     PHYSICAL_KINDS = ["Physics"]
     MAGICAL_KINDS = ["SolarMagic", "LunarMagic", "NeutralMagic", "Poison"]
     kind_type: str = ""
-    _physical_call: List[int] = []
-    _magical_call: List[int] = []
-    _surplus_call: List[int] = []
+    _physical_damage_call: List[int] = []
+    _magical_damage_call: List[int] = []
+    _adaptive_damage_call: List[int] = []
+    _physical_surplus_call: List[int] = []
+    _magical_surplus_call: List[int] = []
 
     _physical_damage_base: List[int] = []
     _physical_damage_rand: List[int] = []
@@ -152,59 +154,95 @@ class BaseDamage(BaseSkill):
 
     @property
     def attack_power_call(self):
-        return self.physical_call or self.magical_call
+        return self.physical_damage_call or self.magical_damage_call
+
+    @property
+    def surplus_call(self):
+        return self.physical_surplus_call or self.magical_surplus_call
 
     @property
     def damage_call(self):
         return self.surplus_call or self.attack_power_call
 
     @property
-    def physical_call(self):
-        if not self._physical_call:
+    def physical_damage_call(self):
+        if not self._physical_damage_call:
             return 0
-        if self.skill_level > len(self._physical_call):
-            return self._physical_call[-1]
+        if self.skill_level > len(self._physical_damage_call):
+            return self._physical_damage_call[-1]
         else:
-            return self._physical_call[self.skill_level - 1]
+            return self._physical_damage_call[self.skill_level - 1]
 
-    @physical_call.setter
-    def physical_call(self, physical_call):
-        if isinstance(physical_call, list):
-            self._physical_call = physical_call
+    @physical_damage_call.setter
+    def physical_damage_call(self, physical_damage_call):
+        if isinstance(physical_damage_call, list):
+            self._physical_damage_call = physical_damage_call
         else:
-            self._physical_call = [physical_call]
+            self._physical_damage_call = [physical_damage_call]
 
     @property
-    def magical_call(self):
-        if not self._magical_call:
+    def magical_damage_call(self):
+        if not self._magical_damage_call:
             return 0
-        if self.skill_level > len(self._magical_call):
-            return self._magical_call[-1]
+        if self.skill_level > len(self._magical_damage_call):
+            return self._magical_damage_call[-1]
         else:
-            return self._magical_call[self.skill_level - 1]
+            return self._magical_damage_call[self.skill_level - 1]
 
-    @magical_call.setter
-    def magical_call(self, magical_call):
-        if isinstance(magical_call, list):
-            self._magical_call = magical_call
+    @magical_damage_call.setter
+    def magical_damage_call(self, magical_damage_call):
+        if isinstance(magical_damage_call, list):
+            self._magical_damage_call = magical_damage_call
         else:
-            self._magical_call = [magical_call]
+            self._magical_damage_call = [magical_damage_call]
 
     @property
-    def surplus_call(self):
-        if not self._surplus_call:
+    def adaptive_damage_call(self):
+        if not self._adaptive_damage_call:
             return 0
-        if self.skill_level > len(self._surplus_call):
-            return self._surplus_call[-1]
+        if self.skill_level > len(self._adaptive_damage_call):
+            return self._adaptive_damage_call[-1]
         else:
-            return self._surplus_call[self.skill_level - 1]
+            return self._adaptive_damage_call[self.skill_level - 1]
 
-    @surplus_call.setter
-    def surplus_call(self, surplus_call):
-        if isinstance(surplus_call, list):
-            self._surplus_call = surplus_call
+    @adaptive_damage_call.setter
+    def adaptive_damage_call(self, adaptive_damage_call):
+        if isinstance(adaptive_damage_call, list):
+            self._adaptive_damage_call = adaptive_damage_call
         else:
-            self._surplus_call = [surplus_call]
+            self._adaptive_damage_call = [adaptive_damage_call]
+
+    @property
+    def physical_surplus_call(self):
+        if not self._physical_surplus_call:
+            return 0
+        if self.skill_level > len(self._physical_surplus_call):
+            return self._physical_surplus_call[-1]
+        else:
+            return self._physical_surplus_call[self.skill_level - 1]
+
+    @physical_surplus_call.setter
+    def physical_surplus_call(self, physical_surplus_call):
+        if isinstance(physical_surplus_call, list):
+            self._physical_surplus_call = physical_surplus_call
+        else:
+            self._physical_surplus_call = [physical_surplus_call]
+
+    @property
+    def magical_surplus_call(self):
+        if not self._magical_surplus_call:
+            return 0
+        if self.skill_level > len(self._magical_surplus_call):
+            return self._magical_surplus_call[-1]
+        else:
+            return self._magical_surplus_call[self.skill_level - 1]
+
+    @magical_surplus_call.setter
+    def magical_surplus_call(self, magical_surplus_call):
+        if isinstance(magical_surplus_call, list):
+            self._magical_surplus_call = magical_surplus_call
+        else:
+            self._magical_surplus_call = [magical_surplus_call]
 
     @property
     def physical_damage_base(self):
@@ -489,7 +527,7 @@ class BaseDamage(BaseSkill):
     def magical_attack_power_cof(self):
         return MAGICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
 
-    def pre_damage(self, attribute):
+    def pre_damage(self, attribute: Attribute):
         attribute.global_damage_cof *= self.global_damage_cof
         attribute.physical_attack_power_gain += self.physical_attack_power_gain
         attribute.magical_attack_power_gain += self.magical_attack_power_gain
@@ -497,11 +535,11 @@ class BaseDamage(BaseSkill):
         attribute.magical_critical_strike_rate += self.magical_critical_strike_rate
         attribute.physical_critical_power_rate += self.physical_critical_power_rate
         attribute.magical_critical_power_rate += self.magical_critical_power_rate
-        attribute.physical_shield_gain += self.physical_shield_gain
-        attribute.magical_shield_gain += self.magical_shield_gain
+        attribute.target.physical_shield_gain += self.physical_shield_gain
+        attribute.target.magical_shield_gain += self.magical_shield_gain
         attribute.pve_addition += self.pve_addition
 
-    def post_damage(self, attribute):
+    def post_damage(self, attribute: Attribute):
         attribute.global_damage_cof /= self.global_damage_cof
         attribute.physical_attack_power_gain -= self.physical_attack_power_gain
         attribute.magical_attack_power_gain -= self.magical_attack_power_gain
@@ -509,8 +547,8 @@ class BaseDamage(BaseSkill):
         attribute.magical_critical_strike_rate -= self.magical_critical_strike_rate
         attribute.physical_critical_power_rate -= self.physical_critical_power_rate
         attribute.magical_critical_power_rate -= self.magical_critical_power_rate
-        attribute.physical_shield_gain -= self.physical_shield_gain
-        attribute.magical_shield_gain -= self.magical_shield_gain
+        attribute.target.physical_shield_gain -= self.physical_shield_gain
+        attribute.target.magical_shield_gain -= self.magical_shield_gain
         attribute.pve_addition -= self.pve_addition
 
     def critical_strike(self, attribute: Attribute):
@@ -529,6 +567,66 @@ class BaseDamage(BaseSkill):
         else:
             return attribute.critical_power
 
+    def physical_damage_chain(self, damage: int, attribute: Attribute):
+        damage = damage_addition_result(
+            damage, attribute.physical_damage_addition + self.damage_addition, self.damage_addition_extra
+        )
+        damage = overcome_result(
+            damage, attribute.physical_overcome, attribute.physical_shield_ignore,
+            attribute.target.level_shield_base + attribute.target.physical_shield_base,
+            attribute.target.physical_shield_gain, attribute.target.shield_constant
+        )
+        critical_damage = critical_result(damage, self.critical_power(attribute))
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
+        damage = pve_addition_result(damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        damage = damage_cof_result(damage, attribute.target.physical_damage_cof)
+        critical_damage = damage_cof_result(critical_damage, attribute.target.physical_damage_cof)
+        return damage, critical_damage
+
+    def magical_damage_chain(self, damage: int, attribute: Attribute):
+        damage = damage_addition_result(
+            damage, attribute.magical_damage_addition + self.damage_addition, self.damage_addition_extra
+        )
+        damage = overcome_result(
+            damage, attribute.magical_overcome, attribute.magical_shield_ignore,
+            attribute.target.level_shield_base + attribute.target.magical_shield_base,
+            attribute.target.magical_shield_gain, attribute.target.shield_constant
+        )
+        critical_damage = critical_result(damage, self.critical_power(attribute))
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
+        damage = pve_addition_result(damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        damage = damage_cof_result(damage, attribute.target.magical_damage_cof)
+        critical_damage = damage_cof_result(critical_damage, attribute.target.magical_damage_cof)
+        return damage, critical_damage
+
+    def adaptive_damage_chain(self, damage: int, attribute: Attribute):
+        damage = damage_addition_result(
+            damage, attribute.damage_addition + self.damage_addition, self.damage_addition_extra
+        )
+        damage = overcome_result(
+            damage, attribute.overcome, attribute.shield_ignore,
+            attribute.target.level_shield_base + attribute.target_shield_base,
+            attribute.target_shield_gain, attribute.target.shield_constant
+        )
+        critical_damage = critical_result(damage, self.critical_power(attribute))
+        damage = level_reduction_result(damage, attribute.level_reduction)
+        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
+        damage = strain_result(damage, attribute.strain)
+        critical_damage = strain_result(critical_damage, attribute.strain)
+        damage = pve_addition_result(damage, attribute.pve_addition)
+        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
+        damage = damage_cof_result(damage, attribute.target_damage_cof)
+        critical_damage = damage_cof_result(critical_damage, attribute.target_damage_cof)
+        return damage, critical_damage
+
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
             self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
@@ -536,27 +634,29 @@ class BaseDamage(BaseSkill):
             self.weapon_damage_cof, attribute.weapon_damage,
             0, 0, attribute.global_damage_cof
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(
-            damage, attribute.physical_damage_addition + self.damage_addition, self.damage_addition_extra
+        if damage:
+            return self.physical_damage_chain(damage, attribute)
+        return 0, 0
+
+    def call_adaptive_damage(self, attribute: Attribute):
+        if isinstance(attribute, PhysicalAttribute):
+            damage_base = self.physical_damage_base
+            damage_rand = self.physical_damage_rand
+            attack_power_cof = self.physical_attack_power_cof
+        else:
+            damage_base = self.magical_damage_base
+            damage_rand = self.magical_damage_rand
+            attack_power_cof = self.magical_attack_power_cof
+
+        damage = init_result(
+            damage_base, damage_rand, attribute.damage_gain,
+            attack_power_cof, attribute.attack_power,
+            self.weapon_damage_cof, attribute.weapon_damage,
+            0, 0, attribute.global_damage_cof
         )
-        damage = overcome_result(
-            damage, attribute.physical_overcome, attribute.level_shield_base + attribute.physical_shield_base,
-            attribute.physical_shield_gain, attribute.physical_shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.physical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.physical_damage_cof)
-        damage = vulnerable_result(damage, attribute.physical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.physical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.adaptive_damage_chain(damage, attribute)
+        return 0, 0
 
     def call_magical_damage(self, attribute: Attribute):
         damage = init_result(
@@ -564,69 +664,49 @@ class BaseDamage(BaseSkill):
             self.magical_attack_power_cof, attribute.magical_attack_power,
             0, 0, 0, 0, attribute.global_damage_cof
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(
-            damage, attribute.magical_damage_addition + self.damage_addition, self.damage_addition_extra
-        )
-        damage = overcome_result(
-            damage, attribute.magical_overcome, attribute.level_shield_base + attribute.magical_shield_base,
-            attribute.magical_shield_gain, attribute.magical_shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.magical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.magical_damage_cof)
-        damage = vulnerable_result(damage, attribute.magical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.magical_damage_chain(damage, attribute)
+        return 0, 0
 
-    def call_surplus_damage(self, attribute: Attribute):
+    def call_physical_surplus(self, attribute: Attribute):
         damage = init_result(
             0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus, attribute.global_damage_cof
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(
-            damage, attribute.damage_addition + self.damage_addition, self.damage_addition_extra
+        if damage:
+            return self.physical_damage_chain(damage, attribute)
+        return 0, 0
+
+    def call_magical_surplus(self, attribute: Attribute):
+        damage = init_result(
+            0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus, attribute.global_damage_cof
         )
-        damage = overcome_result(
-            damage, attribute.overcome, attribute.level_shield_base + attribute.shield_base,
-            attribute.shield_gain, attribute.shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.damage_cof)
-        damage = vulnerable_result(damage, attribute.vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.magical_damage_chain(damage, attribute)
+        return 0, 0
 
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)
         total_damage, total_critical_damage = 0, 0
-        if self.physical_call:
+        if self.physical_damage_call:
             damage, critical_damage = self.call_physical_damage(attribute)
-            total_damage += damage * self.physical_call
-            total_critical_damage += critical_damage * self.physical_call
-        if self.magical_call:
+            total_damage += damage * self.physical_damage_call
+            total_critical_damage += critical_damage * self.physical_damage_call
+        if self.magical_damage_call:
             damage, critical_damage = self.call_magical_damage(attribute)
-            total_damage += damage * self.magical_call
-            total_critical_damage += critical_damage * self.magical_call
-        if self.surplus_call:
-            damage, critical_damage = self.call_surplus_damage(attribute)
-            total_damage += damage * self.surplus_call
-            total_critical_damage += critical_damage * self.surplus_call
+            total_damage += damage * self.magical_damage_call
+            total_critical_damage += critical_damage * self.magical_damage_call
+        if self.adaptive_damage_call:
+            damage, critical_damage = self.call_adaptive_damage(attribute)
+            total_damage += damage * self.adaptive_damage_call
+            total_critical_damage += critical_damage * self.adaptive_damage_call
+        if self.physical_surplus_call:
+            damage, critical_damage = self.call_physical_surplus(attribute)
+            total_damage += damage * self.physical_surplus_call
+            total_critical_damage += critical_damage * self.physical_surplus_call
+        if self.magical_surplus_call:
+            damage, critical_damage = self.call_magical_surplus(attribute)
+            total_damage += damage * self.magical_surplus_call
+            total_critical_damage += critical_damage * self.magical_surplus_call
 
         critical_strike = min(self.critical_strike(attribute), 1)
         expected_damage = total_damage * (1 - critical_strike) + total_critical_damage * critical_strike
@@ -786,25 +866,9 @@ class Dot(Skill):
             self.physical_attack_power_cof, attribute.physical_attack_power,
             0, 0, 0, 0, attribute.global_damage_cof, self.skill_stack
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(damage, attribute.physical_damage_addition, self.damage_addition_extra)
-        damage = overcome_result(
-            damage, attribute.physical_overcome, attribute.level_shield_base + attribute.physical_shield_base,
-            attribute.physical_shield_gain, attribute.physical_shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.physical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.physical_damage_cof)
-        damage = vulnerable_result(damage, attribute.physical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.physical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.physical_damage_chain(damage, attribute)
+        return 0, 0
 
     def call_magical_damage(self, attribute: Attribute):
         damage = init_result(
@@ -812,25 +876,9 @@ class Dot(Skill):
             self.magical_attack_power_cof, attribute.magical_attack_power,
             0, 0, 0, 0, attribute.global_damage_cof, self.skill_stack
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(damage, attribute.magical_damage_addition, self.damage_addition_extra)
-        damage = overcome_result(
-            damage, attribute.magical_overcome, attribute.level_shield_base + attribute.magical_shield_base,
-            attribute.magical_shield_gain, attribute.magical_shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.magical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.magical_damage_cof)
-        damage = vulnerable_result(damage, attribute.magical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.magical_damage_chain(damage, attribute)
+        return 0, 0
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.skill_id]
@@ -846,11 +894,11 @@ class Dot(Skill):
     def __call__(self, attribute: Attribute):
         self.bind_skill.pre_damage(attribute)
         total_damage, total_critical_damage = 0, 0
-        if self.physical_call:
+        if self.physical_damage_call:
             damage, critical_damage = self.call_physical_damage(attribute)
             total_damage += damage
             total_critical_damage += critical_damage
-        if self.magical_call:
+        if self.magical_damage_call:
             damage, critical_damage = self.call_magical_damage(attribute)
             total_damage += damage
             total_critical_damage += critical_damage
@@ -868,27 +916,9 @@ class NpcSkill(Skill):
             self.physical_attack_power_cof, attribute.physical_attack_power,
             0, 0, 0, 0, attribute.global_damage_cof
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(
-            damage, attribute.physical_damage_addition + self.damage_addition, self.damage_addition_extra
-        )
-        damage = overcome_result(
-            damage, attribute.physical_overcome, attribute.level_shield_base + attribute.physical_shield_base,
-            attribute.physical_shield_gain, attribute.physical_shield_ignore, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.physical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.physical_damage_cof)
-        damage = vulnerable_result(damage, attribute.physical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.physical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.physical_damage_chain(damage, attribute)
+        return 0, 0
 
 
 class PetSkill(Skill):
@@ -897,28 +927,11 @@ class PetSkill(Skill):
         damage = init_result(
             self.magical_damage_base, self.magical_damage_rand, attribute.damage_gain,
             self.magical_attack_power_cof, attack_power,
-            self.weapon_damage_cof, attribute.weapon_damage,
-            0, 0, attribute.global_damage_cof
+            0, 0, 0, 0, attribute.global_damage_cof
         )
-        if not damage:
-            return 0, 0
-        damage = damage_addition_result(damage, attribute.magical_damage_addition, self.damage_addition_extra)
-        damage = overcome_result(
-            damage, attribute.magical_overcome, attribute.level_shield_base + attribute.magical_shield_base,
-            attribute.magical_shield_gain, 0, attribute.shield_constant
-        )
-        critical_damage = critical_result(damage, self.critical_power(attribute))
-        damage = level_reduction_result(damage, attribute.level_reduction)
-        critical_damage = level_reduction_result(critical_damage, attribute.level_reduction)
-        damage = strain_result(damage, attribute.strain)
-        critical_damage = strain_result(critical_damage, attribute.strain)
-        damage = pve_addition_result(damage, attribute.pve_addition)
-        critical_damage = pve_addition_result(critical_damage, attribute.pve_addition)
-        damage = damage_cof_result(damage, attribute.magical_damage_cof)
-        critical_damage = damage_cof_result(critical_damage, attribute.magical_damage_cof)
-        damage = vulnerable_result(damage, attribute.magical_vulnerable)
-        critical_damage = vulnerable_result(critical_damage, attribute.magical_vulnerable)
-        return damage, critical_damage
+        if damage:
+            return self.magical_damage_chain(damage, attribute)
+        return 0, 0
 
 
 class PureSkill(Skill):
@@ -928,6 +941,6 @@ class PureSkill(Skill):
         damage = init_result(self.damage_base, 0, 0, 0, 0, 0, 0, 0)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
-        damage = damage_cof_result(damage, attribute.damage_cof)
+        damage = damage_cof_result(damage, attribute.target_damage_cof)
 
         return damage, damage, damage, 0

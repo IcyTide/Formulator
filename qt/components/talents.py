@@ -1,9 +1,9 @@
 from typing import List
 
-from qt.components import ComboWithLabel
 from PySide6.QtWidgets import QWidget, QGridLayout
 
 from assets.constant import MAX_TALENTS
+from qt.components import ComboWithLabel
 
 
 class TalentsWidget(QWidget):

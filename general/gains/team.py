@@ -1,5 +1,6 @@
 from base.attribute import Attribute
 from base.gain import Gain
+from general.buffs.team import BUFFS
 
 
 class TeamGain(Gain):
@@ -31,11 +32,11 @@ class 袖气(TeamGain):
 
 
 class 左旋右转(TeamGain):
-    attributes = {"surplus_base": 54}
+    attributes = BUFFS[20938].attributes
 
 
 class 泠风解怀(TeamGain):
-    attributes = {"all_damage_addition": 154}
+    attributes = BUFFS[23573].attributes
 
 
 """ 天策 """
@@ -99,7 +100,7 @@ class 破苍穹:
 
 
 class 剑锋百锻(TeamGain):
-    attributes = {"weapon_damage_gain": 1024}
+    attributes = {"weapon_damage_gain": 1536}
 
 
 """ 五毒 """

@@ -2,8 +2,8 @@ from typing import Dict
 
 from base.buff import Buff
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import MagicalCriticalRecipe
+from base.talent import Talent
 
 
 class 清流(Gain):

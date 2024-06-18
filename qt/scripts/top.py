@@ -2,8 +2,9 @@ import json
 
 from PySide6.QtWidgets import QFileDialog, QWidget
 
+from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
 from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, ZONGZI, CANDY
-from general.gains.formation import FORMATIONS
+from general.gains.formation import FORMATION_GAINS
 from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
 from qt.components.consumables import ConsumablesWidget
@@ -12,11 +13,10 @@ from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
-from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
 from qt.scripts.config import CONFIG
 from schools import SUPPORT_SCHOOLS
-from utils.parser import Parser
 from utils.io import serialize, unserialize
+from utils.parser import Parser
 
 
 def top_script(
@@ -150,7 +150,7 @@ def top_script(
         consumables_widget.candy.set_items([""] + CANDY[school.kind], keep_index=True)
 
         """ Update bonus options """
-        bonus_widget.formation.formation.set_items([""] + FORMATIONS[school.kind] + FORMATIONS[""], keep_index=True)
+        bonus_widget.formation.formation.set_items([""] + list(FORMATION_GAINS), keep_index=True)
         config_widget.show()
         bottom_widget.show()
 

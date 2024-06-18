@@ -3,7 +3,6 @@ from typing import Dict, List
 from base.gain import Gain
 from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe, PveAdditionRecipe
 
-
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "劲风簇": {
         "3%伤害": DamageAdditionRecipe(31, 35659, 35659),

@@ -1,5 +1,37 @@
 BUFFS = {
-    "15455": {
+    15436: {
+        "attributes": {
+            "magical_overcome_base": [
+                207,
+                235,
+                261,
+                406,
+                496,
+                551,
+                614,
+                904,
+                822,
+                999,
+                1098,
+                1218
+            ],
+            "physical_overcome_base": [
+                207,
+                235,
+                261,
+                406,
+                496,
+                551,
+                614,
+                904,
+                822,
+                999,
+                1098,
+                1218
+            ]
+        }
+    },
+    15455: {
         "attributes": {
             "all_damage_addition": [
                 10,
@@ -7,7 +39,7 @@ BUFFS = {
             ]
         }
     },
-    "4761": {
+    4761: {
         "attributes": {
             "physical_attack_power_base": [
                 5,
@@ -721,8 +753,266 @@ BUFFS = {
             "水·封山"
         ]
     },
-    "6360": {
+    6360: {
         "attributes": {
+            "magical_overcome_base": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                336,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                342,
+                0,
+                0,
+                0,
+                0,
+                427,
+                0,
+                0,
+                0,
+                0,
+                1409,
+                0,
+                0,
+                0,
+                0,
+                1491,
+                0,
+                0,
+                0,
+                0,
+                1831,
+                0,
+                0,
+                0,
+                0,
+                1938,
+                0,
+                0,
+                0,
+                0,
+                2113,
+                0,
+                0,
+                0,
+                0,
+                2236,
+                0,
+                0,
+                0,
+                0,
+                2395,
+                0,
+                0,
+                0,
+                0,
+                2534,
+                0,
+                0,
+                0,
+                0,
+                2883,
+                0,
+                0,
+                0,
+                0,
+                3053,
+                0,
+                0,
+                0,
+                0,
+                3845,
+                0,
+                0,
+                0,
+                0,
+                4070,
+                0,
+                0,
+                0,
+                0,
+                4165,
+                0,
+                0,
+                0,
+                4410,
+                0,
+                0,
+                4806,
+                0,
+                0,
+                0,
+                5088,
+                0,
+                0,
+                6408,
+                0,
+                0,
+                0,
+                6784,
+                0,
+                0,
+                8330,
+                0,
+                0,
+                0,
+                8819,
+                0,
+                0,
+                9291,
+                0,
+                0,
+                0,
+                9837,
+                0,
+                0,
+                10573,
+                0,
+                0,
+                0,
+                11194,
+                0
+            ],
+            "physical_overcome_base": [
+                0,
+                0,
+                0,
+                0,
+                384,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                393,
+                0,
+                0,
+                0,
+                0,
+                427,
+                0,
+                0,
+                0,
+                0,
+                1409,
+                0,
+                0,
+                0,
+                0,
+                1491,
+                0,
+                0,
+                0,
+                0,
+                1831,
+                0,
+                0,
+                0,
+                0,
+                1938,
+                0,
+                0,
+                0,
+                0,
+                2113,
+                0,
+                0,
+                0,
+                0,
+                2236,
+                0,
+                0,
+                0,
+                0,
+                2395,
+                0,
+                0,
+                0,
+                0,
+                2534,
+                0,
+                0,
+                0,
+                0,
+                2883,
+                0,
+                0,
+                0,
+                0,
+                3053,
+                0,
+                0,
+                0,
+                0,
+                3845,
+                0,
+                0,
+                0,
+                0,
+                4070,
+                0,
+                0,
+                0,
+                0,
+                4165,
+                0,
+                0,
+                0,
+                4410,
+                0,
+                0,
+                4806,
+                0,
+                0,
+                0,
+                5088,
+                0,
+                0,
+                6408,
+                0,
+                0,
+                0,
+                6784,
+                0,
+                0,
+                8330,
+                0,
+                0,
+                0,
+                8819,
+                0,
+                0,
+                9291,
+                0,
+                0,
+                0,
+                9837,
+                0,
+                0,
+                10573,
+                0,
+                0,
+                0,
+                11194
+            ],
             "physical_attack_power_base": [
                 251,
                 0,
@@ -1754,264 +2044,6 @@ BUFFS = {
                 0,
                 0,
                 0
-            ],
-            "physical_overcome_base": [
-                0,
-                0,
-                0,
-                0,
-                384,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                393,
-                0,
-                0,
-                0,
-                0,
-                427,
-                0,
-                0,
-                0,
-                0,
-                1409,
-                0,
-                0,
-                0,
-                0,
-                1491,
-                0,
-                0,
-                0,
-                0,
-                1831,
-                0,
-                0,
-                0,
-                0,
-                1938,
-                0,
-                0,
-                0,
-                0,
-                2113,
-                0,
-                0,
-                0,
-                0,
-                2236,
-                0,
-                0,
-                0,
-                0,
-                2395,
-                0,
-                0,
-                0,
-                0,
-                2534,
-                0,
-                0,
-                0,
-                0,
-                2883,
-                0,
-                0,
-                0,
-                0,
-                3053,
-                0,
-                0,
-                0,
-                0,
-                3845,
-                0,
-                0,
-                0,
-                0,
-                4070,
-                0,
-                0,
-                0,
-                0,
-                4165,
-                0,
-                0,
-                0,
-                4410,
-                0,
-                0,
-                4806,
-                0,
-                0,
-                0,
-                5088,
-                0,
-                0,
-                6408,
-                0,
-                0,
-                0,
-                6784,
-                0,
-                0,
-                8330,
-                0,
-                0,
-                0,
-                8819,
-                0,
-                0,
-                9291,
-                0,
-                0,
-                0,
-                9837,
-                0,
-                0,
-                10573,
-                0,
-                0,
-                0,
-                11194
-            ],
-            "magical_overcome_base": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                336,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                342,
-                0,
-                0,
-                0,
-                0,
-                427,
-                0,
-                0,
-                0,
-                0,
-                1409,
-                0,
-                0,
-                0,
-                0,
-                1491,
-                0,
-                0,
-                0,
-                0,
-                1831,
-                0,
-                0,
-                0,
-                0,
-                1938,
-                0,
-                0,
-                0,
-                0,
-                2113,
-                0,
-                0,
-                0,
-                0,
-                2236,
-                0,
-                0,
-                0,
-                0,
-                2395,
-                0,
-                0,
-                0,
-                0,
-                2534,
-                0,
-                0,
-                0,
-                0,
-                2883,
-                0,
-                0,
-                0,
-                0,
-                3053,
-                0,
-                0,
-                0,
-                0,
-                3845,
-                0,
-                0,
-                0,
-                0,
-                4070,
-                0,
-                0,
-                0,
-                0,
-                4165,
-                0,
-                0,
-                0,
-                4410,
-                0,
-                0,
-                4806,
-                0,
-                0,
-                0,
-                5088,
-                0,
-                0,
-                6408,
-                0,
-                0,
-                0,
-                6784,
-                0,
-                0,
-                8330,
-                0,
-                0,
-                0,
-                8819,
-                0,
-                0,
-                9291,
-                0,
-                0,
-                0,
-                9837,
-                0,
-                0,
-                10573,
-                0,
-                0,
-                0,
-                11194,
-                0
             ]
         },
         "buff_name": [
@@ -2144,25 +2176,25 @@ BUFFS = {
             "风·斩流"
         ]
     },
-    "920": {
+    920: {
         "attributes": {
             "magical_attack_power_gain": 21
         },
         "buff_name": "天鼓雷音五阵"
     },
-    "935": {
+    935: {
         "attributes": {
             "strength_gain": 10
         },
         "buff_name": "卫公折冲四阵"
     },
-    "936": {
+    936: {
         "attributes": {
             "physical_attack_power_gain": 51
         },
         "buff_name": "卫公折冲五阵"
     },
-    "940": {
+    940: {
         "attributes": {
             "physical_critical_strike_rate": 10000,
             "magical_critical_strike_rate": 10000
@@ -2172,207 +2204,207 @@ BUFFS = {
             "天鼓雷音六阵"
         ]
     },
-    "937": {
+    937: {
         "attributes": {
             "magical_damage_addition": 154
         },
         "buff_name": "七绝逍遥四阵"
     },
-    "943": {
+    943: {
         "attributes": {
             "magical_critical_strike_rate": 100
         },
         "buff_name": "九宫八卦五阵"
     },
-    "949": {
+    949: {
         "attributes": {
             "magical_attack_power_gain": 205
         },
         "buff_name": "九宫八卦六阵"
     },
-    "950": {
+    950: {
         "attributes": {
             "physical_critical_strike_rate": 100
         },
         "buff_name": "北斗七星五阵"
     },
-    "953": {
+    953: {
         "attributes": {
             "physical_attack_power_gain": 205
         },
         "buff_name": "北斗七星六阵"
     },
-    "954": {
+    954: {
         "attributes": {
             "magical_overcome_gain": 307
         },
         "buff_name": "九音惊弦四阵"
     },
-    "955": {
+    955: {
         "attributes": {
             "magical_attack_power_gain": 51
         },
         "buff_name": "九音惊弦五阵"
     },
-    "956": {
+    956: {
         "attributes": {
             "magical_critical_strike_rate": 2000
         },
         "buff_name": "九音惊弦六阵"
     },
-    "1926": {
+    1926: {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
         "buff_name": "获气"
     },
-    "2513": {
+    2513: {
         "attributes": {
             "magical_attack_power_gain": 51
         },
         "buff_name": "万蛊噬心四阵"
     },
-    "2514": {
+    2514: {
         "attributes": {
             "magical_overcome_gain": 102
         },
         "buff_name": "万蛊噬心五阵"
     },
-    "2510": {
+    2510: {
         "attributes": {
             "magical_critical_strike_rate": 2000
         },
         "buff_name": "蚀心"
     },
-    "3308": {
+    3308: {
         "attributes": {
             "physical_critical_strike_rate": 500
         },
         "buff_name": "追命"
     },
-    "3309": {
+    3309: {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
         "buff_name": "肃杀"
     },
-    "3310": {
+    3310: {
         "attributes": {
             "physical_critical_strike_rate": 500,
             "magical_critical_strike_rate": 500
         },
         "buff_name": "千机百变"
     },
-    "4584": {
+    4584: {
         "attributes": {
             "magical_critical_power_rate": 200
         },
         "buff_name": "炎威"
     },
-    "4586": {
+    4586: {
         "attributes": {
             "magical_critical_strike_rate": 1000
         },
         "buff_name": "破魔"
     },
-    "6343": {
+    6343: {
         "attributes": {
             "physical_overcome_gain": 306
         },
         "buff_name": "降龙"
     },
-    "6345": {
+    6345: {
         "attributes": {
             "physical_overcome_base": 770
         },
         "buff_name": "伏虎"
     },
-    "6362": {
+    6362: {
         "attributes": {
             "physical_attack_power_gain": 205
         },
         "buff_name": "风和"
     },
-    "8484": {
+    8484: {
         "attributes": {
             "physical_overcome_gain": 153
         },
         "buff_name": "锋绝"
     },
-    "8403": {
+    8403: {
         "attributes": {
             "physical_critical_power_rate": 20
         },
         "buff_name": "锋凌"
     },
-    "8404": {
+    8404: {
         "attributes": {
             "physical_attack_power_gain": 102
         },
         "buff_name": "横绝"
     },
-    "9486": {
+    9486: {
         "attributes": {
             "magical_critical_power_rate": 205
         },
         "buff_name": "万籁金弦阵"
     },
-    "9492": {
+    9492: {
         "attributes": {
             "magical_critical_strike_rate": 500
         },
         "buff_name": "万籁金弦阵"
     },
-    "9489": {
+    9489: {
         "attributes": {
             "magical_overcome_gain": 102
         },
         "buff_name": "万籁金弦阵"
     },
-    "11158": {
+    11158: {
         "attributes": {
             "physical_critical_strike_rate": 500,
             "magical_critical_strike_rate": 500
         },
         "buff_name": "霜岚洗锋阵"
     },
-    "11159": {
+    11159: {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
         "buff_name": "霜岚洗锋阵"
     },
-    "14092": {
+    14092: {
         "attributes": {
             "physical_attack_power_gain": 72
         },
         "buff_name": "墟海引归阵"
     },
-    "14095": {
+    14095: {
         "attributes": {
             "physical_critical_power_rate": 205
         },
         "buff_name": "墟海引归阵"
     },
-    "15960": {
+    15960: {
         "attributes": {
             "physical_critical_power_rate": 100
         },
         "buff_name": "龙皇雪风四阵"
     },
-    "15961": {
+    15961: {
         "attributes": {
             "physical_attack_power_gain": 102
         },
         "buff_name": "龙皇雪风五阵"
     },
-    "15963": {
+    15963: {
         "attributes": {
             "physical_critical_strike_rate": 1000
         },
         "buff_name": "龙皇雪风六阵"
     },
-    "18336": {
+    18336: {
         "attributes": {
             "magical_attack_power_gain": [
                 10,
@@ -2389,38 +2421,38 @@ BUFFS = {
         },
         "buff_name": "九星游年阵"
     },
-    "18337": {
+    18337: {
         "attributes": {
             "all_damage_addition": 154
         },
         "buff_name": "九星游年阵"
     },
-    "24581": {
+    24581: {
         "attributes": {
             "physical_critical_power_rate": 100
         },
         "buff_name": "横云破锋阵"
     },
-    "27238": {
+    27238: {
         "attributes": {
             "magical_critical_power_rate": 150,
             "physical_critical_power_rate": 150
         },
         "buff_name": "苍梧引灵阵五重"
     },
-    "20938": {
+    20938: {
         "attributes": {
             "surplus_base": 54
         },
         "buff_name": "左旋右转"
     },
-    "23107": {
+    23107: {
         "attributes": {
             "strain_base": 500
         },
         "buff_name": "号令三军"
     },
-    "6363": {
+    6363: {
         "attributes": {
             "physical_attack_power_gain": [
                 205,
@@ -2449,74 +2481,74 @@ BUFFS = {
         },
         "buff_name": "激雷"
     },
-    "10208": {
+    10208: {
         "attributes": {
             "strain_base": 500
         },
         "buff_name": "弘法"
     },
-    "24350": {
+    24350: {
         "attributes": {
             "magical_critical_power_rate": 51,
             "physical_critical_power_rate": 51
         },
         "buff_name": "皎素"
     },
-    "24742": {
+    24742: {
         "attributes": {
             "magical_damage_addition": 123,
             "physical_damage_addition": 123
         },
         "buff_name": "仙王蛊鼎"
     },
-    "4246": {
+    4246: {
         "attributes": {
             "strain_base": 500
         },
         "buff_name": "朝圣"
     },
-    "9744": {
+    9744: {
         "attributes": {
             "strain_base": 875
         },
         "buff_name": "朝圣"
     },
-    "8504": {
+    8504: {
         "attributes": {
-            "physical_overcome_base": 60,
-            "magical_overcome_base": 60
+            "magical_overcome_base": 60,
+            "physical_overcome_base": 60
         },
         "buff_name": "振奋"
     },
-    "10031": {
+    10031: {
         "attributes": {
             "magical_overcome_gain": 204,
             "physical_overcome_gain": 204
         },
         "buff_name": "寒啸千军"
     },
-    "23543": {
+    23543: {
         "attributes": {
             "strain_base": 50
         },
         "buff_name": "庄周梦"
     },
-    "16911": {
+    16911: {
         "attributes": {
-            "physical_overcome_base": 700,
             "magical_overcome_base": 700,
+            "physical_overcome_base": 700,
             "all_shield_ignore": 205
         },
         "buff_name": "弄梅"
     },
-    "11456": {
+    11456: {
         "attributes": {
             "magical_attack_power_gain": 307,
             "physical_attack_power_gain": 307
         },
         "buff_name": "疏狂"
     },
-    "20877": {
+    20877: {
         "attributes": {
             "strength_gain": 10,
             "spirit_gain": 10,
@@ -2525,7 +2557,13 @@ BUFFS = {
         },
         "buff_name": "配伍"
     },
-    "15413": {
+    21236: {
+        "attributes": {
+            "weapon_damage_gain": 1536
+        },
+        "buff_name": "百锻"
+    },
+    15413: {
         "attributes": {
             "physical_attack_power_base": [
                 125,
@@ -2557,12 +2595,12 @@ BUFFS = {
             ]
         }
     },
-    "23573": {
+    23573: {
         "attributes": {
             "all_damage_addition": 154
         }
     },
-    "1436": {
+    1436: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -2579,56 +2617,56 @@ BUFFS = {
         },
         "buff_name": "佛吼"
     },
-    "11979": {
+    11979: {
         "attributes": {
             "magical_attack_power_gain": 308,
             "magical_overcome_gain": 308
         },
         "buff_name": "罗汉金身"
     },
-    "2686": {
+    2686: {
         "attributes": {
             "magical_attack_power_gain": 204
         },
         "buff_name": "擒龙诀"
     },
-    "10023": {
+    10023: {
         "attributes": {
             "all_damage_addition": 102
         },
         "buff_name": "伏魔"
     },
-    "24285": {
+    24285: {
         "attributes": {
             "magical_critical_strike_rate": 600,
             "magical_critical_power_rate": 62
         },
         "buff_name": "金刚日轮"
     },
-    "24453": {
+    24453: {
         "attributes": {
             "surplus_gain": -30
         },
         "buff_name": "贪破"
     },
-    "24288": {
+    24288: {
         "attributes": {},
         "buff_name": "果报"
     },
-    "890": {
+    890: {
         "attributes": {},
         "buff_name": "普渡"
     },
-    "12479": {
+    12479: {
         "attributes": {},
         "buff_name": "普渡"
     },
-    "13910": {
+    13910: {
         "attributes": {
             "all_damage_addition": 205
         }
     },
-    "12590": {
+    12590: {
         "attributes": {
             "magical_attack_power_gain": [
                 82,
@@ -2637,7 +2675,7 @@ BUFFS = {
             ]
         }
     },
-    "19635": {
+    19635: {
         "attributes": {
             "magical_damage_cof": [
                 41,
@@ -2646,11 +2684,11 @@ BUFFS = {
             ]
         }
     },
-    "28296": {
+    28296: {
         "attributes": {},
         "buff_name": "布泽"
     },
-    "1919": {
+    1919: {
         "attributes": {},
         "buff_name": [
             "龙木金藤",
@@ -2662,7 +2700,7 @@ BUFFS = {
             "桑莲妙境"
         ]
     },
-    "1439": {
+    1439: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -2679,7 +2717,7 @@ BUFFS = {
         },
         "buff_name": "气涌"
     },
-    "375": {
+    375: {
         "attributes": {
             "magical_critical_strike_rate": [
                 300,
@@ -2732,33 +2770,33 @@ BUFFS = {
         },
         "buff_name": "破苍穹"
     },
-    "1908": {
+    1908: {
         "attributes": {
             "magical_critical_power_rate": 200
         },
         "buff_name": "会神"
     },
-    "12779": {
+    12779: {
         "attributes": {},
         "buff_name": "气剑"
     },
-    "12780": {
+    12780: {
         "attributes": {},
         "buff_name": "气剑"
     },
-    "12781": {
+    12781: {
         "attributes": {},
         "buff_name": "气剑"
     },
-    "12782": {
+    12782: {
         "attributes": {},
         "buff_name": "气剑"
     },
-    "12783": {
+    12783: {
         "attributes": {},
         "buff_name": "气剑"
     },
-    "2757": {
+    2757: {
         "attributes": {
             "magical_attack_power_gain": [
                 256,
@@ -2789,20 +2827,20 @@ BUFFS = {
         },
         "buff_name": "紫气东来"
     },
-    "9966": {
+    9966: {
         "attributes": {}
     },
-    "17918": {
+    17918: {
         "attributes": {},
         "buff_name": "破势"
     },
-    "12550": {
+    12550: {
         "attributes": {}
     },
-    "12551": {
+    12551: {
         "attributes": {}
     },
-    "1438": {
+    1438: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -2819,7 +2857,7 @@ BUFFS = {
         },
         "buff_name": "剑鸣"
     },
-    "378": {
+    378: {
         "attributes": {
             "physical_attack_power_gain": [
                 18,
@@ -2876,24 +2914,24 @@ BUFFS = {
         },
         "buff_name": "碎星辰"
     },
-    "17933": {
+    17933: {
         "attributes": {
             "physical_critical_power_rate": 154
         },
         "buff_name": "裂云"
     },
-    "9949": {
+    9949: {
         "attributes": {
             "physical_critical_strike_rate": 300,
             "physical_overcome_gain": 204
         },
         "buff_name": "玄门"
     },
-    "14931": {
+    14931: {
         "attributes": {},
         "buff_name": "风逝"
     },
-    "1440": {
+    1440: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -2910,7 +2948,7 @@ BUFFS = {
         },
         "buff_name": "怒叱"
     },
-    "1487": {
+    1487: {
         "attributes": {
             "magical_attack_power_gain": [
                 307,
@@ -2935,42 +2973,42 @@ BUFFS = {
             "布散畅和"
         ]
     },
-    "11809": {
+    11809: {
         "attributes": {
             "all_shield_ignore": 102
         },
         "buff_name": "倚天"
     },
-    "28116": {
+    28116: {
         "attributes": {
             "magical_attack_power_gain": 102,
             "surplus_gain": 102
         },
         "buff_name": "钟灵"
     },
-    "9722": {
+    9722: {
         "attributes": {
             "magical_critical_strike_rate": 160,
             "magical_critical_power_rate": 16
         },
         "buff_name": "涓流"
     },
-    "12588": {
+    12588: {
         "attributes": {
             "all_damage_addition": 102
         }
     },
-    "14636": {
+    14636: {
         "attributes": {}
     },
-    "24599": {
+    24599: {
         "attributes": {
             "magical_attack_power_gain": 102,
             "magical_critical_strike_rate": 600
         },
         "buff_name": "溅玉"
     },
-    "1428": {
+    1428: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -2987,7 +3025,7 @@ BUFFS = {
         },
         "buff_name": "军啸"
     },
-    "6121": {
+    6121: {
         "attributes": {
             "physical_attack_power_gain": [
                 154,
@@ -2996,13 +3034,13 @@ BUFFS = {
         },
         "buff_name": "驰骋"
     },
-    "14981": {
+    14981: {
         "attributes": {
             "all_damage_addition": 307
         },
         "buff_name": "百折"
     },
-    "7671": {
+    7671: {
         "attributes": {
             "physical_critical_strike_rate": [
                 300,
@@ -3019,29 +3057,29 @@ BUFFS = {
         },
         "buff_name": "牧云"
     },
-    "21638": {
+    21638: {
         "attributes": {
             "all_damage_addition": 72
         },
         "buff_name": "龙驭"
     },
-    "2779": {
+    2779: {
         "attributes": {
             "physical_attack_power_gain": 512
         },
         "buff_name": "渊"
     },
-    "28169": {
+    28169: {
         "attributes": {},
         "buff_name": "龙印"
     },
-    "12608": {
+    12608: {
         "attributes": {}
     },
-    "26008": {
+    26008: {
         "attributes": {}
     },
-    "1437": {
+    1437: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3058,7 +3096,7 @@ BUFFS = {
         },
         "buff_name": "嗔怒"
     },
-    "409": {
+    409: {
         "attributes": {
             "magical_attack_power_base": [
                 0,
@@ -3137,14 +3175,14 @@ BUFFS = {
         },
         "buff_name": "剑舞"
     },
-    "10240": {
+    10240: {
         "attributes": {
             "magical_critical_strike_rate": 800,
             "magical_critical_power_rate": 21
         },
         "buff_name": "满堂"
     },
-    "538": {
+    538: {
         "attributes": {
             "magical_attack_power_gain": [
                 154,
@@ -3159,7 +3197,7 @@ BUFFS = {
         },
         "buff_name": "繁音急节"
     },
-    "5788": {
+    5788: {
         "attributes": {
             "all_shield_ignore": [
                 102,
@@ -3168,28 +3206,28 @@ BUFFS = {
         },
         "buff_name": "枕上"
     },
-    "9927": {
+    9927: {
         "attributes": {
             "all_damage_addition": 102
         },
         "buff_name": "夜天"
     },
-    "17969": {
+    17969: {
         "attributes": {
             "pve_addition": 71
         },
         "buff_name": "化冰"
     },
-    "17010": {
+    17010: {
         "attributes": {
             "magical_critical_power_rate": 20
         }
     },
-    "25902": {
+    25902: {
         "attributes": {},
         "buff_name": "流玉"
     },
-    "1955": {
+    1955: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3206,7 +3244,7 @@ BUFFS = {
         },
         "buff_name": "器攻"
     },
-    "1728": {
+    1728: {
         "attributes": {
             "physical_attack_power_gain": [
                 0,
@@ -3268,25 +3306,25 @@ BUFFS = {
         },
         "buff_name": "莺鸣"
     },
-    "22913": {
+    22913: {
         "attributes": {
             "physical_critical_power_rate": 82
         },
         "buff_name": "岱宗"
     },
-    "12317": {
+    12317: {
         "attributes": {
             "all_damage_addition": 102
         },
         "buff_name": "怜光"
     },
-    "9714": {
+    9714: {
         "attributes": {
             "all_shield_ignore": 614
         },
         "buff_name": "雾锁"
     },
-    "26047": {
+    26047: {
         "attributes": {
             "physical_critical_power_rate": [
                 150,
@@ -3296,24 +3334,24 @@ BUFFS = {
         },
         "buff_name": "飞来"
     },
-    "9903": {
+    9903: {
         "attributes": {},
         "buff_name": "造化"
     },
-    "21640": {
+    21640: {
         "attributes": {}
     },
-    "26207": {
+    26207: {
         "attributes": {},
         "buff_name": "碧归"
     },
-    "18008": {
+    18008: {
         "attributes": {
             "physical_critical_strike_rate": 1000
         },
         "buff_name": "闻踪"
     },
-    "2557": {
+    2557: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3330,7 +3368,7 @@ BUFFS = {
         },
         "buff_name": "蛊殇"
     },
-    "2543": {
+    2543: {
         "attributes": {
             "magical_attack_power_gain": [
                 512,
@@ -3339,47 +3377,47 @@ BUFFS = {
         },
         "buff_name": "灵蛇献祭"
     },
-    "12497": {
+    12497: {
         "attributes": {
             "magical_attack_power_gain": 154
         },
         "buff_name": "虫兽"
     },
-    "22232": {
+    22232: {
         "attributes": {
             "all_shield_ignore": 820
         },
         "buff_name": "嗜蛊"
     },
-    "16103": {
+    16103: {
         "attributes": {
             "all_damage_addition": 102
         },
         "buff_name": "引魂"
     },
-    "16543": {
+    16543: {
         "attributes": {
             "pve_addition": 154
         }
     },
-    "17988": {
+    17988: {
         "attributes": {
             "magical_critical_strike_rate": 3000
         }
     },
-    "16102": {
+    16102: {
         "attributes": {
             "magical_attack_power_gain": 410
         }
     },
-    "25769": {
+    25769: {
         "attributes": {},
         "buff_name": "重蛊"
     },
-    "19513": {
+    19513: {
         "attributes": {}
     },
-    "3401": {
+    3401: {
         "attributes": {
             "magical_attack_power_gain": [
                 0,
@@ -3408,95 +3446,95 @@ BUFFS = {
         },
         "buff_name": "神力"
     },
-    "3254": {
+    3254: {
         "attributes": {
             "strength_gain": 20,
             "spunk_gain": 20
         },
         "buff_name": "气魄"
     },
-    "8210": {
+    8210: {
         "attributes": {
             "physical_critical_strike_rate": 1500,
             "physical_critical_power_rate": 300
         },
         "buff_name": "心无旁骛"
     },
-    "9981": {
+    9981: {
         "attributes": {
             "physical_critical_strike_rate": 1000,
             "physical_critical_power_rate": 102
         },
         "buff_name": "秋风散影"
     },
-    "7659": {
+    7659: {
         "attributes": {
             "physical_attack_power_gain": 205
         },
         "buff_name": "命陨"
     },
-    "17103": {
+    17103: {
         "attributes": {}
     },
-    "28225": {
+    28225: {
         "attributes": {},
         "buff_name": "蹑景"
     },
-    "28226": {
+    28226: {
         "attributes": {},
         "buff_name": "蹑景"
     },
-    "28227": {
+    28227: {
         "attributes": {},
         "buff_name": "蹑景"
     },
-    "3316": {
+    3316: {
         "attributes": {
             "magical_attack_power_gain": 512
         },
         "buff_name": "扬威"
     },
-    "6105": {
+    6105: {
         "attributes": {
             "magical_overcome_gain": 154
         },
         "buff_name": "弩心"
     },
-    "10005": {
+    10005: {
         "attributes": {
             "all_shield_ignore": 410
         },
         "buff_name": "催寒"
     },
-    "27457": {
+    27457: {
         "attributes": {}
     },
-    "16234": {
+    16234: {
         "attributes": {},
         "buff_name": "暗藏杀机A"
     },
-    "16235": {
+    16235: {
         "attributes": {},
         "buff_name": "暗藏杀机B"
     },
-    "16236": {
+    16236: {
         "attributes": {},
         "buff_name": "暗藏杀机C"
     },
-    "23081": {
+    23081: {
         "attributes": {
             "all_damage_addition": 205
         }
     },
-    "23082": {
+    23082: {
         "attributes": {}
     },
-    "24668": {
+    24668: {
         "attributes": {
             "all_damage_addition": 103
         }
     },
-    "4671": {
+    4671: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3513,7 +3551,7 @@ BUFFS = {
         },
         "buff_name": "明尊"
     },
-    "4754": {
+    4754: {
         "attributes": {
             "magical_attack_power_gain": [
                 51,
@@ -3522,25 +3560,25 @@ BUFFS = {
         },
         "buff_name": "诛戮"
     },
-    "6277": {
+    6277: {
         "attributes": {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         },
         "buff_name": "无明业火"
     },
-    "12575": {
+    12575: {
         "attributes": {
             "all_shield_ignore": 563
         }
     },
-    "25758": {
+    25758: {
         "attributes": {}
     },
-    "25759": {
+    25759: {
         "attributes": {}
     },
-    "5994": {
+    5994: {
         "attributes": {
             "physical_critical_strike_rate": 2000,
             "all_shield_ignore": [
@@ -3552,7 +3590,7 @@ BUFFS = {
         },
         "buff_name": "酣畅淋漓"
     },
-    "6385": {
+    6385: {
         "attributes": {
             "physical_overcome_gain": [
                 256,
@@ -3561,13 +3599,13 @@ BUFFS = {
         },
         "buff_name": "亢龙·镇慑"
     },
-    "6398": {
+    6398: {
         "attributes": {
             "physical_attack_power_gain": 204
         },
         "buff_name": "亢龙·霆击"
     },
-    "25904": {
+    25904: {
         "attributes": {
             "all_damage_addition": [
                 82,
@@ -3585,13 +3623,13 @@ BUFFS = {
             "蛟影·易损"
         ]
     },
-    "6377": {
+    6377: {
         "attributes": {
             "physical_attack_power_gain": 154
         },
         "buff_name": "无疆"
     },
-    "12356": {
+    12356: {
         "attributes": {
             "all_damage_addition": [
                 51,
@@ -3602,19 +3640,19 @@ BUFFS = {
         },
         "buff_name": "盈久"
     },
-    "9719": {
+    9719: {
         "attributes": {
             "physical_critical_power_rate": 123
         },
         "buff_name": "酒中仙"
     },
-    "10221": {
+    10221: {
         "attributes": {
             "all_damage_addition": 31
         },
         "buff_name": "青龙"
     },
-    "8244": {
+    8244: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3626,35 +3664,35 @@ BUFFS = {
         },
         "buff_name": "血怒"
     },
-    "17176": {
+    17176: {
         "attributes": {
             "all_damage_addition": 51
         },
         "buff_name": "分野"
     },
-    "8267": {
+    8267: {
         "attributes": {
             "physical_critical_strike_rate": 300
         },
         "buff_name": "恋战"
     },
-    "14309": {
+    14309: {
         "attributes": {
             "physical_overcome_gain": 154
         },
         "buff_name": "锋鸣"
     },
-    "8451": {
+    8451: {
         "attributes": {},
         "buff_name": "狂绝"
     },
-    "27161": {
+    27161: {
         "attributes": {
             "physical_attack_power_gain": 102
         },
         "buff_name": "血怒·惊涌"
     },
-    "16957": {
+    16957: {
         "attributes": {
             "physical_attack_power_base": [
                 5,
@@ -3665,7 +3703,7 @@ BUFFS = {
         },
         "buff_name": "单刀赴会·战"
     },
-    "25937": {
+    25937: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3676,12 +3714,12 @@ BUFFS = {
             ]
         }
     },
-    "8627": {
+    8627: {
         "attributes": {
             "physical_attack_power_gain": 154
         }
     },
-    "8474": {
+    8474: {
         "attributes": {
             "physical_shield_gain": [
                 0,
@@ -3733,20 +3771,20 @@ BUFFS = {
             "致远"
         ]
     },
-    "26212": {
+    26212: {
         "attributes": {},
         "buff_name": "麟黯"
     },
-    "8248": {
+    8248: {
         "attributes": {
             "physical_shield_gain": -51
         },
         "buff_name": "虚弱"
     },
-    "9052": {
+    9052: {
         "attributes": {}
     },
-    "9586": {
+    9586: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3763,19 +3801,19 @@ BUFFS = {
         },
         "buff_name": "挥散"
     },
-    "9437": {
+    9437: {
         "attributes": {
             "magical_attack_power_gain": 102
         },
         "buff_name": "参连"
     },
-    "23101": {
+    23101: {
         "attributes": {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 102
         }
     },
-    "25997": {
+    25997: {
         "attributes": {
             "magical_critical_power_rate": [
                 102,
@@ -3785,20 +3823,20 @@ BUFFS = {
         },
         "buff_name": "知音妙意"
     },
-    "12576": {
+    12576: {
         "attributes": {
             "all_damage_addition": 51
         }
     },
-    "9433": {
+    9433: {
         "attributes": {},
         "buff_name": "阳春白雪"
     },
-    "9495": {
+    9495: {
         "attributes": {},
         "buff_name": "明津"
     },
-    "11378": {
+    11378: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3815,24 +3853,24 @@ BUFFS = {
         },
         "buff_name": "朔气"
     },
-    "18384": {
+    18384: {
         "attributes": {
             "physical_critical_strike_rate": 1000,
             "physical_critical_power_rate": 102
         },
         "buff_name": "含风"
     },
-    "14972": {
+    14972: {
         "attributes": {
             "all_damage_addition": 205
         },
         "buff_name": "爆体"
     },
-    "23066": {
+    23066: {
         "attributes": {},
         "buff_name": "含风"
     },
-    "14353": {
+    14353: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3849,7 +3887,7 @@ BUFFS = {
         },
         "buff_name": "羽念"
     },
-    "14083": {
+    14083: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3858,7 +3896,7 @@ BUFFS = {
         },
         "buff_name": "太息"
     },
-    "13560": {
+    13560: {
         "attributes": {
             "physical_overcome_gain": [
                 0,
@@ -3868,28 +3906,28 @@ BUFFS = {
         },
         "buff_name": "翼绝云天"
     },
-    "17094": {
+    17094: {
         "attributes": {
             "physical_critical_strike_rate": 1500,
             "physical_critical_power_rate": 205
         },
         "buff_name": "鸿轨"
     },
-    "13966": {
+    13966: {
         "attributes": {
             "all_shield_ignore": 205
         },
         "buff_name": "梦悠"
     },
-    "14321": {
+    14321: {
         "attributes": {},
         "buff_name": "飓风加掌法伤害"
     },
-    "14317": {
+    14317: {
         "attributes": {},
         "buff_name": "神降"
     },
-    "16025": {
+    16025: {
         "attributes": {
             "physical_attack_power_gain": [
                 102,
@@ -3906,38 +3944,38 @@ BUFFS = {
         },
         "buff_name": "雷引"
     },
-    "15893": {
+    15893: {
         "attributes": {
             "physical_attack_power_gain": 256
         },
         "buff_name": "忘断"
     },
-    "15932": {
+    15932: {
         "attributes": {
             "all_shield_ignore": 512
         },
         "buff_name": "徵逐"
     },
-    "16596": {
+    16596: {
         "attributes": {
             "physical_attack_power_gain": 154,
             "physical_critical_strike_rate": 1500,
             "physical_critical_power_rate": 150
         }
     },
-    "15927": {
+    15927: {
         "attributes": {}
     },
-    "15928": {
+    15928: {
         "attributes": {}
     },
-    "15929": {
+    15929: {
         "attributes": {}
     },
-    "15832": {
+    15832: {
         "attributes": {}
     },
-    "18555": {
+    18555: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3954,31 +3992,31 @@ BUFFS = {
         },
         "buff_name": "星悬"
     },
-    "18021": {
+    18021: {
         "attributes": {
             "all_shield_ignore": 512
         },
         "buff_name": "荧入白"
     },
-    "18174": {
+    18174: {
         "attributes": {
             "magical_attack_power_gain": 308
         },
         "buff_name": "鬼遁"
     },
-    "28303": {
+    28303: {
         "attributes": {},
         "buff_name": "重山·一"
     },
-    "28304": {
+    28304: {
         "attributes": {},
         "buff_name": "重山·二"
     },
-    "28305": {
+    28305: {
         "attributes": {},
         "buff_name": "重山·三"
     },
-    "21758": {
+    21758: {
         "attributes": {
             "magical_attack_power_gain": [
                 102,
@@ -3995,31 +4033,31 @@ BUFFS = {
         },
         "buff_name": "断肠"
     },
-    "20680": {
+    20680: {
         "attributes": {
             "magical_attack_power_gain": 154
         },
         "buff_name": "相使"
     },
-    "20696": {
+    20696: {
         "attributes": {
             "all_shield_ignore": 512
         },
         "buff_name": "凄骨"
     },
-    "20699": {
+    20699: {
         "attributes": {
             "magical_overcome_gain": 256,
             "strain_gain": 307
         }
     },
-    "21168": {
+    21168: {
         "attributes": {}
     },
-    "24659": {
+    24659: {
         "attributes": {}
     },
-    "24553": {
+    24553: {
         "attributes": {
             "physical_critical_strike_rate": [
                 0,
@@ -4042,33 +4080,33 @@ BUFFS = {
         },
         "buff_name": "灭影追风"
     },
-    "24209": {
+    24209: {
         "attributes": {
             "all_shield_ignore": 256
         },
         "buff_name": "流岚"
     },
-    "24557": {
+    24557: {
         "attributes": {},
         "buff_name": "戗风"
     },
-    "24180": {
+    24180: {
         "attributes": {}
     },
-    "26857": {
+    26857: {
         "attributes": {
             "all_damage_addition": 62
         },
         "buff_name": "承契"
     },
-    "27099": {
+    27099: {
         "attributes": {
             "physical_attack_power_gain": 102,
             "all_shield_ignore": 205
         },
         "buff_name": "诸怀"
     },
-    "27406": {
+    27406: {
         "attributes": {
             "all_damage_addition": -307
         }

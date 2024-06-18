@@ -2,9 +2,8 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import DamageAdditionRecipe, ExtraDamageAdditionRecipe
-from base.skill import Skill
+from base.talent import Talent
 
 
 class 王师(Gain):

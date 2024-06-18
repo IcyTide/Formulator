@@ -1,6 +1,7 @@
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
+
 from general.gains.team import TEAM_GAIN_LIMIT
 from qt.components import ComboWithLabel, SpinWithLabel, RadioWithLabel
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
 
 
 class FormationWidget(QWidget):

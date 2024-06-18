@@ -3,9 +3,9 @@ from typing import Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import ExtraTickRecipe
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 彤弓(Gain):

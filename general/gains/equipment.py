@@ -91,10 +91,7 @@ class WindPendant(EquipmentGain):
 
 
 class 大附魔帽(EquipmentGain):
-    attributes = dict(
-        physical_overcome_base=[0] * 8 + [822, 999, 1098, 1218],
-        magical_overcome_base=[0] * 8 + [822, 999, 1098, 1218]
-    )
+    attributes = BUFFS[15436].attributes
 
 
 class 大附魔衣(EquipmentGain):

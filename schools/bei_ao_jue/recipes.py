@@ -1,9 +1,8 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
-
+from base.talent import Talent
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "雷走风切": {

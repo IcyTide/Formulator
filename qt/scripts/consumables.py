@@ -1,7 +1,6 @@
+from general.consumables import CONSUMABLES
 from qt.components import ComboWithLabel, RadioWithLabel
 from qt.components.consumables import ConsumablesWidget
-
-from general.consumables import CONSUMABLES
 
 
 class Consumables(dict):

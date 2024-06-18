@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTabWidget
 
-from qt.components import ComboWithLabel, DoubleSpinWithLabel, LabelWithLabel, TableWithLabel
 from base.constant import SHIELD_BASE_MAP
+from qt.components import ComboWithLabel, DoubleSpinWithLabel, LabelWithLabel, TableWithLabel
 
 
 class DetailWidget(QWidget):

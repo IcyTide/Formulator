@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from typing import Dict, List, Union, Tuple
+from typing import Dict, List, Union
 
-from base.attribute import Attribute
+from base.attribute import Attribute, Target
 from base.skill import Skill
 
 ATTR_DICT = Dict[str, Union[List[int], int]]
@@ -203,6 +203,14 @@ class Buff(BaseBuff):
         if snapshot:
             for values in self.gains:
                 self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
+
+
+class TargetBuff(Buff):
+    def add_all(self, attribute: Attribute, skill: Skill):
+        super().add_all(attribute.target, skill)
+
+    def sub_all(self, attribute: Attribute, skill: Skill):
+        super().sub_all(attribute.target, skill)
 
 
 class CustomBuff(Buff):

@@ -1,12 +1,12 @@
+from collections import defaultdict
 from copy import copy
 from dataclasses import dataclass
-from collections import defaultdict
 from typing import Dict
 
 from base.attribute import Attribute
 from base.constant import FRAME_PER_SECOND
 from base.skill import Skill, Dot, NpcSkill, PetSkill
-from utils.parser import School
+from schools import School
 
 
 @dataclass

@@ -1,6 +1,7 @@
+from PySide6.QtWidgets import QWidget, QGridLayout
+
 from general.consumables import BOILED_FISH, GUILD_FOOD, GUILD_SPREAD
 from qt.components import ComboWithLabel, RadioWithLabel
-from PySide6.QtWidgets import QWidget, QGridLayout
 
 
 class ConsumablesWidget(QWidget):
@@ -43,7 +44,7 @@ class ConsumablesWidget(QWidget):
         self.spread = ComboWithLabel("宴席")
         self.consumables['spread'] = self.spread
         layout.addWidget(self.spread, 2, 2)
-        self.boiled_fish = ComboWithLabel("水煮鱼",  items=[""] + BOILED_FISH[""])
+        self.boiled_fish = ComboWithLabel("水煮鱼", items=[""] + BOILED_FISH[""])
         self.consumables['boiled_fish'] = self.boiled_fish
         layout.addWidget(self.boiled_fish, 2, 3)
 

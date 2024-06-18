@@ -1,9 +1,11 @@
 from typing import Dict
 
+from assets.setter import set_buff
+from base.buff import Buff, CustomBuff
 from base.gain import Gain
 from base.recipe import DamageAdditionRecipe
-from base.buff import Buff, CustomBuff
 from base.skill import Skill
+from general.buffs import GENERAL_BUFFS
 
 
 class 战心(Gain):
@@ -28,10 +30,11 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         -1: dict(buff_name="战意", max_stack=5),
     }
 }
-BUFFS: Dict[int, Buff] = {}
+BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
         for attr, value in attrs.items():
             setattr(buff, attr, value)
+        set_buff(buff)
         BUFFS[buff_id] = buff

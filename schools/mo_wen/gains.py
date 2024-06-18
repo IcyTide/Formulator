@@ -1,6 +1,6 @@
+from base.gain import Gain
 from base.recipe import DamageAdditionRecipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
-from base.gain import Gain
 from schools.mo_wen.buffs import BUFFS
 
 GAINS = {

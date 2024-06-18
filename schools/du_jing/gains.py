@@ -1,6 +1,6 @@
+from base.gain import Gain
 from base.recipe import ChannelIntervalRecipe, DamageAdditionRecipe, CriticalStrikeRecipe
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
-from base.gain import Gain
 from schools.du_jing.buffs import BUFFS
 from schools.du_jing.recipes import 蝎心伤害提高
 

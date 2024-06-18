@@ -1,8 +1,7 @@
 from typing import Dict
 
-from base.talent import Talent
 from base.recipe import DamageAdditionRecipe
-
+from base.talent import Talent
 
 TALENT_GAINS: Dict[int, Talent] = {
     6812: Talent("玄黄", [DamageAdditionRecipe(102, 0, 5638)]),

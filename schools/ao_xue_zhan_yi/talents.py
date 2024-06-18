@@ -2,9 +2,9 @@ from typing import Dict
 
 from base.buff import Buff
 from base.gain import Gain
-from base.talent import Talent
 from base.recipe import DamageAdditionRecipe, PhysicalCriticalRecipe
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 风虎(Gain):

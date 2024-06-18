@@ -1,9 +1,7 @@
-import json
-import os.path
+from tqdm import tqdm
 
 from assets.constant import ATTR_TYPE_MAP
 from tools import *
-from tqdm import tqdm
 
 MAX_ATTRIB = 15
 
@@ -60,8 +58,7 @@ def convert_json(result):
             else:
                 result_dict[column] = filter_column.tolist()
 
-    with open(os.path.join(SAVE_DIR, "buffs.py"), "w", encoding="utf-8") as f:
-        f.write(f"BUFFS = {json.dumps(result_json, indent=4, ensure_ascii=False)}")
+    save_code("buffs", result_json)
 
 
 if __name__ == '__main__':

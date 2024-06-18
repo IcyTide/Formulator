@@ -1,7 +1,6 @@
-import json
+from tqdm import tqdm
 
 from tools import *
-from tqdm import tqdm
 
 SCRIPTS_PATH = "scripts/skill"
 
@@ -36,9 +35,11 @@ class SkillLua:
     magical_shield_gain = 0
     pve_addition = 0
 
-    physical_call = 0
-    magical_call = 0
-    surplus_call = 0
+    physical_damage_call = 0
+    magical_damage_call = 0
+    adaptive_damage_call = 0
+    physical_surplus_call = 0
+    magical_surplus_call = 0
 
     @staticmethod
     def empty_function(*args):
@@ -113,17 +114,21 @@ class SkillLua:
         if self.weapon_request:
             self.weapon_damage_cof = nWeaponDamagePercent
 
-    def AddAttribute(self, effect_mode, attr_type, *params):
-        if not params:
+    def AddAttribute(self, *args):
+        if len(args) < 3:
             return
 
-        param = params[0]
+        attr_type, param = args[1], args[2]
         if attr_type == 1:
-            self.physical_call += 1
+            self.physical_damage_call += 1
         elif attr_type == 2:
-            self.magical_call += 1
+            self.magical_damage_call += 1
         elif attr_type == 3:
-            self.surplus_call += 1
+            self.adaptive_damage_call += 1
+        elif attr_type == 4:
+            self.physical_surplus_call += 1
+        elif attr_type == 5:
+            self.magical_surplus_call += 1
 
         if attr := ATTRIBUTE_TYPE.get(attr_type):
             setattr(self, attr, param)
@@ -165,7 +170,7 @@ def collect_result():
                 skill_id, skill_level, skill_name, kind_type, recipe_type, weapon_request, use_skill_cof
             )
             LUA.globals()['GetSkillLevelData'](skill)
-            if not skill.physical_call and skill.weapon_damage_cof:
+            if not skill.physical_damage_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof
             result.append(skill.__dict__.copy())
     return pd.DataFrame(result)
@@ -179,8 +184,9 @@ def convert_json(result):
         "physical_damage_base", "magical_damage_base", "physical_damage_rand", "magical_damage_rand",
         "physical_attack_power_gain", "physical_critical_strike_rate", "physical_critical_power_rate",
         "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
-        "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition",
-        "damage_addition", "physical_call", "magical_call", "surplus_call"
+        "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition", "damage_addition",
+        "physical_damage_call", "magical_damage_call", "adaptive_damage_call",
+        "physical_surplus_call", "magical_surplus_call"
     ]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():
@@ -205,8 +211,7 @@ def convert_json(result):
             else:
                 result_json[skill_id][column] = filter_column.tolist()
 
-    with open(os.path.join(SAVE_DIR, "skills.py"), "w", encoding="utf-8") as f:
-        f.write(f"SKILLS = {json.dumps(result_json, indent=4, ensure_ascii=False)}")
+    save_code("skills", result_json)
 
 
 if __name__ == '__main__':

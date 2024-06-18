@@ -1,8 +1,8 @@
 from typing import Dict
 
 from base.gain import Gain
-from base.talent import Talent
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 飞帆(Gain):

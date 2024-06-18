@@ -3,8 +3,8 @@ from typing import Dict
 from base.attribute import Attribute
 from base.gain import Gain
 from base.recipe import DamageAdditionRecipe, ChannelIntervalRecipe
-from base.talent import Talent
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 冥鼓(Gain):

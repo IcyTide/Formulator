@@ -26,6 +26,7 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
             bonuses[None] = RealBonusGain()
         else:
             bonuses.pop(None, None)
+
     bonuses_widget.real_formulation.radio_button.clicked.connect(real_bonus_gain)
 
     def formation_update(_):

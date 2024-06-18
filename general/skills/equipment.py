@@ -1,5 +1,6 @@
 from typing import Dict
 
+from assets.setter import set_skill
 from base.skill import Skill, PureSkill
 
 GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
@@ -20,4 +21,5 @@ for skill_class, skills in GENERAL_SKILLS.items():
         skill.activate = False
         for attr, value in attrs.items():
             setattr(skill, attr, value)
+        set_skill(skill)
         SKILLS[skill_id] = skill

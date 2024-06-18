@@ -1,8 +1,6 @@
-import json
-import os.path
+from tqdm import tqdm
 
 from tools import *
-from tqdm import tqdm
 
 MAX_ATTRIB = 2
 
@@ -16,10 +14,10 @@ def parse_dot(row):
 
         if attr == "atCallPhysicsDamage":
             result["damage_base"] = int(param_1)
-            result["physical_call"] = 1
+            result["physical_damage_call"] = 1
         elif attr in ["atCallSolarDamage", "atCallLunarDamage", "atCallNeutralDamage", "atCallPoisonDamage"]:
             result["damage_base"] = int(param_1)
-            result["magical_call"] = 1
+            result["magical_damage_call"] = 1
         # elif attr in ATTR_TYPE_MAP:
         #     if "attributes" not in result:
         #         result["attributes"] = {}
@@ -72,8 +70,7 @@ def convert_json(result):
             else:
                 result_json[skill_id][column] = filter_column.tolist()
 
-    with open(os.path.join(SAVE_DIR, "dots.py"), "w", encoding="utf-8") as f:
-        f.write(f"DOTS = {json.dumps(result_json, indent=4, ensure_ascii=False)}")
+    save_code("dots", result_json)
 
 
 if __name__ == '__main__':

@@ -1,6 +1,5 @@
-from qt.components.recipes import RecipesWidget
-
 from assets.constant import MAX_RECIPE_SKILLS, MAX_RECIPES
+from qt.components.recipes import RecipesWidget
 
 
 class Recipes:

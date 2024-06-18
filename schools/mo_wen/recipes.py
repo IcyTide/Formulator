@@ -3,7 +3,6 @@ from typing import Dict, List
 from base.gain import Gain
 from base.recipe import ChannelIntervalRecipe, DamageAdditionRecipe, CriticalStrikeRecipe
 
-
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "宫": {
         "4%伤害": DamageAdditionRecipe(41, 14064, 14064),

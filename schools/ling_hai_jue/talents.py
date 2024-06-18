@@ -2,9 +2,9 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
-from base.talent import Talent
-from base.recipe import PhysicalCriticalRecipe, DamageAdditionRecipe, PveAdditionRecipe
 from base.gain import Gain
+from base.recipe import PhysicalCriticalRecipe, DamageAdditionRecipe, PveAdditionRecipe
+from base.talent import Talent
 
 
 class 神降(Gain):

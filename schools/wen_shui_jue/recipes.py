@@ -4,7 +4,6 @@ from base.gain import Gain
 from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 from base.talent import Talent
 
-
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "九溪弥烟": {
         "5%伤害": DamageAdditionRecipe(51, 1579, 1579),
@@ -53,7 +52,6 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "3%会心": CriticalStrikeRecipe(300, 1646, 1646),
         "2%会心": CriticalStrikeRecipe(200, 1646, 1646),
     },
-
 
 }
 

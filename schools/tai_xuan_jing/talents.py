@@ -1,10 +1,10 @@
 from typing import Dict
 
 from base.attribute import Attribute
-from base.talent import Talent
-from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
 from base.gain import Gain
+from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
 from base.skill import Skill
+from base.talent import Talent
 
 
 class 重山(Gain):

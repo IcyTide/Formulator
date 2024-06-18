@@ -42,6 +42,7 @@ SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 ATTR_TYPE_MAP = dict(
     atMeleeWeaponDamageBase="weapon_damage_base",
     atMeleeWeaponDamageRand="weapon_damage_rand",
+    atMeleeWeaponDamagePercent="weapon_damage_gain",
     atBasePotentialAdd="all_major_base",
 
     atAgilityBase="agility_base",
@@ -118,7 +119,7 @@ ATTR_TYPE_MAP = dict(
     atNeutralCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
     atSolarAndLunarCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
     atPoisonCriticalDamagePowerBaseKiloNumRate="magical_critical_power_rate",
-    
+
     atSurplusValueBase="surplus_base",
     atSurplusValueAddPercent="surplus_gain",
 

@@ -1,7 +1,7 @@
-from qt.components import ListWithLabel
 from PySide6.QtWidgets import QWidget, QGridLayout
 
 from assets.constant import MAX_RECIPE_SKILLS
+from qt.components import ListWithLabel
 
 
 class RecipesWidget(QWidget):

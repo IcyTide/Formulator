@@ -1,13 +1,13 @@
 from typing import Dict
 
-from qt.components.dashboard import DashboardWidget
 from assets.constant import ATTR_TYPE_TRANSLATE
+from qt.components.dashboard import DashboardWidget
 from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
-from qt.scripts.top import Parser
 from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
+from qt.scripts.top import Parser
 from schools.wen_shui_jue.gains import SecondaryWeapon
 from utils.analyzer import analyze_details, Detail
 
@@ -60,7 +60,7 @@ def dashboard_script(parser: Parser,
         school = parser.current_school
 
         attribute = school.attribute()
-        attribute.target_level = int(dashboard_widget.target_level.combo_box.currentText())
+        attribute.target.level = int(dashboard_widget.target_level.combo_box.currentText())
         for attr, value in equipments.attrs.items():
             setattr(attribute, attr, getattr(attribute, attr) + value)
 

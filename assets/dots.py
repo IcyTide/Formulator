@@ -1,5 +1,5 @@
 DOTS = {
-    "743": {
+    743: {
         "skill_name": "横扫六合(DOT)",
         "interval": 32,
         "tick": 6,
@@ -123,17 +123,17 @@ DOTS = {
             43,
             45
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "6424": {
+    6424: {
         "skill_name": "气竭(DOT)",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
         "damage_base": 50,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "748": {
+    748: {
         "skill_name": "叠刃(DOT)",
         "interval": 48,
         "tick": 8,
@@ -142,25 +142,25 @@ DOTS = {
             7
         ],
         "damage_base": 10,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "889": {
+    889: {
         "skill_name": "人剑合一(DOT)",
         "interval": 48,
         "tick": 4,
         "max_stack": 1,
         "damage_base": 16,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "23170": {
+    23170: {
         "skill_name": "万象归元(DOT)",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
         "damage_base": 10,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "711": {
+    711: {
         "skill_name": "兰摧玉折(DOT)",
         "interval": 48,
         "tick": 6,
@@ -186,9 +186,9 @@ DOTS = {
             29,
             30
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "714": {
+    714: {
         "skill_name": "钟林毓秀(DOT)",
         "interval": 48,
         "tick": 6,
@@ -219,9 +219,9 @@ DOTS = {
             36,
             38
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "666": {
+    666: {
         "skill_name": "商阳指(DOT)",
         "interval": 48,
         "tick": 6,
@@ -257,56 +257,17 @@ DOTS = {
             48,
             50
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "24158": {
+    24158: {
         "skill_name": "快雪时晴(DOT)",
         "interval": 64,
         "tick": 7,
         "max_stack": 6,
         "damage_base": 38,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "3442": {
-        "skill_name": "流血(DOT)",
-        "interval": 32,
-        "tick": 7,
-        "max_stack": 2,
-        "damage_base": [
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            24,
-            26,
-            28,
-            30,
-            32,
-            34,
-            36,
-            38,
-            40,
-            42,
-            44,
-            46,
-            48,
-            50,
-            52,
-            54,
-            56,
-            58,
-            60
-        ],
-        "physical_call": 1
-    },
-    "12461": {
+    12461: {
         "skill_name": "流血(DOT)",
         "interval": 32,
         "tick": 7,
@@ -343,9 +304,9 @@ DOTS = {
             58,
             60
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "2920": {
+    2920: {
         "skill_name": "急曲(DOT)",
         "interval": 48,
         "tick": 6,
@@ -380,9 +341,9 @@ DOTS = {
             96,
             100
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "6218": {
+    6218: {
         "skill_name": "蝎心(DOT)",
         "interval": 32,
         "tick": 6,
@@ -420,9 +381,9 @@ DOTS = {
             77,
             80
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "2509": {
+    2509: {
         "skill_name": "百足(DOT)",
         "interval": 48,
         "tick": 6,
@@ -463,9 +424,9 @@ DOTS = {
             89,
             92
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "2295": {
+    2295: {
         "skill_name": "蟾啸(DOT)",
         "interval": 32,
         "tick": 7,
@@ -498,25 +459,25 @@ DOTS = {
             48,
             50
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "18882": {
+    18882: {
         "skill_name": "赤蛇(DOT)",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
         "damage_base": 20,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "25917": {
+    25917: {
         "skill_name": "蛇影(DOT)",
         "interval": 32,
         "tick": 6,
         "max_stack": 2,
         "damage_base": 55,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "2237": {
+    2237: {
         "skill_name": "穿心(DOT)",
         "interval": 48,
         "tick": 6,
@@ -552,17 +513,17 @@ DOTS = {
             95,
             100
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "19625": {
+    19625: {
         "skill_name": "星斗阑干(DOT)",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "14611": {
+    14611: {
         "skill_name": "化血(DOT)",
         "interval": 48,
         "tick": 16,
@@ -598,9 +559,9 @@ DOTS = {
             95,
             100
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "4202": {
+    4202: {
         "skill_name": "银月斩(DOT)",
         "interval": 32,
         "tick": 9,
@@ -625,25 +586,25 @@ DOTS = {
             53,
             55
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "25725": {
+    25725: {
         "skill_name": "靡业报劫·日(DOT)",
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
         "damage_base": 30,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "25726": {
+    25726: {
         "skill_name": "靡业报劫·月(DOT)",
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
         "damage_base": 30,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "6401": {
+    6401: {
         "skill_name": "亢龙有悔(DOT)",
         "interval": 48,
         "tick": 10,
@@ -670,9 +631,9 @@ DOTS = {
             30,
             33
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "8249": {
+    8249: {
         "skill_name": "流血(DOT)",
         "interval": [
             32,
@@ -906,9 +867,9 @@ DOTS = {
             57,
             60
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "9357": {
+    9357: {
         "skill_name": "商(DOT)",
         "interval": 48,
         "tick": 6,
@@ -940,9 +901,9 @@ DOTS = {
             56,
             58
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "9361": {
+    9361: {
         "skill_name": "角(DOT)",
         "interval": 48,
         "tick": 6,
@@ -974,17 +935,17 @@ DOTS = {
             56,
             58
         ],
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "23187": {
+    23187: {
         "skill_name": "神兵·宫(DOT)",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
         "damage_base": 58,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "11447": {
+    11447: {
         "skill_name": "闹须弥(DOT)",
         "interval": 48,
         "tick": 8,
@@ -1001,76 +962,57 @@ DOTS = {
             49,
             52
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "19555": {
+    19555: {
         "skill_name": "背水沉舟(DOT)",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "18386": {
+    18386: {
         "skill_name": "青冥(DOT)",
         "interval": 32,
         "tick": 6,
         "max_stack": 6,
         "damage_base": 50,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "19557": {
+    19557: {
         "skill_name": "御波驾澜(DOT)",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "15568": {
+    15568: {
         "skill_name": "寂洪荒(DOT)",
         "interval": 48,
         "tick": 5,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "19626": {
+    19626: {
         "skill_name": "乍起狂澜(DOT)",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "24846": {
+    24846: {
         "skill_name": "斗循天转(DOT)",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
         "damage_base": 15,
-        "magical_call": 1
+        "magical_damage_call": 1
     },
-    "20052": {
-        "skill_name": "逆乱(DOT)",
-        "interval": 32,
-        "tick": 7,
-        "max_stack": 8,
-        "damage_base": [
-            10,
-            12,
-            15,
-            21,
-            28,
-            35,
-            46,
-            62,
-            74,
-            95
-        ],
-        "magical_call": 1
-    },
-    "24132": {
+    24132: {
         "skill_name": "流血(DOT)",
         "interval": 32,
         "tick": 3,
@@ -1094,9 +1036,9 @@ DOTS = {
             102,
             108
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "24443": {
+    24443: {
         "skill_name": "流血(DOT)",
         "interval": 32,
         "tick": 3,
@@ -1120,22 +1062,22 @@ DOTS = {
             108,
             114
         ],
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "27820": {
+    27820: {
         "skill_name": "斩浪破锋(DOT)",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
         "damage_base": 25,
-        "physical_call": 1
+        "physical_damage_call": 1
     },
-    "26856": {
+    26856: {
         "skill_name": "贯穿(DOT)",
         "interval": 8,
         "tick": 4,
         "max_stack": 6,
         "damage_base": 32,
-        "physical_call": 1
+        "physical_damage_call": 1
     }
 }
