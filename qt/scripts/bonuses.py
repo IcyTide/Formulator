@@ -32,23 +32,24 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     def formation_update(_):
         widget = bonuses_widget.formation
         formation = widget.formation.combo_box.currentText()
-        core_rate = widget.core_rate.spin_box.value()
-        formation_rate = widget.rate.spin_box.value()
-
+        rates = [rate.spin_box.value() for rate in widget.rates]
         if formation == parser.current_school.formation:
-            widget.core_rate.show()
+            widget.rates[0].show()
+            widget.rates[-1].show()
         else:
-            core_rate = 0
-            widget.core_rate.hide()
+            rates[0] = 0
+            widget.rates[0].hide()
+            rates[-1] = 0
+            widget.rates[-1].hide()
 
         if formation:
-            bonuses['formation'] = FORMATION_GAINS[formation](formation_rate, core_rate)
+            bonuses['formation'] = FORMATION_GAINS[formation](rates)
         else:
             bonuses.pop("formation", None)
 
     bonuses_widget.formation.formation.combo_box.currentTextChanged.connect(formation_update)
-    bonuses_widget.formation.core_rate.spin_box.valueChanged.connect(formation_update)
-    bonuses_widget.formation.rate.spin_box.valueChanged.connect(formation_update)
+    for rate_widget in bonuses_widget.formation.rates:
+        rate_widget.spin_box.valueChanged.connect(formation_update)
 
     def radio_update(label):
         widget = bonuses_widget.team_gains[label]

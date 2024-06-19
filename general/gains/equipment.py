@@ -5,6 +5,7 @@ from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
 from general.buffs.equipment import BUFFS
+from general.skills.equipment import SKILLS
 
 
 class EquipmentGain(Gain):
@@ -96,8 +97,8 @@ class 大附魔帽(EquipmentGain):
 
 class 大附魔衣(EquipmentGain):
     attributes = dict(
-        physical_attack_power_base=[0] * 8 + [371, 450, 495, 549],
-        magical_attack_power_base=[0] * 8 + [442, 538, 591, 655]
+        physical_attack_power_base=SKILLS[22151].physical_attack_power_base,
+        magical_attack_power_base=SKILLS[22151].magical_attack_power_base
     )
 
 

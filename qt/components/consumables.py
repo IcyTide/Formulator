@@ -48,12 +48,12 @@ class ConsumablesWidget(QWidget):
         self.consumables['boiled_fish'] = self.boiled_fish
         layout.addWidget(self.boiled_fish, 2, 3)
 
-        self.zongzi = ComboWithLabel("端午节粽子")
-        self.consumables['zongzi'] = self.zongzi
-        layout.addWidget(self.zongzi, 3, 0)
-        self.candy = ComboWithLabel("儿童节糖果")
-        self.consumables['candy'] = self.candy
-        layout.addWidget(self.candy, 3, 1)
+        # self.zongzi = ComboWithLabel("端午节粽子")
+        # self.consumables['zongzi'] = self.zongzi
+        # layout.addWidget(self.zongzi, 3, 0)
+        # self.candy = ComboWithLabel("儿童节糖果")
+        # self.consumables['candy'] = self.candy
+        # layout.addWidget(self.candy, 3, 1)
 
     def __getitem__(self, item) -> [ComboWithLabel, RadioWithLabel]:
         return self.consumables[item]

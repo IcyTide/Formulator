@@ -135,7 +135,7 @@ class SpinWithLabel(LabelWidget):
             self.spin_box.setMinimum(minimum)
 
         if maximum:
-            self.spin_box.setMaximum(maximum + 1)
+            self.spin_box.setMaximum(maximum)
         else:
             self.spin_box.setMaximum(10 ** 8)
 

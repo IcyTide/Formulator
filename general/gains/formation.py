@@ -1,223 +1,28 @@
+from typing import List
+
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
+from general.buffs.formation import BUFFS, GAINS
 
 
 class FormationGain(Gain):
-    attributes: dict = {}
-    core_attributes: dict = {}
-    rate_attributes: dict = {}
+    attributes: List[dict] = None
+    rates: List[float] = None
 
-    def __init__(self, rate=0, core_rate=0):
+    def __init__(self, rates):
         super().__init__()
-        self.rate = rate / 100
-        self.core_rate = core_rate / 100
+        self.rates = [1] + [rate / 100 for rate in rates]
 
     def add_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + value)
-        for attr, value in self.core_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + int(value * self.core_rate))
-        for attr, value in self.rate_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate))
+        for attributes, rate in zip(self.attributes, self.rates):
+            for attr, value in attributes.items():
+                setattr(attribute, attr, getattr(attribute, attr) + int(value * rate))
 
     def sub_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - value)
-        for attr, value in self.core_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - int(value * self.core_rate))
-        for attr, value in self.rate_attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate))
-
-
-class 九音惊弦阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 50,
-        "magical_critical_strike_rate": 300,
-        "magical_critical_power_rate": 51,
-    }
-    core_attributes = {"magical_overcome_gain": 307}
-    rate_attributes = {"magical_attack_power_gain": 50}
-
-
-class 七绝逍遥阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "magical_overcome_gain": 300
-    }
-
-
-class 卫公折冲阵(FormationGain):
-    attributes = {
-        "physical_attack_power_gain": 50,
-        "physical_overcome_gain": 200
-    }
-    core_attributes = {"strength_gain": 10 * 5}
-    rate_attributes = {"physical_attack_power_gain": 51}
-
-
-class 天鼓雷音阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "strain_rate": 20,
-        "magical_overcome_gain": 102
-    }
-    rate_attributes = {"magical_attack_power_gain": 21 * 5}
-
-
-class 北斗七星阵(FormationGain):
-    attributes = {
-        "physical_critical_strike_rate": 300,
-        "strain_rate": 20,
-        "physical_critical_power_rate": 150
-    }
-    rate_attributes = {"physical_critical_strike_rate": 100 * 5}
-
-
-class 九宫八卦阵(FormationGain):
-    attributes = {
-        "magical_critical_strike_rate": 300,
-        "strain_rate": 20,
-        "magical_critical_power_rate": 154
-    }
-    rate_attributes = {"magical_critical_strike_rate": 100 * 5}
-
-
-class 依山观澜阵(FormationGain):
-    attributes = {
-        "agility_gain": 30,
-        "physical_attack_power_gain": 51,
-        "physical_critical_power_rate": 204
-    }
-
-
-class 万蛊噬心阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "magical_critical_strike_rate": 300,
-        "magical_critical_power_rate": 102
-    }
-    core_attributes = {"magical_attack_power_gain": 51}
-    rate_attributes = {"magical_overcome_gain": 102}
-
-
-class 流星赶月阵(FormationGain):
-    attributes = {
-        "strength_gain": 30,
-        "strain_rate": 20,
-        "physical_overcome_gain": 205
-    }
-    rate_attributes = {"physical_critical_strike_rate": 500}
-
-
-class 千机百变阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "all_shield_ignore": 52,
-        "all_critical_power_rate": 150
-    }
-    rate_attributes = {"all_critical_strike_rate": 500}
-
-
-class 炎威破魔阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "magical_critical_strike_rate": 300,
-    }
-    core_attributes = {"magical_critical_power_rate": 200}
-    rate_attributes = {"magical_critical_strike_rate": 1000}
-
-
-class 降龙伏虎阵(FormationGain):
-    attributes = {
-        "physical_attack_power_gain": 50,
-        "physical_overcome_gain": 102
-    }
-    core_attributes = {"physical_overcome_gain": 306}
-    rate_attributes = {"physical_overcome_base": 770 * 5}
-
-
-class 锋凌横绝阵(FormationGain):
-    attributes = {
-        "physical_critical_strike_rate": 300,
-        "strain_rate": 20,
-    }
-    core_attributes = {"physical_overcome_gain": 153}
-    rate_attributes = {"physical_critical_power_rate": 20 * 5}
-
-
-class 万籁金弦阵(FormationGain):
-    attributes = {
-        "magical_critical_strike_rate": 300,
-        "strain_rate": 20,
-        "magical_attack_power_gain": 102
-    }
-    core_attributes = {"magical_critical_power_rate": 205}
-    rate_attributes = {"magical_critical_strike_rate": 500}
-
-
-class 霜岚洗锋阵(FormationGain):
-    attributes = {
-        "physical_attack_power_gain": 50,
-        "strain_rate": 20,
-        "physical_overcome_gain": 102,
-    }
-    rate_attributes = {"all_critical_strike_rate": 500}
-
-
-class 墟海引归阵(FormationGain):
-    attributes = {
-        "physical_critical_strike_rate": 300,
-        "physical_attack_power_gain": 133,
-        "physical_overcome_gain": 102
-    }
-    core_attributes = {"physical_attack_power_gain": 51}
-
-
-class 龙皇雪风阵(FormationGain):
-    attributes = {
-        "physical_critical_strike_rate": 300,
-        "physical_attack_power_gain": 50,
-        "physical_critical_power_rate": 154,
-    }
-    core_attributes = {"physical_critical_power_rate": 100}
-    rate_attributes = {"physical_attack_power_gain": 102}
-
-
-class 九星游年阵(FormationGain):
-    values = [102, 92, 82, 71, 61, 51, 41, 31, 20, 10]
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "strain_rate": 20,
-        "magical_critical_power_rate": 100
-    }
-    core_attributes = {"magical_critical_power_rate": sum(values) / len(values)}
-    rate_attributes = {"all_damage_addition": int(154 / 2)}
-
-
-class 乱暮浊茵阵(FormationGain):
-    attributes = {
-        "magical_attack_power_gain": 51,
-        "all_damage_addition": 31,
-        "all_critical_strike_rate": 300
-    }
-
-
-class 横云破锋阵(FormationGain):
-    attributes = {
-        "physical_attack_power_gain": 50,
-        "surplus_base": 1516,
-        "physical_overcome_gain": 256
-    }
-    core_attributes = {"physical_critical_power_rate": 100}
-
-
-class 苍梧引灵阵(FormationGain):
-    attributes = {
-        "all_critical_strike_rate": 300,
-        "strain_rate": 20,
-        "all_damage_addition": 62,
-    }
-    rate_attributes = {"all_critical_power_rate": 150}
+        for attributes, rate in zip(self.attributes, self.rates):
+            for attr, value in attributes.items():
+                setattr(attribute, attr, getattr(attribute, attr) - int(value * rate))
 
 
 FORMATIONS = {
@@ -231,6 +36,8 @@ FORMATIONS = {
         "乱暮浊茵阵"
     ]
 }
+
+
 # FORMATION_GAIN_NAMES = {
 #     "九音惊弦阵": "九音惊弦阵(5%内攻3%内会5%内功会效/5%内攻)",
 #     "七绝逍遥阵": "七绝逍遥阵(5%内攻30%内破)",
@@ -254,8 +61,136 @@ FORMATIONS = {
 #     "横云破锋阵": "横云破锋阵(5%外攻1516破招25%外破)",
 #     "苍梧引灵阵": "苍梧引灵阵(3%会心2%无双6%伤害增加/15%会效)",
 # }
+def create_formation_gain(buff: Buff, attributes: List[dict]):
+    return buff.buff_name, type(buff.buff_name, (FormationGain,), dict(attributes=attributes))
 
-FORMATION_GAINS = {
-    formation: globals()[formation]
-    for formations in FORMATIONS.values() for formation in formations
-}
+
+FORMATION_GAINS = [
+    create_formation_gain(GAINS[918], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[919].attributes.items()},
+        {},
+        {k: v * BUFFS[920].max_stack for k, v in BUFFS[920].attributes.items()},
+        BUFFS[940].attributes
+    ]),
+    create_formation_gain(GAINS[929], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[919].attributes.items()},
+        {k: v * BUFFS[935].max_stack for k, v in BUFFS[935].attributes.items()},
+        BUFFS[936].attributes,
+        BUFFS[940].attributes
+    ]),
+    create_formation_gain(GAINS[933], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[934].attributes.items()},
+        BUFFS[937].attributes,
+        {},
+        {}
+    ]),
+    create_formation_gain(GAINS[931], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[938].attributes.items()},
+        {},
+        {k: v * BUFFS[943].max_stack for k, v in BUFFS[943].attributes.items()},
+        BUFFS[949].attributes
+    ]),
+    create_formation_gain(GAINS[946], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[947].attributes.items()},
+        {},
+        {k: v * BUFFS[950].max_stack for k, v in BUFFS[950].attributes.items()},
+        BUFFS[953].attributes
+    ]),
+    create_formation_gain(GAINS[951], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[952].attributes.items()},
+        BUFFS[954].attributes,
+        BUFFS[955].attributes,
+        BUFFS[956].attributes
+    ]),
+    create_formation_gain(GAINS[1923], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[1924].attributes.items()},
+        {},
+        {},
+        BUFFS[1926].attributes
+    ]),
+    create_formation_gain(GAINS[2511], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[2512].attributes.items()},
+        BUFFS[2513].attributes,
+        BUFFS[2514].attributes,
+        BUFFS[2510].attributes
+    ]),
+    create_formation_gain(GAINS[3302], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[3306].attributes.items()},
+        {},
+        BUFFS[3308].attributes,
+        BUFFS[3309].attributes
+    ]),
+    create_formation_gain(GAINS[3303], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[3307].attributes.items()},
+        {},
+        BUFFS[3310].attributes,
+        {}
+    ]),
+    create_formation_gain(GAINS[4577], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[4579].attributes.items()},
+        BUFFS[4584].attributes,
+        BUFFS[4586].attributes,
+        {}
+    ]),
+    create_formation_gain(GAINS[6340], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[6342].attributes.items()},
+        BUFFS[6343].attributes,
+        {k: v * BUFFS[6345].max_stack for k, v in BUFFS[6345].attributes.items()},
+        BUFFS[6362].attributes
+    ]),
+    create_formation_gain(GAINS[8401], [
+        GAINS[8402].attributes,
+        BUFFS[8484].attributes,
+        {k: v * BUFFS[8403].max_stack for k, v in BUFFS[8403].attributes.items()},
+        BUFFS[8404].attributes
+    ]),
+    create_formation_gain(GAINS[9484], [
+        GAINS[9485].attributes,
+        BUFFS[9486].attributes,
+        BUFFS[9492].attributes,
+        BUFFS[9489].attributes
+    ]),
+    create_formation_gain(GAINS[10953], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[10954].attributes.items()},
+        {},
+        BUFFS[11158].attributes,
+        BUFFS[11159].attributes
+    ]),
+    create_formation_gain(GAINS[14072], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[14074].attributes.items()},
+        BUFFS[14092].attributes,
+        {},
+        BUFFS[14095].attributes
+    ]),
+    create_formation_gain(GAINS[15955], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[15957].attributes.items()},
+        BUFFS[15960].attributes,
+        BUFFS[15961].attributes,
+        BUFFS[15963].attributes
+    ]),
+    create_formation_gain(GAINS[18334], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[18335].attributes.items()},
+        {k: sum(v) / len(v) for k, v in BUFFS[18336].attributes.items()},
+        {k: v / 2 for k, v in BUFFS[18337].attributes.items()},
+        {}
+    ]),
+    create_formation_gain(GAINS[21034], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[21035].attributes.items()},
+        {},
+        {},
+        {}
+    ]),
+    create_formation_gain(GAINS[24577], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[24578].attributes.items()},
+        BUFFS[24581].attributes,
+        {},
+        {}
+    ]),
+    create_formation_gain(GAINS[27235], [
+        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[27236].attributes.items()},
+        {},
+        BUFFS[27238].attributes,
+        {}
+    ])
+]
+FORMATION_GAINS = {k: v for k, v in FORMATION_GAINS}

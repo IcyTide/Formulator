@@ -186,7 +186,8 @@ def convert_json(result):
         "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
         "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition", "damage_addition",
         "physical_damage_call", "magical_damage_call", "adaptive_damage_call",
-        "physical_surplus_call", "magical_surplus_call"
+        "physical_surplus_call", "magical_surplus_call",
+        "physical_attack_power_base", "magical_attack_power_base"
     ]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():

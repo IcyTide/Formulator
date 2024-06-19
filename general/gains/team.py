@@ -1,11 +1,11 @@
 from base.attribute import Attribute
+from base.buff import Buff
 from base.gain import Gain
-from general.buffs.team import BUFFS
+from general.buffs.team import BUFFS, GAINS
 
 
 class TeamGain(Gain):
     attributes: dict = {}
-    variety_values: dict = {}
 
     def __init__(self, rate=100, stack=1, variety=None):
         super().__init__()
@@ -14,218 +14,68 @@ class TeamGain(Gain):
         self.variety = variety
 
     def add_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes.items():
-            value = (value + self.variety_values.get(self.variety, 0))
+        if self.variety:
+            attributes = self.attributes.get(self.variety, {})
+        else:
+            attributes = self.attributes
+        for attr, value in attributes.items():
             setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate * self.stack))
 
     def sub_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes.items():
-            value = value + self.variety_values.get(self.variety, 0)
+        if self.variety:
+            attributes = self.attributes.get(self.variety, {})
+        else:
+            attributes = self.attributes
+        for attr, value in attributes.items():
             setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate * self.stack))
 
 
-""" 七秀 """
-
-
-class 袖气(TeamGain):
-    attributes = {"all_major_base": 244}
-
-
-class 左旋右转(TeamGain):
-    attributes = BUFFS[20938].attributes
-
-
-class 泠风解怀(TeamGain):
-    attributes = BUFFS[23573].attributes
-
-
-""" 天策 """
-
-
-class 撼如雷(TeamGain):
-    attributes = {"physical_attack_power_gain": 51}
-
-
-class 破风(TeamGain):
-    attributes = {"physical_shield_base": -1150}
-    variety_values = {"劲风": -1397 + 1150}
-
-
-class 乘龙箭(TeamGain):
-    attributes = {"physical_shield_gain": -102}
-
-
-class 号令三军(TeamGain):
-    attributes = {"strain_base": (500 + 500 / 2) / 2}
-
-
-class 激雷(TeamGain):
-    attributes = {"physical_attack_power_gain": 205, "physical_overcome_gain": 205}
-
-
-""" 少林 """
-
-
-class 立地成佛(TeamGain):
-    attributes = {"magical_shield_gain": -30 * 5}
-
-
-class 舍身弘法(TeamGain):
-    attributes = {"strain_base": 500}
-
-
-""" 万花 """
-
-
-class 秋肃(TeamGain):
-    attributes = {"all_damage_cof": 61}
-
-
-class 皎素(TeamGain):
-    attributes = {"all_critical_power_rate": 51}
-
-
-""" 纯阳 """
-
-
-class 碎星辰(TeamGain):
-    attributes = {"physical_critical_power_rate": 100}
-
-
-class 破苍穹:
-    attributes = {"magical_critical_power_rate": 100}
-
-
-""" 藏剑 """
-
-
-class 剑锋百锻(TeamGain):
-    attributes = {"weapon_damage_gain": 1536}
-
-
-""" 五毒 """
-
-
-class 仙王蛊鼎(TeamGain):
-    attributes = {"all_damage_addition": 123}
-
-
-""" 明教 """
-
-
-class 戒火(TeamGain):
-    attributes = {"all_damage_cof": 21}
-
-
-class 朝圣言(TeamGain):
-    attributes = {"strain_base": 500}
-    variety_values = {"圣浴明心": 875 - 500}
-
-
-""" 丐帮 """
-
-
-class 酒中仙(TeamGain):
-    attributes = {"physical_critical_strike_rate": 100}
-
-
-""" 苍云 """
-
-
-class 虚弱(TeamGain):
-    attributes = {"physical_shield_gain": -51}
-
-
-class 振奋(TeamGain):
-    attributes = {"physical_overcome_base": 60, "magical_overcome_base": 60}
-
-
-class 寒啸千军(TeamGain):
-    attributes = {"physical_overcome_gain": 204, "magical_overcome_gain": 204}
-
-
-""" 长歌 """
-
-
-class 庄周梦(TeamGain):
-    attributes = {"strain_base": 50}
-
-
-class 弄梅(TeamGain):
-    attributes = {"all_shield_ignore": 205, "physical_overcome_base": 700, "magical_overcome_base": 700}
-
-
-""" 霸刀 """
-
-
-class 疏狂(TeamGain):
-    attributes = {"physical_attack_power_gain": 307, "magical_attack_power_gain": 307}
-
-
-""" 药宗 """
-
-
-class 配伍(TeamGain):
-    attributes = {"all_major_gain": 10 * 5}
-
-
-TEAM_GAIN_LIMIT = {
-    "左旋右转": {
-        "stack": 150
-    },
-    "号令三军": {
-        "stack": 48
-    },
-    "舍身弘法": {
-        "stack": 36
-    },
-    "朝圣言": {
-        "stack": 24
-    },
-    "振奋": {
-        "stack": 125
-    },
-    "庄周梦": {
-        "stack": 200
-    }
-}
-TEAM_GAINS = {
-    "袖气": 袖气,
-    "左旋右转": 左旋右转,
-    "泠风解怀": 泠风解怀,
-
-    "撼如雷": 撼如雷,
-    "破风": 破风,
-    "乘龙箭": 乘龙箭,
-    "号令三军": 号令三军,
-    "激雷": 激雷,
-
-    "立地成佛": 立地成佛,
-    "舍身弘法": 舍身弘法,
-
-    "秋肃": 秋肃,
-    "皎素": 皎素,
-
-    "碎星辰": 碎星辰,
-    "破苍穹": 破苍穹,
-
-    "剑锋百锻": 剑锋百锻,
-
-    "仙王蛊鼎": 仙王蛊鼎,
-
-    "戒火": 戒火,
-    "朝圣言": 朝圣言,
-
-    "酒中仙": 酒中仙,
-
-    "虚弱": 虚弱,
-    "振奋": 振奋,
-    "寒啸千军": 寒啸千军,
-
-    "庄周梦": 庄周梦,
-    "弄梅": 弄梅,
-
-    "疏狂": 疏狂,
-
-    "配伍": 配伍,
-}
+class TargetTeamGain(TeamGain):
+    def add_attribute(self, attribute: Attribute):
+        super().add_attribute(attribute.target)
+
+    def sub_attribute(self, attribute: Attribute):
+        super().sub_attribute(attribute.target)
+
+
+def create_team_gain(buff: Buff, base_class, attributes):
+    return buff.buff_name, type(buff.buff_name, (base_class,), dict(attributes=attributes))
+
+
+TEAM_GAINS = [
+    create_team_gain(GAINS[673], TeamGain, {k: v[-1] for k, v in GAINS[673].attributes.items()}),
+    create_team_gain(BUFFS[20938], TeamGain, BUFFS[20938].attributes),
+    create_team_gain(BUFFS[23573], TeamGain, BUFFS[23573].attributes),
+    create_team_gain(GAINS[362], TeamGain, {k: v[-1] for k, v in GAINS[362].attributes.items()}),
+    create_team_gain(GAINS[661], TargetTeamGain, {
+        GAINS[661].buff_name: {k: v[-1] for k, v in GAINS[661].attributes.items()},
+        GAINS[12717].buff_name: {k: v[-1] for k, v in GAINS[12717].attributes.items()}
+    }),
+    create_team_gain(GAINS[3465], TargetTeamGain, GAINS[3465].attributes),
+    create_team_gain(BUFFS[23107], TeamGain, {k: (v + v / 2) / 2 for k, v in BUFFS[23107].attributes.items()}),
+    create_team_gain(BUFFS[6363], TeamGain, {k: v[0] for k, v in BUFFS[6363].attributes.items()}),
+    create_team_gain(GAINS[566], TargetTeamGain, {
+        k: v[-1] * GAINS[566].max_stack for k, v in GAINS[566].attributes.items()
+    }),
+    create_team_gain(BUFFS[10208], TeamGain, BUFFS[10208].attributes),
+    create_team_gain(GAINS[23305], TargetTeamGain, GAINS[23305].attributes),
+    create_team_gain(BUFFS[24350], TeamGain, BUFFS[24350].attributes),
+    create_team_gain(GAINS[378], TeamGain, {k: v[7 - 1] for k, v in GAINS[378].attributes.items()}),
+    create_team_gain(GAINS[375], TeamGain, {k: v[5 - 1] for k, v in GAINS[375].attributes.items()}),
+    create_team_gain(BUFFS[21236], TeamGain, BUFFS[21236].attributes),
+    create_team_gain(BUFFS[24742], TeamGain, BUFFS[24742].attributes),
+    create_team_gain(GAINS[4058], TargetTeamGain, {k: v[0] for k, v in GAINS[4058].attributes.items()}),
+    create_team_gain(BUFFS[4246], TeamGain, {
+        BUFFS[4246].buff_name: BUFFS[4246].attributes,
+        BUFFS[9744].buff_name: BUFFS[9744].attributes
+    }),
+    create_team_gain(GAINS[7180], TeamGain, GAINS[7180].attributes),
+    create_team_gain(GAINS[8248], TargetTeamGain, GAINS[8248].attributes),
+    create_team_gain(BUFFS[8504], TeamGain, BUFFS[8504].attributes),
+    create_team_gain(BUFFS[10031], TeamGain, BUFFS[10031].attributes),
+    create_team_gain(BUFFS[23543], TeamGain, BUFFS[23543].attributes),
+    create_team_gain(BUFFS[16911], TeamGain, BUFFS[16911].attributes),
+    create_team_gain(BUFFS[11456], TeamGain, BUFFS[11456].attributes),
+    create_team_gain(BUFFS[20877], TeamGain, BUFFS[20877].attributes)
+]
+TEAM_GAINS = {k: v for k, v in TEAM_GAINS}

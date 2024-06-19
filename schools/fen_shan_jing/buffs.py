@@ -23,7 +23,7 @@ BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
+        set_buff(buff)
         for attr, value in attrs.items():
             setattr(buff, attr, value)
-        set_buff(buff)
         BUFFS[buff_id] = buff

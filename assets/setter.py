@@ -20,5 +20,4 @@ def set_buff(buff: Buff):
     if buff_id < 0:
         buff_id = -buff_id
     for attr, value in BUFFS.get(buff_id, {}).items():
-        if not getattr(buff, attr):
-            setattr(buff, attr, value)
+        setattr(buff, attr, value)

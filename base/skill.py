@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List, Union
+from typing import List
 
 from base.attribute import Attribute, PhysicalAttribute
 from base.constant import *
@@ -7,7 +7,7 @@ from utils.damage import *
 
 
 class BaseSkill:
-    _skill_name: Union[List[str], str] = ""
+    _skill_name: List[str] = None
     skill_level: int = 0
     skill_stack: int = 1
 
@@ -15,7 +15,6 @@ class BaseSkill:
     def skill_name(self):
         if not self._skill_name:
             return ""
-
         if self.skill_level > len(self._skill_name):
             return self._skill_name[-1]
         else:
@@ -133,6 +132,8 @@ class BaseDamage(BaseSkill):
     damage_addition: int = 0
     damage_addition_extra: int = 0
 
+    physical_attack_power_base: List[int] = []
+    magical_attack_power_base: List[int] = []
     _physical_attack_power_gain: List[int] = []
     physical_attack_power_gain_extra: int = 0
     _magical_attack_power_gain: List[int] = []

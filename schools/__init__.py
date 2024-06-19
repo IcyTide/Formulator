@@ -44,7 +44,7 @@ class School:
 
 
 GENERAL_DISPLAY_ATTRS = {
-    "weapon_damage_base": "基础武器伤害",
+    "base_weapon_damage": "基础武器伤害",
     "weapon_damage_rand": "浮动武器伤害",
     "strain_base": "无双等级",
     "strain": "无双",

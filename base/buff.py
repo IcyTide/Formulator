@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List, Union
 
-from base.attribute import Attribute, Target
+from base.attribute import Attribute
 from base.skill import Skill
 
 ATTR_DICT = Dict[str, Union[List[int], int]]
@@ -15,18 +15,17 @@ class BaseBuff:
         "attack_power", "critical_power", "overcome", "surplus", "strain", "damage_addition", "pve_addition"
     ]
 
-    _buff_name: Union[List[str], str] = ""
     buff_level: int = 0
     buff_stack: int = 1
+    _buff_name: List[str] = None
 
-    max_stack: int = 1
+    _max_stack: List[int] = None
     interval: int = 0
 
     @property
     def buff_name(self):
-        if not isinstance(self._buff_name, list):
+        if not self._buff_name:
             return ""
-
         if self.buff_level > len(self._buff_name):
             return self._buff_name[-1]
         else:
@@ -38,6 +37,22 @@ class BaseBuff:
             self._buff_name = buff_name
         else:
             self._buff_name = [buff_name]
+
+    @property
+    def max_stack(self):
+        if not self._max_stack:
+            return 1
+        if self.buff_level > len(self._max_stack):
+            return self._max_stack[-1]
+        else:
+            return self._max_stack[self.buff_level - 1]
+
+    @max_stack.setter
+    def max_stack(self, max_stack):
+        if isinstance(max_stack, list):
+            self._max_stack = max_stack
+        else:
+            self._max_stack = [max_stack]
 
 
 @dataclass

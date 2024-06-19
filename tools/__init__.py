@@ -7,6 +7,7 @@ import pandas as pd
 
 from base.buff import CustomBuff
 from base.skill import Dot
+from general.gains import GENERAL_GAINS
 from schools import SUPPORT_SCHOOLS
 
 BASE_DIR = "../JX3TABS"
@@ -32,7 +33,9 @@ ATTRIBUTE_TYPE = {
     -12: "magical_shield_gain",
     -13: "global_damage_cof",
     -14: "pve_addition",
-    -15: "damage_addition"
+    -15: "damage_addition",
+    -16: "physical_attack_power_base",
+    -17: "magical_attack_power_base"
 }
 INCLUDE_LUA = """
 function GetEditorString(param_1, param_2)
@@ -70,7 +73,7 @@ ATTRIBUTE_TYPE = {
     SKILL_SOLAR_DAMAGE_RAND = -4,
     SKILL_NEUTRAL_DAMAGE_RAND = -4,
     SKILL_POISON_DAMAGE_RAND = -4,
-
+    
     PHYSICS_ATTACK_POWER_PERCENT = -5,
     LUNAR_ATTACK_POWER_PERCENT = -6,
     SOLAR_ATTACK_POWER_PERCENT = -6,
@@ -100,7 +103,10 @@ ATTRIBUTE_TYPE = {
     GLOBAL_DAMGAGE_FACTOR = -13,
     DST_NPC_DAMAGE_COEFFICIENT = -14,
     ALL_DAMAGE_ADD_PERCENT = -15,
-
+    
+    PHYSICS_ATTACK_POWER_BASE = -16,
+    MAGIC_ATTACK_POWER_BASE = -17,
+    
     CALL_PHYSICS_DAMAGE = 1,
     CALL_LUNAR_DAMAGE = 2,
     CALL_SOLAR_DAMAGE = 2,
@@ -164,7 +170,14 @@ def prepare_data():
             if buff_id < 0:
                 buff_id = -buff_id
             buffs.append(buff_id)
-
+    for buff_id, buff in GENERAL_GAINS.items():
+        if buff_id in buffs:
+            continue
+        if isinstance(buff, CustomBuff):
+            continue
+        if buff_id < 0:
+            buff_id = -buff_id
+        buffs.append(buff_id)
     return skills, dots, buffs
 
 

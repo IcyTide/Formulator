@@ -361,8 +361,12 @@ class Minor:
     """ Weapon Skill Function """
 
     @property
+    def base_weapon_damage(self):
+        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
+
+    @property
     def weapon_damage(self):
-        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE) + self.weapon_damage_rand / 2)
+        return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
 
     """ Others """
 

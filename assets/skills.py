@@ -190,6 +190,39 @@ SKILLS = {
         "magical_damage_rand": 17,
         "magical_damage_call": 1
     },
+    22151: {
+        "kind_type": "",
+        "recipe_type": 0,
+        "channel_interval": 16.0,
+        "magical_attack_power_base": [
+            148,
+            168,
+            188,
+            291,
+            357,
+            395,
+            440,
+            486,
+            442,
+            538,
+            591,
+            655
+        ],
+        "physical_attack_power_base": [
+            125,
+            142,
+            157,
+            243,
+            298,
+            330,
+            368,
+            408,
+            371,
+            450,
+            495,
+            549
+        ]
+    },
     37562: {
         "kind_type": "Adaptive",
         "recipe_type": 0,

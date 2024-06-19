@@ -4,7 +4,9 @@ from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
 from general.buffs.formation import BUFFS as FORMATION_BUFFS
+from general.buffs.formation import GAINS as FORMATION_GAINS
 from general.buffs.team import BUFFS as TEAM_BUFFS
+from general.buffs.team import GAINS as TEAM_GAINS
 from general.skills.formation import SKILLS as FORMATION_SKILLS
 from general.skills.team import SKILLS as TEAM_SKILLS
 
@@ -28,3 +30,9 @@ class RealBonusGain(Gain):
     def sub_buffs(self, buffs: Dict[int, Buff]):
         for buff_id in self.buff_ids:
             buffs[buff_id].activate = False
+
+
+GENERAL_GAINS: Dict[int, Buff] = {
+    **FORMATION_GAINS,
+    **TEAM_GAINS
+}

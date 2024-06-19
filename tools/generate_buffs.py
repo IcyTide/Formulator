@@ -6,7 +6,7 @@ from tools import *
 MAX_ATTRIB = 15
 
 
-def parse_dot(row, result):
+def parse_buff(row, result):
     for i in range(MAX_ATTRIB):
         attr, param_1 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"]
 
@@ -22,14 +22,15 @@ def collect_result():
         for _, buff_row in filter_buffs.iterrows():
             result = dict(buff_id=buff_id)
             buff_level = buff_row["Level"]
+            max_stack = buff_row["MaxStackNum"]
             if filter_buff_txt.empty:
                 pass
             elif buff_level in filter_buff_txt.Level.tolist():
                 result['buff_name'] = filter_buff_txt[filter_buff_txt.Level == buff_level].iloc[0].Name
             else:
                 result['buff_name'] = filter_buff_txt.iloc[-1].Name
-
-            parse_dot(buff_row, result)
+            result["max_stack"] = max_stack
+            parse_buff(buff_row, result)
             results.append(result)
 
     return pd.DataFrame(results)
