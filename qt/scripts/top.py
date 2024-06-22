@@ -146,8 +146,8 @@ def top_script(
         consumables_widget.home_snack.set_items([""] + SNACKS[school.kind] + SNACKS[""], keep_index=True)
         consumables_widget.home_wine.set_items([""] + WINES[school.major] + WINES[""], keep_index=True)
         consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind], keep_index=True)
-        consumables_widget.zongzi.set_items([""] + ZONGZI[school.kind] + ZONGZI[""], keep_index=True)
-        consumables_widget.candy.set_items([""] + CANDY[school.kind], keep_index=True)
+        # consumables_widget.zongzi.set_items([""] + ZONGZI[school.kind] + ZONGZI[""], keep_index=True)
+        # consumables_widget.candy.set_items([""] + CANDY[school.kind], keep_index=True)
 
         """ Update bonus options """
         bonus_widget.formation.formation.set_items([""] + list(FORMATION_GAINS), keep_index=True)

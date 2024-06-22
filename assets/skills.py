@@ -1774,6 +1774,12 @@ SKILLS = {
         "magical_damage_rand": 2,
         "magical_damage_call": 1
     },
+    2681: {
+        "kind_type": "NeutralMagic",
+        "recipe_type": 0,
+        "skill_name": "紫气东来",
+        "channel_interval": 16.0
+    },
     327: {
         "kind_type": "NeutralMagic",
         "recipe_type": 2674,
@@ -6258,7 +6264,6 @@ SKILLS = {
         "recipe_type": 0,
         "skill_name": "商阳指",
         "channel_interval": 73.6,
-        "magical_damage_base": 20,
         "magical_damage_call": 1
     },
     14941: {
@@ -21795,15 +21800,6 @@ SKILLS = {
         "magical_damage_rand": 10,
         "magical_damage_call": 1
     },
-    35367: {
-        "kind_type": "Poison",
-        "recipe_type": 35367,
-        "skill_name": "应理与药",
-        "channel_interval": 1000.5,
-        "magical_damage_base": 100,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
-    },
     29698: {
         "kind_type": "Poison",
         "recipe_type": 0,
@@ -21827,6 +21823,15 @@ SKILLS = {
         ],
         "channel_interval": 220.0,
         "magical_damage_base": 120,
+        "magical_damage_rand": 10,
+        "magical_damage_call": 1
+    },
+    35367: {
+        "kind_type": "Poison",
+        "recipe_type": 35367,
+        "skill_name": "应理与药",
+        "channel_interval": 1000.5,
+        "magical_damage_base": 100,
         "magical_damage_rand": 10,
         "magical_damage_call": 1
     },

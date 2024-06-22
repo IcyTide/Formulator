@@ -3,6 +3,7 @@ from typing import Dict
 from base.buff import Buff
 from base.gain import Gain
 from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
+from base.skill import Skill
 from base.talent import Talent
 
 
@@ -14,6 +15,16 @@ class 跬步(Gain):
     def sub_buffs(self, buffs: Dict[int, Buff]):
         buffs[-12550].activate = False
         buffs[-12551].activate = False
+
+
+class 固本(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop((2757, 1))
+        skills[2681].post_buffs[(2757, 3)] = 1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop((2757, 3))
+        skills[2681].post_buffs[(2757, 1)] = 1
 
 
 TALENT_GAINS: Dict[int, Talent] = {
@@ -34,7 +45,7 @@ TALENT_GAINS: Dict[int, Talent] = {
         DamageAdditionRecipe(value, skill_id, 0)
         for skill_id, value in ((18650, 154), (18651, 307), (18652, 461), (18653, 614))
     ]),
-    14613: Talent("固本"),
+    14613: Talent("固本", [固本()]),
 }
 
 TALENTS = [

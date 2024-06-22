@@ -7,8 +7,7 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1438: {}, 378: {}, 17933: {}, 9949: {},
-        2757: dict(frame_shift=-2),
+        1438: {}, 378: {}, 17933: {}, 9949: {}, 2757: {},
         14931: dict(gains=[DamageAdditionRecipe(307, 365, 365)])
     }
 }

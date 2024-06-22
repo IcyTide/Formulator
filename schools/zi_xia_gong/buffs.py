@@ -7,9 +7,8 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1439: {}, 375: {}, 1908: {},
+        1439: {}, 375: {}, 1908: {}, 2757: {},
         **{buff_id: {} for buff_id in range(12779, 12783 + 1)},
-        2757: dict(frame_shift=-2),
         9966: dict(buff_name="同尘",
                    gains=[[DamageAdditionRecipe(value, 368, 368) for value in (359, 717, 1076, 1434)]]),
         17918: dict(gains=[PveAdditionRecipe(1331, 18640, 18640)]),

@@ -28,6 +28,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         18121: dict(damage_addition=205),
         32813: {}, 303: {}, 896: {}, 18670: {}, 22014: {}, 36439: {}, 25770: {},
+        2681: dict(post_buffs={(2757, 1): 1}),
         **{skill_id: {} for skill_id in range(327, 331 + 1)},
         **{skill_id: {} for skill_id in range(461, 465 + 1)},
         **{skill_id: {} for skill_id in range(3439, 3448 + 1)},

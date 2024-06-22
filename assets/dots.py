@@ -267,6 +267,45 @@ DOTS = {
         "damage_base": 38,
         "magical_damage_call": 1
     },
+    3442: {
+        "skill_name": "流血(DOT)",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 2,
+        "damage_base": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60
+        ],
+        "physical_damage_call": 1
+    },
     12461: {
         "skill_name": "流血(DOT)",
         "interval": 32,
@@ -1010,6 +1049,25 @@ DOTS = {
         "tick": 10,
         "max_stack": 3,
         "damage_base": 15,
+        "magical_damage_call": 1
+    },
+    20052: {
+        "skill_name": "逆乱(DOT)",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 8,
+        "damage_base": [
+            10,
+            12,
+            15,
+            21,
+            28,
+            35,
+            46,
+            62,
+            74,
+            95
+        ],
         "magical_damage_call": 1
     },
     24132: {

@@ -2861,31 +2861,6 @@ BUFFS = {
         ],
         "buff_name": "会神"
     },
-    12779: {
-        "attributes": {},
-        "max_stack": 1,
-        "buff_name": "气剑"
-    },
-    12780: {
-        "attributes": {},
-        "max_stack": 1,
-        "buff_name": "气剑"
-    },
-    12781: {
-        "attributes": {},
-        "max_stack": 1,
-        "buff_name": "气剑"
-    },
-    12782: {
-        "attributes": {},
-        "max_stack": 1,
-        "buff_name": "气剑"
-    },
-    12783: {
-        "attributes": {},
-        "max_stack": 1,
-        "buff_name": "气剑"
-    },
     2757: {
         "attributes": {
             "magical_attack_power_gain": [
@@ -2917,6 +2892,31 @@ BUFFS = {
         },
         "max_stack": 1,
         "buff_name": "紫气东来"
+    },
+    12779: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "气剑"
+    },
+    12780: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "气剑"
+    },
+    12781: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "气剑"
+    },
+    12782: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "气剑"
+    },
+    12783: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "气剑"
     },
     9966: {
         "attributes": {},
@@ -4267,6 +4267,14 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "星悬"
     },
+    18002: {
+        "attributes": {
+            "magical_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 100
+        },
+        "max_stack": 1,
+        "buff_name": "枭神"
+    },
     18021: {
         "attributes": {
             "all_shield_ignore": 512
@@ -4327,6 +4335,10 @@ BUFFS = {
         },
         "max_stack": 1,
         "buff_name": "凄骨"
+    },
+    20718: {
+        "attributes": {},
+        "max_stack": 1
     },
     20699: {
         "attributes": {
