@@ -249,6 +249,8 @@ class Parser(BaseParser):
             school = SUPPORT_SCHOOLS[school_id]
             self.select_equipments[player_id] = self.parse_equipments(detail[5].values())
             self.select_talents[player_id] = self.parse_talents(detail[6].values())
+            if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
+                return
             self.players[player_id] = deepcopy(school)
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id

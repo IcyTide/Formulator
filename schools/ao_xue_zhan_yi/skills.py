@@ -16,15 +16,16 @@ class 战意判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        12: {}, 431: {}, 701: {}, 702: {}, 6525: {}, 6526: {}, 423: {}, 14882: {}, 15002: {}, 24898: {}, 25772: {},
-        31031: {}, 32820: {}, 37618: {}, 36568: {},
-        18207: dict(post_buffs={(-1, 1): 1}),
+        12: dict(damage_additon=205, channel_interval_extra=1.7),
+        431: {}, 701: {}, 702: {}, 6525: {}, 6526: {}, 423: {}, 14882: {}, 15002: {}, 24898: {}, 25772: {}, 32820: {},
+        37618: {}, 36568: {}, 18207: {}, 18208: {},
+        400: dict(post_buffs={(-1, 1): 1}),
         18603: dict(post_buffs={(-1, 1): 2}),
         409: dict(post_buffs={(-1, 1): 3}),
         18773: dict(post_buffs={(-1, 1): -3}),
         401: dict(bind_dot=12461),
         18591: dict(bind_dot=3442),
-        **{skill_id: dict(post_buffs={(-1, 1): 5}) for skill_id in (1850, 1861)},
+        31031: dict(post_buffs={(-1, 1): 5})
     },
     Dot: {
         3442: {},

@@ -59,8 +59,8 @@ def config_script(
 
     def load_bonuses(config):
         bonus_widget.formation.formation.combo_box.setCurrentText(config['formation']['formation'])
-        bonus_widget.formation.core_rate.spin_box.setValue(config['formation']['core_rate'])
-        bonus_widget.formation.rate.spin_box.setValue(config['formation']['rate'])
+        for i, rate in enumerate(bonus_widget.formation.rates):
+            rate.spin_box.setValue(config['formation']['rates'][i])
         for label, value in config['team_gains'].items():
             team_gain = bonus_widget.team_gains[label]
             if isinstance(value, bool):
@@ -132,8 +132,7 @@ def config_script(
 
     def save_bonuses(config):
         config['formation']['formation'] = bonus_widget.formation.formation.combo_box.currentText()
-        config['formation']['core_rate'] = bonus_widget.formation.core_rate.spin_box.value()
-        config['formation']['rate'] = bonus_widget.formation.rate.spin_box.value()
+        config['formation']['rates'] = [rate.spin_box.value() for rate in bonus_widget.formation.rates]
         for label, team_gain in bonus_widget.team_gains.items():
             if isinstance(team_gain, RadioWithLabel):
                 config['team_gains'][label] = team_gain.radio_button.isChecked()

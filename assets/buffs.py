@@ -3207,6 +3207,19 @@ BUFFS = {
         "attributes": {},
         "max_stack": 1
     },
+    1911: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": [
+            "碎魂",
+            "焚海",
+            "火龙沥泉",
+            "紫龙寂地",
+            "赤乌流火",
+            "泣血",
+            "旷野孤疆"
+        ]
+    },
     1437: {
         "attributes": {
             "magical_attack_power_gain": [

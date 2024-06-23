@@ -46,9 +46,11 @@ class 虎贲(Gain):
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[28169].begin_effects.append(self.begin_effect)
+        buffs[28169].end_effects.append(self.end_effect)
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
         buffs[28169].begin_effects.remove(self.begin_effect)
+        buffs[28169].end_effects.remove(self.end_effect)
 
 
 TALENT_GAINS: Dict[int, Talent] = {
