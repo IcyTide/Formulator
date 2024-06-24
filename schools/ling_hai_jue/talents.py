@@ -25,6 +25,7 @@ class 梦悠(Gain):
 
 TALENT_GAINS: Dict[int, Talent] = {
     20333: Talent("江汉", [PhysicalCriticalRecipe((1000, 102), 19818, 19818)]),
+    20756: Talent("凌霄", [DamageAdditionRecipe(205, 20052, 0)]),
     20335: Talent("扶桑", [DamageAdditionRecipe(102, 19827, 19827)]),
     20746: Talent("羽彰"),
     20348: Talent("清源"),
@@ -42,7 +43,7 @@ TALENT_GAINS: Dict[int, Talent] = {
 }
 
 TALENTS = [
-    [20333],
+    [20333, 20756],
     [20335],
     [20746],
     [20348],

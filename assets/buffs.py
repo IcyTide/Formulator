@@ -4196,6 +4196,20 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "梦悠"
     },
+    26012: {
+        "attributes": {
+            "physical_attack_power_gain": [
+                123,
+                246,
+                369,
+                492,
+                614,
+                737
+            ]
+        },
+        "max_stack": 1,
+        "buff_name": "逸尘·攻"
+    },
     14321: {
         "attributes": {},
         "max_stack": 1,

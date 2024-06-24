@@ -73,5 +73,9 @@ def convert_json(result):
     save_code("dots", result_json)
 
 
-if __name__ == '__main__':
+def generate():
     convert_json(collect_result())
+
+
+if __name__ == '__main__':
+    generate()

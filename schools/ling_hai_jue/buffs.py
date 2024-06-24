@@ -7,7 +7,7 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        14353: {}, 14083: {}, 13560: {}, 17094: {}, 13966: {},
+        14353: {}, 14083: {}, 13560: {}, 17094: {}, 13966: {}, 26012: {},
         14321: dict(buff_name="驰行", frame_shift=-2,
                     gains=[DamageAdditionRecipe(307, skill_id, skill_id) for skill_id in (20715, 20083, 20084)]),
         14317: dict(gains=[[PhysicalCriticalRecipe(value, 20053, 20053)
