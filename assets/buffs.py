@@ -4252,6 +4252,11 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "徵逐"
     },
+    15926: {
+        "attributes": {},
+        "max_stack": 3,
+        "buff_name": "百节"
+    },
     16596: {
         "attributes": {
             "physical_critical_strike_rate": 1500,
@@ -4273,6 +4278,10 @@ BUFFS = {
         "max_stack": 1
     },
     15832: {
+        "attributes": {},
+        "max_stack": 1
+    },
+    21588: {
         "attributes": {},
         "max_stack": 1
     },
