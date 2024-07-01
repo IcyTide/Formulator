@@ -155,7 +155,7 @@ class BaseDamage(BaseSkill):
 
     @property
     def attack_power_call(self):
-        return self.physical_damage_call or self.magical_damage_call
+        return self.physical_damage_call or self.magical_damage_call or self.adaptive_damage_call
 
     @property
     def surplus_call(self):
@@ -939,9 +939,12 @@ class PureSkill(Skill):
     damage_base: int = 0
 
     def __call__(self, attribute: Attribute):
-        damage = init_result(self.damage_base, 0, 0, 0, 0, 0, 0, 0)
+        damage = init_result(
+            self.damage_base, 0, 0,
+            0, 0, 0, 0, 0, 0, attribute.global_damage_cof
+        )
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         damage = damage_cof_result(damage, attribute.target_damage_cof)
 
-        return damage, damage, damage, 0
+        return damage, damage, 0, damage
