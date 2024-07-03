@@ -28,7 +28,10 @@ def unserialize(data: dict):
     for player_id in data:
         for target_id in data[player_id]:
             for skill, status in data[player_id][target_id].items():
-                skill = tuple(tuple(int(e) for e in t.split(SLASH)) for t in skill)
+                skill, dot = skill.split(SEMICOLON)
+                skill = tuple(int(e) for e in skill.split(SLASH))
+                dot = tuple(int(e) for e in dot.split(SLASH)) if dot else tuple()
+                concat_skill = (skill, dot)
                 for status_set, timeline in status.items():
                     current_status, snapshot_status, target_status = status_set.split(SEMICOLON)
                     current_status = tuple(
@@ -41,5 +44,5 @@ def unserialize(data: dict):
                         tuple(int(e) for e in buffs.split(SLASH)) for buffs in target_status.split(COMMA)
                     ) if target_status else tuple()
                     concat_status = (current_status, snapshot_status, target_status)
-                    records[player_id][target_id][skill][concat_status] = timeline
+                    records[player_id][target_id][concat_skill][concat_status] = timeline
     return records
