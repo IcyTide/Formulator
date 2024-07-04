@@ -289,8 +289,6 @@ class Parser(BaseParser):
         buff = self.players[player_id].buffs[buff_id]
         if frame_shift := buff.frame_shift:
             self.frame_shift_buffs[self.current_frame + frame_shift][player_id][(buff_id, buff_level)] = buff_stack
-        # elif second_shift := buff.second_shift:
-        #     self.second_shift_buffs[self.current_second + second_shift][player_id][(buff_id, buff_level)] = buff_stack
 
     def parse_frame_shift_status(self):
         for frame in list(self.frame_shift_buffs):

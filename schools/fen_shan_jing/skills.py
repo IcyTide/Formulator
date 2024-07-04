@@ -32,6 +32,7 @@ class 绝刀(Skill):
         else:
             self.post_buffs[(-1, 1)] = -cost_rage
         super().record(actual_critical_strike, actual_damage, parser)
+        parser.clear_buff(self.final_buff, buff_level)
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {

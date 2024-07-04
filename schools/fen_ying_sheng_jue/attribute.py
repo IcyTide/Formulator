@@ -9,7 +9,7 @@ class FenYingShengJue(MagicalAttribute):
     def __init__(self):
         super().__init__()
         self.magical_attack_power_base += 4346
-        self.pve_addition += 113
+        self.pve_addition += 82
 
     @property
     def extra_magical_attack_power(self):

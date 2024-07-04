@@ -1,6 +1,7 @@
 from typing import Dict
 
 from base.gain import Gain
+from base.recipe import MagicalShieldGainRecipe
 from base.skill import Skill
 from base.talent import Talent
 
@@ -39,6 +40,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     14246: Talent("飞帆", [飞帆(skill_id=skill_id, skill_recipe=skill_id) for skill_id in (14067, 14299)]),
     35981: Talent("明津"),
     32485: Talent("弦风"),
+    34341: Talent("连徽"),
     30562: Talent("流照"),
     14336: Talent("豪情"),
     14282: Talent("师襄", [师襄(skill_id=14068, skill_recipe=14068)]),
@@ -47,13 +49,14 @@ TALENT_GAINS: Dict[int, Talent] = {
     35982: Talent("争鸣"),
     18712: Talent("云汉"),
     14350: Talent("参连"),
-    34344: Talent("正律和鸣")
+    34344: Talent("正律和鸣"),
+    37287: Talent("响壑", [MagicalShieldGainRecipe(-410, 0, 14067)])
 }
 
 TALENTS = [
     [14246],
     [35981],
-    [32485],
+    [32485, 34341],
     [30562],
     [14336],
     [14282],
@@ -62,7 +65,7 @@ TALENTS = [
     [35982],
     [18712],
     [14350],
-    [34344]
+    [34344, 37287]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}
