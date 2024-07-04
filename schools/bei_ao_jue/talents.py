@@ -60,7 +60,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     17047: Talent("分疆"),
     25258: Talent("掠关"),
     16728: Talent("星火", [星火()]),
-    34677: Talent("绝河", [DamageAdditionRecipe(307, 16602, 16602)]),
+    34677: Talent("绝河", [DamageAdditionRecipe(154, 16602, 16602)]),
     16737: Talent("楚歌"),
     17056: Talent("绝期", [ChannelIntervalRecipe(1.7, 17058, 0)]),
     16893: Talent("重烟"),

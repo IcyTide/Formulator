@@ -1122,6 +1122,14 @@ DOTS = {
         ],
         "physical_damage_call": 1
     },
+    24650: {
+        "skill_name": "截辕(DOT)",
+        "interval": 32,
+        "tick": 6,
+        "max_stack": 1,
+        "damage_base": 102,
+        "physical_damage_call": 1
+    },
     27820: {
         "skill_name": "斩浪破锋(DOT)",
         "interval": 48,

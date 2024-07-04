@@ -2268,6 +2268,13 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "九音惊弦六阵"
     },
+    1925: {
+        "attributes": {
+            "weapon_damage_base": 1571
+        },
+        "max_stack": 1,
+        "buff_name": "鸣速"
+    },
     1926: {
         "attributes": {
             "physical_critical_strike_rate": 2000
@@ -2553,8 +2560,8 @@ BUFFS = {
     },
     24742: {
         "attributes": {
-            "magical_damage_addition": 123,
-            "physical_damage_addition": 123
+            "magical_damage_addition": 154,
+            "physical_damage_addition": 154
         },
         "max_stack": 1,
         "buff_name": "仙王蛊鼎"
@@ -3189,7 +3196,7 @@ BUFFS = {
     },
     2779: {
         "attributes": {
-            "physical_attack_power_gain": 512
+            "physical_attack_power_gain": 358
         },
         "max_stack": 1,
         "buff_name": "渊"
@@ -3406,7 +3413,7 @@ BUFFS = {
     },
     17969: {
         "attributes": {
-            "pve_addition": 71
+            "pve_addition": 102
         },
         "max_stack": 1,
         "buff_name": "化冰"
@@ -3804,6 +3811,13 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "无明业火"
     },
+    28886: {
+        "attributes": {
+            "pve_addition": 61
+        },
+        "max_stack": 1,
+        "buff_name": "诛邪"
+    },
     12575: {
         "attributes": {
             "all_shield_ignore": 563
@@ -3855,10 +3869,23 @@ BUFFS = {
                 123,
                 184,
                 266,
-                440
+                0
+            ],
+            "pve_addition": [
+                0,
+                0,
+                0,
+                0,
+                112
             ]
         },
-        "max_stack": 1,
+        "max_stack": [
+            1,
+            1,
+            1,
+            1,
+            4
+        ],
         "buff_name": [
             "蛟影·一重",
             "蛟影·二重",
@@ -4247,7 +4274,7 @@ BUFFS = {
     },
     15932: {
         "attributes": {
-            "all_shield_ignore": 512
+            "all_shield_ignore": 614
         },
         "max_stack": 1,
         "buff_name": "徵逐"
@@ -4421,6 +4448,10 @@ BUFFS = {
         },
         "max_stack": 1,
         "buff_name": "流岚"
+    },
+    24179: {
+        "attributes": {},
+        "max_stack": 1
     },
     24557: {
         "attributes": {},

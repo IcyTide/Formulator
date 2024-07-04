@@ -143,7 +143,7 @@ class Major:
 
     @property
     def base_magical_attack_power(self):
-        return int(self.magical_attack_power_base + self.spunk_base * SPUNK_TO_ATTACK_POWER)
+        return int(self.magical_attack_power_base + self.spunk * SPUNK_TO_ATTACK_POWER)
 
     @property
     def extra_magical_attack_power(self):

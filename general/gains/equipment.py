@@ -31,12 +31,12 @@ class EquipmentGain(Gain):
                 buffs[buff_id].activate = False
 
     def add_skills(self, skills: Dict[int, Skill]):
-        if self.skill_ids and self.real_formulation:
+        if self.skill_ids:
             for skill_id in self.skill_ids:
                 skills[skill_id].activate = True
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        if self.skill_ids and self.real_formulation:
+        if self.skill_ids:
             for skill_id in self.skill_ids:
                 skills[skill_id].activate = False
 
@@ -120,9 +120,7 @@ class 大附魔鞋(EquipmentGain):
 
 
 def set_real_formulation(tag):
-    for gain in EQUIPMENT_GAINS.values():
-        gain.real_formulation = tag
-    CriticalSet.real_formulation = tag
+    EquipmentGain.real_formulation = tag
 
 
 def set_critical_set_rate(rate):

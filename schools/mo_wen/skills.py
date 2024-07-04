@@ -8,7 +8,7 @@ from general.skills import GENERAL_SKILLS
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         14063: {}, 14100: {}, 14227: {}, 14311: {}, 14312: {}, 14494: {}, 18859: {}, 18860: {}, 25781: {}, 31008: {},
-        31138: {}, 32624: {}, 32738: {},
+        31138: {}, 32624: {}, 32738: {}, 34514: {},
         14082: dict(post_buffs={(12576, 1): 1}),
         30799: dict(magical_shield_gain=-922),  # BUFF-23167
         34676: dict(
