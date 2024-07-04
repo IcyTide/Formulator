@@ -1,1 +1,2 @@
 pyside6==6.7.0
+sympy

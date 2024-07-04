@@ -1,4 +1,24 @@
+from sympy import Symbol
+
 from base.constant import *
+
+
+class Symbols:
+    agility_base: Symbol = Symbol("Agility")
+    strength_base: Symbol = Symbol("Strength")
+    spirit_base: Symbol = Symbol("Spirit")
+    spunk_base: Symbol = Symbol("Spunk")
+    physical_attack_power_base: Symbol = Symbol("PhysicalAttackPower")
+    magical_attack_power_base: Symbol = Symbol("MagicalAttackPower")
+    weapon_damage_base: Symbol = Symbol("WeaponDamage")
+    surplus_base: Symbol = Symbol("Surplus")
+    strain_base: Symbol = Symbol("Strain")
+    physical_critical_strike_base: Symbol = Symbol("PhysicalCriticalStrike")
+    magical_critical_strike_base: Symbol = Symbol("MagicalCriticalStrike")
+    physical_critical_power_base: Symbol = Symbol("PhysicalCriticalPower")
+    magical_critical_power_base: Symbol = Symbol("MagicalCriticalPower")
+    physical_overcome_base: Symbol = Symbol("PhysicalOvercome")
+    magical_overcome_base: Symbol = Symbol("MagicalOvercome")
 
 
 class Target:
@@ -108,19 +128,19 @@ class Major:
 
     @property
     def agility(self):
-        return int(self.agility_base * (1 + self.agility_gain / BINARY_SCALE))
+        return Symbols.agility_base * (1 + self.agility_gain / BINARY_SCALE)
 
     @property
     def strength(self):
-        return int(self.strength_base * (1 + self.strength_gain / BINARY_SCALE))
+        return Symbols.strength_base * (1 + self.strength_gain / BINARY_SCALE)
 
     @property
     def spirit(self):
-        return int(self.spirit_base * (1 + self.spirit_gain / BINARY_SCALE))
+        return Symbols.spirit_base * (1 + self.spirit_gain / BINARY_SCALE)
 
     @property
     def spunk(self):
-        return int(self.spunk_base * (1 + self.spunk_gain / BINARY_SCALE))
+        return Symbols.spunk_base * (1 + self.spunk_gain / BINARY_SCALE)
 
     """ Attack Power Function """
 
@@ -130,7 +150,7 @@ class Major:
 
     @property
     def base_physical_attack_power(self):
-        return int(self.physical_attack_power_base + self.strength * STRENGTH_TO_ATTACK_POWER)
+        return Symbols.physical_attack_power_base + self.strength * STRENGTH_TO_ATTACK_POWER
 
     @property
     def extra_physical_attack_power(self):
@@ -138,12 +158,12 @@ class Major:
 
     @property
     def physical_attack_power(self):
-        return int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE) +
-                   self.extra_physical_attack_power)
+        attack_power = self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE)
+        return attack_power + self.extra_physical_attack_power
 
     @property
     def base_magical_attack_power(self):
-        return int(self.magical_attack_power_base + self.spunk_base * SPUNK_TO_ATTACK_POWER)
+        return Symbols.magical_attack_power_base + self.spunk * SPUNK_TO_ATTACK_POWER
 
     @property
     def extra_magical_attack_power(self):
@@ -151,8 +171,8 @@ class Major:
 
     @property
     def magical_attack_power(self):
-        return int(self.base_magical_attack_power * (1 + self.magical_attack_power_gain / BINARY_SCALE) +
-                   self.extra_magical_attack_power)
+        attack_power = self.base_magical_attack_power * (1 + self.magical_attack_power_gain / BINARY_SCALE)
+        return attack_power + self.extra_magical_attack_power
 
     """ Critical Strike Function"""
 
@@ -188,8 +208,8 @@ class Major:
 
     @property
     def base_physical_critical_strike(self):
-        return int(self.physical_critical_strike_base + self.agility * AGILITY_TO_CRITICAL_STRIKE +
-                   self.extra_physical_critical_strike)
+        critical_strike = Symbols.physical_critical_strike_base + self.agility * AGILITY_TO_CRITICAL_STRIKE
+        return critical_strike + self.extra_physical_critical_strike
 
     @property
     def physical_critical_strike_percent(self):
@@ -205,8 +225,8 @@ class Major:
 
     @property
     def base_magical_critical_strike(self):
-        return int(self.magical_critical_strike_base + self.extra_magical_critical_strike +
-                   self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
+        critical_strike = Symbols.magical_critical_strike_base + self.spirit * SPIRIT_TO_CRITICAL_STRIKE
+        return critical_strike + self.extra_magical_critical_strike
 
     @property
     def magical_critical_strike_percent(self):
@@ -224,7 +244,7 @@ class Major:
 
     @property
     def base_physical_overcome(self):
-        return int(self.physical_overcome_base + self.strength * STRENGTH_TO_OVERCOME)
+        return Symbols.physical_overcome_base + self.strength * STRENGTH_TO_OVERCOME
 
     @property
     def extra_physical_overcome(self):
@@ -232,8 +252,8 @@ class Major:
 
     @property
     def final_physical_overcome(self):
-        return int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE) +
-                   self.extra_physical_overcome)
+        overcome = self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE)
+        return overcome + self.extra_physical_overcome
 
     @property
     def physical_overcome(self):
@@ -241,7 +261,7 @@ class Major:
 
     @property
     def base_magical_overcome(self):
-        return int(self.magical_overcome_base + self.spunk * SPUNK_TO_OVERCOME)
+        return Symbols.magical_overcome_base + self.spunk * SPUNK_TO_OVERCOME
 
     @property
     def extra_magical_overcome(self):
@@ -249,8 +269,8 @@ class Major:
 
     @property
     def final_magical_overcome(self):
-        return int(self.base_magical_overcome * (1 + self.magical_overcome_gain / BINARY_SCALE) +
-                   self.extra_magical_overcome)
+        overcome = self.base_magical_overcome * (1 + self.magical_overcome_gain / BINARY_SCALE)
+        return overcome + self.extra_magical_overcome
 
     @property
     def magical_overcome(self):
@@ -296,11 +316,11 @@ class Minor:
 
     @property
     def surplus(self):
-        return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
+        return Symbols.surplus_base * (1 + self.surplus_gain / BINARY_SCALE)
 
     @property
     def final_strain(self):
-        return int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
+        return Symbols.strain_base * (1 + self.strain_gain / BINARY_SCALE)
 
     @property
     def strain(self):
@@ -336,7 +356,7 @@ class Minor:
 
     @property
     def base_physical_critical_power(self):
-        return self.physical_critical_power_base / CRITICAL_POWER_SCALE
+        return Symbols.physical_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
     def physical_critical_power_percent(self):
@@ -348,7 +368,7 @@ class Minor:
 
     @property
     def base_magical_critical_power(self):
-        return self.magical_critical_power_base / CRITICAL_POWER_SCALE
+        return Symbols.magical_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
     def magical_critical_power_percent(self):
@@ -362,11 +382,11 @@ class Minor:
 
     @property
     def base_weapon_damage(self):
-        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
+        return Symbols.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE)
 
     @property
     def weapon_damage(self):
-        return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
+        return self.base_weapon_damage + self.weapon_damage_rand / 2
 
     """ Others """
 
@@ -407,7 +427,6 @@ class Attribute(Major, Minor, Target):
 
     def __init__(self):
         self.all_major_base += MAJOR_BASE
-        self.all_critical_power_base = 0  # init critical power attr
         self.target = Target()
 
     @property
@@ -425,151 +444,3 @@ class Attribute(Major, Minor, Target):
     @property
     def target_damage_cof(self):
         raise NotImplementedError
-
-
-class PhysicalAttribute(Attribute):
-    grad_attrs = {
-        "agility_base": MAJOR_DELTA,
-        "strength_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "physical_attack_power_base": PHYSICAL_DELTA,
-        "physical_critical_strike_base": MINOR_DELTA,
-        "physical_critical_power_base": MINOR_DELTA,
-        "physical_overcome_base": MINOR_DELTA,
-        "weapon_damage_base": WEAPON_DELTA
-    }
-
-    @property
-    def attack_power(self):
-        return self.physical_attack_power
-
-    @property
-    def critical_strike(self):
-        return self.physical_critical_strike
-
-    @property
-    def critical_power(self):
-        return self.physical_critical_power
-
-    @property
-    def overcome(self):
-        return self.physical_overcome
-
-    @property
-    def damage_addition(self):
-        return self.physical_damage_addition
-
-    @property
-    def shield_ignore(self):
-        return self.physical_shield_ignore
-
-    @property
-    def target_shield_base(self):
-        return self.target.physical_shield_base
-
-    @property
-    def target_shield_gain(self):
-        return self.target.physical_shield_gain
-
-    @property
-    def target_damage_cof(self):
-        return self.target.physical_damage_cof
-
-
-class MagicalAttribute(Attribute):
-    grad_attrs = {
-        "spirit_base": MAJOR_DELTA,
-        "spunk_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "magical_attack_power_base": MAGICAL_DELTA,
-        "magical_critical_strike_base": MINOR_DELTA,
-        "magical_critical_power_base": MINOR_DELTA,
-        "magical_overcome_base": MINOR_DELTA
-    }
-
-    @property
-    def attack_power(self):
-        return self.magical_attack_power
-
-    @property
-    def critical_strike(self):
-        return self.magical_critical_strike
-
-    @property
-    def critical_power(self):
-        return self.magical_critical_power
-
-    @property
-    def overcome(self):
-        return self.magical_overcome
-
-    @property
-    def shield_ignore(self):
-        return self.magical_shield_ignore
-
-    @property
-    def damage_addition(self):
-        return self.magical_damage_addition
-
-    @property
-    def target_shield_base(self):
-        return self.target.magical_shield_base
-
-    @property
-    def target_shield_gain(self):
-        return self.target.magical_shield_gain
-
-    @property
-    def target_damage_cof(self):
-        return self.target.magical_damage_cof
-
-
-class MixingAttribute(Attribute):
-    grad_attrs = {
-        "agility_base": MAJOR_DELTA,
-        "spunk_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "magical_attack_power_base": MAGICAL_DELTA,
-        "physical_critical_strike_base": MINOR_DELTA,
-        "physical_critical_power_base": MINOR_DELTA,
-        "magical_overcome_base": MINOR_DELTA
-    }
-
-    @property
-    def attack_power(self):
-        return self.magical_attack_power
-
-    @property
-    def critical_strike(self):
-        return self.physical_critical_strike
-
-    @property
-    def critical_power(self):
-        return self.physical_critical_power
-
-    @property
-    def overcome(self):
-        return self.magical_overcome
-
-    @property
-    def shield_ignore(self):
-        return self.magical_shield_ignore
-
-    @property
-    def damage_addition(self):
-        return self.magical_damage_addition
-
-    @property
-    def target_shield_base(self):
-        return self.target.magical_shield_base
-
-    @property
-    def target_shield_gain(self):
-        return self.target.magical_shield_gain
-
-    @property
-    def target_damage_cof(self):
-        return self.target.magical_damage_cof
