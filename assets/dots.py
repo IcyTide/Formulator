@@ -63,6 +63,7 @@ DOTS = {
             3,
             3
         ],
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -130,6 +131,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 50,
         "magical_damage_call": 1
     },
@@ -141,6 +143,7 @@ DOTS = {
             5,
             7
         ],
+        "platform": 0,
         "damage_base": 10,
         "physical_damage_call": 1
     },
@@ -149,6 +152,7 @@ DOTS = {
         "interval": 48,
         "tick": 4,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": 16,
         "physical_damage_call": 1
     },
@@ -157,6 +161,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 10,
         "physical_damage_call": 1
     },
@@ -165,6 +170,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -193,6 +199,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -226,6 +233,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             13,
             14,
@@ -264,6 +272,7 @@ DOTS = {
         "interval": 64,
         "tick": 7,
         "max_stack": 6,
+        "platform": 0,
         "damage_base": 38,
         "magical_damage_call": 1
     },
@@ -272,6 +281,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 2,
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -311,6 +321,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -350,6 +361,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": [
             15,
             18,
@@ -387,6 +399,7 @@ DOTS = {
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             10,
             12,
@@ -427,6 +440,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             14,
             15,
@@ -470,6 +484,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             13,
@@ -505,6 +520,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 20,
         "magical_damage_call": 1
     },
@@ -513,6 +529,7 @@ DOTS = {
         "interval": 32,
         "tick": 6,
         "max_stack": 2,
+        "platform": 0,
         "damage_base": 55,
         "magical_damage_call": 1
     },
@@ -521,6 +538,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 2,
+        "platform": 0,
         "damage_base": [
             19,
             21,
@@ -559,6 +577,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
     },
@@ -567,6 +586,7 @@ DOTS = {
         "interval": 48,
         "tick": 16,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             19,
             21,
@@ -605,6 +625,7 @@ DOTS = {
         "interval": 32,
         "tick": 9,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             14,
@@ -632,6 +653,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": 30,
         "magical_damage_call": 1
     },
@@ -640,6 +662,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": 30,
         "magical_damage_call": 1
     },
@@ -648,6 +671,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 10,
+        "platform": 0,
         "damage_base": [
             5,
             6,
@@ -848,6 +872,7 @@ DOTS = {
             1,
             1
         ],
+        "platform": 0,
         "damage_base": [
             5,
             7,
@@ -913,6 +938,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             14,
@@ -947,6 +973,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             12,
             14,
@@ -981,6 +1008,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 58,
         "magical_damage_call": 1
     },
@@ -989,6 +1017,7 @@ DOTS = {
         "interval": 48,
         "tick": 8,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": [
             25,
             28,
@@ -1008,6 +1037,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
     },
@@ -1016,6 +1046,7 @@ DOTS = {
         "interval": 32,
         "tick": 6,
         "max_stack": 6,
+        "platform": 0,
         "damage_base": 50,
         "physical_damage_call": 1
     },
@@ -1024,6 +1055,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
     },
@@ -1032,6 +1064,7 @@ DOTS = {
         "interval": 48,
         "tick": 5,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
     },
@@ -1040,6 +1073,7 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
     },
@@ -1048,6 +1082,7 @@ DOTS = {
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 15,
         "magical_damage_call": 1
     },
@@ -1056,6 +1091,7 @@ DOTS = {
         "interval": 32,
         "tick": 7,
         "max_stack": 8,
+        "platform": 0,
         "damage_base": [
             10,
             12,
@@ -1070,11 +1106,21 @@ DOTS = {
         ],
         "magical_damage_call": 1
     },
+    71171: {
+        "skill_name": "中毒(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 1,
+        "magical_damage_call": 1
+    },
     24132: {
         "skill_name": "流血(DOT)",
         "interval": 32,
         "tick": 3,
         "max_stack": 4,
+        "platform": 0,
         "damage_base": [
             12,
             18,
@@ -1101,6 +1147,7 @@ DOTS = {
         "interval": 32,
         "tick": 3,
         "max_stack": 6,
+        "platform": 0,
         "damage_base": [
             12,
             18,
@@ -1127,6 +1174,7 @@ DOTS = {
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
+        "platform": 0,
         "damage_base": 102,
         "physical_damage_call": 1
     },
@@ -1135,7 +1183,29 @@ DOTS = {
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
+        "platform": 0,
         "damage_base": 25,
+        "physical_damage_call": 1
+    },
+    70583: {
+        "skill_name": "流血(DOT)",
+        "interval": 32,
+        "tick": 9,
+        "max_stack": [
+            1,
+            3
+        ],
+        "platform": 1,
+        "damage_base": 12,
+        "physical_damage_call": 1
+    },
+    70593: {
+        "skill_name": "截辕·悟(DOT)",
+        "interval": 32,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 102,
         "physical_damage_call": 1
     },
     26856: {
@@ -1143,6 +1213,7 @@ DOTS = {
         "interval": 8,
         "tick": 4,
         "max_stack": 6,
+        "platform": 0,
         "damage_base": 32,
         "physical_damage_call": 1
     }

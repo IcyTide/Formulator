@@ -199,6 +199,7 @@ def STRENGTH_COF(level):
 
 """ Talent """
 MAX_TALENTS = 12
+MOBILE_MAX_TALENTS = 4
 
 """ Recipes """
 MAX_RECIPE_SKILLS = 12

@@ -6,7 +6,7 @@ class MoWen(MagicalAttribute):
     SPIRIT_TO_ATTACK_POWER = 1895 / BINARY_SCALE
     SPIRIT_TO_CRITICAL_STRIKE = 389 / BINARY_SCALE
 
-    def __init__(self):
+    def __init__(self, platform=0):
         super().__init__()
         self.magical_attack_power_base += 3725
         self.magical_critical_strike_base += 1279

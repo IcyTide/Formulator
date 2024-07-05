@@ -1,7 +1,8 @@
-from general.buffs import equipment, formation, team
+from general.buffs import equipment, formation, mobile, team
 
 GENERAL_BUFFS = {
     **equipment.BUFFS,
     **formation.BUFFS,
-    **team.BUFFS
+    **mobile.BUFFS,
+    **team.BUFFS,
 }

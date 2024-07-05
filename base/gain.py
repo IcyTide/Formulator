@@ -8,13 +8,14 @@ from base.skill import Skill
 class Gain:
     skill_id = None
     skill_recipe = None
+    skill_recipe_mask = None
     buff_id = None
     buff_recipe = None
     value = None
 
     def __init__(
             self, value: Union[int, float, tuple] = None,
-            skill_id: int = None, skill_recipe: int = None,
+            skill_id: int = None, skill_recipe: int = None, skill_recipe_mask: int = 0,
             buff_id: int = None, buff_recipe: int = None,
             name: str = None,
     ):
@@ -28,6 +29,7 @@ class Gain:
             self.skill_id = skill_id
         if skill_recipe:
             self.skill_recipe = skill_recipe
+        self.skill_recipe_mask = skill_recipe_mask
 
     def add_attribute(self, attribute: Attribute):
         pass
@@ -37,11 +39,15 @@ class Gain:
 
     def add_skills(self, skills: Dict[int, Skill]):
         return_tag = False
-        if not self.skill_id and not self.skill_recipe:
+        if not self.skill_id and not self.skill_recipe and not self.skill_recipe_mask:
             return return_tag
 
         for skill_id, skill in skills.items():
-            if skill_id == self.skill_id or skill.recipe_type == self.skill_recipe:
+            if (
+                    skill_id == self.skill_id or
+                    skill.recipe_type == self.skill_recipe or
+                    skill.recipe_mask & self.skill_recipe_mask
+            ):
                 return_tag = True
                 self.add_skill(skill)
 
@@ -63,10 +69,14 @@ class Gain:
         pass
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        if not self.skill_id and not self.skill_recipe:
+        if not self.skill_id and not self.skill_recipe and not self.skill_recipe_mask:
             return
         for skill_id, skill in skills.items():
-            if skill_id == self.skill_id or skill.recipe_type == self.skill_recipe:
+            if (
+                    skill_id == self.skill_id or
+                    skill.recipe_type == self.skill_recipe or
+                    skill.recipe_mask & self.skill_recipe_mask
+            ):
                 self.sub_skill(skill)
 
     def sub_buffs(self, buffs: Dict[int, Buff]):

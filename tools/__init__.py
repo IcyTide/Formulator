@@ -14,9 +14,25 @@ BASE_DIR = "../JX3TABS"
 SAVE_DIR = "assets"
 
 SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False, encoding="gbk")
+SKILL_TAB['Platform'] = 0
+MOBILE_SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/skills.tab"), sep="\t", low_memory=False,
+                               encoding="gbk")
+MOBILE_SKILL_TAB['Platform'] = 1
+SKILL_TAB = pd.concat([SKILL_TAB, MOBILE_SKILL_TAB], axis=0)
 BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/buff.tab"), sep="\t", low_memory=False, encoding="gbk")
+BUFF_TAB['Platform'] = 0
+MOBILE_BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/buff.tab"), sep="\t", low_memory=False,
+                              encoding="gbk")
+MOBILE_BUFF_TAB['Platform'] = 1
+BUFF_TAB = pd.concat([BUFF_TAB, MOBILE_BUFF_TAB], axis=0)
 SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/skill.txt"), sep="\t", low_memory=False, encoding="gbk")
+MOBILE_SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/skill.txt"), sep="\t", low_memory=False,
+                               encoding="gbk")
+SKILL_TXT = pd.concat([SKILL_TXT, MOBILE_SKILL_TXT], axis=0)
 BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/buff.txt"), sep="\t", low_memory=False, encoding="gbk")
+MOBILE_BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/buff.txt"), sep="\t", low_memory=False,
+                              encoding="gbk")
+BUFF_TXT = pd.concat([BUFF_TXT, MOBILE_BUFF_TXT], axis=0)
 
 ATTRIBUTE_TYPE = {
     -1: "physical_damage_base",

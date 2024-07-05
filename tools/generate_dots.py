@@ -7,7 +7,7 @@ MAX_ATTRIB = 2
 
 def parse_dot(row):
     result = dict(
-        interval=row["Interval"], tick=row["Count"], max_stack=row["MaxStackNum"]
+        interval=row.Interval, tick=row.Count, max_stack=row.MaxStackNum, platform=row.Platform
     )
     for i in range(MAX_ATTRIB):
         attr, param_1 = row[f"ActiveAttrib{i + 1}"], row[f"ActiveValue{i + 1}A"]

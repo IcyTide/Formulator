@@ -6,7 +6,7 @@ class JingYuJue(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1485 / BINARY_SCALE
     STRENGTH_TO_CRITICAL_STRIKE = 604 / BINARY_SCALE
 
-    def __init__(self):
+    def __init__(self, platform=0):
         super().__init__()
         self.physical_attack_power_base += 3277
         self.physical_overcome_base += 2929

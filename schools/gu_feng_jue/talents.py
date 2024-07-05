@@ -69,6 +69,14 @@ class 强膂(Gain):
         attribute.strength_gain -= 102
 
 
+class 斩涛(Gain):
+    def add_attribute(self, attribute: Attribute):
+        attribute.strength_gain += 154
+
+    def sub_attribute(self, attribute: Attribute):
+        attribute.strength_gain -= 154
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     32450: Talent("渊冲", [PhysicalCriticalRecipe((1000, 102), 32132, 32132)]),
     32580: Talent("戗风", [DamageAdditionRecipe(82, skill_id, skill_id) for skill_id in (32145, 32144, 32601)]),
@@ -89,14 +97,19 @@ TALENT_GAINS: Dict[int, Talent] = {
     32493: Talent("流岚"),
     32452: Talent("聚疏"),
     36035: Talent("潋风"),
-    32586: Talent("截辕")
+    32586: Talent("截辕"),
+
+    101537: Talent("斩涛", [斩涛()]),
+    101539: Talent("披靡"),
+    101542: Talent("倒海"),
+    101395: Talent("孤风破浪")
 }
 
 TALENTS = [
-    [32450],
-    [32580],
-    [32464],
-    [32490],
+    [32450, 101537],
+    [32580, 101539],
+    [32464, 101542],
+    [32490, 101395],
     [32492, 33027],
     [32500, 32497],
     [32457, 32512, 32502],

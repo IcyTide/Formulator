@@ -1,6 +1,6 @@
 from typing import Dict
 
-from assets.constant import ATTR_TYPE_TRANSLATE
+from assets.constant import ATTR_TYPE_TRANSLATE, MOBILE_MAX_TALENTS
 from qt.components.dashboard import DashboardWidget
 from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
@@ -59,7 +59,7 @@ def dashboard_script(parser: Parser,
         record = parser.current_records
         school = parser.current_school
 
-        attribute = school.attribute()
+        attribute = school.attribute(school.platform)
         attribute.target.level = int(dashboard_widget.target_level.combo_box.currentText())
         for attr, value in equipments.attrs.items():
             setattr(attribute, attr, getattr(attribute, attr) + value)
@@ -69,8 +69,13 @@ def dashboard_script(parser: Parser,
             setattr(attribute, attr, getattr(attribute, attr) + value)
 
         equipment_gains = [school.gains[gain] for gain in equipments.gains]
-        talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
-        recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
+        if not school.platform:
+            talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
+            recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
+        else:
+            talent_gains = [school.talent_gains[school.talent_encoder[talent]]
+                            for talent in talents.gains[:MOBILE_MAX_TALENTS]]
+            recipe_gains = []
         gains = sum([equipment_gains, talent_gains, recipe_gains, bonuses.gains], [])
         if school.id == 10145:
             gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))

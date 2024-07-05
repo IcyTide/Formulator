@@ -6,7 +6,7 @@ class AoXueZhanYi(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1638 / BINARY_SCALE
     STRENGTH_TO_OVERCOME = 256 / BINARY_SCALE
 
-    def __init__(self):
+    def __init__(self, platform=0):
         super().__init__()
         self.physical_attack_power_base += 3794
         self.pve_addition += 195

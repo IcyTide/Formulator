@@ -15,8 +15,20 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         24659: dict(buff_name="应理与药", gains=[DamageAdditionRecipe(3277, 28081, 28081)])
     },
 }
+MOBILE_BUFFS: Dict[type, Dict[int, dict]] = {
+    Buff: {
+        71230: {}, 71258: {}
+    }
+}
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
+    for buff_id, attrs in buffs.items():
+        buff = buff_class(buff_id)
+        set_buff(buff)
+        for attr, value in attrs.items():
+            setattr(buff, attr, value)
+        BUFFS[buff_id] = buff
+for buff_class, buffs in MOBILE_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
         set_buff(buff)

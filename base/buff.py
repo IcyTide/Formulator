@@ -60,7 +60,7 @@ class Buff(BaseBuff):
     buff_id: int
 
     frame_shift: int = 0
-    second_shift: int = 0
+    unique: bool = True
     activate: bool = True
 
     gains: list = None
@@ -90,10 +90,6 @@ class Buff(BaseBuff):
             self.end_target_buffs = {}
         if not self.end_effects:
             self.end_effects = []
-
-    @property
-    def shifted(self):
-        return self.second_shift or self.frame_shift
 
     @property
     def display_name(self):
@@ -222,7 +218,7 @@ class Buff(BaseBuff):
 
 class TargetBuff(Buff):
     def add_all(self, attribute: Attribute, skill: Skill):
-        super().add_all(attribute.target, skill)
+        return super().add_all(attribute.target, skill)
 
     def sub_all(self, attribute: Attribute, skill: Skill):
         super().sub_all(attribute.target, skill)

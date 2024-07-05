@@ -6,7 +6,7 @@ class WenShuiJue(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1638 / BINARY_SCALE
     AGILITY_TO_OVERCOME = 256 / BINARY_SCALE
 
-    def __init__(self):
+    def __init__(self, platform=0):
         super().__init__()
         self.physical_attack_power_base += 3449
         self.physical_critical_strike_base += 2544

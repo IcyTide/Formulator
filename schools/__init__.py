@@ -32,6 +32,8 @@ class School:
     gains: Dict[Union[Tuple[int, int], int], Gain]
     display_attrs: Dict[str, str]
 
+    platform: int = 0
+
     def attr_content(self, attribute):
         content = []
         for attr, name in self.display_attrs.items():

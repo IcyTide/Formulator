@@ -404,10 +404,11 @@ class Minor:
 class Attribute(Major, Minor, Target):
     level: int = LEVEL
     grad_attrs: dict = None
+    platform: int = 0
 
     def __init__(self):
         self.all_major_base += MAJOR_BASE
-        self.all_critical_power_base = 0  # init critical power attr
+        # self.all_critical_power_base = 0  # init critical power attr
         self.target = Target()
 
     @property

@@ -1,6 +1,7 @@
 from collections import defaultdict
 from copy import deepcopy
 
+from assets.constant import MOBILE_MAX_TALENTS
 from base.constant import FRAME_PER_SECOND
 from schools import *
 from utils.lua import parse_player, parse_damage
@@ -56,6 +57,7 @@ class BaseParser:
     frame_shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
     second_shift_buffs: Dict[SECOND_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
 
+    id2buff: Dict[int, Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE]]
     buff_stacks: Dict[CASTER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]
     buff_intervals: Dict[CASTER_ID_TYPE, Dict[BUFF_TYPE, FRAME_TYPE]]
     target_buff_stacks: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_TYPE, BUFF_STACK_TYPE]]]
@@ -160,6 +162,7 @@ class BaseParser:
         self.frame_shift_buffs = defaultdict(lambda: defaultdict(dict))
         self.second_shift_buffs = defaultdict(lambda: defaultdict(dict))
 
+        self.id2buff = {}
         self.buff_stacks = defaultdict(dict)
         self.buff_intervals = defaultdict(dict)
         self.target_buff_stacks = defaultdict(lambda: defaultdict(dict))
@@ -200,7 +203,7 @@ class BaseParser:
         stack = max(min(self.current_target_buff_stacks.get(buff_tuple, 0) + buff_stack, buff.max_stack), 0)
         if stack:
             self.current_target_buff_stacks[buff_tuple] = stack
-            if buff.interval > 0:
+            if buff.interval:
                 self.current_target_buff_intervals[buff_tuple] = self.current_frame + buff.interval + 1
         else:
             self.current_target_buff_stacks.pop(buff_tuple, None)
@@ -252,6 +255,10 @@ class Parser(BaseParser):
             if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
                 return
             self.players[player_id] = deepcopy(school)
+            if len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS:
+                self.players[player_id].platform = 0
+            else:
+                self.players[player_id].platform = 1
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
         except:
@@ -339,7 +346,7 @@ class Parser(BaseParser):
         if player_id not in self.players:
             return
 
-        buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
+        unique_id, buff_id, buff_stack, buff_level = int(detail[2]), int(detail[4]), int(detail[5]), int(detail[8])
         if buff_id not in self.players[player_id].buffs:
             return
 
@@ -350,10 +357,20 @@ class Parser(BaseParser):
         self.current_player = player_id
         self.current_caster = caster_id
         if buff_stack:
-            buff_stacks[(buff_id, buff_level)] = buff_stack
+            if buff.unique:
+                buff_stacks[(buff_id, buff_level)] = buff_stack
+            else:
+                self.id2buff[unique_id] = (buff_id, buff_level, buff_stack)
+                buff_stacks[(buff_id, buff_level)] = buff_stacks.get((buff_id, buff_level), 0) + buff_stack
             buff.begin(self)
         else:
-            buff_stacks.pop((buff_id, buff_level), None)
+            if buff.unique:
+                buff_stacks[(buff_id, buff_level)] = buff_stack
+            else:
+                buff_id, buff_level, buff_stack = self.id2buff.pop(unique_id)
+                buff_stacks[(buff_id, buff_level)] = buff_stacks[(buff_id, buff_level)] - buff_stack
+            if not buff_stacks[(buff_id, buff_level)]:
+                buff_stacks.pop((buff_id, buff_level))
             buff.end(self)
 
     def parse_skill(self, row):

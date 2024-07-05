@@ -2,7 +2,10 @@ from tqdm import tqdm
 
 from tools import *
 
-SCRIPTS_PATH = "scripts/skill"
+SCRIPTS_PATH = {
+    0: "scripts/skill",
+    1: "scripts/skill_mobile",
+}
 
 
 class SkillLua:
@@ -10,8 +13,11 @@ class SkillLua:
     skill_level = 0
     skill_name = ""
 
+    platform = 0
+
     kind_type = None
     recipe_type = None
+    recipe_mask = None
     event_mask_1 = 0
     event_mask_2 = 0
 
@@ -22,6 +28,9 @@ class SkillLua:
 
     prepare_frame = 0
     channel_interval = 0
+    skill_cof = 0
+    dot_cof = 0
+    surplus_cof = 0
     weapon_damage_cof = 0
     global_damage_cof = 0
 
@@ -46,7 +55,8 @@ class SkillLua:
         return
 
     def __init__(
-            self, skill_id, skill_level, skill_name, kind_type, recipe_type, weapon_request, use_skill_cof
+            self, skill_id, skill_level, skill_name, kind_type, recipe_type, recipe_mask,
+            weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
     ):
         self.skill_id = skill_id
         self.skill_level = skill_level
@@ -54,12 +64,20 @@ class SkillLua:
             self.skill_name = skill_name
         self.kind_type = kind_type
         self.recipe_type = recipe_type
+        self.recipe_mask = recipe_mask
         self.weapon_request = weapon_request
         if weapon_request:
             self.weapon_damage_cof = 1024
         self.use_skill_cof = use_skill_cof
-        if use_skill_cof:
+        self.platform = platform
+        if use_skill_cof and not platform:
             self.channel_interval = 16
+        if skill_cof:
+            self.skill_cof = skill_cof
+        if dot_cof:
+            self.dot_cof = dot_cof
+        if surplus_cof:
+            self.surplus_cof = surplus_cof
 
     def __getitem__(self, key):
         if key in dir(self):
@@ -93,7 +111,7 @@ class SkillLua:
 
     @nChannelInterval.setter
     def nChannelInterval(self, nChannelInterval):
-        if self.use_skill_cof:
+        if self.use_skill_cof and not self.platform:
             self.channel_interval = nChannelInterval
 
     @property
@@ -102,7 +120,7 @@ class SkillLua:
 
     @nPrepareFrames.setter
     def nPrepareFrames(self, nPrepareFrames):
-        if self.use_skill_cof:
+        if nPrepareFrames and self.use_skill_cof and not self.platform:
             self.prepare_frame = nPrepareFrames
 
     @property
@@ -142,19 +160,27 @@ def parse_lua(skill_id):
     max_level = int(skill_row.MaxLevel)
     kind_type = skill_row.KindType if pd.notna(skill_row.KindType) else ""
     recipe_type = skill_row.RecipeType if pd.notna(skill_row.RecipeType) else 0
+    recipe_mask = skill_row.RecipeTagMask if pd.notna(skill_row.RecipeTagMask) else 0
     # event_mask_1 = int(skill_row.SkillEventMask1) if pd.notna(skill_row.SkillEventMask1) else 0
     # event_mask_2 = int(skill_row.SkillEventMask2) if pd.notna(skill_row.SkillEventMask2) else 0
     weapon_request = int(skill_row.WeaponRequest)
     use_skill_cof = int(skill_row.UseSkillCoefficient)
-    with open(os.path.join(BASE_DIR, SCRIPTS_PATH, skill_row.ScriptFile), encoding="gbk") as f:
+    platform = skill_row.Platform
+    skill_cof = int(skill_row.SkillCoefficient) if pd.notna(skill_row.SkillCoefficient) else 0
+    dot_cof = int(skill_row.DotCoefficient) if pd.notna(skill_row.DotCoefficient) else 0
+    surplus_cof = int(skill_row.SurplusCoefficient) if pd.notna(skill_row.SurplusCoefficient) else 0
+    with open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], skill_row.ScriptFile), encoding="gbk") as f:
         lua_code = remove_include(f.read())
-    return max_level, kind_type, recipe_type, weapon_request, use_skill_cof, lua_code
+    skill_args = (
+        kind_type, recipe_type, recipe_mask, weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
+    )
+    return max_level, lua_code, skill_args
 
 
 def collect_result():
     result = []
     for skill_id in tqdm(SKILLS):
-        max_level, kind_type, recipe_type, weapon_request, use_skill_cof, lua_code = parse_lua(skill_id)
+        max_level, lua_code, skill_args = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
         LUA.execute(lua_code)
         for skill_level in range(max_level):
@@ -166,19 +192,19 @@ def collect_result():
             else:
                 skill_name = filter_skill_txt.iloc[-1].Name
 
-            skill = SkillLua(
-                skill_id, skill_level, skill_name, kind_type, recipe_type, weapon_request, use_skill_cof
-            )
+            skill = SkillLua(skill_id, skill_level, skill_name, *skill_args)
             LUA.globals()['GetSkillLevelData'](skill)
             if not skill.physical_damage_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof
+
             result.append(skill.__dict__.copy())
     return pd.DataFrame(result)
 
 
 def convert_json(result):
     exclude_columns = [
-        "skill_id", "skill_level", "kind_type", "recipe_type", "weapon_request", "use_skill_cof"
+        "skill_id", "skill_level", "weapon_request", "use_skill_cof",
+        "kind_type", "recipe_type", "recipe_mask", "platform"
     ]
     int_columns = [
         "physical_damage_base", "magical_damage_base", "physical_damage_rand", "magical_damage_rand",
@@ -187,14 +213,16 @@ def convert_json(result):
         "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition", "damage_addition",
         "physical_damage_call", "magical_damage_call", "adaptive_damage_call",
         "physical_surplus_call", "magical_surplus_call",
-        "physical_attack_power_base", "magical_attack_power_base"
+        "physical_attack_power_base", "magical_attack_power_base",
+        "skill_cof", "dot_cof", "surplus_cof"
     ]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():
         filter_result = result[result.skill_id == skill_id]
         first_row = filter_result.iloc[0]
         result_json[skill_id] = dict(
-            kind_type=first_row.kind_type, recipe_type=int(first_row.recipe_type)
+            kind_type=first_row.kind_type, platform=int(first_row.platform),
+            recipe_type=int(first_row.recipe_type), recipe_mask=int(first_row.recipe_mask),
         )
         for column in result.columns:
             if column in exclude_columns:

@@ -108,6 +108,8 @@ class BaseDot(BaseSkill):
 class BaseDamage(BaseSkill):
     PHYSICAL_KINDS = ["Physics"]
     MAGICAL_KINDS = ["SolarMagic", "LunarMagic", "NeutralMagic", "Poison"]
+    platform: int
+
     kind_type: str = ""
     _physical_damage_call: List[int] = []
     _magical_damage_call: List[int] = []
@@ -124,6 +126,10 @@ class BaseDamage(BaseSkill):
     _channel_interval: List[int] = []
     _weapon_damage_cof: List[int] = []
     _global_damage_cof: List[float] = []
+
+    skill_cof: int = 0
+    dot_cof: int = 0
+    _surplus_cof: int = 0
 
     prepare_frame_extra: int = 0
     channel_interval_extra: float = 1.
@@ -344,6 +350,17 @@ class BaseDamage(BaseSkill):
             self._channel_interval = [channel_interval]
 
     @property
+    def surplus_cof(self):
+        if not self.platform:
+            return DEFAULT_SURPLUS_COF
+        else:
+            return self._surplus_cof / BINARY_SCALE
+
+    @surplus_cof.setter
+    def surplus_cof(self, surplus_cof):
+        self._surplus_cof = surplus_cof
+
+    @property
     def weapon_damage_cof(self):
         if not self._weapon_damage_cof:
             return 0
@@ -522,11 +539,17 @@ class BaseDamage(BaseSkill):
 
     @property
     def physical_attack_power_cof(self):
-        return PHYSICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+        if not self.platform:
+            return PHYSICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+        else:
+            return PHYSICAL_ATTACK_POWER_COF(self.skill_cof)
 
     @property
     def magical_attack_power_cof(self):
-        return MAGICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+        if not self.platform:
+            return MAGICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+        else:
+            return MAGICAL_ATTACK_POWER_COF(self.skill_cof)
 
     def pre_damage(self, attribute: Attribute):
         attribute.global_damage_cof *= self.global_damage_cof
@@ -671,7 +694,7 @@ class BaseDamage(BaseSkill):
 
     def call_physical_surplus(self, attribute: Attribute):
         damage = init_result(
-            0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus, attribute.global_damage_cof
+            0, 0, 0, 0, 0, 0, 0, self.surplus_cof, attribute.surplus, attribute.global_damage_cof
         )
         if damage:
             return self.physical_damage_chain(damage, attribute)
@@ -679,7 +702,7 @@ class BaseDamage(BaseSkill):
 
     def call_magical_surplus(self, attribute: Attribute):
         damage = init_result(
-            0, 0, 0, 0, 0, 0, 0, SURPLUS_COF, attribute.surplus, attribute.global_damage_cof
+            0, 0, 0, 0, 0, 0, 0, self.surplus_cof, attribute.surplus, attribute.global_damage_cof
         )
         if damage:
             return self.magical_damage_chain(damage, attribute)
@@ -722,6 +745,7 @@ class Skill(BaseDamage, BaseDot):
     activate: bool = True
 
     recipe_type: int = 0
+    recipe_mask: int = 0
     event_mask_1: int = 0
     event_mask_2: int = 0
 
@@ -849,11 +873,17 @@ class Dot(Skill):
 
     @property
     def physical_attack_power_cof(self):
-        return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        if not self.platform:
+            return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        else:
+            return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.dot_cof, self.interval, self.origin_tick)
 
     @property
     def magical_attack_power_cof(self):
-        return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        if not self.platform:
+            return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        else:
+            return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.dot_cof, self.interval, self.origin_tick)
 
     def critical_strike(self, attribute: Attribute):
         return self.bind_skill.critical_strike(attribute)

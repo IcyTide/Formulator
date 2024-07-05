@@ -1,3 +1,4 @@
+from base.attribute import Attribute
 from base.gain import Gain
 from base.skill import Skill
 

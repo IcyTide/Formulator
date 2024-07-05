@@ -3,6 +3,7 @@ from typing import Dict, Union, Tuple, List
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
+from base.recipe import DamageAdditionRecipe
 from base.skill import Skill
 from general.buffs.equipment import BUFFS
 from general.skills.equipment import SKILLS
@@ -153,6 +154,6 @@ EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
     22166: 大附魔腕(),
     33247: 大附魔鞋(),
 
-    17250: Gain(),
-    17239: Gain(),
+    17250: DamageAdditionRecipe(55, 0, 0, 4),
+    17239: DamageAdditionRecipe(21, 0, 0, 4),
 }

@@ -1,7 +1,9 @@
 SKILLS = {
     22160: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 75.0,
         "physical_damage_base": [
@@ -49,7 +51,9 @@ SKILLS = {
     },
     22161: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
         "magical_damage_base": 40,
@@ -58,7 +62,9 @@ SKILLS = {
     },
     22162: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
         "magical_damage_base": 40,
@@ -67,7 +73,9 @@ SKILLS = {
     },
     22163: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
         "magical_damage_base": 40,
@@ -76,7 +84,9 @@ SKILLS = {
     },
     22164: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
         "magical_damage_base": 40,
@@ -85,7 +95,9 @@ SKILLS = {
     },
     33257: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "channel_interval": [
             60.0,
@@ -132,7 +144,9 @@ SKILLS = {
     },
     33258: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "channel_interval": [
             50.0,
@@ -147,7 +161,9 @@ SKILLS = {
     },
     33259: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "channel_interval": [
             50.0,
@@ -162,7 +178,9 @@ SKILLS = {
     },
     33260: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "channel_interval": [
             50.0,
@@ -177,7 +195,9 @@ SKILLS = {
     },
     33261: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "channel_interval": [
             50.0,
@@ -192,7 +212,9 @@ SKILLS = {
     },
     22151: {
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0,
         "magical_attack_power_base": [
             148,
@@ -225,19 +247,25 @@ SKILLS = {
     },
     37562: {
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "adaptive_damage_call": 1
     },
     37561: {
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "刃凌",
         "adaptive_damage_call": 1
     },
     28947: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "乱暮浊茵阵",
         "magical_damage_base": [
             200,
@@ -447,7 +475,9 @@ SKILLS = {
     },
     29532: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -463,7 +493,9 @@ SKILLS = {
     },
     29533: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -479,7 +511,9 @@ SKILLS = {
     },
     29534: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -495,7 +529,9 @@ SKILLS = {
     },
     29535: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -511,7 +547,9 @@ SKILLS = {
     },
     29536: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -527,7 +565,9 @@ SKILLS = {
     },
     29537: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 27674,
+        "recipe_mask": 0,
         "skill_name": "逐云寒蕊",
         "channel_interval": [
             90.0,
@@ -543,25 +583,29 @@ SKILLS = {
     },
     29548: {
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "履冰",
         "channel_interval": 80.0,
         "physical_damage_base": 0,
-        "adaptive_damage_call": 1,
-        "prepare_frame": 0.0
+        "adaptive_damage_call": 1
     },
     11: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "六合棍",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     236: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "摩诃无量",
         "channel_interval": 16.0,
         "magical_damage_base": [
@@ -577,7 +621,9 @@ SKILLS = {
     },
     271: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
+        "recipe_mask": 0,
         "skill_name": "降魔",
         "channel_interval": [
             87.81045569999999,
@@ -604,7 +650,9 @@ SKILLS = {
     },
     14951: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 238,
+        "recipe_mask": 0,
         "skill_name": "捕风式",
         "channel_interval": [
             65.205,
@@ -681,12 +729,13 @@ SKILLS = {
             6,
             6
         ],
-        "magical_damage_call": 1,
-        "prepare_frame": 0.0
+        "magical_damage_call": 1
     },
     17641: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 232,
+        "recipe_mask": 0,
         "skill_name": "普渡四方",
         "channel_interval": [
             28.05264,
@@ -782,7 +831,9 @@ SKILLS = {
     },
     17642: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 232,
+        "recipe_mask": 0,
         "skill_name": "普渡四方",
         "channel_interval": [
             28.05264,
@@ -878,7 +929,9 @@ SKILLS = {
     },
     19090: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19090,
+        "recipe_mask": 0,
         "skill_name": [
             "普渡四方",
             "韦陀献杵",
@@ -899,7 +952,9 @@ SKILLS = {
     },
     25766: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "守缺式·神兵",
         "channel_interval": 50.0,
         "magical_damage_rand": 2,
@@ -907,7 +962,9 @@ SKILLS = {
     },
     28619: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "千斤坠",
         "channel_interval": [
             50.0,
@@ -919,7 +976,9 @@ SKILLS = {
     },
     29516: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "金刚日轮",
         "channel_interval": 480.0,
         "magical_damage_base": 28,
@@ -929,21 +988,27 @@ SKILLS = {
     },
     32656: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "金刚龙爪功",
         "channel_interval": 300.0,
         "magical_damage_call": 1
     },
     32659: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "果报守缺",
         "channel_interval": 1310.3999999999999,
         "magical_damage_call": 1
     },
     32660: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "果报横扫",
         "channel_interval": 873.6,
         "magical_damage_base": 28,
@@ -952,14 +1017,18 @@ SKILLS = {
     },
     32887: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": -362728.65280000004,
         "magical_surplus_call": 1
     },
     3814: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 2572,
+        "recipe_mask": 0,
         "skill_name": "守缺式",
         "channel_interval": [
             181.70460000000003,
@@ -990,7 +1059,9 @@ SKILLS = {
     },
     3816: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 2572,
+        "recipe_mask": 0,
         "skill_name": "守缺式",
         "channel_interval": [
             151.4205,
@@ -1021,7 +1092,9 @@ SKILLS = {
     },
     3848: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
+        "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 405.684305334,
         "magical_damage_base": [
@@ -1090,7 +1163,9 @@ SKILLS = {
     },
     3849: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
+        "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 135.22810177800002,
         "magical_damage_base": [
@@ -1129,7 +1204,9 @@ SKILLS = {
     },
     3850: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
+        "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 270.45620355600005,
         "magical_damage_base": [
@@ -1168,7 +1245,9 @@ SKILLS = {
     },
     13685: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
+        "recipe_mask": 0,
         "skill_name": "拿云式",
         "channel_interval": 419.59417500000006,
         "magical_damage_base": [
@@ -1217,7 +1296,9 @@ SKILLS = {
     },
     28542: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "六合棍意",
         "channel_interval": 119.6,
         "magical_damage_base": [
@@ -1256,7 +1337,9 @@ SKILLS = {
     },
     3808: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
+        "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 176.42480625000002,
         "magical_damage_base": [
@@ -1324,7 +1407,9 @@ SKILLS = {
     },
     3810: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
+        "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 291.10093031249994,
         "magical_damage_base": [
@@ -1392,7 +1477,9 @@ SKILLS = {
     },
     3830: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
+        "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 168.023625,
         "magical_damage_base": [
@@ -1460,37 +1547,48 @@ SKILLS = {
     },
     28539: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
+        "recipe_mask": 0,
         "skill_name": "无执六合环绕",
         "channel_interval": 128.30895
     },
     24026: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     26989: {
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     26991: {
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     18121: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "三柴剑法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     32813: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -985661.44,
@@ -1502,7 +1600,9 @@ SKILLS = {
     },
     303: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "三才化生",
         "channel_interval": 16.0,
         "magical_damage_base": [
@@ -1553,12 +1653,13 @@ SKILLS = {
             7,
             7
         ],
-        "magical_damage_call": 1,
-        "prepare_frame": 0.0
+        "magical_damage_call": 1
     },
     896: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 367,
+        "recipe_mask": 0,
         "skill_name": "四象轮回",
         "channel_interval": [
             83.10804994800004,
@@ -1669,7 +1770,9 @@ SKILLS = {
     },
     18670: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 368,
+        "recipe_mask": 0,
         "skill_name": "六合独尊",
         "channel_interval": [
             50.56,
@@ -1741,7 +1844,9 @@ SKILLS = {
     },
     22014: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "万世不竭",
         "channel_interval": [
             467.54400000000004,
@@ -1759,7 +1864,9 @@ SKILLS = {
     },
     36439: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "颠越苍穹击",
         "channel_interval": 189.72000000000003,
         "magical_damage_base": 1038,
@@ -1768,7 +1875,9 @@ SKILLS = {
     },
     25770: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "四象轮回·神兵",
         "channel_interval": 65.0,
         "magical_damage_rand": 2,
@@ -1776,13 +1885,17 @@ SKILLS = {
     },
     2681: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "紫气东来",
         "channel_interval": 16.0
     },
     327: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 11.2,
         "magical_damage_base": [
@@ -1808,7 +1921,9 @@ SKILLS = {
     },
     328: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 22.4,
         "magical_damage_base": [
@@ -1834,7 +1949,9 @@ SKILLS = {
     },
     329: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 33.599999999999994,
         "magical_damage_base": [
@@ -1860,7 +1977,9 @@ SKILLS = {
     },
     330: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 44.8,
         "magical_damage_base": [
@@ -1886,7 +2005,9 @@ SKILLS = {
     },
     331: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 56.0,
         "magical_damage_base": [
@@ -1912,7 +2033,9 @@ SKILLS = {
     },
     461: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 67.19999999999999,
         "magical_damage_base": [
@@ -1938,7 +2061,9 @@ SKILLS = {
     },
     462: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 78.39999999999999,
         "magical_damage_base": [
@@ -1964,7 +2089,9 @@ SKILLS = {
     },
     463: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 89.6,
         "magical_damage_base": [
@@ -1990,7 +2117,9 @@ SKILLS = {
     },
     464: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 100.8,
         "magical_damage_base": [
@@ -2016,7 +2145,9 @@ SKILLS = {
     },
     465: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
+        "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 112.0,
         "magical_damage_base": [
@@ -2042,7 +2173,9 @@ SKILLS = {
     },
     3439: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             7.606615886100005,
@@ -2159,7 +2292,9 @@ SKILLS = {
     },
     3440: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             15.21323177220001,
@@ -2276,7 +2411,9 @@ SKILLS = {
     },
     3441: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             22.819847658300013,
@@ -2393,7 +2530,9 @@ SKILLS = {
     },
     3442: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             30.42646354440002,
@@ -2510,7 +2649,9 @@ SKILLS = {
     },
     3443: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             38.03307943050002,
@@ -2627,7 +2768,9 @@ SKILLS = {
     },
     3444: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             45.639695316600026,
@@ -2744,7 +2887,9 @@ SKILLS = {
     },
     3445: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             53.24631120270002,
@@ -2861,7 +3006,9 @@ SKILLS = {
     },
     3446: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             60.85292708880004,
@@ -2978,7 +3125,9 @@ SKILLS = {
     },
     3447: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             68.45954297490005,
@@ -3095,7 +3244,9 @@ SKILLS = {
     },
     3448: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": [
             76.06615886100003,
@@ -3212,7 +3363,9 @@ SKILLS = {
     },
     6091: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 11.200000000000001,
         "magical_damage_base": [
@@ -3293,7 +3446,9 @@ SKILLS = {
     },
     6092: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 22.400000000000002,
         "magical_damage_base": [
@@ -3374,7 +3529,9 @@ SKILLS = {
     },
     6093: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 33.6,
         "magical_damage_base": [
@@ -3455,7 +3612,9 @@ SKILLS = {
     },
     6094: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 44.800000000000004,
         "magical_damage_base": [
@@ -3536,7 +3695,9 @@ SKILLS = {
     },
     6095: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 56.0,
         "magical_damage_base": [
@@ -3617,7 +3778,9 @@ SKILLS = {
     },
     6096: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 67.2,
         "magical_damage_base": [
@@ -3698,7 +3861,9 @@ SKILLS = {
     },
     6097: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 78.4,
         "magical_damage_base": [
@@ -3779,7 +3944,9 @@ SKILLS = {
     },
     6098: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 89.60000000000001,
         "magical_damage_base": [
@@ -3860,7 +4027,9 @@ SKILLS = {
     },
     6099: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 100.80000000000001,
         "magical_damage_base": [
@@ -3941,7 +4110,9 @@ SKILLS = {
     },
     6100: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
+        "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 112.0,
         "magical_damage_base": [
@@ -4022,7 +4193,9 @@ SKILLS = {
     },
     18649: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
         "magical_damage_base": 50,
@@ -4031,7 +4204,9 @@ SKILLS = {
     },
     18650: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
         "magical_damage_base": 50,
@@ -4040,7 +4215,9 @@ SKILLS = {
     },
     18651: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
         "magical_damage_base": 50,
@@ -4049,7 +4226,9 @@ SKILLS = {
     },
     18652: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
         "magical_damage_base": 50,
@@ -4058,7 +4237,9 @@ SKILLS = {
     },
     18653: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
+        "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
         "magical_damage_base": 50,
@@ -4067,17 +4248,23 @@ SKILLS = {
     },
     33592: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 390.8299999999999
     },
     18698: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     589: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 588,
+        "recipe_mask": 0,
         "skill_name": "人剑合一",
         "channel_interval": 40.0,
         "physical_damage_base": [
@@ -4109,7 +4296,9 @@ SKILLS = {
     },
     4954: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 2699,
+        "recipe_mask": 0,
         "skill_name": "八荒归元",
         "channel_interval": [
             478.11456000000015,
@@ -4131,7 +4320,9 @@ SKILLS = {
     },
     13853: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 2699,
+        "recipe_mask": 0,
         "skill_name": "八荒归元",
         "channel_interval": 26.88,
         "physical_damage_base": [
@@ -4175,7 +4366,9 @@ SKILLS = {
     },
     21726: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "持盈",
         "channel_interval": 127.0,
         "physical_damage_base": 40,
@@ -4184,7 +4377,9 @@ SKILLS = {
     },
     21979: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "云中剑·生太极",
             "云中剑·碎星辰",
@@ -4197,7 +4392,9 @@ SKILLS = {
     },
     25771: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "八荒归元·神兵",
         "channel_interval": 65.0,
         "physical_damage_rand": 2,
@@ -4205,7 +4402,9 @@ SKILLS = {
     },
     32814: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -943231.860736,
@@ -4216,7 +4415,9 @@ SKILLS = {
     },
     34693: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "剑入",
         "channel_interval": 221.76000000000002,
         "physical_damage_base": 77,
@@ -4226,7 +4427,9 @@ SKILLS = {
     },
     34694: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "剑入",
         "channel_interval": 616.0,
         "physical_damage_base": 77,
@@ -4236,7 +4439,9 @@ SKILLS = {
     },
     386: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             17.11327926000001,
@@ -4354,7 +4559,9 @@ SKILLS = {
     },
     387: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             25.669918890000012,
@@ -4472,7 +4679,9 @@ SKILLS = {
     },
     388: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             34.22655852000002,
@@ -4590,7 +4799,9 @@ SKILLS = {
     },
     389: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             42.783198150000025,
@@ -4708,7 +4919,9 @@ SKILLS = {
     },
     390: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             51.339837780000025,
@@ -4826,7 +5039,9 @@ SKILLS = {
     },
     391: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             59.89647741000003,
@@ -4944,7 +5159,9 @@ SKILLS = {
     },
     392: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             68.45311704000004,
@@ -5062,7 +5279,9 @@ SKILLS = {
     },
     393: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             77.00975667000004,
@@ -5180,7 +5399,9 @@ SKILLS = {
     },
     394: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": [
             85.56639630000005,
@@ -5298,7 +5519,9 @@ SKILLS = {
     },
     6076: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 14.25,
         "physical_damage_base": [
@@ -5379,7 +5602,9 @@ SKILLS = {
     },
     6077: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 28.5,
         "physical_damage_base": [
@@ -5460,7 +5685,9 @@ SKILLS = {
     },
     6078: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 42.75,
         "physical_damage_base": [
@@ -5541,7 +5768,9 @@ SKILLS = {
     },
     6079: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 57.0,
         "physical_damage_base": [
@@ -5622,7 +5851,9 @@ SKILLS = {
     },
     6080: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 71.25,
         "physical_damage_base": [
@@ -5703,7 +5934,9 @@ SKILLS = {
     },
     6081: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 85.5,
         "physical_damage_base": [
@@ -5784,7 +6017,9 @@ SKILLS = {
     },
     6082: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 99.75,
         "physical_damage_base": [
@@ -5865,7 +6100,9 @@ SKILLS = {
     },
     6083: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 114.0,
         "physical_damage_base": [
@@ -5946,7 +6183,9 @@ SKILLS = {
     },
     6084: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 128.25,
         "physical_damage_base": [
@@ -6027,7 +6266,9 @@ SKILLS = {
     },
     6085: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "无我无剑",
         "channel_interval": 142.5,
         "physical_damage_base": [
@@ -6108,7 +6349,9 @@ SKILLS = {
     },
     32408: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 364,
+        "recipe_mask": 0,
         "skill_name": "三环套月",
         "channel_interval": [
             20.328000000000007,
@@ -6220,33 +6463,42 @@ SKILLS = {
     },
     600: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 600,
+        "recipe_mask": 0,
         "skill_name": "叠刃",
         "channel_interval": 80.707
     },
     37453: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 450.0
     },
     30944: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "万象归元",
         "channel_interval": 450.0
     },
     16: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "判官笔法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     186: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "芙蓉并蒂",
         "channel_interval": 73.6,
         "magical_damage_base": [
@@ -6256,12 +6508,13 @@ SKILLS = {
             76
         ],
         "magical_damage_rand": 5,
-        "magical_damage_call": 1,
-        "prepare_frame": 0.0
+        "magical_damage_call": 1
     },
     6693: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "商阳指",
         "channel_interval": 73.6,
         "magical_damage_base": 20,
@@ -6269,7 +6522,9 @@ SKILLS = {
     },
     14941: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 179,
+        "recipe_mask": 0,
         "skill_name": "阳明指",
         "channel_interval": [
             104.432328,
@@ -6365,7 +6620,9 @@ SKILLS = {
     },
     25768: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "兰摧玉折·神兵",
         "channel_interval": 100.0,
         "magical_damage_rand": 2,
@@ -6373,7 +6630,9 @@ SKILLS = {
     },
     32467: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 32467,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -787585.1316625408,
@@ -6388,7 +6647,9 @@ SKILLS = {
     },
     32501: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "折花",
         "channel_interval": [
             304.0,
@@ -6402,7 +6663,9 @@ SKILLS = {
     },
     37270: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "墨海",
             "临源",
@@ -6421,7 +6684,9 @@ SKILLS = {
     },
     37525: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "钟灵",
         "channel_interval": 328.0,
         "magical_damage_base": 121,
@@ -6430,13 +6695,17 @@ SKILLS = {
     },
     2645: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "乱洒青荷",
         "channel_interval": 16.0
     },
     182: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "玉石俱焚",
         "channel_interval": 73.6,
         "magical_damage_base": [
@@ -6505,7 +6774,9 @@ SKILLS = {
     },
     18730: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
+        "recipe_mask": 0,
         "skill_name": "兰摧玉折",
         "channel_interval": [
             142.69973382098442,
@@ -6527,12 +6798,13 @@ SKILLS = {
             308.12908455246105,
             328.8077533938956,
             388.5461300469288
-        ],
-        "prepare_frame": 0.0
+        ]
     },
     13848: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
+        "recipe_mask": 0,
         "channel_interval": [
             142.69973382098442,
             142.69973382098442,
@@ -6557,12 +6829,16 @@ SKILLS = {
     },
     6136: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
+        "recipe_mask": 0,
         "channel_interval": 388.5461300469288
     },
     285: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
+        "recipe_mask": 0,
         "skill_name": "钟林毓秀",
         "channel_interval": [
             95.48591672812502,
@@ -6593,12 +6869,16 @@ SKILLS = {
     },
     3086: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
+        "recipe_mask": 0,
         "channel_interval": 348.12573807128905
     },
     13847: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
+        "recipe_mask": 0,
         "channel_interval": [
             95.48591672812502,
             95.48591672812502,
@@ -6628,12 +6908,16 @@ SKILLS = {
     },
     6135: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
+        "recipe_mask": 0,
         "channel_interval": 348.12573807128905
     },
     180: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
+        "recipe_mask": 0,
         "skill_name": "商阳指",
         "channel_interval": [
             121.25195775000002,
@@ -6669,7 +6953,9 @@ SKILLS = {
     },
     13849: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
+        "recipe_mask": 0,
         "channel_interval": [
             121.25195775000002,
             121.25195775000002,
@@ -6704,22 +6990,30 @@ SKILLS = {
     },
     6134: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
+        "recipe_mask": 0,
         "channel_interval": 305.0244562148438
     },
     32481: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 32409,
+        "recipe_mask": 0,
         "channel_interval": 50.748882291843756
     },
     32409: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 32409,
+        "recipe_mask": 0,
         "channel_interval": 50.748882291843756
     },
     33222: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2636,
+        "recipe_mask": 0,
         "skill_name": "快雪时晴",
         "channel_interval": [
             64.696401,
@@ -6819,7 +7113,9 @@ SKILLS = {
     },
     6129: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0,
         "global_damage_cof": [
             -1048576.0,
@@ -6832,7 +7128,9 @@ SKILLS = {
     },
     6126: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0,
         "global_damage_cof": [
             -1048576.0,
@@ -6845,7 +7143,9 @@ SKILLS = {
     },
     6128: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0,
         "global_damage_cof": [
             -1048576.0,
@@ -6858,7 +7158,9 @@ SKILLS = {
     },
     32410: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0,
         "global_damage_cof": [
             -1048576.0,
@@ -6868,7 +7170,9 @@ SKILLS = {
     },
     601: {
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "吞海",
         "channel_interval": 16.0,
         "global_damage_cof": [
@@ -6888,21 +7192,26 @@ SKILLS = {
     },
     18722: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     12: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "梅花枪法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     431: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 418,
+        "recipe_mask": 0,
         "skill_name": "突",
         "channel_interval": 16.0,
         "physical_damage_base": [
@@ -6915,13 +7224,14 @@ SKILLS = {
         ],
         "physical_damage_rand": 3,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0,
         "physical_attack_power_gain": -1024
     },
     701: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
         "channel_interval": [
             129.36,
@@ -6987,12 +7297,13 @@ SKILLS = {
             10
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     702: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
         "channel_interval": [
             86.24000000000001,
@@ -7062,7 +7373,9 @@ SKILLS = {
     },
     6525: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
         "channel_interval": [
             129.36,
@@ -7128,12 +7441,13 @@ SKILLS = {
             12
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     6526: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
         "channel_interval": [
             86.24000000000001,
@@ -7203,14 +7517,17 @@ SKILLS = {
     },
     423: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
-        "channel_interval": 64.0,
-        "prepare_frame": 0.0
+        "channel_interval": 64.0
     },
     14882: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 418,
+        "recipe_mask": 0,
         "skill_name": "突",
         "channel_interval": 16.0,
         "physical_damage_base": [
@@ -7221,13 +7538,14 @@ SKILLS = {
         ],
         "physical_damage_rand": 3,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0,
         "physical_attack_power_gain": -1024
     },
     15002: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 415,
+        "recipe_mask": 0,
         "skill_name": "龙牙",
         "channel_interval": [
             86.25092747040007,
@@ -7327,18 +7645,21 @@ SKILLS = {
     },
     24898: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
+        "recipe_mask": 0,
         "skill_name": "灭",
         "channel_interval": 42.0,
         "physical_damage_base": 0,
         "physical_damage_rand": 0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     25772: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "龙牙·神兵",
         "channel_interval": 50.0,
         "physical_damage_rand": 2,
@@ -7346,14 +7667,18 @@ SKILLS = {
     },
     32820: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": -598736.896,
         "physical_surplus_call": 1
     },
     37618: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "龙吟·大漠",
         "channel_interval": 350.0,
         "physical_damage_base": 70,
@@ -7363,18 +7688,21 @@ SKILLS = {
     },
     36568: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "击水",
         "channel_interval": 252.0,
         "physical_damage_base": 78,
         "physical_damage_rand": 10,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 0.0
     },
     18207: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 400,
+        "recipe_mask": 0,
         "skill_name": "穿云",
         "channel_interval": [
             61.984137600000025,
@@ -7471,7 +7799,9 @@ SKILLS = {
     },
     18208: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 400,
+        "recipe_mask": 0,
         "skill_name": "穿云",
         "channel_interval": [
             61.984137600000025,
@@ -7568,13 +7898,17 @@ SKILLS = {
     },
     400: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "穿云",
         "channel_interval": 16.0
     },
     18603: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 403,
+        "recipe_mask": 0,
         "skill_name": "龙吟",
         "channel_interval": [
             151.51678080000008,
@@ -7673,12 +8007,13 @@ SKILLS = {
             15
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     409: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 428,
+        "recipe_mask": 0,
         "skill_name": "断魂刺",
         "channel_interval": 16.0,
         "physical_damage_base": [
@@ -7692,12 +8027,13 @@ SKILLS = {
         ],
         "physical_damage_rand": 3,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     18773: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 415,
+        "recipe_mask": 0,
         "skill_name": "龙牙",
         "channel_interval": [
             215.62731867600016,
@@ -7793,12 +8129,13 @@ SKILLS = {
             15
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     401: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 401,
+        "recipe_mask": 0,
         "skill_name": "破风",
         "channel_interval": [
             168.75416250000004,
@@ -7835,7 +8172,9 @@ SKILLS = {
     },
     18591: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 401,
+        "recipe_mask": 0,
         "channel_interval": [
             168.75416250000004,
             168.75416250000004,
@@ -7871,7 +8210,9 @@ SKILLS = {
     },
     31031: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "画角闻龙",
         "channel_interval": 205.0,
         "physical_damage_base": 496,
@@ -7880,21 +8221,26 @@ SKILLS = {
     },
     18740: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     15: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "连环双刀",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     2716: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2716,
+        "recipe_mask": 0,
         "skill_name": "剑破虚空",
         "channel_interval": [
             106.48000000000002,
@@ -7960,7 +8306,9 @@ SKILLS = {
     },
     6234: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2707,
+        "recipe_mask": 0,
         "skill_name": "玳弦急曲",
         "channel_interval": [
             44.013375,
@@ -8056,7 +8404,9 @@ SKILLS = {
     },
     6554: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2707,
+        "recipe_mask": 0,
         "skill_name": "玳弦急曲",
         "channel_interval": 45.18281250000001,
         "magical_damage_base": [
@@ -8123,7 +8473,9 @@ SKILLS = {
     },
     23936: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "广陵月",
         "channel_interval": 17.6,
         "magical_damage_base": 20,
@@ -8132,7 +8484,9 @@ SKILLS = {
     },
     24999: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "化冰",
         "channel_interval": 378.0,
         "magical_damage_base": 20,
@@ -8141,7 +8495,9 @@ SKILLS = {
     },
     25769: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "剑破虚空·神兵",
         "channel_interval": 65.0,
         "magical_damage_rand": 2,
@@ -8149,7 +8505,9 @@ SKILLS = {
     },
     30524: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 561,
+        "recipe_mask": 0,
         "skill_name": "剑气长江",
         "channel_interval": [
             136.05588480000006,
@@ -8241,12 +8599,13 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1,
-        "prepare_frame": 0.0
+        "magical_damage_call": 1
     },
     30532: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "钗燕",
         "channel_interval": 130.0,
         "magical_damage_base": 133,
@@ -8256,14 +8615,18 @@ SKILLS = {
     },
     32889: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": -884142.5059839999,
         "magical_surplus_call": 1
     },
     6559: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 553,
+        "recipe_mask": 0,
         "skill_name": "江海凝光",
         "channel_interval": [
             51.48000000000001,
@@ -8371,14 +8734,18 @@ SKILLS = {
     },
     32957: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破·虚空",
         "global_damage_cof": -511652.6592,
         "magical_surplus_call": 1
     },
     33140: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "盈袖",
         "channel_interval": 243.75,
         "magical_damage_base": 5,
@@ -8386,7 +8753,9 @@ SKILLS = {
     },
     34611: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "钗燕·明",
         "channel_interval": 574.56,
         "magical_damage_base": 5,
@@ -8394,7 +8763,9 @@ SKILLS = {
     },
     34612: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "凝华",
         "channel_interval": [
             21.0,
@@ -8413,7 +8784,9 @@ SKILLS = {
     },
     34642: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "流玉",
         "channel_interval": 330.0,
         "magical_damage_base": 364,
@@ -8423,14 +8796,18 @@ SKILLS = {
     },
     34704: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破·流玉",
         "global_damage_cof": 1027604.48,
         "magical_surplus_call": 1
     },
     35058: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "凝华·明",
         "channel_interval": [
             88.05999999999999,
@@ -8449,7 +8826,9 @@ SKILLS = {
     },
     37317: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑破",
         "channel_interval": 175.0,
         "magical_damage_base": 5,
@@ -8457,7 +8836,9 @@ SKILLS = {
     },
     37318: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "留芳仙姿·玳弦",
         "channel_interval": 30.0,
         "magical_damage_base": 5,
@@ -8465,7 +8846,9 @@ SKILLS = {
     },
     37319: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑气",
         "channel_interval": 70.0,
         "magical_damage_base": 5,
@@ -8473,7 +8856,9 @@ SKILLS = {
     },
     37320: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑影",
         "channel_interval": 260.0,
         "magical_damage_base": 5,
@@ -8481,43 +8866,56 @@ SKILLS = {
     },
     6207: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 124.14600000000003
     },
     18716: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 124.14600000000003
     },
     25757: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 560.0
     },
     3889: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "玳弦急曲",
         "channel_interval": 16.0
     },
     18381: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "采薇",
         "channel_interval": 16.0
     },
     1795: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "四季剑法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     1594: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
+        "recipe_mask": 0,
         "skill_name": "云飞玉皇",
         "channel_interval": 110.93072091750005,
         "physical_damage_base": [
@@ -8557,12 +8955,13 @@ SKILLS = {
             25
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 2048.0
     },
     1595: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
+        "recipe_mask": 0,
         "skill_name": "云飞玉皇",
         "channel_interval": [
             277.3268022937502,
@@ -8619,12 +9018,13 @@ SKILLS = {
             25
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 2048.0
     },
     1598: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1596,
+        "recipe_mask": 0,
         "skill_name": "鹤归孤山",
         "channel_interval": [
             188.57608000000008,
@@ -8687,12 +9087,13 @@ SKILLS = {
             13
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 2048.0
     },
     1706: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1646,
+        "recipe_mask": 0,
         "skill_name": "听雷",
         "channel_interval": [
             25.603599999999997,
@@ -8800,12 +9201,13 @@ SKILLS = {
             11
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     1707: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1646,
+        "recipe_mask": 0,
         "skill_name": "听雷",
         "channel_interval": [
             25.603599999999997,
@@ -8913,12 +9315,13 @@ SKILLS = {
             11
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     2896: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1600,
+        "recipe_mask": 0,
         "skill_name": "夕照雷峰",
         "channel_interval": [
             178.91155590000008,
@@ -9015,7 +9418,9 @@ SKILLS = {
     },
     13471: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1581,
+        "recipe_mask": 0,
         "skill_name": "黄龙吐翠",
         "channel_interval": [
             16.0,
@@ -9102,12 +9507,13 @@ SKILLS = {
             12
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     18299: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "断潮",
         "channel_interval": [
             135.28284000000005,
@@ -9164,12 +9570,13 @@ SKILLS = {
             14
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 2048.0
     },
     18317: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
+        "recipe_mask": 0,
         "skill_name": "云飞玉皇",
         "channel_interval": [
             388.25752321125026,
@@ -9226,12 +9633,13 @@ SKILLS = {
             50
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 4096.0
     },
     18685: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 368,
+        "recipe_mask": 0,
         "skill_name": "九溪弥烟",
         "channel_interval": [
             24.601720000000004,
@@ -9335,12 +9743,13 @@ SKILLS = {
             10,
             10
         ],
-        "physical_damage_call": 1,
-        "prepare_frame": 0.0
+        "physical_damage_call": 1
     },
     18991: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18333,
+        "recipe_mask": 0,
         "skill_name": "风来吴山",
         "channel_interval": [
             137.41728000000003,
@@ -9382,7 +9791,9 @@ SKILLS = {
     },
     25776: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "云飞玉皇·神兵",
         "channel_interval": 60.0,
         "physical_damage_rand": 2,
@@ -9390,7 +9801,9 @@ SKILLS = {
     },
     26673: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1579,
+        "recipe_mask": 0,
         "skill_name": "九溪弥烟",
         "channel_interval": [
             17.6,
@@ -9495,12 +9908,13 @@ SKILLS = {
             10
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 0.0
     },
     30861: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "鹤归孤山·山倾",
         "channel_interval": 396.00000000000006,
         "physical_damage_base": 1500,
@@ -9510,7 +9924,9 @@ SKILLS = {
     },
     32821: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -402653.184,
@@ -9522,29 +9938,33 @@ SKILLS = {
     },
     32967: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "九皋鹤野·落剑",
         "channel_interval": 302.5,
         "physical_damage_base": 280,
         "physical_damage_rand": 22,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 2048.0
     },
     34984: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "云飞玉皇·岱宗",
         "channel_interval": 360.0,
         "physical_damage_base": 300,
         "physical_damage_rand": 35,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     35051: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "烟流暮景",
             "玉山揽云"
@@ -9556,28 +9976,31 @@ SKILLS = {
         "physical_damage_base": 300,
         "physical_damage_rand": 35,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     1656: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "啸日",
-        "channel_interval": 16.0,
-        "prepare_frame": 0.0
+        "channel_interval": 16.0
     },
     2183: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "大荒笛法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     3067: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "赤蛇",
         "channel_interval": 530.0,
         "magical_damage_base": 204,
@@ -9586,7 +10009,9 @@ SKILLS = {
     },
     13472: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
+        "recipe_mask": 0,
         "skill_name": "百足",
         "channel_interval": 454.45276800000005,
         "magical_damage_base": [
@@ -9665,7 +10090,9 @@ SKILLS = {
     },
     18590: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 18584,
+        "recipe_mask": 0,
         "skill_name": "蛊毒",
         "channel_interval": 16.0,
         "magical_damage_base": 28,
@@ -9674,7 +10101,9 @@ SKILLS = {
     },
     25044: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "连缘蛊",
         "channel_interval": 108.90000000000002,
         "magical_damage_base": 40,
@@ -9684,7 +10113,9 @@ SKILLS = {
     },
     25773: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "蛇影·神兵",
         "channel_interval": 60.0,
         "magical_damage_rand": 2,
@@ -9692,7 +10123,9 @@ SKILLS = {
     },
     29573: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "篾片蛊",
         "channel_interval": [
             976.8330000000001,
@@ -9720,7 +10153,9 @@ SKILLS = {
     },
     30918: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "连缘蛊",
         "channel_interval": [
             121.00000000000003,
@@ -9748,7 +10183,9 @@ SKILLS = {
     },
     32818: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -566231.04,
@@ -9761,7 +10198,9 @@ SKILLS = {
     },
     34389: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "黯影",
         "channel_interval": 100.0,
         "magical_damage_base": 20,
@@ -9770,7 +10209,9 @@ SKILLS = {
     },
     6648: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "幻击·食髓",
         "channel_interval": [
             450.0,
@@ -9788,7 +10229,9 @@ SKILLS = {
     },
     13476: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2209,
+        "recipe_mask": 0,
         "skill_name": "蝎心",
         "channel_interval": [
             108.53700000000002,
@@ -9826,7 +10269,9 @@ SKILLS = {
     },
     34643: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2211,
+        "recipe_mask": 0,
         "channel_interval": [
             68.31,
             68.31,
@@ -9864,7 +10309,9 @@ SKILLS = {
     },
     6238: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
+        "recipe_mask": 0,
         "channel_interval": [
             100.989504,
             100.989504,
@@ -9904,7 +10351,9 @@ SKILLS = {
     },
     6236: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": [
             73.3194,
             73.3194,
@@ -9936,18 +10385,24 @@ SKILLS = {
     },
     26226: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 315.0
     },
     2223: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "灵蛇引",
         "channel_interval": 16.0
     },
     2472: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": 129.0,
         "magical_damage_base": 40,
@@ -9956,7 +10411,9 @@ SKILLS = {
     },
     22997: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": 129.0,
         "magical_damage_base": 40,
@@ -9965,7 +10422,9 @@ SKILLS = {
     },
     36292: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "幻击",
         "channel_interval": 115.0,
         "magical_damage_base": 194,
@@ -9974,7 +10433,9 @@ SKILLS = {
     },
     25019: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "荒息",
         "channel_interval": 250.0,
         "magical_damage_base": [
@@ -9989,16 +10450,19 @@ SKILLS = {
     },
     3121: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "罡风镖法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     3222: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3088,
+        "recipe_mask": 0,
         "skill_name": "孔雀翎",
         "channel_interval": 130.0,
         "physical_damage_base": 147,
@@ -10007,7 +10471,9 @@ SKILLS = {
     },
     3227: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
+        "recipe_mask": 0,
         "skill_name": "暴雨梨花针",
         "channel_interval": 41.92650000000001,
         "physical_damage_base": [
@@ -10074,7 +10540,9 @@ SKILLS = {
     },
     22789: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "掠影穹苍",
         "channel_interval": 216.0,
         "physical_damage_base": 310,
@@ -10083,7 +10551,9 @@ SKILLS = {
     },
     25775: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "夺魄箭·神兵",
         "channel_interval": 50.0,
         "physical_damage_rand": 2,
@@ -10091,7 +10561,9 @@ SKILLS = {
     },
     32884: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -230686.71999999997,
@@ -10101,7 +10573,9 @@ SKILLS = {
     },
     37616: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "穿林打叶",
         "channel_interval": 540.0,
         "physical_damage_base": 310,
@@ -10110,12 +10584,16 @@ SKILLS = {
     },
     3478: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 660.0
     },
     3095: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3095,
+        "recipe_mask": 0,
         "skill_name": "夺魄箭",
         "channel_interval": [
             78.72108459600004,
@@ -10208,12 +10686,14 @@ SKILLS = {
             20
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 28.0,
-        "weapon_damage_cof": 2048.0
+        "weapon_damage_cof": 2048.0,
+        "prepare_frame": 28.0
     },
     3187: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3101,
+        "recipe_mask": 0,
         "skill_name": "逐星箭",
         "channel_interval": [
             50.0,
@@ -10310,7 +10790,9 @@ SKILLS = {
     },
     6920: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3096,
+        "recipe_mask": 0,
         "skill_name": "追命箭",
         "channel_interval": [
             193.7004300000001,
@@ -10407,7 +10889,9 @@ SKILLS = {
     },
     33870: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18674,
+        "recipe_mask": 0,
         "skill_name": "百里追魂",
         "channel_interval": [
             744.4800000000001,
@@ -10461,7 +10945,9 @@ SKILLS = {
     },
     37504: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3095,
+        "recipe_mask": 0,
         "skill_name": "夺魄箭",
         "channel_interval": [
             165.3142776516001,
@@ -10554,12 +11040,14 @@ SKILLS = {
             20
         ],
         "physical_damage_call": 1,
-        "prepare_frame": 28.0,
-        "weapon_damage_cof": 2048.0
+        "weapon_damage_cof": 2048.0,
+        "prepare_frame": 28.0
     },
     3125: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3098,
+        "recipe_mask": 0,
         "channel_interval": [
             51.68698920000002,
             51.68698920000002,
@@ -10580,7 +11068,9 @@ SKILLS = {
     },
     3105: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3105,
+        "recipe_mask": 0,
         "skill_name": "蚀肌弹",
         "channel_interval": [
             37.50040324800002,
@@ -10671,13 +11161,15 @@ SKILLS = {
             20
         ],
         "magical_damage_call": 1,
-        "prepare_frame": 28.0,
         "weapon_damage_cof": 1024.0,
-        "physical_attack_power_gain": -1024
+        "physical_attack_power_gain": -1024,
+        "prepare_frame": 28.0
     },
     3223: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3088,
+        "recipe_mask": 0,
         "skill_name": "孔雀翎",
         "channel_interval": 130.0,
         "magical_damage_base": 347,
@@ -10686,7 +11178,9 @@ SKILLS = {
     },
     3228: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
+        "recipe_mask": 0,
         "skill_name": "暴雨梨花针",
         "channel_interval": 63.41383125000003,
         "magical_damage_base": [
@@ -10753,7 +11247,9 @@ SKILLS = {
     },
     3313: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3111,
+        "recipe_mask": 0,
         "skill_name": "图穷匕见",
         "channel_interval": 197.17555000000007,
         "magical_damage_rand": 210,
@@ -10761,7 +11257,9 @@ SKILLS = {
     },
     3393: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3106,
+        "recipe_mask": 0,
         "skill_name": "天女散花",
         "channel_interval": [
             48.0,
@@ -10854,7 +11352,9 @@ SKILLS = {
     },
     3480: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
+        "recipe_mask": 0,
         "skill_name": "暴雨梨花针",
         "channel_interval": 99.61736400000004,
         "magical_damage_base": [
@@ -10921,7 +11421,9 @@ SKILLS = {
     },
     25774: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "蚀肌弹·神兵",
         "channel_interval": 40.0,
         "magical_damage_rand": 2,
@@ -10929,7 +11431,9 @@ SKILLS = {
     },
     30727: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3108,
+        "recipe_mask": 0,
         "skill_name": "天风汲雨",
         "channel_interval": [
             122.76,
@@ -11025,7 +11529,9 @@ SKILLS = {
     },
     30894: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "血影留痕",
         "channel_interval": 84.48,
         "magical_damage_base": 18,
@@ -11034,14 +11540,18 @@ SKILLS = {
     },
     32885: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": 224814.69439999992,
         "magical_surplus_call": 1
     },
     36502: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3108,
+        "recipe_mask": 0,
         "skill_name": "天绝地灭",
         "channel_interval": [
             39.6,
@@ -11137,7 +11647,9 @@ SKILLS = {
     },
     3401: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
+        "recipe_mask": 0,
         "skill_name": "连弩",
         "channel_interval": 97.71300000000001,
         "magical_damage_base": 37,
@@ -11146,7 +11658,9 @@ SKILLS = {
     },
     3404: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
+        "recipe_mask": 0,
         "skill_name": "连弩",
         "channel_interval": 172.1412,
         "magical_damage_base": 50,
@@ -11155,7 +11669,9 @@ SKILLS = {
     },
     3819: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
+        "recipe_mask": 0,
         "skill_name": "重弩",
         "channel_interval": 126.95413500000001,
         "magical_damage_base": 53,
@@ -11164,7 +11680,9 @@ SKILLS = {
     },
     3824: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
+        "recipe_mask": 0,
         "skill_name": "重弩",
         "channel_interval": 227.65673700000002,
         "magical_damage_base": 79,
@@ -11173,7 +11691,9 @@ SKILLS = {
     },
     37384: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 37384,
+        "recipe_mask": 0,
         "skill_name": "云合影从",
         "channel_interval": [
             89.25,
@@ -11191,7 +11711,9 @@ SKILLS = {
     },
     21266: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3106,
+        "recipe_mask": 0,
         "channel_interval": [
             96.09600000000002,
             96.09600000000002,
@@ -11224,36 +11746,47 @@ SKILLS = {
     },
     33145: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     33142: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     33143: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     33144: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     4326: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "大漠刀法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     19055: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19055,
+        "recipe_mask": 0,
         "skill_name": [
             "赤日轮",
             "烈日斩",
@@ -11286,7 +11819,9 @@ SKILLS = {
     },
     13468: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3960,
+        "recipe_mask": 0,
         "skill_name": "银月斩",
         "channel_interval": [
             76.30623000000003,
@@ -11352,7 +11887,9 @@ SKILLS = {
     },
     3963: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3963,
+        "recipe_mask": 0,
         "skill_name": "烈日斩",
         "channel_interval": [
             110.99088000000002,
@@ -11460,7 +11997,9 @@ SKILLS = {
     },
     4035: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3966,
+        "recipe_mask": 0,
         "skill_name": "生死劫·日",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -11469,7 +12008,9 @@ SKILLS = {
     },
     4036: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3966,
+        "recipe_mask": 0,
         "skill_name": "生死劫·月",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -11478,7 +12019,9 @@ SKILLS = {
     },
     4476: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·月",
         "channel_interval": [
             69.77550680100002,
@@ -11586,7 +12129,9 @@ SKILLS = {
     },
     4480: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3979,
+        "recipe_mask": 0,
         "skill_name": "驱夜断愁",
         "channel_interval": [
             121.27500000000002,
@@ -11685,7 +12230,9 @@ SKILLS = {
     },
     4482: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3979,
+        "recipe_mask": 0,
         "skill_name": "驱夜断愁",
         "channel_interval": [
             191.008125,
@@ -11784,7 +12331,9 @@ SKILLS = {
     },
     18280: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 18280,
+        "recipe_mask": 0,
         "skill_name": "烈日斩",
         "channel_interval": [
             81.31200000000001,
@@ -11892,7 +12441,9 @@ SKILLS = {
     },
     18281: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 18281,
+        "recipe_mask": 0,
         "skill_name": "银月斩",
         "channel_interval": [
             53.24000000000001,
@@ -11958,7 +12509,9 @@ SKILLS = {
     },
     26708: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "净体不畏·日",
         "channel_interval": [
             118.8,
@@ -11973,7 +12526,9 @@ SKILLS = {
     },
     26709: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "净体不畏·月",
         "channel_interval": [
             118.8,
@@ -11988,7 +12543,9 @@ SKILLS = {
     },
     26916: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "诛邪镇魔",
         "channel_interval": 361.6160625,
         "magical_damage_base": 209,
@@ -12005,7 +12562,9 @@ SKILLS = {
     },
     35056: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "靡业报劫",
         "channel_interval": 160.0,
         "magical_damage_base": 70,
@@ -12014,7 +12573,9 @@ SKILLS = {
     },
     35057: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "靡业报劫·终",
         "channel_interval": 320.0,
         "magical_damage_base": 70,
@@ -12023,7 +12584,9 @@ SKILLS = {
     },
     34985: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "降灵尊",
         "channel_interval": 303.6528,
         "magical_damage_base": 70,
@@ -12032,7 +12595,9 @@ SKILLS = {
     },
     34348: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "悬象著明·日",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -12041,7 +12606,9 @@ SKILLS = {
     },
     34349: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "悬象著明·月",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -12050,7 +12617,9 @@ SKILLS = {
     },
     34362: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "生死劫·月悬象",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -12059,7 +12628,9 @@ SKILLS = {
     },
     34363: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "生死劫·日悬象",
         "channel_interval": 67.2,
         "magical_damage_base": 70,
@@ -12068,7 +12639,9 @@ SKILLS = {
     },
     34359: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·月悬象",
         "channel_interval": 74.25183150000002,
         "magical_damage_base": 23,
@@ -12077,7 +12650,9 @@ SKILLS = {
     },
     34361: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日悬象",
         "channel_interval": 222.75549450000003,
         "magical_damage_base": 30,
@@ -12086,7 +12661,9 @@ SKILLS = {
     },
     37336: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "崇光斩恶",
         "channel_interval": [
             763.2,
@@ -12102,7 +12679,9 @@ SKILLS = {
     },
     25777: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "驱夜断愁·神兵",
         "channel_interval": 50.0,
         "magical_damage_rand": 2,
@@ -12110,7 +12689,9 @@ SKILLS = {
     },
     4483: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             177.12244034100001,
@@ -12218,7 +12799,9 @@ SKILLS = {
     },
     4484: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             241.530600465,
@@ -12326,7 +12909,9 @@ SKILLS = {
     },
     4485: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             206.64284706450005,
@@ -12434,7 +13019,9 @@ SKILLS = {
     },
     4486: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             171.75509366400001,
@@ -12542,7 +13129,9 @@ SKILLS = {
     },
     4487: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             136.86734026350004,
@@ -12650,7 +13239,9 @@ SKILLS = {
     },
     4488: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             101.97958686300002,
@@ -12758,7 +13349,9 @@ SKILLS = {
     },
     4489: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             69.77550680100002,
@@ -12866,7 +13459,9 @@ SKILLS = {
     },
     4490: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
+        "recipe_mask": 0,
         "skill_name": "净世破魔击·日",
         "channel_interval": [
             42.938773416000004,
@@ -12974,7 +13569,9 @@ SKILLS = {
     },
     13359: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3960,
+        "recipe_mask": 0,
         "skill_name": "银月斩",
         "channel_interval": [
             67.08240000000002,
@@ -13000,7 +13597,9 @@ SKILLS = {
     },
     34373: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3966,
+        "recipe_mask": 0,
         "channel_interval": [
             377.0,
             754.0,
@@ -13010,7 +13609,9 @@ SKILLS = {
     },
     35038: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": [
             377.0,
             754.0,
@@ -13020,7 +13621,9 @@ SKILLS = {
     },
     34374: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3966,
+        "recipe_mask": 0,
         "channel_interval": [
             377.0,
             754.0,
@@ -13030,7 +13633,9 @@ SKILLS = {
     },
     35039: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": [
             377.0,
             754.0,
@@ -13040,14 +13645,18 @@ SKILLS = {
     },
     32908: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": -741867.52,
         "physical_surplus_call": 1
     },
     13520: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5361,
+        "recipe_mask": 0,
         "skill_name": "恶狗拦路",
         "channel_interval": [
             70.0,
@@ -13083,7 +13692,9 @@ SKILLS = {
     },
     13523: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "犬牙交错",
         "channel_interval": 192.0,
         "physical_damage_base": 81,
@@ -13092,7 +13703,9 @@ SKILLS = {
     },
     13526: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
+        "recipe_mask": 0,
         "skill_name": "蛟龙翻江",
         "channel_interval": [
             24.0,
@@ -13140,7 +13753,9 @@ SKILLS = {
     },
     13527: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5368,
+        "recipe_mask": 0,
         "skill_name": "双龙取水",
         "channel_interval": [
             65.55,
@@ -13209,7 +13824,9 @@ SKILLS = {
     },
     6362: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
+        "recipe_mask": 0,
         "skill_name": "龙游天地",
         "channel_interval": [
             59.8,
@@ -13251,7 +13868,9 @@ SKILLS = {
     },
     6363: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
+        "recipe_mask": 0,
         "skill_name": "龙游天地",
         "channel_interval": [
             55.199999999999996,
@@ -13293,7 +13912,9 @@ SKILLS = {
     },
     13528: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
+        "recipe_mask": 0,
         "skill_name": "龙游天地",
         "channel_interval": [
             71.3,
@@ -13335,7 +13956,9 @@ SKILLS = {
     },
     13529: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5370,
+        "recipe_mask": 0,
         "skill_name": "龙腾五岳",
         "channel_interval": [
             273.0,
@@ -13380,7 +14003,9 @@ SKILLS = {
     },
     34916: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "蛟影·一重",
             "蛟影·二重",
@@ -13409,7 +14034,9 @@ SKILLS = {
     },
     6355: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
+        "recipe_mask": 0,
         "skill_name": "龙跃于渊",
         "channel_interval": 56.0,
         "physical_damage_base": [
@@ -13426,7 +14053,9 @@ SKILLS = {
     },
     6356: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
+        "recipe_mask": 0,
         "skill_name": "龙跃于渊",
         "channel_interval": 40.0,
         "physical_damage_base": [
@@ -13443,7 +14072,9 @@ SKILLS = {
     },
     6357: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
+        "recipe_mask": 0,
         "skill_name": "龙跃于渊",
         "channel_interval": 48.0,
         "physical_damage_base": [
@@ -13460,7 +14091,9 @@ SKILLS = {
     },
     6358: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
+        "recipe_mask": 0,
         "skill_name": "蛟龙翻江",
         "channel_interval": [
             29.9,
@@ -13508,7 +14141,9 @@ SKILLS = {
     },
     6359: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
+        "recipe_mask": 0,
         "skill_name": "蛟龙翻江",
         "channel_interval": [
             19.549999999999997,
@@ -13556,7 +14191,9 @@ SKILLS = {
     },
     6337: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "斜打狗背",
         "channel_interval": 180.0,
         "physical_damage_base": 43,
@@ -13566,7 +14203,9 @@ SKILLS = {
     },
     26703: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "灵隼击",
         "channel_interval": 100.0,
         "physical_damage_base": 15,
@@ -13575,7 +14214,9 @@ SKILLS = {
     },
     32898: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "龙战于野·醉影",
             "亢龙有悔·醉影袭"
@@ -13593,7 +14234,9 @@ SKILLS = {
     },
     14927: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "御鸿于天",
         "channel_interval": 144.0,
         "physical_damage_base": 100,
@@ -13603,7 +14246,9 @@ SKILLS = {
     },
     14928: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "御鸿于天",
         "channel_interval": 144.0,
         "physical_damage_base": 100,
@@ -13613,7 +14258,9 @@ SKILLS = {
     },
     36570: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "御鸿于天",
         "channel_interval": 416.8,
         "physical_damage_rand": 55,
@@ -13621,7 +14268,9 @@ SKILLS = {
     },
     28819: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "温酒",
         "channel_interval": 34.5,
         "physical_damage_base": 161,
@@ -13630,7 +14279,9 @@ SKILLS = {
     },
     25779: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "龙战于野·神兵",
         "channel_interval": 60.0,
         "physical_damage_rand": 2,
@@ -13638,7 +14289,9 @@ SKILLS = {
     },
     6366: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
+        "recipe_mask": 0,
         "skill_name": "龙战于野",
         "channel_interval": [
             42.24,
@@ -13683,7 +14336,9 @@ SKILLS = {
     },
     6367: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
+        "recipe_mask": 0,
         "skill_name": "龙战于野",
         "channel_interval": [
             42.24,
@@ -13728,7 +14383,9 @@ SKILLS = {
     },
     6368: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
+        "recipe_mask": 0,
         "skill_name": "龙战于野",
         "channel_interval": [
             118.80000000000001,
@@ -13773,7 +14430,9 @@ SKILLS = {
     },
     6369: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             31.06556145,
@@ -13824,7 +14483,9 @@ SKILLS = {
     },
     6370: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             31.06556145,
@@ -13875,7 +14536,9 @@ SKILLS = {
     },
     6371: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             31.06556145,
@@ -13926,7 +14589,9 @@ SKILLS = {
     },
     6372: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             31.06556145,
@@ -13977,7 +14642,9 @@ SKILLS = {
     },
     6373: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             31.06556145,
@@ -14028,7 +14695,9 @@ SKILLS = {
     },
     6374: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
+        "recipe_mask": 0,
         "skill_name": "亢龙有悔",
         "channel_interval": [
             198.81959328000002,
@@ -14079,17 +14748,23 @@ SKILLS = {
     },
     6867: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 6853,
+        "recipe_mask": 0,
         "channel_interval": 191.66400000000002
     },
     14931: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 6853,
+        "recipe_mask": 0,
         "channel_interval": 191.66400000000002
     },
     32745: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -629145.6,
@@ -14103,16 +14778,19 @@ SKILLS = {
     },
     13039: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "卷雪刀",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     36065: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "击破·援戈",
             "斩破·惊涌",
@@ -14131,7 +14809,9 @@ SKILLS = {
     },
     36482: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "援戈·血影",
         "channel_interval": 687.2399999999999,
         "physical_damage_base": 80,
@@ -14141,7 +14821,9 @@ SKILLS = {
     },
     37253: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "麾远",
         "channel_interval": 340.0,
         "physical_damage_base": 80,
@@ -14151,7 +14833,9 @@ SKILLS = {
     },
     34673: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "业火焚城",
         "channel_interval": 40.0,
         "physical_damage_base": 0,
@@ -14160,7 +14844,9 @@ SKILLS = {
     },
     34674: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "麟光甲寒",
         "channel_interval": 343.2,
         "physical_damage_base": 80,
@@ -14170,7 +14856,9 @@ SKILLS = {
     },
     34714: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "业火焚城·云盾",
         "channel_interval": 208.0,
         "physical_damage_base": 80,
@@ -14180,14 +14868,18 @@ SKILLS = {
     },
     37448: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破·麟光",
         "global_damage_cof": -925791.944704,
         "physical_surplus_call": 1
     },
     30925: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "阵云结晦",
         "channel_interval": 240.0,
         "physical_damage_base": 72,
@@ -14198,7 +14890,9 @@ SKILLS = {
     },
     30926: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "月照连营",
         "channel_interval": 300.0,
         "physical_damage_base": 96,
@@ -14209,7 +14903,9 @@ SKILLS = {
     },
     30857: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "雁门迢递",
         "channel_interval": 360.0,
         "physical_damage_base": [
@@ -14236,7 +14932,9 @@ SKILLS = {
     },
     30858: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "绝国",
         "channel_interval": [
             31.200000000000003,
@@ -14327,7 +15025,9 @@ SKILLS = {
     },
     30859: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "阵云绝",
         "channel_interval": 96.0,
         "physical_damage_base": 14,
@@ -14338,7 +15038,9 @@ SKILLS = {
     },
     23284: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "争神焱舞",
         "physical_damage_base": [
             86625,
@@ -14358,7 +15060,9 @@ SKILLS = {
     },
     23285: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "苍蛟扫狼",
         "physical_damage_base": [
             57750,
@@ -14378,7 +15082,9 @@ SKILLS = {
     },
     23286: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "争神焱舞",
         "physical_damage_base": [
             144375,
@@ -14398,7 +15104,9 @@ SKILLS = {
     },
     23287: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "炎帝反击",
         "magical_damage_base": [
             121904,
@@ -14417,7 +15125,9 @@ SKILLS = {
     },
     23294: {
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "苍炎",
         "magical_damage_base": [
             122,
@@ -14436,7 +15146,9 @@ SKILLS = {
     },
     25780: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "盾击·神兵",
         "channel_interval": 50.0,
         "physical_damage_rand": 2,
@@ -14444,7 +15156,9 @@ SKILLS = {
     },
     13106: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
+        "recipe_mask": 0,
         "skill_name": "盾击",
         "channel_interval": [
             21.344400000000004,
@@ -14506,7 +15220,9 @@ SKILLS = {
     },
     13160: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
+        "recipe_mask": 0,
         "skill_name": "盾击",
         "channel_interval": [
             21.344400000000004,
@@ -14568,7 +15284,9 @@ SKILLS = {
     },
     13161: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
+        "recipe_mask": 0,
         "skill_name": "盾击",
         "channel_interval": [
             21.344400000000004,
@@ -14630,7 +15348,9 @@ SKILLS = {
     },
     13099: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13046,
+        "recipe_mask": 0,
         "skill_name": "盾猛",
         "channel_interval": [
             46.30500000000001,
@@ -14718,7 +15438,9 @@ SKILLS = {
     },
     13044: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13044,
+        "recipe_mask": 0,
         "skill_name": "盾刀",
         "channel_interval": [
             19.404000000000003,
@@ -14830,7 +15552,9 @@ SKILLS = {
     },
     13092: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13054,
+        "recipe_mask": 0,
         "skill_name": "斩刀",
         "channel_interval": [
             99.14257264397065,
@@ -14909,7 +15633,9 @@ SKILLS = {
     },
     28479: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13052,
+        "recipe_mask": 0,
         "skill_name": "劫刀",
         "channel_interval": [
             32.66493615000002,
@@ -15006,7 +15732,9 @@ SKILLS = {
     },
     13463: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13050,
+        "recipe_mask": 0,
         "skill_name": "盾飞",
         "channel_interval": [
             16.0,
@@ -15064,19 +15792,25 @@ SKILLS = {
     },
     13040: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "血怒",
         "channel_interval": 16.0,
         "weapon_damage_cof": 0.0
     },
     16727: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     29188: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": [
             55.44000000000001,
             55.44000000000001,
@@ -15111,7 +15845,9 @@ SKILLS = {
     },
     19409: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13045,
+        "recipe_mask": 0,
         "skill_name": "盾压",
         "channel_interval": [
             50.93550000000001,
@@ -15196,7 +15932,9 @@ SKILLS = {
     },
     13075: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13055,
+        "recipe_mask": 0,
         "skill_name": "绝刀",
         "channel_interval": [
             72.79391785608733,
@@ -15269,16 +16007,19 @@ SKILLS = {
     },
     14063: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "五音六律",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     14100: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14068,
+        "recipe_mask": 0,
         "skill_name": "羽",
         "channel_interval": [
             137.89625850000002,
@@ -15365,7 +16106,9 @@ SKILLS = {
     },
     14227: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14067,
+        "recipe_mask": 0,
         "skill_name": "徵",
         "channel_interval": [
             86.328,
@@ -15452,7 +16195,9 @@ SKILLS = {
     },
     14311: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
+        "recipe_mask": 0,
         "skill_name": "商",
         "channel_interval": [
             113.79916800000002,
@@ -15473,7 +16218,9 @@ SKILLS = {
     },
     14312: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
+        "recipe_mask": 0,
         "skill_name": "角",
         "channel_interval": [
             113.79916800000002,
@@ -15494,7 +16241,9 @@ SKILLS = {
     },
     14494: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "阳春白雪",
         "channel_interval": 89.6,
         "magical_damage_base": [
@@ -15555,7 +16304,9 @@ SKILLS = {
     },
     18859: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14067,
+        "recipe_mask": 0,
         "skill_name": "徵",
         "channel_interval": [
             86.328,
@@ -15642,7 +16393,9 @@ SKILLS = {
     },
     18860: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
+        "recipe_mask": 0,
         "skill_name": "变宫",
         "channel_interval": [
             110.88000000000001,
@@ -15729,7 +16482,9 @@ SKILLS = {
     },
     25781: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "羽·神兵",
         "channel_interval": 50.0,
         "magical_damage_rand": 2,
@@ -15737,7 +16492,9 @@ SKILLS = {
     },
     31008: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
+        "recipe_mask": 0,
         "skill_name": "宫·神兵",
         "channel_interval": [
             110.88000000000001,
@@ -15824,7 +16581,9 @@ SKILLS = {
     },
     31138: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
+        "recipe_mask": 0,
         "skill_name": "变宫·神兵",
         "channel_interval": [
             110.88000000000001,
@@ -15911,7 +16670,9 @@ SKILLS = {
     },
     32624: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 32624,
+        "recipe_mask": 0,
         "skill_name": "弦风",
         "channel_interval": 60.0,
         "magical_damage_base": 40,
@@ -15920,7 +16681,9 @@ SKILLS = {
     },
     32738: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "破",
             "破",
@@ -15939,7 +16702,9 @@ SKILLS = {
     },
     34514: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 34514,
+        "recipe_mask": 0,
         "skill_name": "连徽",
         "channel_interval": [
             19.8,
@@ -15969,13 +16734,17 @@ SKILLS = {
     },
     14082: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "疏影横斜",
         "channel_interval": 16.0
     },
     30799: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 30799,
+        "recipe_mask": 0,
         "skill_name": "流照",
         "channel_interval": 61.425,
         "magical_damage_base": 107,
@@ -15984,7 +16753,9 @@ SKILLS = {
     },
     34676: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "知音兴尽",
         "channel_interval": [
             14972.999999999998,
@@ -16018,7 +16789,9 @@ SKILLS = {
     },
     14287: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
+        "recipe_mask": 0,
         "skill_name": "商",
         "channel_interval": [
             83.02160512800003,
@@ -16050,7 +16823,9 @@ SKILLS = {
     },
     17788: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
+        "recipe_mask": 0,
         "skill_name": "商",
         "channel_interval": [
             83.02160512800003,
@@ -16082,7 +16857,9 @@ SKILLS = {
     },
     14291: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
+        "recipe_mask": 0,
         "skill_name": "角",
         "channel_interval": [
             71.88017760000004,
@@ -16114,7 +16891,9 @@ SKILLS = {
     },
     17792: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
+        "recipe_mask": 0,
         "skill_name": "角",
         "channel_interval": [
             71.88017760000004,
@@ -16146,12 +16925,16 @@ SKILLS = {
     },
     31005: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 618.8663250000002
     },
     15076: {
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "宫",
         "channel_interval": [
             14.96,
@@ -16239,7 +17022,9 @@ SKILLS = {
     },
     32823: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -131072.0,
@@ -16252,7 +17037,9 @@ SKILLS = {
     },
     16419: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "霜风刀法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
@@ -16260,7 +17047,9 @@ SKILLS = {
     },
     16820: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "霜风刀法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
@@ -16268,7 +17057,9 @@ SKILLS = {
     },
     16822: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "霜风刀法",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
@@ -16276,7 +17067,9 @@ SKILLS = {
     },
     16599: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16598,
+        "recipe_mask": 0,
         "skill_name": "雷走风切",
         "channel_interval": [
             25.2,
@@ -16318,7 +17111,9 @@ SKILLS = {
     },
     16631: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16629,
+        "recipe_mask": 0,
         "skill_name": "雷走风切",
         "channel_interval": [
             25.2,
@@ -16360,7 +17155,9 @@ SKILLS = {
     },
     16787: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
+        "recipe_mask": 0,
         "skill_name": "坚壁清野",
         "channel_interval": [
             55.440000000000005,
@@ -16417,7 +17214,9 @@ SKILLS = {
     },
     16794: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
+        "recipe_mask": 0,
         "skill_name": "坚壁清野",
         "channel_interval": [
             35.2,
@@ -16474,7 +17273,9 @@ SKILLS = {
     },
     16610: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
+        "recipe_mask": 0,
         "skill_name": "刀啸风吟",
         "channel_interval": [
             88.04565000000004,
@@ -16531,7 +17332,9 @@ SKILLS = {
     },
     16760: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
+        "recipe_mask": 0,
         "skill_name": "项王击鼎",
         "channel_interval": [
             52.27200000000001,
@@ -16589,7 +17392,9 @@ SKILLS = {
     },
     16382: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
+        "recipe_mask": 0,
         "skill_name": "项王击鼎",
         "channel_interval": [
             15.840000000000002,
@@ -16647,7 +17452,9 @@ SKILLS = {
     },
     20991: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16602,
+        "recipe_mask": 0,
         "skill_name": "破釜沉舟",
         "channel_interval": [
             95.17859999999999,
@@ -16705,7 +17512,9 @@ SKILLS = {
     },
     19424: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             118.50300000000001,
@@ -16748,7 +17557,9 @@ SKILLS = {
     },
     36486: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "楚歌",
         "channel_interval": [
             288.0,
@@ -16763,7 +17574,9 @@ SKILLS = {
     },
     30645: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 30645,
+        "recipe_mask": 0,
         "skill_name": "降麒",
         "channel_interval": 120.0,
         "physical_damage_base": [
@@ -16805,7 +17618,9 @@ SKILLS = {
     },
     34585: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "绝期",
         "channel_interval": 120.0,
         "physical_damage_base": 55,
@@ -16814,7 +17629,9 @@ SKILLS = {
     },
     32859: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印·见尘",
         "channel_interval": 66.99,
         "physical_damage_base": 72,
@@ -16823,7 +17640,9 @@ SKILLS = {
     },
     37458: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "掠关",
         "channel_interval": 299.0,
         "physical_damage_base": 80,
@@ -16833,7 +17652,9 @@ SKILLS = {
     },
     37984: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "临江",
         "channel_interval": 320.0,
         "physical_damage_base": 100,
@@ -16843,7 +17664,9 @@ SKILLS = {
     },
     25782: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "上将军印·神兵",
         "channel_interval": 25.0,
         "physical_damage_rand": 2,
@@ -16851,7 +17674,9 @@ SKILLS = {
     },
     16933: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "惊燕式",
         "channel_interval": [
             24.96,
@@ -16894,7 +17719,9 @@ SKILLS = {
     },
     16934: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "惊燕式",
         "channel_interval": [
             31.2,
@@ -16937,7 +17764,9 @@ SKILLS = {
     },
     16935: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "逐鹰式",
         "channel_interval": [
             24.96,
@@ -16980,7 +17809,9 @@ SKILLS = {
     },
     16936: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "逐鹰式",
         "channel_interval": [
             24.96,
@@ -17023,7 +17854,9 @@ SKILLS = {
     },
     16937: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "控鹤式",
         "channel_interval": [
             24.96,
@@ -17066,7 +17899,9 @@ SKILLS = {
     },
     16938: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "控鹤式",
         "channel_interval": [
             31.2,
@@ -17109,7 +17944,9 @@ SKILLS = {
     },
     16939: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "起凤式",
         "channel_interval": [
             31.2,
@@ -17152,7 +17989,9 @@ SKILLS = {
     },
     16940: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "起凤式",
         "channel_interval": [
             39.0,
@@ -17195,7 +18034,9 @@ SKILLS = {
     },
     16941: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "腾蛟式",
         "channel_interval": [
             39.0,
@@ -17238,7 +18079,9 @@ SKILLS = {
     },
     16942: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "腾蛟式",
         "channel_interval": [
             39.0,
@@ -17281,7 +18124,9 @@ SKILLS = {
     },
     16943: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "擒龙式",
         "channel_interval": [
             39.0,
@@ -17324,7 +18169,9 @@ SKILLS = {
     },
     16944: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
+        "recipe_mask": 0,
         "skill_name": "擒龙式",
         "channel_interval": [
             46.8,
@@ -17367,7 +18214,9 @@ SKILLS = {
     },
     16803: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             62.37000000000001,
@@ -17410,7 +18259,9 @@ SKILLS = {
     },
     16802: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             71.72550000000001,
@@ -17441,7 +18292,9 @@ SKILLS = {
     },
     16801: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             81.08100000000002,
@@ -17484,7 +18337,9 @@ SKILLS = {
     },
     16800: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             100.48500000000001,
@@ -17527,7 +18382,9 @@ SKILLS = {
     },
     17043: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             99.79200000000003,
@@ -17570,7 +18427,9 @@ SKILLS = {
     },
     19423: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
+        "recipe_mask": 0,
         "skill_name": "上将军印",
         "channel_interval": [
             109.14750000000001,
@@ -17613,7 +18472,9 @@ SKILLS = {
     },
     17058: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 17057,
+        "recipe_mask": 0,
         "skill_name": "闹须弥",
         "channel_interval": [
             50.0,
@@ -17630,7 +18491,9 @@ SKILLS = {
     },
     17060: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "闹须弥",
         "channel_interval": [
             85.0,
@@ -17647,21 +18510,26 @@ SKILLS = {
     },
     26934: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 380.0
     },
     19712: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "飘遥伞击",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     19766: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
+        "recipe_mask": 0,
         "skill_name": "击水三千",
         "channel_interval": [
             31.68,
@@ -17767,7 +18635,9 @@ SKILLS = {
     },
     19767: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
+        "recipe_mask": 0,
         "skill_name": "击水三千",
         "channel_interval": [
             35.64,
@@ -17873,7 +18743,9 @@ SKILLS = {
     },
     20014: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
+        "recipe_mask": 0,
         "skill_name": "击水三千",
         "channel_interval": [
             39.6,
@@ -17979,7 +18851,9 @@ SKILLS = {
     },
     19819: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19818,
+        "recipe_mask": 0,
         "skill_name": "木落雁归",
         "channel_interval": [
             65.78,
@@ -18058,7 +18932,9 @@ SKILLS = {
     },
     20016: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19827,
+        "recipe_mask": 0,
         "skill_name": "翼绝云天",
         "channel_interval": [
             30.599999999999998,
@@ -18166,7 +19042,9 @@ SKILLS = {
     },
     20052: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19828,
+        "recipe_mask": 0,
         "skill_name": "浮游天地",
         "channel_interval": [
             28.0,
@@ -18198,7 +19076,9 @@ SKILLS = {
     },
     20054: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20053,
+        "recipe_mask": 0,
         "skill_name": "跃潮斩波",
         "channel_interval": [
             67.60260000000001,
@@ -18255,7 +19135,9 @@ SKILLS = {
     },
     20322: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20083,
+        "recipe_mask": 0,
         "skill_name": "溟海御波",
         "channel_interval": [
             68.09414040000001,
@@ -18312,7 +19194,9 @@ SKILLS = {
     },
     20323: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20084,
+        "recipe_mask": 0,
         "skill_name": "逐波灵游",
         "channel_interval": [
             39.495599999999996,
@@ -18369,7 +19253,9 @@ SKILLS = {
     },
     20684: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20715,
+        "recipe_mask": 0,
         "skill_name": "海运南冥",
         "channel_interval": [
             76.64382,
@@ -18426,7 +19312,9 @@ SKILLS = {
     },
     20685: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20715,
+        "recipe_mask": 0,
         "skill_name": "海运南冥",
         "channel_interval": [
             85.15980000000002,
@@ -18483,7 +19371,9 @@ SKILLS = {
     },
     20734: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20484,
+        "recipe_mask": 0,
         "skill_name": "定波砥澜",
         "channel_interval": [
             97.5,
@@ -18503,7 +19393,9 @@ SKILLS = {
     },
     25273: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "青冥",
         "channel_interval": 117.52999999999997,
         "physical_damage_base": 133,
@@ -18513,7 +19405,9 @@ SKILLS = {
     },
     25783: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "木落雁归·神兵",
         "channel_interval": 50.0,
         "physical_damage_rand": 2,
@@ -18521,7 +19415,9 @@ SKILLS = {
     },
     31250: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20259,
+        "recipe_mask": 0,
         "skill_name": "振翅图南",
         "channel_interval": [
             26.2845,
@@ -18578,7 +19474,9 @@ SKILLS = {
     },
     32478: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "风驰",
         "channel_interval": 540.0,
         "physical_damage_base": 130,
@@ -18587,7 +19485,9 @@ SKILLS = {
     },
     32815: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -445644.80000000005,
@@ -18600,7 +19500,9 @@ SKILLS = {
     },
     36282: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20245,
+        "recipe_mask": 0,
         "skill_name": "定波砥澜",
         "channel_interval": [
             110.00000000000001,
@@ -18620,26 +19522,33 @@ SKILLS = {
     },
     25640: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 550.0
     },
     26935: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 680.0
     },
     22126: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "碎风刃",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     32822: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -536084.48,
@@ -18649,7 +19558,9 @@ SKILLS = {
     },
     22170: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
+        "recipe_mask": 0,
         "skill_name": "星垂平野",
         "channel_interval": [
             47.36160000000001,
@@ -18755,7 +19666,9 @@ SKILLS = {
     },
     22550: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
+        "recipe_mask": 0,
         "skill_name": "星垂平野",
         "channel_interval": [
             47.36160000000001,
@@ -18861,7 +19774,9 @@ SKILLS = {
     },
     22551: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
+        "recipe_mask": 0,
         "skill_name": "星垂平野",
         "channel_interval": [
             47.36160000000001,
@@ -18967,7 +19882,9 @@ SKILLS = {
     },
     22298: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
+        "recipe_mask": 0,
         "skill_name": "星垂平野",
         "channel_interval": [
             18.944640000000003,
@@ -19073,7 +19990,9 @@ SKILLS = {
     },
     22621: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22144,
+        "recipe_mask": 0,
         "skill_name": "金戈回澜",
         "channel_interval": [
             79.92270000000002,
@@ -19152,7 +20071,9 @@ SKILLS = {
     },
     22620: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22144,
+        "recipe_mask": 0,
         "skill_name": "金戈回澜",
         "channel_interval": [
             7.992270000000001,
@@ -19231,7 +20152,9 @@ SKILLS = {
     },
     22610: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
+        "recipe_mask": 0,
         "skill_name": "隐风雷",
         "channel_interval": [
             20.0,
@@ -19298,7 +20221,9 @@ SKILLS = {
     },
     22611: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
+        "recipe_mask": 0,
         "skill_name": "隐风雷",
         "channel_interval": [
             26.0,
@@ -19365,7 +20290,9 @@ SKILLS = {
     },
     22612: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
+        "recipe_mask": 0,
         "skill_name": "隐风雷",
         "channel_interval": [
             13.0,
@@ -19432,7 +20359,9 @@ SKILLS = {
     },
     22604: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             39.475732725000015,
@@ -19541,7 +20470,9 @@ SKILLS = {
     },
     22605: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             28.65938195835001,
@@ -19650,7 +20581,9 @@ SKILLS = {
     },
     22490: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
+        "recipe_mask": 0,
         "skill_name": "乱天狼",
         "channel_interval": [
             28.51523326080001,
@@ -19708,7 +20641,9 @@ SKILLS = {
     },
     22554: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
+        "recipe_mask": 0,
         "skill_name": "乱天狼",
         "channel_interval": [
             11.406093304320006,
@@ -19766,7 +20701,9 @@ SKILLS = {
     },
     25314: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "遗恨",
         "channel_interval": 206.31,
         "physical_damage_base": 133,
@@ -19776,17 +20713,20 @@ SKILLS = {
     },
     34981: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒·风骨",
         "channel_interval": 525.0,
         "physical_damage_base": 300,
         "physical_damage_rand": 35,
-        "physical_damage_call": 1,
-        "prepare_frame": 0.0
+        "physical_damage_call": 1
     },
     29751: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "飞刃回转",
         "channel_interval": 114.99999999999999,
         "physical_damage_base": 77,
@@ -19795,7 +20735,9 @@ SKILLS = {
     },
     22761: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22603,
+        "recipe_mask": 0,
         "skill_name": "山河渊隙",
         "channel_interval": 168.06537000000003,
         "physical_damage_base": 272,
@@ -19804,7 +20746,9 @@ SKILLS = {
     },
     25784: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒·神兵",
         "channel_interval": 50.0,
         "physical_damage_rand": 2,
@@ -19812,7 +20756,9 @@ SKILLS = {
     },
     22359: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22358,
+        "recipe_mask": 0,
         "skill_name": "斩无常",
         "channel_interval": [
             17.6,
@@ -19849,7 +20795,9 @@ SKILLS = {
     },
     36265: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
+        "recipe_mask": 0,
         "skill_name": "乱天狼",
         "channel_interval": [
             38.49556490208002,
@@ -19907,7 +20855,9 @@ SKILLS = {
     },
     36266: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
+        "recipe_mask": 0,
         "skill_name": "乱天狼",
         "channel_interval": [
             15.39822596083201,
@@ -19965,7 +20915,9 @@ SKILLS = {
     },
     36267: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             53.29223917875002,
@@ -20074,7 +21026,9 @@ SKILLS = {
     },
     36268: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             38.69016564377252,
@@ -20183,7 +21137,9 @@ SKILLS = {
     },
     36269: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
+        "recipe_mask": 0,
         "skill_name": "隐风雷",
         "channel_interval": [
             35.1,
@@ -20250,7 +21206,9 @@ SKILLS = {
     },
     36270: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
+        "recipe_mask": 0,
         "skill_name": "隐风雷",
         "channel_interval": [
             17.55,
@@ -20317,7 +21275,9 @@ SKILLS = {
     },
     22330: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             66.24,
@@ -20356,12 +21316,16 @@ SKILLS = {
     },
     26980: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 580.8000000000001
     },
     22787: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22361,
+        "recipe_mask": 0,
         "skill_name": "幽冥窥月",
         "channel_interval": [
             16.0,
@@ -20393,7 +21357,9 @@ SKILLS = {
     },
     22328: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
+        "recipe_mask": 0,
         "skill_name": "寂洪荒",
         "channel_interval": [
             30.365948250000013,
@@ -20502,16 +21468,19 @@ SKILLS = {
     },
     25512: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "魂击",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     24454: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24431,
+        "recipe_mask": 0,
         "skill_name": "卦象·火离",
         "channel_interval": [
             32.0,
@@ -20547,7 +21516,9 @@ SKILLS = {
     },
     24558: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
+        "recipe_mask": 0,
         "skill_name": "三星临",
         "channel_interval": [
             50.0,
@@ -20610,7 +21581,9 @@ SKILLS = {
     },
     24870: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24379,
+        "recipe_mask": 0,
         "skill_name": "鬼星开穴",
         "channel_interval": [
             131.96249999999998,
@@ -20685,7 +21658,9 @@ SKILLS = {
     },
     25174: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "灵器",
         "channel_interval": 216.0,
         "magical_damage_base": 33,
@@ -20694,7 +21669,9 @@ SKILLS = {
     },
     25837: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "三星临·神兵",
         "channel_interval": 50.0,
         "magical_damage_rand": 2,
@@ -20702,7 +21679,9 @@ SKILLS = {
     },
     30847: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "天网",
         "channel_interval": 100.0,
         "magical_damage_base": 50,
@@ -20711,7 +21690,9 @@ SKILLS = {
     },
     32886: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             781710.8914176,
@@ -20721,7 +21702,9 @@ SKILLS = {
     },
     33236: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 33236,
+        "recipe_mask": 0,
         "skill_name": "列宿游",
         "channel_interval": [
             268.17079999999993,
@@ -20747,7 +21730,9 @@ SKILLS = {
     },
     34683: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
+        "recipe_mask": 0,
         "skill_name": "亘天",
         "channel_interval": 297.0,
         "magical_damage_base": 34,
@@ -20756,7 +21741,9 @@ SKILLS = {
     },
     37311: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24379,
+        "recipe_mask": 0,
         "skill_name": "鬼星开穴",
         "channel_interval": [
             114.75,
@@ -20831,7 +21818,9 @@ SKILLS = {
     },
     37599: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "阵星入舆",
         "channel_interval": 297.0,
         "magical_damage_base": 34,
@@ -20840,7 +21829,9 @@ SKILLS = {
     },
     24675: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
+        "recipe_mask": 0,
         "skill_name": "三星临",
         "channel_interval": [
             50.0,
@@ -20903,7 +21894,9 @@ SKILLS = {
     },
     24676: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
+        "recipe_mask": 0,
         "skill_name": "三星临",
         "channel_interval": [
             52.5,
@@ -20966,7 +21959,9 @@ SKILLS = {
     },
     24677: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
+        "recipe_mask": 0,
         "skill_name": "三星临",
         "channel_interval": [
             50.0,
@@ -21029,7 +22024,9 @@ SKILLS = {
     },
     24811: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
+        "recipe_mask": 0,
         "skill_name": "兵主逆",
         "channel_interval": [
             50.6,
@@ -21075,7 +22072,9 @@ SKILLS = {
     },
     24812: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
+        "recipe_mask": 0,
         "skill_name": "兵主逆",
         "channel_interval": [
             50.6,
@@ -21121,7 +22120,9 @@ SKILLS = {
     },
     24813: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
+        "recipe_mask": 0,
         "skill_name": "兵主逆",
         "channel_interval": [
             53.13000000000001,
@@ -21167,7 +22168,9 @@ SKILLS = {
     },
     24814: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
+        "recipe_mask": 0,
         "skill_name": "兵主逆",
         "channel_interval": [
             50.6,
@@ -21213,7 +22216,9 @@ SKILLS = {
     },
     24821: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
+        "recipe_mask": 0,
         "skill_name": "天斗旋",
         "channel_interval": [
             118.0,
@@ -21282,7 +22287,9 @@ SKILLS = {
     },
     24822: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
+        "recipe_mask": 0,
         "skill_name": "天斗旋",
         "channel_interval": [
             118.0,
@@ -21351,7 +22358,9 @@ SKILLS = {
     },
     24823: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
+        "recipe_mask": 0,
         "skill_name": "天斗旋",
         "channel_interval": [
             123.9,
@@ -21420,7 +22429,9 @@ SKILLS = {
     },
     24824: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
+        "recipe_mask": 0,
         "skill_name": "天斗旋",
         "channel_interval": [
             118.0,
@@ -21489,21 +22500,26 @@ SKILLS = {
     },
     33588: {
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 33588,
+        "recipe_mask": 0,
         "channel_interval": 437.0
     },
     27451: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "裁叶饮刃",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     32841: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -387973.12,
@@ -21517,7 +22533,9 @@ SKILLS = {
     },
     28081: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 28081,
+        "recipe_mask": 0,
         "skill_name": "无方中和",
         "channel_interval": [
             20.03760000000001,
@@ -21548,7 +22566,9 @@ SKILLS = {
     },
     27552: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27551,
+        "recipe_mask": 0,
         "skill_name": "商陆缀寒",
         "channel_interval": [
             49.449999999999996,
@@ -21657,7 +22677,9 @@ SKILLS = {
     },
     27555: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27554,
+        "recipe_mask": 0,
         "skill_name": "钩吻断肠",
         "channel_interval": [
             16.0,
@@ -21689,7 +22711,9 @@ SKILLS = {
     },
     27557: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27556,
+        "recipe_mask": 0,
         "skill_name": "川乌射罔",
         "channel_interval": [
             25.0,
@@ -21732,7 +22756,9 @@ SKILLS = {
     },
     27579: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27578,
+        "recipe_mask": 0,
         "skill_name": "沾衣未妨",
         "channel_interval": 120.0,
         "magical_damage_base": 125,
@@ -21741,7 +22767,9 @@ SKILLS = {
     },
     27584: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27582,
+        "recipe_mask": 0,
         "skill_name": "且待时休",
         "channel_interval": [
             74.52,
@@ -21799,7 +22827,9 @@ SKILLS = {
     },
     28409: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27582,
+        "recipe_mask": 0,
         "skill_name": "且待时休",
         "channel_interval": [
             54.0,
@@ -21856,7 +22886,9 @@ SKILLS = {
     },
     28346: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 28345,
+        "recipe_mask": 0,
         "skill_name": "银光照雪",
         "channel_interval": [
             20.0,
@@ -21913,7 +22945,9 @@ SKILLS = {
     },
     34699: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 28345,
+        "recipe_mask": 0,
         "skill_name": "银光照雪·结草",
         "channel_interval": [
             20.0,
@@ -21970,7 +23004,9 @@ SKILLS = {
     },
     27539: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27536,
+        "recipe_mask": 0,
         "skill_name": "惊鸿掠水",
         "channel_interval": [
             40.0,
@@ -22027,7 +23063,9 @@ SKILLS = {
     },
     32922: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 30734,
+        "recipe_mask": 0,
         "skill_name": "折枝留春",
         "channel_interval": 390.0,
         "magical_damage_base": 730,
@@ -22036,7 +23074,9 @@ SKILLS = {
     },
     27657: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27652,
+        "recipe_mask": 0,
         "skill_name": "苍棘缚地",
         "channel_interval": [
             63.0,
@@ -22068,7 +23108,9 @@ SKILLS = {
     },
     29674: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "疾根",
         "channel_interval": 65.45,
         "magical_damage_base": 120,
@@ -22077,7 +23119,9 @@ SKILLS = {
     },
     28385: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "紫叶沉疴",
         "channel_interval": 190.0,
         "magical_damage_base": 417,
@@ -22087,7 +23131,9 @@ SKILLS = {
     },
     28434: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "紫伏",
         "channel_interval": 187.5,
         "magical_damage_base": 33,
@@ -22096,7 +23142,9 @@ SKILLS = {
     },
     36508: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "养荣",
         "channel_interval": 570.0,
         "magical_damage_base": 100,
@@ -22105,7 +23153,9 @@ SKILLS = {
     },
     29698: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "商陆缀寒·神兵",
         "channel_interval": 65.0,
         "magical_damage_base": 20,
@@ -22114,7 +23164,9 @@ SKILLS = {
     },
     29695: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "鹿王本生",
             "鹿王本生",
@@ -22131,7 +23183,9 @@ SKILLS = {
     },
     35367: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 35367,
+        "recipe_mask": 0,
         "skill_name": "应理与药",
         "channel_interval": 1000.5,
         "magical_damage_base": 100,
@@ -22140,7 +23194,9 @@ SKILLS = {
     },
     29505: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27635,
+        "recipe_mask": 0,
         "skill_name": "含锋破月",
         "channel_interval": [
             65.052625,
@@ -22245,7 +23301,9 @@ SKILLS = {
     },
     29506: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27637,
+        "recipe_mask": 0,
         "skill_name": "飞叶满襟",
         "channel_interval": [
             71.5578875,
@@ -22350,7 +23408,9 @@ SKILLS = {
     },
     34700: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27635,
+        "recipe_mask": 0,
         "skill_name": "含锋破月·结草",
         "channel_interval": [
             53.762499999999996,
@@ -22455,7 +23515,9 @@ SKILLS = {
     },
     34702: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27637,
+        "recipe_mask": 0,
         "skill_name": "飞叶满襟·结草",
         "channel_interval": [
             59.13875,
@@ -22560,7 +23622,9 @@ SKILLS = {
     },
     30735: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 30734,
+        "recipe_mask": 0,
         "skill_name": "折枝拂露",
         "channel_interval": 337.1225,
         "magical_damage_base": 730,
@@ -22569,7 +23633,9 @@ SKILLS = {
     },
     27560: {
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27560,
+        "recipe_mask": 0,
         "channel_interval": [
             22.176000000000005,
             22.176000000000005,
@@ -22583,16 +23649,119 @@ SKILLS = {
             124.74000000000002
         ]
     },
+    102159: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101363,
+        "recipe_mask": 4,
+        "skill_name": "且待时休·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "skill_cof": 571
+    },
+    101425: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "苍棘缚地·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "magical_surplus_call": 1,
+        "skill_cof": 321,
+        "surplus_cof": 1024
+    },
+    102157: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101361,
+        "recipe_mask": 4,
+        "skill_name": "川乌射罔·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "skill_cof": 216
+    },
+    102158: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101362,
+        "recipe_mask": 4,
+        "skill_name": "沾衣未妨·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "magical_surplus_call": 1,
+        "skill_cof": 166,
+        "surplus_cof": 532
+    },
+    102164: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101368,
+        "recipe_mask": 4,
+        "skill_name": "并蒂夺株·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "magical_surplus_call": 1,
+        "skill_cof": 187,
+        "surplus_cof": 594
+    },
+    101417: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "无方中和",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "skill_cof": 135,
+        "dot_cof": 461
+    },
+    102163: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101367,
+        "recipe_mask": 4,
+        "skill_name": "青圃着尘·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "skill_cof": 265
+    },
+    101357: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101357,
+        "recipe_mask": 1,
+        "skill_name": "钩吻断肠·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 252
+    },
+    101358: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101357,
+        "recipe_mask": 1,
+        "skill_name": "钩吻断肠·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 308
+    },
     33146: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": -545259.52,
         "physical_surplus_call": 1
     },
     32974: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "云刀",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
@@ -22600,7 +23769,9 @@ SKILLS = {
     },
     32975: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "云刀",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
@@ -22608,7 +23779,9 @@ SKILLS = {
     },
     32510: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1,
+        "recipe_mask": 0,
         "skill_name": "避实击虚",
         "channel_interval": [
             72.0,
@@ -22632,7 +23805,9 @@ SKILLS = {
     },
     32246: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32146,
+        "recipe_mask": 0,
         "skill_name": "留客雨",
         "channel_interval": [
             90.0,
@@ -22726,7 +23901,9 @@ SKILLS = {
     },
     32766: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "触石雨",
         "channel_interval": [
             200.0,
@@ -22745,7 +23922,9 @@ SKILLS = {
     },
     32149: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
+        "recipe_mask": 0,
         "skill_name": "行云势·一",
         "channel_interval": [
             60.0,
@@ -22848,7 +24027,9 @@ SKILLS = {
     },
     32150: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
+        "recipe_mask": 0,
         "skill_name": "行云势·二",
         "channel_interval": [
             75.0,
@@ -22951,7 +24132,9 @@ SKILLS = {
     },
     32151: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
+        "recipe_mask": 0,
         "skill_name": "行云势·三",
         "channel_interval": [
             157.5,
@@ -23054,7 +24237,9 @@ SKILLS = {
     },
     32154: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32134,
+        "recipe_mask": 0,
         "skill_name": "决云势",
         "channel_interval": [
             65.0,
@@ -23076,7 +24261,9 @@ SKILLS = {
     },
     32167: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32135,
+        "recipe_mask": 0,
         "skill_name": "断云势",
         "channel_interval": [
             117.0,
@@ -23131,7 +24318,9 @@ SKILLS = {
     },
     32348: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32135,
+        "recipe_mask": 0,
         "skill_name": "断云势",
         "channel_interval": [
             46.800000000000004,
@@ -23186,7 +24375,9 @@ SKILLS = {
     },
     32602: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
+        "recipe_mask": 0,
         "skill_name": "沧浪三叠·一",
         "channel_interval": [
             130.0,
@@ -23274,7 +24465,9 @@ SKILLS = {
     },
     32603: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
+        "recipe_mask": 0,
         "skill_name": "沧浪三叠·二",
         "channel_interval": [
             155.0,
@@ -23362,7 +24555,9 @@ SKILLS = {
     },
     32604: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
+        "recipe_mask": 0,
         "skill_name": "沧浪三叠·三",
         "channel_interval": [
             180.0,
@@ -23450,7 +24645,9 @@ SKILLS = {
     },
     32891: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23499,7 +24696,9 @@ SKILLS = {
     },
     32892: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23548,17 +24747,20 @@ SKILLS = {
     },
     32357: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "驰风八步",
         "channel_interval": 45.0,
         "physical_damage_base": 10,
         "physical_damage_rand": 5,
-        "physical_damage_call": 1,
-        "prepare_frame": 0.0
+        "physical_damage_call": 1
     },
     36118: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "潋风·携刃",
             "潋风·拓锋"
@@ -23567,12 +24769,13 @@ SKILLS = {
         "physical_damage_base": 78,
         "physical_damage_rand": 10,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 0.0
     },
     33239: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "行云势·神兵",
         "channel_interval": 60.0,
         "physical_damage_rand": 2,
@@ -23580,17 +24783,20 @@ SKILLS = {
     },
     34695: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "界破",
         "channel_interval": 423.5000000000001,
         "physical_damage_base": 160,
         "physical_damage_rand": 317,
-        "physical_damage_call": 1,
-        "prepare_frame": 0.0
+        "physical_damage_call": 1
     },
     32591: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": [
             "截辕",
             "截辕·破碎"
@@ -23611,7 +24817,9 @@ SKILLS = {
     },
     32234: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "skill_name": "横云断浪",
         "channel_interval": [
             240.0,
@@ -23675,7 +24883,9 @@ SKILLS = {
     },
     32235: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23724,7 +24934,9 @@ SKILLS = {
     },
     32236: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23773,7 +24985,9 @@ SKILLS = {
     },
     32237: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             272.646,
@@ -23822,7 +25036,9 @@ SKILLS = {
     },
     32238: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23871,7 +25087,9 @@ SKILLS = {
     },
     32239: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
+        "recipe_mask": 0,
         "skill_name": "孤锋破浪",
         "channel_interval": [
             302.94000000000005,
@@ -23920,17 +25138,23 @@ SKILLS = {
     },
     36851: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 500.0
     },
     33133: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 330.0
     },
     32372: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -23953,7 +25177,9 @@ SKILLS = {
     },
     32371: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -23976,7 +25202,9 @@ SKILLS = {
     },
     32370: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -23999,7 +25227,9 @@ SKILLS = {
     },
     32369: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24022,7 +25252,9 @@ SKILLS = {
     },
     32874: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24045,7 +25277,9 @@ SKILLS = {
     },
     32873: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24068,7 +25302,9 @@ SKILLS = {
     },
     32872: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24091,7 +25327,9 @@ SKILLS = {
     },
     32871: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24114,7 +25352,9 @@ SKILLS = {
     },
     32870: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24137,7 +25377,9 @@ SKILLS = {
     },
     32869: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
+        "recipe_mask": 0,
         "channel_interval": [
             10.0,
             20.0,
@@ -24158,9 +25400,123 @@ SKILLS = {
             100.0
         ]
     },
+    102082: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 102136,
+        "recipe_mask": 1,
+        "skill_name": "行云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 306
+    },
+    102083: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 102136,
+        "recipe_mask": 1,
+        "skill_name": "行云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 314
+    },
+    101381: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 102136,
+        "recipe_mask": 1,
+        "skill_name": "行云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 300
+    },
+    101393: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101393,
+        "recipe_mask": 68,
+        "skill_name": "停云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0,
+        "skill_cof": 885
+    },
+    101395: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 16,
+        "skill_name": "孤锋破浪·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 744,
+        "surplus_cof": 2857
+    },
+    102220: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101385,
+        "recipe_mask": 4,
+        "skill_name": "横云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 319,
+        "surplus_cof": 1223
+    },
+    101385: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "skill_name": "横云势·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 191
+    },
+    101528: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "孤锋破浪·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 384,
+        "surplus_cof": 1475,
+        "dot_cof": 864
+    },
+    102222: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "dot_cof": 240
+    },
+    101388: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101388,
+        "recipe_mask": 68,
+        "skill_name": "留客雨·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 512
+    },
     35866: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35659,
+        "recipe_mask": 0,
         "skill_name": "劲风簇",
         "channel_interval": [
             19.2375,
@@ -24202,16 +25558,19 @@ SKILLS = {
     },
     35894: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
+        "recipe_mask": 0,
         "skill_name": "风矢",
         "channel_interval": 16.0,
         "physical_damage_call": 1,
-        "prepare_frame": 0.0,
         "weapon_damage_cof": 1024.0
     },
     35987: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35661,
+        "recipe_mask": 0,
         "skill_name": "饮羽簇",
         "channel_interval": [
             43.422885,
@@ -24269,7 +25628,9 @@ SKILLS = {
     },
     36157: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 36157,
+        "recipe_mask": 0,
         "skill_name": "标鹄",
         "channel_interval": 503.4239999999999,
         "physical_damage_base": 30,
@@ -24278,7 +25639,9 @@ SKILLS = {
     },
     36177: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "破",
         "global_damage_cof": [
             -734003.2,
@@ -24289,7 +25652,9 @@ SKILLS = {
     },
     36453: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35659,
+        "recipe_mask": 0,
         "skill_name": "朝仪万汇",
         "channel_interval": 215.0,
         "physical_damage_base": 37,
@@ -24298,7 +25663,9 @@ SKILLS = {
     },
     36579: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "劲风簇·神兵",
         "channel_interval": 60.0,
         "physical_damage_rand": 2,
@@ -24306,7 +25673,9 @@ SKILLS = {
     },
     36580: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "月弦激星",
         "channel_interval": 390.0,
         "physical_damage_rand": 2,
@@ -24314,29 +25683,39 @@ SKILLS = {
     },
     35771: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35771,
+        "recipe_mask": 0,
         "channel_interval": 126.17167499999998
     },
     36165: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     35695: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "引风唤灵",
         "channel_interval": 16.0
     },
     35696: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "弛律召野",
         "channel_interval": 16.0
     },
     36056: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "践踏",
         "channel_interval": [
             73.5,
@@ -24369,7 +25748,9 @@ SKILLS = {
     },
     36057: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "重击",
         "channel_interval": [
             34.65,
@@ -24402,7 +25783,9 @@ SKILLS = {
     },
     36111: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": [
             34.65,
@@ -24435,7 +25818,9 @@ SKILLS = {
     },
     36112: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": [
             103.95,
@@ -24468,7 +25853,9 @@ SKILLS = {
     },
     36113: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": [
             73.5,
@@ -24501,7 +25888,9 @@ SKILLS = {
     },
     36114: {
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
+        "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": [
             24.150000000000002,
