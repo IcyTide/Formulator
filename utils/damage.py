@@ -46,9 +46,9 @@ def init_result(
 
 
 @cache
-def damage_addition_result(damage, damage_addition, damage_addition_extra):
+def damage_addition_result(damage, damage_addition, move_state_damage_addition):
     damage = int(damage * (1 + damage_addition / BINARY_SCALE))
-    damage = int(damage * (1 + damage_addition_extra / BINARY_SCALE))
+    damage = int(damage * (1 + move_state_damage_addition / BINARY_SCALE))
     return damage
 
 

@@ -6,6 +6,7 @@ from base.gain import Gain
 from base.recipe import ExtraTickRecipe
 from base.skill import Skill
 from base.talent import Talent
+from schools.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 
 
 class 彤弓(Gain):
@@ -84,13 +85,42 @@ class 朱厌(Gain):
         skills[35696].pet_buffs.pop((27406, 1))
 
 
+class 射日(Gain):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        射日加成.talent_activate = True
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        射日加成.talent_activate = False
+
+
+class 白泽(Gain):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        白泽加成.talent_activate_1 = True
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        白泽加成.talent_activate_1 = False
+
+
+class 偕行(Gain):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        白泽加成.talent_activate_2 = True
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        白泽加成.talent_activate_2 = False
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     35715: Talent("素矰", [素矰(skill_id=35771, skill_recipe=35771)]),
     35714: Talent("彤弓", [彤弓(skill_id=0, skill_recipe=35659)]),
+    102012: Talent("射日", [射日()]),
+    102013: Talent("白泽", [白泽()]),
     35718: Talent("棘矢"),
     35719: Talent("孰湖", [孰湖()]),
+    102014: Talent("伴生"),
     35721: Talent("襄尺"),
+    102016: Talent("偕行", [偕行()]),
     35725: Talent("长右"),
+    102010: Talent("白虹贯日"),
     35729: Talent("鹿蜀"),
     35736: Talent("桑柘", [ExtraTickRecipe(1, 26856, 0)]),
     35733: Talent("诸怀", [诸怀()]),
@@ -105,10 +135,10 @@ TALENT_GAINS: Dict[int, Talent] = {
 }
 
 TALENTS = [
-    [35715, 35714],
-    [35718, 35719],
-    [35721],
-    [35725],
+    [35715, 35714, 102012, 102013],
+    [35718, 35719, 102014],
+    [35721, 102016],
+    [35725, 102010],
     [35729],
     [35736, 35733],
     [35737],

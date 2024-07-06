@@ -7,6 +7,7 @@ from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
 from base.talent import Talent
+from schools.wu_fang.skills import 鬼门加成
 
 
 class 鸩羽(Gain):
@@ -27,11 +28,19 @@ class 疾根(Gain):
         skills[20052].tick_extra -= 1
 
 
+class 鬼门(Gain):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        鬼门加成.talent_activate = True
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+        鬼门加成.talent_activate = False
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     28343: Talent("淮茵"),
     28338: Talent("怯邪"),
     27530: Talent("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    101419: Talent("鬼门"),
+    101419: Talent("鬼门", [鬼门()]),
     28344: Talent("鸩羽", [鸩羽(skill_id=27556, skill_recipe=27556)]),
     101422: Talent("神莹"),
     28361: Talent("结草"),

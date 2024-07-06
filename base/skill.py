@@ -135,8 +135,9 @@ class BaseDamage(BaseSkill):
     channel_interval_extra: float = 1.
     global_damage_cof_extra: float = 1.
 
-    damage_addition: int = 0
+    _damage_addition: List[int] = []
     damage_addition_extra: int = 0
+    move_state_damage_addition: int = 0
 
     physical_attack_power_base: List[int] = []
     magical_attack_power_base: List[int] = []
@@ -394,6 +395,22 @@ class BaseDamage(BaseSkill):
             self._global_damage_cof = [global_damage_cof]
 
     @property
+    def damage_addition(self):
+        if not self._damage_addition:
+            return self.damage_addition_extra
+        elif self.skill_level > len(self._damage_addition):
+            return self._damage_addition[-1] + self.damage_addition_extra
+        else:
+            return self._damage_addition[self.skill_level - 1] + self.damage_addition_extra
+
+    @damage_addition.setter
+    def damage_addition(self, damage_addition):
+        if isinstance(damage_addition, list):
+            self._physical_attack_power_gain = damage_addition
+        else:
+            self._physical_attack_power_gain = [damage_addition]
+
+    @property
     def physical_attack_power_gain(self):
         if not self._physical_attack_power_gain:
             return self.physical_attack_power_gain_extra
@@ -593,7 +610,7 @@ class BaseDamage(BaseSkill):
 
     def physical_damage_chain(self, damage: int, attribute: Attribute):
         damage = damage_addition_result(
-            damage, attribute.physical_damage_addition + self.damage_addition, self.damage_addition_extra
+            damage, attribute.physical_damage_addition + self.damage_addition, self.move_state_damage_addition
         )
         damage = overcome_result(
             damage, attribute.physical_overcome, attribute.physical_shield_ignore,
@@ -613,7 +630,7 @@ class BaseDamage(BaseSkill):
 
     def magical_damage_chain(self, damage: int, attribute: Attribute):
         damage = damage_addition_result(
-            damage, attribute.magical_damage_addition + self.damage_addition, self.damage_addition_extra
+            damage, attribute.magical_damage_addition + self.damage_addition, self.move_state_damage_addition
         )
         damage = overcome_result(
             damage, attribute.magical_overcome, attribute.magical_shield_ignore,
@@ -633,7 +650,7 @@ class BaseDamage(BaseSkill):
 
     def adaptive_damage_chain(self, damage: int, attribute: Attribute):
         damage = damage_addition_result(
-            damage, attribute.damage_addition + self.damage_addition, self.damage_addition_extra
+            damage, attribute.damage_addition + self.damage_addition, self.move_state_damage_addition
         )
         damage = overcome_result(
             damage, attribute.overcome, attribute.shield_ignore,

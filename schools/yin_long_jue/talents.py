@@ -2,7 +2,7 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.gain import Gain
-from base.recipe import DamageAdditionRecipe, ExtraDamageAdditionRecipe
+from base.recipe import DamageAdditionRecipe, MoveStateDamageAdditionRecipe
 from base.talent import Talent
 
 
@@ -23,7 +23,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     22571: Talent("风骨"),
     23309: Talent("北阙"),
     22575: Talent("渊岳", [DamageAdditionRecipe(410, 22327, 22327)]),
-    22579: Talent("玄肃", [ExtraDamageAdditionRecipe(256, 22320, 22320)]),
+    22579: Talent("玄肃", [MoveStateDamageAdditionRecipe(256, 22320, 22320)]),
     29166: Talent("飞刃回转"),
     22583: Talent("王师", [王师()]),
     22593: Talent("百节"),

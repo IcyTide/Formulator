@@ -1,11 +1,11 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.recipe import ExtraDamageAdditionRecipe, DamageAdditionRecipe, CriticalStrikeRecipe
+from base.recipe import MoveStateDamageAdditionRecipe, DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "烈日斩": {
-        "10%伤害": ExtraDamageAdditionRecipe(51, 3963, 0),
+        "10%伤害": MoveStateDamageAdditionRecipe(51, 3963, 0),
         "5%伤害": DamageAdditionRecipe(51, 3963, 0),
         "4%伤害": DamageAdditionRecipe(41, 3963, 0),
         "3%伤害": DamageAdditionRecipe(31, 3963, 0),

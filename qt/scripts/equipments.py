@@ -97,7 +97,7 @@ class Equipment:
 
     @property
     def base_attr_content(self):
-        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.base_attr.items()]
+        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.base_attr.items() if k in ATTR_TYPE_TRANSLATE]
 
     @property
     def magic_attr_content(self):

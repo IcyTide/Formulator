@@ -366,9 +366,11 @@ class Parser(BaseParser):
         else:
             if buff.unique:
                 buff_stacks[(buff_id, buff_level)] = buff_stack
-            else:
+            elif unique_id in self.id2buff:
                 buff_id, buff_level, buff_stack = self.id2buff.pop(unique_id)
                 buff_stacks[(buff_id, buff_level)] = buff_stacks[(buff_id, buff_level)] - buff_stack
+            else:
+                return
             if not buff_stacks[(buff_id, buff_level)]:
                 buff_stacks.pop((buff_id, buff_level))
             buff.end(self)

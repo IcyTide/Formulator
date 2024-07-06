@@ -19,9 +19,11 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 }
 
 
-class 鬼门(Skill):
+class 鬼门加成(Skill):
+    talent_activate = False
+
     def record(self, actual_critical_strike, actual_damage, parser):
-        if 0 in parser.current_dot_ticks:
+        if self.talent_activate and 0 in parser.current_dot_ticks:
             parser.refresh_target_buff(70188, 10)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 10, -1)
@@ -29,7 +31,7 @@ class 鬼门(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-class 钩吻断肠秘章(鬼门):
+class 钩吻断肠秘章(鬼门加成):
     damage_addition = 154
 
     def record(self, actual_critical_strike, actual_damage, parser):
@@ -41,7 +43,7 @@ class 钩吻断肠秘章(鬼门):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-class 苍棘缚地(鬼门):
+class 苍棘缚地(鬼门加成):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks.get((71230, 1)):
             parser.refresh_target_buff(70188, 10)
@@ -55,7 +57,7 @@ class 苍棘缚地(鬼门):
 
 
 MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
-    鬼门: {
+    鬼门加成: {
         102159: {}, 102157: {}, 102158: {}, 102164: {},
         101417: dict(bind_dot=71171),
         102163: dict(consume_dot=71171),

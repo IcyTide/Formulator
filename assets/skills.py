@@ -23659,18 +23659,6 @@ SKILLS = {
         "magical_damage_call": 1,
         "skill_cof": 571
     },
-    101425: {
-        "kind_type": "Poison",
-        "platform": 1,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "skill_name": "苍棘缚地·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
-        "magical_surplus_call": 1,
-        "skill_cof": 321,
-        "surplus_cof": 1024
-    },
     102157: {
         "kind_type": "Poison",
         "platform": 1,
@@ -23747,6 +23735,18 @@ SKILLS = {
         "magical_damage_call": 1,
         "weapon_damage_cof": 0.0,
         "skill_cof": 308
+    },
+    101425: {
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "苍棘缚地·悟",
+        "magical_damage_base": 1,
+        "magical_damage_call": 1,
+        "magical_surplus_call": 1,
+        "skill_cof": 321,
+        "surplus_cof": 1024
     },
     33146: {
         "kind_type": "Physics",
@@ -25920,5 +25920,134 @@ SKILLS = {
         ],
         "physical_damage_rand": 20,
         "physical_damage_call": 1
+    },
+    102019: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "劲风簇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 108,
+        "surplus_cof": 412
+    },
+    102018: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "劲风簇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 277,
+        "surplus_cof": 1063
+    },
+    102037: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "白虹贯日·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 2056,
+        "surplus_cof": 7895
+    },
+    102027: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "饮雨簇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 205.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 125,
+        "surplus_cof": 479
+    },
+    101998: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "skill_name": "饮雨簇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 269,
+        "surplus_cof": 1032
+    },
+    102211: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "dot_cof": 768
+    },
+    102028: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "野豕叱虎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 426
+    },
+    102029: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "野豕叱虎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 423
+    },
+    102030: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "疾隼驰狼·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 437
+    },
+    102031: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "疾隼驰狼·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 477
+    },
+    102032: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "巨熊龙象·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 418
+    },
+    102033: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "巨熊龙象·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 413
     }
 }

@@ -21,18 +21,18 @@ class ChannelIntervalRecipe(Gain):
 
 class DamageAdditionRecipe(Gain):
     def add_skill(self, skill: Skill):
-        skill.damage_addition += self.value
-
-    def sub_skill(self, skill: Skill):
-        skill.damage_addition -= self.value
-
-
-class ExtraDamageAdditionRecipe(Gain):
-    def add_skill(self, skill: Skill):
         skill.damage_addition_extra += self.value
 
     def sub_skill(self, skill: Skill):
         skill.damage_addition_extra -= self.value
+
+
+class MoveStateDamageAdditionRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.move_state_damage_addition += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.move_state_damage_addition -= self.value
 
 
 class CriticalStrikeRecipe(Gain):

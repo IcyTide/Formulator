@@ -1216,5 +1216,14 @@ DOTS = {
         "platform": 0,
         "damage_base": 32,
         "physical_damage_call": 1
+    },
+    71175: {
+        "skill_name": "流血(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 10,
+        "physical_damage_call": 1
     }
 }
