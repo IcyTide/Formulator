@@ -25983,6 +25983,16 @@ SKILLS = {
         "skill_cof": 269,
         "surplus_cof": 1032
     },
+    102035: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "朝仪万汇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 184
+    },
     102211: {
         "kind_type": "Physics",
         "platform": 1,

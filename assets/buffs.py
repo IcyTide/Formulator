@@ -5251,6 +5251,10 @@ BUFFS = {
         "max_stack": 5,
         "buff_name": "伤害提高"
     },
+    71182: {
+        "attributes": {},
+        "max_stack": 1
+    },
     918: {
         "attributes": {},
         "max_stack": 1,
