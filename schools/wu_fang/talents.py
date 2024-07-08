@@ -2,7 +2,6 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
-
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
@@ -58,6 +57,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     30734: Talent("折枝拂露"),
     28443: Talent("甘遂"),
     28458: Talent("炮阳"),
+    28415: Talent("荆障"),
     32896: Talent("应理与药"),
     28426: Talent("养荣")
 }
@@ -73,7 +73,7 @@ TALENTS = [
     [28419],
     [28432],
     [28433, 30734, 28431],
-    [28443, 28458],
+    [28443, 28458, 28415],
     [32896, 28426]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}

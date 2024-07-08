@@ -14,6 +14,14 @@ class 引魂(Gain):
         skills[2223].pet_buffs.pop((16102, 1))
 
 
+class 虫兽(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pre_buffs[(12497, 1)] = 1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pre_buffs.pop((12497, 1))
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     6620: Talent("蝎毒"),
     6649: Talent("食髓"),
@@ -21,8 +29,9 @@ TALENT_GAINS: Dict[int, Talent] = {
         ChannelIntervalRecipe(1.25, skill_id, 0)
         for skill_id in (6237, 6238, 6236, 13476, 26226, 18700, 34643, 37352)
     ]),
-    6879: Talent("虫兽"),
+    6879: Talent("虫兽", [虫兽()]),
     34388: Talent("重蛊"),
+    37952: Talent("不鸣"),
     34640: Talent("忘情"),
     30088: Talent("嗜蛊"),
     25040: Talent("曲致", [ExtraTickRecipe(2, 25917, 0)]),
@@ -38,7 +47,7 @@ TALENTS = [
     [6629],
     [6879],
     [34388],
-    [34640],
+    [34640, 37952],
     [30088],
     [25040],
     [25018],

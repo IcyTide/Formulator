@@ -4358,7 +4358,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition": 154
+            "pve_addition": 104
         },
         "max_stack": 1
     },
@@ -5147,15 +5147,19 @@ BUFFS = {
         "attributes": {},
         "max_stack": 1
     },
+    21168: {
+        "attributes": {},
+        "max_stack": 1
+    },
+    21856: {
+        "attributes": {},
+        "max_stack": 1
+    },
     20699: {
         "attributes": {
             "magical_overcome_gain": 256,
             "strain_gain": 307
         },
-        "max_stack": 1
-    },
-    21168: {
-        "attributes": {},
         "max_stack": 1
     },
     24659: {

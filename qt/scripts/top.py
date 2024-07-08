@@ -1,3 +1,4 @@
+import copy
 import json
 
 from PySide6.QtWidgets import QFileDialog, QWidget
@@ -64,7 +65,7 @@ def top_script(
         result = json.load(open(file_name[0], encoding="utf-8"))
         result['records'] = unserialize(result['records'])
         for player_id, school_id in result['players'].items():
-            result['players'][player_id] = SUPPORT_SCHOOLS[school_id]
+            result['players'][player_id] = copy.deepcopy(SUPPORT_SCHOOLS[school_id])
 
         for k, v in result.items():
             setattr(parser, k, v)

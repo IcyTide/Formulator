@@ -275,8 +275,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             for k, v in equipment_detail.items():
                 setattr(equipment, k, v)
 
-            if equipment.base:
-                widget.base_attr.set_content(equipment.base_attr_content)
+            if base_attr_content := equipment.base_attr_content:
+                widget.base_attr.set_content(base_attr_content)
                 widget.base_attr.show()
             else:
                 widget.base_attr.hide()

@@ -11,7 +11,7 @@ class WuFang(MagicalAttribute):
         self.magical_attack_power_base += 3808
         self.magical_overcome_base += 1788
         if not platform:
-            self.pve_addition += 51
+            self.pve_addition += 102
         else:
             self.pve_addition += 461
             self.all_shield_ignore += 614

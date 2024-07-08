@@ -23,7 +23,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     22571: Talent("风骨"),
     23309: Talent("北阙"),
     22575: Talent("渊岳", [DamageAdditionRecipe(410, 22327, 22327)]),
-    22579: Talent("玄肃", [MoveStateDamageAdditionRecipe(256, 22320, 22320)]),
+    22579: Talent("玄肃", [MoveStateDamageAdditionRecipe(307, 22320, 22320)]),
     29166: Talent("飞刃回转"),
     22583: Talent("王师", [王师()]),
     22593: Talent("百节"),

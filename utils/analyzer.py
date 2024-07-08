@@ -54,8 +54,8 @@ def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
         display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_all(attribute, skill)]
     elif isinstance(skill, PetSkill):
-        display_current_buffs = [buff for buff in current_buffs if buff.add_pet(attribute, skill, False)]
-        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, skill, True)]
+        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
+        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, skill)]
     else:
         raise NotImplementedError
     display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, skill)]
@@ -79,9 +79,9 @@ def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
             buff.sub_all(attribute, skill)
     elif isinstance(skill, PetSkill):
         for buff in current_buffs:
-            buff.sub_pet(attribute, skill, False)
+            buff.sub_all(attribute, skill)
         for buff in snapshot_buffs:
-            buff.sub_pet(attribute, skill, True)
+            buff.sub_pet(attribute, skill)
     for buff in target_buffs:
         buff.sub_all(attribute, skill)
 

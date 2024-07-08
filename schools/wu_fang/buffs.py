@@ -9,9 +9,10 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         21758: {}, 20680: {}, 20696: {},
         20718: dict(buff_name="炮阳", gains=[DamageAdditionRecipe(358, 28081, 28081)]),
-        20699: dict(buff_name="养荣"),
         21168: dict(buff_name="植物温性",
                     gains=[[DamageAdditionRecipe(value, 27652, 27652) for value in (51, 717, 0)]]),
+        21856: dict(buff_name="荆障", gains=[DamageAdditionRecipe(154, 27652, 27652)]),
+        20699: dict(buff_name="养荣"),
         24659: dict(buff_name="应理与药", gains=[DamageAdditionRecipe(3277, 28081, 28081)])
     },
 }

@@ -10,7 +10,7 @@ class TaiXuanJing(MagicalAttribute):
         super().__init__()
         self.magical_attack_power_base += 4222
         self.magical_critical_strike_base += 2390
-        self.pve_addition += 123
+        self.pve_addition += 144
 
     @property
     def extra_magical_attack_power(self):

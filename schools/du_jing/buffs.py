@@ -10,7 +10,7 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         2557: {}, 2543: {}, 12497: {}, 22232: {}, 16103: {},
         16543: dict(buff_name="宠物"),
         17988: dict(buff_name="曲致"),
-        16102: dict(buff_name="引魂", attribute=dict(surplus_gain=410)),
+        16102: dict(buff_name="引魂", attribute=dict(magical_attack_power_gain=410, surplus_gain=410)),
         25769: dict(gains=[DamageAdditionRecipe(154, skill_id, 0) for skill_id in (29573, 25044, 30918, 18590)]),
         19513: dict(buff_name="连缘蛊增伤",
                     gains=[[DamageAdditionRecipe(value, 25044, 0) for value in (819, 1638, 2458, 3277)]])
