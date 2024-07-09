@@ -1,15 +1,6 @@
 from functools import cache
 
-from base.constant import BINARY_SCALE, BASE_CRITICAL_POWER
-
-
-@cache
-def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
-    shield = shield_base
-    shield += int(shield * shield_gain / BINARY_SCALE)
-    shield -= int(shield * shield_ignore / BINARY_SCALE)
-    shield = max(shield, 0)
-    return int(shield * BINARY_SCALE / (shield + shield_constant))
+from base.constant import BINARY_SCALE
 
 
 @cache
@@ -38,55 +29,56 @@ def init_result(
         damage_base, damage_rand, damage_gain, attack_power_cof, attack_power,
         weapon_damage_cof, weapon_damage, surplus_cof, surplus, global_damage_factor, skill_stack=1
 ):
-    damage = int(base_result(damage_base, damage_rand, damage_gain)) * global_damage_factor * skill_stack
-    damage += int(attack_power_result(attack_power_cof, attack_power)) * global_damage_factor * skill_stack
-    damage += int(weapon_damage_result(weapon_damage_cof, weapon_damage)) * global_damage_factor
-    damage += int(surplus_result(surplus_cof, surplus)) * global_damage_factor
-    return int(damage)
+    damage = base_result(damage_base, damage_rand, damage_gain)
+    damage += attack_power_result(attack_power_cof, attack_power)
+    damage += weapon_damage_result(weapon_damage_cof, weapon_damage)
+    damage += surplus_result(surplus_cof, surplus)
+    return damage * global_damage_factor * skill_stack
 
 
 @cache
 def damage_addition_result(damage, damage_addition, damage_addition_extra):
-    damage = int(damage * (1 + damage_addition / BINARY_SCALE))
-    damage = int(damage * (1 + damage_addition_extra / BINARY_SCALE))
+    damage = damage * (1 + damage_addition / BINARY_SCALE)
+    damage = damage * (1 + damage_addition_extra / BINARY_SCALE)
     return damage
 
 
 @cache
-def overcome_result(damage, overcome, shield_ignore, shield_base, shield_gain, shield_constant):
-    overcome = int(overcome * BINARY_SCALE + BINARY_SCALE)
-    defense = defense_result(shield_base, shield_gain, shield_ignore, shield_constant)
-    rate = (overcome - int(overcome * defense / BINARY_SCALE)) / BINARY_SCALE
-    return int(damage * rate)
+def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
+    shield = shield_base
+    shield += shield * shield_gain / BINARY_SCALE
+    shield -= shield * shield_ignore / BINARY_SCALE
+    shield = max(shield, 0)
+    return shield * BINARY_SCALE / (shield + shield_constant)
 
 
 @cache
-def critical_result(damage, critical_power):
-    rate = int((critical_power - BASE_CRITICAL_POWER) * BINARY_SCALE) / BINARY_SCALE
-    return int(damage * BASE_CRITICAL_POWER) + int(damage * rate)
+def overcome_result(damage, overcome, shield_ignore, shield_base, shield_gain, shield_constant):
+    damage = damage * (1 - defense_result(shield_base, shield_gain, shield_ignore, shield_constant))
+    return damage * (1 + overcome)
+
+
+@cache
+def critical_result(damage, critical_strike, critical_power):
+    # critical_strike = max(1, critical_strike)
+    return damage * critical_strike * critical_power + damage * (1 - critical_strike)
 
 
 @cache
 def level_reduction_result(damage, level_reduction):
-    return int(damage * (1 - level_reduction))
+    return damage * (1 - level_reduction)
 
 
 @cache
 def strain_result(damage, strain):
-    rate = int(strain * BINARY_SCALE) / BINARY_SCALE
-    return int(damage * (1 + rate))
+    return damage * (1 + strain)
 
 
 @cache
 def pve_addition_result(damage, pve_addition):
-    return int(damage * (1 + pve_addition / BINARY_SCALE))
+    return damage * (1 + pve_addition / BINARY_SCALE)
 
 
 @cache
 def damage_cof_result(damage, damage_cof):
-    return int(damage * (1 + damage_cof / BINARY_SCALE))
-
-
-@cache
-def vulnerable_result(damage, vulnerable):
-    return int(damage * (1 + vulnerable / BINARY_SCALE))
+    return damage * (1 + damage_cof / BINARY_SCALE)
