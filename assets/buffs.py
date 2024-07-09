@@ -4991,6 +4991,11 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "神降"
     },
+    71252: {
+        "attributes": {},
+        "max_stack": 1,
+        "buff_name": "澹然若海·悟"
+    },
     16025: {
         "attributes": {
             "physical_critical_strike_rate": [

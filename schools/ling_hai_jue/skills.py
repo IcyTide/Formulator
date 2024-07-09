@@ -14,8 +14,42 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     },
     Dot: {18386: {}, 19557: {}}
 }
+
+
+class 击水加成(Skill):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        parser.refresh_target_buff(70188, 30)
+        super().record(actual_critical_strike, actual_damage, parser)
+        parser.refresh_target_buff(70188, 30, -1)
+
+
+class 逐波加成(Skill):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        parser.refresh_target_buff(70188, 80)
+        super().record(actual_critical_strike, actual_damage, parser)
+        parser.refresh_target_buff(70188, 80, -1)
+
+
+MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
+    Skill: {
+        102134: {}, 102173: {}, 102145: {}, 102111: {}, 102161: {}, 102228: {}, 102103: {}
+    },
+    击水加成: {
+        102091: {}, 102092: {}, 102093: {}
+    },
+    逐波加成: {
+        102104: {}
+    }
+}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        set_skill(skill)
+        SKILLS[skill_id] = skill
+for skill_class, skills in MOBILE_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)
         for attr, value in attrs.items():

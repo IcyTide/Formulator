@@ -5,9 +5,9 @@ name: Nuitka Packaging
 
 on:
   push:
-    branches: [ "nuitka" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "nuitka" ]
+    branches: [ "master" ]
 
 permissions:
   contents: write
