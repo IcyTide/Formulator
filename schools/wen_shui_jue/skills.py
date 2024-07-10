@@ -1,6 +1,6 @@
 from typing import Dict
 
-from assets.setter import set_skill
+from assets.setter import set_skill, set_dot
 from base.skill import Skill
 from general.skills import GENERAL_SKILLS
 
@@ -32,3 +32,4 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+DOTS = {}

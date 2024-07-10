@@ -853,7 +853,7 @@ class Skill(BaseDamage, BaseDot):
             parser.current_next_pet_buff_stacks.append(pet_buffs.copy())
 
     def dot_add(self, parser):
-        bind_dot: Dot = parser.current_school.skills[self.bind_dot]
+        bind_dot: Dot = parser.current_school.dots[self.bind_dot]
         if not parser.current_dot_ticks.get(self.bind_dot):
             parser.current_dot_stacks[self.bind_dot] = 0
         parser.current_dot_ticks[self.bind_dot] = bind_dot.tick

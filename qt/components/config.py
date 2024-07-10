@@ -14,7 +14,7 @@ class ConfigWidget(QWidget):
 
         self.config_select = ComboWithLabel("选择预设方案")
         top_layout.addWidget(self.config_select, 1)
-        self.config_category = ComboWithLabel("选择导入类别", items=["全部", "装备", "消耗品", "增益"])
+        self.config_category = ComboWithLabel("选择导入类别", items=["全部", "装备", "消耗品", "增益", "秘籍"])
         top_layout.addWidget(self.config_category, 1)
         self.load_config = QPushButton("导入预设方案")
         bottom_layout.addWidget(self.load_config, 2)

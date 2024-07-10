@@ -708,6 +708,36 @@ DOTS = {
         "damage_base": 30,
         "magical_damage_call": 1
     },
+    6367: {
+        "skill_name": "亢龙有悔(DOT)",
+        "interval": 48,
+        "tick": 5,
+        "max_stack": 2,
+        "platform": 0,
+        "damage_base": [
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            14,
+            15,
+            17,
+            18,
+            19,
+            21,
+            22,
+            24,
+            25,
+            26,
+            28,
+            29,
+            31,
+            32
+        ],
+        "physical_damage_call": 1
+    },
     6401: {
         "skill_name": "亢龙有悔(DOT)",
         "interval": 48,
@@ -1229,6 +1259,15 @@ DOTS = {
         "damage_base": 25,
         "physical_damage_call": 1
     },
+    70593: {
+        "skill_name": "截辕·悟(DOT)",
+        "interval": 32,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 102,
+        "physical_damage_call": 1
+    },
     70583: {
         "skill_name": "流血(DOT)",
         "interval": 32,
@@ -1239,15 +1278,6 @@ DOTS = {
         ],
         "platform": 1,
         "damage_base": 12,
-        "physical_damage_call": 1
-    },
-    70593: {
-        "skill_name": "截辕·悟(DOT)",
-        "interval": 32,
-        "tick": 6,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": 102,
         "physical_damage_call": 1
     },
     26856: {

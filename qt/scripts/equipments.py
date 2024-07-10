@@ -57,6 +57,7 @@ class Equipment:
         self.embed_levels = [MAX_EMBED_LEVEL for _ in range(EMBED_POSITIONS[self.position])]
 
         self.enchant = Enchant()
+        self.special_enchant = 0
         if self.position in STONES_POSITIONS:
             self.stone = Stone()
         else:
@@ -325,7 +326,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         equipment = equipments[label]
 
         def inner():
-            if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
+            if widget.special_enchant and equipment.special_enchant and widget.special_enchant.radio_button.isChecked():
                 equipment.special_enchant_gain = [equipment.special_enchant]
             else:
                 equipment.special_enchant_gain = []

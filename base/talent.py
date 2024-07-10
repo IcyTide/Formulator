@@ -3,7 +3,7 @@ from typing import List, Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
+from base.skill import Skill, Dot
 
 
 class Talent(Gain):
@@ -16,10 +16,10 @@ class Talent(Gain):
         else:
             self.gains = []
 
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         for gain in self.gains:
-            gain.add(attribute, skills, buffs)
+            gain.add(attribute, skills, dots, buffs)
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         for gain in self.gains:
-            gain.sub(attribute, skills, buffs)
+            gain.sub(attribute, skills, dots, buffs)

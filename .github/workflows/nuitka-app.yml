@@ -31,6 +31,7 @@ jobs:
       with:
         nuitka-version: main
         script-name: qt/app.py
+        onefile: true
         standalone: true
         enable-plugins: pyside6
         disable-console: true
@@ -47,3 +48,4 @@ jobs:
       with:
         name: ${{ env.PACKAGENAME }}
         path: Formulator
+

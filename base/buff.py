@@ -135,8 +135,9 @@ class Buff(BaseBuff):
                 continue
             setattr(attribute, attr, getattr(attribute, attr) + value)
             return_tag = True
+        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
         for values in self.gains:
-            if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):
+            if self.gain_value(values).add(*gain_tuple):
                 return_tag = True
 
         return return_tag
@@ -153,10 +154,10 @@ class Buff(BaseBuff):
             if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
-
         if snapshot:
+            gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
             for values in self.gains:
-                if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):
+                if self.gain_value(values).add(*gain_tuple):
                     return_tag = True
 
         return return_tag
@@ -170,8 +171,9 @@ class Buff(BaseBuff):
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
+        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
         for values in self.gains:
-            if self.gain_value(values).add(attribute, {skill.skill_id: skill}, {self.buff_id: self}):
+            if self.gain_value(values).add(*gain_tuple):
                 return_tag = True
 
         return return_tag
@@ -182,8 +184,9 @@ class Buff(BaseBuff):
             if not value:
                 continue
             setattr(attribute, attr, getattr(attribute, attr) - value)
+        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
         for values in self.gains:
-            self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
+            self.gain_value(values).sub(*gain_tuple)
 
     def sub_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
         for attr, values in self.attributes.items():
@@ -195,8 +198,9 @@ class Buff(BaseBuff):
             if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
         if snapshot:
+            gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
             for values in self.gains:
-                self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
+                self.gain_value(values).sub(*gain_tuple)
 
     def sub_pet(self, attribute: Attribute, skill: Skill):
         for attr, values in self.attributes.items():
@@ -205,8 +209,9 @@ class Buff(BaseBuff):
                 continue
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
+        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
         for values in self.gains:
-            self.gain_value(values).sub(attribute, {skill.skill_id: skill}, {self.buff_id: self})
+            self.gain_value(values).sub(*gain_tuple)
 
 
 class TargetBuff(Buff):

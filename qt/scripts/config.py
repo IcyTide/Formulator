@@ -75,9 +75,11 @@ def config_script(
                         sub_team_gain.spin_box.setValue(config['team_gains'][label][sub_label])
 
     def load_recipes(config):
-        for i, recipes in enumerate(config):
+        for i, indexes in enumerate(config):
             for selected_item in recipe_widget.recipes[i].list.selectedItems():
                 selected_item.setSelected(False)
+            for index in indexes:
+                recipe_widget.recipes[i].list.item(index).setSelected(True)
 
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
@@ -89,13 +91,15 @@ def config_script(
             load_equipments(config.get("equipments"))
             load_consumables(config.get("consumables"))
             load_bonuses(config.get("bonuses"))
+            load_recipes(config.get("recipes"))
         elif category == "装备":
             load_equipments(config.get("equipments"))
         elif category == "消耗品":
             load_consumables(config.get("consumables"))
         elif category == "增益":
             load_bonuses(config.get("bonuses"))
-
+        elif category == "秘籍":
+            load_recipes(config.get("recipes"))
         config_widget.config_name.text_browser.setText(config_name)
 
     config_widget.load_config.clicked.connect(load_config)
@@ -146,8 +150,8 @@ def config_script(
 
     def save_recipes(config):
         for recipe in recipe_widget.values():
-            if selected_items := recipe.list.selectedItems():
-                config.append(selected_items)
+            if selected_indexes := recipe.list.selectedIndexes():
+                config.append([index.row() for index in selected_indexes])
 
     def save_config():
         config_name = config_widget.config_name.text_browser.text()
@@ -166,7 +170,7 @@ def config_script(
         save_equipments(CONFIG[school][config_name]['equipments'])
         save_consumables(CONFIG[school][config_name]['consumables'])
         save_bonuses(CONFIG[school][config_name]['bonuses'])
-        # save_recipes(CONFIG[parser.school.school][config_name]['recipes'])
+        save_recipes(CONFIG[school][config_name]['recipes'])
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
         config_widget.config_select.set_items(

@@ -81,14 +81,14 @@ def dashboard_script(parser: Parser,
             gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))
 
         for gain in gains:
-            gain.add(attribute, school.skills, school.buffs)
+            gain.add(attribute, school.skills, school.dots, school.buffs)
 
         duration = dashboard_widget.duration.spin_box.value()
         dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
         total, summary, details = analyze_details(record, duration, attribute, school)
 
         for gain in gains:
-            gain.sub(attribute, school.skills, school.buffs)
+            gain.sub(attribute, school.skills, school.dots, school.buffs)
 
         dashboard_widget.dps.set_text(str(round(total.expected_damage / duration)))
 

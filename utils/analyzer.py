@@ -44,10 +44,7 @@ def filter_status(status, school: School):
 
 
 def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
-    if not snapshot_buffs:
-        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
-        display_snapshot_buffs = []
-    elif isinstance(skill, Dot):
+    if isinstance(skill, Dot):
         display_current_buffs = [buff for buff in current_buffs if buff.add_dot(attribute, skill.bind_skill, False)]
         display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_dot(attribute, skill.bind_skill, True)]
     elif isinstance(skill, NpcSkill):
@@ -57,17 +54,15 @@ def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
         display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
         display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, skill)]
     else:
-        raise NotImplementedError
+        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, skill)]
+        display_snapshot_buffs = []
     display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, skill)]
 
     return display_current_buffs, display_snapshot_buffs, display_target_buffs
 
 
 def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, skill: Skill):
-    if not snapshot_buffs:
-        for buff in current_buffs:
-            buff.sub_all(attribute, skill)
-    elif isinstance(skill, Dot):
+    if isinstance(skill, Dot):
         for buff in current_buffs:
             buff.sub_dot(attribute, skill.bind_skill, False)
         for buff in snapshot_buffs:
@@ -82,6 +77,9 @@ def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute,
             buff.sub_all(attribute, skill)
         for buff in snapshot_buffs:
             buff.sub_pet(attribute, skill)
+    else:
+        for buff in current_buffs:
+            buff.sub_all(attribute, skill)
     for buff in target_buffs:
         buff.sub_all(attribute, skill)
 
@@ -110,18 +108,17 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
 
     for skill, status in record.items():
         (skill_id, skill_level), dot_skill_tuple = skill
-        skill: Skill = school.skills[skill_id]
+        if dot_skill_tuple:
+            skill, skill.skill_level = school.dots[skill_id], skill_level
+            dot_skill_id, dot_skill_level, dot_skill_stack = dot_skill_tuple
+            dot_skill, dot_skill.skill_level = school.skills[dot_skill_id], dot_skill_level
+            skill.bind_skill, skill.skill_stack = dot_skill, dot_skill_stack
+            skill_name = skill.skill_name
+        else:
+            skill, skill.skill_level,  = school.skills[skill_id], skill_level
+            skill_name = skill.skill_name
         if not skill.activate:
             continue
-        skill.skill_level = skill_level
-        skill_name = skill.skill_name
-        if dot_skill_tuple:
-            dot_skill_id, dot_skill_level, dot_skill_stack = dot_skill_tuple
-            skill.skill_stack = dot_skill_stack
-            dot_skill = school.skills[dot_skill_id]
-            dot_skill.skill_level = dot_skill_level
-            skill.bind_skill = dot_skill
-
         skill_detail = details[skill.display_name] = {}
         if not (skill_summary := summary.get(skill_name)):
             skill_summary = summary[skill_name] = Detail()

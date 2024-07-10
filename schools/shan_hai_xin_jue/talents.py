@@ -4,7 +4,7 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe
-from base.skill import Skill
+from base.skill import Skill, Dot
 from base.talent import Talent
 from schools.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 
@@ -86,26 +86,26 @@ class 朱厌(Gain):
 
 
 class 射日(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         射日加成.talent_activate = True
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         射日加成.talent_activate = False
 
 
 class 白泽(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         白泽加成.talent_activate_1 = True
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         白泽加成.talent_activate_1 = False
 
 
 class 偕行(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         白泽加成.talent_activate_2 = True
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         白泽加成.talent_activate_2 = False
 
 

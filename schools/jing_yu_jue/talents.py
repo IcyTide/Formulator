@@ -28,16 +28,16 @@ class 妙手连环(Gain):
             skill.physical_shield_gain_extra += 512
 
 
-class 逐一击破(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id, skill in skills.items():
-            if skill.event_mask_2 & 65536:
-                skills[skill_id].damage_addition += 103 + 103
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id, skill in skills.items():
-            if skill.event_mask_2 & 65536:
-                skills[skill_id].damage_addition -= 103 + 103
+# class 逐一击破(Gain):
+#     def add_skills(self, skills: Dict[int, Skill]):
+#         for skill_id, skill in skills.items():
+#             if skill.event_mask_2 & 65536:
+#                 skills[skill_id].damage_addition += 103 + 103
+#
+#     def sub_skills(self, skills: Dict[int, Skill]):
+#         for skill_id, skill in skills.items():
+#             if skill.event_mask_2 & 65536:
+#                 skills[skill_id].damage_addition -= 103 + 103
 
 
 TALENT_GAINS: Dict[int, Talent] = {
@@ -47,7 +47,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     21724: Talent("掠影穹苍"),
     37324: Talent("蹑景追风"),
     6451: Talent("聚精凝神"),
-    14851: Talent("逐一击破", [逐一击破()]),
+    14851: Talent("逐一击破"),
     28903: Talent("穿林打叶", [穿林打叶()]),
     6461: Talent("秋风散影"),
     37325: Talent("牢甲利兵"),

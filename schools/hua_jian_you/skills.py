@@ -1,6 +1,6 @@
 from typing import Dict
 
-from assets.setter import set_skill
+from assets.setter import set_skill, set_dot
 from base.skill import Skill, Dot
 from general.skills import GENERAL_SKILLS
 
@@ -68,12 +68,6 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},
         **{skill_id: dict(bind_dot=24158) for skill_id in (32481, 32409)},
     },
-    Dot: {
-        711: dict(tick_extra=1),
-        714: dict(tick_extra=1),
-        666: dict(tick_extra=1),
-        24158: {}
-    },
     快雪时晴: {33222: {}},
     吞噬: {
         6129: dict(consume_dot=711, bind_buff_levels={5: 2, 6: 1}),
@@ -84,6 +78,14 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     折花吞噬: {601: {}},
     清流判定: {18722: {}}
 }
+SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
+    Dot: {
+        711: dict(tick_extra=1),
+        714: dict(tick_extra=1),
+        666: dict(tick_extra=1),
+        24158: {}
+    }
+}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
@@ -92,3 +94,11 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+DOTS = {}
+for dot_class, dots in SCHOOL_DOTS.items():
+    for dot_id, attrs in dots.items():
+        dot = dot_class(dot_id)
+        for attr, value in attrs.items():
+            setattr(dot, attr, value)
+        set_dot(dot)
+        DOTS[dot_id] = dot

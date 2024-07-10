@@ -4,7 +4,7 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
-from base.skill import Skill
+from base.skill import Skill, Dot
 from base.talent import Talent
 from schools.wu_fang.skills import 鬼门加成
 
@@ -19,19 +19,11 @@ class 鸩羽(Gain):
             skill.magical_critical_strike_rate_extra -= 1000
 
 
-class 疾根(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[20052].tick_extra += 1
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[20052].tick_extra -= 1
-
-
 class 鬼门(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         鬼门加成.talent_activate = True
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         鬼门加成.talent_activate = False
 
 
@@ -51,7 +43,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     28410: Talent("坚阴"),
     28413: Talent("相使"),
     28419: Talent("凄骨"),
-    28432: Talent("疾根", [ExtraTickRecipe(1, 20052, 0)]),
+    28432: Talent("疾根", [ExtraTickRecipe(1, 20052)]),
     28433: Talent("紫伏"),
     28431: Talent("避奚"),
     30734: Talent("折枝拂露"),

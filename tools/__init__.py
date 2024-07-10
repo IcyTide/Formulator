@@ -171,11 +171,13 @@ def prepare_data():
 
     for school in SUPPORT_SCHOOLS.values():
         for skill_id, skill in school.skills.items():
-            if isinstance(skill, Dot) and skill_id not in dots:
-                dots.append(skill_id)
-            elif skill_id not in skills:
-                skills.append(skill_id)
-
+            if skill_id in skills:
+                continue
+            skills.append(skill_id)
+        for dot_id, dot in school.dots.items():
+            if dot_id in dots:
+                continue
+            dots.append(dot_id)
         for buff_id, buff in school.buffs.items():
             if buff_id in buffs:
                 continue

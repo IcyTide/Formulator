@@ -6,7 +6,9 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1438: {}, 5994: {}, 6385: {}, 6398: {}, 25904: {}, 6377: {}, 12356: {}, 9719: {}, 10221: {}
+        1438: {}, 5994: {}, 6385: {}, 25904: {}, 6377: {}, 9719: {}, 10221: {},
+        12356: dict(frame_shift=-2),
+        6398: dict(frame_shift=-2),
     }
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}

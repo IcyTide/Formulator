@@ -386,8 +386,8 @@ class Parser(BaseParser):
         if player_id not in self.players:
             return
 
-        react, skill_id, skill_level = int(detail[2]), int(detail[4]), int(detail[5])
-        if react or skill_id not in self.players[player_id].skills:
+        react, skill_type, skill_id, skill_level = int(detail[2]), int(detail[3]), int(detail[4]), int(detail[5])
+        if react or (skill_id not in self.players[player_id].skills and skill_id not in self.players[player_id].dots):
             return
 
         if not self.start_frame:
@@ -399,7 +399,12 @@ class Parser(BaseParser):
             self.current_targets.append(target_id)
         self.current_target = target_id
         self.current_skill = skill_id
-        skill = self.players[player_id].skills[skill_id]
+        if skill_type == 1:
+            skill = self.players[player_id].skills[skill_id]
+        elif skill_type == 2:
+            skill = self.players[player_id].dots[skill_id]
+        else:
+            return
         skill.skill_level = skill_level
         if skill.damage_call:
             actual_critical_strike, actual_damage = detail[6] == "true", parse_damage(row)
@@ -422,7 +427,10 @@ class Parser(BaseParser):
 
     @property
     def status(self):
-        skill = self.current_school.skills[self.current_skill]
+        if self.current_skill in self.current_school.skills:
+            skill = self.current_school.skills[self.current_skill]
+        else:
+            skill = self.current_school.dots[self.current_skill]
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
             buff = self.current_school.buffs[buff_id]
@@ -456,7 +464,7 @@ class Parser(BaseParser):
 
         for player_id, school in self.players.items():
             for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].add(school.attribute(), school.skills, school.buffs)
+                school.talent_gains[talent_id].add(school.attribute(), school.skills, school.dots, school.buffs)
             school.prepare(self, player_id)
 
         for row in rows:
@@ -481,7 +489,7 @@ class Parser(BaseParser):
 
         for player_id, school in self.players.items():
             for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].sub(school.attribute(), school.skills, school.buffs)
+                school.talent_gains[talent_id].sub(school.attribute(), school.skills, school.dots, school.buffs)
 
         for player_id in self.records:
             player_record = defaultdict(lambda: defaultdict(list))

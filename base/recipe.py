@@ -1,6 +1,8 @@
+from typing import Dict
+
 from base.attribute import Attribute
 from base.gain import Gain
-from base.skill import Skill
+from base.skill import Skill, Dot
 
 
 class PrepareFrameRecipe(Gain):
@@ -98,8 +100,8 @@ class PveAdditionRecipe(Gain):
 
 
 class ExtraTickRecipe(Gain):
-    def add_skill(self, skill: Skill):
-        skill.tick_extra += self.value
+    def add_dots(self, dots: Dict[int, Dot]):
+        dots[self.skill_id].tick_extra += self.value
 
-    def sub_skill(self, skill: Skill):
-        skill.tick_extra -= self.value
+    def sub_dots(self, dots: Dict[int, Dot]):
+        dots[self.skill_id].tick_extra -= self.value

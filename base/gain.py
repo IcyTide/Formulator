@@ -2,7 +2,7 @@ from typing import Dict, Union
 
 from base.attribute import Attribute
 from base.buff import Buff
-from base.skill import Skill
+from base.skill import Skill, Dot
 
 
 class Gain:
@@ -56,9 +56,13 @@ class Gain:
     def add_buffs(self, buffs: Dict[int, Buff]):
         pass
 
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def add_dots(self, dots: Dict[int, Dot]):
+        pass
+
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         self.add_buffs(buffs)
         return_tag = self.add_skills(skills)
+        self.add_dots(dots)
         self.add_attribute(attribute)
         return return_tag
 
@@ -82,7 +86,11 @@ class Gain:
     def sub_buffs(self, buffs: Dict[int, Buff]):
         pass
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], buffs: Dict[int, Buff]):
+    def sub_dots(self, dots: Dict[int, Dot]):
+        pass
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         self.sub_buffs(buffs)
         self.sub_skills(skills)
+        self.sub_dots(dots)
         self.sub_attribute(attribute)

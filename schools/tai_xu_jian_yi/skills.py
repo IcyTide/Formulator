@@ -1,6 +1,6 @@
 from typing import Dict
 
-from assets.setter import set_skill
+from assets.setter import set_skill, set_dot
 from base.skill import Skill, Dot
 from general.skills import GENERAL_SKILLS
 
@@ -15,7 +15,9 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         600: dict(bind_dot=748),
         37453: dict(bind_dot=889),
         30944: dict(bind_dot=23170)
-    },
+    }
+}
+SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {
         748: {}, 889: {}, 23170: {}
     }
@@ -28,3 +30,11 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+DOTS = {}
+for dot_class, dots in SCHOOL_DOTS.items():
+    for dot_id, attrs in dots.items():
+        dot = dot_class(dot_id)
+        for attr, value in attrs.items():
+            setattr(dot, attr, value)
+        set_dot(dot)
+        DOTS[dot_id] = dot
