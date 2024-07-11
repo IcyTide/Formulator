@@ -4,7 +4,8 @@ from typing import Tuple, List, Dict, Type, Union, Callable
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill, Dot
+from base.skill import Skill
+from base.dot import Dot
 from base.talent import Talent
 from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
 from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue

@@ -2,7 +2,8 @@ from assets.buffs import BUFFS
 from assets.dots import DOTS
 from assets.skills import SKILLS
 from base.buff import Buff
-from base.skill import Skill, Dot
+from base.skill import Skill
+from base.dot import Dot
 
 
 def set_skill(skill: Skill):
@@ -12,8 +13,8 @@ def set_skill(skill: Skill):
 
 
 def set_dot(dot: Dot):
-    skill_id = dot.skill_id
-    for attr, value in DOTS.get(skill_id, {}).items():
+    dot_id = dot.buff_id
+    for attr, value in DOTS.get(dot_id, {}).items():
         setattr(dot, attr, value)
 
 

@@ -32,30 +32,30 @@ def parse_dot(row):
 
 def collect_result():
     result = []
-    for skill_id in tqdm(DOTS):
-        filter_skills = BUFF_TAB[BUFF_TAB.ID == skill_id]
-        filter_skill_txt = BUFF_TXT[BUFF_TXT.BuffID == skill_id]
-        for _, skill_row in filter_skills.iterrows():
-            skill_level = skill_row["Level"]
-            if filter_skill_txt.empty:
-                skill_name = ""
-            elif skill_level in filter_skill_txt.Level.tolist():
-                skill_name = filter_skill_txt[filter_skill_txt.Level == skill_level].iloc[0].Name
+    for buff_id in tqdm(DOTS):
+        filter_dots = BUFF_TAB[BUFF_TAB.ID == buff_id]
+        filter_dot_txt = BUFF_TXT[BUFF_TXT.BuffID == buff_id]
+        for _, buff_row in filter_dots.iterrows():
+            buff_level = buff_row["Level"]
+            if filter_dot_txt.empty:
+                buff_name = ""
+            elif buff_level in filter_dot_txt.Level.tolist():
+                buff_name = filter_dot_txt[filter_dot_txt.Level == buff_level].iloc[0].Name
             else:
-                skill_name = filter_skill_txt.iloc[-1].Name
-            skill_name += "(DOT)"
+                buff_name = filter_dot_txt.iloc[-1].Name
+            buff_name += "(DOT)"
 
-            result.append(dict(skill_id=skill_id, skill_name=skill_name, **parse_dot(skill_row)))
+            result.append(dict(buff_id=buff_id, buff_name=buff_name, **parse_dot(buff_row)))
 
     return pd.DataFrame(result)
 
 
 def convert_json(result):
-    exclude_columns = ["skill_id"]
+    exclude_columns = ["buff_id"]
     result_json = {}
-    for skill_id in result.skill_id.unique().tolist():
-        filter_result = result[result.skill_id == skill_id]
-        result_json[skill_id] = {}
+    for buff_id in result.buff_id.unique().tolist():
+        filter_result = result[result.buff_id == buff_id]
+        result_json[buff_id] = {}
         for column in result.columns:
             if column in exclude_columns:
                 continue
@@ -66,9 +66,9 @@ def convert_json(result):
             else:
                 filter_column = filter_result[column]
             if filter_column.nunique() == 1:
-                result_json[skill_id][column] = filter_column.tolist()[0]
+                result_json[buff_id][column] = filter_column.tolist()[0]
             else:
-                result_json[skill_id][column] = filter_column.tolist()
+                result_json[buff_id][column] = filter_column.tolist()
 
     save_code("dots", result_json)
 

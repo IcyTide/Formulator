@@ -65,5 +65,5 @@ def parse_player(lua_data):
     return parse(lua_data.strip().strip("{}"))
 
 
-def parse_damage(lua_data):
+def parse_actual_damage(lua_data):
     return sum(int(damage) for damage in DAMAGE_RESULT_PATTERN.findall(lua_data))

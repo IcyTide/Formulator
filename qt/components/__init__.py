@@ -1,4 +1,3 @@
-from PySide6.QtCore import QModelIndex
 from PySide6.QtWidgets import QAbstractItemView, QTableWidgetItem, QHeaderView, QListView
 from PySide6.QtWidgets import QComboBox, QRadioButton, QLineEdit, QSpinBox, QDoubleSpinBox, QListWidget, QTableWidget
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
@@ -56,7 +55,6 @@ class ListWithLabel(LabelWidget):
         layout = QVBoxLayout(self)
 
         self.max_select = max_select
-        QModelIndex
         self.list = QListWidget()
         self.list.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
         self.list.setResizeMode(QListView.ResizeMode.Adjust)

@@ -34,6 +34,7 @@ def detail_content(detail: Detail):
         ["命中伤害", f"{round(detail.damage)}"],
         ["会心伤害", f"{round(detail.critical_damage)}"],
         ["期望伤害", f"{round(detail.expected_damage)}"],
+        ["总计伤害", f"{round(detail.expected_damage * detail.count, 2)}"],
         ["期望会心", f"{round(detail.critical_strike * 100, 2)}%"],
         ["实际会心", f"{round(detail.actual_critical_strike * 100, 2)}%"],
         ["数量", f"{detail.count}"]

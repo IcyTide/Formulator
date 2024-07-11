@@ -1,7 +1,8 @@
 from typing import Dict
 
 from assets.setter import set_skill, set_dot
-from base.skill import Skill, Dot, NpcSkill
+from base.skill import Skill, NpcSkill
+from base.dot import Dot
 from general.skills import GENERAL_SKILLS
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {

@@ -3,7 +3,8 @@ from typing import List, Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill, Dot
+from base.skill import Skill
+from base.dot import Dot
 
 
 class Talent(Gain):

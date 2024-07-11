@@ -7,4 +7,6 @@ from schools.tian_luo_gui_dao.talents import TALENT_GAINS, TALENTS, TALENT_DECOD
 
 
 def prepare(self, player_id):
-    pass
+    if 14857 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][(13165, 1)] = 1
+        self.buff_stacks[player_id][(27405, 1)] = 1

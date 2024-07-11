@@ -6,7 +6,6 @@ import lupa.lua54 as lupa
 import pandas as pd
 
 from base.buff import CustomBuff
-from base.skill import Dot
 from general.gains import GENERAL_GAINS
 from schools import SUPPORT_SCHOOLS
 

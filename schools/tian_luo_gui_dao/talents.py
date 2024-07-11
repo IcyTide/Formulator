@@ -20,14 +20,17 @@ TALENT_GAINS: Dict[int, Talent] = {
     6495: Talent("弩击急骤"),
     30921: Talent("擘两分星"),
     6441: Talent("流星赶月", [PhysicalCriticalRecipe((1000, 100), 3093, 3093)]),
+    37326: Talent("确固不拔"),
     6451: Talent("聚精凝神"),
     18249: Talent("化血迷心"),
     33134: Talent("杀机断魂", [杀机断魂()]),
+    14857: Talent("雷甲三铉"),
     6461: Talent("秋风散影"),
     34679: Talent("雀引彀中"),
     37327: Talent("云合影从"),
     14856: Talent("曙色催寒"),
-    32742: Talent("诡鉴冥微")
+    32742: Talent("诡鉴冥微"),
+    18675: Talent("千秋万劫")
 }
 
 TALENTS = [
@@ -35,14 +38,14 @@ TALENTS = [
     [6493],
     [6495],
     [30921],
-    [6441],
+    [6441, 37326],
     [6451],
     [18249],
-    [33134],
+    [33134, 14857],
     [6461],
     [34679, 37327],
     [14856],
-    [32742]
+    [32742, 18675]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

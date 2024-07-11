@@ -14,13 +14,26 @@ class BaseBuff:
     PET_SNAPSHOT_ATTRS = [
         "attack_power", "critical_power", "overcome", "surplus", "strain", "damage_addition", "pve_addition"
     ]
-
+    buff_id: int = 0
     buff_level: int = 0
-    buff_stack: int = 1
+    _buff_stack: int = 1
+    stackable: bool = True
     _buff_name: List[str] = None
 
     _max_stack: List[int] = None
     interval: int = 0
+
+    @property
+    def display_name(self):
+        return f"{self.buff_name}#{self.buff_id}-{self.buff_level}-{self.buff_stack}"
+
+    @property
+    def buff_stack(self):
+        return self._buff_stack if self.stackable else 1
+
+    @buff_stack.setter
+    def buff_stack(self, buff_stack):
+        self._buff_stack = buff_stack
 
     @property
     def buff_name(self):
@@ -91,10 +104,6 @@ class Buff(BaseBuff):
         if not self.end_effects:
             self.end_effects = []
 
-    @property
-    def display_name(self):
-        return f"{self.buff_name}#{self.buff_id}-{self.buff_level}-{self.buff_stack}"
-
     def attribute_value(self, values):
         if isinstance(values, list):
             return values[self.buff_level - 1] * self.buff_stack
@@ -135,9 +144,12 @@ class Buff(BaseBuff):
                 continue
             setattr(attribute, attr, getattr(attribute, attr) + value)
             return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
         for values in self.gains:
-            if self.gain_value(values).add(*gain_tuple):
+            value = self.gain_value(values)
+            if not value:
+                continue
+            if value.add(*gain_tuple):
                 return_tag = True
 
         return return_tag
@@ -155,7 +167,7 @@ class Buff(BaseBuff):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
         if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
             for values in self.gains:
                 if self.gain_value(values).add(*gain_tuple):
                     return_tag = True
@@ -171,7 +183,7 @@ class Buff(BaseBuff):
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
         for values in self.gains:
             if self.gain_value(values).add(*gain_tuple):
                 return_tag = True
@@ -184,7 +196,7 @@ class Buff(BaseBuff):
             if not value:
                 continue
             setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
         for values in self.gains:
             self.gain_value(values).sub(*gain_tuple)
 
@@ -198,7 +210,7 @@ class Buff(BaseBuff):
             if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
         if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
             for values in self.gains:
                 self.gain_value(values).sub(*gain_tuple)
 
@@ -209,7 +221,7 @@ class Buff(BaseBuff):
                 continue
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {skill.skill_id: skill}, {self.buff_id: self})
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
         for values in self.gains:
             self.gain_value(values).sub(*gain_tuple)
 

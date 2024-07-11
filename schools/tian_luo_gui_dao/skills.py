@@ -1,7 +1,8 @@
 from typing import Dict
 
 from assets.setter import set_skill, set_dot
-from base.skill import Skill, Dot
+from base.skill import Skill
+from base.dot import Dot
 from general.skills import GENERAL_SKILLS
 
 
@@ -36,8 +37,8 @@ class 杀机断魂暗藏杀机(杀机断魂移除):
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         3121: dict(damage_addition=205),
-        3105: {}, 3223: {}, 3228: {}, 3313: {}, 3393: {}, 3480: {}, 25774: {}, 30727: {}, 30894: {}, 32885: {},
-        36502: {}, 3401: {}, 3404: {}, 3819: {}, 3824: {}, 37384: {},
+        32885: {}, 3105: {}, 18776: {}, 3223: {}, 3228: {}, 3313: {}, 3393: {}, 3480: {}, 25774: {}, 30727: {},
+        30894: {}, 36502: {}, 3401: {}, 3404: {}, 3819: {}, 3824: {}, 37384: {}, 18677: {}, 28441: {},
         21266: dict(bind_dot=14611)
     },
     杀机断魂移除: {33145: {}},

@@ -4503,6 +4503,19 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "暗藏杀机C"
     },
+    28228: {
+        "attributes": {},
+        "max_stack": 3,
+        "buff_name": "确固不拔"
+    },
+    13165: {
+        "attributes": {},
+        "max_stack": 1
+    },
+    27405: {
+        "attributes": {},
+        "max_stack": 1
+    },
     23081: {
         "attributes": {
             "all_damage_addition": 205
@@ -4599,13 +4612,6 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "亢龙·镇慑"
     },
-    6398: {
-        "attributes": {
-            "physical_attack_power_gain": 204
-        },
-        "max_stack": 1,
-        "buff_name": "亢龙·霆击"
-    },
     25904: {
         "attributes": {
             "all_damage_addition": [
@@ -4645,18 +4651,6 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "无疆"
     },
-    12356: {
-        "attributes": {
-            "all_damage_addition": [
-                51,
-                102,
-                205,
-                154
-            ]
-        },
-        "max_stack": 1,
-        "buff_name": "盈久"
-    },
     9719: {
         "attributes": {
             "physical_critical_power_rate": 123
@@ -4670,6 +4664,25 @@ BUFFS = {
         },
         "max_stack": 10,
         "buff_name": "青龙"
+    },
+    12356: {
+        "attributes": {
+            "all_damage_addition": [
+                51,
+                102,
+                205,
+                154
+            ]
+        },
+        "max_stack": 1,
+        "buff_name": "盈久"
+    },
+    6398: {
+        "attributes": {
+            "physical_attack_power_gain": 204
+        },
+        "max_stack": 1,
+        "buff_name": "亢龙·霆击"
     },
     8244: {
         "attributes": {

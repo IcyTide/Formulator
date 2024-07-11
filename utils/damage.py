@@ -36,12 +36,12 @@ def surplus_result(surplus_cof, surplus):
 @cache
 def init_result(
         damage_base, damage_rand, damage_gain, attack_power_cof, attack_power,
-        weapon_damage_cof, weapon_damage, surplus_cof, surplus, global_damage_factor, skill_stack=1
+        weapon_damage_cof, weapon_damage, surplus_cof, surplus, global_damage_factor, dot_stack=1
 ):
-    damage = int(base_result(damage_base, damage_rand, damage_gain)) * global_damage_factor * skill_stack
-    damage += int(attack_power_result(attack_power_cof, attack_power)) * global_damage_factor * skill_stack
-    damage += int(weapon_damage_result(weapon_damage_cof, weapon_damage)) * global_damage_factor
-    damage += int(surplus_result(surplus_cof, surplus)) * global_damage_factor
+    damage = int(base_result(damage_base, damage_rand, damage_gain) * global_damage_factor) * dot_stack
+    damage += int(attack_power_result(attack_power_cof, attack_power) * global_damage_factor) * dot_stack
+    damage += int(weapon_damage_result(weapon_damage_cof, weapon_damage) * global_damage_factor)
+    damage += int(surplus_result(surplus_cof, surplus) * global_damage_factor)
     return int(damage)
 
 

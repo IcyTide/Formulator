@@ -4,7 +4,8 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
-from base.skill import Skill, Dot
+from base.skill import Skill
+from base.dot import Dot
 from base.talent import Talent
 from schools.wu_fang.skills import 鬼门加成
 

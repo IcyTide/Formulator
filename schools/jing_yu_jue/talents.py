@@ -1,30 +1,29 @@
 from typing import Dict
 
+from base.dot import Dot
 from base.gain import Gain
-from base.recipe import PhysicalCriticalRecipe
+from base.recipe import PhysicalCriticalRecipe, ChannelIntervalRecipe
 from base.skill import Skill
 from base.talent import Talent
 
 
 class 穿林打叶(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[2237].interval_extra -= 16
-        skills[2237].channel_interval_extra *= 1.5
-        skills[2237].tick_extra = 5
+    def add_dots(self, dots: Dict[int, Dot]):
+        dots[2237].interval_extra -= 16
+        dots[2237].tick_extra = 5
 
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2237].interval_extra += 16
-        skills[2237].channel_interval_extra /= 1.5
-        skills[2237].tick_extra = 1
+    def sub_dots(self, dots: Dict[int, Dot]):
+        dots[2237].interval_extra += 16
+        dots[2237].tick_extra = 1
 
 
 class 妙手连环(Gain):
     def add_skill(self, skill: Skill):
-        if skill.skill_id in (3096, 18801):
+        if skill.skill_id != 3096 and skill.skill_id != 18801:
             skill.physical_shield_gain_extra -= 512
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id in (3096, 18801):
+        if skill.skill_id != 3096 and skill.skill_id != 18801:
             skill.physical_shield_gain_extra += 512
 
 
@@ -48,7 +47,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     37324: Talent("蹑景追风"),
     6451: Talent("聚精凝神"),
     14851: Talent("逐一击破"),
-    28903: Talent("穿林打叶", [穿林打叶()]),
+    28903: Talent("穿林打叶", [穿林打叶(), ChannelIntervalRecipe(1.5, 3098, 3098)]),
     6461: Talent("秋风散影"),
     37325: Talent("牢甲利兵"),
     14850: Talent("妙手连环", [妙手连环(skill_id=3096, skill_recipe=3096)]),
