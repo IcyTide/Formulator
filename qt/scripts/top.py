@@ -4,8 +4,6 @@ import json
 from PySide6.QtWidgets import QFileDialog, QWidget
 
 from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
-from general.consumables import FOODS, POTIONS, WEAPON_ENCHANTS, SNACKS, WINES, SPREADS, ZONGZI, CANDY
-from general.gains.formation import FORMATION_GAINS
 from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
 from qt.components.consumables import ConsumablesWidget
@@ -23,7 +21,7 @@ from utils.parser import Parser
 def top_script(
         top_widget: TopWidget, config_widget: ConfigWidget, bottom_widget: QWidget,
         dashboard_widget: DashboardWidget, talents_widget: TalentsWidget, recipes_widget: RecipesWidget,
-        equipments_widget: EquipmentsWidget, consumables_widget: ConsumablesWidget, bonus_widget: BonusesWidget
+        equipments_widget: EquipmentsWidget
 ):
     parser = Parser()
 
@@ -128,7 +126,9 @@ def top_script(
                 if detail['school'] not in ("精简", "通用", school.school):
                     continue
                 choices.append(name)
-            equipment_widget.equipment.set_items(choices, keep_index=True)
+            equipment_widget.equipment.set_items(choices)
+            if equipment_widget.enchant:
+                equipment_widget.enchant.combo_box.setCurrentIndex(0)
             if equipment_widget.stones_json:
                 if not (current_index := equipment_widget.stone_level.combo_box.currentIndex()):
                     current_index = MAX_STONE_LEVEL
@@ -141,20 +141,6 @@ def top_script(
                     if enchant in equipment_widget.enchant.items:
                         equipment_widget.enchant.combo_box.setCurrentText(enchant)
 
-        """ Update consumable options """
-        consumables_widget.major_food.set_items([""] + FOODS[school.major], keep_index=True)
-        consumables_widget.minor_food.set_items([""] + FOODS[school.kind] + FOODS[""], keep_index=True)
-        consumables_widget.major_potion.set_items([""] + POTIONS[school.major], keep_index=True)
-        consumables_widget.minor_potion.set_items([""] + POTIONS[school.kind] + POTIONS[""], keep_index=True)
-        consumables_widget.weapon_enchant.set_items([""] + WEAPON_ENCHANTS[school.kind], keep_index=True)
-        consumables_widget.home_snack.set_items([""] + SNACKS[school.kind] + SNACKS[""], keep_index=True)
-        consumables_widget.home_wine.set_items([""] + WINES[school.major] + WINES[""], keep_index=True)
-        consumables_widget.spread.set_items([""] + SPREADS[school.major] + SPREADS[school.kind], keep_index=True)
-        # consumables_widget.zongzi.set_items([""] + ZONGZI[school.kind] + ZONGZI[""], keep_index=True)
-        # consumables_widget.candy.set_items([""] + CANDY[school.kind], keep_index=True)
-
-        """ Update bonus options """
-        bonus_widget.formation.formation.set_items([""] + list(FORMATION_GAINS), keep_index=True)
         config_widget.show()
         bottom_widget.show()
 

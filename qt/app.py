@@ -67,7 +67,7 @@ class MainWindow(QMainWindow):
         parser = top_script(
             self.top_widget, self.config_widget, self.bottom_widget,
             self.dashboard_widget, self.talents_widget, self.recipes_widget,
-            self.equipments_widget, self.consumable_widget, self.bonus_widget
+            self.equipments_widget
         )
         config_script(
             parser, self.config_widget,

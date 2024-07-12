@@ -17,7 +17,7 @@ SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOL
 EQUIP_ATTR_MAP = {
     "Overcome": "破防",
     "Critical": "会心",
-    "CriticalSkill": "会效",
+    "CriticalDamage": "会效",
     "Haste": "加速",
     "Surplus": "破招",
     "Strain": "无双"
@@ -91,6 +91,12 @@ enchant_params = {
 }
 
 
+def filter_equips(result):
+    result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
+    result = {k: v for k, v in result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS}
+    return result
+
+
 def get_equips_list(position):
     position_id = POSITION_MAP[position]
     url = f"https://node.jx3box.com/equip/{SUFFIX_MAP[position_id]}"
@@ -105,8 +111,7 @@ def get_equips_list(position):
         equips.extend(res['list'])
 
     result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips)}
-    result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
-    result = {k: v for k, v in result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS}
+    result = filter_equips(result)
     return result
 
 
@@ -128,26 +133,9 @@ def get_weapon_equips():
             secondary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
         else:
             primary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
-    primary_weapon_result = {
-        k: v for k, v in primary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
-    }
-    primary_weapon_result = {
-        k: v for k, v in primary_weapon_result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS
-    }
-    secondary_weapon_result = {
-        k: v for k, v in secondary_weapon_result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8
-    }
-    secondary_weapon_result = {
-        k: v for k, v in secondary_weapon_result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS
-    }
-    json.dump(
-        primary_weapon_result, open(os.path.join(EQUIPMENTS_DIR, "primary_weapon"), "w", encoding="utf-8"),
-        ensure_ascii=False
-    )
-    json.dump(
-        secondary_weapon_result, open(os.path.join(EQUIPMENTS_DIR, "secondary_weapon"), "w", encoding="utf-8"),
-        ensure_ascii=False
-    )
+    primary_weapon_result = filter_equips(primary_weapon_result)
+    secondary_weapon_result = filter_equips(secondary_weapon_result)
+    return primary_weapon_result, secondary_weapon_result
 
 
 def get_equip_name(row):
@@ -251,12 +239,7 @@ def get_weapon_enchants():
                 e['Attribute1ID'] in ATTR_TYPE_MAP]
 
     weapon_enchants = {get_enchant_name(row): get_enchant_detail(row) for row in enchants}
-    json.dump(
-        weapon_enchants, open(os.path.join(ENCHANTS_DIR, "primary_weapon"), "w", encoding="utf-8")
-    )
-    json.dump(
-        weapon_enchants, open(os.path.join(ENCHANTS_DIR, "secondary_weapon"), "w", encoding="utf-8")
-    )
+    return weapon_enchants, weapon_enchants
 
 
 def get_enchant_name(row):
@@ -333,6 +316,16 @@ def get_stone_detail(row):
         "level": row['stone_level'],
         "attr": attrs
     }
+
+
+def generate():
+    equipments = {}
+    enchants = {}
+    for pos in tqdm(POSITION_MAP):
+        equipments[pos] = get_equips_list(pos)
+        enchants[pos] = get_enchants_list(pos)
+    equipments["primary_weapon"], equipments["secondary_weapon"] = get_weapon_equips()
+    enchants["primary_weapon"], enchants["secondary_weapon"] = get_weapon_enchants()
 
 
 if __name__ == '__main__':

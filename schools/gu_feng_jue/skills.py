@@ -25,7 +25,7 @@ SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
 
 
 class 留客雨秘章(Skill):
-    damage_addition = 256
+    damage_addition_extra = 256
 
     def record(self, actual_critical_strike, actual_damage, parser):
         if 70583 in parser.current_dot_ticks:

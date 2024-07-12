@@ -30,6 +30,7 @@ def collect_result():
             else:
                 result['buff_name'] = filter_buff_txt.iloc[-1].Name
             result["max_stack"] = max_stack
+            result["buff_level"] = buff_level
             parse_buff(buff_row, result)
             results.append(result)
 
@@ -37,11 +38,11 @@ def collect_result():
 
 
 def convert_json(result):
-    exclude_columns = ["buff_id"]
+    exclude_columns = ["buff_id", "buff_level"]
     result_json = {}
     for buff_id in result.buff_id.unique().tolist():
         filter_result = result[result.buff_id == buff_id]
-        result_json[buff_id] = {"attributes": {}}
+        result_json[buff_id] = dict(attributes={}, max_level=filter_result.buff_level.max())
         for column in result.columns:
             if column in exclude_columns:
                 continue

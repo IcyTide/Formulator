@@ -3,6 +3,7 @@ from typing import Dict
 from base.buff import Buff
 from base.gain import Gain
 from base.skill import Skill
+from general.buffs.consumable import GAINS as CONSUMABLE_GAINS
 from general.buffs.formation import BUFFS as FORMATION_BUFFS
 from general.buffs.formation import GAINS as FORMATION_GAINS
 from general.buffs.team import BUFFS as TEAM_BUFFS
@@ -33,6 +34,7 @@ class RealBonusGain(Gain):
 
 
 GENERAL_GAINS: Dict[int, Buff] = {
+    **CONSUMABLE_GAINS,
     **FORMATION_GAINS,
     **TEAM_GAINS
 }

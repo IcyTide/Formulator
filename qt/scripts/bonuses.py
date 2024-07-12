@@ -8,8 +8,13 @@ from utils.parser import Parser
 
 
 class Bonuses(dict):
+    activate: bool = True
+
     @property
     def gains(self):
+        if not self.activate:
+            return []
+
         gains = list(self.values())
         if "秋肃" in self and "戒火" in self:
             gains.remove(self["戒火"])
@@ -19,6 +24,14 @@ class Bonuses(dict):
 
 def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
     bonuses = Bonuses()
+
+    def activate_gain():
+        widget = bonuses_widget.activation
+        if widget.radio_button.isChecked():
+            bonuses.activate = True
+        else:
+            bonuses.activate = False
+    bonuses_widget.activation.radio_button.clicked.connect(activate_gain)
 
     def real_bonus_gain():
         widget = bonuses_widget.real_formulation

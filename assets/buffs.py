@@ -30,6 +30,7 @@ BUFFS = {
                 1218
             ]
         },
+        "max_level": 12,
         "max_stack": 1
     },
     15455: {
@@ -39,6 +40,7 @@ BUFFS = {
                 51
             ]
         },
+        "max_level": 2,
         "max_stack": 1
     },
     4761: {
@@ -683,6 +685,7 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 69,
         "max_stack": 10,
         "buff_name": [
             "水·鋭刃",
@@ -2049,6 +2052,7 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 127,
         "max_stack": 1,
         "buff_name": [
             "风·鋭刃",
@@ -2184,6 +2188,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 21
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "天鼓雷音五阵"
     },
@@ -2192,6 +2197,7 @@ BUFFS = {
             "physical_critical_strike_rate": 10000,
             "magical_critical_strike_rate": 10000
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": [
             "卫公折冲六阵",
@@ -2202,6 +2208,7 @@ BUFFS = {
         "attributes": {
             "strength_gain": 10
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "卫公折冲四阵"
     },
@@ -2209,6 +2216,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "卫公折冲五阵"
     },
@@ -2216,6 +2224,7 @@ BUFFS = {
         "attributes": {
             "magical_damage_addition": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "七绝逍遥四阵"
     },
@@ -2223,6 +2232,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_strike_rate": 100
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "九宫八卦五阵"
     },
@@ -2230,6 +2240,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九宫八卦六阵"
     },
@@ -2237,6 +2248,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 100
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "北斗七星五阵"
     },
@@ -2244,6 +2256,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "北斗七星六阵"
     },
@@ -2251,6 +2264,7 @@ BUFFS = {
         "attributes": {
             "magical_overcome_gain": 307
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九音惊弦四阵"
     },
@@ -2258,6 +2272,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九音惊弦五阵"
     },
@@ -2265,6 +2280,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_strike_rate": 2000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九音惊弦六阵"
     },
@@ -2272,6 +2288,7 @@ BUFFS = {
         "attributes": {
             "weapon_damage_base": 1571
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "鸣速"
     },
@@ -2279,6 +2296,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "获气"
     },
@@ -2286,6 +2304,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万蛊噬心四阵"
     },
@@ -2293,6 +2312,7 @@ BUFFS = {
         "attributes": {
             "magical_overcome_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万蛊噬心五阵"
     },
@@ -2300,6 +2320,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_strike_rate": 2000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "蚀心"
     },
@@ -2307,6 +2328,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 500
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "追命"
     },
@@ -2314,6 +2336,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "肃杀"
     },
@@ -2322,6 +2345,7 @@ BUFFS = {
             "physical_critical_strike_rate": 500,
             "magical_critical_strike_rate": 500
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "千机百变"
     },
@@ -2329,6 +2353,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_power_rate": 200
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "炎威"
     },
@@ -2336,6 +2361,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_strike_rate": 1000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "破魔"
     },
@@ -2343,6 +2369,7 @@ BUFFS = {
         "attributes": {
             "physical_overcome_gain": 306
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "降龙"
     },
@@ -2350,6 +2377,7 @@ BUFFS = {
         "attributes": {
             "physical_overcome_base": 770
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "伏虎"
     },
@@ -2357,6 +2385,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "风和"
     },
@@ -2364,6 +2393,7 @@ BUFFS = {
         "attributes": {
             "physical_overcome_gain": 153
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "锋绝"
     },
@@ -2371,6 +2401,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 20
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "锋凌"
     },
@@ -2378,6 +2409,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "横绝"
     },
@@ -2385,6 +2417,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_power_rate": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万籁金弦阵"
     },
@@ -2392,6 +2425,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_strike_rate": 500
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万籁金弦阵"
     },
@@ -2399,6 +2433,7 @@ BUFFS = {
         "attributes": {
             "magical_overcome_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万籁金弦阵"
     },
@@ -2407,6 +2442,7 @@ BUFFS = {
             "physical_critical_strike_rate": 500,
             "magical_critical_strike_rate": 500
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "霜岚洗锋阵"
     },
@@ -2414,6 +2450,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 2000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "霜岚洗锋阵"
     },
@@ -2421,6 +2458,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 72
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "墟海引归阵"
     },
@@ -2428,6 +2466,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "墟海引归阵"
     },
@@ -2435,6 +2474,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 100
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "龙皇雪风四阵"
     },
@@ -2442,6 +2482,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "龙皇雪风五阵"
     },
@@ -2449,6 +2490,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 1000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "龙皇雪风六阵"
     },
@@ -2467,6 +2509,7 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 10,
         "max_stack": 1,
         "buff_name": "九星游年阵"
     },
@@ -2474,6 +2517,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九星游年阵"
     },
@@ -2481,6 +2525,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 100
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "横云破锋阵"
     },
@@ -2489,6 +2534,7 @@ BUFFS = {
             "magical_critical_power_rate": 150,
             "physical_critical_power_rate": 150
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "苍梧引灵阵五重"
     },
@@ -2699,6 +2745,7 @@ BUFFS = {
                 1024
             ]
         },
+        "max_level": 100,
         "max_stack": 1,
         "buff_name": "伤害提高"
     },
@@ -2807,6 +2854,7 @@ BUFFS = {
                 1024
             ]
         },
+        "max_level": 100,
         "max_stack": 1,
         "buff_name": "无双提高"
     },
@@ -2915,6 +2963,7 @@ BUFFS = {
                 10000
             ]
         },
+        "max_level": 100,
         "max_stack": 1,
         "buff_name": "外功会心率提高"
     },
@@ -3023,6 +3072,7 @@ BUFFS = {
                 1000
             ]
         },
+        "max_level": 100,
         "max_stack": 1,
         "buff_name": "外功会心效果提高"
     },
@@ -3233,6 +3283,7 @@ BUFFS = {
                 1024
             ]
         },
+        "max_level": 100,
         "max_stack": 1,
         "buff_name": "受到的伤害提高"
     },
@@ -3240,6 +3291,7 @@ BUFFS = {
         "attributes": {
             "surplus_base": 54
         },
+        "max_level": 1,
         "max_stack": 150,
         "buff_name": "左旋右转"
     },
@@ -3247,6 +3299,7 @@ BUFFS = {
         "attributes": {
             "strain_base": 500
         },
+        "max_level": 1,
         "max_stack": 48,
         "buff_name": "号令三军"
     },
@@ -3277,6 +3330,7 @@ BUFFS = {
                 717
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "激雷"
     },
@@ -3284,6 +3338,7 @@ BUFFS = {
         "attributes": {
             "strain_base": 500
         },
+        "max_level": 1,
         "max_stack": 36,
         "buff_name": "弘法"
     },
@@ -3292,6 +3347,7 @@ BUFFS = {
             "magical_critical_power_rate": 51,
             "physical_critical_power_rate": 51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "皎素"
     },
@@ -3299,6 +3355,7 @@ BUFFS = {
         "attributes": {
             "weapon_damage_gain": 1536
         },
+        "max_level": 13,
         "max_stack": 1,
         "buff_name": "百锻"
     },
@@ -3307,6 +3364,7 @@ BUFFS = {
             "magical_damage_addition": 154,
             "physical_damage_addition": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "仙王蛊鼎"
     },
@@ -3314,6 +3372,7 @@ BUFFS = {
         "attributes": {
             "strain_base": 500
         },
+        "max_level": 1,
         "max_stack": 24,
         "buff_name": "朝圣"
     },
@@ -3322,6 +3381,7 @@ BUFFS = {
             "magical_overcome_base": 60,
             "physical_overcome_base": 60
         },
+        "max_level": 1,
         "max_stack": 125,
         "buff_name": "振奋"
     },
@@ -3330,6 +3390,7 @@ BUFFS = {
             "magical_overcome_gain": 204,
             "physical_overcome_gain": 204
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "寒啸千军"
     },
@@ -3337,6 +3398,7 @@ BUFFS = {
         "attributes": {
             "strain_base": 50
         },
+        "max_level": 1,
         "max_stack": 200,
         "buff_name": "庄周梦"
     },
@@ -3345,6 +3407,7 @@ BUFFS = {
             "magical_attack_power_gain": 307,
             "physical_attack_power_gain": 307
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "疏狂"
     },
@@ -3355,6 +3418,7 @@ BUFFS = {
             "spunk_gain": 10,
             "agility_gain": 10
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "配伍"
     },
@@ -3362,6 +3426,7 @@ BUFFS = {
         "attributes": {
             "strain_base": 875
         },
+        "max_level": 1,
         "max_stack": 24,
         "buff_name": "朝圣"
     },
@@ -3371,6 +3436,7 @@ BUFFS = {
             "physical_overcome_base": 700,
             "all_shield_ignore": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "弄梅"
     },
@@ -3405,12 +3471,14 @@ BUFFS = {
                 655
             ]
         },
+        "max_level": 12,
         "max_stack": 1
     },
     23573: {
         "attributes": {
             "all_damage_addition": 154
         },
+        "max_level": 1,
         "max_stack": 1
     },
     1436: {
@@ -3428,6 +3496,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "佛吼"
     },
@@ -3436,6 +3505,7 @@ BUFFS = {
             "magical_attack_power_gain": 308,
             "magical_overcome_gain": 308
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "罗汉金身"
     },
@@ -3443,6 +3513,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 204
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "擒龙诀"
     },
@@ -3450,6 +3521,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "伏魔"
     },
@@ -3458,6 +3530,7 @@ BUFFS = {
             "magical_critical_strike_rate": 600,
             "magical_critical_power_rate": 62
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "金刚日轮"
     },
@@ -3465,21 +3538,25 @@ BUFFS = {
         "attributes": {
             "surplus_gain": -30
         },
+        "max_level": 1,
         "max_stack": 10,
         "buff_name": "贪破"
     },
     24288: {
         "attributes": {},
+        "max_level": 6,
         "max_stack": 4,
         "buff_name": "果报"
     },
     890: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 2,
         "buff_name": "普渡"
     },
     12479: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "普渡"
     },
@@ -3487,6 +3564,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 205
         },
+        "max_level": 1,
         "max_stack": 1
     },
     12590: {
@@ -3497,15 +3575,18 @@ BUFFS = {
                 246
             ]
         },
+        "max_level": 3,
         "max_stack": 1
     },
     28296: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "布泽"
     },
     1919: {
         "attributes": {},
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "龙木金藤",
@@ -3525,6 +3606,7 @@ BUFFS = {
                 123
             ]
         },
+        "max_level": 3,
         "max_stack": 1
     },
     1439: {
@@ -3542,6 +3624,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "气涌"
     },
@@ -3596,6 +3679,7 @@ BUFFS = {
                 615
             ]
         },
+        "max_level": 14,
         "max_stack": 1,
         "buff_name": "破苍穹"
     },
@@ -3603,6 +3687,7 @@ BUFFS = {
         "attributes": {
             "magical_critical_power_rate": 200
         },
+        "max_level": 5,
         "max_stack": [
             2,
             1,
@@ -3641,49 +3726,59 @@ BUFFS = {
                 250
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "紫气东来"
     },
     12779: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "气剑"
     },
     12780: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "气剑"
     },
     12781: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "气剑"
     },
     12782: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "气剑"
     },
     12783: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "气剑"
     },
     9966: {
         "attributes": {},
+        "max_level": 4,
         "max_stack": 1
     },
     17918: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "破势"
     },
     12550: {
         "attributes": {},
+        "max_level": 5,
         "max_stack": 1
     },
     12551: {
         "attributes": {},
+        "max_level": 5,
         "max_stack": 1
     },
     1438: {
@@ -3701,6 +3796,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "剑鸣"
     },
@@ -3759,6 +3855,7 @@ BUFFS = {
                 614
             ]
         },
+        "max_level": 11,
         "max_stack": 1,
         "buff_name": "碎星辰"
     },
@@ -3766,6 +3863,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "裂云"
     },
@@ -3774,11 +3872,13 @@ BUFFS = {
             "physical_critical_strike_rate": 300,
             "physical_overcome_gain": 204
         },
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "玄门"
     },
     14931: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "风逝"
     },
@@ -3797,6 +3897,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "怒叱"
     },
@@ -3817,6 +3918,7 @@ BUFFS = {
                 307
             ]
         },
+        "max_level": 5,
         "max_stack": [
             2,
             1,
@@ -3836,6 +3938,7 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "倚天"
     },
@@ -3844,6 +3947,7 @@ BUFFS = {
             "magical_attack_power_gain": 102,
             "surplus_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "钟灵"
     },
@@ -3852,6 +3956,7 @@ BUFFS = {
             "magical_critical_strike_rate": 160,
             "magical_critical_power_rate": 16
         },
+        "max_level": 1,
         "max_stack": 10,
         "buff_name": "涓流"
     },
@@ -3859,10 +3964,12 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1
     },
     14636: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     24599: {
@@ -3870,6 +3977,7 @@ BUFFS = {
             "magical_attack_power_gain": 102,
             "magical_critical_strike_rate": 600
         },
+        "max_level": 4,
         "max_stack": 4,
         "buff_name": "溅玉"
     },
@@ -3888,6 +3996,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "军啸"
     },
@@ -3898,6 +4007,7 @@ BUFFS = {
                 307
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "驰骋"
     },
@@ -3905,6 +4015,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 307
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "百折"
     },
@@ -3923,6 +4034,7 @@ BUFFS = {
                 204
             ]
         },
+        "max_level": 4,
         "max_stack": [
             4,
             1,
@@ -3935,6 +4047,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 72
         },
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "龙驭"
     },
@@ -3942,24 +4055,29 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 358
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "渊"
     },
     28169: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "龙印"
     },
     12608: {
         "attributes": {},
+        "max_level": 5,
         "max_stack": 1
     },
     26008: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     1911: {
         "attributes": {},
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "碎魂",
@@ -3986,6 +4104,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "嗔怒"
     },
@@ -4066,6 +4185,7 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 35,
         "max_stack": [
             10,
             10,
@@ -4110,6 +4230,7 @@ BUFFS = {
             "magical_critical_strike_rate": 800,
             "magical_critical_power_rate": 21
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "满堂"
     },
@@ -4126,6 +4247,7 @@ BUFFS = {
                 461
             ]
         },
+        "max_level": 8,
         "max_stack": [
             1,
             1,
@@ -4145,6 +4267,7 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 2,
         "max_stack": 5,
         "buff_name": "枕上"
     },
@@ -4152,6 +4275,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "夜天"
     },
@@ -4159,6 +4283,7 @@ BUFFS = {
         "attributes": {
             "pve_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "化冰"
     },
@@ -4166,10 +4291,12 @@ BUFFS = {
         "attributes": {
             "magical_critical_power_rate": 20
         },
+        "max_level": 1,
         "max_stack": 10
     },
     25902: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "流玉"
     },
@@ -4188,6 +4315,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "器攻"
     },
@@ -4251,6 +4379,7 @@ BUFFS = {
                 256
             ]
         },
+        "max_level": 26,
         "max_stack": 1,
         "buff_name": "莺鸣"
     },
@@ -4258,6 +4387,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 82
         },
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "岱宗"
     },
@@ -4265,6 +4395,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "怜光"
     },
@@ -4272,6 +4403,7 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 614
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "雾锁"
     },
@@ -4283,20 +4415,24 @@ BUFFS = {
                 90
             ]
         },
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "飞来"
     },
     9903: {
         "attributes": {},
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "造化"
     },
     21640: {
         "attributes": {},
+        "max_level": 6,
         "max_stack": 1
     },
     26207: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 4,
         "buff_name": "碧归"
     },
@@ -4304,6 +4440,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 1000
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "闻踪"
     },
@@ -4322,6 +4459,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "蛊殇"
     },
@@ -4332,6 +4470,7 @@ BUFFS = {
                 205
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "灵蛇献祭"
     },
@@ -4339,6 +4478,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "虫兽"
     },
@@ -4346,6 +4486,7 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 820
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "嗜蛊"
     },
@@ -4353,6 +4494,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "引魂"
     },
@@ -4360,27 +4502,32 @@ BUFFS = {
         "attributes": {
             "pve_addition": 104
         },
+        "max_level": 1,
         "max_stack": 1
     },
     17988: {
         "attributes": {
             "magical_critical_strike_rate": 3000
         },
+        "max_level": 1,
         "max_stack": 1
     },
     16102: {
         "attributes": {
             "magical_attack_power_gain": 410
         },
+        "max_level": 1,
         "max_stack": 1
     },
     25769: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "重蛊"
     },
     19513: {
         "attributes": {},
+        "max_level": 4,
         "max_stack": 1
     },
     3401: {
@@ -4410,6 +4557,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "神力"
     },
@@ -4418,6 +4566,7 @@ BUFFS = {
             "strength_gain": 20,
             "spunk_gain": 20
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "气魄"
     },
@@ -4426,6 +4575,7 @@ BUFFS = {
             "physical_critical_strike_rate": 1500,
             "physical_critical_power_rate": 300
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "心无旁骛"
     },
@@ -4434,6 +4584,7 @@ BUFFS = {
             "physical_critical_strike_rate": 1000,
             "physical_critical_power_rate": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "秋风散影"
     },
@@ -4441,25 +4592,30 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "命陨"
     },
     17103: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     28225: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "蹑景"
     },
     28226: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "蹑景"
     },
     28227: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "蹑景"
     },
@@ -4467,6 +4623,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 512
         },
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "扬威"
     },
@@ -4474,62 +4631,74 @@ BUFFS = {
         "attributes": {
             "magical_overcome_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "弩心"
     },
-    10005: {
-        "attributes": {
-            "all_shield_ignore": 410
-        },
-        "max_stack": 2,
-        "buff_name": "催寒"
-    },
     27457: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 10
     },
     16234: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "暗藏杀机A"
     },
     16235: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "暗藏杀机B"
     },
     16236: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "暗藏杀机C"
     },
+    10005: {
+        "attributes": {
+            "all_shield_ignore": 410
+        },
+        "max_level": 1,
+        "max_stack": 2,
+        "buff_name": "催寒"
+    },
     28228: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "确固不拔"
     },
     13165: {
         "attributes": {},
+        "max_level": 2,
         "max_stack": 1
     },
     27405: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     23081: {
         "attributes": {
             "all_damage_addition": 205
         },
+        "max_level": 1,
         "max_stack": 1
     },
     23082: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     24668: {
         "attributes": {
             "all_damage_addition": 103
         },
+        "max_level": 1,
         "max_stack": 20
     },
     4671: {
@@ -4547,6 +4716,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "明尊"
     },
@@ -4557,6 +4727,7 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "诛戮"
     },
@@ -4565,6 +4736,7 @@ BUFFS = {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "无明业火"
     },
@@ -4572,6 +4744,7 @@ BUFFS = {
         "attributes": {
             "pve_addition": 61
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "诛邪"
     },
@@ -4579,14 +4752,17 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 563
         },
+        "max_level": 1,
         "max_stack": 1
     },
     25758: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     25759: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     5994: {
@@ -4599,6 +4775,7 @@ BUFFS = {
                 440
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "酣畅淋漓"
     },
@@ -4609,6 +4786,7 @@ BUFFS = {
                 358
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "亢龙·镇慑"
     },
@@ -4629,6 +4807,7 @@ BUFFS = {
                 112
             ]
         },
+        "max_level": 5,
         "max_stack": [
             1,
             1,
@@ -4648,6 +4827,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "无疆"
     },
@@ -4655,6 +4835,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_power_rate": 123
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "酒中仙"
     },
@@ -4662,6 +4843,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 31
         },
+        "max_level": 1,
         "max_stack": 10,
         "buff_name": "青龙"
     },
@@ -4674,6 +4856,7 @@ BUFFS = {
                 154
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "盈久"
     },
@@ -4681,6 +4864,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 204
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "亢龙·霆击"
     },
@@ -4694,6 +4878,7 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 5,
         "max_stack": 3,
         "buff_name": "血怒"
     },
@@ -4701,6 +4886,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "分野"
     },
@@ -4708,6 +4894,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 300
         },
+        "max_level": 1,
         "max_stack": 10,
         "buff_name": "恋战"
     },
@@ -4715,11 +4902,13 @@ BUFFS = {
         "attributes": {
             "physical_overcome_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "锋鸣"
     },
     8451: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "狂绝"
     },
@@ -4727,6 +4916,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "血怒·惊涌"
     },
@@ -4739,6 +4929,7 @@ BUFFS = {
                 150
             ]
         },
+        "max_level": 4,
         "max_stack": 100,
         "buff_name": "单刀赴会·战"
     },
@@ -4752,12 +4943,14 @@ BUFFS = {
                 512
             ]
         },
+        "max_level": 5,
         "max_stack": 1
     },
     8627: {
         "attributes": {
             "physical_attack_power_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1
     },
     8474: {
@@ -4795,6 +4988,7 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 14,
         "max_stack": 1,
         "buff_name": [
             "血云",
@@ -4815,17 +5009,20 @@ BUFFS = {
     },
     26212: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "麟黯"
     },
     9052: {
         "attributes": {},
+        "max_level": 8,
         "max_stack": 1
     },
     8248: {
         "attributes": {
             "physical_shield_gain": -51
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "虚弱"
     },
@@ -4844,6 +5041,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "挥散"
     },
@@ -4851,6 +5049,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "参连"
     },
@@ -4859,6 +5058,7 @@ BUFFS = {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 102
         },
+        "max_level": 1,
         "max_stack": 2
     },
     25997: {
@@ -4869,6 +5069,7 @@ BUFFS = {
                 410
             ]
         },
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "知音妙意"
     },
@@ -4876,15 +5077,18 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 51
         },
+        "max_level": 1,
         "max_stack": 9
     },
     9433: {
         "attributes": {},
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "阳春白雪"
     },
     9495: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "明津"
     },
@@ -4903,6 +5107,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "朔气"
     },
@@ -4911,6 +5116,7 @@ BUFFS = {
             "physical_critical_strike_rate": 1000,
             "physical_critical_power_rate": 102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "含风"
     },
@@ -4918,11 +5124,13 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "爆体"
     },
     23066: {
         "attributes": {},
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "含风"
     },
@@ -4941,6 +5149,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "羽念"
     },
@@ -4951,6 +5160,7 @@ BUFFS = {
                 205
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "太息"
     },
@@ -4962,6 +5172,7 @@ BUFFS = {
                 205
             ]
         },
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "翼绝云天"
     },
@@ -4970,6 +5181,7 @@ BUFFS = {
             "physical_critical_strike_rate": 1500,
             "physical_critical_power_rate": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "鸿轨"
     },
@@ -4977,6 +5189,7 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "梦悠"
     },
@@ -4991,21 +5204,25 @@ BUFFS = {
                 737
             ]
         },
+        "max_level": 6,
         "max_stack": 1,
         "buff_name": "逸尘·攻"
     },
     14321: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "飓风加掌法伤害"
     },
     14317: {
         "attributes": {},
+        "max_level": 5,
         "max_stack": 1,
         "buff_name": "神降"
     },
     71252: {
         "attributes": {},
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "澹然若海·悟"
     },
@@ -5024,6 +5241,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "雷引"
     },
@@ -5031,6 +5249,7 @@ BUFFS = {
         "attributes": {
             "physical_attack_power_gain": 256
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "忘断"
     },
@@ -5038,11 +5257,13 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 614
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "徵逐"
     },
     15926: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 3,
         "buff_name": "百节"
     },
@@ -5052,26 +5273,32 @@ BUFFS = {
             "physical_attack_power_gain": 154,
             "physical_critical_power_rate": 150
         },
+        "max_level": 1,
         "max_stack": 1
     },
     15927: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     15928: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     15929: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     15832: {
         "attributes": {},
+        "max_level": 2,
         "max_stack": 1
     },
     21588: {
         "attributes": {},
+        "max_level": 14,
         "max_stack": 1
     },
     18555: {
@@ -5089,6 +5316,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "星悬"
     },
@@ -5097,6 +5325,7 @@ BUFFS = {
             "magical_critical_strike_rate": 1000,
             "magical_critical_power_rate": 100
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "枭神"
     },
@@ -5104,6 +5333,7 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 512
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "荧入白"
     },
@@ -5111,21 +5341,25 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 308
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "鬼遁"
     },
     28303: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "重山·一"
     },
     28304: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "重山·二"
     },
     28305: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "重山·三"
     },
@@ -5144,6 +5378,7 @@ BUFFS = {
                 41
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "断肠"
     },
@@ -5151,6 +5386,7 @@ BUFFS = {
         "attributes": {
             "magical_attack_power_gain": 154
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "相使"
     },
@@ -5158,19 +5394,23 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 512
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "凄骨"
     },
     20718: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     21168: {
         "attributes": {},
+        "max_level": 3,
         "max_stack": 1
     },
     21856: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     20699: {
@@ -5178,18 +5418,22 @@ BUFFS = {
             "magical_overcome_gain": 256,
             "strain_gain": 307
         },
+        "max_level": 1,
         "max_stack": 1
     },
     24659: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     71230: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     71258: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     24553: {
@@ -5213,6 +5457,7 @@ BUFFS = {
                 100
             ]
         },
+        "max_level": 4,
         "max_stack": 1,
         "buff_name": "灭影追风"
     },
@@ -5220,20 +5465,24 @@ BUFFS = {
         "attributes": {
             "all_shield_ignore": 256
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "流岚"
     },
     24179: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
     },
     24557: {
         "attributes": {},
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "戗风"
     },
     24180: {
         "attributes": {},
+        "max_level": 8,
         "max_stack": 1
     },
     71297: {
@@ -5241,6 +5490,7 @@ BUFFS = {
             "magical_damage_addition": 41,
             "physical_damage_addition": 41
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "披靡·悟"
     },
@@ -5248,6 +5498,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": 62
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "承契"
     },
@@ -5256,6 +5507,7 @@ BUFFS = {
             "physical_attack_power_gain": 102,
             "all_shield_ignore": 205
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "诸怀"
     },
@@ -5263,6 +5515,7 @@ BUFFS = {
         "attributes": {
             "all_damage_addition": -307
         },
+        "max_level": 1,
         "max_stack": 1
     },
     71172: {
@@ -5270,15 +5523,1314 @@ BUFFS = {
             "magical_damage_addition": 31,
             "physical_damage_addition": 31
         },
+        "max_level": 1,
         "max_stack": 5,
         "buff_name": "伤害提高"
     },
     71182: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1
+    },
+    24731: {
+        "attributes": {
+            "agility_base": [
+                0,
+                382,
+                0,
+                0,
+                0,
+                0,
+                191,
+                0,
+                0,
+                0
+            ],
+            "spunk_base": [
+                0,
+                0,
+                382,
+                0,
+                0,
+                0,
+                0,
+                191,
+                0,
+                0
+            ],
+            "strength_base": [
+                0,
+                0,
+                0,
+                382,
+                0,
+                0,
+                0,
+                0,
+                191,
+                0
+            ],
+            "spirit_base": [
+                0,
+                0,
+                0,
+                0,
+                382,
+                0,
+                0,
+                0,
+                0,
+                191
+            ]
+        },
+        "max_level": 10,
+        "max_stack": 1,
+        "buff_name": [
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤"
+        ]
+    },
+    24732: {
+        "attributes": {
+            "magical_overcome_base": [
+                0,
+                1705,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                853,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "physical_overcome_base": [
+                0,
+                1705,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                853,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "physical_attack_power_base": [
+                0,
+                0,
+                0,
+                0,
+                768,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                384,
+                0,
+                0,
+                0
+            ],
+            "magical_attack_power_base": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                917,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                458,
+                0,
+                0
+            ],
+            "all_critical_strike_base": [
+                1705,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                853,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "haste_base": [
+                0,
+                0,
+                0,
+                1705,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                853,
+                0,
+                0,
+                0,
+                0
+            ],
+            "surplus_base": [
+                0,
+                0,
+                1705,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                853,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "max_level": 16,
+        "max_stack": 1,
+        "buff_name": [
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面"
+        ]
+    },
+    24733: {
+        "attributes": {
+            "physical_attack_power_base": [
+                439,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "magical_attack_power_base": [
+                0,
+                524,
+                0,
+                0,
+                0,
+                0
+            ],
+            "all_critical_strike_base": [
+                975,
+                975,
+                975,
+                0,
+                0,
+                0
+            ],
+            "haste_base": [
+                0,
+                0,
+                975,
+                0,
+                0,
+                0
+            ],
+            "surplus_base": [
+                975,
+                975,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "max_level": 6,
+        "max_stack": 1,
+        "buff_name": [
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴"
+        ]
+    },
+    24734: {
+        "attributes": {
+            "agility_base": [
+                0,
+                437,
+                0,
+                0,
+                0
+            ],
+            "spunk_base": [
+                0,
+                0,
+                437,
+                0,
+                0
+            ],
+            "strength_base": [
+                0,
+                0,
+                0,
+                437,
+                0
+            ],
+            "spirit_base": [
+                0,
+                0,
+                0,
+                0,
+                437
+            ]
+        },
+        "max_level": 5,
+        "max_stack": 1,
+        "buff_name": "水晶芙蓉宴"
+    },
+    24735: {
+        "attributes": {
+            "agility_base": [
+                0,
+                492,
+                0,
+                0,
+                0,
+                0,
+                246,
+                0,
+                0,
+                0
+            ],
+            "spunk_base": [
+                0,
+                0,
+                492,
+                0,
+                0,
+                0,
+                0,
+                246,
+                0,
+                0
+            ],
+            "strength_base": [
+                0,
+                0,
+                0,
+                492,
+                0,
+                0,
+                0,
+                0,
+                246,
+                0
+            ],
+            "spirit_base": [
+                0,
+                0,
+                0,
+                0,
+                492,
+                0,
+                0,
+                0,
+                0,
+                246
+            ]
+        },
+        "max_level": 10,
+        "max_stack": 1,
+        "buff_name": [
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸"
+        ]
+    },
+    24736: {
+        "attributes": {
+            "magical_overcome_base": [
+                0,
+                2192,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1096,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "physical_overcome_base": [
+                0,
+                2192,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1096,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "physical_attack_power_base": [
+                0,
+                0,
+                0,
+                0,
+                988,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                494,
+                0,
+                0,
+                0
+            ],
+            "magical_attack_power_base": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1179,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                589,
+                0,
+                0
+            ],
+            "all_critical_strike_base": [
+                2192,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1096,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "haste_base": [
+                0,
+                0,
+                0,
+                2192,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1096,
+                0,
+                0,
+                0,
+                0
+            ],
+            "surplus_base": [
+                0,
+                0,
+                2192,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1096,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "max_level": 16,
+        "max_stack": 1,
+        "buff_name": [
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散"
+        ]
+    },
+    17347: {
+        "attributes": {
+            "strength_base": 64
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "汾酒"
+    },
+    17348: {
+        "attributes": {
+            "strength_base": 128
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "汾酒·今朝醉"
+    },
+    17349: {
+        "attributes": {
+            "strength_base": [
+                192,
+                256
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "汾酒·六日醉",
+            "汾酒·旬又三"
+        ]
+    },
+    17350: {
+        "attributes": {
+            "agility_base": 64
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "关外白酒"
+    },
+    17351: {
+        "attributes": {
+            "agility_base": 128
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "关外白酒·今朝醉"
+    },
+    17352: {
+        "attributes": {
+            "agility_base": [
+                192,
+                256
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "关外白酒·六日醉",
+            "关外白酒·旬又三"
+        ]
+    },
+    17353: {
+        "attributes": {
+            "spirit_base": 64
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "高粱酒"
+    },
+    17354: {
+        "attributes": {
+            "spirit_base": 128
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "高粱酒·今朝醉"
+    },
+    17355: {
+        "attributes": {
+            "spirit_base": [
+                192,
+                256
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "高粱酒·六日醉",
+            "高粱酒·旬又三"
+        ]
+    },
+    17356: {
+        "attributes": {
+            "spunk_base": 64
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "状元红"
+    },
+    17357: {
+        "attributes": {
+            "spunk_base": 128
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "状元红·今朝醉"
+    },
+    17358: {
+        "attributes": {
+            "spunk_base": [
+                192,
+                256
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "状元红·六日醉",
+            "状元红·旬又三"
+        ]
+    },
+    17359: {
+        "attributes": {
+            "haste_base": 286
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "女儿红"
+    },
+    17360: {
+        "attributes": {
+            "haste_base": 572
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "女儿红·今朝醉"
+    },
+    17361: {
+        "attributes": {
+            "haste_base": [
+                858,
+                1144
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "女儿红·六日醉",
+            "女儿红·旬又三"
+        ]
+    },
+    17362: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "玉露酒"
+    },
+    17363: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "玉露酒·今朝醉"
+    },
+    17364: {
+        "attributes": {},
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "玉露酒·六日醉",
+            "玉露酒·旬又三"
+        ]
+    },
+    17365: {
+        "attributes": {
+            "magical_overcome_base": [
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0
+            ],
+            "physical_overcome_base": [
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0
+            ],
+            "physical_attack_power_base": [
+                0,
+                0,
+                43,
+                0,
+                0,
+                0,
+                0,
+                43,
+                0,
+                0,
+                0,
+                0,
+                43,
+                0,
+                0,
+                0,
+                0,
+                433,
+                0,
+                0,
+                0,
+                0,
+                433,
+                0,
+                0,
+                0,
+                0,
+                433,
+                0,
+                0,
+                0,
+                0,
+                562,
+                0,
+                0,
+                0,
+                0,
+                562,
+                0,
+                0,
+                0,
+                0,
+                562,
+                0,
+                0,
+                0,
+                0,
+                866,
+                0,
+                0,
+                0,
+                0,
+                866,
+                0,
+                0,
+                0,
+                0,
+                866,
+                0,
+                0
+            ],
+            "magical_attack_power_base": [
+                0,
+                51,
+                0,
+                0,
+                0,
+                0,
+                51,
+                0,
+                0,
+                0,
+                0,
+                51,
+                0,
+                0,
+                0,
+                0,
+                519,
+                0,
+                0,
+                0,
+                0,
+                519,
+                0,
+                0,
+                0,
+                0,
+                519,
+                0,
+                0,
+                0,
+                0,
+                674,
+                0,
+                0,
+                0,
+                0,
+                674,
+                0,
+                0,
+                0,
+                0,
+                674,
+                0,
+                0,
+                0,
+                0,
+                1038,
+                0,
+                0,
+                0,
+                0,
+                1038,
+                0,
+                0,
+                0,
+                0,
+                1038,
+                0,
+                0,
+                0
+            ],
+            "all_critical_strike_base": [
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                96,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                1934
+            ],
+            "strain_base": [
+                96,
+                0,
+                0,
+                0,
+                0,
+                -42,
+                -42,
+                -42,
+                -42,
+                -42,
+                96,
+                0,
+                0,
+                0,
+                0,
+                967,
+                0,
+                0,
+                0,
+                0,
+                -429,
+                -429,
+                -429,
+                -429,
+                -429,
+                967,
+                0,
+                0,
+                0,
+                0,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                -557,
+                -557,
+                -557,
+                -557,
+                -557,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                -858,
+                -858,
+                -858,
+                -858,
+                -858,
+                1934,
+                0,
+                0,
+                0,
+                0
+            ],
+            "surplus_base": [
+                -42,
+                -42,
+                -42,
+                -42,
+                -42,
+                96,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -429,
+                -429,
+                -429,
+                -429,
+                -429,
+                967,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -557,
+                -557,
+                -557,
+                -557,
+                -557,
+                1257,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -858,
+                -858,
+                -858,
+                -858,
+                -858,
+                1934,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "max_level": 60,
+        "max_stack": 1,
+        "buff_name": [
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛"
+        ]
+    },
+    27784: {
+        "attributes": {
+            "surplus_base": 1074
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·煎豆腐。"
+    },
+    27785: {
+        "attributes": {
+            "strain_base": 1074
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·炖豆腐"
+    },
+    27786: {
+        "attributes": {
+            "magical_attack_power_base": 576
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·小炒青菜"
+    },
+    27787: {
+        "attributes": {
+            "magical_overcome_base": 1074,
+            "physical_overcome_base": 1074
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·清蒸鲈鱼"
+    },
+    27788: {
+        "attributes": {
+            "all_critical_strike_base": 1074
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·炸鱼干"
+    },
+    27789: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·慈母游子羹"
+    },
+    27790: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·农家小炒肉"
+    },
+    27791: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·油炸花生米"
+    },
+    27792: {
+        "attributes": {
+            "physical_attack_power_base": 480
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "刚吃过断浪·葫芦叫花鸡"
+    },
+    18428: {
+        "attributes": {
+            "strain_base": 258,
+            "surplus_base": 258
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "同泽宴"
+    },
+    2563: {
+        "attributes": {
+            "strain_base": 517
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "蒸鱼菜盘"
+    },
+    10100: {
+        "attributes": {
+            "strain_base": [
+                100,
+                400
+            ],
+            "surplus_base": [
+                100,
+                400
+            ]
+        },
+        "max_level": 2,
+        "max_stack": 1,
+        "buff_name": [
+            "炼狱水煮鱼",
+            "百炼水煮鱼"
+        ]
     },
     918: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "天鼓雷音阵"
     },
@@ -5304,6 +6856,7 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5317,6 +6870,7 @@ BUFFS = {
     },
     929: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "卫公折冲阵"
     },
@@ -5333,6 +6887,7 @@ BUFFS = {
                 200
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5346,6 +6901,7 @@ BUFFS = {
     },
     933: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "七绝逍遥阵"
     },
@@ -5362,6 +6918,7 @@ BUFFS = {
                 300
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5375,6 +6932,7 @@ BUFFS = {
     },
     931: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九宫八卦阵"
     },
@@ -5400,6 +6958,7 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5413,6 +6972,7 @@ BUFFS = {
     },
     946: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "北斗七星阵"
     },
@@ -5438,6 +6998,7 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5451,6 +7012,7 @@ BUFFS = {
     },
     951: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九音惊弦阵"
     },
@@ -5476,6 +7038,7 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5489,6 +7052,7 @@ BUFFS = {
     },
     1923: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "依山观澜阵"
     },
@@ -5514,6 +7078,7 @@ BUFFS = {
             ],
             "agility_gain": 30
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重粗识",
@@ -5527,6 +7092,7 @@ BUFFS = {
     },
     2511: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万蛊噬心阵"
     },
@@ -5560,6 +7126,7 @@ BUFFS = {
                 100
             ]
         },
+        "max_level": 7,
         "max_stack": 1,
         "buff_name": [
             "一重初识",
@@ -5573,6 +7140,7 @@ BUFFS = {
     },
     3302: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "流星赶月阵"
     },
@@ -5598,10 +7166,12 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 7,
         "max_stack": 1
     },
     3303: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "千机百变阵"
     },
@@ -5653,10 +7223,12 @@ BUFFS = {
                 0
             ]
         },
+        "max_level": 7,
         "max_stack": 1
     },
     4577: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "炎威破魔阵"
     },
@@ -5673,10 +7245,12 @@ BUFFS = {
                 300
             ]
         },
+        "max_level": 7,
         "max_stack": 1
     },
     6340: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "降龙伏虎阵"
     },
@@ -5693,10 +7267,12 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 7,
         "max_stack": 1
     },
     8401: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "锋凌横绝阵"
     },
@@ -5705,10 +7281,12 @@ BUFFS = {
             "physical_critical_strike_rate": 300,
             "strain_rate": 20
         },
+        "max_level": 1,
         "max_stack": 1
     },
     9484: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "万籁金弦阵"
     },
@@ -5718,10 +7296,12 @@ BUFFS = {
             "magical_critical_strike_rate": 300,
             "strain_rate": 20
         },
+        "max_level": 1,
         "max_stack": 1
     },
     10953: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "霜岚洗锋阵"
     },
@@ -5745,10 +7325,12 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     14072: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "墟海引归阵"
     },
@@ -5772,10 +7354,12 @@ BUFFS = {
                 102
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     15955: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "龙皇雪风阵"
     },
@@ -5799,11 +7383,13 @@ BUFFS = {
                 154
             ]
         },
+        "max_level": 6,
         "max_stack": 1,
         "buff_name": "Buff=1，Debuff=2，Dot=3，Hot=4"
     },
     18334: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "九星游年阵"
     },
@@ -5827,10 +7413,12 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     21034: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "乱暮浊茵阵"
     },
@@ -5862,10 +7450,12 @@ BUFFS = {
                 500
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     24577: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "横云破锋阵"
     },
@@ -5889,10 +7479,12 @@ BUFFS = {
                 1516
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     27235: {
         "attributes": {},
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "苍梧引灵阵"
     },
@@ -5917,6 +7509,7 @@ BUFFS = {
                 20
             ]
         },
+        "max_level": 6,
         "max_stack": 1
     },
     673: {
@@ -5948,6 +7541,7 @@ BUFFS = {
                 244
             ]
         },
+        "max_level": 11,
         "max_stack": 1,
         "buff_name": "袖气"
     },
@@ -5964,6 +7558,7 @@ BUFFS = {
                 51
             ]
         },
+        "max_level": 8,
         "max_stack": 1,
         "buff_name": "撼如雷"
     },
@@ -6002,6 +7597,7 @@ BUFFS = {
                 -1150
             ]
         },
+        "max_level": 30,
         "max_stack": 1,
         "buff_name": "破风"
     },
@@ -6009,6 +7605,7 @@ BUFFS = {
         "attributes": {
             "physical_shield_gain": -102
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "破甲"
     },
@@ -6031,6 +7628,7 @@ BUFFS = {
                 -30
             ]
         },
+        "max_level": 6,
         "max_stack": 5,
         "buff_name": "立地成佛"
     },
@@ -6039,6 +7637,7 @@ BUFFS = {
             "physical_damage_cof": 61,
             "magical_damage_cof": 61
         },
+        "max_level": 1,
         "max_stack": 1,
         "buff_name": "秋肃"
     },
@@ -6053,6 +7652,7 @@ BUFFS = {
                 51
             ]
         },
+        "max_level": 2,
         "max_stack": 1,
         "buff_name": "戒火"
     },
@@ -6060,6 +7660,7 @@ BUFFS = {
         "attributes": {
             "physical_critical_strike_rate": 1000
         },
+        "max_level": 3,
         "max_stack": 1,
         "buff_name": "酣畅淋漓"
     },
@@ -6098,6 +7699,7 @@ BUFFS = {
                 -1397
             ]
         },
+        "max_level": 30,
         "max_stack": 1,
         "buff_name": "破风"
     }
