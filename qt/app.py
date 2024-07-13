@@ -50,8 +50,6 @@ class MainWindow(QMainWindow):
         bottom_layout = QHBoxLayout(self.bottom_widget)
         self.detail_widget = QTabWidget()
         self.dashboard_widget = DashboardWidget()
-        bottom_layout.addWidget(self.detail_widget, 1)
-        bottom_layout.addWidget(self.dashboard_widget, 1)
 
         self.equipments_widget = EquipmentsWidget()
         self.detail_widget.addTab(self.equipments_widget, "配装")
@@ -63,6 +61,10 @@ class MainWindow(QMainWindow):
         self.detail_widget.addTab(self.talents_widget, "奇穴")
         self.recipes_widget = RecipesWidget()
         self.detail_widget.addTab(self.recipes_widget, "秘籍")
+
+        bottom_layout.addWidget(self.detail_widget, 1)
+        bottom_layout.addWidget(self.dashboard_widget, 1)
+        bottom_layout.addStretch()
 
         parser = top_script(
             self.top_widget, self.config_widget, self.bottom_widget,

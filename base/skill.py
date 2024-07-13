@@ -333,9 +333,9 @@ class BaseDamage(BaseSkill):
     @damage_addition.setter
     def damage_addition(self, damage_addition):
         if isinstance(damage_addition, list):
-            self._physical_attack_power_gain = damage_addition
+            self._damage_addition = damage_addition
         else:
-            self._physical_attack_power_gain = [damage_addition]
+            self._damage_addition = [damage_addition]
 
     @property
     def physical_attack_power_gain(self):

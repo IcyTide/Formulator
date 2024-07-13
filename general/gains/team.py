@@ -76,6 +76,8 @@ TEAM_GAINS = [
     create_team_gain(BUFFS[23543], TeamGain, BUFFS[23543].attributes),
     create_team_gain(BUFFS[16911], TeamGain, BUFFS[16911].attributes),
     create_team_gain(BUFFS[11456], TeamGain, BUFFS[11456].attributes),
-    create_team_gain(BUFFS[20877], TeamGain, BUFFS[20877].attributes)
+    create_team_gain(BUFFS[20877], TeamGain, {
+        k: v * BUFFS[20877].max_stack for k, v in BUFFS[20877].attributes.items()
+    })
 ]
 TEAM_GAINS = {k: v for k, v in TEAM_GAINS}

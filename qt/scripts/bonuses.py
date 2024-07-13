@@ -8,7 +8,7 @@ from utils.parser import Parser
 
 
 class Bonuses(dict):
-    activate: bool = True
+    activate: bool = False
 
     @property
     def gains(self):
@@ -105,5 +105,7 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
                     raise TypeError
         else:
             raise TypeError
+
+    bonuses_widget.team_gains.set_default()
 
     return bonuses
