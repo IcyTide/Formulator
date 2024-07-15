@@ -1,21 +1,21 @@
-from base.attribute import MagicalAttribute
+from base.attribute import NeutralAttribute
 from base.constant import *
 
 
-class TaiXuanJing(MagicalAttribute):
+class TaiXuanJing(NeutralAttribute):
     SPUNK_TO_ATTACK_POWER = 1843 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 481 / BINARY_SCALE
 
     def __init__(self, platform=0):
         super().__init__()
-        self.magical_attack_power_base += 4222
-        self.magical_critical_strike_base += 2390
+        self.neutral_attack_power_base += 4222
+        self.neutral_critical_strike_base += 2390
         self.pve_addition += 144
 
     @property
-    def extra_magical_attack_power(self):
+    def extra_neutral_attack_power(self):
         return int(self.spunk * self.SPUNK_TO_ATTACK_POWER)
 
     @property
-    def extra_magical_critical_strike(self):
+    def extra_neutral_critical_strike(self):
         return int(self.spunk * self.SPUNK_TO_CRITICAL_STRIKE)

@@ -1,9 +1,8 @@
 from typing import Dict
 
-from base.attribute import Attribute
+from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
-from base.dot import Dot
 
 
 class PrepareFrameRecipe(Gain):
@@ -41,19 +40,17 @@ class MoveStateDamageAdditionRecipe(Gain):
 class CriticalStrikeRecipe(Gain):
     def add_skill(self, skill: Skill):
         skill.physical_critical_strike_rate_extra += self.value
-        skill.magical_critical_strike_rate_extra += self.value
+        skill.solar_critical_strike_rate_extra += self.value
+        skill.lunar_critical_strike_rate_extra += self.value
+        skill.neutral_critical_strike_rate_extra += self.value
+        skill.poison_critical_strike_rate_extra += self.value
 
     def sub_skill(self, skill: Skill):
         skill.physical_critical_strike_rate_extra -= self.value
-        skill.magical_critical_strike_rate_extra -= self.value
-
-
-class MagicalAttackPowerRecipe(Gain):
-    def add_skill(self, skill: Skill):
-        skill.magical_attack_power_gain_extra += self.value
-
-    def sub_skill(self, skill: Skill):
-        skill.magical_attack_power_gain_extra -= self.value
+        skill.solar_critical_strike_rate_extra -= self.value
+        skill.lunar_critical_strike_rate_extra -= self.value
+        skill.neutral_critical_strike_rate_extra -= self.value
+        skill.poison_critical_strike_rate_extra -= self.value
 
 
 class PhysicalCriticalRecipe(Gain):
@@ -68,12 +65,24 @@ class PhysicalCriticalRecipe(Gain):
 
 class MagicalCriticalRecipe(Gain):
     def add_skill(self, skill: Skill):
-        skill.magical_critical_strike_rate_extra += self.value[0]
-        skill.magical_critical_power_rate_extra += self.value[1]
+        skill.solar_critical_strike_rate_extra += self.value[0]
+        skill.lunar_critical_strike_rate_extra += self.value[0]
+        skill.neutral_critical_strike_rate_extra += self.value[0]
+        skill.poison_critical_strike_rate_extra += self.value[0]
+        skill.solar_critical_power_rate_extra += self.value[1]
+        skill.lunar_critical_power_rate_extra += self.value[1]
+        skill.neutral_critical_power_rate_extra += self.value[1]
+        skill.poison_critical_power_rate_extra += self.value[1]
 
     def sub_skill(self, skill: Skill):
-        skill.magical_critical_strike_rate_extra -= self.value[0]
-        skill.magical_critical_power_rate_extra -= self.value[1]
+        skill.solar_critical_strike_rate_extra -= self.value[0]
+        skill.lunar_critical_strike_rate_extra -= self.value[0]
+        skill.neutral_critical_strike_rate_extra -= self.value[0]
+        skill.poison_critical_strike_rate_extra -= self.value[0]
+        skill.solar_critical_power_rate_extra -= self.value[1]
+        skill.lunar_critical_power_rate_extra -= self.value[1]
+        skill.neutral_critical_power_rate_extra -= self.value[1]
+        skill.poison_critical_power_rate_extra -= self.value[1]
 
 
 class PhysicalShieldGainRecipe(Gain):
@@ -86,10 +95,16 @@ class PhysicalShieldGainRecipe(Gain):
 
 class MagicalShieldGainRecipe(Gain):
     def add_skill(self, skill: Skill):
-        skill.magical_shield_gain_extra += self.value
+        skill.solar_shield_gain_extra += self.value
+        skill.lunar_shield_gain_extra += self.value
+        skill.neutral_shield_gain_extra += self.value
+        skill.poison_shield_gain_extra += self.value
 
     def sub_skill(self, skill: Skill):
-        skill.magical_shield_gain_extra -= self.value
+        skill.solar_shield_gain_extra -= self.value
+        skill.lunar_shield_gain_extra -= self.value
+        skill.neutral_shield_gain_extra -= self.value
+        skill.poison_shield_gain_extra -= self.value
 
 
 class PveAdditionRecipe(Gain):

@@ -22,9 +22,15 @@ class SkillLua:
     event_mask_2 = 0
 
     physical_damage_base = 0
-    magical_damage_base = 0
     physical_damage_rand = 0
-    magical_damage_rand = 0
+    lunar_damage_base = 0
+    lunar_damage_rand = 0
+    solar_damage_base = 0
+    solar_damage_rand = 0
+    neutral_damage_base = 0
+    neutral_damage_rand = 0
+    poison_damage_base = 0
+    poison_damage_rand = 0
 
     prepare_frame = 0
     channel_interval = 0
@@ -32,23 +38,46 @@ class SkillLua:
     dot_cof = 0
     surplus_cof = 0
     weapon_damage_cof = 0
-    global_damage_cof = 0
+    global_damage_factor = 0
 
     physical_attack_power_gain = 0
     physical_critical_strike_rate = 0
     physical_critical_power_rate = 0
     physical_shield_gain = 0
-    magical_attack_power_gain = 0
-    magical_critical_strike_rate = 0
-    magical_critical_power_rate = 0
-    magical_shield_gain = 0
+    solar_attack_power_gain = 0
+    solar_critical_strike_rate = 0
+    solar_critical_power_rate = 0
+    solar_shield_gain = 0
+    lunar_attack_power_gain = 0
+    lunar_critical_strike_rate = 0
+    lunar_critical_power_rate = 0
+    lunar_shield_gain = 0
+    neutral_attack_power_gain = 0
+    neutral_critical_strike_rate = 0
+    neutral_critical_power_rate = 0
+    neutral_shield_gain = 0
+    poison_attack_power_gain = 0
+    poison_critical_strike_rate = 0
+    poison_critical_power_rate = 0
+    poison_shield_gain = 0
+
     pve_addition = 0
 
     physical_damage_call = 0
-    magical_damage_call = 0
+    lunar_damage_call = 0
+    solar_damage_call = 0
+    neutral_damage_call = 0
+    poison_damage_call = 0
     adaptive_damage_call = 0
+
     physical_surplus_call = 0
-    magical_surplus_call = 0
+    lunar_surplus_call = 0
+    solar_surplus_call = 0
+    neutral_surplus_call = 0
+    poison_surplus_call = 0
+
+    physical_attack_power_base = 0
+    magical_attack_power_base = 0
 
     @staticmethod
     def empty_function(*args):
@@ -137,19 +166,11 @@ class SkillLua:
             return
 
         attr_type, param = args[1], args[2]
-        if attr_type == 1:
-            self.physical_damage_call += 1
-        elif attr_type == 2:
-            self.magical_damage_call += 1
-        elif attr_type == 3:
-            self.adaptive_damage_call += 1
-        elif attr_type == 4:
-            self.physical_surplus_call += 1
-        elif attr_type == 5:
-            self.magical_surplus_call += 1
-
-        if attr := ATTRIBUTE_TYPE.get(attr_type):
-            setattr(self, attr, param)
+        if attr := ATTRIBUTE_TYPE_MAP.get(attr_type):
+            if "call" in attr:
+                setattr(self, attr, getattr(self, attr) + 1)
+            else:
+                setattr(self, attr, param)
 
     def __call__(self, *args, **kwargs):
         pass
@@ -206,15 +227,8 @@ def convert_json(result):
         "skill_id", "skill_level", "weapon_request", "use_skill_cof",
         "kind_type", "recipe_type", "recipe_mask", "platform"
     ]
-    int_columns = [
-        "physical_damage_base", "magical_damage_base", "physical_damage_rand", "magical_damage_rand",
-        "physical_attack_power_gain", "physical_critical_strike_rate", "physical_critical_power_rate",
-        "magical_attack_power_gain", "magical_critical_strike_rate", "magical_critical_power_rate",
-        "physical_shield_gain", "magical_shield_gain", "all_shield_ignore", "pve_addition", "damage_addition",
-        "physical_damage_call", "magical_damage_call", "adaptive_damage_call",
-        "physical_surplus_call", "magical_surplus_call",
-        "physical_attack_power_base", "magical_attack_power_base",
-        "skill_cof", "dot_cof", "surplus_cof"
+    float_columns = [
+        "prepare_frame", "channel_interval", "weapon_damage_cof", "global_damage_factor",
     ]
     result_json = {}
     for skill_id in result.skill_id.unique().tolist():
@@ -229,11 +243,11 @@ def convert_json(result):
                 continue
             if filter_result[column].isna().all():
                 continue
-            if column == "global_damage_cof":
+            if column == "global_damage_factor":
                 filter_column = filter_result[column].fillna(-1024 * 1024)
             else:
                 filter_column = filter_result[column].fillna(0)
-            if column in int_columns:
+            if column not in float_columns and pd.api.types.is_numeric_dtype(filter_column):
                 filter_column = filter_column.astype(int)
             if filter_column.nunique() == 1:
                 result_json[skill_id][column] = filter_column.tolist()[0]

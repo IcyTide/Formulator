@@ -124,7 +124,7 @@ DOTS = {
             43,
             45
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     6424: {
         "buff_name": "气竭(DOT)",
@@ -133,7 +133,7 @@ DOTS = {
         "max_stack": 3,
         "platform": 0,
         "damage_base": 50,
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     748: {
         "buff_name": "叠刃(DOT)",
@@ -192,7 +192,7 @@ DOTS = {
             29,
             30
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     714: {
         "buff_name": "钟林毓秀(DOT)",
@@ -226,7 +226,7 @@ DOTS = {
             36,
             38
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     666: {
         "buff_name": "商阳指(DOT)",
@@ -265,7 +265,7 @@ DOTS = {
             48,
             50
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24158: {
         "buff_name": "快雪时晴(DOT)",
@@ -274,7 +274,7 @@ DOTS = {
         "max_stack": 6,
         "platform": 0,
         "damage_base": 38,
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3442: {
         "buff_name": "流血(DOT)",
@@ -392,7 +392,7 @@ DOTS = {
             96,
             100
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     6218: {
         "buff_name": "蝎心(DOT)",
@@ -433,7 +433,7 @@ DOTS = {
             77,
             80
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     2509: {
         "buff_name": "百足(DOT)",
@@ -477,7 +477,7 @@ DOTS = {
             89,
             92
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     2295: {
         "buff_name": "蟾啸(DOT)",
@@ -513,7 +513,7 @@ DOTS = {
             48,
             50
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     18882: {
         "buff_name": "赤蛇(DOT)",
@@ -522,7 +522,7 @@ DOTS = {
         "max_stack": 3,
         "platform": 0,
         "damage_base": 20,
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     2296: {
         "buff_name": "蛇影(DOT)",
@@ -564,7 +564,7 @@ DOTS = {
             53,
             55
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     25917: {
         "buff_name": "蛇影(DOT)",
@@ -573,7 +573,7 @@ DOTS = {
         "max_stack": 2,
         "platform": 0,
         "damage_base": 55,
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     2237: {
         "buff_name": "穿心(DOT)",
@@ -660,7 +660,7 @@ DOTS = {
             95,
             100
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     4202: {
         "buff_name": "银月斩(DOT)",
@@ -688,7 +688,7 @@ DOTS = {
             53,
             55
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     25725: {
         "buff_name": "靡业报劫·日(DOT)",
@@ -697,7 +697,7 @@ DOTS = {
         "max_stack": 1,
         "platform": 0,
         "damage_base": 30,
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     25726: {
         "buff_name": "靡业报劫·月(DOT)",
@@ -706,7 +706,7 @@ DOTS = {
         "max_stack": 1,
         "platform": 0,
         "damage_base": 30,
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     6367: {
         "buff_name": "亢龙有悔(DOT)",
@@ -1038,7 +1038,7 @@ DOTS = {
             56,
             58
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     9361: {
         "buff_name": "角(DOT)",
@@ -1073,7 +1073,7 @@ DOTS = {
             56,
             58
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     23187: {
         "buff_name": "神兵·宫(DOT)",
@@ -1082,7 +1082,7 @@ DOTS = {
         "max_stack": 3,
         "platform": 0,
         "damage_base": 58,
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     11447: {
         "buff_name": "闹须弥(DOT)",
@@ -1156,7 +1156,7 @@ DOTS = {
         "max_stack": 3,
         "platform": 0,
         "damage_base": 15,
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     20052: {
         "buff_name": "逆乱(DOT)",
@@ -1176,7 +1176,7 @@ DOTS = {
             74,
             95
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     71171: {
         "buff_name": "中毒(DOT)",
@@ -1185,7 +1185,7 @@ DOTS = {
         "max_stack": 1,
         "platform": 1,
         "damage_base": 1,
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     24132: {
         "buff_name": "流血(DOT)",

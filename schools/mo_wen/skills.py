@@ -13,7 +13,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         14082: dict(post_buffs={(12576, 1): 1}),
         30799: dict(magical_shield_gain=-922),  # BUFF-23167
         34676: dict(
-            global_damage_cof_extra=GLOBAL_DAMAGE_COF(1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1))
+            global_damage_factor_extra=GLOBAL_DAMAGE_COF(1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1))
         ),
         **{skill_id: dict(bind_dot=9357) for skill_id in (14287, 17788)},
         **{skill_id: dict(bind_dot=9361) for skill_id in (14291, 17792)},

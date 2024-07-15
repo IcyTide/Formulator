@@ -4,12 +4,10 @@ from base.constant import BINARY_SCALE, BASE_CRITICAL_POWER
 
 
 @cache
-def defense_result(shield_base, shield_gain, shield_ignore, shield_constant):
-    shield = shield_base
-    shield += int(shield * shield_gain / BINARY_SCALE)
-    shield -= int(shield * shield_ignore / BINARY_SCALE)
+def defense_result(shield, shield_ignore, shield_constant):
+    shield = int(shield * (1 - shield_ignore / BINARY_SCALE))
     shield = max(shield, 0)
-    return int(shield * BINARY_SCALE / (shield + shield_constant))
+    return shield / (shield + shield_constant)
 
 
 @cache
@@ -53,9 +51,10 @@ def damage_addition_result(damage, damage_addition, move_state_damage_addition):
 
 
 @cache
-def overcome_result(damage, overcome, shield_ignore, shield_base, shield_gain, shield_constant):
+def overcome_result(damage, overcome, shield_ignore, shield, shield_constant):
     overcome = int(overcome * BINARY_SCALE + BINARY_SCALE)
-    defense = defense_result(shield_base, shield_gain, shield_ignore, shield_constant)
+    defense = defense_result(shield, shield_ignore, shield_constant)
+    defense = int(defense * BINARY_SCALE)
     rate = (overcome - int(overcome * defense / BINARY_SCALE)) / BINARY_SCALE
     return int(damage * rate)
 

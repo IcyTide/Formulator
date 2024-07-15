@@ -2,19 +2,36 @@ from typing import Dict
 
 from assets.setter import set_buff
 from base.buff import Buff
-from base.recipe import MagicalAttackPowerRecipe
+from base.gain import Gain
+from base.skill import Skill
 from general.buffs import GENERAL_BUFFS
+
+
+class SolarAttackPowerRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.solar_attack_power_gain += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.solar_attack_power_gain -= self.value
+
+
+class LunarAttackPowerRecipe(Gain):
+    def add_skill(self, skill: Skill):
+        skill.lunar_attack_power_gain += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.lunar_attack_power_gain -= self.value
 
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         4671: {}, 4754: {}, 6277: {}, 28886: {},
         -12575: dict(buff_name="用晦而明", interval=8),
-        25758: dict(buff_name="明光·月", frame_shift=1,
-                    gains=[MagicalAttackPowerRecipe(246, skill_id, skill_recipe)
-                           for skill_id, skill_recipe in ((0, 3966), (0, 3967), (34348, 0))]),
         25759: dict(buff_name="明光·日", frame_shift=1,
-                    gains=[MagicalAttackPowerRecipe(246, skill_id, skill_recipe)
+                    gains=[SolarAttackPowerRecipe(246, skill_id, skill_recipe)
+                           for skill_id, skill_recipe in ((0, 3966), (0, 3967), (34348, 0))]),
+        25758: dict(buff_name="明光·月", frame_shift=1,
+                    gains=[LunarAttackPowerRecipe(246, skill_id, skill_recipe)
                            for skill_id, skill_recipe in ((0, 3966), (4476, 0), (34349, 0))])
     },
 }

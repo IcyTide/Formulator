@@ -16,14 +16,14 @@ class 飞帆(Gain):
             skill.channel_interval_extra /= 1.1
 
 
-class 师襄(Gain):
+class 师襄(MagicalShieldGainRecipe):
     def add_skill(self, skill: Skill):
         if skill.skill_id in (14100, 14101, 14102, 14511, 14512):
-            skill.magical_shield_gain_extra -= 614
+            super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (14100, 14101, 14102, 14511, 14512):
-            skill.magical_shield_gain_extra += 614
+            super().sub_skill(skill)
 
 
 class 刻梦(Gain):
@@ -43,7 +43,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     34341: Talent("连徽"),
     30562: Talent("流照"),
     14336: Talent("豪情"),
-    14282: Talent("师襄", [师襄(skill_id=14068, skill_recipe=14068)]),
+    14282: Talent("师襄", [师襄(-614, 14068, 14068)]),
     30984: Talent("知止"),
     14873: Talent("刻梦", [刻梦()]),
     35982: Talent("争鸣"),

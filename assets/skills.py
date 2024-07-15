@@ -27,21 +27,21 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             0,
             40,
             0,
             40,
             40
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             0,
             17,
             0,
             17,
             17
         ],
-        "magical_damage_call": [
+        "poison_damage_call": [
             0,
             1,
             0,
@@ -56,9 +56,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 17,
+        "lunar_damage_call": 1
     },
     22162: {
         "kind_type": "SolarMagic",
@@ -67,9 +67,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "solar_damage_base": 40,
+        "solar_damage_rand": 17,
+        "solar_damage_call": 1
     },
     22163: {
         "kind_type": "NeutralMagic",
@@ -78,9 +78,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "neutral_damage_base": 40,
+        "neutral_damage_rand": 17,
+        "neutral_damage_call": 1
     },
     22164: {
         "kind_type": "Poison",
@@ -89,9 +89,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "昆吾·弦刃",
         "channel_interval": 90.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "poison_damage_base": 40,
+        "poison_damage_rand": 17,
+        "poison_damage_call": 1
     },
     33257: {
         "kind_type": "Physics",
@@ -123,19 +123,19 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             0,
             0,
             40,
             40
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             0,
             0,
             17,
             17
         ],
-        "magical_damage_call": [
+        "poison_damage_call": [
             0,
             0,
             1,
@@ -155,9 +155,9 @@ SKILLS = {
             100.0,
             100.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "neutral_damage_base": 40,
+        "neutral_damage_rand": 17,
+        "neutral_damage_call": 1
     },
     33259: {
         "kind_type": "LunarMagic",
@@ -172,9 +172,9 @@ SKILLS = {
             100.0,
             100.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 17,
+        "lunar_damage_call": 1
     },
     33260: {
         "kind_type": "SolarMagic",
@@ -189,9 +189,9 @@ SKILLS = {
             100.0,
             100.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "solar_damage_base": 40,
+        "solar_damage_rand": 17,
+        "solar_damage_call": 1
     },
     33261: {
         "kind_type": "Poison",
@@ -206,9 +206,9 @@ SKILLS = {
             100.0,
             100.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "poison_damage_base": 40,
+        "poison_damage_rand": 17,
+        "poison_damage_call": 1
     },
     22151: {
         "kind_type": "",
@@ -267,7 +267,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "乱暮浊茵阵",
-        "magical_damage_base": [
+        "poison_damage_base": [
             200,
             240,
             288,
@@ -369,7 +369,7 @@ SKILLS = {
             1117816,
             1140172
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -471,7 +471,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     29532: {
         "kind_type": "LunarMagic",
@@ -483,10 +483,10 @@ SKILLS = {
             90.0,
             384.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1,
-        "magical_shield_gain": [
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 17,
+        "lunar_damage_call": 1,
+        "lunar_shield_gain": [
             0,
             -1024
         ]
@@ -501,10 +501,10 @@ SKILLS = {
             90.0,
             384.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1,
-        "magical_shield_gain": [
+        "solar_damage_base": 40,
+        "solar_damage_rand": 17,
+        "solar_damage_call": 1,
+        "solar_shield_gain": [
             0,
             -1024
         ]
@@ -519,10 +519,10 @@ SKILLS = {
             90.0,
             384.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1,
-        "magical_shield_gain": [
+        "neutral_damage_base": 40,
+        "neutral_damage_rand": 17,
+        "neutral_damage_call": 1,
+        "neutral_shield_gain": [
             0,
             -1024
         ]
@@ -537,10 +537,10 @@ SKILLS = {
             90.0,
             384.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1,
-        "magical_shield_gain": [
+        "poison_damage_base": 40,
+        "poison_damage_rand": 17,
+        "poison_damage_call": 1,
+        "poison_shield_gain": [
             0,
             -1024
         ]
@@ -573,10 +573,10 @@ SKILLS = {
             90.0,
             384.0
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1,
-        "magical_shield_gain": [
+        "poison_damage_base": 40,
+        "poison_damage_rand": 17,
+        "poison_damage_call": 1,
+        "poison_shield_gain": [
             0,
             -1024
         ]
@@ -608,7 +608,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "摩诃无量",
         "channel_interval": 16.0,
-        "magical_damage_base": [
+        "solar_damage_base": [
             11,
             13,
             15,
@@ -616,8 +616,8 @@ SKILLS = {
             20,
             22
         ],
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "solar_damage_rand": 2,
+        "solar_damage_call": 1
     },
     271: {
         "kind_type": "SolarMagic",
@@ -635,7 +635,7 @@ SKILLS = {
             64.0,
             65.0
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             6,
             11,
             16,
@@ -645,8 +645,8 @@ SKILLS = {
             36,
             26
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     14951: {
         "kind_type": "SolarMagic",
@@ -679,7 +679,7 @@ SKILLS = {
             112.2975,
             139.46625
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             16,
             18,
             20,
@@ -704,7 +704,7 @@ SKILLS = {
             58,
             60
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             1,
             2,
             2,
@@ -729,7 +729,7 @@ SKILLS = {
             6,
             6
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     17641: {
         "kind_type": "SolarMagic",
@@ -767,7 +767,7 @@ SKILLS = {
             217.40796,
             224.42112
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             23,
             27,
             31,
@@ -797,7 +797,7 @@ SKILLS = {
             151,
             156
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             5,
             5,
             5,
@@ -827,7 +827,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     17642: {
         "kind_type": "SolarMagic",
@@ -865,7 +865,7 @@ SKILLS = {
             217.40796,
             224.42112
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             23,
             27,
             31,
@@ -895,7 +895,7 @@ SKILLS = {
             151,
             156
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             5,
             5,
             5,
@@ -925,7 +925,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     19090: {
         "kind_type": "Physics",
@@ -957,8 +957,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "守缺式·神兵",
         "channel_interval": 50.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "solar_damage_rand": 2,
+        "solar_damage_call": 1
     },
     28619: {
         "kind_type": "SolarMagic",
@@ -970,9 +970,9 @@ SKILLS = {
             50.0,
             75.0
         ],
-        "magical_damage_base": 28,
-        "magical_damage_rand": 3,
-        "magical_damage_call": 1
+        "solar_damage_base": 28,
+        "solar_damage_rand": 3,
+        "solar_damage_call": 1
     },
     29516: {
         "kind_type": "SolarMagic",
@@ -981,10 +981,10 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "金刚日轮",
         "channel_interval": 480.0,
-        "magical_damage_base": 28,
-        "magical_damage_rand": 3,
-        "magical_damage_call": 1,
-        "magical_shield_gain": -820
+        "solar_damage_base": 28,
+        "solar_damage_rand": 3,
+        "solar_damage_call": 1,
+        "solar_shield_gain": -820
     },
     32656: {
         "kind_type": "SolarMagic",
@@ -993,7 +993,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "金刚龙爪功",
         "channel_interval": 390.0,
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     32659: {
         "kind_type": "SolarMagic",
@@ -1002,7 +1002,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "果报守缺",
         "channel_interval": 1310.3999999999999,
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     32660: {
         "kind_type": "SolarMagic",
@@ -1011,9 +1011,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "果报横扫",
         "channel_interval": 873.6,
-        "magical_damage_base": 28,
-        "magical_damage_rand": 3,
-        "magical_damage_call": 1
+        "solar_damage_base": 28,
+        "solar_damage_rand": 3,
+        "solar_damage_call": 1
     },
     32887: {
         "kind_type": "SolarMagic",
@@ -1021,8 +1021,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": -362728.65280000004,
-        "magical_surplus_call": 1
+        "global_damage_factor": -362728.65280000004,
+        "solar_surplus_call": 1
     },
     3814: {
         "kind_type": "SolarMagic",
@@ -1042,7 +1042,7 @@ SKILLS = {
             242.27280000000002,
             363.40920000000006
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             52,
             62,
             72,
@@ -1054,8 +1054,8 @@ SKILLS = {
             132,
             142
         ],
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "solar_damage_rand": 5,
+        "solar_damage_call": 1
     },
     3816: {
         "kind_type": "SolarMagic",
@@ -1075,7 +1075,7 @@ SKILLS = {
             201.894,
             302.841
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             52,
             62,
             72,
@@ -1087,8 +1087,8 @@ SKILLS = {
             132,
             142
         ],
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "solar_damage_rand": 5,
+        "solar_damage_call": 1
     },
     3848: {
         "kind_type": "SolarMagic",
@@ -1097,7 +1097,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 405.684305334,
-        "magical_damage_base": [
+        "solar_damage_base": [
             77,
             83,
             90,
@@ -1128,7 +1128,7 @@ SKILLS = {
             171,
             174
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             5,
             5,
             5,
@@ -1159,7 +1159,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     3849: {
         "kind_type": "SolarMagic",
@@ -1168,7 +1168,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 135.22810177800002,
-        "magical_damage_base": [
+        "solar_damage_base": [
             9,
             11,
             13,
@@ -1199,8 +1199,8 @@ SKILLS = {
             58,
             60
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     3850: {
         "kind_type": "SolarMagic",
@@ -1209,7 +1209,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "韦陀献杵",
         "channel_interval": 270.45620355600005,
-        "magical_damage_base": [
+        "solar_damage_base": [
             19,
             23,
             26,
@@ -1240,8 +1240,8 @@ SKILLS = {
             116,
             120
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     13685: {
         "kind_type": "SolarMagic",
@@ -1250,7 +1250,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "拿云式",
         "channel_interval": 419.59417500000006,
-        "magical_damage_base": [
+        "solar_damage_base": [
             109,
             117,
             124,
@@ -1271,7 +1271,7 @@ SKILLS = {
             238,
             246
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             11,
             12,
             13,
@@ -1292,7 +1292,7 @@ SKILLS = {
             25,
             25
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     28542: {
         "kind_type": "SolarMagic",
@@ -1301,7 +1301,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "六合棍意",
         "channel_interval": 119.6,
-        "magical_damage_base": [
+        "solar_damage_base": [
             36,
             39,
             41,
@@ -1332,8 +1332,8 @@ SKILLS = {
             73,
             75
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     24883: {
         "kind_type": "SolarMagic",
@@ -1342,9 +1342,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "缩地",
         "channel_interval": 480.0,
-        "magical_damage_base": 400,
-        "magical_damage_rand": 15,
-        "magical_damage_call": 1
+        "solar_damage_base": 400,
+        "solar_damage_rand": 15,
+        "solar_damage_call": 1
     },
     3808: {
         "kind_type": "SolarMagic",
@@ -1353,7 +1353,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 176.42480625000002,
-        "magical_damage_base": [
+        "solar_damage_base": [
             36,
             39,
             41,
@@ -1413,8 +1413,8 @@ SKILLS = {
             73,
             75
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     3810: {
         "kind_type": "SolarMagic",
@@ -1423,7 +1423,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 291.10093031249994,
-        "magical_damage_base": [
+        "solar_damage_base": [
             36,
             39,
             41,
@@ -1483,8 +1483,8 @@ SKILLS = {
             73,
             75
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     3830: {
         "kind_type": "SolarMagic",
@@ -1493,7 +1493,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "横扫六合",
         "channel_interval": 168.023625,
-        "magical_damage_base": [
+        "solar_damage_base": [
             36,
             39,
             41,
@@ -1553,8 +1553,8 @@ SKILLS = {
             73,
             75
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     28539: {
         "kind_type": "SolarMagic",
@@ -1601,13 +1601,13 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -985661.44,
             -734003.2,
             -83886.07999999996,
             -356515.83999999997
         ],
-        "magical_surplus_call": 1
+        "neutral_surplus_call": 1
     },
     303: {
         "kind_type": "NeutralMagic",
@@ -1616,7 +1616,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "三才化生",
         "channel_interval": 16.0,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             8,
             12,
             16,
@@ -1640,7 +1640,7 @@ SKILLS = {
             74,
             78
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             1,
@@ -1664,7 +1664,7 @@ SKILLS = {
             7,
             7
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     896: {
         "kind_type": "NeutralMagic",
@@ -1707,7 +1707,7 @@ SKILLS = {
             407.7488700573751,
             441.51151534875015
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             29,
             40,
             50,
@@ -1742,7 +1742,7 @@ SKILLS = {
             176,
             180
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             5,
             5,
             5,
@@ -1777,7 +1777,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     18670: {
         "kind_type": "NeutralMagic",
@@ -1818,7 +1818,7 @@ SKILLS = {
             195.92000000000002,
             259.12
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             2,
             3,
             5,
@@ -1851,7 +1851,7 @@ SKILLS = {
             50,
             52
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     22014: {
         "kind_type": "NeutralMagic",
@@ -1863,15 +1863,15 @@ SKILLS = {
             467.54400000000004,
             537.6756
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             600,
             750
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             8,
             16
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     36439: {
         "kind_type": "NeutralMagic",
@@ -1880,9 +1880,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "颠越苍穹击",
         "channel_interval": 189.72000000000003,
-        "magical_damage_base": 1038,
-        "magical_damage_rand": 104,
-        "magical_damage_call": 1
+        "neutral_damage_base": 1038,
+        "neutral_damage_rand": 104,
+        "neutral_damage_call": 1
     },
     25770: {
         "kind_type": "NeutralMagic",
@@ -1891,8 +1891,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "四象轮回·神兵",
         "channel_interval": 65.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 2,
+        "neutral_damage_call": 1
     },
     2681: {
         "kind_type": "NeutralMagic",
@@ -1909,7 +1909,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 11.2,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             2,
             2,
             2,
@@ -1927,8 +1927,8 @@ SKILLS = {
             4,
             5
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     328: {
         "kind_type": "NeutralMagic",
@@ -1937,7 +1937,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 22.4,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             4,
             5,
             5,
@@ -1955,8 +1955,8 @@ SKILLS = {
             9,
             10
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     329: {
         "kind_type": "NeutralMagic",
@@ -1965,7 +1965,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 33.599999999999994,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             7,
             7,
             8,
@@ -1983,8 +1983,8 @@ SKILLS = {
             14,
             15
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     330: {
         "kind_type": "NeutralMagic",
@@ -1993,7 +1993,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 44.8,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             9,
             10,
             11,
@@ -2011,8 +2011,8 @@ SKILLS = {
             19,
             20
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     331: {
         "kind_type": "NeutralMagic",
@@ -2021,7 +2021,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 56.0,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             12,
             13,
             14,
@@ -2039,8 +2039,8 @@ SKILLS = {
             24,
             25
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     461: {
         "kind_type": "NeutralMagic",
@@ -2049,7 +2049,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 67.19999999999999,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             14,
             15,
             16,
@@ -2067,8 +2067,8 @@ SKILLS = {
             29,
             30
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     462: {
         "kind_type": "NeutralMagic",
@@ -2077,7 +2077,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 78.39999999999999,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             16,
             18,
             19,
@@ -2095,8 +2095,8 @@ SKILLS = {
             34,
             35
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     463: {
         "kind_type": "NeutralMagic",
@@ -2105,7 +2105,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 89.6,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             19,
             20,
             22,
@@ -2123,8 +2123,8 @@ SKILLS = {
             39,
             40
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     464: {
         "kind_type": "NeutralMagic",
@@ -2133,7 +2133,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 100.8,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             21,
             23,
             25,
@@ -2151,8 +2151,8 @@ SKILLS = {
             44,
             45
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     465: {
         "kind_type": "NeutralMagic",
@@ -2161,7 +2161,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "五方行尽",
         "channel_interval": 112.0,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             24,
             26,
             28,
@@ -2179,8 +2179,8 @@ SKILLS = {
             49,
             51
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     3439: {
         "kind_type": "NeutralMagic",
@@ -2225,7 +2225,7 @@ SKILLS = {
             38.50849292338127,
             38.508492923381276
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             3,
             3,
             4,
@@ -2262,7 +2262,7 @@ SKILLS = {
             28,
             272
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -2299,7 +2299,7 @@ SKILLS = {
             2,
             2
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3440: {
         "kind_type": "NeutralMagic",
@@ -2344,7 +2344,7 @@ SKILLS = {
             77.01698584676254,
             77.01698584676255
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             6,
             7,
             8,
@@ -2381,7 +2381,7 @@ SKILLS = {
             56,
             545
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -2418,7 +2418,7 @@ SKILLS = {
             5,
             5
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3441: {
         "kind_type": "NeutralMagic",
@@ -2463,7 +2463,7 @@ SKILLS = {
             115.5254787701438,
             115.5254787701438
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             10,
             10,
             12,
@@ -2500,7 +2500,7 @@ SKILLS = {
             85,
             818
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -2537,7 +2537,7 @@ SKILLS = {
             7,
             8
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3442: {
         "kind_type": "NeutralMagic",
@@ -2582,7 +2582,7 @@ SKILLS = {
             154.03397169352507,
             154.0339716935251
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             13,
             14,
             17,
@@ -2619,7 +2619,7 @@ SKILLS = {
             113,
             1090
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -2656,7 +2656,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3443: {
         "kind_type": "NeutralMagic",
@@ -2701,7 +2701,7 @@ SKILLS = {
             192.54246461690633,
             192.54246461690633
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             17,
             17,
             21,
@@ -2738,7 +2738,7 @@ SKILLS = {
             142,
             1363
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             1,
@@ -2775,7 +2775,7 @@ SKILLS = {
             13,
             13
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3444: {
         "kind_type": "NeutralMagic",
@@ -2820,7 +2820,7 @@ SKILLS = {
             231.0509575402876,
             231.0509575402876
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             20,
             21,
             25,
@@ -2857,7 +2857,7 @@ SKILLS = {
             170,
             1636
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             1,
@@ -2894,7 +2894,7 @@ SKILLS = {
             15,
             16
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3445: {
         "kind_type": "NeutralMagic",
@@ -2939,7 +2939,7 @@ SKILLS = {
             269.55945046366884,
             269.5594504636689
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             24,
             24,
             30,
@@ -2976,7 +2976,7 @@ SKILLS = {
             199,
             1908
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             1,
             1,
@@ -3013,7 +3013,7 @@ SKILLS = {
             18,
             19
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3446: {
         "kind_type": "NeutralMagic",
@@ -3058,7 +3058,7 @@ SKILLS = {
             308.06794338705015,
             308.0679433870502
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             27,
             28,
             34,
@@ -3095,7 +3095,7 @@ SKILLS = {
             227,
             2181
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             1,
             1,
@@ -3132,7 +3132,7 @@ SKILLS = {
             21,
             21
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3447: {
         "kind_type": "NeutralMagic",
@@ -3177,7 +3177,7 @@ SKILLS = {
             346.57643631043135,
             346.57643631043135
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             30,
             31,
             38,
@@ -3214,7 +3214,7 @@ SKILLS = {
             256,
             2454
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             1,
             2,
@@ -3251,7 +3251,7 @@ SKILLS = {
             23,
             24
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     3448: {
         "kind_type": "NeutralMagic",
@@ -3296,7 +3296,7 @@ SKILLS = {
             385.08492923381266,
             385.08492923381266
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             60,
             75,
             85,
@@ -3333,7 +3333,7 @@ SKILLS = {
             294,
             2726
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             1,
             2,
@@ -3370,7 +3370,7 @@ SKILLS = {
             26,
             27
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6091: {
         "kind_type": "NeutralMagic",
@@ -3379,7 +3379,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 11.200000000000001,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3416,7 +3416,7 @@ SKILLS = {
             26,
             27
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3453,7 +3453,7 @@ SKILLS = {
             6,
             6
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6092: {
         "kind_type": "NeutralMagic",
@@ -3462,7 +3462,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 22.400000000000002,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3499,7 +3499,7 @@ SKILLS = {
             26,
             27
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3536,7 +3536,7 @@ SKILLS = {
             6,
             6
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6093: {
         "kind_type": "NeutralMagic",
@@ -3545,7 +3545,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 33.6,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3582,7 +3582,7 @@ SKILLS = {
             27,
             28
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3619,7 +3619,7 @@ SKILLS = {
             6,
             7
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6094: {
         "kind_type": "NeutralMagic",
@@ -3628,7 +3628,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 44.800000000000004,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3665,7 +3665,7 @@ SKILLS = {
             27,
             28
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3702,7 +3702,7 @@ SKILLS = {
             6,
             7
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6095: {
         "kind_type": "NeutralMagic",
@@ -3711,7 +3711,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 56.0,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3748,7 +3748,7 @@ SKILLS = {
             29,
             30
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3785,7 +3785,7 @@ SKILLS = {
             7,
             7
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6096: {
         "kind_type": "NeutralMagic",
@@ -3794,7 +3794,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 67.2,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3831,7 +3831,7 @@ SKILLS = {
             29,
             30
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3868,7 +3868,7 @@ SKILLS = {
             7,
             7
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6097: {
         "kind_type": "NeutralMagic",
@@ -3877,7 +3877,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 78.4,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3914,7 +3914,7 @@ SKILLS = {
             31,
             32
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -3951,7 +3951,7 @@ SKILLS = {
             7,
             8
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6098: {
         "kind_type": "NeutralMagic",
@@ -3960,7 +3960,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 89.60000000000001,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             0,
             1,
             2,
@@ -3997,7 +3997,7 @@ SKILLS = {
             31,
             32
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -4034,7 +4034,7 @@ SKILLS = {
             7,
             8
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6099: {
         "kind_type": "NeutralMagic",
@@ -4043,7 +4043,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 100.80000000000001,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             1,
             2,
             2,
@@ -4080,7 +4080,7 @@ SKILLS = {
             33,
             34
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -4117,7 +4117,7 @@ SKILLS = {
             8,
             8
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     6100: {
         "kind_type": "NeutralMagic",
@@ -4126,7 +4126,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "两仪化形",
         "channel_interval": 112.0,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             1,
             2,
             3,
@@ -4163,7 +4163,7 @@ SKILLS = {
             35,
             36
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             0,
             0,
             0,
@@ -4200,7 +4200,7 @@ SKILLS = {
             8,
             9
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     18649: {
         "kind_type": "NeutralMagic",
@@ -4209,9 +4209,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     18650: {
         "kind_type": "NeutralMagic",
@@ -4220,9 +4220,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     18651: {
         "kind_type": "NeutralMagic",
@@ -4231,9 +4231,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     18652: {
         "kind_type": "NeutralMagic",
@@ -4242,9 +4242,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     18653: {
         "kind_type": "NeutralMagic",
@@ -4253,9 +4253,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "飞剑",
         "channel_interval": 55.10340000000001,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     33592: {
         "kind_type": "NeutralMagic",
@@ -4417,7 +4417,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -943231.860736,
             -681574.4,
             -387973.12
@@ -6512,14 +6512,14 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "芙蓉并蒂",
         "channel_interval": 73.6,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             28,
             43,
             61,
             76
         ],
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     6693: {
         "kind_type": "NeutralMagic",
@@ -6528,8 +6528,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "商阳指",
         "channel_interval": 73.6,
-        "magical_damage_base": 20,
-        "magical_damage_call": 1
+        "neutral_damage_base": 20,
+        "neutral_damage_call": 1
     },
     14941: {
         "kind_type": "NeutralMagic",
@@ -6567,7 +6567,7 @@ SKILLS = {
             261.08082,
             282.837555
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             38,
             44,
             49,
@@ -6597,7 +6597,7 @@ SKILLS = {
             145,
             155
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             5,
             5,
             5,
@@ -6627,7 +6627,7 @@ SKILLS = {
             27,
             28
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     25768: {
         "kind_type": "NeutralMagic",
@@ -6636,8 +6636,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "兰摧玉折·神兵",
         "channel_interval": 100.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 2,
+        "neutral_damage_call": 1
     },
     32467: {
         "kind_type": "NeutralMagic",
@@ -6645,7 +6645,7 @@ SKILLS = {
         "recipe_type": 32467,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -787585.1316625408,
             -735386.957995049,
             -683188.7843275571,
@@ -6654,7 +6654,7 @@ SKILLS = {
             -526594.2633250817,
             -474396.0896575897
         ],
-        "magical_surplus_call": 1
+        "neutral_surplus_call": 1
     },
     32501: {
         "kind_type": "NeutralMagic",
@@ -6668,9 +6668,9 @@ SKILLS = {
             304.0,
             334.0
         ],
-        "magical_damage_base": 155,
-        "magical_damage_rand": 28,
-        "magical_damage_call": 1
+        "neutral_damage_base": 155,
+        "neutral_damage_rand": 28,
+        "neutral_damage_call": 1
     },
     37270: {
         "kind_type": "NeutralMagic",
@@ -6689,9 +6689,9 @@ SKILLS = {
             495.00000000000006,
             1237.5
         ],
-        "magical_damage_base": 34,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_base": 34,
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     37525: {
         "kind_type": "NeutralMagic",
@@ -6700,9 +6700,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "钟灵",
         "channel_interval": 328.0,
-        "magical_damage_base": 121,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "neutral_damage_base": 121,
+        "neutral_damage_rand": 10,
+        "neutral_damage_call": 1
     },
     2645: {
         "kind_type": "NeutralMagic",
@@ -6719,7 +6719,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "玉石俱焚",
         "channel_interval": 73.6,
-        "magical_damage_base": [
+        "neutral_damage_base": [
             20,
             22,
             24,
@@ -6750,7 +6750,7 @@ SKILLS = {
             78,
             81
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             1,
             1,
             1,
@@ -6781,7 +6781,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     18730: {
         "kind_type": "NeutralMagic",
@@ -7057,7 +7057,7 @@ SKILLS = {
             120.5705655,
             123.511311
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             20,
             21,
             22,
@@ -7088,7 +7088,7 @@ SKILLS = {
             63,
             65
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             1,
             1,
             1,
@@ -7119,7 +7119,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1,
+        "neutral_damage_call": 1,
         "damage_addition": 512
     },
     6129: {
@@ -7128,7 +7128,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
-        "global_damage_cof": [
+        "global_damage_factor": [
             -1048576.0,
             -1048576.0,
             -1048576.0,
@@ -7143,7 +7143,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
-        "global_damage_cof": [
+        "global_damage_factor": [
             -1048576.0,
             -1048576.0,
             -1048576.0,
@@ -7158,7 +7158,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
-        "global_damage_cof": [
+        "global_damage_factor": [
             -1048576.0,
             -1048576.0,
             -1048576.0,
@@ -7173,7 +7173,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
-        "global_damage_cof": [
+        "global_damage_factor": [
             -1048576.0,
             1048576.0,
             262144.0
@@ -7186,7 +7186,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "吞海",
         "channel_interval": 16.0,
-        "global_damage_cof": [
+        "global_damage_factor": [
             -1048576.0,
             -1048576.0,
             -1048576.0,
@@ -7682,7 +7682,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": -598736.896,
+        "global_damage_factor": -598736.896,
         "physical_surplus_call": 1
     },
     37618: {
@@ -8273,7 +8273,7 @@ SKILLS = {
             266.2000000000001,
             292.82000000000005
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             71,
             73,
             76,
@@ -8293,7 +8293,7 @@ SKILLS = {
             118,
             122
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             11,
             12,
             12,
@@ -8313,7 +8313,7 @@ SKILLS = {
             14,
             14
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     6234: {
         "kind_type": "LunarMagic",
@@ -8351,7 +8351,7 @@ SKILLS = {
             110.0334375,
             115.4671875
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             20,
             79,
             90,
@@ -8381,7 +8381,7 @@ SKILLS = {
             246,
             252
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             2,
             3,
             4,
@@ -8411,7 +8411,7 @@ SKILLS = {
             19,
             20
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     6554: {
         "kind_type": "LunarMagic",
@@ -8420,7 +8420,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "玳弦急曲",
         "channel_interval": 45.18281250000001,
-        "magical_damage_base": [
+        "lunar_damage_base": [
             3,
             11,
             13,
@@ -8450,7 +8450,7 @@ SKILLS = {
             36,
             37
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             0,
             0,
             0,
@@ -8480,7 +8480,7 @@ SKILLS = {
             2,
             3
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     23936: {
         "kind_type": "LunarMagic",
@@ -8489,9 +8489,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "广陵月",
         "channel_interval": 17.6,
-        "magical_damage_base": 20,
-        "magical_damage_rand": 17,
-        "magical_damage_call": 1
+        "lunar_damage_base": 20,
+        "lunar_damage_rand": 17,
+        "lunar_damage_call": 1
     },
     24999: {
         "kind_type": "LunarMagic",
@@ -8500,9 +8500,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "化冰",
         "channel_interval": 378.0,
-        "magical_damage_base": 20,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_base": 20,
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     25769: {
         "kind_type": "LunarMagic",
@@ -8511,8 +8511,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "剑破虚空·神兵",
         "channel_interval": 65.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     30524: {
         "kind_type": "LunarMagic",
@@ -8550,7 +8550,7 @@ SKILLS = {
             289.1187552000001,
             323.13272640000014
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             4,
             15,
             16,
@@ -8580,7 +8580,7 @@ SKILLS = {
             170,
             173
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             1,
             1,
             2,
@@ -8610,7 +8610,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     30532: {
         "kind_type": "LunarMagic",
@@ -8619,9 +8619,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "钗燕",
         "channel_interval": 130.0,
-        "magical_damage_base": 133,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1,
+        "lunar_damage_base": 133,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     32889: {
@@ -8630,8 +8630,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": -884142.5059839999,
-        "magical_surplus_call": 1
+        "global_damage_factor": -884142.5059839999,
+        "lunar_surplus_call": 1
     },
     6559: {
         "kind_type": "LunarMagic",
@@ -8673,7 +8673,7 @@ SKILLS = {
             82.94000000000001,
             91.52000000000001
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             26,
             27,
             28,
@@ -8707,7 +8707,7 @@ SKILLS = {
             79,
             81
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             2,
             2,
             2,
@@ -8741,7 +8741,7 @@ SKILLS = {
             8,
             8
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     32957: {
         "kind_type": "LunarMagic",
@@ -8749,8 +8749,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破·虚空",
-        "global_damage_cof": -511652.6592,
-        "magical_surplus_call": 1
+        "global_damage_factor": -511652.6592,
+        "lunar_surplus_call": 1
     },
     33140: {
         "kind_type": "LunarMagic",
@@ -8759,8 +8759,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "盈袖",
         "channel_interval": 243.75,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     34611: {
         "kind_type": "LunarMagic",
@@ -8769,8 +8769,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "钗燕·明",
         "channel_interval": 574.56,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     34612: {
         "kind_type": "LunarMagic",
@@ -8790,8 +8790,8 @@ SKILLS = {
             189.0,
             210.0
         ],
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     34642: {
         "kind_type": "LunarMagic",
@@ -8800,10 +8800,10 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "流玉",
         "channel_interval": 330.0,
-        "magical_damage_base": 364,
-        "magical_damage_rand": 38,
-        "magical_damage_call": 1,
-        "magical_shield_gain": -819
+        "lunar_damage_base": 364,
+        "lunar_damage_rand": 38,
+        "lunar_damage_call": 1,
+        "lunar_shield_gain": -819
     },
     34704: {
         "kind_type": "LunarMagic",
@@ -8811,8 +8811,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破·流玉",
-        "global_damage_cof": 1027604.48,
-        "magical_surplus_call": 1
+        "global_damage_factor": 1027604.48,
+        "lunar_surplus_call": 1
     },
     35058: {
         "kind_type": "LunarMagic",
@@ -8832,8 +8832,8 @@ SKILLS = {
             792.54,
             880.5999999999999
         ],
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     37317: {
         "kind_type": "LunarMagic",
@@ -8842,8 +8842,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑破",
         "channel_interval": 175.0,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     37318: {
         "kind_type": "LunarMagic",
@@ -8852,8 +8852,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "留芳仙姿·玳弦",
         "channel_interval": 30.0,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     37319: {
         "kind_type": "LunarMagic",
@@ -8862,8 +8862,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑气",
         "channel_interval": 70.0,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     37320: {
         "kind_type": "LunarMagic",
@@ -8872,8 +8872,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "留芳仙姿·剑影",
         "channel_interval": 260.0,
-        "magical_damage_base": 5,
-        "magical_damage_call": 1
+        "lunar_damage_base": 5,
+        "lunar_damage_call": 1
     },
     6207: {
         "kind_type": "LunarMagic",
@@ -9939,7 +9939,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -402653.184,
             -943718.4,
             -209715.19999999995,
@@ -10014,9 +10014,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "赤蛇",
         "channel_interval": 530.0,
-        "magical_damage_base": 204,
-        "magical_damage_rand": 21,
-        "magical_damage_call": 1
+        "poison_damage_base": 204,
+        "poison_damage_rand": 21,
+        "poison_damage_call": 1
     },
     13472: {
         "kind_type": "Poison",
@@ -10025,7 +10025,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "百足",
         "channel_interval": 454.45276800000005,
-        "magical_damage_base": [
+        "poison_damage_base": [
             72,
             76,
             80,
@@ -10061,7 +10061,7 @@ SKILLS = {
             208,
             212
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             1,
             2,
             2,
@@ -10097,7 +10097,7 @@ SKILLS = {
             22,
             23
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     18590: {
         "kind_type": "Poison",
@@ -10106,9 +10106,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "蛊毒",
         "channel_interval": 16.0,
-        "magical_damage_base": 28,
-        "magical_damage_rand": 3,
-        "magical_damage_call": 1
+        "poison_damage_base": 28,
+        "poison_damage_rand": 3,
+        "poison_damage_call": 1
     },
     25044: {
         "kind_type": "Poison",
@@ -10117,9 +10117,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "连缘蛊",
         "channel_interval": 108.90000000000002,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 4,
-        "magical_damage_call": 1,
+        "poison_damage_base": 40,
+        "poison_damage_rand": 4,
+        "poison_damage_call": 1,
         "pve_addition": 256
     },
     25773: {
@@ -10129,8 +10129,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "蛇影·神兵",
         "channel_interval": 60.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "poison_damage_rand": 2,
+        "poison_damage_call": 1
     },
     29573: {
         "kind_type": "Poison",
@@ -10145,21 +10145,21 @@ SKILLS = {
             1465.2495,
             1628.0550000000003
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             225,
             260,
             295,
             330,
             365
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             19,
             20,
             21,
             22,
             23
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "pve_addition": 512
     },
     30918: {
@@ -10175,21 +10175,21 @@ SKILLS = {
             484.0000000000001,
             605.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             40,
             66,
             89,
             111,
             133
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             4,
             7,
             9,
             11,
             14
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "pve_addition": 256
     },
     32818: {
@@ -10198,14 +10198,14 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -566231.04,
             -445644.80000000005,
             -83886.07999999996,
             36700.159999999916,
             -545259.52
         ],
-        "magical_surplus_call": 1
+        "poison_surplus_call": 1
     },
     34389: {
         "kind_type": "Poison",
@@ -10214,9 +10214,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "黯影",
         "channel_interval": 100.0,
-        "magical_damage_base": 20,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "poison_damage_base": 20,
+        "poison_damage_rand": 2,
+        "poison_damage_call": 1
     },
     6648: {
         "kind_type": "Poison",
@@ -10228,15 +10228,15 @@ SKILLS = {
             450.0,
             1350.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             300,
             600
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             26,
             52
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     37959: {
         "kind_type": "Poison",
@@ -10245,9 +10245,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "不鸣",
         "channel_interval": 150.0,
-        "magical_damage_base": 157,
-        "magical_damage_rand": 1,
-        "magical_damage_call": 1
+        "poison_damage_base": 157,
+        "poison_damage_rand": 1,
+        "poison_damage_call": 1
     },
     13476: {
         "kind_type": "Poison",
@@ -10467,9 +10467,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": 129.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 4,
-        "magical_damage_call": 1
+        "poison_damage_base": 40,
+        "poison_damage_rand": 4,
+        "poison_damage_call": 1
     },
     22997: {
         "kind_type": "Poison",
@@ -10478,9 +10478,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "攻击",
         "channel_interval": 129.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 4,
-        "magical_damage_call": 1
+        "poison_damage_base": 40,
+        "poison_damage_rand": 4,
+        "poison_damage_call": 1
     },
     36292: {
         "kind_type": "Poison",
@@ -10489,9 +10489,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "幻击",
         "channel_interval": 115.0,
-        "magical_damage_base": 194,
-        "magical_damage_rand": 20,
-        "magical_damage_call": 1
+        "poison_damage_base": 194,
+        "poison_damage_rand": 20,
+        "poison_damage_call": 1
     },
     25019: {
         "kind_type": "Poison",
@@ -10500,15 +10500,15 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "荒息",
         "channel_interval": 250.0,
-        "magical_damage_base": [
+        "poison_damage_base": [
             40,
             66
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             4,
             7
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     3121: {
         "kind_type": "Physics",
@@ -10627,7 +10627,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -230686.71999999997,
             -489814.491136
         ],
@@ -10996,7 +10996,7 @@ SKILLS = {
             3993.6000000000004,
             4608.000000000001
         ],
-        "physical_critical_strike_rate": [
+        "physical_critical_power_rate": [
             2250,
             4500,
             6750,
@@ -11134,8 +11134,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": 224814.69439999992,
-        "magical_surplus_call": 1
+        "global_damage_factor": 224814.69439999992,
+        "poison_surplus_call": 1
     },
     3105: {
         "kind_type": "Physics",
@@ -11173,7 +11173,7 @@ SKILLS = {
             253.12772192400013
         ],
         "physical_damage_call": 1,
-        "magical_damage_base": [
+        "poison_damage_base": [
             20,
             25,
             30,
@@ -11202,7 +11202,7 @@ SKILLS = {
             160,
             180
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             5,
             5,
             5,
@@ -11231,7 +11231,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 1024.0,
         "physical_attack_power_gain": -1024,
         "prepare_frame": 28.0
@@ -11272,7 +11272,7 @@ SKILLS = {
             230.1161108400001
         ],
         "physical_damage_call": 1,
-        "magical_damage_base": [
+        "poison_damage_base": [
             20,
             25,
             30,
@@ -11301,7 +11301,7 @@ SKILLS = {
             160,
             180
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             5,
             5,
             5,
@@ -11330,7 +11330,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 1024.0,
         "physical_attack_power_gain": -1024,
         "prepare_frame": 28.0
@@ -11342,9 +11342,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "孔雀翎",
         "channel_interval": 130.0,
-        "magical_damage_base": 347,
-        "magical_damage_rand": 36,
-        "magical_damage_call": 1
+        "poison_damage_base": 347,
+        "poison_damage_rand": 36,
+        "poison_damage_call": 1
     },
     3228: {
         "kind_type": "Physics",
@@ -11353,7 +11353,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "暴雨梨花针",
         "channel_interval": 63.41383125000003,
-        "magical_damage_base": [
+        "poison_damage_base": [
             64,
             81,
             98,
@@ -11383,7 +11383,7 @@ SKILLS = {
             506,
             523
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             6,
             8,
             9,
@@ -11413,7 +11413,7 @@ SKILLS = {
             50,
             52
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     3313: {
         "kind_type": "Physics",
@@ -11422,8 +11422,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "图穷匕见",
         "channel_interval": 197.17555000000007,
-        "magical_damage_rand": 210,
-        "magical_damage_call": 1
+        "poison_damage_rand": 210,
+        "poison_damage_call": 1
     },
     3393: {
         "kind_type": "Physics",
@@ -11460,7 +11460,7 @@ SKILLS = {
             99.0,
             115.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             38,
             41,
             44,
@@ -11489,7 +11489,7 @@ SKILLS = {
             121,
             124
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             4,
             4,
             4,
@@ -11518,7 +11518,7 @@ SKILLS = {
             12,
             13
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     3480: {
         "kind_type": "Physics",
@@ -11527,7 +11527,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "暴雨梨花针",
         "channel_interval": 99.61736400000004,
-        "magical_damage_base": [
+        "poison_damage_base": [
             108,
             127,
             146,
@@ -11557,7 +11557,7 @@ SKILLS = {
             602,
             621
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             11,
             13,
             15,
@@ -11587,7 +11587,7 @@ SKILLS = {
             63,
             65
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     25774: {
         "kind_type": "Physics",
@@ -11596,8 +11596,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "蚀肌弹·神兵",
         "channel_interval": 40.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "poison_damage_rand": 2,
+        "poison_damage_call": 1
     },
     30727: {
         "kind_type": "Physics",
@@ -11635,7 +11635,7 @@ SKILLS = {
             172.98,
             218.24000000000004
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             18,
             21,
             24,
@@ -11665,7 +11665,7 @@ SKILLS = {
             101,
             104
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             9,
             10,
             12,
@@ -11695,7 +11695,7 @@ SKILLS = {
             50,
             52
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     30894: {
         "kind_type": "Physics",
@@ -11704,9 +11704,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "血影留痕",
         "channel_interval": 84.48,
-        "magical_damage_base": 18,
-        "magical_damage_rand": 9,
-        "magical_damage_call": 1
+        "poison_damage_base": 18,
+        "poison_damage_rand": 9,
+        "poison_damage_call": 1
     },
     36502: {
         "kind_type": "Physics",
@@ -11744,7 +11744,7 @@ SKILLS = {
             55.8,
             70.4
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             18,
             21,
             24,
@@ -11774,7 +11774,7 @@ SKILLS = {
             101,
             104
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             9,
             10,
             12,
@@ -11804,7 +11804,7 @@ SKILLS = {
             50,
             52
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     3401: {
         "kind_type": "Physics",
@@ -11813,9 +11813,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "连弩",
         "channel_interval": 97.71300000000001,
-        "magical_damage_base": 37,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "poison_damage_base": 37,
+        "poison_damage_rand": 5,
+        "poison_damage_call": 1
     },
     3404: {
         "kind_type": "Physics",
@@ -11824,9 +11824,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "连弩",
         "channel_interval": 172.1412,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 50,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     3819: {
         "kind_type": "Physics",
@@ -11835,9 +11835,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "重弩",
         "channel_interval": 126.95413500000001,
-        "magical_damage_base": 53,
-        "magical_damage_rand": 6,
-        "magical_damage_call": 1
+        "poison_damage_base": 53,
+        "poison_damage_rand": 6,
+        "poison_damage_call": 1
     },
     3824: {
         "kind_type": "Physics",
@@ -11846,9 +11846,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "重弩",
         "channel_interval": 227.65673700000002,
-        "magical_damage_base": 79,
-        "magical_damage_rand": 6,
-        "magical_damage_call": 1
+        "poison_damage_base": 79,
+        "poison_damage_rand": 6,
+        "poison_damage_call": 1
     },
     37384: {
         "kind_type": "Physics",
@@ -11866,9 +11866,9 @@ SKILLS = {
             599.25,
             684.25
         ],
-        "magical_damage_base": 50,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 50,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     18677: {
         "kind_type": "Physics",
@@ -11877,9 +11877,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "千秋万劫",
         "channel_interval": 348.4800000000001,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 40,
-        "magical_damage_call": 1,
+        "poison_damage_base": 40,
+        "poison_damage_rand": 40,
+        "poison_damage_call": 1,
         "pve_addition": 4301
     },
     28441: {
@@ -11889,9 +11889,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "千秋万劫·飞天",
         "channel_interval": 383.3280000000001,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 40,
-        "magical_damage_call": 1,
+        "poison_damage_base": 40,
+        "poison_damage_rand": 40,
+        "poison_damage_call": 1,
         "pve_addition": 4301
     },
     21266: {
@@ -11956,6 +11956,20 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0
+    },
+    32816: {
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "破",
+        "global_damage_factor": [
+            -681574.4,
+            -691850.4447999999,
+            -314572.80000000005,
+            -691850.4447999999
+        ],
+        "solar_surplus_call": 1
     },
     4326: {
         "kind_type": "Physics",
@@ -12028,7 +12042,7 @@ SKILLS = {
             137.35121400000003,
             144.98183700000007
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             38,
             42,
             47,
@@ -12048,7 +12062,7 @@ SKILLS = {
             93,
             98
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             1,
             2,
             2,
@@ -12068,7 +12082,7 @@ SKILLS = {
             9,
             10
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     3963: {
         "kind_type": "SolarMagic",
@@ -12110,7 +12124,7 @@ SKILLS = {
             225.45022500000005,
             244.5267825000001
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             39,
             45,
             52,
@@ -12144,7 +12158,7 @@ SKILLS = {
             153,
             155
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             2,
             2,
             3,
@@ -12178,7 +12192,7 @@ SKILLS = {
             15,
             16
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4035: {
         "kind_type": "SolarMagic",
@@ -12187,9 +12201,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "生死劫·日",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     4036: {
         "kind_type": "LunarMagic",
@@ -12198,9 +12212,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "生死劫·月",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "lunar_damage_base": 70,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1
     },
     4476: {
         "kind_type": "LunarMagic",
@@ -12242,7 +12256,7 @@ SKILLS = {
             128.816320248,
             161.02040031000004
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             23,
             25,
             26,
@@ -12276,7 +12290,7 @@ SKILLS = {
             71,
             73
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             0,
             0,
             0,
@@ -12310,7 +12324,7 @@ SKILLS = {
             2,
             2
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     4480: {
         "kind_type": "LunarMagic",
@@ -12349,7 +12363,7 @@ SKILLS = {
             236.48625000000007,
             242.55000000000004
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             57,
             58,
             60,
@@ -12380,7 +12394,7 @@ SKILLS = {
             94,
             95
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             2,
             2,
             3,
@@ -12411,7 +12425,7 @@ SKILLS = {
             9,
             9
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     4482: {
         "kind_type": "LunarMagic",
@@ -12450,7 +12464,7 @@ SKILLS = {
             311.97993750000006,
             331.08075
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             74,
             76,
             79,
@@ -12481,7 +12495,7 @@ SKILLS = {
             122,
             123
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             3,
             3,
             4,
@@ -12512,7 +12526,7 @@ SKILLS = {
             11,
             12
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     18280: {
         "kind_type": "SolarMagic",
@@ -12554,7 +12568,7 @@ SKILLS = {
             165.16500000000002,
             179.14050000000006
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             39,
             45,
             52,
@@ -12588,7 +12602,7 @@ SKILLS = {
             153,
             155
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             2,
             2,
             3,
@@ -12622,7 +12636,7 @@ SKILLS = {
             15,
             16
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     18281: {
         "kind_type": "LunarMagic",
@@ -12650,7 +12664,7 @@ SKILLS = {
             95.83200000000001,
             101.15600000000003
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             38,
             42,
             47,
@@ -12670,7 +12684,7 @@ SKILLS = {
             93,
             98
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             1,
             2,
             2,
@@ -12690,7 +12704,7 @@ SKILLS = {
             9,
             10
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     26708: {
         "kind_type": "SolarMagic",
@@ -12705,9 +12719,9 @@ SKILLS = {
             17.82,
             17.82
         ],
-        "magical_damage_base": 100,
-        "magical_damage_rand": 20,
-        "magical_damage_call": 1
+        "solar_damage_base": 100,
+        "solar_damage_rand": 20,
+        "solar_damage_call": 1
     },
     26709: {
         "kind_type": "LunarMagic",
@@ -12722,9 +12736,9 @@ SKILLS = {
             17.82,
             17.82
         ],
-        "magical_damage_base": 100,
-        "magical_damage_rand": 20,
-        "magical_damage_call": 1
+        "lunar_damage_base": 100,
+        "lunar_damage_rand": 20,
+        "lunar_damage_call": 1
     },
     26916: {
         "kind_type": "SolarMagic",
@@ -12733,9 +12747,26 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "诛邪镇魔",
         "channel_interval": 361.6160625,
-        "magical_damage_base": 209,
-        "magical_damage_rand": 240,
-        "magical_damage_call": 2,
+        "lunar_damage_base": 209,
+        "lunar_damage_rand": 240,
+        "lunar_damage_call": [
+            1,
+            0,
+            2,
+            1,
+            0,
+            2
+        ],
+        "solar_damage_base": 209,
+        "solar_damage_rand": 240,
+        "solar_damage_call": [
+            1,
+            2,
+            0,
+            1,
+            2,
+            0
+        ],
         "damage_addition": [
             0,
             0,
@@ -12752,9 +12783,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "靡业报劫",
         "channel_interval": 160.0,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     35057: {
         "kind_type": "SolarMagic",
@@ -12763,9 +12794,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "靡业报劫·终",
         "channel_interval": 320.0,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     34985: {
         "kind_type": "SolarMagic",
@@ -12774,9 +12805,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "降灵尊",
         "channel_interval": 303.6528,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     34348: {
         "kind_type": "SolarMagic",
@@ -12785,9 +12816,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "悬象著明·日",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     34349: {
         "kind_type": "LunarMagic",
@@ -12796,9 +12827,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "悬象著明·月",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "lunar_damage_base": 70,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1
     },
     34362: {
         "kind_type": "LunarMagic",
@@ -12807,9 +12838,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "生死劫·月悬象",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "lunar_damage_base": 70,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1
     },
     34363: {
         "kind_type": "SolarMagic",
@@ -12818,9 +12849,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "生死劫·日悬象",
         "channel_interval": 67.2,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     34359: {
         "kind_type": "LunarMagic",
@@ -12829,9 +12860,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "净世破魔击·月悬象",
         "channel_interval": 74.25183150000002,
-        "magical_damage_base": 23,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "lunar_damage_base": 23,
+        "lunar_damage_rand": 0,
+        "lunar_damage_call": 1
     },
     34361: {
         "kind_type": "SolarMagic",
@@ -12840,9 +12871,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "净世破魔击·日悬象",
         "channel_interval": 222.75549450000003,
-        "magical_damage_base": 30,
-        "magical_damage_rand": 1,
-        "magical_damage_call": 1
+        "solar_damage_base": 30,
+        "solar_damage_rand": 1,
+        "solar_damage_call": 1
     },
     37336: {
         "kind_type": "SolarMagic",
@@ -12858,9 +12889,9 @@ SKILLS = {
             2579.775,
             3547.555
         ],
-        "magical_damage_base": 209,
-        "magical_damage_rand": 240,
-        "magical_damage_call": 1
+        "solar_damage_base": 209,
+        "solar_damage_rand": 240,
+        "solar_damage_call": 1
     },
     25777: {
         "kind_type": "LunarMagic",
@@ -12869,8 +12900,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "驱夜断愁·神兵",
         "channel_interval": 50.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     35065: {
         "kind_type": "SolarMagic",
@@ -12879,9 +12910,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "愿火长燃",
         "channel_interval": 320.0,
-        "magical_damage_base": 70,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
     },
     18631: {
         "kind_type": "SolarMagic",
@@ -12930,7 +12961,7 @@ SKILLS = {
             399.3305927688001,
             483.06120093
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             60,
             72,
             83,
@@ -12964,7 +12995,7 @@ SKILLS = {
             192,
             197
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             3,
             4,
             4,
@@ -12998,7 +13029,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4484: {
         "kind_type": "SolarMagic",
@@ -13040,7 +13071,7 @@ SKILLS = {
             383.22855273780016,
             399.8673274365001
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             60,
             72,
             83,
@@ -13074,7 +13105,7 @@ SKILLS = {
             192,
             197
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             3,
             4,
             4,
@@ -13108,7 +13139,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4485: {
         "kind_type": "SolarMagic",
@@ -13150,7 +13181,7 @@ SKILLS = {
             348.3407993373001,
             373.0305940515001
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             60,
             72,
             83,
@@ -13184,7 +13215,7 @@ SKILLS = {
             192,
             197
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             3,
             4,
             4,
@@ -13218,7 +13249,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4486: {
         "kind_type": "SolarMagic",
@@ -13260,7 +13291,7 @@ SKILLS = {
             313.45304593680004,
             343.51018732800003
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             45,
             54,
             62,
@@ -13294,7 +13325,7 @@ SKILLS = {
             144,
             148
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             2,
             3,
             3,
@@ -13328,7 +13359,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4487: {
         "kind_type": "SolarMagic",
@@ -13370,7 +13401,7 @@ SKILLS = {
             278.5652925363,
             313.9897806045
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             45,
             54,
             62,
@@ -13404,7 +13435,7 @@ SKILLS = {
             144,
             148
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             2,
             3,
             3,
@@ -13438,7 +13469,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4488: {
         "kind_type": "SolarMagic",
@@ -13480,7 +13511,7 @@ SKILLS = {
             243.6775391358,
             284.4693738810001
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             45,
             54,
             62,
@@ -13514,7 +13545,7 @@ SKILLS = {
             144,
             148
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             2,
             3,
             3,
@@ -13548,7 +13579,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4489: {
         "kind_type": "SolarMagic",
@@ -13590,7 +13621,7 @@ SKILLS = {
             211.47345907380003,
             257.632640496
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             30,
             36,
             41,
@@ -13624,7 +13655,7 @@ SKILLS = {
             96,
             98
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             1,
             2,
             2,
@@ -13658,7 +13689,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     4490: {
         "kind_type": "SolarMagic",
@@ -13700,7 +13731,7 @@ SKILLS = {
             184.63672568880003,
             222.7448870955
         ],
-        "magical_damage_base": [
+        "solar_damage_base": [
             30,
             36,
             41,
@@ -13734,7 +13765,7 @@ SKILLS = {
             96,
             98
         ],
-        "magical_damage_rand": [
+        "solar_damage_rand": [
             1,
             2,
             2,
@@ -13768,7 +13799,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "solar_damage_call": 1
     },
     13359: {
         "kind_type": "LunarMagic",
@@ -13852,7 +13883,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": -741867.52,
+        "global_damage_factor": -741867.52,
         "physical_surplus_call": 1
     },
     13520: {
@@ -15329,7 +15360,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -629145.6,
             -820196.1472,
             -314572.80000000005,
@@ -15361,7 +15392,7 @@ SKILLS = {
             "闪破·惊涌",
             "劫破·惊涌"
         ],
-        "global_damage_cof": [
+        "global_damage_factor": [
             -610061.5168000001,
             -901235.1336448,
             -901235.1336448,
@@ -15435,7 +15466,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破·麟光",
-        "global_damage_cof": -925791.944704,
+        "global_damage_factor": -925791.944704,
         "physical_surplus_call": 1
     },
     30925: {
@@ -15671,7 +15702,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "炎帝反击",
-        "magical_damage_base": [
+        "solar_damage_base": [
             121904,
             286452,
             410323,
@@ -15683,8 +15714,8 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     23294: {
         "kind_type": "SolarMagic",
@@ -15692,7 +15723,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "苍炎",
-        "magical_damage_base": [
+        "solar_damage_base": [
             122,
             380,
             380,
@@ -15704,8 +15735,8 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "solar_damage_rand": 0,
+        "solar_damage_call": 1
     },
     25780: {
         "kind_type": "Physics",
@@ -16611,7 +16642,7 @@ SKILLS = {
             241.31845237500005,
             264.3011621250001
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             41,
             46,
             59,
@@ -16638,7 +16669,7 @@ SKILLS = {
             139,
             143
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             6,
             6,
             13,
@@ -16665,7 +16696,7 @@ SKILLS = {
             13,
             13
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     14227: {
         "kind_type": "LunarMagic",
@@ -16700,7 +16731,7 @@ SKILLS = {
             183.447,
             205.029
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             70,
             75,
             80,
@@ -16727,7 +16758,7 @@ SKILLS = {
             185,
             190
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             5,
@@ -16754,7 +16785,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     14311: {
         "kind_type": "LunarMagic",
@@ -16767,17 +16798,17 @@ SKILLS = {
             170.698752,
             227.59833600000005
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             14,
             17,
             21
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             10
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     14312: {
         "kind_type": "LunarMagic",
@@ -16790,17 +16821,17 @@ SKILLS = {
             170.698752,
             227.59833600000005
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             14,
             17,
             21
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             10
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     14494: {
         "kind_type": "LunarMagic",
@@ -16809,7 +16840,7 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "阳春白雪",
         "channel_interval": 89.6,
-        "magical_damage_base": [
+        "lunar_damage_base": [
             14,
             17,
             21,
@@ -16836,7 +16867,7 @@ SKILLS = {
             74,
             77
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             3,
             3,
             7,
@@ -16863,7 +16894,7 @@ SKILLS = {
             7,
             7
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     18859: {
         "kind_type": "LunarMagic",
@@ -16898,7 +16929,7 @@ SKILLS = {
             183.447,
             205.029
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             70,
             75,
             80,
@@ -16925,7 +16956,7 @@ SKILLS = {
             185,
             190
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             5,
@@ -16952,7 +16983,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     18860: {
         "kind_type": "LunarMagic",
@@ -16987,7 +17018,7 @@ SKILLS = {
             204.74,
             277.2
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             34,
             45,
             55,
@@ -17014,7 +17045,7 @@ SKILLS = {
             155,
             160
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             5,
@@ -17041,7 +17072,7 @@ SKILLS = {
             40,
             40
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     25781: {
         "kind_type": "LunarMagic",
@@ -17050,8 +17081,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "羽·神兵",
         "channel_interval": 50.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     31008: {
         "kind_type": "LunarMagic",
@@ -17086,7 +17117,7 @@ SKILLS = {
             204.74,
             277.2
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             100,
             0,
             0,
@@ -17113,7 +17144,7 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             10,
             0,
             0,
@@ -17140,7 +17171,7 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     31138: {
         "kind_type": "LunarMagic",
@@ -17175,7 +17206,7 @@ SKILLS = {
             204.74,
             277.2
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             100,
             0,
             0,
@@ -17202,7 +17233,7 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             10,
             0,
             0,
@@ -17229,7 +17260,7 @@ SKILLS = {
             0,
             0
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     32624: {
         "kind_type": "LunarMagic",
@@ -17238,9 +17269,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "弦风",
         "channel_interval": 60.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     32738: {
         "kind_type": "LunarMagic",
@@ -17254,14 +17285,14 @@ SKILLS = {
             "破·流照",
             "破·争鸣"
         ],
-        "global_damage_cof": [
+        "global_damage_factor": [
             -946442.0761599999,
             -926015.2913919999,
             -901503.1496704,
             -968247.66889984,
             -744698.6751999999
         ],
-        "magical_surplus_call": 1
+        "lunar_surplus_call": 1
     },
     34514: {
         "kind_type": "LunarMagic",
@@ -17293,7 +17324,7 @@ SKILLS = {
             415.8,
             435.6
         ],
-        "magical_damage_call": 1
+        "lunar_damage_call": 1
     },
     38015: {
         "kind_type": "LunarMagic",
@@ -17302,9 +17333,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "争鸣",
         "channel_interval": 320.0,
-        "magical_damage_base": 40,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
     },
     14082: {
         "kind_type": "LunarMagic",
@@ -17321,9 +17352,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "流照",
         "channel_interval": 61.425,
-        "magical_damage_base": 107,
-        "magical_damage_rand": 27,
-        "magical_damage_call": 1
+        "lunar_damage_base": 107,
+        "lunar_damage_rand": 27,
+        "lunar_damage_call": 1
     },
     34676: {
         "kind_type": "LunarMagic",
@@ -17357,9 +17388,9 @@ SKILLS = {
             1085.7839999999999,
             1255.7999999999997
         ],
-        "magical_damage_base": 40,
-        "magical_damage_rand": 6,
-        "magical_damage_call": 1
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 6,
+        "lunar_damage_call": 1
     },
     14287: {
         "kind_type": "LunarMagic",
@@ -17537,7 +17568,7 @@ SKILLS = {
             31.790000000000003,
             37.400000000000006
         ],
-        "magical_damage_base": [
+        "lunar_damage_base": [
             34,
             45,
             55,
@@ -17564,7 +17595,7 @@ SKILLS = {
             155,
             160
         ],
-        "magical_damage_rand": [
+        "lunar_damage_rand": [
             5,
             5,
             5,
@@ -17591,7 +17622,7 @@ SKILLS = {
             40,
             40
         ],
-        "magical_damage_call": 1,
+        "lunar_damage_call": 1,
         "prepare_frame": 24.0
     },
     32823: {
@@ -17600,7 +17631,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -131072.0,
             -904396.8,
             -760217.6,
@@ -20063,7 +20094,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -445644.80000000005,
             -294912.0,
             157286.3999999999,
@@ -20250,7 +20281,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -536084.48,
             -894828.544
         ],
@@ -22192,7 +22223,7 @@ SKILLS = {
             156.0,
             200.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             50,
             52,
             55,
@@ -22202,7 +22233,7 @@ SKILLS = {
             68,
             75
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             28,
             29,
             31,
@@ -22212,7 +22243,7 @@ SKILLS = {
             40,
             43
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24558: {
         "kind_type": "NeutralMagic",
@@ -22239,7 +22270,7 @@ SKILLS = {
             189.0,
             207.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             39,
             41,
             43,
@@ -22258,7 +22289,7 @@ SKILLS = {
             85,
             88
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             27,
             28,
@@ -22277,7 +22308,7 @@ SKILLS = {
             54,
             56
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24870: {
         "kind_type": "NeutralMagic",
@@ -22308,7 +22339,7 @@ SKILLS = {
             730.1924999999999,
             809.3699999999999
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             299,
             315,
             330,
@@ -22331,7 +22362,7 @@ SKILLS = {
             1456,
             1456
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             36,
             47,
             57,
@@ -22354,7 +22385,7 @@ SKILLS = {
             997,
             997
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     25174: {
         "kind_type": "NeutralMagic",
@@ -22363,9 +22394,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "灵器",
         "channel_interval": 216.0,
-        "magical_damage_base": 33,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_base": 33,
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     25837: {
         "kind_type": "NeutralMagic",
@@ -22374,8 +22405,8 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "三星临·神兵",
         "channel_interval": 50.0,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "neutral_damage_rand": 2,
+        "neutral_damage_call": 1
     },
     30847: {
         "kind_type": "NeutralMagic",
@@ -22384,9 +22415,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "天网",
         "channel_interval": 100.0,
-        "magical_damage_base": 50,
-        "magical_damage_rand": 0,
-        "magical_damage_call": 1
+        "neutral_damage_base": 50,
+        "neutral_damage_rand": 0,
+        "neutral_damage_call": 1
     },
     32886: {
         "kind_type": "NeutralMagic",
@@ -22394,11 +22425,11 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             781710.8914176,
             -638544.1964032
         ],
-        "magical_surplus_call": 1
+        "neutral_surplus_call": 1
     },
     33236: {
         "kind_type": "NeutralMagic",
@@ -22424,9 +22455,9 @@ SKILLS = {
             377.522,
             385.33279999999996
         ],
-        "magical_damage_base": 34,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_base": 34,
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     34683: {
         "kind_type": "NeutralMagic",
@@ -22435,9 +22466,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "亘天",
         "channel_interval": 297.0,
-        "magical_damage_base": 34,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_base": 34,
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     37311: {
         "kind_type": "NeutralMagic",
@@ -22468,7 +22499,7 @@ SKILLS = {
             730.1924999999999,
             809.3699999999999
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             299,
             315,
             330,
@@ -22491,7 +22522,7 @@ SKILLS = {
             1456,
             1456
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             36,
             47,
             57,
@@ -22514,7 +22545,7 @@ SKILLS = {
             997,
             997
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     37599: {
         "kind_type": "NeutralMagic",
@@ -22523,9 +22554,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "阵星入舆",
         "channel_interval": 297.0,
-        "magical_damage_base": 34,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "neutral_damage_base": 34,
+        "neutral_damage_rand": 5,
+        "neutral_damage_call": 1
     },
     24675: {
         "kind_type": "NeutralMagic",
@@ -22552,7 +22583,7 @@ SKILLS = {
             189.0,
             207.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             39,
             41,
             43,
@@ -22571,7 +22602,7 @@ SKILLS = {
             85,
             88
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             27,
             28,
@@ -22590,7 +22621,7 @@ SKILLS = {
             54,
             56
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24676: {
         "kind_type": "NeutralMagic",
@@ -22617,7 +22648,7 @@ SKILLS = {
             198.45000000000002,
             217.35000000000002
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             40,
             43,
             45,
@@ -22636,7 +22667,7 @@ SKILLS = {
             89,
             92
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             26,
             28,
             29,
@@ -22655,7 +22686,7 @@ SKILLS = {
             56,
             58
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24677: {
         "kind_type": "NeutralMagic",
@@ -22682,7 +22713,7 @@ SKILLS = {
             189.0,
             207.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             39,
             41,
             43,
@@ -22701,7 +22732,7 @@ SKILLS = {
             85,
             88
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             27,
             28,
@@ -22720,7 +22751,7 @@ SKILLS = {
             54,
             56
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24811: {
         "kind_type": "NeutralMagic",
@@ -22748,7 +22779,7 @@ SKILLS = {
             231.00000000000003,
             253.00000000000003
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             10,
             15,
             17,
@@ -22768,7 +22799,7 @@ SKILLS = {
             174,
             188
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24812: {
         "kind_type": "NeutralMagic",
@@ -22796,7 +22827,7 @@ SKILLS = {
             231.00000000000003,
             253.00000000000003
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             10,
             15,
             17,
@@ -22816,7 +22847,7 @@ SKILLS = {
             174,
             188
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24813: {
         "kind_type": "NeutralMagic",
@@ -22844,7 +22875,7 @@ SKILLS = {
             242.55,
             265.65000000000003
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             10,
             15,
             17,
@@ -22864,7 +22895,7 @@ SKILLS = {
             182,
             197
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24814: {
         "kind_type": "NeutralMagic",
@@ -22892,7 +22923,7 @@ SKILLS = {
             231.00000000000003,
             253.00000000000003
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             10,
             15,
             17,
@@ -22912,7 +22943,7 @@ SKILLS = {
             174,
             188
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24821: {
         "kind_type": "NeutralMagic",
@@ -22941,7 +22972,7 @@ SKILLS = {
             394.0,
             437.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             229,
             242,
             255,
@@ -22962,7 +22993,7 @@ SKILLS = {
             578,
             620
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             29,
             38,
@@ -22983,7 +23014,7 @@ SKILLS = {
             382,
             425
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24822: {
         "kind_type": "NeutralMagic",
@@ -23012,7 +23043,7 @@ SKILLS = {
             394.0,
             437.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             229,
             242,
             255,
@@ -23033,7 +23064,7 @@ SKILLS = {
             578,
             620
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             29,
             38,
@@ -23054,7 +23085,7 @@ SKILLS = {
             382,
             425
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24823: {
         "kind_type": "NeutralMagic",
@@ -23083,7 +23114,7 @@ SKILLS = {
             413.70000000000005,
             458.85
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             240,
             254,
             267,
@@ -23104,7 +23135,7 @@ SKILLS = {
             606,
             651
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             26,
             31,
             40,
@@ -23125,7 +23156,7 @@ SKILLS = {
             401,
             446
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     24824: {
         "kind_type": "NeutralMagic",
@@ -23154,7 +23185,7 @@ SKILLS = {
             394.0,
             437.0
         ],
-        "magical_damage_base": [
+        "neutral_damage_base": [
             229,
             242,
             255,
@@ -23175,7 +23206,7 @@ SKILLS = {
             578,
             620
         ],
-        "magical_damage_rand": [
+        "neutral_damage_rand": [
             25,
             29,
             38,
@@ -23196,7 +23227,7 @@ SKILLS = {
             382,
             425
         ],
-        "magical_damage_call": 1
+        "neutral_damage_call": 1
     },
     33588: {
         "kind_type": "NeutralMagic",
@@ -23221,7 +23252,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -387973.12,
             219781.5296,
             -784334.848,
@@ -23229,7 +23260,7 @@ SKILLS = {
             -167772.16000000003,
             272629.76
         ],
-        "magical_surplus_call": 1
+        "poison_surplus_call": 1
     },
     28081: {
         "kind_type": "Poison",
@@ -23249,7 +23280,7 @@ SKILLS = {
             160.30080000000007,
             160.30080000000007
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             10,
             20,
             30,
@@ -23261,8 +23292,8 @@ SKILLS = {
             90,
             100
         ],
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     27552: {
         "kind_type": "Poison",
@@ -23304,7 +23335,7 @@ SKILLS = {
             192.04999999999998,
             229.99999999999997
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             38,
             49,
             60,
@@ -23338,7 +23369,7 @@ SKILLS = {
             368,
             379
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -23372,7 +23403,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     27555: {
@@ -23393,7 +23424,7 @@ SKILLS = {
             120.0,
             120.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             24,
             34,
             44,
@@ -23405,8 +23436,8 @@ SKILLS = {
             104,
             114
         ],
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     27557: {
@@ -23427,7 +23458,7 @@ SKILLS = {
             208.0,
             208.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             33,
             45,
             58,
@@ -23439,7 +23470,7 @@ SKILLS = {
             132,
             144
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             5,
             5,
             5,
@@ -23451,7 +23482,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     27579: {
@@ -23461,9 +23492,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "沾衣未妨",
         "channel_interval": 120.0,
-        "magical_damage_base": 125,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 125,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     27584: {
         "kind_type": "Poison",
@@ -23488,7 +23519,7 @@ SKILLS = {
             178.84799999999996,
             178.84799999999996
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             33,
             45,
             58,
@@ -23505,7 +23536,7 @@ SKILLS = {
             194,
             206
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             5,
             5,
             5,
@@ -23522,7 +23553,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     28409: {
@@ -23548,7 +23579,7 @@ SKILLS = {
             129.6,
             129.6
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             33,
             45,
             58,
@@ -23565,7 +23596,7 @@ SKILLS = {
             194,
             206
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             5,
             5,
             5,
@@ -23582,7 +23613,7 @@ SKILLS = {
             10,
             10
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     28346: {
         "kind_type": "Poison",
@@ -23607,7 +23638,7 @@ SKILLS = {
             104.0,
             120.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             50,
             62,
             74,
@@ -23624,7 +23655,7 @@ SKILLS = {
             350,
             410
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -23641,7 +23672,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     34699: {
         "kind_type": "Poison",
@@ -23666,7 +23697,7 @@ SKILLS = {
             104.0,
             120.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             50,
             62,
             74,
@@ -23683,7 +23714,7 @@ SKILLS = {
             350,
             410
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -23700,7 +23731,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     27539: {
         "kind_type": "Poison",
@@ -23725,7 +23756,7 @@ SKILLS = {
             100.0,
             100.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             30,
             39,
             48,
@@ -23742,7 +23773,7 @@ SKILLS = {
             147,
             156
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -23759,7 +23790,7 @@ SKILLS = {
             15,
             15
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     32922: {
         "kind_type": "Poison",
@@ -23768,9 +23799,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "折枝留春",
         "channel_interval": 390.0,
-        "magical_damage_base": 730,
-        "magical_damage_rand": 20,
-        "magical_damage_call": 1
+        "poison_damage_base": 730,
+        "poison_damage_rand": 20,
+        "poison_damage_call": 1
     },
     27657: {
         "kind_type": "Poison",
@@ -23790,7 +23821,7 @@ SKILLS = {
             270.0,
             270.0
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             20,
             33,
             46,
@@ -23802,8 +23833,8 @@ SKILLS = {
             124,
             137
         ],
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     29674: {
@@ -23813,9 +23844,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "疾根",
         "channel_interval": 65.45,
-        "magical_damage_base": 120,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 120,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     28385: {
         "kind_type": "Poison",
@@ -23824,9 +23855,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "紫叶沉疴",
         "channel_interval": 190.0,
-        "magical_damage_base": 417,
-        "magical_damage_rand": 15,
-        "magical_damage_call": 1,
+        "poison_damage_base": 417,
+        "poison_damage_rand": 15,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0
     },
     28434: {
@@ -23836,9 +23867,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "紫伏",
         "channel_interval": 187.5,
-        "magical_damage_base": 33,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "poison_damage_base": 33,
+        "poison_damage_rand": 5,
+        "poison_damage_call": 1
     },
     36508: {
         "kind_type": "Poison",
@@ -23847,9 +23878,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "养荣",
         "channel_interval": 570.0,
-        "magical_damage_base": 100,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 100,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     29698: {
         "kind_type": "Poison",
@@ -23858,9 +23889,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "商陆缀寒·神兵",
         "channel_interval": 65.0,
-        "magical_damage_base": 20,
-        "magical_damage_rand": 2,
-        "magical_damage_call": 1
+        "poison_damage_base": 20,
+        "poison_damage_rand": 2,
+        "poison_damage_call": 1
     },
     29695: {
         "kind_type": "Poison",
@@ -23877,9 +23908,9 @@ SKILLS = {
             "鹿王本生"
         ],
         "channel_interval": 220.0,
-        "magical_damage_base": 120,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 120,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     36068: {
         "kind_type": "Poison",
@@ -23888,9 +23919,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "荆障",
         "channel_interval": 125.0,
-        "magical_damage_base": 33,
-        "magical_damage_rand": 5,
-        "magical_damage_call": 1
+        "poison_damage_base": 33,
+        "poison_damage_rand": 5,
+        "poison_damage_call": 1
     },
     35367: {
         "kind_type": "Poison",
@@ -23899,9 +23930,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "应理与药",
         "channel_interval": 1000.5,
-        "magical_damage_base": 100,
-        "magical_damage_rand": 10,
-        "magical_damage_call": 1
+        "poison_damage_base": 100,
+        "poison_damage_rand": 10,
+        "poison_damage_call": 1
     },
     29505: {
         "kind_type": "Poison",
@@ -23942,7 +23973,7 @@ SKILLS = {
             346.079965,
             364.29470000000003
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             35,
             53,
             71,
@@ -23975,7 +24006,7 @@ SKILLS = {
             557,
             575
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -24008,7 +24039,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     29506: {
         "kind_type": "Poison",
@@ -24049,7 +24080,7 @@ SKILLS = {
             352.58522750000003,
             442.35785000000004
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             55,
             74,
             93,
@@ -24082,7 +24113,7 @@ SKILLS = {
             606,
             625
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -24115,7 +24146,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     34700: {
         "kind_type": "Poison",
@@ -24156,7 +24187,7 @@ SKILLS = {
             286.0165,
             301.07
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             35,
             53,
             71,
@@ -24189,7 +24220,7 @@ SKILLS = {
             557,
             575
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -24222,7 +24253,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     34702: {
         "kind_type": "Poison",
@@ -24263,7 +24294,7 @@ SKILLS = {
             291.39275,
             365.585
         ],
-        "magical_damage_base": [
+        "poison_damage_base": [
             55,
             74,
             93,
@@ -24296,7 +24327,7 @@ SKILLS = {
             606,
             625
         ],
-        "magical_damage_rand": [
+        "poison_damage_rand": [
             10,
             10,
             10,
@@ -24329,7 +24360,7 @@ SKILLS = {
             20,
             20
         ],
-        "magical_damage_call": 1
+        "poison_damage_call": 1
     },
     30735: {
         "kind_type": "Poison",
@@ -24338,9 +24369,9 @@ SKILLS = {
         "recipe_mask": 0,
         "skill_name": "折枝拂露",
         "channel_interval": 337.1225,
-        "magical_damage_base": 730,
-        "magical_damage_rand": 20,
-        "magical_damage_call": 1
+        "poison_damage_base": 730,
+        "poison_damage_rand": 20,
+        "poison_damage_call": 1
     },
     27560: {
         "kind_type": "Poison",
@@ -24366,8 +24397,8 @@ SKILLS = {
         "recipe_type": 101363,
         "recipe_mask": 4,
         "skill_name": "且待时休·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "skill_cof": 571
     },
     102157: {
@@ -24376,8 +24407,8 @@ SKILLS = {
         "recipe_type": 101361,
         "recipe_mask": 4,
         "skill_name": "川乌射罔·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "skill_cof": 216
     },
     102158: {
@@ -24386,9 +24417,9 @@ SKILLS = {
         "recipe_type": 101362,
         "recipe_mask": 4,
         "skill_name": "沾衣未妨·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
-        "magical_surplus_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
+        "poison_surplus_call": 1,
         "skill_cof": 166,
         "surplus_cof": 532
     },
@@ -24398,9 +24429,9 @@ SKILLS = {
         "recipe_type": 101368,
         "recipe_mask": 4,
         "skill_name": "并蒂夺株·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
-        "magical_surplus_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
+        "poison_surplus_call": 1,
         "skill_cof": 187,
         "surplus_cof": 594
     },
@@ -24410,8 +24441,8 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "无方中和",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "skill_cof": 135,
         "dot_cof": 461
     },
@@ -24421,8 +24452,8 @@ SKILLS = {
         "recipe_type": 101367,
         "recipe_mask": 4,
         "skill_name": "青圃着尘·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "skill_cof": 265
     },
     101357: {
@@ -24431,8 +24462,8 @@ SKILLS = {
         "recipe_type": 101357,
         "recipe_mask": 1,
         "skill_name": "钩吻断肠·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0,
         "skill_cof": 252
     },
@@ -24442,8 +24473,8 @@ SKILLS = {
         "recipe_type": 101357,
         "recipe_mask": 1,
         "skill_name": "钩吻断肠·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
         "weapon_damage_cof": 0.0,
         "skill_cof": 308
     },
@@ -24453,9 +24484,9 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "苍棘缚地·悟",
-        "magical_damage_base": 1,
-        "magical_damage_call": 1,
-        "magical_surplus_call": 1,
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
+        "poison_surplus_call": 1,
         "skill_cof": 321,
         "surplus_cof": 1024
     },
@@ -24465,7 +24496,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": -545259.52,
+        "global_damage_factor": -545259.52,
         "physical_surplus_call": 1
     },
     32974: {
@@ -26354,7 +26385,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "skill_name": "破",
-        "global_damage_cof": [
+        "global_damage_factor": [
             -734003.2,
             -734003.2,
             -1048576.0

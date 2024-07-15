@@ -12,13 +12,20 @@ class BaseDot(BaseBuff):
     bind_skill: Skill
 
     physical_damage_call: int = 0
-    magical_damage_call: int = 0
+    solar_damage_call: int = 0
+    lunar_damage_call: int = 0
+    neutral_damage_call: int = 0
+    poison_damage_call: int = 0
 
     _damage_base: List[int] = 0
     _interval: List[int] = []
     interval_extra: int = 0
     _tick: List[int] = []
     tick_extra: int = 0
+
+    @property
+    def magical_damage_call(self):
+        return self.solar_damage_call or self.lunar_damage_call or self.neutral_damage_call or self.poison_damage_call
 
     @property
     def attack_power_call(self):
@@ -127,20 +134,50 @@ class Dot(BaseDot):
         damage = init_result(
             self.damage_base, 0, 0,
             self.physical_attack_power_cof, attribute.physical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_cof, self.buff_stack
+            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
         )
         if damage:
             return self.bind_skill.physical_damage_chain(damage, attribute)
         return 0, 0
 
-    def call_magical_damage(self, attribute: Attribute):
+    def call_solar_damage(self, attribute: Attribute):
         damage = init_result(
             self.damage_base, 0, 0,
-            self.magical_attack_power_cof, attribute.magical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_cof, self.buff_stack
+            self.magical_attack_power_cof, attribute.solar_attack_power,
+            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
         )
         if damage:
-            return self.bind_skill.magical_damage_chain(damage, attribute)
+            return self.bind_skill.solar_damage_chain(damage, attribute)
+        return 0, 0
+
+    def call_lunar_damage(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, 0, 0,
+            self.magical_attack_power_cof, attribute.lunar_attack_power,
+            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+        )
+        if damage:
+            return self.bind_skill.lunar_damage_chain(damage, attribute)
+        return 0, 0
+
+    def call_neutral_damage(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, 0, 0,
+            self.magical_attack_power_cof, attribute.neutral_attack_power,
+            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+        )
+        if damage:
+            return self.bind_skill.neutral_damage_chain(damage, attribute)
+        return 0, 0
+
+    def call_poison_damage(self, attribute: Attribute):
+        damage = init_result(
+            self.damage_base, 0, 0,
+            self.magical_attack_power_cof, attribute.poison_attack_power,
+            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+        )
+        if damage:
+            return self.bind_skill.poison_damage_chain(damage, attribute)
         return 0, 0
 
     def pre_damage(self, attribute: Attribute):
@@ -156,12 +193,24 @@ class Dot(BaseDot):
         total_damage, total_critical_damage = 0, 0
         if self.physical_damage_call:
             damage, critical_damage = self.call_physical_damage(attribute)
-            total_damage += damage
-            total_critical_damage += critical_damage
-        if self.magical_damage_call:
-            damage, critical_damage = self.call_magical_damage(attribute)
-            total_damage += damage
-            total_critical_damage += critical_damage
+            total_damage += damage * self.physical_damage_call
+            total_critical_damage += critical_damage * self.physical_damage_call
+        if self.solar_damage_call:
+            damage, critical_damage = self.call_solar_damage(attribute)
+            total_damage += damage * self.solar_damage_call
+            total_critical_damage += critical_damage * self.solar_damage_call
+        if self.lunar_damage_call:
+            damage, critical_damage = self.call_lunar_damage(attribute)
+            total_damage += damage * self.lunar_damage_call
+            total_critical_damage += critical_damage * self.lunar_damage_call
+        if self.neutral_damage_call:
+            damage, critical_damage = self.call_neutral_damage(attribute)
+            total_damage += damage * self.neutral_damage_call
+            total_critical_damage += critical_damage * self.neutral_damage_call
+        if self.poison_damage_call:
+            damage, critical_damage = self.call_poison_damage(attribute)
+            total_damage += damage * self.poison_damage_call
+            total_critical_damage += critical_damage * self.poison_damage_call
 
         critical_strike = min(self.bind_skill.critical_strike(attribute), 1)
         expected_damage = total_damage * (1 - critical_strike) + total_critical_damage * critical_strike

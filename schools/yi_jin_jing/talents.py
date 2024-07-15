@@ -39,11 +39,11 @@ class 华香(Gain):
 
     def add_skill(self, skill: Skill):
         if skill.skill_id in self.skill_ids:
-            skill.magical_shield_gain_extra -= 614
+            skill.solar_shield_gain_extra += self.value
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in self.skill_ids:
-            skill.magical_shield_gain_extra += 614
+            skill.solar_shield_gain_extra -= self.value
 
 
 TALENT_GAINS: Dict[int, Talent] = {
@@ -60,7 +60,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     6586: Talent("三生"),
     24884: Talent("我闻", [MagicalCriticalRecipe((1000, 205), 235, 235)]),
     6596: Talent("众嗔", [众嗔()]),
-    5906: Talent("华香", [华香(skill_id=skill_id, skill_recipe=skill_id) for skill_id in (233, 243, 2572, 232)]),
+    5906: Talent("华香", [华香(-614, skill_id, skill_id) for skill_id in (233, 243, 2572, 232)]),
     32647: Talent("无执"),
     32648: Talent("金刚日轮"),
     32651: Talent("业因"),

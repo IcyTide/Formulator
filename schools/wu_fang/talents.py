@@ -13,11 +13,11 @@ from schools.wu_fang.skills import 鬼门加成
 class 鸩羽(Gain):
     def add_skill(self, skill: Skill):
         if skill.skill_id == 27557:
-            skill.magical_critical_strike_rate_extra += 1000
+            skill.poison_critical_strike_rate += self.value
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id == 27557:
-            skill.magical_critical_strike_rate_extra -= 1000
+            skill.poison_critical_strike_rate -= self.value
 
 
 class 鬼门(Gain):
@@ -33,7 +33,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     28338: Talent("怯邪"),
     27530: Talent("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
     101419: Talent("鬼门", [鬼门()]),
-    28344: Talent("鸩羽", [鸩羽(skill_id=27556, skill_recipe=27556)]),
+    28344: Talent("鸩羽", [鸩羽(1000, 27556,27556)]),
     101422: Talent("神莹"),
     28361: Talent("结草"),
     101423: Talent("济世"),

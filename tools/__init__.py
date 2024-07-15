@@ -33,25 +33,66 @@ MOBILE_BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/buff
                               encoding="gbk")
 BUFF_TXT = pd.concat([BUFF_TXT, MOBILE_BUFF_TXT], axis=0)
 
-ATTRIBUTE_TYPE = {
-    -1: "physical_damage_base",
-    -2: "magical_damage_base",
-    -3: "physical_damage_rand",
-    -4: "magical_damage_rand",
-    -5: "physical_attack_power_gain",
-    -6: "magical_attack_power_gain",
-    -7: "physical_critical_strike_rate",
-    -8: "magical_critical_strike_rate",
-    -9: "physical_critical_power_rate",
-    -10: "magical_critical_power_rate",
-    -11: "physical_shield_gain",
-    -12: "magical_shield_gain",
-    -13: "global_damage_cof",
-    -14: "pve_addition",
-    -15: "damage_addition",
-    -16: "physical_attack_power_base",
-    -17: "magical_attack_power_base"
-}
+ATTRIBUTE_TYPE = dict(
+    SKILL_PHYSICS_DAMAGE="physical_damage_base",
+    SKILL_LUNAR_DAMAGE="lunar_damage_base",
+    SKILL_SOLAR_DAMAGE="solar_damage_base",
+    SKILL_NEUTRAL_DAMAGE="neutral_damage_base",
+    SKILL_POISON_DAMAGE="poison_damage_base",
+
+    SKILL_PHYSICS_DAMAGE_RAND="physical_damage_rand",
+    SKILL_LUNAR_DAMAGE_RAND="lunar_damage_rand",
+    SKILL_SOLAR_DAMAGE_RAND="solar_damage_rand",
+    SKILL_NEUTRAL_DAMAGE_RAND="neutral_damage_rand",
+    SKILL_POISON_DAMAGE_RAND="poison_damage_rand",
+
+    PHYSICS_ATTACK_POWER_PERCENT="physical_attack_power_gain",
+    LUNAR_ATTACK_POWER_PERCENT="lunar_attack_power_gain",
+    SOLAR_ATTACK_POWER_PERCENT="solar_attack_power_gain",
+    NEUTRAL_ATTACK_POWER_PERCENT="neutral_attack_power_gain",
+    POISON_ATTACK_POWER_PERCENT="poison_attack_power_gain",
+
+    PHYSICS_CRITICAL_STRIKE_BASE_RATE="physical_critical_power_rate",
+    LUNAR_CRITICAL_STRIKE_BASE_RATE="lunar_critical_power_rate",
+    SOLAR_CRITICAL_STRIKE_BASE_RATE="solar_critical_power_rate",
+    NEUTRAL_CRITICAL_STRIKE_BASE_RATE="neutral_critical_power_rate",
+    POISON_CRITICAL_STRIKE_BASE_RATE="poison_critical_power_rate",
+
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE="physical_critical_power_rate",
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE="lunar_critical_power_rate",
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE="solar_critical_power_rate",
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE="neutral_critical_power_rate",
+    POISON_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE="poison_critical_power_rate",
+
+    PHYSICS_SHIELD_PERCENT="physical_shield_gain",
+    LUNAR_MAGIC_SHIELD_PERCENT="lunar_shield_gain",
+    SOLAR_MAGIC_SHIELD_PERCENT="solar_shield_gain",
+    NEUTRAL_MAGIC_SHIELD_PERCENT="neutral_shield_gain",
+    POISON_MAGIC_SHIELD_PERCENT="poison_shield_gain",
+
+    GLOBAL_DAMGAGE_FACTOR="global_damage_factor",
+    DST_NPC_DAMAGE_COEFFICIENT="pve_addition",
+    ALL_DAMAGE_ADD_PERCENT="damage_addition",
+
+    PHYSICS_ATTACK_POWER_BASE="physical_attack_power_base",
+    MAGIC_ATTACK_POWER_BASE="magical_attack_power_base",
+
+    CALL_PHYSICS_DAMAGE="physical_damage_call",
+    CALL_LUNAR_DAMAGE="lunar_damage_call",
+    CALL_SOLAR_DAMAGE="solar_damage_call",
+    CALL_NEUTRAL_DAMAGE="neutral_damage_call",
+    CALL_POISON_DAMAGE="poison_damage_call",
+
+    CALL_ADAPTIVE_DAMAGE="adaptive_damage_call",
+
+    CALL_SURPLUS_PHYSICS_DAMAGE="physical_surplus_call",
+    CALL_SURPLUS_LUNAR_DAMAGE="lunar_surplus_call",
+    CALL_SURPLUS_SOLAR_DAMAGE="solar_surplus_call",
+    CALL_SURPLUS_NEUTRAL_DAMAGE="neutral_surplus_call",
+    CALL_SURPLUS_POISON_DAMAGE="poison_surplus_call"
+)
+ATTRIBUTE_TYPE_CODE = "\n".join(f'{k}={i},' for i, k in enumerate(ATTRIBUTE_TYPE))
+ATTRIBUTE_TYPE_MAP = {i: v for i, v in enumerate(ATTRIBUTE_TYPE.values())}
 INCLUDE_LUA = """
 function GetEditorString(param_1, param_2)
     return true;
@@ -76,66 +117,10 @@ ROLE_TYPE = {
 BUFF_COMPARE_FLAG = {};
 SKILL_COMPARE_FLAG = {};
 ATTRIBUTE_EFFECT_MODE = {};
-ATTRIBUTE_TYPE = {
-    SKILL_PHYSICS_DAMAGE = -1,
-    SKILL_LUNAR_DAMAGE = -2,
-    SKILL_SOLAR_DAMAGE = -2,
-    SKILL_NEUTRAL_DAMAGE = -2,
-    SKILL_POISON_DAMAGE = -2,
-
-    SKILL_PHYSICS_DAMAGE_RAND = -3,
-    SKILL_LUNAR_DAMAGE_RAND = -4,
-    SKILL_SOLAR_DAMAGE_RAND = -4,
-    SKILL_NEUTRAL_DAMAGE_RAND = -4,
-    SKILL_POISON_DAMAGE_RAND = -4,
-    
-    PHYSICS_ATTACK_POWER_PERCENT = -5,
-    LUNAR_ATTACK_POWER_PERCENT = -6,
-    SOLAR_ATTACK_POWER_PERCENT = -6,
-    NEUTRAL_ATTACK_POWER_PERCENT = -6,
-    POISON_ATTACK_POWER_PERCENT = -6,
-
-    PHYSICS_CRITICAL_STRIKE_BASE_RATE = -7,
-    LUNAR_CRITICAL_STRIKE_BASE_RATE = -8,
-    SOLAR_CRITICAL_STRIKE_BASE_RATE = -8,
-    NEUTRAL_CRITICAL_STRIKE_BASE_RATE = -8,
-    POISON_CRITICAL_STRIKE_BASE_RATE = -8,
-    MAGIC_CRITICAL_STRIKE_BASE_RATE = -8,
-
-    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -9,
-    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -10,
-    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -10,
-    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -10,
-    POISON_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -10,
-    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = -10,
-
-    PHYSICS_SHIELD_PERCENT = -11,
-    LUNAR_MAGIC_SHIELD_PERCENT = -12,
-    SOLAR_MAGIC_SHIELD_PERCENT = -12,
-    NEUTRAL_MAGIC_SHIELD_PERCENT = -12,
-    POISON_MAGIC_SHIELD_PERCENT = -12,
-
-    GLOBAL_DAMGAGE_FACTOR = -13,
-    DST_NPC_DAMAGE_COEFFICIENT = -14,
-    ALL_DAMAGE_ADD_PERCENT = -15,
-    
-    PHYSICS_ATTACK_POWER_BASE = -16,
-    MAGIC_ATTACK_POWER_BASE = -17,
-    
-    CALL_PHYSICS_DAMAGE = 1,
-    CALL_LUNAR_DAMAGE = 2,
-    CALL_SOLAR_DAMAGE = 2,
-    CALL_NEUTRAL_DAMAGE = 2,
-    CALL_POISON_DAMAGE = 2,
-    
-    CALL_ADAPTIVE_DAMAGE = 3,
-    
-    CALL_SURPLUS_PHYSICS_DAMAGE = 4,
-    CALL_SURPLUS_LUNAR_DAMAGE = 5,
-    CALL_SURPLUS_SOLAR_DAMAGE = 5,
-    CALL_SURPLUS_NEUTRAL_DAMAGE = 5,
-    CALL_SURPLUS_POISON_DAMAGE = 5,
-};
+""" + f"""
+ATTRIBUTE_TYPE = {{
+{ATTRIBUTE_TYPE_CODE}
+}};
 """
 
 INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')

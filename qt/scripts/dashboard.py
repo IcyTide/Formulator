@@ -12,6 +12,17 @@ from schools.wen_shui_jue.gains import SecondaryWeapon
 from utils.analyzer import analyze_details, Detail
 
 
+def attr_content(attribute):
+    content = []
+    for attr, name in attribute.display_attrs.items():
+        value = getattr(attribute, attr)
+        if isinstance(value, int):
+            content.append([name, f"{value}"])
+        else:
+            content.append([name, f"{round(value * 100, 2)}%"])
+    return content
+
+
 def summary_content(summary: Dict[str, Detail], total_damage):
     content = []
     for skill in sorted(summary, key=lambda x: summary[x].expected_damage, reverse=True):
@@ -65,7 +76,7 @@ def dashboard_script(parser: Parser,
         for attr, value in equipments.attrs.items():
             setattr(attribute, attr, getattr(attribute, attr) + value)
 
-        dashboard_widget.init_attribute.set_content(school.attr_content(attribute))
+        dashboard_widget.init_attribute.set_content(attr_content(attribute))
         for attr, value in consumables.attrs.items():
             setattr(attribute, attr, getattr(attribute, attr) + value)
 
@@ -85,7 +96,7 @@ def dashboard_script(parser: Parser,
             gain.add(attribute, school.skills, school.dots, school.buffs)
 
         duration = dashboard_widget.duration.spin_box.value()
-        dashboard_widget.final_attribute.set_content(school.attr_content(attribute))
+        dashboard_widget.final_attribute.set_content(attr_content(attribute))
         total, summary, details = analyze_details(record, duration, attribute, school)
 
         for gain in gains:

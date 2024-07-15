@@ -1,36 +1,76 @@
 from base.constant import *
 
 
-class Target:
+class Shield:
     level: int = list(SHIELD_BASE_MAP)[-1]
 
     physical_shield_base: int = 0
-    magical_shield_base: int = 0
+    _magical_shield_base: int = 0
+    solar_shield_base: int = 0
+    lunar_shield_base: int = 0
+    neutral_shield_base: int = 0
+    poison_shield_base: int = 0
+
     physical_shield_gain: int = 0
-    magical_shield_gain: int = 0
-
-    _all_vulnerable: int = 0
-    physical_vulnerable: int = 0
-    magical_vulnerable: int = 0
-
-    _all_damage_cof: int = 0
-    physical_damage_cof: int = 0
-    magical_damage_cof: int = 0
+    solar_shield_gain: int = 0
+    lunar_shield_gain: int = 0
+    neutral_shield_gain: int = 0
+    poison_shield_gain: int = 0
 
     @property
     def level_shield_base(self):
         return SHIELD_BASE_MAP[self.level]
 
     @property
-    def all_vulnerable(self):
-        return self._all_vulnerable
+    def shield_constant(self):
+        return SHIELD_CONSTANT_MAP[self.level]
 
-    @all_vulnerable.setter
-    def all_vulnerable(self, all_vulnerable):
-        residual = all_vulnerable - self._all_vulnerable
-        self.physical_vulnerable += residual
-        self.magical_vulnerable += residual
-        self._all_vulnerable = all_vulnerable
+    @property
+    def magical_shield_base(self):
+        return self._magical_shield_base
+
+    @magical_shield_base.setter
+    def magical_shield_base(self, magical_shield_base):
+        residual = magical_shield_base - self._magical_shield_base
+        self.solar_shield_base += residual
+        self.lunar_shield_base += residual
+        self.neutral_shield_base += residual
+        self.poison_shield_base += residual
+        self._magical_shield_base = magical_shield_base
+
+    @property
+    def physical_shield(self):
+        shield_base = int(self.level_shield_base + self.physical_shield_base)
+        return int(shield_base * (1 + self.poison_shield_gain / BINARY_SCALE))
+
+    @property
+    def solar_shield(self):
+        shield_base = int(self.level_shield_base + self.solar_shield_base)
+        return int(shield_base * (1 + self.solar_shield_gain / BINARY_SCALE))
+
+    @property
+    def lunar_shield(self):
+        shield_base = int(self.level_shield_base + self.lunar_shield_base)
+        return int(shield_base * (1 + self.lunar_shield_gain / BINARY_SCALE))
+
+    @property
+    def neutral_shield(self):
+        shield_base = int(self.level_shield_base + self.neutral_shield_base)
+        return int(shield_base * (1 + self.neutral_shield_gain / BINARY_SCALE))
+
+    @property
+    def poison_shield(self):
+        shield_base = int(self.level_shield_base + self.poison_shield_base)
+        return int(shield_base * (1 + self.poison_shield_gain / BINARY_SCALE))
+
+
+class DamageCoefficient:
+    _all_damage_cof: int = 0
+    physical_damage_cof: int = 0
+    solar_damage_cof: int = 0
+    lunar_damage_cof: int = 0
+    neutral_damage_cof: int = 0
+    poison_damage_cof: int = 0
 
     @property
     def all_damage_cof(self):
@@ -40,17 +80,15 @@ class Target:
     def all_damage_cof(self, all_damage_cof):
         residual = all_damage_cof - self._all_damage_cof
         self.physical_damage_cof += residual
-        self.magical_damage_cof += residual
+        self.solar_damage_cof += residual
+        self.lunar_damage_cof += residual
+        self.neutral_damage_cof += residual
+        self.poison_damage_cof += residual
         self._all_damage_cof = all_damage_cof
 
-    @property
-    def shield_constant(self):
-        return SHIELD_CONSTANT_MAP[self.level]
 
-
-class Major:
+class BaseMajor:
     _all_major_base: int = 0
-    _all_major_gain: int = 0
     agility_base: int = 0
     agility_gain: int = 0
     strength_base: int = 0
@@ -59,26 +97,6 @@ class Major:
     spirit_gain: int = 0
     spunk_base: int = 0
     spunk_gain: int = 0
-
-    physical_attack_power_base: int = 0
-    physical_attack_power_gain: int = 0
-    magical_attack_power_base: int = 0
-    magical_attack_power_gain: int = 0
-
-    _all_critical_strike_base: int = 0
-    _all_critical_strike_rate: int = 0
-
-    physical_critical_strike_base: int = 0
-    physical_critical_strike_rate: int = 0
-    magical_critical_strike_base: int = 0
-    magical_critical_strike_rate: int = 0
-
-    physical_overcome_base: int = 0
-    physical_overcome_gain: int = 0
-    magical_overcome_base: int = 0
-    magical_overcome_gain: int = 0
-
-    """ Major Attr Function"""
 
     @property
     def all_major_base(self):
@@ -92,19 +110,6 @@ class Major:
         self.spirit_base += residual
         self.spunk_base += residual
         self._all_major_base = all_major_base
-
-    @property
-    def all_major_gain(self):
-        return self._all_major_gain
-
-    @all_major_gain.setter
-    def all_major_gain(self, all_major_gain):
-        residual = all_major_gain - self._all_major_gain
-        self.agility_gain += residual
-        self.strength_gain += residual
-        self.spirit_gain += residual
-        self.spunk_gain += residual
-        self._all_major_gain = all_major_gain
 
     @property
     def agility(self):
@@ -122,7 +127,46 @@ class Major:
     def spunk(self):
         return int(self.spunk_base * (1 + self.spunk_gain / BINARY_SCALE))
 
-    """ Attack Power Function """
+    @property
+    def agility_critical_strike_base(self):
+        return int(self.agility * AGILITY_TO_CRITICAL_STRIKE)
+
+    @property
+    def strength_attack_power_base(self):
+        return int(self.strength * STRENGTH_TO_ATTACK_POWER)
+
+    @property
+    def strength_overcome_base(self):
+        return int(self.strength * STRENGTH_TO_OVERCOME)
+
+    @property
+    def spirit_critical_strike_base(self):
+        return int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
+
+    @property
+    def spunk_attack_power_base(self):
+        return int(self.spunk * SPUNK_TO_ATTACK_POWER)
+
+    @property
+    def spunk_overcome_base(self):
+        return int(self.spunk * SPUNK_TO_OVERCOME)
+
+
+class AttackPower(BaseMajor):
+    physical_attack_power_base: int = 0
+    _magical_attack_power_base: int = 0
+    _solar_and_lunar_attack_power_base: int = 0
+    solar_attack_power_base: int = 0
+    lunar_attack_power_base: int = 0
+    neutral_attack_power_base: int = 0
+    poison_attack_power_base: int = 0
+
+    physical_attack_power_gain: int = 0
+    _magical_attack_power_gain: int = 0
+    solar_attack_power_gain: int = 0
+    lunar_attack_power_gain: int = 0
+    neutral_attack_power_gain: int = 0
+    poison_attack_power_gain: int = 0
 
     @property
     def attack_power(self):
@@ -130,7 +174,7 @@ class Major:
 
     @property
     def base_physical_attack_power(self):
-        return int(self.physical_attack_power_base + self.strength * STRENGTH_TO_ATTACK_POWER)
+        return int(self.physical_attack_power_base + self.strength_attack_power_base)
 
     @property
     def extra_physical_attack_power(self):
@@ -138,23 +182,114 @@ class Major:
 
     @property
     def physical_attack_power(self):
-        return int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE) +
-                   self.extra_physical_attack_power)
+        attack_power = int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE))
+        return int(attack_power + self.extra_physical_attack_power)
 
     @property
-    def base_magical_attack_power(self):
-        return int(self.magical_attack_power_base + self.spunk * SPUNK_TO_ATTACK_POWER)
+    def magical_attack_power_base(self):
+        return self._magical_attack_power_base
+
+    @magical_attack_power_base.setter
+    def magical_attack_power_base(self, magical_attack_power_base):
+        residual = magical_attack_power_base - self._magical_attack_power_base
+        self.solar_attack_power_base += residual
+        self.lunar_attack_power_base += residual
+        self.neutral_attack_power_base += residual
+        self.poison_attack_power_base += residual
+        self._magical_attack_power_base = magical_attack_power_base
 
     @property
-    def extra_magical_attack_power(self):
+    def magical_attack_power_gain(self):
+        return self._magical_attack_power_gain
+
+    @magical_attack_power_gain.setter
+    def magical_attack_power_gain(self, magical_attack_power_gain):
+        residual = magical_attack_power_gain - self._magical_attack_power_gain
+        self.solar_attack_power_gain += residual
+        self.lunar_attack_power_gain += residual
+        self.neutral_attack_power_gain += residual
+        self.poison_attack_power_gain += residual
+        self._magical_attack_power_gain = magical_attack_power_gain
+
+    @property
+    def solar_and_lunar_attack_power_base(self):
+        return self._solar_and_lunar_attack_power_base
+
+    @solar_and_lunar_attack_power_base.setter
+    def solar_and_lunar_attack_power_base(self, solar_and_lunar_attack_power_base):
+        residual = solar_and_lunar_attack_power_base - self._solar_and_lunar_attack_power_base
+        self.solar_attack_power_base += residual
+        self.lunar_attack_power_base += residual
+        self._solar_and_lunar_attack_power_base = solar_and_lunar_attack_power_base
+
+    @property
+    def base_solar_attack_power(self):
+        return int(self.solar_attack_power_base + self.spunk_attack_power_base)
+
+    @property
+    def extra_solar_attack_power(self):
         return 0
 
     @property
-    def magical_attack_power(self):
-        return int(self.base_magical_attack_power * (1 + self.magical_attack_power_gain / BINARY_SCALE) +
-                   self.extra_magical_attack_power)
+    def solar_attack_power(self):
+        attack_power = int(self.base_solar_attack_power * (1 + self.solar_attack_power_gain / BINARY_SCALE))
+        return int(attack_power + self.extra_solar_attack_power)
 
-    """ Critical Strike Function"""
+    @property
+    def base_lunar_attack_power(self):
+        return int(self.lunar_attack_power_base + self.spunk_attack_power_base)
+
+    @property
+    def extra_lunar_attack_power(self):
+        return 0
+
+    @property
+    def lunar_attack_power(self):
+        attack_power = int(self.base_lunar_attack_power * (1 + self.lunar_attack_power_gain / BINARY_SCALE))
+        return int(attack_power + self.extra_lunar_attack_power)
+
+    @property
+    def base_neutral_attack_power(self):
+        return int(self.neutral_attack_power_base + self.spunk_attack_power_base)
+
+    @property
+    def extra_neutral_attack_power(self):
+        return 0
+
+    @property
+    def neutral_attack_power(self):
+        attack_power = int(self.base_neutral_attack_power * (1 + self.neutral_attack_power_gain / BINARY_SCALE))
+        return int(attack_power + self.extra_neutral_attack_power)
+
+    @property
+    def base_poison_attack_power(self):
+        return int(self.poison_attack_power_base + self.spunk_attack_power_base)
+
+    @property
+    def extra_poison_attack_power(self):
+        return 0
+
+    @property
+    def poison_attack_power(self):
+        attack_power = int(self.base_poison_attack_power * (1 + self.poison_attack_power_gain / BINARY_SCALE))
+        return int(attack_power + self.extra_poison_attack_power)
+
+
+class CriticalStrike(BaseMajor):
+    _all_critical_strike_base: int = 0
+    physical_critical_strike_base: int = 0
+    _magical_critical_strike_base: int = 0
+    _solar_and_lunar_critical_strike_base: int = 0
+    solar_critical_strike_base: int = 0
+    lunar_critical_strike_base: int = 0
+    neutral_critical_strike_base: int = 0
+    poison_critical_strike_base: int = 0
+
+    physical_critical_strike_rate: int = 0
+    solar_critical_strike_rate: int = 0
+    lunar_critical_strike_rate: int = 0
+    neutral_critical_strike_rate: int = 0
+    poison_critical_strike_rate: int = 0
 
     @property
     def critical_strike(self):
@@ -172,51 +307,144 @@ class Major:
         self._all_critical_strike_base = all_critical_strike_base
 
     @property
-    def all_critical_strike_rate(self):
-        return self._all_critical_strike_rate
-
-    @all_critical_strike_rate.setter
-    def all_critical_strike_rate(self, all_critical_strike_rate):
-        residual = all_critical_strike_rate - self._all_critical_strike_rate
-        self.physical_critical_strike_rate += residual
-        self.magical_critical_strike_rate += residual
-        self._all_critical_strike_rate = all_critical_strike_rate
+    def base_physical_critical_strike(self):
+        return int(self.physical_critical_strike_base + self.agility_critical_strike_base)
 
     @property
     def extra_physical_critical_strike(self):
         return 0
 
     @property
-    def base_physical_critical_strike(self):
-        return int(self.physical_critical_strike_base + self.agility * AGILITY_TO_CRITICAL_STRIKE +
-                   self.extra_physical_critical_strike)
+    def final_physical_critical_strike(self):
+        return int(self.base_physical_critical_strike + self.extra_physical_critical_strike)
 
     @property
     def physical_critical_strike_percent(self):
-        return self.base_physical_critical_strike / CRITICAL_STRIKE_SCALE
+        return self.final_physical_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def physical_critical_strike(self):
         return self.physical_critical_strike_percent + self.physical_critical_strike_rate / DECIMAL_SCALE
 
     @property
-    def extra_magical_critical_strike(self):
+    def magical_critical_strike_base(self):
+        return self._magical_critical_strike_base
+
+    @magical_critical_strike_base.setter
+    def magical_critical_strike_base(self, magical_critical_strike_base):
+        residual = magical_critical_strike_base - self._magical_critical_strike_base
+        self.solar_critical_strike_base += residual
+        self.lunar_critical_strike_base += residual
+        self.neutral_critical_strike_base += residual
+        self.poison_critical_strike_base += residual
+        self._magical_critical_strike_base = magical_critical_strike_base
+
+    @property
+    def solar_and_lunar_critical_strike_base(self):
+        return self._solar_and_lunar_critical_strike_base
+
+    @solar_and_lunar_critical_strike_base.setter
+    def solar_and_lunar_critical_strike_base(self, solar_and_lunar_critical_strike_base):
+        residual = solar_and_lunar_critical_strike_base - self._solar_and_lunar_critical_strike_base
+        self.solar_critical_strike_base += residual
+        self.lunar_critical_strike_base += residual
+        self._solar_and_lunar_critical_strike_base = solar_and_lunar_critical_strike_base
+
+    @property
+    def base_solar_critical_strike(self):
+        return int(self.solar_critical_strike_base + self.spirit_critical_strike_base)
+
+    @property
+    def extra_solar_critical_strike(self):
         return 0
 
     @property
-    def base_magical_critical_strike(self):
-        return int(self.magical_critical_strike_base + self.extra_magical_critical_strike +
-                   self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
+    def final_solar_critical_strike(self):
+        return int(self.base_solar_critical_strike + self.extra_solar_critical_strike)
 
     @property
-    def magical_critical_strike_percent(self):
-        return self.base_magical_critical_strike / CRITICAL_STRIKE_SCALE
+    def solar_critical_strike_percent(self):
+        return self.final_solar_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
-    def magical_critical_strike(self):
-        return self.magical_critical_strike_percent + self.magical_critical_strike_rate / DECIMAL_SCALE
+    def solar_critical_strike(self):
+        return self.solar_critical_strike_percent + self.solar_critical_strike_rate / DECIMAL_SCALE
 
-    """ Overcome Function"""
+    @property
+    def base_lunar_critical_strike(self):
+        return int(self.lunar_critical_strike_base + self.spirit_critical_strike_base)
+
+    @property
+    def extra_lunar_critical_strike(self):
+        return 0
+
+    @property
+    def final_lunar_critical_strike(self):
+        return int(self.base_lunar_critical_strike + self.extra_lunar_critical_strike)
+
+    @property
+    def lunar_critical_strike_percent(self):
+        return self.final_lunar_critical_strike / CRITICAL_STRIKE_SCALE
+
+    @property
+    def lunar_critical_strike(self):
+        return self.lunar_critical_strike_percent + self.lunar_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def base_neutral_critical_strike(self):
+        return int(self.neutral_critical_strike_base + self.spirit_critical_strike_base)
+
+    @property
+    def extra_neutral_critical_strike(self):
+        return 0
+
+    @property
+    def final_neutral_critical_strike(self):
+        return int(self.base_neutral_critical_strike + self.extra_neutral_critical_strike)
+
+    @property
+    def neutral_critical_strike_percent(self):
+        return self.final_neutral_critical_strike / CRITICAL_STRIKE_SCALE
+
+    @property
+    def neutral_critical_strike(self):
+        return self.neutral_critical_strike_percent + self.neutral_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def base_poison_critical_strike(self):
+        return int(self.poison_critical_strike_base + self.spirit_critical_strike_base)
+
+    @property
+    def extra_poison_critical_strike(self):
+        return 0
+
+    @property
+    def final_poison_critical_strike(self):
+        return int(self.base_poison_critical_strike + self.extra_poison_critical_strike)
+
+    @property
+    def poison_critical_strike_percent(self):
+        return self.final_poison_critical_strike / CRITICAL_STRIKE_SCALE
+
+    @property
+    def poison_critical_strike(self):
+        return self.poison_critical_strike_percent + self.poison_critical_strike_rate / DECIMAL_SCALE
+
+
+class Overcome(BaseMajor):
+    physical_overcome_base: int = 0
+    _magical_overcome_base: int = 0
+    _solar_and_lunar_overcome_base: int = 0
+    solar_overcome_base: int = 0
+    lunar_overcome_base: int = 0
+    neutral_overcome_base: int = 0
+    poison_overcome_base: int = 0
+
+    physical_overcome_gain: int = 0
+    solar_overcome_gain: int = 0
+    lunar_overcome_gain: int = 0
+    neutral_overcome_gain: int = 0
+    poison_overcome_gain: int = 0
 
     @property
     def overcome(self):
@@ -224,7 +452,7 @@ class Major:
 
     @property
     def base_physical_overcome(self):
-        return int(self.physical_overcome_base + self.strength * STRENGTH_TO_OVERCOME)
+        return int(self.physical_overcome_base + self.strength_overcome_base)
 
     @property
     def extra_physical_overcome(self):
@@ -232,81 +460,126 @@ class Major:
 
     @property
     def final_physical_overcome(self):
-        return int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE) +
-                   self.extra_physical_overcome)
+        overcome = int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE))
+        return int(overcome + self.extra_physical_overcome)
 
     @property
     def physical_overcome(self):
         return self.final_physical_overcome / OVERCOME_SCALE
 
     @property
-    def base_magical_overcome(self):
-        return int(self.magical_overcome_base + self.spunk * SPUNK_TO_OVERCOME)
+    def magical_overcome_base(self):
+        return self._magical_overcome_base
+
+    @magical_overcome_base.setter
+    def magical_overcome_base(self, magical_overcome_base):
+        residual = magical_overcome_base - self._magical_overcome_base
+        self.solar_overcome_base += residual
+        self.lunar_overcome_base += residual
+        self.neutral_overcome_base += residual
+        self.poison_overcome_base += residual
+        self._magical_overcome_base = magical_overcome_base
 
     @property
-    def extra_magical_overcome(self):
+    def solar_and_lunar_overcome_base(self):
+        return self._solar_and_lunar_overcome_base
+
+    @solar_and_lunar_overcome_base.setter
+    def solar_and_lunar_overcome_base(self, solar_and_lunar_overcome_base):
+        residual = solar_and_lunar_overcome_base - self._solar_and_lunar_overcome_base
+        self.solar_overcome_base += residual
+        self.lunar_overcome_base += residual
+        self._solar_and_lunar_overcome_base = solar_and_lunar_overcome_base
+
+    @property
+    def base_solar_overcome(self):
+        return int(self.solar_overcome_base + self.spunk_overcome_base)
+
+    @property
+    def extra_solar_overcome(self):
         return 0
 
     @property
-    def final_magical_overcome(self):
-        return int(self.base_magical_overcome * (1 + self.magical_overcome_gain / BINARY_SCALE) +
-                   self.extra_magical_overcome)
+    def final_solar_overcome(self):
+        overcome = int(self.base_solar_overcome * (1 + self.solar_overcome_gain / BINARY_SCALE))
+        return int(overcome + self.extra_solar_overcome)
 
     @property
-    def magical_overcome(self):
-        return self.final_magical_overcome / OVERCOME_SCALE
+    def solar_overcome(self):
+        return self.final_solar_overcome / OVERCOME_SCALE
+
+    @property
+    def base_lunar_overcome(self):
+        return int(self.lunar_overcome_base + self.spunk_overcome_base)
+
+    @property
+    def extra_lunar_overcome(self):
+        return 0
+
+    @property
+    def final_lunar_overcome(self):
+        overcome = int(self.base_lunar_overcome * (1 + self.lunar_overcome_gain / BINARY_SCALE))
+        return int(overcome + self.extra_lunar_overcome)
+
+    @property
+    def lunar_overcome(self):
+        return self.final_lunar_overcome / OVERCOME_SCALE
+
+    @property
+    def base_neutral_overcome(self):
+        return int(self.neutral_overcome_base + self.spunk_overcome_base)
+
+    @property
+    def extra_neutral_overcome(self):
+        return 0
+
+    @property
+    def final_neutral_overcome(self):
+        overcome = int(self.base_neutral_overcome * (1 + self.neutral_overcome_gain / BINARY_SCALE))
+        return int(overcome + self.extra_neutral_overcome)
+
+    @property
+    def neutral_overcome(self):
+        return self.final_neutral_overcome / OVERCOME_SCALE
+
+    @property
+    def base_poison_overcome(self):
+        return int(self.poison_overcome_base + self.spunk_overcome_base)
+
+    @property
+    def extra_poison_overcome(self):
+        return 0
+
+    @property
+    def final_poison_overcome(self):
+        overcome = int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
+        return int(self.base_poison_overcome + self.extra_poison_overcome)
+
+    @property
+    def poison_overcome(self):
+        return self.final_poison_overcome / OVERCOME_SCALE
 
 
-class Minor:
-    surplus_base: int = 0
-    surplus_gain: int = 0
+class Major(AttackPower, CriticalStrike, Overcome):
+    pass
 
-    strain_base: int = 0
-    strain_gain: int = 0
-    strain_rate: int = 0
 
-    haste_base: int = 0  # Not Apply
-
+class CriticalPower:
     _all_critical_power_base: int = 0
-    _all_critical_power_rate: int = 0
-
     physical_critical_power_base: int = 0
+    _magical_critical_power_base: int = 0
+    _solar_and_lunar_critical_power_base: int = 0
+    solar_critical_power_base: int = 0
+    lunar_critical_power_base: int = 0
+    neutral_critical_power_base: int = 0
+    poison_critical_power_base: int = 0
+
     physical_critical_power_rate: int = 0
-    magical_critical_power_base: int = 0
-    magical_critical_power_rate: int = 0
-
-    weapon_damage_rand: int = 0
-    weapon_damage_base: int = 0
-    weapon_damage_gain: int = 0
-
-    _all_shield_ignore: int = 0
-
-    physical_shield_ignore: int = 0
-    magical_shield_ignore: int = 0
-
-    _all_damage_addition: int = 0
-    physical_damage_addition: int = 0
-    magical_damage_addition: int = 0
-
-    pve_addition: int = 0
-    damage_gain: int = 0
-    global_damage_cof: float = 1.
-
-    """ Minor Function """
-
-    @property
-    def surplus(self):
-        return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
-
-    @property
-    def final_strain(self):
-        return int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
-
-    @property
-    def strain(self):
-        return self.final_strain / STRAIN_SCALE + self.strain_rate / BINARY_SCALE
-
-    """ Critical Power Function"""
+    _magical_critical_power_rate: int = 0
+    solar_critical_power_rate: int = 0
+    lunar_critical_power_rate: int = 0
+    neutral_critical_power_rate: int = 0
+    poison_critical_power_rate: int = 0
 
     @property
     def critical_power(self):
@@ -324,66 +597,107 @@ class Minor:
         self._all_critical_power_base = all_critical_power_base
 
     @property
-    def all_critical_power_rate(self):
-        return self._all_critical_power_rate
-
-    @all_critical_power_rate.setter
-    def all_critical_power_rate(self, all_critical_power_rate):
-        residual = all_critical_power_rate - self._all_critical_power_rate
-        self.physical_critical_power_rate += residual
-        self.magical_critical_power_rate += residual
-        self._all_critical_power_rate = all_critical_power_rate
-
-    @property
-    def base_physical_critical_power(self):
+    def extra_physical_critical_power(self):
         return self.physical_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
     def physical_critical_power_percent(self):
-        return BASE_CRITICAL_POWER + self.base_physical_critical_power
+        return BASE_CRITICAL_POWER + self.extra_physical_critical_power
 
     @property
     def physical_critical_power(self):
         return self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
 
     @property
-    def base_magical_critical_power(self):
-        return self.magical_critical_power_base / CRITICAL_POWER_SCALE
+    def magical_critical_power_base(self):
+        return self._magical_critical_power_base
+
+    @magical_critical_power_base.setter
+    def magical_critical_power_base(self, magical_critical_power_base):
+        residual = magical_critical_power_base - self._magical_critical_power_base
+        self.solar_critical_power_base += residual
+        self.lunar_critical_power_base += residual
+        self.neutral_critical_power_base += residual
+        self.poison_critical_power_base += residual
+        self._magical_critical_power_base = magical_critical_power_base
 
     @property
-    def magical_critical_power_percent(self):
-        return BASE_CRITICAL_POWER + self.magical_critical_power_base / CRITICAL_POWER_SCALE
+    def magical_critical_power_rate(self):
+        return self._magical_critical_power_rate
+
+    @magical_critical_power_rate.setter
+    def magical_critical_power_rate(self, magical_critical_power_rate):
+        residual = magical_critical_power_rate - self._magical_critical_power_rate
+        self.solar_critical_power_rate += residual
+        self.lunar_critical_power_rate += residual
+        self.neutral_critical_power_rate += residual
+        self.poison_critical_power_rate += residual
+        self._magical_critical_power_rate = magical_critical_power_rate
 
     @property
-    def magical_critical_power(self):
-        return self.magical_critical_power_percent + self.magical_critical_power_rate / BINARY_SCALE
+    def solar_and_lunar_critical_power_base(self):
+        return self._solar_and_lunar_critical_power_base
 
-    """ Weapon Skill Function """
-
-    @property
-    def base_weapon_damage(self):
-        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
-
-    @property
-    def weapon_damage(self):
-        return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
-
-    """ Others """
+    @solar_and_lunar_critical_power_base.setter
+    def solar_and_lunar_critical_power_base(self, solar_and_lunar_critical_power_base):
+        residual = solar_and_lunar_critical_power_base - self._solar_and_lunar_critical_power_base
+        self.solar_critical_power_base += residual
+        self.lunar_critical_power_base += residual
+        self._solar_and_lunar_critical_power_base = solar_and_lunar_critical_power_base
 
     @property
-    def shield_ignore(self):
-        raise NotImplementedError
+    def extra_solar_critical_power(self):
+        return self.solar_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
-    def all_shield_ignore(self):
-        return self._all_shield_ignore
+    def solar_critical_power_percent(self):
+        return BASE_CRITICAL_POWER + self.extra_solar_critical_power
 
-    @all_shield_ignore.setter
-    def all_shield_ignore(self, all_shield_ignore):
-        residual = all_shield_ignore - self._all_shield_ignore
-        self.physical_shield_ignore += residual
-        self.magical_shield_ignore += residual
-        self._all_shield_ignore = all_shield_ignore
+    @property
+    def solar_critical_power(self):
+        return self.solar_critical_power_percent + self.solar_critical_power_rate / BINARY_SCALE
+
+    @property
+    def extra_lunar_critical_power(self):
+        return self.lunar_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
+    def lunar_critical_power_percent(self):
+        return BASE_CRITICAL_POWER + self.extra_lunar_critical_power
+
+    @property
+    def lunar_critical_power(self):
+        return self.lunar_critical_power_percent + self.lunar_critical_power_rate / BINARY_SCALE
+
+    @property
+    def extra_neutral_critical_power(self):
+        return self.neutral_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
+    def neutral_critical_power_percent(self):
+        return BASE_CRITICAL_POWER + self.extra_neutral_critical_power
+
+    @property
+    def neutral_critical_power(self):
+        return self.neutral_critical_power_percent + self.neutral_critical_power_rate / BINARY_SCALE
+
+    @property
+    def extra_poison_critical_power(self):
+        return self.poison_critical_power_base / CRITICAL_POWER_SCALE
+
+    @property
+    def poison_critical_power_percent(self):
+        return BASE_CRITICAL_POWER + self.extra_poison_critical_power
+
+    @property
+    def poison_critical_power(self):
+        return self.poison_critical_power_percent + self.poison_critical_power_rate / BINARY_SCALE
+
+
+class DamageAddition:
+    _all_damage_addition: int = 0
+    physical_damage_addition: int = 0
+    magical_damage_addition: int = 0
 
     @property
     def damage_addition(self):
@@ -401,14 +715,68 @@ class Minor:
         self._all_damage_addition = all_damage_addition
 
 
+class Minor(CriticalPower, DamageAddition):
+    surplus_base: int = 0
+    surplus_gain: int = 0
+
+    strain_base: int = 0
+    strain_gain: int = 0
+    strain_rate: int = 0
+
+    haste_base: int = 0  # Not Apply
+
+    weapon_damage_rand: int = 0
+    weapon_damage_base: int = 0
+    weapon_damage_gain: int = 0
+
+    all_shield_ignore: int = 0
+
+    pve_addition: int = 0
+    damage_gain: int = 0
+    global_damage_factor: float = 1.
+
+    @property
+    def surplus(self):
+        return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
+
+    @property
+    def final_strain(self):
+        return int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
+
+    @property
+    def strain(self):
+        return self.final_strain / STRAIN_SCALE + self.strain_rate / BINARY_SCALE
+
+    @property
+    def base_weapon_damage(self):
+        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
+
+    @property
+    def weapon_damage(self):
+        return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
+
+
+class Target(Shield, DamageCoefficient):
+    pass
+
+
 class Attribute(Major, Minor, Target):
     level: int = LEVEL
-    grad_attrs: dict = None
+    grad_attrs: dict = dict(
+        surplus_base=MINOR_DELTA,
+        strain_base=MINOR_DELTA
+    )
+    display_attrs: dict = dict(
+        strain_base="无双等级",
+        strain="无双",
+        surplus="破招",
+        base_weapon_damage="基础武器伤害",
+        weapon_damage_rand="浮动武器伤害",
+    )
     platform: int = 0
-
+    
     def __init__(self):
         self.all_major_base += MAJOR_BASE
-        # self.all_critical_power_base = 0  # init critical power attr
         self.target = Target()
 
     @property
@@ -416,11 +784,7 @@ class Attribute(Major, Minor, Target):
         return LEVEL_REDUCTION_MAP[self.target.level]
 
     @property
-    def target_shield_base(self):
-        raise NotImplementedError
-
-    @property
-    def target_shield_gain(self):
+    def target_shield(self):
         raise NotImplementedError
 
     @property
@@ -429,18 +793,31 @@ class Attribute(Major, Minor, Target):
 
 
 class PhysicalAttribute(Attribute):
-    grad_attrs = {
-        "agility_base": MAJOR_DELTA,
-        "strength_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "physical_attack_power_base": PHYSICAL_DELTA,
-        "physical_critical_strike_base": MINOR_DELTA,
-        "physical_critical_power_base": MINOR_DELTA,
-        "physical_overcome_base": MINOR_DELTA,
-        "weapon_damage_base": WEAPON_DELTA
-    }
-
+    grad_attrs = dict(
+        agility_base=MAJOR_DELTA,
+        strength_base=MAJOR_DELTA,
+        **Attribute.grad_attrs,
+        physical_attack_power_base=PHYSICAL_DELTA,
+        physical_critical_strike_base=MINOR_DELTA,
+        physical_critical_power_base=MINOR_DELTA,
+        physical_overcome_base=MINOR_DELTA,
+        weapon_damage_base=WEAPON_DELTA
+    )
+    display_attrs = dict(
+        agility="身法",
+        strength="力道",
+        base_physical_attack_power="外功基础攻击",
+        physical_attack_power="外功攻击",
+        final_physical_critical_strike="外功会心等级",
+        physical_critical_strike="外功会心",
+        physical_critical_power_base="外功会心效果等级",
+        physical_critical_power="外功会心效果",
+        base_physical_overcome="外功基础破防",
+        final_physical_overcome="外功最终破防",
+        physical_overcome="外功破防",
+        **Attribute.display_attrs
+    )
+    
     @property
     def attack_power(self):
         return self.physical_attack_power
@@ -450,28 +827,20 @@ class PhysicalAttribute(Attribute):
         return self.physical_critical_strike
 
     @property
-    def critical_power(self):
-        return self.physical_critical_power
-
-    @property
     def overcome(self):
         return self.physical_overcome
+
+    @property
+    def critical_power(self):
+        return self.physical_critical_power
 
     @property
     def damage_addition(self):
         return self.physical_damage_addition
 
     @property
-    def shield_ignore(self):
-        return self.physical_shield_ignore
-
-    @property
-    def target_shield_base(self):
-        return self.target.physical_shield_base
-
-    @property
-    def target_shield_gain(self):
-        return self.target.physical_shield_gain
+    def target_shield(self):
+        return self.target.physical_shield
 
     @property
     def target_damage_cof(self):
@@ -479,98 +848,235 @@ class PhysicalAttribute(Attribute):
 
 
 class MagicalAttribute(Attribute):
-    grad_attrs = {
-        "spirit_base": MAJOR_DELTA,
-        "spunk_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "magical_attack_power_base": MAGICAL_DELTA,
-        "magical_critical_strike_base": MINOR_DELTA,
-        "magical_critical_power_base": MINOR_DELTA,
-        "magical_overcome_base": MINOR_DELTA
-    }
-
-    @property
-    def attack_power(self):
-        return self.magical_attack_power
-
-    @property
-    def critical_strike(self):
-        return self.magical_critical_strike
-
-    @property
-    def critical_power(self):
-        return self.magical_critical_power
-
-    @property
-    def overcome(self):
-        return self.magical_overcome
-
-    @property
-    def shield_ignore(self):
-        return self.magical_shield_ignore
-
+    grad_attrs = dict(
+        spirit_base=MAJOR_DELTA,
+        spunk_base=MAJOR_DELTA,
+        **Attribute.grad_attrs,
+        magical_attack_power_base=MAGICAL_DELTA,
+        all_critical_strike_base=MINOR_DELTA,
+        all_critical_power_base=MINOR_DELTA,
+        magical_overcome_base=MINOR_DELTA
+    )
+    display_attrs = dict(
+        spirit="根骨",
+        spunk="元气"
+    )
+    
     @property
     def damage_addition(self):
         return self.magical_damage_addition
 
+
+class SolarAttribute(Attribute):
+    display_attrs = dict(
+        **MagicalAttribute.display_attrs,
+        base_solar_attack_power="阳性基础攻击",
+        solar_attack_power="阳性攻击",
+        final_solar_critical_strike="阳性会心等级",
+        solar_critical_strike="阳性会心",
+        solar_critical_power_base="阳性会心效果等级",
+        solar_critical_power="阳性会心效果",
+        base_solar_overcome="阳性基础破防",
+        final_solar_overcome="阳性最终破防",
+        solar_overcome="阳性破防",
+        **Attribute.display_attrs
+    )
+    
     @property
-    def target_shield_base(self):
-        return self.target.magical_shield_base
+    def attack_power(self):
+        return self.solar_attack_power
 
     @property
-    def target_shield_gain(self):
-        return self.target.magical_shield_gain
+    def critical_strike(self):
+        return self.solar_critical_strike
+
+    @property
+    def overcome(self):
+        return self.solar_overcome
+
+    @property
+    def critical_power(self):
+        return self.solar_critical_power
+
+    @property
+    def target_shield(self):
+        return self.target.solar_shield
 
     @property
     def target_damage_cof(self):
-        return self.target.magical_damage_cof
+        return self.target.solar_damage_cof
 
 
-class MixingAttribute(Attribute):
-    grad_attrs = {
-        "agility_base": MAJOR_DELTA,
-        "spunk_base": MAJOR_DELTA,
-        "surplus_base": MINOR_DELTA,
-        "strain_base": MINOR_DELTA,
-        "magical_attack_power_base": MAGICAL_DELTA,
-        "physical_critical_strike_base": MINOR_DELTA,
-        "physical_critical_power_base": MINOR_DELTA,
-        "magical_overcome_base": MINOR_DELTA
-    }
+class LunarAttribute(Attribute):
+    display_attrs = dict(
+        **MagicalAttribute.display_attrs,
+        base_lunar_attack_power="阴性基础攻击",
+        lunar_attack_power="阴性攻击",
+        final_lunar_critical_strike="阴性会心等级",
+        lunar_critical_strike="阴性会心",
+        lunar_critical_power_base="阴性会心效果等级",
+        lunar_critical_power="阴性会心效果",
+        base_lunar_overcome="阴性基础破防",
+        final_lunar_overcome="阴性最终破防",
+        lunar_overcome="阴性破防",
+        **Attribute.display_attrs
+    )
+    
+    @property
+    def attack_power(self):
+        return self.lunar_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.lunar_critical_strike
+
+    @property
+    def overcome(self):
+        return self.lunar_overcome
+
+    @property
+    def critical_power(self):
+        return self.lunar_critical_power
+
+    @property
+    def target_shield(self):
+        return self.target.lunar_shield
+
+    @property
+    def target_damage_cof(self):
+        return self.target.lunar_damage_cof
+
+
+class NeutralAttribute(Attribute):
+    display_attrs = dict(
+        **MagicalAttribute.display_attrs,
+        base_neutral_attack_power="混元基础攻击",
+        neutral_attack_power="混元攻击",
+        final_neutral_critical_strike="混元会心等级",
+        neutral_critical_strike="混元会心",
+        neutral_critical_power_base="混元会心效果等级",
+        neutral_critical_power="混元会心效果",
+        base_neutral_overcome="混元基础破防",
+        final_neutral_overcome="混元最终破防",
+        neutral_overcome="混元破防",
+        **Attribute.display_attrs
+    )
 
     @property
     def attack_power(self):
-        return self.magical_attack_power
+        return self.neutral_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.neutral_critical_strike
+
+    @property
+    def overcome(self):
+        return self.neutral_overcome
+
+    @property
+    def critical_power(self):
+        return self.neutral_critical_power
+
+    @property
+    def target_shield(self):
+        return self.target.neutral_shield
+
+    @property
+    def target_damage_cof(self):
+        return self.target.neutral_damage_cof
+
+
+class PoisonAttribute(Attribute):
+    display_attrs = dict(
+        **MagicalAttribute.display_attrs,
+        base_poison_attack_power="毒性基础攻击",
+        poison_attack_power="毒性攻击",
+        final_poison_critical_strike="毒性会心等级",
+        poison_critical_strike="毒性会心",
+        poison_critical_power_base="毒性会心效果等级",
+        poison_critical_power="毒性会心效果",
+        base_poison_overcome="毒性基础破防",
+        final_poison_overcome="毒性最终破防",
+        poison_overcome="毒性破防",
+        **Attribute.display_attrs
+    )
+
+    @property
+    def attack_power(self):
+        return self.poison_attack_power
+
+    @property
+    def critical_strike(self):
+        return self.poison_critical_strike
+
+    @property
+    def overcome(self):
+        return self.poison_overcome
+
+    @property
+    def critical_power(self):
+        return self.poison_critical_power
+
+    @property
+    def target_shield(self):
+        return self.target.poison_shield
+
+    @property
+    def target_damage_cof(self):
+        return self.target.poison_damage_cof
+
+
+class MixingAttribute(Attribute):
+    grad_attrs = dict(
+        agility_base=MAJOR_DELTA,
+        spunk_base=MAJOR_DELTA,
+        surplus_base=MINOR_DELTA,
+        strain_base=MINOR_DELTA,
+        magical_attack_power_base=MAGICAL_DELTA,
+        all_critical_strike_base=MINOR_DELTA,
+        all_critical_power_base=MINOR_DELTA,
+        magical_overcome_base=MINOR_DELTA
+    )
+    display_attrs = dict(
+        agility="身法",
+        spunk="元气",
+        base_poison_attack_power="毒性基础攻击",
+        poison_attack_power="毒性攻击",
+        final_physical_critical_strike="外功会心等级",
+        physical_critical_strike="外功会心",
+        physical_critical_power_base="外功会心效果等级",
+        physical_critical_power="外功会心效果",
+        base_poison_overcome="毒性基础破防",
+        final_poison_overcome="毒性最终破防",
+        poison_overcome="毒性破防",
+        **Attribute.display_attrs
+    )
+
+    @property
+    def attack_power(self):
+        return self.poison_attack_power
 
     @property
     def critical_strike(self):
         return self.physical_critical_strike
 
     @property
+    def overcome(self):
+        return self.poison_overcome
+
+    @property
     def critical_power(self):
         return self.physical_critical_power
-
-    @property
-    def overcome(self):
-        return self.magical_overcome
-
-    @property
-    def shield_ignore(self):
-        return self.magical_shield_ignore
 
     @property
     def damage_addition(self):
         return self.magical_damage_addition
 
     @property
-    def target_shield_base(self):
-        return self.target.magical_shield_base
-
-    @property
-    def target_shield_gain(self):
-        return self.target.magical_shield_gain
+    def target_shield(self):
+        return self.target.poison_shield
 
     @property
     def target_damage_cof(self):
-        return self.target.magical_damage_cof
+        return self.target.poison_damage_cof

@@ -15,9 +15,18 @@ def parse_dot(row):
         if attr == "atCallPhysicsDamage":
             result["damage_base"] = int(param_1)
             result["physical_damage_call"] = 1
-        elif attr in ["atCallSolarDamage", "atCallLunarDamage", "atCallNeutralDamage", "atCallPoisonDamage"]:
+        elif attr == "atCallSolarDamage":
             result["damage_base"] = int(param_1)
-            result["magical_damage_call"] = 1
+            result["solar_damage_call"] = 1
+        elif attr == "atCallLunarDamage":
+            result["damage_base"] = int(param_1)
+            result["lunar_damage_call"] = 1
+        elif attr == "atCallNeutralDamage":
+            result["damage_base"] = int(param_1)
+            result["neutral_damage_call"] = 1
+        elif attr == "atCallPoisonDamage":
+            result["damage_base"] = int(param_1)
+            result["poison_damage_call"] = 1
         # elif attr in ATTR_TYPE_MAP:
         #     if "attributes" not in result:
         #         result["attributes"] = {}

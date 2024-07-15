@@ -2195,7 +2195,10 @@ BUFFS = {
     940: {
         "attributes": {
             "physical_critical_strike_rate": 10000,
-            "magical_critical_strike_rate": 10000
+            "solar_critical_strike_rate": 10000,
+            "neutral_critical_strike_rate": 10000,
+            "lunar_critical_strike_rate": 10000,
+            "poison_critical_strike_rate": 10000
         },
         "max_level": 2,
         "max_stack": 1,
@@ -2230,7 +2233,10 @@ BUFFS = {
     },
     943: {
         "attributes": {
-            "magical_critical_strike_rate": 100
+            "solar_critical_strike_rate": 100,
+            "neutral_critical_strike_rate": 100,
+            "lunar_critical_strike_rate": 100,
+            "poison_critical_strike_rate": 100
         },
         "max_level": 1,
         "max_stack": 5,
@@ -2262,7 +2268,10 @@ BUFFS = {
     },
     954: {
         "attributes": {
-            "magical_overcome_gain": 307
+            "solar_overcome_gain": 307,
+            "neutral_overcome_gain": 307,
+            "lunar_overcome_gain": 307,
+            "poison_overcome_gain": 307
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2278,7 +2287,10 @@ BUFFS = {
     },
     956: {
         "attributes": {
-            "magical_critical_strike_rate": 2000
+            "solar_critical_strike_rate": 2000,
+            "neutral_critical_strike_rate": 2000,
+            "lunar_critical_strike_rate": 2000,
+            "poison_critical_strike_rate": 2000
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2302,7 +2314,7 @@ BUFFS = {
     },
     2513: {
         "attributes": {
-            "magical_attack_power_gain": 51
+            "poison_attack_power_gain": 51
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2310,7 +2322,10 @@ BUFFS = {
     },
     2514: {
         "attributes": {
-            "magical_overcome_gain": 102
+            "solar_overcome_gain": 102,
+            "neutral_overcome_gain": 102,
+            "lunar_overcome_gain": 102,
+            "poison_overcome_gain": 102
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2318,7 +2333,7 @@ BUFFS = {
     },
     2510: {
         "attributes": {
-            "magical_critical_strike_rate": 2000
+            "poison_critical_strike_rate": 2000
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2343,7 +2358,10 @@ BUFFS = {
     3310: {
         "attributes": {
             "physical_critical_strike_rate": 500,
-            "magical_critical_strike_rate": 500
+            "solar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "lunar_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2351,7 +2369,8 @@ BUFFS = {
     },
     4584: {
         "attributes": {
-            "magical_critical_power_rate": 200
+            "solar_critical_power_rate": 200,
+            "lunar_critical_power_rate": 200
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2359,7 +2378,10 @@ BUFFS = {
     },
     4586: {
         "attributes": {
-            "magical_critical_strike_rate": 1000
+            "solar_critical_strike_rate": 1000,
+            "neutral_critical_strike_rate": 1000,
+            "lunar_critical_strike_rate": 1000,
+            "poison_critical_strike_rate": 1000
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2415,7 +2437,7 @@ BUFFS = {
     },
     9486: {
         "attributes": {
-            "magical_critical_power_rate": 205
+            "lunar_critical_power_rate": 205
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2423,7 +2445,10 @@ BUFFS = {
     },
     9492: {
         "attributes": {
-            "magical_critical_strike_rate": 500
+            "solar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "lunar_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2431,7 +2456,10 @@ BUFFS = {
     },
     9489: {
         "attributes": {
-            "magical_overcome_gain": 102
+            "solar_overcome_gain": 102,
+            "neutral_overcome_gain": 102,
+            "lunar_overcome_gain": 102,
+            "poison_overcome_gain": 102
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2440,7 +2468,10 @@ BUFFS = {
     11158: {
         "attributes": {
             "physical_critical_strike_rate": 500,
-            "magical_critical_strike_rate": 500
+            "solar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "lunar_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500
         },
         "max_level": 1,
         "max_stack": 1,
@@ -2496,7 +2527,7 @@ BUFFS = {
     },
     18336: {
         "attributes": {
-            "magical_attack_power_gain": [
+            "neutral_attack_power_gain": [
                 10,
                 20,
                 31,
@@ -2531,8 +2562,8 @@ BUFFS = {
     },
     27238: {
         "attributes": {
-            "magical_critical_power_rate": 150,
-            "physical_critical_power_rate": 150
+            "physical_critical_power_rate": 150,
+            "magical_critical_power_rate": 150
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3180,7 +3211,313 @@ BUFFS = {
                 1014,
                 1024
             ],
-            "magical_damage_cof": [
+            "solar_damage_cof": [
+                11,
+                21,
+                31,
+                41,
+                52,
+                62,
+                72,
+                82,
+                93,
+                103,
+                113,
+                123,
+                134,
+                144,
+                154,
+                164,
+                175,
+                185,
+                195,
+                205,
+                216,
+                226,
+                236,
+                246,
+                256,
+                267,
+                277,
+                287,
+                297,
+                308,
+                318,
+                328,
+                338,
+                349,
+                359,
+                369,
+                379,
+                390,
+                400,
+                410,
+                420,
+                431,
+                441,
+                451,
+                461,
+                472,
+                482,
+                492,
+                502,
+                512,
+                523,
+                533,
+                543,
+                553,
+                564,
+                574,
+                584,
+                594,
+                605,
+                615,
+                625,
+                635,
+                646,
+                656,
+                666,
+                676,
+                687,
+                697,
+                707,
+                717,
+                728,
+                738,
+                748,
+                758,
+                768,
+                779,
+                789,
+                799,
+                809,
+                820,
+                830,
+                840,
+                850,
+                861,
+                871,
+                881,
+                891,
+                902,
+                912,
+                922,
+                932,
+                943,
+                953,
+                963,
+                973,
+                984,
+                994,
+                1004,
+                1014,
+                1024
+            ],
+            "neutral_damage_cof": [
+                11,
+                21,
+                31,
+                41,
+                52,
+                62,
+                72,
+                82,
+                93,
+                103,
+                113,
+                123,
+                134,
+                144,
+                154,
+                164,
+                175,
+                185,
+                195,
+                205,
+                216,
+                226,
+                236,
+                246,
+                256,
+                267,
+                277,
+                287,
+                297,
+                308,
+                318,
+                328,
+                338,
+                349,
+                359,
+                369,
+                379,
+                390,
+                400,
+                410,
+                420,
+                431,
+                441,
+                451,
+                461,
+                472,
+                482,
+                492,
+                502,
+                512,
+                523,
+                533,
+                543,
+                553,
+                564,
+                574,
+                584,
+                594,
+                605,
+                615,
+                625,
+                635,
+                646,
+                656,
+                666,
+                676,
+                687,
+                697,
+                707,
+                717,
+                728,
+                738,
+                748,
+                758,
+                768,
+                779,
+                789,
+                799,
+                809,
+                820,
+                830,
+                840,
+                850,
+                861,
+                871,
+                881,
+                891,
+                902,
+                912,
+                922,
+                932,
+                943,
+                953,
+                963,
+                973,
+                984,
+                994,
+                1004,
+                1014,
+                1024
+            ],
+            "lunar_damage_cof": [
+                11,
+                21,
+                31,
+                41,
+                52,
+                62,
+                72,
+                82,
+                93,
+                103,
+                113,
+                123,
+                134,
+                144,
+                154,
+                164,
+                175,
+                185,
+                195,
+                205,
+                216,
+                226,
+                236,
+                246,
+                256,
+                267,
+                277,
+                287,
+                297,
+                308,
+                318,
+                328,
+                338,
+                349,
+                359,
+                369,
+                379,
+                390,
+                400,
+                410,
+                420,
+                431,
+                441,
+                451,
+                461,
+                472,
+                482,
+                492,
+                502,
+                512,
+                523,
+                533,
+                543,
+                553,
+                564,
+                574,
+                584,
+                594,
+                605,
+                615,
+                625,
+                635,
+                646,
+                656,
+                666,
+                676,
+                687,
+                697,
+                707,
+                717,
+                728,
+                738,
+                748,
+                758,
+                768,
+                779,
+                789,
+                799,
+                809,
+                820,
+                830,
+                840,
+                850,
+                861,
+                871,
+                881,
+                891,
+                902,
+                912,
+                922,
+                932,
+                943,
+                953,
+                963,
+                973,
+                984,
+                994,
+                1004,
+                1014,
+                1024
+            ],
+            "poison_damage_cof": [
                 11,
                 21,
                 31,
@@ -3344,8 +3681,8 @@ BUFFS = {
     },
     24350: {
         "attributes": {
-            "magical_critical_power_rate": 51,
-            "physical_critical_power_rate": 51
+            "physical_critical_power_rate": 51,
+            "magical_critical_power_rate": 51
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3387,7 +3724,10 @@ BUFFS = {
     },
     10031: {
         "attributes": {
-            "magical_overcome_gain": 204,
+            "solar_overcome_gain": 204,
+            "neutral_overcome_gain": 204,
+            "lunar_overcome_gain": 204,
+            "poison_overcome_gain": 204,
             "physical_overcome_gain": 204
         },
         "max_level": 1,
@@ -3404,8 +3744,11 @@ BUFFS = {
     },
     11456: {
         "attributes": {
-            "magical_attack_power_gain": 307,
-            "physical_attack_power_gain": 307
+            "physical_attack_power_gain": 307,
+            "poison_attack_power_gain": 307,
+            "neutral_attack_power_gain": 307,
+            "lunar_attack_power_base": 307,
+            "solar_attack_power_gain": 307
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3432,9 +3775,12 @@ BUFFS = {
     },
     16911: {
         "attributes": {
-            "magical_overcome_base": 700,
             "physical_overcome_base": 700,
-            "all_shield_ignore": 205
+            "all_shield_ignore": 205,
+            "neutral_overcome_base": 700,
+            "poison_overcome_base": 700,
+            "solar_overcome_base": 700,
+            "lunar_overcome_base": 700
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3483,17 +3829,17 @@ BUFFS = {
     },
     1436: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "solar_critical_power_rate": [
                 0,
                 41
+            ],
+            "solar_attack_power_gain": [
+                102,
+                0
             ]
         },
         "max_level": 2,
@@ -3503,7 +3849,7 @@ BUFFS = {
     11979: {
         "attributes": {
             "magical_attack_power_gain": 308,
-            "magical_overcome_gain": 308
+            "solar_overcome_gain": 308
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3511,7 +3857,7 @@ BUFFS = {
     },
     2686: {
         "attributes": {
-            "magical_attack_power_gain": 204
+            "solar_attack_power_gain": 204
         },
         "max_level": 2,
         "max_stack": 1,
@@ -3527,8 +3873,8 @@ BUFFS = {
     },
     24285: {
         "attributes": {
-            "magical_critical_strike_rate": 600,
-            "magical_critical_power_rate": 62
+            "solar_critical_strike_rate": 600,
+            "solar_critical_power_rate": 62
         },
         "max_level": 1,
         "max_stack": 1,
@@ -3600,7 +3946,7 @@ BUFFS = {
     },
     19635: {
         "attributes": {
-            "magical_damage_cof": [
+            "solar_damage_cof": [
                 41,
                 82,
                 123
@@ -3611,15 +3957,15 @@ BUFFS = {
     },
     1439: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "neutral_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "neutral_attack_power_gain": [
+                102,
+                0
+            ],
+            "neutral_critical_power_rate": [
                 0,
                 41
             ]
@@ -3630,7 +3976,55 @@ BUFFS = {
     },
     375: {
         "attributes": {
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
+                300,
+                350,
+                400,
+                450,
+                0,
+                600,
+                700,
+                800,
+                900,
+                500,
+                500,
+                1000,
+                500,
+                1000
+            ],
+            "neutral_critical_strike_rate": [
+                300,
+                350,
+                400,
+                450,
+                0,
+                600,
+                700,
+                800,
+                900,
+                500,
+                500,
+                1000,
+                500,
+                1000
+            ],
+            "lunar_critical_strike_rate": [
+                300,
+                350,
+                400,
+                450,
+                0,
+                600,
+                700,
+                800,
+                900,
+                500,
+                500,
+                1000,
+                500,
+                1000
+            ],
+            "poison_critical_strike_rate": [
                 300,
                 350,
                 400,
@@ -3699,27 +4093,27 @@ BUFFS = {
     },
     2757: {
         "attributes": {
-            "magical_attack_power_gain": [
-                256,
-                256,
-                512,
-                256
-            ],
             "physical_critical_strike_rate": 2500,
-            "magical_critical_strike_rate": 2500,
+            "neutral_critical_strike_rate": 2500,
             "physical_attack_power_gain": [
                 256,
                 256,
                 512,
                 256
             ],
-            "magical_critical_power_rate": [
+            "physical_critical_power_rate": [
                 250,
                 250,
                 256,
                 250
             ],
-            "physical_critical_power_rate": [
+            "neutral_attack_power_gain": [
+                256,
+                256,
+                512,
+                256
+            ],
+            "magical_critical_power_rate": [
                 250,
                 250,
                 256,
@@ -3884,15 +4278,15 @@ BUFFS = {
     },
     1440: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "neutral_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "neutral_attack_power_gain": [
+                102,
+                0
+            ],
+            "neutral_critical_power_rate": [
                 0,
                 41
             ]
@@ -3903,19 +4297,19 @@ BUFFS = {
     },
     1487: {
         "attributes": {
-            "magical_attack_power_gain": [
-                307,
-                307,
-                307,
-                307,
-                0
-            ],
             "magical_damage_addition": [
                 0,
                 0,
                 0,
                 0,
                 307
+            ],
+            "neutral_attack_power_gain": [
+                307,
+                307,
+                307,
+                307,
+                0
             ]
         },
         "max_level": 5,
@@ -3953,8 +4347,8 @@ BUFFS = {
     },
     9722: {
         "attributes": {
-            "magical_critical_strike_rate": 160,
-            "magical_critical_power_rate": 16
+            "neutral_critical_strike_rate": 160,
+            "neutral_critical_power_rate": 16
         },
         "max_level": 1,
         "max_stack": 10,
@@ -3975,7 +4369,7 @@ BUFFS = {
     24599: {
         "attributes": {
             "magical_attack_power_gain": 102,
-            "magical_critical_strike_rate": 600
+            "neutral_critical_strike_rate": 600
         },
         "max_level": 4,
         "max_stack": 4,
@@ -4091,17 +4485,17 @@ BUFFS = {
     },
     1437: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "lunar_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "lunar_critical_power_rate": [
                 0,
                 41
+            ],
+            "lunar_attack_power_base": [
+                102,
+                0
             ]
         },
         "max_level": 2,
@@ -4110,44 +4504,7 @@ BUFFS = {
     },
     409: {
         "attributes": {
-            "magical_attack_power_base": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                204,
-                306,
-                408,
-                507,
-                120,
-                240,
-                360,
-                480,
-                599,
-                139,
-                278,
-                417,
-                556,
-                691
-            ],
-            "magical_attack_power_gain": [
+            "lunar_attack_power_base": [
                 15,
                 16,
                 17,
@@ -4169,20 +4526,20 @@ BUFFS = {
                 29,
                 30,
                 31,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                204,
+                306,
+                408,
+                507,
+                120,
+                240,
+                360,
+                480,
+                599,
+                139,
+                278,
+                417,
+                556,
+                691
             ]
         },
         "max_level": 35,
@@ -4227,8 +4584,8 @@ BUFFS = {
     },
     10240: {
         "attributes": {
-            "magical_critical_strike_rate": 800,
-            "magical_critical_power_rate": 21
+            "lunar_critical_strike_rate": 800,
+            "lunar_critical_power_rate": 21
         },
         "max_level": 1,
         "max_stack": 5,
@@ -4236,7 +4593,37 @@ BUFFS = {
     },
     538: {
         "attributes": {
-            "magical_attack_power_gain": [
+            "poison_attack_power_gain": [
+                154,
+                205,
+                256,
+                461,
+                0,
+                0,
+                0,
+                461
+            ],
+            "neutral_attack_power_gain": [
+                154,
+                205,
+                256,
+                461,
+                0,
+                0,
+                0,
+                461
+            ],
+            "lunar_attack_power_base": [
+                154,
+                205,
+                256,
+                461,
+                0,
+                0,
+                0,
+                461
+            ],
+            "solar_attack_power_gain": [
                 154,
                 205,
                 256,
@@ -4446,15 +4833,15 @@ BUFFS = {
     },
     2557: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "poison_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "poison_attack_power_gain": [
+                102,
+                0
+            ],
+            "poison_critical_power_rate": [
                 0,
                 41
             ]
@@ -4466,8 +4853,12 @@ BUFFS = {
     2543: {
         "attributes": {
             "magical_attack_power_gain": [
-                512,
+                0,
                 205
+            ],
+            "poison_attack_power_gain": [
+                512,
+                0
             ]
         },
         "max_level": 2,
@@ -4476,7 +4867,7 @@ BUFFS = {
     },
     12497: {
         "attributes": {
-            "magical_attack_power_gain": 154
+            "poison_attack_power_gain": 154
         },
         "max_level": 1,
         "max_stack": 1,
@@ -4507,14 +4898,14 @@ BUFFS = {
     },
     17988: {
         "attributes": {
-            "magical_critical_strike_rate": 3000
+            "poison_critical_strike_rate": 3000
         },
         "max_level": 1,
         "max_stack": 1
     },
     16102: {
         "attributes": {
-            "magical_attack_power_gain": 410
+            "poison_attack_power_gain": 410
         },
         "max_level": 1,
         "max_stack": 1
@@ -4532,12 +4923,6 @@ BUFFS = {
     },
     3401: {
         "attributes": {
-            "magical_attack_power_gain": [
-                0,
-                102,
-                0,
-                0
-            ],
             "physical_critical_strike_rate": [
                 0,
                 0,
@@ -4547,6 +4932,12 @@ BUFFS = {
             "physical_attack_power_gain": [
                 102,
                 0,
+                0,
+                0
+            ],
+            "poison_attack_power_gain": [
+                0,
+                102,
                 0,
                 0
             ],
@@ -4621,7 +5012,7 @@ BUFFS = {
     },
     3316: {
         "attributes": {
-            "magical_attack_power_gain": 512
+            "poison_attack_power_gain": 512
         },
         "max_level": 3,
         "max_stack": 1,
@@ -4629,7 +5020,7 @@ BUFFS = {
     },
     6105: {
         "attributes": {
-            "magical_overcome_gain": 154
+            "poison_overcome_gain": 154
         },
         "max_level": 1,
         "max_stack": 1,
@@ -4703,17 +5094,29 @@ BUFFS = {
     },
     4671: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "lunar_critical_strike_rate": [
+                0,
+                400
+            ],
+            "solar_critical_power_rate": [
                 0,
                 41
+            ],
+            "lunar_critical_power_rate": [
+                0,
+                41
+            ],
+            "lunar_attack_power_base": [
+                102,
+                0
+            ],
+            "solar_attack_power_gain": [
+                102,
+                0
             ]
         },
         "max_level": 2,
@@ -4722,7 +5125,11 @@ BUFFS = {
     },
     4754: {
         "attributes": {
-            "magical_attack_power_gain": [
+            "lunar_attack_power_base": [
+                51,
+                102
+            ],
+            "solar_attack_power_gain": [
                 51,
                 102
             ]
@@ -4733,7 +5140,8 @@ BUFFS = {
     },
     6277: {
         "attributes": {
-            "magical_critical_strike_rate": 1000,
+            "solar_critical_strike_rate": 1000,
+            "lunar_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         },
         "max_level": 1,
@@ -4971,7 +5379,55 @@ BUFFS = {
                 0,
                 102
             ],
-            "magical_shield_gain": [
+            "lunar_shield_gain": [
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102
+            ],
+            "neutral_shield_gain": [
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102
+            ],
+            "poison_shield_gain": [
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102,
+                0,
+                102
+            ],
+            "solar_shield_gain": [
                 0,
                 102,
                 0,
@@ -5028,17 +5484,17 @@ BUFFS = {
     },
     9586: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "lunar_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "lunar_critical_power_rate": [
                 0,
                 41
+            ],
+            "lunar_attack_power_base": [
+                102,
+                0
             ]
         },
         "max_level": 2,
@@ -5047,7 +5503,7 @@ BUFFS = {
     },
     9437: {
         "attributes": {
-            "magical_attack_power_gain": 102
+            "lunar_attack_power_base": 102
         },
         "max_level": 1,
         "max_stack": 1,
@@ -5055,7 +5511,7 @@ BUFFS = {
     },
     23101: {
         "attributes": {
-            "magical_critical_strike_rate": 1000,
+            "lunar_critical_strike_rate": 1000,
             "magical_critical_power_rate": 102
         },
         "max_level": 1,
@@ -5303,15 +5759,15 @@ BUFFS = {
     },
     18555: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "neutral_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "neutral_attack_power_gain": [
+                102,
+                0
+            ],
+            "neutral_critical_power_rate": [
                 0,
                 41
             ]
@@ -5322,7 +5778,7 @@ BUFFS = {
     },
     18002: {
         "attributes": {
-            "magical_critical_strike_rate": 1000,
+            "neutral_critical_strike_rate": 1000,
             "magical_critical_power_rate": 100
         },
         "max_level": 1,
@@ -5339,7 +5795,7 @@ BUFFS = {
     },
     18174: {
         "attributes": {
-            "magical_attack_power_gain": 308
+            "neutral_attack_power_gain": 308
         },
         "max_level": 1,
         "max_stack": 1,
@@ -5365,15 +5821,15 @@ BUFFS = {
     },
     21758: {
         "attributes": {
-            "magical_attack_power_gain": [
-                102,
-                0
-            ],
-            "magical_critical_strike_rate": [
+            "poison_critical_strike_rate": [
                 0,
                 400
             ],
-            "magical_critical_power_rate": [
+            "poison_attack_power_gain": [
+                102,
+                0
+            ],
+            "poison_critical_power_rate": [
                 0,
                 41
             ]
@@ -5415,7 +5871,7 @@ BUFFS = {
     },
     20699: {
         "attributes": {
-            "magical_overcome_gain": 256,
+            "poison_overcome_gain": 256,
             "strain_gain": 307
         },
         "max_level": 1,
@@ -6837,7 +7293,34 @@ BUFFS = {
     919: {
         "attributes": {
             "magical_attack_power_gain": 51,
-            "magical_overcome_gain": [
+            "solar_overcome_gain": [
+                0,
+                0,
+                205,
+                205,
+                205,
+                102,
+                205
+            ],
+            "neutral_overcome_gain": [
+                0,
+                0,
+                205,
+                205,
+                205,
+                102,
+                205
+            ],
+            "lunar_overcome_gain": [
+                0,
+                0,
+                205,
+                205,
+                205,
+                102,
+                205
+            ],
+            "poison_overcome_gain": [
                 0,
                 0,
                 205,
@@ -6908,7 +7391,34 @@ BUFFS = {
     934: {
         "attributes": {
             "magical_attack_power_gain": 51,
-            "magical_overcome_gain": [
+            "solar_overcome_gain": [
+                0,
+                0,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "neutral_overcome_gain": [
+                0,
+                0,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "lunar_overcome_gain": [
+                0,
+                0,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "poison_overcome_gain": [
                 0,
                 0,
                 300,
@@ -6938,7 +7448,10 @@ BUFFS = {
     },
     938: {
         "attributes": {
-            "magical_critical_strike_rate": 300,
+            "solar_critical_strike_rate": 300,
+            "neutral_critical_strike_rate": 300,
+            "lunar_critical_strike_rate": 300,
+            "poison_critical_strike_rate": 300,
             "magical_critical_power_rate": [
                 0,
                 0,
@@ -7019,7 +7532,34 @@ BUFFS = {
     952: {
         "attributes": {
             "magical_attack_power_gain": 50,
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                300,
+                0
+            ],
+            "neutral_critical_strike_rate": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                300,
+                0
+            ],
+            "lunar_critical_strike_rate": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                300,
+                0
+            ],
+            "poison_critical_strike_rate": [
                 0,
                 0,
                 0,
@@ -7107,7 +7647,34 @@ BUFFS = {
                 51,
                 100
             ],
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "neutral_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "lunar_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "poison_critical_strike_rate": [
                 0,
                 300,
                 300,
@@ -7186,7 +7753,7 @@ BUFFS = {
                 51,
                 0
             ],
-            "magical_critical_power_rate": [
+            "physical_critical_power_rate": [
                 0,
                 0,
                 150,
@@ -7195,7 +7762,7 @@ BUFFS = {
                 150,
                 0
             ],
-            "physical_critical_power_rate": [
+            "magical_critical_power_rate": [
                 0,
                 0,
                 150,
@@ -7235,7 +7802,34 @@ BUFFS = {
     4579: {
         "attributes": {
             "magical_attack_power_gain": 51,
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "neutral_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "lunar_critical_strike_rate": [
+                0,
+                300,
+                300,
+                300,
+                300,
+                300,
+                300
+            ],
+            "poison_critical_strike_rate": [
                 0,
                 300,
                 300,
@@ -7293,7 +7887,10 @@ BUFFS = {
     9485: {
         "attributes": {
             "magical_attack_power_gain": 102,
-            "magical_critical_strike_rate": 300,
+            "solar_critical_strike_rate": 300,
+            "neutral_critical_strike_rate": 300,
+            "lunar_critical_strike_rate": 300,
+            "poison_critical_strike_rate": 300,
             "strain_rate": 20
         },
         "max_level": 1,
@@ -7441,7 +8038,31 @@ BUFFS = {
                 500,
                 500
             ],
-            "magical_critical_strike_rate": [
+            "solar_critical_strike_rate": [
+                0,
+                0,
+                500,
+                500,
+                500,
+                500
+            ],
+            "neutral_critical_strike_rate": [
+                0,
+                0,
+                500,
+                500,
+                500,
+                500
+            ],
+            "lunar_critical_strike_rate": [
+                0,
+                0,
+                500,
+                500,
+                500,
+                500
+            ],
+            "poison_critical_strike_rate": [
                 0,
                 0,
                 500,
@@ -7499,7 +8120,10 @@ BUFFS = {
                 62
             ],
             "physical_critical_strike_rate": 300,
-            "magical_critical_strike_rate": 300,
+            "solar_critical_strike_rate": 300,
+            "neutral_critical_strike_rate": 300,
+            "lunar_critical_strike_rate": 300,
+            "poison_critical_strike_rate": 300,
             "strain_rate": [
                 0,
                 20,
@@ -7619,7 +8243,31 @@ BUFFS = {
                 -15,
                 0
             ],
-            "magical_shield_gain": [
+            "lunar_shield_gain": [
+                -30,
+                0,
+                0,
+                0,
+                0,
+                -30
+            ],
+            "neutral_shield_gain": [
+                -30,
+                0,
+                0,
+                0,
+                0,
+                -30
+            ],
+            "poison_shield_gain": [
+                -30,
+                0,
+                0,
+                0,
+                0,
+                -30
+            ],
+            "solar_shield_gain": [
                 -30,
                 0,
                 0,
@@ -7635,7 +8283,10 @@ BUFFS = {
     23305: {
         "attributes": {
             "physical_damage_cof": 61,
-            "magical_damage_cof": 61
+            "solar_damage_cof": 61,
+            "neutral_damage_cof": 61,
+            "lunar_damage_cof": 61,
+            "poison_damage_cof": 61
         },
         "max_level": 1,
         "max_stack": 1,
@@ -7647,7 +8298,19 @@ BUFFS = {
                 21,
                 51
             ],
-            "magical_damage_cof": [
+            "solar_damage_cof": [
+                21,
+                51
+            ],
+            "neutral_damage_cof": [
+                21,
+                51
+            ],
+            "lunar_damage_cof": [
+                21,
+                51
+            ],
+            "poison_damage_cof": [
                 21,
                 51
             ]
