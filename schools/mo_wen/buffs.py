@@ -7,9 +7,8 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        9586: {}, 9437: {},
+        9586: {}, 9437: {}, 25997: {},
         23101: dict(buff_name="刻梦"),
-        25997: dict(frame_shift=-1),
         12576: dict(buff_name="云汉"),
         9433: dict(gains=[[MagicalShieldGainRecipe(value, skill_id, 0) for value in (-307, -614, -921)]
                           for skill_id in (14474, 14227)]),

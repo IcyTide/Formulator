@@ -867,7 +867,7 @@ class MagicalAttribute(Attribute):
         return self.magical_damage_addition
 
 
-class SolarAttribute(Attribute):
+class SolarAttribute(MagicalAttribute):
     display_attrs = dict(
         **MagicalAttribute.display_attrs,
         base_solar_attack_power="阳性基础攻击",
@@ -907,7 +907,7 @@ class SolarAttribute(Attribute):
         return self.target.solar_damage_cof
 
 
-class LunarAttribute(Attribute):
+class LunarAttribute(MagicalAttribute):
     display_attrs = dict(
         **MagicalAttribute.display_attrs,
         base_lunar_attack_power="阴性基础攻击",
@@ -947,7 +947,7 @@ class LunarAttribute(Attribute):
         return self.target.lunar_damage_cof
 
 
-class NeutralAttribute(Attribute):
+class NeutralAttribute(MagicalAttribute):
     display_attrs = dict(
         **MagicalAttribute.display_attrs,
         base_neutral_attack_power="混元基础攻击",
@@ -987,7 +987,7 @@ class NeutralAttribute(Attribute):
         return self.target.neutral_damage_cof
 
 
-class PoisonAttribute(Attribute):
+class PoisonAttribute(MagicalAttribute):
     display_attrs = dict(
         **MagicalAttribute.display_attrs,
         base_poison_attack_power="毒性基础攻击",
@@ -1027,7 +1027,7 @@ class PoisonAttribute(Attribute):
         return self.target.poison_damage_cof
 
 
-class MixingAttribute(Attribute):
+class MixingAttribute(MagicalAttribute):
     grad_attrs = dict(
         agility_base=MAJOR_DELTA,
         spunk_base=MAJOR_DELTA,

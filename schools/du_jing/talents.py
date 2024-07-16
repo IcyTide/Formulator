@@ -1,5 +1,6 @@
 from typing import Dict
 
+from base.buff import Buff
 from base.gain import Gain
 from base.recipe import ChannelIntervalRecipe, ExtraTickRecipe
 from base.skill import Skill
@@ -22,6 +23,14 @@ class 虫兽(Gain):
         skills[2223].pre_buffs.pop((12497, 1))
 
 
+class 曲致(Gain):
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-17988].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[-17988].activate = False
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     6620: Talent("蝎毒"),
     6649: Talent("食髓"),
@@ -34,7 +43,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     37952: Talent("不鸣"),
     34640: Talent("忘情"),
     30088: Talent("嗜蛊"),
-    25040: Talent("曲致", [ExtraTickRecipe(2, 25917, 0)]),
+    25040: Talent("曲致", [曲致(), ExtraTickRecipe(2, 25917, 0)]),
     25018: Talent("荒息"),
     29545: Talent("篾片蛊"),
     18325: Talent("引魂", [引魂()]),

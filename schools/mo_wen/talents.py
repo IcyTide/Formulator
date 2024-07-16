@@ -29,11 +29,11 @@ class 师襄(MagicalShieldGainRecipe):
 class 刻梦(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[14082].pet_buffs[(23101, 1)] = 1
-        skills[14082].pet_count += 1
+        skills[14082].pet_count = 2
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[14082].pet_buffs.pop((23101, 1))
-        skills[14082].pet_count -= 1
+        skills[14082].pet_count = 1
 
 
 TALENT_GAINS: Dict[int, Talent] = {

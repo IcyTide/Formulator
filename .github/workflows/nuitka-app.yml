@@ -31,7 +31,6 @@ jobs:
       with:
         nuitka-version: main
         script-name: qt/app.py
-        onefile: true
         standalone: true
         enable-plugins: pyside6
         disable-console: true
@@ -41,7 +40,11 @@ jobs:
     - name: Build
       run: |
         mv build/app.dist Formulator
-        mv assets Formulator/assets
+        rm Formulator/qt6network.dll
+        rm Formulator/qt6pdf.dll
+        rm Formulator/libcrypto-3.dll
+        rm Formulator/unicodedata.pyd
+        rm Formulator/PySide6/QtNetwork.pyd
         7z a -t7z -r "$($Env:PACKAGENAME + '.7z')" "Formulator"
     - name: Upload Artifact
       uses: actions/upload-artifact@v4

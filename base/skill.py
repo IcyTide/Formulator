@@ -1476,7 +1476,7 @@ class PetSkill(Skill):
             0, 0, 0, 0, attribute.global_damage_factor
         )
         if damage:
-            damage = self.magical_damage_chain(damage, attribute)
+            damage = damage_addition_result(damage, attribute.magical_damage_addition, self.move_state_damage_addition)
             damage = overcome_result(
                 damage, attribute.poison_overcome, 0,
                 attribute.target.poison_shield, attribute.target.shield_constant

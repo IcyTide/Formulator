@@ -10460,6 +10460,13 @@ SKILLS = {
         "skill_name": "灵蛇引",
         "channel_interval": 16.0
     },
+    26914: {
+        "kind_type": "",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0
+    },
     2472: {
         "kind_type": "Poison",
         "platform": 0,

@@ -8,7 +8,6 @@ from qt.components.consumables import ConsumablesWidget
 from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
-from qt.components.top import TopWidget
 from utils.parser import Parser
 
 if not os.path.exists("config"):
@@ -75,11 +74,12 @@ def config_script(
                         sub_team_gain.spin_box.setValue(config['team_gains'][label][sub_label])
 
     def load_recipes(config):
-        for i, indexes in enumerate(config):
-            for selected_item in recipe_widget.recipes[i].list.selectedItems():
-                selected_item.setSelected(False)
-            for index in indexes:
-                recipe_widget.recipes[i].list.item(index).setSelected(True)
+        for recipe in recipe_widget.values():
+            if indexes := config.get(recipe.label.text()):
+                for selected_item in recipe.list.selectedItems():
+                    selected_item.setSelected(False)
+                for index in indexes:
+                    recipe.list.item(index).setSelected(True)
 
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
@@ -151,7 +151,7 @@ def config_script(
     def save_recipes(config):
         for recipe in recipe_widget.values():
             if selected_indexes := recipe.list.selectedIndexes():
-                config.append([index.row() for index in selected_indexes])
+                config[recipe.label.text()] = [index.row() for index in selected_indexes]
 
     def save_config():
         config_name = config_widget.config_name.text_browser.text()
@@ -164,7 +164,7 @@ def config_script(
                 "consumables": {},
                 "bonuses": {"formation": {}, "team_gains": {}},
                 "talents": [],
-                "recipes": []
+                "recipes": {}
             }
 
         save_equipments(CONFIG[school][config_name]['equipments'])

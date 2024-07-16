@@ -1,4 +1,3 @@
-from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QWidget, QHBoxLayout, QPushButton
 
 from qt.components import ComboWithLabel
@@ -21,4 +20,3 @@ class TopWidget(QWidget):
 
         self.save_json.hide()
         self.player_select.hide()
-        layout.setAlignment(Qt.AlignmentFlag.AlignTop)

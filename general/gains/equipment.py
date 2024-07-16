@@ -93,6 +93,7 @@ class WindPendant(EquipmentGain):
 
 
 class 大附魔帽(EquipmentGain):
+    # buff_ids = [15436]
     attributes = BUFFS[15436].attributes
 
 

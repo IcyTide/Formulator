@@ -58,7 +58,7 @@ def PHYSICAL_ATTACK_POWER_COF(cof):
 
 
 def PHYSICAL_DOT_ATTACK_POWER_COF(cof, interval, tick):
-    cof = int(cof) * max(FRAME_PER_SECOND, interval * tick / DOT_DAMAGE_SCALE)
+    cof = int(cof) * int(max(FRAME_PER_SECOND, interval * tick / DOT_DAMAGE_SCALE))
     return cof / FRAME_PER_SECOND / tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
 
 
@@ -67,7 +67,7 @@ def MAGICAL_ATTACK_POWER_COF(cof):
 
 
 def MAGICAL_DOT_ATTACK_POWER_COF(cof, interval, tick):
-    cof = int(cof) * max(FRAME_PER_SECOND, interval * tick / DOT_DAMAGE_SCALE)
+    cof = int(cof) * int(max(FRAME_PER_SECOND, interval * tick / DOT_DAMAGE_SCALE))
     return cof / FRAME_PER_SECOND / tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
 
 

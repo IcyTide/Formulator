@@ -1,9 +1,41 @@
 from typing import Dict
 
 from assets.setter import set_skill, set_dot
-from base.skill import Skill, PetSkill
 from base.dot import Dot
+from base.skill import Skill, PetSkill
 from general.skills import GENERAL_SKILLS
+
+
+class 曲致判定(PetSkill):
+    final_buff = -17988
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if 2296 in parser.current_dot_stacks or 25917 in parser.current_dot_stacks:
+            parser.refresh_buff(self.final_buff, 1)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.clear_buff(self.final_buff, 1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+class 连缘蛊判定(Skill):
+    final_buff = -19513
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        buff_level = 0
+        if 6218 in parser.current_dot_stacks:
+            buff_level += 1
+        if 2296 in parser.current_dot_stacks or 25917 in parser.current_dot_stacks:
+            buff_level += 1
+        if 2509 in parser.current_dot_stacks:
+            buff_level += 1
+        if 2295 in parser.current_dot_stacks:
+            buff_level += 1
+        if buff_level:
+            for i in range(4):
+                parser.clear_buff(self.final_buff, i + 1)
+            parser.refresh_buff(self.final_buff, buff_level)
+
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
@@ -18,7 +50,10 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         26226: dict(bind_dot=18882),
         2223: dict(pet_buffs={(16543, 1): 1})
     },
-    PetSkill: {2472: {}, 22997: {}, 36292: {}, 25019: {}},
+    连缘蛊判定: {26914: {}},
+    曲致判定: {
+        2472: {}, 22997: {}, 36292: {}, 25019: {}
+    },
 }
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {

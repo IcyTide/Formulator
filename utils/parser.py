@@ -286,8 +286,10 @@ class Parser(BaseParser):
         if buff_id not in self.players[player_id].buffs:
             return
         buff = self.players[player_id].buffs[buff_id]
-        if frame_shift := buff.frame_shift:
-            self.frame_shift_buffs[self.current_frame + frame_shift][player_id][(buff_id, buff_level)] = buff_stack
+        if not buff.frame_shift or not buff_stack:
+            return
+
+        self.frame_shift_buffs[self.current_frame + buff.frame_shift][player_id][(buff_id, buff_level)] = buff_stack
 
     def parse_frame_shift_status(self):
         for frame in list(self.frame_shift_buffs):
@@ -295,10 +297,7 @@ class Parser(BaseParser):
                 break
             for player_id, shift_buffs in self.frame_shift_buffs.pop(frame).items():
                 for buff, buff_stack in shift_buffs.items():
-                    if buff_stack:
-                        self.buff_stacks[player_id][buff] = buff_stack
-                    else:
-                        self.buff_stacks[player_id].pop(buff, None)
+                    self.buff_stacks[player_id][buff] = buff_stack
 
     def parse_buff_intervals(self):
         for caster_id, buffs in self.buff_intervals.items():
@@ -343,7 +342,7 @@ class Parser(BaseParser):
             return
 
         buff = self.players[player_id].buffs[buff_id]
-        if buff.frame_shift:
+        if buff.frame_shift and buff_stack:
             return
 
         self.current_player = player_id
