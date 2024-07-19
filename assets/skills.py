@@ -1346,6 +1346,17 @@ SKILLS = {
         "solar_damage_rand": 15,
         "solar_damage_call": 1
     },
+    24028: {
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "佛果",
+        "channel_interval": 183.45600000000005,
+        "solar_damage_base": 77,
+        "solar_damage_rand": 101,
+        "solar_damage_call": 1
+    },
     3808: {
         "kind_type": "SolarMagic",
         "platform": 0,
@@ -17352,6 +17363,14 @@ SKILLS = {
         "skill_name": "疏影横斜",
         "channel_interval": 16.0
     },
+    14070: {
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "阳春白雪",
+        "channel_interval": 16.0
+    },
     30799: {
         "kind_type": "LunarMagic",
         "platform": 0,
@@ -17361,42 +17380,6 @@ SKILLS = {
         "channel_interval": 61.425,
         "lunar_damage_base": 107,
         "lunar_damage_rand": 27,
-        "lunar_damage_call": 1
-    },
-    34676: {
-        "kind_type": "LunarMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "skill_name": "知音兴尽",
-        "channel_interval": [
-            14972.999999999998,
-            15455.999999999998,
-            15938.999999999998,
-            16422.0,
-            16904.999999999996,
-            17387.999999999996,
-            17870.999999999996,
-            18353.999999999996,
-            18836.999999999996,
-            19319.999999999996,
-            19802.999999999996,
-            20285.999999999996,
-            20768.999999999996,
-            21251.999999999996,
-            21734.999999999996,
-            22217.999999999996,
-            22700.999999999996,
-            23184.0,
-            23667.0,
-            24150.0,
-            24633.0,
-            1085.7839999999999,
-            1085.7839999999999,
-            1255.7999999999997
-        ],
-        "lunar_damage_base": 40,
-        "lunar_damage_rand": 6,
         "lunar_damage_call": 1
     },
     14287: {
@@ -17541,6 +17524,42 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 618.8663250000002
+    },
+    34676: {
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "知音兴尽",
+        "channel_interval": [
+            14972.999999999998,
+            15455.999999999998,
+            15938.999999999998,
+            16422.0,
+            16904.999999999996,
+            17387.999999999996,
+            17870.999999999996,
+            18353.999999999996,
+            18836.999999999996,
+            19319.999999999996,
+            19802.999999999996,
+            20285.999999999996,
+            20768.999999999996,
+            21251.999999999996,
+            21734.999999999996,
+            22217.999999999996,
+            22700.999999999996,
+            23184.0,
+            23667.0,
+            24150.0,
+            24633.0,
+            1085.7839999999999,
+            1085.7839999999999,
+            1255.7999999999997
+        ],
+        "lunar_damage_base": 40,
+        "lunar_damage_rand": 6,
+        "lunar_damage_call": 1
     },
     15076: {
         "kind_type": "LunarMagic",

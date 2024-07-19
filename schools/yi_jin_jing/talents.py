@@ -51,6 +51,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     6589: Talent("明法", [明法()]),
     5910: Talent("幻身"),
     5912: Talent("善心"),
+    5915: Talent("身意", [MagicalCriticalRecipe((1000, 102), 2572, 2572)]),
     30913: Talent("纷纭"),
     37455: Talent("布泽"),
     17750: Talent("缩地"),
@@ -62,6 +63,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     6596: Talent("众嗔", [众嗔()]),
     5906: Talent("华香", [华香(-614, skill_id, skill_id) for skill_id in (233, 243, 2572, 232)]),
     32647: Talent("无执"),
+    14820: Talent("佛果"),
     32648: Talent("金刚日轮"),
     32651: Talent("业因"),
     32649: Talent("无诤")
@@ -70,7 +72,7 @@ TALENT_GAINS: Dict[int, Talent] = {
 TALENTS = [
     [6589, 5896],
     [5910, 5912],
-    [30913],
+    [30913, 5915],
     [37455, 17750],
     [5913],
     [17730],
@@ -78,7 +80,7 @@ TALENTS = [
     [6586, 24884],
     [6596],
     [5906, 32647],
-    [32648],
+    [32648, 14820],
     [32651, 32649]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}

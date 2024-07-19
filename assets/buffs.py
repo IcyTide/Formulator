@@ -3894,6 +3894,15 @@ BUFFS = {
         "max_stack": 4,
         "buff_name": "果报"
     },
+    21859: {
+        "attributes": {
+            "solar_critical_strike_rate": 500,
+            "solar_critical_power_rate": 52
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "身意"
+    },
     890: {
         "attributes": {},
         "max_level": 1,
@@ -5163,12 +5172,12 @@ BUFFS = {
         "max_level": 1,
         "max_stack": 1
     },
-    25758: {
+    25759: {
         "attributes": {},
         "max_level": 1,
         "max_stack": 1
     },
-    25759: {
+    25758: {
         "attributes": {},
         "max_level": 1,
         "max_stack": 1
@@ -5509,14 +5518,6 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "参连"
     },
-    23101: {
-        "attributes": {
-            "lunar_critical_strike_rate": 1000,
-            "magical_critical_power_rate": 102
-        },
-        "max_level": 1,
-        "max_stack": 2
-    },
     25997: {
         "attributes": {
             "magical_critical_power_rate": [
@@ -5528,6 +5529,14 @@ BUFFS = {
         "max_level": 3,
         "max_stack": 1,
         "buff_name": "知音妙意"
+    },
+    23101: {
+        "attributes": {
+            "lunar_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "max_stack": 2
     },
     12576: {
         "attributes": {
