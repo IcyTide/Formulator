@@ -65,7 +65,7 @@ ATTR_TYPE_MAP = dict(
     atPhysicsAttackPowerPercent="physical_attack_power_gain",
     atMagicAttackPowerPercent="magical_attack_power_gain",
     atSolarAttackPowerPercent="solar_attack_power_gain",
-    atLunarAttackPowerPercent="lunar_attack_power_base",
+    atLunarAttackPowerPercent="lunar_attack_power_gain",
     atNeutralAttackPowerPercent="neutral_attack_power_gain",
     atPoisonAttackPowerPercent="poison_attack_power_gain",
 

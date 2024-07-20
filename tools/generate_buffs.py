@@ -42,7 +42,7 @@ def convert_json(result):
     result_json = {}
     for buff_id in result.buff_id.unique().tolist():
         filter_result = result[result.buff_id == buff_id]
-        result_json[buff_id] = dict(attributes={}, max_level=filter_result.buff_level.max())
+        result_json[buff_id] = dict(attributes={}, max_level=int(filter_result.buff_level.max()))
         for column in result.columns:
             if column in exclude_columns:
                 continue

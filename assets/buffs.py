@@ -3747,7 +3747,7 @@ BUFFS = {
             "physical_attack_power_gain": 307,
             "poison_attack_power_gain": 307,
             "neutral_attack_power_gain": 307,
-            "lunar_attack_power_base": 307,
+            "lunar_attack_power_gain": 307,
             "solar_attack_power_gain": 307
         },
         "max_level": 1,
@@ -4502,7 +4502,7 @@ BUFFS = {
                 0,
                 41
             ],
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 102,
                 0
             ]
@@ -4513,7 +4513,7 @@ BUFFS = {
     },
     409: {
         "attributes": {
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 15,
                 16,
                 17,
@@ -4535,6 +4535,43 @@ BUFFS = {
                 29,
                 30,
                 31,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "lunar_attack_power_base": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 204,
                 306,
                 408,
@@ -4622,7 +4659,7 @@ BUFFS = {
                 0,
                 461
             ],
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 154,
                 205,
                 256,
@@ -4900,7 +4937,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition": 104
+            "pve_addition": 154
         },
         "max_level": 1,
         "max_stack": 1
@@ -5119,7 +5156,7 @@ BUFFS = {
                 0,
                 41
             ],
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 102,
                 0
             ],
@@ -5134,7 +5171,7 @@ BUFFS = {
     },
     4754: {
         "attributes": {
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 51,
                 102
             ],
@@ -5501,7 +5538,7 @@ BUFFS = {
                 0,
                 41
             ],
-            "lunar_attack_power_base": [
+            "lunar_attack_power_gain": [
                 102,
                 0
             ]
@@ -5512,7 +5549,7 @@ BUFFS = {
     },
     9437: {
         "attributes": {
-            "lunar_attack_power_base": 102
+            "lunar_attack_power_gain": 102
         },
         "max_level": 1,
         "max_stack": 1,
