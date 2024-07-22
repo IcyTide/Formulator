@@ -8,6 +8,7 @@ from general.buffs import GENERAL_BUFFS
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         3401: {}, 3254: {}, 3316: {}, 6105: {}, 8210: {}, 9981: {}, 27457: {}, 16234: {}, 16235: {}, 16236: {},
+        6112: {},
         # 3426: dict(gains=[DamageAdditionRecipe(512, skill_id) for skill_id in (21854, 21850)]), # not work
         10005: dict(stackable=False),
         28228: dict(gains=[DamageAdditionRecipe(-460, 0, 3367)]),

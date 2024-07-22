@@ -2,6 +2,7 @@ import json
 import os
 from functools import cache
 
+import pandas as pd
 import requests
 from tqdm import tqdm
 
@@ -10,6 +11,7 @@ from assets.constant import ATTR_TYPE_MAP, ATTR_TYPE_TRANSLATE
 from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
 from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
 from schools import SUPPORT_SCHOOLS
+from tools import *
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOLS.values()], []))
 SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOLS.values()])
@@ -266,56 +268,39 @@ def get_enchant_detail(row):
 
 
 def get_stones_list():
-    url = "https://node.jx3box.com/enchant/stone"
-
-    result = {}
-    for level in tqdm(range(MAX_STONE_LEVEL)):
-        level = level + 1
-        stones = []
-        params = {
-            "client": "std",
-            "level": level,
-            "page": 1,
-            "per": 100
-        }
-        res = requests.get(url, params=params).json()
-        stones.extend(res['list'])
-        while res['pages'] > params['page']:
-            params['page'] += 1
-            res = requests.get(url, params=params).json()
-            stones.extend(res['list'])
-
-        for row in stones:
-            if detail := get_stone_detail(row):
-                current = result
-                for attr in detail['attr']:
-                    if attr not in current:
-                        current[attr] = {}
-                    current = current[attr]
-                current[level] = detail
-
-    return result
-
-
-def get_stone_name(row):
-    name = row['Name']
-    attrs = " ".join([ATTR_TYPE_TRANSLATE[ATTR_TYPE_MAP[attr]] for attr in row['_Attrs'] if attr in ATTR_TYPE_MAP])
-    return f"{name} ({attrs})"
-
-
-def get_stone_detail(row):
-    attrs = {}
-    for i in range(MAX_STONE_ATTR):
-        if not (attr_type := row[f'Attribute{i + 1}ID']):
-            break
-        if attr_type not in ATTR_TYPE_MAP:
-            return
-        attrs[ATTR_TYPE_MAP[attr_type]] = int(row[f'Attribute{i + 1}Value1'])
-
-    return {
-        "level": row['stone_level'],
-        "attr": attrs
+    stone_level_mapping = {
+        "(壹)": "1",
+        "(贰)": "2",
+        "(叁)": "3",
+        "(肆)": "4",
+        "(伍)": "5",
+        "(陆)": "6"
     }
+    result = {}
+    stone_tab = ENCHANT_TAB[pd.notna(ENCHANT_TAB.DiamondType1)].fillna("")
+
+    for row in stone_tab.itertuples():
+        name = row.Name
+        level = ""
+        for key in stone_level_mapping:
+            if key in name:
+                level = stone_level_mapping[key]
+                break
+        attrs = row.Attribute1ID, row.Attribute2ID, row.Attribute3ID
+        if any(attr and attr not in ATTR_TYPE_MAP for attr in attrs):
+            continue
+        values = row.Attribute1Value1, row.Attribute2Value1, row.Attribute3Value1
+        node = result
+        attributes = {}
+        for attr, value in zip(attrs, values):
+            if not attr:
+                break
+            if attr not in node:
+                node[attr] = {}
+            node = node[attr]
+            attributes[attr] = int(value)
+        node[level] = dict(level=int(level), attr=attributes)
+    return result
 
 
 def generate():
@@ -326,6 +311,7 @@ def generate():
         enchants[pos] = get_enchants_list(pos)
     equipments["primary_weapon"], equipments["secondary_weapon"] = get_weapon_equips()
     enchants["primary_weapon"], enchants["secondary_weapon"] = get_weapon_enchants()
+
 
 
 if __name__ == '__main__':
@@ -345,4 +331,5 @@ if __name__ == '__main__':
         )
     get_weapon_equips()
     get_weapon_enchants()
+
     json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)

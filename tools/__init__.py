@@ -33,6 +33,9 @@ MOBILE_BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/buff
                               encoding="gbk")
 BUFF_TXT = pd.concat([BUFF_TXT, MOBILE_BUFF_TXT], axis=0)
 
+ENCHANT_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Enchant.tab"), sep="\t", low_memory=False,
+                          encoding="gbk")
+
 ATTRIBUTE_TYPE = dict(
     SKILL_PHYSICS_DAMAGE="physical_damage_base",
     SKILL_LUNAR_DAMAGE="lunar_damage_base",

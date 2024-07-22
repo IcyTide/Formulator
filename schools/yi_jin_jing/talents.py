@@ -20,17 +20,23 @@ class 明法(Gain):
 
 class 众嗔(Gain):
     @staticmethod
-    def pre_effect(parser):
+    def add_effect(parser):
         if 743 in parser.current_dot_ticks:
             parser.refresh_buff(-13910, 1)
 
+    @staticmethod
+    def remove_effect(parser):
+        parser.clear_buff(-13910, 1)
+
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3848, 3849, 3850, 13685):
-            skills[skill_id].pre_effects.append(self.pre_effect)
+        skills[271].pre_effects.append(self.remove_effect)
+        for skill_id in (271, 243, 233):
+            skills[skill_id].post_effects.append(self.add_effect)
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in (3848, 3849, 3850, 13685):
-            skills[skill_id].pre_effects.remove(self.pre_effect)
+        skills[271].pre_effects.remove(self.remove_effect)
+        for skill_id in (271, 243, 233):
+            skills[skill_id].post_effects.remove(self.add_effect)
 
 
 class 华香(Gain):
@@ -49,6 +55,7 @@ class 华香(Gain):
 TALENT_GAINS: Dict[int, Talent] = {
     5896: Talent("涅果", [DamageAdditionRecipe(102, 232, 232)]),
     6589: Talent("明法", [明法()]),
+    6788: Talent("秉心"),
     5910: Talent("幻身"),
     5912: Talent("善心"),
     5915: Talent("身意", [MagicalCriticalRecipe((1000, 102), 2572, 2572)]),
@@ -70,7 +77,7 @@ TALENT_GAINS: Dict[int, Talent] = {
 }
 
 TALENTS = [
-    [6589, 5896],
+    [6589, 5896, 6788],
     [5910, 5912],
     [30913, 5915],
     [37455, 17750],

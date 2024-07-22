@@ -7,7 +7,7 @@ from schools.tai_xuan_jing.talents import 重山
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        18555: {}, 18002: {}, 18021: {}, 18174: {},
+        18555: {}, 18002: {}, 18021: {}, 18174: {}, 18176: {},
         **{
             buff_id: dict(gains=[重山(value, skill_id, skill_id) for skill_id in (24369, 24371, 24372)])
             for buff_id, value in ((28303, 1.074), (28304, 1.14815), (28305, 1.2223))

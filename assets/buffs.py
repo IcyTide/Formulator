@@ -4937,7 +4937,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition": 154
+            "pve_addition": 104
         },
         "max_level": 1,
         "max_stack": 1
@@ -5094,6 +5094,15 @@ BUFFS = {
         "max_level": 1,
         "max_stack": 1,
         "buff_name": "暗藏杀机C"
+    },
+    6112: {
+        "attributes": {
+            "physical_attack_power_gain": 154,
+            "poison_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "千机之威"
     },
     10005: {
         "attributes": {
@@ -5846,6 +5855,14 @@ BUFFS = {
         "max_level": 1,
         "max_stack": 1,
         "buff_name": "鬼遁"
+    },
+    18176: {
+        "attributes": {
+            "all_damage_addition": 102
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "祝祷"
     },
     28303: {
         "attributes": {},
