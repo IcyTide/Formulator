@@ -11,22 +11,22 @@ class 冥鼓(Gain):
     def add_skill(self, skill: Skill):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
             skill.physical_shield_gain_extra += self.value[0]
-        skill.damage_addition += self.value[1]
+        skill.damage_addition_extra += self.value[1]
 
     def add_skills(self, skills: Dict[int, Skill]):
-        super().add_skills(skills)
         skills[32823].physical_shield_gain = [self.value[0], 0, 0, self.value[0]]
         skills[37458].physical_shield_gain = self.value[0]
+        return super().add_skills(skills)
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
             skill.physical_shield_gain_extra -= self.value[0]
-        skill.damage_addition -= self.value[1]
+        skill.damage_addition_extra -= self.value[1]
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        super().sub_skills(skills)
         skills[32823].physical_shield_gain = 0
         skills[37458].physical_shield_gain = 0
+        super().sub_skills(skills)
 
 
 class 阳关(Gain):

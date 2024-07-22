@@ -29,7 +29,7 @@ jobs:
         pip install -r ./requirements.txt
     - uses: Nuitka/Nuitka-Action@main
       with:
-        nuitka-version: main
+        nuitka-version: 2.3.11
         script-name: qt/app.py
         standalone: true
         enable-plugins: pyside6
