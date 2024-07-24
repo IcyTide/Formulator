@@ -1,5 +1,6 @@
 from typing import Dict, Union, Tuple, List
 
+from assets.constant import SPECIAL_ENCHANT_MAP
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
@@ -131,7 +132,7 @@ def set_critical_set_rate(rate):
 
 EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
     **{
-        k: WaterWeapon(i)
+        (k,): WaterWeapon(i)
         for k, i in {
             2400: 55, 2401: 56,
             2497: 59, 2498: 60,
@@ -140,20 +141,29 @@ EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
         }.items()
     },
     **{
-        (6800, i): WindPendant(i)
-        for i in range(100, 127 + 1)
+        (6800, i + 1): WindPendant(i + 1)
+        for i in range(BUFFS[6360].max_level)
     },
     **{
-        (15436, i): 大附魔帽(i)
+        (15436, i + 1): 大附魔帽(i + 1)
+        for i in range(BUFFS[15436].max_level)
+    },
+    **{
+        (22151, i + 1): 大附魔衣(i + 1)
         for i in range(13)
     },
     **{
-        (22151, i): 大附魔衣(i)
-        for i in range(13)
+        tuple(gain): 大附魔腰()
+        for gain in SPECIAL_ENCHANT_MAP[6].values()
     },
-    22169: 大附魔腰(),
-    22166: 大附魔腕(),
-    33247: 大附魔鞋(),
+    **{
+        tuple(gain): 大附魔腕()
+        for gain in SPECIAL_ENCHANT_MAP[10].values()
+    },
+    **{
+        tuple(gain): 大附魔鞋()
+        for gain in SPECIAL_ENCHANT_MAP[9].values()
+    },
 
     17250: DamageAdditionRecipe(55, 0, 0, 4),
     17239: DamageAdditionRecipe(21, 0, 0, 4),

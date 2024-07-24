@@ -2,8 +2,8 @@ from typing import Dict, Union
 
 from base.attribute import Attribute
 from base.buff import Buff
-from base.skill import Skill
 from base.dot import Dot
+from base.skill import Skill
 
 
 class Gain:

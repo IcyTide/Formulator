@@ -5,8 +5,8 @@ from typing import Dict, Union
 
 from base.attribute import Attribute
 from base.constant import FRAME_PER_SECOND
-from base.skill import Skill, NpcSkill, PetSkill
 from base.dot import Dot
+from base.skill import Skill, NpcSkill, PetSkill
 from schools import School
 
 
@@ -127,7 +127,7 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             damage_name = damage.buff_name
         else:
             skill_id, skill_level = damage_tuple
-            damage, damage.skill_level,  = school.skills[skill_id], skill_level
+            damage, damage.skill_level, = school.skills[skill_id], skill_level
             damage_name = damage.skill_name
         if not damage.activate:
             continue

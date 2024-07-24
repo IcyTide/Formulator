@@ -31,6 +31,7 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
             bonuses.activate = True
         else:
             bonuses.activate = False
+
     bonuses_widget.activation.radio_button.clicked.connect(activate_gain)
 
     def real_bonus_gain():

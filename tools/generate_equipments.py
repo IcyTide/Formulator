@@ -1,270 +1,200 @@
-import json
-import os
-from functools import cache
+from collections import defaultdict
 
 import pandas as pd
-import requests
 from tqdm import tqdm
 
-from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_ENCHANT_ATTR, STONES_DIR
-from assets.constant import ATTR_TYPE_MAP, ATTR_TYPE_TRANSLATE
-from assets.constant import MAX_STONE_ATTR, MAX_STONE_LEVEL
-from assets.constant import EQUIPMENTS_DIR, ENCHANTS_DIR
+from assets.constant import ATTR_TYPE_MAP, MAX_SET_COUNT, MAX_SET_ATTR, SPECIAL_ENCHANT_MAP
+from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR
 from schools import SUPPORT_SCHOOLS
 from tools import *
 
 KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOLS.values()], []))
 SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOLS.values()])
 
-EQUIP_ATTR_MAP = {
-    "Overcome": "破防",
-    "Critical": "会心",
-    "CriticalDamage": "会效",
-    "Haste": "加速",
-    "Surplus": "破招",
-    "Strain": "无双"
+QUALITY_COF = {
+    4: 1.8,
+    5: 2.5
+}
+POSITION_COF = {
+    0: 1.2,
+    1: 0.6,
+    2: 1,
+    3: 0.9,
+    4: 0.5,
+    5: 0.5,
+    6: 0.7,
+    7: 0.5,
+    8: 1,
+    9: 0.7,
+    10: 0.7,
+}
+
+ENCHANT_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Enchant.tab"), sep="\t", low_memory=False,
+                          encoding="gbk").fillna(0)
+WEAPON_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Weapon.tab"), sep="\t", low_memory=False,
+                         encoding="gbk").fillna(0)
+ARMOR_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Armor.tab"), sep="\t", low_memory=False,
+                        encoding="gbk").fillna(0)
+TRINKET_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Trinket.tab"), sep="\t", low_memory=False,
+                          encoding="gbk").fillna(0)
+ATTRIB_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Attrib.tab"), sep="\t", low_memory=False, encoding="gbk")
+SET_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Set.tab"), sep="\t", low_memory=False,
+                      encoding="gbk").fillna(0)
+ARMOR_TAB['Score'] = ARMOR_TAB.apply(
+    lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
+)
+WEAPON_TAB['Score'] = WEAPON_TAB.apply(
+    lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
+)
+TRINKET_TAB['Score'] = TRINKET_TAB.apply(
+    lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
+)
+
+MIN_EQUIP_LEVEL = 12100
+ENCHANT_START_ID = 11869
+MIN_EQUIP_SCORE = {
+    k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
+}
+ATTR_ABBR = {
+    "overcome_base": "破防",
+    "critical_strike_base": "会心",
+    "critical_power_base": "会效",
+    "haste_base": "加速",
+    "surplus_base": "破招",
+    "strain_base": "无双"
 }
 
 POSITION_MAP = {
-    "hat": 3,
-    "jacket": 2,
-    "belt": 6,
-    "wrist": 10,
-    "bottoms": 8,
-    "shoes": 9,
-    "necklace": 4,
-    "pendant": 7,
-    "ring": 5,
-    "tertiary_weapon": 1
+    0: "primary_weapon",
+    1: "tertiary_weapon",
+    2: "jacket",
+    3: "hat",
+    4: "necklace",
+    5: "ring",
+    6: "belt",
+    7: "pendant",
+    8: "bottoms",
+    9: "shoes",
+    10: "wrist",
 }
-
-SUFFIX_MAP = {
-    3: 'armor',
-    2: 'armor',
-    6: 'armor',
-    10: 'armor',
-    8: 'armor',
-    9: 'armor',
-    4: 'trinket',
-    7: 'trinket',
-    5: 'trinket',
-    1: 'weapon',
-    0: 'weapon'
-}
-SPECIAL_ENCHANT_MAP = {
-    3: {
-        14350: [15436, 12],
-        12800: [15436, 11],
-        11500: [15436, 10],
-        10600: [15436, 9]
-    },
-    2: {
-        14350: [22151, 12],
-        12800: [22151, 11],
-        11500: [22151, 10],
-        10600: [22151, 9]
-    },
-    6: {
-        0: 22169
-    },
-    10: {
-        0: 22166
-    },
-    9: {
-        0: 33247
-    }
-}
-
-equip_min_level = 12000
-equip_params = {
-    "client": "std",
-    "pv_type": 1,
-    "pz": 1,
-    "page": 1,
-    "per": 300,
-    "min_level": 9000,
-    "max_level": 17000
-}
-
-enchant_params = {
-    "client": "std",
-    "subtype": 1,
-    "latest_enhance": 1
-}
+SECONDARY_WEAPON_DETAIL_TYPE = 9
 
 
-def filter_equips(result):
-    result = {k: v for k, v in result.items() if v['level'] >= equip_min_level or v['max_strength'] == 8}
-    result = {k: v for k, v in result.items() if v['kind'] in KINDS and v['school'] in SCHOOLS}
-    return result
-
-
-def get_equips_list(position):
-    position_id = POSITION_MAP[position]
-    url = f"https://node.jx3box.com/equip/{SUFFIX_MAP[position_id]}"
-    params = equip_params.copy()
-    params['position'] = position_id
-    equips = []
-    res = requests.get(url, params=params).json()
-    equips.extend(res['list'])
-    while res['pages'] > params['page']:
-        params['page'] += 1
-        res = requests.get(url, params=params).json()
-        equips.extend(res['list'])
-
-    result = {get_equip_name(row): get_equip_detail(row) for row in reversed(equips)}
-    result = filter_equips(result)
-    return result
-
-
-def get_weapon_equips():
-    params = equip_params.copy()
-    params['position'] = 0
-
-    url = f"https://node.jx3box.com/equip/weapon"
-    equips = []
-    res = requests.get(url, params=params).json()
-    equips.extend(res['list'])
-    while res['pages'] > params['page']:
-        params['page'] += 1
-        res = requests.get(url, params=params).json()
-        equips.extend(res['list'])
-    primary_weapon_result, secondary_weapon_result = {}, {}
-    for row in reversed(equips):
-        if row['DetailType'] == 9:
-            secondary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
-        else:
-            primary_weapon_result[get_equip_name(row)] = get_equip_detail(row)
-    primary_weapon_result = filter_equips(primary_weapon_result)
-    secondary_weapon_result = filter_equips(secondary_weapon_result)
-    return primary_weapon_result, secondary_weapon_result
-
-
-def get_equip_name(row):
-    name = row['Name']
-    attrs = " ".join([EQUIP_ATTR_MAP[attr] for attr in EQUIP_ATTR_MAP if attr in row['_Attrs']])
-    level = row['Level']
-    return f"{name}#{row['ID']}({attrs}) {level}"
+def get_equip_name(detail):
+    abbrs = []
+    for attr in detail['magic']:
+        for k, v in ATTR_ABBR.items():
+            if k in attr:
+                abbrs.append(v)
+                break
+    return f"{detail['name']}#{detail['id']}({' '.join(abbrs)}) {detail['level']}"
 
 
 def get_equip_detail(row):
-    base_attrs, magic_attrs, embed_attrs = {}, {}, {}
-    set_id, set_attr, set_gain = "", {}, {}
-    level = int(row['Level'])
-    special_enchant = []
-    gains = []
+    detail = {
+        "id": row.ID, "name": row.Name, "school": row.BelongSchool, "kind": row.MagicKind, "level": int(row.Level),
+        "max_strength": int(row.MaxStrengthLevel), "special_enchant": 0, "set_id": 0,
+    }
+    detail['base'] = base_attrs = {}
+    detail['magic'] = magic_attrs = {}
+    detail['embed'] = embed_attrs = {}
+    detail['gains'] = gains = []
+    detail['set_attr'] = set_attr = defaultdict(dict)
+    detail['set_gain'] = set_gain = defaultdict(list)
     for i in range(MAX_BASE_ATTR):
-        if not (attr_type := row[f'Base{i + 1}Type']):
+        if not (attr_type := getattr(row, f'Base{i + 1}Type')):
             break
         if attr_type not in ATTR_TYPE_MAP:
             continue
-        base_attrs[ATTR_TYPE_MAP[attr_type]] = int(row[f'Base{i + 1}Max'])
+        base_attrs[ATTR_TYPE_MAP[attr_type]] = int(getattr(row, f'Base{i + 1}Max'))
     for i in range(MAX_MAGIC_ATTR):
-        if not (attr := row[f'_Magic{i + 1}Type']):
+        if not (attr_id := getattr(row, f'Magic{i + 1}Type')):
             break
-        attr = attr['attr']
-        if attr[0] in ATTR_TYPE_MAP:
-            magic_attrs[ATTR_TYPE_MAP[attr[0]]] = int(attr[1])
-        elif attr[0] in ["atSetEquipmentRecipe", "atSkillEventHandler"]:
-            gains.append(int(attr[1]))
+        attr_row = ATTRIB_TAB[ATTRIB_TAB.ID == attr_id].iloc[0]
+        attr, value = attr_row.ModifyType, int(attr_row.Param1Max)
+        if attr in ATTR_TYPE_MAP:
+            magic_attrs[ATTR_TYPE_MAP[attr]] = value
+        elif attr == "atSetEquipmentRecipe":
+            gains.append(value)
+        elif attr == "atSkillEventHandler":
+            gains.append([value])
         else:
             continue
     for i in range(MAX_EMBED_ATTR):
-        if not (attr := row[f'_DiamondAttributeID{i + 1}']):
+        if not (attr_id := getattr(row, f'DiamondAttributeID{i + 1}')):
             break
-        if attr[0] not in ATTR_TYPE_MAP:
+        attr_row = ATTRIB_TAB[ATTRIB_TAB.ID == attr_id].iloc[0]
+        attr, value = attr_row.ModifyType, int(attr_row.Param1Max)
+        if attr not in ATTR_TYPE_MAP:
             continue
-        embed_attrs[ATTR_TYPE_MAP[attr[0]]] = int(attr[1])
+        embed_attrs[ATTR_TYPE_MAP[attr]] = value
 
-    for k, v in SPECIAL_ENCHANT_MAP.get(row['SubType'], {}).items():
-        if level > k:
-            special_enchant = v
+    for k, v in SPECIAL_ENCHANT_MAP.get(row.SubType, {}).items():
+        if detail['level'] > k:
+            detail['special_enchant'] = v
             break
 
-    if row["SkillID"]:
-        gains.append((int(row['SkillID']), int(row['SkillLevel'])))
+    if row.SkillID:
+        gains.append([int(row.SkillID), int(row.SkillLevel)])
 
-    if set_id := row['_SetAttrbs']:
-        set_id = set_id['UiID']
-        for k, v in row['_SetData'].items():
-            if not v:
-                continue
-            count = k.split("_")[0]
-            attr = v['attr']
-            if attr[0] in ATTR_TYPE_MAP:
-                if count not in set_attr:
-                    set_attr[count] = {}
-                set_attr[count][ATTR_TYPE_MAP[attr[0]]] = int(attr[1])
-            elif attr[0] in ["atSetEquipmentRecipe", "atSkillEventHandler"]:
-                if count not in set_gain:
-                    set_gain[count] = []
-                set_gain[count].append(int(attr[1]))
+    if not row.SetID:
+        return detail
+    detail['set_id'] = int(row.SetID)
+    set_row = SET_TAB[SET_TAB.ID == row.SetID].iloc[0]
+    for i in range(1, MAX_SET_COUNT):
+        for j in range(MAX_SET_ATTR):
+            if attr_id := getattr(set_row, f"{i + 1}_{j + 1}"):
+                attr_row = ATTRIB_TAB[ATTRIB_TAB.ID == attr_id].iloc[0]
+                attr, value = attr_row.ModifyType, int(attr_row.Param1Max)
+                if attr in ATTR_TYPE_MAP:
+                    set_attr[i + 1][ATTR_TYPE_MAP[attr]] = value
+                elif attr == "atSetEquipmentRecipe":
+                    set_gain[i + 1].append(value)
+                elif attr == "atSkillEventHandler":
+                    set_gain[i + 1].append([value])
+                else:
+                    continue
+    return detail
+
+
+def get_equip_list(equip_tab):
+    equip_tab = equip_tab[
+        equip_tab.apply(lambda x: x['Score'] >= MIN_EQUIP_SCORE.get(x['SubType'], float("inf")), axis=1)]
+    equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
+    equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
+    equip_tab = equip_tab.sort_values("Score", ascending=False)
+
+    results = defaultdict(dict)
+    for row in tqdm(equip_tab.itertuples()):
+        detail = get_equip_detail(row)
+        name = get_equip_name(detail)
+        position = POSITION_MAP[row.SubType]
+        results[position][name] = detail
+    return results
+
+
+def get_weapon_list():
     return {
-        "id": row["ID"],
-        "school": row['BelongSchool'],
-        "kind": row['MagicKind'],
-        "level": level,
-        "max_strength": int(row['MaxStrengthLevel']),
-        "base": base_attrs,
-        "magic": magic_attrs,
-        "embed": embed_attrs,
-        "gains": gains,
-        "special_enchant": special_enchant,
-        "set_id": set_id,
-        "set_attr": set_attr,
-        "set_gain": set_gain
+        **get_equip_list(WEAPON_TAB[WEAPON_TAB.DetailType != SECONDARY_WEAPON_DETAIL_TYPE]),
+        "secondary_weapon": get_equip_list(
+            WEAPON_TAB[WEAPON_TAB.DetailType == SECONDARY_WEAPON_DETAIL_TYPE]
+        )['primary_weapon']
     }
 
 
-@cache
-def get_enchants_list(position):
-    position_id = POSITION_MAP[position]
-    url = f"https://node.jx3box.com/enchant/primary"
-    params = enchant_params.copy()
-    params['position'] = position_id
-    res = requests.get(url, params=params)
-    enchants = [e for e in sorted(res.json(), key=lambda x: x['Score'], reverse=True) if
-                e['Attribute1ID'] in ATTR_TYPE_MAP]
-
-    result = {get_enchant_name(row): get_enchant_detail(row) for row in enchants}
-
-    return result
-
-
-def get_weapon_enchants():
-    position_id = 0
-    url = f"https://node.jx3box.com/enchant/primary"
-    params = enchant_params.copy()
-    params['position'] = position_id
-    res = requests.get(url, params=params)
-    enchants = [e for e in sorted(res.json(), key=lambda x: x['Score'], reverse=True) if
-                e['Attribute1ID'] in ATTR_TYPE_MAP]
-
-    weapon_enchants = {get_enchant_name(row): get_enchant_detail(row) for row in enchants}
-    return weapon_enchants, weapon_enchants
-
-
-def get_enchant_name(row):
-    if not row:
-        return ""
-    name = row['Name']
-    attr = row['AttriName']
-    return f"{name} {attr}"
-
-
-def get_enchant_detail(row):
-    attrs = {}
-    for i in range(MAX_ENCHANT_ATTR):
-        if not (attr_type := row[f'Attribute{i + 1}ID']):
-            break
-        if attr_type not in ATTR_TYPE_MAP:
+def get_enchants_list():
+    enchant_tab = ENCHANT_TAB[ENCHANT_TAB.ID >= ENCHANT_START_ID].sort_values("Score", ascending=False)
+    results = defaultdict(dict)
+    for row in tqdm(enchant_tab.itertuples()):
+        if row.Time or row.Attribute1ID not in ATTR_TYPE_MAP:
             continue
-        attrs[ATTR_TYPE_MAP[attr_type]] = int(row[f'Attribute{i + 1}Value1'])
-    return {
-        "id": row['ID'],
-        "score": row['Score'],
-        "attr": attrs
-    }
+        name = f"{row.Name} {row.AttriName}"
+        position = POSITION_MAP[row.DestItemSubType]
+        results[position][name] = dict(id=row.ID, score=int(row.Score), attr={
+            ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)
+        })
+
+    return results
 
 
 def get_stones_list():
@@ -277,9 +207,9 @@ def get_stones_list():
         "(陆)": "6"
     }
     result = {}
-    stone_tab = ENCHANT_TAB[pd.notna(ENCHANT_TAB.DiamondType1)].fillna("")
+    stone_tab = ENCHANT_TAB[ENCHANT_TAB.DiamondType1 > 0]
 
-    for row in stone_tab.itertuples():
+    for row in tqdm(stone_tab.itertuples()):
         name = row.Name
         level = ""
         for key in stone_level_mapping:
@@ -295,6 +225,7 @@ def get_stones_list():
         for attr, value in zip(attrs, values):
             if not attr:
                 break
+            attr = ATTR_TYPE_MAP[attr]
             if attr not in node:
                 node[attr] = {}
             node = node[attr]
@@ -304,32 +235,14 @@ def get_stones_list():
 
 
 def generate():
-    equipments = {}
-    enchants = {}
-    for pos in tqdm(POSITION_MAP):
-        equipments[pos] = get_equips_list(pos)
-        enchants[pos] = get_enchants_list(pos)
-    equipments["primary_weapon"], equipments["secondary_weapon"] = get_weapon_equips()
-    enchants["primary_weapon"], enchants["secondary_weapon"] = get_weapon_enchants()
-
+    save_code("equipments", {
+        **get_equip_list(ARMOR_TAB),
+        **get_equip_list(TRINKET_TAB),
+        **get_weapon_list()
+    })
+    save_code("enchants", get_enchants_list())
+    save_code("stones", get_stones_list())
 
 
 if __name__ == '__main__':
-    if not os.path.exists(EQUIPMENTS_DIR):
-        os.makedirs(EQUIPMENTS_DIR)
-    if not os.path.exists(ENCHANTS_DIR):
-        os.makedirs(ENCHANTS_DIR)
-
-    for pos in tqdm(POSITION_MAP):
-        json.dump(
-            get_equips_list(pos),
-            open(os.path.join(EQUIPMENTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-        json.dump(
-            get_enchants_list(pos),
-            open(os.path.join(ENCHANTS_DIR, pos), "w", encoding="utf-8"), ensure_ascii=False
-        )
-    get_weapon_equips()
-    get_weapon_enchants()
-
-    json.dump(get_stones_list(), open(STONES_DIR, "w", encoding="utf-8"), ensure_ascii=False)
+    generate()

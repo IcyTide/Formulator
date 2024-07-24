@@ -1,6 +1,6 @@
 from typing import Dict
 
-from assets.setter import set_skill, set_dot
+from assets.setter import set_skill
 from base.skill import Skill
 from general.skills import GENERAL_SKILLS
 

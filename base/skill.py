@@ -1339,6 +1339,8 @@ class Skill(Damage):
 
     activate: bool = True
 
+    max_level: int = 0
+
     recipe_type: int = 0
     recipe_mask: int = 0
     event_mask_1: int = 0

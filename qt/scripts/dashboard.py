@@ -14,8 +14,9 @@ from utils.analyzer import analyze_details, Detail
 
 def attr_content(attribute):
     content = []
-    for attr, name in attribute.display_attrs.items():
+    for attr in attribute.display_attrs:
         value = getattr(attribute, attr)
+        name = ATTR_TYPE_TRANSLATE[attr]
         if isinstance(value, int):
             content.append([name, f"{value}"])
         else:

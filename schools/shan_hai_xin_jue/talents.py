@@ -2,10 +2,10 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
+from base.dot import Dot
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe
 from base.skill import Skill
-from base.dot import Dot
 from base.talent import Talent
 from schools.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 

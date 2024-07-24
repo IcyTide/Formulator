@@ -20,7 +20,7 @@ class SecondaryWeapon(Gain):
 
 
 GAINS = {
-    1920: CriticalSet(1955, BUFFS[1955]),
+    (1920,): CriticalSet(1955, BUFFS[1955]),
     818: DamageAdditionRecipe(102, 0, 1593),
     4347: DamageAdditionRecipe(102, 1600, 1600),
     1536: DamageAdditionRecipe(51, 1646, 1646),
@@ -29,10 +29,10 @@ GAINS = {
     1539: DamageAdditionRecipe(51, 1600, 1600),
     1141: CriticalStrikeRecipe(500, 0, 1646),
     1142: CriticalStrikeRecipe(500, 0, 1600),
-    2426: Gain(),
-    2427: Gain(),
-    1937: Gain(),
-    1945: Gain(),
+    (2426,): Gain(),
+    (2427,): Gain(),
+    (1937,): Gain(),
+    (1945,): Gain(),
     17368: Gain(),
     17369: Gain(),
     **EQUIPMENT_GAINS,

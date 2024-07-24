@@ -4,9 +4,7 @@ import json
 from PySide6.QtWidgets import QFileDialog, QWidget
 
 from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
-from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
-from qt.components.consumables import ConsumablesWidget
 from qt.components.dashboard import DashboardWidget
 from qt.components.equipments import EquipmentsWidget
 from qt.components.recipes import RecipesWidget
@@ -120,7 +118,7 @@ def top_script(
         """ Update equipment options """
         for label, equipment_widget in equipments_widget.items():
             choices = [""]
-            for name, detail in equipment_widget.equipment_json.items():
+            for name, detail in equipment_widget.equipment_data.items():
                 if detail['kind'] not in (school.kind, school.major):
                     continue
                 if detail['school'] not in ("精简", "通用", school.school):
@@ -129,7 +127,7 @@ def top_script(
             equipment_widget.equipment.set_items(choices)
             if equipment_widget.enchant:
                 equipment_widget.enchant.combo_box.setCurrentIndex(0)
-            if equipment_widget.stones_json:
+            if equipment_widget.stones_data:
                 if not (current_index := equipment_widget.stone_level.combo_box.currentIndex()):
                     current_index = MAX_STONE_LEVEL
                 equipment_widget.stone_level.combo_box.setCurrentIndex(current_index)

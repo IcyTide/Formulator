@@ -272,7 +272,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 max_strength = False
 
             equipment.name = equipment_name
-            equipment_detail = widget.equipment_json[equipment_name]
+            equipment_detail = widget.equipment_data[equipment_name]
             for k, v in equipment_detail.items():
                 setattr(equipment, k, v)
 
@@ -296,10 +296,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             else:
                 widget.embed_attr.hide()
 
-            if isinstance(equipment.special_enchant, list):
-                equipment.special_enchant = tuple(equipment.special_enchant)
-
             if equipment.special_enchant:
+                equipment.special_enchant = tuple(equipment.special_enchant)
                 widget.special_enchant.set_text(EQUIPMENT_GAINS[equipment.special_enchant].gain_name)
 
             widget.detail_widget.show()
@@ -312,7 +310,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
 
         def inner(enchant_name):
             if enchant_name:
-                enchant_detail = widget.enchant_json[enchant_name]
+                enchant_detail = widget.enchant_data[enchant_name]
                 equipment.enchant.name = enchant_name
                 for k, v in enchant_detail.items():
                     setattr(equipment.enchant, k, v)
@@ -366,14 +364,14 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         equipment = equipments[label]
 
         def inner(_):
-            level = widget.stone_level.combo_box.currentText()
-            if level == '0':
+            level = int(widget.stone_level.combo_box.currentText())
+            if not level:
                 for stone in widget.stone_attrs:
                     stone.set_items([""])
-                widget.stone_attrs[0].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in widget.stones_json])
+                widget.stone_attrs[0].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in widget.stones_data])
                 equipment.stone = Stone()
                 return
-            current = widget.stones_json
+            current = widget.stones_data
             i = 0
             while i < len(widget.stone_attrs):
                 attr = ATTR_TYPE_TRANSLATE_REVERSE.get(widget.stone_attrs[i].combo_box.currentText())
@@ -406,7 +404,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         equipment_widget.strength_level.combo_box.currentIndexChanged.connect(strength_level_update(equipment_label))
         for n, embed_widget in enumerate(equipment_widget.embed_levels):
             embed_widget.combo_box.currentIndexChanged.connect(embed_level_update(n, equipment_label))
-        if equipment_widget.stones_json:
+        if equipment_widget.stones_data:
             equipment_widget.stone_level.combo_box.currentIndexChanged.connect(stone_update(equipment_label))
             for stone_attr in equipment_widget.stone_attrs:
                 stone_attr.combo_box.currentIndexChanged.connect(stone_update(equipment_label))

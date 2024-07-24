@@ -766,15 +766,9 @@ class Attribute(Major, Minor, Target):
         surplus_base=MINOR_DELTA,
         strain_base=MINOR_DELTA
     )
-    display_attrs: dict = dict(
-        strain_base="无双等级",
-        strain="无双",
-        surplus="破招",
-        base_weapon_damage="基础武器伤害",
-        weapon_damage_rand="浮动武器伤害",
-    )
+    display_attrs: list = ["strain_base", "strain", "surplus", "base_weapon_damage", "weapon_damage_rand"]
     platform: int = 0
-    
+
     def __init__(self):
         self.all_major_base += MAJOR_BASE
         self.target = Target()
@@ -803,21 +797,15 @@ class PhysicalAttribute(Attribute):
         physical_overcome_base=MINOR_DELTA,
         weapon_damage_base=WEAPON_DELTA
     )
-    display_attrs = dict(
-        agility="身法",
-        strength="力道",
-        base_physical_attack_power="外功基础攻击",
-        physical_attack_power="外功攻击",
-        final_physical_critical_strike="外功会心等级",
-        physical_critical_strike="外功会心",
-        physical_critical_power_base="外功会心效果等级",
-        physical_critical_power="外功会心效果",
-        base_physical_overcome="外功基础破防",
-        final_physical_overcome="外功最终破防",
-        physical_overcome="外功破防",
-        **Attribute.display_attrs
-    )
-    
+    display_attrs: list = [
+        "agility", "strength",
+        "base_physical_attack_power", "physical_attack_power",
+        "final_physical_critical_strike", "physical_critical_strike",
+        "physical_critical_power_base", "physical_critical_power",
+        "base_physical_overcome", "final_physical_overcome", "physical_overcome",
+        *Attribute.display_attrs
+    ]
+
     @property
     def attack_power(self):
         return self.physical_attack_power
@@ -857,31 +845,23 @@ class MagicalAttribute(Attribute):
         all_critical_power_base=MINOR_DELTA,
         magical_overcome_base=MINOR_DELTA
     )
-    display_attrs = dict(
-        spirit="根骨",
-        spunk="元气"
-    )
-    
+    display_attrs: list = ["spirit", "spunk"]
+
     @property
     def damage_addition(self):
         return self.magical_damage_addition
 
 
 class SolarAttribute(MagicalAttribute):
-    display_attrs = dict(
-        **MagicalAttribute.display_attrs,
-        base_solar_attack_power="阳性基础攻击",
-        solar_attack_power="阳性攻击",
-        final_solar_critical_strike="阳性会心等级",
-        solar_critical_strike="阳性会心",
-        solar_critical_power_base="阳性会心效果等级",
-        solar_critical_power="阳性会心效果",
-        base_solar_overcome="阳性基础破防",
-        final_solar_overcome="阳性最终破防",
-        solar_overcome="阳性破防",
-        **Attribute.display_attrs
-    )
-    
+    display_attrs: list = [
+        *MagicalAttribute.display_attrs,
+        "base_solar_attack_power", "solar_attack_power",
+        "final_solar_critical_strike", "solar_critical_strike",
+        "solar_critical_power_base", "solar_critical_power",
+        "base_solar_overcome", "final_solar_overcome", "solar_overcome",
+        *Attribute.display_attrs
+    ]
+
     @property
     def attack_power(self):
         return self.solar_attack_power
@@ -908,20 +888,15 @@ class SolarAttribute(MagicalAttribute):
 
 
 class LunarAttribute(MagicalAttribute):
-    display_attrs = dict(
-        **MagicalAttribute.display_attrs,
-        base_lunar_attack_power="阴性基础攻击",
-        lunar_attack_power="阴性攻击",
-        final_lunar_critical_strike="阴性会心等级",
-        lunar_critical_strike="阴性会心",
-        lunar_critical_power_base="阴性会心效果等级",
-        lunar_critical_power="阴性会心效果",
-        base_lunar_overcome="阴性基础破防",
-        final_lunar_overcome="阴性最终破防",
-        lunar_overcome="阴性破防",
-        **Attribute.display_attrs
-    )
-    
+    display_attrs: list = [
+        *MagicalAttribute.display_attrs,
+        "base_lunar_attack_power", "lunar_attack_power",
+        "final_lunar_critical_strike", "lunar_critical_strike",
+        "lunar_critical_power_base", "lunar_critical_power",
+        "base_lunar_overcome", "final_lunar_overcome", "lunar_overcome",
+        *Attribute.display_attrs
+    ]
+
     @property
     def attack_power(self):
         return self.lunar_attack_power
@@ -948,19 +923,14 @@ class LunarAttribute(MagicalAttribute):
 
 
 class NeutralAttribute(MagicalAttribute):
-    display_attrs = dict(
-        **MagicalAttribute.display_attrs,
-        base_neutral_attack_power="混元基础攻击",
-        neutral_attack_power="混元攻击",
-        final_neutral_critical_strike="混元会心等级",
-        neutral_critical_strike="混元会心",
-        neutral_critical_power_base="混元会心效果等级",
-        neutral_critical_power="混元会心效果",
-        base_neutral_overcome="混元基础破防",
-        final_neutral_overcome="混元最终破防",
-        neutral_overcome="混元破防",
-        **Attribute.display_attrs
-    )
+    display_attrs: list = [
+        *MagicalAttribute.display_attrs,
+        "base_neutral_attack_power", "neutral_attack_power",
+        "final_neutral_critical_strike", "neutral_critical_strike",
+        "neutral_critical_power_base", "neutral_critical_power",
+        "base_neutral_overcome", "final_neutral_overcome", "neutral_overcome",
+        *Attribute.display_attrs
+    ]
 
     @property
     def attack_power(self):
@@ -988,19 +958,14 @@ class NeutralAttribute(MagicalAttribute):
 
 
 class PoisonAttribute(MagicalAttribute):
-    display_attrs = dict(
-        **MagicalAttribute.display_attrs,
-        base_poison_attack_power="毒性基础攻击",
-        poison_attack_power="毒性攻击",
-        final_poison_critical_strike="毒性会心等级",
-        poison_critical_strike="毒性会心",
-        poison_critical_power_base="毒性会心效果等级",
-        poison_critical_power="毒性会心效果",
-        base_poison_overcome="毒性基础破防",
-        final_poison_overcome="毒性最终破防",
-        poison_overcome="毒性破防",
-        **Attribute.display_attrs
-    )
+    display_attrs: list = [
+        *MagicalAttribute.display_attrs,
+        "base_poison_attack_power", "poison_attack_power",
+        "final_poison_critical_strike", "poison_critical_strike",
+        "poison_critical_power_base", "poison_critical_power",
+        "base_poison_overcome", "final_poison_overcome", "poison_overcome",
+        *Attribute.display_attrs
+    ]
 
     @property
     def attack_power(self):
@@ -1038,20 +1003,14 @@ class MixingAttribute(MagicalAttribute):
         all_critical_power_base=MINOR_DELTA,
         magical_overcome_base=MINOR_DELTA
     )
-    display_attrs = dict(
-        agility="身法",
-        spunk="元气",
-        base_poison_attack_power="毒性基础攻击",
-        poison_attack_power="毒性攻击",
-        final_physical_critical_strike="外功会心等级",
-        physical_critical_strike="外功会心",
-        physical_critical_power_base="外功会心效果等级",
-        physical_critical_power="外功会心效果",
-        base_poison_overcome="毒性基础破防",
-        final_poison_overcome="毒性最终破防",
-        poison_overcome="毒性破防",
-        **Attribute.display_attrs
-    )
+    display_attrs: list = [
+        "agility", "spunk",
+        "base_poison_attack_power", "poison_attack_power",
+        "final_physical_critical_strike", "physical_critical_strike",
+        "physical_critical_power_base", "physical_critical_power",
+        "base_poison_overcome", "final_poison_overcome", "poison_overcome",
+        *Attribute.display_attrs
+    ]
 
     @property
     def attack_power(self):

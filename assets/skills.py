@@ -1357,6 +1357,22 @@ SKILLS = {
         "solar_damage_rand": 101,
         "solar_damage_call": 1
     },
+    243: {
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 243,
+        "recipe_mask": 0,
+        "skill_name": "拿云式",
+        "channel_interval": 16.0
+    },
+    233: {
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 233,
+        "recipe_mask": 0,
+        "skill_name": "韦陀献杵",
+        "channel_interval": 16.0
+    },
     3808: {
         "kind_type": "SolarMagic",
         "platform": 0,
@@ -6215,7 +6231,7 @@ SKILLS = {
             5,
             7,
             9,
-            12,
+            0,
             14,
             17,
             19,

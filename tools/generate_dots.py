@@ -1,6 +1,22 @@
+import pandas as pd
 from tqdm import tqdm
 
+from schools import SUPPORT_SCHOOLS
 from tools import *
+from tools.generate_buffs import BUFF_TAB, BUFF_TXT
+
+
+def prepare_dots():
+    dots = []
+    for school in SUPPORT_SCHOOLS.values():
+        for dot_id, dot in school.dots.items():
+            if dot_id in dots:
+                continue
+            dots.append(dot_id)
+    return dots
+
+
+DOTS = prepare_dots()
 
 MAX_ATTRIB = 2
 

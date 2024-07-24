@@ -2,10 +2,10 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
+from base.dot import Dot
 from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
-from base.dot import Dot
 from base.talent import Talent
 from schools.wu_fang.skills import 鬼门加成
 
@@ -33,7 +33,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     28338: Talent("怯邪"),
     27530: Talent("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
     101419: Talent("鬼门", [鬼门()]),
-    28344: Talent("鸩羽", [鸩羽(1000, 27556,27556)]),
+    28344: Talent("鸩羽", [鸩羽(1000, 27556, 27556)]),
     101422: Talent("神莹"),
     28361: Talent("结草"),
     101423: Talent("济世"),

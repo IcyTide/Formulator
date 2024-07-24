@@ -1,11 +1,10 @@
-import json
-import os
-
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
 
-from assets.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, SPECIAL_ENCHANT_POSITIONS
-from assets.constant import POSITION_MAP, STONES_POSITIONS, EQUIPMENTS_DIR, ENCHANTS_DIR, STONES_DIR, MAX_STONE_ATTR, \
-    MAX_STRENGTH_LEVEL
+from assets.constant import MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, MAX_STONE_ATTR
+from assets.constant import POSITION_MAP, EMBED_POSITIONS, STONES_POSITIONS, SPECIAL_ENCHANT_POSITIONS
+from assets.enchants import ENCHANTS
+from assets.equipments import EQUIPMENTS
+from assets.stones import STONES
 from general.gains.equipment import CriticalSet
 from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel, SpinWithLabel
 
@@ -16,10 +15,10 @@ class EquipmentWidget(QWidget):
         self.position = POSITION_MAP[label]
         layout = QVBoxLayout(self)
 
-        self.equipment_json = json.load(open(os.path.join(EQUIPMENTS_DIR, self.position), encoding="utf-8"))
-        self.equipment_mapping = {v['id']: k for k, v in self.equipment_json.items()}
-        self.enchant_json = json.load(open(os.path.join(ENCHANTS_DIR, self.position), encoding="utf-8"))
-        self.enchant_mapping = {v['id']: k for k, v in self.enchant_json.items()}
+        self.equipment_data = EQUIPMENTS[self.position]
+        self.equipment_mapping = {v['id']: k for k, v in self.equipment_data.items()}
+        self.enchant_data = ENCHANTS.get(self.position, {})
+        self.enchant_mapping = {v['id']: k for k, v in self.enchant_data.items()}
         self.equipment = ComboWithLabel("装备")
         layout.addWidget(self.equipment)
 
@@ -32,11 +31,11 @@ class EquipmentWidget(QWidget):
         input_layout = QGridLayout()
         detail_layout.addLayout(input_layout)
 
-        if not self.enchant_json:
+        if not self.enchant_data:
             self.enchant = None
         else:
             self.enchant = ComboWithLabel("附魔")
-            self.enchant.set_items([""] + list(self.enchant_json))
+            self.enchant.set_items([""] + list(self.enchant_data))
             input_layout.addWidget(self.enchant, 0, 0, 1, 2)
 
         if self.position not in SPECIAL_ENCHANT_POSITIONS:
@@ -58,12 +57,11 @@ class EquipmentWidget(QWidget):
             input_layout.addWidget(embed_level, 1, i + 1)
 
         if self.position not in STONES_POSITIONS:
-            self.stones_json = None
+            self.stones_data = None
             self.stone_level = None
             self.stone_attrs = None
         else:
-            self.stones_json = json.load(open(STONES_DIR, encoding="utf-8"))
-
+            self.stones_data = STONES
             self.stone_level = ComboWithLabel(
                 "五彩石等级", items=[str(i) for i in range(MAX_STONE_LEVEL + 1)]
             )

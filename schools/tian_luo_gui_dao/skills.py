@@ -1,8 +1,8 @@
 from typing import Dict
 
 from assets.setter import set_skill, set_dot
-from base.skill import Skill
 from base.dot import Dot
+from base.skill import Skill
 from general.skills import GENERAL_SKILLS
 
 

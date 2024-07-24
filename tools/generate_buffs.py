@@ -1,7 +1,47 @@
+import pandas as pd
 from tqdm import tqdm
 
 from assets.constant import ATTR_TYPE_MAP
+from base.buff import CustomBuff
+from general.gains import GENERAL_GAINS
+from schools import SUPPORT_SCHOOLS
 from tools import *
+
+
+def prepare_buffs():
+    buffs = []
+    for school in SUPPORT_SCHOOLS.values():
+        for buff_id, buff in school.buffs.items():
+            if buff_id in buffs:
+                continue
+            if isinstance(buff, CustomBuff):
+                continue
+            if buff_id < 0:
+                buff_id = -buff_id
+            buffs.append(buff_id)
+    for buff_id, buff in GENERAL_GAINS.items():
+        if buff_id in buffs:
+            continue
+        if isinstance(buff, CustomBuff):
+            continue
+        if buff_id < 0:
+            buff_id = -buff_id
+        buffs.append(buff_id)
+    return buffs
+
+
+BUFFS = prepare_buffs()
+
+BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/buff.tab"), sep="\t", low_memory=False, encoding="gbk")
+BUFF_TAB['Platform'] = 0
+MOBILE_BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/buff.tab"), sep="\t", low_memory=False,
+                              encoding="gbk")
+MOBILE_BUFF_TAB['Platform'] = 1
+BUFF_TAB = pd.concat([BUFF_TAB, MOBILE_BUFF_TAB], axis=0)
+BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/buff.txt"), sep="\t", low_memory=False, encoding="gbk")
+MOBILE_BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/buff.txt"), sep="\t", low_memory=False,
+                              encoding="gbk")
+BUFF_TXT = pd.concat([BUFF_TXT, MOBILE_BUFF_TXT], axis=0)
 
 MAX_ATTRIB = 15
 
