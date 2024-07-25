@@ -1,7 +1,8 @@
 from collections import defaultdict
 from copy import copy
 from dataclasses import dataclass
-from typing import Dict, Union
+from functools import cached_property
+from typing import Dict, Union, List
 
 from base.attribute import Attribute
 from base.constant import FRAME_PER_SECOND
@@ -17,19 +18,32 @@ class Detail:
     critical_strike: float = 0.
     expected_damage: float = 0.
 
+    timeline: List[tuple] = None
     gradients: Dict[str, float] = None
 
-    critical_count: int = 0
-    count: int = 0
-
     def __post_init__(self):
+        self.timeline = []
         self.gradients = defaultdict(float)
 
-    @property
+    @cached_property
+    def count(self):
+        return len(self.timeline)
+
+    @cached_property
+    def actual_critical_count(self):
+        return len([t for t in self.timeline if t[1]])
+
+    @cached_property
     def actual_critical_strike(self):
-        if self.count:
-            return self.critical_count / self.count
-        return 0
+        return self.actual_critical_count / self.count
+
+    @cached_property
+    def total_actual_damage(self):
+        return sum([t[-1] for t in self.timeline if t[-1]])
+
+    @cached_property
+    def actual_damage(self):
+        return self.total_actual_damage / self.count
 
 
 def filter_status(status, school: School):
@@ -110,11 +124,12 @@ def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
     return buffs
 
 
-def analyze_details(record, duration: int, attribute: Attribute, school: School):
+def analyze_details(record, start_frame, end_frame, attribute: Attribute, school: School):
     total = Detail()
     details = {}
     summary = {}
-    duration *= FRAME_PER_SECOND
+    start_frame = int(start_frame * FRAME_PER_SECOND)
+    end_frame = int(end_frame * FRAME_PER_SECOND)
 
     for damage, status in record.items():
         damage_tuple, dot_skill_tuple = damage
@@ -136,9 +151,8 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             damage_summary = summary[damage_name] = Detail()
         damage_total = damage_detail[""] = Detail()
         for (current_status, snapshot_status, target_status), timeline in status.items():
-            if not (timeline := [t for t in timeline if t[0] < duration]):
+            if not (timeline := [t for t in timeline if start_frame <= t[0] < end_frame]):
                 continue
-            critical_timeline = [t for t in timeline if t[1]]
 
             current_buffs = filter_status(current_status, school)
             snapshot_buffs = filter_status(snapshot_status, school)
@@ -153,10 +167,8 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
                 detail.gradients = analyze_gradients(damage, attribute)
             sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, damage)
 
-            detail.critical_count += len(critical_timeline)
-            detail.count += len(timeline)
-            damage_total.critical_count += len(critical_timeline)
-            damage_total.count += len(timeline)
+            detail.timeline += timeline
+            damage_total.timeline += timeline
 
             damage_total.damage += detail.damage * len(timeline)
             damage_total.critical_damage += detail.critical_damage * len(timeline)
@@ -165,18 +177,18 @@ def analyze_details(record, duration: int, attribute: Attribute, school: School)
             for attr, residual_damage in detail.gradients.items():
                 damage_total.gradients[attr] += residual_damage * len(timeline)
 
-        if damage_total.count:
+        if damage_total.timeline:
             total.expected_damage += damage_total.expected_damage
+            damage_summary.critical_strike += damage_total.critical_strike
             damage_summary.expected_damage += damage_total.expected_damage
-            damage_summary.critical_count += damage_total.critical_strike
-            damage_summary.count += damage_total.count
-            damage_total.damage /= damage_total.count
-            damage_total.critical_damage /= damage_total.count
-            damage_total.expected_damage /= damage_total.count
-            damage_total.critical_strike /= damage_total.count
+            damage_summary.timeline += damage_total.timeline
+            damage_total.damage /= len(damage_total.timeline)
+            damage_total.critical_damage /= len(damage_total.timeline)
+            damage_total.expected_damage /= len(damage_total.timeline)
+            damage_total.critical_strike /= len(damage_total.timeline)
             for attr, residual_damage in damage_total.gradients.items():
                 total.gradients[attr] += residual_damage
-                damage_total.gradients[attr] /= damage_total.count
+                damage_total.gradients[attr] /= len(damage_total.timeline)
         else:
             details.pop(damage.display_name)
 

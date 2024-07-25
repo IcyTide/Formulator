@@ -1,6 +1,6 @@
 import re
 
-DAMAGE_RESULT_PATTERN = re.compile(r"\[[0-4]\]=(\d+)")
+DAMAGE_RESULT_PATTERN = re.compile(r"\[13\]=(\d+)")
 
 
 def parse(content):

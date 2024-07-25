@@ -1,6 +1,7 @@
 from typing import Dict
 
 from assets.constant import ATTR_TYPE_TRANSLATE, MOBILE_MAX_TALENTS
+from base.constant import FRAME_PER_SECOND
 from qt.components.dashboard import DashboardWidget
 from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
@@ -28,15 +29,15 @@ def summary_content(summary: Dict[str, Detail], total_damage):
     content = []
     for skill in sorted(summary, key=lambda x: summary[x].expected_damage, reverse=True):
         detail = summary[skill]
-        critical = round(detail.critical_count, 2)
-        critical_rate = round(detail.critical_count / detail.count * 100, 2)
-        hit = round(detail.count - critical, 2)
+        critical_count = round(detail.critical_strike, 2)
+        critical_rate = round(critical_count / detail.count * 100, 2)
+        hit_count = round(detail.count - critical_count, 2)
         hit_rate = round(100 - critical_rate, 2)
         damage = round(detail.expected_damage, 2)
         damage_rate = round(damage / total_damage * 100, 2)
         content.append(
             [f"{skill}/{detail.count}",
-             f"{hit}/{hit_rate}%", f"{critical}/{critical_rate}%", f"{damage}/{damage_rate}%"]
+             f"{hit_count}/{hit_rate}%", f"{critical_count}/{critical_rate}%", f"{damage}/{damage_rate}%"]
         )
     return content
 
@@ -45,18 +46,19 @@ def detail_content(detail: Detail):
     damage_content = [
         ["命中伤害", f"{round(detail.damage)}"],
         ["会心伤害", f"{round(detail.critical_damage)}"],
-        ["期望伤害", f"{round(detail.expected_damage)}"],
-        ["总计伤害", f"{round(detail.expected_damage * detail.count, 2)}"],
         ["期望会心", f"{round(detail.critical_strike * 100, 2)}%"],
         ["实际会心", f"{round(detail.actual_critical_strike * 100, 2)}%"],
+        ["期望平均伤害", f"{round(detail.expected_damage)}"],
+        ["实际平均伤害", f"{round(detail.actual_damage)}"],
+        ["期望总伤害", f"{round(detail.expected_damage * detail.count)}"],
+        ["实际总伤害", f"{round(detail.total_actual_damage)}"],
         ["数量", f"{detail.count}"]
     ]
-    gradient_content = [
-        [ATTR_TYPE_TRANSLATE[k], f"{round(v / detail.expected_damage * 100, 2)}%"]
-        for k, v in detail.gradients.items()
+    timeline_content = [
+        [str(round(t[0] / FRAME_PER_SECOND, 2)), "会心" if t[1] else "命中", str(t[2])] for t in sorted(detail.timeline)
     ]
 
-    return damage_content, gradient_content
+    return damage_content, timeline_content
 
 
 def dashboard_script(parser: Parser,
@@ -96,14 +98,15 @@ def dashboard_script(parser: Parser,
         for gain in gains:
             gain.add(attribute, school.skills, school.dots, school.buffs)
 
-        duration = dashboard_widget.duration.spin_box.value()
+        start_time = dashboard_widget.start_time.spin_box.value()
+        end_time = dashboard_widget.end_time.spin_box.value()
         dashboard_widget.final_attribute.set_content(attr_content(attribute))
-        total, summary, details = analyze_details(record, duration, attribute, school)
+        total, summary, details = analyze_details(record, start_time, end_time, attribute, school)
 
         for gain in gains:
             gain.sub(attribute, school.skills, school.dots, school.buffs)
 
-        dashboard_widget.dps.set_text(str(round(total.expected_damage / duration)))
+        dashboard_widget.dps.set_text(str(round(total.expected_damage / (end_time - start_time))))
 
         dashboard_widget.gradients.set_content(
             [[ATTR_TYPE_TRANSLATE[k], f"{round(v / total.expected_damage * 100, 2)}%"]
@@ -137,11 +140,11 @@ def dashboard_script(parser: Parser,
         skill = detail_widget.skill_combo.combo_box.currentText()
         status = detail_widget.status_combo.combo_box.currentText()
         if detail := detail_widget.details.get(skill, {}).get(status):
-            damage_content, gradient_content = detail_content(detail)
+            damage_content, timeline_content = detail_content(detail)
             detail_widget.damage_detail.set_content(damage_content)
-            detail_widget.gradient_detail.set_content(gradient_content)
+            detail_widget.timeline.set_content(timeline_content)
         else:
             detail_widget.damage_detail.table.clear()
-            detail_widget.gradient_detail.table.clear()
+            detail_widget.timeline.clear_content()
 
     dashboard_widget.detail_widget.status_combo.combo_box.currentTextChanged.connect(set_detail)

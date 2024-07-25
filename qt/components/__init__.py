@@ -6,13 +6,23 @@ from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel
 class LabelWidget(QWidget):
     def __init__(self, label, info: str = ""):
         super().__init__()
+        self.label_text = label
+        self.info_text = info
         if info:
             self.label = QLabel(f"{label} - {info}")
         else:
             self.label = QLabel(label)
 
     def set_label(self, label):
-        self.label.setText(label)
+        self.label_text = label
+        if info := self.info_text:
+            self.label.setText(f"{label} - {info}")
+        else:
+            self.label.setText(label)
+
+    def set_info(self, info):
+        self.info_text = info
+        self.label.setText(f"{self.label_text} - {info}")
 
 
 class TableWithLabel(LabelWidget):
@@ -28,9 +38,11 @@ class TableWithLabel(LabelWidget):
         if column_count:
             self.table.setColumnCount(column_count)
         if headers:
+            self.headers = headers
             self.table.setColumnCount(len(headers))
             self.table.setHorizontalHeaderLabels(headers)
         else:
+            self.headers = None
             self.table.horizontalHeader().setVisible(False)
 
         self.table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
@@ -47,6 +59,11 @@ class TableWithLabel(LabelWidget):
         for i, row in enumerate(content):
             for j, e in enumerate(row):
                 self.table.setItem(i, j, QTableWidgetItem(e))
+
+    def clear_content(self):
+        self.table.clear()
+        if self.headers:
+            self.table.setHorizontalHeaderLabels(self.headers)
 
 
 class ListWithLabel(LabelWidget):

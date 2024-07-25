@@ -289,8 +289,6 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             widget.strength_level.combo_box.setCurrentIndex(equipment.strength_level)
 
             if equipment.embed:
-                for i, (attr, value) in enumerate(equipment.embed.items()):
-                    widget.embed_levels[i].set_label(f"镶嵌等级-{ATTR_TYPE_TRANSLATE[attr]}\t")
                 widget.embed_attr.set_content(equipment.embed_attr_content)
                 widget.embed_attr.show()
             else:

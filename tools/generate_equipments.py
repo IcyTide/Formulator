@@ -81,7 +81,12 @@ SECONDARY_WEAPON_DETAIL_TYPE = 9
 
 
 def get_equip_name(detail):
-    abbrs = []
+    if detail['school'] == "精简":
+        abbrs = ["精简"]
+    elif detail["gains"]:
+        abbrs = ["特效"]
+    else:
+        abbrs = []
     for attr in detail['magic']:
         for k, v in ATTR_ABBR.items():
             if k in attr:

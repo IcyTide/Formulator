@@ -17,8 +17,8 @@ class DetailWidget(QWidget):
         detail_table_layout = QHBoxLayout(detail_table)
         self.damage_detail = TableWithLabel("伤害细节", column_count=2)
         detail_table_layout.addWidget(self.damage_detail)
-        self.gradient_detail = TableWithLabel("属性收益", column_count=2)
-        detail_table_layout.addWidget(self.gradient_detail)
+        self.timeline = TableWithLabel("时间轴", headers=["时间", "会心", "伤害"])
+        detail_table_layout.addWidget(self.timeline)
         layout.addWidget(detail_table)
 
         layout.addStretch()
@@ -36,8 +36,10 @@ class DashboardWidget(QWidget):
         top_layout.addWidget(self.target_select)
         self.target_level = ComboWithLabel("目标等级", items=[str(level) for level in SHIELD_BASE_MAP])
         top_layout.addWidget(self.target_level)
-        self.duration = DoubleSpinWithLabel("战斗时长", maximum=3600, value=180)
-        top_layout.addWidget(self.duration)
+        self.start_time = DoubleSpinWithLabel("开始时间", maximum=3600, value=0)
+        top_layout.addWidget(self.start_time)
+        self.end_time = DoubleSpinWithLabel("结束时间", maximum=3600, value=180)
+        top_layout.addWidget(self.end_time)
 
         self.formulate_button = QPushButton(text="开始模拟!")
         layout.addWidget(self.formulate_button)
@@ -62,7 +64,7 @@ class DashboardWidget(QWidget):
         self.detail_widget = DetailWidget()
         tab.addTab(self.detail_widget, "伤害总结")
 
-        self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "命中/%", "会心/%", "伤害/%"])
+        self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "期望命中/%", "期望会心/%", "期望总伤害/%"])
 
         tab.addTab(self.summary, "战斗总结")
 
