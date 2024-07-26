@@ -26,13 +26,9 @@ class 梦悠(Gain):
 TALENT_GAINS: Dict[int, Talent] = {
     20333: Talent("江汉", [PhysicalCriticalRecipe((1000, 102), 19818, 19818)]),
     20756: Talent("凌霄", [DamageAdditionRecipe(205, 20052, 0)]),
-    101166: Talent("鹏程"),
     20335: Talent("扶桑", [DamageAdditionRecipe(102, 19827, 19827)]),
-    101168: Talent("浩渺"),
     20746: Talent("羽彰"),
-    101170: Talent("海溟"),
     20348: Talent("清源"),
-    102111: Talent("澹然若海"),
     30912: Talent("游仙"),
     25272: Talent("青冥"),
     20751: Talent("鸿轨"),
@@ -43,7 +39,12 @@ TALENT_GAINS: Dict[int, Talent] = {
     20374: Talent("驰行"),
     20758: Talent("神降", [神降()]),
     20747: Talent("梦悠", [梦悠()]),
-    20701: Talent("濯流", [PveAdditionRecipe(1536, 20259, 20259)])
+    20701: Talent("濯流", [PveAdditionRecipe(1536, 20259, 20259)]),
+
+    101166: Talent("鹏程"),
+    101168: Talent("浩渺"),
+    101170: Talent("海溟"),
+    102111: Talent("澹然若海"),
 }
 
 TALENTS = [

@@ -11,7 +11,7 @@ class TianLuoGuiDao(MixingAttribute):
         self.poison_attack_power_base += 3725
         self.physical_critical_strike_base += 1279
         self.physical_critical_strike_rate += 100
-        self.pve_addition += 21
+        self.pve_addition_base += 21
 
     @property
     def extra_poison_attack_power(self):

@@ -11,9 +11,9 @@ class ShanHaiXinJue(PhysicalAttribute):
         self.physical_attack_power_base += 3277
         self.physical_critical_strike_base += 2929
         if not platform:
-            self.pve_addition += 82
+            self.pve_addition_base += 82
         else:
-            self.pve_addition += 460
+            self.pve_addition_base += 460
             self.all_shield_ignore += 614
 
     @property

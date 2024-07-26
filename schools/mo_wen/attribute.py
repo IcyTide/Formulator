@@ -10,7 +10,7 @@ class MoWen(LunarAttribute):
         super().__init__()
         self.lunar_attack_power_base += 3725
         self.lunar_critical_strike_base += 1279
-        self.pve_addition += 164
+        self.pve_addition_base += 164
 
     @property
     def extra_lunar_attack_power(self):

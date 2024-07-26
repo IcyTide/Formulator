@@ -32,13 +32,9 @@ TALENT_GAINS: Dict[int, Talent] = {
     28343: Talent("淮茵"),
     28338: Talent("怯邪"),
     27530: Talent("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    101419: Talent("鬼门", [鬼门()]),
     28344: Talent("鸩羽", [鸩羽(1000, 27556, 27556)]),
-    101422: Talent("神莹"),
     28361: Talent("结草"),
-    101423: Talent("济世"),
     29498: Talent("灵荆"),
-    101370: Talent("苍棘缚地"),
     29499: Talent("苦苛"),
     28406: Talent("遍休"),
     28410: Talent("坚阴"),
@@ -52,7 +48,12 @@ TALENT_GAINS: Dict[int, Talent] = {
     28458: Talent("炮阳"),
     28415: Talent("荆障"),
     32896: Talent("应理与药"),
-    28426: Talent("养荣")
+    28426: Talent("养荣"),
+
+    101419: Talent("鬼门", [鬼门()]),
+    101422: Talent("神莹"),
+    101423: Talent("济世"),
+    101370: Talent("苍棘缚地"),
 }
 
 TALENTS = [

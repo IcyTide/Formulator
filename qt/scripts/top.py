@@ -135,7 +135,7 @@ def top_script(
                 if not (current_index := equipment_widget.stone_level.combo_box.currentIndex()):
                     current_index = MAX_STONE_LEVEL
                 equipment_widget.stone_level.combo_box.setCurrentIndex(current_index)
-            if select_equipment := parser.select_equipments[player_id].get(label, {}):
+            if select_equipment := parser.select_equipments.get(player_id, {}).get(label, {}):
                 if equipment := equipment_widget.equipment_mapping.get(select_equipment['equipment']):
                     if equipment in equipment_widget.equipment.items:
                         equipment_widget.equipment.combo_box.setCurrentText(equipment)

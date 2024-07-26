@@ -6522,6 +6522,151 @@ SKILLS = {
         "skill_name": "万象归元",
         "channel_interval": 450.0
     },
+    100010: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "无我无剑·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 252
+    },
+    100011: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "无我无剑·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 298,
+        "surplus_cof": 1143
+    },
+    101658: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "气剑",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 80
+    },
+    100374: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "爆气场",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "skill_cof": 480
+    },
+    100019: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "skill_name": "万剑归宗·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 690
+    },
+    100012: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "skill_name": "吞日月·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 392
+    },
+    100017: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "skill_name": "碎星辰·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 112
+    },
+    100003: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "三环套月·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 242,
+        "surplus_cof": 1516
+    },
+    100008: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "三环套月·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 309,
+        "surplus_cof": 1935
+    },
+    101633: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "行剑千风·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 197,
+        "surplus_cof": 756
+    },
+    101581: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "dot_cof": 192
+    },
+    100021: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "吞日月·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 488
+    },
+    101634: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "行剑千风·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 335,
+        "surplus_cof": 1284
+    },
     16: {
         "kind_type": "Physics",
         "platform": 0,
@@ -24461,9 +24606,9 @@ SKILLS = {
         "skill_name": "沾衣未妨·悟",
         "poison_damage_base": 1,
         "poison_damage_call": 1,
-        "poison_surplus_call": 1,
         "skill_cof": 166,
-        "surplus_cof": 532
+        "surplus_cof": 532,
+        "poison_surplus_call": 1
     },
     102164: {
         "kind_type": "Poison",
@@ -24473,9 +24618,9 @@ SKILLS = {
         "skill_name": "并蒂夺株·悟",
         "poison_damage_base": 1,
         "poison_damage_call": 1,
-        "poison_surplus_call": 1,
         "skill_cof": 187,
-        "surplus_cof": 594
+        "surplus_cof": 594,
+        "poison_surplus_call": 1
     },
     101417: {
         "kind_type": "Poison",
@@ -24528,9 +24673,9 @@ SKILLS = {
         "skill_name": "苍棘缚地·悟",
         "poison_damage_base": 1,
         "poison_damage_call": 1,
-        "poison_surplus_call": 1,
         "skill_cof": 321,
-        "surplus_cof": 1024
+        "surplus_cof": 1024,
+        "poison_surplus_call": 1
     },
     33146: {
         "kind_type": "Physics",

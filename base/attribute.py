@@ -731,7 +731,7 @@ class Minor(CriticalPower, DamageAddition):
 
     all_shield_ignore: int = 0
 
-    pve_addition: int = 0
+    pve_addition_base: int = 0
     damage_gain: int = 0
     global_damage_factor: float = 1.
 
@@ -754,6 +754,14 @@ class Minor(CriticalPower, DamageAddition):
     @property
     def weapon_damage(self):
         return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
+
+    @property
+    def extra_pve_addition(self):
+        return 0
+
+    @property
+    def pve_addition(self):
+        return self.pve_addition_base + self.extra_pve_addition
 
 
 class Target(Shield, DamageCoefficient):

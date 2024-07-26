@@ -9,7 +9,7 @@ class DuJing(PoisonAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.poison_attack_power_base += 4139
-        self.pve_addition += 104
+        self.pve_addition_base += 104
 
     @property
     def extra_poison_attack_power(self):

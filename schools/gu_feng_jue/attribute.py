@@ -11,9 +11,9 @@ class GuFengJue(PhysicalAttribute):
         self.physical_attack_power_base += 3346
         self.physical_critical_strike_base += 2775
         if not platform:
-            self.pve_addition += 184
+            self.pve_addition_base += 184
         else:
-            self.pve_addition += 461
+            self.pve_addition_base += 461
             self.all_shield_ignore += 614
 
     @property

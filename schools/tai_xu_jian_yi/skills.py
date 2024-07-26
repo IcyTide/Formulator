@@ -23,6 +23,20 @@ SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
         748: {}, 889: {}, 23170: {}
     }
 }
+MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
+    Skill: {
+        100010: {}, 100011: {}, 101658: {}, 100374: {}, 100019: {}, 100012: {}, 100017: {}, 100003: {}, 100008: {},
+        101633: {},
+        101581: dict(bind_dot=70624),
+        100021: dict(consume_dot=70624),
+        101634: dict(consume_dot=70624),
+    }
+}
+MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
+    Dot: {
+        70624: {}
+    }
+}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
@@ -31,8 +45,22 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+for skill_class, skills in MOBILE_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        set_skill(skill)
+        SKILLS[skill_id] = skill
 DOTS = {}
 for dot_class, dots in SCHOOL_DOTS.items():
+    for dot_id, attrs in dots.items():
+        dot = dot_class(dot_id)
+        for attr, value in attrs.items():
+            setattr(dot, attr, value)
+        set_dot(dot)
+        DOTS[dot_id] = dot
+for dot_class, dots in MOBILE_DOTS.items():
     for dot_id, attrs in dots.items():
         dot = dot_class(dot_id)
         for attr, value in attrs.items():

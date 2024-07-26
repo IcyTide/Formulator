@@ -55,7 +55,8 @@ def detail_content(detail: Detail):
         ["数量", f"{detail.count}"]
     ]
     timeline_content = [
-        [str(round(t[0] / FRAME_PER_SECOND, 2)), "会心" if t[1] else "命中", str(t[2])] for t in sorted(detail.timeline)
+        [str(i + 1), str(round(t[0] / FRAME_PER_SECOND, 2)), "会心" if t[1] else "命中", str(t[2])]
+        for i, t in enumerate(sorted(detail.timeline))
     ]
 
     return damage_content, timeline_content

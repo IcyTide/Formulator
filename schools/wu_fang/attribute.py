@@ -11,9 +11,9 @@ class WuFang(PoisonAttribute):
         self.poison_attack_power_base += 3808
         self.poison_overcome_base += 1788
         if not platform:
-            self.pve_addition += 102
+            self.pve_addition_base += 102
         else:
-            self.pve_addition += 461
+            self.pve_addition_base += 461
             self.all_shield_ignore += 614
 
     @property

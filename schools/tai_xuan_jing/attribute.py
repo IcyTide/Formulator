@@ -10,7 +10,7 @@ class TaiXuanJing(NeutralAttribute):
         super().__init__()
         self.neutral_attack_power_base += 4222
         self.neutral_critical_strike_base += 2390
-        self.pve_addition += 144
+        self.pve_addition_base += 144
 
     @property
     def extra_neutral_attack_power(self):

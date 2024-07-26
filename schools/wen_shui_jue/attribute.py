@@ -10,7 +10,7 @@ class WenShuiJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3449
         self.physical_critical_strike_base += 2544
-        self.pve_addition += 102
+        self.pve_addition_base += 102
 
     @property
     def extra_physical_attack_power(self):

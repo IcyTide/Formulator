@@ -29,7 +29,7 @@ class EquipmentWidget(QWidget):
         layout.addStretch()
 
         input_layout = QGridLayout()
-        detail_layout.addLayout(input_layout)
+        detail_layout.addLayout(input_layout, 2)
 
         if not self.enchant_data:
             self.enchant = None
@@ -74,7 +74,7 @@ class EquipmentWidget(QWidget):
         self.detail_widget.hide()
 
         output_layout = QVBoxLayout()
-        detail_layout.addLayout(output_layout)
+        detail_layout.addLayout(output_layout, 1)
         self.base_attr = TableWithLabel("基本属性", column_count=2)
         output_layout.addWidget(self.base_attr)
         self.magic_attr = TableWithLabel("精炼属性", column_count=2)

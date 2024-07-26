@@ -7,4 +7,5 @@ from schools.tai_xu_jian_yi.talents import TALENT_GAINS, TALENTS, TALENT_DECODER
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(9949, 1)] = 3
+    if not self.players[player_id].platform:
+        self.buff_stacks[player_id][(9949, 1)] = 3

@@ -9,7 +9,7 @@ class AoXueZhanYi(PhysicalAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.physical_attack_power_base += 3794
-        self.pve_addition += 195
+        self.pve_addition_base += 195
 
     @property
     def extra_physical_attack_power(self):

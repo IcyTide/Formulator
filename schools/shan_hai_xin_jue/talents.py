@@ -113,15 +113,10 @@ class 偕行(Gain):
 TALENT_GAINS: Dict[int, Talent] = {
     35715: Talent("素矰", [素矰(skill_id=35771, skill_recipe=35771)]),
     35714: Talent("彤弓", [彤弓(skill_id=0, skill_recipe=35659)]),
-    102012: Talent("射日", [射日()]),
-    102013: Talent("白泽", [白泽()]),
     35718: Talent("棘矢"),
     35719: Talent("孰湖", [孰湖()]),
-    102014: Talent("伴生"),
     35721: Talent("襄尺"),
-    102016: Talent("偕行", [偕行()]),
     35725: Talent("长右"),
-    102010: Talent("白虹贯日"),
     35729: Talent("鹿蜀"),
     35736: Talent("桑柘", [ExtraTickRecipe(1, 26856, 0)]),
     35733: Talent("诸怀", [诸怀()]),
@@ -132,7 +127,13 @@ TALENT_GAINS: Dict[int, Talent] = {
     35754: Talent("丛云隐月"),
     35757: Talent("贯侯", [贯侯(skill_id=36157, skill_recipe=36157)]),
     35764: Talent("朝仪万汇"),
-    35761: Talent("朱厌", [朱厌()])
+    35761: Talent("朱厌", [朱厌()]),
+
+    102012: Talent("射日", [射日()]),
+    102013: Talent("白泽", [白泽()]),
+    102014: Talent("伴生"),
+    102016: Talent("偕行", [偕行()]),
+    102010: Talent("白虹贯日"),
 }
 
 TALENTS = [

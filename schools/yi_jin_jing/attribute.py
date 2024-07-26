@@ -9,7 +9,7 @@ class YiJinJing(SolarAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.solar_attack_power_base += 4139
-        self.pve_addition += 103
+        self.pve_addition_base += 103
 
     @property
     def extra_solar_attack_power(self):

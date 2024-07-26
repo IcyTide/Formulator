@@ -10,7 +10,7 @@ class YinLongJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3656
         self.physical_overcome_base += 2081
-        self.pve_addition += 225
+        self.pve_addition_base += 225
 
     @property
     def extra_physical_attack_power(self):

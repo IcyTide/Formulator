@@ -17,7 +17,7 @@ class DetailWidget(QWidget):
         detail_table_layout = QHBoxLayout(detail_table)
         self.damage_detail = TableWithLabel("伤害细节", column_count=2)
         detail_table_layout.addWidget(self.damage_detail)
-        self.timeline = TableWithLabel("时间轴", headers=["时间", "会心", "伤害"])
+        self.timeline = TableWithLabel("时间轴", headers=["#", "时间", "会心", "伤害"])
         detail_table_layout.addWidget(self.timeline)
         layout.addWidget(detail_table)
 

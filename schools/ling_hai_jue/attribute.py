@@ -13,7 +13,7 @@ class LingHaiJue(PhysicalAttribute):
         if not platform:
             pass
         else:
-            self.pve_addition += 461
+            self.pve_addition_base += 461
             self.all_shield_ignore += 614
 
     @property

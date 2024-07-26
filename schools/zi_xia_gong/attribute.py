@@ -10,7 +10,7 @@ class ZiXiaGong(NeutralAttribute):
         super().__init__()
         self.neutral_attack_power_base += 3725
         self.neutral_critical_strike_base += 1788
-        self.pve_addition += 51
+        self.pve_addition_base += 51
 
     @property
     def extra_neutral_attack_power(self):

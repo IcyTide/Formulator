@@ -10,7 +10,7 @@ class JingYuJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3277
         self.physical_overcome_base += 2929
-        self.pve_addition += 133
+        self.pve_addition_base += 133
 
     @property
     def extra_physical_attack_power(self):

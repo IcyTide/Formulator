@@ -165,6 +165,15 @@ DOTS = {
         "damage_base": 10,
         "physical_damage_call": 1
     },
+    70624: {
+        "buff_name": "叠刃(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 3,
+        "platform": 1,
+        "damage_base": 10,
+        "physical_damage_call": 1
+    },
     711: {
         "buff_name": "兰摧玉折(DOT)",
         "interval": 48,

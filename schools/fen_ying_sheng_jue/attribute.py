@@ -9,7 +9,7 @@ class FenYingShengJue(LunarAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.solar_and_lunar_attack_power_base += 4346
-        self.pve_addition += 82
+        self.pve_addition_base += 82
 
     @property
     def extra_solar_attack_power(self):
