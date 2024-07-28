@@ -156,7 +156,7 @@ ATTR_TYPE_MAP = {
     "atAllDamageAddPercent": "all_damage_addition",
     "atAllPhysicsDamageAddPercent": "physical_damage_addition",
     "atAllMagicDamageAddPercent": "magical_damage_addition",
-    "atDstNpcDamageCoefficient": "pve_addition",
+    "atDstNpcDamageCoefficient": "pve_addition_base",
 
     "atPhysicsShieldBase": "physical_shield_base",
     "atPhysicsShieldPercent": "physical_shield_gain",

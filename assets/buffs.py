@@ -4363,15 +4363,15 @@ BUFFS = {
         "max_stack": 10,
         "buff_name": "涓流"
     },
+    14636: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1
+    },
     12588: {
         "attributes": {
             "all_damage_addition": 102
         },
-        "max_level": 1,
-        "max_stack": 1
-    },
-    14636: {
-        "attributes": {},
         "max_level": 1,
         "max_stack": 1
     },
@@ -4714,7 +4714,7 @@ BUFFS = {
     },
     17969: {
         "attributes": {
-            "pve_addition": 102
+            "pve_addition_base": 102
         },
         "max_level": 1,
         "max_stack": 1,
@@ -4937,7 +4937,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition": 104
+            "pve_addition_base": 104
         },
         "max_level": 1,
         "max_stack": 1
@@ -5205,7 +5205,7 @@ BUFFS = {
     },
     28886: {
         "attributes": {
-            "pve_addition": 61
+            "pve_addition_base": 61
         },
         "max_level": 1,
         "max_stack": 1,
@@ -5262,7 +5262,7 @@ BUFFS = {
                 266,
                 0
             ],
-            "pve_addition": [
+            "pve_addition_base": [
                 0,
                 0,
                 0,

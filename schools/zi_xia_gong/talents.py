@@ -27,6 +27,16 @@ class 固本(Gain):
         skills[2681].post_buffs[(2757, 1)] = 1
 
 
+class 若水(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop((2757, 1))
+        skills[2681].post_buffs[(2757, 2)] = 1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop((2757, 2))
+        skills[2681].post_buffs[(2757, 1)] = 1
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     5840: Talent("雾锁", [DamageAdditionRecipe(102, 367, 367)]),
     5827: Talent("白虹", [MagicalCriticalRecipe((1000, 102), 367, 367)]),
@@ -46,6 +56,7 @@ TALENT_GAINS: Dict[int, Talent] = {
         for skill_id, value in ((18650, 154), (18651, 307), (18652, 461), (18653, 614))
     ]),
     14613: Talent("固本", [固本()]),
+    14598: Talent("若水", [若水()])
 }
 
 TALENTS = [
@@ -60,7 +71,7 @@ TALENTS = [
     [18679],
     [24945],
     [18669],
-    [14613]
+    [14613, 14598]
 ]
 TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}
