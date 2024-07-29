@@ -149,6 +149,7 @@ ATTR_TYPE_MAP = {
     "atStrainBase": "strain_base",
     "atStrainPercent": "strain_gain",
     "atStrainRate": "strain_rate",
+    "atPVXAllRound": "pvx_round",
 
     "atHasteBase": "haste_base",
 
@@ -213,6 +214,7 @@ ATTR_TYPE_TRANSLATE = {
     "poison_overcome_base": "毒性破防等级",
     "surplus_base": "破招值",
     "strain_base": "无双等级",
+    "pvx_round": "全能",
     "haste_base": "加速",
 }
 ATTR_TYPE_TRANSLATE_REVERSE = {v: k for k, v in ATTR_TYPE_TRANSLATE.items()}

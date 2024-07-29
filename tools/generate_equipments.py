@@ -29,8 +29,6 @@ POSITION_COF = {
     10: 0.7,
 }
 
-ENCHANT_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Enchant.tab"), sep="\t", low_memory=False,
-                          encoding="gbk").fillna(0)
 WEAPON_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Weapon.tab"), sep="\t", low_memory=False,
                          encoding="gbk").fillna(0)
 ARMOR_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Armor.tab"), sep="\t", low_memory=False,
@@ -51,7 +49,6 @@ TRINKET_TAB['Score'] = TRINKET_TAB.apply(
 )
 
 MIN_EQUIP_LEVEL = 12100
-ENCHANT_START_ID = 11869
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }
@@ -61,7 +58,8 @@ ATTR_ABBR = {
     "critical_power_base": "会效",
     "haste_base": "加速",
     "surplus_base": "破招",
-    "strain_base": "无双"
+    "strain_base": "无双",
+    "pvx_round": "全能"
 }
 
 POSITION_MAP = {
@@ -92,7 +90,7 @@ def get_equip_name(detail):
             if k in attr:
                 abbrs.append(v)
                 break
-    return f"{detail['name']}#{detail['id']}({' '.join(abbrs)}) {detail['level']}"
+    return f"{detail['name']}#{detail['id']} ({detail['level']} {' '.join(abbrs)})"
 
 
 def get_equip_detail(row):
@@ -168,7 +166,7 @@ def get_equip_list(equip_tab):
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     # equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
     equip_tab = equip_tab[~equip_tab.MagicType.str.contains("PVP")]
-    equip_tab = equip_tab.sort_values("Score", ascending=False)
+    equip_tab = equip_tab.sort_values(["Score", "ID"], ascending=False)
 
     results = defaultdict(dict)
     for row in tqdm(equip_tab.itertuples()):
@@ -188,66 +186,12 @@ def get_weapon_list():
     }
 
 
-def get_enchants_list():
-    enchant_tab = ENCHANT_TAB[ENCHANT_TAB.ID >= ENCHANT_START_ID].sort_values("Score", ascending=False)
-    results = defaultdict(dict)
-    for row in tqdm(enchant_tab.itertuples()):
-        if row.Time or row.Attribute1ID not in ATTR_TYPE_MAP:
-            continue
-        name = f"{row.Name} {row.AttriName}"
-        position = POSITION_MAP[row.DestItemSubType]
-        results[position][name] = dict(id=row.ID, score=int(row.Score), attr={
-            ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)
-        })
-
-    return results
-
-
-def get_stones_list():
-    stone_level_mapping = {
-        "(壹)": "1",
-        "(贰)": "2",
-        "(叁)": "3",
-        "(肆)": "4",
-        "(伍)": "5",
-        "(陆)": "6"
-    }
-    result = {}
-    stone_tab = ENCHANT_TAB[ENCHANT_TAB.DiamondType1 > 0]
-
-    for row in tqdm(stone_tab.itertuples()):
-        name = row.Name
-        level = ""
-        for key in stone_level_mapping:
-            if key in name:
-                level = stone_level_mapping[key]
-                break
-        attrs = row.Attribute1ID, row.Attribute2ID, row.Attribute3ID
-        if any(attr and attr not in ATTR_TYPE_MAP for attr in attrs):
-            continue
-        values = row.Attribute1Value1, row.Attribute2Value1, row.Attribute3Value1
-        node = result
-        attributes = {}
-        for attr, value in zip(attrs, values):
-            if not attr:
-                break
-            attr = ATTR_TYPE_MAP[attr]
-            if attr not in node:
-                node[attr] = {}
-            node = node[attr]
-            attributes[attr] = int(value)
-        node[level] = dict(level=int(level), attr=attributes)
-    return result
-
-
 def generate():
     save_code("equipments", {
         **get_equip_list(ARMOR_TAB),
         **get_equip_list(TRINKET_TAB),
         **get_weapon_list()
     })
-    save_code("enchants", get_enchants_list())
-    save_code("stones", get_stones_list())
 
 
 if __name__ == '__main__':

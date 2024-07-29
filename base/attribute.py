@@ -723,6 +723,8 @@ class Minor(CriticalPower, DamageAddition):
     strain_gain: int = 0
     strain_rate: int = 0
 
+    _pvx_round: int = 0
+
     haste_base: int = 0  # Not Apply
 
     weapon_damage_rand: int = 0
@@ -746,6 +748,17 @@ class Minor(CriticalPower, DamageAddition):
     @property
     def strain(self):
         return self.final_strain / STRAIN_SCALE + self.strain_rate / BINARY_SCALE
+
+    @property
+    def pvx_round(self):
+        return self._pvx_round
+
+    @pvx_round.setter
+    def pvx_round(self, pvx_round):
+        residual = pvx_round - self._pvx_round
+        self.surplus_base += residual
+        self.strain_base += residual
+        self._pvx_round = pvx_round
 
     @property
     def base_weapon_damage(self):

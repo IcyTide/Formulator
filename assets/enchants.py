@@ -1318,5 +1318,91 @@ ENCHANTS = {
                 "surplus_base": 353
             }
         }
+    },
+    "secondary_weapon": {
+        "断浪·兵·铸（武伤） 武器伤害提升658点": {
+            "id": 12045,
+            "score": 1050,
+            "attr": {
+                "weapon_damage_base": 658
+            }
+        },
+        "断浪·兵·铸（内攻） 内功攻击提升524点": {
+            "id": 12043,
+            "score": 1050,
+            "attr": {
+                "magical_attack_power_base": 524
+            }
+        },
+        "断浪·兵·铸（外攻） 外功攻击提升439点": {
+            "id": 12042,
+            "score": 1050,
+            "attr": {
+                "physical_attack_power_base": 439
+            }
+        },
+        "断浪·兵·铸（内攻） 内功攻击提升475点": {
+            "id": 11874,
+            "score": 952,
+            "attr": {
+                "magical_attack_power_base": 475
+            }
+        },
+        "断浪·兵·铸（武伤） 武器伤害提升597点": {
+            "id": 11876,
+            "score": 952,
+            "attr": {
+                "weapon_damage_base": 597
+            }
+        },
+        "断浪·兵·铸（外攻） 外功攻击提升398点": {
+            "id": 11873,
+            "score": 952,
+            "attr": {
+                "physical_attack_power_base": 398
+            }
+        },
+        "断浪·兵·甲（武伤） 武器伤害提升329点": {
+            "id": 12096,
+            "score": 524,
+            "attr": {
+                "weapon_damage_base": 329
+            }
+        },
+        "断浪·兵·甲（内攻） 内功攻击提升262点": {
+            "id": 12094,
+            "score": 524,
+            "attr": {
+                "magical_attack_power_base": 262
+            }
+        },
+        "断浪·兵·甲（外攻） 外功攻击提升219点": {
+            "id": 12093,
+            "score": 524,
+            "attr": {
+                "physical_attack_power_base": 219
+            }
+        },
+        "断浪·兵·甲（武伤） 武器伤害提升298点": {
+            "id": 11927,
+            "score": 475,
+            "attr": {
+                "weapon_damage_base": 298
+            }
+        },
+        "断浪·兵·甲（内攻） 内功攻击提升237点": {
+            "id": 11925,
+            "score": 475,
+            "attr": {
+                "magical_attack_power_base": 237
+            }
+        },
+        "断浪·兵·甲（外攻） 外功攻击提升199点": {
+            "id": 11924,
+            "score": 475,
+            "attr": {
+                "physical_attack_power_base": 199
+            }
+        }
     }
 }
