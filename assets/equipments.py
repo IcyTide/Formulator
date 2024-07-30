@@ -12,10 +12,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 646,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1103,
                 "physical_attack_power_base": 1790,
@@ -49,10 +46,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 646,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1103,
                 "physical_attack_power_base": 1790,
@@ -86,10 +80,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 646
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1103,
                 "magical_attack_power_base": 2148,
@@ -123,10 +114,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 646
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1103,
                 "magical_attack_power_base": 2148,
@@ -160,10 +148,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -200,10 +185,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -240,10 +222,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -280,10 +259,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -320,10 +296,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -360,10 +333,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -400,10 +370,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -440,10 +407,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "lunar_attack_power_base": 1642,
@@ -480,10 +444,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -520,10 +481,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "solar_and_lunar_attack_power_base": 1642,
@@ -560,10 +518,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -600,10 +555,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -640,10 +592,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -680,10 +629,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -720,10 +666,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -760,10 +703,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "lunar_attack_power_base": 1642,
@@ -800,10 +740,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -840,10 +777,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -880,10 +814,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 642,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -920,10 +851,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -960,10 +888,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 642
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "solar_attack_power_base": 1642,
@@ -1000,10 +925,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1030,10 +952,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1060,10 +979,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1090,10 +1006,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1120,10 +1033,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1150,10 +1060,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1180,10 +1087,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1210,10 +1114,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1240,10 +1141,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1270,10 +1168,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 638,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -1300,10 +1195,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1330,10 +1222,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 638
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -1360,10 +1249,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5710,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1400,10 +1286,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5709,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1440,10 +1323,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5707,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1075,
                 "poison_attack_power_base": 2093,
@@ -1481,10 +1361,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5706,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1075,
                 "neutral_attack_power_base": 2093,
@@ -1522,10 +1399,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5705,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1563,10 +1437,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5704,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1604,10 +1475,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5703,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1645,10 +1513,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5701,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1075,
                 "lunar_attack_power_base": 2093,
@@ -1686,10 +1551,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5699,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1727,10 +1589,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5697,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1075,
                 "solar_and_lunar_attack_power_base": 2093,
@@ -1767,10 +1626,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5696,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1807,10 +1663,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5695,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1848,10 +1701,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5694,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -1889,10 +1739,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5693,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1075,
                 "poison_attack_power_base": 2093,
@@ -1930,10 +1777,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5691,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1075,
                 "poison_attack_power_base": 2093,
@@ -1971,10 +1815,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5689,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1075,
                 "lunar_attack_power_base": 2093,
@@ -2011,10 +1852,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5688,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -2051,10 +1889,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5687,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1075,
                 "neutral_attack_power_base": 2093,
@@ -2092,10 +1927,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5685,
-            "base": {
-                "physical_shield_base": 630,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1075,
                 "physical_attack_power_base": 1744,
@@ -2132,10 +1964,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5683,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1075,
                 "neutral_attack_power_base": 2093,
@@ -2173,10 +2002,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5681,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 630
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1075,
                 "solar_attack_power_base": 2093,
@@ -2214,10 +2040,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 579,
-                "magical_shield_base": 463
-            },
+            "base": {},
             "magic": {
                 "agility_base": 988,
                 "physical_attack_power_base": 1603,
@@ -2251,10 +2074,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 579,
-                "magical_shield_base": 463
-            },
+            "base": {},
             "magic": {
                 "strength_base": 988,
                 "physical_attack_power_base": 1603,
@@ -2288,10 +2108,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 463,
-                "magical_shield_base": 579
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 988,
                 "magical_attack_power_base": 1923,
@@ -2325,10 +2142,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 463,
-                "magical_shield_base": 579
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 988,
                 "magical_attack_power_base": 1923,
@@ -2362,10 +2176,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2402,10 +2213,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2442,10 +2250,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "poison_attack_power_base": 1469,
@@ -2482,10 +2287,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -2522,10 +2324,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2562,10 +2361,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2602,10 +2398,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2642,10 +2435,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "lunar_attack_power_base": 1469,
@@ -2682,10 +2472,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2722,10 +2509,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "solar_and_lunar_attack_power_base": 1469,
@@ -2762,10 +2546,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2802,10 +2583,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2842,10 +2620,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -2882,10 +2657,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "poison_attack_power_base": 1469,
@@ -2922,10 +2694,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "poison_attack_power_base": 1469,
@@ -2962,10 +2731,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "lunar_attack_power_base": 1469,
@@ -3002,10 +2768,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -3042,10 +2805,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -3082,10 +2842,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 575,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -3122,10 +2879,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -3162,10 +2916,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 575
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "solar_attack_power_base": 1469,
@@ -3202,10 +2953,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3232,10 +2980,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3262,10 +3007,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3292,10 +3034,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3322,10 +3061,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3352,10 +3088,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3382,10 +3115,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3412,10 +3142,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3442,10 +3169,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3472,10 +3196,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3502,10 +3223,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3532,10 +3250,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3562,10 +3277,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3592,10 +3304,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3622,10 +3331,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3652,10 +3358,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3682,10 +3385,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3712,10 +3412,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 571,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -3742,10 +3439,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3772,10 +3466,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 571
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -3802,10 +3493,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5678,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -3838,10 +3526,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5677,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -3874,10 +3559,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5676,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "magical_attack_power_base": 1869,
@@ -3910,10 +3592,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5675,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "magical_attack_power_base": 1869,
@@ -3946,10 +3625,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5473,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -3986,10 +3662,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5472,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4026,10 +3699,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5470,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "poison_attack_power_base": 1869,
@@ -4067,10 +3737,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5469,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "neutral_attack_power_base": 1869,
@@ -4108,10 +3775,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5468,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4149,10 +3813,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5467,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4190,10 +3851,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5466,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4231,10 +3889,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5464,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "lunar_attack_power_base": 1869,
@@ -4272,10 +3927,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5462,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4313,10 +3965,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5460,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "solar_and_lunar_attack_power_base": 1869,
@@ -4353,10 +4002,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5459,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4393,10 +4039,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5458,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4434,10 +4077,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5457,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4475,10 +4115,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5456,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "poison_attack_power_base": 1869,
@@ -4516,10 +4153,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5454,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "poison_attack_power_base": 1869,
@@ -4557,10 +4191,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5452,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "lunar_attack_power_base": 1869,
@@ -4597,10 +4228,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5451,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "agility_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4637,10 +4265,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5450,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 960,
                 "neutral_attack_power_base": 1869,
@@ -4678,10 +4303,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5448,
-            "base": {
-                "physical_shield_base": 563,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "strength_base": 960,
                 "physical_attack_power_base": 1558,
@@ -4718,10 +4340,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5446,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "neutral_attack_power_base": 1869,
@@ -4759,10 +4378,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5444,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 563
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 960,
                 "solar_attack_power_base": 1869,
@@ -4800,10 +4416,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 515,
-                "magical_shield_base": 412
-            },
+            "base": {},
             "magic": {
                 "agility_base": 880,
                 "physical_attack_power_base": 1427,
@@ -4837,10 +4450,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 515,
-                "magical_shield_base": 412
-            },
+            "base": {},
             "magic": {
                 "strength_base": 880,
                 "physical_attack_power_base": 1427,
@@ -4874,10 +4484,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 412,
-                "magical_shield_base": 515
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 880,
                 "magical_attack_power_base": 1713,
@@ -4911,10 +4518,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 412,
-                "magical_shield_base": 515
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 880,
                 "magical_attack_power_base": 1713,
@@ -4948,10 +4552,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -4978,10 +4579,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5008,10 +4606,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5038,10 +4633,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5068,10 +4660,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5098,10 +4687,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5128,10 +4714,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5158,10 +4741,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5188,10 +4768,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5218,10 +4795,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5248,10 +4822,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5278,10 +4849,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5308,10 +4876,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5338,10 +4903,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 509,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -5368,10 +4930,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5398,10 +4957,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 509
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -5428,10 +4984,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 805,
                 "physical_attack_power_base": 1072,
@@ -5458,10 +5011,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 805,
                 "physical_attack_power_base": 1072,
@@ -5488,10 +5038,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 805,
                 "magical_attack_power_base": 1286,
@@ -5518,10 +5065,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 805,
                 "magical_attack_power_base": 1286,
@@ -5548,10 +5092,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 805,
                 "physical_attack_power_base": 1072,
@@ -5577,10 +5118,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 805,
                 "physical_attack_power_base": 1072,
@@ -5606,10 +5144,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 805,
                 "magical_attack_power_base": 1286,
@@ -5635,10 +5170,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 805,
                 "magical_attack_power_base": 1286,
@@ -5664,10 +5196,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5674,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5698,10 +5227,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5673,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5732,10 +5258,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5671,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "poison_attack_power_base": 1672,
@@ -5766,10 +5289,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5670,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -5800,10 +5320,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5669,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5834,10 +5351,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5668,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5868,10 +5382,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5667,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5902,10 +5413,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5665,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "lunar_attack_power_base": 1672,
@@ -5936,10 +5444,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5663,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -5970,10 +5475,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5661,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "solar_and_lunar_attack_power_base": 1672,
@@ -6004,10 +5506,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5660,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6038,10 +5537,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5659,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6072,10 +5568,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5658,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6106,10 +5599,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5657,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "poison_attack_power_base": 1672,
@@ -6140,10 +5630,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5655,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "poison_attack_power_base": 1672,
@@ -6174,10 +5661,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5653,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "lunar_attack_power_base": 1672,
@@ -6208,10 +5692,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5652,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6242,10 +5723,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5651,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -6276,10 +5754,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5649,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6310,10 +5785,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5647,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -6344,10 +5816,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5645,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "solar_attack_power_base": 1672,
@@ -6378,10 +5847,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5431,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6418,10 +5884,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5441,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6454,10 +5917,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5440,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6490,10 +5950,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5439,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -6526,10 +5983,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5438,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -6562,10 +6016,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5244,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6602,10 +6053,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5242,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "poison_attack_power_base": 1672,
@@ -6643,10 +6091,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5241,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -6684,10 +6129,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5240,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6725,10 +6167,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5239,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6766,10 +6205,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5238,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6807,10 +6243,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5236,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "lunar_attack_power_base": 1672,
@@ -6848,10 +6281,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5234,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6889,10 +6319,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5232,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "solar_and_lunar_attack_power_base": 1672,
@@ -6929,10 +6356,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5231,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -6969,10 +6393,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5230,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7010,10 +6431,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5229,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7051,10 +6469,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5228,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "poison_attack_power_base": 1672,
@@ -7092,10 +6507,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5226,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "poison_attack_power_base": 1672,
@@ -7133,10 +6545,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5224,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "lunar_attack_power_base": 1672,
@@ -7173,10 +6582,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5223,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7213,10 +6619,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5222,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -7254,10 +6657,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5220,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7294,10 +6694,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5218,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "neutral_attack_power_base": 1672,
@@ -7335,10 +6732,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5216,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "solar_attack_power_base": 1672,
@@ -7376,10 +6770,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7406,10 +6797,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7436,10 +6824,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7466,10 +6851,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7496,10 +6878,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7526,10 +6905,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7556,10 +6932,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7586,10 +6959,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7616,10 +6986,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7646,10 +7013,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7676,10 +7040,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7706,10 +7067,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7736,10 +7094,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7766,10 +7121,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7796,10 +7148,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7826,10 +7175,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7856,10 +7202,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7886,10 +7229,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -7916,10 +7256,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7946,10 +7283,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -7976,10 +7310,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -8006,10 +7337,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -8036,10 +7364,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -8066,10 +7391,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -8096,10 +7418,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -8126,10 +7445,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 503,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -8156,10 +7472,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -8186,10 +7499,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 503
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -8215,10 +7525,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 582,
-                "magical_shield_base": 465
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1103,
                 "physical_attack_power_base": 1790,
@@ -8249,10 +7556,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 582,
-                "magical_shield_base": 465
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1103,
                 "physical_attack_power_base": 1790,
@@ -8283,10 +7587,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 465,
-                "magical_shield_base": 582
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1103,
                 "magical_attack_power_base": 2148,
@@ -8317,10 +7618,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 465,
-                "magical_shield_base": 582
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1103,
                 "magical_attack_power_base": 2148,
@@ -8351,10 +7649,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8378,10 +7673,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8405,10 +7697,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -8432,10 +7721,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -8459,10 +7745,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8486,10 +7769,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8513,10 +7793,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8540,10 +7817,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "lunar_attack_power_base": 1642,
@@ -8567,10 +7841,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8594,10 +7865,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "solar_and_lunar_attack_power_base": 1642,
@@ -8621,10 +7889,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8648,10 +7913,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8675,10 +7937,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8702,10 +7961,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -8729,10 +7985,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "poison_attack_power_base": 1642,
@@ -8756,10 +8009,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "lunar_attack_power_base": 1642,
@@ -8783,10 +8033,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8810,10 +8057,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -8837,10 +8081,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 578,
-                "magical_shield_base": 462
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1028,
                 "physical_attack_power_base": 1368,
@@ -8864,10 +8105,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "neutral_attack_power_base": 1642,
@@ -8891,10 +8129,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 462,
-                "magical_shield_base": 578
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1028,
                 "solar_attack_power_base": 1642,
@@ -8918,10 +8153,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -8945,10 +8177,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -8972,10 +8201,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -8999,10 +8225,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9026,10 +8249,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9053,10 +8273,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9080,10 +8297,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9107,10 +8321,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9134,10 +8345,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3262,
                 "physical_critical_strike_base": 3947,
@@ -9160,10 +8368,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4622,
                 "strain_base": 10172
@@ -9185,10 +8390,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3915,
                 "all_critical_strike_base": 3947,
@@ -9211,10 +8413,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 5546,
                 "strain_base": 10172
@@ -9236,10 +8435,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3942,
                 "physical_overcome_base": 4251,
@@ -9263,10 +8459,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4730,
                 "magical_overcome_base": 4251,
@@ -9290,10 +8483,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3942,
                 "surplus_base": 4251,
@@ -9317,10 +8507,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3942,
                 "surplus_base": 6377,
@@ -9343,10 +8530,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4622,
                 "physical_overcome_base": 10779
@@ -9368,10 +8552,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4730,
                 "surplus_base": 4251,
@@ -9395,10 +8576,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4730,
                 "surplus_base": 6377,
@@ -9421,10 +8599,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 5546,
                 "magical_overcome_base": 10779
@@ -9446,10 +8621,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9473,10 +8645,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9500,10 +8669,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9527,10 +8693,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9554,10 +8717,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "agility_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9581,10 +8741,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 574,
-                "magical_shield_base": 459
-            },
+            "base": {},
             "magic": {
                 "strength_base": 1089,
                 "physical_attack_power_base": 1767,
@@ -9608,10 +8765,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9635,10 +8789,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 459,
-                "magical_shield_base": 574
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 1089,
                 "magical_attack_power_base": 2121,
@@ -9662,10 +8813,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 560,
-                "magical_shield_base": 448
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3841,
                 "physical_overcome_base": 4142,
@@ -9689,10 +8837,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 560,
-                "magical_shield_base": 448
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3841,
                 "surplus_base": 6065,
@@ -9715,10 +8860,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 560,
-                "magical_shield_base": 448
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4503,
                 "physical_overcome_base": 10503
@@ -9740,10 +8882,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 448,
-                "magical_shield_base": 560
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4609,
                 "magical_overcome_base": 4142,
@@ -9767,10 +8906,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 448,
-                "magical_shield_base": 560
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4609,
                 "surplus_base": 6065,
@@ -9793,10 +8929,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 448,
-                "magical_shield_base": 560
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 5404,
                 "magical_overcome_base": 10503
@@ -9818,10 +8951,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 528,
-                "magical_shield_base": 423
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4001,
                 "surplus_base": 3352,
@@ -9845,10 +8975,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 528,
-                "magical_shield_base": 423
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3626,
                 "physical_overcome_base": 5586,
@@ -9871,10 +8998,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 528,
-                "magical_shield_base": 423
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4251,
                 "physical_critical_strike_base": 9916
@@ -9896,10 +9020,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 423,
-                "magical_shield_base": 528
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4802,
                 "surplus_base": 3352,
@@ -9923,10 +9044,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 423,
-                "magical_shield_base": 528
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4351,
                 "magical_overcome_base": 5586,
@@ -9949,10 +9067,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 423,
-                "magical_shield_base": 528
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 5102,
                 "all_critical_strike_base": 9916
@@ -9974,10 +9089,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 521,
-                "magical_shield_base": 417
-            },
+            "base": {},
             "magic": {
                 "agility_base": 988,
                 "physical_attack_power_base": 1603,
@@ -10008,10 +9120,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 521,
-                "magical_shield_base": 417
-            },
+            "base": {},
             "magic": {
                 "strength_base": 988,
                 "physical_attack_power_base": 1603,
@@ -10042,10 +9151,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 417,
-                "magical_shield_base": 521
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 988,
                 "magical_attack_power_base": 1923,
@@ -10076,10 +9182,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 417,
-                "magical_shield_base": 521
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 988,
                 "magical_attack_power_base": 1923,
@@ -10110,10 +9213,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10137,10 +9237,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10164,10 +9261,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "poison_attack_power_base": 1469,
@@ -10191,10 +9285,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -10218,10 +9309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10245,10 +9333,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10272,10 +9357,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10299,10 +9381,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "lunar_attack_power_base": 1469,
@@ -10326,10 +9405,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10353,10 +9429,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "solar_and_lunar_attack_power_base": 1469,
@@ -10380,10 +9453,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10407,10 +9477,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10434,10 +9501,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10461,10 +9525,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "poison_attack_power_base": 1469,
@@ -10488,10 +9549,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "poison_attack_power_base": 1469,
@@ -10515,10 +9573,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "lunar_attack_power_base": 1469,
@@ -10542,10 +9597,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10569,10 +9621,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -10596,10 +9645,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 920,
                 "physical_attack_power_base": 1224,
@@ -10623,10 +9669,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "neutral_attack_power_base": 1469,
@@ -10650,10 +9693,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 920,
                 "solar_attack_power_base": 1469,
@@ -10677,10 +9717,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10704,10 +9741,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10731,10 +9765,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -10758,10 +9789,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -10785,10 +9813,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10812,10 +9837,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10839,10 +9861,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -10866,10 +9885,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -10893,10 +9909,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10920,10 +9933,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -10947,10 +9957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -10974,10 +9981,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11001,10 +10005,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11028,10 +10029,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11055,10 +10053,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11082,10 +10077,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11109,10 +10101,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2917,
                 "physical_critical_strike_base": 3530,
@@ -11135,10 +10124,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4133,
                 "strain_base": 9096
@@ -11160,10 +10146,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3501,
                 "all_critical_strike_base": 3530,
@@ -11186,10 +10169,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4959,
                 "strain_base": 9096
@@ -11211,10 +10191,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3525,
                 "physical_overcome_base": 3801,
@@ -11238,10 +10215,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4230,
                 "magical_overcome_base": 3801,
@@ -11265,10 +10239,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3525,
                 "surplus_base": 3801,
@@ -11292,10 +10263,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3525,
                 "surplus_base": 5702,
@@ -11318,10 +10286,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4133,
                 "physical_overcome_base": 9639
@@ -11343,10 +10308,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4230,
                 "surplus_base": 3801,
@@ -11370,10 +10332,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4230,
                 "surplus_base": 5702,
@@ -11396,10 +10355,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4959,
                 "magical_overcome_base": 9639
@@ -11421,10 +10377,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11448,10 +10401,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11475,10 +10425,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11502,10 +10449,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11529,10 +10473,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11556,10 +10497,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 974,
                 "physical_attack_power_base": 1580,
@@ -11583,10 +10521,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11610,10 +10545,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 974,
                 "magical_attack_power_base": 1896,
@@ -11637,10 +10569,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 499,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3424,
                 "surplus_base": 3692,
@@ -11664,10 +10593,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 499,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3424,
                 "physical_critical_strike_base": 5275,
@@ -11690,10 +10616,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 499,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4014,
                 "strain_base": 9363
@@ -11715,10 +10638,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 499
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4109,
                 "surplus_base": 3692,
@@ -11742,10 +10662,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 499
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4109,
                 "all_critical_strike_base": 5275,
@@ -11768,10 +10685,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 499
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4817,
                 "strain_base": 9363
@@ -11793,10 +10707,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 471,
-                "magical_shield_base": 377
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3234,
                 "physical_overcome_base": 3488,
@@ -11820,10 +10731,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 471,
-                "magical_shield_base": 377
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3234,
                 "surplus_base": 5107,
@@ -11846,10 +10754,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 471,
-                "magical_shield_base": 377
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3792,
                 "physical_overcome_base": 8845
@@ -11871,10 +10776,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 377,
-                "magical_shield_base": 471
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3881,
                 "magical_overcome_base": 3488,
@@ -11898,10 +10800,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 377,
-                "magical_shield_base": 471
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3881,
                 "surplus_base": 5107,
@@ -11924,10 +10823,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 377,
-                "magical_shield_base": 471
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4551,
                 "magical_overcome_base": 8845
@@ -11949,10 +10845,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 464,
-                "magical_shield_base": 371
-            },
+            "base": {},
             "magic": {
                 "agility_base": 880,
                 "physical_attack_power_base": 1427,
@@ -11983,10 +10876,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 464,
-                "magical_shield_base": 371
-            },
+            "base": {},
             "magic": {
                 "strength_base": 880,
                 "physical_attack_power_base": 1427,
@@ -12017,10 +10907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 371,
-                "magical_shield_base": 464
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 880,
                 "magical_attack_power_base": 1713,
@@ -12051,10 +10938,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 371,
-                "magical_shield_base": 464
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 880,
                 "magical_attack_power_base": 1713,
@@ -12085,10 +10969,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12112,10 +10993,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12139,10 +11017,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12166,10 +11041,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12193,10 +11065,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12220,10 +11089,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12247,10 +11113,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12274,10 +11137,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12301,10 +11161,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12328,10 +11185,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12355,10 +11209,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12382,10 +11233,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12409,10 +11257,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3038,
                 "physical_overcome_base": 4604,
@@ -12435,10 +11280,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3645,
                 "magical_overcome_base": 4604,
@@ -12461,10 +11303,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3688,
                 "surplus_base": 8118
@@ -12486,10 +11325,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3038,
                 "surplus_base": 5089,
@@ -12512,10 +11348,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2604,
                 "physical_critical_strike_base": 3150,
@@ -12538,10 +11371,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4426,
                 "surplus_base": 8118
@@ -12563,10 +11393,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3645,
                 "surplus_base": 5089,
@@ -12589,10 +11416,7 @@ EQUIPMENTS = {
             "max_strength": 4,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3124,
                 "all_critical_strike_base": 3150,
@@ -12615,10 +11439,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12642,10 +11463,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12669,10 +11487,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12696,10 +11511,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12723,10 +11535,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "agility_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12750,10 +11559,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 458,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "strength_base": 869,
                 "physical_attack_power_base": 1410,
@@ -12777,10 +11583,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12804,10 +11607,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 458
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 869,
                 "magical_attack_power_base": 1692,
@@ -12831,10 +11631,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 805,
                 "physical_attack_power_base": 1072,
@@ -12858,10 +11655,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 805,
                 "physical_attack_power_base": 1072,
@@ -12885,10 +11679,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 805,
                 "magical_attack_power_base": 1286,
@@ -12912,10 +11703,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 805,
                 "magical_attack_power_base": 1286,
@@ -12939,10 +11727,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 805,
                 "physical_attack_power_base": 1072,
@@ -12965,10 +11750,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 805,
                 "physical_attack_power_base": 1072,
@@ -12991,10 +11773,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 805,
                 "magical_attack_power_base": 1286,
@@ -13017,10 +11796,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 805,
                 "magical_attack_power_base": 1286,
@@ -13043,10 +11819,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13070,10 +11843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13097,10 +11867,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13124,10 +11891,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13151,10 +11915,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13178,10 +11939,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13205,10 +11963,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13232,10 +11987,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13259,10 +12011,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13286,10 +12035,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13313,10 +12059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13340,10 +12083,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13367,10 +12107,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13394,10 +12131,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13421,10 +12155,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13448,10 +12179,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13475,10 +12203,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13502,10 +12227,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13529,10 +12251,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13556,10 +12275,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13583,10 +12299,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13610,10 +12323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13637,10 +12347,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13664,10 +12371,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13691,10 +12395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13718,10 +12419,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 453,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 859,
                 "physical_attack_power_base": 1393,
@@ -13745,10 +12443,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13772,10 +12467,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 453
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 859,
                 "magical_attack_power_base": 1672,
@@ -13799,10 +12491,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 445,
-                "magical_shield_base": 356
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3374,
                 "surplus_base": 2826,
@@ -13826,10 +12515,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 445,
-                "magical_shield_base": 356
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3058,
                 "physical_overcome_base": 4710,
@@ -13852,10 +12538,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 445,
-                "magical_shield_base": 356
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3585,
                 "physical_critical_strike_base": 8361
@@ -13877,10 +12560,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 356,
-                "magical_shield_base": 445
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4049,
                 "surplus_base": 2826,
@@ -13904,10 +12584,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 356,
-                "magical_shield_base": 445
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3669,
                 "magical_overcome_base": 4710,
@@ -13930,10 +12607,7 @@ EQUIPMENTS = {
             "max_strength": 3,
             "special_enchant": 0,
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 356,
-                "magical_shield_base": 445
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4302,
                 "all_critical_strike_base": 8361
@@ -13960,10 +12634,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "agility_base": 993,
                 "physical_attack_power_base": 1611,
@@ -13997,10 +12668,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 517,
-                "magical_shield_base": 414
-            },
+            "base": {},
             "magic": {
                 "strength_base": 993,
                 "physical_attack_power_base": 1611,
@@ -14034,10 +12702,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 993,
                 "magical_attack_power_base": 1933,
@@ -14071,10 +12736,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 414,
-                "magical_shield_base": 517
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 993,
                 "magical_attack_power_base": 1933,
@@ -14108,10 +12770,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14149,10 +12808,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14190,10 +12846,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 925,
                 "poison_attack_power_base": 1477,
@@ -14231,10 +12884,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 925,
                 "neutral_attack_power_base": 1477,
@@ -14272,10 +12922,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14313,10 +12960,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14354,10 +12998,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14395,10 +13036,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 925,
                 "lunar_attack_power_base": 1477,
@@ -14435,10 +13073,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14476,10 +13111,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 925,
                 "solar_and_lunar_attack_power_base": 1477,
@@ -14517,10 +13149,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14558,10 +13187,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14599,10 +13225,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14640,10 +13263,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 925,
                 "poison_attack_power_base": 1477,
@@ -14681,10 +13301,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 925,
                 "poison_attack_power_base": 1477,
@@ -14721,10 +13338,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 925,
                 "lunar_attack_power_base": 1477,
@@ -14762,10 +13376,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "agility_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14803,10 +13414,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 925,
                 "neutral_attack_power_base": 1477,
@@ -14844,10 +13452,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 514,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "strength_base": 925,
                 "physical_attack_power_base": 1231,
@@ -14885,10 +13490,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 925,
                 "neutral_attack_power_base": 1477,
@@ -14926,10 +13528,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 514
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 925,
                 "solar_attack_power_base": 1477,
@@ -14967,10 +13566,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "agility_base": 980,
                 "physical_attack_power_base": 1590,
@@ -14997,10 +13593,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "strength_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15027,10 +13620,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15057,10 +13647,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15087,10 +13674,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "agility_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15117,10 +13701,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "strength_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15147,10 +13728,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15177,10 +13755,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15207,10 +13782,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "agility_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15237,10 +13809,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "strength_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15267,10 +13836,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15297,10 +13863,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15327,10 +13890,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "agility_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15357,10 +13917,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 511,
-                "magical_shield_base": 408
-            },
+            "base": {},
             "magic": {
                 "strength_base": 980,
                 "physical_attack_power_base": 1590,
@@ -15387,10 +13944,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15417,10 +13971,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 408,
-                "magical_shield_base": 511
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 980,
                 "magical_attack_power_base": 1908,
@@ -15447,10 +13998,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5710,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15487,10 +14035,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5709,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15527,10 +14072,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5707,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 968,
                 "poison_attack_power_base": 1884,
@@ -15568,10 +14110,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5706,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 968,
                 "neutral_attack_power_base": 1884,
@@ -15609,10 +14148,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5705,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15650,10 +14186,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5704,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15691,10 +14224,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5703,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15732,10 +14262,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5701,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 968,
                 "lunar_attack_power_base": 1884,
@@ -15773,10 +14300,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5699,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15814,10 +14338,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5697,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 968,
                 "solar_and_lunar_attack_power_base": 1884,
@@ -15854,10 +14375,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5696,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15894,10 +14412,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5695,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15935,10 +14450,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5694,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 968,
                 "physical_attack_power_base": 1570,
@@ -15976,10 +14488,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5693,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 968,
                 "poison_attack_power_base": 1884,
@@ -16017,10 +14526,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5691,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 968,
                 "poison_attack_power_base": 1884,
@@ -16058,10 +14564,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5689,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 968,
                 "lunar_attack_power_base": 1884,
@@ -16098,10 +14601,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5688,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "agility_base": 968,
                 "physical_attack_power_base": 1570,
@@ -16138,10 +14638,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5687,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 968,
                 "neutral_attack_power_base": 1884,
@@ -16179,10 +14676,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5685,
-            "base": {
-                "physical_shield_base": 504,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "strength_base": 968,
                 "physical_attack_power_base": 1570,
@@ -16219,10 +14713,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5683,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 968,
                 "neutral_attack_power_base": 1884,
@@ -16260,10 +14751,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 5681,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 504
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 968,
                 "solar_attack_power_base": 1884,
@@ -16301,10 +14789,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 497,
-                "magical_shield_base": 398
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3814,
                 "surplus_base": 3195,
@@ -16331,10 +14816,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 497,
-                "magical_shield_base": 398
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3457,
                 "physical_critical_strike_base": 5326,
@@ -16360,10 +14842,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 497,
-                "magical_shield_base": 398
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 4053,
                 "strain_base": 9453
@@ -16388,10 +14867,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 398,
-                "magical_shield_base": 497
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4577,
                 "surplus_base": 3195,
@@ -16418,10 +14894,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 398,
-                "magical_shield_base": 497
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4148,
                 "all_critical_strike_base": 5326,
@@ -16447,10 +14920,7 @@ EQUIPMENTS = {
                 12
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 398,
-                "magical_shield_base": 497
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4863,
                 "strain_base": 9453
@@ -16475,10 +14945,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 470,
-                "magical_shield_base": 376
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3264,
                 "surplus_base": 2765,
@@ -16505,10 +14972,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 470,
-                "magical_shield_base": 376
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3264,
                 "physical_critical_strike_base": 6285,
@@ -16534,10 +14998,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 470,
-                "magical_shield_base": 376
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3826,
                 "physical_overcome_base": 8924
@@ -16562,10 +15023,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 376,
-                "magical_shield_base": 470
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3916,
                 "surplus_base": 2765,
@@ -16592,10 +15050,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 376,
-                "magical_shield_base": 470
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3916,
                 "all_critical_strike_base": 6285,
@@ -16621,10 +15076,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 376,
-                "magical_shield_base": 470
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4591,
                 "magical_overcome_base": 8924
@@ -16649,10 +15101,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 463,
-                "magical_shield_base": 370
-            },
+            "base": {},
             "magic": {
                 "agility_base": 889,
                 "physical_attack_power_base": 1443,
@@ -16686,10 +15135,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 463,
-                "magical_shield_base": 370
-            },
+            "base": {},
             "magic": {
                 "strength_base": 889,
                 "physical_attack_power_base": 1443,
@@ -16723,10 +15169,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 370,
-                "magical_shield_base": 463
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 889,
                 "magical_attack_power_base": 1731,
@@ -16760,10 +15203,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 370,
-                "magical_shield_base": 463
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 889,
                 "magical_attack_power_base": 1731,
@@ -16797,10 +15237,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -16838,10 +15275,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "strength_base": 828,
                 "physical_attack_power_base": 1102,
@@ -16879,10 +15313,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 828,
                 "poison_attack_power_base": 1322,
@@ -16920,10 +15351,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 828,
                 "neutral_attack_power_base": 1322,
@@ -16961,10 +15389,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17002,10 +15427,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17043,10 +15465,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "strength_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17084,10 +15503,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 828,
                 "lunar_attack_power_base": 1322,
@@ -17124,10 +15540,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17165,10 +15578,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 828,
                 "solar_and_lunar_attack_power_base": 1322,
@@ -17206,10 +15616,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "strength_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17247,10 +15654,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17288,10 +15692,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "strength_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17329,10 +15730,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 828,
                 "poison_attack_power_base": 1322,
@@ -17370,10 +15768,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 828,
                 "poison_attack_power_base": 1322,
@@ -17410,10 +15805,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 828,
                 "lunar_attack_power_base": 1322,
@@ -17451,10 +15843,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "agility_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17492,10 +15881,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 828,
                 "neutral_attack_power_base": 1322,
@@ -17533,10 +15919,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 460,
-                "magical_shield_base": 368
-            },
+            "base": {},
             "magic": {
                 "strength_base": 828,
                 "physical_attack_power_base": 1102,
@@ -17574,10 +15957,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 828,
                 "neutral_attack_power_base": 1322,
@@ -17615,10 +15995,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 368,
-                "magical_shield_base": 460
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 828,
                 "solar_attack_power_base": 1322,
@@ -17656,10 +16033,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17686,10 +16060,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17716,10 +16087,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -17746,10 +16114,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -17776,10 +16141,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17806,10 +16168,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17836,10 +16195,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -17866,10 +16222,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -17896,10 +16249,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17926,10 +16276,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -17956,10 +16303,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -17986,10 +16330,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18016,10 +16357,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18046,10 +16384,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18076,10 +16411,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18106,10 +16438,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18136,10 +16465,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18166,10 +16492,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18196,10 +16519,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18226,10 +16546,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18256,10 +16573,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "agility_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18286,10 +16600,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 457,
-                "magical_shield_base": 365
-            },
+            "base": {},
             "magic": {
                 "strength_base": 877,
                 "physical_attack_power_base": 1422,
@@ -18316,10 +16627,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18346,10 +16654,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 365,
-                "magical_shield_base": 457
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 877,
                 "magical_attack_power_base": 1707,
@@ -18376,10 +16681,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5678,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18412,10 +16714,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5677,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18448,10 +16747,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5676,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "magical_attack_power_base": 1682,
@@ -18484,10 +16780,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5675,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "magical_attack_power_base": 1682,
@@ -18520,10 +16813,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5473,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18560,10 +16850,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5472,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18600,10 +16887,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5470,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "poison_attack_power_base": 1682,
@@ -18641,10 +16925,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5469,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "neutral_attack_power_base": 1682,
@@ -18682,10 +16963,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5468,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18723,10 +17001,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5467,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18764,10 +17039,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5466,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18805,10 +17077,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5464,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "lunar_attack_power_base": 1682,
@@ -18846,10 +17115,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5462,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18887,10 +17153,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5460,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "solar_and_lunar_attack_power_base": 1682,
@@ -18927,10 +17190,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5459,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -18967,10 +17227,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5458,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -19008,10 +17265,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5457,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -19049,10 +17303,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5456,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "poison_attack_power_base": 1682,
@@ -19090,10 +17341,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5454,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "poison_attack_power_base": 1682,
@@ -19131,10 +17379,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5452,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "lunar_attack_power_base": 1682,
@@ -19171,10 +17416,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5451,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 864,
                 "physical_attack_power_base": 1402,
@@ -19211,10 +17453,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5450,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 864,
                 "neutral_attack_power_base": 1682,
@@ -19252,10 +17491,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5448,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 864,
                 "physical_attack_power_base": 1402,
@@ -19292,10 +17528,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5446,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "neutral_attack_power_base": 1682,
@@ -19333,10 +17566,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 5444,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 864,
                 "solar_attack_power_base": 1682,
@@ -19374,10 +17604,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 443,
-                "magical_shield_base": 355
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3082,
                 "physical_overcome_base": 3323,
@@ -19404,10 +17631,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 443,
-                "magical_shield_base": 355
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3082,
                 "surplus_base": 4985,
@@ -19433,10 +17657,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 443,
-                "magical_shield_base": 355
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3613,
                 "physical_critical_strike_base": 8427
@@ -19461,10 +17682,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 355,
-                "magical_shield_base": 443
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3698,
                 "magical_overcome_base": 3323,
@@ -19491,10 +17709,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 355,
-                "magical_shield_base": 443
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3698,
                 "surplus_base": 4985,
@@ -19520,10 +17735,7 @@ EQUIPMENTS = {
                 11
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 355,
-                "magical_shield_base": 443
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4335,
                 "all_critical_strike_base": 8427
@@ -19548,10 +17760,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 419,
-                "magical_shield_base": 335
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3212,
                 "surplus_base": 2691,
@@ -19578,10 +17787,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 419,
-                "magical_shield_base": 335
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2911,
                 "physical_critical_strike_base": 4485,
@@ -19607,10 +17813,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 419,
-                "magical_shield_base": 335
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3413,
                 "strain_base": 7960
@@ -19635,10 +17838,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 335,
-                "magical_shield_base": 419
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3855,
                 "surplus_base": 2691,
@@ -19665,10 +17865,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 335,
-                "magical_shield_base": 419
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3493,
                 "all_critical_strike_base": 4485,
@@ -19694,10 +17891,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 335,
-                "magical_shield_base": 419
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 4096,
                 "strain_base": 7960
@@ -19722,10 +17916,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 412,
-                "magical_shield_base": 330
-            },
+            "base": {},
             "magic": {
                 "agility_base": 792,
                 "physical_attack_power_base": 1285,
@@ -19759,10 +17950,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 412,
-                "magical_shield_base": 330
-            },
+            "base": {},
             "magic": {
                 "strength_base": 792,
                 "physical_attack_power_base": 1285,
@@ -19796,10 +17984,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 330,
-                "magical_shield_base": 412
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 792,
                 "magical_attack_power_base": 1541,
@@ -19833,10 +18018,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 330,
-                "magical_shield_base": 412
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 792,
                 "magical_attack_power_base": 1541,
@@ -19870,10 +18052,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "agility_base": 782,
                 "physical_attack_power_base": 1269,
@@ -19900,10 +18079,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "strength_base": 782,
                 "physical_attack_power_base": 1269,
@@ -19930,10 +18106,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 782,
                 "magical_attack_power_base": 1523,
@@ -19960,10 +18133,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 782,
                 "magical_attack_power_base": 1523,
@@ -19990,10 +18160,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "agility_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20020,10 +18187,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "strength_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20050,10 +18214,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20080,10 +18241,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20110,10 +18268,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "agility_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20140,10 +18295,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "strength_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20170,10 +18322,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20200,10 +18349,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20230,10 +18376,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "agility_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20260,10 +18403,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "strength_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20290,10 +18430,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20320,10 +18457,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20350,10 +18484,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "agility_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20380,10 +18511,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 407,
-                "magical_shield_base": 326
-            },
+            "base": {},
             "magic": {
                 "strength_base": 782,
                 "physical_attack_power_base": 1269,
@@ -20410,10 +18538,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20440,10 +18565,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 326,
-                "magical_shield_base": 407
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 782,
                 "magical_attack_power_base": 1523,
@@ -20470,10 +18592,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 406,
-                "magical_shield_base": 325
-            },
+            "base": {},
             "magic": {
                 "agility_base": 779,
                 "physical_attack_power_base": 1264,
@@ -20500,10 +18619,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 406,
-                "magical_shield_base": 325
-            },
+            "base": {},
             "magic": {
                 "strength_base": 779,
                 "physical_attack_power_base": 1264,
@@ -20530,10 +18646,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 325,
-                "magical_shield_base": 406
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 779,
                 "magical_attack_power_base": 1517,
@@ -20560,10 +18673,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 325,
-                "magical_shield_base": 406
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 779,
                 "magical_attack_power_base": 1517,
@@ -20590,10 +18700,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 725,
                 "physical_attack_power_base": 965,
@@ -20619,10 +18726,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 725,
                 "physical_attack_power_base": 965,
@@ -20648,10 +18752,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 725,
                 "magical_attack_power_base": 1158,
@@ -20677,10 +18778,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 725,
                 "magical_attack_power_base": 1158,
@@ -20706,10 +18804,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 725,
                 "physical_attack_power_base": 965,
@@ -20736,10 +18831,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 725,
                 "physical_attack_power_base": 965,
@@ -20766,10 +18858,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 725,
                 "magical_attack_power_base": 1158,
@@ -20796,10 +18885,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 725,
                 "magical_attack_power_base": 1158,
@@ -20826,10 +18912,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5431,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -20866,10 +18949,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5441,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -20902,10 +18982,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5440,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -20938,10 +19015,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5439,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -20974,10 +19048,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5438,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -21010,10 +19081,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5244,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21050,10 +19118,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5242,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "poison_attack_power_base": 1505,
@@ -21091,10 +19156,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5241,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "neutral_attack_power_base": 1505,
@@ -21132,10 +19194,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5240,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21173,10 +19232,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5239,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21214,10 +19270,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5238,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21255,10 +19308,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5236,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "lunar_attack_power_base": 1505,
@@ -21296,10 +19346,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5234,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21337,10 +19384,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5232,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "solar_and_lunar_attack_power_base": 1505,
@@ -21377,10 +19421,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5231,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21417,10 +19458,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5230,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21458,10 +19496,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5229,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21499,10 +19534,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5228,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "poison_attack_power_base": 1505,
@@ -21540,10 +19572,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5226,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "poison_attack_power_base": 1505,
@@ -21581,10 +19610,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5224,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "lunar_attack_power_base": 1505,
@@ -21621,10 +19647,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5223,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21661,10 +19684,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5222,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "neutral_attack_power_base": 1505,
@@ -21702,10 +19722,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5220,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21742,10 +19759,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5218,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "neutral_attack_power_base": 1505,
@@ -21783,10 +19797,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 5216,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "solar_attack_power_base": 1505,
@@ -21824,10 +19835,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21854,10 +19862,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21884,10 +19889,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -21914,10 +19916,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -21944,10 +19943,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -21974,10 +19970,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22004,10 +19997,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22034,10 +20024,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22064,10 +20051,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22094,10 +20078,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22124,10 +20105,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22154,10 +20132,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22184,10 +20159,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22214,10 +20186,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22244,10 +20213,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22274,10 +20240,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22304,10 +20267,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22334,10 +20294,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22364,10 +20321,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22394,10 +20348,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22424,10 +20375,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22454,10 +20402,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22484,10 +20429,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22514,10 +20456,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22544,10 +20483,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22574,10 +20510,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 403,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 773,
                 "physical_attack_power_base": 1254,
@@ -22604,10 +20537,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22634,10 +20564,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 403
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 773,
                 "magical_attack_power_base": 1505,
@@ -22664,10 +20591,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 396,
-                "magical_shield_base": 317
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2752,
                 "surplus_base": 2332,
@@ -22694,10 +20618,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 396,
-                "magical_shield_base": 317
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2752,
                 "physical_critical_strike_base": 5299,
@@ -22723,10 +20644,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 396,
-                "magical_shield_base": 317
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3226,
                 "physical_overcome_base": 7525
@@ -22751,10 +20669,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 317,
-                "magical_shield_base": 396
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3302,
                 "surplus_base": 2332,
@@ -22781,10 +20696,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 317,
-                "magical_shield_base": 396
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3302,
                 "all_critical_strike_base": 5299,
@@ -22810,10 +20722,7 @@ EQUIPMENTS = {
                 10
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 317,
-                "magical_shield_base": 396
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3872,
                 "magical_overcome_base": 7525
@@ -22839,10 +20748,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 323,
-                "magical_shield_base": 259
-            },
+            "base": {},
             "magic": {
                 "agility_base": 772,
                 "physical_attack_power_base": 1253,
@@ -22875,10 +20781,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 323,
-                "magical_shield_base": 259
-            },
+            "base": {},
             "magic": {
                 "strength_base": 772,
                 "physical_attack_power_base": 1253,
@@ -22911,10 +20814,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 259,
-                "magical_shield_base": 323
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 772,
                 "magical_attack_power_base": 1503,
@@ -22947,10 +20847,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 259,
-                "magical_shield_base": 323
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 772,
                 "magical_attack_power_base": 1503,
@@ -22983,10 +20880,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23022,10 +20916,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -23061,10 +20952,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -23100,10 +20988,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -23139,10 +21024,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23178,10 +21060,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23217,10 +21096,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -23256,10 +21132,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -23295,10 +21168,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23334,10 +21204,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_and_lunar_attack_power_base": 1149,
@@ -23373,10 +21240,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -23412,10 +21276,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23451,10 +21312,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -23490,10 +21348,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "poison_attack_power_base": 1149,
@@ -23529,10 +21384,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -23568,10 +21420,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -23607,10 +21456,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -23646,10 +21492,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -23685,10 +21528,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -23724,10 +21564,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -23763,10 +21600,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_attack_power_base": 1149,
@@ -23802,10 +21636,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -23831,10 +21662,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -23860,10 +21688,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -23889,10 +21714,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -23918,10 +21740,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -23947,10 +21766,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -23976,10 +21792,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -24005,10 +21818,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -24034,10 +21844,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -24063,10 +21870,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -24092,10 +21896,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -24121,10 +21922,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -24150,10 +21948,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5710,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24189,10 +21984,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5709,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24228,10 +22020,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5707,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -24268,10 +22057,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5706,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -24308,10 +22094,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5705,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24348,10 +22131,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5704,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24388,10 +22168,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5703,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24428,10 +22205,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5701,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -24468,10 +22242,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5699,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24508,10 +22279,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5697,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_and_lunar_attack_power_base": 1465,
@@ -24547,10 +22315,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5696,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24586,10 +22351,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5695,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24626,10 +22388,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5694,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24666,10 +22425,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5693,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "poison_attack_power_base": 1465,
@@ -24706,10 +22462,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5691,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -24746,10 +22499,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5689,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -24785,10 +22535,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5688,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24824,10 +22571,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5687,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -24864,10 +22608,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5685,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -24903,10 +22644,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5683,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -24943,10 +22681,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 5681,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_attack_power_base": 1465,
@@ -24983,10 +22718,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 311,
-                "magical_shield_base": 249
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2689,
                 "surplus_base": 2278,
@@ -25012,10 +22744,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 311,
-                "magical_shield_base": 249
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2689,
                 "physical_overcome_base": 4142,
@@ -25040,10 +22769,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 311,
-                "magical_shield_base": 249
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3152,
                 "strain_base": 7352
@@ -25067,10 +22793,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 249,
-                "magical_shield_base": 311
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3226,
                 "surplus_base": 2278,
@@ -25096,10 +22819,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 249,
-                "magical_shield_base": 311
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3226,
                 "magical_overcome_base": 4142,
@@ -25124,10 +22844,7 @@ EQUIPMENTS = {
                 2625
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 249,
-                "magical_shield_base": 311
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3783,
                 "strain_base": 7352
@@ -25151,10 +22868,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 294,
-                "magical_shield_base": 235
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2538,
                 "surplus_base": 2737,
@@ -25180,10 +22894,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 294,
-                "magical_shield_base": 235
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2538,
                 "physical_critical_strike_base": 4008,
@@ -25208,10 +22919,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 294,
-                "magical_shield_base": 235
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2976,
                 "physical_critical_strike_base": 6941
@@ -25235,10 +22943,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 235,
-                "magical_shield_base": 294
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3046,
                 "surplus_base": 2737,
@@ -25264,10 +22969,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 235,
-                "magical_shield_base": 294
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3046,
                 "all_critical_strike_base": 4008,
@@ -25292,10 +22994,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 235,
-                "magical_shield_base": 294
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3571,
                 "all_critical_strike_base": 6941
@@ -25319,10 +23018,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 232
-            },
+            "base": {},
             "magic": {
                 "agility_base": 692,
                 "physical_attack_power_base": 1122,
@@ -25355,10 +23051,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 232
-            },
+            "base": {},
             "magic": {
                 "strength_base": 692,
                 "physical_attack_power_base": 1122,
@@ -25391,10 +23084,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 232,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 692,
                 "magical_attack_power_base": 1346,
@@ -25427,10 +23117,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 232,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 692,
                 "magical_attack_power_base": 1346,
@@ -25463,10 +23150,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -25502,10 +23186,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -25541,10 +23222,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -25580,10 +23258,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -25619,10 +23294,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -25658,10 +23330,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -25697,10 +23366,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -25736,10 +23402,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -25775,10 +23438,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -25814,10 +23474,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_and_lunar_attack_power_base": 1028,
@@ -25853,10 +23510,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -25892,10 +23546,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -25931,10 +23582,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -25970,10 +23618,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "poison_attack_power_base": 1028,
@@ -26009,10 +23654,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -26048,10 +23690,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -26087,10 +23726,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -26126,10 +23762,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -26165,10 +23798,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -26204,10 +23834,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -26243,10 +23870,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_attack_power_base": 1028,
@@ -26282,10 +23906,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26311,10 +23932,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26340,10 +23958,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26369,10 +23984,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26398,10 +24010,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26427,10 +24036,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26456,10 +24062,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26485,10 +24088,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26514,10 +24114,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26543,10 +24140,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26572,10 +24166,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26601,10 +24192,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26630,10 +24218,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26659,10 +24244,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26688,10 +24270,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26717,10 +24296,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26746,10 +24322,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26775,10 +24348,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -26804,10 +24374,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26833,10 +24400,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -26862,10 +24426,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5678,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -26897,10 +24458,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5677,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -26932,10 +24490,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5676,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "magical_attack_power_base": 1308,
@@ -26967,10 +24522,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5675,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "magical_attack_power_base": 1308,
@@ -27002,10 +24554,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5473,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27041,10 +24590,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5472,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27080,10 +24626,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5470,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -27120,10 +24663,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5469,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -27160,10 +24700,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5468,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27200,10 +24737,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5467,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27240,10 +24774,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5466,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27280,10 +24811,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5464,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -27320,10 +24848,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5462,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27360,10 +24885,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5460,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_and_lunar_attack_power_base": 1308,
@@ -27399,10 +24921,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5459,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27438,10 +24957,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5458,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27478,10 +24994,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5457,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27518,10 +25031,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5456,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "poison_attack_power_base": 1308,
@@ -27558,10 +25068,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5454,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -27598,10 +25105,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5452,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -27637,10 +25141,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5451,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27676,10 +25177,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5450,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -27716,10 +25214,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5448,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -27755,10 +25250,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5446,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -27795,10 +25287,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 5444,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_attack_power_base": 1308,
@@ -27835,10 +25324,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 222
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2397,
                 "physical_critical_strike_base": 3508,
@@ -27864,10 +25350,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 222
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2397,
                 "surplus_base": 3785,
@@ -27892,10 +25375,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 222
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2810,
                 "physical_overcome_base": 6554
@@ -27919,10 +25399,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 222,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2876,
                 "all_critical_strike_base": 3508,
@@ -27948,10 +25425,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 222,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2876,
                 "surplus_base": 3785,
@@ -27976,10 +25450,7 @@ EQUIPMENTS = {
                 2555
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 222,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3372,
                 "magical_overcome_base": 6554
@@ -28003,10 +25474,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 262,
-                "magical_shield_base": 209
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2264,
                 "surplus_base": 1918,
@@ -28032,10 +25500,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 262,
-                "magical_shield_base": 209
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2264,
                 "physical_overcome_base": 3488,
@@ -28060,10 +25525,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 262,
-                "magical_shield_base": 209
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2655,
                 "strain_base": 6191
@@ -28087,10 +25549,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 209,
-                "magical_shield_base": 262
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2717,
                 "surplus_base": 1918,
@@ -28116,10 +25575,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 209,
-                "magical_shield_base": 262
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2717,
                 "magical_overcome_base": 3488,
@@ -28144,10 +25600,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 209,
-                "magical_shield_base": 262
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3185,
                 "strain_base": 6191
@@ -28171,10 +25624,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "agility_base": 616,
                 "physical_attack_power_base": 999,
@@ -28207,10 +25657,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "strength_base": 616,
                 "physical_attack_power_base": 999,
@@ -28243,10 +25690,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 616,
                 "magical_attack_power_base": 1199,
@@ -28279,10 +25723,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 616,
                 "magical_attack_power_base": 1199,
@@ -28315,10 +25756,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -28344,10 +25782,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -28373,10 +25808,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28402,10 +25834,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28431,10 +25860,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -28460,10 +25886,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -28489,10 +25912,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28518,10 +25938,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28547,10 +25964,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -28576,10 +25990,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -28605,10 +26016,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28634,10 +26042,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28663,10 +26068,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -28692,10 +26094,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -28721,10 +26120,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28750,10 +26146,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -28779,10 +26172,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 254,
-                "magical_shield_base": 203
-            },
+            "base": {},
             "magic": {
                 "agility_base": 606,
                 "physical_attack_power_base": 983,
@@ -28808,10 +26198,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 254,
-                "magical_shield_base": 203
-            },
+            "base": {},
             "magic": {
                 "strength_base": 606,
                 "physical_attack_power_base": 983,
@@ -28837,10 +26224,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 203,
-                "magical_shield_base": 254
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 606,
                 "magical_attack_power_base": 1180,
@@ -28866,10 +26250,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 203,
-                "magical_shield_base": 254
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 606,
                 "magical_attack_power_base": 1180,
@@ -28895,10 +26276,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -28923,10 +26301,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -28951,10 +26326,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -28979,10 +26351,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -29007,10 +26376,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -29036,10 +26402,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -29065,10 +26428,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -29094,10 +26454,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -29123,10 +26480,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5431,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29162,10 +26516,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5441,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29197,10 +26548,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5440,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -29232,10 +26580,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5439,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -29267,10 +26612,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5438,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -29302,10 +26644,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5244,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -29341,10 +26680,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5242,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -29381,10 +26717,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5241,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -29421,10 +26754,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5240,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29461,10 +26791,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5239,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29501,10 +26828,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5238,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -29541,10 +26865,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5236,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -29581,10 +26902,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5234,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29621,10 +26939,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5232,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_and_lunar_attack_power_base": 1170,
@@ -29660,10 +26975,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5231,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -29699,10 +27011,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5230,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29739,10 +27048,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5229,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -29779,10 +27085,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5228,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "poison_attack_power_base": 1170,
@@ -29819,10 +27122,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5226,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -29859,10 +27159,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5224,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -29898,10 +27195,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5223,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -29937,10 +27231,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5222,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -29977,10 +27268,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5220,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30016,10 +27304,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5218,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -30056,10 +27341,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 5216,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_attack_power_base": 1170,
@@ -30096,10 +27378,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30125,10 +27404,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30154,10 +27430,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30183,10 +27456,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30212,10 +27482,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30241,10 +27508,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30270,10 +27534,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30299,10 +27560,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30328,10 +27586,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30357,10 +27612,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30386,10 +27638,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30415,10 +27664,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30444,10 +27690,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30473,10 +27716,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30502,10 +27742,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30531,10 +27768,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30560,10 +27794,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30589,10 +27820,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30618,10 +27846,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30647,10 +27872,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30676,10 +27898,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30705,10 +27924,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30734,10 +27950,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30763,10 +27976,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30792,10 +28002,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -30821,10 +28028,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -30850,10 +28054,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30879,10 +28080,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -30908,10 +28106,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 248,
-                "magical_shield_base": 198
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2140,
                 "surplus_base": 2308,
@@ -30937,10 +28132,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 248,
-                "magical_shield_base": 198
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2140,
                 "physical_critical_strike_base": 3380,
@@ -30965,10 +28157,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 248,
-                "magical_shield_base": 198
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2509,
                 "physical_critical_strike_base": 5853
@@ -30992,10 +28181,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 198,
-                "magical_shield_base": 248
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2568,
                 "surplus_base": 2308,
@@ -31021,10 +28207,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 198,
-                "magical_shield_base": 248
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2568,
                 "all_critical_strike_base": 3380,
@@ -31049,10 +28232,7 @@ EQUIPMENTS = {
                 2495
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 198,
-                "magical_shield_base": 248
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3011,
                 "all_critical_strike_base": 5853
@@ -31078,10 +28258,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 323,
-                "magical_shield_base": 259
-            },
+            "base": {},
             "magic": {
                 "agility_base": 772,
                 "physical_attack_power_base": 1253,
@@ -31114,10 +28291,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 323,
-                "magical_shield_base": 259
-            },
+            "base": {},
             "magic": {
                 "strength_base": 772,
                 "physical_attack_power_base": 1253,
@@ -31150,10 +28324,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 259,
-                "magical_shield_base": 323
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 772,
                 "magical_attack_power_base": 1503,
@@ -31186,10 +28357,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 259,
-                "magical_shield_base": 323
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 772,
                 "magical_attack_power_base": 1503,
@@ -31222,10 +28390,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31262,10 +28427,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -31302,10 +28464,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -31342,10 +28501,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -31382,10 +28538,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31422,10 +28575,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31462,10 +28612,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -31502,10 +28649,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -31542,10 +28686,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31582,10 +28723,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_and_lunar_attack_power_base": 1149,
@@ -31622,10 +28760,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -31662,10 +28797,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31702,10 +28834,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -31742,10 +28871,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "poison_attack_power_base": 1149,
@@ -31782,10 +28908,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -31822,10 +28945,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -31862,10 +28982,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -31902,10 +29019,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -31942,10 +29056,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 321,
-                "magical_shield_base": 257
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -31982,10 +29093,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -32022,10 +29130,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 257,
-                "magical_shield_base": 321
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_attack_power_base": 1149,
@@ -32062,10 +29167,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32091,10 +29193,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32120,10 +29219,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32149,10 +29245,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32178,10 +29271,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2236,
                 "surplus_base": 4782,
@@ -32206,10 +29296,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2664,
                 "physical_overcome_base": 4039,
@@ -32234,10 +29321,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2683,
                 "surplus_base": 4782,
@@ -32262,10 +29346,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3197,
                 "magical_overcome_base": 4039,
@@ -32290,10 +29371,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3235,
                 "strain_base": 7546
@@ -32317,10 +29395,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3882,
                 "strain_base": 7546
@@ -32344,10 +29419,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2759,
                 "surplus_base": 2338,
@@ -32373,10 +29445,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2759,
                 "surplus_base": 4251,
@@ -32401,10 +29470,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3235,
                 "physical_critical_strike_base": 7546
@@ -32428,10 +29494,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3311,
                 "surplus_base": 2338,
@@ -32457,10 +29520,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3311,
                 "surplus_base": 4251,
@@ -32485,10 +29545,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3882,
                 "all_critical_strike_base": 7546
@@ -32512,10 +29569,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32541,10 +29595,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32570,10 +29621,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32599,10 +29647,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32628,10 +29673,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32657,10 +29699,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 319,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -32686,10 +29725,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32715,10 +29751,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 319
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -32744,10 +29777,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5710,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -32783,10 +29813,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5709,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -32822,10 +29849,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5707,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -32862,10 +29886,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5706,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -32902,10 +29923,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5705,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -32942,10 +29960,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5704,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -32982,10 +29997,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5703,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33022,10 +30034,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5701,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -33062,10 +30071,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5699,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33102,10 +30108,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5697,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_and_lunar_attack_power_base": 1465,
@@ -33141,10 +30144,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5696,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33180,10 +30180,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5695,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33220,10 +30217,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5694,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33260,10 +30254,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5693,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "poison_attack_power_base": 1465,
@@ -33300,10 +30291,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5691,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -33340,10 +30328,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5689,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -33379,10 +30364,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5688,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33418,10 +30400,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5687,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -33458,10 +30437,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5685,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -33497,10 +30473,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5683,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -33537,10 +30510,7 @@ EQUIPMENTS = {
                 2623
             ],
             "set_id": 5681,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_attack_power_base": 1465,
@@ -33577,10 +30547,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 232
-            },
+            "base": {},
             "magic": {
                 "agility_base": 692,
                 "physical_attack_power_base": 1122,
@@ -33613,10 +30580,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 232
-            },
+            "base": {},
             "magic": {
                 "strength_base": 692,
                 "physical_attack_power_base": 1122,
@@ -33649,10 +30613,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 232,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 692,
                 "magical_attack_power_base": 1346,
@@ -33685,10 +30646,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 232,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 692,
                 "magical_attack_power_base": 1346,
@@ -33721,10 +30679,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -33761,10 +30716,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -33801,10 +30753,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -33841,10 +30790,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -33881,10 +30827,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -33921,10 +30864,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -33961,10 +30901,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -34001,10 +30938,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -34041,10 +30975,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -34081,10 +31012,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_and_lunar_attack_power_base": 1028,
@@ -34121,10 +31049,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -34161,10 +31086,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -34201,10 +31123,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -34241,10 +31160,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "poison_attack_power_base": 1028,
@@ -34281,10 +31197,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -34321,10 +31234,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -34361,10 +31271,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -34401,10 +31308,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -34441,10 +31345,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 287,
-                "magical_shield_base": 230
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -34481,10 +31382,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -34521,10 +31419,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 230,
-                "magical_shield_base": 287
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_attack_power_base": 1028,
@@ -34561,10 +31456,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34590,10 +31482,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34619,10 +31508,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34648,10 +31534,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34677,10 +31560,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34706,10 +31586,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34735,10 +31612,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34764,10 +31638,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34793,10 +31664,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34822,10 +31690,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -34851,10 +31716,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34880,10 +31742,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -34909,10 +31768,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2000,
                 "surplus_base": 4277,
@@ -34937,10 +31793,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2382,
                 "physical_overcome_base": 3611,
@@ -34965,10 +31818,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2399,
                 "surplus_base": 4277,
@@ -34993,10 +31843,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2859,
                 "magical_overcome_base": 3611,
@@ -35021,10 +31868,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2893,
                 "strain_base": 6748
@@ -35048,10 +31892,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3472,
                 "strain_base": 6748
@@ -35075,10 +31916,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2468,
                 "surplus_base": 2091,
@@ -35104,10 +31942,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2468,
                 "surplus_base": 3801,
@@ -35132,10 +31967,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2893,
                 "physical_critical_strike_base": 6748
@@ -35159,10 +31991,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2961,
                 "surplus_base": 2091,
@@ -35188,10 +32017,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2961,
                 "surplus_base": 3801,
@@ -35216,10 +32042,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3472,
                 "all_critical_strike_base": 6748
@@ -35243,10 +32066,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -35272,10 +32092,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -35301,10 +32118,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -35330,10 +32144,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -35359,10 +32170,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -35388,10 +32196,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 228
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -35417,10 +32222,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -35446,10 +32248,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 228,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -35475,10 +32274,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5678,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35510,10 +32306,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5677,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35545,10 +32338,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5676,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "magical_attack_power_base": 1308,
@@ -35580,10 +32370,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5675,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "magical_attack_power_base": 1308,
@@ -35615,10 +32402,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5473,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35654,10 +32438,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5472,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35693,10 +32474,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5470,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -35733,10 +32511,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5469,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -35773,10 +32548,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5468,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35813,10 +32585,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5467,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35853,10 +32622,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5466,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35893,10 +32659,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5464,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -35933,10 +32696,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5462,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -35973,10 +32733,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5460,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_and_lunar_attack_power_base": 1308,
@@ -36012,10 +32769,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5459,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -36051,10 +32805,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5458,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -36091,10 +32842,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5457,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -36131,10 +32879,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5456,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "poison_attack_power_base": 1308,
@@ -36171,10 +32916,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5454,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -36211,10 +32953,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5452,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -36250,10 +32989,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5451,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -36289,10 +33025,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5450,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -36329,10 +33062,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5448,
-            "base": {
-                "physical_shield_base": 281,
-                "magical_shield_base": 225
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -36368,10 +33098,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5446,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -36408,10 +33135,7 @@ EQUIPMENTS = {
                 2553
             ],
             "set_id": 5444,
-            "base": {
-                "physical_shield_base": 225,
-                "magical_shield_base": 281
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_attack_power_base": 1308,
@@ -36448,10 +33172,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "agility_base": 616,
                 "physical_attack_power_base": 999,
@@ -36477,10 +33198,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "strength_base": 616,
                 "physical_attack_power_base": 999,
@@ -36506,10 +33224,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 616,
                 "magical_attack_power_base": 1199,
@@ -36535,10 +33250,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 616,
                 "magical_attack_power_base": 1199,
@@ -36564,10 +33276,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "agility_base": 616,
                 "physical_attack_power_base": 999,
@@ -36600,10 +33309,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 258,
-                "magical_shield_base": 206
-            },
+            "base": {},
             "magic": {
                 "strength_base": 616,
                 "physical_attack_power_base": 999,
@@ -36636,10 +33342,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 616,
                 "magical_attack_power_base": 1199,
@@ -36672,10 +33375,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 206,
-                "magical_shield_base": 258
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 616,
                 "magical_attack_power_base": 1199,
@@ -36708,10 +33408,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -36737,10 +33434,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -36766,10 +33460,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -36795,10 +33486,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -36824,10 +33512,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -36853,10 +33538,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -36882,10 +33564,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -36911,10 +33590,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -36940,10 +33616,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2126,
                 "physical_overcome_base": 3223,
@@ -36968,10 +33641,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2552,
                 "magical_overcome_base": 3223,
@@ -36996,10 +33666,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 1823,
                 "physical_critical_strike_base": 2205,
@@ -37024,10 +33691,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2126,
                 "surplus_base": 3562,
@@ -37052,10 +33716,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2582,
                 "strain_base": 5683
@@ -37079,10 +33740,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2187,
                 "all_critical_strike_base": 2205,
@@ -37107,10 +33765,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2552,
                 "surplus_base": 3562,
@@ -37135,10 +33790,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3098,
                 "strain_base": 5683
@@ -37162,10 +33814,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -37191,10 +33840,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -37220,10 +33866,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -37249,10 +33892,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -37278,10 +33918,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -37307,10 +33944,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 255,
-                "magical_shield_base": 204
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -37336,10 +33970,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -37365,10 +33996,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 204,
-                "magical_shield_base": 255
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -37394,10 +34022,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 254,
-                "magical_shield_base": 203
-            },
+            "base": {},
             "magic": {
                 "agility_base": 606,
                 "physical_attack_power_base": 983,
@@ -37423,10 +34048,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 254,
-                "magical_shield_base": 203
-            },
+            "base": {},
             "magic": {
                 "strength_base": 606,
                 "physical_attack_power_base": 983,
@@ -37452,10 +34074,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 203,
-                "magical_shield_base": 254
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 606,
                 "magical_attack_power_base": 1180,
@@ -37481,10 +34100,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 203,
-                "magical_shield_base": 254
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 606,
                 "magical_attack_power_base": 1180,
@@ -37510,10 +34126,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -37539,10 +34152,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -37568,10 +34178,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -37597,10 +34204,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -37626,10 +34230,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -37655,10 +34256,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -37684,10 +34282,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -37713,10 +34308,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -37742,10 +34334,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5674,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -37775,10 +34364,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5673,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -37808,10 +34394,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5671,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -37841,10 +34424,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5670,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -37874,10 +34454,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5669,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -37907,10 +34484,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5668,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -37940,10 +34514,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5667,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -37973,10 +34544,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5665,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -38006,10 +34574,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5663,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38039,10 +34604,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5661,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_and_lunar_attack_power_base": 1170,
@@ -38072,10 +34634,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5660,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38105,10 +34664,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5659,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38138,10 +34694,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5658,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38171,10 +34724,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5657,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "poison_attack_power_base": 1170,
@@ -38204,10 +34754,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5655,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -38237,10 +34784,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5653,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -38270,10 +34814,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5652,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38303,10 +34844,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5651,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -38336,10 +34874,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5649,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38369,10 +34904,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5647,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -38402,10 +34934,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5645,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_attack_power_base": 1170,
@@ -38435,10 +34964,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5431,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38474,10 +35000,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5441,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38509,10 +35032,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5440,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38544,10 +35064,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5439,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -38579,10 +35096,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5438,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -38614,10 +35128,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5244,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38653,10 +35164,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5242,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -38693,10 +35201,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5241,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -38733,10 +35238,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5240,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38773,10 +35275,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5239,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38813,10 +35312,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5238,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -38853,10 +35349,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5236,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -38893,10 +35386,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5234,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -38933,10 +35423,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5232,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_and_lunar_attack_power_base": 1170,
@@ -38972,10 +35459,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5231,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39011,10 +35495,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5230,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39051,10 +35532,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5229,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39091,10 +35569,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5228,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "poison_attack_power_base": 1170,
@@ -39131,10 +35606,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5226,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -39171,10 +35643,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5224,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -39210,10 +35679,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5223,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39249,10 +35715,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5222,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -39289,10 +35752,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5220,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39328,10 +35788,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5218,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -39368,10 +35825,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 5216,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_attack_power_base": 1170,
@@ -39408,10 +35862,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39437,10 +35888,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39466,10 +35914,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39495,10 +35940,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39524,10 +35966,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39553,10 +35992,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39582,10 +36018,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39611,10 +36044,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39640,10 +36070,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39669,10 +36096,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39698,10 +36122,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39727,10 +36148,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39756,10 +36174,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39785,10 +36200,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39814,10 +36226,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39843,10 +36252,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39872,10 +36278,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -39901,10 +36304,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -39930,10 +36330,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39959,10 +36356,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -39988,10 +36382,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -40017,10 +36408,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -40046,10 +36434,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -40075,10 +36460,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -40104,10 +36486,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -40133,10 +36512,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 252,
-                "magical_shield_base": 201
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -40162,10 +36538,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -40191,10 +36564,7 @@ EQUIPMENTS = {
                 2478
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 201,
-                "magical_shield_base": 252
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -40222,10 +36592,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5844,
-            "base": {
-                "physical_shield_base": 452,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "agility_base": 772,
                 "physical_attack_power_base": 1253,
@@ -40258,10 +36625,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5843,
-            "base": {
-                "physical_shield_base": 452,
-                "magical_shield_base": 362
-            },
+            "base": {},
             "magic": {
                 "strength_base": 772,
                 "physical_attack_power_base": 1253,
@@ -40294,10 +36658,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5842,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 452
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 772,
                 "magical_attack_power_base": 1503,
@@ -40330,10 +36691,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5841,
-            "base": {
-                "physical_shield_base": 362,
-                "magical_shield_base": 452
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 772,
                 "magical_attack_power_base": 1503,
@@ -40366,10 +36724,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -40405,10 +36760,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -40444,10 +36796,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -40483,10 +36832,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -40522,10 +36868,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -40561,10 +36904,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -40600,10 +36940,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -40639,10 +36976,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -40678,10 +37012,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -40717,10 +37048,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_and_lunar_attack_power_base": 1149,
@@ -40756,10 +37084,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -40795,10 +37120,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -40834,10 +37156,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -40873,10 +37192,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "poison_attack_power_base": 1149,
@@ -40912,10 +37228,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "poison_attack_power_base": 1149,
@@ -40951,10 +37264,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "lunar_attack_power_base": 1149,
@@ -40990,10 +37300,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "agility_base": 719,
                 "physical_attack_power_base": 958,
@@ -41029,10 +37336,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -41068,10 +37372,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 450,
-                "magical_shield_base": 360
-            },
+            "base": {},
             "magic": {
                 "strength_base": 719,
                 "physical_attack_power_base": 958,
@@ -41107,10 +37408,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "neutral_attack_power_base": 1149,
@@ -41146,10 +37444,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 360,
-                "magical_shield_base": 450
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 719,
                 "solar_attack_power_base": 1149,
@@ -41185,10 +37480,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41214,10 +37506,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41243,10 +37532,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41272,10 +37558,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41301,10 +37584,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41330,10 +37610,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41359,10 +37636,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41388,10 +37662,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41417,10 +37688,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2664,
                 "surplus_base": 4464,
@@ -41445,10 +37713,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3235,
                 "strain_base": 7121
@@ -41472,10 +37737,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3197,
                 "surplus_base": 4464,
@@ -41500,10 +37762,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3882,
                 "strain_base": 7121
@@ -41527,10 +37786,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3045,
                 "surplus_base": 2551,
@@ -41556,10 +37812,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3654,
                 "surplus_base": 2551,
@@ -41585,10 +37838,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2759,
                 "physical_overcome_base": 3082,
@@ -41614,10 +37864,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2759,
                 "physical_overcome_base": 4251,
@@ -41642,10 +37889,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3235,
                 "physical_critical_strike_base": 7546
@@ -41669,10 +37913,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3311,
                 "magical_overcome_base": 3082,
@@ -41698,10 +37939,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3311,
                 "magical_overcome_base": 4251,
@@ -41726,10 +37964,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3882,
                 "all_critical_strike_base": 7546
@@ -41753,10 +37988,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41782,10 +38014,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41811,10 +38040,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41840,10 +38066,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41869,10 +38092,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "agility_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41898,10 +38118,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 447,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "strength_base": 763,
                 "physical_attack_power_base": 1237,
@@ -41927,10 +38144,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41956,10 +38170,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 447
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 763,
                 "magical_attack_power_base": 1484,
@@ -41985,10 +38196,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5710,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42024,10 +38232,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5709,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42063,10 +38268,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5707,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -42103,10 +38305,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5706,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -42143,10 +38342,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5705,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42183,10 +38379,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5704,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42223,10 +38416,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5703,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42263,10 +38453,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5701,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -42303,10 +38490,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5699,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42343,10 +38527,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5697,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_and_lunar_attack_power_base": 1465,
@@ -42382,10 +38563,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5696,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42421,10 +38599,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5695,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42461,10 +38636,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5694,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42501,10 +38673,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5693,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "poison_attack_power_base": 1465,
@@ -42541,10 +38710,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5691,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "poison_attack_power_base": 1465,
@@ -42581,10 +38747,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5689,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "lunar_attack_power_base": 1465,
@@ -42620,10 +38783,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5688,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "agility_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42659,10 +38819,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5687,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -42699,10 +38856,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5685,
-            "base": {
-                "physical_shield_base": 441,
-                "magical_shield_base": 353
-            },
+            "base": {},
             "magic": {
                 "strength_base": 753,
                 "physical_attack_power_base": 1221,
@@ -42738,10 +38892,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5683,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "neutral_attack_power_base": 1465,
@@ -42778,10 +38929,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 5681,
-            "base": {
-                "physical_shield_base": 353,
-                "magical_shield_base": 441
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 753,
                 "solar_attack_power_base": 1465,
@@ -42818,10 +38966,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 435,
-                "magical_shield_base": 348
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2689,
                 "physical_overcome_base": 3003,
@@ -42847,10 +38992,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 435,
-                "magical_shield_base": 348
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2689,
                 "physical_critical_strike_base": 4246,
@@ -42875,10 +39017,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 435,
-                "magical_shield_base": 348
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 3152,
                 "physical_critical_strike_base": 7352
@@ -42902,10 +39041,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 348,
-                "magical_shield_base": 435
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3226,
                 "magical_overcome_base": 3003,
@@ -42931,10 +39067,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 348,
-                "magical_shield_base": 435
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3226,
                 "all_critical_strike_base": 4246,
@@ -42959,10 +39092,7 @@ EQUIPMENTS = {
                 2624
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 348,
-                "magical_shield_base": 435
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3783,
                 "all_critical_strike_base": 7352
@@ -42986,10 +39116,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 329
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2538,
                 "physical_critical_strike_base": 3715,
@@ -43015,10 +39142,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 329
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2538,
                 "surplus_base": 3910,
@@ -43043,10 +39167,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 411,
-                "magical_shield_base": 329
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2976,
                 "strain_base": 6941
@@ -43070,10 +39191,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 329,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3046,
                 "all_critical_strike_base": 3715,
@@ -43099,10 +39217,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 329,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3046,
                 "surplus_base": 3910,
@@ -43127,10 +39242,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 329,
-                "magical_shield_base": 411
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3571,
                 "strain_base": 6941
@@ -43154,10 +39266,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5607,
-            "base": {
-                "physical_shield_base": 405,
-                "magical_shield_base": 324
-            },
+            "base": {},
             "magic": {
                 "agility_base": 692,
                 "physical_attack_power_base": 1122,
@@ -43190,10 +39299,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5606,
-            "base": {
-                "physical_shield_base": 405,
-                "magical_shield_base": 324
-            },
+            "base": {},
             "magic": {
                 "strength_base": 692,
                 "physical_attack_power_base": 1122,
@@ -43226,10 +39332,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5605,
-            "base": {
-                "physical_shield_base": 324,
-                "magical_shield_base": 405
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 692,
                 "magical_attack_power_base": 1346,
@@ -43262,10 +39365,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5604,
-            "base": {
-                "physical_shield_base": 324,
-                "magical_shield_base": 405
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 692,
                 "magical_attack_power_base": 1346,
@@ -43298,10 +39398,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5869,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43337,10 +39434,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5868,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -43376,10 +39470,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5867,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -43415,10 +39506,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5866,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -43454,10 +39542,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5865,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43493,10 +39578,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5864,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43532,10 +39614,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5863,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -43571,10 +39650,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5862,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -43610,10 +39686,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5861,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43649,10 +39722,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5860,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_and_lunar_attack_power_base": 1028,
@@ -43688,10 +39758,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5859,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -43727,10 +39794,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5858,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43766,10 +39830,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5857,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -43805,10 +39866,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5856,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "poison_attack_power_base": 1028,
@@ -43844,10 +39902,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5855,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "poison_attack_power_base": 1028,
@@ -43883,10 +39938,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5854,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "lunar_attack_power_base": 1028,
@@ -43922,10 +39974,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5853,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "agility_base": 644,
                 "physical_attack_power_base": 857,
@@ -43961,10 +40010,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5852,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -44000,10 +40046,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5851,
-            "base": {
-                "physical_shield_base": 402,
-                "magical_shield_base": 322
-            },
+            "base": {},
             "magic": {
                 "strength_base": 644,
                 "physical_attack_power_base": 857,
@@ -44039,10 +40082,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5850,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "neutral_attack_power_base": 1028,
@@ -44078,10 +40118,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5849,
-            "base": {
-                "physical_shield_base": 322,
-                "magical_shield_base": 402
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 644,
                 "solar_attack_power_base": 1028,
@@ -44117,10 +40154,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44146,10 +40180,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44175,10 +40206,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44204,10 +40232,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44233,10 +40258,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44262,10 +40284,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44291,10 +40310,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44320,10 +40336,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44349,10 +40362,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44378,10 +40388,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44407,10 +40414,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44436,10 +40440,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44465,10 +40466,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2382,
                 "surplus_base": 3991,
@@ -44493,10 +40491,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2893,
                 "strain_base": 6367
@@ -44520,10 +40515,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2859,
                 "surplus_base": 3991,
@@ -44548,10 +40540,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3472,
                 "strain_base": 6367
@@ -44575,10 +40564,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2723,
                 "surplus_base": 2281,
@@ -44604,10 +40590,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3267,
                 "surplus_base": 2281,
@@ -44633,10 +40616,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2468,
                 "physical_overcome_base": 2756,
@@ -44662,10 +40642,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2468,
                 "physical_overcome_base": 3801,
@@ -44690,10 +40667,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2893,
                 "physical_critical_strike_base": 6748
@@ -44717,10 +40691,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2961,
                 "magical_overcome_base": 2756,
@@ -44746,10 +40717,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2961,
                 "magical_overcome_base": 3801,
@@ -44774,10 +40742,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3472,
                 "all_critical_strike_base": 6748
@@ -44801,10 +40766,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44830,10 +40792,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44859,10 +40818,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44888,10 +40844,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -44917,10 +40870,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "agility_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44946,10 +40896,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 399,
-                "magical_shield_base": 320
-            },
+            "base": {},
             "magic": {
                 "strength_base": 682,
                 "physical_attack_power_base": 1106,
@@ -44975,10 +40922,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 682,
                 "magical_attack_power_base": 1327,
@@ -45004,10 +40948,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 320,
-                "magical_shield_base": 399
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 682,
                 "magical_attack_power_base": 1327,
@@ -45033,10 +40974,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5678,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45068,10 +41006,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5677,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45103,10 +41038,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5676,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "magical_attack_power_base": 1308,
@@ -45138,10 +41070,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5675,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "magical_attack_power_base": 1308,
@@ -45173,10 +41102,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5473,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45212,10 +41138,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5472,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45251,10 +41174,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5470,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -45291,10 +41211,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5469,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -45331,10 +41248,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5468,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45371,10 +41285,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5467,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45411,10 +41322,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5466,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45451,10 +41359,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5464,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -45491,10 +41396,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5462,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45531,10 +41433,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5460,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_and_lunar_attack_power_base": 1308,
@@ -45570,10 +41469,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5459,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45609,10 +41505,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5458,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45649,10 +41542,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5457,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45689,10 +41579,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5456,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "poison_attack_power_base": 1308,
@@ -45729,10 +41616,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5454,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "poison_attack_power_base": 1308,
@@ -45769,10 +41653,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5452,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "lunar_attack_power_base": 1308,
@@ -45808,10 +41689,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5451,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "agility_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45847,10 +41725,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5450,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -45887,10 +41762,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5448,
-            "base": {
-                "physical_shield_base": 394,
-                "magical_shield_base": 315
-            },
+            "base": {},
             "magic": {
                 "strength_base": 672,
                 "physical_attack_power_base": 1090,
@@ -45926,10 +41798,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5446,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "neutral_attack_power_base": 1308,
@@ -45966,10 +41835,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 5444,
-            "base": {
-                "physical_shield_base": 315,
-                "magical_shield_base": 394
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 672,
                 "solar_attack_power_base": 1308,
@@ -46006,10 +41872,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 388,
-                "magical_shield_base": 310
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2397,
                 "surplus_base": 2031,
@@ -46035,10 +41898,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 388,
-                "magical_shield_base": 310
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2397,
                 "physical_critical_strike_base": 4616,
@@ -46063,10 +41923,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 388,
-                "magical_shield_base": 310
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2810,
                 "physical_overcome_base": 6554
@@ -46090,10 +41947,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 310,
-                "magical_shield_base": 388
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2876,
                 "surplus_base": 2031,
@@ -46119,10 +41973,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 310,
-                "magical_shield_base": 388
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2876,
                 "all_critical_strike_base": 4616,
@@ -46147,10 +41998,7 @@ EQUIPMENTS = {
                 2554
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 310,
-                "magical_shield_base": 388
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3372,
                 "magical_overcome_base": 6554
@@ -46174,10 +42022,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 293
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2264,
                 "physical_overcome_base": 2529,
@@ -46203,10 +42048,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 293
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2264,
                 "physical_critical_strike_base": 3575,
@@ -46231,10 +42073,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 367,
-                "magical_shield_base": 293
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2655,
                 "physical_critical_strike_base": 6191
@@ -46258,10 +42097,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 293,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2717,
                 "magical_overcome_base": 2529,
@@ -46287,10 +42123,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 293,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2717,
                 "all_critical_strike_base": 3575,
@@ -46315,10 +42148,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 293,
-                "magical_shield_base": 367
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3185,
                 "all_critical_strike_base": 6191
@@ -46342,10 +42172,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5423,
-            "base": {
-                "physical_shield_base": 361,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "agility_base": 616,
                 "physical_attack_power_base": 999,
@@ -46378,10 +42205,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5422,
-            "base": {
-                "physical_shield_base": 361,
-                "magical_shield_base": 289
-            },
+            "base": {},
             "magic": {
                 "strength_base": 616,
                 "physical_attack_power_base": 999,
@@ -46414,10 +42238,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5421,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 361
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 616,
                 "magical_attack_power_base": 1199,
@@ -46450,10 +42271,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5420,
-            "base": {
-                "physical_shield_base": 289,
-                "magical_shield_base": 361
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 616,
                 "magical_attack_power_base": 1199,
@@ -46486,10 +42304,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -46515,10 +42330,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -46544,10 +42356,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46573,10 +42382,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46602,10 +42408,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -46631,10 +42434,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -46660,10 +42460,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46689,10 +42486,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46718,10 +42512,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -46747,10 +42538,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -46776,10 +42564,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46805,10 +42590,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -46834,10 +42616,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2582,
                 "surplus_base": 5683
@@ -46861,10 +42640,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3098,
                 "surplus_base": 5683
@@ -46888,10 +42664,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 1823,
                 "physical_critical_strike_base": 2205,
@@ -46916,10 +42689,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2126,
                 "physical_overcome_base": 3223,
@@ -46944,10 +42714,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2126,
                 "surplus_base": 3562,
@@ -46972,10 +42739,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2187,
                 "all_critical_strike_base": 2205,
@@ -47000,10 +42764,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2552,
                 "magical_overcome_base": 3223,
@@ -47028,10 +42789,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2552,
                 "surplus_base": 3562,
@@ -47056,10 +42814,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -47085,10 +42840,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -47114,10 +42866,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -47143,10 +42892,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -47172,10 +42918,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "agility_base": 609,
                 "physical_attack_power_base": 987,
@@ -47201,10 +42944,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 357,
-                "magical_shield_base": 285
-            },
+            "base": {},
             "magic": {
                 "strength_base": 609,
                 "physical_attack_power_base": 987,
@@ -47230,10 +42970,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 609,
                 "magical_attack_power_base": 1185,
@@ -47259,10 +42996,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 285,
-                "magical_shield_base": 357
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 609,
                 "magical_attack_power_base": 1185,
@@ -47288,10 +43022,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 355,
-                "magical_shield_base": 284
-            },
+            "base": {},
             "magic": {
                 "agility_base": 606,
                 "physical_attack_power_base": 983,
@@ -47317,10 +43048,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 355,
-                "magical_shield_base": 284
-            },
+            "base": {},
             "magic": {
                 "strength_base": 606,
                 "physical_attack_power_base": 983,
@@ -47346,10 +43074,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 284,
-                "magical_shield_base": 355
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 606,
                 "magical_attack_power_base": 1180,
@@ -47375,10 +43100,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 284,
-                "magical_shield_base": 355
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 606,
                 "magical_attack_power_base": 1180,
@@ -47404,10 +43126,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -47433,10 +43152,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -47462,10 +43178,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -47491,10 +43204,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -47520,10 +43230,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 564,
                 "physical_attack_power_base": 750,
@@ -47548,10 +43255,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 564,
                 "physical_attack_power_base": 750,
@@ -47576,10 +43280,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 564,
                 "magical_attack_power_base": 900,
@@ -47604,10 +43305,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 564,
                 "magical_attack_power_base": 900,
@@ -47632,10 +43330,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5431,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -47671,10 +43366,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5441,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -47706,10 +43398,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5440,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -47741,10 +43430,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5439,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -47776,10 +43462,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5438,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -47811,10 +43494,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5244,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -47850,10 +43530,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5242,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -47890,10 +43567,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5241,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -47930,10 +43604,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5240,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -47970,10 +43641,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5239,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48010,10 +43678,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5238,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48050,10 +43715,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5236,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -48090,10 +43752,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5234,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48130,10 +43789,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5232,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_and_lunar_attack_power_base": 1170,
@@ -48169,10 +43825,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5231,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48208,10 +43861,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5230,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48248,10 +43898,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5229,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48288,10 +43935,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5228,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "poison_attack_power_base": 1170,
@@ -48328,10 +43972,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5226,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "poison_attack_power_base": 1170,
@@ -48368,10 +44009,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5224,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "lunar_attack_power_base": 1170,
@@ -48407,10 +44045,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5223,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48446,10 +44081,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5222,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -48486,10 +44118,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5220,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48525,10 +44154,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5218,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "neutral_attack_power_base": 1170,
@@ -48565,10 +44191,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 5216,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "solar_attack_power_base": 1170,
@@ -48605,10 +44228,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48634,10 +44254,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48663,10 +44280,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48692,10 +44306,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48721,10 +44332,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48750,10 +44358,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48779,10 +44384,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48808,10 +44410,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48837,10 +44436,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48866,10 +44462,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -48895,10 +44488,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48924,10 +44514,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -48953,10 +44540,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -48982,10 +44566,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -49011,10 +44592,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49040,10 +44618,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49069,10 +44644,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -49098,10 +44670,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -49127,10 +44696,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49156,10 +44722,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49185,10 +44748,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -49214,10 +44774,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -49243,10 +44800,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49272,10 +44826,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49301,10 +44852,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "agility_base": 601,
                 "physical_attack_power_base": 975,
@@ -49330,10 +44878,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 352,
-                "magical_shield_base": 282
-            },
+            "base": {},
             "magic": {
                 "strength_base": 601,
                 "physical_attack_power_base": 975,
@@ -49359,10 +44904,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spunk_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49388,10 +44930,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 282,
-                "magical_shield_base": 352
-            },
+            "base": {},
             "magic": {
                 "spirit_base": 601,
                 "magical_attack_power_base": 1170,
@@ -49417,10 +44956,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 346,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2140,
                 "physical_critical_strike_base": 3132,
@@ -49446,10 +44982,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 346,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2140,
                 "surplus_base": 3297,
@@ -49474,10 +45007,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 346,
-                "magical_shield_base": 277
-            },
+            "base": {},
             "magic": {
                 "physical_attack_power_base": 2509,
                 "strain_base": 5853
@@ -49501,10 +45031,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 346
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2568,
                 "all_critical_strike_base": 3132,
@@ -49530,10 +45057,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 346
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 2568,
                 "surplus_base": 3297,
@@ -49558,10 +45082,7 @@ EQUIPMENTS = {
                 2485
             ],
             "set_id": 0,
-            "base": {
-                "physical_shield_base": 277,
-                "magical_shield_base": 346
-            },
+            "base": {},
             "magic": {
                 "magical_attack_power_base": 3011,
                 "strain_base": 5853

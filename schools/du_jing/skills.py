@@ -27,7 +27,7 @@ class 连缘蛊判定(Skill):
             buff_level += 1
         if 2296 in parser.current_dot_stacks or 25917 in parser.current_dot_stacks:
             buff_level += 1
-        if 2509 in parser.current_dot_stacks:
+        if 2509 in parser.current_dot_stacks or 12557 in parser.current_dot_stacks:
             buff_level += 1
         if 2295 in parser.current_dot_stacks:
             buff_level += 1
@@ -45,9 +45,11 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         13476: dict(bind_dot=6218),
         34643: dict(bind_dot=25917),
         6238: dict(bind_dot=2509),
+        18700: dict(bind_dot=12557),
         6237: dict(bind_dot=2296),
         6236: dict(bind_dot=2295),
         26226: dict(bind_dot=18882),
+        2226: dict(post_buffs={(2543, 1): 1}),
         2223: dict(pet_buffs={(16543, 1): 1})
     },
     连缘蛊判定: {26914: {}},
@@ -57,7 +59,8 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 }
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {
-        6218: {}, 2509: {}, 2295: {}, 18882: {}, 2296: {},
+        6218: {}, 2509: {}, 12557: {}, 2295: {}, 18882: {},
+        2296: dict(tick_extra=1),
         25917: dict(tick_extra=1),
     }
 }

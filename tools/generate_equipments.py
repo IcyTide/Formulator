@@ -3,7 +3,7 @@ from collections import defaultdict
 import pandas as pd
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP, MAX_SET_COUNT, MAX_SET_ATTR, SPECIAL_ENCHANT_MAP
+from assets.constant import ATTR_TYPE_MAP, MAX_SET_COUNT, MAX_SET_ATTR, SPECIAL_ENCHANT_MAP, TARGET_ATTR_TYPE_MAP
 from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR
 from schools import SUPPORT_SCHOOLS
 from tools import *
@@ -107,7 +107,7 @@ def get_equip_detail(row):
     for i in range(MAX_BASE_ATTR):
         if not (attr_type := getattr(row, f'Base{i + 1}Type')):
             break
-        if attr_type not in ATTR_TYPE_MAP:
+        if attr_type not in ATTR_TYPE_MAP or attr_type in TARGET_ATTR_TYPE_MAP:
             continue
         base_attrs[ATTR_TYPE_MAP[attr_type]] = int(getattr(row, f'Base{i + 1}Max'))
     for i in range(MAX_MAGIC_ATTR):

@@ -158,7 +158,8 @@ ATTR_TYPE_MAP = {
     "atAllPhysicsDamageAddPercent": "physical_damage_addition",
     "atAllMagicDamageAddPercent": "magical_damage_addition",
     "atDstNpcDamageCoefficient": "pve_addition_base",
-
+}
+TARGET_ATTR_TYPE_MAP = {
     "atPhysicsShieldBase": "physical_shield_base",
     "atPhysicsShieldPercent": "physical_shield_gain",
     "atMagicShield": "magical_shield_base",
@@ -173,7 +174,10 @@ ATTR_TYPE_MAP = {
     "atNeutralDamageCoefficient": "neutral_damage_cof",
     "atPoisonDamageCoefficient": "poison_damage_cof",
 }
-
+ATTR_TYPE_MAP = {
+    **ATTR_TYPE_MAP,
+    **TARGET_ATTR_TYPE_MAP
+}
 ATTR_TYPE_TRANSLATE = {
     "weapon_damage_base": "基础武器伤害",
     "weapon_damage_rand": "浮动武器伤害",

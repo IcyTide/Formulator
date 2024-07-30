@@ -23,6 +23,14 @@ class 虫兽(Gain):
         skills[2223].pre_buffs.pop((12497, 1))
 
 
+class 嗜蛊(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2226].pre_buffs[(22232, 1)] = 1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2226].pre_buffs.pop((22232, 1))
+
+
 class 曲致(Gain):
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[-17988].activate = True
@@ -42,8 +50,9 @@ TALENT_GAINS: Dict[int, Talent] = {
     34388: Talent("重蛊"),
     37952: Talent("不鸣"),
     34640: Talent("忘情"),
-    30088: Talent("嗜蛊"),
-    25040: Talent("曲致", [曲致(), ExtraTickRecipe(2, 25917, 0)]),
+    30088: Talent("嗜蛊", [嗜蛊()]),
+    25040: Talent("曲致", [曲致(), *[ExtraTickRecipe(2, skill_id, 0) for skill_id in (2296, 25917)]]),
+    18330: Talent("固灵"),
     25018: Talent("荒息"),
     29545: Talent("篾片蛊"),
     18325: Talent("引魂", [引魂()]),
@@ -58,7 +67,7 @@ TALENTS = [
     [34388],
     [34640, 37952],
     [30088],
-    [25040],
+    [25040, 18330],
     [25018],
     [29545],
     [18325],
