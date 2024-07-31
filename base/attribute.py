@@ -41,7 +41,7 @@ class Shield:
     @property
     def physical_shield(self):
         shield_base = int(self.level_shield_base + self.physical_shield_base)
-        return int(shield_base * (1 + self.poison_shield_gain / BINARY_SCALE))
+        return int(shield_base * (1 + self.physical_shield_gain / BINARY_SCALE))
 
     @property
     def solar_shield(self):

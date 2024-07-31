@@ -7,13 +7,28 @@ from general.skills import GENERAL_SKILLS
 
 
 class 逐一击破增伤(Skill):
-    bind_buff = 1
     final_buff = -1
 
     def record(self, actual_critical_strike, actual_damage, parser):
         parser.refresh_buff(self.final_buff, 1)
         super().record(actual_critical_strike, actual_damage, parser)
         parser.clear_buff(self.final_buff, 1)
+
+
+class 追命箭(逐一击破增伤):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        super().record(actual_critical_strike, actual_damage, parser)
+        parser.clear_buff(-28227, 1)
+        if not parser.current_buff_stacks.get((3276, 1)) and parser.current_buff_stacks.get((-28226, 1)):
+            parser.clear_buff(-28226, 1)
+            parser.refresh_buff(-28227, 1)
+        if not parser.current_buff_stacks.get((3276, 1)) and parser.current_buff_stacks.get((-28225, 1)):
+            parser.clear_buff(-28225, 1)
+            parser.refresh_buff(-28226, 1)
+        if parser.current_buff_stacks.get((3276, 1)):
+            parser.clear_buff(-28227, 1)
+            parser.clear_buff(-28226, 1)
+            parser.refresh_buff(-28225, 1)
 
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
@@ -23,9 +38,10 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         3478: dict(bind_dot=19625)
     },
     逐一击破增伤: {
-        3095: {}, 3187: {}, 6920: {}, 33870: {}, 37504: {},
+        3095: {}, 3187: {}, 33870: {}, 37504: {},
         3125: dict(bind_dot=2237)
-    }
+    },
+    追命箭: {6920: {}}
 }
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {

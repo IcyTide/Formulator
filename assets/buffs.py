@@ -5033,6 +5033,12 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "命陨"
     },
+    3276: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "buff_name": "追命无声"
+    },
     17103: {
         "attributes": {},
         "max_level": 1,
