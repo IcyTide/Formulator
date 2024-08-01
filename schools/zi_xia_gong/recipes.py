@@ -13,9 +13,6 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "2%会心": CriticalStrikeRecipe(200, 301, 301),
     },
     "四象轮回": {
-        "5%伤害": DamageAdditionRecipe(51, 367, 367),
-        "4%伤害": DamageAdditionRecipe(41, 367, 367),
-        "3%伤害": DamageAdditionRecipe(31, 367, 367),
         "4%会心": CriticalStrikeRecipe(400, 367, 367),
         "3%会心": CriticalStrikeRecipe(300, 367, 367),
         "2%会心": CriticalStrikeRecipe(200, 367, 367),
@@ -29,6 +26,6 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
 
 RECIPES: Dict[str, List[str]] = {
     "两仪化形": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "四象轮回": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
+    "四象轮回": ["4%会心", "3%会心", "2%会心"],
     "万世不竭": ["5%伤害", "4%伤害", "3%伤害"]
 }

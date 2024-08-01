@@ -37,6 +37,14 @@ class 若水(Gain):
         skills[2681].post_buffs[(2757, 1)] = 1
 
 
+class 破势(Gain):
+    def add_buffs(self, buffs: Dict[int, Buff]):
+        buffs[17918].activate = True
+
+    def sub_buffs(self, buffs: Dict[int, Buff]):
+        buffs[17918].activate = False
+
+
 TALENT_GAINS: Dict[int, Talent] = {
     5840: Talent("雾锁", [DamageAdditionRecipe(102, 367, 367)]),
     5827: Talent("白虹", [MagicalCriticalRecipe((1000, 102), 367, 367)]),
@@ -50,7 +58,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     32411: Talent("正气"),
     14834: Talent("抱阳"),
     18679: Talent("浮生"),
-    24945: Talent("破势"),
+    24945: Talent("破势", [破势()]),
     18669: Talent("重光", [
         DamageAdditionRecipe(value, skill_id, 0)
         for skill_id, value in ((18650, 154), (18651, 307), (18652, 461), (18653, 614))

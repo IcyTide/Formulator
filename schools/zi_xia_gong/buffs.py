@@ -11,7 +11,7 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         **{buff_id: {} for buff_id in range(12779, 12783 + 1)},
         9966: dict(buff_name="同尘",
                    gains=[[DamageAdditionRecipe(value, 368, 368) for value in (359, 717, 1076, 1434)]]),
-        17918: dict(gains=[PveAdditionRecipe(1331, 18640, 18640)]),
+        17918: dict(activate=False, gains=[PveAdditionRecipe(1331, 18640, 18640)]),
         -12550: dict(buff_name="跬步", activate=False, interval=4,
                      gains=[[DamageAdditionRecipe(value, 367, 367) for value in (41, 82, 123, 164, 205)]]),
         -12551: dict(buff_name="跬步", activate=False, interval=4,

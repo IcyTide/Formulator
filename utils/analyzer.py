@@ -55,7 +55,7 @@ def filter_status(status, school: School):
         buff.buff_level, buff.buff_stack = buff_level, buff_stack
         buffs.append(copy(buff))
 
-    return sorted(buffs, key=lambda x: x.buff_id)
+    return sorted(buffs, key=lambda x: abs(x.buff_id))
 
 
 def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, damage: Union[Dot, Skill]):
