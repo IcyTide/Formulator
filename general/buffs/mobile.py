@@ -5,7 +5,7 @@ from base.buff import Buff, TargetBuff
 
 GENERAL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        70161: {}, 70167: {}, 70162: {}, 70163: {}
+        70161: {}, 70167: {}, 70162: {}, 70163: {}, 70345: {},
     },
     TargetBuff: {
         70188: {},

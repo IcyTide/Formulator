@@ -285,6 +285,15 @@ DOTS = {
         "damage_base": 38,
         "neutral_damage_call": 1
     },
+    70041: {
+        "buff_name": "兰摧(DOT)",
+        "interval": 48,
+        "tick": 7,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 12,
+        "neutral_damage_call": 1
+    },
     3442: {
         "buff_name": "流血(DOT)",
         "interval": 32,

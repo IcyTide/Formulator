@@ -155,6 +155,12 @@ FORMATION_GAINS = [
         {},
         BUFFS[27238].attributes,
         {}
+    ]),
+    create_formation_gain(GAINS[71338], [
+        GAINS[71338].attributes,
+        {},
+        {},
+        {}
     ])
 ]
 FORMATION_GAINS = {k: v for k, v in FORMATION_GAINS}

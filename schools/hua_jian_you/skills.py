@@ -87,6 +87,47 @@ SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
         24158: {}
     }
 }
+
+
+class 快雪时晴秘章(Skill):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if 70041 in parser.current_dot_ticks:
+            parser.refresh_target_buff(70188, 35)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 35, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+class 忘机加成(Skill):
+    talent_activate = False
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if self.talent_activate:
+            parser.refresh_target_buff(70188, 50)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 50, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
+    Skill: {
+        101583: {}, 101939: {}, 100047: {}, 100041: {},
+        101593: dict(bind_dot=70041)
+    },
+    快雪时晴秘章: {
+        100458: {}
+    },
+    忘机加成: {
+        100043: dict(consume_dot=70041)
+    }
+}
+MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
+    Dot: {
+        70041: {}
+    }
+}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
@@ -95,8 +136,22 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+for skill_class, skills in MOBILE_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        set_skill(skill)
+        SKILLS[skill_id] = skill
 DOTS = {}
 for dot_class, dots in SCHOOL_DOTS.items():
+    for dot_id, attrs in dots.items():
+        dot = dot_class(dot_id)
+        for attr, value in attrs.items():
+            setattr(dot, attr, value)
+        set_dot(dot)
+        DOTS[dot_id] = dot
+for dot_class, dots in MOBILE_DOTS.items():
     for dot_id, attrs in dots.items():
         dot = dot_class(dot_id)
         for attr, value in attrs.items():

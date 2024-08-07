@@ -169,31 +169,37 @@ class TeamGainsWidget(QWidget):
         return self.team_gains.items()
 
     def set_default(self):
-        self.team_gains["袖气"].radio_button.click()
+        if not self.team_gains["袖气"].radio_button.isChecked():
+            self.team_gains["袖气"].radio_button.click()
         self.team_gains["左旋右转"]["stack"].spin_box.setValue(120)
         self.team_gains["左旋右转"]["rate"].spin_box.setValue(100)
 
-        self.team_gains["撼如雷"].radio_button.click()
+        if not self.team_gains["撼如雷"].radio_button.isChecked():
+            self.team_gains["撼如雷"].radio_button.click()
         self.team_gains["破风"]["variety"].combo_box.setCurrentText("劲风")
         self.team_gains["破甲"]["rate"].spin_box.setValue(33)
         self.team_gains["号令三军"]["stack"].spin_box.setValue(48)
         self.team_gains["号令三军"]["rate"].spin_box.setValue(20)
 
-        self.team_gains["立地成佛"].radio_button.click()
+        if not self.team_gains["立地成佛"].radio_button.isChecked():
+            self.team_gains["立地成佛"].radio_button.click()
         self.team_gains["弘法"]["stack"].spin_box.setValue(36)
         self.team_gains["弘法"]["rate"].spin_box.setValue(50)
 
-        self.team_gains["秋肃"].radio_button.click()
+        if not self.team_gains["秋肃"].radio_button.isChecked():
+            self.team_gains["秋肃"].radio_button.click()
         self.team_gains["皎素"]["rate"].spin_box.setValue(14)
 
         self.team_gains["仙王蛊鼎"]["rate"].spin_box.setValue(21)
 
-        self.team_gains["戒火"].radio_button.click()
+        if not self.team_gains["戒火"].radio_button.isChecked():
+            self.team_gains["戒火"].radio_button.click()
         self.team_gains["朝圣"]["variety"].combo_box.setCurrentText("圣浴明心")
         self.team_gains["朝圣"]["stack"].spin_box.setValue(24)
         self.team_gains["朝圣"]["rate"].spin_box.setValue(7)
 
-        self.team_gains["虚弱"].radio_button.click()
+        if not self.team_gains["虚弱"].radio_button.isChecked():
+            self.team_gains["虚弱"].radio_button.click()
         self.team_gains["振奋"]["stack"].spin_box.setValue(87)
         self.team_gains["振奋"]["rate"].spin_box.setValue(100)
         self.team_gains["寒啸千军"]["rate"].spin_box.setValue(50)
@@ -202,6 +208,18 @@ class TeamGainsWidget(QWidget):
         self.team_gains["庄周梦"]["rate"].spin_box.setValue(75)
 
         self.team_gains["配伍"]["rate"].spin_box.setValue(100)
+
+    def clear_bonuses(self):
+        for bonus in self.team_gains.values():
+            if isinstance(bonus, RadioWithLabel):
+                if bonus.radio_button.isChecked():
+                    bonus.radio_button.click()
+            else:
+                for sub in bonus.values():
+                    if isinstance(sub, ComboWithLabel):
+                        sub.combo_box.setCurrentText("")
+                    elif isinstance(sub, SpinWithLabel):
+                        sub.spin_box.setValue(0)
 
 
 class BonusesWidget(QWidget):
@@ -213,6 +231,8 @@ class BonusesWidget(QWidget):
         layout.addLayout(top_layout)
         self.activation = RadioWithLabel("启用增益")
         top_layout.addWidget(self.activation)
+        self.select_bonus = ComboWithLabel("配置增益", items=["", "开荒"])
+        top_layout.addWidget(self.select_bonus)
         self.real_formulation = RadioWithLabel("开启真实增益模拟(仅包括存在覆盖率的角色属性,不包含目标和常驻属性)")
         top_layout.addWidget(self.real_formulation)
         self.tab = QTabWidget()

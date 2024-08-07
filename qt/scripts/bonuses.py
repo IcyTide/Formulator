@@ -43,6 +43,15 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
 
     bonuses_widget.real_formulation.radio_button.clicked.connect(real_bonus_gain)
 
+    def select_bonus(_):
+        widget = bonuses_widget.select_bonus
+        if widget.combo_box.currentText():
+            bonuses_widget.team_gains.set_default()
+        else:
+            bonuses_widget.team_gains.clear_bonuses()
+
+    bonuses_widget.select_bonus.combo_box.currentTextChanged.connect(select_bonus)
+
     def formation_update(_):
         widget = bonuses_widget.formation
         formation = widget.formation.combo_box.currentText()
@@ -106,7 +115,5 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
                     raise TypeError
         else:
             raise TypeError
-
-    bonuses_widget.team_gains.set_default()
 
     return bonuses
