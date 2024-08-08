@@ -99,28 +99,14 @@ class 快雪时晴秘章(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-class 忘机加成(Skill):
-    talent_activate = False
-
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if self.talent_activate:
-            parser.refresh_target_buff(70188, 50)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, 50, -1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-
-
 MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        101583: {}, 101939: {}, 100047: {}, 100041: {},
-        101593: dict(bind_dot=70041)
+        101939: {}, 100047: {}, 100041: {},
+        101593: dict(bind_dot=70041),
+        100043: dict(consume_dot=70041)
     },
     快雪时晴秘章: {
-        100458: {}
-    },
-    忘机加成: {
-        100043: dict(consume_dot=70041)
+        100458: {}, 101583: {}
     }
 }
 MOBILE_DOTS: Dict[type, Dict[int, dict]] = {

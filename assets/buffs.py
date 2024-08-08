@@ -5148,6 +5148,14 @@ BUFFS = {
         "max_stack": 1,
         "buff_name": "流玉"
     },
+    70704: {
+        "attributes": {
+            "all_damage_addition": 52
+        },
+        "max_level": 1,
+        "max_stack": 3,
+        "buff_name": "见月"
+    },
     1955: {
         "attributes": {
             "physical_critical_strike_rate": [

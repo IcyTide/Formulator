@@ -1,13 +1,11 @@
 from typing import Dict
 
-from base.attribute import Attribute
 from base.buff import Buff
-from base.dot import Dot
 from base.gain import Gain
 from base.recipe import MagicalCriticalRecipe
 from base.skill import Skill
 from base.talent import Talent
-from schools.hua_jian_you.skills import 忘机加成
+from schools.hua_jian_you.skills import 快雪时晴秘章
 
 
 class 清流(Gain):
@@ -18,22 +16,36 @@ class 清流(Gain):
         buffs[-12588].activate = False
 
 
-class 忘机(Gain):
+class 陶然(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[100041].pre_buffs[(70161, 30)] = 1
-        skills[100041].post_buffs[(70161, 30)] = -1
-
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        忘机加成.talent_activate = True
-        super().add(attribute, skills, dots, buffs)
+        for skill in skills.values():
+            if isinstance(skill, 快雪时晴秘章):
+                skill.pre_buffs[(70161, 10)] = 1
+                skill.post_buffs[(70161, 10)] = -1
+                skill.pre_buffs[(70167, 10)] = 1
+                skill.post_buffs[(70167, 10)] = -1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[100041].pre_buffs.pop((70161, 30))
-        skills[100041].post_buffs.pop((70161, 30))
+        for skill in skills.values():
+            if isinstance(skill, 快雪时晴秘章):
+                skill.pre_buffs.pop((70161, 10))
+                skill.post_buffs.pop((70161, 10))
+                skill.pre_buffs.pop((70167, 10))
+                skill.post_buffs.pop((70167, 10))
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        忘机加成.talent_activate = False
-        super().sub(attribute, skills, dots, buffs)
+
+class 忘机(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[100043].pre_target_buffs[(70188, 50)] = 1
+        skills[100043].post_target_buffs[(70188, 50)] = -1
+        skills[101593].pre_buffs[(70161, 30)] = 1
+        skills[101593].post_buffs[(70161, 30)] = -1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[100043].pre_target_buffs.pop((70188, 50))
+        skills[100043].post_target_buffs.pop((70188, 50))
+        skills[101593].pre_buffs.pop((70161, 30))
+        skills[101593].post_buffs.pop((70161, 30))
 
 
 TALENT_GAINS: Dict[int, Talent] = {
@@ -54,7 +66,7 @@ TALENT_GAINS: Dict[int, Talent] = {
     ]),
     14643: Talent("涓流"),
 
-    100488: Talent("陶然"),
+    100488: Talent("陶然", [陶然()]),
     100489: Talent("忘机", [忘机()]),
     100491: Talent("渡泉"),
     100051: Talent("乱洒青荷")

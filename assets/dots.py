@@ -412,6 +412,15 @@ DOTS = {
         ],
         "lunar_damage_call": 1
     },
+    70030: {
+        "buff_name": "急曲·悟(DOT)",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 3,
+        "platform": 1,
+        "damage_base": 15,
+        "lunar_damage_call": 1
+    },
     6218: {
         "buff_name": "蝎心(DOT)",
         "interval": 32,

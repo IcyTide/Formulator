@@ -7,4 +7,5 @@ from schools.hua_jian_you.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, 
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(14636, 1)] = 1
+    if not self.players[player_id].platform:
+        self.buff_stacks[player_id][(14636, 1)] = 1

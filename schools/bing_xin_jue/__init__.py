@@ -7,5 +7,6 @@ from schools.bing_xin_jue.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, 
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(409, 21)] = 10
-    self.buff_stacks[player_id][(17969, 1)] = 1
+    if not self.players[player_id].platform:
+        self.buff_stacks[player_id][(409, 21)] = 10
+        self.buff_stacks[player_id][(17969, 1)] = 1

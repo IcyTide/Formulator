@@ -9259,6 +9259,132 @@ SKILLS = {
         "skill_name": "玳弦急曲",
         "channel_interval": 16.0
     },
+    100388: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "寒江·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 135
+    },
+    101635: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "合璧知意·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 440,
+        "surplus_cof": 1407,
+        "lunar_surplus_call": 1
+    },
+    101655: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "合璧知意·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 192
+    },
+    101649: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "合璧知意·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 87,
+        "surplus_cof": 276,
+        "lunar_surplus_call": 1
+    },
+    101610: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "剑破虚空·悟",
+        "lunar_damage_base": 40,
+        "lunar_damage_call": 1,
+        "skill_cof": 116
+    },
+    101612: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "剑心通明·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 580
+    },
+    101609: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "剑破虚空·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "skill_cof": 805,
+        "surplus_cof": 2574,
+        "lunar_surplus_call": 1
+    },
+    100444: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "剑气长江·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 661
+    },
+    100564: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 1,
+        "skill_name": "玳弦急曲·悟",
+        "lunar_damage_base": 1,
+        "lunar_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 208,
+        "surplus_cof": 664,
+        "lunar_surplus_call": 1
+    },
+    100402: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "dot_cof": 231
+    },
+    101553: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_cof": 192
+    },
+    101607: {
+        "kind_type": "LunarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_cof": 192
+    },
     18381: {
         "kind_type": "Physics",
         "platform": 0,
