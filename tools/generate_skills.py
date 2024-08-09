@@ -114,7 +114,8 @@ LUA.execute(INCLUDE_LUA)
 with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
     LUA.execute(INCLUDE_PATTERN.sub('', f.read()))
 
-SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False, encoding="gbk")
+SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False,
+                        on_bad_lines="skip", encoding="gbk")
 SKILL_TAB['Platform'] = 0
 MOBILE_SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/skills.tab"), sep="\t", low_memory=False,
                                encoding="gbk")

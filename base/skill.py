@@ -19,7 +19,7 @@ class BaseSkill:
     def skill_name(self):
         if not self._skill_name:
             return ""
-        if self.skill_level > len(self._skill_name):
+        elif self.skill_level > len(self._skill_name):
             return self._skill_name[-1]
         else:
             return self._skill_name[self.skill_level - 1]
@@ -63,7 +63,7 @@ class BaseDamage(BaseSkill):
     def prepare_frame(self):
         if not self._prepare_frame:
             return 0
-        if self.skill_level > len(self._prepare_frame):
+        elif self.skill_level > len(self._prepare_frame):
             return self._prepare_frame[-1] + self.prepare_frame_extra
         else:
             return self._prepare_frame[self.skill_level - 1] + self.prepare_frame_extra
@@ -157,7 +157,7 @@ class BaseDamage(BaseSkill):
     def pve_addition(self):
         if not self._pve_addition:
             return self.pve_addition_extra
-        if self.skill_level > len(self._pve_addition):
+        elif self.skill_level > len(self._pve_addition):
             return self._pve_addition[-1] + self.pve_addition_extra
         else:
             return self._pve_addition[self.skill_level - 1] + self.pve_addition_extra
@@ -257,7 +257,7 @@ class PhysicalDamage(BaseDamage):
     def physical_damage_call(self):
         if not self._physical_damage_call:
             return 0
-        if self.skill_level > len(self._physical_damage_call):
+        elif self.skill_level > len(self._physical_damage_call):
             return self._physical_damage_call[-1]
         else:
             return self._physical_damage_call[self.skill_level - 1]
@@ -273,7 +273,7 @@ class PhysicalDamage(BaseDamage):
     def physical_surplus_call(self):
         if not self._physical_surplus_call:
             return 0
-        if self.skill_level > len(self._physical_surplus_call):
+        elif self.skill_level > len(self._physical_surplus_call):
             return self._physical_surplus_call[-1]
         else:
             return self._physical_surplus_call[self.skill_level - 1]
@@ -289,7 +289,7 @@ class PhysicalDamage(BaseDamage):
     def physical_damage_base(self):
         if not self._physical_damage_base:
             return 0
-        if self.skill_level > len(self._physical_damage_base):
+        elif self.skill_level > len(self._physical_damage_base):
             return self._physical_damage_base[-1]
         else:
             return self._physical_damage_base[self.skill_level - 1]
@@ -305,7 +305,7 @@ class PhysicalDamage(BaseDamage):
     def physical_damage_rand(self):
         if not self._physical_damage_rand:
             return 0
-        if self.skill_level > len(self._physical_damage_rand):
+        elif self.skill_level > len(self._physical_damage_rand):
             return self._physical_damage_rand[-1]
         else:
             return self._physical_damage_rand[self.skill_level - 1]
@@ -440,7 +440,7 @@ class SolarDamage(BaseDamage):
     def solar_damage_call(self):
         if not self._solar_damage_call:
             return 0
-        if self.skill_level > len(self._solar_damage_call):
+        elif self.skill_level > len(self._solar_damage_call):
             return self._solar_damage_call[-1]
         else:
             return self._solar_damage_call[self.skill_level - 1]
@@ -456,7 +456,7 @@ class SolarDamage(BaseDamage):
     def solar_surplus_call(self):
         if not self._solar_surplus_call:
             return 0
-        if self.skill_level > len(self._solar_surplus_call):
+        elif self.skill_level > len(self._solar_surplus_call):
             return self._solar_surplus_call[-1]
         else:
             return self._solar_surplus_call[self.skill_level - 1]
@@ -472,7 +472,7 @@ class SolarDamage(BaseDamage):
     def solar_damage_base(self):
         if not self._solar_damage_base:
             return 0
-        if self.skill_level > len(self._solar_damage_base):
+        elif self.skill_level > len(self._solar_damage_base):
             return self._solar_damage_base[-1]
         else:
             return self._solar_damage_base[self.skill_level - 1]
@@ -488,7 +488,7 @@ class SolarDamage(BaseDamage):
     def solar_damage_rand(self):
         if not self._solar_damage_rand:
             return 0
-        if self.skill_level > len(self._solar_damage_rand):
+        elif self.skill_level > len(self._solar_damage_rand):
             return self._solar_damage_rand[-1]
         else:
             return self._solar_damage_rand[self.skill_level - 1]
@@ -552,7 +552,7 @@ class SolarDamage(BaseDamage):
     def solar_shield_gain(self):
         if not self._solar_shield_gain:
             return self.solar_shield_gain_extra
-        if self.skill_level > len(self._solar_shield_gain):
+        elif self.skill_level > len(self._solar_shield_gain):
             return self._solar_shield_gain[-1] + self.solar_shield_gain_extra
         else:
             return self._solar_shield_gain[self.skill_level - 1] + self.solar_shield_gain_extra
@@ -622,7 +622,7 @@ class LunarDamage(BaseDamage):
     def lunar_damage_call(self):
         if not self._lunar_damage_call:
             return 0
-        if self.skill_level > len(self._lunar_damage_call):
+        elif self.skill_level > len(self._lunar_damage_call):
             return self._lunar_damage_call[-1]
         else:
             return self._lunar_damage_call[self.skill_level - 1]
@@ -638,7 +638,7 @@ class LunarDamage(BaseDamage):
     def lunar_surplus_call(self):
         if not self._lunar_surplus_call:
             return 0
-        if self.skill_level > len(self._lunar_surplus_call):
+        elif self.skill_level > len(self._lunar_surplus_call):
             return self._lunar_surplus_call[-1]
         else:
             return self._lunar_surplus_call[self.skill_level - 1]
@@ -654,7 +654,7 @@ class LunarDamage(BaseDamage):
     def lunar_damage_base(self):
         if not self._lunar_damage_base:
             return 0
-        if self.skill_level > len(self._lunar_damage_base):
+        elif self.skill_level > len(self._lunar_damage_base):
             return self._lunar_damage_base[-1]
         else:
             return self._lunar_damage_base[self.skill_level - 1]
@@ -670,7 +670,7 @@ class LunarDamage(BaseDamage):
     def lunar_damage_rand(self):
         if not self._lunar_damage_rand:
             return 0
-        if self.skill_level > len(self._lunar_damage_rand):
+        elif self.skill_level > len(self._lunar_damage_rand):
             return self._lunar_damage_rand[-1]
         else:
             return self._lunar_damage_rand[self.skill_level - 1]
@@ -734,7 +734,7 @@ class LunarDamage(BaseDamage):
     def lunar_shield_gain(self):
         if not self._lunar_shield_gain:
             return self.lunar_shield_gain_extra
-        if self.skill_level > len(self._lunar_shield_gain):
+        elif self.skill_level > len(self._lunar_shield_gain):
             return self._lunar_shield_gain[-1] + self.lunar_shield_gain_extra
         else:
             return self._lunar_shield_gain[self.skill_level - 1] + self.lunar_shield_gain_extra
@@ -804,7 +804,7 @@ class NeutralDamage(BaseDamage):
     def neutral_damage_call(self):
         if not self._neutral_damage_call:
             return 0
-        if self.skill_level > len(self._neutral_damage_call):
+        elif self.skill_level > len(self._neutral_damage_call):
             return self._neutral_damage_call[-1]
         else:
             return self._neutral_damage_call[self.skill_level - 1]
@@ -820,7 +820,7 @@ class NeutralDamage(BaseDamage):
     def neutral_surplus_call(self):
         if not self._neutral_surplus_call:
             return 0
-        if self.skill_level > len(self._neutral_surplus_call):
+        elif self.skill_level > len(self._neutral_surplus_call):
             return self._neutral_surplus_call[-1]
         else:
             return self._neutral_surplus_call[self.skill_level - 1]
@@ -836,7 +836,7 @@ class NeutralDamage(BaseDamage):
     def neutral_damage_base(self):
         if not self._neutral_damage_base:
             return 0
-        if self.skill_level > len(self._neutral_damage_base):
+        elif self.skill_level > len(self._neutral_damage_base):
             return self._neutral_damage_base[-1]
         else:
             return self._neutral_damage_base[self.skill_level - 1]
@@ -852,7 +852,7 @@ class NeutralDamage(BaseDamage):
     def neutral_damage_rand(self):
         if not self._neutral_damage_rand:
             return 0
-        if self.skill_level > len(self._neutral_damage_rand):
+        elif self.skill_level > len(self._neutral_damage_rand):
             return self._neutral_damage_rand[-1]
         else:
             return self._neutral_damage_rand[self.skill_level - 1]
@@ -916,7 +916,7 @@ class NeutralDamage(BaseDamage):
     def neutral_shield_gain(self):
         if not self._neutral_shield_gain:
             return self.neutral_shield_gain_extra
-        if self.skill_level > len(self._neutral_shield_gain):
+        elif self.skill_level > len(self._neutral_shield_gain):
             return self._neutral_shield_gain[-1] + self.neutral_shield_gain_extra
         else:
             return self._neutral_shield_gain[self.skill_level - 1] + self.neutral_shield_gain_extra
@@ -986,7 +986,7 @@ class PoisonDamage(BaseDamage):
     def poison_damage_call(self):
         if not self._poison_damage_call:
             return 0
-        if self.skill_level > len(self._poison_damage_call):
+        elif self.skill_level > len(self._poison_damage_call):
             return self._poison_damage_call[-1]
         else:
             return self._poison_damage_call[self.skill_level - 1]
@@ -1002,7 +1002,7 @@ class PoisonDamage(BaseDamage):
     def poison_surplus_call(self):
         if not self._poison_surplus_call:
             return 0
-        if self.skill_level > len(self._poison_surplus_call):
+        elif self.skill_level > len(self._poison_surplus_call):
             return self._poison_surplus_call[-1]
         else:
             return self._poison_surplus_call[self.skill_level - 1]
@@ -1018,7 +1018,7 @@ class PoisonDamage(BaseDamage):
     def poison_damage_base(self):
         if not self._poison_damage_base:
             return 0
-        if self.skill_level > len(self._poison_damage_base):
+        elif self.skill_level > len(self._poison_damage_base):
             return self._poison_damage_base[-1]
         else:
             return self._poison_damage_base[self.skill_level - 1]
@@ -1034,7 +1034,7 @@ class PoisonDamage(BaseDamage):
     def poison_damage_rand(self):
         if not self._poison_damage_rand:
             return 0
-        if self.skill_level > len(self._poison_damage_rand):
+        elif self.skill_level > len(self._poison_damage_rand):
             return self._poison_damage_rand[-1]
         else:
             return self._poison_damage_rand[self.skill_level - 1]
@@ -1098,7 +1098,7 @@ class PoisonDamage(BaseDamage):
     def poison_shield_gain(self):
         if not self._poison_shield_gain:
             return self.poison_shield_gain_extra
-        if self.skill_level > len(self._poison_shield_gain):
+        elif self.skill_level > len(self._poison_shield_gain):
             return self._poison_shield_gain[-1] + self.poison_shield_gain_extra
         else:
             return self._poison_shield_gain[self.skill_level - 1] + self.poison_shield_gain_extra
@@ -1182,7 +1182,7 @@ class AdaptiveDamage(BaseDamage):
     def adaptive_damage_call(self):
         if not self._adaptive_damage_call:
             return 0
-        if self.skill_level > len(self._adaptive_damage_call):
+        elif self.skill_level > len(self._adaptive_damage_call):
             return self._adaptive_damage_call[-1]
         else:
             return self._adaptive_damage_call[self.skill_level - 1]
@@ -1198,7 +1198,7 @@ class AdaptiveDamage(BaseDamage):
     def adaptive_damage_base(self):
         if not self._adaptive_damage_base:
             return 0
-        if self.skill_level > len(self._adaptive_damage_base):
+        elif self.skill_level > len(self._adaptive_damage_base):
             return self._adaptive_damage_base[-1]
         else:
             return self._adaptive_damage_base[self.skill_level - 1]
@@ -1214,7 +1214,7 @@ class AdaptiveDamage(BaseDamage):
     def adaptive_damage_rand(self):
         if not self._adaptive_damage_rand:
             return 0
-        if self.skill_level > len(self._adaptive_damage_rand):
+        elif self.skill_level > len(self._adaptive_damage_rand):
             return self._adaptive_damage_rand[-1]
         else:
             return self._adaptive_damage_rand[self.skill_level - 1]

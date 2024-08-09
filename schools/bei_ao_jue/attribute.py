@@ -9,7 +9,12 @@ class BeiAoJue(PhysicalAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.physical_attack_power_base += 3725
-        self.pve_addition_base += 174
+        self.platform = platform
+        if not platform:
+            self.pve_addition_base += 174
+        else:
+            self.pve_addition_base += 440
+            self.all_shield_ignore += 614
 
     @property
     def extra_physical_attack_power(self):

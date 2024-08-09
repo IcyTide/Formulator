@@ -28,7 +28,7 @@ class 留客雨秘章(Skill):
     damage_addition_extra = 256
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if 70583 in parser.current_dot_ticks:
+        if parser.current_dot_ticks.get(70583):
             parser.refresh_target_buff(70188, 25)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 25, -1)

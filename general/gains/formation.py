@@ -31,81 +31,81 @@ def create_formation_gain(buff: Buff, attributes: List[dict]):
 
 FORMATION_GAINS = [
     create_formation_gain(GAINS[918], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[919].attributes.items()},
+        GAINS[919].get_attributes(level=6),
         {},
-        {k: v * BUFFS[920].max_stack for k, v in BUFFS[920].attributes.items()},
+        BUFFS[920].get_attributes(stack=BUFFS[920].max_stack),
         BUFFS[940].attributes
     ]),
     create_formation_gain(GAINS[929], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[919].attributes.items()},
-        {k: v * BUFFS[935].max_stack for k, v in BUFFS[935].attributes.items()},
+        GAINS[919].get_attributes(level=6),
+        BUFFS[935].get_attributes(stack=BUFFS[935].max_stack),
         BUFFS[936].attributes,
         BUFFS[940].attributes
     ]),
     create_formation_gain(GAINS[933], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[934].attributes.items()},
+        GAINS[934].get_attributes(level=6),
         BUFFS[937].attributes,
         {},
         {}
     ]),
     create_formation_gain(GAINS[931], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[938].attributes.items()},
+        GAINS[938].get_attributes(level=6),
         {},
-        {k: v * BUFFS[943].max_stack for k, v in BUFFS[943].attributes.items()},
+        BUFFS[943].get_attributes(stack=BUFFS[943].max_stack),
         BUFFS[949].attributes
     ]),
     create_formation_gain(GAINS[946], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[947].attributes.items()},
+        GAINS[947].get_attributes(level=6),
         {},
-        {k: v * BUFFS[950].max_stack for k, v in BUFFS[950].attributes.items()},
+        BUFFS[950].get_attributes(stack=BUFFS[950].max_stack),
         BUFFS[953].attributes
     ]),
     create_formation_gain(GAINS[951], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[952].attributes.items()},
+        GAINS[952].get_attributes(level=6),
         BUFFS[954].attributes,
         BUFFS[955].attributes,
         BUFFS[956].attributes
     ]),
     create_formation_gain(GAINS[1923], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[1924].attributes.items()},
+        GAINS[1924].get_attributes(level=6),
         {},
         {},
         BUFFS[1926].attributes
     ]),
     create_formation_gain(GAINS[2511], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[2512].attributes.items()},
+        GAINS[2512].get_attributes(level=6),
         BUFFS[2513].attributes,
         BUFFS[2514].attributes,
         BUFFS[2510].attributes
     ]),
     create_formation_gain(GAINS[3302], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[3306].attributes.items()},
+        GAINS[3306].get_attributes(level=6),
         {},
         BUFFS[3308].attributes,
         BUFFS[3309].attributes
     ]),
     create_formation_gain(GAINS[3303], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[3307].attributes.items()},
+        GAINS[3307].get_attributes(level=6),
         {},
         BUFFS[3310].attributes,
         {}
     ]),
     create_formation_gain(GAINS[4577], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[4579].attributes.items()},
+        GAINS[4579].get_attributes(level=6),
         BUFFS[4584].attributes,
         BUFFS[4586].attributes,
         {}
     ]),
     create_formation_gain(GAINS[6340], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[6342].attributes.items()},
+        GAINS[6342].get_attributes(level=6),
         BUFFS[6343].attributes,
-        {k: v * BUFFS[6345].max_stack for k, v in BUFFS[6345].attributes.items()},
+        BUFFS[6345].get_attributes(stack=BUFFS[6345].max_stack),
         BUFFS[6362].attributes
     ]),
     create_formation_gain(GAINS[8401], [
         GAINS[8402].attributes,
         BUFFS[8484].attributes,
-        {k: v * BUFFS[8403].max_stack for k, v in BUFFS[8403].attributes.items()},
+        BUFFS[8403].get_attributes(stack=BUFFS[8403].max_stack),
         BUFFS[8404].attributes
     ]),
     create_formation_gain(GAINS[9484], [
@@ -115,43 +115,43 @@ FORMATION_GAINS = [
         BUFFS[9489].attributes
     ]),
     create_formation_gain(GAINS[10953], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[10954].attributes.items()},
+        GAINS[10954].get_attributes(level=6),
         {},
         BUFFS[11158].attributes,
         BUFFS[11159].attributes
     ]),
     create_formation_gain(GAINS[14072], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[14074].attributes.items()},
+        GAINS[14074].get_attributes(level=6),
         BUFFS[14092].attributes,
         {},
         BUFFS[14095].attributes
     ]),
     create_formation_gain(GAINS[15955], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[15957].attributes.items()},
+        GAINS[15957].get_attributes(level=6),
         BUFFS[15960].attributes,
         BUFFS[15961].attributes,
         BUFFS[15963].attributes
     ]),
     create_formation_gain(GAINS[18334], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[18335].attributes.items()},
-        {k: sum(v) / len(v) for k, v in BUFFS[18336].attributes.items()},
+        GAINS[18335].get_attributes(level=6),
+        BUFFS[18336].get_attributes(weights=[1] * BUFFS[18336].max_level),
         {k: v / 2 for k, v in BUFFS[18337].attributes.items()},
         {}
     ]),
     create_formation_gain(GAINS[21034], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[21035].attributes.items()},
+        GAINS[21035].get_attributes(level=6),
         {},
         {},
         {}
     ]),
     create_formation_gain(GAINS[24577], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[24578].attributes.items()},
+        GAINS[24578].get_attributes(level=6),
         BUFFS[24581].attributes,
         {},
         {}
     ]),
     create_formation_gain(GAINS[27235], [
-        {k: v[6 - 1] if isinstance(v, list) else v for k, v in GAINS[27236].attributes.items()},
+        GAINS[27236].get_attributes(level=6),
         {},
         BUFFS[27238].attributes,
         {}

@@ -7380,17 +7380,6 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 16.0
     },
-    101583: {
-        "kind_type": "NeutralMagic",
-        "platform": 1,
-        "recipe_type": 0,
-        "recipe_mask": 4,
-        "skill_name": "南风吐月·悟",
-        "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "weapon_damage_cof": 0.0,
-        "skill_cof": 192
-    },
     101939: {
         "kind_type": "NeutralMagic",
         "platform": 1,
@@ -7434,6 +7423,17 @@ SKILLS = {
         "recipe_mask": 4,
         "dot_cof": 231
     },
+    100043: {
+        "kind_type": "NeutralMagic",
+        "platform": 1,
+        "recipe_type": 100043,
+        "recipe_mask": 68,
+        "skill_name": "玉石俱焚·悟",
+        "neutral_damage_base": 1,
+        "neutral_damage_call": 1,
+        "weapon_damage_cof": 0.0,
+        "skill_cof": 813
+    },
     100458: {
         "kind_type": "NeutralMagic",
         "platform": 1,
@@ -7447,16 +7447,16 @@ SKILLS = {
         "skill_cof": 154,
         "surplus_cof": 492
     },
-    100043: {
+    101583: {
         "kind_type": "NeutralMagic",
         "platform": 1,
-        "recipe_type": 100043,
-        "recipe_mask": 68,
-        "skill_name": "玉石俱焚·悟",
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "skill_name": "南风吐月·悟",
         "neutral_damage_base": 1,
         "neutral_damage_call": 1,
         "weapon_damage_cof": 0.0,
-        "skill_cof": 813
+        "skill_cof": 192
     },
     12: {
         "kind_type": "Physics",
@@ -19665,6 +19665,205 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 380.0
+    },
+    101198: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101009,
+        "recipe_mask": 4,
+        "skill_name": "坚壁清野·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 242,
+        "surplus_cof": 932
+    },
+    101200: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101009,
+        "recipe_mask": 4,
+        "skill_name": "坚壁清野·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 384,
+        "surplus_cof": 1475
+    },
+    101080: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101005,
+        "recipe_mask": 4,
+        "skill_name": "醉斩白蛇·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 236,
+        "surplus_cof": 901
+    },
+    101001: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 338,
+        "surplus_cof": 1300
+    },
+    101000: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 304,
+        "surplus_cof": 1167
+    },
+    100999: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 272,
+        "surplus_cof": 1044
+    },
+    101110: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101007,
+        "recipe_mask": 4,
+        "skill_name": "割据秦宫·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
+    },
+    101109: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101007,
+        "recipe_mask": 4,
+        "skill_name": "割据秦宫·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
+    },
+    101108: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101007,
+        "recipe_mask": 4,
+        "skill_name": "割据秦宫·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
+    },
+    101260: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101015,
+        "recipe_mask": 0,
+        "skill_name": "上将军印·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 508,
+        "surplus_cof": 1946
+    },
+    101259: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101015,
+        "recipe_mask": 0,
+        "skill_name": "上将军印·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 452,
+        "surplus_cof": 1731
+    },
+    101257: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101015,
+        "recipe_mask": 0,
+        "skill_name": "上将军印·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 340,
+        "surplus_cof": 1300
+    },
+    101258: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101015,
+        "recipe_mask": 0,
+        "skill_name": "上将军印·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 396,
+        "surplus_cof": 1516
+    },
+    101256: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101015,
+        "recipe_mask": 0,
+        "skill_name": "上将军印·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 282,
+        "surplus_cof": 1085
+    },
+    101068: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101004,
+        "recipe_mask": 4,
+        "skill_name": "闹须弥·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 311,
+        "surplus_cof": 1188,
+        "dot_cof": 768
+    },
+    101050: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 768.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 298,
+        "surplus_cof": 1147
     },
     19712: {
         "kind_type": "Physics",

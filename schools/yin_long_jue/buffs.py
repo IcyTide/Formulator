@@ -14,9 +14,9 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
                                                    (22327, 22320, 22321, 22358)])
             for buff_id, value in ((15927, 102), (15928, 205), (15929, 307))
         },
-        15832: dict(buff_name="星旗", gains=[[DamageAdditionRecipe(value, 22143, 22143) for value in (154, 307)]]),
-        21588: dict(buff_name="孤路", gains=[[DamageAdditionRecipe(value, 22358, 22358) for value in (
-            174, 348, 522, 696, 870, 1044, 1219, 1393, 1567, 1741, 1915, 2089, 2263)]])
+        15832: dict(buff_name="星旗", gains=[[DamageAdditionRecipe(value, 22143, 22143)] for value in (154, 307)]),
+        21588: dict(buff_name="孤路", gains=[[DamageAdditionRecipe(value, 22358, 22358)] for value in
+                                             (174, 348, 522, 696, 870, 1044, 1219, 1393, 1567, 1741, 1915, 2089, 2263)])
     }
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}

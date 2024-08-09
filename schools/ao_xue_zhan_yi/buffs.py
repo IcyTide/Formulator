@@ -22,8 +22,8 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         1428: {}, 6121: {}, 6363: {}, 14981: {}, 7671: {}, 21638: {}, 2779: {}, 28169: {},
         -12608: dict(buff_name="风虎", activate=False, interval=4,
-                     gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for value in (51, 102, 154, 205, 256)]
-                            for skill_id in (400, 403, 415, 423)]),
+                     gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for skill_id in (400, 403, 415, 423)]
+                            for value in (51, 102, 154, 205, 256)]),
         -26008: dict(buff_name="战心", interval=4, gains=[战心(skill_id=401, skill_recipe=401)]),
         1911: dict(begin_buffs={(-1, 1): 5}),
     },

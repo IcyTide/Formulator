@@ -13,7 +13,7 @@ GAINS = {
     4297: CriticalStrikeRecipe(500, 16085, 16085),
     (2430,): Gain(),
     (1942,): Gain(),
-    17374: Gain(),
-    17375: Gain(),
+    17374: DamageAdditionRecipe(21, 0, 0, 1),
+    17375: CriticalStrikeRecipe(306, 0, 0, 3),
     **EQUIPMENT_GAINS,
 }

@@ -10,8 +10,8 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         14353: {}, 14083: {}, 13560: {}, 17094: {}, 13966: {}, 26012: {},
         14321: dict(buff_name="驰行", frame_shift=-2,
                     gains=[DamageAdditionRecipe(307, skill_id, skill_id) for skill_id in (20715, 20083, 20084)]),
-        14317: dict(gains=[[PhysicalCriticalRecipe(value, 20053, 20053)
-                            for value in ((1000, 102), (2000, 205), (3000, 307), (4000, 410), (5000, 512))]]),
+        14317: dict(gains=[[PhysicalCriticalRecipe(value, 20053, 20053)]
+                           for value in ((1000, 102), (2000, 205), (3000, 307), (4000, 410), (5000, 512))]),
     },
     CustomBuff: {14029: dict(buff_name="神降", activate=False, attributes=dict(all_damage_addition=102))}
 }

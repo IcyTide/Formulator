@@ -10,6 +10,7 @@ class ShanHaiXinJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3277
         self.physical_critical_strike_base += 2929
+        self.platform = platform
         if not platform:
             self.pve_addition_base += 82
         else:

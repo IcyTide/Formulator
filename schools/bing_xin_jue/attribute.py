@@ -9,6 +9,7 @@ class BingXinJue(LunarAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.lunar_attack_power_base += 4222
+        self.platform = platform
         if not platform:
             pass
         else:

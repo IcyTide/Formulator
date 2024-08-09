@@ -7,12 +7,15 @@ from general.skills import GENERAL_SKILLS
 
 
 class 逐一击破增伤(Skill):
-    final_buff = -1
+    common_buff = -23074
+    single_buff = -10169
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        parser.refresh_buff(self.final_buff, 1)
+        parser.refresh_buff(self.common_buff, 1)
+        parser.refresh_buff(self.single_buff, 1)
         super().record(actual_critical_strike, actual_damage, parser)
-        parser.clear_buff(self.final_buff, 1)
+        parser.clear_buff(self.common_buff, 1)
+        parser.clear_buff(self.single_buff, 1)
 
 
 class 追命箭(逐一击破增伤):

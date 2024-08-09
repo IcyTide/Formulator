@@ -18,6 +18,52 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {11447: {}, 19555: {}}
 }
+
+
+class 项王击鼎秘章(Skill):
+    damage_addition_extra = 256
+
+
+class 霸王加成(项王击鼎秘章):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if stack := parser.current_buff_stacks.get((71047, 1)):
+            parser.refresh_target_buff(70188, 10 * stack)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 10 * stack, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+class 闹须弥秘章(Skill):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if parser.current_dot_ticks.get(70364):
+            parser.refresh_target_buff(70188, 50)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 50, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
+    Skill: {
+        101198: {}, 101200: {}, 101080: {}, 101110: {}, 101109: {}, 101108: {}, 101260: {}, 101259: {}, 101257: {},
+        101258: {}, 101256: {},
+    },
+    项王击鼎秘章: {
+        101001: {}, 101000: {}, 100999: {}
+    },
+    霸王加成: {
+        101050: {}
+    },
+    闹须弥秘章: {
+        101068: dict(bind_dot=70364)
+    }
+}
+MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
+    Dot: {
+        70364: {}
+    }
+}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
@@ -26,8 +72,22 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         set_skill(skill)
         SKILLS[skill_id] = skill
+for skill_class, skills in MOBILE_SKILLS.items():
+    for skill_id, attrs in skills.items():
+        skill = skill_class(skill_id)
+        for attr, value in attrs.items():
+            setattr(skill, attr, value)
+        set_skill(skill)
+        SKILLS[skill_id] = skill
 DOTS = {}
 for dot_class, dots in SCHOOL_DOTS.items():
+    for dot_id, attrs in dots.items():
+        dot = dot_class(dot_id)
+        for attr, value in attrs.items():
+            setattr(dot, attr, value)
+        set_dot(dot)
+        DOTS[dot_id] = dot
+for dot_class, dots in MOBILE_DOTS.items():
     for dot_id, attrs in dots.items():
         dot = dot_class(dot_id)
         for attr, value in attrs.items():

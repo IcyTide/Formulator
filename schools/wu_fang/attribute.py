@@ -10,6 +10,7 @@ class WuFang(PoisonAttribute):
         super().__init__()
         self.poison_attack_power_base += 3808
         self.poison_overcome_base += 1788
+        self.platform = platform
         if not platform:
             self.pve_addition_base += 102
         else:

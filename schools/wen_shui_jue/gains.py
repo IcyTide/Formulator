@@ -16,7 +16,7 @@ class SecondaryWeapon(Gain):
         buffs[-1].attributes = self.secondary_weapon_attrs
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-1].attributes = True
+        buffs[-1].attributes = dict(weapon_damage_base=0)
 
 
 GAINS = {

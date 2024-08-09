@@ -10,8 +10,8 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         9586: {}, 9437: {}, 25997: {},
         23101: dict(buff_name="刻梦"),
         12576: dict(buff_name="云汉"),
-        9433: dict(gains=[[MagicalShieldGainRecipe(value, skill_id, 0) for value in (-307, -614, -921)]
-                          for skill_id in (14474, 14227)]),
+        9433: dict(gains=[[MagicalShieldGainRecipe(value, skill_id, 0) for skill_id in (14474, 14227)
+                          for value in (-307, -614, -921)]]),
         9495: dict(gains=[DamageAdditionRecipe(205, 0, skill_id) for skill_id in (14064, 14067, 14068)] +
                          [ChannelIntervalRecipe(1.2, 0, skill_id) for skill_id in (14065, 14066)]),
     }

@@ -4,7 +4,7 @@ from general.gains import GENERAL_GAINS
 
 def consumable_attribute(gain):
     attributes = {}
-    for attr, values in gain.attributes.items():
+    for attr, value in gain.attributes.items():
         if value := gain.attribute_value(values):
             attributes[attr] = value
     return attributes
@@ -21,9 +21,9 @@ def create_consumable_gain(gain_id, scope: range = None):
     result = {}
     for i in scope:
         gain.buff_level = i
-        if not (attributes := consumable_attribute(gain)):
+        if not gain.attributes:
             continue
-        result[consumable_name(gain.buff_name, attributes)] = attributes
+        result[consumable_name(gain.buff_name, gain.attributes)] = gain.attributes
     return result
 
 

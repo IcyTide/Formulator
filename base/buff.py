@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, List, Union
 
@@ -40,7 +41,7 @@ class BaseBuff:
     def buff_name(self):
         if not self._buff_name:
             return ""
-        if self.buff_level > len(self._buff_name):
+        elif self.buff_level > len(self._buff_name):
             return self._buff_name[-1]
         else:
             return self._buff_name[self.buff_level - 1]
@@ -56,7 +57,7 @@ class BaseBuff:
     def max_stack(self):
         if not self._max_stack:
             return 1
-        if self.buff_level > len(self._max_stack):
+        elif self.buff_level > len(self._max_stack):
             return self._max_stack[-1]
         else:
             return self._max_stack[self.buff_level - 1]
@@ -77,8 +78,8 @@ class Buff(BaseBuff):
     unique: bool = True
     activate: bool = True
 
-    gains: list = None
-    attributes: ATTR_DICT = None
+    _gains: List[list] = None
+    _attributes: List[dict] = None
 
     begin_effects: list = None
     begin_buffs: dict = None
@@ -89,9 +90,9 @@ class Buff(BaseBuff):
 
     def __post_init__(self):
         if self.gains is None:
-            self.gains = []
+            self.gains = [[]]
         if self.attributes is None:
-            self.attributes = {}
+            self.attributes = [{}]
         if not self.begin_buffs:
             self.begin_buffs = {}
         if not self.begin_target_buffs:
@@ -105,17 +106,63 @@ class Buff(BaseBuff):
         if not self.end_effects:
             self.end_effects = []
 
-    def attribute_value(self, values):
-        if isinstance(values, list):
-            return values[self.buff_level - 1] * self.buff_stack
-        else:
-            return values * self.buff_stack
+    @property
+    def all_attributes(self):
+        if not self._attributes:
+            return [{}]
+        return self._attributes
 
-    def gain_value(self, values):
-        if isinstance(values, list):
-            return values[self.buff_level - 1]
+    def get_attributes(self, level=1, stack=1, weights: list = None):
+        if weights:
+            origin_level = self.buff_level
+            attributes = defaultdict(int)
+            total_weight = sum(weights)
+            for level, weight in zip(range(self.max_level), weights):
+                self.buff_level = level
+                for k, v in self.attributes.items():
+                    attributes[k] += v * weight / total_weight
+            attributes = {k: int(v) for k, v in attributes.items()}
+            self.buff_level = origin_level
         else:
-            return values
+            self.buff_level, origin_level = level, self.buff_level
+            self.buff_stack, origin_stack = stack, self.buff_stack
+            attributes = self.attributes
+            self.buff_level = origin_level
+            self.buff_stack = origin_stack
+        return attributes
+
+    @property
+    def attributes(self):
+        if not self._attributes:
+            return {}
+        if self.buff_level > len(self._attributes):
+            attributes = self._attributes[-1]
+        else:
+            attributes = self._attributes[self.buff_level - 1]
+        return {k: v * self.buff_stack for k, v in attributes.items()}
+
+    @attributes.setter
+    def attributes(self, attributes):
+        if isinstance(attributes, list):
+            self._attributes = attributes
+        else:
+            self._attributes = [attributes]
+
+    @property
+    def gains(self):
+        if not self._gains:
+            return []
+        elif self.buff_level > len(self._gains):
+            return self._gains[-1]
+        else:
+            return self._gains[self.buff_level - 1]
+
+    @gains.setter
+    def gains(self, gains):
+        if gains and isinstance(gains[0], list):
+            self._gains = gains
+        else:
+            self._gains = [gains]
 
     def begin(self, parser):
         for (buff_id, buff_level), buff_stack in self.begin_buffs.items():
@@ -139,26 +186,23 @@ class Buff(BaseBuff):
 
     def add_all(self, attribute: Attribute, skill: Skill):
         return_tag = False
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             setattr(attribute, attr, getattr(attribute, attr) + value)
             return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-        for values in self.gains:
-            value = self.gain_value(values)
-            if not value:
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+        for gain in self.gains:
+            if not gain:
                 continue
-            if value.add(*gain_tuple):
+            if gain.add(*gain_tuple):
                 return_tag = True
 
         return return_tag
 
     def add_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
         return_tag = False
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
@@ -168,42 +212,39 @@ class Buff(BaseBuff):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
         if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-            for values in self.gains:
-                if self.gain_value(values).add(*gain_tuple):
+            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+            for gain in self.gains:
+                if gain.add(*gain_tuple):
                     return_tag = True
 
         return return_tag
 
     def add_pet(self, attribute: Attribute, skill: Skill):
         return_tag = False
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) + value)
                 return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-        for values in self.gains:
-            if self.gain_value(values).add(*gain_tuple):
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+        for gain in self.gains:
+            if gain.add(*gain_tuple):
                 return_tag = True
 
         return return_tag
 
     def sub_all(self, attribute: Attribute, skill: Skill):
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-        for values in self.gains:
-            self.gain_value(values).sub(*gain_tuple)
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+        for gain in self.gains:
+            gain.sub(*gain_tuple)
 
     def sub_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
@@ -211,20 +252,19 @@ class Buff(BaseBuff):
             if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
         if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-            for values in self.gains:
-                self.gain_value(values).sub(*gain_tuple)
+            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+            for gain in self.gains:
+                gain.sub(*gain_tuple)
 
     def sub_pet(self, attribute: Attribute, skill: Skill):
-        for attr, values in self.attributes.items():
-            value = self.attribute_value(values)
+        for attr, value in self.attributes.items():
             if not value:
                 continue
             if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
                 setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {self.buff_id: self})
-        for values in self.gains:
-            self.gain_value(values).sub(*gain_tuple)
+        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
+        for gain in self.gains:
+            gain.sub(*gain_tuple)
 
 
 class TargetBuff(Buff):

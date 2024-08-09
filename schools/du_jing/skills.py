@@ -10,7 +10,7 @@ class 曲致判定(PetSkill):
     final_buff = -17988
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if 2296 in parser.current_dot_stacks or 25917 in parser.current_dot_stacks:
+        if parser.current_dot_ticks.get(2296) or parser.current_dot_ticks.get(25917):
             parser.refresh_buff(self.final_buff, 1)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.clear_buff(self.final_buff, 1)
@@ -23,13 +23,13 @@ class 连缘蛊判定(Skill):
 
     def record(self, actual_critical_strike, actual_damage, parser):
         buff_level = 0
-        if 6218 in parser.current_dot_stacks:
+        if parser.current_dot_ticks.get(6218):
             buff_level += 1
-        if 2296 in parser.current_dot_stacks or 25917 in parser.current_dot_stacks:
+        if parser.current_dot_ticks.get(2296) or parser.current_dot_ticks.get(25917):
             buff_level += 1
-        if 2509 in parser.current_dot_stacks or 12557 in parser.current_dot_stacks:
+        if parser.current_dot_ticks.get(2509) or parser.current_dot_ticks.get(12557):
             buff_level += 1
-        if 2295 in parser.current_dot_stacks:
+        if parser.current_dot_ticks.get(2295):
             buff_level += 1
         if buff_level:
             for i in range(4):

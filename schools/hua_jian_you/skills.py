@@ -35,7 +35,7 @@ class 清流判定(Skill):
     final_buff = -12588
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_dot_stacks.get(self.bind_buff):
+        if parser.current_dot_ticks.get(self.bind_buff):
             parser.refresh_buff(self.final_buff, 1)
         else:
             parser.clear_buff(self.final_buff, 1)
@@ -91,7 +91,7 @@ SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
 
 class 快雪时晴秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if 70041 in parser.current_dot_ticks:
+        if parser.current_dot_ticks.get(70041):
             parser.refresh_target_buff(70188, 35)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 35, -1)

@@ -9,6 +9,7 @@ class HuaJianYou(NeutralAttribute):
     def __init__(self, platform=0):
         super().__init__()
         self.neutral_attack_power_base += 4139
+        self.platform = platform
         if not platform:
             self.pve_addition_base += 113
         else:

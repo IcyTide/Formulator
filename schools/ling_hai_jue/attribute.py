@@ -10,6 +10,7 @@ class LingHaiJue(PhysicalAttribute):
         super().__init__()
         self.physical_attack_power_base += 3621
         self.physical_critical_strike_base += 2158
+        self.platform = platform
         if not platform:
             pass
         else:

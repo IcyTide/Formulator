@@ -26,7 +26,7 @@ class 鬼门加成(Skill):
     talent_activate = False
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if self.talent_activate and 71171 in parser.current_dot_ticks:
+        if self.talent_activate and parser.current_dot_ticks.get(71171):
             parser.refresh_target_buff(70188, 10)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 10, -1)

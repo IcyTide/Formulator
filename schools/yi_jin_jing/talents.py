@@ -21,7 +21,7 @@ class 明法(Gain):
 class 众嗔(Gain):
     @staticmethod
     def add_effect(parser):
-        if 743 in parser.current_dot_ticks:
+        if parser.current_dot_ticks.get(743):
             parser.refresh_buff(-13910, 1)
 
     @staticmethod

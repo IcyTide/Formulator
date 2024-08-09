@@ -47,11 +47,15 @@ MAX_ATTRIB = 15
 
 
 def parse_buff(row, result):
+    result["attributes"] = {}
+    result["gains"] = []
     for i in range(MAX_ATTRIB):
         attr, param_1 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"]
 
         if attr in ATTR_TYPE_MAP:
-            result[ATTR_TYPE_MAP[attr]] = int(param_1)
+            result["attributes"][ATTR_TYPE_MAP[attr]] = int(param_1)
+        # elif attr == "atSetTalentRecipe":
+        #     result["gains"].append(int(param_1))
 
 
 def collect_result():
@@ -91,14 +95,11 @@ def convert_json(result):
 
             if filter_result[column].dtype == float:
                 filter_column = filter_result[column].fillna(0).astype(int)
-                result_dict = result_json[buff_id]["attributes"]
             else:
                 filter_column = filter_result[column]
-                result_dict = result_json[buff_id]
-            if filter_column.nunique() == 1:
-                result_dict[column] = filter_column.tolist()[0]
-            else:
-                result_dict[column] = filter_column.tolist()
+
+            result_dict = result_json[buff_id]
+            result_dict[column] = filter_column.tolist()
 
     save_code("buffs", result_json)
 

@@ -10,9 +10,9 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         1440: {}, 1487: {}, 11809: {}, 28116: {}, 9722: {},
         14636: dict(buff_name="乱洒", gains=[DamageAdditionRecipe(307, 182, 0)]),
         -12588: dict(buff_name="清流", activate=False),
-        -24599: dict(max_stack=4, gains=[[DamageAdditionRecipe(value, 2636, 2636) for value in (174, 348, 420, 696)]])
+        -24599: dict(max_stack=4, gains=[[DamageAdditionRecipe(value, 2636, 2636)] for value in (174, 348, 420, 696)])
     },
-    CustomBuff: {-1: dict(buff_name="青冠", attributes=dict(global_damage_factor=[0.25, 1.]))}
+    CustomBuff: {-1: dict(buff_name="青冠", attributes=[dict(global_damage_factor=value) for value in (0.25, 1.)])}
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():

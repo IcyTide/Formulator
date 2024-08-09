@@ -13,14 +13,30 @@ from general.skills.equipment import SKILLS
 class EquipmentGain(Gain):
     buff_ids: List[int] = None
     skill_ids: List[int] = None
-    attributes: Dict[str, List[int]] = {}
+    _attributes: List[dict] = None
     rate: Union[int, float] = 1
-    level: int = 0
+    level: int = 1
     real_formulation: bool = True
 
     def __init__(self, level=0):
         super().__init__()
         self.level = level
+
+    @property
+    def attributes(self):
+        if not self._attributes:
+            return {}
+        elif self.level > len(self._attributes):
+            return self._attributes[-1]
+        else:
+            return self._attributes[self.level - 1]
+
+    @attributes.setter
+    def attributes(self, attributes):
+        if isinstance(attributes, list):
+            self._attributes = attributes
+        else:
+            self._attributes = [attributes]
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         if self.buff_ids and self.real_formulation:
@@ -45,14 +61,14 @@ class EquipmentGain(Gain):
     def add_attribute(self, attribute: Attribute):
         if (self.skill_ids or self.buff_ids) and self.real_formulation:
             return
-        for attr, values in self.attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + int(values[self.level - 1] * self.rate))
+        for attr, value in self.attributes.items():
+            setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate))
 
     def sub_attribute(self, attribute: Attribute):
         if (self.skill_ids or self.buff_ids) and self.real_formulation:
             return
-        for attr, values in self.attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - int(values[self.level - 1] * self.rate))
+        for attr, value in self.attributes.items():
+            setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate))
 
 
 class CriticalSet(EquipmentGain):
@@ -83,34 +99,32 @@ class DivineSubSkill(EquipmentGain):
 
 class WaterWeapon(EquipmentGain):
     buff_ids = [4761]
-    attributes = BUFFS[4761].attributes
+    _attributes = BUFFS[4761].all_attributes
     rate = 10
 
 
 class WindPendant(EquipmentGain):
     buff_ids = [6360]
-    attributes = BUFFS[6360].attributes
+    _attributes = BUFFS[6360].all_attributes
     rate = 15 / 180
 
 
 class 大附魔帽(EquipmentGain):
     # buff_ids = [15436]
-    attributes = BUFFS[15436].attributes
+    _attributes = BUFFS[15436].all_attributes
 
 
 class 大附魔衣(EquipmentGain):
-    attributes = dict(
-        physical_attack_power_base=SKILLS[22151].physical_attack_power_base,
-        magical_attack_power_base=SKILLS[22151].magical_attack_power_base
-    )
+    _attributes = [
+        dict(physical_attack_power_base=physical_attack_power_base, magical_attack_power_base=magical_attack_power_base)
+        for physical_attack_power_base, magical_attack_power_base in
+        zip(SKILLS[22151].physical_attack_power_base, SKILLS[22151].magical_attack_power_base)
+    ]
 
 
 class 大附魔腰(EquipmentGain):
     buff_ids = [15455]
-    attributes = {
-        attr: [sum(value * prob for value, prob in zip(values, [0.3, 0.7]))]
-        for attr, values in BUFFS[15455].attributes.items()
-    }
+    _attributes = BUFFS[15455].get_attributes(weights=[3, 7])
     rate = 8 / 30
 
 

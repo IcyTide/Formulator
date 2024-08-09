@@ -1184,6 +1184,37 @@ DOTS = {
         "damage_base": 25,
         "physical_damage_call": 1
     },
+    70364: {
+        "buff_name": "流血(DOT)",
+        "interval": [
+            32,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48
+        ],
+        "tick": 8,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": [
+            25,
+            28,
+            31,
+            34,
+            37,
+            40,
+            43,
+            46,
+            49,
+            52
+        ],
+        "physical_damage_call": 1
+    },
     18386: {
         "buff_name": "青冥(DOT)",
         "interval": 32,
