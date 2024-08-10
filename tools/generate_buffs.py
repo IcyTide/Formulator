@@ -48,7 +48,6 @@ MAX_ATTRIB = 15
 
 def parse_buff(row, result):
     result["attributes"] = {}
-    result["gains"] = []
     for i in range(MAX_ATTRIB):
         attr, param_1 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"]
 

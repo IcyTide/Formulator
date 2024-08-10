@@ -7192,6 +7192,63 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 50.748882291843756
     },
+    6129: {
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "global_damage_factor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1048576.0,
+            262144.0
+        ]
+    },
+    6126: {
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "global_damage_factor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1048576.0,
+            262144.0
+        ]
+    },
+    6128: {
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "global_damage_factor": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1048576.0,
+            262144.0
+        ]
+    },
+    32410: {
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "global_damage_factor": [
+            0.0,
+            1048576.0,
+            262144.0
+        ]
+    },
     33222: {
         "kind_type": "NeutralMagic",
         "platform": 0,
@@ -7294,63 +7351,6 @@ SKILLS = {
         "neutral_damage_call": 1,
         "damage_addition": 512
     },
-    6129: {
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "global_damage_factor": [
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            1048576.0,
-            262144.0
-        ]
-    },
-    6126: {
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "global_damage_factor": [
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            1048576.0,
-            262144.0
-        ]
-    },
-    6128: {
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "global_damage_factor": [
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            1048576.0,
-            262144.0
-        ]
-    },
-    32410: {
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "global_damage_factor": [
-            -1048576.0,
-            1048576.0,
-            262144.0
-        ]
-    },
     601: {
         "kind_type": "",
         "platform": 0,
@@ -7359,14 +7359,14 @@ SKILLS = {
         "skill_name": "吞海",
         "channel_interval": 16.0,
         "global_damage_factor": [
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
-            -1048576.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
             262144.0,
             262144.0,
             262144.0,
@@ -19702,45 +19702,6 @@ SKILLS = {
         "skill_cof": 236,
         "surplus_cof": 901
     },
-    101001: {
-        "kind_type": "Physics",
-        "platform": 1,
-        "recipe_type": 100999,
-        "recipe_mask": 1,
-        "skill_name": "项王击鼎·悟",
-        "physical_damage_base": 1,
-        "physical_damage_call": 1,
-        "weapon_damage_cof": 1024.0,
-        "physical_surplus_call": 1,
-        "skill_cof": 338,
-        "surplus_cof": 1300
-    },
-    101000: {
-        "kind_type": "Physics",
-        "platform": 1,
-        "recipe_type": 100999,
-        "recipe_mask": 1,
-        "skill_name": "项王击鼎·悟",
-        "physical_damage_base": 1,
-        "physical_damage_call": 1,
-        "weapon_damage_cof": 1024.0,
-        "physical_surplus_call": 1,
-        "skill_cof": 304,
-        "surplus_cof": 1167
-    },
-    100999: {
-        "kind_type": "Physics",
-        "platform": 1,
-        "recipe_type": 100999,
-        "recipe_mask": 1,
-        "skill_name": "项王击鼎·悟",
-        "physical_damage_base": 1,
-        "physical_damage_call": 1,
-        "weapon_damage_cof": 1024.0,
-        "physical_surplus_call": 1,
-        "skill_cof": 272,
-        "surplus_cof": 1044
-    },
     101110: {
         "kind_type": "Physics",
         "platform": 1,
@@ -19839,18 +19800,44 @@ SKILLS = {
         "skill_cof": 282,
         "surplus_cof": 1085
     },
-    101068: {
+    101001: {
         "kind_type": "Physics",
         "platform": 1,
-        "recipe_type": 101004,
-        "recipe_mask": 4,
-        "skill_name": "闹须弥·悟",
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
         "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_surplus_call": 1,
-        "skill_cof": 311,
-        "surplus_cof": 1188,
-        "dot_cof": 768
+        "skill_cof": 338,
+        "surplus_cof": 1300
+    },
+    101000: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 304,
+        "surplus_cof": 1167
+    },
+    100999: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100999,
+        "recipe_mask": 1,
+        "skill_name": "项王击鼎·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_surplus_call": 1,
+        "skill_cof": 272,
+        "surplus_cof": 1044
     },
     101050: {
         "kind_type": "Physics",
@@ -19864,6 +19851,19 @@ SKILLS = {
         "physical_surplus_call": 1,
         "skill_cof": 298,
         "surplus_cof": 1147
+    },
+    101068: {
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 101004,
+        "recipe_mask": 4,
+        "skill_name": "闹须弥·悟",
+        "physical_damage_base": 1,
+        "physical_damage_call": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 311,
+        "surplus_cof": 1188,
+        "dot_cof": 768
     },
     19712: {
         "kind_type": "Physics",
@@ -27133,7 +27133,7 @@ SKILLS = {
         "global_damage_factor": [
             -734003.2,
             -734003.2,
-            -1048576.0
+            0.0
         ],
         "physical_surplus_call": 1
     },

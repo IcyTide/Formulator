@@ -6,23 +6,9 @@ from base.skill import Skill
 from general.skills import GENERAL_SKILLS
 
 
-class 吞噬(Skill):
-    bind_buff_levels: dict
-    bind_buff = -1
-
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_level := self.bind_buff_levels.get(self.skill_level):
-            parser.refresh_buff(self.bind_buff, buff_level)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.clear_buff(self.bind_buff, buff_level)
-
-
-class 折花吞噬(吞噬):
+class 折花吞噬(Skill):
     consume_dots = {
         **{i + 9: skill_id for i, skill_id in enumerate([714, 666, 711, 24158])}
-    }
-    bind_buff_levels = {
-        **{i + 9: 1 for i in range(4)}
     }
 
     def record(self, actual_critical_strike, actual_damage, parser):
@@ -68,14 +54,12 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dot=714) for skill_id in (285, 3086, 13847, 6135)},
         **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},
         **{skill_id: dict(bind_dot=24158) for skill_id in (32481, 32409)},
+        6129: dict(consume_dot=711),
+        6126: dict(consume_dot=714),
+        6128: dict(consume_dot=666),
+        32410: dict(consume_dot=24158)
     },
     快雪时晴: {33222: {}},
-    吞噬: {
-        6129: dict(consume_dot=711, bind_buff_levels={5: 2, 6: 1}),
-        6126: dict(consume_dot=714, bind_buff_levels={5: 2, 6: 1}),
-        6128: dict(consume_dot=666, bind_buff_levels={5: 2, 6: 1}),
-        32410: dict(consume_dot=24158, bind_buff_levels={2: 2, 3: 1})
-    },
     折花吞噬: {601: {}},
     清流判定: {18722: {}}
 }

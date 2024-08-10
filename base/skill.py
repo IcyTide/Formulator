@@ -1414,7 +1414,7 @@ class Skill(Damage):
         self.post_record(parser)
 
     def damage(self, actual_critical_strike, actual_damage, parser):
-        damage_tuple = ((self.skill_id, self.skill_level), tuple())
+        damage_tuple = ((self.skill_id, self.skill_level), tuple(), tuple())
         status_tuple = parser.status
         parser.current_records[damage_tuple][status_tuple].append(
             (parser.current_frame - parser.start_frame, actual_critical_strike, actual_damage)
@@ -1441,13 +1441,15 @@ class Skill(Damage):
         if not (last_dot := parser.current_last_dot.pop(self.consume_dot, None)):
             return
         damage_tuple, status_tuple = last_dot
-        (dot_id, dot_level, dot_stack), (dot_skill_id, dot_skill_level) = damage_tuple
+        (dot_id, dot_level, dot_stack), (dot_skill_id, dot_skill_level), _ = damage_tuple
         parser.current_dot_ticks[dot_id] += 1
         if not self.consume_tick:
             tick = parser.current_dot_ticks[dot_id]
         else:
             tick = min(parser.current_dot_ticks[dot_id], self.consume_tick)
-        new_damage_tuple = ((dot_id, dot_level, dot_stack * tick), (dot_skill_id, dot_skill_level))
+        new_damage_tuple = (
+            (dot_id, dot_level, dot_stack * tick), (dot_skill_id, dot_skill_level), (self.skill_id, self.skill_level)
+        )
         parser.current_damage = dot_id
         new_status_tuple = parser.dot_status
         parser.current_damage = self.skill_id

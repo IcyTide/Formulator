@@ -118,10 +118,32 @@ def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
         buffs.append(",".join(buff.display_name for buff in target_buffs))
 
     if buffs:
-        buffs = ";".join(buffs)
+        buffs = "|".join(buffs)
     else:
         buffs = "~"
     return buffs
+
+
+def split_skills(damage, school):
+    damage_tuple, dot_skill_tuple, consume_skill_tuple = damage
+    if dot_skill_tuple:
+        dot_id, dot_level, dot_stack = damage_tuple
+        damage, damage.buff_level, damage.buff_stack = school.dots[dot_id], dot_level, dot_stack
+        dot_skill_id, dot_skill_level = dot_skill_tuple
+        dot_skill, dot_skill.skill_level = school.skills[dot_skill_id], dot_skill_level
+        damage.bind_skill = dot_skill
+        if consume_skill_tuple:
+            consume_skill_id, consume_skill_level = consume_skill_tuple
+            consume_skill, consume_skill.skill_level = school.skills[consume_skill_id], consume_skill_level
+            damage.consume_skill = consume_skill
+        else:
+            damage.consume_skill = None
+        damage_name = damage.buff_name
+    else:
+        skill_id, skill_level = damage_tuple
+        damage, damage.skill_level, = school.skills[skill_id], skill_level
+        damage_name = damage.skill_name
+    return damage, damage_name
 
 
 def analyze_details(record, start_frame, end_frame, attribute: Attribute, school: School):
@@ -132,40 +154,27 @@ def analyze_details(record, start_frame, end_frame, attribute: Attribute, school
     end_frame = int(end_frame * FRAME_PER_SECOND)
 
     for damage, status in record.items():
-        damage_tuple, dot_skill_tuple = damage
-        if dot_skill_tuple:
-            dot_id, dot_level, dot_stack = damage_tuple
-            damage, damage.buff_level, damage.buff_stack = school.dots[dot_id], dot_level, dot_stack
-            dot_skill_id, dot_skill_level = dot_skill_tuple
-            dot_skill, dot_skill.skill_level = school.skills[dot_skill_id], dot_skill_level
-            damage.bind_skill = dot_skill
-            damage_name = damage.buff_name
-        else:
-            skill_id, skill_level = damage_tuple
-            damage, damage.skill_level, = school.skills[skill_id], skill_level
-            damage_name = damage.skill_name
+        damage, damage_name = split_skills(damage, school)
         if not damage.activate:
             continue
         damage_detail = details[damage.display_name] = {}
         if not (damage_summary := summary.get(damage_name)):
             damage_summary = summary[damage_name] = Detail()
         damage_total = damage_detail[""] = Detail()
-        for (current_status, snapshot_status, target_status), timeline in status.items():
+        for status_tuple, timeline in status.items():
             if not (timeline := [t for t in timeline if start_frame <= t[0] < end_frame]):
                 continue
 
-            current_buffs = filter_status(current_status, school)
-            snapshot_buffs = filter_status(snapshot_status, school)
-            target_buffs = filter_status(target_status, school)
+            buffs_tuple = [filter_status(status, school) for status in status_tuple]
 
-            display_buffs = add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, damage)
+            display_buffs = add_buffs(*buffs_tuple, attribute, damage)
             buffs = concat_buffs(*display_buffs)
             if buffs in damage_detail:
                 detail = damage_detail[buffs]
             else:
                 detail = damage_detail[buffs] = Detail(*damage(attribute))
                 detail.gradients = analyze_gradients(damage, attribute)
-            sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute, damage)
+            sub_buffs(*buffs_tuple, attribute, damage)
 
             detail.timeline += timeline
             damage_total.timeline += timeline
@@ -175,7 +184,7 @@ def analyze_details(record, start_frame, end_frame, attribute: Attribute, school
             damage_total.critical_strike += detail.critical_strike * len(timeline)
             damage_total.expected_damage += detail.expected_damage * len(timeline)
             for attr, residual_damage in detail.gradients.items():
-                damage_total.gradients[attr] += residual_damage * len(timeline)
+                total.gradients[attr] += residual_damage * len(timeline)
 
         if damage_total.timeline:
             total.expected_damage += damage_total.expected_damage
@@ -186,9 +195,6 @@ def analyze_details(record, start_frame, end_frame, attribute: Attribute, school
             damage_total.critical_damage /= len(damage_total.timeline)
             damage_total.expected_damage /= len(damage_total.timeline)
             damage_total.critical_strike /= len(damage_total.timeline)
-            for attr, residual_damage in damage_total.gradients.items():
-                total.gradients[attr] += residual_damage
-                damage_total.gradients[attr] /= len(damage_total.timeline)
         else:
             details.pop(damage.display_name)
 

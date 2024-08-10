@@ -10,6 +10,7 @@ from utils.damage import init_result
 
 class BaseDot(BaseBuff):
     bind_skill: Skill
+    consume_skill: Skill
 
     physical_damage_call: int = 0
     solar_damage_call: int = 0
@@ -100,12 +101,15 @@ class Dot(BaseDot):
 
     @property
     def display_name(self):
-        return f"{super().display_name}({self.bind_skill.display_name})"
+        if self.consume_skill:
+            return f"{super().display_name}({self.bind_skill.display_name}|{self.consume_skill.display_name})"
+        else:
+            return f"{super().display_name}({self.bind_skill.display_name})"
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.buff_id]
         buff_stack = min(self.max_stack, parser.current_dot_stacks[self.buff_id])
-        damage_tuple = ((self.buff_id, self.buff_level, buff_stack), (dot_skill_id, dot_skill_level))
+        damage_tuple = ((self.buff_id, self.buff_level, buff_stack), (dot_skill_id, dot_skill_level), tuple())
         status_tuple = parser.dot_status
         parser.current_dot_ticks[self.buff_id] -= 1
         parser.current_last_dot[self.buff_id] = (damage_tuple, status_tuple)
@@ -181,10 +185,14 @@ class Dot(BaseDot):
         return 0, 0
 
     def pre_damage(self, attribute: Attribute):
+        if self.consume_skill:
+            attribute.global_damage_factor *= self.consume_skill.global_damage_factor
         self.bind_skill.pre_damage(attribute)
         attribute.all_damage_addition -= self.bind_skill.damage_addition
 
     def post_damage(self, attribute: Attribute):
+        if self.consume_skill:
+            attribute.global_damage_factor /= self.consume_skill.global_damage_factor
         self.bind_skill.post_damage(attribute)
         attribute.all_damage_addition += self.bind_skill.damage_addition
 

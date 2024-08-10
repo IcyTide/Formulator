@@ -367,10 +367,7 @@ def convert_json(result):
                 continue
             if filter_result[column].isna().all():
                 continue
-            if column == "global_damage_factor":
-                filter_column = filter_result[column].fillna(-1024 * 1024)
-            else:
-                filter_column = filter_result[column].fillna(0)
+            filter_column = filter_result[column].fillna(0)
             if column not in float_columns and pd.api.types.is_numeric_dtype(filter_column):
                 filter_column = filter_column.astype(int)
             if filter_column.nunique() == 1:

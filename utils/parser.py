@@ -15,7 +15,7 @@ SKILL_TYPE = Tuple[SKILL_ID_TYPE, SKILL_LEVEL_TYPE]
 BUFF_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE]
 DOT_TYPE = Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE]
 DOT_DAMAGE_TYPE = Tuple[DOT_TYPE, SKILL_TYPE]
-DAMAGE_TYPE = Tuple[SKILL_TYPE, tuple]
+DAMAGE_TYPE = Tuple[SKILL_TYPE, tuple, tuple]
 
 CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE = tuple, tuple, tuple
 TOTAL_STATUS_TUPLE = Tuple[CURRENT_STATUS_TYPE, SNAPSHOT_STATUS_TYPE, TARGET_STATUS_TYPE]
@@ -413,9 +413,7 @@ class Parser(BaseParser):
         if buff.gains:
             return True
         if buff.attributes:
-            if buff.attributes is True:
-                return True
-            elif all("attack_power" in attr for attr in buff.attributes) and not damage.attack_power_call:
+            if all("attack_power" in attr for attr in buff.attributes) and not damage.attack_power_call:
                 return False
             elif all("surplus" in attr for attr in buff.attributes) and not damage.surplus_call:
                 return False
