@@ -34,12 +34,12 @@ class 阳关(Gain):
     def add_skill(self, skill: Skill):
         if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
             skill.physical_shield_gain_extra += self.value[0]
-        skill.damage_addition += self.value[1]
+        skill.damage_addition_extra += self.value[1]
 
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
             skill.physical_shield_gain_extra -= self.value[0]
-        skill.damage_addition -= self.value[1]
+        skill.damage_addition_extra -= self.value[1]
 
 
 class 星火(Gain):
