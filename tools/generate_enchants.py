@@ -3,14 +3,12 @@ from collections import defaultdict
 import pandas as pd
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP, TARGET_ATTR_TYPE_MAP
+from assets.constant import ATTR_TYPE_MAP, TARGET_ATTR_TYPE_MAP, ENCHANT_START_ID
 from tools import *
 from tools.generate_equipments import POSITION_MAP
 
 ENCHANT_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Enchant.tab"), sep="\t", low_memory=False,
                           encoding="gbk").fillna(0)
-
-ENCHANT_START_ID = 11869
 
 
 def get_enchants_list():

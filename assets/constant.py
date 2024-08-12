@@ -6,6 +6,41 @@ EQUIPMENTS_DIR = os.path.join(ASSETS_DIR, "equipments.json")
 ENCHANTS_DIR = os.path.join(ASSETS_DIR, "enchants.json")
 STONES_DIR = os.path.join(ASSETS_DIR, "stones.json")
 
+
+""" Season Constant """
+
+SPECIAL_ENCHANT_MAP = {  # TODO: Need Update In New Season
+    3: {
+        14350: [15436, 12],
+        12800: [15436, 11],
+        11500: [15436, 10],
+        10600: [15436, 9]
+    },
+    2: {
+        14350: [22151, 12],
+        12800: [22151, 11],
+        11500: [22151, 10],
+        10600: [22151, 9]
+    },
+    6: {
+        14350: [2623],
+        12800: [2553],
+        11500: [2478],
+    },
+    10: {
+        14350: [2624],
+        12800: [2554],
+        11500: [2485],
+    },
+    9: {
+        14350: [2625],
+        12800: [2555],
+        11500: [2495],
+    }
+}
+MIN_EQUIP_LEVEL = 12100
+ENCHANT_START_ID = 11869
+
 """ Equipments """
 POSITION_MAP = {
     '帽子': 'hat',
@@ -38,35 +73,6 @@ EMBED_POSITIONS = {
     "secondary_weapon": 3
 }
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
-SPECIAL_ENCHANT_MAP = {
-    3: {
-        14350: [15436, 12],
-        12800: [15436, 11],
-        11500: [15436, 10],
-        10600: [15436, 9]
-    },
-    2: {
-        14350: [22151, 12],
-        12800: [22151, 11],
-        11500: [22151, 10],
-        10600: [22151, 9]
-    },
-    6: {
-        14350: [2623],
-        12800: [2553],
-        11500: [2478],
-    },
-    10: {
-        14350: [2624],
-        12800: [2554],
-        11500: [2485],
-    },
-    9: {
-        14350: [2625],
-        12800: [2555],
-        11500: [2495],
-    }
-}
 """ Attrs """
 ATTR_TYPE_MAP = {
     "atMeleeWeaponDamageBase": "weapon_damage_base",

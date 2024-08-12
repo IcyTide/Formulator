@@ -3,8 +3,8 @@ from collections import defaultdict
 import pandas as pd
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP, MAX_SET_COUNT, MAX_SET_ATTR, SPECIAL_ENCHANT_MAP, TARGET_ATTR_TYPE_MAP
-from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR
+from assets.constant import ATTR_TYPE_MAP, MIN_EQUIP_LEVEL, SPECIAL_ENCHANT_MAP, TARGET_ATTR_TYPE_MAP
+from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_SET_COUNT, MAX_SET_ATTR
 from schools import SUPPORT_SCHOOLS
 from tools import *
 
@@ -48,7 +48,6 @@ TRINKET_TAB['Score'] = TRINKET_TAB.apply(
     lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
 )
 
-MIN_EQUIP_LEVEL = 12100
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }

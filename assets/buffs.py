@@ -8220,6 +8220,30 @@ BUFFS = {
             "诛邪"
         ]
     },
+    25721: {
+        "attributes": [
+            {
+                "magical_damage_addition": 102
+            },
+            {
+                "magical_damage_addition": 154
+            },
+            {
+                "magical_damage_addition": 307
+            }
+        ],
+        "max_level": 3,
+        "max_stack": [
+            3,
+            4,
+            4
+        ],
+        "buff_name": [
+            "日月齐光",
+            "日月齐光·贰",
+            "日月齐光·叁"
+        ]
+    },
     12575: {
         "attributes": [
             {
@@ -8886,6 +8910,24 @@ BUFFS = {
         ],
         "buff_name": [
             "爆体"
+        ]
+    },
+    4423: {
+        "attributes": [
+            {},
+            {},
+            {}
+        ],
+        "max_level": 3,
+        "max_stack": [
+            3,
+            1,
+            3
+        ],
+        "buff_name": [
+            "光明相",
+            "光明相",
+            "光明相"
         ]
     },
     23066: {

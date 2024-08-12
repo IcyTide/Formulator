@@ -2,14 +2,6 @@ from assets.constant import ATTR_TYPE_TRANSLATE
 from general.gains import GENERAL_GAINS
 
 
-def consumable_attribute(gain):
-    attributes = {}
-    for attr, value in gain.attributes.items():
-        if value := gain.attribute_value(values):
-            attributes[attr] = value
-    return attributes
-
-
 def consumable_name(name, attributes):
     return f"{name}({''.join(f'{v}{ATTR_TYPE_TRANSLATE[k]}' for k, v in attributes.items())})"
 
