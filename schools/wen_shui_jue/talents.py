@@ -1,21 +1,21 @@
 from typing import Dict
 
+from base.gain import Gains
 from base.recipe import PhysicalCriticalRecipe
-from base.talent import Talent
 
-TALENT_GAINS: Dict[int, Talent] = {
-    5953: Talent("淘尽", [PhysicalCriticalRecipe((1000, 102), 1600, 1600)]),
-    5954: Talent("清风", [PhysicalCriticalRecipe((1000, 102), 1593, 1593)]),
-    5952: Talent("岱宗"),
-    18682: Talent("景行"),
-    5964: Talent("造化"),
-    5957: Talent("怜光"),
-    6545: Talent("层云"),
-    30862: Talent("山倾"),
-    6534: Talent("雾锁"),
-    6548: Talent("碧归"),
-    14605: Talent("如风"),
-    25070: Talent("飞来闻踪")
+TALENT_GAINS: Dict[int, Gains] = {
+    5953: Gains("淘尽", [PhysicalCriticalRecipe((1000, 102), 1600, 1600)]),
+    5954: Gains("清风", [PhysicalCriticalRecipe((1000, 102), 1593, 1593)]),
+    5952: Gains("岱宗"),
+    18682: Gains("景行"),
+    5964: Gains("造化"),
+    5957: Gains("怜光"),
+    6545: Gains("层云"),
+    30862: Gains("山倾"),
+    6534: Gains("雾锁"),
+    6548: Gains("碧归"),
+    14605: Gains("如风"),
+    25070: Gains("飞来闻踪")
 }
 
 TALENTS = [

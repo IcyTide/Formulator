@@ -2,6 +2,7 @@ from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, List, Union
 
+from assets.buffs import BUFFS
 from base.attribute import Attribute
 from base.skill import Skill
 
@@ -24,6 +25,10 @@ class BaseBuff:
 
     _max_stack: List[int] = None
     interval: int = 0
+
+    def set_asset(self):
+        for attr, value in BUFFS.get(abs(self.buff_id), {}).items():
+            setattr(self, attr, value)
 
     @property
     def display_name(self):

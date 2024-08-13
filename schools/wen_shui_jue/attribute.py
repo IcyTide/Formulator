@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class WenShuiJue(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1638 / BINARY_SCALE
     AGILITY_TO_OVERCOME = 256 / BINARY_SCALE
 

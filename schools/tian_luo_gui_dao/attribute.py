@@ -2,7 +2,7 @@ from base.attribute import MixingAttribute
 from base.constant import *
 
 
-class TianLuoGuiDao(MixingAttribute):
+class Attribute(MixingAttribute):
     SPUNK_TO_ATTACK_POWER = 1792 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 584 / BINARY_SCALE
 

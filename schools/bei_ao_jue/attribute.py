@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class BeiAoJue(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1587 / BINARY_SCALE
     STRENGTH_TO_OVERCOME = 369 / BINARY_SCALE
 

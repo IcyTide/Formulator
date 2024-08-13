@@ -2,7 +2,7 @@ from base.attribute import PoisonAttribute
 from base.constant import *
 
 
-class DuJing(PoisonAttribute):
+class Attribute(PoisonAttribute):
     SPIRIT_TO_ATTACK_POWER = 1997 / BINARY_SCALE
     SPIRIT_TO_OVERCOME = 195 / BINARY_SCALE
 

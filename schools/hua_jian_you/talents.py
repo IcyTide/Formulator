@@ -1,10 +1,9 @@
 from typing import Dict
 
 from base.buff import Buff
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import MagicalCriticalRecipe
 from base.skill import Skill
-from base.talent import Talent
 from schools.hua_jian_you.skills import 快雪时晴秘章
 
 
@@ -48,28 +47,28 @@ class 忘机(Gain):
         skills[101593].post_buffs.pop((70161, 30))
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    5756: Talent("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
-    32489: Talent("青冠"),
-    17510: Talent("倚天"),
-    37267: Talent("墨海临源"),
-    21744: Talent("折花"),
-    32477: Talent("雪中行"),
-    16855: Talent("清流", [清流()]),
-    26692: Talent("钟灵"),
-    6682: Talent("流离"),
-    32480: Talent("雪弃"),
-    32469: Talent("焚玉"),
-    26669: Talent("故幽", [
+TALENT_GAINS: Dict[int, Gains] = {
+    5756: Gains("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
+    32489: Gains("青冠"),
+    17510: Gains("倚天"),
+    37267: Gains("墨海临源"),
+    21744: Gains("折花"),
+    32477: Gains("雪中行"),
+    16855: Gains("清流", [清流()]),
+    26692: Gains("钟灵"),
+    6682: Gains("流离"),
+    32480: Gains("雪弃"),
+    32469: Gains("焚玉"),
+    26669: Gains("故幽", [
         MagicalCriticalRecipe((1500, 154), skill_id, skill_recipe)
         for skill_id, skill_recipe in ((186, 186), (6134, 0), (6135, 0), (6136, 0), (0, 32409))
     ]),
-    14643: Talent("涓流"),
+    14643: Gains("涓流"),
 
-    100488: Talent("陶然", [陶然()]),
-    100489: Talent("忘机", [忘机()]),
-    100491: Talent("渡泉"),
-    100051: Talent("乱洒青荷")
+    100488: Gains("陶然", [陶然()]),
+    100489: Gains("忘机", [忘机()]),
+    100491: Gains("渡泉"),
+    100051: Gains("乱洒青荷")
 }
 
 TALENTS = [

@@ -1,9 +1,8 @@
 from typing import Dict
 
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import DamageAdditionRecipe, MagicalCriticalRecipe
 from base.skill import Skill
-from base.talent import Talent
 
 
 class 明法(Gain):
@@ -52,28 +51,28 @@ class 华香(Gain):
             skill.solar_shield_gain_extra -= self.value
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    5896: Talent("涅果", [DamageAdditionRecipe(102, 232, 232)]),
-    6589: Talent("明法", [明法()]),
-    6788: Talent("秉心"),
-    5910: Talent("幻身"),
-    5912: Talent("善心"),
-    5915: Talent("身意", [MagicalCriticalRecipe((1000, 102), 2572, 2572)]),
-    30913: Talent("纷纭"),
-    37455: Talent("布泽"),
-    17750: Talent("缩地"),
-    5913: Talent("降魔渡厄"),
-    17730: Talent("金刚怒目"),
-    6590: Talent("净果"),
-    6586: Talent("三生"),
-    24884: Talent("我闻", [MagicalCriticalRecipe((1000, 205), 235, 235)]),
-    6596: Talent("众嗔", [众嗔()]),
-    5906: Talent("华香", [华香(-614, skill_id, skill_id) for skill_id in (233, 243, 2572, 232)]),
-    32647: Talent("无执"),
-    14820: Talent("佛果"),
-    32648: Talent("金刚日轮"),
-    32651: Talent("业因"),
-    32649: Talent("无诤")
+TALENT_GAINS: Dict[int, Gains] = {
+    5896: Gains("涅果", [DamageAdditionRecipe(102, 232, 232)]),
+    6589: Gains("明法", [明法()]),
+    6788: Gains("秉心"),
+    5910: Gains("幻身"),
+    5912: Gains("善心"),
+    5915: Gains("身意", [MagicalCriticalRecipe((1000, 102), 2572, 2572)]),
+    30913: Gains("纷纭"),
+    37455: Gains("布泽"),
+    17750: Gains("缩地"),
+    5913: Gains("降魔渡厄"),
+    17730: Gains("金刚怒目"),
+    6590: Gains("净果"),
+    6586: Gains("三生"),
+    24884: Gains("我闻", [MagicalCriticalRecipe((1000, 205), 235, 235)]),
+    6596: Gains("众嗔", [众嗔()]),
+    5906: Gains("华香", [华香(-614, skill_id, skill_id) for skill_id in (233, 243, 2572, 232)]),
+    32647: Gains("无执"),
+    14820: Gains("佛果"),
+    32648: Gains("金刚日轮"),
+    32651: Gains("业因"),
+    32649: Gains("无诤")
 }
 
 TALENTS = [

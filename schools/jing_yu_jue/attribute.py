@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class JingYuJue(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1485 / BINARY_SCALE
     STRENGTH_TO_CRITICAL_STRIKE = 604 / BINARY_SCALE
 

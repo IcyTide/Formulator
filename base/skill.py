@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
+from assets.skills import SKILLS
 from base.attribute import Attribute, PhysicalAttribute
 from base.constant import *
 from utils.damage import *
@@ -10,6 +11,10 @@ class BaseSkill:
     skill_id: int = 0
     _skill_name: List[str] = None
     skill_level: int = 0
+
+    def set_asset(self):
+        for attr, value in SKILLS.get(self.skill_id, {}).items():
+            setattr(self, attr, value)
 
     @property
     def display_name(self):

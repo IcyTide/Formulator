@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class TaiXuJianYi(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1485 / BINARY_SCALE
     AGILITY_TO_CRITICAL_STRIKE = 594 / BINARY_SCALE
 

@@ -1,7 +1,5 @@
 from typing import Dict
 
-from assets.setter import set_skill, set_dot
-from base.dot import Dot
 from base.skill import Skill
 from general.skills import GENERAL_SKILLS
 
@@ -16,9 +14,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         3889: dict(consume_dot=2920)
     }
 }
-SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
-    Dot: {2920: {}}
-}
+
 MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         100388: {}, 101635: {}, 101655: {}, 101649: {}, 101610: {}, 101612: {}, 101609: {}, 100444: {}, 100564: {},
@@ -27,38 +23,18 @@ MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
         101607: dict(consume_dot=70030)
     }
 }
-MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
-    Dot: {
-        70030: {}
-    }
-}
 SKILLS = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)
         for attr, value in attrs.items():
             setattr(skill, attr, value)
-        set_skill(skill)
+        skill.set_asset()
         SKILLS[skill_id] = skill
 for skill_class, skills in MOBILE_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)
         for attr, value in attrs.items():
             setattr(skill, attr, value)
-        set_skill(skill)
+        skill.set_asset()
         SKILLS[skill_id] = skill
-DOTS = {}
-for dot_class, dots in SCHOOL_DOTS.items():
-    for dot_id, attrs in dots.items():
-        dot = dot_class(dot_id)
-        for attr, value in attrs.items():
-            setattr(dot, attr, value)
-        set_dot(dot)
-        DOTS[dot_id] = dot
-for dot_class, dots in MOBILE_DOTS.items():
-    for dot_id, attrs in dots.items():
-        dot = dot_class(dot_id)
-        for attr, value in attrs.items():
-            setattr(dot, attr, value)
-        set_dot(dot)
-        DOTS[dot_id] = dot

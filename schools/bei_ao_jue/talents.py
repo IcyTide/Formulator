@@ -1,10 +1,9 @@
 from typing import Dict
 
 from base.attribute import Attribute
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import DamageAdditionRecipe, ChannelIntervalRecipe
 from base.skill import Skill
-from base.talent import Talent
 from schools.bei_ao_jue.skills import 项王击鼎秘章
 
 
@@ -86,28 +85,28 @@ class 裁魂(Gain):
         skills[101198].post_target_buffs.pop((70454, 1))
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    16691: Talent("龙息"),
-    16847: Talent("归酣"),
-    26904: Talent("冥鼓", [冥鼓((-512, 205), skill_id, skill_id) for skill_id in (16601, 16602)]),
-    17042: Talent("阳关", [阳关((-205, 154), 16627, 16627)]),
-    16799: Talent("霜天"),
-    25633: Talent("含风"),
-    32857: Talent("见尘"),
-    37982: Talent("临江"),
-    17047: Talent("分疆"),
-    25258: Talent("掠关"),
-    16728: Talent("星火", [星火()]),
-    34677: Talent("绝河", [DamageAdditionRecipe(154, 16602, 16602)]),
-    16737: Talent("楚歌"),
-    17056: Talent("绝期", [ChannelIntervalRecipe(1.7, 17058, 0)]),
-    16893: Talent("重烟"),
-    21858: Talent("降麒式"),
+TALENT_GAINS: Dict[int, Gains] = {
+    16691: Gains("龙息"),
+    16847: Gains("归酣"),
+    26904: Gains("冥鼓", [冥鼓((-512, 205), skill_id, skill_id) for skill_id in (16601, 16602)]),
+    17042: Gains("阳关", [阳关((-205, 154), 16627, 16627)]),
+    16799: Gains("霜天"),
+    25633: Gains("含风"),
+    32857: Gains("见尘"),
+    37982: Gains("临江"),
+    17047: Gains("分疆"),
+    25258: Gains("掠关"),
+    16728: Gains("星火", [星火()]),
+    34677: Gains("绝河", [DamageAdditionRecipe(154, 16602, 16602)]),
+    16737: Gains("楚歌"),
+    17056: Gains("绝期", [ChannelIntervalRecipe(1.7, 17058, 0)]),
+    16893: Gains("重烟"),
+    21858: Gains("降麒式"),
 
-    101296: Talent("征踏", [征踏()]),
-    101299: Talent("裁魂", [裁魂()]),
-    101300: Talent("霸王"),
-    101015: Talent("上将军印")
+    101296: Gains("征踏", [征踏()]),
+    101299: Gains("裁魂", [裁魂()]),
+    101300: Gains("霸王"),
+    101015: Gains("上将军印")
 }
 
 TALENTS = [

@@ -1,6 +1,5 @@
 from typing import Dict
 
-from assets.setter import set_buff
 from base.buff import Buff
 
 GENERAL_BUFFS: Dict[int, dict] = {
@@ -20,7 +19,7 @@ BUFFS: Dict[int, Buff] = {}
 for buff_id, attrs in GENERAL_BUFFS.items():
     buff = Buff(buff_id)
     buff.activate = False
-    set_buff(buff)
+    buff.set_asset()
     for attr, value in attrs.items():
         setattr(buff, attr, value)
     BUFFS[buff_id] = buff
@@ -28,7 +27,7 @@ GAINS: Dict[int, Buff] = {}
 for buff_id, attrs in GENERAL_GAINS.items():
     buff = Buff(buff_id)
     buff.activate = False
-    set_buff(buff)
+    buff.set_asset()
     for attr, value in attrs.items():
         setattr(buff, attr, value)
     GAINS[buff_id] = buff

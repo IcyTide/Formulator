@@ -1,6 +1,5 @@
 from typing import Dict
 
-from assets.setter import set_buff
 from base.buff import Buff, CustomBuff
 from base.gain import Gain
 from base.recipe import DamageAdditionRecipe
@@ -24,7 +23,7 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
         -12608: dict(buff_name="风虎", activate=False, interval=4,
                      gains=[[DamageAdditionRecipe(value, skill_id, skill_id) for skill_id in (400, 403, 415, 423)]
                             for value in (51, 102, 154, 205, 256)]),
-        -26008: dict(buff_name="战心", interval=4, gains=[战心(skill_id=401, skill_recipe=401)]),
+        -26008: dict(buff_name="战心", interval=4, gains=[战心(skill_id=401, recipe_type=401)]),
         1911: dict(begin_buffs={(-1, 1): 5}),
     },
     CustomBuff: {
@@ -35,7 +34,7 @@ BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
-        set_buff(buff)
+        buff.set_asset()
         for attr, value in attrs.items():
             setattr(buff, attr, value)
         BUFFS[buff_id] = buff

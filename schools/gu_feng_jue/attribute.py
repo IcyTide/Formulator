@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class GuFengJue(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1638 / BINARY_SCALE
     STRENGTH_TO_CRITICAL_STRIKE = 256 / BINARY_SCALE
 

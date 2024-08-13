@@ -2,7 +2,7 @@ from base.attribute import NeutralAttribute
 from base.constant import BINARY_SCALE
 
 
-class ZiXiaGong(NeutralAttribute):
+class Attribute(NeutralAttribute):
     SPIRIT_TO_ATTACK_POWER = 1792 / BINARY_SCALE
     SPIRIT_TO_CRITICAL_STRIKE = 573 / BINARY_SCALE
 

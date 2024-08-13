@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class AoXueZhanYi(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     STRENGTH_TO_ATTACK_POWER = 1638 / BINARY_SCALE
     STRENGTH_TO_OVERCOME = 256 / BINARY_SCALE
 

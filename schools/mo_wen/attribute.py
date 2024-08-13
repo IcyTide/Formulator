@@ -2,7 +2,7 @@ from base.attribute import LunarAttribute
 from base.constant import *
 
 
-class MoWen(LunarAttribute):
+class Attribute(LunarAttribute):
     SPIRIT_TO_ATTACK_POWER = 1895 / BINARY_SCALE
     SPIRIT_TO_CRITICAL_STRIKE = 389 / BINARY_SCALE
 

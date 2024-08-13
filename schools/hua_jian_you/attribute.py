@@ -2,7 +2,7 @@ from base.attribute import NeutralAttribute
 from base.constant import *
 
 
-class HuaJianYou(NeutralAttribute):
+class Attribute(NeutralAttribute):
     SPUNK_TO_ATTACK_POWER = 1997 / BINARY_SCALE
     SPUNK_TO_OVERCOME = 195 / BINARY_SCALE
 

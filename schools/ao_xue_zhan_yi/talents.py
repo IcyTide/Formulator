@@ -1,10 +1,9 @@
 from typing import Dict
 
 from base.buff import Buff
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import DamageAdditionRecipe, PhysicalCriticalRecipe
 from base.skill import Skill
-from base.talent import Talent
 
 
 class 风虎(Gain):
@@ -53,24 +52,24 @@ class 虎贲(Gain):
         buffs[28169].end_effects.remove(self.end_effect)
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    18487: Talent("百折"),
-    5656: Talent("封侯", [DamageAdditionRecipe(102, 0, 400)]),
-    5657: Talent("扬戈", [PhysicalCriticalRecipe((1000, 102), 400, 400)]),
-    5660: Talent("神勇", [PhysicalCriticalRecipe((1000, 102), 415, 415)]),
-    5659: Talent("大漠"),
-    18602: Talent("骁勇", [骁勇(skill_id=401, skill_recipe=401)]),
-    24896: Talent("龙驭"),
-    18226: Talent("击水"),
-    14824: Talent("驰骋"),
-    6511: Talent("牧云"),
-    5666: Talent("风虎", [风虎()]),
-    6781: Talent("战心", [战心()]),
-    6524: Talent("破楼兰"),
-    2628: Talent("渊"),
-    5678: Talent("夜征"),
-    15001: Talent("龙血"),
-    6517: Talent("虎贲", [虎贲()])
+TALENT_GAINS: Dict[int, Gains] = {
+    18487: Gains("百折"),
+    5656: Gains("封侯", [DamageAdditionRecipe(102, 0, 400)]),
+    5657: Gains("扬戈", [PhysicalCriticalRecipe((1000, 102), 400, 400)]),
+    5660: Gains("神勇", [PhysicalCriticalRecipe((1000, 102), 415, 415)]),
+    5659: Gains("大漠"),
+    18602: Gains("骁勇", [骁勇(skill_id=401, recipe_type=401)]),
+    24896: Gains("龙驭"),
+    18226: Gains("击水"),
+    14824: Gains("驰骋"),
+    6511: Gains("牧云"),
+    5666: Gains("风虎", [风虎()]),
+    6781: Gains("战心", [战心()]),
+    6524: Gains("破楼兰"),
+    2628: Gains("渊"),
+    5678: Gains("夜征"),
+    15001: Gains("龙血"),
+    6517: Gains("虎贲", [虎贲()])
 }
 
 TALENTS = [

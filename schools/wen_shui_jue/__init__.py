@@ -1,8 +1,9 @@
-from schools.wen_shui_jue.attribute import WenShuiJue
+from schools.wen_shui_jue.attribute import Attribute
 from schools.wen_shui_jue.buffs import BUFFS
+from schools.wen_shui_jue.dots import DOTS
 from schools.wen_shui_jue.gains import GAINS
 from schools.wen_shui_jue.recipes import RECIPE_GAINS, RECIPES
-from schools.wen_shui_jue.skills import SKILLS, DOTS
+from schools.wen_shui_jue.skills import SKILLS
 from schools.wen_shui_jue.talents import TALENT_GAINS, TALENTS, TALENT_DECODER, TALENT_ENCODER
 
 

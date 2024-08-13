@@ -2,9 +2,8 @@ from typing import Dict
 
 from base.attribute import Attribute
 from base.buff import Buff
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import PhysicalCriticalRecipe, DamageAdditionRecipe, PveAdditionRecipe
-from base.talent import Talent
 
 
 class 神降(Gain):
@@ -23,28 +22,28 @@ class 梦悠(Gain):
         attribute.all_shield_ignore -= 307
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    20333: Talent("江汉", [PhysicalCriticalRecipe((1000, 102), 19818, 19818)]),
-    20756: Talent("凌霄", [DamageAdditionRecipe(205, 20052, 0)]),
-    20335: Talent("扶桑", [DamageAdditionRecipe(102, 19827, 19827)]),
-    20746: Talent("羽彰"),
-    20348: Talent("清源"),
-    30912: Talent("游仙"),
-    25272: Talent("青冥"),
-    20751: Talent("鸿轨"),
-    25270: Talent("烟涛"),
-    20730: Talent("怅归"),
-    21293: Talent("溯徊"),
-    32476: Talent("风驰"),
-    20374: Talent("驰行"),
-    20758: Talent("神降", [神降()]),
-    20747: Talent("梦悠", [梦悠()]),
-    20701: Talent("濯流", [PveAdditionRecipe(1536, 20259, 20259)]),
+TALENT_GAINS: Dict[int, Gains] = {
+    20333: Gains("江汉", [PhysicalCriticalRecipe((1000, 102), 19818, 19818)]),
+    20756: Gains("凌霄", [DamageAdditionRecipe(205, 20052, 0)]),
+    20335: Gains("扶桑", [DamageAdditionRecipe(102, 19827, 19827)]),
+    20746: Gains("羽彰"),
+    20348: Gains("清源"),
+    30912: Gains("游仙"),
+    25272: Gains("青冥"),
+    20751: Gains("鸿轨"),
+    25270: Gains("烟涛"),
+    20730: Gains("怅归"),
+    21293: Gains("溯徊"),
+    32476: Gains("风驰"),
+    20374: Gains("驰行"),
+    20758: Gains("神降", [神降()]),
+    20747: Gains("梦悠", [梦悠()]),
+    20701: Gains("濯流", [PveAdditionRecipe(1536, 20259, 20259)]),
 
-    101166: Talent("鹏程"),
-    101168: Talent("浩渺"),
-    101170: Talent("海溟"),
-    102111: Talent("澹然若海"),
+    101166: Gains("鹏程"),
+    101168: Gains("浩渺"),
+    101170: Gains("海溟"),
+    102111: Gains("澹然若海"),
 }
 
 TALENTS = [

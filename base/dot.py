@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
+from assets.dots import DOTS
 from base.attribute import Attribute
 from base.buff import BaseBuff
 from base.constant import PHYSICAL_DOT_ATTACK_POWER_COF, MAGICAL_DOT_ATTACK_POWER_COF
@@ -23,6 +24,10 @@ class BaseDot(BaseBuff):
     interval_extra: int = 0
     _tick: List[int] = []
     tick_extra: int = 0
+
+    def set_asset(self):
+        for attr, value in DOTS.get(self.buff_id, {}).items():
+            setattr(self, attr, value)
 
     @property
     def magical_damage_call(self):

@@ -2,7 +2,7 @@ from base.attribute import NeutralAttribute
 from base.constant import *
 
 
-class TaiXuanJing(NeutralAttribute):
+class Attribute(NeutralAttribute):
     SPUNK_TO_ATTACK_POWER = 1843 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 481 / BINARY_SCALE
 

@@ -1,9 +1,8 @@
 from typing import Dict
 
 from base.attribute import Attribute
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import DamageAdditionRecipe, MoveStateDamageAdditionRecipe
-from base.talent import Talent
 
 
 class 王师(Gain):
@@ -14,23 +13,23 @@ class 王师(Gain):
         attribute.agility_gain -= 102
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    22557: Talent("星旗"),
-    22560: Talent("秋霁"),
-    22562: Talent("雪覆"),
-    26760: Talent("遗恨"),
-    22586: Talent("折意"),
-    22571: Talent("风骨"),
-    23309: Talent("北阙"),
-    22575: Talent("渊岳", [DamageAdditionRecipe(410, 22327, 22327)]),
-    22579: Talent("玄肃", [MoveStateDamageAdditionRecipe(307, 22320, 22320)]),
-    29166: Talent("飞刃回转"),
-    22583: Talent("王师", [王师()]),
-    22593: Talent("百节"),
-    22587: Talent("忘断"),
-    22596: Talent("徵逐"),
-    22603: Talent("青山共我"),
-    30849: Talent("孤路")
+TALENT_GAINS: Dict[int, Gains] = {
+    22557: Gains("星旗"),
+    22560: Gains("秋霁"),
+    22562: Gains("雪覆"),
+    26760: Gains("遗恨"),
+    22586: Gains("折意"),
+    22571: Gains("风骨"),
+    23309: Gains("北阙"),
+    22575: Gains("渊岳", [DamageAdditionRecipe(410, 22327, 22327)]),
+    22579: Gains("玄肃", [MoveStateDamageAdditionRecipe(307, 22320, 22320)]),
+    29166: Gains("飞刃回转"),
+    22583: Gains("王师", [王师()]),
+    22593: Gains("百节"),
+    22587: Gains("忘断"),
+    22596: Gains("徵逐"),
+    22603: Gains("青山共我"),
+    30849: Gains("孤路")
 }
 
 TALENTS = [

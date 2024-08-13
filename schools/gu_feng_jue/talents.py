@@ -1,10 +1,9 @@
 from typing import Dict
 
 from base.attribute import Attribute
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import PhysicalCriticalRecipe, DamageAdditionRecipe, ExtraTickRecipe, PveAdditionRecipe
 from base.skill import Skill
-from base.talent import Talent
 
 
 class 放皓(Gain):
@@ -77,32 +76,32 @@ class 斩涛(Gain):
         attribute.strength_gain -= 154
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    32450: Talent("渊冲", [PhysicalCriticalRecipe((1000, 102), 32132, 32132)]),
-    32580: Talent("戗风", [DamageAdditionRecipe(82, skill_id, skill_id) for skill_id in (32145, 32144, 32601)]),
-    32464: Talent("溃延"),
-    32456: Talent("雨积"),
-    32490: Talent("放皓", [放皓(skill_id=32601, skill_recipe=32601)]),
-    32492: Talent("电逝"),
-    33027: Talent("威声"),
-    32497: Talent("击懈", [PveAdditionRecipe(1024, 32134, 32134)]),
-    32500: Talent("承磊"),
-    32502: Talent("滔天"),
-    32457: Talent("镇机"),
-    32512: Talent("界破"),
-    32508: Talent("长溯"),
-    32511: Talent("涣衍", [ExtraTickRecipe(6, 24443, 0)]),
-    32513: Talent("涤瑕", [涤瑕(skill_id=32144, skill_recipe=32144)]),
-    32578: Talent("强膂", [强膂()]),
-    32493: Talent("流岚"),
-    32452: Talent("聚疏"),
-    36035: Talent("潋风"),
-    32586: Talent("截辕"),
+TALENT_GAINS: Dict[int, Gains] = {
+    32450: Gains("渊冲", [PhysicalCriticalRecipe((1000, 102), 32132, 32132)]),
+    32580: Gains("戗风", [DamageAdditionRecipe(82, skill_id, skill_id) for skill_id in (32145, 32144, 32601)]),
+    32464: Gains("溃延"),
+    32456: Gains("雨积"),
+    32490: Gains("放皓", [放皓(skill_id=32601, recipe_type=32601)]),
+    32492: Gains("电逝"),
+    33027: Gains("威声"),
+    32497: Gains("击懈", [PveAdditionRecipe(1024, 32134, 32134)]),
+    32500: Gains("承磊"),
+    32502: Gains("滔天"),
+    32457: Gains("镇机"),
+    32512: Gains("界破"),
+    32508: Gains("长溯"),
+    32511: Gains("涣衍", [ExtraTickRecipe(6, 24443, 0)]),
+    32513: Gains("涤瑕", [涤瑕(skill_id=32144, recipe_type=32144)]),
+    32578: Gains("强膂", [强膂()]),
+    32493: Gains("流岚"),
+    32452: Gains("聚疏"),
+    36035: Gains("潋风"),
+    32586: Gains("截辕"),
 
-    101537: Talent("斩涛", [斩涛()]),
-    101539: Talent("披靡"),
-    101542: Talent("倒海"),
-    101395: Talent("孤风破浪")
+    101537: Gains("斩涛", [斩涛()]),
+    101539: Gains("披靡"),
+    101542: Gains("倒海"),
+    101395: Gains("孤风破浪")
 }
 
 TALENTS = [

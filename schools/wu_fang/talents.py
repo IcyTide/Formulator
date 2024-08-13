@@ -3,10 +3,9 @@ from typing import Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.dot import Dot
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
-from base.talent import Talent
 from schools.wu_fang.skills import 鬼门加成
 
 
@@ -28,32 +27,32 @@ class 鬼门(Gain):
         鬼门加成.talent_activate = False
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    28343: Talent("淮茵"),
-    28338: Talent("怯邪"),
-    27530: Talent("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    28344: Talent("鸩羽", [鸩羽(1000, 27556, 27556)]),
-    28361: Talent("结草"),
-    29498: Talent("灵荆"),
-    29499: Talent("苦苛"),
-    28406: Talent("遍休"),
-    28410: Talent("坚阴"),
-    28413: Talent("相使"),
-    28419: Talent("凄骨"),
-    28432: Talent("疾根", [ExtraTickRecipe(1, 20052)]),
-    28433: Talent("紫伏"),
-    28431: Talent("避奚"),
-    30734: Talent("折枝拂露"),
-    28443: Talent("甘遂"),
-    28458: Talent("炮阳"),
-    28415: Talent("荆障"),
-    32896: Talent("应理与药"),
-    28426: Talent("养荣"),
+TALENT_GAINS: Dict[int, Gains] = {
+    28343: Gains("淮茵"),
+    28338: Gains("怯邪"),
+    27530: Gains("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
+    28344: Gains("鸩羽", [鸩羽(1000, 27556, 27556)]),
+    28361: Gains("结草"),
+    29498: Gains("灵荆"),
+    29499: Gains("苦苛"),
+    28406: Gains("遍休"),
+    28410: Gains("坚阴"),
+    28413: Gains("相使"),
+    28419: Gains("凄骨"),
+    28432: Gains("疾根", [ExtraTickRecipe(1, 20052)]),
+    28433: Gains("紫伏"),
+    28431: Gains("避奚"),
+    30734: Gains("折枝拂露"),
+    28443: Gains("甘遂"),
+    28458: Gains("炮阳"),
+    28415: Gains("荆障"),
+    32896: Gains("应理与药"),
+    28426: Gains("养荣"),
 
-    101419: Talent("鬼门", [鬼门()]),
-    101422: Talent("神莹"),
-    101423: Talent("济世"),
-    101370: Talent("苍棘缚地"),
+    101419: Gains("鬼门", [鬼门()]),
+    101422: Gains("神莹"),
+    101423: Gains("济世"),
+    101370: Gains("苍棘缚地"),
 }
 
 TALENTS = [

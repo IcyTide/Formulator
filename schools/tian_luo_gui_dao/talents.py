@@ -1,9 +1,8 @@
 from typing import Dict
 
 from base.buff import Buff
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import PhysicalCriticalRecipe
-from base.talent import Talent
 
 
 class 杀机断魂(Gain):
@@ -14,24 +13,24 @@ class 杀机断魂(Gain):
         buffs[-24668].activate = False
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    28371: Talent("血影留痕"),
-    6493: Talent("天风汲雨"),
-    6495: Talent("弩击急骤"),
-    6506: Talent("千机之威"),
-    30921: Talent("擘两分星"),
-    6441: Talent("流星赶月", [PhysicalCriticalRecipe((1000, 100), 3093, 3093)]),
-    37326: Talent("确固不拔"),
-    6451: Talent("聚精凝神"),
-    18249: Talent("化血迷心"),
-    33134: Talent("杀机断魂", [杀机断魂()]),
-    14857: Talent("雷甲三铉"),
-    6461: Talent("秋风散影"),
-    34679: Talent("雀引彀中"),
-    37327: Talent("云合影从"),
-    14856: Talent("曙色催寒"),
-    32742: Talent("诡鉴冥微"),
-    18675: Talent("千秋万劫")
+TALENT_GAINS: Dict[int, Gains] = {
+    28371: Gains("血影留痕"),
+    6493: Gains("天风汲雨"),
+    6495: Gains("弩击急骤"),
+    6506: Gains("千机之威"),
+    30921: Gains("擘两分星"),
+    6441: Gains("流星赶月", [PhysicalCriticalRecipe((1000, 100), 3093, 3093)]),
+    37326: Gains("确固不拔"),
+    6451: Gains("聚精凝神"),
+    18249: Gains("化血迷心"),
+    33134: Gains("杀机断魂", [杀机断魂()]),
+    14857: Gains("雷甲三铉"),
+    6461: Gains("秋风散影"),
+    34679: Gains("雀引彀中"),
+    37327: Gains("云合影从"),
+    14856: Gains("曙色催寒"),
+    32742: Gains("诡鉴冥微"),
+    18675: Gains("千秋万劫")
 }
 
 TALENTS = [

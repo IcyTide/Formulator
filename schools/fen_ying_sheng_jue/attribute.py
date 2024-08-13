@@ -2,7 +2,7 @@ from base.attribute import LunarAttribute
 from base.constant import *
 
 
-class FenYingShengJue(LunarAttribute):
+class Attribute(LunarAttribute):
     SPUNK_TO_ATTACK_POWER = 1946 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 297 / BINARY_SCALE
 

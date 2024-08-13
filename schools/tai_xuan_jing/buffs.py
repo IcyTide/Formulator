@@ -1,6 +1,5 @@
 from typing import Dict
 
-from assets.setter import set_buff
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 from schools.tai_xuan_jing.talents import 重山
@@ -18,7 +17,7 @@ BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
-        set_buff(buff)
+        buff.set_asset()
         for attr, value in attrs.items():
             setattr(buff, attr, value)
         BUFFS[buff_id] = buff

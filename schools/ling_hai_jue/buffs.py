@@ -1,6 +1,5 @@
 from typing import Dict
 
-from assets.setter import set_buff
 from base.buff import Buff, CustomBuff
 from base.recipe import DamageAdditionRecipe, PhysicalCriticalRecipe
 from general.buffs import GENERAL_BUFFS
@@ -24,14 +23,14 @@ BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
-        set_buff(buff)
+        buff.set_asset()
         for attr, value in attrs.items():
             setattr(buff, attr, value)
         BUFFS[buff_id] = buff
 for buff_class, buffs in MOBILE_BUFFS.items():
     for buff_id, attrs in buffs.items():
         buff = buff_class(buff_id)
-        set_buff(buff)
+        buff.set_asset()
         for attr, value in attrs.items():
             setattr(buff, attr, value)
         BUFFS[buff_id] = buff

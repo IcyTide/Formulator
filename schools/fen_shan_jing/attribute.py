@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class FenShanJing(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1751 / BINARY_SCALE
 
     def __init__(self, platform=0):

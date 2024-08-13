@@ -1,6 +1,5 @@
 from typing import Dict, Tuple
 
-from assets.setter import set_buff
 from base.buff import Buff
 
 FORMATION_BUFFS: Dict[int, Tuple[int, int, int, int]] = {
@@ -34,12 +33,12 @@ for buff_id, buff_ids in FORMATION_BUFFS.items():
     for sub_buff_id in (buff_id, buff_ids[0]):
         buff = Buff(sub_buff_id)
         buff.activate = False
-        set_buff(buff)
+        buff.set_asset()
         GAINS[sub_buff_id] = buff
     for sub_buff_id in buff_ids[1:]:
         if not sub_buff_id:
             continue
         buff = Buff(sub_buff_id)
         buff.activate = False
-        set_buff(buff)
+        buff.set_asset()
         BUFFS[sub_buff_id] = buff

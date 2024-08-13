@@ -2,7 +2,7 @@ from base.attribute import PhysicalAttribute
 from base.constant import *
 
 
-class LingHaiJue(PhysicalAttribute):
+class Attribute(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1587 / BINARY_SCALE
     AGILITY_TO_CRITICAL_STRIKE = 369 / BINARY_SCALE
 

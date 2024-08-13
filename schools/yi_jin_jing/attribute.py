@@ -2,7 +2,7 @@ from base.attribute import SolarAttribute
 from base.constant import *
 
 
-class YiJinJing(SolarAttribute):
+class Attribute(SolarAttribute):
     SPUNK_TO_ATTACK_POWER = 1894 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 389 / BINARY_SCALE
 

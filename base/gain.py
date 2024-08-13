@@ -1,4 +1,4 @@
-from typing import Dict, Union
+from typing import Dict, Union, List
 
 from base.attribute import Attribute
 from base.buff import Buff
@@ -8,16 +8,13 @@ from base.skill import Skill
 
 class Gain:
     skill_id = None
-    skill_recipe = None
-    skill_recipe_mask = None
-    buff_id = None
-    buff_recipe = None
+    recipe_type = None
+    recipe_mask = None
     value = None
 
     def __init__(
             self, value: Union[int, float, tuple] = None,
-            skill_id: int = None, skill_recipe: int = None, skill_recipe_mask: int = 0,
-            buff_id: int = None, buff_recipe: int = None,
+            skill_id: int = None, recipe_type: int = None, recipe_mask: int = 0,
             name: str = None,
     ):
         if name:
@@ -28,9 +25,18 @@ class Gain:
             self.value = value
         if skill_id:
             self.skill_id = skill_id
-        if skill_recipe:
-            self.skill_recipe = skill_recipe
-        self.skill_recipe_mask = skill_recipe_mask
+        if recipe_type:
+            self.recipe_type = recipe_type
+        self.recipe_mask = recipe_mask
+
+    def check_skill(self, skill: Skill):
+        if skill.skill_id == self.skill_id:
+            return True
+        if skill.recipe_type == self.recipe_type:
+            return True
+        if skill.recipe_mask & self.recipe_mask:
+            return True
+        return False
 
     def add_attribute(self, attribute: Attribute):
         pass
@@ -40,15 +46,11 @@ class Gain:
 
     def add_skills(self, skills: Dict[int, Skill]):
         return_tag = False
-        if not self.skill_id and not self.skill_recipe and not self.skill_recipe_mask:
+        if not self.skill_id and not self.recipe_type and not self.recipe_mask:
             return return_tag
 
         for skill_id, skill in skills.items():
-            if (
-                    skill_id == self.skill_id or
-                    skill.recipe_type == self.skill_recipe or
-                    skill.recipe_mask & self.skill_recipe_mask
-            ):
+            if self.check_skill(skill):
                 return_tag = True
                 self.add_skill(skill)
 
@@ -62,10 +64,9 @@ class Gain:
 
     def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
         self.add_buffs(buffs)
-        return_tag = self.add_skills(skills)
         self.add_dots(dots)
         self.add_attribute(attribute)
-        return return_tag
+        return self.add_skills(skills)
 
     def sub_attribute(self, attribute: Attribute):
         pass
@@ -74,14 +75,10 @@ class Gain:
         pass
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        if not self.skill_id and not self.skill_recipe and not self.skill_recipe_mask:
+        if not self.skill_id and not self.recipe_type and not self.recipe_mask:
             return
         for skill_id, skill in skills.items():
-            if (
-                    skill_id == self.skill_id or
-                    skill.recipe_type == self.skill_recipe or
-                    skill.recipe_mask & self.skill_recipe_mask
-            ):
+            if self.check_skill(skill):
                 self.sub_skill(skill)
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
@@ -95,3 +92,22 @@ class Gain:
         self.sub_skills(skills)
         self.sub_dots(dots)
         self.sub_attribute(attribute)
+
+
+class Gains(Gain):
+    gains: List[Gain]
+
+    def __init__(self, name: str = None, gains: List[Gain] = None):
+        super().__init__(name=name)
+        if gains:
+            self.gains = gains
+        else:
+            self.gains = []
+
+    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
+        for gain in self.gains:
+            gain.add(attribute, skills, dots, buffs)
+
+    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
+        for gain in self.gains:
+            gain.sub(attribute, skills, dots, buffs)

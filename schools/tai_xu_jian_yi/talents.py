@@ -1,9 +1,8 @@
 from typing import Dict
 
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import PhysicalCriticalRecipe, ChannelIntervalRecipe
 from base.skill import Skill
-from base.talent import Talent
 
 
 class 无意(Gain):
@@ -18,28 +17,28 @@ class 无意(Gain):
             skill.physical_critical_power_rate_extra -= 307
 
 
-TALENT_GAINS: Dict[int, Talent] = {
-    5807: Talent("心固", [PhysicalCriticalRecipe((1000, 102), 0, 364)]),
-    32407: Talent("环月"),
-    5800: Talent("白虹"),
-    357: Talent("化三清"),
-    5818: Talent("无意", [无意(skill_id=365, skill_recipe=365)]),
-    21812: Talent("云中剑"),
-    17742: Talent("风逝"),
-    5821: Talent("叠刃"),
-    6481: Talent("雾外江山"),
-    21725: Talent("长生"),
-    24962: Talent("裂云"),
-    14598: Talent("若水"),
-    18799: Talent("故长"),
-    34656: Talent("剑入"),
-    14832: Talent("虚极", [ChannelIntervalRecipe(1.2, 600, 0)]),
-    14833: Talent("玄门"),
+TALENT_GAINS: Dict[int, Gains] = {
+    5807: Gains("心固", [PhysicalCriticalRecipe((1000, 102), 0, 364)]),
+    32407: Gains("环月"),
+    5800: Gains("白虹"),
+    357: Gains("化三清"),
+    5818: Gains("无意", [无意(skill_id=365, recipe_type=365)]),
+    21812: Gains("云中剑"),
+    17742: Gains("风逝"),
+    5821: Gains("叠刃"),
+    6481: Gains("雾外江山"),
+    21725: Gains("长生"),
+    24962: Gains("裂云"),
+    14598: Gains("若水"),
+    18799: Gains("故长"),
+    34656: Gains("剑入"),
+    14832: Gains("虚极", [ChannelIntervalRecipe(1.2, 600, 0)]),
+    14833: Gains("玄门"),
 
-    100448: Talent("周行"),
-    100449: Talent("神灵"),
-    100451: Talent("固强"),
-    100015: Talent("行剑千风")
+    100448: Gains("周行"),
+    100449: Gains("神灵"),
+    100451: Gains("固强"),
+    100015: Gains("行剑千风")
 }
 
 TALENTS = [

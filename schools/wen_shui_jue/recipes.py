@@ -1,8 +1,7 @@
 from typing import Dict, List
 
-from base.gain import Gain
+from base.gain import Gain, Gains
 from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
-from base.talent import Talent
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "九溪弥烟": {
@@ -39,11 +38,11 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
         "2%会心": CriticalStrikeRecipe(200, 18322, 1596),
     },
     "风来吴山": {
-        "4%伤害": Talent(gains=[DamageAdditionRecipe(41, skill_id, skill_id) for skill_id in (1645, 18333)]),
-        "3%伤害": Talent(gains=[DamageAdditionRecipe(31, skill_id, skill_id) for skill_id in (1645, 18333)]),
-        "2%伤害": Talent(gains=[DamageAdditionRecipe(21, skill_id, skill_id) for skill_id in (1645, 18333)]),
-        "3%会心": Talent(gains=[CriticalStrikeRecipe(300, skill_id, skill_id) for skill_id in (1645, 18333)]),
-        "2%会心": Talent(gains=[CriticalStrikeRecipe(200, skill_id, skill_id) for skill_id in (1645, 18333)]),
+        "4%伤害": Gains(gains=[DamageAdditionRecipe(41, skill_id, skill_id) for skill_id in (1645, 18333)]),
+        "3%伤害": Gains(gains=[DamageAdditionRecipe(31, skill_id, skill_id) for skill_id in (1645, 18333)]),
+        "2%伤害": Gains(gains=[DamageAdditionRecipe(21, skill_id, skill_id) for skill_id in (1645, 18333)]),
+        "3%会心": Gains(gains=[CriticalStrikeRecipe(300, skill_id, skill_id) for skill_id in (1645, 18333)]),
+        "2%会心": Gains(gains=[CriticalStrikeRecipe(200, skill_id, skill_id) for skill_id in (1645, 18333)]),
     },
     "听雷": {
         "5%伤害": DamageAdditionRecipe(51, 1646, 1646),

@@ -2,7 +2,7 @@ from base.attribute import PoisonAttribute
 from base.constant import *
 
 
-class WuFang(PoisonAttribute):
+class Attribute(PoisonAttribute):
     SPIRIT_TO_ATTACK_POWER = 1843 / BINARY_SCALE
     SPIRIT_TO_OVERCOME = 481 / BINARY_SCALE
 
