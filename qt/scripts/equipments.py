@@ -40,11 +40,13 @@ class Equipment:
     max_strength: int
     embed: Dict[str, int]
     gains: List[int]
+    recipes: Dict[int, int]
     special_enchant: Union[int, Tuple[int, int]]
     special_enchant_gain: List[List[int]]
-    set_id: str
+    set_id: int
     set_attr: Dict[int, Dict[str, int]]
     set_gain: Dict[int, List[int]]
+    set_recipe: Dict[int, Dict[int, int]]
 
     def __init__(self, label):
         self.clear()
@@ -70,7 +72,7 @@ class Equipment:
         self.embed = {}
         self.gains = []
         self.special_enchant_gain = []
-        self.set_id = ""
+        self.set_id = 0
         self.set_attr = {}
         self.set_gain = {}
 
@@ -157,62 +159,44 @@ class Equipments:
         return secondary_weapon_attrs
 
     @property
-    def attrs(self):
-        final_attrs = defaultdict(int)
-        set_count = {}
-        set_effect = {}
+    def details(self):
+        attrs, gains, recipes = defaultdict(int), [], []
+        set_count, set_attrs, set_gains, set_recipes = {}, {}, {}, {}
         for label, equipment in self.equipments.items():
             if not equipment.name or label == "额外武器":
                 continue
             for attr, value in equipment.base_attr.items():
-                final_attrs[attr] += value
+                attrs[attr] += value
             for attr, value in equipment.magic_attr.items():
-                final_attrs[attr] += value
+                attrs[attr] += value
             for attr, value in equipment.strength_attr.items():
-                final_attrs[attr] += value
+                attrs[attr] += value
             for attr, value in equipment.embed_attr.items():
-                final_attrs[attr] += value
+                attrs[attr] += value
             for attr, value in equipment.enchant.attr.items():
-                final_attrs[attr] += value
+                attrs[attr] += value
             if equipment.stone:
                 for attr, value in equipment.stone.attr.items():
-                    final_attrs[attr] += value
+                    attrs[attr] += value
+            gains += [tuple(gain) for gain in equipment.gains + equipment.special_enchant_gain]
+            recipes += [recipe for recipe in equipment.recipes.items()]
+            if set_id := equipment.set_id:
+                if set_id not in set_count:
+                    set_count[set_id] = 0
+                    set_attrs[set_id] = equipment.set_attr
+                    set_gains[set_id] = equipment.set_gain
+                    set_recipes[set_id] = equipment.set_recipe
+                set_count[set_id] += 1
 
-            if equipment.set_id not in set_count:
-                set_count[equipment.set_id] = 0
-                set_effect[equipment.set_id] = equipment.set_attr
-            set_count[equipment.set_id] += 1
+        for set_id, count in set_count.items():
+            for index in range(count):
+                index += 1
+                for attr, value in set_attrs[set_id].get(index, {}).items():
+                    attrs[attr] += value
+                gains += [tuple(gain) for gain in set_gains[set_id].get(index, [])]
+                recipes += [recipe for recipe in set_recipes[set_id].get(index, {}).items()]
 
-        for set_id, set_attr in set_effect.items():
-            for count, attrs in set_attr.items():
-                if int(count) > set_count[set_id]:
-                    break
-                for attr, value in attrs.items():
-                    final_attrs[attr] += value
-
-        return final_attrs
-
-    @property
-    def gains(self):
-        final_gains = []
-        set_count = {}
-        set_effect = {}
-        for equipment in self.equipments.values():
-            if not equipment.name:
-                continue
-            final_gains += [gain for gain in equipment.gains + equipment.special_enchant_gain]
-            if equipment.set_id not in set_count:
-                set_count[equipment.set_id] = 0
-                set_effect[equipment.set_id] = equipment.set_gain
-            set_count[equipment.set_id] += 1
-
-        for set_id, set_gain in set_effect.items():
-            for count, gains in set_gain.items():
-                if int(count) > set_count[set_id]:
-                    break
-                final_gains += gains
-
-        return [tuple(gain) if isinstance(gain, list) else gain for gain in final_gains]
+        return attrs, gains, recipes
 
 
 def equipments_script(equipments_widget: EquipmentsWidget):

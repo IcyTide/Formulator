@@ -22,13 +22,15 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         18603: dict(post_buffs={(-1, 1): 2}),
         409: dict(post_buffs={(-1, 1): 3}),
         18773: dict(post_buffs={(-1, 1): -3}),
+        31031: dict(post_buffs={(-1, 1): 5}),
         401: dict(bind_dot=12461),
         18591: dict(bind_dot=3442),
-        31031: dict(post_buffs={(-1, 1): 5})
     },
-    战意判定: {18740: {}}
+    战意判定: {
+        18740: {}
+    }
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

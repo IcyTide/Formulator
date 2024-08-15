@@ -98,11 +98,11 @@ def top_script(
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
-            talents = school.talents[i]
+            talent_choices = school.talent_choices[i]
             if i < len(parser.select_talents[player_id]):
-                default_index = talents.index(parser.select_talents[player_id][i]) + 1
+                default_index = talent_choices.index(parser.select_talents[player_id][i]) + 1
                 talent_widget.set_items(
-                    [""] + [school.talent_decoder[talent] for talent in talents], default_index=default_index
+                    [""] + [school.talent_decoder[talent] for talent in talent_choices], default_index=default_index
                 )
             else:
                 talent_widget.hide()
@@ -112,7 +112,7 @@ def top_script(
             recipe_widget.list.clear()
             recipe_widget.hide()
         if not school.platform:
-            for i, (skill, recipes) in enumerate(school.recipes.items()):
+            for i, (skill, recipes) in enumerate(school.recipe_choices.items()):
                 recipes_widget[i].set_label(skill)
                 recipes_widget[i].set_items(recipes)
                 for n in range(min(MAX_RECIPES, len(recipes))):

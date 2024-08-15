@@ -44,7 +44,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     杀机断魂天绝地灭: {33143: {}},
     杀机断魂暗藏杀机: {33144: {}}
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

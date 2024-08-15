@@ -5,8 +5,10 @@ from functools import cached_property
 from typing import Dict, Union, List
 
 from base.attribute import Attribute
+from base.buff import Buff
 from base.constant import FRAME_PER_SECOND
 from base.dot import Dot
+from base.gain import Gain
 from base.skill import Skill, NpcSkill, PetSkill
 from schools import School
 
@@ -46,167 +48,319 @@ class Detail:
         return self.total_actual_damage / self.count
 
 
-def filter_status(status, school: School):
-    buffs = []
-    for buff_id, buff_level, buff_stack in status:
-        buff = school.buffs[buff_id]
-        if not buff.activate:
-            continue
-        buff.buff_level, buff.buff_stack = buff_level, buff_stack
-        buffs.append(copy(buff))
-
-    return sorted(buffs, key=lambda x: abs(x.buff_id))
+class BaseAnalyzer:
+    school: School
+    attribute: Attribute
 
 
-def add_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, damage: Union[Dot, Skill]):
-    if isinstance(damage, Dot):
-        display_current_buffs = [buff for buff in current_buffs if buff.add_dot(attribute, damage.bind_skill, False)]
-        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_dot(attribute, damage.bind_skill, True)]
-        display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, damage.bind_skill)]
-    elif isinstance(damage, NpcSkill):
-        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, damage)]
-        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_all(attribute, damage)]
-        display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, damage)]
-    elif isinstance(damage, PetSkill):
-        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, damage)]
-        display_snapshot_buffs = [buff for buff in snapshot_buffs if buff.add_pet(attribute, damage)]
-        display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, damage)]
-    else:
-        display_current_buffs = [buff for buff in current_buffs if buff.add_all(attribute, damage)]
-        display_snapshot_buffs = []
-        display_target_buffs = [buff for buff in target_buffs if buff.add_all(attribute, damage)]
+class BuffAnalyzer(BaseAnalyzer):
+    DOT_SNAPSHOT_ATTRS = [
+        "attack_power", "critical_strike", "critical_power", "surplus", "strain", "damage_addition", "pve_addition"
+    ]
+    PET_SNAPSHOT_ATTRS = [
+        "attack_power", "critical_power", "overcome", "surplus", "strain", "damage_addition", "pve_addition"
+    ]
 
-    return display_current_buffs, display_snapshot_buffs, display_target_buffs
-
-
-def sub_buffs(current_buffs, snapshot_buffs, target_buffs, attribute: Attribute, damage: Union[Dot, Skill]):
-    if isinstance(damage, Dot):
-        for buff in current_buffs:
-            buff.sub_dot(attribute, damage.bind_skill, False)
-        for buff in snapshot_buffs:
-            buff.sub_dot(attribute, damage.bind_skill, True)
-        for buff in target_buffs:
-            buff.sub_all(attribute, damage.bind_skill)
-    elif isinstance(damage, NpcSkill):
-        for buff in current_buffs:
-            buff.sub_all(attribute, damage)
-        for buff in snapshot_buffs:
-            buff.sub_all(attribute, damage)
-        for buff in target_buffs:
-            buff.sub_all(attribute, damage)
-    elif isinstance(damage, PetSkill):
-        for buff in current_buffs:
-            buff.sub_all(attribute, damage)
-        for buff in snapshot_buffs:
-            buff.sub_pet(attribute, damage)
-        for buff in target_buffs:
-            buff.sub_all(attribute, damage)
-    else:
-        for buff in current_buffs:
-            buff.sub_all(attribute, damage)
-        for buff in target_buffs:
-            buff.sub_all(attribute, damage)
-
-
-def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
-    buffs = []
-    if current_buffs:
-        buffs.append(",".join(buff.display_name for buff in current_buffs))
-    if snapshot_buffs:
-        buffs.append(",".join(buff.display_name for buff in snapshot_buffs))
-    if target_buffs:
-        buffs.append(",".join(buff.display_name for buff in target_buffs))
-
-    if buffs:
-        buffs = "|".join(buffs)
-    else:
-        buffs = "~"
-    return buffs
-
-
-def split_skills(damage, school):
-    damage_tuple, dot_skill_tuple, consume_skill_tuple = damage
-    if dot_skill_tuple:
-        dot_id, dot_level, dot_stack = damage_tuple
-        damage, damage.buff_level, damage.buff_stack = school.dots[dot_id], dot_level, dot_stack
-        dot_skill_id, dot_skill_level = dot_skill_tuple
-        dot_skill, dot_skill.skill_level = school.skills[dot_skill_id], dot_skill_level
-        damage.bind_skill = dot_skill
-        if consume_skill_tuple:
-            consume_skill_id, consume_skill_level = consume_skill_tuple
-            consume_skill, consume_skill.skill_level = school.skills[consume_skill_id], consume_skill_level
-            damage.consume_skill = consume_skill
-        else:
-            damage.consume_skill = None
-        damage_name = damage.buff_name
-    else:
-        skill_id, skill_level = damage_tuple
-        damage, damage.skill_level, = school.skills[skill_id], skill_level
-        damage_name = damage.skill_name
-    return damage, damage_name
-
-
-def analyze_details(record, start_frame, end_frame, attribute: Attribute, school: School):
-    total = Detail()
-    details = {}
-    summary = {}
-    start_frame = int(start_frame * FRAME_PER_SECOND)
-    end_frame = int(end_frame * FRAME_PER_SECOND)
-
-    for damage, status in record.items():
-        damage, damage_name = split_skills(damage, school)
-        if not damage.activate:
-            continue
-        damage_detail = details[damage.display_name] = {}
-        if not (damage_summary := summary.get(damage_name)):
-            damage_summary = summary[damage_name] = Detail()
-        damage_total = damage_detail[""] = Detail()
-        for status_tuple, timeline in status.items():
-            if not (timeline := [t for t in timeline if start_frame <= t[0] < end_frame]):
+    def filter_status(self, status):
+        buffs = []
+        for buff_id, buff_level, buff_stack in status:
+            buff, buff.buff_level, buff.buff_stack = self.school.buffs[buff_id], buff_level, buff_stack
+            if not buff.activate:
                 continue
+            buffs.append(copy(buff))
 
-            buffs_tuple = [filter_status(status, school) for status in status_tuple]
+        return sorted(buffs, key=lambda x: abs(x.buff_id))
 
-            display_buffs = add_buffs(*buffs_tuple, attribute, damage)
-            buffs = concat_buffs(*display_buffs)
-            if buffs in damage_detail:
-                detail = damage_detail[buffs]
-            else:
-                detail = damage_detail[buffs] = Detail(*damage(attribute))
-                detail.gradients = analyze_gradients(damage, attribute)
-            sub_buffs(*buffs_tuple, attribute, damage)
+    def add_buff_attributes_all(self, buff: Buff):
+        return_tag = False
+        for attr, value in buff.attributes.items():
+            self.attribute[attr] += value
+            return_tag = True
+        return return_tag
 
-            detail.timeline += timeline
-            damage_total.timeline += timeline
+    def add_buff_attributes_dot(self, buff: Buff, snapshot: bool):
+        return_tag = False
+        for attr, value in buff.attributes.items():
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                self.attribute[attr] += value
+                return_tag = True
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                self.attribute[attr] += value
+                return_tag = True
+        return return_tag
 
-            damage_total.damage += detail.damage * len(timeline)
-            damage_total.critical_damage += detail.critical_damage * len(timeline)
-            damage_total.critical_strike += detail.critical_strike * len(timeline)
-            damage_total.expected_damage += detail.expected_damage * len(timeline)
-            for attr, residual_damage in detail.gradients.items():
-                total.gradients[attr] += residual_damage * len(timeline)
+    def add_buff_attributes_pet(self, buff: Buff):
+        return_tag = False
+        for attr, value in buff.attributes.items():
+            if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
+                self.attribute[attr] += value
+                return_tag = True
+        return return_tag
 
-        if damage_total.timeline:
-            total.expected_damage += damage_total.expected_damage
-            damage_summary.critical_strike += damage_total.critical_strike
-            damage_summary.expected_damage += damage_total.expected_damage
-            damage_summary.timeline += damage_total.timeline
-            damage_total.damage /= len(damage_total.timeline)
-            damage_total.critical_damage /= len(damage_total.timeline)
-            damage_total.expected_damage /= len(damage_total.timeline)
-            damage_total.critical_strike /= len(damage_total.timeline)
+    def add_buff_attributes_target(self, buff: Buff):
+        return_tag = False
+        for attr, value in buff.attributes.items():
+            self.attribute.target[attr] += value
+            return_tag = True
+        return return_tag
+
+    def sub_buff_attributes_all(self, buff: Buff):
+        for attr, value in buff.attributes.items():
+            self.attribute[attr] -= value
+
+    def sub_buff_attributes_dot(self, buff: Buff, snapshot: bool):
+        for attr, value in buff.attributes.items():
+            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                self.attribute[attr] -= value
+            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
+                self.attribute[attr] -= value
+
+    def sub_buff_attributes_pet(self, buff: Buff):
+        for attr, value in buff.attributes.items():
+            if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
+                self.attribute[attr] -= value
+
+    def sub_buff_attributes_target(self, buff: Buff):
+        for attr, value in buff.attributes.items():
+            self.attribute.target[attr] -= value
+
+    def add_buff_recipes(self, skill: Skill, buff: Buff) -> bool:
+        return_tag = False
+        for recipe_key in buff.recipes.items():
+            if self.school.recipes[recipe_key].add(self.attribute, {}, {}, {skill.skill_id: skill}):
+                return_tag = True
+        return return_tag
+
+    def sub_buff_recipes(self, skill: Skill, buff: Buff):
+        for recipe_key in buff.recipes.items():
+            self.school.recipes[recipe_key].sub(self.attribute, {}, {}, {skill.skill_id: skill})
+
+    def add_buffs_all(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
+        display_current_buffs, display_snapshot_buffs = [], []
+        for buff in current_buffs:
+            if any((self.add_buff_attributes_all(buff), self.add_buff_recipes(damage, buff))):
+                display_current_buffs.append(buff)
+        for buff in snapshot_buffs:
+            if any((self.add_buff_attributes_all(buff), self.add_buff_recipes(damage, buff))):
+                display_snapshot_buffs.append(buff)
+        return display_current_buffs, display_snapshot_buffs
+
+    def add_buffs_dot(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Dot):
+        display_current_buffs, display_snapshot_buffs = [], []
+        for buff in current_buffs:
+            if self.add_buff_attributes_dot(buff, False):
+                display_current_buffs.append(buff)
+        for buff in snapshot_buffs:
+            if any((self.add_buff_attributes_dot(buff, True), self.add_buff_recipes(damage.bind_skill, buff))):
+                display_snapshot_buffs.append(buff)
+        return display_current_buffs, display_snapshot_buffs
+
+    def add_buffs_pet(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
+        display_current_buffs, display_snapshot_buffs = [], []
+        for buff in current_buffs:
+            if any((self.add_buff_attributes_all(buff), self.add_buff_recipes(damage, buff))):
+                display_current_buffs.append(buff)
+        for buff in snapshot_buffs:
+            if any((self.add_buff_attributes_pet(buff), self.add_buff_recipes(damage, buff))):
+                display_snapshot_buffs.append(buff)
+        return display_current_buffs, display_snapshot_buffs
+
+    def add_buffs_target(self, target_buffs: List[Buff]):
+        display_target_buffs = []
+        for buff in target_buffs:
+            if self.add_buff_attributes_target(buff):
+                display_target_buffs.append(buff)
+        return display_target_buffs
+
+    def add_buffs(self, current_buffs, snapshot_buffs, target_buffs, damage: Union[Dot, Skill]):
+        if isinstance(damage, Dot):
+            display_current_buffs, display_snapshot_buffs = self.add_buffs_dot(current_buffs, snapshot_buffs, damage)
+        elif isinstance(damage, NpcSkill):
+            display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, snapshot_buffs, damage)
+        elif isinstance(damage, PetSkill):
+            display_current_buffs, display_snapshot_buffs = self.add_buffs_pet(current_buffs, snapshot_buffs, damage)
         else:
-            details.pop(damage.display_name)
+            display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, [], damage)
 
-    summary = {damage: detail for damage, detail in summary.items() if detail.count}
-    return total, summary, details
+        display_target_buffs = self.add_buffs_target(target_buffs)
+        return display_current_buffs, display_snapshot_buffs, display_target_buffs
+
+    def sub_buffs_all(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
+        for buff in current_buffs:
+            self.sub_buff_attributes_all(buff)
+            self.sub_buff_recipes(damage, buff)
+        for buff in snapshot_buffs:
+            self.sub_buff_attributes_all(buff)
+            self.sub_buff_recipes(damage, buff)
+
+    def sub_buffs_dot(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Dot):
+        for buff in current_buffs:
+            self.sub_buff_attributes_dot(buff, False)
+        for buff in snapshot_buffs:
+            self.sub_buff_attributes_dot(buff, True)
+            self.sub_buff_recipes(damage.bind_skill, buff)
+
+    def sub_buffs_pet(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
+        for buff in current_buffs:
+            self.sub_buff_attributes_pet(buff)
+            self.sub_buff_recipes(damage, buff)
+        for buff in snapshot_buffs:
+            self.sub_buff_attributes_pet(buff)
+            self.sub_buff_recipes(damage, buff)
+
+    def sub_buffs_target(self, target_buffs: List[Buff]):
+        for buff in target_buffs:
+            self.sub_buff_attributes_target(buff)
+
+    def sub_buffs(self, current_buffs, snapshot_buffs, target_buffs, damage: Union[Dot, Skill]):
+        if isinstance(damage, Dot):
+            self.sub_buffs_dot(current_buffs, snapshot_buffs, damage)
+        elif isinstance(damage, NpcSkill):
+            self.sub_buffs_all(current_buffs, snapshot_buffs, damage)
+        elif isinstance(damage, PetSkill):
+            self.sub_buffs_pet(current_buffs, snapshot_buffs, damage)
+        else:
+            self.sub_buffs_all(current_buffs, [], damage)
+        self.sub_buffs_target(target_buffs)
+
+    @staticmethod
+    def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
+        buffs = []
+        if current_buffs:
+            buffs.append(",".join(buff.display_name for buff in current_buffs))
+        if snapshot_buffs:
+            buffs.append(",".join(buff.display_name for buff in snapshot_buffs))
+        if target_buffs:
+            buffs.append(",".join(buff.display_name for buff in target_buffs))
+
+        if buffs:
+            buffs = "|".join(buffs)
+        else:
+            buffs = "~"
+        return buffs
 
 
-def analyze_gradients(damage, attribute):
-    results = {}
-    for attr, value in attribute.grad_attrs.items():
-        origin_value = getattr(attribute, attr)
-        setattr(attribute, attr, origin_value + value)
-        _, _, _, results[attr] = damage(attribute)
-        setattr(attribute, attr, origin_value)
-    return results
+class SkillAnalyzer(BaseAnalyzer):
+
+    def split_skills(self, damage):
+        damage_tuple, dot_skill_tuple, consume_skill_tuple = damage
+        if dot_skill_tuple:
+            dot_id, dot_level, dot_stack = damage_tuple
+            damage, damage.buff_level, damage.buff_stack = self.school.dots[dot_id], dot_level, dot_stack
+            dot_skill_id, dot_skill_level = dot_skill_tuple
+            dot_skill, dot_skill.skill_level = self.school.skills[dot_skill_id], dot_skill_level
+            damage.bind_skill = dot_skill
+            if consume_skill_tuple:
+                consume_skill_id, consume_skill_level = consume_skill_tuple
+                consume_skill, consume_skill.skill_level = self.school.skills[consume_skill_id], consume_skill_level
+                damage.consume_skill = consume_skill
+            else:
+                damage.consume_skill = None
+            damage_name = damage.buff_name
+        else:
+            skill_id, skill_level = damage_tuple
+            damage, damage.skill_level, = self.school.skills[skill_id], skill_level
+            damage_name = damage.skill_name
+        return damage, damage_name
+
+
+class Analyzer(BuffAnalyzer, SkillAnalyzer):
+    def __init__(self, school: School, target_level):
+        self.school = school
+        self.attribute = school.attribute(school.platform)
+        self.attribute.target.level = target_level
+        self.gains = []
+        self.recipes = []
+
+    def add_attrs(self, attrs):
+        for attr, value in attrs.items():
+            self.attribute[attr] += value
+
+    def sub_attrs(self, attrs):
+        for attr, value in attrs.items():
+            self.attribute[attr] -= value
+
+    def add_gains(self, gains):
+        for gain in gains:
+            if not isinstance(gain, Gain):
+                gain = self.school.gains[gain] if isinstance(gain, tuple) else self.school.talents[gain]
+            gain.add(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+            self.add_recipes(gain.recipes)
+            self.gains.append(gain)
+
+    def sub_gains(self):
+        for gain in self.gains:
+            gain.sub(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+
+    def add_recipes(self, recipes):
+        for recipe_key in recipes:
+            recipe = self.school.recipes[recipe_key]
+            recipe.add(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+            self.recipes.append(recipe)
+
+    def sub_recipes(self):
+        for recipe in self.recipes:
+            recipe.sub(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+
+    def cal_delta(self, damage):
+        results = {}
+        for attr, value in self.attribute.grad_attrs.items():
+            origin_value = getattr(self.attribute, attr)
+            setattr(self.attribute, attr, origin_value + value)
+            _, _, _, results[attr] = damage(self.attribute)
+            setattr(self.attribute, attr, origin_value)
+        return results
+
+    def analyze_details(self, record, start_frame, end_frame):
+        total = Detail()
+        details = {}
+        summary = defaultdict(Detail)
+        start_frame = int(start_frame * FRAME_PER_SECOND)
+        end_frame = int(end_frame * FRAME_PER_SECOND)
+
+        for damage, status in record.items():
+            damage, damage_name = self.split_skills(damage)
+            if not damage.activate:
+                continue
+            damage_detail = details[damage.display_name] = {}
+            damage_summary = summary[damage_name]
+            damage_total = damage_detail[""] = Detail()
+            for status_tuple, timeline in status.items():
+                if not (timeline := [t for t in timeline if start_frame <= t[0] < end_frame]):
+                    continue
+
+                buffs_tuple = [self.filter_status(status) for status in status_tuple]
+
+                display_buffs = self.add_buffs(*buffs_tuple, damage)
+                buffs = self.concat_buffs(*display_buffs)
+                if buffs in damage_detail:
+                    detail = damage_detail[buffs]
+                else:
+                    detail = damage_detail[buffs] = Detail(*damage(self.attribute))
+                    detail.gradients = self.cal_delta(damage)
+                self.sub_buffs(*buffs_tuple, damage)
+
+                detail.timeline += timeline
+                damage_total.timeline += timeline
+
+                damage_total.damage += detail.damage * len(timeline)
+                damage_total.critical_damage += detail.critical_damage * len(timeline)
+                damage_total.critical_strike += detail.critical_strike * len(timeline)
+                damage_total.expected_damage += detail.expected_damage * len(timeline)
+                for attr, residual_damage in detail.gradients.items():
+                    total.gradients[attr] += residual_damage * len(timeline)
+
+            if damage_total.timeline:
+                total.expected_damage += damage_total.expected_damage
+                damage_summary.critical_strike += damage_total.critical_strike
+                damage_summary.expected_damage += damage_total.expected_damage
+                damage_summary.timeline += damage_total.timeline
+                damage_total.damage /= len(damage_total.timeline)
+                damage_total.critical_damage /= len(damage_total.timeline)
+                damage_total.expected_damage /= len(damage_total.timeline)
+                damage_total.critical_strike /= len(damage_total.timeline)
+            else:
+                details.pop(damage.display_name)
+
+        summary = {damage: detail for damage, detail in summary.items() if detail.count}
+        return total, summary, details

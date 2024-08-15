@@ -1,1 +1,1 @@
-DOTS = {}
+DOTS: Dict[int, Dot] = {}

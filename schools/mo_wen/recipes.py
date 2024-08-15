@@ -5,38 +5,38 @@ from base.recipe import ChannelIntervalRecipe, DamageAdditionRecipe, CriticalStr
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "宫": {
-        "4%伤害": DamageAdditionRecipe(41, 14064, 14064),
-        "3%伤害": DamageAdditionRecipe(31, 14064, 14064),
-        "4%会心": CriticalStrikeRecipe(400, 14064, 14064),
-        "3%会心": CriticalStrikeRecipe(300, 14064, 14064),
-        "2%会心": CriticalStrikeRecipe(200, 14064, 14064),
+        "增加伤害4%": DamageAdditionRecipe(41, 14064, 14064),
+        "增加伤害3%": DamageAdditionRecipe(31, 14064, 14064),
+        "增加会心4%": CriticalStrikeRecipe(400, 14064, 14064),
+        "增加会心3%": CriticalStrikeRecipe(300, 14064, 14064),
+        "增加会心2%": CriticalStrikeRecipe(200, 14064, 14064),
     },
     "商": {
-        "5%伤害": ChannelIntervalRecipe(1.05, 14065, 14065),
-        "4%伤害": ChannelIntervalRecipe(1.04, 14065, 14065),
-        "3%伤害": ChannelIntervalRecipe(1.03, 14065, 14065),
-        "4%会心": CriticalStrikeRecipe(400, 14065, 14065),
-        "3%会心": CriticalStrikeRecipe(300, 14065, 14065),
-        "2%会心": CriticalStrikeRecipe(200, 14065, 14065),
+        "增加伤害5%": ChannelIntervalRecipe(1.05, 14065, 14065),
+        "增加伤害4%": ChannelIntervalRecipe(1.04, 14065, 14065),
+        "增加伤害3%": ChannelIntervalRecipe(1.03, 14065, 14065),
+        "增加会心4%": CriticalStrikeRecipe(400, 14065, 14065),
+        "增加会心3%": CriticalStrikeRecipe(300, 14065, 14065),
+        "增加会心2%": CriticalStrikeRecipe(200, 14065, 14065),
     },
     "徵": {
-        "4%伤害": DamageAdditionRecipe(41, 14067, 14067),
-        "3%伤害": DamageAdditionRecipe(31, 14067, 14067),
-        "4%会心": CriticalStrikeRecipe(400, 14067, 14067),
-        "3%会心": CriticalStrikeRecipe(300, 14067, 14067),
-        "2%会心": CriticalStrikeRecipe(200, 14067, 14067),
+        "增加伤害4%": DamageAdditionRecipe(41, 14067, 14067),
+        "增加伤害3%": DamageAdditionRecipe(31, 14067, 14067),
+        "增加会心4%": CriticalStrikeRecipe(400, 14067, 14067),
+        "增加会心3%": CriticalStrikeRecipe(300, 14067, 14067),
+        "增加会心2%": CriticalStrikeRecipe(200, 14067, 14067),
     },
     "羽": {
-        "4%伤害": DamageAdditionRecipe(41, 14068, 14068),
-        "3%伤害": DamageAdditionRecipe(31, 14068, 14068),
-        "4%会心": CriticalStrikeRecipe(400, 14068, 14068),
-        "3%会心": CriticalStrikeRecipe(300, 14068, 14068),
+        "增加伤害4%": DamageAdditionRecipe(41, 14068, 14068),
+        "增加伤害3%": DamageAdditionRecipe(31, 14068, 14068),
+        "增加会心4%": CriticalStrikeRecipe(400, 14068, 14068),
+        "增加会心3%": CriticalStrikeRecipe(300, 14068, 14068),
     }
 }
 
 RECIPES: Dict[str, List[str]] = {
-    "宫": ["4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "商": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "徵": ["4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "羽": ["4%伤害", "4%会心", "3%伤害", "3%会心"],
+    "宫": ["增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
+    "商": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
+    "徵": ["增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
+    "羽": ["增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%"],
 }

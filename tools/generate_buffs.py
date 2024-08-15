@@ -1,9 +1,7 @@
-import pandas as pd
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP
+from assets.constant import ATTR_TYPE_MAP, BUFF_MAX_ATTRIB
 from base.buff import CustomBuff
-from general.gains import GENERAL_GAINS
 from schools import SUPPORT_SCHOOLS
 from tools import *
 
@@ -19,42 +17,36 @@ def prepare_buffs():
             if buff_id < 0:
                 buff_id = -buff_id
             buffs.append(buff_id)
-    for buff_id, buff in GENERAL_GAINS.items():
-        if buff_id in buffs:
-            continue
-        if isinstance(buff, CustomBuff):
-            continue
-        if buff_id < 0:
-            buff_id = -buff_id
-        buffs.append(buff_id)
     return buffs
 
 
 BUFFS = prepare_buffs()
 
-BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/buff.tab"), sep="\t", low_memory=False, encoding="gbk")
+BUFF_TAB = read_tab("settings/skill/buff.tab")
 BUFF_TAB['Platform'] = 0
-MOBILE_BUFF_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/buff.tab"), sep="\t", low_memory=False,
-                              encoding="gbk")
+MOBILE_BUFF_TAB = read_tab("settings/skill_mobile/buff.tab")
 MOBILE_BUFF_TAB['Platform'] = 1
 BUFF_TAB = pd.concat([BUFF_TAB, MOBILE_BUFF_TAB], axis=0)
-BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/buff.txt"), sep="\t", low_memory=False, encoding="gbk")
-MOBILE_BUFF_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/buff.txt"), sep="\t", low_memory=False,
-                              encoding="gbk")
+BUFF_TXT = read_tab("ui/Scheme/Case/buff.txt")
+MOBILE_BUFF_TXT = read_tab("ui/Scheme/case_mobile/buff.txt")
 BUFF_TXT = pd.concat([BUFF_TXT, MOBILE_BUFF_TXT], axis=0)
 
-MAX_ATTRIB = 15
+
+class HashDict(dict):
+    def __hash__(self):
+        return hash(tuple((k, v) for k, v in self.items()))
 
 
 def parse_buff(row, result):
-    result["attributes"] = {}
-    for i in range(MAX_ATTRIB):
-        attr, param_1 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"]
+    result["attributes"] = HashDict()
+    result["recipes"] = HashDict()
+    for i in range(BUFF_MAX_ATTRIB):
+        attr, param_1, param_2 = row[f"BeginAttrib{i + 1}"], row[f"BeginValue{i + 1}A"], row[f"BeginValue{i + 1}B"]
 
         if attr in ATTR_TYPE_MAP:
             result["attributes"][ATTR_TYPE_MAP[attr]] = int(param_1)
-        # elif attr == "atSetTalentRecipe":
-        #     result["gains"].append(int(param_1))
+        elif attr == "atSetTalentRecipe":
+            result["recipes"][int(param_1)] = int(param_2)
 
 
 def collect_result():
@@ -98,7 +90,10 @@ def convert_json(result):
                 filter_column = filter_result[column]
 
             result_dict = result_json[buff_id]
-            result_dict[column] = filter_column.tolist()
+            if filter_column.nunique() == 1:
+                result_dict[column] = filter_column.tolist()[0]
+            else:
+                result_dict[column] = filter_column.tolist()
 
     save_code("buffs", result_json)
 

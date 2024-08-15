@@ -1,13 +1,13 @@
 from assets.constant import ATTR_TYPE_TRANSLATE
-from general.gains import GENERAL_GAINS
+from general.buffs import GENERAL_BUFFS
 
 
 def consumable_name(name, attributes):
-    return f"{name}({''.join(f'{v}{ATTR_TYPE_TRANSLATE[k]}' for k, v in attributes.items())})"
+    return f"{name}({'/'.join(f'{v}{ATTR_TYPE_TRANSLATE[k]}' for k, v in attributes.items())})"
 
 
 def create_consumable_gain(gain_id, scope: range = None):
-    gain = GENERAL_GAINS[gain_id]
+    gain = GENERAL_BUFFS[-gain_id]
     if not scope:
         scope = range(1, gain.max_level + 1)
     result = {}

@@ -1,8 +1,6 @@
 from typing import Dict
 
-from base.buff import Buff
-from base.gain import Gain, Gains
-from base.recipe import ChannelIntervalRecipe, ExtraTickRecipe
+from base.gain import Gain
 from base.skill import Skill
 
 
@@ -30,35 +28,24 @@ class 嗜蛊(Gain):
         skills[2226].pre_buffs.pop((22232, 1))
 
 
-class 曲致(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-17988].activate = True
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-17988].activate = False
-
-
-TALENT_GAINS: Dict[int, Gains] = {
-    6620: Gains("蝎毒"),
-    6649: Gains("食髓"),
-    6629: Gains("黯影", [
-        ChannelIntervalRecipe(1.25, skill_id, 0)
-        for skill_id in (6237, 6238, 6236, 13476, 26226, 18700, 34643, 37352)
-    ]),
-    6879: Gains("虫兽", [虫兽()]),
-    34388: Gains("重蛊"),
-    37952: Gains("不鸣"),
-    34640: Gains("忘情"),
-    30088: Gains("嗜蛊", [嗜蛊()]),
-    25040: Gains("曲致", [曲致(), *[ExtraTickRecipe(2, skill_id, 0) for skill_id in (2296, 25917)]]),
-    18330: Gains("固灵"),
-    25018: Gains("荒息"),
-    29545: Gains("篾片蛊"),
-    18325: Gains("引魂", [引魂()]),
-    25043: Gains("连缘蛊")
+TALENTS: Dict[int, Gain] = {
+    6620: Gain("蝎毒"),
+    6649: Gain("食髓"),
+    6629: Gain("黯影", recipes=[(recipe_id, 1) for recipe_id in (1269, 1270, 1271, 1272, 2436, 4550, 3263, 5538)]),
+    6879: 虫兽("虫兽", ),
+    34388: Gain("重蛊"),
+    37952: Gain("不鸣"),
+    34640: Gain("忘情"),
+    30088: 嗜蛊("嗜蛊"),
+    25040: Gain("曲致", buff_ids=[-17988], recipes=[(-134, 1)]),
+    18330: Gain("固灵"),
+    25018: Gain("荒息"),
+    29545: Gain("篾片蛊"),
+    引魂: Gain("引魂"),
+    25043: Gain("连缘蛊")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [6620],
     [6649],
     [6629],
@@ -72,5 +59,5 @@ TALENTS = [
     [18325],
     [25043]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

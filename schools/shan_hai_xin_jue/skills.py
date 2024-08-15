@@ -57,7 +57,7 @@ MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
         102028: {}, 102029: {}, 102030: {}, 102031: {}, 102032: {}, 102033: {},
     }
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

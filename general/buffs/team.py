@@ -9,10 +9,8 @@ GENERAL_BUFFS: Dict[int, dict] = {
     16911: dict(buff_name="弄梅"),
     15413: dict(buff_name="防御大附魔"),
     23573: dict(buff_name="泠风解怀"),
-}
-GENERAL_GAINS: Dict[int, dict] = {
-    673: {}, 362: {}, 661: {}, 3465: {}, 566: {}, 378: {}, 375: {}, 23305: {}, 4058: {}, 7180: {}, 8248: {},
-    12717: dict(buff_name="劲风")
+    -673: {}, -362: {}, -661: {}, -3465: {}, -566: {}, -378: {}, -375: {}, -23305: {}, -4058: {}, -7180: {}, -8248: {},
+    -12717: dict(buff_name="劲风")
 }
 
 BUFFS: Dict[int, Buff] = {}
@@ -23,11 +21,3 @@ for buff_id, attrs in GENERAL_BUFFS.items():
     for attr, value in attrs.items():
         setattr(buff, attr, value)
     BUFFS[buff_id] = buff
-GAINS: Dict[int, Buff] = {}
-for buff_id, attrs in GENERAL_GAINS.items():
-    buff = Buff(buff_id)
-    buff.activate = False
-    buff.set_asset()
-    for attr, value in attrs.items():
-        setattr(buff, attr, value)
-    GAINS[buff_id] = buff

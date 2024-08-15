@@ -3,27 +3,27 @@ from typing import Dict
 from base.gain import Gains
 from base.recipe import DamageAdditionRecipe
 
-TALENT_GAINS: Dict[int, Gains] = {
-    6812: Gains("玄黄", [DamageAdditionRecipe(102, 0, 5638)]),
-    6836: Gains("益元"),
-    26702: Gains("坚冰"),
-    6337: Gains("斜打狗背"),
-    6845: Gains("自强", [DamageAdditionRecipe(205, skill_id, skill_id) for skill_id in (5258, 5354)]),
-    6820: Gains("无疆"),
-    32725: Gains("酩酊"),
-    6832: Gains("越渊"),
-    28818: Gains("温酒"),
-    6818: Gains("雨龙"),
-    30774: Gains("龙醒"),
-    37339: Gains("易损"),
-    6843: Gains("含弘"),
-    6814: Gains("复礼"),
-    14625: Gains("饮江"),
-    14927: Gains("御鸿于天"),
-    28989: Gains("城复于隍")
+TALENTS: Dict[int, Gain] = {
+    6812: Gain("玄黄", [DamageAdditionRecipe(102, 0, 5638)]),
+    6836: Gain("益元"),
+    26702: Gain("坚冰"),
+    6337: Gain("斜打狗背"),
+    6845: Gain("自强", [DamageAdditionRecipe(205, skill_id, skill_id) for skill_id in (5258, 5354)]),
+    6820: Gain("无疆"),
+    32725: Gain("酩酊"),
+    6832: Gain("越渊"),
+    28818: Gain("温酒"),
+    6818: Gain("雨龙"),
+    30774: Gain("龙醒"),
+    37339: Gain("易损"),
+    6843: Gain("含弘"),
+    6814: Gain("复礼"),
+    14625: Gain("饮江"),
+    14927: Gain("御鸿于天"),
+    28989: Gain("城复于隍")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [6812],
     [26702, 6836],
     [6337, 6845],
@@ -37,5 +37,5 @@ TALENTS = [
     [14625],
     [14927, 28989]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

@@ -13,7 +13,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dot=6401) for skill_id in (6867, 14931)}
     }
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

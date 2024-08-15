@@ -1,4 +1,2599 @@
 BUFFS = {
+    24731: {
+        "attributes": [
+            {},
+            {
+                "agility_base": 382
+            },
+            {
+                "spunk_base": 382
+            },
+            {
+                "strength_base": 382
+            },
+            {
+                "spirit_base": 382
+            },
+            {},
+            {
+                "agility_base": 191
+            },
+            {
+                "spunk_base": 191
+            },
+            {
+                "strength_base": 191
+            },
+            {
+                "spirit_base": 191
+            },
+            {},
+            {
+                "agility_base": 382
+            },
+            {
+                "spunk_base": 382
+            },
+            {
+                "strength_base": 382
+            },
+            {
+                "spirit_base": 382
+            },
+            {},
+            {
+                "agility_base": 191
+            },
+            {
+                "spunk_base": 191
+            },
+            {
+                "strength_base": 191
+            },
+            {
+                "spirit_base": 191
+            },
+            {},
+            {
+                "agility_base": 382
+            },
+            {
+                "spunk_base": 382
+            },
+            {
+                "strength_base": 382
+            },
+            {
+                "spirit_base": 382
+            },
+            {},
+            {
+                "agility_base": 191
+            },
+            {
+                "spunk_base": 191
+            },
+            {
+                "strength_base": 191
+            },
+            {
+                "spirit_base": 191
+            },
+            {},
+            {
+                "agility_base": 382
+            },
+            {
+                "spunk_base": 382
+            },
+            {
+                "strength_base": 382
+            },
+            {
+                "spirit_base": 382
+            },
+            {},
+            {
+                "agility_base": 191
+            },
+            {
+                "spunk_base": 191
+            },
+            {
+                "strength_base": 191
+            },
+            {
+                "spirit_base": 191
+            }
+        ],
+        "max_level": 10,
+        "buff_name": [
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤",
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤",
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤",
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24732: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 1705
+            },
+            {
+                "physical_overcome_base": 1705,
+                "magical_overcome_base": 1705
+            },
+            {
+                "surplus_base": 1705
+            },
+            {
+                "haste_base": 1705
+            },
+            {
+                "physical_attack_power_base": 768
+            },
+            {
+                "magical_attack_power_base": 917
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 853
+            },
+            {
+                "physical_overcome_base": 853,
+                "magical_overcome_base": 853
+            },
+            {
+                "surplus_base": 853
+            },
+            {
+                "haste_base": 853
+            },
+            {
+                "physical_attack_power_base": 384
+            },
+            {
+                "magical_attack_power_base": 458
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1705
+            },
+            {
+                "physical_overcome_base": 1705,
+                "magical_overcome_base": 1705
+            },
+            {
+                "surplus_base": 1705
+            },
+            {
+                "haste_base": 1705
+            },
+            {
+                "physical_attack_power_base": 768
+            },
+            {
+                "magical_attack_power_base": 917
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 853
+            },
+            {
+                "physical_overcome_base": 853,
+                "magical_overcome_base": 853
+            },
+            {
+                "surplus_base": 853
+            },
+            {
+                "haste_base": 853
+            },
+            {
+                "physical_attack_power_base": 384
+            },
+            {
+                "magical_attack_power_base": 458
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1705
+            },
+            {
+                "physical_overcome_base": 1705,
+                "magical_overcome_base": 1705
+            },
+            {
+                "surplus_base": 1705
+            },
+            {
+                "haste_base": 1705
+            },
+            {
+                "physical_attack_power_base": 768
+            },
+            {
+                "magical_attack_power_base": 917
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 853
+            },
+            {
+                "physical_overcome_base": 853,
+                "magical_overcome_base": 853
+            },
+            {
+                "surplus_base": 853
+            },
+            {
+                "haste_base": 853
+            },
+            {
+                "physical_attack_power_base": 384
+            },
+            {
+                "magical_attack_power_base": 458
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1705
+            },
+            {
+                "physical_overcome_base": 1705,
+                "magical_overcome_base": 1705
+            },
+            {
+                "surplus_base": 1705
+            },
+            {
+                "haste_base": 1705
+            },
+            {
+                "physical_attack_power_base": 768
+            },
+            {
+                "magical_attack_power_base": 917
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 853
+            },
+            {
+                "physical_overcome_base": 853,
+                "magical_overcome_base": 853
+            },
+            {
+                "surplus_base": 853
+            },
+            {
+                "haste_base": 853
+            },
+            {
+                "physical_attack_power_base": 384
+            },
+            {
+                "magical_attack_power_base": 458
+            },
+            {},
+            {}
+        ],
+        "max_level": 16,
+        "buff_name": [
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面",
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面",
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面",
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24735: {
+        "attributes": [
+            {},
+            {
+                "agility_base": 492
+            },
+            {
+                "spunk_base": 492
+            },
+            {
+                "strength_base": 492
+            },
+            {
+                "spirit_base": 492
+            },
+            {},
+            {
+                "agility_base": 246
+            },
+            {
+                "spunk_base": 246
+            },
+            {
+                "strength_base": 246
+            },
+            {
+                "spirit_base": 246
+            },
+            {},
+            {
+                "agility_base": 492
+            },
+            {
+                "spunk_base": 492
+            },
+            {
+                "strength_base": 492
+            },
+            {
+                "spirit_base": 492
+            },
+            {},
+            {
+                "agility_base": 246
+            },
+            {
+                "spunk_base": 246
+            },
+            {
+                "strength_base": 246
+            },
+            {
+                "spirit_base": 246
+            },
+            {},
+            {
+                "agility_base": 492
+            },
+            {
+                "spunk_base": 492
+            },
+            {
+                "strength_base": 492
+            },
+            {
+                "spirit_base": 492
+            },
+            {},
+            {
+                "agility_base": 246
+            },
+            {
+                "spunk_base": 246
+            },
+            {
+                "strength_base": 246
+            },
+            {
+                "spirit_base": 246
+            },
+            {},
+            {
+                "agility_base": 492
+            },
+            {
+                "spunk_base": 492
+            },
+            {
+                "strength_base": 492
+            },
+            {
+                "spirit_base": 492
+            },
+            {},
+            {
+                "agility_base": 246
+            },
+            {
+                "spunk_base": 246
+            },
+            {
+                "strength_base": 246
+            },
+            {
+                "spirit_base": 246
+            }
+        ],
+        "max_level": 10,
+        "buff_name": [
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸",
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸",
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸",
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24736: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 2192
+            },
+            {
+                "physical_overcome_base": 2192,
+                "magical_overcome_base": 2192
+            },
+            {
+                "surplus_base": 2192
+            },
+            {
+                "haste_base": 2192
+            },
+            {
+                "physical_attack_power_base": 988
+            },
+            {
+                "magical_attack_power_base": 1179
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1096
+            },
+            {
+                "physical_overcome_base": 1096,
+                "magical_overcome_base": 1096
+            },
+            {
+                "surplus_base": 1096
+            },
+            {
+                "haste_base": 1096
+            },
+            {
+                "physical_attack_power_base": 494
+            },
+            {
+                "magical_attack_power_base": 589
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2192
+            },
+            {
+                "physical_overcome_base": 2192,
+                "magical_overcome_base": 2192
+            },
+            {
+                "surplus_base": 2192
+            },
+            {
+                "haste_base": 2192
+            },
+            {
+                "physical_attack_power_base": 988
+            },
+            {
+                "magical_attack_power_base": 1179
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1096
+            },
+            {
+                "physical_overcome_base": 1096,
+                "magical_overcome_base": 1096
+            },
+            {
+                "surplus_base": 1096
+            },
+            {
+                "haste_base": 1096
+            },
+            {
+                "physical_attack_power_base": 494
+            },
+            {
+                "magical_attack_power_base": 589
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2192
+            },
+            {
+                "physical_overcome_base": 2192,
+                "magical_overcome_base": 2192
+            },
+            {
+                "surplus_base": 2192
+            },
+            {
+                "haste_base": 2192
+            },
+            {
+                "physical_attack_power_base": 988
+            },
+            {
+                "magical_attack_power_base": 1179
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1096
+            },
+            {
+                "physical_overcome_base": 1096,
+                "magical_overcome_base": 1096
+            },
+            {
+                "surplus_base": 1096
+            },
+            {
+                "haste_base": 1096
+            },
+            {
+                "physical_attack_power_base": 494
+            },
+            {
+                "magical_attack_power_base": 589
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2192
+            },
+            {
+                "physical_overcome_base": 2192,
+                "magical_overcome_base": 2192
+            },
+            {
+                "surplus_base": 2192
+            },
+            {
+                "haste_base": 2192
+            },
+            {
+                "physical_attack_power_base": 988
+            },
+            {
+                "magical_attack_power_base": 1179
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1096
+            },
+            {
+                "physical_overcome_base": 1096,
+                "magical_overcome_base": 1096
+            },
+            {
+                "surplus_base": 1096
+            },
+            {
+                "haste_base": 1096
+            },
+            {
+                "physical_attack_power_base": 494
+            },
+            {
+                "magical_attack_power_base": 589
+            },
+            {},
+            {}
+        ],
+        "max_level": 16,
+        "buff_name": [
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散",
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散",
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散",
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24733: {
+        "attributes": [
+            {
+                "physical_attack_power_base": 439,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "magical_attack_power_base": 524,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "all_critical_strike_base": 975,
+                "haste_base": 975
+            },
+            {},
+            {},
+            {},
+            {
+                "physical_attack_power_base": 439,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "magical_attack_power_base": 524,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "all_critical_strike_base": 975,
+                "haste_base": 975
+            },
+            {},
+            {},
+            {},
+            {
+                "physical_attack_power_base": 439,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "magical_attack_power_base": 524,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "all_critical_strike_base": 975,
+                "haste_base": 975
+            },
+            {},
+            {},
+            {},
+            {
+                "physical_attack_power_base": 439,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "magical_attack_power_base": 524,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "all_critical_strike_base": 975,
+                "haste_base": 975
+            },
+            {},
+            {},
+            {}
+        ],
+        "max_level": 6,
+        "buff_name": [
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴",
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴",
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴",
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24734: {
+        "attributes": [
+            {},
+            {
+                "agility_base": 437
+            },
+            {
+                "spunk_base": 437
+            },
+            {
+                "strength_base": 437
+            },
+            {
+                "spirit_base": 437
+            },
+            {},
+            {
+                "agility_base": 437
+            },
+            {
+                "spunk_base": 437
+            },
+            {
+                "strength_base": 437
+            },
+            {
+                "spirit_base": 437
+            },
+            {},
+            {
+                "agility_base": 437
+            },
+            {
+                "spunk_base": 437
+            },
+            {
+                "strength_base": 437
+            },
+            {
+                "spirit_base": 437
+            },
+            {},
+            {
+                "agility_base": 437
+            },
+            {
+                "spunk_base": 437
+            },
+            {
+                "strength_base": 437
+            },
+            {
+                "spirit_base": 437
+            }
+        ],
+        "max_level": 5,
+        "buff_name": "水晶芙蓉宴",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17365: {
+        "attributes": [
+            {
+                "surplus_base": -42,
+                "strain_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "surplus_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "surplus_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": -42,
+                "surplus_base": 96
+            },
+            {
+                "strain_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "strain_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "strain_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "strain_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": 96
+            },
+            {
+                "magical_attack_power_base": 51
+            },
+            {
+                "physical_attack_power_base": 43
+            },
+            {
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "all_critical_strike_base": 96
+            },
+            {
+                "surplus_base": -429,
+                "strain_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "surplus_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "surplus_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": -429,
+                "surplus_base": 967
+            },
+            {
+                "strain_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "strain_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "strain_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "strain_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": 967
+            },
+            {
+                "magical_attack_power_base": 519
+            },
+            {
+                "physical_attack_power_base": 433
+            },
+            {
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "all_critical_strike_base": 967
+            },
+            {
+                "surplus_base": -557,
+                "strain_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "surplus_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "surplus_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "surplus_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "strain_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "strain_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": 1257
+            },
+            {
+                "magical_attack_power_base": 674
+            },
+            {
+                "physical_attack_power_base": 562
+            },
+            {
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "all_critical_strike_base": 1257
+            },
+            {
+                "surplus_base": -858,
+                "strain_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "surplus_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "surplus_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "surplus_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "strain_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "strain_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": 1934
+            },
+            {
+                "magical_attack_power_base": 1038
+            },
+            {
+                "physical_attack_power_base": 866
+            },
+            {
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "all_critical_strike_base": 1934
+            },
+            {
+                "surplus_base": -42,
+                "strain_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "surplus_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "surplus_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": -42,
+                "surplus_base": 96
+            },
+            {
+                "strain_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "strain_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "strain_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "strain_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": 96
+            },
+            {
+                "magical_attack_power_base": 51
+            },
+            {
+                "physical_attack_power_base": 43
+            },
+            {
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "all_critical_strike_base": 96
+            },
+            {
+                "surplus_base": -429,
+                "strain_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "surplus_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "surplus_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": -429,
+                "surplus_base": 967
+            },
+            {
+                "strain_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "strain_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "strain_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "strain_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": 967
+            },
+            {
+                "magical_attack_power_base": 519
+            },
+            {
+                "physical_attack_power_base": 433
+            },
+            {
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "all_critical_strike_base": 967
+            },
+            {
+                "surplus_base": -557,
+                "strain_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "surplus_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "surplus_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "surplus_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "strain_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "strain_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": 1257
+            },
+            {
+                "magical_attack_power_base": 674
+            },
+            {
+                "physical_attack_power_base": 562
+            },
+            {
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "all_critical_strike_base": 1257
+            },
+            {
+                "surplus_base": -858,
+                "strain_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "surplus_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "surplus_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "surplus_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "strain_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "strain_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": 1934
+            },
+            {
+                "magical_attack_power_base": 1038
+            },
+            {
+                "physical_attack_power_base": 866
+            },
+            {
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "all_critical_strike_base": 1934
+            },
+            {
+                "surplus_base": -42,
+                "strain_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "surplus_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "surplus_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": -42,
+                "surplus_base": 96
+            },
+            {
+                "strain_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "strain_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "strain_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "strain_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": 96
+            },
+            {
+                "magical_attack_power_base": 51
+            },
+            {
+                "physical_attack_power_base": 43
+            },
+            {
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "all_critical_strike_base": 96
+            },
+            {
+                "surplus_base": -429,
+                "strain_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "surplus_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "surplus_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": -429,
+                "surplus_base": 967
+            },
+            {
+                "strain_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "strain_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "strain_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "strain_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": 967
+            },
+            {
+                "magical_attack_power_base": 519
+            },
+            {
+                "physical_attack_power_base": 433
+            },
+            {
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "all_critical_strike_base": 967
+            },
+            {
+                "surplus_base": -557,
+                "strain_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "surplus_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "surplus_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "surplus_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "strain_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "strain_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": 1257
+            },
+            {
+                "magical_attack_power_base": 674
+            },
+            {
+                "physical_attack_power_base": 562
+            },
+            {
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "all_critical_strike_base": 1257
+            },
+            {
+                "surplus_base": -858,
+                "strain_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "surplus_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "surplus_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "surplus_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "strain_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "strain_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": 1934
+            },
+            {
+                "magical_attack_power_base": 1038
+            },
+            {
+                "physical_attack_power_base": 866
+            },
+            {
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "all_critical_strike_base": 1934
+            },
+            {
+                "surplus_base": -42,
+                "strain_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "surplus_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "surplus_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": -42,
+                "surplus_base": 96
+            },
+            {
+                "strain_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "strain_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "strain_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "strain_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": 96
+            },
+            {
+                "magical_attack_power_base": 51
+            },
+            {
+                "physical_attack_power_base": 43
+            },
+            {
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "all_critical_strike_base": 96
+            },
+            {
+                "surplus_base": -429,
+                "strain_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "surplus_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "surplus_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": -429,
+                "surplus_base": 967
+            },
+            {
+                "strain_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "strain_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "strain_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "strain_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": 967
+            },
+            {
+                "magical_attack_power_base": 519
+            },
+            {
+                "physical_attack_power_base": 433
+            },
+            {
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "all_critical_strike_base": 967
+            },
+            {
+                "surplus_base": -557,
+                "strain_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "surplus_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "surplus_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "surplus_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "strain_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "strain_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": 1257
+            },
+            {
+                "magical_attack_power_base": 674
+            },
+            {
+                "physical_attack_power_base": 562
+            },
+            {
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "all_critical_strike_base": 1257
+            },
+            {
+                "surplus_base": -858,
+                "strain_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "surplus_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "surplus_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "surplus_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "strain_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "strain_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": 1934
+            },
+            {
+                "magical_attack_power_base": 1038
+            },
+            {
+                "physical_attack_power_base": 866
+            },
+            {
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "all_critical_strike_base": 1934
+            }
+        ],
+        "max_level": 60,
+        "buff_name": [
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27784: {
+        "attributes": {
+            "surplus_base": 1074
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·煎豆腐。",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27785: {
+        "attributes": {
+            "strain_base": 1074
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·炖豆腐",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27786: {
+        "attributes": {
+            "magical_attack_power_base": 576
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·小炒青菜",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27787: {
+        "attributes": {
+            "physical_overcome_base": 1074,
+            "magical_overcome_base": 1074
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·清蒸鲈鱼",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27788: {
+        "attributes": {
+            "all_critical_strike_base": 1074
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·炸鱼干",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27789: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·慈母游子羹",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27790: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·农家小炒肉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27791: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·油炸花生米",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27792: {
+        "attributes": {
+            "physical_attack_power_base": 480
+        },
+        "max_level": 1,
+        "buff_name": "刚吃过断浪·葫芦叫花鸡",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17347: {
+        "attributes": {
+            "strength_base": 64
+        },
+        "max_level": 1,
+        "buff_name": "汾酒",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17348: {
+        "attributes": {
+            "strength_base": 128
+        },
+        "max_level": 1,
+        "buff_name": "汾酒·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17349: {
+        "attributes": [
+            {
+                "strength_base": 192
+            },
+            {
+                "strength_base": 256
+            },
+            {
+                "strength_base": 192
+            },
+            {
+                "strength_base": 256
+            },
+            {
+                "strength_base": 192
+            },
+            {
+                "strength_base": 256
+            },
+            {
+                "strength_base": 192
+            },
+            {
+                "strength_base": 256
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "汾酒·六日醉",
+            "汾酒·旬又三",
+            "汾酒·六日醉",
+            "汾酒·旬又三",
+            "汾酒·六日醉",
+            "汾酒·旬又三",
+            "汾酒·六日醉",
+            "汾酒·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17350: {
+        "attributes": {
+            "agility_base": 64
+        },
+        "max_level": 1,
+        "buff_name": "关外白酒",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17351: {
+        "attributes": {
+            "agility_base": 128
+        },
+        "max_level": 1,
+        "buff_name": "关外白酒·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17352: {
+        "attributes": [
+            {
+                "agility_base": 192
+            },
+            {
+                "agility_base": 256
+            },
+            {
+                "agility_base": 192
+            },
+            {
+                "agility_base": 256
+            },
+            {
+                "agility_base": 192
+            },
+            {
+                "agility_base": 256
+            },
+            {
+                "agility_base": 192
+            },
+            {
+                "agility_base": 256
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "关外白酒·六日醉",
+            "关外白酒·旬又三",
+            "关外白酒·六日醉",
+            "关外白酒·旬又三",
+            "关外白酒·六日醉",
+            "关外白酒·旬又三",
+            "关外白酒·六日醉",
+            "关外白酒·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17353: {
+        "attributes": {
+            "spirit_base": 64
+        },
+        "max_level": 1,
+        "buff_name": "高粱酒",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17354: {
+        "attributes": {
+            "spirit_base": 128
+        },
+        "max_level": 1,
+        "buff_name": "高粱酒·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17355: {
+        "attributes": [
+            {
+                "spirit_base": 192
+            },
+            {
+                "spirit_base": 256
+            },
+            {
+                "spirit_base": 192
+            },
+            {
+                "spirit_base": 256
+            },
+            {
+                "spirit_base": 192
+            },
+            {
+                "spirit_base": 256
+            },
+            {
+                "spirit_base": 192
+            },
+            {
+                "spirit_base": 256
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "高粱酒·六日醉",
+            "高粱酒·旬又三",
+            "高粱酒·六日醉",
+            "高粱酒·旬又三",
+            "高粱酒·六日醉",
+            "高粱酒·旬又三",
+            "高粱酒·六日醉",
+            "高粱酒·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17356: {
+        "attributes": {
+            "spunk_base": 64
+        },
+        "max_level": 1,
+        "buff_name": "状元红",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17357: {
+        "attributes": {
+            "spunk_base": 128
+        },
+        "max_level": 1,
+        "buff_name": "状元红·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17358: {
+        "attributes": [
+            {
+                "spunk_base": 192
+            },
+            {
+                "spunk_base": 256
+            },
+            {
+                "spunk_base": 192
+            },
+            {
+                "spunk_base": 256
+            },
+            {
+                "spunk_base": 192
+            },
+            {
+                "spunk_base": 256
+            },
+            {
+                "spunk_base": 192
+            },
+            {
+                "spunk_base": 256
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "状元红·六日醉",
+            "状元红·旬又三",
+            "状元红·六日醉",
+            "状元红·旬又三",
+            "状元红·六日醉",
+            "状元红·旬又三",
+            "状元红·六日醉",
+            "状元红·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17359: {
+        "attributes": {
+            "haste_base": 286
+        },
+        "max_level": 1,
+        "buff_name": "女儿红",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17360: {
+        "attributes": {
+            "haste_base": 572
+        },
+        "max_level": 1,
+        "buff_name": "女儿红·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17361: {
+        "attributes": [
+            {
+                "haste_base": 858
+            },
+            {
+                "haste_base": 1144
+            },
+            {
+                "haste_base": 858
+            },
+            {
+                "haste_base": 1144
+            },
+            {
+                "haste_base": 858
+            },
+            {
+                "haste_base": 1144
+            },
+            {
+                "haste_base": 858
+            },
+            {
+                "haste_base": 1144
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "女儿红·六日醉",
+            "女儿红·旬又三",
+            "女儿红·六日醉",
+            "女儿红·旬又三",
+            "女儿红·六日醉",
+            "女儿红·旬又三",
+            "女儿红·六日醉",
+            "女儿红·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17362: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "玉露酒",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17363: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "玉露酒·今朝醉",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17364: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": [
+            "玉露酒·六日醉",
+            "玉露酒·旬又三",
+            "玉露酒·六日醉",
+            "玉露酒·旬又三",
+            "玉露酒·六日醉",
+            "玉露酒·旬又三",
+            "玉露酒·六日醉",
+            "玉露酒·旬又三"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18428: {
+        "attributes": {
+            "surplus_base": 258,
+            "strain_base": 258
+        },
+        "max_level": 1,
+        "buff_name": "同泽宴",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    2563: {
+        "attributes": {
+            "strain_base": 517
+        },
+        "max_level": 1,
+        "buff_name": "蒸鱼菜盘",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    10100: {
+        "attributes": [
+            {
+                "surplus_base": 100,
+                "strain_base": 100
+            },
+            {
+                "surplus_base": 400,
+                "strain_base": 400
+            },
+            {
+                "surplus_base": 100,
+                "strain_base": 100
+            },
+            {
+                "surplus_base": 400,
+                "strain_base": 400
+            },
+            {
+                "surplus_base": 100,
+                "strain_base": 100
+            },
+            {
+                "surplus_base": 400,
+                "strain_base": 400
+            },
+            {
+                "surplus_base": 100,
+                "strain_base": 100
+            },
+            {
+                "surplus_base": 400,
+                "strain_base": 400
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "炼狱水煮鱼",
+            "百炼水煮鱼",
+            "炼狱水煮鱼",
+            "百炼水煮鱼",
+            "炼狱水煮鱼",
+            "百炼水煮鱼",
+            "炼狱水煮鱼",
+            "百炼水煮鱼"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
     15436: {
         "attributes": [
             {
@@ -51,20 +2646,8 @@ BUFFS = {
             }
         ],
         "max_level": 12,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
+        "max_stack": 1,
+        "recipes": {}
     },
     15455: {
         "attributes": [
@@ -76,10 +2659,8 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ]
+        "max_stack": 1,
+        "recipes": {}
     },
     4761: {
         "attributes": [
@@ -268,77 +2849,6 @@ BUFFS = {
             }
         ],
         "max_level": 69,
-        "max_stack": [
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10,
-            10
-        ],
         "buff_name": [
             "水·鋭刃",
             "水·激流",
@@ -409,7 +2919,9 @@ BUFFS = {
             "水·灭虚",
             "水·斩流",
             "水·封山"
-        ]
+        ],
+        "max_stack": 10,
+        "recipes": {}
     },
     6360: {
         "attributes": [
@@ -733,135 +3245,6 @@ BUFFS = {
             }
         ],
         "max_level": 127,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
         "buff_name": [
             "风·鋭刃",
             "风·激流",
@@ -990,582 +3373,3105 @@ BUFFS = {
             "风·百川",
             "风·灭虚",
             "风·斩流"
-        ]
-    },
-    920: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 21
-            }
         ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    918: {
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "天鼓雷音五阵"
-        ]
+        "buff_name": "天鼓雷音阵",
+        "max_stack": 1,
+        "recipes": {}
     },
-    940: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 10000,
-                "solar_critical_strike_rate": 10000,
-                "neutral_critical_strike_rate": 10000,
-                "lunar_critical_strike_rate": 10000,
-                "poison_critical_strike_rate": 10000
-            },
-            {
-                "physical_critical_strike_rate": 10000,
-                "solar_critical_strike_rate": 10000,
-                "neutral_critical_strike_rate": 10000,
-                "lunar_critical_strike_rate": 10000,
-                "poison_critical_strike_rate": 10000
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "卫公折冲六阵",
-            "天鼓雷音六阵"
-        ]
-    },
-    935: {
-        "attributes": [
-            {
-                "strength_gain": 10
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "卫公折冲四阵"
-        ]
-    },
-    936: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "卫公折冲五阵"
-        ]
-    },
-    937: {
-        "attributes": [
-            {
-                "magical_damage_addition": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "七绝逍遥四阵"
-        ]
-    },
-    943: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 100,
-                "neutral_critical_strike_rate": 100,
-                "poison_critical_strike_rate": 100,
-                "solar_critical_strike_rate": 100
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "九宫八卦五阵"
-        ]
-    },
-    949: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九宫八卦六阵"
-        ]
-    },
-    950: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 100
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "北斗七星五阵"
-        ]
-    },
-    953: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "北斗七星六阵"
-        ]
-    },
-    954: {
-        "attributes": [
-            {
-                "solar_overcome_gain": 307,
-                "neutral_overcome_gain": 307,
-                "lunar_overcome_gain": 307,
-                "poison_overcome_gain": 307
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九音惊弦四阵"
-        ]
-    },
-    955: {
+    919: {
         "attributes": [
             {
                 "magical_attack_power_gain": 51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九音惊弦五阵"
-        ]
-    },
-    956: {
-        "attributes": [
+            },
             {
-                "lunar_critical_strike_rate": 2000,
-                "solar_critical_strike_rate": 2000,
-                "neutral_critical_strike_rate": 2000,
-                "poison_critical_strike_rate": 2000
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九音惊弦六阵"
-        ]
-    },
-    1925: {
-        "attributes": [
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
             {
-                "weapon_damage_base": 1571
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "鸣速"
-        ]
-    },
-    1926: {
-        "attributes": [
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "solar_overcome_gain": 205
+            },
             {
-                "physical_critical_strike_rate": 2000
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "获气"
-        ]
-    },
-    2513: {
-        "attributes": [
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
             {
-                "poison_attack_power_gain": 51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万蛊噬心四阵"
-        ]
-    },
-    2514: {
-        "attributes": [
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
             {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 102,
                 "solar_overcome_gain": 102,
                 "neutral_overcome_gain": 102,
-                "lunar_overcome_gain": 102,
-                "poison_overcome_gain": 102
+                "lunar_overcome_gain": 102
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "lunar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "solar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 102,
+                "solar_overcome_gain": 102,
+                "neutral_overcome_gain": 102,
+                "lunar_overcome_gain": 102
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "lunar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "solar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 102,
+                "solar_overcome_gain": 102,
+                "neutral_overcome_gain": 102,
+                "lunar_overcome_gain": 102
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "lunar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "solar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 102,
+                "solar_overcome_gain": 102,
+                "neutral_overcome_gain": 102,
+                "lunar_overcome_gain": 102
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "lunar_overcome_gain": 205
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
+        "max_level": 7,
         "buff_name": [
-            "万蛊噬心五阵"
-        ]
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    920: {
+        "attributes": {
+            "magical_attack_power_gain": 21
+        },
+        "max_level": 1,
+        "buff_name": "天鼓雷音五阵",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    940: {
+        "attributes": {
+            "physical_critical_strike_rate": 10000,
+            "solar_critical_strike_rate": 10000,
+            "neutral_critical_strike_rate": 10000,
+            "lunar_critical_strike_rate": 10000,
+            "poison_critical_strike_rate": 10000
+        },
+        "max_level": 2,
+        "buff_name": [
+            "卫公折冲六阵",
+            "天鼓雷音六阵"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    929: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "卫公折冲阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    930: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    935: {
+        "attributes": {
+            "strength_gain": 10
+        },
+        "max_level": 1,
+        "buff_name": "卫公折冲四阵",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    936: {
+        "attributes": {
+            "physical_attack_power_gain": 51
+        },
+        "max_level": 1,
+        "buff_name": "卫公折冲五阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    933: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "七绝逍遥阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    934: {
+        "attributes": [
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    937: {
+        "attributes": {
+            "magical_damage_addition": 154
+        },
+        "max_level": 1,
+        "buff_name": "七绝逍遥四阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    931: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "九宫八卦阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    938: {
+        "attributes": [
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    943: {
+        "attributes": {
+            "lunar_critical_strike_rate": 100,
+            "neutral_critical_strike_rate": 100,
+            "poison_critical_strike_rate": 100,
+            "solar_critical_strike_rate": 100
+        },
+        "max_level": 1,
+        "buff_name": "九宫八卦五阵",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    949: {
+        "attributes": {
+            "magical_attack_power_gain": 205
+        },
+        "max_level": 1,
+        "buff_name": "九宫八卦六阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    946: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "北斗七星阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    947: {
+        "attributes": [
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    950: {
+        "attributes": {
+            "physical_critical_strike_rate": 100
+        },
+        "max_level": 1,
+        "buff_name": "北斗七星五阵",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    953: {
+        "attributes": {
+            "physical_attack_power_gain": 205
+        },
+        "max_level": 1,
+        "buff_name": "北斗七星六阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    951: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "九音惊弦阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    952: {
+        "attributes": [
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 51
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 51
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 51
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 51
+            },
+            {
+                "magical_attack_power_gain": 50
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    954: {
+        "attributes": {
+            "solar_overcome_gain": 307,
+            "neutral_overcome_gain": 307,
+            "lunar_overcome_gain": 307,
+            "poison_overcome_gain": 307
+        },
+        "max_level": 1,
+        "buff_name": "九音惊弦四阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    955: {
+        "attributes": {
+            "magical_attack_power_gain": 51
+        },
+        "max_level": 1,
+        "buff_name": "九音惊弦五阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    956: {
+        "attributes": {
+            "lunar_critical_strike_rate": 2000,
+            "solar_critical_strike_rate": 2000,
+            "neutral_critical_strike_rate": 2000,
+            "poison_critical_strike_rate": 2000
+        },
+        "max_level": 1,
+        "buff_name": "九音惊弦六阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    1923: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "依山观澜阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    1924: {
+        "attributes": [
+            {
+                "agility_gain": 30
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 204
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 204
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 204
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 204
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    1925: {
+        "attributes": {
+            "weapon_damage_base": 1571
+        },
+        "max_level": 1,
+        "buff_name": "鸣速",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    1926: {
+        "attributes": {
+            "physical_critical_strike_rate": 2000
+        },
+        "max_level": 1,
+        "buff_name": "获气",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    2511: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "万蛊噬心阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    2512: {
+        "attributes": [
+            {
+                "magical_attack_power_gain": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "一重初识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重初识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重初识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
+            "一重初识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    2513: {
+        "attributes": {
+            "poison_attack_power_gain": 51
+        },
+        "max_level": 1,
+        "buff_name": "万蛊噬心四阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    2514: {
+        "attributes": {
+            "solar_overcome_gain": 102,
+            "neutral_overcome_gain": 102,
+            "lunar_overcome_gain": 102,
+            "poison_overcome_gain": 102
+        },
+        "max_level": 1,
+        "buff_name": "万蛊噬心五阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     2510: {
+        "attributes": {
+            "poison_critical_strike_rate": 2000
+        },
+        "max_level": 1,
+        "buff_name": "蚀心",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    3302: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "流星赶月阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    3306: {
         "attributes": [
             {
-                "poison_critical_strike_rate": 2000
+                "strength_gain": 30
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "蚀心"
-        ]
+        "max_level": 7,
+        "max_stack": 1,
+        "recipes": {}
     },
     3308: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 500
-            }
-        ],
+        "attributes": {
+            "physical_critical_strike_rate": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "追命"
-        ]
+        "buff_name": "追命",
+        "max_stack": 1,
+        "recipes": {}
     },
     3309: {
+        "attributes": {
+            "physical_critical_strike_rate": 2000
+        },
+        "max_level": 1,
+        "buff_name": "肃杀",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    3303: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "千机百变阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    3307: {
         "attributes": [
             {
-                "physical_critical_strike_rate": 2000
-            }
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {},
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {},
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {},
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {}
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "肃杀"
-        ]
+        "max_level": 7,
+        "max_stack": 1,
+        "recipes": {}
     },
     3310: {
+        "attributes": {
+            "lunar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500,
+            "solar_critical_strike_rate": 500,
+            "physical_critical_strike_rate": 500
+        },
+        "max_level": 1,
+        "buff_name": "千机百变",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    4577: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "炎威破魔阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    4579: {
         "attributes": [
             {
-                "lunar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "千机百变"
-        ]
+        "max_level": 7,
+        "max_stack": 1,
+        "recipes": {}
     },
     4584: {
-        "attributes": [
-            {
-                "solar_critical_power_rate": 200,
-                "lunar_critical_power_rate": 200
-            }
-        ],
+        "attributes": {
+            "solar_critical_power_rate": 200,
+            "lunar_critical_power_rate": 200
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "炎威"
-        ]
+        "buff_name": "炎威",
+        "max_stack": 1,
+        "recipes": {}
     },
     4586: {
+        "attributes": {
+            "lunar_critical_strike_rate": 1000,
+            "solar_critical_strike_rate": 1000,
+            "neutral_critical_strike_rate": 1000,
+            "poison_critical_strike_rate": 1000
+        },
+        "max_level": 1,
+        "buff_name": "破魔",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    6340: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "降龙伏虎阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    6342: {
         "attributes": [
             {
-                "lunar_critical_strike_rate": 1000,
-                "solar_critical_strike_rate": 1000,
-                "neutral_critical_strike_rate": 1000,
-                "poison_critical_strike_rate": 1000
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "破魔"
-        ]
+        "max_level": 7,
+        "max_stack": 1,
+        "recipes": {}
     },
     6343: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 306
-            }
-        ],
+        "attributes": {
+            "physical_overcome_gain": 306
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "降龙"
-        ]
+        "buff_name": "降龙",
+        "max_stack": 1,
+        "recipes": {}
     },
     6345: {
-        "attributes": [
-            {
-                "physical_overcome_base": 770
-            }
-        ],
+        "attributes": {
+            "physical_overcome_base": 770
+        },
         "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "伏虎"
-        ]
+        "buff_name": "伏虎",
+        "max_stack": 5,
+        "recipes": {}
     },
     6362: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 205
-            }
-        ],
+        "attributes": {
+            "physical_attack_power_gain": 205
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "风和"
-        ]
+        "buff_name": "风和",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8401: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "锋凌横绝阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8402: {
+        "attributes": {
+            "physical_critical_strike_rate": 300,
+            "strain_rate": 20
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
     },
     8484: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 153
-            }
-        ],
+        "attributes": {
+            "physical_overcome_gain": 153
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "锋绝"
-        ]
+        "buff_name": "锋绝",
+        "max_stack": 1,
+        "recipes": {}
     },
     8403: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 20
-            }
-        ],
+        "attributes": {
+            "physical_critical_power_rate": 20
+        },
         "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "锋凌"
-        ]
+        "buff_name": "锋凌",
+        "max_stack": 5,
+        "recipes": {}
     },
     8404: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            }
-        ],
+        "attributes": {
+            "physical_attack_power_gain": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "横绝"
-        ]
+        "buff_name": "横绝",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    9484: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "万籁金弦阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    9485: {
+        "attributes": {
+            "lunar_critical_strike_rate": 300,
+            "solar_critical_strike_rate": 300,
+            "neutral_critical_strike_rate": 300,
+            "poison_critical_strike_rate": 300,
+            "strain_rate": 20,
+            "magical_attack_power_gain": 102
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
     },
     9486: {
-        "attributes": [
-            {
-                "lunar_critical_power_rate": 205
-            }
-        ],
+        "attributes": {
+            "lunar_critical_power_rate": 205
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万籁金弦阵"
-        ]
+        "buff_name": "万籁金弦阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     9492: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500
-            }
-        ],
+        "attributes": {
+            "lunar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500,
+            "solar_critical_strike_rate": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万籁金弦阵"
-        ]
+        "buff_name": "万籁金弦阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     9489: {
+        "attributes": {
+            "lunar_overcome_gain": 102,
+            "neutral_overcome_gain": 102,
+            "poison_overcome_gain": 102,
+            "solar_overcome_gain": 102
+        },
+        "max_level": 1,
+        "buff_name": "万籁金弦阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    10953: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "霜岚洗锋阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    10954: {
         "attributes": [
             {
-                "lunar_overcome_gain": 102,
-                "neutral_overcome_gain": 102,
-                "poison_overcome_gain": 102,
-                "solar_overcome_gain": 102
+                "physical_attack_power_gain": 50
+            },
+            {
+                "strain_rate": 20,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 102,
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "strain_rate": 20,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 102,
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "strain_rate": 20,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 102,
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "strain_rate": 20,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 102,
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20,
+                "physical_overcome_gain": 102
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万籁金弦阵"
-        ]
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
     },
     11158: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
-            }
-        ],
+        "attributes": {
+            "lunar_critical_strike_rate": 500,
+            "neutral_critical_strike_rate": 500,
+            "poison_critical_strike_rate": 500,
+            "solar_critical_strike_rate": 500,
+            "physical_critical_strike_rate": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "霜岚洗锋阵"
-        ]
+        "buff_name": "霜岚洗锋阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     11159: {
+        "attributes": {
+            "physical_critical_strike_rate": 2000
+        },
+        "max_level": 1,
+        "buff_name": "霜岚洗锋阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    14072: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "墟海引归阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    14074: {
         "attributes": [
             {
-                "physical_critical_strike_rate": 2000
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 133,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 133,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 133,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 133,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "霜岚洗锋阵"
-        ]
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
     },
     14092: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 72
-            }
-        ],
+        "attributes": {
+            "physical_attack_power_gain": 72
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "墟海引归阵"
-        ]
+        "buff_name": "墟海引归阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     14095: {
+        "attributes": {
+            "physical_critical_power_rate": 205
+        },
+        "max_level": 1,
+        "buff_name": "墟海引归阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    15955: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "龙皇雪风阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    15957: {
         "attributes": [
             {
-                "physical_critical_power_rate": 205
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "墟海引归阵"
-        ]
+        "max_level": 6,
+        "buff_name": "Buff=1，Debuff=2，Dot=3，Hot=4",
+        "max_stack": 1,
+        "recipes": {}
     },
     15960: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 100
-            }
-        ],
+        "attributes": {
+            "physical_critical_power_rate": 100
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "龙皇雪风四阵"
-        ]
+        "buff_name": "龙皇雪风四阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     15961: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            }
-        ],
+        "attributes": {
+            "physical_attack_power_gain": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "龙皇雪风五阵"
-        ]
+        "buff_name": "龙皇雪风五阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     15963: {
+        "attributes": {
+            "physical_critical_strike_rate": 1000
+        },
+        "max_level": 1,
+        "buff_name": "龙皇雪风六阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18334: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "九星游年阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18335: {
         "attributes": [
             {
-                "physical_critical_strike_rate": 1000
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "龙皇雪风六阵"
-        ]
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
     },
     18336: {
         "attributes": [
@@ -1601,73 +6507,574 @@ BUFFS = {
             }
         ],
         "max_level": 10,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵",
-            "九星游年阵"
-        ]
+        "buff_name": "九星游年阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     18337: {
+        "attributes": {
+            "all_damage_addition": 154
+        },
+        "max_level": 1,
+        "buff_name": "九星游年阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    21034: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "乱暮浊茵阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    21035: {
         "attributes": [
             {
-                "all_damage_addition": 154
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
             }
         ],
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24577: {
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            1
+        "buff_name": "横云破锋阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24578: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "surplus_base": 1516,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "surplus_base": 1516,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "surplus_base": 1516,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "surplus_base": 1516,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            }
         ],
-        "buff_name": [
-            "九星游年阵"
-        ]
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
     },
     24581: {
+        "attributes": {
+            "physical_critical_power_rate": 100
+        },
+        "max_level": 1,
+        "buff_name": "横云破锋阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27235: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "苍梧引灵阵",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27236: {
         "attributes": [
             {
-                "physical_critical_power_rate": 100
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "横云破锋阵"
-        ]
+        "max_level": 6,
+        "max_stack": 1,
+        "recipes": {}
     },
     27238: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 150,
-                "magical_critical_power_rate": 150
-            }
-        ],
+        "attributes": {
+            "physical_critical_power_rate": 150,
+            "magical_critical_power_rate": 150
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "苍梧引灵阵五重"
-        ]
+        "buff_name": "苍梧引灵阵五重",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    71338: {
+        "attributes": {
+            "physical_damage_addition": 52,
+            "magical_damage_addition": 52,
+            "strain_rate": 104
+        },
+        "max_level": 1,
+        "buff_name": "江湖行侠阵",
+        "max_stack": 1,
+        "recipes": {}
     },
     70161: {
         "attributes": [
@@ -2073,210 +7480,9 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高",
-            "伤害提高"
-        ]
+        "buff_name": "伤害提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     70167: {
         "attributes": [
@@ -2582,210 +7788,9 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高",
-            "无双提高"
-        ]
+        "buff_name": "无双提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     70162: {
         "attributes": [
@@ -3091,210 +8096,9 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高",
-            "外功会心率提高"
-        ]
+        "buff_name": "外功会心率提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     70163: {
         "attributes": [
@@ -3600,210 +8404,9 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高",
-            "外功会心效果提高"
-        ]
+        "buff_name": "外功会心效果提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     70345: {
         "attributes": [
@@ -4409,210 +9012,9 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高",
-            "内功会心率提高"
-        ]
+        "buff_name": "内功会心率提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     70188: {
         "attributes": [
@@ -5318,238 +9720,27 @@ BUFFS = {
             }
         ],
         "max_level": 100,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高",
-            "受到的伤害提高"
-        ]
+        "buff_name": "受到的伤害提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     20938: {
-        "attributes": [
-            {
-                "surplus_base": 54
-            }
-        ],
+        "attributes": {
+            "surplus_base": 54
+        },
         "max_level": 1,
-        "max_stack": [
-            150
-        ],
-        "buff_name": [
-            "左旋右转"
-        ]
+        "buff_name": "左旋右转",
+        "max_stack": 150,
+        "recipes": {}
     },
     23107: {
-        "attributes": [
-            {
-                "strain_base": 500
-            }
-        ],
+        "attributes": {
+            "strain_base": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            48
-        ],
-        "buff_name": [
-            "号令三军"
-        ]
+        "buff_name": "号令三军",
+        "max_stack": 48,
+        "recipes": {}
     },
     6363: {
         "attributes": [
@@ -5571,265 +9762,136 @@ BUFFS = {
             }
         ],
         "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "激雷",
-            "激雷",
-            "激雷",
-            "激雷"
-        ]
+        "buff_name": "激雷",
+        "max_stack": 1,
+        "recipes": {}
     },
     10208: {
-        "attributes": [
-            {
-                "strain_base": 500
-            }
-        ],
+        "attributes": {
+            "strain_base": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            36
-        ],
-        "buff_name": [
-            "弘法"
-        ]
+        "buff_name": "弘法",
+        "max_stack": 36,
+        "recipes": {}
     },
     24350: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 51,
-                "magical_critical_power_rate": 51
-            }
-        ],
+        "attributes": {
+            "physical_critical_power_rate": 51,
+            "magical_critical_power_rate": 51
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "皎素"
-        ]
+        "buff_name": "皎素",
+        "max_stack": 1,
+        "recipes": {}
     },
     21236: {
-        "attributes": [
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            },
-            {
-                "weapon_damage_gain": 1536
-            }
-        ],
+        "attributes": {
+            "weapon_damage_gain": 1536
+        },
         "max_level": 13,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻"
-        ]
+        "buff_name": "百锻",
+        "max_stack": 1,
+        "recipes": {}
     },
     24742: {
-        "attributes": [
-            {
-                "magical_damage_addition": 154,
-                "physical_damage_addition": 154
-            }
-        ],
+        "attributes": {
+            "magical_damage_addition": 154,
+            "physical_damage_addition": 154
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "仙王蛊鼎"
-        ]
+        "buff_name": "仙王蛊鼎",
+        "max_stack": 1,
+        "recipes": {}
     },
     4246: {
-        "attributes": [
-            {
-                "strain_base": 500
-            }
-        ],
+        "attributes": {
+            "strain_base": 500
+        },
         "max_level": 1,
-        "max_stack": [
-            24
-        ],
-        "buff_name": [
-            "朝圣"
-        ]
+        "buff_name": "朝圣",
+        "max_stack": 24,
+        "recipes": {}
     },
     8504: {
-        "attributes": [
-            {
-                "physical_overcome_base": 60,
-                "magical_overcome_base": 60
-            }
-        ],
+        "attributes": {
+            "physical_overcome_base": 60,
+            "magical_overcome_base": 60
+        },
         "max_level": 1,
-        "max_stack": [
-            125
-        ],
-        "buff_name": [
-            "振奋"
-        ]
+        "buff_name": "振奋",
+        "max_stack": 125,
+        "recipes": {}
     },
     10031: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 204,
-                "lunar_overcome_gain": 204,
-                "neutral_overcome_gain": 204,
-                "poison_overcome_gain": 204,
-                "solar_overcome_gain": 204
-            }
-        ],
+        "attributes": {
+            "physical_overcome_gain": 204,
+            "lunar_overcome_gain": 204,
+            "neutral_overcome_gain": 204,
+            "poison_overcome_gain": 204,
+            "solar_overcome_gain": 204
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "寒啸千军"
-        ]
+        "buff_name": "寒啸千军",
+        "max_stack": 1,
+        "recipes": {}
     },
     23543: {
-        "attributes": [
-            {
-                "strain_base": 50
-            }
-        ],
+        "attributes": {
+            "strain_base": 50
+        },
         "max_level": 1,
-        "max_stack": [
-            200
-        ],
-        "buff_name": [
-            "庄周梦"
-        ]
+        "buff_name": "庄周梦",
+        "max_stack": 200,
+        "recipes": {}
     },
     11456: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 307,
-                "lunar_attack_power_gain": 307,
-                "physical_attack_power_gain": 307,
-                "poison_attack_power_gain": 307,
-                "solar_attack_power_gain": 307
-            }
-        ],
+        "attributes": {
+            "neutral_attack_power_gain": 307,
+            "lunar_attack_power_gain": 307,
+            "physical_attack_power_gain": 307,
+            "poison_attack_power_gain": 307,
+            "solar_attack_power_gain": 307
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "疏狂"
-        ]
+        "buff_name": "疏狂",
+        "max_stack": 1,
+        "recipes": {}
     },
     20877: {
-        "attributes": [
-            {
-                "strength_gain": 10,
-                "spirit_gain": 10,
-                "spunk_gain": 10,
-                "agility_gain": 10
-            }
-        ],
+        "attributes": {
+            "strength_gain": 10,
+            "spirit_gain": 10,
+            "spunk_gain": 10,
+            "agility_gain": 10
+        },
         "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "配伍"
-        ]
+        "buff_name": "配伍",
+        "max_stack": 5,
+        "recipes": {}
     },
     9744: {
-        "attributes": [
-            {
-                "strain_base": 875
-            }
-        ],
+        "attributes": {
+            "strain_base": 875
+        },
         "max_level": 1,
-        "max_stack": [
-            24
-        ],
-        "buff_name": [
-            "朝圣"
-        ]
+        "buff_name": "朝圣",
+        "max_stack": 24,
+        "recipes": {}
     },
     16911: {
-        "attributes": [
-            {
-                "all_shield_ignore": 205,
-                "physical_overcome_base": 700,
-                "neutral_overcome_base": 700,
-                "poison_overcome_base": 700,
-                "solar_overcome_base": 700,
-                "lunar_overcome_base": 700
-            }
-        ],
+        "attributes": {
+            "all_shield_ignore": 205,
+            "physical_overcome_base": 700,
+            "neutral_overcome_base": 700,
+            "poison_overcome_base": 700,
+            "solar_overcome_base": 700,
+            "lunar_overcome_base": 700
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "弄梅"
-        ]
+        "buff_name": "弄梅",
+        "max_stack": 1,
+        "recipes": {}
     },
     15413: {
         "attributes": [
@@ -5883,305 +9945,949 @@ BUFFS = {
             }
         ],
         "max_level": 12,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
+        "max_stack": 1,
+        "recipes": {}
     },
     23573: {
-        "attributes": [
-            {
-                "all_damage_addition": 154
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 154
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ]
+        "max_stack": 1,
+        "recipes": {}
     },
-    1436: {
+    673: {
         "attributes": [
             {
-                "solar_attack_power_gain": 102
+                "all_major_base": 6,
+                "magical_shield_base": 10
             },
             {
-                "solar_critical_strike_rate": 400,
-                "solar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "佛吼",
-            "佛吼"
-        ]
-    },
-    11979: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 308,
-                "solar_overcome_gain": 308
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "罗汉金身"
-        ]
-    },
-    2686: {
-        "attributes": [
-            {
-                "solar_attack_power_gain": 204
+                "all_major_base": 9,
+                "magical_shield_base": 15
             },
             {
-                "solar_attack_power_gain": 204
+                "all_major_base": 12,
+                "magical_shield_base": 20
+            },
+            {
+                "all_major_base": 15,
+                "magical_shield_base": 25
+            },
+            {
+                "all_major_base": 18,
+                "magical_shield_base": 30
+            },
+            {
+                "all_major_base": 21,
+                "magical_shield_base": 35
+            },
+            {
+                "all_major_base": 25,
+                "magical_shield_base": 40
+            },
+            {
+                "all_major_base": 37,
+                "magical_shield_base": 60
+            },
+            {
+                "all_major_base": 52,
+                "magical_shield_base": 84
+            },
+            {
+                "all_major_base": 111,
+                "magical_shield_base": 154
+            },
+            {
+                "all_major_base": 244,
+                "magical_shield_base": 340
+            },
+            {
+                "all_major_base": 6,
+                "magical_shield_base": 10
+            },
+            {
+                "all_major_base": 9,
+                "magical_shield_base": 15
+            },
+            {
+                "all_major_base": 12,
+                "magical_shield_base": 20
+            },
+            {
+                "all_major_base": 15,
+                "magical_shield_base": 25
+            },
+            {
+                "all_major_base": 18,
+                "magical_shield_base": 30
+            },
+            {
+                "all_major_base": 21,
+                "magical_shield_base": 35
+            },
+            {
+                "all_major_base": 25,
+                "magical_shield_base": 40
+            },
+            {
+                "all_major_base": 37,
+                "magical_shield_base": 60
+            },
+            {
+                "all_major_base": 52,
+                "magical_shield_base": 84
+            },
+            {
+                "all_major_base": 111,
+                "magical_shield_base": 154
+            },
+            {
+                "all_major_base": 244,
+                "magical_shield_base": 340
+            },
+            {
+                "all_major_base": 6,
+                "magical_shield_base": 10
+            },
+            {
+                "all_major_base": 9,
+                "magical_shield_base": 15
+            },
+            {
+                "all_major_base": 12,
+                "magical_shield_base": 20
+            },
+            {
+                "all_major_base": 15,
+                "magical_shield_base": 25
+            },
+            {
+                "all_major_base": 18,
+                "magical_shield_base": 30
+            },
+            {
+                "all_major_base": 21,
+                "magical_shield_base": 35
+            },
+            {
+                "all_major_base": 25,
+                "magical_shield_base": 40
+            },
+            {
+                "all_major_base": 37,
+                "magical_shield_base": 60
+            },
+            {
+                "all_major_base": 52,
+                "magical_shield_base": 84
+            },
+            {
+                "all_major_base": 111,
+                "magical_shield_base": 154
+            },
+            {
+                "all_major_base": 244,
+                "magical_shield_base": 340
+            },
+            {
+                "all_major_base": 6,
+                "magical_shield_base": 10
+            },
+            {
+                "all_major_base": 9,
+                "magical_shield_base": 15
+            },
+            {
+                "all_major_base": 12,
+                "magical_shield_base": 20
+            },
+            {
+                "all_major_base": 15,
+                "magical_shield_base": 25
+            },
+            {
+                "all_major_base": 18,
+                "magical_shield_base": 30
+            },
+            {
+                "all_major_base": 21,
+                "magical_shield_base": 35
+            },
+            {
+                "all_major_base": 25,
+                "magical_shield_base": 40
+            },
+            {
+                "all_major_base": 37,
+                "magical_shield_base": 60
+            },
+            {
+                "all_major_base": 52,
+                "magical_shield_base": 84
+            },
+            {
+                "all_major_base": 111,
+                "magical_shield_base": 154
+            },
+            {
+                "all_major_base": 244,
+                "magical_shield_base": 340
             }
         ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "擒龙诀",
-            "擒龙诀"
-        ]
+        "max_level": 11,
+        "buff_name": "袖气",
+        "max_stack": 1,
+        "recipes": {}
     },
-    10023: {
+    362: {
         "attributes": [
             {
-                "all_damage_addition": 102
+                "physical_attack_power_gain": 10
+            },
+            {
+                "physical_attack_power_gain": 15
+            },
+            {
+                "physical_attack_power_gain": 20
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 31
+            },
+            {
+                "physical_attack_power_gain": 36
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 51
+            },
+            {
+                "physical_attack_power_gain": 10
+            },
+            {
+                "physical_attack_power_gain": 15
+            },
+            {
+                "physical_attack_power_gain": 20
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 31
+            },
+            {
+                "physical_attack_power_gain": 36
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 51
+            },
+            {
+                "physical_attack_power_gain": 10
+            },
+            {
+                "physical_attack_power_gain": 15
+            },
+            {
+                "physical_attack_power_gain": 20
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 31
+            },
+            {
+                "physical_attack_power_gain": 36
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 51
+            },
+            {
+                "physical_attack_power_gain": 10
+            },
+            {
+                "physical_attack_power_gain": 15
+            },
+            {
+                "physical_attack_power_gain": 20
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 31
+            },
+            {
+                "physical_attack_power_gain": 36
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 51
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "伏魔"
-        ]
+        "max_level": 8,
+        "buff_name": "撼如雷",
+        "max_stack": 1,
+        "recipes": {}
     },
-    24285: {
+    661: {
         "attributes": [
             {
-                "solar_critical_strike_rate": 600,
-                "solar_critical_power_rate": 62
+                "physical_shield_base": -30
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -50
+            },
+            {
+                "physical_shield_base": -60
+            },
+            {
+                "physical_shield_base": -69
+            },
+            {
+                "physical_shield_base": -79
+            },
+            {
+                "physical_shield_base": -90
+            },
+            {
+                "physical_shield_base": -99
+            },
+            {
+                "physical_shield_base": -108
+            },
+            {
+                "physical_shield_base": -120
+            },
+            {
+                "physical_shield_base": -128
+            },
+            {
+                "physical_shield_base": -138
+            },
+            {
+                "physical_shield_base": -147
+            },
+            {
+                "physical_shield_base": -157
+            },
+            {
+                "physical_shield_base": -166
+            },
+            {
+                "physical_shield_base": -177
+            },
+            {
+                "physical_shield_base": -186
+            },
+            {
+                "physical_shield_base": -195
+            },
+            {
+                "physical_shield_base": -205
+            },
+            {
+                "physical_shield_base": -216
+            },
+            {
+                "physical_shield_base": -225
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -244
+            },
+            {
+                "physical_shield_base": -255
+            },
+            {
+                "physical_shield_base": -264
+            },
+            {
+                "physical_shield_base": -273
+            },
+            {
+                "physical_shield_base": -282
+            },
+            {
+                "physical_shield_base": -291
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -1150
+            },
+            {
+                "physical_shield_base": -30
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -50
+            },
+            {
+                "physical_shield_base": -60
+            },
+            {
+                "physical_shield_base": -69
+            },
+            {
+                "physical_shield_base": -79
+            },
+            {
+                "physical_shield_base": -90
+            },
+            {
+                "physical_shield_base": -99
+            },
+            {
+                "physical_shield_base": -108
+            },
+            {
+                "physical_shield_base": -120
+            },
+            {
+                "physical_shield_base": -128
+            },
+            {
+                "physical_shield_base": -138
+            },
+            {
+                "physical_shield_base": -147
+            },
+            {
+                "physical_shield_base": -157
+            },
+            {
+                "physical_shield_base": -166
+            },
+            {
+                "physical_shield_base": -177
+            },
+            {
+                "physical_shield_base": -186
+            },
+            {
+                "physical_shield_base": -195
+            },
+            {
+                "physical_shield_base": -205
+            },
+            {
+                "physical_shield_base": -216
+            },
+            {
+                "physical_shield_base": -225
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -244
+            },
+            {
+                "physical_shield_base": -255
+            },
+            {
+                "physical_shield_base": -264
+            },
+            {
+                "physical_shield_base": -273
+            },
+            {
+                "physical_shield_base": -282
+            },
+            {
+                "physical_shield_base": -291
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -1150
+            },
+            {
+                "physical_shield_base": -30
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -50
+            },
+            {
+                "physical_shield_base": -60
+            },
+            {
+                "physical_shield_base": -69
+            },
+            {
+                "physical_shield_base": -79
+            },
+            {
+                "physical_shield_base": -90
+            },
+            {
+                "physical_shield_base": -99
+            },
+            {
+                "physical_shield_base": -108
+            },
+            {
+                "physical_shield_base": -120
+            },
+            {
+                "physical_shield_base": -128
+            },
+            {
+                "physical_shield_base": -138
+            },
+            {
+                "physical_shield_base": -147
+            },
+            {
+                "physical_shield_base": -157
+            },
+            {
+                "physical_shield_base": -166
+            },
+            {
+                "physical_shield_base": -177
+            },
+            {
+                "physical_shield_base": -186
+            },
+            {
+                "physical_shield_base": -195
+            },
+            {
+                "physical_shield_base": -205
+            },
+            {
+                "physical_shield_base": -216
+            },
+            {
+                "physical_shield_base": -225
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -244
+            },
+            {
+                "physical_shield_base": -255
+            },
+            {
+                "physical_shield_base": -264
+            },
+            {
+                "physical_shield_base": -273
+            },
+            {
+                "physical_shield_base": -282
+            },
+            {
+                "physical_shield_base": -291
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -1150
+            },
+            {
+                "physical_shield_base": -30
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -50
+            },
+            {
+                "physical_shield_base": -60
+            },
+            {
+                "physical_shield_base": -69
+            },
+            {
+                "physical_shield_base": -79
+            },
+            {
+                "physical_shield_base": -90
+            },
+            {
+                "physical_shield_base": -99
+            },
+            {
+                "physical_shield_base": -108
+            },
+            {
+                "physical_shield_base": -120
+            },
+            {
+                "physical_shield_base": -128
+            },
+            {
+                "physical_shield_base": -138
+            },
+            {
+                "physical_shield_base": -147
+            },
+            {
+                "physical_shield_base": -157
+            },
+            {
+                "physical_shield_base": -166
+            },
+            {
+                "physical_shield_base": -177
+            },
+            {
+                "physical_shield_base": -186
+            },
+            {
+                "physical_shield_base": -195
+            },
+            {
+                "physical_shield_base": -205
+            },
+            {
+                "physical_shield_base": -216
+            },
+            {
+                "physical_shield_base": -225
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -244
+            },
+            {
+                "physical_shield_base": -255
+            },
+            {
+                "physical_shield_base": -264
+            },
+            {
+                "physical_shield_base": -273
+            },
+            {
+                "physical_shield_base": -282
+            },
+            {
+                "physical_shield_base": -291
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -1150
             }
         ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "金刚日轮"
-        ]
+        "max_level": 30,
+        "buff_name": "破风",
+        "max_stack": 1,
+        "recipes": {}
     },
-    24453: {
+    3465: {
+        "attributes": {
+            "physical_shield_gain": -102
+        },
+        "max_level": 1,
+        "buff_name": "破甲",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    566: {
         "attributes": [
             {
-                "surplus_gain": -30
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "magical_shield_base": -6
+            },
+            {
+                "magical_shield_base": -9
+            },
+            {
+                "magical_shield_base": -12
+            },
+            {
+                "magical_shield_base": -15
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "magical_shield_base": -6
+            },
+            {
+                "magical_shield_base": -9
+            },
+            {
+                "magical_shield_base": -12
+            },
+            {
+                "magical_shield_base": -15
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "magical_shield_base": -6
+            },
+            {
+                "magical_shield_base": -9
+            },
+            {
+                "magical_shield_base": -12
+            },
+            {
+                "magical_shield_base": -15
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "magical_shield_base": -6
+            },
+            {
+                "magical_shield_base": -9
+            },
+            {
+                "magical_shield_base": -12
+            },
+            {
+                "magical_shield_base": -15
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
             }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ],
-        "buff_name": [
-            "贪破"
-        ]
-    },
-    24288: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
         ],
         "max_level": 6,
-        "max_stack": [
-            4,
-            4,
-            4,
-            4,
-            4,
-            4
-        ],
-        "buff_name": [
-            "果报",
-            "果报",
-            "果报",
-            "果报",
-            "果报",
-            "果报"
-        ]
+        "buff_name": "立地成佛",
+        "max_stack": 5,
+        "recipes": {}
     },
-    21859: {
+    378: {
         "attributes": [
             {
-                "solar_critical_strike_rate": 500,
-                "solar_critical_power_rate": 52
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "身意"
-        ]
-    },
-    890: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            2
-        ],
-        "buff_name": [
-            "普渡"
-        ]
-    },
-    12479: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "普渡"
-        ]
-    },
-    13910: {
-        "attributes": [
-            {
-                "all_damage_addition": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    12590: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 82
+                "physical_attack_power_gain": 18
             },
             {
-                "magical_attack_power_gain": 164
+                "physical_attack_power_gain": 21
             },
             {
-                "magical_attack_power_gain": 246
+                "physical_attack_power_gain": 23
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 29
+            },
+            {
+                "physical_critical_power_rate": 100
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_attack_power_gain": 18
+            },
+            {
+                "physical_attack_power_gain": 21
+            },
+            {
+                "physical_attack_power_gain": 23
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 29
+            },
+            {
+                "physical_critical_power_rate": 100
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_attack_power_gain": 18
+            },
+            {
+                "physical_attack_power_gain": 21
+            },
+            {
+                "physical_attack_power_gain": 23
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 29
+            },
+            {
+                "physical_critical_power_rate": 100
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_attack_power_gain": 18
+            },
+            {
+                "physical_attack_power_gain": 21
+            },
+            {
+                "physical_attack_power_gain": 23
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 29
+            },
+            {
+                "physical_critical_power_rate": 100
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000,
+                "all_shield_ignore": 614
             }
         ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ]
-    },
-    28296: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "布泽"
-        ]
-    },
-    1919: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "龙木金藤",
-            "白骨碎云",
-            "燃木",
-            "浮心·劫",
-            "涅槃",
-            "泥犁之狱",
-            "桑莲妙境"
-        ]
-    },
-    19635: {
-        "attributes": [
-            {
-                "solar_damage_cof": 41
-            },
-            {
-                "solar_damage_cof": 82
-            },
-            {
-                "solar_damage_cof": 123
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ]
-    },
-    1439: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "气涌",
-            "气涌"
-        ]
+        "max_level": 11,
+        "buff_name": "碎星辰",
+        "max_stack": 1,
+        "recipes": {}
     },
     375: {
         "attributes": [
@@ -6280,527 +10986,763 @@ BUFFS = {
                 "lunar_critical_strike_rate": 1000,
                 "magical_critical_power_rate": 204,
                 "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "magical_critical_power_rate": 60
+            },
+            {
+                "poison_critical_strike_rate": 350,
+                "solar_critical_strike_rate": 350,
+                "neutral_critical_strike_rate": 350,
+                "lunar_critical_strike_rate": 350,
+                "magical_critical_power_rate": 70
+            },
+            {
+                "poison_critical_strike_rate": 400,
+                "solar_critical_strike_rate": 400,
+                "neutral_critical_strike_rate": 400,
+                "lunar_critical_strike_rate": 400,
+                "magical_critical_power_rate": 80
+            },
+            {
+                "poison_critical_strike_rate": 450,
+                "solar_critical_strike_rate": 450,
+                "neutral_critical_strike_rate": 450,
+                "lunar_critical_strike_rate": 450,
+                "magical_critical_power_rate": 90
+            },
+            {
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 600,
+                "solar_critical_strike_rate": 600,
+                "neutral_critical_strike_rate": 600,
+                "lunar_critical_strike_rate": 600,
+                "magical_critical_power_rate": 120
+            },
+            {
+                "poison_critical_strike_rate": 700,
+                "solar_critical_strike_rate": 700,
+                "neutral_critical_strike_rate": 700,
+                "lunar_critical_strike_rate": 700,
+                "magical_critical_power_rate": 140
+            },
+            {
+                "poison_critical_strike_rate": 800,
+                "solar_critical_strike_rate": 800,
+                "neutral_critical_strike_rate": 800,
+                "lunar_critical_strike_rate": 800,
+                "magical_critical_power_rate": 160
+            },
+            {
+                "poison_critical_strike_rate": 900,
+                "solar_critical_strike_rate": 900,
+                "neutral_critical_strike_rate": 900,
+                "lunar_critical_strike_rate": 900,
+                "magical_critical_power_rate": 180
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "magical_critical_power_rate": 60
+            },
+            {
+                "poison_critical_strike_rate": 350,
+                "solar_critical_strike_rate": 350,
+                "neutral_critical_strike_rate": 350,
+                "lunar_critical_strike_rate": 350,
+                "magical_critical_power_rate": 70
+            },
+            {
+                "poison_critical_strike_rate": 400,
+                "solar_critical_strike_rate": 400,
+                "neutral_critical_strike_rate": 400,
+                "lunar_critical_strike_rate": 400,
+                "magical_critical_power_rate": 80
+            },
+            {
+                "poison_critical_strike_rate": 450,
+                "solar_critical_strike_rate": 450,
+                "neutral_critical_strike_rate": 450,
+                "lunar_critical_strike_rate": 450,
+                "magical_critical_power_rate": 90
+            },
+            {
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 600,
+                "solar_critical_strike_rate": 600,
+                "neutral_critical_strike_rate": 600,
+                "lunar_critical_strike_rate": 600,
+                "magical_critical_power_rate": 120
+            },
+            {
+                "poison_critical_strike_rate": 700,
+                "solar_critical_strike_rate": 700,
+                "neutral_critical_strike_rate": 700,
+                "lunar_critical_strike_rate": 700,
+                "magical_critical_power_rate": 140
+            },
+            {
+                "poison_critical_strike_rate": 800,
+                "solar_critical_strike_rate": 800,
+                "neutral_critical_strike_rate": 800,
+                "lunar_critical_strike_rate": 800,
+                "magical_critical_power_rate": 160
+            },
+            {
+                "poison_critical_strike_rate": 900,
+                "solar_critical_strike_rate": 900,
+                "neutral_critical_strike_rate": 900,
+                "lunar_critical_strike_rate": 900,
+                "magical_critical_power_rate": 180
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "magical_critical_power_rate": 60
+            },
+            {
+                "poison_critical_strike_rate": 350,
+                "solar_critical_strike_rate": 350,
+                "neutral_critical_strike_rate": 350,
+                "lunar_critical_strike_rate": 350,
+                "magical_critical_power_rate": 70
+            },
+            {
+                "poison_critical_strike_rate": 400,
+                "solar_critical_strike_rate": 400,
+                "neutral_critical_strike_rate": 400,
+                "lunar_critical_strike_rate": 400,
+                "magical_critical_power_rate": 80
+            },
+            {
+                "poison_critical_strike_rate": 450,
+                "solar_critical_strike_rate": 450,
+                "neutral_critical_strike_rate": 450,
+                "lunar_critical_strike_rate": 450,
+                "magical_critical_power_rate": 90
+            },
+            {
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 600,
+                "solar_critical_strike_rate": 600,
+                "neutral_critical_strike_rate": 600,
+                "lunar_critical_strike_rate": 600,
+                "magical_critical_power_rate": 120
+            },
+            {
+                "poison_critical_strike_rate": 700,
+                "solar_critical_strike_rate": 700,
+                "neutral_critical_strike_rate": 700,
+                "lunar_critical_strike_rate": 700,
+                "magical_critical_power_rate": 140
+            },
+            {
+                "poison_critical_strike_rate": 800,
+                "solar_critical_strike_rate": 800,
+                "neutral_critical_strike_rate": 800,
+                "lunar_critical_strike_rate": 800,
+                "magical_critical_power_rate": 160
+            },
+            {
+                "poison_critical_strike_rate": 900,
+                "solar_critical_strike_rate": 900,
+                "neutral_critical_strike_rate": 900,
+                "lunar_critical_strike_rate": 900,
+                "magical_critical_power_rate": 180
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204,
+                "all_shield_ignore": 615
             }
         ],
         "max_level": 14,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹",
-            "破苍穹"
-        ]
+        "buff_name": "破苍穹",
+        "max_stack": 1,
+        "recipes": {}
     },
-    1908: {
-        "attributes": [
-            {
-                "magical_critical_power_rate": 200
-            },
-            {
-                "magical_critical_power_rate": 200
-            },
-            {
-                "magical_critical_power_rate": 200
-            },
-            {
-                "magical_critical_power_rate": 200
-            },
-            {
-                "magical_critical_power_rate": 200
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            2,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "会神",
-            "会神",
-            "会神",
-            "会神",
-            "会神"
-        ]
-    },
-    2757: {
-        "attributes": [
-            {
-                "neutral_critical_strike_rate": 2500,
-                "magical_critical_power_rate": 250,
-                "neutral_attack_power_gain": 256,
-                "physical_attack_power_gain": 256,
-                "physical_critical_power_rate": 250,
-                "physical_critical_strike_rate": 2500
-            },
-            {
-                "neutral_critical_strike_rate": 2500,
-                "magical_critical_power_rate": 250,
-                "neutral_attack_power_gain": 256,
-                "physical_attack_power_gain": 256,
-                "physical_critical_power_rate": 250,
-                "physical_critical_strike_rate": 2500
-            },
-            {
-                "neutral_critical_strike_rate": 2500,
-                "magical_critical_power_rate": 256,
-                "neutral_attack_power_gain": 512,
-                "physical_attack_power_gain": 512,
-                "physical_critical_power_rate": 256,
-                "physical_critical_strike_rate": 2500
-            },
-            {
-                "neutral_critical_strike_rate": 2500,
-                "magical_critical_power_rate": 250,
-                "neutral_attack_power_gain": 256,
-                "physical_attack_power_gain": 256,
-                "physical_critical_power_rate": 250,
-                "physical_critical_strike_rate": 2500
-            }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "紫气东来",
-            "紫气东来",
-            "紫气东来",
-            "紫气东来"
-        ]
-    },
-    12779: {
-        "attributes": [
-            {}
-        ],
+    23305: {
+        "attributes": {
+            "physical_damage_cof": 61,
+            "solar_damage_cof": 61,
+            "neutral_damage_cof": 61,
+            "lunar_damage_cof": 61,
+            "poison_damage_cof": 61
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "气剑"
-        ]
+        "buff_name": "秋肃",
+        "max_stack": 1,
+        "recipes": {}
     },
-    12780: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "气剑"
-        ]
-    },
-    12781: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "气剑"
-        ]
-    },
-    12782: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "气剑"
-        ]
-    },
-    12783: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "气剑"
-        ]
-    },
-    9966: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    17918: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "破势"
-        ]
-    },
-    12550: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    12551: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    1438: {
+    4058: {
         "attributes": [
             {
-                "physical_attack_power_gain": 102
+                "physical_damage_cof": 21,
+                "solar_damage_cof": 21,
+                "neutral_damage_cof": 21,
+                "lunar_damage_cof": 21,
+                "poison_damage_cof": 21
             },
             {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
+                "physical_damage_cof": 51,
+                "solar_damage_cof": 51,
+                "neutral_damage_cof": 51,
+                "lunar_damage_cof": 51,
+                "poison_damage_cof": 51
+            },
+            {
+                "physical_damage_cof": 21,
+                "solar_damage_cof": 21,
+                "neutral_damage_cof": 21,
+                "lunar_damage_cof": 21,
+                "poison_damage_cof": 21
+            },
+            {
+                "physical_damage_cof": 51,
+                "solar_damage_cof": 51,
+                "neutral_damage_cof": 51,
+                "lunar_damage_cof": 51,
+                "poison_damage_cof": 51
+            },
+            {
+                "physical_damage_cof": 21,
+                "solar_damage_cof": 21,
+                "neutral_damage_cof": 21,
+                "lunar_damage_cof": 21,
+                "poison_damage_cof": 21
+            },
+            {
+                "physical_damage_cof": 51,
+                "solar_damage_cof": 51,
+                "neutral_damage_cof": 51,
+                "lunar_damage_cof": 51,
+                "poison_damage_cof": 51
+            },
+            {
+                "physical_damage_cof": 21,
+                "solar_damage_cof": 21,
+                "neutral_damage_cof": 21,
+                "lunar_damage_cof": 21,
+                "poison_damage_cof": 21
+            },
+            {
+                "physical_damage_cof": 51,
+                "solar_damage_cof": 51,
+                "neutral_damage_cof": 51,
+                "lunar_damage_cof": 51,
+                "poison_damage_cof": 51
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "剑鸣",
-            "剑鸣"
-        ]
+        "buff_name": "戒火",
+        "max_stack": 1,
+        "recipes": {}
     },
-    378: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 18
-            },
-            {
-                "physical_attack_power_gain": 21
-            },
-            {
-                "physical_attack_power_gain": 23
-            },
-            {
-                "physical_attack_power_gain": 25
-            },
-            {
-                "physical_attack_power_gain": 27
-            },
-            {
-                "physical_attack_power_gain": 29
-            },
-            {
-                "physical_critical_power_rate": 100
-            },
-            {
-                "physical_critical_power_rate": 100,
-                "physical_critical_strike_rate": 500
-            },
-            {
-                "physical_critical_power_rate": 204,
-                "physical_critical_strike_rate": 1000
-            },
-            {
-                "physical_critical_power_rate": 100,
-                "physical_critical_strike_rate": 500,
-                "all_shield_ignore": 614
-            },
-            {
-                "physical_critical_power_rate": 204,
-                "physical_critical_strike_rate": 1000,
-                "all_shield_ignore": 614
-            }
-        ],
-        "max_level": 11,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰",
-            "碎星辰"
-        ]
+    7180: {
+        "attributes": {
+            "physical_critical_strike_rate": 1000
+        },
+        "max_level": 3,
+        "buff_name": "酣畅淋漓",
+        "max_stack": 1,
+        "recipes": {}
     },
-    17933: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 154
-            }
-        ],
+    8248: {
+        "attributes": {
+            "physical_shield_gain": -51
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "裂云"
-        ]
+        "buff_name": "虚弱",
+        "max_stack": 1,
+        "recipes": {}
     },
-    9949: {
+    12717: {
         "attributes": [
             {
-                "physical_overcome_gain": 204,
-                "physical_critical_strike_rate": 300
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "玄门"
-        ]
-    },
-    14931: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "风逝"
-        ]
-    },
-    1440: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
+                "physical_shield_base": -40
             },
             {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "怒叱",
-            "怒叱"
-        ]
-    },
-    1487: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 307
+                "physical_shield_base": -54
             },
             {
-                "neutral_attack_power_gain": 307
+                "physical_shield_base": -66
             },
             {
-                "neutral_attack_power_gain": 307
+                "physical_shield_base": -80
             },
             {
-                "neutral_attack_power_gain": 307
+                "physical_shield_base": -92
             },
             {
-                "magical_damage_addition": 307
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            2,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "布散畅和",
-            "布散畅和",
-            "布散",
-            "布散",
-            "布散畅和"
-        ]
-    },
-    11809: {
-        "attributes": [
-            {
-                "all_shield_ignore": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "倚天"
-        ]
-    },
-    28116: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 102,
-                "surplus_gain": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "钟灵"
-        ]
-    },
-    9722: {
-        "attributes": [
-            {
-                "neutral_critical_strike_rate": 160,
-                "neutral_critical_power_rate": 16
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ],
-        "buff_name": [
-            "涓流"
-        ]
-    },
-    14636: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    12588: {
-        "attributes": [
-            {
-                "all_damage_addition": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24599: {
-        "attributes": [
-            {
-                "neutral_critical_strike_rate": 600,
-                "magical_attack_power_gain": 102
+                "physical_shield_base": -106
             },
             {
-                "neutral_critical_strike_rate": 600,
-                "magical_attack_power_gain": 102
+                "physical_shield_base": -118
             },
             {
-                "neutral_critical_strike_rate": 600,
-                "magical_attack_power_gain": 102
+                "physical_shield_base": -132
             },
             {
-                "neutral_critical_strike_rate": 600,
-                "magical_attack_power_gain": 102
+                "physical_shield_base": -144
+            },
+            {
+                "physical_shield_base": -158
+            },
+            {
+                "physical_shield_base": -170
+            },
+            {
+                "physical_shield_base": -184
+            },
+            {
+                "physical_shield_base": -196
+            },
+            {
+                "physical_shield_base": -210
+            },
+            {
+                "physical_shield_base": -222
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -248
+            },
+            {
+                "physical_shield_base": -262
+            },
+            {
+                "physical_shield_base": -274
+            },
+            {
+                "physical_shield_base": -288
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -314
+            },
+            {
+                "physical_shield_base": -326
+            },
+            {
+                "physical_shield_base": -340
+            },
+            {
+                "physical_shield_base": -352
+            },
+            {
+                "physical_shield_base": -364
+            },
+            {
+                "physical_shield_base": -376
+            },
+            {
+                "physical_shield_base": -388
+            },
+            {
+                "physical_shield_base": -400
+            },
+            {
+                "physical_shield_base": -1397
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -54
+            },
+            {
+                "physical_shield_base": -66
+            },
+            {
+                "physical_shield_base": -80
+            },
+            {
+                "physical_shield_base": -92
+            },
+            {
+                "physical_shield_base": -106
+            },
+            {
+                "physical_shield_base": -118
+            },
+            {
+                "physical_shield_base": -132
+            },
+            {
+                "physical_shield_base": -144
+            },
+            {
+                "physical_shield_base": -158
+            },
+            {
+                "physical_shield_base": -170
+            },
+            {
+                "physical_shield_base": -184
+            },
+            {
+                "physical_shield_base": -196
+            },
+            {
+                "physical_shield_base": -210
+            },
+            {
+                "physical_shield_base": -222
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -248
+            },
+            {
+                "physical_shield_base": -262
+            },
+            {
+                "physical_shield_base": -274
+            },
+            {
+                "physical_shield_base": -288
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -314
+            },
+            {
+                "physical_shield_base": -326
+            },
+            {
+                "physical_shield_base": -340
+            },
+            {
+                "physical_shield_base": -352
+            },
+            {
+                "physical_shield_base": -364
+            },
+            {
+                "physical_shield_base": -376
+            },
+            {
+                "physical_shield_base": -388
+            },
+            {
+                "physical_shield_base": -400
+            },
+            {
+                "physical_shield_base": -1397
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -54
+            },
+            {
+                "physical_shield_base": -66
+            },
+            {
+                "physical_shield_base": -80
+            },
+            {
+                "physical_shield_base": -92
+            },
+            {
+                "physical_shield_base": -106
+            },
+            {
+                "physical_shield_base": -118
+            },
+            {
+                "physical_shield_base": -132
+            },
+            {
+                "physical_shield_base": -144
+            },
+            {
+                "physical_shield_base": -158
+            },
+            {
+                "physical_shield_base": -170
+            },
+            {
+                "physical_shield_base": -184
+            },
+            {
+                "physical_shield_base": -196
+            },
+            {
+                "physical_shield_base": -210
+            },
+            {
+                "physical_shield_base": -222
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -248
+            },
+            {
+                "physical_shield_base": -262
+            },
+            {
+                "physical_shield_base": -274
+            },
+            {
+                "physical_shield_base": -288
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -314
+            },
+            {
+                "physical_shield_base": -326
+            },
+            {
+                "physical_shield_base": -340
+            },
+            {
+                "physical_shield_base": -352
+            },
+            {
+                "physical_shield_base": -364
+            },
+            {
+                "physical_shield_base": -376
+            },
+            {
+                "physical_shield_base": -388
+            },
+            {
+                "physical_shield_base": -400
+            },
+            {
+                "physical_shield_base": -1397
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -54
+            },
+            {
+                "physical_shield_base": -66
+            },
+            {
+                "physical_shield_base": -80
+            },
+            {
+                "physical_shield_base": -92
+            },
+            {
+                "physical_shield_base": -106
+            },
+            {
+                "physical_shield_base": -118
+            },
+            {
+                "physical_shield_base": -132
+            },
+            {
+                "physical_shield_base": -144
+            },
+            {
+                "physical_shield_base": -158
+            },
+            {
+                "physical_shield_base": -170
+            },
+            {
+                "physical_shield_base": -184
+            },
+            {
+                "physical_shield_base": -196
+            },
+            {
+                "physical_shield_base": -210
+            },
+            {
+                "physical_shield_base": -222
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -248
+            },
+            {
+                "physical_shield_base": -262
+            },
+            {
+                "physical_shield_base": -274
+            },
+            {
+                "physical_shield_base": -288
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -314
+            },
+            {
+                "physical_shield_base": -326
+            },
+            {
+                "physical_shield_base": -340
+            },
+            {
+                "physical_shield_base": -352
+            },
+            {
+                "physical_shield_base": -364
+            },
+            {
+                "physical_shield_base": -376
+            },
+            {
+                "physical_shield_base": -388
+            },
+            {
+                "physical_shield_base": -400
+            },
+            {
+                "physical_shield_base": -1397
             }
         ],
-        "max_level": 4,
-        "max_stack": [
-            4,
-            4,
-            4,
-            4
-        ],
-        "buff_name": [
-            "溅玉",
-            "溅玉",
-            "溅玉",
-            "溅玉"
-        ]
+        "max_level": 30,
+        "buff_name": "破风",
+        "max_stack": 1,
+        "recipes": {}
     },
     1428: {
         "attributes": [
@@ -6813,14 +11755,9 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "军啸",
-            "军啸"
-        ]
+        "buff_name": "军啸",
+        "max_stack": 1,
+        "recipes": {}
     },
     6121: {
         "attributes": [
@@ -6832,28 +11769,18 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "驰骋",
-            "驰骋"
-        ]
+        "buff_name": "驰骋",
+        "max_stack": 1,
+        "recipes": {}
     },
     14981: {
-        "attributes": [
-            {
-                "all_damage_addition": 307
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 307
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "百折"
-        ]
+        "buff_name": "百折",
+        "max_stack": 1,
+        "recipes": {}
     },
     7671: {
         "attributes": [
@@ -6875,105 +11802,88 @@ BUFFS = {
             }
         ],
         "max_level": 4,
+        "buff_name": "牧云",
         "max_stack": [
             4,
             1,
             1,
             1
         ],
-        "buff_name": [
-            "牧云",
-            "牧云",
-            "牧云",
-            "牧云"
-        ]
+        "recipes": {}
     },
     21638: {
-        "attributes": [
-            {
-                "all_damage_addition": 72
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 72
+        },
         "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "龙驭"
-        ]
+        "buff_name": "龙驭",
+        "max_stack": 3,
+        "recipes": {}
     },
     2779: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 358
-            }
-        ],
+        "attributes": {
+            "physical_attack_power_gain": 358
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "渊"
-        ]
+        "buff_name": "渊",
+        "max_stack": 1,
+        "recipes": {}
     },
     28169: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "龙印"
-        ]
+        "buff_name": "龙印",
+        "max_stack": 3,
+        "recipes": {}
     },
     12608: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
+        "attributes": {},
         "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
+        "max_stack": 1,
+        "recipes": [
+            {
+                4504: 1,
+                4505: 1,
+                4506: 1,
+                4507: 1
+            },
+            {
+                4504: 2,
+                4505: 2,
+                4506: 2,
+                4507: 2
+            },
+            {
+                4504: 3,
+                4505: 3,
+                4506: 3,
+                4507: 3
+            },
+            {
+                4504: 4,
+                4505: 4,
+                4506: 4,
+                4507: 4
+            },
+            {
+                4504: 5,
+                4505: 5,
+                4506: 5,
+                4507: 5
+            }
         ]
     },
     26008: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            1
-        ]
+        "max_stack": 1,
+        "recipes": {
+            3257: 1
+        }
     },
     1911: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
+        "attributes": {},
         "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
         "buff_name": [
             "碎魂",
             "焚海",
@@ -6982,7 +11892,9 @@ BUFFS = {
             "赤乌流火",
             "泣血",
             "旷野孤疆"
-        ]
+        ],
+        "max_stack": 1,
+        "recipes": {}
     },
     1437: {
         "attributes": [
@@ -6995,14 +11907,9 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "嗔怒",
-            "嗔怒"
-        ]
+        "buff_name": "嗔怒",
+        "max_stack": 1,
+        "recipes": {}
     },
     409: {
         "attributes": [
@@ -7113,6 +12020,7 @@ BUFFS = {
             }
         ],
         "max_level": 35,
+        "buff_name": "剑舞",
         "max_stack": [
             10,
             10,
@@ -7150,58 +12058,17 @@ BUFFS = {
             1,
             1
         ],
-        "buff_name": [
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞",
-            "剑舞"
-        ]
+        "recipes": {}
     },
     10240: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 800,
-                "lunar_critical_power_rate": 21
-            }
-        ],
+        "attributes": {
+            "lunar_critical_strike_rate": 800,
+            "lunar_critical_power_rate": 21
+        },
         "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "满堂"
-        ]
+        "buff_name": "满堂",
+        "max_stack": 5,
+        "recipes": {}
     },
     538: {
         "attributes": [
@@ -7240,6 +12107,7 @@ BUFFS = {
             }
         ],
         "max_level": 8,
+        "buff_name": "繁音急节",
         "max_stack": [
             1,
             1,
@@ -7250,16 +12118,7 @@ BUFFS = {
             7,
             1
         ],
-        "buff_name": [
-            "繁音急节",
-            "繁音急节",
-            "繁音急节",
-            "繁音急节",
-            "繁音急节",
-            "繁音急节",
-            "繁音急节",
-            "繁音急节"
-        ]
+        "recipes": {}
     },
     5788: {
         "attributes": [
@@ -7269,397 +12128,53 @@ BUFFS = {
             {}
         ],
         "max_level": 2,
-        "max_stack": [
-            5,
-            5
-        ],
-        "buff_name": [
-            "枕上",
-            "枕上"
-        ]
+        "buff_name": "枕上",
+        "max_stack": 5,
+        "recipes": {}
     },
     9927: {
-        "attributes": [
-            {
-                "all_damage_addition": 102
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "夜天"
-        ]
+        "buff_name": "夜天",
+        "max_stack": 1,
+        "recipes": {}
     },
     17969: {
-        "attributes": [
-            {
-                "pve_addition_base": 102
-            }
-        ],
+        "attributes": {
+            "pve_addition_base": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "化冰"
-        ]
-    },
-    17010: {
-        "attributes": [
-            {
-                "magical_critical_power_rate": 20
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ]
+        "buff_name": "化冰",
+        "max_stack": 1,
+        "recipes": {}
     },
     25902: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "流玉"
-        ]
+        "buff_name": "流玉",
+        "max_stack": 1,
+        "recipes": {
+            3246: 1
+        }
+    },
+    17010: {
+        "attributes": {
+            "magical_critical_power_rate": 20
+        },
+        "max_level": 1,
+        "max_stack": 10,
+        "recipes": {}
     },
     70704: {
-        "attributes": [
-            {
-                "all_damage_addition": 52
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 52
+        },
         "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "见月"
-        ]
-    },
-    1955: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "器攻",
-            "器攻"
-        ]
-    },
-    1728: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 51
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 102
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 205
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 256
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 51
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 102
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 205
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 256
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 51
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 102
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 205
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154,
-                "physical_critical_power_rate": 256
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 51
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 102
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 205
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 256
-            }
-        ],
-        "max_level": 26,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣",
-            "莺鸣"
-        ]
-    },
-    22913: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 82
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "岱宗"
-        ]
-    },
-    12317: {
-        "attributes": [
-            {
-                "all_damage_addition": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "怜光"
-        ]
-    },
-    9714: {
-        "attributes": [
-            {
-                "all_shield_ignore": 614
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "雾锁"
-        ]
-    },
-    26047: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 150
-            },
-            {
-                "physical_critical_power_rate": 120
-            },
-            {
-                "physical_critical_power_rate": 90
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "飞来",
-            "飞来",
-            "飞来"
-        ]
-    },
-    9903: {
-        "attributes": [
-            {},
-            {}
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "造化",
-            "造化"
-        ]
-    },
-    21640: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    26207: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            4
-        ],
-        "buff_name": [
-            "碧归"
-        ]
-    },
-    18008: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1000
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "闻踪"
-        ]
+        "buff_name": "见月",
+        "max_stack": 3,
+        "recipes": {}
     },
     2557: {
         "attributes": [
@@ -7672,14 +12187,9 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "蛊殇",
-            "蛊殇"
-        ]
+        "buff_name": "蛊殇",
+        "max_stack": 1,
+        "recipes": {}
     },
     2543: {
         "attributes": [
@@ -7691,1176 +12201,97 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "灵蛇献祭",
-            "灵蛇献祭"
-        ]
+        "buff_name": "灵蛇献祭",
+        "max_stack": 1,
+        "recipes": {}
     },
     12497: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 154
-            }
-        ],
+        "attributes": {
+            "poison_attack_power_gain": 154
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "虫兽"
-        ]
+        "buff_name": "虫兽",
+        "max_stack": 1,
+        "recipes": {}
     },
     22232: {
-        "attributes": [
-            {
-                "all_shield_ignore": 820
-            }
-        ],
+        "attributes": {
+            "all_shield_ignore": 820
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "嗜蛊"
-        ]
+        "buff_name": "嗜蛊",
+        "max_stack": 1,
+        "recipes": {}
     },
     16103: {
-        "attributes": [
-            {
-                "all_damage_addition": 102
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "引魂"
-        ]
-    },
-    16543: {
-        "attributes": [
-            {
-                "pve_addition_base": 104
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    17988: {
-        "attributes": [
-            {
-                "poison_critical_strike_rate": 3000
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    16102: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 410
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
+        "buff_name": "引魂",
+        "max_stack": 1,
+        "recipes": {}
     },
     25769: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "重蛊"
-        ]
+        "buff_name": "重蛊",
+        "max_stack": 1,
+        "recipes": {
+            3228: 1,
+            3229: 1,
+            3230: 1,
+            3231: 1,
+            3232: 1,
+            3233: 1,
+            3254: 1,
+            3255: 1,
+            3297: 1,
+            3298: 1,
+            3299: 1
+        }
+    },
+    16543: {
+        "attributes": {
+            "pve_addition_base": 104
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17988: {
+        "attributes": {
+            "poison_critical_strike_rate": 3000
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
+    },
+    16102: {
+        "attributes": {
+            "poison_attack_power_gain": 410
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
     },
     19513: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {}
-        ],
+        "attributes": {},
         "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    3401: {
-        "attributes": [
+        "max_stack": 1,
+        "recipes": [
             {
-                "physical_attack_power_gain": 102
+                2513: 1
             },
             {
-                "poison_attack_power_gain": 102
+                2514: 1
             },
             {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
+                2515: 1
             },
             {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
+                2516: 1
             }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "神力",
-            "神力",
-            "神力",
-            "神力"
-        ]
-    },
-    3254: {
-        "attributes": [
-            {
-                "spunk_gain": 20,
-                "strength_gain": 20
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "气魄"
-        ]
-    },
-    8210: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1500,
-                "physical_critical_power_rate": 300
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "心无旁骛"
-        ]
-    },
-    9981: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1000,
-                "physical_critical_power_rate": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "秋风散影"
-        ]
-    },
-    7659: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "命陨"
-        ]
-    },
-    3276: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "追命无声"
-        ]
-    },
-    23074: {
-        "attributes": [
-            {
-                "all_damage_addition": 103
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    10169: {
-        "attributes": [
-            {
-                "all_damage_addition": 103
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    17103: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    28225: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "蹑景"
-        ]
-    },
-    28226: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "蹑景"
-        ]
-    },
-    28227: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "蹑景"
-        ]
-    },
-    3316: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 512
-            },
-            {
-                "poison_attack_power_gain": 512
-            },
-            {
-                "poison_attack_power_gain": 512
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "扬威",
-            "扬威",
-            "扬威"
-        ]
-    },
-    6105: {
-        "attributes": [
-            {
-                "poison_overcome_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "弩心"
-        ]
-    },
-    27457: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ]
-    },
-    16234: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "暗藏杀机A"
-        ]
-    },
-    16235: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "暗藏杀机B"
-        ]
-    },
-    16236: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "暗藏杀机C"
-        ]
-    },
-    6112: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 154,
-                "poison_attack_power_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "千机之威"
-        ]
-    },
-    10005: {
-        "attributes": [
-            {
-                "all_shield_ignore": 410
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            2
-        ],
-        "buff_name": [
-            "催寒"
-        ]
-    },
-    28228: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "确固不拔"
-        ]
-    },
-    13165: {
-        "attributes": [
-            {},
-            {}
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ]
-    },
-    27405: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    23081: {
-        "attributes": [
-            {
-                "all_damage_addition": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    23082: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24668: {
-        "attributes": [
-            {
-                "all_damage_addition": 103
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            20
-        ]
-    },
-    4671: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102,
-                "solar_attack_power_gain": 102
-            },
-            {
-                "solar_critical_strike_rate": 400,
-                "lunar_critical_strike_rate": 400,
-                "solar_critical_power_rate": 41,
-                "lunar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "明尊",
-            "明尊"
-        ]
-    },
-    4754: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 51,
-                "solar_attack_power_gain": 51
-            },
-            {
-                "lunar_attack_power_gain": 102,
-                "solar_attack_power_gain": 102
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "诛戮",
-            "诛戮"
-        ]
-    },
-    6277: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 1000,
-                "solar_critical_strike_rate": 1000,
-                "magical_critical_power_rate": 52
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "无明业火"
-        ]
-    },
-    28886: {
-        "attributes": [
-            {
-                "pve_addition_base": 61
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "诛邪"
-        ]
-    },
-    25721: {
-        "attributes": [
-            {
-                "magical_damage_addition": 102
-            },
-            {
-                "magical_damage_addition": 154
-            },
-            {
-                "magical_damage_addition": 307
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            3,
-            4,
-            4
-        ],
-        "buff_name": [
-            "日月齐光",
-            "日月齐光·贰",
-            "日月齐光·叁"
-        ]
-    },
-    12575: {
-        "attributes": [
-            {
-                "all_shield_ignore": 563
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    25759: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    25758: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    5994: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000
-            },
-            {
-                "physical_critical_strike_rate": 2000,
-                "all_shield_ignore": 440
-            }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "酣畅淋漓",
-            "酣畅淋漓",
-            "酣畅淋漓",
-            "酣畅淋漓"
-        ]
-    },
-    6385: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 256
-            },
-            {
-                "physical_overcome_gain": 358
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "亢龙·镇慑",
-            "亢龙·镇慑"
-        ]
-    },
-    25904: {
-        "attributes": [
-            {
-                "all_damage_addition": 82
-            },
-            {
-                "all_damage_addition": 123
-            },
-            {
-                "all_damage_addition": 184
-            },
-            {
-                "all_damage_addition": 266
-            },
-            {
-                "pve_addition_base": 112
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            4
-        ],
-        "buff_name": [
-            "蛟影·一重",
-            "蛟影·二重",
-            "蛟影·三重",
-            "蛟影·四重",
-            "蛟影·易损"
-        ]
-    },
-    6377: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "无疆"
-        ]
-    },
-    9719: {
-        "attributes": [
-            {
-                "physical_critical_power_rate": 123
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "酒中仙"
-        ]
-    },
-    10221: {
-        "attributes": [
-            {
-                "all_damage_addition": 31
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ],
-        "buff_name": [
-            "青龙"
-        ]
-    },
-    12356: {
-        "attributes": [
-            {
-                "all_damage_addition": 51
-            },
-            {
-                "all_damage_addition": 102
-            },
-            {
-                "all_damage_addition": 205
-            },
-            {
-                "all_damage_addition": 154
-            }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "盈久",
-            "盈久",
-            "盈久",
-            "盈久"
-        ]
-    },
-    6398: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 204
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "亢龙·霆击"
-        ]
-    },
-    8244: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 41
-            },
-            {
-                "physical_attack_power_gain": 61
-            },
-            {
-                "physical_attack_power_gain": 82
-            },
-            {
-                "physical_attack_power_gain": 102
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            3,
-            3,
-            3,
-            3,
-            3
-        ],
-        "buff_name": [
-            "血怒",
-            "血怒",
-            "血怒",
-            "血怒",
-            "血怒"
-        ]
-    },
-    17176: {
-        "attributes": [
-            {
-                "all_damage_addition": 51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "分野"
-        ]
-    },
-    8267: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 300
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            10
-        ],
-        "buff_name": [
-            "恋战"
-        ]
-    },
-    14309: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "锋鸣"
-        ]
-    },
-    8451: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "狂绝"
-        ]
-    },
-    27161: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "血怒·惊涌"
-        ]
-    },
-    16957: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 5
-            },
-            {
-                "physical_attack_power_base": 40
-            },
-            {
-                "physical_attack_power_base": 100
-            },
-            {
-                "physical_attack_power_base": 150
-            }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            100,
-            100,
-            100,
-            100
-        ],
-        "buff_name": [
-            "单刀赴会·战",
-            "单刀赴会·战",
-            "单刀赴会·战",
-            "单刀赴会·战"
-        ]
-    },
-    25937: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 204
-            },
-            {
-                "physical_attack_power_gain": 307
-            },
-            {
-                "physical_attack_power_gain": 410
-            },
-            {
-                "physical_attack_power_gain": 512
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    8627: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    8474: {
-        "attributes": [
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
-            {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            }
-        ],
-        "max_level": 14,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "血云",
-            "太初社稷",
-            "征天",
-            "题龙旐",
-            "千仞",
-            "旧嗜",
-            "朱轩怀雀",
-            "修罗鬼面",
-            "十律守心·猊焰",
-            "十律守心·犴魂",
-            "白狼河北",
-            "四面边声",
-            "孤焰",
-            "致远"
-        ]
-    },
-    26212: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "麟黯"
-        ]
-    },
-    9052: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 8,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    8248: {
-        "attributes": [
-            {
-                "physical_shield_gain": -51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "虚弱"
-        ]
-    },
-    9586: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102
-            },
-            {
-                "lunar_critical_strike_rate": 400,
-                "lunar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "挥散",
-            "挥散"
-        ]
-    },
-    9437: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "参连"
-        ]
-    },
-    25997: {
-        "attributes": [
-            {
-                "magical_critical_power_rate": 102
-            },
-            {
-                "magical_critical_power_rate": 204
-            },
-            {
-                "magical_critical_power_rate": 410
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "知音妙意",
-            "知音妙意",
-            "知音妙意"
-        ]
-    },
-    23101: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 1000,
-                "magical_critical_power_rate": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            2
-        ]
-    },
-    12576: {
-        "attributes": [
-            {
-                "all_damage_addition": 51
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            9
-        ]
-    },
-    9433: {
-        "attributes": [
-            {},
-            {},
-            {}
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "阳春白雪",
-            "阳春白雪",
-            "阳春白雪"
-        ]
-    },
-    9495: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "明津"
         ]
     },
     11378: {
@@ -8874,3857 +12305,57 @@ BUFFS = {
             }
         ],
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "朔气",
-            "朔气"
-        ]
+        "buff_name": "朔气",
+        "max_stack": 1,
+        "recipes": {}
     },
     18384: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1000,
-                "physical_critical_power_rate": 102
-            }
-        ],
+        "attributes": {
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 102
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "含风"
-        ]
+        "buff_name": "含风",
+        "max_stack": 1,
+        "recipes": {}
     },
     14972: {
-        "attributes": [
-            {
-                "all_damage_addition": 205
-            }
-        ],
+        "attributes": {
+            "all_damage_addition": 205
+        },
         "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "爆体"
-        ]
-    },
-    4423: {
-        "attributes": [
-            {},
-            {},
-            {}
-        ],
-        "max_level": 3,
-        "max_stack": [
-            3,
-            1,
-            3
-        ],
-        "buff_name": [
-            "光明相",
-            "光明相",
-            "光明相"
-        ]
+        "buff_name": "爆体",
+        "max_stack": 1,
+        "recipes": {}
     },
     23066: {
-        "attributes": [
-            {},
-            {}
-        ],
+        "attributes": {},
         "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "含风",
-            "含风"
+        "buff_name": "含风",
+        "max_stack": 1,
+        "recipes": [
+            {
+                2943: 1,
+                2944: 1,
+                2945: 1
+            },
+            {
+                2946: 1,
+                2947: 1,
+                2948: 1
+            }
         ]
     },
     71047: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            10
-        ]
+        "max_stack": 10,
+        "recipes": {}
     },
     70454: {
-        "attributes": [
-            {}
-        ],
+        "attributes": {},
         "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    14353: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "羽念",
-            "羽念"
-        ]
-    },
-    14083: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 205
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "太息",
-            "太息"
-        ]
-    },
-    13560: {
-        "attributes": [
-            {},
-            {},
-            {
-                "physical_overcome_gain": 205
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "翼绝云天",
-            "翼绝云天",
-            "翼绝云天"
-        ]
-    },
-    17094: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1500,
-                "physical_critical_power_rate": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "鸿轨"
-        ]
-    },
-    13966: {
-        "attributes": [
-            {
-                "all_shield_ignore": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "梦悠"
-        ]
-    },
-    26012: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 123
-            },
-            {
-                "physical_attack_power_gain": 246
-            },
-            {
-                "physical_attack_power_gain": 369
-            },
-            {
-                "physical_attack_power_gain": 492
-            },
-            {
-                "physical_attack_power_gain": 614
-            },
-            {
-                "physical_attack_power_gain": 737
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "逸尘·攻",
-            "逸尘·攻",
-            "逸尘·攻",
-            "逸尘·攻",
-            "逸尘·攻",
-            "逸尘·攻"
-        ]
-    },
-    14321: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "飓风加掌法伤害"
-        ]
-    },
-    14317: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "神降",
-            "神降",
-            "神降",
-            "神降",
-            "神降"
-        ]
-    },
-    71252: {
-        "attributes": [
-            {},
-            {},
-            {}
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "澹然若海·悟",
-            "澹然若海·悟",
-            "澹然若海·悟"
-        ]
-    },
-    16025: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "雷引",
-            "雷引"
-        ]
-    },
-    15893: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 256
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "忘断"
-        ]
-    },
-    15932: {
-        "attributes": [
-            {
-                "all_shield_ignore": 614
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "徵逐"
-        ]
-    },
-    15926: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            3
-        ],
-        "buff_name": [
-            "百节"
-        ]
-    },
-    16596: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1500,
-                "physical_critical_power_rate": 150,
-                "physical_attack_power_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    15927: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    15928: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    15929: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    15832: {
-        "attributes": [
-            {},
-            {}
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ]
-    },
-    21588: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 14,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    18555: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "星悬",
-            "星悬"
-        ]
-    },
-    18002: {
-        "attributes": [
-            {
-                "neutral_critical_strike_rate": 1000,
-                "magical_critical_power_rate": 100
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "枭神"
-        ]
-    },
-    18021: {
-        "attributes": [
-            {
-                "all_shield_ignore": 512
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "荧入白"
-        ]
-    },
-    18174: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 308
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "鬼遁"
-        ]
-    },
-    18176: {
-        "attributes": [
-            {
-                "all_damage_addition": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "祝祷"
-        ]
-    },
-    28303: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "重山·一"
-        ]
-    },
-    28304: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "重山·二"
-        ]
-    },
-    28305: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "重山·三"
-        ]
-    },
-    21758: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 102
-            },
-            {
-                "poison_critical_strike_rate": 400,
-                "poison_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "断肠",
-            "断肠"
-        ]
-    },
-    20680: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 154
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "相使"
-        ]
-    },
-    20696: {
-        "attributes": [
-            {
-                "all_shield_ignore": 512
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "凄骨"
-        ]
-    },
-    20718: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    21168: {
-        "attributes": [
-            {},
-            {},
-            {}
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ]
-    },
-    21856: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    20699: {
-        "attributes": [
-            {
-                "poison_overcome_gain": 256,
-                "strain_gain": 307
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24659: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    71230: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    71258: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24553: {
-        "attributes": [
-            {
-                "physical_overcome_gain": 51
-            },
-            {
-                "physical_overcome_gain": 51,
-                "physical_critical_strike_rate": 500
-            },
-            {
-                "physical_critical_power_rate": 51,
-                "physical_critical_strike_rate": 500,
-                "physical_overcome_gain": 51
-            },
-            {
-                "physical_critical_power_rate": 100,
-                "physical_critical_strike_rate": 1000,
-                "physical_overcome_gain": 102
-            }
-        ],
-        "max_level": 4,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "灭影追风",
-            "灭影追风",
-            "灭影追风",
-            "灭影追风"
-        ]
-    },
-    24209: {
-        "attributes": [
-            {
-                "all_shield_ignore": 256
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "流岚"
-        ]
-    },
-    24179: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24557: {
-        "attributes": [
-            {},
-            {}
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "戗风",
-            "戗风"
-        ]
-    },
-    24180: {
-        "attributes": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
-        ],
-        "max_level": 8,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    71297: {
-        "attributes": [
-            {
-                "physical_damage_addition": 41,
-                "magical_damage_addition": 41
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "披靡·悟"
-        ]
-    },
-    26857: {
-        "attributes": [
-            {
-                "all_damage_addition": 62
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "承契"
-        ]
-    },
-    27099: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102,
-                "all_shield_ignore": 205
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "诸怀"
-        ]
-    },
-    27406: {
-        "attributes": [
-            {
-                "all_damage_addition": -307
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    71172: {
-        "attributes": [
-            {
-                "physical_damage_addition": 31,
-                "magical_damage_addition": 31
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            5
-        ],
-        "buff_name": [
-            "伤害提高"
-        ]
-    },
-    71182: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    24731: {
-        "attributes": [
-            {},
-            {
-                "agility_base": 382
-            },
-            {
-                "spunk_base": 382
-            },
-            {
-                "strength_base": 382
-            },
-            {
-                "spirit_base": 382
-            },
-            {},
-            {
-                "agility_base": 191
-            },
-            {
-                "spunk_base": 191
-            },
-            {
-                "strength_base": 191
-            },
-            {
-                "spirit_base": 191
-            }
-        ],
-        "max_level": 10,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤"
-        ]
-    },
-    24732: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 1705
-            },
-            {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
-            },
-            {
-                "surplus_base": 1705
-            },
-            {
-                "haste_base": 1705
-            },
-            {
-                "physical_attack_power_base": 768
-            },
-            {
-                "magical_attack_power_base": 917
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 853
-            },
-            {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
-            },
-            {
-                "surplus_base": 853
-            },
-            {
-                "haste_base": 853
-            },
-            {
-                "physical_attack_power_base": 384
-            },
-            {
-                "magical_attack_power_base": 458
-            },
-            {},
-            {}
-        ],
-        "max_level": 16,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面"
-        ]
-    },
-    24733: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {}
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴"
-        ]
-    },
-    24734: {
-        "attributes": [
-            {},
-            {
-                "agility_base": 437
-            },
-            {
-                "spunk_base": 437
-            },
-            {
-                "strength_base": 437
-            },
-            {
-                "spirit_base": 437
-            }
-        ],
-        "max_level": 5,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "水晶芙蓉宴",
-            "水晶芙蓉宴",
-            "水晶芙蓉宴",
-            "水晶芙蓉宴",
-            "水晶芙蓉宴"
-        ]
-    },
-    24735: {
-        "attributes": [
-            {},
-            {
-                "agility_base": 492
-            },
-            {
-                "spunk_base": 492
-            },
-            {
-                "strength_base": 492
-            },
-            {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
-            }
-        ],
-        "max_level": 10,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸"
-        ]
-    },
-    24736: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {}
-        ],
-        "max_level": 16,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散"
-        ]
-    },
-    17347: {
-        "attributes": [
-            {
-                "strength_base": 64
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "汾酒"
-        ]
-    },
-    17348: {
-        "attributes": [
-            {
-                "strength_base": 128
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "汾酒·今朝醉"
-        ]
-    },
-    17349: {
-        "attributes": [
-            {
-                "strength_base": 192
-            },
-            {
-                "strength_base": 256
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "汾酒·六日醉",
-            "汾酒·旬又三"
-        ]
-    },
-    17350: {
-        "attributes": [
-            {
-                "agility_base": 64
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "关外白酒"
-        ]
-    },
-    17351: {
-        "attributes": [
-            {
-                "agility_base": 128
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "关外白酒·今朝醉"
-        ]
-    },
-    17352: {
-        "attributes": [
-            {
-                "agility_base": 192
-            },
-            {
-                "agility_base": 256
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "关外白酒·六日醉",
-            "关外白酒·旬又三"
-        ]
-    },
-    17353: {
-        "attributes": [
-            {
-                "spirit_base": 64
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "高粱酒"
-        ]
-    },
-    17354: {
-        "attributes": [
-            {
-                "spirit_base": 128
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "高粱酒·今朝醉"
-        ]
-    },
-    17355: {
-        "attributes": [
-            {
-                "spirit_base": 192
-            },
-            {
-                "spirit_base": 256
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "高粱酒·六日醉",
-            "高粱酒·旬又三"
-        ]
-    },
-    17356: {
-        "attributes": [
-            {
-                "spunk_base": 64
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "状元红"
-        ]
-    },
-    17357: {
-        "attributes": [
-            {
-                "spunk_base": 128
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "状元红·今朝醉"
-        ]
-    },
-    17358: {
-        "attributes": [
-            {
-                "spunk_base": 192
-            },
-            {
-                "spunk_base": 256
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "状元红·六日醉",
-            "状元红·旬又三"
-        ]
-    },
-    17359: {
-        "attributes": [
-            {
-                "haste_base": 286
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "女儿红"
-        ]
-    },
-    17360: {
-        "attributes": [
-            {
-                "haste_base": 572
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "女儿红·今朝醉"
-        ]
-    },
-    17361: {
-        "attributes": [
-            {
-                "haste_base": 858
-            },
-            {
-                "haste_base": 1144
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "女儿红·六日醉",
-            "女儿红·旬又三"
-        ]
-    },
-    17362: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "玉露酒"
-        ]
-    },
-    17363: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "玉露酒·今朝醉"
-        ]
-    },
-    17364: {
-        "attributes": [
-            {},
-            {}
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "玉露酒·六日醉",
-            "玉露酒·旬又三"
-        ]
-    },
-    17365: {
-        "attributes": [
-            {
-                "surplus_base": -42,
-                "strain_base": 96
-            },
-            {
-                "surplus_base": -42,
-                "magical_attack_power_base": 51
-            },
-            {
-                "surplus_base": -42,
-                "physical_attack_power_base": 43
-            },
-            {
-                "surplus_base": -42,
-                "physical_overcome_base": 96,
-                "magical_overcome_base": 96
-            },
-            {
-                "surplus_base": -42,
-                "all_critical_strike_base": 96
-            },
-            {
-                "strain_base": -42,
-                "surplus_base": 96
-            },
-            {
-                "strain_base": -42,
-                "magical_attack_power_base": 51
-            },
-            {
-                "strain_base": -42,
-                "physical_attack_power_base": 43
-            },
-            {
-                "strain_base": -42,
-                "physical_overcome_base": 96,
-                "magical_overcome_base": 96
-            },
-            {
-                "strain_base": -42,
-                "all_critical_strike_base": 96
-            },
-            {
-                "strain_base": 96
-            },
-            {
-                "magical_attack_power_base": 51
-            },
-            {
-                "physical_attack_power_base": 43
-            },
-            {
-                "physical_overcome_base": 96,
-                "magical_overcome_base": 96
-            },
-            {
-                "all_critical_strike_base": 96
-            },
-            {
-                "surplus_base": -429,
-                "strain_base": 967
-            },
-            {
-                "surplus_base": -429,
-                "magical_attack_power_base": 519
-            },
-            {
-                "surplus_base": -429,
-                "physical_attack_power_base": 433
-            },
-            {
-                "surplus_base": -429,
-                "physical_overcome_base": 967,
-                "magical_overcome_base": 967
-            },
-            {
-                "surplus_base": -429,
-                "all_critical_strike_base": 967
-            },
-            {
-                "strain_base": -429,
-                "surplus_base": 967
-            },
-            {
-                "strain_base": -429,
-                "magical_attack_power_base": 519
-            },
-            {
-                "strain_base": -429,
-                "physical_attack_power_base": 433
-            },
-            {
-                "strain_base": -429,
-                "physical_overcome_base": 967,
-                "magical_overcome_base": 967
-            },
-            {
-                "strain_base": -429,
-                "all_critical_strike_base": 967
-            },
-            {
-                "strain_base": 967
-            },
-            {
-                "magical_attack_power_base": 519
-            },
-            {
-                "physical_attack_power_base": 433
-            },
-            {
-                "physical_overcome_base": 967,
-                "magical_overcome_base": 967
-            },
-            {
-                "all_critical_strike_base": 967
-            },
-            {
-                "surplus_base": -557,
-                "strain_base": 1257
-            },
-            {
-                "surplus_base": -557,
-                "magical_attack_power_base": 674
-            },
-            {
-                "surplus_base": -557,
-                "physical_attack_power_base": 562
-            },
-            {
-                "surplus_base": -557,
-                "physical_overcome_base": 1257,
-                "magical_overcome_base": 1257
-            },
-            {
-                "surplus_base": -557,
-                "all_critical_strike_base": 1257
-            },
-            {
-                "strain_base": -557,
-                "surplus_base": 1257
-            },
-            {
-                "strain_base": -557,
-                "magical_attack_power_base": 674
-            },
-            {
-                "strain_base": -557,
-                "physical_attack_power_base": 562
-            },
-            {
-                "strain_base": -557,
-                "physical_overcome_base": 1257,
-                "magical_overcome_base": 1257
-            },
-            {
-                "strain_base": -557,
-                "all_critical_strike_base": 1257
-            },
-            {
-                "strain_base": 1257
-            },
-            {
-                "magical_attack_power_base": 674
-            },
-            {
-                "physical_attack_power_base": 562
-            },
-            {
-                "physical_overcome_base": 1257,
-                "magical_overcome_base": 1257
-            },
-            {
-                "all_critical_strike_base": 1257
-            },
-            {
-                "surplus_base": -858,
-                "strain_base": 1934
-            },
-            {
-                "surplus_base": -858,
-                "magical_attack_power_base": 1038
-            },
-            {
-                "surplus_base": -858,
-                "physical_attack_power_base": 866
-            },
-            {
-                "surplus_base": -858,
-                "physical_overcome_base": 1934,
-                "magical_overcome_base": 1934
-            },
-            {
-                "surplus_base": -858,
-                "all_critical_strike_base": 1934
-            },
-            {
-                "strain_base": -858,
-                "surplus_base": 1934
-            },
-            {
-                "strain_base": -858,
-                "magical_attack_power_base": 1038
-            },
-            {
-                "strain_base": -858,
-                "physical_attack_power_base": 866
-            },
-            {
-                "strain_base": -858,
-                "physical_overcome_base": 1934,
-                "magical_overcome_base": 1934
-            },
-            {
-                "strain_base": -858,
-                "all_critical_strike_base": 1934
-            },
-            {
-                "strain_base": 1934
-            },
-            {
-                "magical_attack_power_base": 1038
-            },
-            {
-                "physical_attack_power_base": 866
-            },
-            {
-                "physical_overcome_base": 1934,
-                "magical_overcome_base": 1934
-            },
-            {
-                "all_critical_strike_base": 1934
-            }
-        ],
-        "max_level": 60,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·初",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·次",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·升",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛",
-            "创意料理·盛"
-        ]
-    },
-    27784: {
-        "attributes": [
-            {
-                "surplus_base": 1074
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·煎豆腐。"
-        ]
-    },
-    27785: {
-        "attributes": [
-            {
-                "strain_base": 1074
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·炖豆腐"
-        ]
-    },
-    27786: {
-        "attributes": [
-            {
-                "magical_attack_power_base": 576
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·小炒青菜"
-        ]
-    },
-    27787: {
-        "attributes": [
-            {
-                "physical_overcome_base": 1074,
-                "magical_overcome_base": 1074
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·清蒸鲈鱼"
-        ]
-    },
-    27788: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 1074
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·炸鱼干"
-        ]
-    },
-    27789: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·慈母游子羹"
-        ]
-    },
-    27790: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·农家小炒肉"
-        ]
-    },
-    27791: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·油炸花生米"
-        ]
-    },
-    27792: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 480
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "刚吃过断浪·葫芦叫花鸡"
-        ]
-    },
-    18428: {
-        "attributes": [
-            {
-                "surplus_base": 258,
-                "strain_base": 258
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "同泽宴"
-        ]
-    },
-    2563: {
-        "attributes": [
-            {
-                "strain_base": 517
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "蒸鱼菜盘"
-        ]
-    },
-    10100: {
-        "attributes": [
-            {
-                "surplus_base": 100,
-                "strain_base": 100
-            },
-            {
-                "surplus_base": 400,
-                "strain_base": 400
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "炼狱水煮鱼",
-            "百炼水煮鱼"
-        ]
-    },
-    918: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "天鼓雷音阵"
-        ]
-    },
-    919: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "poison_overcome_gain": 205,
-                "lunar_overcome_gain": 205,
-                "neutral_overcome_gain": 205,
-                "solar_overcome_gain": 205
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "poison_overcome_gain": 205,
-                "lunar_overcome_gain": 205,
-                "solar_overcome_gain": 205,
-                "neutral_overcome_gain": 205
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "poison_overcome_gain": 205,
-                "lunar_overcome_gain": 205,
-                "solar_overcome_gain": 205,
-                "neutral_overcome_gain": 205
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "poison_overcome_gain": 102,
-                "solar_overcome_gain": 102,
-                "neutral_overcome_gain": 102,
-                "lunar_overcome_gain": 102
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "poison_overcome_gain": 205,
-                "solar_overcome_gain": 205,
-                "neutral_overcome_gain": 205,
-                "lunar_overcome_gain": 205
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    929: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "卫公折冲阵"
-        ]
-    },
-    930: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 200
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    933: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "七绝逍遥阵"
-        ]
-    },
-    934: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_overcome_gain": 300,
-                "neutral_overcome_gain": 300,
-                "lunar_overcome_gain": 300,
-                "poison_overcome_gain": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_overcome_gain": 300,
-                "neutral_overcome_gain": 300,
-                "lunar_overcome_gain": 300,
-                "poison_overcome_gain": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_overcome_gain": 300,
-                "neutral_overcome_gain": 300,
-                "lunar_overcome_gain": 300,
-                "poison_overcome_gain": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_overcome_gain": 300,
-                "neutral_overcome_gain": 300,
-                "lunar_overcome_gain": 300,
-                "poison_overcome_gain": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_overcome_gain": 300,
-                "neutral_overcome_gain": 300,
-                "lunar_overcome_gain": 300,
-                "poison_overcome_gain": 300
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    931: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九宫八卦阵"
-        ]
-    },
-    938: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 154
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 154
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    946: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "北斗七星阵"
-        ]
-    },
-    947: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 300
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "physical_critical_power_rate": 150
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "physical_critical_power_rate": 150
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "physical_critical_power_rate": 150
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "physical_critical_power_rate": 150
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "physical_critical_power_rate": 150
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    951: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九音惊弦阵"
-        ]
-    },
-    952: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 51
-            },
-            {
-                "magical_attack_power_gain": 50
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    1923: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "依山观澜阵"
-        ]
-    },
-    1924: {
-        "attributes": [
-            {
-                "agility_gain": 30
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51,
-                "physical_critical_power_rate": 200
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51,
-                "physical_critical_power_rate": 200
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51,
-                "physical_critical_power_rate": 200
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51,
-                "physical_critical_power_rate": 204
-            },
-            {
-                "agility_gain": 30,
-                "physical_attack_power_gain": 51,
-                "physical_critical_power_rate": 200
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重粗识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    2511: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万蛊噬心阵"
-        ]
-    },
-    2512: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 100
-            },
-            {
-                "magical_attack_power_gain": 100,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 100,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 100,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 100,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 102
-            },
-            {
-                "magical_attack_power_gain": 100,
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "magical_critical_power_rate": 100
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "一重初识",
-            "二重略懂",
-            "三重巧熟",
-            "四重精妙",
-            "五重游刃",
-            "六重忘我",
-            "七重归一"
-        ]
-    },
-    3302: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "流星赶月阵"
-        ]
-    },
-    3306: {
-        "attributes": [
-            {
-                "strength_gain": 30
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20,
-                "physical_overcome_gain": 205
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20,
-                "physical_overcome_gain": 205
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20,
-                "physical_overcome_gain": 205
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20,
-                "physical_overcome_gain": 205
-            },
-            {
-                "strength_gain": 30,
-                "strain_rate": 20,
-                "physical_overcome_gain": 205
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    3303: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "千机百变阵"
-        ]
-    },
-    3307: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "all_shield_ignore": 52
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "all_shield_ignore": 52,
-                "physical_damage_cof": -51,
-                "physical_critical_power_rate": 150,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "all_shield_ignore": 52,
-                "physical_damage_cof": -51,
-                "physical_critical_power_rate": 150,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "all_shield_ignore": 52,
-                "physical_damage_cof": -51,
-                "physical_critical_power_rate": 150,
-                "magical_critical_power_rate": 150
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "all_shield_ignore": 52,
-                "physical_damage_cof": -51,
-                "physical_critical_power_rate": 150,
-                "magical_critical_power_rate": 150
-            },
-            {}
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    4577: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "炎威破魔阵"
-        ]
-    },
-    4579: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "solar_critical_strike_rate": 300,
-                "lunar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    6340: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "降龙伏虎阵"
-        ]
-    },
-    6342: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "physical_overcome_gain": 102
-            }
-        ],
-        "max_level": 7,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    8401: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "锋凌横绝阵"
-        ]
-    },
-    8402: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    9484: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "万籁金弦阵"
-        ]
-    },
-    9485: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "magical_attack_power_gain": 102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ]
-    },
-    10953: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "霜岚洗锋阵"
-        ]
-    },
-    10954: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 50
-            },
-            {
-                "strain_rate": 20,
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_overcome_gain": 102,
-                "physical_attack_power_gain": 50,
-                "strain_rate": 20
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "strain_rate": 20
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "strain_rate": 20
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "strain_rate": 20,
-                "physical_overcome_gain": 102
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    14072: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "墟海引归阵"
-        ]
-    },
-    14074: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 300
-            },
-            {
-                "physical_attack_power_gain": 102,
-                "physical_critical_strike_rate": 300
-            },
-            {
-                "physical_attack_power_gain": 102,
-                "physical_critical_strike_rate": 300,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 102,
-                "physical_critical_strike_rate": 300,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 102,
-                "physical_critical_strike_rate": 300,
-                "physical_overcome_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 133,
-                "physical_critical_strike_rate": 300,
-                "physical_overcome_gain": 102
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    15955: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "龙皇雪风阵"
-        ]
-    },
-    15957: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_attack_power_gain": 50,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_attack_power_gain": 50,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_attack_power_gain": 50,
-                "physical_critical_power_rate": 154
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_attack_power_gain": 50,
-                "physical_critical_power_rate": 154
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "Buff=1，Debuff=2，Dot=3，Hot=4",
-            "Buff=1，Debuff=2，Dot=3，Hot=4",
-            "Buff=1，Debuff=2，Dot=3，Hot=4",
-            "Buff=1，Debuff=2，Dot=3，Hot=4",
-            "Buff=1，Debuff=2，Dot=3，Hot=4",
-            "Buff=1，Debuff=2，Dot=3，Hot=4"
-        ]
-    },
-    18334: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "九星游年阵"
-        ]
-    },
-    18335: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 51
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 100
-            },
-            {
-                "magical_attack_power_gain": 51,
-                "strain_rate": 20,
-                "magical_critical_power_rate": 100
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    21034: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "乱暮浊茵阵"
-        ]
-    },
-    21035: {
-        "attributes": [
-            {
-                "magical_attack_power_gain": 50
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "all_damage_addition": 31
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "all_damage_addition": 31,
-                "lunar_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "all_damage_addition": 31,
-                "lunar_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "all_damage_addition": 31,
-                "lunar_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
-            },
-            {
-                "magical_attack_power_gain": 50,
-                "all_damage_addition": 31,
-                "lunar_critical_strike_rate": 500,
-                "solar_critical_strike_rate": 500,
-                "neutral_critical_strike_rate": 500,
-                "poison_critical_strike_rate": 500,
-                "physical_critical_strike_rate": 500
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    24577: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "横云破锋阵"
-        ]
-    },
-    24578: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 50
-            },
-            {
-                "surplus_base": 1516,
-                "physical_attack_power_gain": 50
-            },
-            {
-                "physical_overcome_gain": 256,
-                "physical_attack_power_gain": 50,
-                "surplus_base": 1516
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
-                "physical_overcome_gain": 256
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
-                "physical_overcome_gain": 256
-            },
-            {
-                "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
-                "physical_overcome_gain": 256
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    27235: {
-        "attributes": [
-            {}
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "苍梧引灵阵"
-        ]
-    },
-    27236: {
-        "attributes": [
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "all_damage_addition": 62
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "all_damage_addition": 62
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "all_damage_addition": 62
-            },
-            {
-                "lunar_critical_strike_rate": 300,
-                "solar_critical_strike_rate": 300,
-                "neutral_critical_strike_rate": 300,
-                "poison_critical_strike_rate": 300,
-                "physical_critical_strike_rate": 300,
-                "strain_rate": 20,
-                "all_damage_addition": 62
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ]
-    },
-    71338: {
-        "attributes": [
-            {
-                "physical_damage_addition": 52,
-                "magical_damage_addition": 52,
-                "strain_rate": 104
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "江湖行侠阵"
-        ]
-    },
-    673: {
-        "attributes": [
-            {
-                "all_major_base": 6,
-                "magical_shield_base": 10
-            },
-            {
-                "all_major_base": 9,
-                "magical_shield_base": 15
-            },
-            {
-                "all_major_base": 12,
-                "magical_shield_base": 20
-            },
-            {
-                "all_major_base": 15,
-                "magical_shield_base": 25
-            },
-            {
-                "all_major_base": 18,
-                "magical_shield_base": 30
-            },
-            {
-                "all_major_base": 21,
-                "magical_shield_base": 35
-            },
-            {
-                "all_major_base": 25,
-                "magical_shield_base": 40
-            },
-            {
-                "all_major_base": 37,
-                "magical_shield_base": 60
-            },
-            {
-                "all_major_base": 52,
-                "magical_shield_base": 84
-            },
-            {
-                "all_major_base": 111,
-                "magical_shield_base": 154
-            },
-            {
-                "all_major_base": 244,
-                "magical_shield_base": 340
-            }
-        ],
-        "max_level": 11,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气",
-            "袖气"
-        ]
-    },
-    362: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 10
-            },
-            {
-                "physical_attack_power_gain": 15
-            },
-            {
-                "physical_attack_power_gain": 20
-            },
-            {
-                "physical_attack_power_gain": 25
-            },
-            {
-                "physical_attack_power_gain": 31
-            },
-            {
-                "physical_attack_power_gain": 36
-            },
-            {
-                "physical_attack_power_gain": 41
-            },
-            {
-                "physical_attack_power_gain": 51
-            }
-        ],
-        "max_level": 8,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "撼如雷",
-            "撼如雷",
-            "撼如雷",
-            "撼如雷",
-            "撼如雷",
-            "撼如雷",
-            "撼如雷",
-            "撼如雷"
-        ]
-    },
-    661: {
-        "attributes": [
-            {
-                "physical_shield_base": -30
-            },
-            {
-                "physical_shield_base": -40
-            },
-            {
-                "physical_shield_base": -50
-            },
-            {
-                "physical_shield_base": -60
-            },
-            {
-                "physical_shield_base": -69
-            },
-            {
-                "physical_shield_base": -79
-            },
-            {
-                "physical_shield_base": -90
-            },
-            {
-                "physical_shield_base": -99
-            },
-            {
-                "physical_shield_base": -108
-            },
-            {
-                "physical_shield_base": -120
-            },
-            {
-                "physical_shield_base": -128
-            },
-            {
-                "physical_shield_base": -138
-            },
-            {
-                "physical_shield_base": -147
-            },
-            {
-                "physical_shield_base": -157
-            },
-            {
-                "physical_shield_base": -166
-            },
-            {
-                "physical_shield_base": -177
-            },
-            {
-                "physical_shield_base": -186
-            },
-            {
-                "physical_shield_base": -195
-            },
-            {
-                "physical_shield_base": -205
-            },
-            {
-                "physical_shield_base": -216
-            },
-            {
-                "physical_shield_base": -225
-            },
-            {
-                "physical_shield_base": -236
-            },
-            {
-                "physical_shield_base": -244
-            },
-            {
-                "physical_shield_base": -255
-            },
-            {
-                "physical_shield_base": -264
-            },
-            {
-                "physical_shield_base": -273
-            },
-            {
-                "physical_shield_base": -282
-            },
-            {
-                "physical_shield_base": -291
-            },
-            {
-                "physical_shield_base": -300
-            },
-            {
-                "physical_shield_base": -1150
-            }
-        ],
-        "max_level": 30,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风"
-        ]
-    },
-    3465: {
-        "attributes": [
-            {
-                "physical_shield_gain": -102
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "破甲"
-        ]
-    },
-    566: {
-        "attributes": [
-            {
-                "solar_shield_gain": -30,
-                "neutral_shield_gain": -30,
-                "lunar_shield_gain": -30,
-                "poison_shield_gain": -30
-            },
-            {
-                "magical_shield_base": -6
-            },
-            {
-                "magical_shield_base": -9
-            },
-            {
-                "magical_shield_base": -12
-            },
-            {
-                "magical_shield_base": -15
-            },
-            {
-                "solar_shield_gain": -30,
-                "neutral_shield_gain": -30,
-                "lunar_shield_gain": -30,
-                "poison_shield_gain": -30
-            }
-        ],
-        "max_level": 6,
-        "max_stack": [
-            5,
-            5,
-            5,
-            5,
-            5,
-            5
-        ],
-        "buff_name": [
-            "立地成佛",
-            "立地成佛",
-            "立地成佛",
-            "立地成佛",
-            "立地成佛",
-            "立地成佛"
-        ]
-    },
-    23305: {
-        "attributes": [
-            {
-                "physical_damage_cof": 61,
-                "solar_damage_cof": 61,
-                "neutral_damage_cof": 61,
-                "lunar_damage_cof": 61,
-                "poison_damage_cof": 61
-            }
-        ],
-        "max_level": 1,
-        "max_stack": [
-            1
-        ],
-        "buff_name": [
-            "秋肃"
-        ]
-    },
-    4058: {
-        "attributes": [
-            {
-                "physical_damage_cof": 21,
-                "solar_damage_cof": 21,
-                "neutral_damage_cof": 21,
-                "lunar_damage_cof": 21,
-                "poison_damage_cof": 21
-            },
-            {
-                "physical_damage_cof": 51,
-                "solar_damage_cof": 51,
-                "neutral_damage_cof": 51,
-                "lunar_damage_cof": 51,
-                "poison_damage_cof": 51
-            }
-        ],
-        "max_level": 2,
-        "max_stack": [
-            1,
-            1
-        ],
-        "buff_name": [
-            "戒火",
-            "戒火"
-        ]
-    },
-    7180: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 1000
-            },
-            {
-                "physical_critical_strike_rate": 1000
-            },
-            {
-                "physical_critical_strike_rate": 1000
-            }
-        ],
-        "max_level": 3,
-        "max_stack": [
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "酣畅淋漓",
-            "酣畅淋漓",
-            "酣畅淋漓"
-        ]
-    },
-    12717: {
-        "attributes": [
-            {
-                "physical_shield_base": -40
-            },
-            {
-                "physical_shield_base": -54
-            },
-            {
-                "physical_shield_base": -66
-            },
-            {
-                "physical_shield_base": -80
-            },
-            {
-                "physical_shield_base": -92
-            },
-            {
-                "physical_shield_base": -106
-            },
-            {
-                "physical_shield_base": -118
-            },
-            {
-                "physical_shield_base": -132
-            },
-            {
-                "physical_shield_base": -144
-            },
-            {
-                "physical_shield_base": -158
-            },
-            {
-                "physical_shield_base": -170
-            },
-            {
-                "physical_shield_base": -184
-            },
-            {
-                "physical_shield_base": -196
-            },
-            {
-                "physical_shield_base": -210
-            },
-            {
-                "physical_shield_base": -222
-            },
-            {
-                "physical_shield_base": -236
-            },
-            {
-                "physical_shield_base": -248
-            },
-            {
-                "physical_shield_base": -262
-            },
-            {
-                "physical_shield_base": -274
-            },
-            {
-                "physical_shield_base": -288
-            },
-            {
-                "physical_shield_base": -300
-            },
-            {
-                "physical_shield_base": -314
-            },
-            {
-                "physical_shield_base": -326
-            },
-            {
-                "physical_shield_base": -340
-            },
-            {
-                "physical_shield_base": -352
-            },
-            {
-                "physical_shield_base": -364
-            },
-            {
-                "physical_shield_base": -376
-            },
-            {
-                "physical_shield_base": -388
-            },
-            {
-                "physical_shield_base": -400
-            },
-            {
-                "physical_shield_base": -1397
-            }
-        ],
-        "max_level": 30,
-        "max_stack": [
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
-        ],
-        "buff_name": [
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风",
-            "破风"
-        ]
+        "max_stack": 1,
+        "recipes": {}
     }
 }

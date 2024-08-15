@@ -1,5 +1,6 @@
 from collections import defaultdict
 from copy import deepcopy
+from typing import Union
 
 from assets.constant import MOBILE_MAX_TALENTS
 from base.constant import FRAME_PER_SECOND
@@ -82,6 +83,10 @@ class BaseParser:
 
     select_talents: Dict[PLAYER_ID_TYPE, List[int]]
     select_equipments: Dict[PLAYER_ID_TYPE, Dict[int, Dict[str, Union[int, list]]]]
+
+    attributes: Dict[PLAYER_ID_TYPE, Attribute]
+    gains: Dict[PLAYER_ID_TYPE, List[Gain]]
+    recipes: Dict[PLAYER_ID_TYPE, List[Recipe]]
 
     players: Dict[PLAYER_ID_TYPE, School]
     targets: Dict[PLAYER_ID_TYPE, List[TARGET_ID_TYPE]]
@@ -174,6 +179,10 @@ class BaseParser:
         self.select_talents = {}
         self.select_equipments = {}
 
+        self.attributes = {}
+        self.gains = {}
+        self.recipes = {}
+
         self.players = {}
         self.targets = defaultdict(list)
 
@@ -243,7 +252,7 @@ class Parser(BaseParser):
             player_name = detail[1]
             school = SUPPORT_SCHOOLS[school_id]
             self.select_talents[player_id] = self.parse_talents(detail[6].values())
-            if any(talent not in school.talent_gains for talent in self.select_talents[player_id]):
+            if any(talent not in school.talents for talent in self.select_talents[player_id]):
                 return
             self.players[player_id] = deepcopy(school)
             if len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS:
@@ -412,7 +421,7 @@ class Parser(BaseParser):
 
     @staticmethod
     def filter_buff(buff, damage):
-        if buff.gains:
+        if buff.recipes:
             return True
         if buff.attributes:
             if all("attack_power" in attr for attr in buff.attributes) and not damage.attack_power_call:
@@ -463,6 +472,38 @@ class Parser(BaseParser):
 
         return tuple(current_status), tuple(snapshot_status), tuple(target_status)
 
+    def school_add(self):
+        for player_id, school in self.players.items():
+            attribute = self.attributes[player_id] = school.attribute()
+            gains = self.gains[player_id] = []
+            recipes = self.recipes[player_id] = []
+            for talent_id in self.select_talents[player_id]:
+                talent = school.talents[talent_id]
+                talent.add(attribute, school.buffs, school.dots, school.skills)
+                gains.append(talent)
+                for recipe_key in talent.recipes:
+                    recipe = school.recipes[recipe_key]
+                    recipe.add(attribute, school.buffs, school.dots, school.skills)
+                    recipes.append(recipe)
+            school.prepare(self, player_id)
+
+    def school_sub(self):
+        for player_id, school in self.players.items():
+            attribute = self.attributes[player_id]
+            for gain in self.gains[player_id]:
+                gain.sub(attribute, school.buffs, school.dots, school.skills)
+            for recipe in self.recipes[player_id]:
+                recipe.sub(attribute, school.buffs, school.dots, school.skills)
+
+    def merge_targets(self):
+        for player_id in self.records:
+            player_record = defaultdict(lambda: defaultdict(list))
+            for target_id, records in self.records[player_id].items():
+                for damage_tuple, status in records.items():
+                    for status_tuple, timeline in status.items():
+                        player_record[damage_tuple][status_tuple] += timeline
+            self.records[player_id][""] = player_record
+
     def __call__(self, file_name):
         self.file_name = file_name
         self.reset()
@@ -476,10 +517,7 @@ class Parser(BaseParser):
             elif row[4] == "8":
                 self.parse_npc(row[-1])
 
-        for player_id, school in self.players.items():
-            for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].add(school.attribute(), school.skills, school.dots, school.buffs)
-            school.prepare(self, player_id)
+        self.school_add()
 
         for row in rows:
             self.current_frame = int(row[1])
@@ -501,14 +539,5 @@ class Parser(BaseParser):
 
         self.end_frame = self.current_frame
 
-        for player_id, school in self.players.items():
-            for talent_id in self.select_talents[player_id]:
-                school.talent_gains[talent_id].sub(school.attribute(), school.skills, school.dots, school.buffs)
-
-        for player_id in self.records:
-            player_record = defaultdict(lambda: defaultdict(list))
-            for target_id, records in self.records[player_id].items():
-                for damage_tuple, status in records.items():
-                    for status_tuple, timeline in status.items():
-                        player_record[damage_tuple][status_tuple] += timeline
-            self.records[player_id][""] = player_record
+        self.school_sub()
+        self.merge_targets()

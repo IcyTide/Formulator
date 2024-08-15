@@ -1,58 +1,112 @@
-from typing import Dict, List
+from typing import Dict, Tuple, Union
 
-from base.gain import Gain
-from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
+from base.recipe import Recipe
+from general.recipes import *
 
-RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
-    "盾刀": {
-        "5%伤害": DamageAdditionRecipe(51, 13044, 13044),
-        "4%伤害": DamageAdditionRecipe(41, 13044, 13044),
-        "3%伤害": DamageAdditionRecipe(31, 13044, 13044),
-        "4%会心": CriticalStrikeRecipe(400, 13044, 13044),
-        "3%会心": CriticalStrikeRecipe(300, 13044, 13044),
-        "2%会心": CriticalStrikeRecipe(200, 13044, 13044),
+
+class 绝刀加会心(PhysicalCriticalRecipe):
+    value = (1500, 200)
+
+
+SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
+    SkillRecipe: {
+        1830: {}, 1831: {}, 1832: {},
+        1838: {}, 1839: {}, 1840: {},
+        1846: {}, 1847: {},
+        1852: {}, 1853: {},
+        1860: {}, 1861: {}, 1862: {},
+        1953: {}, 1954: {},
+        1941: {}, 2004: {}, 2006: {}, 2007: {}, 2008: {}, 4918: {}, 4919: {}, 4920: {}, 4921: {},
+        1932: {}, 1933: {}, 1937: {}, 1938: {}, 17447: {},
     },
-    "盾压": {
-        "5%伤害": DamageAdditionRecipe(51, 13045, 13045),
-        "4%伤害": DamageAdditionRecipe(41, 13045, 13045),
-        "4%会心": CriticalStrikeRecipe(400, 13045, 13045),
-        "3%会心": CriticalStrikeRecipe(300, 13045, 13045),
+    CriticalStrikeRateRecipe_200: {
+        1833: {},
+        1841: {},
+        1863: {},
+        1955: {}
     },
+    CriticalStrikeRateRecipe_300: {
+        1834: {},
+        1842: {},
+        1848: {},
+        1854: {},
+        1864: {},
+        1956: {}
+    },
+    CriticalStrikeRateRecipe_400: {
+        1835: {},
+        1843: {},
+        1849: {},
+        1855: {},
+        1865: {}
+    },
+    CriticalStrikeRateRecipe_500: {
+        1934: {}, 1936: {}
+    },
+    CriticalStrikeRateRecipe_306: {
+        17448: {}
+    },
+    绝刀加会心: {
+        1823: {}
+    }
+}
+RECIPES: Dict[Tuple[int, int], Recipe] = {**GENERAL_RECIPES}
+for recipe_class, recipes in SCHOOL_RECIPES.items():
+    for recipe_key, attrs in recipes.items():
+        if not isinstance(recipe_key, tuple):
+            recipe_key = (recipe_key, 1)
+        recipe = recipe_class(*recipe_key)
+        for attr, value in attrs.items():
+            setattr(recipe, attr, value)
+        recipe.set_asset()
+        RECIPES[recipe_key] = recipe
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "劫刀": {
-        "5%伤害": DamageAdditionRecipe(51, 13052, 13052),
-        "4%伤害": DamageAdditionRecipe(41, 13052, 13052),
-        "3%伤害": DamageAdditionRecipe(31, 13052, 13052),
-        "4%会心": CriticalStrikeRecipe(400, 13052, 13052),
-        "3%会心": CriticalStrikeRecipe(300, 13052, 13052),
-        "2%会心": CriticalStrikeRecipe(200, 13052, 13052),
+        "增加伤害5%": 1832,
+        "增加伤害4%": 1831,
+        "增加会心4%": 1835,
+        "增加伤害3%": 1830,
+        "增加会心3%": 1834,
+        "增加会心2%": 1833,
     },
     "斩刀": {
-        "5%伤害": DamageAdditionRecipe(41, 13054, 13054),
-        "4%伤害": DamageAdditionRecipe(31, 13054, 13054),
-        "3%伤害": DamageAdditionRecipe(21, 13054, 13054),
-        "4%会心": CriticalStrikeRecipe(400, 13054, 13054),
-        "3%会心": CriticalStrikeRecipe(300, 13054, 13054),
-        "2%会心": CriticalStrikeRecipe(200, 13054, 13054),
+        "增加伤害5%": 1840,
+        "增加伤害4%": 1839,
+        "增加会心4%": 1843,
+        "增加伤害3%": 1838,
+        "增加会心3%": 1842,
+        "增加会心2%": 1841,
     },
     "绝刀": {
-        "5%伤害": DamageAdditionRecipe(51, 13055, 13055),
-        "4%伤害": DamageAdditionRecipe(41, 13055, 13055),
-        "4%会心": CriticalStrikeRecipe(400, 13055, 13055),
-        "3%会心": CriticalStrikeRecipe(300, 13055, 13055),
+        "增加伤害5%": 1847,
+        "增加伤害4%": 1846,
+        "增加会心4%": 1849,
+        "增加会心3%": 1848,
+    },
+    "盾压": {
+        "增加伤害5%": 1853,
+        "增加伤害4%": 1852,
+        "增加会心4%": 1855,
+        "增加会心3%": 1854,
+    },
+    "盾刀": {
+        "增加伤害5%": 1862,
+        "增加伤害4%": 1861,
+        "增加会心4%": 1865,
+        "增加伤害3%": 1860,
+        "增加会心3%": 1864,
+        "增加会心2%": 1863,
     },
     "盾飞": {
-        "4%伤害": DamageAdditionRecipe(41, 13050, 13050),
-        "3%伤害": DamageAdditionRecipe(31, 13050, 13050),
-        "3%会心": CriticalStrikeRecipe(300, 13050, 13050),
-        "2%会心": CriticalStrikeRecipe(200, 13050, 13050),
+        "增加伤害4%": 1954,
+        "增加伤害3%": 1953,
+        "增加会心3%": 1956,
+        "增加会心2%": 1955,
     },
 }
-
-RECIPES: Dict[str, List[str]] = {
-    "盾刀": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "盾压": ["5%伤害", "4%伤害", "4%会心", "3%会心"],
-    "劫刀": ["4%伤害", "4%会心", "3%伤害", "3%会心", "2%伤害", "2%会心"],
-    "斩刀": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "绝刀": ["5%伤害", "4%伤害", "4%会心", "3%会心"],
-    "盾飞": ["4%伤害", "3%伤害", "3%会心", "2%会心"],
+RECIPE_CHOICES: Dict[str, Dict[str, Tuple[int, int]]] = {
+    skill: {
+        desc: recipe_key if isinstance(recipe_key, tuple) else (recipe_key, 1)
+        for desc, recipe_key in recipes.items()
+    } for skill, recipes in RECIPE_CHOICES.items()
 }

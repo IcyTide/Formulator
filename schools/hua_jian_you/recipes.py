@@ -5,28 +5,28 @@ from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "阳明指": {
-        "4%伤害": DamageAdditionRecipe(41, 179, 179),
-        "3%伤害": DamageAdditionRecipe(31, 179, 179),
-        "3%会心": CriticalStrikeRecipe(300, 179, 179),
-        "2%会心": CriticalStrikeRecipe(200, 179, 179),
+        "增加伤害4%": DamageAdditionRecipe(41, 179, 179),
+        "增加伤害3%": DamageAdditionRecipe(31, 179, 179),
+        "增加会心3%": CriticalStrikeRecipe(300, 179, 179),
+        "增加会心2%": CriticalStrikeRecipe(200, 179, 179),
     },
     "芙蓉并蒂": {
-        "5%伤害": DamageAdditionRecipe(51, 186, 0),
-        "4%伤害": DamageAdditionRecipe(41, 186, 0),
-        "3%伤害": DamageAdditionRecipe(31, 186, 0),
-        "4%会心": CriticalStrikeRecipe(400, 186, 0),
-        "3%会心": CriticalStrikeRecipe(300, 186, 0),
-        "2%会心": CriticalStrikeRecipe(200, 186, 0),
+        "增加伤害5%": DamageAdditionRecipe(51, 186, 0),
+        "增加伤害4%": DamageAdditionRecipe(41, 186, 0),
+        "增加伤害3%": DamageAdditionRecipe(31, 186, 0),
+        "增加会心4%": CriticalStrikeRecipe(400, 186, 0),
+        "增加会心3%": CriticalStrikeRecipe(300, 186, 0),
+        "增加会心2%": CriticalStrikeRecipe(200, 186, 0),
     },
     "快雪时晴": {
-        "5%伤害": DamageAdditionRecipe(51, 2636, 2636),
-        "4%伤害": DamageAdditionRecipe(41, 2636, 2636),
-        "3%伤害": DamageAdditionRecipe(31, 2636, 2636)
+        "增加伤害5%": DamageAdditionRecipe(51, 2636, 2636),
+        "增加伤害4%": DamageAdditionRecipe(41, 2636, 2636),
+        "增加伤害3%": DamageAdditionRecipe(31, 2636, 2636)
     },
 }
 
 RECIPES: Dict[str, List[str]] = {
-    "阳明指": ["4%伤害", "3%伤害", "3%会心", "2%会心"],
-    "芙蓉并蒂": ["5%伤害", "4%伤害", "4%会心", "3%伤害", "3%会心", "2%会心"],
-    "快雪时晴": ["5%伤害", "4%伤害", "3%伤害"],
+    "阳明指": ["增加伤害4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
+    "芙蓉并蒂": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
+    "快雪时晴": ["增加伤害5%", "增加伤害4%", "增加伤害3%"],
 }

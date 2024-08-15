@@ -83,7 +83,7 @@ class Buff(BaseBuff):
     unique: bool = True
     activate: bool = True
 
-    _gains: List[list] = None
+    _recipes: List[list] = None
     _attributes: List[dict] = None
 
     begin_effects: list = None
@@ -94,8 +94,8 @@ class Buff(BaseBuff):
     end_target_buffs: dict = None
 
     def __post_init__(self):
-        if self.gains is None:
-            self.gains = [[]]
+        if self.recipes is None:
+            self.recipes = [{}]
         if self.attributes is None:
             self.attributes = [{}]
         if not self.begin_buffs:
@@ -154,20 +154,20 @@ class Buff(BaseBuff):
             self._attributes = [attributes]
 
     @property
-    def gains(self):
-        if not self._gains:
+    def recipes(self):
+        if not self._recipes:
             return []
-        elif self.buff_level > len(self._gains):
-            return self._gains[-1]
+        elif self.buff_level > len(self._recipes):
+            return self._recipes[-1]
         else:
-            return self._gains[self.buff_level - 1]
+            return self._recipes[self.buff_level - 1]
 
-    @gains.setter
-    def gains(self, gains):
-        if gains and isinstance(gains[0], list):
-            self._gains = gains
+    @recipes.setter
+    def recipes(self, recipes):
+        if recipes and isinstance(recipes, list):
+            self._recipes = recipes
         else:
-            self._gains = [gains]
+            self._recipes = [recipes]
 
     def begin(self, parser):
         for (buff_id, buff_level), buff_stack in self.begin_buffs.items():
@@ -188,96 +188,6 @@ class Buff(BaseBuff):
             parser.refresh_target_buff(buff_id, buff_level, buff_stack)
         for effect in self.end_effects:
             effect(parser)
-
-    def add_all(self, attribute: Attribute, skill: Skill):
-        return_tag = False
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) + value)
-            return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-        for gain in self.gains:
-            if not gain:
-                continue
-            if gain.add(*gain_tuple):
-                return_tag = True
-
-        return return_tag
-
-    def add_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
-        return_tag = False
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) + value)
-                return_tag = True
-            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) + value)
-                return_tag = True
-        if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-            for gain in self.gains:
-                if gain.add(*gain_tuple):
-                    return_tag = True
-
-        return return_tag
-
-    def add_pet(self, attribute: Attribute, skill: Skill):
-        return_tag = False
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) + value)
-                return_tag = True
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-        for gain in self.gains:
-            if gain.add(*gain_tuple):
-                return_tag = True
-
-        return return_tag
-
-    def sub_all(self, attribute: Attribute, skill: Skill):
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-        for gain in self.gains:
-            gain.sub(*gain_tuple)
-
-    def sub_dot(self, attribute: Attribute, skill: Skill, snapshot: bool = True):
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            if snapshot and any(snapshot_attr in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) - value)
-            if not snapshot and all(snapshot_attr not in attr for snapshot_attr in self.DOT_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) - value)
-        if snapshot:
-            gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-            for gain in self.gains:
-                gain.sub(*gain_tuple)
-
-    def sub_pet(self, attribute: Attribute, skill: Skill):
-        for attr, value in self.attributes.items():
-            if not value:
-                continue
-            if any(snapshot_attr in attr for snapshot_attr in self.PET_SNAPSHOT_ATTRS):
-                setattr(attribute, attr, getattr(attribute, attr) - value)
-        gain_tuple = (attribute, {skill.skill_id: skill}, {}, {})
-        for gain in self.gains:
-            gain.sub(*gain_tuple)
-
-
-class TargetBuff(Buff):
-    def add_all(self, attribute: Attribute, skill: Skill):
-        return super().add_all(attribute.target, skill)
-
-    def sub_all(self, attribute: Attribute, skill: Skill):
-        super().sub_all(attribute.target, skill)
 
 
 class CustomBuff(Buff):

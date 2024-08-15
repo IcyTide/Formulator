@@ -29,15 +29,11 @@ POSITION_COF = {
     10: 0.7,
 }
 
-WEAPON_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Weapon.tab"), sep="\t", low_memory=False,
-                         encoding="gbk").fillna(0)
-ARMOR_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Armor.tab"), sep="\t", low_memory=False,
-                        encoding="gbk").fillna(0)
-TRINKET_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Custom_Trinket.tab"), sep="\t", low_memory=False,
-                          encoding="gbk").fillna(0)
-ATTRIB_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Attrib.tab"), sep="\t", low_memory=False, encoding="gbk")
-SET_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/item/Set.tab"), sep="\t", low_memory=False,
-                      encoding="gbk").fillna(0)
+WEAPON_TAB = read_tab("settings/item/Custom_Weapon.tab").fillna(0)
+ARMOR_TAB = read_tab("settings/item/Custom_Armor.tab").fillna(0)
+TRINKET_TAB = read_tab("settings/item/Custom_Trinket.tab").fillna(0)
+ATTRIB_TAB = read_tab("settings/item/Attrib.tab")
+SET_TAB = read_tab("settings/item/Set.tab").fillna(0)
 ARMOR_TAB['Score'] = ARMOR_TAB.apply(
     lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
 )
@@ -101,8 +97,10 @@ def get_equip_detail(row):
     detail['magic'] = magic_attrs = {}
     detail['embed'] = embed_attrs = {}
     detail['gains'] = gains = []
+    detail['recipes'] = recipes = {}
     detail['set_attr'] = set_attr = defaultdict(dict)
     detail['set_gain'] = set_gain = defaultdict(list)
+    detail['set_recipe'] = set_recipe = defaultdict(dict)
     for i in range(MAX_BASE_ATTR):
         if not (attr_type := getattr(row, f'Base{i + 1}Type')):
             break
@@ -117,7 +115,7 @@ def get_equip_detail(row):
         if attr in ATTR_TYPE_MAP:
             magic_attrs[ATTR_TYPE_MAP[attr]] = value
         elif attr == "atSetEquipmentRecipe":
-            gains.append(value)
+            recipes[value] = int(attr_row.Param2Max)
         elif attr == "atSkillEventHandler":
             gains.append([value])
         else:
@@ -151,7 +149,7 @@ def get_equip_detail(row):
                 if attr in ATTR_TYPE_MAP:
                     set_attr[i + 1][ATTR_TYPE_MAP[attr]] = value
                 elif attr == "atSetEquipmentRecipe":
-                    set_gain[i + 1].append(value)
+                    set_recipe[i + 1][value] = int(attr_row.Param2Max)
                 elif attr == "atSkillEventHandler":
                     set_gain[i + 1].append([value])
                 else:

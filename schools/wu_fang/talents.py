@@ -3,7 +3,7 @@ from typing import Dict
 from base.attribute import Attribute
 from base.buff import Buff
 from base.dot import Dot
-from base.gain import Gain, Gains
+from base.gain import Gain
 from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
 from schools.wu_fang.skills import 鬼门加成
@@ -27,35 +27,35 @@ class 鬼门(Gain):
         鬼门加成.talent_activate = False
 
 
-TALENT_GAINS: Dict[int, Gains] = {
-    28343: Gains("淮茵"),
-    28338: Gains("怯邪"),
-    27530: Gains("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    28344: Gains("鸩羽", [鸩羽(1000, 27556, 27556)]),
-    28361: Gains("结草"),
-    29498: Gains("灵荆"),
-    29499: Gains("苦苛"),
-    28406: Gains("遍休"),
-    28410: Gains("坚阴"),
-    28413: Gains("相使"),
-    28419: Gains("凄骨"),
-    28432: Gains("疾根", [ExtraTickRecipe(1, 20052)]),
-    28433: Gains("紫伏"),
-    28431: Gains("避奚"),
-    30734: Gains("折枝拂露"),
-    28443: Gains("甘遂"),
-    28458: Gains("炮阳"),
-    28415: Gains("荆障"),
-    32896: Gains("应理与药"),
-    28426: Gains("养荣"),
+TALENTS: Dict[int, Gain] = {
+    28343: Gain("淮茵"),
+    28338: Gain("怯邪"),
+    27530: Gain("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
+    28344: Gain("鸩羽", [鸩羽(1000, 27556, 27556)]),
+    28361: Gain("结草"),
+    29498: Gain("灵荆"),
+    29499: Gain("苦苛"),
+    28406: Gain("遍休"),
+    28410: Gain("坚阴"),
+    28413: Gain("相使"),
+    28419: Gain("凄骨"),
+    28432: Gain("疾根", [ExtraTickRecipe(1, 20052)]),
+    28433: Gain("紫伏"),
+    28431: Gain("避奚"),
+    30734: Gain("折枝拂露"),
+    28443: Gain("甘遂"),
+    28458: Gain("炮阳"),
+    28415: Gain("荆障"),
+    32896: Gain("应理与药"),
+    28426: Gain("养荣"),
 
-    101419: Gains("鬼门", [鬼门()]),
-    101422: Gains("神莹"),
-    101423: Gains("济世"),
-    101370: Gains("苍棘缚地"),
+    101419: Gain("鬼门", [鬼门()]),
+    101422: Gain("神莹"),
+    101423: Gain("济世"),
+    101370: Gain("苍棘缚地"),
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [28343, 28338, 27530, 101419],
     [28344, 101422],
     [28361, 101423],
@@ -69,5 +69,5 @@ TALENTS = [
     [28443, 28458, 28415],
     [32896, 28426]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

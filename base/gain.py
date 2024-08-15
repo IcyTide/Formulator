@@ -1,4 +1,4 @@
-from typing import Dict, Union, List
+from typing import Dict, List, Tuple
 
 from base.attribute import Attribute
 from base.buff import Buff
@@ -7,107 +7,72 @@ from base.skill import Skill
 
 
 class Gain:
-    skill_id = None
-    recipe_type = None
-    recipe_mask = None
-    value = None
+    gain_name: str
+    recipes: List[Tuple[int, int]] = []
+    attributes: Dict[str, int] = {}
+    dot_ids: List[int] = []
+    buff_ids: List[int] = []
+    skill_ids: List[int] = []
 
     def __init__(
-            self, value: Union[int, float, tuple] = None,
-            skill_id: int = None, recipe_type: int = None, recipe_mask: int = 0,
-            name: str = None,
+            self, name: str = None, recipes: List[Tuple[int, int]] = None, attributes: Dict[str, int] = None,
+            buff_ids: List[int] = None, dot_ids: List[int] = None, skill_ids: List[int] = None
     ):
         if name:
             self.gain_name = name
         else:
             self.gain_name = type(self).__name__
-        if value is not None:
-            self.value = value
-        if skill_id:
-            self.skill_id = skill_id
-        if recipe_type:
-            self.recipe_type = recipe_type
-        self.recipe_mask = recipe_mask
-
-    def check_skill(self, skill: Skill):
-        if skill.skill_id == self.skill_id:
-            return True
-        if skill.recipe_type == self.recipe_type:
-            return True
-        if skill.recipe_mask & self.recipe_mask:
-            return True
-        return False
+        if recipes:
+            self.recipes = recipes
+        if attributes:
+            self.attributes = attributes
+        if buff_ids:
+            self.buff_ids = buff_ids
+        if dot_ids:
+            self.dot_ids = dot_ids
+        if skill_ids:
+            self.skill_ids = skill_ids
 
     def add_attribute(self, attribute: Attribute):
-        pass
-
-    def add_skill(self, skill: Skill):
-        pass
-
-    def add_skills(self, skills: Dict[int, Skill]):
-        return_tag = False
-        if not self.skill_id and not self.recipe_type and not self.recipe_mask:
-            return return_tag
-
-        for skill_id, skill in skills.items():
-            if self.check_skill(skill):
-                return_tag = True
-                self.add_skill(skill)
-
-        return return_tag
+        for attr, value in self.attributes:
+            attribute[attr] += value
 
     def add_buffs(self, buffs: Dict[int, Buff]):
-        pass
+        for buff_id in self.buff_ids:
+            buffs[buff_id].activate = True
 
     def add_dots(self, dots: Dict[int, Dot]):
-        pass
+        for dot_id in self.dot_ids:
+            dots[dot_id].activate = True
 
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].activate = True
+
+    def add(self, attribute: Attribute, buffs: Dict[int, Buff], dots: Dict[int, Dot], skills: Dict[int, Skill]):
+        self.add_attribute(attribute)
         self.add_buffs(buffs)
         self.add_dots(dots)
-        self.add_attribute(attribute)
-        return self.add_skills(skills)
+        self.add_skills(skills)
 
     def sub_attribute(self, attribute: Attribute):
-        pass
-
-    def sub_skill(self, skill: Skill):
-        pass
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        if not self.skill_id and not self.recipe_type and not self.recipe_mask:
-            return
-        for skill_id, skill in skills.items():
-            if self.check_skill(skill):
-                self.sub_skill(skill)
+        for attr, value in self.attributes:
+            attribute[attr] -= value
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        pass
+        for buff_id in self.buff_ids:
+            buffs[buff_id].activate = False
 
     def sub_dots(self, dots: Dict[int, Dot]):
-        pass
+        for dot_id in self.dot_ids:
+            dots[dot_id].activate = False
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        self.sub_buffs(buffs)
-        self.sub_skills(skills)
-        self.sub_dots(dots)
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in self.skill_ids:
+            skills[skill_id].activate = False
+
+    def sub(self, attribute: Attribute, buffs: Dict[int, Buff], dots: Dict[int, Dot], skills: Dict[int, Skill]):
         self.sub_attribute(attribute)
-
-
-class Gains(Gain):
-    gains: List[Gain]
-
-    def __init__(self, name: str = None, gains: List[Gain] = None):
-        super().__init__(name=name)
-        if gains:
-            self.gains = gains
-        else:
-            self.gains = []
-
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        for gain in self.gains:
-            gain.add(attribute, skills, dots, buffs)
-
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        for gain in self.gains:
-            gain.sub(attribute, skills, dots, buffs)
+        self.sub_buffs(buffs)
+        self.sub_dots(dots)
+        self.sub_skills(skills)

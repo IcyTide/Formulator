@@ -1,17 +1,8 @@
 from typing import Dict
 
 from base.buff import Buff
-from base.gain import Gain, Gains
-from base.recipe import DamageAdditionRecipe, PhysicalCriticalRecipe
+from base.gain import Gain
 from base.skill import Skill
-
-
-class 风虎(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-12608].activate = True
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-12608].activate = False
 
 
 class 战心(Gain):
@@ -22,16 +13,6 @@ class 战心(Gain):
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[423].pre_buffs.pop((-26008, 1))
         skills[702].post_buffs.pop((-1, 1))
-
-
-class 骁勇(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
-            skill.channel_interval_extra *= 1.12
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
-            skill.channel_interval_extra /= 1.12
 
 
 class 虎贲(Gain):
@@ -52,27 +33,27 @@ class 虎贲(Gain):
         buffs[28169].end_effects.remove(self.end_effect)
 
 
-TALENT_GAINS: Dict[int, Gains] = {
-    18487: Gains("百折"),
-    5656: Gains("封侯", [DamageAdditionRecipe(102, 0, 400)]),
-    5657: Gains("扬戈", [PhysicalCriticalRecipe((1000, 102), 400, 400)]),
-    5660: Gains("神勇", [PhysicalCriticalRecipe((1000, 102), 415, 415)]),
-    5659: Gains("大漠"),
-    18602: Gains("骁勇", [骁勇(skill_id=401, recipe_type=401)]),
-    24896: Gains("龙驭"),
-    18226: Gains("击水"),
-    14824: Gains("驰骋"),
-    6511: Gains("牧云"),
-    5666: Gains("风虎", [风虎()]),
-    6781: Gains("战心", [战心()]),
-    6524: Gains("破楼兰"),
-    2628: Gains("渊"),
-    5678: Gains("夜征"),
-    15001: Gains("龙血"),
-    6517: Gains("虎贲", [虎贲()])
+TALENTS: Dict[int, Gain] = {
+    18487: Gain("百折"),
+    5656: Gain("封侯", recipes=[(4038, 3)]),
+    5657: Gain("扬戈", recipes=[(1224, 1)]),
+    5660: Gain("神勇", recipes=[(1225, 1)]),
+    5659: Gain("大漠"),
+    18602: Gain("骁勇", recipes=[(recipe_id, 1) for recipe_id in (4686, 4687, 4688, 4689)]),
+    24896: Gain("龙驭"),
+    18226: Gain("击水", recipes=[(recipe_id, -1) for recipe_id in (-132, -153)]),
+    14824: Gain("驰骋"),
+    6511: Gain("牧云"),
+    5666: Gain("风虎", buff_ids=[-12608]),
+    6781: 战心("战心"),
+    6524: Gain("破楼兰"),
+    2628: Gain("渊"),
+    5678: Gain("夜征"),
+    15001: Gain("龙血"),
+    6517: 虎贲("虎贲")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [18487, 5656, 5657],
     [5660],
     [5659, 18602],
@@ -86,5 +67,5 @@ TALENTS = [
     [15001],
     [6517],
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

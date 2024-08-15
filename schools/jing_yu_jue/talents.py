@@ -1,7 +1,7 @@
 from typing import Dict
 
 from base.dot import Dot
-from base.gain import Gain, Gains
+from base.gain import Gain
 from base.recipe import PhysicalCriticalRecipe, ChannelIntervalRecipe
 from base.skill import Skill
 
@@ -38,23 +38,23 @@ class 妙手连环(Gain):
 #                 skills[skill_id].damage_addition -= 103 + 103
 
 
-TALENT_GAINS: Dict[int, Gains] = {
-    6437: Gains("迅电流光", [PhysicalCriticalRecipe((1000, 100), 3095, 3095)]),
-    6473: Gains("千里无痕"),
-    28366: Gains("寒江夜雨"),
-    21724: Gains("掠影穹苍"),
-    37324: Gains("蹑景追风"),
-    6451: Gains("聚精凝神"),
-    14851: Gains("逐一击破"),
-    28903: Gains("穿林打叶", [穿林打叶(), ChannelIntervalRecipe(1.5, 3098, 3098)]),
-    6461: Gains("秋风散影"),
-    37325: Gains("牢甲利兵"),
-    14850: Gains("妙手连环", [妙手连环(skill_id=3096, recipe_type=3096)]),
-    18672: Gains("百里追魂"),
-    30588: Gains("凝形逐踪")
+TALENTS: Dict[int, Gain] = {
+    6437: Gain("迅电流光", [PhysicalCriticalRecipe((1000, 100), 3095, 3095)]),
+    6473: Gain("千里无痕"),
+    28366: Gain("寒江夜雨"),
+    21724: Gain("掠影穹苍"),
+    37324: Gain("蹑景追风"),
+    6451: Gain("聚精凝神"),
+    14851: Gain("逐一击破"),
+    28903: Gain("穿林打叶", [穿林打叶(), ChannelIntervalRecipe(1.5, 3098, 3098)]),
+    6461: Gain("秋风散影"),
+    37325: Gain("牢甲利兵"),
+    14850: Gain("妙手连环", [妙手连环(skill_id=3096, recipe_type=3096)]),
+    18672: Gain("百里追魂"),
+    30588: Gain("凝形逐踪")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [6437],
     [6473],
     [28366],
@@ -68,5 +68,5 @@ TALENTS = [
     [14850],
     [18672, 30588]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

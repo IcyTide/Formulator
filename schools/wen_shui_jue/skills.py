@@ -23,7 +23,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     },
     啸日: {1656: {}},
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)
@@ -31,4 +31,4 @@ for skill_class, skills in SCHOOL_SKILLS.items():
             setattr(skill, attr, value)
         skill.set_asset()
         SKILLS[skill_id] = skill
-DOTS = {}
+DOTS: Dict[int, Dot] = {}

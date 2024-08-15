@@ -1,8 +1,6 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.gain import Gain, Gains
-from base.recipe import PhysicalCriticalRecipe
+from base.gain import Gain
 from base.skill import Skill
 
 
@@ -14,32 +12,24 @@ class 血魄(Gain):
         skills[13040].post_buffs[(-1, 1)] -= 25
 
 
-class 蔑视(Gain):
-    def add_attribute(self, attribute: Attribute):
-        attribute.all_shield_ignore += 512
-
-    def sub_attribute(self, attribute: Attribute):
-        attribute.all_shield_ignore -= 512
-
-
-TALENT_GAINS: Dict[int, Gains] = {
-    13317: Gains("刀魂"),
-    13090: Gains("绝返"),
-    13087: Gains("分野", [PhysicalCriticalRecipe((1500, 200), 0, 13055)]),
-    21281: Gains("血魄", [血魄()]),
-    22897: Gains("锋鸣"),
-    37239: Gains("麾远"),
-    34912: Gains("业火麟光"),
-    13126: Gains("恋战"),
-    25203: Gains("扶阵"),
-    36058: Gains("援戈"),
-    36205: Gains("惊涌"),
-    14838: Gains("蔑视", [蔑视()]),
-    30769: Gains("阵云结晦"),
-    32619: Gains("祭血关山")
+TALENTS: Dict[int, Gain] = {
+    13317: Gain("刀魂"),
+    13090: Gain("绝返"),
+    13087: Gain("分野", recipes=[(1823, 1)]),
+    21281: 血魄("血魄"),
+    22897: Gain("锋鸣"),
+    37239: Gain("麾远"),
+    34912: Gain("业火麟光"),
+    13126: Gain("恋战"),
+    25203: Gain("扶阵"),
+    36058: Gain("援戈"),
+    36205: Gain("惊涌"),
+    14838: Gain("蔑视", buff_ids=[-9889]),
+    30769: Gain("阵云结晦"),
+    32619: Gain("祭血关山")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [13317],
     [13090],
     [13087],
@@ -53,5 +43,5 @@ TALENTS = [
     [14838],
     [30769, 32619]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}
