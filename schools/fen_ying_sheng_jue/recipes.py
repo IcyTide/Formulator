@@ -5,7 +5,7 @@ from base.recipe import MoveStateDamageAdditionRecipe, DamageAdditionRecipe, Cri
 
 RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "烈日斩": {
-        "10%伤害": MoveStateDamageAdditionRecipe(51, 3963, 0),
+        "10%伤害": MoveStateDamageAdditionRecipe(102, 3963, 0),
         "5%伤害": DamageAdditionRecipe(51, 3963, 0),
         "4%伤害": DamageAdditionRecipe(41, 3963, 0),
         "3%伤害": DamageAdditionRecipe(31, 3963, 0),

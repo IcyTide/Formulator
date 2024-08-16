@@ -27,7 +27,7 @@ RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
     "蛇影": {
         "5%伤害": ChannelIntervalRecipe(1.05, 2211, 2211),
         "4%伤害": ChannelIntervalRecipe(1.04, 2211, 2211),
-        "4%会心": CriticalStrikeRecipe(300, 2211, 2211),
+        "4%会心": CriticalStrikeRecipe(400, 2211, 2211),
         "3%会心": CriticalStrikeRecipe(300, 2211, 2211),
         "2%会心": CriticalStrikeRecipe(200, 2211, 2211),
     },

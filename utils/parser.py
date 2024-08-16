@@ -178,7 +178,7 @@ class BaseParser:
         self.targets = defaultdict(list)
 
     def refresh_buff(self, buff_id, buff_level, buff_stack=1):
-        buff = self.current_school.buffs[buff_id]
+        buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
         buff_tuple = (buff_id, buff_level)
         stack = max(min(self.current_buff_stacks.get(buff_tuple, 0) + buff_stack, buff.max_stack), 0)
         if stack:
@@ -190,7 +190,7 @@ class BaseParser:
             self.current_buff_intervals.pop(buff_tuple, None)
 
     def refresh_target_buff(self, buff_id, buff_level, buff_stack=1):
-        buff = self.current_school.buffs[buff_id]
+        buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
         buff_tuple = (buff_id, buff_level)
         stack = max(min(self.current_target_buff_stacks.get(buff_tuple, 0) + buff_stack, buff.max_stack), 0)
         if stack:
@@ -253,7 +253,9 @@ class Parser(BaseParser):
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
             self.select_equipments[player_id] = self.parse_equipments(detail[5].values())
-        except:
+        except KeyError:
+            return
+        except IndexError:
             return
 
     def parse_npc(self, row):
@@ -424,13 +426,13 @@ class Parser(BaseParser):
         damage = self.current_school.skills[self.current_damage]
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
             if self.filter_buff(buff, damage):
                 current_status.append((buff_id, buff_level, buff_stack))
 
         snapshot_status = []
         for (buff_id, buff_level), buff_stack in self.pet_snapshot.get(self.current_caster, {}).items():
-            buff = self.current_school.buffs[buff_id]
+            buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
             if self.filter_buff(buff, damage):
                 snapshot_status.append((buff_id, buff_level, buff_stack))
 
@@ -445,13 +447,13 @@ class Parser(BaseParser):
         damage = self.current_school.dots[self.current_damage]
         current_status = []
         for (buff_id, buff_level), buff_stack in self.current_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
             if self.filter_buff(buff, damage):
                 current_status.append((buff_id, buff_level, buff_stack))
 
         snapshot_status = []
         for (buff_id, buff_level), buff_stack in self.current_dot_snapshot.get(self.current_damage, {}).items():
-            buff = self.current_school.buffs[buff_id]
+            buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
             if self.filter_buff(buff, damage):
                 snapshot_status.append((buff_id, buff_level, buff_stack))
 

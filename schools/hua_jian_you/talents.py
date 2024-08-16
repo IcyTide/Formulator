@@ -48,7 +48,7 @@ class 忘机(Gain):
 
 
 TALENT_GAINS: Dict[int, Gains] = {
-    5756: Gains("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
+    5756: Gains("烟霞", [MagicalCriticalRecipe((2000, 205), 179, 179)]),
     32489: Gains("青冠"),
     17510: Gains("倚天"),
     37267: Gains("墨海临源"),
