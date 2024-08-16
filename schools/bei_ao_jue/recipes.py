@@ -55,7 +55,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4290: {}, 4291: {}, 4294: {}, 4295: {},
         17374: {}
     },
-    CriticalStrikeRateRecipe_200: {
+    CriticalStrikeRecipe_200: {
         4124: dict(clone_id=16629),
         4140: {},
         4148: {},
@@ -63,7 +63,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4180: {},
         4371: {},
     },
-    CriticalStrikeRateRecipe_300: {
+    CriticalStrikeRecipe_300: {
         4125: dict(clone_id=16629),
         4141: {},
         4149: {},
@@ -71,7 +71,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4181: {},
         4372: {}
     },
-    CriticalStrikeRateRecipe_400: {
+    CriticalStrikeRecipe_400: {
         4126: dict(clone_id=16629),
         4142: {},
         4150: {},
@@ -79,10 +79,10 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4182: {},
         4373: {}
     },
-    CriticalStrikeRateRecipe_500: {
+    CriticalStrikeRecipe_500: {
         4296: {}, 4297: {}
     },
-    CriticalStrikeRateRecipe_306: {
+    CriticalStrikeRecipe_306: {
         17375: {}
     },
     上将军印无视外防: {

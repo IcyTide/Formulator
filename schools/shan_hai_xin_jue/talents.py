@@ -4,31 +4,16 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.dot import Dot
 from base.gain import Gain
-from base.recipe import ExtraTickRecipe
 from base.skill import Skill
 from schools.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 
 
-class 彤弓(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id == 35866:
-            skill.physical_critical_strike_rate_extra += 1000
-            skill.physical_critical_power_rate_extra += 102
+class 桑柘(Gain):
+    def add_dots(self, dots: Dict[int, Dot]):
+        dots[26856].tick_extra += 1
 
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id == 35866:
-            skill.physical_critical_strike_rate_extra -= 1000
-            skill.physical_critical_power_rate_extra -= 102
-
-
-class 素矰(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id == 35771:
-            skill.channel_interval_extra *= 1.05
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id == 35771:
-            skill.channel_interval_extra /= 1.05
+    def sub_dots(self, dots: Dict[int, Dot]):
+        dots[26856].tick_extra -= 1
 
 
 class 孰湖(Gain):
@@ -57,24 +42,6 @@ class 诸怀(Gain):
     def sub_buffs(self, buffs: Dict[int, Buff]):
         buffs[26857].begin_buffs.pop((-27099, 1))
         buffs[26857].end_buffs.pop((-27099, 1))
-
-
-class 卢令(Gain):
-    def add_attribute(self, attribute: Attribute):
-        attribute.agility_gain += 102
-
-    def sub_attribute(self, attribute: Attribute):
-        attribute.agility_gain -= 102
-
-
-class 贯侯(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id == 36157:
-            skill.pve_addition_extra += 205
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id == 36157:
-            skill.pve_addition_extra -= 205
 
 
 class 朱厌(Gain):
@@ -110,28 +77,28 @@ class 偕行(Gain):
 
 
 TALENTS: Dict[int, Gain] = {
-    35715: Gain("素矰", [素矰(skill_id=35771, recipe_type=35771)]),
-    35714: Gain("彤弓", [彤弓(skill_id=0, recipe_type=35659)]),
+    35715: Gain("素矰", recipes=[(5373, 1)]),
+    35714: Gain("彤弓", recipes=[(5369, 1)]),
     35718: Gain("棘矢"),
-    35719: Gain("孰湖", [孰湖()]),
+    35719: 孰湖("孰湖"),
     35721: Gain("襄尺"),
     35725: Gain("长右"),
     35729: Gain("鹿蜀"),
-    35736: Gain("桑柘", [ExtraTickRecipe(1, 26856, 0)]),
-    35733: Gain("诸怀", [诸怀()]),
+    35736: 桑柘("桑柘"),
+    35733: 诸怀("诸怀"),
     35737: Gain("于狩"),
-    35745: Gain("卢令", [卢令()]),
+    35745: Gain("卢令", attributes=dict(agility_gain=102)),
     35749: Gain("托月"),
     35751: Gain("佩弦"),
     35754: Gain("丛云隐月"),
-    35757: Gain("贯侯", [贯侯(skill_id=36157, recipe_type=36157)]),
+    35757: Gain("贯侯", recipes=[(5422, 1)]),
     35764: Gain("朝仪万汇"),
-    35761: Gain("朱厌", [朱厌()]),
+    35761: 朱厌("朱厌"),
 
-    102012: Gain("射日", [射日()]),
-    102013: Gain("白泽", [白泽()]),
+    102012: 射日("射日"),
+    102013: 白泽("白泽"),
     102014: Gain("伴生"),
-    102016: Gain("偕行", [偕行()]),
+    102016: 偕行("偕行"),
     102010: Gain("白虹贯日"),
 }
 

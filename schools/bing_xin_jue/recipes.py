@@ -23,7 +23,7 @@ class 阴性会心提高10(LunarCriticalRecipe):
 
 
 class 剑破会心20(LunarCriticalRecipe):
-    values = (1000, 102)
+    value = (1000, 102)
 
 
 SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
@@ -36,16 +36,16 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1547: {}, 1524: {}, 1525: {},
         17380: {}
     },
-    CriticalStrikeRateRecipe_200: {
+    CriticalStrikeRecipe_200: {
         143: {}, 155: {}
     },
-    CriticalStrikeRateRecipe_300: {
+    CriticalStrikeRecipe_300: {
         144: {}, 156: {}
     },
-    CriticalStrikeRateRecipe_500: {
+    CriticalStrikeRecipe_500: {
         1137: {}, 1977: {}
     },
-    CriticalStrikeRateRecipe_306: {
+    CriticalStrikeRecipe_306: {
         17381: {}
     },
     阴性会心提高10: {

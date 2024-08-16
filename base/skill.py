@@ -434,6 +434,7 @@ class SolarDamage(BaseDamage):
     _solar_damage_rand: List[int] = []
 
     _solar_attack_power_gain: List[int] = []
+    solar_attack_power_gain_extra: int = 0
     _solar_critical_strike_rate: List[int] = []
     solar_critical_strike_rate_extra: int = 0
     _solar_critical_power_rate: List[int] = []
@@ -508,11 +509,11 @@ class SolarDamage(BaseDamage):
     @property
     def solar_attack_power_gain(self):
         if not self._solar_attack_power_gain:
-            return 0
+            return self.solar_attack_power_gain_extra
         elif self.skill_level > len(self._solar_attack_power_gain):
-            return self._solar_attack_power_gain[-1]
+            return self._solar_attack_power_gain[-1] + self.solar_attack_power_gain_extra
         else:
-            return self._solar_attack_power_gain[self.skill_level - 1]
+            return self._solar_attack_power_gain[self.skill_level - 1] + self.solar_attack_power_gain_extra
 
     @solar_attack_power_gain.setter
     def solar_attack_power_gain(self, solar_attack_power_gain):
@@ -616,6 +617,7 @@ class LunarDamage(BaseDamage):
     _lunar_damage_rand: List[int] = []
 
     _lunar_attack_power_gain: List[int] = []
+    lunar_attack_power_gain_extra: int = 0
     _lunar_critical_strike_rate: List[int] = []
     lunar_critical_strike_rate_extra: int = 0
     _lunar_critical_power_rate: List[int] = []
@@ -690,11 +692,11 @@ class LunarDamage(BaseDamage):
     @property
     def lunar_attack_power_gain(self):
         if not self._lunar_attack_power_gain:
-            return 0
+            return self.lunar_attack_power_gain_extra
         elif self.skill_level > len(self._lunar_attack_power_gain):
-            return self._lunar_attack_power_gain[-1]
+            return self._lunar_attack_power_gain[-1] + self.lunar_attack_power_gain_extra
         else:
-            return self._lunar_attack_power_gain[self.skill_level - 1]
+            return self._lunar_attack_power_gain[self.skill_level - 1] + self.lunar_attack_power_gain_extra
 
     @lunar_attack_power_gain.setter
     def lunar_attack_power_gain(self, lunar_attack_power_gain):

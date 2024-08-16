@@ -4,19 +4,8 @@ from base.attribute import Attribute
 from base.buff import Buff
 from base.dot import Dot
 from base.gain import Gain
-from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
 from base.skill import Skill
 from schools.wu_fang.skills import 鬼门加成
-
-
-class 鸩羽(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id == 27557:
-            skill.poison_critical_strike_rate += self.value
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id == 27557:
-            skill.poison_critical_strike_rate -= self.value
 
 
 class 鬼门(Gain):
@@ -27,11 +16,19 @@ class 鬼门(Gain):
         鬼门加成.talent_activate = False
 
 
+class 疾根(Gain):
+    def add_dots(self, dots: Dict[int, Dot]):
+        dots[20052].tick_extra += 1
+
+    def sub_dots(self, dots: Dict[int, Dot]):
+        dots[20052].tick_extra -= 1
+
+
 TALENTS: Dict[int, Gain] = {
     28343: Gain("淮茵"),
     28338: Gain("怯邪"),
-    27530: Gain("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    28344: Gain("鸩羽", [鸩羽(1000, 27556, 27556)]),
+    27530: Gain("川谷", recipes=[(2541, 1)]),
+    28344: Gain("鸩羽", recipes=[(2549, 1)]),
     28361: Gain("结草"),
     29498: Gain("灵荆"),
     29499: Gain("苦苛"),
@@ -39,7 +36,7 @@ TALENTS: Dict[int, Gain] = {
     28410: Gain("坚阴"),
     28413: Gain("相使"),
     28419: Gain("凄骨"),
-    28432: Gain("疾根", [ExtraTickRecipe(1, 20052)]),
+    28432: 疾根("疾根"),
     28433: Gain("紫伏"),
     28431: Gain("避奚"),
     30734: Gain("折枝拂露"),
@@ -49,7 +46,7 @@ TALENTS: Dict[int, Gain] = {
     32896: Gain("应理与药"),
     28426: Gain("养荣"),
 
-    101419: Gain("鬼门", [鬼门()]),
+    101419: 鬼门("鬼门"),
     101422: Gain("神莹"),
     101423: Gain("济世"),
     101370: Gain("苍棘缚地"),

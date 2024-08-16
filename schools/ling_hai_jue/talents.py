@@ -1,31 +1,12 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.buff import Buff
 from base.gain import Gain
-from base.recipe import PhysicalCriticalRecipe, DamageAdditionRecipe, PveAdditionRecipe
-
-
-class 神降(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[14029].activate = True
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[14029].activate = False
-
-
-class 梦悠(Gain):
-    def add_attribute(self, attribute: Attribute):
-        attribute.all_shield_ignore += 307
-
-    def sub_attribute(self, attribute: Attribute):
-        attribute.all_shield_ignore -= 307
-
 
 TALENTS: Dict[int, Gain] = {
-    20333: Gain("江汉", [PhysicalCriticalRecipe((1000, 102), 19818, 19818)]),
-    20756: Gain("凌霄", [DamageAdditionRecipe(205, 20052, 0)]),
-    20335: Gain("扶桑", [DamageAdditionRecipe(102, 19827, 19827)]),
+    20333: Gain("江汉", recipes=[(5426, 1)]),
+    20324: Gain("海隅", recipes=[(4691, 1)]),
+    20756: Gain("凌霄", recipes=[(4762, 1)]),
+    20335: Gain("扶桑", recipes=[(4694, 1)]),
     20746: Gain("羽彰"),
     20348: Gain("清源"),
     30912: Gain("游仙"),
@@ -36,9 +17,9 @@ TALENTS: Dict[int, Gain] = {
     21293: Gain("溯徊"),
     32476: Gain("风驰"),
     20374: Gain("驰行"),
-    20758: Gain("神降", [神降()]),
-    20747: Gain("梦悠", [梦悠()]),
-    20701: Gain("濯流", [PveAdditionRecipe(1536, 20259, 20259)]),
+    20758: Gain("神降", buff_ids=[-22585]),
+    20747: Gain("梦悠", attributes=dict(all_shield_ignore=307)),
+    20701: Gain("濯流", recipes=[(3270, 1)]),
 
     101166: Gain("鹏程"),
     101168: Gain("浩渺"),
@@ -47,7 +28,7 @@ TALENTS: Dict[int, Gain] = {
 }
 
 TALENT_CHOICES = [
-    [20333, 20756, 101166],
+    [20333, 20324, 20756, 101166],
     [20335, 101168],
     [20746, 101170],
     [20348, 102111],

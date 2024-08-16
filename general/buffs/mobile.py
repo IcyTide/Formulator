@@ -1,13 +1,10 @@
 from typing import Dict
 
-from base.buff import Buff, TargetBuff
+from base.buff import Buff
 
 GENERAL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        70161: {}, 70167: {}, 70162: {}, 70163: {}, 70345: {},
-    },
-    TargetBuff: {
-        70188: {},
+        70161: {}, 70167: {}, 70162: {}, 70163: {}, 70345: {}, 70188: {}
     }
 }
 

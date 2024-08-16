@@ -1,28 +1,13 @@
 from typing import Dict
 
 from base.gain import Gain
-from base.recipe import PhysicalCriticalRecipe, ChannelIntervalRecipe
-from base.skill import Skill
-
-
-class 无意(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (390, 391, 392, 393, 394):
-            skill.physical_critical_strike_rate_extra += 1000
-            skill.physical_critical_power_rate_extra += 307
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (390, 391, 392, 393, 394):
-            skill.physical_critical_strike_rate_extra -= 1000
-            skill.physical_critical_power_rate_extra -= 307
-
 
 TALENTS: Dict[int, Gain] = {
-    5807: Gain("心固", [PhysicalCriticalRecipe((1000, 102), 0, 364)]),
+    5807: Gain("心固", recipes=[(638, 3)]),
     32407: Gain("环月"),
     5800: Gain("白虹"),
     357: Gain("化三清"),
-    5818: Gain("无意", [无意(skill_id=365, recipe_type=365)]),
+    5818: Gain("无意", recipes=[(2263, 1)]),
     21812: Gain("云中剑"),
     17742: Gain("风逝"),
     5821: Gain("叠刃"),
@@ -32,7 +17,7 @@ TALENTS: Dict[int, Gain] = {
     14598: Gain("若水"),
     18799: Gain("故长"),
     34656: Gain("剑入"),
-    14832: Gain("虚极", [ChannelIntervalRecipe(1.2, 600, 0)]),
+    14832: Gain("虚极", recipes=[(4583, 1), (5173, 1)]),
     14833: Gain("玄门"),
 
     100448: Gain("周行"),

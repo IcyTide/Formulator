@@ -8,9 +8,21 @@ class 增加会心10(PhysicalCriticalRecipe):
     value = (1000, 102)
 
 
-class 流血伤害提高10(SkillRecipe):
+class 流血伤害提高10(ChannelIntervalRecipe):
+    value = 1.12
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (18591, 15000, 18610, 26773, 401):
+            super().sub_skill(skill)
+
+
+class 天策流血20(ChannelIntervalRecipe):
     value = 1.2
-    
+
     def add_skill(self, skill: Skill):
         if skill.skill_id in (18591, 15000, 18610, 26773, 401):
             super().add_skill(skill)
@@ -33,7 +45,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[int, dict]] = {
         1557: {}, 1558: {}, 1559: {},
         **{(recipe_id, i + 1): {} for recipe_id in (4504, 4505, 4506, 4507) for i in range(5)},
         (4038, 3): {},
-        (817, 2): {}, 1508: {}, 1509: {}, 1133: {}, 17362: {},
+        (817, 2): {}, 1508: {}, 1509: {}, 17362: {},
     },
     增加会心10: {
         1224: {}, 1225: {},
@@ -41,20 +53,26 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[int, dict]] = {
     流血伤害提高10: {
         4686: {}, 4687: {}, 4688: {}, 4689: {}
     },
-    CriticalStrikeRateRecipe_200: {
+    天策流血20: {
+        3257: {}
+    },
+    CriticalStrikeRecipe_200: {
         334: {},
         357: {},
         367: {}
     },
-    CriticalStrikeRateRecipe_300: {
+    CriticalStrikeRecipe_300: {
         335: {},
         358: {},
         368: {}
     },
-    CriticalStrikeRateRecipe_400: {
+    CriticalStrikeRecipe_400: {
         355: {},
     },
-    CriticalStrikeRateRecipe_306: {
+    CriticalStrikeRecipe_500: {
+        1133: {}
+    },
+    CriticalStrikeRecipe_306: {
         17367: {}
     }
 }

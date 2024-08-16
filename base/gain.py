@@ -34,7 +34,7 @@ class Gain:
             self.skill_ids = skill_ids
 
     def add_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes:
+        for attr, value in self.attributes.items():
             attribute[attr] += value
 
     def add_buffs(self, buffs: Dict[int, Buff]):
@@ -56,7 +56,7 @@ class Gain:
         self.add_skills(skills)
 
     def sub_attribute(self, attribute: Attribute):
-        for attr, value in self.attributes:
+        for attr, value in self.attributes.items():
             attribute[attr] -= value
 
     def sub_buffs(self, buffs: Dict[int, Buff]):

@@ -1,13 +1,11 @@
 from typing import Dict
 
 from base.buff import Buff
-from base.recipe import DamageAdditionRecipe
 from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        1438: {}, 378: {}, 17933: {}, 9949: {}, 2757: {},
-        14931: dict(gains=[DamageAdditionRecipe(307, 365, 365)])
+        1438: {}, 378: {}, 17933: {}, 9949: {}, 2757: {}, 14931: {}
     }
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}

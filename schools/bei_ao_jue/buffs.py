@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.buff import Buff, TargetBuff
+from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
@@ -10,10 +10,7 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
 }
 MOBILE_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        71047: {}
-    },
-    TargetBuff: {
-        70454: dict(interval=16)
+        71047: {}, 70454: dict(interval=16)
     }
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}

@@ -106,21 +106,21 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         2513: {}, 2514: {}, 2515: {}, 2516: {},
         1529: {}, 17316: {},
     },
-    CriticalStrikeRateRecipe_200: {
+    CriticalStrikeRecipe_200: {
         762: {},
         794: {},
     },
-    CriticalStrikeRateRecipe_300: {
+    CriticalStrikeRecipe_300: {
         763: {},
         795: {}
     },
-    CriticalStrikeRateRecipe_400: {
+    CriticalStrikeRecipe_400: {
         764: {}
     },
-    CriticalStrikeRateRecipe_500: {
+    CriticalStrikeRecipe_500: {
         1143: {}
     },
-    CriticalStrikeRateRecipe_306: {
+    CriticalStrikeRecipe_306: {
         17322: {}
     },
     蛇影加伤害1: {

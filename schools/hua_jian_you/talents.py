@@ -2,7 +2,6 @@ from typing import Dict
 
 from base.buff import Buff
 from base.gain import Gain
-from base.recipe import MagicalCriticalRecipe
 from base.skill import Skill
 from schools.hua_jian_you.skills import 快雪时晴秘章
 
@@ -48,25 +47,23 @@ class 忘机(Gain):
 
 
 TALENTS: Dict[int, Gain] = {
-    5756: Gain("烟霞", [MagicalCriticalRecipe((1000, 102), 179, 179)]),
+    5756: Gain("烟霞", recipes=[(1295, 1)]),
     32489: Gain("青冠"),
     17510: Gain("倚天"),
     37267: Gain("墨海临源"),
+    5762: Gain("青歌", recipes=[(5497, 1)]),
     21744: Gain("折花"),
     32477: Gain("雪中行"),
-    16855: Gain("清流", [清流()]),
+    16855: Gain("清流", buff_ids=[-12588]),
     26692: Gain("钟灵"),
     6682: Gain("流离"),
     32480: Gain("雪弃"),
     32469: Gain("焚玉"),
-    26669: Gain("故幽", [
-        MagicalCriticalRecipe((1500, 154), skill_id, skill_recipe)
-        for skill_id, skill_recipe in ((186, 186), (6134, 0), (6135, 0), (6136, 0), (0, 32409))
-    ]),
+    26669: Gain("故幽", recipes=[(recipe_id, 1) for recipe_id in (2439, 2440, 2441, 2442, 2443, 3151)]),
     14643: Gain("涓流"),
 
-    100488: Gain("陶然", [陶然()]),
-    100489: Gain("忘机", [忘机()]),
+    100488: 陶然("陶然"),
+    100489: 忘机("忘机"),
     100491: Gain("渡泉"),
     100051: Gain("乱洒青荷")
 }
@@ -75,7 +72,7 @@ TALENT_CHOICES = [
     [5756, 100488],
     [32489, 100489],
     [17510, 100491],
-    [37267, 100051],
+    [37267, 5762, 100051],
     [21744],
     [32477],
     [16855],

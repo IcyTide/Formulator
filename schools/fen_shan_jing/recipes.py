@@ -19,13 +19,13 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1941: {}, 2004: {}, 2006: {}, 2007: {}, 2008: {}, 4918: {}, 4919: {}, 4920: {}, 4921: {},
         1932: {}, 1933: {}, 1937: {}, 1938: {}, 17447: {},
     },
-    CriticalStrikeRateRecipe_200: {
+    CriticalStrikeRecipe_200: {
         1833: {},
         1841: {},
         1863: {},
         1955: {}
     },
-    CriticalStrikeRateRecipe_300: {
+    CriticalStrikeRecipe_300: {
         1834: {},
         1842: {},
         1848: {},
@@ -33,17 +33,17 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1864: {},
         1956: {}
     },
-    CriticalStrikeRateRecipe_400: {
+    CriticalStrikeRecipe_400: {
         1835: {},
         1843: {},
         1849: {},
         1855: {},
         1865: {}
     },
-    CriticalStrikeRateRecipe_500: {
+    CriticalStrikeRecipe_500: {
         1934: {}, 1936: {}
     },
-    CriticalStrikeRateRecipe_306: {
+    CriticalStrikeRecipe_306: {
         17448: {}
     },
     绝刀加会心: {

@@ -1,4 +1,163 @@
 DOTS = {
+    748: {
+        "buff_name": "叠刃(DOT)",
+        "interval": 48,
+        "tick": 8,
+        "max_stack": [
+            5,
+            7
+        ],
+        "platform": 0,
+        "damage_base": 10,
+        "physical_damage_call": 1
+    },
+    889: {
+        "buff_name": "人剑合一(DOT)",
+        "interval": 48,
+        "tick": 4,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 16,
+        "physical_damage_call": 1
+    },
+    23170: {
+        "buff_name": "万象归元(DOT)",
+        "interval": 48,
+        "tick": 10,
+        "max_stack": 3,
+        "platform": 0,
+        "damage_base": 10,
+        "physical_damage_call": 1
+    },
+    70624: {
+        "buff_name": "叠刃(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 3,
+        "platform": 1,
+        "damage_base": 10,
+        "physical_damage_call": 1
+    },
+    711: {
+        "buff_name": "兰摧玉折(DOT)",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+        ],
+        "neutral_damage_call": 1
+    },
+    714: {
+        "buff_name": "钟林毓秀(DOT)",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            34,
+            36,
+            38
+        ],
+        "neutral_damage_call": 1
+    },
+    666: {
+        "buff_name": "商阳指(DOT)",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            33,
+            35,
+            37,
+            39,
+            41,
+            43,
+            45,
+            46,
+            48,
+            50
+        ],
+        "neutral_damage_call": 1
+    },
+    24158: {
+        "buff_name": "快雪时晴(DOT)",
+        "interval": 64,
+        "tick": 7,
+        "max_stack": 6,
+        "platform": 0,
+        "damage_base": 38,
+        "neutral_damage_call": 1
+    },
+    70041: {
+        "buff_name": "兰摧(DOT)",
+        "interval": 48,
+        "tick": 7,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 12,
+        "neutral_damage_call": 1
+    },
     3442: {
         "buff_name": "流血(DOT)",
         "interval": 32,
@@ -351,6 +510,52 @@ DOTS = {
         "damage_base": 55,
         "poison_damage_call": 1
     },
+    4202: {
+        "buff_name": "银月斩(DOT)",
+        "interval": 32,
+        "tick": 9,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": [
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            27,
+            30,
+            33,
+            36,
+            39,
+            42,
+            45,
+            48,
+            51,
+            53,
+            55
+        ],
+        "lunar_damage_call": 1
+    },
+    25725: {
+        "buff_name": "靡业报劫·日(DOT)",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 30,
+        "solar_damage_call": 1
+    },
+    25726: {
+        "buff_name": "靡业报劫·月(DOT)",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 30,
+        "lunar_damage_call": 1
+    },
     11447: {
         "buff_name": "闹须弥(DOT)",
         "interval": 48,
@@ -409,6 +614,71 @@ DOTS = {
             49,
             52
         ],
+        "physical_damage_call": 1
+    },
+    18386: {
+        "buff_name": "青冥(DOT)",
+        "interval": 32,
+        "tick": 6,
+        "max_stack": 6,
+        "platform": 0,
+        "damage_base": 50,
+        "physical_damage_call": 1
+    },
+    19557: {
+        "buff_name": "御波驾澜(DOT)",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 3,
+        "platform": 0,
+        "damage_base": 25,
+        "physical_damage_call": 1
+    },
+    20052: {
+        "buff_name": "逆乱(DOT)",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 8,
+        "platform": 0,
+        "damage_base": [
+            10,
+            12,
+            15,
+            21,
+            28,
+            35,
+            46,
+            62,
+            74,
+            95
+        ],
+        "poison_damage_call": 1
+    },
+    71171: {
+        "buff_name": "中毒(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 1,
+        "poison_damage_call": 1
+    },
+    26856: {
+        "buff_name": "贯穿(DOT)",
+        "interval": 8,
+        "tick": 4,
+        "max_stack": 6,
+        "platform": 0,
+        "damage_base": 32,
+        "physical_damage_call": 1
+    },
+    71175: {
+        "buff_name": "流血(DOT)",
+        "interval": 16,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 10,
         "physical_damage_call": 1
     }
 }

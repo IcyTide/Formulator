@@ -7,12 +7,10 @@ from base.dot import Dot
 from base.gain import Gain
 from base.recipe import Recipe
 from base.skill import Skill
-# from schools import bei_ao_jue, gu_feng_jue, ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue
-# from schools import shan_hai_xin_jue, ling_hai_jue, tai_xu_jian_yi, fen_shan_jing, yin_long_jue, wen_shui_jue
-# from schools import wu_fang, bing_xin_jue, mo_wen, zi_xia_gong, du_jing
-# from schools import yi_jin_jing, tian_luo_gui_dao, hua_jian_you, tai_xuan_jing, fen_ying_sheng_jue
+from schools import tai_xu_jian_yi, ling_hai_jue, shan_hai_xin_jue
 from schools import ao_xue_zhan_yi, bei_ao_jue
-from schools import bing_xin_jue, du_jing
+from schools import bing_xin_jue, du_jing, wu_fang
+from schools import hua_jian_you, fen_ying_sheng_jue
 
 
 @dataclass
@@ -53,23 +51,24 @@ SUPPORT_SCHOOLS = {
     #     talent_decoder=zi_xia_gong.TALENT_DECODER, talent_encoder=zi_xia_gong.TALENT_ENCODER,
     #     recipe_gains=zi_xia_gong.RECIPE_GAINS, recipes=zi_xia_gong.RECIPES, gains=zi_xia_gong.GAINS
     # ),
-    # 10015: School(
-    #     id=10015, school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.Attribute,
-    #     formation="北斗七星阵",
-    #     skills=tai_xu_jian_yi.SKILLS, dots=tai_xu_jian_yi.DOTS, buffs=tai_xu_jian_yi.BUFFS,
-    #     prepare=tai_xu_jian_yi.prepare,
-    #     talent_gains=tai_xu_jian_yi.TALENT_GAINS, talents=tai_xu_jian_yi.TALENTS,
-    #     talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
-    #     recipe_gains=tai_xu_jian_yi.RECIPE_GAINS, recipes=tai_xu_jian_yi.RECIPES, gains=tai_xu_jian_yi.GAINS
-    # ),
-    # 10021: School(
-    #     id=10021, school="万花", major="元气", kind="内功", attribute=hua_jian_you.Attribute, formation="七绝逍遥阵",
-    #     skills=hua_jian_you.SKILLS, dots=hua_jian_you.DOTS, buffs=hua_jian_you.BUFFS, prepare=hua_jian_you.prepare,
-    #     talent_gains=hua_jian_you.TALENT_GAINS, talents=hua_jian_you.TALENTS,
-    #     talent_decoder=hua_jian_you.TALENT_DECODER, talent_encoder=hua_jian_you.TALENT_ENCODER,
-    #     recipe_gains=hua_jian_you.RECIPE_GAINS, recipes=hua_jian_you.RECIPES,
-    #     gains=hua_jian_you.GAINS,
-    # ),
+    10015: School(
+        id=10015, school="纯阳", major="身法", kind="外功", attribute=tai_xu_jian_yi.Attribute, formation="北斗七星阵",
+        skills=tai_xu_jian_yi.SKILLS, dots=tai_xu_jian_yi.DOTS, buffs=tai_xu_jian_yi.BUFFS,
+        prepare=tai_xu_jian_yi.prepare,
+        talents=tai_xu_jian_yi.TALENTS, talent_choices=tai_xu_jian_yi.TALENT_CHOICES,
+        talent_decoder=tai_xu_jian_yi.TALENT_DECODER, talent_encoder=tai_xu_jian_yi.TALENT_ENCODER,
+        recipes=tai_xu_jian_yi.RECIPES, recipe_choices=tai_xu_jian_yi.RECIPE_CHOICES,
+        gains=tai_xu_jian_yi.GAINS,
+    ),
+    10021: School(
+        id=10021, school="万花", major="元气", kind="内功", attribute=hua_jian_you.Attribute, formation="七绝逍遥阵",
+        skills=hua_jian_you.SKILLS, dots=hua_jian_you.DOTS, buffs=hua_jian_you.BUFFS,
+        prepare=hua_jian_you.prepare,
+        talents=hua_jian_you.TALENTS, talent_choices=hua_jian_you.TALENT_CHOICES,
+        talent_decoder=hua_jian_you.TALENT_DECODER, talent_encoder=hua_jian_you.TALENT_ENCODER,
+        recipes=hua_jian_you.RECIPES, recipe_choices=hua_jian_you.RECIPE_CHOICES,
+        gains=hua_jian_you.GAINS,
+    ),
     10026: School(
         id=10026, school="天策", major="力道", kind="外功", attribute=ao_xue_zhan_yi.Attribute, formation="卫公折冲阵",
         skills=ao_xue_zhan_yi.SKILLS, dots=ao_xue_zhan_yi.DOTS, buffs=ao_xue_zhan_yi.BUFFS,
@@ -124,16 +123,15 @@ SUPPORT_SCHOOLS = {
     #     recipe_gains=tian_luo_gui_dao.RECIPE_GAINS, recipes=tian_luo_gui_dao.RECIPES,
     #     gains=tian_luo_gui_dao.GAINS,
     # ),
-    # 10242: School(
-    #     id=10242, school="明教", major="元气", kind="内功", attribute=fen_ying_sheng_jue.Attribute,
-    #     formation="炎威破魔阵",
-    #     skills=fen_ying_sheng_jue.SKILLS, dots=fen_ying_sheng_jue.DOTS, buffs=fen_ying_sheng_jue.BUFFS,
-    #     prepare=fen_ying_sheng_jue.prepare,
-    #     talent_gains=fen_ying_sheng_jue.TALENT_GAINS, talents=fen_ying_sheng_jue.TALENTS,
-    #     talent_decoder=fen_ying_sheng_jue.TALENT_DECODER, talent_encoder=fen_ying_sheng_jue.TALENT_ENCODER,
-    #     recipe_gains=fen_ying_sheng_jue.RECIPE_GAINS, recipes=fen_ying_sheng_jue.RECIPES,
-    #     gains=fen_ying_sheng_jue.GAINS,
-    # ),
+    10242: School(
+        id=10242, school="明教", major="元气", kind="内功", attribute=fen_ying_sheng_jue.Attribute, formation="炎威破魔阵",
+        prepare=fen_ying_sheng_jue.prepare,
+        skills=fen_ying_sheng_jue.SKILLS, dots=fen_ying_sheng_jue.DOTS, buffs=fen_ying_sheng_jue.BUFFS,
+        talents=fen_ying_sheng_jue.TALENTS, talent_choices=fen_ying_sheng_jue.TALENT_CHOICES,
+        talent_decoder=fen_ying_sheng_jue.TALENT_DECODER, talent_encoder=fen_ying_sheng_jue.TALENT_ENCODER,
+        recipes=fen_ying_sheng_jue.RECIPES, recipe_choices=fen_ying_sheng_jue.RECIPE_CHOICES,
+        gains=fen_ying_sheng_jue.GAINS,
+    ),
     # 10268: School(
     #     id=10268, school="丐帮", major="力道", kind="外功", attribute=xiao_chen_jue.Attribute, formation="降龙伏虎阵",
     #     skills=xiao_chen_jue.SKILLS, dots=xiao_chen_jue.DOTS, buffs=xiao_chen_jue.BUFFS, prepare=xiao_chen_jue.prepare,
@@ -167,14 +165,15 @@ SUPPORT_SCHOOLS = {
         recipes=bei_ao_jue.RECIPES, recipe_choices=bei_ao_jue.RECIPE_CHOICES,
         gains=bei_ao_jue.GAINS,
     ),
-    # 10533: School(
-    #     id=10533, school="蓬莱", major="身法", kind="外功", attribute=ling_hai_jue.Attribute, formation="墟海引归阵",
-    #     skills=ling_hai_jue.SKILLS, dots=ling_hai_jue.DOTS, buffs=ling_hai_jue.BUFFS, prepare=ling_hai_jue.prepare,
-    #     talent_gains=ling_hai_jue.TALENT_GAINS, talents=ling_hai_jue.TALENTS,
-    #     talent_decoder=ling_hai_jue.TALENT_DECODER, talent_encoder=ling_hai_jue.TALENT_ENCODER,
-    #     recipe_gains=ling_hai_jue.RECIPE_GAINS, recipes=ling_hai_jue.RECIPES,
-    #     gains=ling_hai_jue.GAINS,
-    # ),
+    10533: School(
+        id=10533, school="蓬莱", major="身法", kind="外功", attribute=ling_hai_jue.Attribute, formation="墟海引归阵",
+        skills=ling_hai_jue.SKILLS, dots=ling_hai_jue.DOTS, buffs=ling_hai_jue.BUFFS,
+        prepare=ling_hai_jue.prepare,
+        talents=ling_hai_jue.TALENTS, talent_choices=ling_hai_jue.TALENT_CHOICES,
+        talent_decoder=ling_hai_jue.TALENT_DECODER, talent_encoder=ling_hai_jue.TALENT_ENCODER,
+        recipes=ling_hai_jue.RECIPES, recipe_choices=ling_hai_jue.RECIPE_CHOICES,
+        gains=ling_hai_jue.GAINS,
+    ),
     # 10585: School(
     #     id=10585, school="凌雪", major="身法", kind="外功", attribute=yin_long_jue.Attribute, formation="龙皇雪风阵",
     #     skills=yin_long_jue.SKILLS, dots=yin_long_jue.DOTS, buffs=yin_long_jue.BUFFS, prepare=yin_long_jue.prepare,
@@ -191,14 +190,14 @@ SUPPORT_SCHOOLS = {
     #     recipe_gains=tai_xuan_jing.RECIPE_GAINS, recipes=tai_xuan_jing.RECIPES,
     #     gains=tai_xuan_jing.GAINS,
     # ),
-    # 10627: School(
-    #     id=10627, school="药宗", major="根骨", kind="内功", attribute=wu_fang.Attribute, formation="乱暮浊茵阵",
-    #     skills=wu_fang.SKILLS, dots=wu_fang.DOTS, buffs=wu_fang.BUFFS, prepare=wu_fang.prepare,
-    #     talent_gains=wu_fang.TALENT_GAINS, talents=wu_fang.TALENTS,
-    #     talent_decoder=wu_fang.TALENT_DECODER, talent_encoder=wu_fang.TALENT_ENCODER,
-    #     recipe_gains=wu_fang.RECIPE_GAINS, recipes=wu_fang.RECIPES,
-    #     gains=wu_fang.GAINS,
-    # ),
+    10627: School(
+        id=10627, school="药宗", major="根骨", kind="内功", attribute=wu_fang.Attribute, formation="乱暮浊茵阵",
+        skills=wu_fang.SKILLS, dots=wu_fang.DOTS, buffs=wu_fang.BUFFS, prepare=wu_fang.prepare,
+        talents=wu_fang.TALENTS, talent_choices=wu_fang.TALENT_CHOICES,
+        talent_decoder=wu_fang.TALENT_DECODER, talent_encoder=wu_fang.TALENT_ENCODER,
+        recipes=wu_fang.RECIPES, recipe_choices=wu_fang.RECIPE_CHOICES,
+        gains=wu_fang.GAINS,
+    ),
     # 10698: School(
     #     id=10698, school="刀宗", major="力道", kind="外功", attribute=gu_feng_jue.Attribute, formation="横云破锋阵",
     #     skills=gu_feng_jue.SKILLS, dots=gu_feng_jue.DOTS, buffs=gu_feng_jue.BUFFS, prepare=gu_feng_jue.prepare,
@@ -207,14 +206,14 @@ SUPPORT_SCHOOLS = {
     #     recipe_gains=gu_feng_jue.RECIPE_GAINS, recipes=gu_feng_jue.RECIPES,
     #     gains=gu_feng_jue.GAINS,
     # ),
-    # 10756: School(
-    #     id=10756, school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.Attribute,
-    #     formation="苍梧引灵阵",
-    #     skills=shan_hai_xin_jue.SKILLS, dots=shan_hai_xin_jue.DOTS, buffs=shan_hai_xin_jue.BUFFS,
-    #     prepare=shan_hai_xin_jue.prepare,
-    #     talent_gains=shan_hai_xin_jue.TALENT_GAINS, talents=shan_hai_xin_jue.TALENTS,
-    #     talent_decoder=shan_hai_xin_jue.TALENT_DECODER, talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
-    #     recipe_gains=shan_hai_xin_jue.RECIPE_GAINS, recipes=shan_hai_xin_jue.RECIPES,
-    #     gains=shan_hai_xin_jue.GAINS,
-    # ),
+    10756: School(
+        id=10756, school="万灵", major="身法", kind="外功", attribute=shan_hai_xin_jue.Attribute,
+        formation="苍梧引灵阵",
+        skills=shan_hai_xin_jue.SKILLS, dots=shan_hai_xin_jue.DOTS, buffs=shan_hai_xin_jue.BUFFS,
+        prepare=shan_hai_xin_jue.prepare,
+        talents=shan_hai_xin_jue.TALENTS, talent_choices=shan_hai_xin_jue.TALENT_CHOICES,
+        talent_decoder=shan_hai_xin_jue.TALENT_DECODER, talent_encoder=shan_hai_xin_jue.TALENT_ENCODER,
+        recipes=shan_hai_xin_jue.RECIPES, recipe_choices=shan_hai_xin_jue.RECIPE_CHOICES,
+        gains=shan_hai_xin_jue.GAINS,
+    ),
 }

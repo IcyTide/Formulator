@@ -1,32 +1,91 @@
-from typing import Dict, List
+from typing import Dict, Tuple, Union
 
-from base.gain import Gain
-from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
+from base.recipe import Recipe
+from general.recipes import *
 
-RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
-    "阳明指": {
-        "增加伤害4%": DamageAdditionRecipe(41, 179, 179),
-        "增加伤害3%": DamageAdditionRecipe(31, 179, 179),
-        "增加会心3%": CriticalStrikeRecipe(300, 179, 179),
-        "增加会心2%": CriticalStrikeRecipe(200, 179, 179),
+
+class 混元内功会心提高(NeutralCriticalRecipe):
+    value = (2000, 205)
+
+
+class 故幽加芙蓉会心(NeutralCriticalRecipe):
+    value = (1500, 154)
+
+
+class 新套装加钟林10(ChannelIntervalRecipe):
+    value = 1.15
+
+
+SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
+    SkillRecipe: {
+        492: {}, 493: {},
+        1677: {}, 1678: {}, 1679: {},
+        4907: {}, 4908: {}, 4909: {},
+        4849: {}, 3019: {}, 3020: {}, 3235: {}, 3236: {},
+        1546: {}, 1516: {}, 1517: {}, 17399: {}
     },
-    "芙蓉并蒂": {
-        "增加伤害5%": DamageAdditionRecipe(51, 186, 0),
-        "增加伤害4%": DamageAdditionRecipe(41, 186, 0),
-        "增加伤害3%": DamageAdditionRecipe(31, 186, 0),
-        "增加会心4%": CriticalStrikeRecipe(400, 186, 0),
-        "增加会心3%": CriticalStrikeRecipe(300, 186, 0),
-        "增加会心2%": CriticalStrikeRecipe(200, 186, 0),
+    CriticalStrikeRecipe_200: {
+        490: {},
+        4904: {}
+    },
+    CriticalStrikeRecipe_300: {
+        491: {},
+        4905: {}
+    },
+    CriticalStrikeRecipe_400: {
+        4906: {}
+    },
+    CriticalStrikeRecipe_500: {
+        1131: {}, 1979: {}
+    },
+    CriticalStrikeRecipe_306: {
+        17400: {}
+    },
+    混元内功会心提高: {
+        1295: {}
+    },
+    故幽加芙蓉会心: {
+        2439: {}, 2440: {}, 2441: {}, 2442: {}, 2443: {}, 3151: {}
+    },
+    新套装加钟林10: {
+        (817, 1): {}
+    }
+}
+RECIPES: Dict[Tuple[int, int], Recipe] = {**GENERAL_RECIPES}
+for recipe_class, recipes in SCHOOL_RECIPES.items():
+    for recipe_key, attrs in recipes.items():
+        if not isinstance(recipe_key, tuple):
+            recipe_key = (recipe_key, 1)
+        recipe = recipe_class(*recipe_key)
+        for attr, value in attrs.items():
+            setattr(recipe, attr, value)
+        recipe.set_asset()
+        RECIPES[recipe_key] = recipe
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
+    "阳明指": {
+        "增加伤害4%": 493,
+        "增加伤害3%": 492,
+        "增加会心3%": 491,
+        "增加会心2%": 490,
     },
     "快雪时晴": {
-        "增加伤害5%": DamageAdditionRecipe(51, 2636, 2636),
-        "增加伤害4%": DamageAdditionRecipe(41, 2636, 2636),
-        "增加伤害3%": DamageAdditionRecipe(31, 2636, 2636)
+        "增加伤害5%": 1679,
+        "增加伤害4%": 1678,
+        "增加伤害3%": 1677
     },
+    "芙蓉并蒂": {
+        "增加伤害5%": 4909,
+        "增加伤害4%": 4908,
+        "增加会心4%": 4906,
+        "增加伤害3%": 4907,
+        "增加会心3%": 4905,
+        "增加会心2%": 4904,
+    }
 }
-
-RECIPES: Dict[str, List[str]] = {
-    "阳明指": ["增加伤害4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
-    "芙蓉并蒂": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
-    "快雪时晴": ["增加伤害5%", "增加伤害4%", "增加伤害3%"],
+RECIPE_CHOICES: Dict[str, Dict[str, Tuple[int, int]]] = {
+    skill: {
+        desc: recipe_key if isinstance(recipe_key, tuple) else (recipe_key, 1)
+        for desc, recipe_key in recipes.items()
+    }
+    for skill, recipes in RECIPE_CHOICES.items()
 }
