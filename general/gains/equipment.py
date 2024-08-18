@@ -1,10 +1,9 @@
-from typing import Dict, Union, Tuple, List
+from typing import Dict, Union, List
 
 from assets.constant import SPECIAL_ENCHANT_MAP
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.skill import Skill
 from general.buffs.equipment import BUFFS
 from general.skills.equipment import SKILLS
 
@@ -129,7 +128,7 @@ def set_critical_set_rate(rate):
     CriticalSet.rate = rate
 
 
-EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
+EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (k,): WaterWeapon(i)
         for k, i in {

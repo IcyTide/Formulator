@@ -31,7 +31,7 @@ class School:
     talent_encoder: Dict[str, int]
     recipes: Dict[Tuple[int, int], Recipe]
     recipe_choices: Dict[str, Dict[str, Tuple[int, int]]]
-    gains: Dict[Tuple[int, int], Gain]
+    gains: Dict[tuple, Gain]
 
     platform: int = 0
 

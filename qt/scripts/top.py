@@ -128,6 +128,7 @@ def top_script(
                 if detail['school'] not in ("精简", "通用", school.school):
                     continue
                 choices.append(name)
+            equipment_widget.equipment.combo_box.clear()
             equipment_widget.equipment.set_items(choices)
             if equipment_widget.enchant:
                 equipment_widget.enchant.combo_box.setCurrentIndex(0)
