@@ -8,4 +8,4 @@ from schools.ao_xue_zhan_yi.talents import TALENT_CHOICES, TALENTS, TALENT_DECOD
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][(-1, 1)] = 5
+    self.buff_stacks[player_id][-1][1] = 5

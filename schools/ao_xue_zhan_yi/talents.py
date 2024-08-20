@@ -7,22 +7,22 @@ from base.skill import Skill
 
 class 战心(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[423].pre_buffs[(-26008, 1)] = 1
-        skills[702].post_buffs[(-1, 1)] = 3
+        skills[423].pre_buffs[-26008] = {1: 1}
+        skills[702].post_buffs[-1] = {1: 3}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[423].pre_buffs.pop((-26008, 1))
-        skills[702].post_buffs.pop((-1, 1))
+        skills[423].pre_buffs.pop(-26008)
+        skills[702].post_buffs.pop(-1)
 
 
 class 虎贲(Gain):
     @staticmethod
     def begin_effect(parser):
-        parser.current_school.skills[18773].post_buffs[(-1, 1)] = -3
+        parser.current_school.skills[18773].post_buffs[-1] = {1: -3}
 
     @staticmethod
     def end_effect(parser):
-        parser.current_school.skills[18773].post_buffs[(-1, 1)] = 0
+        parser.current_school.skills[18773].post_buffs[-1] = {1: 0}
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         buffs[28169].begin_effects.append(self.begin_effect)

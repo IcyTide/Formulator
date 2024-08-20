@@ -1,3 +1,4 @@
+from collections import defaultdict
 from dataclasses import dataclass
 from typing import List
 
@@ -1386,12 +1387,12 @@ class Skill(Damage):
             self.post_target_buffs = {}
 
     def pre_record(self, parser):
-        for (buff_id, buff_level), buff_stack in self.pre_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.pre_target_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.pre_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.pre_target_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_target_buff(buff_id, buff_level, buff_stack)
         for effect in self.pre_effects:
             effect(parser)
 
@@ -1406,12 +1407,12 @@ class Skill(Damage):
             self.pet_create(parser)
 
     def post_record(self, parser):
-        for (buff_id, buff_level), buff_stack in self.post_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.post_target_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.post_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.post_target_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_target_buff(buff_id, buff_level, buff_stack)
         for effect in self.post_effects:
             effect(parser)
 
@@ -1428,12 +1429,12 @@ class Skill(Damage):
         )
 
     def pet_create(self, parser):
-        pet_buffs = {}
-        for (buff_id, buff_level), buff_stack in self.pet_buffs.items():
-            buff_level = buff_level if buff_level else self.skill_level
-            pet_buffs[(buff_id, buff_level)] = buff_stack
         for _ in range(self.pet_count):
-            parser.current_next_pet_buff_stacks.append(pet_buffs.copy())
+            pet_buffs = defaultdict(dict)
+            for buff_id, buff_levels in self.pet_buffs.items():
+                for buff_level, buff_stack in buff_levels.items():
+                    pet_buffs[buff_id][buff_level] = buff_stack
+            parser.current_next_pet_buff_stacks.append(pet_buffs)
 
     def dot_add(self, parser):
         bind_dot = parser.current_school.dots[self.bind_dot]

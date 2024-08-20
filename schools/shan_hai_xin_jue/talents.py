@@ -1,6 +1,5 @@
 from typing import Dict
 
-from base.attribute import Attribute
 from base.buff import Buff
 from base.dot import Dot
 from base.gain import Gain
@@ -18,62 +17,78 @@ class 桑柘(Gain):
 
 class 孰湖(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs[(26857, 1)] += 1
-        skills[35696].pet_buffs[(26857, 1)] += 1
+        skills[35695].pet_buffs[26857][1] += 1
+        skills[35696].pet_buffs[26857][1] += 1
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs[(26857, 1)] -= 1
-        skills[35696].pet_buffs[(26857, 1)] -= 1
+        skills[35695].pet_buffs[26857][1] -= 1
+        skills[35696].pet_buffs[26857][1] -= 1
 
 
 class 诸怀(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs[(-27099, 1)] = 1
-        skills[35696].pet_buffs[(-27099, 1)] = 1
+        skills[35695].pet_buffs[-27099] = {1: 1}
+        skills[35696].pet_buffs[-27099] = {1: 1}
 
     def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[26857].begin_buffs[(-27099, 1)] = 1
-        buffs[26857].end_buffs[(-27099, 1)] = -1
+        buffs[26857].begin_buffs[-27099] = {1: 1}
+        buffs[26857].end_buffs[-27099] = {1: 0}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs.pop((-27099, 1))
-        skills[35696].pet_buffs.pop((-27099, 1))
+        skills[35695].pet_buffs.pop(-27099)
+        skills[35696].pet_buffs.pop(-27099)
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[26857].begin_buffs.pop((-27099, 1))
-        buffs[26857].end_buffs.pop((-27099, 1))
+        buffs[26857].begin_buffs.pop(-27099)
+        buffs[26857].end_buffs.pop(-27099)
 
 
 class 朱厌(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35696].pet_buffs[(27406, 1)] = 1
+        skills[35696].pet_buffs[27406] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35696].pet_buffs.pop((27406, 1))
+        skills[35696].pet_buffs.pop(27406)
 
 
 class 射日(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        射日加成.talent_activate = True
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 射日加成):
+                skill.pre_target_buffs[70188] = {25: 1}
+                skill.post_target_buffs[70188] = {25: -1}
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        射日加成.talent_activate = False
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 射日加成):
+                skill.pre_target_buffs[70188].pop(25)
+                skill.post_target_buffs[70188].pop(25)
 
 
 class 白泽(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        白泽加成.talent_activate_1 = True
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 白泽加成):
+                skill.pre_target_buffs[70188] = {30: 1}
+                skill.post_target_buffs[70188] = {30: -1}
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        白泽加成.talent_activate_1 = False
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 白泽加成):
+                skill.pre_target_buffs[70188].pop(30)
+                skill.post_target_buffs[70188].pop(30)
 
 
 class 偕行(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        白泽加成.talent_activate_2 = True
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 白泽加成):
+                skill.post_target_buffs[71182] = {1: 1}
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        白泽加成.talent_activate_2 = False
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 白泽加成):
+                skill.post_target_buffs.pop(71182)
 
 
 TALENTS: Dict[int, Gain] = {
@@ -98,13 +113,14 @@ TALENTS: Dict[int, Gain] = {
     102012: 射日("射日"),
     102013: 白泽("白泽"),
     102014: Gain("伴生"),
+    102015: Gain("灵祇"),
     102016: 偕行("偕行"),
     102010: Gain("白虹贯日"),
 }
 
 TALENT_CHOICES = [
     [35715, 35714, 102012, 102013],
-    [35718, 35719, 102014],
+    [35718, 35719, 102014, 102015],
     [35721, 102016],
     [35725, 102010],
     [35729],

@@ -1,14 +1,13 @@
 from typing import Dict
 
-from base.gain import Gains
-from base.recipe import DamageAdditionRecipe
+from base.gain import Gain
 
 TALENTS: Dict[int, Gain] = {
-    6812: Gain("玄黄", [DamageAdditionRecipe(102, 0, 5638)]),
+    6812: Gain("玄黄", recipes=[(1714, 1)]),
     6836: Gain("益元"),
     26702: Gain("坚冰"),
     6337: Gain("斜打狗背"),
-    6845: Gain("自强", [DamageAdditionRecipe(205, skill_id, skill_id) for skill_id in (5258, 5354)]),
+    6845: Gain("自强", recipes=[(4764, 1), (4765, 1)]),
     6820: Gain("无疆"),
     32725: Gain("酩酊"),
     6832: Gain("越渊"),

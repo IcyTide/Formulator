@@ -1,11 +1,10 @@
 from typing import Dict
 
-from base.gain import Gains
-from base.recipe import PhysicalCriticalRecipe
+from base.gain import Gain
 
 TALENTS: Dict[int, Gain] = {
-    5953: Gain("淘尽", [PhysicalCriticalRecipe((1000, 102), 1600, 1600)]),
-    5954: Gain("清风", [PhysicalCriticalRecipe((1000, 102), 1593, 1593)]),
+    5953: Gain("淘尽", recipes=[(1235, 1)]),
+    5954: Gain("清风", recipes=[(1236, 1)]),
     5952: Gain("岱宗"),
     18682: Gain("景行"),
     5964: Gain("造化"),

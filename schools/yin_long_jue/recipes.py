@@ -1,63 +1,117 @@
-from typing import Dict, List
+from typing import Dict, Tuple, Union
 
-from base.gain import Gain
-from base.recipe import DamageAdditionRecipe, CriticalStrikeRecipe
+from base.recipe import Recipe
+from general.recipes import *
 
-RECIPE_GAINS: Dict[str, Dict[str, Gain]] = {
-    "星垂平野": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22143, 22143),
-        "增加伤害4%": DamageAdditionRecipe(41, 22143, 22143),
-        "增加伤害3%": DamageAdditionRecipe(31, 22143, 22143),
-        "增加会心4%": CriticalStrikeRecipe(400, 22143, 22143),
-        "增加会心3%": CriticalStrikeRecipe(300, 22143, 22143),
-        "增加会心2%": CriticalStrikeRecipe(200, 22143, 22143),
+
+class 乱天狼对静止目标增加10伤害(MoveStateDamageAdditionRecipe):
+    value = 307
+
+
+SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
+    SkillRecipe: {
+        4986: {}, 4987: {}, 4988: {},
+        4996: {}, 4997: {},
+        5001: {}, 5002: {},
+        5004: {}, 5005: {}, 5006: {},
+        5010: {}, 5011: {},
+        5050: {}, 5051: {},
+        5069: {}, 5070: {}, 5071: {},
+        **{recipe_id: {} for recipe_id in range(4965, 4976 + 1)}, 4946: {}, 4947: {},
+        **{recipe_id: {} for recipe_id in range(3154, 3166 + 1)},
+        4950: {},
+        5037: {}, 5038: {}, 5091: {}, 5092: {}, 17348: {}, 17324: {}
     },
-    "金戈回澜": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22144, 22144),
-        "增加伤害4%": DamageAdditionRecipe(41, 22144, 22144),
-        "增加会心4%": CriticalStrikeRecipe(400, 22144, 22144),
-        "增加会心3%": CriticalStrikeRecipe(300, 22144, 22144),
+    CriticalStrikeRecipe_200: {
+        4983: {},
+        5018: {},
+        5063: {}
     },
-    "寂洪荒": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22327, 22327),
-        "增加伤害4%": DamageAdditionRecipe(41, 22327, 22327),
-        "增加伤害3%": DamageAdditionRecipe(31, 22327, 22327),
+    CriticalStrikeRecipe_300: {
+        4984: {},
+        4994: {},
+        5019: {},
+        5044: {},
+        5046: {},
+        5064: {}
     },
-    "乱天狼": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22320, 22320),
-        "增加伤害4%": DamageAdditionRecipe(41, 22320, 22320),
-        "增加伤害3%": DamageAdditionRecipe(31, 22320, 22320),
-        "增加会心4%": CriticalStrikeRecipe(400, 22320, 22320),
-        "增加会心3%": CriticalStrikeRecipe(300, 22320, 22320),
-        "增加会心2%": CriticalStrikeRecipe(200, 22320, 22320),
+    CriticalStrikeRecipe_400: {
+        4985: {},
+        4995: {},
+        5045: {},
+        5047: {},
+        5065: {}
     },
-    "隐风雷": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22321, 22321),
-        "增加伤害4%": DamageAdditionRecipe(41, 22321, 22321),
-        "增加伤害3%": DamageAdditionRecipe(31, 22321, 22321),
-        "增加会心4%": CriticalStrikeRecipe(400, 22321, 22321),
-        "增加会心3%": CriticalStrikeRecipe(300, 22321, 22321),
-        "增加会心2%": CriticalStrikeRecipe(200, 22321, 22321),
+    CriticalStrikeRecipe_500: {
+        5093: {}
     },
-    "斩无常": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22358, 22358),
-        "增加伤害4%": DamageAdditionRecipe(41, 22358, 22358),
-        "增加会心4%": CriticalStrikeRecipe(400, 22358, 22358),
-        "增加会心3%": CriticalStrikeRecipe(300, 22358, 22358),
+    CriticalStrikeRecipe_306: {
+        17330: {}
     },
-    "幽冥窥月": {
-        "增加伤害5%": DamageAdditionRecipe(51, 22361, 22361),
-        "增加会心3%": CriticalStrikeRecipe(300, 22361, 22361),
-        "增加会心2%": CriticalStrikeRecipe(200, 22361, 22361),
+    乱天狼对静止目标增加10伤害: {
+        4952: {}
     }
 }
-
-RECIPES: Dict[str, List[str]] = {
-    "星垂平野": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
-    "金戈回澜": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加会心3%"],
-    "寂洪荒": ["增加伤害5%", "增加伤害4%", "增加伤害3%"],
-    "乱天狼": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
-    "隐风雷": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加伤害3%", "增加会心3%", "增加会心2%"],
-    "斩无常": ["增加伤害5%", "增加伤害4%", "增加会心4%", "增加会心3%"],
-    "幽冥窥月": ["增加伤害5%", "增加伤害5%", "增加会心3%", "增加会心2%"],
+RECIPES: Dict[Tuple[int, int], Recipe] = {**GENERAL_RECIPES}
+for recipe_class, recipes in SCHOOL_RECIPES.items():
+    for recipe_key, attrs in recipes.items():
+        if not isinstance(recipe_key, tuple):
+            recipe_key = (recipe_key, 1)
+        recipe = recipe_class(*recipe_key)
+        for attr, value in attrs.items():
+            setattr(recipe, attr, value)
+        recipe.set_asset()
+        RECIPES[recipe_key] = recipe
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
+    "星垂平野": {
+        "增加伤害5%": 4988,
+        "增加伤害4%": 4987,
+        "增加会心4%": 4985,
+        "增加伤害3%": 4986,
+        "增加会心3%": 4984,
+        "增加会心2%": 4983,
+    },
+    "金戈回澜": {
+        "增加伤害5%": 4997,
+        "增加伤害4%": 4996,
+        "增加会心4%": 4995,
+        "增加会心3%": 4994,
+    },
+    "乱天狼": {
+        "增加伤害5%": 5002,
+        "增加伤害4%": 5001,
+        "增加会心4%": 5045,
+        "增加会心3%": 5044,
+    },
+    "寂洪荒": {
+        "增加伤害5%": 5006,
+        "增加伤害4%": 5005,
+        "增加伤害3%": 5004,
+    },
+    "斩无常": {
+        "增加伤害5%": 5011,
+        "增加伤害4%": 5010,
+        "增加会心4%": 5047,
+        "增加会心3%": 5046,
+    },
+    "幽冥窥月": {
+        "增加伤害5%·1": 5050,
+        "增加伤害5%·2": 5051,
+        "增加会心3%": 5019,
+        "增加会心2%": 5018,
+    },
+    "隐风雷": {
+        "增加伤害5%": 5071,
+        "增加伤害4%": 5070,
+        "增加会心4%": 5065,
+        "增加伤害3%": 5069,
+        "增加会心3%": 5064,
+        "增加会心2%": 5063,
+    }
+}
+RECIPE_CHOICES: Dict[str, Dict[str, Tuple[int, int]]] = {
+    skill: {
+        desc: recipe_key if isinstance(recipe_key, tuple) else (recipe_key, 1)
+        for desc, recipe_key in recipes.items()
+    } for skill, recipes in RECIPE_CHOICES.items()
 }

@@ -3,7 +3,6 @@ from typing import Dict
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
 
-
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
         4671: {}, 4754: {}, 6277: {}, 28886: {}, 25721: {}, 4423: {},

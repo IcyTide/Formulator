@@ -8,7 +8,7 @@ class 百节判定(Skill):
     final_buff = 15926
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if stack := parser.current_buff_stacks.get((self.final_buff, 1), 0):
+        if stack := parser.current_buff_stacks[self.final_buff].get(1, 0):
             parser.refresh_buff(self.final_buff + stack, 1)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.clear_buff(self.final_buff + stack, 1)
@@ -26,7 +26,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: {} for skill_id in range(36265, 36270 + 1)},
         22330: dict(bind_dot=15568),
         26980: dict(bind_dot=19626),
-        22787: dict(pre_buffs={(15932, 1): 1}),
+        22787: dict(pre_buffs={15932: {1: 1}}),
     },
     百节判定: {skill_id: {} for skill_id in (36267, 22604, 22328)}
 }

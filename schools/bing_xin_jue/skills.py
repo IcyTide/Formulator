@@ -18,6 +18,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         100388: {}, 101635: {}, 101655: {}, 101649: {}, 101610: {}, 101612: {}, 101609: {}, 100444: {}, 100564: {},
+        100414: {}, 100418: {},
         100402: dict(bind_dot=70030),
         101553: dict(consume_dot=70030, consume_tick=1),
         101607: dict(consume_dot=70030)

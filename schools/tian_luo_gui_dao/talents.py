@@ -1,17 +1,6 @@
 from typing import Dict
 
-from base.buff import Buff
 from base.gain import Gain
-from base.recipe import PhysicalCriticalRecipe
-
-
-class 杀机断魂(Gain):
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24668].activate = True
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[-24668].activate = False
-
 
 TALENTS: Dict[int, Gain] = {
     28371: Gain("血影留痕"),
@@ -19,11 +8,11 @@ TALENTS: Dict[int, Gain] = {
     6495: Gain("弩击急骤"),
     6506: Gain("千机之威"),
     30921: Gain("擘两分星"),
-    6441: Gain("流星赶月", [PhysicalCriticalRecipe((1000, 100), 3093, 3093)]),
+    6441: Gain("流星赶月", recipes=[(1204, 1)]),
     37326: Gain("确固不拔"),
     6451: Gain("聚精凝神"),
     18249: Gain("化血迷心"),
-    33134: Gain("杀机断魂", [杀机断魂()]),
+    33134: Gain("杀机断魂", buff_ids=[-24668]),
     14857: Gain("雷甲三铉"),
     6461: Gain("秋风散影"),
     34679: Gain("雀引彀中"),

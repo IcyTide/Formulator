@@ -9,4 +9,4 @@ from schools.du_jing.talents import TALENT_CHOICES, TALENTS, TALENT_DECODER, TAL
 
 def prepare(self, player_id):
     if 6879 in self.select_talents[player_id]:
-        self.buff_stacks[player_id][(12497, 1)] = 1
+        self.buff_stacks[player_id][12497][1] = 1

@@ -52,8 +52,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4374: {}, 4375: {}, 4376: {},
         2946: {}, 2947: {}, 2948: {},
         3251: {},
-        4290: {}, 4291: {}, 4294: {}, 4295: {},
-        17374: {}
+        4290: {}, 4291: {}, 4294: {}, 4295: {}, 17374: {}
     },
     CriticalStrikeRecipe_200: {
         4124: dict(clone_id=16629),

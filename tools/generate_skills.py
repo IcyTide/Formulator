@@ -36,11 +36,11 @@ ATTRIBUTE_TYPE = {
     "NEUTRAL_ATTACK_POWER_PERCENT": "neutral_attack_power_gain",
     "POISON_ATTACK_POWER_PERCENT": "poison_attack_power_gain",
 
-    "PHYSICS_CRITICAL_STRIKE_BASE_RATE": "physical_critical_power_rate",
-    "LUNAR_CRITICAL_STRIKE_BASE_RATE": "lunar_critical_power_rate",
-    "SOLAR_CRITICAL_STRIKE_BASE_RATE": "solar_critical_power_rate",
-    "NEUTRAL_CRITICAL_STRIKE_BASE_RATE": "neutral_critical_power_rate",
-    "POISON_CRITICAL_STRIKE_BASE_RATE": "poison_critical_power_rate",
+    "PHYSICS_CRITICAL_STRIKE_BASE_RATE": "physical_critical_strike_rate",
+    "LUNAR_CRITICAL_STRIKE_BASE_RATE": "lunar_critical_strike_rate",
+    "SOLAR_CRITICAL_STRIKE_BASE_RATE": "solar_critical_strike_rate",
+    "NEUTRAL_CRITICAL_STRIKE_BASE_RATE": "neutral_critical_strike_rate",
+    "POISON_CRITICAL_STRIKE_BASE_RATE": "poison_critical_strike_rate",
 
     "PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE": "physical_critical_power_rate",
     "LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE": "lunar_critical_power_rate",

@@ -6,10 +6,10 @@ from base.skill import Skill
 
 class 血魄(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[13040].post_buffs[(-1, 1)] += 25
+        skills[13040].post_buffs[-1][1] += 25
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[13040].post_buffs[(-1, 1)] -= 25
+        skills[13040].post_buffs[-1][1] -= 25
 
 
 TALENTS: Dict[int, Gain] = {

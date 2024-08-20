@@ -1,7 +1,5 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.buff import Buff
 from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
@@ -9,11 +7,27 @@ from schools.wu_fang.skills import 鬼门加成
 
 
 class 鬼门(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        鬼门加成.talent_activate = True
+    @staticmethod
+    def pre_effect(parser):
+        if parser.current_dot_ticks.get(71171):
+            parser.refresh_target_buff(70188, 10)
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        鬼门加成.talent_activate = False
+    @staticmethod
+    def post_effect(parser):
+        if parser.current_dot_ticks.get(71171):
+            parser.refresh_target_buff(70188, 10, -1)
+
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 鬼门加成):
+                skill.pre_effects.append(self.pre_effect)
+                skill.post_effects.append(self.post_effect)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 鬼门加成):
+                skill.pre_effects.remove(self.pre_effect)
+                skill.post_effects.remove(self.post_effect)
 
 
 class 疾根(Gain):

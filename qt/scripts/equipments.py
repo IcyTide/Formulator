@@ -6,6 +6,7 @@ from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
 from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
 from qt.components.equipments import EquipmentsWidget
+from schools.wen_shui_jue.gains import SecondaryWeapon
 
 
 class Enchant:
@@ -124,39 +125,39 @@ class Equipments:
 
     @property
     def secondary_weapon(self):
-        return bool(self.equipments['额外武器'])
+        return bool(self.equipments['额外武器'].name)
 
     @property
     def secondary_weapon_attrs(self):
         primary_weapon, secondary_weapon = self.equipments["近战武器"], self.equipments['额外武器']
 
-        secondary_weapon_attrs = defaultdict(int)
+        residual_attrs = defaultdict(int)
         for attr, value in secondary_weapon.base_attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
         for attr, value in secondary_weapon.magic_attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
         for attr, value in secondary_weapon.strength_attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
         for attr, value in secondary_weapon.embed_attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
         for attr, value in secondary_weapon.enchant.attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
         for attr, value in secondary_weapon.stone.attr.items():
-            secondary_weapon_attrs[attr] += value
+            residual_attrs[attr] += value
 
         for attr, value in primary_weapon.base_attr.items():
-            secondary_weapon_attrs[attr] -= value
+            residual_attrs[attr] -= value
         for attr, value in primary_weapon.magic_attr.items():
-            secondary_weapon_attrs[attr] -= value
+            residual_attrs[attr] -= value
         for attr, value in primary_weapon.strength_attr.items():
-            secondary_weapon_attrs[attr] -= value
+            residual_attrs[attr] -= value
         for attr, value in primary_weapon.embed_attr.items():
-            secondary_weapon_attrs[attr] -= value
+            residual_attrs[attr] -= value
         for attr, value in primary_weapon.enchant.attr.items():
-            secondary_weapon_attrs[attr] -= value
+            residual_attrs[attr] -= value
         for attr, value in primary_weapon.stone.attr.items():
-            secondary_weapon_attrs[attr] -= value
-        return secondary_weapon_attrs
+            residual_attrs[attr] -= value
+        return residual_attrs
 
     @property
     def details(self):
@@ -196,6 +197,8 @@ class Equipments:
                 gains += [tuple(gain) for gain in set_gains[set_id].get(index, [])]
                 recipes += [recipe for recipe in set_recipes[set_id].get(index, {}).items()]
 
+        if self.secondary_weapon:
+            gains.append(SecondaryWeapon(self.secondary_weapon_attrs))
         return attrs, gains, recipes
 
 

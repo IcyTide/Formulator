@@ -33,6 +33,8 @@ def parse_skill_recipe(row):
     result = {}
     if damage_addition := row.DamageAddPercent:
         result['damage_addition'] = int(damage_addition)
+    if prepare_frame := row.PrepareFramesAdd:
+        result['prepare_frame'] = int(prepare_frame)
     if skill_id := row.SkillID:
         result['skill_id'] = int(skill_id)
     if recipe_type := row.SkillRecipeType:

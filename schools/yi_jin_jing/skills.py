@@ -20,11 +20,7 @@ class 明法移除(Skill):
     final_buff = 19635
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        buff_levels = []
-        for buff_id, buff_level in parser.current_target_buff_stacks:
-            if buff_id == self.final_buff:
-                buff_levels.append(buff_level)
-        for buff_level in buff_levels:
+        for buff_level in list(parser.current_target_buff_stacks[self.final_buff]):
             parser.clear_target_buff(self.final_buff, buff_level)
 
 

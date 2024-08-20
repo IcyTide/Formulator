@@ -9,14 +9,14 @@ class 征踏(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
             if isinstance(skill, 项王击鼎秘章) or skill_id in [101108, 101109, 101110] + list(range(101256, 101260)):
-                skill.pre_target_buffs[(70188, 10)] = 1
-                skill.post_target_buffs[(70188, 10)] = -1
+                skill.pre_target_buffs[70188] = {10: 1}
+                skill.post_target_buffs[70188] = {10: -1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
             if isinstance(skill, 项王击鼎秘章) or skill_id in [101108, 101109, 101110] + list(range(101256, 101260)):
-                skill.pre_target_buffs.pop((70188, 10))
-                skill.post_target_buffs.pop((70188, 10))
+                skill.pre_target_buffs[70188].pop(10)
+                skill.post_target_buffs[70188].pop(10)
 
 
 class 裁魂(Gain):
@@ -33,12 +33,12 @@ class 裁魂(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[101080].pre_effects.append(self.pre_effect)
         skills[101080].post_effects.append(self.post_effect)
-        skills[101198].post_target_buffs[(70454, 1)] = 1
+        skills[101198].post_target_buffs[70454] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[101080].pre_effects.remove(self.pre_effect)
         skills[101080].post_effects.remove(self.post_effect)
-        skills[101198].post_target_buffs.pop((70454, 1))
+        skills[101198].post_target_buffs.pop(70454)
 
 
 TALENTS: Dict[int, Gain] = {

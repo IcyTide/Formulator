@@ -13,17 +13,17 @@ class 杀机断魂移除(Skill):
 
 class 杀机断魂千机变(杀机断魂移除):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_stack := parser.current_buff_stacks.get((27457, 1)):
+        if buff_stack := parser.current_buff_stacks[27457].get(1):
             parser.refresh_buff(self.final_buff, 1, buff_stack)
 
 
 class 杀机断魂天绝地灭(杀机断魂移除):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get((16236, 1)):
+        if parser.current_buff_stacks[16236].get(1):
             parser.refresh_buff(self.final_buff, 1, 6)
-        elif parser.current_buff_stacks.get((16235, 1)):
+        elif parser.current_buff_stacks[16235].get(1):
             parser.refresh_buff(self.final_buff, 1, 4)
-        elif parser.current_buff_stacks.get((16234, 1)):
+        elif parser.current_buff_stacks[16234].get(1):
             parser.refresh_buff(self.final_buff, 1, 2)
 
 

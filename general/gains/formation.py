@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List
 
 from base.attribute import Attribute
 from base.buff import Buff

@@ -9,4 +9,4 @@ from schools.hua_jian_you.talents import TALENT_CHOICES, TALENTS, TALENT_DECODER
 
 def prepare(self, player_id):
     if not self.players[player_id].platform:
-        self.buff_stacks[player_id][(14636, 1)] = 1
+        self.buff_stacks[player_id][14636][1] = 1

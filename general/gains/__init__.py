@@ -8,4 +8,3 @@ from general.skills.team import SKILLS as TEAM_SKILLS
 class RealBonusGain(Gain):
     skill_ids = list(TEAM_SKILLS) + list(FORMATION_SKILLS)
     buff_ids = list(TEAM_BUFFS) + list(FORMATION_BUFFS)
-

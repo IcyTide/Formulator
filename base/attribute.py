@@ -778,7 +778,11 @@ class Minor(CriticalPower, DamageAddition):
 
 
 class Target(Shield, DamageCoefficient):
-    pass
+    def __getitem__(self, item):
+        return getattr(self, item)
+
+    def __setitem__(self, key, value):
+        setattr(self, key, value)
 
 
 class Attribute(Major, Minor, Target):
@@ -805,12 +809,6 @@ class Attribute(Major, Minor, Target):
     @property
     def target_damage_cof(self):
         raise NotImplementedError
-
-    def __getitem__(self, item):
-        return getattr(self, item)
-
-    def __setitem__(self, key, value):
-        setattr(self, key, value)
 
 
 class PhysicalAttribute(Attribute):

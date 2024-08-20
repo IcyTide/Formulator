@@ -6,7 +6,5 @@ GAINS = {
     (1923,): CriticalSet(BUFFS[1428]),
     (2408,): Gain(),
     (1940,): Gain(),
-    17447: Gain(),
-    17448: Gain(),
     **EQUIPMENT_GAINS,
 }

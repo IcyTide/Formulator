@@ -3,8 +3,6 @@ from dataclasses import dataclass
 from typing import Dict, List, Union
 
 from assets.buffs import BUFFS
-from base.attribute import Attribute
-from base.skill import Skill
 
 ATTR_DICT = Dict[str, Union[List[int], int]]
 
@@ -83,7 +81,7 @@ class Buff(BaseBuff):
     unique: bool = True
     activate: bool = True
 
-    _recipes: List[list] = None
+    _recipes: List[dict] = None
     _attributes: List[dict] = None
 
     begin_effects: list = None
@@ -156,7 +154,7 @@ class Buff(BaseBuff):
     @property
     def recipes(self):
         if not self._recipes:
-            return []
+            return {}
         elif self.buff_level > len(self._recipes):
             return self._recipes[-1]
         else:
@@ -170,22 +168,22 @@ class Buff(BaseBuff):
             self._recipes = [recipes]
 
     def begin(self, parser):
-        for (buff_id, buff_level), buff_stack in self.begin_buffs.items():
-            buff_level = buff_level if buff_level else self.buff_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.begin_target_buffs.items():
-            buff_level = buff_level if buff_level else self.buff_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.begin_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.begin_target_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_target_buff(buff_id, buff_level, buff_stack)
         for effect in self.begin_effects:
             effect(parser)
 
     def end(self, parser):
-        for (buff_id, buff_level), buff_stack in self.end_buffs.items():
-            buff_level = buff_level if buff_level else self.buff_level
-            parser.refresh_buff(buff_id, buff_level, buff_stack)
-        for (buff_id, buff_level), buff_stack in self.end_target_buffs.items():
-            buff_level = buff_level if buff_level else self.buff_level
-            parser.refresh_target_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.end_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_buff(buff_id, buff_level, buff_stack)
+        for buff_id, buff_levels in self.end_target_buffs.items():
+            for buff_level, buff_stack in buff_levels.items():
+                parser.refresh_target_buff(buff_id, buff_level, buff_stack)
         for effect in self.end_effects:
             effect(parser)
 

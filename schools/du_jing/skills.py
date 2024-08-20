@@ -30,8 +30,7 @@ class 连缘蛊判定(Skill):
         if parser.current_dot_ticks.get(2295):
             buff_level += 1
         if buff_level:
-            for i in range(4):
-                parser.clear_buff(self.final_buff, i + 1)
+            parser.clear_buff(self.final_buff)
             parser.refresh_buff(self.final_buff, buff_level)
 
 
@@ -47,8 +46,8 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
         6237: dict(bind_dot=2296),
         6236: dict(bind_dot=2295),
         26226: dict(bind_dot=18882),
-        2226: dict(post_buffs={(2543, 1): 1}),
-        2223: dict(pet_buffs={(16543, 1): 1})
+        2226: dict(post_buffs={2543: {1: 1}}),
+        2223: dict(pet_buffs={16543: {1: 1}})
     },
     连缘蛊判定: {26914: {}},
     曲致判定: {

@@ -6,26 +6,26 @@ from base.skill import Skill
 
 class 引魂(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pet_buffs[(16102, 1)] = 1
+        skills[2223].pet_buffs[16102] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pet_buffs.pop((16102, 1))
+        skills[2223].pet_buffs.pop(16102)
 
 
 class 虫兽(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pre_buffs[(12497, 1)] = 1
+        skills[2223].pre_buffs[12497] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pre_buffs.pop((12497, 1))
+        skills[2223].pre_buffs.pop(12497)
 
 
 class 嗜蛊(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2226].pre_buffs[(22232, 1)] = 1
+        skills[2226].pre_buffs[22232] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2226].pre_buffs.pop((22232, 1))
+        skills[2226].pre_buffs.pop(22232)
 
 
 TALENTS: Dict[int, Gain] = {

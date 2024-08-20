@@ -94,7 +94,7 @@ def dashboard_script(parser: Parser,
         analyzer.add_recipes(equipment_recipes)
         if not school.platform:
             analyzer.add_gains([school.talent_encoder[t] for t in talents.gains])
-            analyzer.add_recipes([school.recipe_choices[s][r]for e in recipes.recipes for s, r in e])
+            analyzer.add_recipes([school.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
         else:
             analyzer.add_gains([school.talent_encoder[t] for t in talents.gains[:MOBILE_MAX_TALENTS]])
 

@@ -1,6 +1,6 @@
+from base.gain import Gain
 from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 from schools.ao_xue_zhan_yi.buffs import BUFFS
-from base.gain import Gain
 
 GAINS = {
     (1913,): CriticalSet(BUFFS[1428]),

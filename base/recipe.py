@@ -67,6 +67,7 @@ class SkillRecipe(Recipe):
     clone_id = None
 
     damage_addition: int = 0
+    prepare_frame: int = 0
     value: Union[int, float, tuple] = 0
 
     def check_skill(self, skill: Skill):
@@ -80,6 +81,7 @@ class SkillRecipe(Recipe):
 
     def add_skill(self, skill: Skill):
         skill.damage_addition_extra += self.damage_addition
+        skill.prepare_frame_extra += self.prepare_frame
 
     def add_skills(self, skills: Dict[int, Skill]):
         return_tag = False
@@ -91,6 +93,7 @@ class SkillRecipe(Recipe):
 
     def sub_skill(self, skill: Skill):
         skill.damage_addition_extra -= self.damage_addition
+        skill.prepare_frame_extra -= self.prepare_frame
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():

@@ -1,17 +1,6 @@
 from typing import Dict
 
-from base.attribute import Attribute
 from base.gain import Gain
-from base.recipe import DamageAdditionRecipe, MoveStateDamageAdditionRecipe
-
-
-class 王师(Gain):
-    def add_attribute(self, attribute: Attribute):
-        attribute.agility_gain += 102
-
-    def sub_attribute(self, attribute: Attribute):
-        attribute.agility_gain -= 102
-
 
 TALENTS: Dict[int, Gain] = {
     22557: Gain("星旗"),
@@ -21,10 +10,10 @@ TALENTS: Dict[int, Gain] = {
     22586: Gain("折意"),
     22571: Gain("风骨"),
     23309: Gain("北阙"),
-    22575: Gain("渊岳", [DamageAdditionRecipe(410, 22327, 22327)]),
-    22579: Gain("玄肃", [MoveStateDamageAdditionRecipe(307, 22320, 22320)]),
+    22575: Gain("渊岳", recipes=[(4950, 1)]),
+    22579: Gain("玄肃", recipes=[(4952, 1)]),
     29166: Gain("飞刃回转"),
-    22583: Gain("王师", [王师()]),
+    22583: Gain("王师", attributes=dict(agility_gain=102)),
     22593: Gain("百节"),
     22587: Gain("忘断"),
     22596: Gain("徵逐"),

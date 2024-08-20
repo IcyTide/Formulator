@@ -4,16 +4,8 @@ from base.recipe import Recipe
 from general.recipes import *
 
 
-class 明教_秘籍_烈日斩_静止目标加伤害(SkillRecipe):
+class 明教_秘籍_烈日斩_静止目标加伤害(MoveStateDamageAdditionRecipe):
     value = 102
-
-    def add_skill(self, skill: Skill):
-        super().add_skill(skill)
-        skill.move_state_damage_addition += self.value
-
-    def sub_skill(self, skill: Skill):
-        super().sub_skill(skill)
-        skill.move_state_damage_addition -= self.value
 
 
 class 生死劫必会心(SolarLunarCriticalStrikeRecipe):
@@ -24,28 +16,12 @@ class 净世破魔击必会心(SolarLunarCriticalStrikeRecipe):
     value = 10000
 
 
-class 新明光_阳性终结技增强(SkillRecipe):
+class 新明光_阳性终结技增强(SolarAttackPowerGainRecipe):
     value = 246
 
-    def add_skill(self, skill: Skill):
-        super().add_skill(skill)
-        skill.solar_attack_power_gain_extra += self.value
 
-    def sub_skill(self, skill: Skill):
-        super().sub_skill(skill)
-        skill.solar_attack_power_gain_extra -= self.value
-
-
-class 新明光_阴性终结技增强(SkillRecipe):
+class 新明光_阴性终结技增强(LunarAttackPowerGainRecipe):
     value = 246
-
-    def add_skill(self, skill: Skill):
-        super().add_skill(skill)
-        skill.lunar_attack_power_gain_extra += self.value
-
-    def sub_skill(self, skill: Skill):
-        super().sub_skill(skill)
-        skill.lunar_attack_power_gain_extra -= self.value
 
 
 class 明教通用会心10(SolarLunarCriticalRecipe):

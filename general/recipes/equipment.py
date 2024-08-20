@@ -2,7 +2,6 @@ from typing import Dict, Union, Tuple
 
 from base.recipe import SkillRecipe, Recipe
 
-
 GENERAL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         17250: {}, 17239: {}
