@@ -778,7 +778,11 @@ class Minor(CriticalPower, DamageAddition):
 
 
 class Target(Shield, DamageCoefficient):
-    pass
+    def __getitem__(self, item):
+        return getattr(self, item)
+
+    def __setitem__(self, key, value):
+        setattr(self, key, value)
 
 
 class Attribute(Major, Minor, Target):
@@ -790,7 +794,7 @@ class Attribute(Major, Minor, Target):
     display_attrs: list = ["strain_base", "strain", "surplus", "base_weapon_damage", "weapon_damage_rand"]
     platform: int = 0
 
-    def __init__(self):
+    def __init__(self, platform: int = 0):
         self.all_major_base += MAJOR_BASE
         self.target = Target()
 

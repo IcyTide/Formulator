@@ -12,7 +12,7 @@ MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
         70030: {}
     }
 }
-DOTS = {}
+DOTS: Dict[int, Dot] = {}
 for dot_class, dots in SCHOOL_DOTS.items():
     for dot_id, attrs in dots.items():
         dot = dot_class(dot_id)

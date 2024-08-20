@@ -1,32 +1,25 @@
 from typing import Dict
 
-from base.gain import Gains
-from base.recipe import MagicalCriticalRecipe, DamageAdditionRecipe
+from base.gain import Gain
 
-TALENT_GAINS: Dict[int, Gains] = {
-    5972: Gains("腾焰飞芒", [
-        MagicalCriticalRecipe((1000, 102), skill_id, skill_recipe)
-        for skill_id, skill_recipe in ((3963, 0), (3960, 3960))
-    ]),
-    18279: Gains("净身明礼", [
-        DamageAdditionRecipe(256, skill_id, skill_id)
-        for skill_id in (3963, 3960)
-    ]),
-    22888: Gains("诛邪镇魔"),
-    6717: Gains("无明业火"),
-    34383: Gains("明光恒照"),
-    34395: Gains("日月同辉"),
-    34372: Gains("靡业报劫"),
-    17567: Gains("用晦而明"),
-    25166: Gains("净体不畏"),
-    5979: Gains("天地诛戮"),
-    34378: Gains("降灵尊"),
-    34347: Gains("悬象著明"),
-    37337: Gains("崇光斩恶"),
-    34370: Gains("日月齐光")
+TALENTS: Dict[int, Gain] = {
+    5972: Gain("腾焰飞芒", recipes=[(1314, 1), (1315, 1)]),
+    18279: Gain("净身明礼", recipes=[(5149, 1), (5150, 1)]),
+    22888: Gain("诛邪镇魔"),
+    6717: Gain("无明业火"),
+    34383: Gain("明光恒照"),
+    34395: Gain("日月同辉"),
+    34372: Gain("靡业报劫"),
+    17567: Gain("用晦而明", buff_ids=[-12575]),
+    25166: Gain("净体不畏"),
+    5979: Gain("天地诛戮"),
+    34378: Gain("降灵尊"),
+    34347: Gain("悬象著明"),
+    37337: Gain("崇光斩恶"),
+    34370: Gain("日月齐光")
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [5972],
     [18279],
     [22888],
@@ -40,5 +33,5 @@ TALENTS = [
     [34347],
     [37337, 34370]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

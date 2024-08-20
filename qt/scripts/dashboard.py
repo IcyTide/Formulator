@@ -9,8 +9,8 @@ from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
 from qt.scripts.top import Parser
-from schools.wen_shui_jue.gains import SecondaryWeapon
-from utils.analyzer import analyze_details, Detail
+# from schools.wen_shui_jue.gains import SecondaryWeapon
+from utils.analyzer import Analyzer, Detail
 
 
 def attr_content(attribute):
@@ -25,8 +25,9 @@ def attr_content(attribute):
     return content
 
 
-def summary_content(summary: Dict[str, Detail], total_damage):
+def summary_content(summary: Dict[str, Detail], total: Detail):
     content = []
+    total_damage = total.expected_damage
     for skill in sorted(summary, key=lambda x: summary[x].expected_damage, reverse=True):
         detail = summary[skill]
         critical_count = round(detail.critical_strike, 2)
@@ -39,6 +40,13 @@ def summary_content(summary: Dict[str, Detail], total_damage):
             [f"{skill}/{detail.count}",
              f"{hit_count}/{hit_rate}%", f"{critical_count}/{critical_rate}%", f"{damage}/{damage_rate}%"]
         )
+    return content
+
+
+def gradient_content(total: Detail):
+    content = []
+    for k, v in total.gradients.items():
+        content.append([ATTR_TYPE_TRANSLATE[k], f"{round(v / total.expected_damage * 100, 2)}%"])
     return content
 
 
@@ -75,49 +83,35 @@ def dashboard_script(parser: Parser,
         record = parser.current_records
         school = parser.current_school
 
-        attribute = school.attribute(school.platform)
-        attribute.target.level = int(dashboard_widget.target_level.combo_box.currentText())
-        for attr, value in equipments.attrs.items():
-            setattr(attribute, attr, getattr(attribute, attr) + value)
-
-        dashboard_widget.init_attribute.set_content(attr_content(attribute))
-        for attr, value in consumables.attrs.items():
-            setattr(attribute, attr, getattr(attribute, attr) + value)
-
-        equipment_gains = [school.gains[gain] for gain in equipments.gains]
+        target_level = int(dashboard_widget.target_level.combo_box.currentText())
+        analyzer = Analyzer(school, target_level)
+        equipment_attrs, equipment_gains, equipment_recipes = equipments.details
+        analyzer.add_attrs(equipment_attrs)
+        dashboard_widget.init_attribute.set_content(attr_content(analyzer.attribute))
+        analyzer.add_gains(bonuses.gains)
+        analyzer.add_attrs(consumables.attrs)
+        analyzer.add_gains(equipment_gains)
+        analyzer.add_recipes(equipment_recipes)
         if not school.platform:
-            talent_gains = [school.talent_gains[school.talent_encoder[talent]] for talent in talents.gains]
-            recipe_gains = [school.recipe_gains[skill][recipe] for skill, recipe in recipes.gains]
+            analyzer.add_gains([school.talent_encoder[t] for t in talents.gains])
+            analyzer.add_recipes([school.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
         else:
-            talent_gains = [school.talent_gains[school.talent_encoder[talent]]
-                            for talent in talents.gains[:MOBILE_MAX_TALENTS]]
-            recipe_gains = []
-        gains = sum([equipment_gains, talent_gains, recipe_gains, bonuses.gains], [])
-        if school.id == 10145:
-            gains.append(SecondaryWeapon(equipments.secondary_weapon_attrs))
+            analyzer.add_gains([school.talent_encoder[t] for t in talents.gains[:MOBILE_MAX_TALENTS]])
 
-        for gain in gains:
-            gain.add(attribute, school.skills, school.dots, school.buffs)
+        dashboard_widget.final_attribute.set_content(attr_content(analyzer.attribute))
 
         start_time = dashboard_widget.start_time.spin_box.value()
         end_time = dashboard_widget.end_time.spin_box.value()
-        dashboard_widget.final_attribute.set_content(attr_content(attribute))
-        total, summary, details = analyze_details(record, start_time, end_time, attribute, school)
-
-        for gain in gains:
-            gain.sub(attribute, school.skills, school.dots, school.buffs)
+        total, summary, details = analyzer.analyze_details(record, start_time, end_time)
+        analyzer.sub_gains()
+        analyzer.sub_recipes()
 
         dashboard_widget.dps.set_text(str(round(total.expected_damage / (end_time - start_time))))
-
-        dashboard_widget.gradients.set_content(
-            [[ATTR_TYPE_TRANSLATE[k], f"{round(v / total.expected_damage * 100, 2)}%"]
-             for k, v in total.gradients.items()]
-        )
+        dashboard_widget.gradients.set_content(gradient_content(total))
+        dashboard_widget.summary.set_content(summary_content(summary, total))
 
         dashboard_widget.detail_widget.details = details
         set_skills()
-
-        dashboard_widget.summary.set_content(summary_content(summary, total.expected_damage))
 
     dashboard_widget.formulate_button.clicked.connect(formulate)
 

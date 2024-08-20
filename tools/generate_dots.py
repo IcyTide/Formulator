@@ -1,4 +1,3 @@
-import pandas as pd
 from tqdm import tqdm
 
 from schools import SUPPORT_SCHOOLS

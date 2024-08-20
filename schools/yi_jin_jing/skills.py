@@ -20,11 +20,7 @@ class 明法移除(Skill):
     final_buff = 19635
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        buff_levels = []
-        for buff_id, buff_level in parser.current_target_buff_stacks:
-            if buff_id == self.final_buff:
-                buff_levels.append(buff_level)
-        for buff_level in buff_levels:
+        for buff_level in list(parser.current_target_buff_stacks[self.final_buff]):
             parser.clear_target_buff(self.final_buff, buff_level)
 
 
@@ -40,7 +36,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     明法判定: {26989: {}},
     明法移除: {26991: {}},
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

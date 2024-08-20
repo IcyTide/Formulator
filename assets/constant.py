@@ -9,7 +9,7 @@ STONES_DIR = os.path.join(ASSETS_DIR, "stones.json")
 
 """ Season Constant """
 
-SPECIAL_ENCHANT_MAP = {  # TODO: Need Update In New Season
+SPECIAL_ENCHANT_MAP = {
     3: {
         14350: [15436, 12],
         12800: [15436, 11],
@@ -40,6 +40,8 @@ SPECIAL_ENCHANT_MAP = {  # TODO: Need Update In New Season
 }
 MIN_EQUIP_LEVEL = 12100
 ENCHANT_START_ID = 11869
+
+BUFF_MAX_ATTRIB = 15
 
 """ Equipments """
 POSITION_MAP = {

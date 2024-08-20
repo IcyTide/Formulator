@@ -7,7 +7,7 @@ SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
         743: dict(tick_extra=3)
     }
 }
-DOTS = {}
+DOTS: Dict[int, Dot] = {}
 for dot_class, dots in SCHOOL_DOTS.items():
     for dot_id, attrs in dots.items():
         dot = dot_class(dot_id)

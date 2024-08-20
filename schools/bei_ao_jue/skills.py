@@ -21,7 +21,7 @@ class 项王击鼎秘章(Skill):
 
 class 霸王加成(项王击鼎秘章):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if stack := parser.current_buff_stacks.get((71047, 1)):
+        if stack := parser.current_buff_stacks[71047].get(1):
             parser.refresh_target_buff(70188, 10 * stack)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 10 * stack, -1)
@@ -54,7 +54,7 @@ MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
         101068: dict(bind_dot=70364)
     }
 }
-SKILLS = {**GENERAL_SKILLS}
+SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
         skill = skill_class(skill_id)

@@ -8392,6 +8392,17 @@ SKILLS = {
         "physical_damage_call": 1,
         "weapon_damage_cof": 1024.0
     },
+    31031: {
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "skill_name": "画角闻龙",
+        "channel_interval": 205.0,
+        "physical_damage_base": 496,
+        "physical_damage_rand": 52,
+        "physical_damage_call": 1
+    },
     401: {
         "kind_type": "Physics",
         "platform": 0,
@@ -8468,17 +8479,6 @@ SKILLS = {
             337.50832500000007,
             418.5103230000001
         ]
-    },
-    31031: {
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "skill_name": "画角闻龙",
-        "channel_interval": 205.0,
-        "physical_damage_base": 496,
-        "physical_damage_rand": 52,
-        "physical_damage_call": 1
     },
     18740: {
         "kind_type": "Physics",
@@ -10470,12 +10470,18 @@ SKILLS = {
         "physical_damage_call": 1,
         "weapon_damage_cof": 1024.0
     },
-    1656: {
+    1658: {
         "kind_type": "Physics",
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
-        "skill_name": "啸日",
+        "channel_interval": 16.0
+    },
+    1659: {
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
         "channel_interval": 16.0
     },
     2183: {
@@ -11435,7 +11441,7 @@ SKILLS = {
             3993.6000000000004,
             4608.000000000001
         ],
-        "physical_critical_power_rate": [
+        "physical_critical_strike_rate": [
             2250,
             4500,
             6750,

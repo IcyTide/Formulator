@@ -1,18 +1,14 @@
-from typing import Dict, Union, Tuple, List
+from typing import Dict, Union, List
 
 from assets.constant import SPECIAL_ENCHANT_MAP
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from base.recipe import DamageAdditionRecipe
-from base.skill import Skill
 from general.buffs.equipment import BUFFS
 from general.skills.equipment import SKILLS
 
 
 class EquipmentGain(Gain):
-    buff_ids: List[int] = None
-    skill_ids: List[int] = None
     _attributes: List[dict] = None
     rate: Union[int, float] = 1
     level: int = 1
@@ -39,33 +35,21 @@ class EquipmentGain(Gain):
             self._attributes = [attributes]
 
     def add_buffs(self, buffs: Dict[int, Buff]):
-        if self.buff_ids and self.real_formulation:
-            for buff_id in self.buff_ids:
-                buffs[buff_id].activate = True
+        if self.real_formulation:
+            super().add_buffs(buffs)
 
     def sub_buffs(self, buffs: Dict[int, Buff]):
-        if self.buff_ids and self.real_formulation:
-            for buff_id in self.buff_ids:
-                buffs[buff_id].activate = False
-
-    def add_skills(self, skills: Dict[int, Skill]):
-        if self.skill_ids:
-            for skill_id in self.skill_ids:
-                skills[skill_id].activate = True
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        if self.skill_ids:
-            for skill_id in self.skill_ids:
-                skills[skill_id].activate = False
+        if self.real_formulation:
+            super().sub_buffs(buffs)
 
     def add_attribute(self, attribute: Attribute):
-        if (self.skill_ids or self.buff_ids) and self.real_formulation:
+        if self.buff_ids and self.real_formulation:
             return
         for attr, value in self.attributes.items():
             setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate))
 
     def sub_attribute(self, attribute: Attribute):
-        if (self.skill_ids or self.buff_ids) and self.real_formulation:
+        if self.buff_ids and self.real_formulation:
             return
         for attr, value in self.attributes.items():
             setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate))
@@ -74,8 +58,8 @@ class EquipmentGain(Gain):
 class CriticalSet(EquipmentGain):
     rate = 0.7
 
-    def __init__(self, buff_id, buff):
-        self.buff_ids = [buff_id]
+    def __init__(self, buff):
+        self.buff_ids = [buff.buff_id]
         self.attributes = buff.attributes
         buff.activate = False
         super().__init__()
@@ -144,7 +128,7 @@ def set_critical_set_rate(rate):
     CriticalSet.rate = rate
 
 
-EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
+EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (k,): WaterWeapon(i)
         for k, i in {
@@ -178,7 +162,4 @@ EQUIPMENT_GAINS: Dict[Union[Tuple[int, int], int], Gain] = {
         tuple(gain): 大附魔鞋()
         for gain in SPECIAL_ENCHANT_MAP[9].values()
     },
-
-    17250: DamageAdditionRecipe(55, 0, 0, 4),
-    17239: DamageAdditionRecipe(21, 0, 0, 4),
 }

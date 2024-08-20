@@ -2,7 +2,6 @@ from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QT
 
 from base.buff import Buff
 from general.buffs import GENERAL_BUFFS
-from general.gains import GENERAL_GAINS
 from general.gains.formation import FORMATION_GAINS
 from general.gains.team import TEAM_GAINS
 from qt.components import ComboWithLabel, SpinWithLabel, RadioWithLabel
@@ -66,7 +65,7 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "七秀")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[673]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-673]), 0, 0)
         tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[20938]), 1, 0)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[20938]), 1, 1)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[23573]), 2, 0)
@@ -75,9 +74,9 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "天策")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[362]), 0, 0)
-        tab_layout.addWidget(self.create_variety(GENERAL_GAINS[661]), 1, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_GAINS[3465]), 2, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-362]), 0, 0)
+        tab_layout.addWidget(self.create_variety(GENERAL_BUFFS[-661]), 1, 0)
+        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[-3465]), 2, 0)
         tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[23107]), 3, 0)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[23107]), 3, 1)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[6363]), 4, 0)
@@ -86,7 +85,7 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "少林")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[566]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-566]), 0, 0)
         tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[10208]), 1, 0)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[10208]), 1, 1)
 
@@ -94,15 +93,15 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "万花")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[23305]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-23305]), 0, 0)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24350]), 1, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "纯阳")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[378]), 0, 0)
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[375]), 0, 1)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-378]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-375]), 0, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
@@ -120,7 +119,7 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "明教")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[4058]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-4058]), 0, 0)
         tab_layout.addWidget(self.create_variety(GENERAL_BUFFS[4246]), 1, 0)
         tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[4246]), 1, 1)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[4246]), 1, 2)
@@ -129,13 +128,13 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "丐帮")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[7180]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-7180]), 0, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "苍云")
 
-        tab_layout.addWidget(self.create_single(GENERAL_GAINS[8248]), 0, 0)
+        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-8248]), 0, 0)
         tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[8504]), 1, 0)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[8504]), 1, 1)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[10031]), 2, 0)

@@ -1,5 +1,4 @@
 import lupa.lua54 as lupa
-import pandas as pd
 from tqdm import tqdm
 
 from schools import SUPPORT_SCHOOLS
@@ -37,11 +36,11 @@ ATTRIBUTE_TYPE = {
     "NEUTRAL_ATTACK_POWER_PERCENT": "neutral_attack_power_gain",
     "POISON_ATTACK_POWER_PERCENT": "poison_attack_power_gain",
 
-    "PHYSICS_CRITICAL_STRIKE_BASE_RATE": "physical_critical_power_rate",
-    "LUNAR_CRITICAL_STRIKE_BASE_RATE": "lunar_critical_power_rate",
-    "SOLAR_CRITICAL_STRIKE_BASE_RATE": "solar_critical_power_rate",
-    "NEUTRAL_CRITICAL_STRIKE_BASE_RATE": "neutral_critical_power_rate",
-    "POISON_CRITICAL_STRIKE_BASE_RATE": "poison_critical_power_rate",
+    "PHYSICS_CRITICAL_STRIKE_BASE_RATE": "physical_critical_strike_rate",
+    "LUNAR_CRITICAL_STRIKE_BASE_RATE": "lunar_critical_strike_rate",
+    "SOLAR_CRITICAL_STRIKE_BASE_RATE": "solar_critical_strike_rate",
+    "NEUTRAL_CRITICAL_STRIKE_BASE_RATE": "neutral_critical_strike_rate",
+    "POISON_CRITICAL_STRIKE_BASE_RATE": "poison_critical_strike_rate",
 
     "PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE": "physical_critical_power_rate",
     "LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE": "lunar_critical_power_rate",
@@ -114,16 +113,13 @@ LUA.execute(INCLUDE_LUA)
 with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
     LUA.execute(INCLUDE_PATTERN.sub('', f.read()))
 
-SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill/skills.tab"), sep="\t", low_memory=False,
-                        on_bad_lines="skip", encoding="gbk")
+SKILL_TAB = read_tab("settings/skill/skills.tab")
 SKILL_TAB['Platform'] = 0
-MOBILE_SKILL_TAB = pd.read_csv(os.path.join(BASE_DIR, "settings/skill_mobile/skills.tab"), sep="\t", low_memory=False,
-                               encoding="gbk")
+MOBILE_SKILL_TAB = read_tab("settings/skill_mobile/skills.tab")
 MOBILE_SKILL_TAB['Platform'] = 1
 SKILL_TAB = pd.concat([SKILL_TAB, MOBILE_SKILL_TAB], axis=0)
-SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/Case/skill.txt"), sep="\t", low_memory=False, encoding="gbk")
-MOBILE_SKILL_TXT = pd.read_csv(os.path.join(BASE_DIR, "ui/Scheme/case_mobile/skill.txt"), sep="\t", low_memory=False,
-                               encoding="gbk")
+SKILL_TXT = read_tab("ui/Scheme/Case/skill.txt")
+MOBILE_SKILL_TXT = read_tab("ui/Scheme/case_mobile/skill.txt")
 SKILL_TXT = pd.concat([SKILL_TXT, MOBILE_SKILL_TXT], axis=0)
 
 SCRIPTS_PATH = {

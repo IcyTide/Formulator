@@ -1,61 +1,72 @@
 from typing import Dict
 
-from base.attribute import Attribute
-from base.buff import Buff
 from base.dot import Dot
-from base.gain import Gain, Gains
-from base.recipe import ExtraTickRecipe, DamageAdditionRecipe
+from base.gain import Gain
 from base.skill import Skill
 from schools.wu_fang.skills import 鬼门加成
 
 
-class 鸩羽(Gain):
-    def add_skill(self, skill: Skill):
-        if skill.skill_id == 27557:
-            skill.poison_critical_strike_rate += self.value
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id == 27557:
-            skill.poison_critical_strike_rate -= self.value
-
-
 class 鬼门(Gain):
-    def add(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        鬼门加成.talent_activate = True
+    @staticmethod
+    def pre_effect(parser):
+        if parser.current_dot_ticks.get(71171):
+            parser.refresh_target_buff(70188, 10)
 
-    def sub(self, attribute: Attribute, skills: Dict[int, Skill], dots: Dict[int, Dot], buffs: Dict[int, Buff]):
-        鬼门加成.talent_activate = False
+    @staticmethod
+    def post_effect(parser):
+        if parser.current_dot_ticks.get(71171):
+            parser.refresh_target_buff(70188, 10, -1)
+
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 鬼门加成):
+                skill.pre_effects.append(self.pre_effect)
+                skill.post_effects.append(self.post_effect)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 鬼门加成):
+                skill.pre_effects.remove(self.pre_effect)
+                skill.post_effects.remove(self.post_effect)
 
 
-TALENT_GAINS: Dict[int, Gains] = {
-    28343: Gains("淮茵"),
-    28338: Gains("怯邪"),
-    27530: Gains("川谷", [DamageAdditionRecipe(102, 27551, 27551)]),
-    28344: Gains("鸩羽", [鸩羽(1000, 27556, 27556)]),
-    28361: Gains("结草"),
-    29498: Gains("灵荆"),
-    29499: Gains("苦苛"),
-    28406: Gains("遍休"),
-    28410: Gains("坚阴"),
-    28413: Gains("相使"),
-    28419: Gains("凄骨"),
-    28432: Gains("疾根", [ExtraTickRecipe(1, 20052)]),
-    28433: Gains("紫伏"),
-    28431: Gains("避奚"),
-    30734: Gains("折枝拂露"),
-    28443: Gains("甘遂"),
-    28458: Gains("炮阳"),
-    28415: Gains("荆障"),
-    32896: Gains("应理与药"),
-    28426: Gains("养荣"),
+class 疾根(Gain):
+    def add_dots(self, dots: Dict[int, Dot]):
+        dots[20052].tick_extra += 1
 
-    101419: Gains("鬼门", [鬼门()]),
-    101422: Gains("神莹"),
-    101423: Gains("济世"),
-    101370: Gains("苍棘缚地"),
+    def sub_dots(self, dots: Dict[int, Dot]):
+        dots[20052].tick_extra -= 1
+
+
+TALENTS: Dict[int, Gain] = {
+    28343: Gain("淮茵"),
+    28338: Gain("怯邪"),
+    27530: Gain("川谷", recipes=[(2541, 1)]),
+    28344: Gain("鸩羽", recipes=[(2549, 1)]),
+    28361: Gain("结草"),
+    29498: Gain("灵荆"),
+    29499: Gain("苦苛"),
+    28406: Gain("遍休"),
+    28410: Gain("坚阴"),
+    28413: Gain("相使"),
+    28419: Gain("凄骨"),
+    28432: 疾根("疾根"),
+    28433: Gain("紫伏"),
+    28431: Gain("避奚"),
+    30734: Gain("折枝拂露"),
+    28443: Gain("甘遂"),
+    28458: Gain("炮阳"),
+    28415: Gain("荆障"),
+    32896: Gain("应理与药"),
+    28426: Gain("养荣"),
+
+    101419: 鬼门("鬼门"),
+    101422: Gain("神莹"),
+    101423: Gain("济世"),
+    101370: Gain("苍棘缚地"),
 }
 
-TALENTS = [
+TALENT_CHOICES = [
     [28343, 28338, 27530, 101419],
     [28344, 101422],
     [28361, 101423],
@@ -69,5 +80,5 @@ TALENTS = [
     [28443, 28458, 28415],
     [32896, 28426]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENT_GAINS.items()}
+TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
 TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}
