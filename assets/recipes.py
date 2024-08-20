@@ -2819,6 +2819,13 @@ RECIPES = {
             "recipe_name": "90奇穴_夺魄箭加会心"
         }
     },
+    3167: {
+        1: {
+            "skill_id": 3093,
+            "recipe_type": 3093,
+            "recipe_name": "新声若惊雷无视防御"
+        }
+    },
     2864: {
         1: {
             "skill_id": 3098,
