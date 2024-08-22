@@ -4,7 +4,7 @@ from schools.hua_jian_you.dots import DOTS
 from schools.hua_jian_you.gains import GAINS
 from schools.hua_jian_you.recipes import RECIPE_CHOICES, RECIPES
 from schools.hua_jian_you.skills import SKILLS
-from schools.hua_jian_you.talents import TALENT_CHOICES, TALENTS, TALENT_DECODER, TALENT_ENCODER
+from schools.hua_jian_you.talents import TALENT_CHOICES, TALENTS
 
 
 def prepare(self, player_id):

@@ -97,7 +97,8 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         3133: {}, 3134: {},
         3137: {}, 3138: {},
         3013: {}, 3012: {}, 3147: {}, 5355: {}, 5356: {}, 3014: {}, 3016: {}, 3017: {}, 3018: {}, 3028: {}, 3029: {},
-        5584: {}, 5585: {}, 5586: {},
+        3030: {}, 3031: {},
+        5584: {}, 5585: {}, 5586: {}, 3252: {},
         3188: {}, 3186: {}, 3187: {}, 17358: {}
     },
     CriticalStrikeRecipe_200: {
@@ -149,11 +150,8 @@ for recipe_class, recipes in SCHOOL_RECIPES.items():
     for recipe_key, attrs in recipes.items():
         if not isinstance(recipe_key, tuple):
             recipe_key = (recipe_key, 1)
-        recipe = recipe_class(*recipe_key)
-        for attr, value in attrs.items():
-            setattr(recipe, attr, value)
-        recipe.set_asset()
-        RECIPES[recipe_key] = recipe
+        RECIPES[recipe_key] = recipe = recipe_class(*recipe_key)
+        recipe.set_asset(attrs)
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "行云式": {
         "增加伤害5%": 3042,

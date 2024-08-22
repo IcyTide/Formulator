@@ -43,8 +43,7 @@ class 快雪时晴(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        16: dict(damage_addition=205),
-        186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
+        16: {}, 186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
         37525: dict(pre_buffs={28116: {1: 1}}),
         2645: dict(post_buffs={14636: {1: 1}}),
         182: dict(post_buffs={-24599: {i + 1: 0} for i in range(3)}),
@@ -86,15 +85,9 @@ MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)
 for skill_class, skills in MOBILE_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

@@ -100,11 +100,8 @@ for recipe_class, recipes in SCHOOL_RECIPES.items():
     for recipe_key, attrs in recipes.items():
         if not isinstance(recipe_key, tuple):
             recipe_key = (recipe_key, 1)
-        recipe = recipe_class(*recipe_key)
-        for attr, value in attrs.items():
-            setattr(recipe, attr, value)
-        recipe.set_asset()
-        RECIPES[recipe_key] = recipe
+        RECIPES[recipe_key] = recipe = recipe_class(*recipe_key)
+        recipe.set_asset(attrs)
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "浮游天地": {
         "增加会心4%": 2480,

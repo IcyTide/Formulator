@@ -18,8 +18,10 @@ class Recipe:
         if not self.recipe_name:
             self.recipe_name = type(self).__name__
 
-    def set_asset(self):
+    def set_asset(self, attrs):
         for attr, value in RECIPES.get(self.recipe_id, {}).get(self.recipe_level, {}).items():
+            setattr(self, attr, value)
+        for attr, value in attrs.items():
             setattr(self, attr, value)
 
     def add_attribute(self, attribute: Attribute):

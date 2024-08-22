@@ -15,7 +15,7 @@ class 战意判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        12: dict(damage_additon=205, channel_interval_extra=1.7),
+        12: dict(channel_interval_extra=1.7),
         431: {}, 701: {}, 702: {}, 6525: {}, 6526: {}, 423: {}, 14882: {}, 15002: {}, 24898: {}, 25772: {}, 32820: {},
         37618: {}, 36568: {}, 18207: {}, 18208: {},
         400: dict(post_buffs={-1: {1: 1}}),
@@ -33,8 +33,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

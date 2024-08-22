@@ -31,14 +31,12 @@ BUFFS: Dict[int, Buff] = {}
 for buff_id, buff_ids in FORMATION_BUFFS.items():
     for sub_buff_id in (buff_id, buff_ids[0]):
         sub_buff_id = -sub_buff_id
-        buff = Buff(sub_buff_id)
+        BUFFS[sub_buff_id] = buff = Buff(sub_buff_id)
         buff.activate = False
-        buff.set_asset()
-        BUFFS[sub_buff_id] = buff
+        buff.set_asset({})
     for sub_buff_id in buff_ids[1:]:
         if not sub_buff_id:
             continue
-        buff = Buff(sub_buff_id)
+        BUFFS[sub_buff_id] = buff = Buff(sub_buff_id)
         buff.activate = False
-        buff.set_asset()
-        BUFFS[sub_buff_id] = buff
+        buff.set_asset({})

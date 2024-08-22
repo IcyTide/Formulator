@@ -36,9 +36,8 @@ class 连缘蛊判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        2183: dict(damage_addition=205),
-        3067: {}, 13472: {}, 18590: {}, 25044: {}, 25773: {}, 29573: {}, 30918: {}, 32818: {}, 34389: {}, 6648: {},
-        37959: {},
+        2183: {}, 3067: {}, 13472: {}, 18590: {}, 25044: {}, 25773: {}, 29573: {}, 30918: {}, 32818: {}, 34389: {},
+        6648: {}, 37959: {},
         13476: dict(bind_dot=6218),
         34643: dict(bind_dot=25917),
         6238: dict(bind_dot=2509),
@@ -57,8 +56,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

@@ -334,6 +334,7 @@ def collect_result():
                 skill_name = filter_skill_txt.iloc[-1].Name
 
             skill = SkillLua(skill_id, skill_level, skill_name, *skill_args)
+            skill.max_level = max_level
             LUA.globals()['GetSkillLevelData'](skill)
             if not skill.physical_damage_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof

@@ -19,8 +19,7 @@ class 百节判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        22126: dict(damage_addition=205),
-        32822: {}, 22170: {}, 22550: {}, 22551: {}, 22298: {}, 22621: {}, 22620: {}, 22610: {}, 22611: {},
+        22126: {}, 32822: {}, 22170: {}, 22550: {}, 22551: {}, 22298: {}, 22621: {}, 22620: {}, 22610: {}, 22611: {},
         22612: {}, 22604: {}, 22605: {}, 22490: {}, 22554: {}, 25314: {}, 34981: {}, 29751: {}, 22761: {}, 25784: {},
         22359: {},
         **{skill_id: {} for skill_id in range(36265, 36270 + 1)},
@@ -33,8 +32,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

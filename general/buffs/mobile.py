@@ -11,10 +11,6 @@ GENERAL_BUFFS: Dict[type, Dict[int, dict]] = {
 BUFFS: Dict[int, Buff] = {}
 for buff_class, buffs in GENERAL_BUFFS.items():
     for buff_id, attrs in buffs.items():
-        buff = buff_class(buff_id)
-        buff.set_asset()
-        for attr, value in attrs.items():
-            setattr(buff, attr, value)
-        buff.unique = False
-        buff.max_stack = 99
-        BUFFS[buff_id] = buff
+        BUFFS[buff_id] = buff = buff_class(buff_id)
+        buff.set_asset(attrs)
+        buff.unique, buff.max_stack = False, 99

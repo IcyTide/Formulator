@@ -13,8 +13,10 @@ class BaseSkill:
     _skill_name: List[str] = None
     skill_level: int = 0
 
-    def set_asset(self):
+    def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
+            setattr(self, attr, value)
+        for attr, value in attrs.items():
             setattr(self, attr, value)
 
     @property

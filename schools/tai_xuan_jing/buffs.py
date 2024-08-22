@@ -11,8 +11,5 @@ SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}
 for buff_class, buffs in SCHOOL_BUFFS.items():
     for buff_id, attrs in buffs.items():
-        buff = buff_class(buff_id)
-        buff.set_asset()
-        for attr, value in attrs.items():
-            setattr(buff, attr, value)
-        BUFFS[buff_id] = buff
+        BUFFS[buff_id] = buff = buff_class(buff_id)
+        buff.set_asset(attrs)

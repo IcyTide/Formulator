@@ -50,7 +50,7 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4167: {}, 4168: {},
         4183: {}, 4184: {}, 4185: {},
         4374: {}, 4375: {}, 4376: {},
-        2946: {}, 2947: {}, 2948: {},
+        **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)},
         3251: {},
         4290: {}, 4291: {}, 4294: {}, 4295: {}, 17374: {}
     },
@@ -99,11 +99,8 @@ for recipe_class, recipes in SCHOOL_RECIPES.items():
     for recipe_key, attrs in recipes.items():
         if not isinstance(recipe_key, tuple):
             recipe_key = (recipe_key, 1)
-        recipe = recipe_class(*recipe_key)
-        for attr, value in attrs.items():
-            setattr(recipe, attr, value)
-        recipe.set_asset()
-        RECIPES[recipe_key] = recipe
+        RECIPES[recipe_key] = recipe = recipe_class(*recipe_key)
+        recipe.set_asset(attrs)
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "雷走风切": {
         "增加伤害5%": 4129,

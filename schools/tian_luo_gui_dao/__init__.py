@@ -4,7 +4,7 @@ from schools.tian_luo_gui_dao.dots import DOTS
 from schools.tian_luo_gui_dao.gains import GAINS
 from schools.tian_luo_gui_dao.recipes import RECIPE_CHOICES, RECIPES
 from schools.tian_luo_gui_dao.skills import SKILLS
-from schools.tian_luo_gui_dao.talents import TALENT_CHOICES, TALENTS, TALENT_DECODER, TALENT_ENCODER
+from schools.tian_luo_gui_dao.talents import TALENT_CHOICES, TALENTS
 
 
 def prepare(self, player_id):

@@ -25,8 +25,7 @@ class 跬步判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        18121: dict(damage_addition=205),
-        32813: {}, 303: {}, 896: {}, 18670: {}, 22014: {}, 36439: {}, 25770: {},
+        18121: {}, 32813: {}, 303: {}, 896: {}, 18670: {}, 22014: {}, 36439: {}, 25770: {},
         2681: dict(post_buffs={2757: {1: 1}}),
         **{skill_id: {} for skill_id in range(327, 331 + 1)},
         **{skill_id: {} for skill_id in range(461, 465 + 1)},
@@ -40,8 +39,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

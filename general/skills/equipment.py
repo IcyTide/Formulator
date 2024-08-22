@@ -17,9 +17,6 @@ GENERAL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {}
 for skill_class, skills in GENERAL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
+        SKILLS[skill_id] = skill = skill_class(skill_id)
         skill.activate = False
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        skill.set_asset(attrs)
