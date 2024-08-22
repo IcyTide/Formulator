@@ -12,8 +12,5 @@ GENERAL_BUFFS: Dict[int, dict] = {
 BUFFS: Dict[int, Buff] = {}
 for buff_id, attrs in GENERAL_BUFFS.items():
     buff_id = -buff_id
-    buff = Buff(buff_id)
-    buff.set_asset()
-    for attr, value in attrs.items():
-        setattr(buff, attr, value)
-    BUFFS[buff_id] = buff
+    BUFFS[buff_id] = buff = Buff(buff_id)
+    buff.set_asset(attrs)

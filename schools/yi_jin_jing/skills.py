@@ -26,10 +26,9 @@ class 明法移除(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        11: dict(damage_addition=205),
-        236: {}, 271: {}, 14951: {}, 17641: {}, 17642: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {}, 32656: {},
-        32659: {}, 32660: {}, 32887: {}, 3814: {}, 3816: {}, 3848: {}, 3849: {}, 3850: {}, 13685: {}, 28542: {},
-        24883: {}, 24028: {}, 243: {}, 233: {},
+        11: {}, 236: {}, 271: {}, 14951: {}, 17641: {}, 17642: {}, 19090: {}, 25766: {}, 28619: {}, 29516: {},
+        32656: {}, 32659: {}, 32660: {}, 32887: {}, 3814: {}, 3816: {}, 3848: {}, 3849: {}, 3850: {}, 13685: {},
+        28542: {}, 24883: {}, 24028: {}, 243: {}, 233: {},
         **{skill_id: dict(bind_dot=743) for skill_id in (3808, 3810, 3830, 28539)},
         24026: dict(consume_dot=743, consume_tick=3)
     },
@@ -39,8 +38,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

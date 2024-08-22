@@ -18,15 +18,9 @@ MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
 DOTS: Dict[int, Dot] = {}
 for dot_class, dots in SCHOOL_DOTS.items():
     for dot_id, attrs in dots.items():
-        dot = dot_class(dot_id)
-        for attr, value in attrs.items():
-            setattr(dot, attr, value)
-        dot.set_asset()
-        DOTS[dot_id] = dot
+        DOTS[dot_id] = dot = dot_class(dot_id)
+        dot.set_asset(attrs)
 for dot_class, dots in MOBILE_DOTS.items():
     for dot_id, attrs in dots.items():
-        dot = dot_class(dot_id)
-        for attr, value in attrs.items():
-            setattr(dot, attr, value)
-        dot.set_asset()
-        DOTS[dot_id] = dot
+        DOTS[dot_id] = dot = dot_class(dot_id)
+        dot.set_asset(attrs)

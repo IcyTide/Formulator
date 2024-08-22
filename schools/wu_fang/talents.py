@@ -80,5 +80,3 @@ TALENT_CHOICES = [
     [28443, 28458, 28415],
     [32896, 28426]
 ]
-TALENT_DECODER = {talent_id: talent.gain_name for talent_id, talent in TALENTS.items()}
-TALENT_ENCODER = {v: k for k, v in TALENT_DECODER.items()}

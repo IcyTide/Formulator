@@ -25,8 +25,10 @@ class BaseDot(BaseBuff):
     _tick: List[int] = []
     tick_extra: int = 0
 
-    def set_asset(self):
+    def set_asset(self, attrs):
         for attr, value in DOTS.get(self.buff_id, {}).items():
+            setattr(self, attr, value)
+        for attr, value in attrs.items():
             setattr(self, attr, value)
 
     @property

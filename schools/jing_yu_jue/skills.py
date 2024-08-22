@@ -34,8 +34,7 @@ class 追命箭(逐一击破增伤):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        3121: dict(damage_addition=205),
-        3222: {}, 3227: {}, 22789: {}, 25775: {}, 32884: {}, 37616: {},
+        3121: {}, 3222: {}, 3227: {}, 22789: {}, 25775: {}, 32884: {}, 37616: {},
         **{skill_id: {} for skill_id in (21841, 21840, 8470, 8469, 8468, 8467)},
         3478: dict(bind_dot=19625)
     },
@@ -50,8 +49,5 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 SKILLS: Dict[int, Skill] = {**GENERAL_SKILLS}
 for skill_class, skills in SCHOOL_SKILLS.items():
     for skill_id, attrs in skills.items():
-        skill = skill_class(skill_id)
-        for attr, value in attrs.items():
-            setattr(skill, attr, value)
-        skill.set_asset()
-        SKILLS[skill_id] = skill
+        SKILLS[skill_id] = skill = skill_class(skill_id)
+        skill.set_asset(attrs)

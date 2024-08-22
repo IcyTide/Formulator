@@ -8,9 +8,6 @@ GENERAL_BUFFS: Dict[int, dict] = {
 
 BUFFS = {}
 for buff_id, attrs in GENERAL_BUFFS.items():
-    buff = Buff(buff_id)
+    BUFFS[buff_id] = buff = Buff(buff_id)
     buff.activate = False
-    buff.set_asset()
-    for attr, value in attrs.items():
-        setattr(buff, attr, value)
-    BUFFS[buff_id] = buff
+    buff.set_asset(attrs)
