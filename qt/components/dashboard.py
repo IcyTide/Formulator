@@ -1,7 +1,9 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTabWidget
+from collections import defaultdict
 
-from base.constant import SHIELD_BASE_MAP
-from qt.components import ComboWithLabel, DoubleSpinWithLabel, LabelWithLabel, TableWithLabel
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton
+
+from qt.components import ComboWithLabel, LabelWithLabel, TableWithLabel, ListWithLabel, RadioWithLabel, \
+    DoubleSpinWithLabel
 
 
 class DetailWidget(QWidget):
@@ -24,57 +26,168 @@ class DetailWidget(QWidget):
         layout.addStretch()
 
 
+class StatusWidget(QWidget):
+    def __init__(self, name):
+        super().__init__()
+        layout = QVBoxLayout(self)
+        self.buff2name = {}
+        self.status = {}
+        self.status_list = ListWithLabel(name)
+        layout.addWidget(self.status_list)
+        bottom_layout = QHBoxLayout()
+        layout.addLayout(bottom_layout)
+        self.add_button = QPushButton(f"添加{name}")
+        bottom_layout.addWidget(self.add_button)
+        self.remove_button = QPushButton(f"移除{name}")
+        bottom_layout.addWidget(self.remove_button)
+
+    @property
+    def name2buff(self):
+        return {v: k for k, v in self.buff2name.items()}
+
+
+class BuffSelectWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QHBoxLayout(self)
+
+        left_layout = QVBoxLayout()
+        layout.addLayout(left_layout)
+        self.buff_id_select = ComboWithLabel("增益ID")
+        left_layout.addWidget(self.buff_id_select)
+        self.buff_level_select = ComboWithLabel("增益等级")
+        left_layout.addWidget(self.buff_level_select)
+        self.buff_stack_select = ComboWithLabel("增益层数")
+        left_layout.addWidget(self.buff_stack_select)
+        self.buff_name = LabelWithLabel("增益名称：")
+        left_layout.addWidget(self.buff_name)
+
+        self.attrs = TableWithLabel("附带属性", column_count=2)
+        self.attrs.hide()
+        layout.addWidget(self.attrs)
+        self.recipes = TableWithLabel("附带秘籍", column_count=2)
+        self.recipes.hide()
+        layout.addWidget(self.recipes)
+        self.current_status = StatusWidget("当前状态")
+        layout.addWidget(self.current_status)
+        self.snapshot_status = StatusWidget("快照状态")
+        self.snapshot_status.hide()
+        layout.addWidget(self.snapshot_status)
+
+
+class DotSelectWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QHBoxLayout(self)
+
+        left_layout = QVBoxLayout()
+        layout.addLayout(left_layout)
+        self.dot_skill_id_select = ComboWithLabel("DOT技能ID")
+        left_layout.addWidget(self.dot_skill_id_select)
+        self.dot_skill_level_select = ComboWithLabel("DOT技能等级")
+        left_layout.addWidget(self.dot_skill_level_select)
+        self.dot_stack_select = ComboWithLabel("DOT层数")
+        left_layout.addWidget(self.dot_stack_select)
+        self.dot_skill_name = LabelWithLabel("DOT技能名称：")
+        left_layout.addWidget(self.dot_skill_name)
+        right_layout = QVBoxLayout()
+        layout.addLayout(right_layout)
+        self.consume_skill_id_select = ComboWithLabel("吞噬技能ID")
+        right_layout.addWidget(self.consume_skill_id_select)
+        self.consume_skill_level_select = ComboWithLabel("吞噬技能等级")
+        right_layout.addWidget(self.consume_skill_level_select)
+        self.consume_tick_select = ComboWithLabel("吞噬跳数")
+        right_layout.addWidget(self.consume_tick_select)
+        self.consume_skill_name = LabelWithLabel("吞噬技能名称：")
+        right_layout.addWidget(self.consume_skill_name)
+
+
+class DamageSelectWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QHBoxLayout(self)
+
+        left_layout = QVBoxLayout()
+        layout.addLayout(left_layout, 1)
+        self.damage_type_radio = RadioWithLabel("DOT伤害")
+        left_layout.addWidget(self.damage_type_radio)
+        self.damage_id_select = ComboWithLabel("伤害ID")
+        left_layout.addWidget(self.damage_id_select)
+        self.damage_level_select = ComboWithLabel("伤害等级")
+        left_layout.addWidget(self.damage_level_select)
+        self.damage_count = DoubleSpinWithLabel("伤害次数")
+        left_layout.addWidget(self.damage_count)
+        self.damage_name = LabelWithLabel("伤害名称：")
+        left_layout.addWidget(self.damage_name)
+
+        self.dot_select = DotSelectWidget()
+        self.dot_select.hide()
+        layout.addWidget(self.dot_select, 2)
+        self.details = TableWithLabel("技能细节", column_count=2)
+        layout.addWidget(self.details, 1)
+
+
+class RecordWidget(QWidget):
+    def __init__(self):
+        super().__init__()
+        layout = QVBoxLayout(self)
+        self.records = defaultdict(dict)
+        self.record2name = {}
+        self.record_list = ListWithLabel("技能记录")
+        layout.addWidget(self.record_list)
+        bottom_layout = QHBoxLayout()
+        layout.addLayout(bottom_layout)
+        self.add_button = QPushButton(f"添加技能记录")
+        bottom_layout.addWidget(self.add_button)
+        self.remove_button = QPushButton(f"移除技能记录")
+        bottom_layout.addWidget(self.remove_button)
+
+    @property
+    def name2record(self):
+        return {v: k for k, v in self.record2name.items()}
+
+
 class DashboardWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
 
-        top_layout = QHBoxLayout()
-        layout.addLayout(top_layout)
+        self.buff_select = BuffSelectWidget()
+        layout.addWidget(self.buff_select)
+        self.damage_select = DamageSelectWidget()
+        layout.addWidget(self.damage_select)
 
-        self.target_select = ComboWithLabel("选择目标")
-        top_layout.addWidget(self.target_select)
-        self.target_level = ComboWithLabel("目标等级", items=[str(level) for level in SHIELD_BASE_MAP])
-        top_layout.addWidget(self.target_level)
-        self.start_time = DoubleSpinWithLabel("开始时间", maximum=3600, value=0)
-        top_layout.addWidget(self.start_time)
-        self.end_time = DoubleSpinWithLabel("结束时间", maximum=3600, value=180)
-        top_layout.addWidget(self.end_time)
+        self.records = RecordWidget()
+        layout.addWidget(self.records)
 
-        self.formulate_button = QPushButton(text="开始模拟!")
-        layout.addWidget(self.formulate_button)
-
-        bottom_layout = QHBoxLayout()
-        layout.addLayout(bottom_layout)
-
-        tab = QTabWidget()
-        bottom_layout.addWidget(tab, 2)
-        result_layout = QVBoxLayout()
-        bottom_layout.addLayout(result_layout, 1)
-
-        attribute = QWidget()
-        attribute_layout = QHBoxLayout(attribute)
-        tab.addTab(attribute, "属性")
-
-        self.init_attribute = TableWithLabel("增益前属性", column_count=2)
-        attribute_layout.addWidget(self.init_attribute)
-        self.final_attribute = TableWithLabel("增益后属性", column_count=2)
-        attribute_layout.addWidget(self.final_attribute)
-
-        self.detail_widget = DetailWidget()
-        tab.addTab(self.detail_widget, "伤害总结")
-
-        self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "期望命中/%", "期望会心/%", "期望总伤害/%"])
-
-        tab.addTab(self.summary, "战斗总结")
-
-        self.dps = LabelWithLabel("每秒伤害")
-        result_layout.addWidget(self.dps)
-
-        self.gradients = TableWithLabel("属性收益", column_count=2)
-
-        result_layout.addWidget(self.gradients)
-
-        result_layout.addStretch()
+        # tab = QTabWidget()
+        # bottom_layout.addWidget(tab, 2)
+        # result_layout = QVBoxLayout()
+        # bottom_layout.addLayout(result_layout, 1)
+        #
+        # attribute = QWidget()
+        # attribute_layout = QHBoxLayout(attribute)
+        # tab.addTab(attribute, "属性")
+        #
+        # self.init_attribute = TableWithLabel("增益前属性", column_count=2)
+        # attribute_layout.addWidget(self.init_attribute)
+        # self.final_attribute = TableWithLabel("增益后属性", column_count=2)
+        # attribute_layout.addWidget(self.final_attribute)
+        #
+        # self.detail_widget = DetailWidget()
+        # tab.addTab(self.detail_widget, "伤害总结")
+        #
+        # self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "期望命中/%", "期望会心/%", "期望总伤害/%"])
+        #
+        # tab.addTab(self.summary, "战斗总结")
+        #
+        # self.dps = LabelWithLabel("每秒伤害")
+        # result_layout.addWidget(self.dps)
+        #
+        # self.gradients = TableWithLabel("属性收益", column_count=2)
+        #
+        # result_layout.addWidget(self.gradients)
+        #
+        # result_layout.addStretch()
 
         layout.addStretch()

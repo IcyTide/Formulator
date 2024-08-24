@@ -69,17 +69,17 @@ def collect_result():
                 buff_name = filter_dot_txt.iloc[-1].Name
             buff_name += "(DOT)"
 
-            result.append(dict(buff_id=buff_id, buff_name=buff_name, **parse_dot(buff_row)))
+            result.append(dict(buff_id=buff_id, buff_level=buff_level, buff_name=buff_name, **parse_dot(buff_row)))
 
     return pd.DataFrame(result)
 
 
 def convert_json(result):
-    exclude_columns = ["buff_id"]
+    exclude_columns = ["buff_id", "buff_level"]
     result_json = {}
     for buff_id in result.buff_id.unique().tolist():
         filter_result = result[result.buff_id == buff_id]
-        result_json[buff_id] = {}
+        result_json[buff_id] = dict(max_level=int(filter_result.buff_level.max()))
         for column in result.columns:
             if column in exclude_columns:
                 continue

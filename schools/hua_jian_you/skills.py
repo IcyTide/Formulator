@@ -6,11 +6,18 @@ from general.skills import GENERAL_SKILLS
 
 class 折花吞噬(Skill):
     consume_dots = {
-        **{i + 9: skill_id for i, skill_id in enumerate([714, 666, 711, 24158])}
+        **{i + 1: skill_id for i, skill_id in enumerate([714, 666, 711, 24158] * 3)}
     }
 
+    @property
+    def consume_dot(self):
+        return self.consume_dots.get(self.skill_level)
+
+    @consume_dot.setter
+    def consume_dot(self, consume_dot):
+        pass
+
     def record(self, actual_critical_strike, actual_damage, parser):
-        self.consume_dot = self.consume_dots[self.skill_level]
         super().record(actual_critical_strike, actual_damage, parser)
 
 

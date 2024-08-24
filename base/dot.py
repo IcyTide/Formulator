@@ -10,8 +10,8 @@ from utils.damage import init_result
 
 
 class BaseDot(BaseBuff):
-    bind_skill: Skill
-    consume_skill: Skill
+    bind_skill: Skill = None
+    consume_skill: Skill = None
 
     physical_damage_call: int = 0
     solar_damage_call: int = 0
@@ -108,10 +108,12 @@ class Dot(BaseDot):
 
     @property
     def display_name(self):
-        if self.consume_skill:
-            return f"{super().display_name}({self.bind_skill.display_name}|{self.consume_skill.display_name})"
-        else:
+        if not self.bind_skill:
+            return super().display_name
+        if not self.consume_skill:
             return f"{super().display_name}({self.bind_skill.display_name})"
+        else:
+            return f"{super().display_name}({self.bind_skill.display_name}|{self.consume_skill.display_name})"
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.buff_id]

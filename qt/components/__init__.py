@@ -58,7 +58,7 @@ class TableWithLabel(LabelWidget):
 
         for i, row in enumerate(content):
             for j, e in enumerate(row):
-                self.table.setItem(i, j, QTableWidgetItem(e))
+                self.table.setItem(i, j, QTableWidgetItem(str(e)))
 
     def clear_content(self):
         self.table.clear()
@@ -73,8 +73,9 @@ class ListWithLabel(LabelWidget):
 
         self.max_select = max_select
         self.list = QListWidget()
-        self.list.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
-        self.list.setResizeMode(QListView.ResizeMode.Adjust)
+        if max_select:
+            self.list.setSelectionMode(QAbstractItemView.SelectionMode.MultiSelection)
+        # self.list.setResizeMode(QListView.ResizeMode.Adjust)
 
         if items:
             self.set_items(items)
@@ -106,15 +107,16 @@ class ComboWithLabel(LabelWidget):
 
     def set_items(self, items, keep_index=False, default_index=0):
         self.items = items
+        if not items:
+            self.combo_box.clear()
+            self.combo_box.setCurrentIndex(-1)
+            return
         self.combo_box.blockSignals(True)
         current_text = self.combo_box.currentText()
         self.combo_box.clear()
         self.combo_box.addItems(items)
         self.combo_box.blockSignals(False)
-        if not items:
-            self.combo_box.clear()
-            self.combo_box.setCurrentIndex(-1)
-        elif keep_index and current_text and current_text in items:
+        if keep_index and current_text and current_text in items:
             self.combo_box.setCurrentIndex(items.index(current_text))
         else:
             self.combo_box.setCurrentIndex(default_index)

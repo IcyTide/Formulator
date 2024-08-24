@@ -1,5 +1,6 @@
 DOTS = {
     743: {
+        "max_level": 58,
         "buff_name": "横扫六合(DOT)",
         "interval": 32,
         "tick": 6,
@@ -127,6 +128,7 @@ DOTS = {
         "solar_damage_call": 1
     },
     6424: {
+        "max_level": 1,
         "buff_name": "气竭(DOT)",
         "interval": 48,
         "tick": 6,
@@ -136,6 +138,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     748: {
+        "max_level": 2,
         "buff_name": "叠刃(DOT)",
         "interval": 48,
         "tick": 8,
@@ -148,6 +151,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     889: {
+        "max_level": 1,
         "buff_name": "人剑合一(DOT)",
         "interval": 48,
         "tick": 4,
@@ -157,6 +161,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     23170: {
+        "max_level": 1,
         "buff_name": "万象归元(DOT)",
         "interval": 48,
         "tick": 10,
@@ -166,6 +171,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     70624: {
+        "max_level": 1,
         "buff_name": "叠刃(DOT)",
         "interval": 16,
         "tick": 6,
@@ -175,6 +181,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     711: {
+        "max_level": 19,
         "buff_name": "兰摧玉折(DOT)",
         "interval": 48,
         "tick": 6,
@@ -204,6 +211,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     714: {
+        "max_level": 24,
         "buff_name": "钟林毓秀(DOT)",
         "interval": 48,
         "tick": 6,
@@ -238,6 +246,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     666: {
+        "max_level": 29,
         "buff_name": "商阳指(DOT)",
         "interval": 48,
         "tick": 6,
@@ -277,6 +286,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     24158: {
+        "max_level": 2,
         "buff_name": "快雪时晴(DOT)",
         "interval": 64,
         "tick": 7,
@@ -286,6 +296,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     70041: {
+        "max_level": 1,
         "buff_name": "兰摧(DOT)",
         "interval": 48,
         "tick": 7,
@@ -295,6 +306,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     3442: {
+        "max_level": 30,
         "buff_name": "流血(DOT)",
         "interval": 32,
         "tick": 7,
@@ -335,6 +347,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     12461: {
+        "max_level": 30,
         "buff_name": "流血(DOT)",
         "interval": 32,
         "tick": 7,
@@ -375,6 +388,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     2920: {
+        "max_level": 28,
         "buff_name": "急曲(DOT)",
         "interval": 48,
         "tick": 6,
@@ -412,7 +426,18 @@ DOTS = {
         ],
         "lunar_damage_call": 1
     },
+    18512: {
+        "max_level": 1,
+        "buff_name": "气吞长江(DOT)",
+        "interval": 48,
+        "tick": 10,
+        "max_stack": 3,
+        "platform": 0,
+        "damage_base": 25,
+        "lunar_damage_call": 1
+    },
     70030: {
+        "max_level": 1,
         "buff_name": "急曲·悟(DOT)",
         "interval": 48,
         "tick": 6,
@@ -422,6 +447,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     6218: {
+        "max_level": 31,
         "buff_name": "蝎心(DOT)",
         "interval": 32,
         "tick": 6,
@@ -463,6 +489,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     2509: {
+        "max_level": 34,
         "buff_name": "百足(DOT)",
         "interval": 48,
         "tick": 6,
@@ -507,6 +534,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     12557: {
+        "max_level": 34,
         "buff_name": "百足(DOT)",
         "interval": 32,
         "tick": 9,
@@ -551,6 +579,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     2295: {
+        "max_level": 26,
         "buff_name": "蟾啸(DOT)",
         "interval": 32,
         "tick": 7,
@@ -587,6 +616,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     18882: {
+        "max_level": 1,
         "buff_name": "赤蛇(DOT)",
         "interval": 48,
         "tick": 10,
@@ -596,6 +626,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     2296: {
+        "max_level": 32,
         "buff_name": "蛇影(DOT)",
         "interval": 32,
         "tick": 6,
@@ -638,6 +669,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     25917: {
+        "max_level": 32,
         "buff_name": "蛇影(DOT)",
         "interval": 32,
         "tick": 6,
@@ -647,6 +679,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     2237: {
+        "max_level": 29,
         "buff_name": "穿心(DOT)",
         "interval": 48,
         "tick": 6,
@@ -686,6 +719,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     19625: {
+        "max_level": 1,
         "buff_name": "星斗阑干(DOT)",
         "interval": 48,
         "tick": 10,
@@ -695,6 +729,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     14611: {
+        "max_level": 29,
         "buff_name": "化血(DOT)",
         "interval": 48,
         "tick": 16,
@@ -734,6 +769,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     4202: {
+        "max_level": 18,
         "buff_name": "银月斩(DOT)",
         "interval": 32,
         "tick": 9,
@@ -762,6 +798,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     25725: {
+        "max_level": 1,
         "buff_name": "靡业报劫·日(DOT)",
         "interval": 32,
         "tick": 7,
@@ -771,6 +808,7 @@ DOTS = {
         "solar_damage_call": 1
     },
     25726: {
+        "max_level": 1,
         "buff_name": "靡业报劫·月(DOT)",
         "interval": 32,
         "tick": 7,
@@ -780,6 +818,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     6367: {
+        "max_level": 20,
         "buff_name": "亢龙有悔(DOT)",
         "interval": 48,
         "tick": 5,
@@ -810,6 +849,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     6401: {
+        "max_level": 20,
         "buff_name": "亢龙有悔(DOT)",
         "interval": 48,
         "tick": 10,
@@ -840,6 +880,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     8249: {
+        "max_level": 56,
         "buff_name": "流血(DOT)",
         "interval": [
             32,
@@ -1077,6 +1118,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     9357: {
+        "max_level": 25,
         "buff_name": "商(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1112,6 +1154,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     9361: {
+        "max_level": 25,
         "buff_name": "角(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1147,6 +1190,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     23187: {
+        "max_level": 1,
         "buff_name": "神兵·宫(DOT)",
         "interval": 48,
         "tick": 10,
@@ -1156,6 +1200,7 @@ DOTS = {
         "lunar_damage_call": 1
     },
     11447: {
+        "max_level": 10,
         "buff_name": "闹须弥(DOT)",
         "interval": 48,
         "tick": 8,
@@ -1176,6 +1221,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     19555: {
+        "max_level": 1,
         "buff_name": "背水沉舟(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1185,6 +1231,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     70364: {
+        "max_level": 10,
         "buff_name": "流血(DOT)",
         "interval": [
             32,
@@ -1216,6 +1263,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     18386: {
+        "max_level": 1,
         "buff_name": "青冥(DOT)",
         "interval": 32,
         "tick": 6,
@@ -1225,6 +1273,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     19557: {
+        "max_level": 1,
         "buff_name": "御波驾澜(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1234,6 +1283,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     15568: {
+        "max_level": 1,
         "buff_name": "寂洪荒(DOT)",
         "interval": 48,
         "tick": 5,
@@ -1243,6 +1293,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     19626: {
+        "max_level": 1,
         "buff_name": "乍起狂澜(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1252,6 +1303,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     24846: {
+        "max_level": 1,
         "buff_name": "斗循天转(DOT)",
         "interval": 48,
         "tick": 10,
@@ -1261,6 +1313,7 @@ DOTS = {
         "neutral_damage_call": 1
     },
     20052: {
+        "max_level": 10,
         "buff_name": "逆乱(DOT)",
         "interval": 32,
         "tick": 7,
@@ -1281,6 +1334,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     71171: {
+        "max_level": 1,
         "buff_name": "中毒(DOT)",
         "interval": 16,
         "tick": 6,
@@ -1290,6 +1344,7 @@ DOTS = {
         "poison_damage_call": 1
     },
     24132: {
+        "max_level": 17,
         "buff_name": "流血(DOT)",
         "interval": 32,
         "tick": 3,
@@ -1317,6 +1372,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     24443: {
+        "max_level": 17,
         "buff_name": "流血(DOT)",
         "interval": 32,
         "tick": 3,
@@ -1344,6 +1400,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     24650: {
+        "max_level": 1,
         "buff_name": "截辕(DOT)",
         "interval": 32,
         "tick": 6,
@@ -1353,6 +1410,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     27820: {
+        "max_level": 1,
         "buff_name": "斩浪破锋(DOT)",
         "interval": 48,
         "tick": 6,
@@ -1362,6 +1420,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     70593: {
+        "max_level": 1,
         "buff_name": "截辕·悟(DOT)",
         "interval": 32,
         "tick": 6,
@@ -1371,6 +1430,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     70583: {
+        "max_level": 2,
         "buff_name": "流血(DOT)",
         "interval": 32,
         "tick": 9,
@@ -1383,6 +1443,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     26856: {
+        "max_level": 1,
         "buff_name": "贯穿(DOT)",
         "interval": 8,
         "tick": 4,
@@ -1392,6 +1453,7 @@ DOTS = {
         "physical_damage_call": 1
     },
     71175: {
+        "max_level": 1,
         "buff_name": "流血(DOT)",
         "interval": 16,
         "tick": 6,

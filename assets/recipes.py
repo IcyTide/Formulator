@@ -2049,6 +2049,13 @@ RECIPES = {
             "recipe_name": "断潮加15%伤害"
         }
     },
+    2910: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 18299,
+            "recipe_name": "听晓加断潮伤害"
+        }
+    },
     4347: {
         1: {
             "damage_addition": 102,
@@ -4765,6 +4772,30 @@ RECIPES = {
             "recipe_name": "《秀明尘身·上将军印》参悟绝章"
         }
     },
+    2943: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "新含风醉斩加伤害"
+        }
+    },
+    2944: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 16027,
+            "recipe_type": 16027,
+            "recipe_name": "新含风刀啸加伤害"
+        }
+    },
+    2945: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 16621,
+            "recipe_type": 16621,
+            "recipe_name": "新含风坚壁加伤害"
+        }
+    },
     2946: {
         1: {
             "damage_addition": 102,
@@ -6812,6 +6843,22 @@ RECIPES = {
             "recipe_name": "起落势伤害提高90%"
         }
     },
+    3030: {
+        1: {
+            "damage_addition": 1075,
+            "skill_id": 32135,
+            "recipe_type": 32135,
+            "recipe_name": "起落势伤害提高105%"
+        }
+    },
+    3031: {
+        1: {
+            "damage_addition": 1229,
+            "skill_id": 32135,
+            "recipe_type": 32135,
+            "recipe_name": "起落势伤害提高120%"
+        }
+    },
     5584: {
         1: {
             "damage_addition": 82,
@@ -6834,6 +6881,13 @@ RECIPES = {
             "skill_id": 32144,
             "recipe_type": 32144,
             "recipe_name": "横云8%"
+        }
+    },
+    3252: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 1,
+            "recipe_name": "孤锋破浪伤害提高30%"
         }
     },
     3188: {

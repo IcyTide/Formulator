@@ -209,3 +209,4 @@ SUPPORT_SCHOOLS = {
         gains=shan_hai_xin_jue.GAINS,
     ),
 }
+SUPPORT_SCHOOLS = {school.name: school for school in SUPPORT_SCHOOLS.values()}

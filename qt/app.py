@@ -2,7 +2,7 @@ import sys
 
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication, QMainWindow, QStyleFactory
-from PySide6.QtWidgets import QVBoxLayout, QHBoxLayout, QWidget, QTabWidget
+from PySide6.QtWidgets import QVBoxLayout, QWidget, QTabWidget
 
 from qt.components.bonuses import BonusesWidget
 from qt.components.config import ConfigWidget
@@ -43,14 +43,12 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.config_widget, 1)
         self.config_widget.hide()
 
-        self.bottom_widget = QWidget()
-        layout.addWidget(self.bottom_widget, 8)
-        self.bottom_widget.hide()
-
-        bottom_layout = QHBoxLayout(self.bottom_widget)
         self.detail_widget = QTabWidget()
-        self.dashboard_widget = DashboardWidget()
+        layout.addWidget(self.detail_widget, 8)
+        self.detail_widget.hide()
 
+        self.dashboard_widget = DashboardWidget()
+        self.detail_widget.addTab(self.dashboard_widget, "主面板")
         self.equipments_widget = EquipmentsWidget()
         self.detail_widget.addTab(self.equipments_widget, "配装")
         self.consumable_widget = ConsumablesWidget()
@@ -61,28 +59,25 @@ class MainWindow(QMainWindow):
         self.detail_widget.addTab(self.talents_widget, "奇穴")
         self.recipes_widget = RecipesWidget()
         self.detail_widget.addTab(self.recipes_widget, "秘籍")
-
-        bottom_layout.addWidget(self.detail_widget, 1)
-        bottom_layout.addWidget(self.dashboard_widget, 1)
-        bottom_layout.addStretch()
-
-        parser = top_script(
-            self.top_widget, self.config_widget, self.bottom_widget,
-            self.dashboard_widget, self.talents_widget, self.recipes_widget,
-            self.equipments_widget
+        analyzer = top_script(
+            self.top_widget, self.config_widget, self.detail_widget,
+            self.equipments_widget, self.talents_widget, self.recipes_widget, self.dashboard_widget
         )
-        config_script(
-            parser, self.config_widget,
-            self.talents_widget, self.recipes_widget,
-            self.equipments_widget, self.consumable_widget, self.bonus_widget
-        )
+        # config_script(
+        #     analyzer, self.config_widget,
+        #     self.talents_widget, self.recipes_widget,
+        #     self.equipments_widget, self.consumable_widget, self.bonus_widget
+        # )
         talents = talents_script(self.talents_widget)
         recipes = recipes_script(self.recipes_widget)
         equipments = equipments_script(self.equipments_widget)
         consumables = consumables_script(self.consumable_widget)
-        bonuses = bonuses_script(parser, self.bonus_widget)
-        dashboard_script(parser, self.dashboard_widget,
-                         talents, recipes, equipments, consumables, bonuses)
+        bonuses = bonuses_script(analyzer, self.bonus_widget)
+        dashboard_script(
+            analyzer,
+            self.dashboard_widget, talents, recipes,
+            equipments, consumables, bonuses
+        )
 
 
 if __name__ == "__main__":

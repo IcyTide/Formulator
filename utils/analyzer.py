@@ -265,10 +265,12 @@ class SkillAnalyzer(BaseAnalyzer):
 
 
 class Analyzer(BuffAnalyzer, SkillAnalyzer):
-    def __init__(self, school: School, target_level):
-        self.school = school
-        self.attribute = school.attribute(school.platform)
-        self.attribute.target.level = target_level
+    school: School
+    attribute: Attribute
+    gains: list
+    recipes: list
+
+    def __init__(self):
         self.gains = []
         self.recipes = []
 

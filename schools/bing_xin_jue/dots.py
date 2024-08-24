@@ -4,7 +4,7 @@ from base.dot import Dot
 
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {
-        2920: {}
+        2920: {}, 18512: {}
     }
 }
 MOBILE_DOTS: Dict[type, Dict[int, dict]] = {
