@@ -2,7 +2,7 @@ from collections import defaultdict
 from copy import copy
 from dataclasses import dataclass
 from functools import cached_property
-from typing import Dict, Union, List
+from typing import Dict, Union, List, Tuple
 
 from base.attribute import Attribute
 from base.buff import Buff
@@ -151,7 +151,7 @@ class BuffAnalyzer(BaseAnalyzer):
             if self.add_buff_attributes_dot(buff, False):
                 display_current_buffs.append(buff)
         for buff in snapshot_buffs:
-            if any((self.add_buff_attributes_dot(buff, True), self.add_buff_recipes(damage.bind_skill, buff))):
+            if any((self.add_buff_attributes_dot(buff, True), self.add_buff_recipes(damage.dot_skill, buff))):
                 display_snapshot_buffs.append(buff)
         return display_current_buffs, display_snapshot_buffs
 
@@ -198,7 +198,7 @@ class BuffAnalyzer(BaseAnalyzer):
             self.sub_buff_attributes_dot(buff, False)
         for buff in snapshot_buffs:
             self.sub_buff_attributes_dot(buff, True)
-            self.sub_buff_recipes(damage.bind_skill, buff)
+            self.sub_buff_recipes(damage.dot_skill, buff)
 
     def sub_buffs_pet(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
         for buff in current_buffs:
@@ -242,29 +242,104 @@ class BuffAnalyzer(BaseAnalyzer):
 
 class SkillAnalyzer(BaseAnalyzer):
 
-    def split_skills(self, damage):
-        damage_tuple, dot_skill_tuple, consume_skill_tuple = damage
+    def split_damage(self, damage_tuple):
+        damage_tuple, dot_skill_tuple, consume_skill_tuple = damage_tuple
         if dot_skill_tuple:
             dot_id, dot_level, dot_stack = damage_tuple
-            damage, damage.buff_level, damage.buff_stack = self.school.dots[dot_id], dot_level, dot_stack
+            damage, damage.buff_level, damage.dot_stack = self.school.dots[dot_id], dot_level, dot_stack
             dot_skill_id, dot_skill_level = dot_skill_tuple
             dot_skill, dot_skill.skill_level = self.school.skills[dot_skill_id], dot_skill_level
-            damage.bind_skill = dot_skill
+            damage.dot_skill = dot_skill
             if consume_skill_tuple:
                 consume_skill_id, consume_skill_level = consume_skill_tuple
                 consume_skill, consume_skill.skill_level = self.school.skills[consume_skill_id], consume_skill_level
                 damage.consume_skill = consume_skill
             else:
                 damage.consume_skill = None
-            damage_name = damage.buff_name
+            return damage
         else:
             skill_id, skill_level = damage_tuple
             damage, damage.skill_level, = self.school.skills[skill_id], skill_level
-            damage_name = damage.skill_name
-        return damage, damage_name
+            return damage
 
 
-class Analyzer(BuffAnalyzer, SkillAnalyzer):
+class RecordAnalyzer:
+    records: Dict[Tuple[Tuple[tuple, tuple, tuple], Tuple[tuple, tuple]], Tuple[int, str]]
+    current_status: Dict[Tuple[int, int], Tuple[int, str]]
+    snapshot_status: Dict[Tuple[int, int], Tuple[int, str]]
+
+    buff: Buff = None
+    damage: Union[Skill, Dot] = None
+
+    @property
+    def current_status_mapping(self):
+        return {v[-1]: k for k, v in self.current_status.items()}
+
+    def add_current_status(self):
+        self.current_status[self.buff.buff_id, self.buff.buff_level] = self.buff.buff_stack, self.buff.display_name
+        return list(self.current_status_mapping)
+
+    def remove_current_status(self, buff_name):
+        buff_key = self.current_status_mapping[buff_name]
+        self.current_status.pop(buff_key)
+
+    @property
+    def snapshot_status_mapping(self):
+        return {v[-1]: k for k, v in self.snapshot_status.items()}
+
+    def add_snapshot_status(self):
+        self.snapshot_status[self.buff.buff_id, self.buff.buff_level] = self.buff.buff_stack, self.buff.display_name
+        return list(self.snapshot_status_mapping)
+
+    def remove_snapshot_status(self, buff_name):
+        buff_key = self.snapshot_status_mapping[buff_name]
+        self.snapshot_status.pop(buff_key)
+
+    @property
+    def record_mapping(self):
+        return {v[-1]: k for k, v in self.records.items()}
+
+    def add_record(self, count=1):
+        current_status_list, current_status_names = [], []
+        for (buff_id, buff_level), (buff_stack, buff_name) in self.current_status.items():
+            current_status_list.append((buff_id, buff_level, buff_stack))
+            current_status_names.append(buff_name)
+        current_status_tuple, current_status_name = tuple(current_status_list), ",".join(current_status_names)
+        if isinstance(self.damage, Dot) and self.damage.dot_skill:
+            snapshot_status_list, snapshot_status_names = [], []
+            for (buff_id, buff_level), (buff_stack, buff_name) in self.snapshot_status.items():
+                snapshot_status_list.append((buff_id, buff_level, buff_stack))
+                snapshot_status_names.append(buff_name)
+            snapshot_status_tuple, snapshot_status_name = tuple(snapshot_status_list), ",".join(snapshot_status_names)
+            status_tuple = (current_status_tuple, snapshot_status_tuple)
+            if snapshot_status_name:
+                status_name = f"{current_status_name}({snapshot_status_name})"
+            else:
+                status_name = current_status_name
+            dot_tuple = (self.damage.buff_id, self.damage.buff_level)
+            dot_skill_tuple = (self.damage.dot_skill.skill_id, self.damage.dot_skill.skill_level, self.damage.dot_stack)
+            if self.damage.consume_skill:
+                consume_skill_tuple = (
+                    self.damage.consume_skill.skill_id, self.damage.consume_skill.skill_level, self.damage.consume_tick)
+                damage_tuple = (dot_tuple, dot_skill_tuple, consume_skill_tuple)
+            else:
+                damage_tuple = (dot_tuple, dot_skill_tuple, tuple())
+        elif isinstance(self.damage, Skill):
+            status_tuple = (current_status_tuple, tuple())
+            status_name = current_status_name
+            damage_tuple = ((self.damage.skill_id, self.damage.skill_level), tuple(), tuple())
+        else:
+            return
+
+        self.records[damage_tuple, status_tuple] = count, f"{self.damage.display_name}: {status_name}"
+        return list(self.record_mapping)
+
+    def remove_record(self, record_name):
+        record_key = self.record_mapping[record_name]
+        self.records.pop(record_key)
+
+
+class Analyzer(BuffAnalyzer, SkillAnalyzer, RecordAnalyzer):
     school: School
     attribute: Attribute
     gains: list
@@ -273,6 +348,10 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
     def __init__(self):
         self.gains = []
         self.recipes = []
+
+        self.current_status = {}
+        self.snapshot_status = {}
+        self.records = {}
 
     def add_attrs(self, attrs):
         for attr, value in attrs.items():
@@ -321,7 +400,7 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
         end_frame = int(end_frame * FRAME_PER_SECOND)
 
         for damage, status in record.items():
-            damage, damage_name = self.split_skills(damage)
+            damage, damage_name = self.split_damage(damage)
             if not damage.activate:
                 continue
             damage_detail = details[damage.display_name] = {}

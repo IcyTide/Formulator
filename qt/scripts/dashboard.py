@@ -7,6 +7,8 @@ from assets.dot_consume_skills import DOT_CONSUME_SKILLS
 from assets.school_buffs import SCHOOL_BUFFS
 from assets.skill_buffs import SKILL_BUFFS
 from base.constant import FRAME_PER_SECOND
+from base.dot import Dot
+from base.skill import Skill
 from qt.components.dashboard import DashboardWidget
 from qt.scripts.bonuses import Bonuses
 from qt.scripts.consumables import Consumables
@@ -79,17 +81,17 @@ def dashboard_script(analyzer: Analyzer,
     def select_buff_id(_):
         widget = dashboard_widget.buff_select
         buff_id = widget.buff_id_select.combo_box.currentText()
-        damage_id = dashboard_widget.damage_select.damage_id_select.combo_box.currentText()
-        dot_skill_id = dashboard_widget.damage_select.dot_select.dot_skill_id_select.combo_box.currentText()
         if buff_id:
             school = analyzer.school
             buff_id = int(buff_id)
             if buff_id in SCHOOL_BUFFS[school.id]:
                 buff_levels = SCHOOL_BUFFS[school.id][buff_id]
-            elif dot_skill_id:
-                buff_levels = DOT_BUFFS[school.id][int(dot_skill_id)][buff_id]
+            elif isinstance(analyzer.damage, Dot) and analyzer.damage.dot_skill:
+                buff_levels = DOT_BUFFS[school.id][analyzer.damage.dot_skill.skill_id][buff_id]
+            elif isinstance(analyzer.damage, Skill):
+                buff_levels = SKILL_BUFFS[school.id][analyzer.damage.skill_id][buff_id]
             else:
-                buff_levels = SKILL_BUFFS[school.id][int(damage_id)][buff_id]
+                return
             buff_levels = [str(level) for level in buff_levels]
             widget.buff_level_select.set_items(buff_levels, default_index=len(buff_levels) - 1)
         else:
@@ -106,6 +108,7 @@ def dashboard_script(analyzer: Analyzer,
             school = analyzer.school
             buff_id, buff_level = int(buff_id), int(buff_level)
             buff, buff.buff_level = school.buffs[buff_id], buff_level
+            analyzer.buff = buff
             buff_stacks = [str(buff_stack + 1) for buff_stack in range(buff.max_stack)]
             widget.buff_name.set_text(buff.display_name)
             widget.buff_stack_select.set_items(buff_stacks, keep_index=True)
@@ -126,33 +129,25 @@ def dashboard_script(analyzer: Analyzer,
 
     dashboard_widget.buff_select.buff_level_select.combo_box.currentTextChanged.connect(select_buff_level)
 
+    def select_buff_stack(_):
+        widget = dashboard_widget.buff_select
+        buff_stack = widget.buff_stack_select.combo_box.currentText()
+        if analyzer.buff and buff_stack:
+            analyzer.buff.buff_stack = int(buff_stack)
+
+    dashboard_widget.buff_select.buff_stack_select.combo_box.currentTextChanged.connect(select_buff_stack)
+
     def add_current_status():
         widget = dashboard_widget.buff_select
-        buff_id = widget.buff_id_select.combo_box.currentText()
-        buff_level = widget.buff_level_select.combo_box.currentText()
-        buff_stack = widget.buff_stack_select.combo_box.currentText()
-        if buff_id and buff_level and buff_stack:
-            school = analyzer.school
-            buff_id, buff_level, buff_stack = int(buff_id), int(buff_level), int(buff_stack)
-            buff, buff.buff_level, buff.buff_stack = school.buffs[buff_id], buff_level, buff_stack
-            widget.current_status.status[(buff_id, buff_level)] = buff_stack
-            widget.current_status.buff2name[(buff_id, buff_level)] = buff.display_name
-            widget.current_status.status_list.set_items(list(widget.current_status.buff2name.values()))
+        if analyzer.buff:
+            widget.current_status.status_list.set_items(analyzer.add_current_status())
 
     dashboard_widget.buff_select.current_status.add_button.clicked.connect(add_current_status)
 
     def add_snapshot_status():
         widget = dashboard_widget.buff_select
-        buff_id = widget.buff_id_select.combo_box.currentText()
-        buff_level = widget.buff_level_select.combo_box.currentText()
-        buff_stack = widget.buff_stack_select.combo_box.currentText()
-        if buff_id and buff_level:
-            school = analyzer.school
-            buff_id, buff_level, buff_stack = int(buff_id), int(buff_level), int(buff_stack)
-            buff, buff.buff_level, buff.buff_stack = school.buffs[buff_id], buff_level, buff_stack
-            widget.snapshot_status.status[(buff_id, buff_level)] = buff_stack
-            widget.snapshot_status.buff2name[(buff_id, buff_level)] = buff.display_name
-            widget.snapshot_status.status_list.set_items(list(widget.snapshot_status.buff2name.values()))
+        if analyzer.buff:
+            widget.snapshot_status.status_list.set_items(analyzer.add_snapshot_status())
 
     dashboard_widget.buff_select.snapshot_status.add_button.clicked.connect(add_snapshot_status)
 
@@ -162,9 +157,7 @@ def dashboard_script(analyzer: Analyzer,
         if selected_items:
             for selected_item in selected_items:
                 widget.status_list.list.takeItem(widget.status_list.list.row(selected_item))
-                buff_key = widget.name2buff[selected_item.text()]
-                widget.status.pop(buff_key)
-                widget.buff2name.pop(buff_key)
+                analyzer.remove_current_status(selected_item.text())
 
     dashboard_widget.buff_select.current_status.remove_button.clicked.connect(remove_current_status)
 
@@ -174,18 +167,16 @@ def dashboard_script(analyzer: Analyzer,
         if selected_items:
             for selected_item in selected_items:
                 widget.status_list.list.takeItem(widget.status_list.list.row(selected_item))
-                buff_key = widget.name2buff[selected_item.text()]
-                widget.status.pop(buff_key)
-                widget.buff2name.pop(buff_key)
+                analyzer.remove_snapshot_status(selected_item.text())
 
     dashboard_widget.buff_select.snapshot_status.remove_button.clicked.connect(remove_snapshot_status)
 
     def update_current_status(item):
         widget = dashboard_widget.buff_select
         buff_name = item.text()
-        if buff_name in widget.current_status.name2buff:
-            buff_id, buff_level = widget.current_status.name2buff[buff_name]
-            buff_stack = widget.current_status.status[(buff_id, buff_level)]
+        if buff_key := analyzer.current_status_mapping.get(buff_name):
+            buff_id, buff_level = buff_key
+            buff_stack = analyzer.current_status[buff_key]
 
             widget.buff_id_select.combo_box.setCurrentText(str(buff_id))
             widget.buff_level_select.combo_box.setCurrentText(str(buff_level))
@@ -196,9 +187,9 @@ def dashboard_script(analyzer: Analyzer,
     def update_snapshot_status(item):
         widget = dashboard_widget.buff_select
         buff_name = item.text()
-        if buff_name in widget.snapshot_status.name2buff:
-            buff_id, buff_level = widget.snapshot_status.name2buff[buff_name]
-            buff_stack = widget.snapshot_status.status[(buff_id, buff_level)]
+        if buff_key := analyzer.snapshot_status_mapping.get(buff_name):
+            buff_id, buff_level = buff_key
+            buff_stack = analyzer.snapshot_status[buff_key]
 
             widget.buff_id_select.combo_box.setCurrentText(str(buff_id))
             widget.buff_level_select.combo_box.setCurrentText(str(buff_level))
@@ -265,6 +256,7 @@ def dashboard_script(analyzer: Analyzer,
                 widget.dot_select.consume_tick_select.set_items(consume_ticks)
             else:
                 damage, damage.skill_level = school.skills[damage_id], damage_level
+            analyzer.damage = damage
             widget.damage_name.set_text(damage.display_name)
         else:
             widget.damage_name.text.clear()
@@ -306,6 +298,7 @@ def dashboard_script(analyzer: Analyzer,
             school = analyzer.school
             damage_id, dot_skill_id, dot_skill_level = int(damage_id), int(dot_skill_id), int(dot_skill_level)
             dot_skill, dot_skill.skill_level = school.skills[dot_skill_id], dot_skill_level
+            analyzer.damage.dot_skill = dot_skill
             widget.dot_select.dot_skill_name.set_text(dot_skill.display_name)
         else:
             widget.dot_select.dot_skill_name.text.clear()
@@ -315,12 +308,11 @@ def dashboard_script(analyzer: Analyzer,
 
     def select_consume_skill_id(_):
         widget = dashboard_widget.damage_select
-        damage_id = widget.damage_id_select.combo_box.currentText()
         consume_skill_id = widget.dot_select.consume_skill_id_select.combo_box.currentText()
 
-        if damage_id and consume_skill_id:
+        if analyzer.damage and consume_skill_id:
             school = analyzer.school
-            damage_id, consume_skill_id = int(damage_id), int(consume_skill_id)
+            damage_id, consume_skill_id = analyzer.damage.buff_id, int(consume_skill_id)
             consume_skill_levels = [str(skill_level) for skill_level in
                                     DOT_CONSUME_SKILLS[school.id][damage_id][consume_skill_id]]
             widget.dot_select.consume_skill_level_select.set_items(consume_skill_levels,
@@ -333,15 +325,14 @@ def dashboard_script(analyzer: Analyzer,
 
     def select_consume_skill_level(_):
         widget = dashboard_widget.damage_select
-        damage_id = widget.damage_id_select.combo_box.currentText()
         consume_skill_id = widget.dot_select.consume_skill_id_select.combo_box.currentText()
         consume_skill_level = widget.dot_select.consume_skill_level_select.combo_box.currentText()
 
-        if damage_id and consume_skill_id and consume_skill_level:
+        if analyzer.damage and consume_skill_id and consume_skill_level:
             school = analyzer.school
-            damage_id, consume_skill_id, consume_skill_level = int(damage_id), int(consume_skill_id), int(
-                consume_skill_level)
+            consume_skill_id, consume_skill_level = int(consume_skill_id), int(consume_skill_level)
             consume_skill, consume_skill.skill_level = school.skills[consume_skill_id], consume_skill_level
+            analyzer.damage.consume_skill = consume_skill
             widget.dot_select.consume_skill_name.set_text(consume_skill.display_name)
         else:
             widget.dot_select.consume_skill_name.text.clear()
@@ -349,48 +340,67 @@ def dashboard_script(analyzer: Analyzer,
     dashboard_widget.damage_select.dot_select.consume_skill_level_select.combo_box.currentTextChanged.connect(
         select_consume_skill_level)
 
-    def add_record():
-        is_dot = dashboard_widget.damage_select.damage_type_radio.radio_button.isChecked()
-        damage_id = dashboard_widget.damage_select.damage_id_select.combo_box.currentText()
-        damage_level = dashboard_widget.damage_select.damage_level_select.combo_box.currentText()
-        damage_count = dashboard_widget.damage_select.damage_count.spin_box.value()
-        dot_skill_id = dashboard_widget.damage_select.dot_select.dot_skill_id_select.combo_box.currentText()
-        dot_skill_level = dashboard_widget.damage_select.dot_select.dot_skill_level_select.combo_box.currentText()
+    def select_dot_stack(_):
         dot_stack = dashboard_widget.damage_select.dot_select.dot_stack_select.combo_box.currentText()
-        consume_skill_id = dashboard_widget.damage_select.dot_select.consume_skill_id_select.combo_box.currentText()
-        consume_skill_level = dashboard_widget.damage_select.dot_select.consume_skill_level_select.combo_box.currentText()
+
+        if analyzer.damage and dot_stack:
+            analyzer.damage.dot_stack = int(dot_stack)
+
+    dashboard_widget.damage_select.dot_select.dot_stack_select.combo_box.currentTextChanged.connect(
+        select_dot_stack
+    )
+
+    def select_consume_tick(_):
         consume_tick = dashboard_widget.damage_select.dot_select.consume_tick_select.combo_box.currentText()
-        current_status = dashboard_widget.buff_select.current_status.status
-        current_status = tuple([(buff_id, buff_level, buff_stack) for (buff_id, buff_level), buff_stack in
-                                current_status.items()])
-        if is_dot and damage_id and dot_skill_id and damage_count:
-            damage_id, damage_level = int(damage_id), int(damage_level)
-            dot_skill_id, dot_skill_level, dot_stack = int(dot_skill_id), int(dot_skill_level), int(dot_stack)
-            if consume_skill_id:
-                consume_tick = int(consume_tick)
-                consume_skill_id, consume_skill_level = int(consume_skill_id), int(consume_skill_level)
-                damage = ((damage_id, damage_level, dot_stack * consume_tick), (dot_skill_id, dot_skill_level),
-                          (consume_skill_id, consume_skill_level))
-            else:
-                damage = ((damage_id, damage_level, dot_stack * consume_tick), (dot_skill_id, dot_skill_level), tuple())
-            snapshot_status = dashboard_widget.buff_select.snapshot_status.status
-            snapshot_status = tuple([(buff_id, buff_level, buff_stack) for (buff_id, buff_level), buff_stack in
-                                     snapshot_status.items()])
-            status = (current_status, snapshot_status)
-            dashboard_widget.records.records[damage][status] = damage_count
 
-            name = f"{damage}|{current_status}|{snapshot_status}"
-            dashboard_widget.records.record2name[(damage, status)] = name
-        elif not is_dot and damage_id and damage_count:
-            damage_id, damage_level = int(damage_id), int(damage_level)
-            damage = ((damage_id, damage_level, 1), (), ())
-            status = (current_status, tuple())
-            dashboard_widget.records.records[damage][status] = damage_count
-            name = f"{damage}|{current_status}"
-            dashboard_widget.records.record2name[(damage, status)] = name
-        else:
-            return
+        if analyzer.damage and consume_tick:
+            analyzer.damage.consume_tick = int(consume_tick)
 
-        dashboard_widget.records.record_list.set_items(list(dashboard_widget.records.record2name.values()))
+    dashboard_widget.damage_select.dot_select.consume_tick_select.combo_box.currentTextChanged.connect(
+        select_consume_tick
+    )
+
+    def add_record():
+        dashboard_widget.records.record_list.set_items(analyzer.add_record())
 
     dashboard_widget.records.add_button.clicked.connect(add_record)
+
+    def remove_record():
+        widget = dashboard_widget.records
+        selected_items = widget.record_list.list.selectedItems()
+        if selected_items:
+            for selected_item in selected_items:
+                widget.record_list.list.takeItem(widget.record_list.list.row(selected_item))
+                analyzer.remove_record(selected_item.text())
+
+    dashboard_widget.records.remove_button.clicked.connect(remove_record)
+
+    def update_record(item):
+        widget = dashboard_widget.damage_select
+        damage_type = dashboard_widget.damage_select.damage_type_radio.radio_button
+        record_name = item.text()
+        if record_key := analyzer.records.get(record_name):
+            damage_tuple, status_tuple = record_key
+            damage = analyzer.split_damage(damage_tuple)
+            if isinstance(damage, Dot):
+                if not damage_type.isChecked():
+                    damage_type.click()
+                widget.damage_id_select.combo_box.setCurrentText(str(damage.buff_id))
+                widget.damage_level_select.combo_box.setCurrentText(str(damage.buff_level))
+                widget.dot_select.dot_skill_id_select.combo_box.setCurrentText(str(damage.dot_skill.skill_id))
+                widget.dot_select.dot_skill_level_select.combo_box.setCurrentText(str(damage.dot_skill.skill_id))
+                widget.dot_select.dot_stack_select.combo_box.setCurrentText(str(damage.dot_stack))
+                if consume_skill := damage.consume_skill:
+                    widget.dot_select.consume_skill_id_select.combo_box.setCurrentText(str(consume_skill.skill_id))
+                    widget.dot_select.consume_skill_level_select.combo_box.setCurrentText(
+                        str(consume_skill.skill_level))
+                    widget.dot_select.consume_tick_select.combo_box.setCurrentText(str(damage.consume_tick))
+            elif isinstance(damage, Skill):
+                if damage_type.isChecked():
+                    damage_type.click()
+                widget.damage_id_select.combo_box.setCurrentText(str(damage.skill_id))
+                widget.damage_level_select.combo_box.setCurrentText(str(damage.skill_level))
+            else:
+                return
+
+    dashboard_widget.records.record_list.list.itemClicked.connect(update_record)

@@ -10,11 +10,14 @@ from utils.damage import *
 
 class BaseSkill:
     skill_id: int = 0
-    _skill_name: List[str] = None
+    _skill_name: List[str] = []
     skill_level: int = 0
+
+    display_args: List[str] = []
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
+            self.display_args.append(attr)
             setattr(self, attr, value)
         for attr, value in attrs.items():
             setattr(self, attr, value)
@@ -104,9 +107,9 @@ class BaseDamage(BaseSkill):
     @property
     def surplus_cof(self):
         if not self.platform:
-            return DEFAULT_SURPLUS_COF
+            return DEFAULT_SURPLUS_COF * self.global_damage_factor
         else:
-            return self._surplus_cof / BINARY_SCALE
+            return self._surplus_cof / BINARY_SCALE * self.global_damage_factor
 
     @surplus_cof.setter
     def surplus_cof(self, surplus_cof):
@@ -120,7 +123,7 @@ class BaseDamage(BaseSkill):
             weapon_damage_cof = self._weapon_damage_cof[-1]
         else:
             weapon_damage_cof = self._weapon_damage_cof[self.skill_level - 1]
-        return WEAPON_DAMAGE_COF(weapon_damage_cof)
+        return WEAPON_DAMAGE_COF(weapon_damage_cof) * self.global_damage_factor
 
     @weapon_damage_cof.setter
     def weapon_damage_cof(self, weapon_damage_cof):
@@ -180,20 +183,20 @@ class BaseDamage(BaseSkill):
     @property
     def physical_attack_power_cof(self):
         if not self.platform:
-            return PHYSICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+            return PHYSICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame) * self.global_damage_factor
         else:
-            return PHYSICAL_ATTACK_POWER_COF(self.skill_cof)
+            return PHYSICAL_ATTACK_POWER_COF(self.skill_cof) * self.global_damage_factor
 
     @property
     def magical_attack_power_cof(self):
         if not self.platform:
-            return MAGICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame)
+            return MAGICAL_ATTACK_POWER_COF(self.channel_interval + self.prepare_frame) * self.global_damage_factor
         else:
-            return MAGICAL_ATTACK_POWER_COF(self.skill_cof)
+            return MAGICAL_ATTACK_POWER_COF(self.skill_cof) * self.global_damage_factor
 
     def call_surplus(self, attribute):
         return init_result(
-            0, 0, 0, 0, 0, 0, 0, self.surplus_cof, attribute.surplus, attribute.global_damage_factor
+            surplus_cof=self.surplus_cof, surplus=attribute.surplus
         )
 
     def critical_strike(self, attribute: Attribute):
@@ -402,10 +405,9 @@ class PhysicalDamage(BaseDamage):
 
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
-            self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
-            self.physical_attack_power_cof, attribute.physical_attack_power,
-            self.weapon_damage_cof, attribute.weapon_damage,
-            0, 0, attribute.global_damage_factor
+            damage_base=self.physical_damage_base, damage_rand=self.physical_damage_rand,
+            attack_power_cof=self.physical_attack_power_cof, attack_power=attribute.physical_attack_power,
+            weapon_damage_cof=self.weapon_damage_cof, weapon_damage=attribute.weapon_damage
         )
         if damage:
             return self.physical_damage_chain(damage, attribute)
@@ -586,9 +588,8 @@ class SolarDamage(BaseDamage):
 
     def call_solar_damage(self, attribute: Attribute):
         damage = init_result(
-            self.solar_damage_base, self.solar_damage_rand, attribute.damage_gain,
-            self.magical_attack_power_cof, attribute.solar_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.solar_damage_base, damage_rand=self.solar_damage_rand,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.solar_attack_power
         )
         if damage:
             return self.solar_damage_chain(damage, attribute)
@@ -769,9 +770,8 @@ class LunarDamage(BaseDamage):
 
     def call_lunar_damage(self, attribute: Attribute):
         damage = init_result(
-            self.lunar_damage_base, self.lunar_damage_rand, attribute.damage_gain,
-            self.magical_attack_power_cof, attribute.lunar_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.lunar_damage_base, damage_rand=self.lunar_damage_rand,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.lunar_attack_power,
         )
         if damage:
             return self.lunar_damage_chain(damage, attribute)
@@ -951,9 +951,8 @@ class NeutralDamage(BaseDamage):
 
     def call_neutral_damage(self, attribute: Attribute):
         damage = init_result(
-            self.neutral_damage_base, self.neutral_damage_rand, attribute.damage_gain,
-            self.magical_attack_power_cof, attribute.neutral_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.neutral_damage_base, damage_rand=self.neutral_damage_rand,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.neutral_attack_power
         )
         if damage:
             return self.neutral_damage_chain(damage, attribute)
@@ -1133,9 +1132,8 @@ class PoisonDamage(BaseDamage):
 
     def call_poison_damage(self, attribute: Attribute):
         damage = init_result(
-            self.poison_damage_base, self.poison_damage_rand, attribute.damage_gain,
-            self.magical_attack_power_cof, attribute.poison_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.poison_damage_base, damage_rand=self.poison_damage_rand,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.poison_attack_power,
         )
         if damage:
             return self.poison_damage_chain(damage, attribute)
@@ -1258,7 +1256,7 @@ class AdaptiveDamage(BaseDamage):
         damage = init_result(
             self.adaptive_damage_base, self.adaptive_damage_rand, attribute.damage_gain,
             attack_power_cof, attribute.attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            0, 0, 0, 0
         )
         if damage:
             return self.adaptive_damage_chain(damage, attribute)
@@ -1472,9 +1470,8 @@ class Skill(Damage):
 class NpcSkill(Skill):
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
-            self.physical_damage_base, self.physical_damage_rand, attribute.damage_gain,
-            self.physical_attack_power_cof, attribute.physical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.physical_damage_base, damage_rand=self.physical_damage_rand,
+            attack_power_cof=self.physical_attack_power_cof, attack_power=attribute.physical_attack_power
         )
         if damage:
             return self.physical_damage_chain(damage, attribute)
@@ -1485,10 +1482,10 @@ class PetSkill(Skill):
     def call_poison_damage(self, attribute: Attribute):
         attack_power = int(attribute.poison_attack_power * 0.87 + attribute.surplus * DEFAULT_SURPLUS_COF * 59 / 1664)
         damage = init_result(
-            self.poison_damage_base, self.poison_damage_rand, attribute.damage_gain,
-            self.magical_attack_power_cof, attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor
+            damage_base=self.poison_damage_base, damage_rand=self.poison_damage_rand,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attack_power
         )
+
         if damage:
             damage = damage_addition_result(damage, attribute.magical_damage_addition, self.move_state_damage_addition)
             damage = overcome_result(
@@ -1506,10 +1503,7 @@ class PureSkill(Skill):
     damage_base: int = 0
 
     def __call__(self, attribute: Attribute):
-        damage = init_result(
-            self.damage_base, 0, 0,
-            0, 0, 0, 0, 0, 0, attribute.global_damage_factor
-        )
+        damage = init_result(damage_base=self.damage_base)
 
         damage = level_reduction_result(damage, attribute.level_reduction)
         damage = damage_cof_result(damage, attribute.target_damage_cof)

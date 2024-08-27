@@ -30,8 +30,6 @@ class StatusWidget(QWidget):
     def __init__(self, name):
         super().__init__()
         layout = QVBoxLayout(self)
-        self.buff2name = {}
-        self.status = {}
         self.status_list = ListWithLabel(name)
         layout.addWidget(self.status_list)
         bottom_layout = QHBoxLayout()
@@ -40,10 +38,6 @@ class StatusWidget(QWidget):
         bottom_layout.addWidget(self.add_button)
         self.remove_button = QPushButton(f"移除{name}")
         bottom_layout.addWidget(self.remove_button)
-
-    @property
-    def name2buff(self):
-        return {v: k for k, v in self.buff2name.items()}
 
 
 class BuffSelectWidget(QWidget):
@@ -131,8 +125,6 @@ class RecordWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        self.records = defaultdict(dict)
-        self.record2name = {}
         self.record_list = ListWithLabel("技能记录")
         layout.addWidget(self.record_list)
         bottom_layout = QHBoxLayout()
@@ -141,10 +133,6 @@ class RecordWidget(QWidget):
         bottom_layout.addWidget(self.add_button)
         self.remove_button = QPushButton(f"移除技能记录")
         bottom_layout.addWidget(self.remove_button)
-
-    @property
-    def name2record(self):
-        return {v: k for k, v in self.record2name.items()}
 
 
 class DashboardWidget(QWidget):
