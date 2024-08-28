@@ -10,8 +10,11 @@ from utils.damage import init_result
 
 
 class BaseDot(BaseBuff):
-    bind_skill: Skill
-    consume_skill: Skill
+    dot_skill: Skill = None
+    consume_skill: Skill = None
+
+    dot_stack: int = 1
+    consume_tick: int = 1
 
     physical_damage_call: int = 0
     solar_damage_call: int = 0
@@ -30,6 +33,10 @@ class BaseDot(BaseBuff):
             setattr(self, attr, value)
         for attr, value in attrs.items():
             setattr(self, attr, value)
+
+    @property
+    def buff_stack(self):
+        return self.dot_stack * self.consume_tick
 
     @property
     def magical_damage_call(self):
@@ -108,15 +115,17 @@ class Dot(BaseDot):
 
     @property
     def display_name(self):
-        if self.consume_skill:
-            return f"{super().display_name}({self.bind_skill.display_name}|{self.consume_skill.display_name})"
+        if not self.dot_skill:
+            return super().display_name
+        if not self.consume_skill:
+            return f"{super().display_name}({self.dot_skill.display_name})"
         else:
-            return f"{super().display_name}({self.bind_skill.display_name})"
+            return f"{super().display_name}({self.dot_skill.display_name}|{self.consume_skill.display_name})"
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.buff_id]
-        buff_stack = min(self.max_stack, parser.current_dot_stacks[self.buff_id])
-        damage_tuple = ((self.buff_id, self.buff_level, buff_stack), (dot_skill_id, dot_skill_level), tuple())
+        dot_stack = min(self.max_stack, parser.current_dot_stacks[self.buff_id])
+        damage_tuple = ((self.buff_id, self.buff_level), (dot_skill_id, dot_skill_level, dot_stack), tuple())
         status_tuple = parser.dot_status
         parser.current_dot_ticks[self.buff_id] -= 1
         parser.current_last_dot[self.buff_id] = (damage_tuple, status_tuple)
@@ -129,79 +138,78 @@ class Dot(BaseDot):
 
     @property
     def physical_attack_power_cof(self):
-        if not self.bind_skill.platform:
-            return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        if not self.dot_skill.platform:
+            dot_cof = PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
         else:
-            return PHYSICAL_DOT_ATTACK_POWER_COF(self.bind_skill.dot_cof, self.interval, self.origin_tick)
+            dot_cof = PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
+        if self.consume_skill:
+            return dot_cof * self.consume_skill.global_damage_factor
+        else:
+            return dot_cof
 
     @property
     def magical_attack_power_cof(self):
-        if not self.bind_skill.platform:
-            return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.channel_interval, self.interval, self.origin_tick)
+        if not self.dot_skill.platform:
+            dot_cof = MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
         else:
-            return MAGICAL_DOT_ATTACK_POWER_COF(self.bind_skill.dot_cof, self.interval, self.origin_tick)
+            dot_cof = MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
+        if self.consume_skill:
+            return dot_cof * self.consume_skill.global_damage_factor
+        else:
+            return dot_cof
 
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
-            self.damage_base, 0, 0,
-            self.physical_attack_power_cof, attribute.physical_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            attack_power_cof=self.physical_attack_power_cof, attack_power=attribute.physical_attack_power
         )
         if damage:
-            return self.bind_skill.physical_damage_chain(damage, attribute)
+            return self.dot_skill.physical_damage_chain(damage, attribute)
         return 0, 0
 
     def call_solar_damage(self, attribute: Attribute):
         damage = init_result(
-            self.damage_base, 0, 0,
-            self.magical_attack_power_cof, attribute.solar_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.solar_attack_power
         )
         if damage:
-            return self.bind_skill.solar_damage_chain(damage, attribute)
+            return self.dot_skill.solar_damage_chain(damage, attribute)
         return 0, 0
 
     def call_lunar_damage(self, attribute: Attribute):
         damage = init_result(
-            self.damage_base, 0, 0,
-            self.magical_attack_power_cof, attribute.lunar_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.lunar_attack_power
         )
         if damage:
-            return self.bind_skill.lunar_damage_chain(damage, attribute)
+            return self.dot_skill.lunar_damage_chain(damage, attribute)
         return 0, 0
 
     def call_neutral_damage(self, attribute: Attribute):
         damage = init_result(
-            self.damage_base, 0, 0,
-            self.magical_attack_power_cof, attribute.neutral_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.neutral_attack_power
         )
         if damage:
-            return self.bind_skill.neutral_damage_chain(damage, attribute)
+            return self.dot_skill.neutral_damage_chain(damage, attribute)
         return 0, 0
 
     def call_poison_damage(self, attribute: Attribute):
         damage = init_result(
-            self.damage_base, 0, 0,
-            self.magical_attack_power_cof, attribute.poison_attack_power,
-            0, 0, 0, 0, attribute.global_damage_factor, self.buff_stack
+            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.poison_attack_power
         )
         if damage:
-            return self.bind_skill.poison_damage_chain(damage, attribute)
+            return self.dot_skill.poison_damage_chain(damage, attribute)
         return 0, 0
 
     def pre_damage(self, attribute: Attribute):
-        if self.consume_skill:
-            attribute.global_damage_factor *= self.consume_skill.global_damage_factor
-        self.bind_skill.pre_damage(attribute)
-        attribute.all_damage_addition -= self.bind_skill.damage_addition
+        self.dot_skill.pre_damage(attribute)
+        attribute.all_damage_addition -= self.dot_skill.damage_addition
 
     def post_damage(self, attribute: Attribute):
-        if self.consume_skill:
-            attribute.global_damage_factor /= self.consume_skill.global_damage_factor
-        self.bind_skill.post_damage(attribute)
-        attribute.all_damage_addition += self.bind_skill.damage_addition
+        self.dot_skill.post_damage(attribute)
+        attribute.all_damage_addition += self.dot_skill.damage_addition
 
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)
@@ -227,7 +235,7 @@ class Dot(BaseDot):
             total_damage += damage * self.poison_damage_call
             total_critical_damage += critical_damage * self.poison_damage_call
 
-        critical_strike = min(self.bind_skill.critical_strike(attribute), 1)
+        critical_strike = min(self.dot_skill.critical_strike(attribute), 1)
         expected_damage = total_damage * (1 - critical_strike) + total_critical_damage * critical_strike
         self.post_damage(attribute)
         return int(total_damage), int(total_critical_damage), critical_strike, expected_damage

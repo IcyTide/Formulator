@@ -151,7 +151,7 @@ class BuffAnalyzer(BaseAnalyzer):
             if self.add_buff_attributes_dot(buff, False):
                 display_current_buffs.append(buff)
         for buff in snapshot_buffs:
-            if any((self.add_buff_attributes_dot(buff, True), self.add_buff_recipes(damage.bind_skill, buff))):
+            if any((self.add_buff_attributes_dot(buff, True), self.add_buff_recipes(damage.dot_skill, buff))):
                 display_snapshot_buffs.append(buff)
         return display_current_buffs, display_snapshot_buffs
 
@@ -198,7 +198,7 @@ class BuffAnalyzer(BaseAnalyzer):
             self.sub_buff_attributes_dot(buff, False)
         for buff in snapshot_buffs:
             self.sub_buff_attributes_dot(buff, True)
-            self.sub_buff_recipes(damage.bind_skill, buff)
+            self.sub_buff_recipes(damage.dot_skill, buff)
 
     def sub_buffs_pet(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
         for buff in current_buffs:
@@ -242,20 +242,20 @@ class BuffAnalyzer(BaseAnalyzer):
 
 class SkillAnalyzer(BaseAnalyzer):
 
-    def split_skills(self, damage):
-        damage_tuple, dot_skill_tuple, consume_skill_tuple = damage
+    def split_damage(self, damage_tuple):
+        damage_tuple, dot_skill_tuple, consume_skill_tuple = damage_tuple
         if dot_skill_tuple:
-            dot_id, dot_level, dot_stack = damage_tuple
-            damage, damage.buff_level, damage.buff_stack = self.school.dots[dot_id], dot_level, dot_stack
-            dot_skill_id, dot_skill_level = dot_skill_tuple
+            dot_id, dot_level = damage_tuple
+            damage, damage.buff_level = self.school.dots[dot_id], dot_level
+            dot_skill_id, dot_skill_level, dot_stack = dot_skill_tuple
             dot_skill, dot_skill.skill_level = self.school.skills[dot_skill_id], dot_skill_level
-            damage.bind_skill = dot_skill
+            damage.dot_skill, damage.dot_stack = dot_skill, dot_stack
             if consume_skill_tuple:
-                consume_skill_id, consume_skill_level = consume_skill_tuple
+                consume_skill_id, consume_skill_level, consume_tick = consume_skill_tuple
                 consume_skill, consume_skill.skill_level = self.school.skills[consume_skill_id], consume_skill_level
-                damage.consume_skill = consume_skill
+                damage.consume_skill, damage.consume_tick = consume_skill, consume_tick
             else:
-                damage.consume_skill = None
+                damage.consume_skill, damage.consume_tick = None, 1
             damage_name = damage.buff_name
         else:
             skill_id, skill_level = damage_tuple
@@ -319,7 +319,7 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
         end_frame = int(end_frame * FRAME_PER_SECOND)
 
         for damage, status in record.items():
-            damage, damage_name = self.split_skills(damage)
+            damage, damage_name = self.split_damage(damage)
             if not damage.activate:
                 continue
             damage_detail = details[damage.display_name] = {}
