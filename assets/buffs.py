@@ -43181,6 +43181,15 @@ BUFFS = {
             5338: 1
         }
     },
+    23167: {
+        "attributes": {},
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {
+            2975: 1,
+            2976: 1
+        }
+    },
     23101: {
         "attributes": {
             "lunar_critical_strike_rate": 1000,

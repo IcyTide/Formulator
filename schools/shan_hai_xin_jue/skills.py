@@ -5,7 +5,7 @@ from general.skills import GENERAL_SKILLS
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        35866: {}, 35894: {}, 35987: {}, 36157: {}, 36177: {}, 36453: {}, 36579: {}, 36580: {},
+        35894: dict(channel_interval=24), 35866: {}, 35987: {}, 36157: {}, 36177: {}, 36453: {}, 36579: {}, 36580: {},
         35771: dict(bind_dot=26856),
         36165: dict(consume_dot=26856, consume_tick=3),
         35695: dict(pet_buffs={26857: {1: 1}}),
@@ -28,15 +28,7 @@ class 射日加成(Skill):
 
 
 class 白泽加成(NpcSkill):
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if self.talent_activate_1:
-            parser.refresh_target_buff(70188, 30)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, 30, -1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-        if self.talent_activate_2:
-            parser.refresh_target_buff(71182, 1)
+    pass
 
 
 MOBILE_SKILLS: Dict[type, Dict[int, dict]] = {

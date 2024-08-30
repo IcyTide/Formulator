@@ -1,9 +1,11 @@
 from base.recipe import SkillRecipe
 from base.skill import Skill
 from general.recipes import equipment
+from general.recipes import school
 
 GENERAL_RECIPES = {
-    **equipment.RECIPES
+    **equipment.RECIPES,
+    **school.RECIPES
 }
 
 

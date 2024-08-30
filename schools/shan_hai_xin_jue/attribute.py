@@ -5,6 +5,7 @@ from base.constant import *
 class Attribute(PhysicalAttribute):
     AGILITY_TO_ATTACK_POWER = 1485 / BINARY_SCALE
     AGILITY_TO_CRITICAL_STRIKE = 594 / BINARY_SCALE
+    recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()

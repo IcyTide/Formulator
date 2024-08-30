@@ -5,6 +5,7 @@ from base.constant import BINARY_SCALE
 class Attribute(NeutralAttribute):
     SPIRIT_TO_ATTACK_POWER = 1792 / BINARY_SCALE
     SPIRIT_TO_CRITICAL_STRIKE = 573 / BINARY_SCALE
+    recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()

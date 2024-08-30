@@ -235,12 +235,10 @@ class BaseDamage(BaseSkill):
         return damage, critical_damage
 
     def pre_damage(self, attribute):
-        attribute.global_damage_factor *= self.global_damage_factor
         attribute.all_damage_addition += self.damage_addition
         attribute.pve_addition_base += self.pve_addition
 
     def post_damage(self, attribute):
-        attribute.global_damage_factor /= self.global_damage_factor
         attribute.all_damage_addition -= self.damage_addition
         attribute.pve_addition_base -= self.pve_addition
 

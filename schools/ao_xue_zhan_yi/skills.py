@@ -15,7 +15,7 @@ class 战意判定(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        12: dict(channel_interval_extra=1.7),
+        12: dict(channel_interval=27),
         431: {}, 701: {}, 702: {}, 6525: {}, 6526: {}, 423: {}, 14882: {}, 15002: {}, 24898: {}, 25772: {}, 32820: {},
         37618: {}, 36568: {}, 18207: {}, 18208: {},
         400: dict(post_buffs={-1: {1: 1}}),

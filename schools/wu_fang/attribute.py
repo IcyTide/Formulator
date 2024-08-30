@@ -5,6 +5,7 @@ from base.constant import *
 class Attribute(PoisonAttribute):
     SPIRIT_TO_ATTACK_POWER = 1843 / BINARY_SCALE
     SPIRIT_TO_OVERCOME = 481 / BINARY_SCALE
+    recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()

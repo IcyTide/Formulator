@@ -792,6 +792,7 @@ class Attribute(Major, Minor, Target):
         strain_base=MINOR_DELTA
     )
     display_attrs: list = ["strain_base", "strain", "surplus", "base_weapon_damage", "weapon_damage_rand"]
+    recipes: list = []
     platform: int = 0
 
     def __init__(self, platform: int = 0):

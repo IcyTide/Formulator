@@ -80,6 +80,10 @@ class 师襄_羽60无视(MagicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
+class 流照无视防御(MagicalShieldGainRecipe):
+    value = -922
+
+
 class 响壑徵无视防御秘籍脚本(MagicalShieldGainRecipe):
     value = -410
 
@@ -146,6 +150,9 @@ SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     师襄_羽60无视: {
         2974: {}
+    },
+    流照无视防御: {
+        2975: {}, 2976: {}
     },
     响壑徵无视防御秘籍脚本: {
         5583: {}

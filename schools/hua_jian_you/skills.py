@@ -43,9 +43,8 @@ class 快雪时晴(Skill):
 
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
-        16: {}, 186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
-        37525: dict(pre_buffs={28116: {1: 1}}),
-        2645: dict(post_buffs={14636: {1: 1}}),
+        16: dict(channel_interval=16), 186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
+        37525: dict(pre_buffs={28116: {1: 1}}), 2645: dict(post_buffs={14636: {1: 1}}),
         182: dict(post_buffs={-24599: {i + 1: 0} for i in range(3)}),
         **{skill_id: dict(bind_dot=711) for skill_id in (18730, 13848, 6136)},
         **{skill_id: dict(bind_dot=714) for skill_id in (285, 3086, 13847, 6135)},

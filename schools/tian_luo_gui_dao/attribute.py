@@ -5,6 +5,7 @@ from base.constant import *
 class Attribute(MixingAttribute):
     SPUNK_TO_ATTACK_POWER = 1792 / BINARY_SCALE
     SPUNK_TO_CRITICAL_STRIKE = 584 / BINARY_SCALE
+    recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()

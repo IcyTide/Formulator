@@ -272,6 +272,8 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
         self.gains = []
         self.recipes = []
 
+        self.add_recipes(self.attribute.recipes)
+
     def add_attrs(self, attrs):
         for attr, value in attrs.items():
             self.attribute[attr] += value
