@@ -1,4758 +1,5356 @@
 BUFFS = {
-    24731: {
+    29274: {
         "attributes": [
-            {},
             {
-                "agility_base": 382
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 382
+                "agility_base": 469
             },
             {
-                "strength_base": 382
+                "spunk_base": 469
             },
             {
-                "spirit_base": 382
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spirit_base": 469
             },
             {
-                "spunk_base": 191
+                "vitality_base": 677
             },
             {
-                "strength_base": 191
+                "agility_base": 234
             },
             {
-                "spirit_base": 191
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "strength_base": 234
             },
             {
-                "spunk_base": 382
+                "spirit_base": 234
             },
             {
-                "strength_base": 382
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 382
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spunk_base": 469
             },
             {
-                "spunk_base": 191
+                "strength_base": 469
             },
             {
-                "strength_base": 191
+                "spirit_base": 469
             },
             {
-                "spirit_base": 191
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 382
+                "agility_base": 234
             },
             {
-                "spunk_base": 382
+                "spunk_base": 234
             },
             {
-                "strength_base": 382
+                "strength_base": 234
             },
             {
-                "spirit_base": 382
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 191
+                "agility_base": 469
             },
             {
-                "strength_base": 191
+                "spunk_base": 469
             },
             {
-                "spirit_base": 191
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spirit_base": 469
             },
             {
-                "spunk_base": 382
+                "vitality_base": 677
             },
             {
-                "strength_base": 382
+                "agility_base": 234
             },
             {
-                "spirit_base": 382
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "strength_base": 234
             },
             {
-                "spunk_base": 191
+                "spirit_base": 234
             },
             {
-                "strength_base": 191
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 191
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spunk_base": 469
             },
             {
-                "spunk_base": 382
+                "strength_base": 469
             },
             {
-                "strength_base": 382
+                "spirit_base": 469
             },
             {
-                "spirit_base": 382
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 191
+                "agility_base": 234
             },
             {
-                "spunk_base": 191
+                "spunk_base": 234
             },
             {
-                "strength_base": 191
+                "strength_base": 234
             },
             {
-                "spirit_base": 191
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 382
+                "agility_base": 469
             },
             {
-                "strength_base": 382
+                "spunk_base": 469
             },
             {
-                "spirit_base": 382
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spirit_base": 469
             },
             {
-                "spunk_base": 191
+                "vitality_base": 677
             },
             {
-                "strength_base": 191
+                "agility_base": 234
             },
             {
-                "spirit_base": 191
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "strength_base": 234
             },
             {
-                "spunk_base": 382
+                "spirit_base": 234
             },
             {
-                "strength_base": 382
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 382
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spunk_base": 469
             },
             {
-                "spunk_base": 191
+                "strength_base": 469
             },
             {
-                "strength_base": 191
+                "spirit_base": 469
             },
             {
-                "spirit_base": 191
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 382
+                "agility_base": 234
             },
             {
-                "spunk_base": 382
+                "spunk_base": 234
             },
             {
-                "strength_base": 382
+                "strength_base": 234
             },
             {
-                "spirit_base": 382
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 191
+                "agility_base": 469
             },
             {
-                "strength_base": 191
+                "spunk_base": 469
             },
             {
-                "spirit_base": 191
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spirit_base": 469
             },
             {
-                "spunk_base": 382
+                "vitality_base": 677
             },
             {
-                "strength_base": 382
+                "agility_base": 234
             },
             {
-                "spirit_base": 382
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "strength_base": 234
             },
             {
-                "spunk_base": 191
+                "spirit_base": 234
             },
             {
-                "strength_base": 191
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 191
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spunk_base": 469
             },
             {
-                "spunk_base": 382
+                "strength_base": 469
             },
             {
-                "strength_base": 382
+                "spirit_base": 469
             },
             {
-                "spirit_base": 382
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 191
+                "agility_base": 234
             },
             {
-                "spunk_base": 191
+                "spunk_base": 234
             },
             {
-                "strength_base": 191
+                "strength_base": 234
             },
             {
-                "spirit_base": 191
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 382
+                "agility_base": 469
             },
             {
-                "strength_base": 382
+                "spunk_base": 469
             },
             {
-                "spirit_base": 382
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spirit_base": 469
             },
             {
-                "spunk_base": 191
+                "vitality_base": 677
             },
             {
-                "strength_base": 191
+                "agility_base": 234
             },
             {
-                "spirit_base": 191
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "strength_base": 234
             },
             {
-                "spunk_base": 382
+                "spirit_base": 234
             },
             {
-                "strength_base": 382
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 382
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spunk_base": 469
             },
             {
-                "spunk_base": 191
+                "strength_base": 469
             },
             {
-                "strength_base": 191
+                "spirit_base": 469
             },
             {
-                "spirit_base": 191
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 382
+                "agility_base": 234
             },
             {
-                "spunk_base": 382
+                "spunk_base": 234
             },
             {
-                "strength_base": 382
+                "strength_base": 234
             },
             {
-                "spirit_base": 382
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 191
+                "agility_base": 469
             },
             {
-                "strength_base": 191
+                "spunk_base": 469
             },
             {
-                "spirit_base": 191
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spirit_base": 469
             },
             {
-                "spunk_base": 382
+                "vitality_base": 677
             },
             {
-                "strength_base": 382
+                "agility_base": 234
             },
             {
-                "spirit_base": 382
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "strength_base": 234
             },
             {
-                "spunk_base": 191
+                "spirit_base": 234
             },
             {
-                "strength_base": 191
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 191
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spunk_base": 469
             },
             {
-                "spunk_base": 382
+                "strength_base": 469
             },
             {
-                "strength_base": 382
+                "spirit_base": 469
             },
             {
-                "spirit_base": 382
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 191
+                "agility_base": 234
             },
             {
-                "spunk_base": 191
+                "spunk_base": 234
             },
             {
-                "strength_base": 191
+                "strength_base": 234
             },
             {
-                "spirit_base": 191
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 382
+                "agility_base": 469
             },
             {
-                "strength_base": 382
+                "spunk_base": 469
             },
             {
-                "spirit_base": 382
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spirit_base": 469
             },
             {
-                "spunk_base": 191
+                "vitality_base": 677
             },
             {
-                "strength_base": 191
+                "agility_base": 234
             },
             {
-                "spirit_base": 191
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "strength_base": 234
             },
             {
-                "spunk_base": 382
+                "spirit_base": 234
             },
             {
-                "strength_base": 382
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 382
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spunk_base": 469
             },
             {
-                "spunk_base": 191
+                "strength_base": 469
             },
             {
-                "strength_base": 191
+                "spirit_base": 469
             },
             {
-                "spirit_base": 191
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 382
+                "agility_base": 234
             },
             {
-                "spunk_base": 382
+                "spunk_base": 234
             },
             {
-                "strength_base": 382
+                "strength_base": 234
             },
             {
-                "spirit_base": 382
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 191
+                "agility_base": 469
             },
             {
-                "strength_base": 191
+                "spunk_base": 469
             },
             {
-                "spirit_base": 191
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spirit_base": 469
             },
             {
-                "spunk_base": 382
+                "vitality_base": 677
             },
             {
-                "strength_base": 382
+                "agility_base": 234
             },
             {
-                "spirit_base": 382
+                "spunk_base": 234
             },
-            {},
             {
-                "agility_base": 191
+                "strength_base": 234
             },
             {
-                "spunk_base": 191
+                "spirit_base": 234
             },
             {
-                "strength_base": 191
+                "vitality_base": 1354
             },
             {
-                "spirit_base": 191
+                "agility_base": 469
             },
-            {},
             {
-                "agility_base": 382
+                "spunk_base": 469
             },
             {
-                "spunk_base": 382
+                "strength_base": 469
             },
             {
-                "strength_base": 382
+                "spirit_base": 469
             },
             {
-                "spirit_base": 382
+                "vitality_base": 677
             },
-            {},
             {
-                "agility_base": 191
+                "agility_base": 234
             },
             {
-                "spunk_base": 191
+                "spunk_base": 234
             },
             {
-                "strength_base": 191
+                "strength_base": 234
             },
             {
-                "spirit_base": 191
+                "spirit_base": 234
             },
-            {},
             {
-                "agility_base": 382
+                "vitality_base": 1354
             },
             {
-                "spunk_base": 382
+                "agility_base": 469
             },
             {
-                "strength_base": 382
+                "spunk_base": 469
             },
             {
-                "spirit_base": 382
+                "strength_base": 469
             },
-            {},
             {
-                "agility_base": 191
+                "spirit_base": 469
             },
             {
-                "spunk_base": 191
+                "vitality_base": 677
             },
             {
-                "strength_base": 191
+                "agility_base": 234
             },
             {
-                "spirit_base": 191
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
+            },
+            {
+                "vitality_base": 1354
+            },
+            {
+                "agility_base": 469
+            },
+            {
+                "spunk_base": 469
+            },
+            {
+                "strength_base": 469
+            },
+            {
+                "spirit_base": 469
+            },
+            {
+                "vitality_base": 677
+            },
+            {
+                "agility_base": 234
+            },
+            {
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
+            },
+            {
+                "vitality_base": 1354
+            },
+            {
+                "agility_base": 469
+            },
+            {
+                "spunk_base": 469
+            },
+            {
+                "strength_base": 469
+            },
+            {
+                "spirit_base": 469
+            },
+            {
+                "vitality_base": 677
+            },
+            {
+                "agility_base": 234
+            },
+            {
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
+            },
+            {
+                "vitality_base": 1354
+            },
+            {
+                "agility_base": 469
+            },
+            {
+                "spunk_base": 469
+            },
+            {
+                "strength_base": 469
+            },
+            {
+                "spirit_base": 469
+            },
+            {
+                "vitality_base": 677
+            },
+            {
+                "agility_base": 234
+            },
+            {
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
+            },
+            {
+                "vitality_base": 1354
+            },
+            {
+                "agility_base": 469
+            },
+            {
+                "spunk_base": 469
+            },
+            {
+                "strength_base": 469
+            },
+            {
+                "spirit_base": 469
+            },
+            {
+                "vitality_base": 677
+            },
+            {
+                "agility_base": 234
+            },
+            {
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
+            },
+            {
+                "vitality_base": 1354
+            },
+            {
+                "agility_base": 469
+            },
+            {
+                "spunk_base": 469
+            },
+            {
+                "strength_base": 469
+            },
+            {
+                "spirit_base": 469
+            },
+            {
+                "vitality_base": 677
+            },
+            {
+                "agility_base": 234
+            },
+            {
+                "spunk_base": 234
+            },
+            {
+                "strength_base": 234
+            },
+            {
+                "spirit_base": 234
             }
         ],
         "max_level": 10,
         "buff_name": [
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤",
-            "皮蛋瘦肉粥",
-            "杂锦鱼球粥",
-            "鱼片砂锅粥",
-            "三鲜粥",
-            "咸骨粥",
-            "贡丸汤",
-            "杂碎汤",
-            "鱼头豆腐汤",
-            "三鲜汤",
-            "老火骨汤"
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤",
+            "风语·皮蛋瘦肉粥",
+            "风语·杂锦鱼球粥",
+            "风语·鱼片砂锅粥",
+            "风语·三鲜粥",
+            "风语·咸骨粥",
+            "风语·贡丸汤",
+            "风语·杂碎汤",
+            "风语·鱼头豆腐汤",
+            "风语·三鲜汤",
+            "风语·老火骨汤"
         ],
         "max_stack": 1,
         "recipes": {}
     },
-    24732: {
+    29276: {
         "attributes": [
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1705
+                "all_critical_strike_base": 3655
             },
             {
-                "physical_overcome_base": 1705,
-                "magical_overcome_base": 1705
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
             },
             {
-                "surplus_base": 1705
+                "surplus_base": 3655
             },
             {
-                "haste_base": 1705
+                "haste_base": 3655
             },
             {
-                "physical_attack_power_base": 768
+                "physical_attack_power_base": 993
             },
             {
-                "magical_attack_power_base": 917
+                "magical_attack_power_base": 1108
             },
             {},
             {},
             {
-                "all_critical_strike_base": 853
+                "all_critical_strike_base": 1828
             },
             {
-                "physical_overcome_base": 853,
-                "magical_overcome_base": 853
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
             },
             {
-                "surplus_base": 853
+                "surplus_base": 1828
             },
             {
-                "haste_base": 853
+                "haste_base": 1828
             },
             {
-                "physical_attack_power_base": 384
+                "physical_attack_power_base": 497
             },
             {
-                "magical_attack_power_base": 458
+                "magical_attack_power_base": 554
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 3655
+            },
+            {
+                "physical_overcome_base": 3655,
+                "magical_overcome_base": 3655
+            },
+            {
+                "surplus_base": 3655
+            },
+            {
+                "haste_base": 3655
+            },
+            {
+                "physical_attack_power_base": 993
+            },
+            {
+                "magical_attack_power_base": 1108
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1828
+            },
+            {
+                "physical_overcome_base": 1828,
+                "magical_overcome_base": 1828
+            },
+            {
+                "surplus_base": 1828
+            },
+            {
+                "haste_base": 1828
+            },
+            {
+                "physical_attack_power_base": 497
+            },
+            {
+                "magical_attack_power_base": 554
             },
             {},
             {}
         ],
         "max_level": 16,
         "buff_name": [
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面",
-            "酸菜鱼",
-            "红烧排骨",
-            "白肉血肠",
-            "红烧扣肉",
-            "太后饼",
-            "灌汤包",
-            "骨肉相连",
-            "炸酱面",
-            "鱼香肉丝",
-            "水煮肉片",
-            "毛血旺",
-            "栗子烧肉",
-            "煎饼果子",
-            "鲜肉包子",
-            "白汁芦筋",
-            "杂碎面"
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面",
+            "风语·酸菜鱼",
+            "风语·红烧排骨",
+            "风语·白肉血肠",
+            "风语·红烧扣肉",
+            "风语·太后饼",
+            "风语·灌汤包",
+            "风语·骨肉相连",
+            "风语·炸酱面",
+            "风语·鱼香肉丝",
+            "风语·水煮肉片",
+            "风语·毛血旺",
+            "风语·栗子烧肉",
+            "风语·煎饼果子",
+            "风语·鲜肉包子",
+            "风语·白汁芦筋",
+            "风语·杂碎面"
         ],
         "max_stack": 1,
         "recipes": {}
     },
-    24735: {
+    29284: {
         "attributes": [
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "vitality_base": 773
             },
             {
-                "spunk_base": 492
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "vitality_base": 773
             },
             {
-                "spirit_base": 246
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "vitality_base": 773
             },
             {
-                "spunk_base": 492
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "vitality_base": 773
             },
             {
-                "spirit_base": 246
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "vitality_base": 773
             },
             {
-                "spunk_base": 492
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "vitality_base": 773
             },
             {
-                "spirit_base": 246
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "vitality_base": 773
             },
             {
-                "spunk_base": 492
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "vitality_base": 773
             },
             {
-                "spirit_base": 246
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "vitality_base": 773
             },
             {
-                "spunk_base": 492
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 246
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 246
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "vitality_base": 773
             },
             {
-                "spirit_base": 246
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 492
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spunk_base": 492
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "strength_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spirit_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
-            {},
             {
-                "agility_base": 246
+                "vitality_base": 773
             },
             {
-                "spunk_base": 246
+                "max_life_add": 10443
             },
             {
-                "strength_base": 246
+                "physical_attack_power_base": 567,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
             {
-                "spirit_base": 246
+                "magical_attack_power_base": 633,
+                "all_critical_strike_base": 2088,
+                "surplus_base": 2088
             },
-            {},
             {
-                "agility_base": 492
+                "all_critical_strike_base": 2088,
+                "haste_base": 2088
             },
             {
-                "spunk_base": 492
+                "vitality_base": 773,
+                "max_life_add": 10443
             },
             {
-                "strength_base": 492
+                "vitality_base": 773
             },
             {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
-            },
-            {},
-            {
-                "agility_base": 492
-            },
-            {
-                "spunk_base": 492
-            },
-            {
-                "strength_base": 492
-            },
-            {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
-            },
-            {},
-            {
-                "agility_base": 492
-            },
-            {
-                "spunk_base": 492
-            },
-            {
-                "strength_base": 492
-            },
-            {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
-            },
-            {},
-            {
-                "agility_base": 492
-            },
-            {
-                "spunk_base": 492
-            },
-            {
-                "strength_base": 492
-            },
-            {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
-            },
-            {},
-            {
-                "agility_base": 492
-            },
-            {
-                "spunk_base": 492
-            },
-            {
-                "strength_base": 492
-            },
-            {
-                "spirit_base": 492
-            },
-            {},
-            {
-                "agility_base": 246
-            },
-            {
-                "spunk_base": 246
-            },
-            {
-                "strength_base": 246
-            },
-            {
-                "spirit_base": 246
+                "max_life_add": 10443
             }
-        ],
-        "max_level": 10,
-        "buff_name": [
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸",
-            "上品健体丸",
-            "上品轻身丹",
-            "上品聚魂丹",
-            "上品大力丸",
-            "上品静心丸",
-            "中品健体丸",
-            "中品轻身丹",
-            "中品聚魂丹",
-            "中品大力丸",
-            "中品静心丸"
-        ],
-        "max_stack": 1,
-        "recipes": {}
-    },
-    24736: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2192
-            },
-            {
-                "physical_overcome_base": 2192,
-                "magical_overcome_base": 2192
-            },
-            {
-                "surplus_base": 2192
-            },
-            {
-                "haste_base": 2192
-            },
-            {
-                "physical_attack_power_base": 988
-            },
-            {
-                "magical_attack_power_base": 1179
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 1096
-            },
-            {
-                "physical_overcome_base": 1096,
-                "magical_overcome_base": 1096
-            },
-            {
-                "surplus_base": 1096
-            },
-            {
-                "haste_base": 1096
-            },
-            {
-                "physical_attack_power_base": 494
-            },
-            {
-                "magical_attack_power_base": 589
-            },
-            {},
-            {}
-        ],
-        "max_level": 16,
-        "buff_name": [
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散",
-            "上品玉璃散",
-            "上品破秽散",
-            "上品凝神散",
-            "上品活气散",
-            "上品亢龙散",
-            "上品展凤散",
-            "上品益气散",
-            "上品长恨散",
-            "中品玉璃散",
-            "中品破秽散",
-            "中品凝神散",
-            "中品活气散",
-            "中品亢龙散",
-            "中品展凤散",
-            "中品益气散",
-            "中品长恨散"
-        ],
-        "max_stack": 1,
-        "recipes": {}
-    },
-    24733: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {},
-            {
-                "physical_attack_power_base": 439,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "magical_attack_power_base": 524,
-                "all_critical_strike_base": 975,
-                "surplus_base": 975
-            },
-            {
-                "all_critical_strike_base": 975,
-                "haste_base": 975
-            },
-            {},
-            {},
-            {}
         ],
         "max_level": 6,
         "buff_name": [
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴",
-            "玉笛谁家听落梅",
-            "二十四桥明月夜",
-            "鸳鸯烩珍宴",
-            "蜀味烘焙宴",
-            "鸿门宴",
-            "团圆宴"
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴",
+            "风语·玉笛谁家听落梅",
+            "风语·二十四桥明月夜",
+            "风语·鸳鸯烩珍宴",
+            "风语·蜀味烘焙宴",
+            "风语·鸿门宴",
+            "风语·团圆宴"
         ],
         "max_stack": 1,
         "recipes": {}
     },
-    24734: {
+    29285: {
         "attributes": [
-            {},
             {
-                "agility_base": 437
+                "vitality_base": 1547
             },
             {
-                "spunk_base": 437
+                "agility_base": 536
             },
             {
-                "strength_base": 437
+                "spunk_base": 536
             },
             {
-                "spirit_base": 437
+                "strength_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spirit_base": 536
             },
             {
-                "spunk_base": 437
+                "vitality_base": 1547
             },
             {
-                "strength_base": 437
+                "agility_base": 536
             },
             {
-                "spirit_base": 437
+                "spunk_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "strength_base": 536
             },
             {
-                "spunk_base": 437
+                "spirit_base": 536
             },
             {
-                "strength_base": 437
+                "vitality_base": 1547
             },
             {
-                "spirit_base": 437
+                "agility_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spunk_base": 536
             },
             {
-                "spunk_base": 437
+                "strength_base": 536
             },
             {
-                "strength_base": 437
+                "spirit_base": 536
             },
             {
-                "spirit_base": 437
+                "vitality_base": 1547
             },
-            {},
             {
-                "agility_base": 437
+                "agility_base": 536
             },
             {
-                "spunk_base": 437
+                "spunk_base": 536
             },
             {
-                "strength_base": 437
+                "strength_base": 536
             },
             {
-                "spirit_base": 437
+                "spirit_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "vitality_base": 1547
             },
             {
-                "spunk_base": 437
+                "agility_base": 536
             },
             {
-                "strength_base": 437
+                "spunk_base": 536
             },
             {
-                "spirit_base": 437
+                "strength_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spirit_base": 536
             },
             {
-                "spunk_base": 437
+                "vitality_base": 1547
             },
             {
-                "strength_base": 437
+                "agility_base": 536
             },
             {
-                "spirit_base": 437
+                "spunk_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "strength_base": 536
             },
             {
-                "spunk_base": 437
+                "spirit_base": 536
             },
             {
-                "strength_base": 437
+                "vitality_base": 1547
             },
             {
-                "spirit_base": 437
+                "agility_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spunk_base": 536
             },
             {
-                "spunk_base": 437
+                "strength_base": 536
             },
             {
-                "strength_base": 437
+                "spirit_base": 536
             },
             {
-                "spirit_base": 437
+                "vitality_base": 1547
             },
-            {},
             {
-                "agility_base": 437
+                "agility_base": 536
             },
             {
-                "spunk_base": 437
+                "spunk_base": 536
             },
             {
-                "strength_base": 437
+                "strength_base": 536
             },
             {
-                "spirit_base": 437
+                "spirit_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "vitality_base": 1547
             },
             {
-                "spunk_base": 437
+                "agility_base": 536
             },
             {
-                "strength_base": 437
+                "spunk_base": 536
             },
             {
-                "spirit_base": 437
+                "strength_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spirit_base": 536
             },
             {
-                "spunk_base": 437
+                "vitality_base": 1547
             },
             {
-                "strength_base": 437
+                "agility_base": 536
             },
             {
-                "spirit_base": 437
+                "spunk_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "strength_base": 536
             },
             {
-                "spunk_base": 437
+                "spirit_base": 536
             },
             {
-                "strength_base": 437
+                "vitality_base": 1547
             },
             {
-                "spirit_base": 437
+                "agility_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spunk_base": 536
             },
             {
-                "spunk_base": 437
+                "strength_base": 536
             },
             {
-                "strength_base": 437
+                "spirit_base": 536
             },
             {
-                "spirit_base": 437
+                "vitality_base": 1547
             },
-            {},
             {
-                "agility_base": 437
+                "agility_base": 536
             },
             {
-                "spunk_base": 437
+                "spunk_base": 536
             },
             {
-                "strength_base": 437
+                "strength_base": 536
             },
             {
-                "spirit_base": 437
+                "spirit_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "vitality_base": 1547
             },
             {
-                "spunk_base": 437
+                "agility_base": 536
             },
             {
-                "strength_base": 437
+                "spunk_base": 536
             },
             {
-                "spirit_base": 437
+                "strength_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spirit_base": 536
             },
             {
-                "spunk_base": 437
+                "vitality_base": 1547
             },
             {
-                "strength_base": 437
+                "agility_base": 536
             },
             {
-                "spirit_base": 437
+                "spunk_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "strength_base": 536
             },
             {
-                "spunk_base": 437
+                "spirit_base": 536
             },
             {
-                "strength_base": 437
+                "vitality_base": 1547
             },
             {
-                "spirit_base": 437
+                "agility_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "spunk_base": 536
             },
             {
-                "spunk_base": 437
+                "strength_base": 536
             },
             {
-                "strength_base": 437
+                "spirit_base": 536
             },
             {
-                "spirit_base": 437
+                "vitality_base": 1547
             },
-            {},
             {
-                "agility_base": 437
+                "agility_base": 536
             },
             {
-                "spunk_base": 437
+                "spunk_base": 536
             },
             {
-                "strength_base": 437
+                "strength_base": 536
             },
             {
-                "spirit_base": 437
+                "spirit_base": 536
             },
-            {},
             {
-                "agility_base": 437
+                "vitality_base": 1547
             },
             {
-                "spunk_base": 437
+                "agility_base": 536
             },
             {
-                "strength_base": 437
+                "spunk_base": 536
             },
             {
-                "spirit_base": 437
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
+            },
+            {
+                "vitality_base": 1547
+            },
+            {
+                "agility_base": 536
+            },
+            {
+                "spunk_base": 536
+            },
+            {
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
+            },
+            {
+                "vitality_base": 1547
+            },
+            {
+                "agility_base": 536
+            },
+            {
+                "spunk_base": 536
+            },
+            {
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
+            },
+            {
+                "vitality_base": 1547
+            },
+            {
+                "agility_base": 536
+            },
+            {
+                "spunk_base": 536
+            },
+            {
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
+            },
+            {
+                "vitality_base": 1547
+            },
+            {
+                "agility_base": 536
+            },
+            {
+                "spunk_base": 536
+            },
+            {
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
+            },
+            {
+                "vitality_base": 1547
+            },
+            {
+                "agility_base": 536
+            },
+            {
+                "spunk_base": 536
+            },
+            {
+                "strength_base": 536
+            },
+            {
+                "spirit_base": 536
             }
         ],
         "max_level": 5,
-        "buff_name": "水晶芙蓉宴",
+        "buff_name": "风语·水晶芙蓉宴",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29288: {
+        "attributes": [
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            },
+            {
+                "vitality_base": 1741
+            },
+            {
+                "agility_base": 602
+            },
+            {
+                "spunk_base": 602
+            },
+            {
+                "strength_base": 602
+            },
+            {
+                "spirit_base": 602
+            },
+            {
+                "vitality_base": 870
+            },
+            {
+                "agility_base": 301
+            },
+            {
+                "spunk_base": 301
+            },
+            {
+                "strength_base": 301
+            },
+            {
+                "spirit_base": 301
+            }
+        ],
+        "max_level": 10,
+        "buff_name": [
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸",
+            "风语·上品健体丸",
+            "风语·上品轻身丹",
+            "风语·上品聚魂丹",
+            "风语·上品大力丸",
+            "风语·上品静心丸",
+            "风语·中品健体丸",
+            "风语·中品轻身丹",
+            "风语·中品聚魂丹",
+            "风语·中品大力丸",
+            "风语·中品静心丸"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29289: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 4699
+            },
+            {
+                "physical_overcome_base": 4699,
+                "magical_overcome_base": 4699
+            },
+            {
+                "surplus_base": 4699
+            },
+            {
+                "haste_base": 4699
+            },
+            {
+                "physical_attack_power_base": 1277
+            },
+            {
+                "magical_attack_power_base": 1424
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 2350
+            },
+            {
+                "physical_overcome_base": 2350,
+                "magical_overcome_base": 2350
+            },
+            {
+                "surplus_base": 2350
+            },
+            {
+                "haste_base": 2350
+            },
+            {
+                "physical_attack_power_base": 639
+            },
+            {
+                "magical_attack_power_base": 712
+            },
+            {},
+            {}
+        ],
+        "max_level": 16,
+        "buff_name": [
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散",
+            "风语·上品玉璃散",
+            "风语·上品破秽散",
+            "风语·上品凝神散",
+            "风语·上品活气散",
+            "风语·上品亢龙散",
+            "风语·上品展凤散",
+            "风语·上品益气散",
+            "风语·上品长恨散",
+            "风语·中品玉璃散",
+            "风语·中品破秽散",
+            "风语·上中品凝神散",
+            "风语·中品活气散",
+            "风语·中品亢龙散",
+            "风语·中品展凤散",
+            "风语·中品益气散",
+            "风语·中品长恨散"
+        ],
         "max_stack": 1,
         "recipes": {}
     },
@@ -4801,19 +5399,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -4859,19 +5462,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -4917,19 +5525,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -4975,19 +5588,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -5033,19 +5651,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -5091,19 +5714,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -5149,19 +5777,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -5207,19 +5840,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -5265,19 +5903,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -5323,19 +5966,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -5381,19 +6029,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -5439,19 +6092,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -5497,19 +6155,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -5555,19 +6218,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -5613,19 +6281,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -5671,19 +6344,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -5729,19 +6407,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -5787,19 +6470,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -5845,19 +6533,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -5903,19 +6596,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -5961,19 +6659,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -6019,19 +6722,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -6077,19 +6785,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -6135,19 +6848,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -6193,19 +6911,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -6251,19 +6974,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -6309,19 +7037,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -6367,19 +7100,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -6425,19 +7163,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -6483,19 +7226,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -6541,19 +7289,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -6599,19 +7352,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -6657,19 +7415,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -6715,19 +7478,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -6773,19 +7541,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -6831,19 +7604,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -6889,19 +7667,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -6947,19 +7730,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -7005,19 +7793,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -7063,19 +7856,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -7121,19 +7919,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -7179,19 +7982,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -7237,19 +8045,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -7295,19 +8108,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -7353,19 +8171,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -7411,19 +8234,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -7469,19 +8297,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -7527,19 +8360,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -7585,19 +8423,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -7643,19 +8486,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -7701,19 +8549,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -7759,19 +8612,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -7817,19 +8675,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -7875,19 +8738,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -7933,19 +8801,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -7991,19 +8864,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -8049,19 +8927,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -8107,19 +8990,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -8165,19 +9053,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -8223,19 +9116,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -8281,19 +9179,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -8339,19 +9242,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -8397,19 +9305,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -8455,19 +9368,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -8513,19 +9431,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -8571,19 +9494,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -8629,19 +9557,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -8687,19 +9620,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -8745,19 +9683,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -8803,19 +9746,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -8861,19 +9809,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -8919,19 +9872,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -8977,19 +9935,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -9035,19 +9998,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -9093,19 +10061,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -9151,19 +10124,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -9209,19 +10187,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -9267,19 +10250,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -9325,19 +10313,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -9383,19 +10376,24 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             },
             {
@@ -9441,19 +10439,24 @@ BUFFS = {
                 "all_critical_strike_base": 96
             },
             {
+                "max_life_add": -644,
                 "strain_base": 96
             },
             {
+                "max_life_add": -644,
                 "magical_attack_power_base": 51
             },
             {
+                "max_life_add": -644,
                 "physical_attack_power_base": 43
             },
             {
+                "max_life_add": -644,
                 "physical_overcome_base": 96,
                 "magical_overcome_base": 96
             },
             {
+                "max_life_add": -644,
                 "all_critical_strike_base": 96
             },
             {
@@ -9499,19 +10502,24 @@ BUFFS = {
                 "all_critical_strike_base": 967
             },
             {
+                "max_life_add": -6449,
                 "strain_base": 967
             },
             {
+                "max_life_add": -6449,
                 "magical_attack_power_base": 519
             },
             {
+                "max_life_add": -6449,
                 "physical_attack_power_base": 433
             },
             {
+                "max_life_add": -6449,
                 "physical_overcome_base": 967,
                 "magical_overcome_base": 967
             },
             {
+                "max_life_add": -6449,
                 "all_critical_strike_base": 967
             },
             {
@@ -9557,19 +10565,24 @@ BUFFS = {
                 "all_critical_strike_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "strain_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "magical_attack_power_base": 674
             },
             {
+                "max_life_add": -8383,
                 "physical_attack_power_base": 562
             },
             {
+                "max_life_add": -8383,
                 "physical_overcome_base": 1257,
                 "magical_overcome_base": 1257
             },
             {
+                "max_life_add": -8383,
                 "all_critical_strike_base": 1257
             },
             {
@@ -9615,24 +10628,341 @@ BUFFS = {
                 "all_critical_strike_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "strain_base": 1934
             },
             {
+                "max_life_add": -12898,
                 "magical_attack_power_base": 1038
             },
             {
+                "max_life_add": -12898,
                 "physical_attack_power_base": 866
             },
             {
+                "max_life_add": -12898,
                 "physical_overcome_base": 1934,
                 "magical_overcome_base": 1934
             },
             {
+                "max_life_add": -12898,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "surplus_base": -42,
+                "strain_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "surplus_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "surplus_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "surplus_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "strain_base": -42,
+                "surplus_base": 96
+            },
+            {
+                "strain_base": -42,
+                "magical_attack_power_base": 51
+            },
+            {
+                "strain_base": -42,
+                "physical_attack_power_base": 43
+            },
+            {
+                "strain_base": -42,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "strain_base": -42,
+                "all_critical_strike_base": 96
+            },
+            {
+                "max_life_add": -644,
+                "strain_base": 96
+            },
+            {
+                "max_life_add": -644,
+                "magical_attack_power_base": 51
+            },
+            {
+                "max_life_add": -644,
+                "physical_attack_power_base": 43
+            },
+            {
+                "max_life_add": -644,
+                "physical_overcome_base": 96,
+                "magical_overcome_base": 96
+            },
+            {
+                "max_life_add": -644,
+                "all_critical_strike_base": 96
+            },
+            {
+                "surplus_base": -429,
+                "strain_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "surplus_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "surplus_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "surplus_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "strain_base": -429,
+                "surplus_base": 967
+            },
+            {
+                "strain_base": -429,
+                "magical_attack_power_base": 519
+            },
+            {
+                "strain_base": -429,
+                "physical_attack_power_base": 433
+            },
+            {
+                "strain_base": -429,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "strain_base": -429,
+                "all_critical_strike_base": 967
+            },
+            {
+                "max_life_add": -6449,
+                "strain_base": 967
+            },
+            {
+                "max_life_add": -6449,
+                "magical_attack_power_base": 519
+            },
+            {
+                "max_life_add": -6449,
+                "physical_attack_power_base": 433
+            },
+            {
+                "max_life_add": -6449,
+                "physical_overcome_base": 967,
+                "magical_overcome_base": 967
+            },
+            {
+                "max_life_add": -6449,
+                "all_critical_strike_base": 967
+            },
+            {
+                "surplus_base": -557,
+                "strain_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "surplus_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "surplus_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "surplus_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "surplus_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "magical_attack_power_base": 674
+            },
+            {
+                "strain_base": -557,
+                "physical_attack_power_base": 562
+            },
+            {
+                "strain_base": -557,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "strain_base": -557,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "max_life_add": -8383,
+                "strain_base": 1257
+            },
+            {
+                "max_life_add": -8383,
+                "magical_attack_power_base": 674
+            },
+            {
+                "max_life_add": -8383,
+                "physical_attack_power_base": 562
+            },
+            {
+                "max_life_add": -8383,
+                "physical_overcome_base": 1257,
+                "magical_overcome_base": 1257
+            },
+            {
+                "max_life_add": -8383,
+                "all_critical_strike_base": 1257
+            },
+            {
+                "surplus_base": -858,
+                "strain_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "surplus_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "surplus_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "surplus_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "surplus_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "strain_base": -858,
+                "physical_attack_power_base": 866
+            },
+            {
+                "strain_base": -858,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "strain_base": -858,
+                "all_critical_strike_base": 1934
+            },
+            {
+                "max_life_add": -12898,
+                "strain_base": 1934
+            },
+            {
+                "max_life_add": -12898,
+                "magical_attack_power_base": 1038
+            },
+            {
+                "max_life_add": -12898,
+                "physical_attack_power_base": 866
+            },
+            {
+                "max_life_add": -12898,
+                "physical_overcome_base": 1934,
+                "magical_overcome_base": 1934
+            },
+            {
+                "max_life_add": -12898,
                 "all_critical_strike_base": 1934
             }
         ],
         "max_level": 60,
         "buff_name": [
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·初",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·次",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·升",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
+            "创意料理·盛",
             "创意料理·初",
             "创意料理·初",
             "创意料理·初",
@@ -10958,7 +12288,9 @@ BUFFS = {
         "recipes": {}
     },
     27791: {
-        "attributes": {},
+        "attributes": {
+            "max_life_add": 5374
+        },
         "max_level": 1,
         "buff_name": "刚吃过断浪·油炸花生米",
         "max_stack": 1,
@@ -11118,10 +12450,18 @@ BUFFS = {
             },
             {
                 "strength_base": 256
+            },
+            {
+                "strength_base": 192
+            },
+            {
+                "strength_base": 256
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "汾酒·六日醉",
+            "汾酒·旬又三",
             "汾酒·六日醉",
             "汾酒·旬又三",
             "汾酒·六日醉",
@@ -11313,10 +12653,18 @@ BUFFS = {
             },
             {
                 "agility_base": 256
+            },
+            {
+                "agility_base": 192
+            },
+            {
+                "agility_base": 256
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "关外白酒·六日醉",
+            "关外白酒·旬又三",
             "关外白酒·六日醉",
             "关外白酒·旬又三",
             "关外白酒·六日醉",
@@ -11508,10 +12856,18 @@ BUFFS = {
             },
             {
                 "spirit_base": 256
+            },
+            {
+                "spirit_base": 192
+            },
+            {
+                "spirit_base": 256
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "高粱酒·六日醉",
+            "高粱酒·旬又三",
             "高粱酒·六日醉",
             "高粱酒·旬又三",
             "高粱酒·六日醉",
@@ -11703,10 +13059,18 @@ BUFFS = {
             },
             {
                 "spunk_base": 256
+            },
+            {
+                "spunk_base": 192
+            },
+            {
+                "spunk_base": 256
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "状元红·六日醉",
+            "状元红·旬又三",
             "状元红·六日醉",
             "状元红·旬又三",
             "状元红·六日醉",
@@ -11898,10 +13262,18 @@ BUFFS = {
             },
             {
                 "haste_base": 1144
+            },
+            {
+                "haste_base": 858
+            },
+            {
+                "haste_base": 1144
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "女儿红·六日醉",
+            "女儿红·旬又三",
             "女儿红·六日醉",
             "女儿红·旬又三",
             "女儿红·六日醉",
@@ -11966,6 +13338,8 @@ BUFFS = {
         "attributes": {},
         "max_level": 2,
         "buff_name": [
+            "玉露酒·六日醉",
+            "玉露酒·旬又三",
             "玉露酒·六日醉",
             "玉露酒·旬又三",
             "玉露酒·六日醉",
@@ -12200,10 +13574,20 @@ BUFFS = {
             {
                 "surplus_base": 400,
                 "strain_base": 400
+            },
+            {
+                "surplus_base": 100,
+                "strain_base": 100
+            },
+            {
+                "surplus_base": 400,
+                "strain_base": 400
             }
         ],
         "max_level": 2,
         "buff_name": [
+            "炼狱水煮鱼",
+            "百炼水煮鱼",
             "炼狱水煮鱼",
             "百炼水煮鱼",
             "炼狱水煮鱼",
@@ -12502,9 +13886,22 @@ BUFFS = {
             {
                 "physical_shield_base": 124,
                 "magical_shield_base": 124
+            },
+            {
+                "spirit_base": 28
+            },
+            {
+                "magical_attack_power_base": 199
+            },
+            {
+                "physical_attack_power_base": 179
+            },
+            {
+                "physical_shield_base": 329,
+                "magical_shield_base": 329
             }
         ],
-        "max_level": 69,
+        "max_level": 73,
         "buff_name": [
             "水·鋭刃",
             "水·激流",
@@ -12574,459 +13971,26 @@ BUFFS = {
             "水·百川",
             "水·灭虚",
             "水·斩流",
+            "水·封山",
+            "水·百川",
+            "水·灭虚",
+            "水·斩流",
             "水·封山"
         ],
         "max_stack": 10,
         "recipes": {}
     },
-    6360: {
+    29268: {
         "attributes": [
             {
-                "physical_attack_power_base": 251
+                "magical_overcome_base": 27931
             },
             {
-                "magical_attack_power_base": 302
-            },
-            {},
-            {
-                "all_critical_power_base": 235,
-                "all_critical_strike_base": 100
-            },
-            {
-                "physical_overcome_base": 384
-            },
-            {
-                "magical_overcome_base": 336
-            },
-            {
-                "physical_shield_base": 450
-            },
-            {
-                "magical_shield_base": 450
-            },
-            {},
-            {},
-            {},
-            {},
-            {},
-            {
-                "weapon_damage_base": 57
-            },
-            {
-                "haste_base": 160
-            },
-            {},
-            {
-                "magical_overcome_base": 342
-            },
-            {
-                "physical_overcome_base": 393
-            },
-            {
-                "magical_shield_base": 171
-            },
-            {
-                "physical_shield_base": 171
-            },
-            {},
-            {
-                "magical_overcome_base": 427
-            },
-            {
-                "physical_overcome_base": 427
-            },
-            {
-                "physical_shield_base": 214
-            },
-            {
-                "magical_shield_base": 171
-            },
-            {},
-            {
-                "magical_overcome_base": 1409
-            },
-            {
-                "physical_overcome_base": 1409
-            },
-            {
-                "magical_shield_base": 704
-            },
-            {
-                "physical_shield_base": 704
-            },
-            {},
-            {
-                "magical_overcome_base": 1491
-            },
-            {
-                "physical_overcome_base": 1491
-            },
-            {
-                "magical_shield_base": 745
-            },
-            {
-                "physical_shield_base": 745
-            },
-            {},
-            {
-                "magical_overcome_base": 1831
-            },
-            {
-                "physical_overcome_base": 1831
-            },
-            {
-                "magical_shield_base": 916
-            },
-            {
-                "physical_shield_base": 916
-            },
-            {},
-            {
-                "magical_overcome_base": 1938
-            },
-            {
-                "physical_overcome_base": 1938
-            },
-            {
-                "magical_shield_base": 969
-            },
-            {
-                "physical_shield_base": 969
-            },
-            {},
-            {
-                "magical_overcome_base": 2113
-            },
-            {
-                "physical_overcome_base": 2113
-            },
-            {
-                "magical_shield_base": 1057
-            },
-            {
-                "physical_shield_base": 1057
-            },
-            {},
-            {
-                "magical_overcome_base": 2236
-            },
-            {
-                "physical_overcome_base": 2236
-            },
-            {
-                "magical_shield_base": 1118
-            },
-            {
-                "physical_shield_base": 1118
-            },
-            {},
-            {
-                "magical_overcome_base": 2395
-            },
-            {
-                "physical_overcome_base": 2395
-            },
-            {
-                "magical_shield_base": 1197
-            },
-            {
-                "physical_shield_base": 1197
-            },
-            {},
-            {
-                "magical_overcome_base": 2534
-            },
-            {
-                "physical_overcome_base": 2534
-            },
-            {
-                "magical_shield_base": 1267
-            },
-            {
-                "physical_shield_base": 1267
-            },
-            {},
-            {
-                "magical_overcome_base": 2883
-            },
-            {
-                "physical_overcome_base": 2883
-            },
-            {
-                "magical_shield_base": 1442
-            },
-            {
-                "physical_shield_base": 1442
-            },
-            {},
-            {
-                "magical_overcome_base": 3053
-            },
-            {
-                "physical_overcome_base": 3053
-            },
-            {
-                "magical_shield_base": 1526
-            },
-            {
-                "physical_shield_base": 1526
-            },
-            {},
-            {
-                "magical_overcome_base": 3845
-            },
-            {
-                "physical_overcome_base": 3845
-            },
-            {
-                "magical_shield_base": 1922
-            },
-            {
-                "physical_shield_base": 1922
-            },
-            {},
-            {
-                "magical_overcome_base": 4070
-            },
-            {
-                "physical_overcome_base": 4070
-            },
-            {
-                "magical_shield_base": 2035
-            },
-            {
-                "physical_shield_base": 2035
-            },
-            {},
-            {
-                "magical_overcome_base": 4165
-            },
-            {
-                "physical_overcome_base": 4165
-            },
-            {
-                "physical_shield_base": 2083
-            },
-            {},
-            {
-                "magical_overcome_base": 4410
-            },
-            {
-                "physical_overcome_base": 4410
-            },
-            {},
-            {
-                "magical_overcome_base": 4806
-            },
-            {
-                "physical_overcome_base": 4806
-            },
-            {
-                "physical_shield_base": 2403
-            },
-            {},
-            {
-                "magical_overcome_base": 5088
-            },
-            {
-                "physical_overcome_base": 5088
-            },
-            {},
-            {
-                "magical_overcome_base": 6408
-            },
-            {
-                "physical_overcome_base": 6408
-            },
-            {
-                "physical_shield_base": 3204
-            },
-            {},
-            {
-                "magical_overcome_base": 6784
-            },
-            {
-                "physical_overcome_base": 6784
-            },
-            {},
-            {
-                "magical_overcome_base": 8330
-            },
-            {
-                "physical_overcome_base": 8330
-            },
-            {
-                "physical_shield_base": 4165
-            },
-            {},
-            {
-                "magical_overcome_base": 8819
-            },
-            {
-                "physical_overcome_base": 8819
-            },
-            {},
-            {
-                "magical_overcome_base": 9291
-            },
-            {
-                "physical_overcome_base": 9291
-            },
-            {
-                "physical_shield_base": 4646
-            },
-            {},
-            {
-                "magical_overcome_base": 9837
-            },
-            {
-                "physical_overcome_base": 9837
-            },
-            {},
-            {
-                "magical_overcome_base": 10573
-            },
-            {
-                "physical_overcome_base": 10573
-            },
-            {
-                "physical_shield_base": 5286
-            },
-            {},
-            {
-                "magical_overcome_base": 11194
-            },
-            {
-                "physical_overcome_base": 11194
+                "physical_overcome_base": 27931
             }
         ],
-        "max_level": 127,
+        "max_level": 2,
         "buff_name": [
-            "风·鋭刃",
-            "风·激流",
-            "风·海纳",
-            "风·痛切",
-            "风·斩铁",
-            "风·灭气",
-            "风·守御",
-            "风·耐受",
-            "风·仇敌",
-            "风·灵动",
-            "风·不屈",
-            "风·锐眼",
-            "风·血魂",
-            "风·狂攻",
-            "风·急速",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·御灵",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·御灵",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·百川",
-            "风·灭虚",
-            "风·斩流",
-            "风·守山",
-            "风·百川",
             "风·灭虚",
             "风·斩流"
         ],
@@ -14028,10 +14992,64 @@ BUFFS = {
                 "solar_overcome_gain": 205,
                 "neutral_overcome_gain": 205,
                 "lunar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "solar_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "lunar_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 102,
+                "solar_overcome_gain": 102,
+                "neutral_overcome_gain": 102,
+                "lunar_overcome_gain": 102
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "poison_overcome_gain": 205,
+                "solar_overcome_gain": 205,
+                "neutral_overcome_gain": 205,
+                "lunar_overcome_gain": 205
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -14783,10 +15801,44 @@ BUFFS = {
             {
                 "physical_attack_power_gain": 50,
                 "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 200
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -15825,10 +16877,58 @@ BUFFS = {
                 "neutral_overcome_gain": 300,
                 "lunar_overcome_gain": 300,
                 "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_overcome_gain": 300,
+                "neutral_overcome_gain": 300,
+                "lunar_overcome_gain": 300,
+                "poison_overcome_gain": 300
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -17110,10 +18210,70 @@ BUFFS = {
                 "poison_critical_strike_rate": 300,
                 "strain_rate": 20,
                 "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 154
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -17966,10 +19126,49 @@ BUFFS = {
                 "physical_critical_strike_rate": 300,
                 "strain_rate": 20,
                 "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "physical_critical_power_rate": 150
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -18693,10 +19892,43 @@ BUFFS = {
             },
             {
                 "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 51
+            },
+            {
+                "magical_attack_power_gain": 50
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -19561,10 +20793,49 @@ BUFFS = {
                 "agility_gain": 30,
                 "physical_attack_power_gain": 51,
                 "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 204
+            },
+            {
+                "agility_gain": 30,
+                "physical_attack_power_gain": 51,
+                "physical_critical_power_rate": 200
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重粗识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重粗识",
             "二重略懂",
             "三重巧熟",
@@ -20792,10 +22063,67 @@ BUFFS = {
                 "neutral_critical_strike_rate": 300,
                 "poison_critical_strike_rate": 300,
                 "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_attack_power_gain": 100,
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "magical_critical_power_rate": 100
             }
         ],
         "max_level": 7,
         "buff_name": [
+            "一重初识",
+            "二重略懂",
+            "三重巧熟",
+            "四重精妙",
+            "五重游刃",
+            "六重忘我",
+            "七重归一",
             "一重初识",
             "二重略懂",
             "三重巧熟",
@@ -21657,6 +22985,38 @@ BUFFS = {
                 "strength_gain": 30,
                 "strain_rate": 20,
                 "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
+            },
+            {
+                "strength_gain": 30,
+                "strain_rate": 20,
+                "physical_overcome_gain": 205
             }
         ],
         "max_level": 7,
@@ -21690,6 +23050,42 @@ BUFFS = {
     },
     3307: {
         "attributes": [
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "all_shield_ignore": 52,
+                "physical_damage_cof": -51,
+                "physical_critical_power_rate": 150,
+                "magical_critical_power_rate": 150
+            },
+            {},
             {
                 "magical_attack_power_gain": 51
             },
@@ -23417,6 +24813,51 @@ BUFFS = {
                 "lunar_critical_strike_rate": 300,
                 "neutral_critical_strike_rate": 300,
                 "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "solar_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300
             }
         ],
         "max_level": 7,
@@ -23454,6 +24895,33 @@ BUFFS = {
     },
     6342: {
         "attributes": [
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "physical_overcome_gain": 102
+            },
             {
                 "physical_attack_power_gain": 50
             },
@@ -24682,6 +26150,31 @@ BUFFS = {
                 "physical_attack_power_gain": 50,
                 "strain_rate": 20,
                 "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "strain_rate": 20,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 102,
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "strain_rate": 20,
+                "physical_overcome_gain": 102
             }
         ],
         "max_level": 6,
@@ -24719,6 +26212,33 @@ BUFFS = {
     },
     14074: {
         "attributes": [
+            {
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 102,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 133,
+                "physical_critical_strike_rate": 300,
+                "physical_overcome_gain": 102
+            },
             {
                 "physical_critical_strike_rate": 300
             },
@@ -25884,6 +27404,33 @@ BUFFS = {
                 "physical_critical_strike_rate": 300,
                 "physical_attack_power_gain": 50,
                 "physical_critical_power_rate": 154
+            },
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_attack_power_gain": 50,
+                "physical_critical_power_rate": 154
             }
         ],
         "max_level": 6,
@@ -25927,6 +27474,33 @@ BUFFS = {
     },
     18335: {
         "attributes": [
+            {
+                "magical_attack_power_gain": 51
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "magical_attack_power_gain": 51,
+                "strain_rate": 20,
+                "magical_critical_power_rate": 100
+            },
             {
                 "magical_attack_power_gain": 51
             },
@@ -27457,6 +29031,49 @@ BUFFS = {
                 "neutral_critical_strike_rate": 500,
                 "poison_critical_strike_rate": 500,
                 "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "magical_attack_power_gain": 50,
+                "all_damage_addition": 31,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500,
+                "physical_critical_strike_rate": 500
             }
         ],
         "max_level": 6,
@@ -27472,6 +29089,33 @@ BUFFS = {
     },
     24578: {
         "attributes": [
+            {
+                "physical_attack_power_gain": 50
+            },
+            {
+                "surplus_base": 1516,
+                "physical_attack_power_gain": 50
+            },
+            {
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
+            {
+                "physical_attack_power_gain": 50,
+                "surplus_base": 1516,
+                "physical_overcome_gain": 256
+            },
             {
                 "physical_attack_power_gain": 50
             },
@@ -28062,6 +29706,57 @@ BUFFS = {
     },
     27236: {
         "attributes": [
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
+            {
+                "lunar_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "poison_critical_strike_rate": 300,
+                "physical_critical_strike_rate": 300,
+                "strain_rate": 20,
+                "all_damage_addition": 62
+            },
             {
                 "lunar_critical_strike_rate": 300,
                 "solar_critical_strike_rate": 300,
@@ -32964,6 +34659,50 @@ BUFFS = {
             {
                 "all_major_base": 244,
                 "magical_shield_base": 340
+            },
+            {
+                "all_major_base": 6,
+                "magical_shield_base": 10
+            },
+            {
+                "all_major_base": 9,
+                "magical_shield_base": 15
+            },
+            {
+                "all_major_base": 12,
+                "magical_shield_base": 20
+            },
+            {
+                "all_major_base": 15,
+                "magical_shield_base": 25
+            },
+            {
+                "all_major_base": 18,
+                "magical_shield_base": 30
+            },
+            {
+                "all_major_base": 21,
+                "magical_shield_base": 35
+            },
+            {
+                "all_major_base": 25,
+                "magical_shield_base": 40
+            },
+            {
+                "all_major_base": 37,
+                "magical_shield_base": 60
+            },
+            {
+                "all_major_base": 52,
+                "magical_shield_base": 84
+            },
+            {
+                "all_major_base": 111,
+                "magical_shield_base": 154
+            },
+            {
+                "all_major_base": 244,
+                "magical_shield_base": 340
             }
         ],
         "max_level": 11,
@@ -33476,6 +35215,30 @@ BUFFS = {
             },
             {
                 "physical_attack_power_gain": 51
+            },
+            {
+                "physical_attack_power_gain": 10
+            },
+            {
+                "physical_attack_power_gain": 15
+            },
+            {
+                "physical_attack_power_gain": 20
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 31
+            },
+            {
+                "physical_attack_power_gain": 36
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 51
             }
         ],
         "max_level": 8,
@@ -33485,6 +35248,96 @@ BUFFS = {
     },
     661: {
         "attributes": [
+            {
+                "physical_shield_base": -30
+            },
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -50
+            },
+            {
+                "physical_shield_base": -60
+            },
+            {
+                "physical_shield_base": -69
+            },
+            {
+                "physical_shield_base": -79
+            },
+            {
+                "physical_shield_base": -90
+            },
+            {
+                "physical_shield_base": -99
+            },
+            {
+                "physical_shield_base": -108
+            },
+            {
+                "physical_shield_base": -120
+            },
+            {
+                "physical_shield_base": -128
+            },
+            {
+                "physical_shield_base": -138
+            },
+            {
+                "physical_shield_base": -147
+            },
+            {
+                "physical_shield_base": -157
+            },
+            {
+                "physical_shield_base": -166
+            },
+            {
+                "physical_shield_base": -177
+            },
+            {
+                "physical_shield_base": -186
+            },
+            {
+                "physical_shield_base": -195
+            },
+            {
+                "physical_shield_base": -205
+            },
+            {
+                "physical_shield_base": -216
+            },
+            {
+                "physical_shield_base": -225
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -244
+            },
+            {
+                "physical_shield_base": -255
+            },
+            {
+                "physical_shield_base": -264
+            },
+            {
+                "physical_shield_base": -273
+            },
+            {
+                "physical_shield_base": -282
+            },
+            {
+                "physical_shield_base": -291
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -1150
+            },
             {
                 "physical_shield_base": -30
             },
@@ -35895,6 +37748,30 @@ BUFFS = {
                 "neutral_shield_gain": -30,
                 "lunar_shield_gain": -30,
                 "poison_shield_gain": -30
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
+            },
+            {
+                "magical_shield_base": -6
+            },
+            {
+                "magical_shield_base": -9
+            },
+            {
+                "magical_shield_base": -12
+            },
+            {
+                "magical_shield_base": -15
+            },
+            {
+                "solar_shield_gain": -30,
+                "neutral_shield_gain": -30,
+                "lunar_shield_gain": -30,
+                "poison_shield_gain": -30
             }
         ],
         "max_level": 6,
@@ -35904,6 +37781,45 @@ BUFFS = {
     },
     378: {
         "attributes": [
+            {
+                "physical_attack_power_gain": 18
+            },
+            {
+                "physical_attack_power_gain": 21
+            },
+            {
+                "physical_attack_power_gain": 23
+            },
+            {
+                "physical_attack_power_gain": 25
+            },
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 29
+            },
+            {
+                "physical_critical_power_rate": 100
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 500,
+                "all_shield_ignore": 614
+            },
+            {
+                "physical_critical_power_rate": 204,
+                "physical_critical_strike_rate": 1000,
+                "all_shield_ignore": 614
+            },
             {
                 "physical_attack_power_gain": 18
             },
@@ -38746,6 +40662,102 @@ BUFFS = {
                 "lunar_critical_strike_rate": 1000,
                 "magical_critical_power_rate": 204,
                 "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 300,
+                "solar_critical_strike_rate": 300,
+                "neutral_critical_strike_rate": 300,
+                "lunar_critical_strike_rate": 300,
+                "magical_critical_power_rate": 60
+            },
+            {
+                "poison_critical_strike_rate": 350,
+                "solar_critical_strike_rate": 350,
+                "neutral_critical_strike_rate": 350,
+                "lunar_critical_strike_rate": 350,
+                "magical_critical_power_rate": 70
+            },
+            {
+                "poison_critical_strike_rate": 400,
+                "solar_critical_strike_rate": 400,
+                "neutral_critical_strike_rate": 400,
+                "lunar_critical_strike_rate": 400,
+                "magical_critical_power_rate": 80
+            },
+            {
+                "poison_critical_strike_rate": 450,
+                "solar_critical_strike_rate": 450,
+                "neutral_critical_strike_rate": 450,
+                "lunar_critical_strike_rate": 450,
+                "magical_critical_power_rate": 90
+            },
+            {
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 600,
+                "solar_critical_strike_rate": 600,
+                "neutral_critical_strike_rate": 600,
+                "lunar_critical_strike_rate": 600,
+                "magical_critical_power_rate": 120
+            },
+            {
+                "poison_critical_strike_rate": 700,
+                "solar_critical_strike_rate": 700,
+                "neutral_critical_strike_rate": 700,
+                "lunar_critical_strike_rate": 700,
+                "magical_critical_power_rate": 140
+            },
+            {
+                "poison_critical_strike_rate": 800,
+                "solar_critical_strike_rate": 800,
+                "neutral_critical_strike_rate": 800,
+                "lunar_critical_strike_rate": 800,
+                "magical_critical_power_rate": 160
+            },
+            {
+                "poison_critical_strike_rate": 900,
+                "solar_critical_strike_rate": 900,
+                "neutral_critical_strike_rate": 900,
+                "lunar_critical_strike_rate": 900,
+                "magical_critical_power_rate": 180
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204
+            },
+            {
+                "poison_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "lunar_critical_strike_rate": 500,
+                "magical_critical_power_rate": 100,
+                "all_shield_ignore": 615
+            },
+            {
+                "poison_critical_strike_rate": 1000,
+                "solar_critical_strike_rate": 1000,
+                "neutral_critical_strike_rate": 1000,
+                "lunar_critical_strike_rate": 1000,
+                "magical_critical_power_rate": 204,
+                "all_shield_ignore": 615
             }
         ],
         "max_level": 14,
@@ -38768,6 +40780,20 @@ BUFFS = {
     },
     4058: {
         "attributes": [
+            {
+                "physical_damage_cof": 21,
+                "solar_damage_cof": 21,
+                "neutral_damage_cof": 21,
+                "lunar_damage_cof": 21,
+                "poison_damage_cof": 21
+            },
+            {
+                "physical_damage_cof": 51,
+                "solar_damage_cof": 51,
+                "neutral_damage_cof": 51,
+                "lunar_damage_cof": 51,
+                "poison_damage_cof": 51
+            },
             {
                 "physical_damage_cof": 21,
                 "solar_damage_cof": 21,
@@ -39088,6 +41114,96 @@ BUFFS = {
     },
     12717: {
         "attributes": [
+            {
+                "physical_shield_base": -40
+            },
+            {
+                "physical_shield_base": -54
+            },
+            {
+                "physical_shield_base": -66
+            },
+            {
+                "physical_shield_base": -80
+            },
+            {
+                "physical_shield_base": -92
+            },
+            {
+                "physical_shield_base": -106
+            },
+            {
+                "physical_shield_base": -118
+            },
+            {
+                "physical_shield_base": -132
+            },
+            {
+                "physical_shield_base": -144
+            },
+            {
+                "physical_shield_base": -158
+            },
+            {
+                "physical_shield_base": -170
+            },
+            {
+                "physical_shield_base": -184
+            },
+            {
+                "physical_shield_base": -196
+            },
+            {
+                "physical_shield_base": -210
+            },
+            {
+                "physical_shield_base": -222
+            },
+            {
+                "physical_shield_base": -236
+            },
+            {
+                "physical_shield_base": -248
+            },
+            {
+                "physical_shield_base": -262
+            },
+            {
+                "physical_shield_base": -274
+            },
+            {
+                "physical_shield_base": -288
+            },
+            {
+                "physical_shield_base": -300
+            },
+            {
+                "physical_shield_base": -314
+            },
+            {
+                "physical_shield_base": -326
+            },
+            {
+                "physical_shield_base": -340
+            },
+            {
+                "physical_shield_base": -352
+            },
+            {
+                "physical_shield_base": -364
+            },
+            {
+                "physical_shield_base": -376
+            },
+            {
+                "physical_shield_base": -388
+            },
+            {
+                "physical_shield_base": -400
+            },
+            {
+                "physical_shield_base": -1397
+            },
             {
                 "physical_shield_base": -40
             },
@@ -43882,5 +45998,34 @@ BUFFS = {
         "max_level": 1,
         "max_stack": 1,
         "recipes": {}
+    },
+    29243: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29254: {
+        "attributes": {
+            "magical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "神门",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29237: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "出岫",
+        "max_stack": 1,
+        "recipes": {
+            5636: 1,
+            5637: 1,
+            5638: 1,
+            5639: 1
+        }
     }
 }

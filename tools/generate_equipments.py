@@ -1,6 +1,5 @@
 from collections import defaultdict
 
-import pandas as pd
 from tqdm import tqdm
 
 from assets.constant import ATTR_TYPE_MAP, MIN_EQUIP_LEVEL, SPECIAL_ENCHANT_MAP, TARGET_ATTR_TYPE_MAP

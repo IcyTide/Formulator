@@ -3,14 +3,14 @@ from base.constant import *
 
 
 class Attribute(PoisonAttribute):
-    SPIRIT_TO_ATTACK_POWER = 1843 / BINARY_SCALE
-    SPIRIT_TO_OVERCOME = 481 / BINARY_SCALE
+    SPIRIT_TO_ATTACK_POWER = 1976 / BINARY_SCALE
+    SPIRIT_TO_OVERCOME = 512 / BINARY_SCALE
     recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()
-        self.poison_attack_power_base += 3808
-        self.poison_overcome_base += 1788
+        self.poison_attack_power_base += 6663
+        self.poison_overcome_base += 5527
         self.platform = platform
         if not platform:
             self.pve_addition_base += 102

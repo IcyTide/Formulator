@@ -564,6 +564,11 @@ class Major(AttackPower, CriticalStrike, Overcome):
     pass
 
 
+class Vitality:
+    vitality_base: int = 0
+    max_life_base: int = 0
+
+
 class CriticalPower:
     _all_critical_power_base: int = 0
     physical_critical_power_base: int = 0
@@ -715,7 +720,7 @@ class DamageAddition:
         self._all_damage_addition = all_damage_addition
 
 
-class Minor(CriticalPower, DamageAddition):
+class Minor(Vitality, CriticalPower, DamageAddition):
     surplus_base: int = 0
     surplus_gain: int = 0
 

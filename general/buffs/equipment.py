@@ -3,7 +3,7 @@ from typing import Dict
 from base.buff import Buff
 
 GENERAL_BUFFS: Dict[int, dict] = {
-    15436: dict(buff_name="大附魔帽"), 15455: dict(buff_name="大附魔腰"), 4761: {}, 6360: {}
+    15436: dict(buff_name="大附魔帽"), 15455: dict(buff_name="大附魔腰"), 4761: {}, 29268: {}
 }
 
 BUFFS = {}

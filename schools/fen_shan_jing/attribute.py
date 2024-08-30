@@ -3,12 +3,12 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    AGILITY_TO_ATTACK_POWER = 1751 / BINARY_SCALE
+    AGILITY_TO_ATTACK_POWER = 1925 / BINARY_SCALE
 
     def __init__(self, platform=0):
         super().__init__()
-        self.physical_attack_power_base += 3449
-        self.physical_overcome_base += 1526
+        self.physical_attack_power_base += 6513
+        self.physical_overcome_base += 4696
         self.pve_addition_base += 92
 
     @property

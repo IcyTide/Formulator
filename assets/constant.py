@@ -38,7 +38,7 @@ SPECIAL_ENCHANT_MAP = {
         11500: [2495],
     }
 }
-MIN_EQUIP_LEVEL = 12100
+MIN_EQUIP_LEVEL = 20500
 ENCHANT_START_ID = 11869
 
 BUFF_MAX_ATTRIB = 15
@@ -77,6 +77,8 @@ EMBED_POSITIONS = {
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
 ATTR_TYPE_MAP = {
+    "atVitalityBase": "vitality_base",
+    "atMaxLifeAdditional": "max_life_add",
     "atMeleeWeaponDamageBase": "weapon_damage_base",
     "atMeleeWeaponDamageRand": "weapon_damage_rand",
     "atMeleeWeaponDamagePercent": "weapon_damage_gain",
@@ -187,6 +189,8 @@ ATTR_TYPE_MAP = {
     **TARGET_ATTR_TYPE_MAP
 }
 ATTR_TYPE_TRANSLATE = {
+    "vitality_base": "体质",
+    "max_life_add": "额外气血上限",
     "weapon_damage_base": "基础武器伤害",
     "weapon_damage_rand": "浮动武器伤害",
     "all_major_base": "全属性",

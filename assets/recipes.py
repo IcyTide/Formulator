@@ -7244,5 +7244,84 @@ RECIPES = {
             "recipe_type": 36157,
             "recipe_name": "贯侯_标鹄伤害增加"
         }
+    },
+    5610: {
+        1: {
+            "damage_addition": 103,
+            "recipe_type": 38085,
+            "recipe_name": "绝脉引爆伤害提高10%"
+        }
+    },
+    5620: {
+        1: {
+            "damage_addition": 153,
+            "recipe_type": 37779,
+            "recipe_name": "骤风共振伤害增加"
+        }
+    },
+    5636: {
+        1: {
+            "damage_addition": 358,
+            "recipe_type": 38006,
+            "recipe_name": "出岫云散期间加一阳指伤害_断脉"
+        }
+    },
+    5637: {
+        1: {
+            "damage_addition": 358,
+            "recipe_type": 38007,
+            "recipe_name": "出岫云散期间加一阳指伤害_截阳"
+        }
+    },
+    5638: {
+        1: {
+            "damage_addition": 358,
+            "recipe_type": 38009,
+            "recipe_name": "出岫云散期间加一阳指伤害_引窍"
+        }
+    },
+    5639: {
+        1: {
+            "damage_addition": 358,
+            "recipe_type": 38008,
+            "recipe_name": "出岫云散期间加一阳指伤害_破穴"
+        }
+    },
+    5578: {
+        1: {
+            "recipe_type": 38006,
+            "recipe_name": "断脉双会增加10%"
+        }
+    },
+    5617: {
+        1: {
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "引窍增幅增加"
+        }
+    },
+    5640: {
+        1: {
+            "recipe_type": 37779,
+            "recipe_name": "茫渺静止增伤"
+        }
+    },
+    5645: {
+        1: {
+            "skill_id": 38075,
+            "recipe_name": "雾刃二段递增20%"
+        }
+    },
+    5646: {
+        1: {
+            "skill_id": 38076,
+            "recipe_name": "雾刃三段递增20%"
+        }
+    },
+    5647: {
+        1: {
+            "skill_id": 38077,
+            "recipe_name": "雾刃四段递增20%"
+        }
     }
 }

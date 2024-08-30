@@ -3,12 +3,12 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    STRENGTH_TO_ATTACK_POWER = 1587 / BINARY_SCALE
-    STRENGTH_TO_OVERCOME = 369 / BINARY_SCALE
+    STRENGTH_TO_ATTACK_POWER = 1802 / BINARY_SCALE
+    STRENGTH_TO_OVERCOME = 420 / BINARY_SCALE
 
     def __init__(self, platform=0):
         super().__init__()
-        self.physical_attack_power_base += 3725
+        self.physical_attack_power_base += 7034
         self.platform = platform
         if not platform:
             self.pve_addition_base += 174

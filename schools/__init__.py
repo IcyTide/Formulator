@@ -9,7 +9,7 @@ from base.recipe import Recipe
 from base.skill import Skill
 from schools import ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue, bei_ao_jue, gu_feng_jue
 from schools import tai_xu_jian_yi, wen_shui_jue, fen_shan_jing, ling_hai_jue, yin_long_jue, shan_hai_xin_jue
-from schools import yi_jin_jing, hua_jian_you, tian_luo_gui_dao, fen_ying_sheng_jue, tai_xuan_jing
+from schools import yi_jin_jing, hua_jian_you, tian_luo_gui_dao, fen_ying_sheng_jue, tai_xuan_jing, zhou_tian_gong
 from schools import zi_xia_gong, bing_xin_jue, du_jing, mo_wen, wu_fang
 
 
@@ -208,4 +208,12 @@ SUPPORT_SCHOOLS = {
         recipes=shan_hai_xin_jue.RECIPES, recipe_choices=shan_hai_xin_jue.RECIPE_CHOICES,
         gains=shan_hai_xin_jue.GAINS,
     ),
+    10786: School(
+        id=10786, name="周天功", school="段氏", major="元气", kind="内功", attribute=zhou_tian_gong.Attribute,
+        formation="九天九龙阵", prepare=zhou_tian_gong.prepare,
+        skills=zhou_tian_gong.SKILLS, dots=zhou_tian_gong.DOTS, buffs=zhou_tian_gong.BUFFS,
+        talents=zhou_tian_gong.TALENTS, talent_choices=zhou_tian_gong.TALENT_CHOICES,
+        recipes=zhou_tian_gong.RECIPES, recipe_choices=zhou_tian_gong.RECIPE_CHOICES,
+        gains=zhou_tian_gong.GAINS,
+    )
 }

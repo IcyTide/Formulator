@@ -88,8 +88,8 @@ class WaterWeapon(EquipmentGain):
 
 
 class WindPendant(EquipmentGain):
-    buff_ids = [6360]
-    _attributes = BUFFS[6360].all_attributes
+    buff_ids = [29268]
+    _attributes = BUFFS[29268].all_attributes
     rate = 15 / 180
 
 
@@ -135,12 +135,13 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
             2400: 55, 2401: 56,
             2497: 59, 2498: 60,
             2539: 63, 2540: 64,
-            2604: 67, 2605: 68
+            2604: 67, 2605: 68,
+            2655: 71, 2656: 72
         }.items()
     },
     **{
-        (6800, i + 1): WindPendant(i + 1)
-        for i in range(BUFFS[6360].max_level)
+        (38578, i + 1): WindPendant(i + 1)
+        for i in range(BUFFS[29268].max_level)
     },
     **{
         (15436, i + 1): 大附魔帽(i + 1)

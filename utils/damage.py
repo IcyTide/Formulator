@@ -1,6 +1,6 @@
 from functools import cache
 
-from base.constant import BINARY_SCALE, BASE_CRITICAL_POWER
+from base.constant import BINARY_SCALE, BASE_CRITICAL_POWER, SHIELD_BASE_MAP, SHIELD_CONSTANT_MAP
 
 
 @cache

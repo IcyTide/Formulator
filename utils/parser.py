@@ -254,9 +254,12 @@ class Parser(BaseParser):
             detail = parse_player(row)
             player_name = detail[1]
             school = SUPPORT_SCHOOLS[school_id]
-            self.select_talents[player_id] = self.parse_talents(detail[6].values())
-            if any(talent not in school.talents for talent in self.select_talents[player_id]):
-                return
+            if equipments := detail.get(5):
+                self.select_equipments[player_id] = self.parse_equipments(equipments.values())
+            if talents := detail.get(6):
+                self.select_talents[player_id] = self.parse_talents(talents.values())
+                if any(talent not in school.talents for talent in self.select_talents[player_id]):
+                    return
             self.players[player_id] = deepcopy(school)
             if len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS:
                 self.players[player_id].platform = 0
@@ -264,7 +267,6 @@ class Parser(BaseParser):
                 self.players[player_id].platform = 1
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
-            self.select_equipments[player_id] = self.parse_equipments(detail[5].values())
         except KeyError:
             return
         except IndexError:

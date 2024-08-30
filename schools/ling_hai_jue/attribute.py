@@ -3,14 +3,14 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    AGILITY_TO_ATTACK_POWER = 1587 / BINARY_SCALE
-    AGILITY_TO_CRITICAL_STRIKE = 369 / BINARY_SCALE
+    AGILITY_TO_ATTACK_POWER = 1802 / BINARY_SCALE
+    AGILITY_TO_CRITICAL_STRIKE = 420 / BINARY_SCALE
     recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()
-        self.physical_attack_power_base += 3621
-        self.physical_critical_strike_base += 2158
+        self.physical_attack_power_base += 6839
+        self.physical_critical_strike_base += 6628
         self.platform = platform
         if not platform:
             pass

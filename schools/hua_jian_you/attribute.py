@@ -3,13 +3,13 @@ from base.constant import *
 
 
 class Attribute(NeutralAttribute):
-    SPUNK_TO_ATTACK_POWER = 1997 / BINARY_SCALE
-    SPUNK_TO_OVERCOME = 195 / BINARY_SCALE
+    SPUNK_TO_ATTACK_POWER = 2079 / BINARY_SCALE
+    SPUNK_TO_OVERCOME = 205 / BINARY_SCALE
     recipes = [(1711, 1)]
 
     def __init__(self, platform=0):
         super().__init__()
-        self.neutral_attack_power_base += 4139
+        self.neutral_attack_power_base += 7242
         self.platform = platform
         if not platform:
             self.pve_addition_base += 113
