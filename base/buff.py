@@ -17,6 +17,8 @@ class BaseBuff:
     buff_id: int = 0
     buff_level: int = 0
     _buff_stack: int = 1
+    alias_name: str = ""
+
     max_level: int = 1
     stackable: bool = True
     _buff_name: List[str] = None

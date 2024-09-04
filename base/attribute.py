@@ -553,7 +553,7 @@ class Overcome(BaseMajor):
     @property
     def final_poison_overcome(self):
         overcome = int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
-        return int(self.base_poison_overcome + self.extra_poison_overcome)
+        return int(overcome + self.extra_poison_overcome)
 
     @property
     def poison_overcome(self):

@@ -56,6 +56,7 @@ def collect_result():
         filter_buff_txt = BUFF_TXT[BUFF_TXT.BuffID == buff_id]
         for _, buff_row in filter_buffs.iterrows():
             result = dict(buff_id=buff_id)
+            alias_name = buff_row["Name"]
             buff_level = buff_row["Level"]
             max_stack = buff_row["MaxStackNum"]
             if filter_buff_txt.empty:
@@ -64,6 +65,7 @@ def collect_result():
                 result['buff_name'] = filter_buff_txt[filter_buff_txt.Level == buff_level].iloc[0].Name
             else:
                 result['buff_name'] = filter_buff_txt.iloc[-1].Name
+            result['alias_name'] = alias_name
             result["max_stack"] = max_stack
             result["buff_level"] = buff_level
             parse_buff(buff_row, result)

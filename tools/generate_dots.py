@@ -60,6 +60,7 @@ def collect_result():
         filter_dots = BUFF_TAB[BUFF_TAB.ID == buff_id]
         filter_dot_txt = BUFF_TXT[BUFF_TXT.BuffID == buff_id]
         for _, buff_row in filter_dots.iterrows():
+            alias_name = buff_row["Name"]
             buff_level = buff_row["Level"]
             if filter_dot_txt.empty:
                 buff_name = ""
@@ -69,7 +70,7 @@ def collect_result():
                 buff_name = filter_dot_txt.iloc[-1].Name
             buff_name += "(DOT)"
 
-            result.append(dict(buff_id=buff_id, buff_name=buff_name, **parse_dot(buff_row)))
+            result.append(dict(buff_id=buff_id, buff_name=buff_name, alias_name=alias_name, **parse_dot(buff_row)))
 
     return pd.DataFrame(result)
 

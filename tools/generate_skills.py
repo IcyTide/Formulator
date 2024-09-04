@@ -128,10 +128,23 @@ SCRIPTS_PATH = {
 }
 
 
+def format_float(num: float, precision: int = 5) -> float:
+    num_str = str(num)
+    if "." in num_str:
+        integer_part, decimal_part = num_str.split(".")
+        for sub in ("0", "9"):
+            sub *= precision
+            if sub in decimal_part:
+                decimal_part = decimal_part[:decimal_part.index(sub) + 1]
+                return round(float(f"{integer_part}.{decimal_part}"), len(decimal_part) - 1)
+    return num
+
+
 class SkillLua:
     skill_id = 0
     skill_level = 0
     skill_name = ""
+    alias_name = ""
 
     platform = 0
 
@@ -298,6 +311,7 @@ class SkillLua:
 
 def parse_lua(skill_id):
     skill_row = SKILL_TAB[SKILL_TAB.SkillID == skill_id].iloc[0]
+    alias_name = skill_row.SkillName
     max_level = int(skill_row.MaxLevel)
     kind_type = skill_row.KindType if pd.notna(skill_row.KindType) else ""
     recipe_type = skill_row.RecipeType if pd.notna(skill_row.RecipeType) else 0
@@ -315,13 +329,13 @@ def parse_lua(skill_id):
     skill_args = (
         kind_type, recipe_type, recipe_mask, weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
     )
-    return max_level, lua_code, skill_args
+    return alias_name, max_level, lua_code, skill_args
 
 
 def collect_result():
     result = []
     for skill_id in tqdm(SKILLS):
-        max_level, lua_code, skill_args = parse_lua(skill_id)
+        alias_name, max_level, lua_code, skill_args = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
         LUA.execute(lua_code)
         for skill_level in range(max_level):
@@ -334,6 +348,7 @@ def collect_result():
                 skill_name = filter_skill_txt.iloc[-1].Name
 
             skill = SkillLua(skill_id, skill_level, skill_name, *skill_args)
+            skill.alias_name = alias_name
             skill.max_level = max_level
             LUA.globals()['GetSkillLevelData'](skill)
             if not skill.physical_damage_call and skill.weapon_damage_cof:
@@ -346,17 +361,23 @@ def collect_result():
 def convert_json(result):
     exclude_columns = [
         "skill_id", "skill_level", "weapon_request", "use_skill_cof",
-        "kind_type", "recipe_type", "recipe_mask", "platform"
+        "alias_name", "kind_type", "recipe_type", "recipe_mask", "platform"
     ]
     float_columns = [
         "prepare_frame", "channel_interval", "weapon_damage_cof", "global_damage_factor",
     ]
     result_json = {}
+    for column in result.columns:
+        result[column] = result[column].fillna(0)
+        if column in float_columns:
+            result[column] = result[column].apply(format_float)
+        elif pd.api.types.is_numeric_dtype(result[column]):
+            result[column] = result[column].astype(int)
     for skill_id in result.skill_id.unique().tolist():
         filter_result = result[result.skill_id == skill_id]
         first_row = filter_result.iloc[0]
         result_json[skill_id] = dict(
-            kind_type=first_row.kind_type, platform=int(first_row.platform),
+            alias_name=first_row.alias_name, kind_type=first_row.kind_type, platform=int(first_row.platform),
             recipe_type=int(first_row.recipe_type), recipe_mask=int(first_row.recipe_mask),
         )
         for column in result.columns:
@@ -364,13 +385,11 @@ def convert_json(result):
                 continue
             if filter_result[column].isna().all():
                 continue
-            filter_column = filter_result[column].fillna(0)
-            if column not in float_columns and pd.api.types.is_numeric_dtype(filter_column):
-                filter_column = filter_column.astype(int)
-            if filter_column.nunique() == 1:
-                result_json[skill_id][column] = filter_column.tolist()[0]
+            if filter_result[column].nunique() == 1:
+                if value := filter_result[column].tolist()[0]:
+                    result_json[skill_id][column] = value
             else:
-                result_json[skill_id][column] = filter_column.tolist()
+                result_json[skill_id][column] = filter_result[column].tolist()
 
     save_code("skills", result_json)
 

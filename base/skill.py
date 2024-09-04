@@ -12,6 +12,7 @@ class BaseSkill:
     skill_id: int = 0
     _skill_name: List[str] = []
     skill_level: int = 0
+    alias_name: str = ""
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
@@ -82,6 +83,12 @@ class BaseDamage(BaseSkill):
             self._prepare_frame = prepare_frame
         else:
             self._prepare_frame = [prepare_frame]
+
+    @property
+    def all_channel_interval(self):
+        if not self._channel_interval:
+            return []
+        return self._channel_interval
 
     @property
     def channel_interval(self):

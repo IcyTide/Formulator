@@ -1,6 +1,7 @@
 DOTS = {
     743: {
         "buff_name": "横扫六合(DOT)",
+        "alias_name": "六合内伤",
         "interval": 32,
         "tick": 6,
         "max_stack": [
@@ -128,6 +129,7 @@ DOTS = {
     },
     6424: {
         "buff_name": "气竭(DOT)",
+        "alias_name": "纯阳_万世不竭DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -137,6 +139,7 @@ DOTS = {
     },
     748: {
         "buff_name": "叠刃(DOT)",
+        "alias_name": "太虚剑意_放气暴击DOT",
         "interval": 48,
         "tick": 8,
         "max_stack": [
@@ -149,6 +152,7 @@ DOTS = {
     },
     889: {
         "buff_name": "人剑合一(DOT)",
+        "alias_name": "人剑合一秘笈",
         "interval": 48,
         "tick": 4,
         "max_stack": 1,
@@ -158,6 +162,7 @@ DOTS = {
     },
     23170: {
         "buff_name": "万象归元(DOT)",
+        "alias_name": "剑纯八荒橙武dot",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
@@ -167,6 +172,7 @@ DOTS = {
     },
     70624: {
         "buff_name": "叠刃(DOT)",
+        "alias_name": "移动端_叠刃_逻辑",
         "interval": 16,
         "tick": 6,
         "max_stack": 3,
@@ -176,6 +182,7 @@ DOTS = {
     },
     711: {
         "buff_name": "兰摧玉折(DOT)",
+        "alias_name": "兰摧玉折_DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -205,6 +212,7 @@ DOTS = {
     },
     714: {
         "buff_name": "钟林毓秀(DOT)",
+        "alias_name": "钟林毓秀_正常DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -239,6 +247,7 @@ DOTS = {
     },
     666: {
         "buff_name": "商阳指(DOT)",
+        "alias_name": "商阳指_DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -278,6 +287,7 @@ DOTS = {
     },
     24158: {
         "buff_name": "快雪时晴(DOT)",
+        "alias_name": "花间_快雪时晴dot",
         "interval": 64,
         "tick": 7,
         "max_stack": 6,
@@ -287,6 +297,7 @@ DOTS = {
     },
     70041: {
         "buff_name": "兰摧(DOT)",
+        "alias_name": "兰摧玉折",
         "interval": 48,
         "tick": 7,
         "max_stack": 1,
@@ -296,6 +307,7 @@ DOTS = {
     },
     3442: {
         "buff_name": "流血(DOT)",
+        "alias_name": "天策_破风_DOT",
         "interval": 32,
         "tick": 7,
         "max_stack": 2,
@@ -336,6 +348,7 @@ DOTS = {
     },
     12461: {
         "buff_name": "流血(DOT)",
+        "alias_name": "牙璋_连续破风",
         "interval": 32,
         "tick": 7,
         "max_stack": 3,
@@ -376,6 +389,7 @@ DOTS = {
     },
     2920: {
         "buff_name": "急曲(DOT)",
+        "alias_name": "七秀_玳弦急曲_DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -414,6 +428,7 @@ DOTS = {
     },
     70030: {
         "buff_name": "急曲·悟(DOT)",
+        "alias_name": "移动端_冰心通用_急曲效果",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -423,6 +438,7 @@ DOTS = {
     },
     6218: {
         "buff_name": "蝎心(DOT)",
+        "alias_name": "五毒_蝎心DOT",
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
@@ -464,6 +480,7 @@ DOTS = {
     },
     2509: {
         "buff_name": "百足(DOT)",
+        "alias_name": "五毒_五仙图录_百足",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -508,6 +525,7 @@ DOTS = {
     },
     12557: {
         "buff_name": "百足(DOT)",
+        "alias_name": "百足dot_缩短",
         "interval": 32,
         "tick": 9,
         "max_stack": 1,
@@ -552,6 +570,7 @@ DOTS = {
     },
     2295: {
         "buff_name": "蟾啸(DOT)",
+        "alias_name": "五毒_五仙图录_蟾啸",
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
@@ -588,6 +607,7 @@ DOTS = {
     },
     18882: {
         "buff_name": "赤蛇(DOT)",
+        "alias_name": "橙武额外dot",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
@@ -597,6 +617,7 @@ DOTS = {
     },
     2296: {
         "buff_name": "蛇影(DOT)",
+        "alias_name": "五毒_五仙图录_蛇影",
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
@@ -639,6 +660,7 @@ DOTS = {
     },
     25917: {
         "buff_name": "蛇影(DOT)",
+        "alias_name": "蛇影_重蛊",
         "interval": 32,
         "tick": 6,
         "max_stack": 2,
@@ -648,6 +670,7 @@ DOTS = {
     },
     2237: {
         "buff_name": "穿心(DOT)",
+        "alias_name": "唐门_化血镖_外功",
         "interval": 48,
         "tick": 6,
         "max_stack": 2,
@@ -687,6 +710,7 @@ DOTS = {
     },
     19625: {
         "buff_name": "星斗阑干(DOT)",
+        "alias_name": "惊羽CWdot",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
@@ -696,6 +720,7 @@ DOTS = {
     },
     14611: {
         "buff_name": "化血(DOT)",
+        "alias_name": "化学镖内功当前目标",
         "interval": 48,
         "tick": 16,
         "max_stack": 1,
@@ -735,6 +760,7 @@ DOTS = {
     },
     4202: {
         "buff_name": "银月斩(DOT)",
+        "alias_name": "明教_银月斩_DOT",
         "interval": 32,
         "tick": 9,
         "max_stack": 1,
@@ -763,6 +789,7 @@ DOTS = {
     },
     25725: {
         "buff_name": "靡业报劫·日(DOT)",
+        "alias_name": "明教_新生死劫dot_日",
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
@@ -772,6 +799,7 @@ DOTS = {
     },
     25726: {
         "buff_name": "靡业报劫·月(DOT)",
+        "alias_name": "明教_新生死劫dot_月",
         "interval": 32,
         "tick": 7,
         "max_stack": 1,
@@ -781,6 +809,7 @@ DOTS = {
     },
     6367: {
         "buff_name": "亢龙有悔(DOT)",
+        "alias_name": "亢龙有悔_Dot",
         "interval": 48,
         "tick": 5,
         "max_stack": 2,
@@ -811,6 +840,7 @@ DOTS = {
     },
     6401: {
         "buff_name": "亢龙有悔(DOT)",
+        "alias_name": "亢龙有悔_叠加Dot",
         "interval": 48,
         "tick": 10,
         "max_stack": 10,
@@ -841,6 +871,7 @@ DOTS = {
     },
     8249: {
         "buff_name": "流血(DOT)",
+        "alias_name": "流血",
         "interval": [
             32,
             32,
@@ -1078,6 +1109,7 @@ DOTS = {
     },
     9357: {
         "buff_name": "商(DOT)",
+        "alias_name": "商正常dot",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -1113,6 +1145,7 @@ DOTS = {
     },
     9361: {
         "buff_name": "角(DOT)",
+        "alias_name": "角正常dot",
         "interval": 48,
         "tick": 6,
         "max_stack": 1,
@@ -1148,6 +1181,7 @@ DOTS = {
     },
     23187: {
         "buff_name": "神兵·宫(DOT)",
+        "alias_name": "莫问cw宫dot",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
@@ -1157,6 +1191,7 @@ DOTS = {
     },
     11447: {
         "buff_name": "闹须弥(DOT)",
+        "alias_name": "闹须弥流血",
         "interval": 48,
         "tick": 8,
         "max_stack": 1,
@@ -1177,6 +1212,7 @@ DOTS = {
     },
     19555: {
         "buff_name": "背水沉舟(DOT)",
+        "alias_name": "霸刀橙武dot",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -1186,6 +1222,7 @@ DOTS = {
     },
     70364: {
         "buff_name": "流血(DOT)",
+        "alias_name": "移动端_霸刀_闹须弥流血",
         "interval": [
             32,
             48,
@@ -1217,6 +1254,7 @@ DOTS = {
     },
     18386: {
         "buff_name": "青冥(DOT)",
+        "alias_name": "青冥持续伤害",
         "interval": 32,
         "tick": 6,
         "max_stack": 6,
@@ -1226,6 +1264,7 @@ DOTS = {
     },
     19557: {
         "buff_name": "御波驾澜(DOT)",
+        "alias_name": "蓬莱CWdot",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -1235,6 +1274,7 @@ DOTS = {
     },
     15568: {
         "buff_name": "寂洪荒(DOT)",
+        "alias_name": "寂洪荒持续伤害",
         "interval": 48,
         "tick": 5,
         "max_stack": 3,
@@ -1244,6 +1284,7 @@ DOTS = {
     },
     19626: {
         "buff_name": "乍起狂澜(DOT)",
+        "alias_name": "凌雪阁橙武DOT",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -1253,6 +1294,7 @@ DOTS = {
     },
     24846: {
         "buff_name": "斗循天转(DOT)",
+        "alias_name": "衍天宗橙色武器特效dot",
         "interval": 48,
         "tick": 10,
         "max_stack": 3,
@@ -1262,6 +1304,7 @@ DOTS = {
     },
     20052: {
         "buff_name": "逆乱(DOT)",
+        "alias_name": "逆乱",
         "interval": 32,
         "tick": 7,
         "max_stack": 8,
@@ -1282,6 +1325,7 @@ DOTS = {
     },
     71171: {
         "buff_name": "中毒(DOT)",
+        "alias_name": "移动端_中毒",
         "interval": 16,
         "tick": 6,
         "max_stack": 1,
@@ -1291,6 +1335,7 @@ DOTS = {
     },
     24132: {
         "buff_name": "流血(DOT)",
+        "alias_name": "横云断浪流血",
         "interval": 32,
         "tick": 3,
         "max_stack": 4,
@@ -1318,6 +1363,7 @@ DOTS = {
     },
     24443: {
         "buff_name": "流血(DOT)",
+        "alias_name": "横云断浪流血增强",
         "interval": 32,
         "tick": 3,
         "max_stack": 6,
@@ -1345,6 +1391,7 @@ DOTS = {
     },
     24650: {
         "buff_name": "截辕(DOT)",
+        "alias_name": "刀气流血效果",
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
@@ -1354,6 +1401,7 @@ DOTS = {
     },
     27820: {
         "buff_name": "斩浪破锋(DOT)",
+        "alias_name": "刀宗cwDot",
         "interval": 48,
         "tick": 6,
         "max_stack": 3,
@@ -1363,6 +1411,7 @@ DOTS = {
     },
     70593: {
         "buff_name": "截辕·悟(DOT)",
+        "alias_name": "移动端_孤锋诀_孤风破浪_刀气流血效果",
         "interval": 32,
         "tick": 6,
         "max_stack": 1,
@@ -1372,6 +1421,7 @@ DOTS = {
     },
     70583: {
         "buff_name": "流血(DOT)",
+        "alias_name": "移动端_孤锋诀_停云势_流血Dot",
         "interval": 32,
         "tick": 9,
         "max_stack": [
@@ -1384,6 +1434,7 @@ DOTS = {
     },
     26856: {
         "buff_name": "贯穿(DOT)",
+        "alias_name": "万灵山庄_贯穿",
         "interval": 8,
         "tick": 4,
         "max_stack": 6,
@@ -1393,6 +1444,7 @@ DOTS = {
     },
     71175: {
         "buff_name": "流血(DOT)",
+        "alias_name": "移动端_万灵_动物造成的流血",
         "interval": 16,
         "tick": 6,
         "max_stack": 1,
