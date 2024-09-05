@@ -12,10 +12,6 @@ class Recipes:
     def __setitem__(self, key, value):
         self.recipes[key] = value
 
-    @property
-    def gains(self):
-        return [recipe for recipes in self.recipes for recipe in recipes]
-
 
 def recipes_script(recipes_widget: RecipesWidget):
     recipes = Recipes()

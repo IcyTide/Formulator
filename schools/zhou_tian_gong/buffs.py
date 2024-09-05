@@ -5,7 +5,7 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        18555: {}, 29243: dict(buff_name="玉枕"), 29254: {}, 29237: {},
+        18555: {}, 29243: dict(buff_name="玉枕"), 29254: {}, 29237: {}, 28756: {},
     }
 }
 BUFFS: Dict[int, Buff] = {**GENERAL_BUFFS}

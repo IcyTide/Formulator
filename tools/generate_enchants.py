@@ -13,13 +13,15 @@ def get_enchants_list():
     enchant_tab = ENCHANT_TAB[ENCHANT_TAB.ID >= ENCHANT_START_ID].sort_values("Score", ascending=False)
     results = defaultdict(dict)
     for row in tqdm(enchant_tab.itertuples()):
-        if row.Time or row.Attribute1ID not in ATTR_TYPE_MAP or row.Attribute1ID in TARGET_ATTR_TYPE_MAP:
+        if row.Attribute1ID not in ATTR_TYPE_MAP or row.Attribute1ID in TARGET_ATTR_TYPE_MAP:
             continue
         name = f"{row.Name} {row.AttriName}"
         position = POSITION_MAP[row.DestItemSubType]
-        results[position][name] = dict(id=row.ID, score=int(row.Score), attr={
-            ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)
-        })
+        attr = {ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)}
+        if row.Time:
+            results["consumable"][name] = attr
+        else:
+            results[position][name] = dict(id=row.ID, score=int(row.Score), attr=attr)
     results["secondary_weapon"] = results["primary_weapon"]
     return results
 

@@ -82,8 +82,8 @@ class SkillRecipe(Recipe):
         return False
 
     def add_skill(self, skill: Skill):
-        skill.damage_addition_extra += self.damage_addition
-        skill.prepare_frame_extra += self.prepare_frame
+        skill.damage_addition_add += self.damage_addition
+        skill.prepare_frame_add += self.prepare_frame
 
     def add_skills(self, skills: Dict[int, Skill]):
         return_tag = False
@@ -94,8 +94,8 @@ class SkillRecipe(Recipe):
         return return_tag
 
     def sub_skill(self, skill: Skill):
-        skill.damage_addition_extra -= self.damage_addition
-        skill.prepare_frame_extra -= self.prepare_frame
+        skill.damage_addition_add -= self.damage_addition
+        skill.prepare_frame_add -= self.prepare_frame
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():
@@ -116,8 +116,8 @@ class DotRecipe(Recipe):
         return False
 
     def add_dot(self, dot: Dot):
-        dot.interval_extra += self.interval
-        dot.tick_extra += self.interval
+        dot.interval_add += self.interval
+        dot.tick_add += self.interval
 
     def add_dots(self, dots: Dict[int, Dot]):
         for dot in dots.values():
@@ -125,8 +125,8 @@ class DotRecipe(Recipe):
                 self.add_dot(dot)
 
     def sub_dot(self, dot: Dot):
-        dot.interval_extra -= self.interval
-        dot.tick_extra -= self.interval
+        dot.interval_add -= self.interval
+        dot.tick_add -= self.interval
 
     def sub_dots(self, dots: Dict[int, Dot]):
         for dot in dots.values():

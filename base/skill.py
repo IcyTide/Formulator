@@ -54,16 +54,15 @@ class BaseDamage(BaseSkill):
     dot_cof: int = 0
     _surplus_cof: int = 0
 
-    prepare_frame_extra: int = 0
-    channel_interval_extra: float = 1.
-    global_damage_factor_extra: float = 1.
-
+    prepare_frame_add: int = 0
+    channel_interval_add: float = 1.
+    
     _damage_addition: List[int] = []
-    damage_addition_extra: int = 0
+    damage_addition_add: int = 0
     move_state_damage_addition: int = 0
 
     _pve_addition: List[int] = []
-    pve_addition_extra: int = 0
+    pve_addition_add: int = 0
 
     physical_attack_power_base: List[int] = []
     magical_attack_power_base: List[int] = []
@@ -73,9 +72,9 @@ class BaseDamage(BaseSkill):
         if not self._prepare_frame:
             return 0
         elif self.skill_level > len(self._prepare_frame):
-            return self._prepare_frame[-1] + self.prepare_frame_extra
+            return self._prepare_frame[-1] + self.prepare_frame_add
         else:
-            return self._prepare_frame[self.skill_level - 1] + self.prepare_frame_extra
+            return self._prepare_frame[self.skill_level - 1] + self.prepare_frame_add
 
     @prepare_frame.setter
     def prepare_frame(self, prepare_frame):
@@ -95,9 +94,9 @@ class BaseDamage(BaseSkill):
         if not self._channel_interval:
             return 0
         if self.skill_level > len(self._channel_interval):
-            channel_interval = self._channel_interval[-1] * self.channel_interval_extra
+            channel_interval = self._channel_interval[-1] * self.channel_interval_add
         else:
-            channel_interval = self._channel_interval[self.skill_level - 1] * self.channel_interval_extra
+            channel_interval = self._channel_interval[self.skill_level - 1] * self.channel_interval_add
 
         return int(channel_interval)
 
@@ -113,7 +112,7 @@ class BaseDamage(BaseSkill):
         if not self.platform:
             return DEFAULT_SURPLUS_COF * self.global_damage_factor
         else:
-            return self._surplus_cof / BINARY_SCALE * self.global_damage_factor
+            return self._surplus_cof * self.global_damage_factor / BINARY_SCALE
 
     @surplus_cof.setter
     def surplus_cof(self, surplus_cof):
@@ -127,7 +126,7 @@ class BaseDamage(BaseSkill):
             weapon_damage_cof = self._weapon_damage_cof[-1]
         else:
             weapon_damage_cof = self._weapon_damage_cof[self.skill_level - 1]
-        return WEAPON_DAMAGE_COF(weapon_damage_cof) * self.global_damage_factor
+        return WEAPON_DAMAGE_COF(weapon_damage_cof)
 
     @weapon_damage_cof.setter
     def weapon_damage_cof(self, weapon_damage_cof):
@@ -139,11 +138,11 @@ class BaseDamage(BaseSkill):
     @property
     def global_damage_factor(self):
         if not self._global_damage_factor:
-            return self.global_damage_factor_extra
+            return 1.
         elif self.skill_level > len(self._global_damage_factor):
-            return GLOBAL_DAMAGE_COF(self._global_damage_factor[-1]) * self.global_damage_factor_extra
+            return GLOBAL_DAMAGE_COF(self._global_damage_factor[-1])
         else:
-            return GLOBAL_DAMAGE_COF(self._global_damage_factor[self.skill_level - 1]) * self.global_damage_factor_extra
+            return GLOBAL_DAMAGE_COF(self._global_damage_factor[self.skill_level - 1])
 
     @global_damage_factor.setter
     def global_damage_factor(self, global_damage_factor):
@@ -155,11 +154,11 @@ class BaseDamage(BaseSkill):
     @property
     def damage_addition(self):
         if not self._damage_addition:
-            return self.damage_addition_extra
+            return self.damage_addition_add
         elif self.skill_level > len(self._damage_addition):
-            return self._damage_addition[-1] + self.damage_addition_extra
+            return self._damage_addition[-1] + self.damage_addition_add
         else:
-            return self._damage_addition[self.skill_level - 1] + self.damage_addition_extra
+            return self._damage_addition[self.skill_level - 1] + self.damage_addition_add
 
     @damage_addition.setter
     def damage_addition(self, damage_addition):
@@ -171,11 +170,11 @@ class BaseDamage(BaseSkill):
     @property
     def pve_addition(self):
         if not self._pve_addition:
-            return self.pve_addition_extra
+            return self.pve_addition_add
         elif self.skill_level > len(self._pve_addition):
-            return self._pve_addition[-1] + self.pve_addition_extra
+            return self._pve_addition[-1] + self.pve_addition_add
         else:
-            return self._pve_addition[self.skill_level - 1] + self.pve_addition_extra
+            return self._pve_addition[self.skill_level - 1] + self.pve_addition_add
 
     @pve_addition.setter
     def pve_addition(self, pve_addition):
@@ -260,11 +259,11 @@ class PhysicalDamage(BaseDamage):
     _physical_attack_power_gain: List[int] = []
 
     _physical_critical_strike_rate: List[int] = []
-    physical_critical_strike_rate_extra: int = 0
+    physical_critical_strike_rate_add: int = 0
     _physical_critical_power_rate: List[int] = []
-    physical_critical_power_rate_extra: int = 0
+    physical_critical_power_rate_add: int = 0
     _physical_shield_gain: List[int] = []
-    physical_shield_gain_extra: int = 0
+    physical_shield_gain_add: int = 0
 
     @property
     def physical_damage_call(self):
@@ -349,11 +348,11 @@ class PhysicalDamage(BaseDamage):
     @property
     def physical_critical_strike_rate(self):
         if not self._physical_critical_strike_rate:
-            return self.physical_critical_strike_rate_extra
+            return self.physical_critical_strike_rate_add
         elif self.skill_level > len(self._physical_critical_strike_rate):
-            return self._physical_critical_strike_rate[-1] + self.physical_critical_strike_rate_extra
+            return self._physical_critical_strike_rate[-1] + self.physical_critical_strike_rate_add
         else:
-            return self._physical_critical_strike_rate[self.skill_level - 1] + self.physical_critical_strike_rate_extra
+            return self._physical_critical_strike_rate[self.skill_level - 1] + self.physical_critical_strike_rate_add
 
     @physical_critical_strike_rate.setter
     def physical_critical_strike_rate(self, physical_critical_strike_rate):
@@ -365,11 +364,11 @@ class PhysicalDamage(BaseDamage):
     @property
     def physical_critical_power_rate(self):
         if not self._physical_critical_power_rate:
-            return self.physical_critical_power_rate_extra
+            return self.physical_critical_power_rate_add
         elif self.skill_level > len(self._physical_critical_power_rate):
-            return self._physical_critical_power_rate[-1] + self.physical_critical_power_rate_extra
+            return self._physical_critical_power_rate[-1] + self.physical_critical_power_rate_add
         else:
-            return self._physical_critical_power_rate[self.skill_level - 1] + self.physical_critical_power_rate_extra
+            return self._physical_critical_power_rate[self.skill_level - 1] + self.physical_critical_power_rate_add
 
     @physical_critical_power_rate.setter
     def physical_critical_power_rate(self, physical_critical_power_rate):
@@ -381,11 +380,11 @@ class PhysicalDamage(BaseDamage):
     @property
     def physical_shield_gain(self):
         if not self._physical_shield_gain:
-            return self.physical_shield_gain_extra
+            return self.physical_shield_gain_add
         elif self.skill_level > len(self._physical_shield_gain):
-            return self._physical_shield_gain[-1] + self.physical_shield_gain_extra
+            return self._physical_shield_gain[-1] + self.physical_shield_gain_add
         else:
-            return self._physical_shield_gain[self.skill_level - 1] + self.physical_shield_gain_extra
+            return self._physical_shield_gain[self.skill_level - 1] + self.physical_shield_gain_add
 
     @physical_shield_gain.setter
     def physical_shield_gain(self, physical_shield_gain):
@@ -441,13 +440,13 @@ class SolarDamage(BaseDamage):
     _solar_damage_rand: List[int] = []
 
     _solar_attack_power_gain: List[int] = []
-    solar_attack_power_gain_extra: int = 0
+    solar_attack_power_gain_add: int = 0
     _solar_critical_strike_rate: List[int] = []
-    solar_critical_strike_rate_extra: int = 0
+    solar_critical_strike_rate_add: int = 0
     _solar_critical_power_rate: List[int] = []
-    solar_critical_power_rate_extra: int = 0
+    solar_critical_power_rate_add: int = 0
     _solar_shield_gain: List[int] = []
-    solar_shield_gain_extra: int = 0
+    solar_shield_gain_add: int = 0
 
     @property
     def solar_damage_call(self):
@@ -516,11 +515,11 @@ class SolarDamage(BaseDamage):
     @property
     def solar_attack_power_gain(self):
         if not self._solar_attack_power_gain:
-            return self.solar_attack_power_gain_extra
+            return self.solar_attack_power_gain_add
         elif self.skill_level > len(self._solar_attack_power_gain):
-            return self._solar_attack_power_gain[-1] + self.solar_attack_power_gain_extra
+            return self._solar_attack_power_gain[-1] + self.solar_attack_power_gain_add
         else:
-            return self._solar_attack_power_gain[self.skill_level - 1] + self.solar_attack_power_gain_extra
+            return self._solar_attack_power_gain[self.skill_level - 1] + self.solar_attack_power_gain_add
 
     @solar_attack_power_gain.setter
     def solar_attack_power_gain(self, solar_attack_power_gain):
@@ -532,11 +531,11 @@ class SolarDamage(BaseDamage):
     @property
     def solar_critical_strike_rate(self):
         if not self._solar_critical_strike_rate:
-            return self.solar_critical_strike_rate_extra
+            return self.solar_critical_strike_rate_add
         elif self.skill_level > len(self._solar_critical_strike_rate):
-            return self._solar_critical_strike_rate[-1] + self.solar_critical_strike_rate_extra
+            return self._solar_critical_strike_rate[-1] + self.solar_critical_strike_rate_add
         else:
-            return self._solar_critical_strike_rate[self.skill_level - 1] + self.solar_critical_strike_rate_extra
+            return self._solar_critical_strike_rate[self.skill_level - 1] + self.solar_critical_strike_rate_add
 
     @solar_critical_strike_rate.setter
     def solar_critical_strike_rate(self, solar_critical_strike_rate):
@@ -548,11 +547,11 @@ class SolarDamage(BaseDamage):
     @property
     def solar_critical_power_rate(self):
         if not self._solar_critical_power_rate:
-            return self.solar_critical_power_rate_extra
+            return self.solar_critical_power_rate_add
         elif self.skill_level > len(self._solar_critical_power_rate):
-            return self._solar_critical_power_rate[-1] + self.solar_critical_power_rate_extra
+            return self._solar_critical_power_rate[-1] + self.solar_critical_power_rate_add
         else:
-            return self._solar_critical_power_rate[self.skill_level - 1] + self.solar_critical_power_rate_extra
+            return self._solar_critical_power_rate[self.skill_level - 1] + self.solar_critical_power_rate_add
 
     @solar_critical_power_rate.setter
     def solar_critical_power_rate(self, solar_critical_power_rate):
@@ -564,11 +563,11 @@ class SolarDamage(BaseDamage):
     @property
     def solar_shield_gain(self):
         if not self._solar_shield_gain:
-            return self.solar_shield_gain_extra
+            return self.solar_shield_gain_add
         elif self.skill_level > len(self._solar_shield_gain):
-            return self._solar_shield_gain[-1] + self.solar_shield_gain_extra
+            return self._solar_shield_gain[-1] + self.solar_shield_gain_add
         else:
-            return self._solar_shield_gain[self.skill_level - 1] + self.solar_shield_gain_extra
+            return self._solar_shield_gain[self.skill_level - 1] + self.solar_shield_gain_add
 
     @solar_shield_gain.setter
     def solar_shield_gain(self, solar_shield_gain):
@@ -623,13 +622,13 @@ class LunarDamage(BaseDamage):
     _lunar_damage_rand: List[int] = []
 
     _lunar_attack_power_gain: List[int] = []
-    lunar_attack_power_gain_extra: int = 0
+    lunar_attack_power_gain_add: int = 0
     _lunar_critical_strike_rate: List[int] = []
-    lunar_critical_strike_rate_extra: int = 0
+    lunar_critical_strike_rate_add: int = 0
     _lunar_critical_power_rate: List[int] = []
-    lunar_critical_power_rate_extra: int = 0
+    lunar_critical_power_rate_add: int = 0
     _lunar_shield_gain: List[int] = []
-    lunar_shield_gain_extra: int = 0
+    lunar_shield_gain_add: int = 0
 
     @property
     def lunar_damage_call(self):
@@ -698,11 +697,11 @@ class LunarDamage(BaseDamage):
     @property
     def lunar_attack_power_gain(self):
         if not self._lunar_attack_power_gain:
-            return self.lunar_attack_power_gain_extra
+            return self.lunar_attack_power_gain_add
         elif self.skill_level > len(self._lunar_attack_power_gain):
-            return self._lunar_attack_power_gain[-1] + self.lunar_attack_power_gain_extra
+            return self._lunar_attack_power_gain[-1] + self.lunar_attack_power_gain_add
         else:
-            return self._lunar_attack_power_gain[self.skill_level - 1] + self.lunar_attack_power_gain_extra
+            return self._lunar_attack_power_gain[self.skill_level - 1] + self.lunar_attack_power_gain_add
 
     @lunar_attack_power_gain.setter
     def lunar_attack_power_gain(self, lunar_attack_power_gain):
@@ -714,11 +713,11 @@ class LunarDamage(BaseDamage):
     @property
     def lunar_critical_strike_rate(self):
         if not self._lunar_critical_strike_rate:
-            return self.lunar_critical_strike_rate_extra
+            return self.lunar_critical_strike_rate_add
         elif self.skill_level > len(self._lunar_critical_strike_rate):
-            return self._lunar_critical_strike_rate[-1] + self.lunar_critical_strike_rate_extra
+            return self._lunar_critical_strike_rate[-1] + self.lunar_critical_strike_rate_add
         else:
-            return self._lunar_critical_strike_rate[self.skill_level - 1] + self.lunar_critical_strike_rate_extra
+            return self._lunar_critical_strike_rate[self.skill_level - 1] + self.lunar_critical_strike_rate_add
 
     @lunar_critical_strike_rate.setter
     def lunar_critical_strike_rate(self, lunar_critical_strike_rate):
@@ -730,11 +729,11 @@ class LunarDamage(BaseDamage):
     @property
     def lunar_critical_power_rate(self):
         if not self._lunar_critical_power_rate:
-            return self.lunar_critical_power_rate_extra
+            return self.lunar_critical_power_rate_add
         elif self.skill_level > len(self._lunar_critical_power_rate):
-            return self._lunar_critical_power_rate[-1] + self.lunar_critical_power_rate_extra
+            return self._lunar_critical_power_rate[-1] + self.lunar_critical_power_rate_add
         else:
-            return self._lunar_critical_power_rate[self.skill_level - 1] + self.lunar_critical_power_rate_extra
+            return self._lunar_critical_power_rate[self.skill_level - 1] + self.lunar_critical_power_rate_add
 
     @lunar_critical_power_rate.setter
     def lunar_critical_power_rate(self, lunar_critical_power_rate):
@@ -746,11 +745,11 @@ class LunarDamage(BaseDamage):
     @property
     def lunar_shield_gain(self):
         if not self._lunar_shield_gain:
-            return self.lunar_shield_gain_extra
+            return self.lunar_shield_gain_add
         elif self.skill_level > len(self._lunar_shield_gain):
-            return self._lunar_shield_gain[-1] + self.lunar_shield_gain_extra
+            return self._lunar_shield_gain[-1] + self.lunar_shield_gain_add
         else:
-            return self._lunar_shield_gain[self.skill_level - 1] + self.lunar_shield_gain_extra
+            return self._lunar_shield_gain[self.skill_level - 1] + self.lunar_shield_gain_add
 
     @lunar_shield_gain.setter
     def lunar_shield_gain(self, lunar_shield_gain):
@@ -806,11 +805,11 @@ class NeutralDamage(BaseDamage):
 
     _neutral_attack_power_gain: List[int] = []
     _neutral_critical_strike_rate: List[int] = []
-    neutral_critical_strike_rate_extra: int = 0
+    neutral_critical_strike_rate_add: int = 0
     _neutral_critical_power_rate: List[int] = []
-    neutral_critical_power_rate_extra: int = 0
+    neutral_critical_power_rate_add: int = 0
     _neutral_shield_gain: List[int] = []
-    neutral_shield_gain_extra: int = 0
+    neutral_shield_gain_add: int = 0
 
     @property
     def neutral_damage_call(self):
@@ -895,11 +894,11 @@ class NeutralDamage(BaseDamage):
     @property
     def neutral_critical_strike_rate(self):
         if not self._neutral_critical_strike_rate:
-            return self.neutral_critical_strike_rate_extra
+            return self.neutral_critical_strike_rate_add
         elif self.skill_level > len(self._neutral_critical_strike_rate):
-            return self._neutral_critical_strike_rate[-1] + self.neutral_critical_strike_rate_extra
+            return self._neutral_critical_strike_rate[-1] + self.neutral_critical_strike_rate_add
         else:
-            return self._neutral_critical_strike_rate[self.skill_level - 1] + self.neutral_critical_strike_rate_extra
+            return self._neutral_critical_strike_rate[self.skill_level - 1] + self.neutral_critical_strike_rate_add
 
     @neutral_critical_strike_rate.setter
     def neutral_critical_strike_rate(self, neutral_critical_strike_rate):
@@ -911,11 +910,11 @@ class NeutralDamage(BaseDamage):
     @property
     def neutral_critical_power_rate(self):
         if not self._neutral_critical_power_rate:
-            return self.neutral_critical_power_rate_extra
+            return self.neutral_critical_power_rate_add
         elif self.skill_level > len(self._neutral_critical_power_rate):
-            return self._neutral_critical_power_rate[-1] + self.neutral_critical_power_rate_extra
+            return self._neutral_critical_power_rate[-1] + self.neutral_critical_power_rate_add
         else:
-            return self._neutral_critical_power_rate[self.skill_level - 1] + self.neutral_critical_power_rate_extra
+            return self._neutral_critical_power_rate[self.skill_level - 1] + self.neutral_critical_power_rate_add
 
     @neutral_critical_power_rate.setter
     def neutral_critical_power_rate(self, neutral_critical_power_rate):
@@ -927,11 +926,11 @@ class NeutralDamage(BaseDamage):
     @property
     def neutral_shield_gain(self):
         if not self._neutral_shield_gain:
-            return self.neutral_shield_gain_extra
+            return self.neutral_shield_gain_add
         elif self.skill_level > len(self._neutral_shield_gain):
-            return self._neutral_shield_gain[-1] + self.neutral_shield_gain_extra
+            return self._neutral_shield_gain[-1] + self.neutral_shield_gain_add
         else:
-            return self._neutral_shield_gain[self.skill_level - 1] + self.neutral_shield_gain_extra
+            return self._neutral_shield_gain[self.skill_level - 1] + self.neutral_shield_gain_add
 
     @neutral_shield_gain.setter
     def neutral_shield_gain(self, neutral_shield_gain):
@@ -987,11 +986,11 @@ class PoisonDamage(BaseDamage):
 
     _poison_attack_power_gain: List[int] = []
     _poison_critical_strike_rate: List[int] = []
-    poison_critical_strike_rate_extra: int = 0
+    poison_critical_strike_rate_add: int = 0
     _poison_critical_power_rate: List[int] = []
-    poison_critical_power_rate_extra: int = 0
+    poison_critical_power_rate_add: int = 0
     _poison_shield_gain: List[int] = []
-    poison_shield_gain_extra: int = 0
+    poison_shield_gain_add: int = 0
 
     @property
     def poison_damage_call(self):
@@ -1076,11 +1075,11 @@ class PoisonDamage(BaseDamage):
     @property
     def poison_critical_strike_rate(self):
         if not self._poison_critical_strike_rate:
-            return self.poison_critical_strike_rate_extra
+            return self.poison_critical_strike_rate_add
         elif self.skill_level > len(self._poison_critical_strike_rate):
-            return self._poison_critical_strike_rate[-1] + self.poison_critical_strike_rate_extra
+            return self._poison_critical_strike_rate[-1] + self.poison_critical_strike_rate_add
         else:
-            return self._poison_critical_strike_rate[self.skill_level - 1] + self.poison_critical_strike_rate_extra
+            return self._poison_critical_strike_rate[self.skill_level - 1] + self.poison_critical_strike_rate_add
 
     @poison_critical_strike_rate.setter
     def poison_critical_strike_rate(self, poison_critical_strike_rate):
@@ -1092,11 +1091,11 @@ class PoisonDamage(BaseDamage):
     @property
     def poison_critical_power_rate(self):
         if not self._poison_critical_power_rate:
-            return self.poison_critical_power_rate_extra
+            return self.poison_critical_power_rate_add
         elif self.skill_level > len(self._poison_critical_power_rate):
-            return self._poison_critical_power_rate[-1] + self.poison_critical_power_rate_extra
+            return self._poison_critical_power_rate[-1] + self.poison_critical_power_rate_add
         else:
-            return self._poison_critical_power_rate[self.skill_level - 1] + self.poison_critical_power_rate_extra
+            return self._poison_critical_power_rate[self.skill_level - 1] + self.poison_critical_power_rate_add
 
     @poison_critical_power_rate.setter
     def poison_critical_power_rate(self, poison_critical_power_rate):
@@ -1108,11 +1107,11 @@ class PoisonDamage(BaseDamage):
     @property
     def poison_shield_gain(self):
         if not self._poison_shield_gain:
-            return self.poison_shield_gain_extra
+            return self.poison_shield_gain_add
         elif self.skill_level > len(self._poison_shield_gain):
-            return self._poison_shield_gain[-1] + self.poison_shield_gain_extra
+            return self._poison_shield_gain[-1] + self.poison_shield_gain_add
         else:
-            return self._poison_shield_gain[self.skill_level - 1] + self.poison_shield_gain_extra
+            return self._poison_shield_gain[self.skill_level - 1] + self.poison_shield_gain_add
 
     @poison_shield_gain.setter
     def poison_shield_gain(self, poison_shield_gain):

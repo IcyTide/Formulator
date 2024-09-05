@@ -32,10 +32,10 @@ class 鬼门(Gain):
 
 class 疾根(Gain):
     def add_dots(self, dots: Dict[int, Dot]):
-        dots[20052].tick_extra += 1
+        dots[20052].tick_add += 1
 
     def sub_dots(self, dots: Dict[int, Dot]):
-        dots[20052].tick_extra -= 1
+        dots[20052].tick_add -= 1
 
 
 TALENTS: Dict[int, Gain] = {

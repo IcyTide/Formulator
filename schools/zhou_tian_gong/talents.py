@@ -1,6 +1,21 @@
 from typing import Dict
 
 from base.gain import Gain
+from base.skill import Skill
+
+
+class 神门(Gain):
+    @staticmethod
+    def pre_effect(parser):
+        if parser.current_buff_stacks[28756]:
+            parser.refresh_buff(29254, 1)
+
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[38083].pre_effects.append(self.pre_effect)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[38083].pre_effects.remove(self.pre_effect)
+
 
 TALENTS: Dict[int, Gain] = {
     38465: Gain("阳池", recipes=[(5578, 1)]),
@@ -27,7 +42,7 @@ TALENTS: Dict[int, Gain] = {
     38487: Gain("泽前"),
     38488: Gain("止蔌"),
     38489: Gain("心俞"),
-    38490: Gain("神门"),
+    38490: 神门("神门"),
     38549: Gain("朔风扬尘"),
     38492: Gain("霏微"),
     38493: Gain("零露"),

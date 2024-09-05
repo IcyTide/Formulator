@@ -760,9 +760,8 @@ class Minor(Vitality, CriticalPower, DamageAddition):
 
     @pvx_round.setter
     def pvx_round(self, pvx_round):
-        residual = pvx_round - self._pvx_round
-        self.surplus_base += residual
-        self.strain_base += residual
+        self.surplus_base += int(pvx_round * PVX_TO_SURPLUS) - int(self._pvx_round * PVX_TO_SURPLUS)
+        self.strain_base += int(pvx_round * PVX_TO_STRAIN) - int(self._pvx_round * PVX_TO_STRAIN)
         self._pvx_round = pvx_round
 
     @property
@@ -794,7 +793,8 @@ class Attribute(Major, Minor, Target):
     level: int = LEVEL
     grad_attrs: dict = dict(
         surplus_base=MINOR_DELTA,
-        strain_base=MINOR_DELTA
+        strain_base=MINOR_DELTA,
+        pvx_round=PVX_DELTA
     )
     display_attrs: list = ["strain_base", "strain", "surplus", "base_weapon_damage", "weapon_damage_rand"]
     recipes: list = []
@@ -1027,8 +1027,7 @@ class MixingAttribute(MagicalAttribute):
     grad_attrs = dict(
         agility_base=MAJOR_DELTA,
         spunk_base=MAJOR_DELTA,
-        surplus_base=MINOR_DELTA,
-        strain_base=MINOR_DELTA,
+        **Attribute.grad_attrs,
         magical_attack_power_base=MAGICAL_DELTA,
         all_critical_strike_base=MINOR_DELTA,
         all_critical_power_base=MINOR_DELTA,

@@ -5,6 +5,14 @@ from base.skill import Skill
 from schools.bei_ao_jue.skills import 项王击鼎秘章
 
 
+class 含风(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        pass
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        pass
+
+
 class 征踏(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
@@ -47,7 +55,7 @@ TALENTS: Dict[int, Gain] = {
     26904: Gain("冥鼓", recipes=[(2510, 1), (2511, 1)]),
     17042: Gain("阳关", recipes=[(4298, 1)]),
     16799: Gain("霜天"),
-    25633: Gain("含风"),
+    25633: 含风("含风"),
     32857: Gain("见尘"),
     37982: Gain("临江"),
     17047: Gain("分疆"),

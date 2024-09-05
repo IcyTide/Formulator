@@ -9,10 +9,10 @@ from schools.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 
 class 桑柘(Gain):
     def add_dots(self, dots: Dict[int, Dot]):
-        dots[26856].tick_extra += 1
+        dots[26856].tick_add += 1
 
     def sub_dots(self, dots: Dict[int, Dot]):
-        dots[26856].tick_extra -= 1
+        dots[26856].tick_add -= 1
 
 
 class 孰湖(Gain):

@@ -370,7 +370,8 @@ def convert_json(result):
     for column in result.columns:
         result[column] = result[column].fillna(0)
         if column in float_columns:
-            result[column] = result[column].apply(format_float)
+            # result[column] = result[column].apply(format_float)
+            pass
         elif pd.api.types.is_numeric_dtype(result[column]):
             result[column] = result[column].astype(int)
     for skill_id in result.skill_id.unique().tolist():

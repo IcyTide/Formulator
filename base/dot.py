@@ -24,9 +24,9 @@ class BaseDot(BaseBuff):
 
     _damage_base: List[int] = 0
     _interval: List[int] = []
-    interval_extra: int = 0
+    interval_add: int = 0
     _tick: List[int] = []
-    tick_extra: int = 0
+    tick_add: int = 0
 
     def set_asset(self, attrs):
         for attr, value in DOTS.get(self.buff_id, {}).items():
@@ -75,9 +75,9 @@ class BaseDot(BaseBuff):
         if not self._interval:
             return 0
         if self.buff_level > len(self._interval):
-            return self._interval[-1] + self.interval_extra
+            return self._interval[-1] + self.interval_add
         else:
-            return self._interval[self.buff_level - 1] + self.interval_extra
+            return self._interval[self.buff_level - 1] + self.interval_add
 
     @interval.setter
     def interval(self, interval):
@@ -91,9 +91,9 @@ class BaseDot(BaseBuff):
         if not self._tick:
             return 0
         if self.buff_level > len(self._tick):
-            return self._tick[-1] + self.tick_extra
+            return self._tick[-1] + self.tick_add
         else:
-            return self._tick[self.buff_level - 1] + self.tick_extra
+            return self._tick[self.buff_level - 1] + self.tick_add
 
     @tick.setter
     def tick(self, tick):
@@ -104,7 +104,7 @@ class BaseDot(BaseBuff):
 
     @property
     def origin_tick(self):
-        return self.tick - self.tick_extra
+        return self.tick - self.tick_add
 
 
 @dataclass

@@ -19,17 +19,16 @@ class 知音妙意判定(Skill):
 SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         14063: dict(channel_interval=16), 14100: {}, 14227: {}, 14311: {}, 14312: {}, 14494: {}, 18859: {}, 18860: {},
-        25781: {}, 31008: {}, 31138: {}, 32624: {}, 32738: {}, 34514: {}, 38015: {}, 14082: {},
+        25781: {}, 31008: {}, 31138: {}, 32624: {}, 32738: {}, 34514: {}, 38015: {}, 14082: {}, 30799: {},
         14070: dict(post_buffs={9437: {1: 1}}),
         **{skill_id: dict(post_buffs={-23167: {1: 1}}) for skill_id in (14299, 14067)},
-        30799: dict(lunar_shield_gain_extra=-922),  # BUFF-23167
         **{skill_id: dict(bind_dot=9357) for skill_id in (14287, 17788)},
         **{skill_id: dict(bind_dot=9361) for skill_id in (14291, 17792)},
         31005: dict(bind_dot=23187)
     },
     知音妙意判定: {
         34676: dict(
-            global_damage_factor_extra=GLOBAL_DAMAGE_COF(1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1))
+            global_damage_factor=GLOBAL_DAMAGE_COF(1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1))
         )
     },
     NpcSkill: {15076: {}}

@@ -5,7 +5,7 @@ from general.buffs import GENERAL_BUFFS
 
 SCHOOL_BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        11378: {}, 18384: {}, 14972: {}, 23066: {}
+        11378: {}, 18384: {}, 23066: {}, 14972: {}
     }
 }
 MOBILE_BUFFS: Dict[type, Dict[int, dict]] = {

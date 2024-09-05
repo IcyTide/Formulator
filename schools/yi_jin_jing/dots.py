@@ -4,7 +4,7 @@ from base.dot import Dot
 
 SCHOOL_DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {
-        743: dict(tick_extra=3)
+        743: dict(tick_add=3)
     }
 }
 DOTS: Dict[int, Dot] = {}

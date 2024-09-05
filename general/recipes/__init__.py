@@ -12,19 +12,19 @@ GENERAL_RECIPES = {
 class CriticalStrikeRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.physical_critical_strike_rate_extra += self.value
-        skill.solar_critical_strike_rate_extra += self.value
-        skill.neutral_critical_strike_rate_extra += self.value
-        skill.lunar_critical_strike_rate_extra += self.value
-        skill.poison_critical_strike_rate_extra += self.value
+        skill.physical_critical_strike_rate_add += self.value
+        skill.solar_critical_strike_rate_add += self.value
+        skill.neutral_critical_strike_rate_add += self.value
+        skill.lunar_critical_strike_rate_add += self.value
+        skill.poison_critical_strike_rate_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.physical_critical_strike_rate_extra -= self.value
-        skill.solar_critical_strike_rate_extra -= self.value
-        skill.neutral_critical_strike_rate_extra -= self.value
-        skill.lunar_critical_strike_rate_extra -= self.value
-        skill.poison_critical_strike_rate_extra -= self.value
+        skill.physical_critical_strike_rate_add -= self.value
+        skill.solar_critical_strike_rate_add -= self.value
+        skill.neutral_critical_strike_rate_add -= self.value
+        skill.lunar_critical_strike_rate_add -= self.value
+        skill.poison_critical_strike_rate_add -= self.value
 
 
 class CriticalStrikeRecipe_200(CriticalStrikeRecipe):
@@ -50,11 +50,11 @@ class CriticalStrikeRecipe_306(CriticalStrikeRecipe):
 class ChannelIntervalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.channel_interval_extra *= self.value
+        skill.channel_interval_add *= self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.channel_interval_extra /= self.value
+        skill.channel_interval_add /= self.value
 
 
 class MoveStateDamageAdditionRecipe(SkillRecipe):
@@ -70,140 +70,140 @@ class MoveStateDamageAdditionRecipe(SkillRecipe):
 class PhysicalCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.physical_critical_strike_rate_extra += self.value[0]
-        skill.physical_critical_power_rate_extra += self.value[1]
+        skill.physical_critical_strike_rate_add += self.value[0]
+        skill.physical_critical_power_rate_add += self.value[1]
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.physical_critical_strike_rate_extra -= self.value[0]
-        skill.physical_critical_power_rate_extra -= self.value[1]
+        skill.physical_critical_strike_rate_add -= self.value[0]
+        skill.physical_critical_power_rate_add -= self.value[1]
 
 
 class SolarAttackPowerGainRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.solar_attack_power_gain_extra += self.value
+        skill.solar_attack_power_gain_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.solar_attack_power_gain_extra -= self.value
+        skill.solar_attack_power_gain_add -= self.value
 
 
 class LunarAttackPowerGainRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.lunar_attack_power_gain_extra += self.value
+        skill.lunar_attack_power_gain_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.lunar_attack_power_gain_extra -= self.value
+        skill.lunar_attack_power_gain_add -= self.value
 
 
 class SolarCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.solar_critical_strike_rate_extra += self.value[0]
-        skill.solar_critical_power_rate_extra += self.value[1]
+        skill.solar_critical_strike_rate_add += self.value[0]
+        skill.solar_critical_power_rate_add += self.value[1]
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.solar_critical_strike_rate_extra -= self.value[0]
-        skill.solar_critical_power_rate_extra -= self.value[1]
+        skill.solar_critical_strike_rate_add -= self.value[0]
+        skill.solar_critical_power_rate_add -= self.value[1]
 
 
 class LunarCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.lunar_critical_strike_rate_extra += self.value[0]
-        skill.lunar_critical_power_rate_extra += self.value[1]
+        skill.lunar_critical_strike_rate_add += self.value[0]
+        skill.lunar_critical_power_rate_add += self.value[1]
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.lunar_critical_strike_rate_extra -= self.value[0]
-        skill.lunar_critical_power_rate_extra -= self.value[1]
+        skill.lunar_critical_strike_rate_add -= self.value[0]
+        skill.lunar_critical_power_rate_add -= self.value[1]
 
 
 class NeutralCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.neutral_critical_strike_rate_extra += self.value[0]
-        skill.neutral_critical_power_rate_extra += self.value[1]
+        skill.neutral_critical_strike_rate_add += self.value[0]
+        skill.neutral_critical_power_rate_add += self.value[1]
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.neutral_critical_strike_rate_extra -= self.value[0]
-        skill.neutral_critical_power_rate_extra -= self.value[1]
+        skill.neutral_critical_strike_rate_add -= self.value[0]
+        skill.neutral_critical_power_rate_add -= self.value[1]
 
 
 class PoisonCriticalStrikeRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.poison_critical_strike_rate_extra += self.value
+        skill.poison_critical_strike_rate_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.poison_critical_strike_rate_extra -= self.value
+        skill.poison_critical_strike_rate_add -= self.value
 
 
 class SolarLunarCriticalStrikeRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.solar_critical_strike_rate_extra += self.value
-        skill.lunar_critical_strike_rate_extra += self.value
+        skill.solar_critical_strike_rate_add += self.value
+        skill.lunar_critical_strike_rate_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.solar_critical_strike_rate_extra -= self.value
-        skill.lunar_critical_strike_rate_extra -= self.value
+        skill.solar_critical_strike_rate_add -= self.value
+        skill.lunar_critical_strike_rate_add -= self.value
 
 
 class SolarLunarCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.solar_critical_strike_rate_extra += self.value[0]
-        skill.lunar_critical_strike_rate_extra += self.value[0]
-        skill.solar_critical_power_rate_extra += self.value[1]
-        skill.lunar_critical_power_rate_extra += self.value[1]
+        skill.solar_critical_strike_rate_add += self.value[0]
+        skill.lunar_critical_strike_rate_add += self.value[0]
+        skill.solar_critical_power_rate_add += self.value[1]
+        skill.lunar_critical_power_rate_add += self.value[1]
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.solar_critical_strike_rate_extra -= self.value[0]
-        skill.lunar_critical_strike_rate_extra -= self.value[0]
-        skill.solar_critical_power_rate_extra -= self.value[1]
-        skill.lunar_critical_power_rate_extra -= self.value[1]
+        skill.solar_critical_strike_rate_add -= self.value[0]
+        skill.lunar_critical_strike_rate_add -= self.value[0]
+        skill.solar_critical_power_rate_add -= self.value[1]
+        skill.lunar_critical_power_rate_add -= self.value[1]
 
 
 class PhysicalShieldGainRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.physical_shield_gain_extra += self.value
+        skill.physical_shield_gain_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.physical_shield_gain_extra -= self.value
+        skill.physical_shield_gain_add -= self.value
 
 
 class MagicalShieldGainRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.solar_shield_gain_extra += self.value
-        skill.lunar_shield_gain_extra += self.value
-        skill.neutral_shield_gain_extra += self.value
-        skill.poison_shield_gain_extra += self.value
+        skill.solar_shield_gain_add += self.value
+        skill.lunar_shield_gain_add += self.value
+        skill.neutral_shield_gain_add += self.value
+        skill.poison_shield_gain_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.solar_shield_gain_extra -= self.value
-        skill.lunar_shield_gain_extra -= self.value
-        skill.neutral_shield_gain_extra -= self.value
-        skill.poison_shield_gain_extra -= self.value
+        skill.solar_shield_gain_add -= self.value
+        skill.lunar_shield_gain_add -= self.value
+        skill.neutral_shield_gain_add -= self.value
+        skill.poison_shield_gain_add -= self.value
 
 
 class PveAdditionRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         super().add_skill(skill)
-        skill.pve_addition_extra += self.value
+        skill.pve_addition_add += self.value
 
     def sub_skill(self, skill: Skill):
         super().sub_skill(skill)
-        skill.pve_addition_extra -= self.value
+        skill.pve_addition_add -= self.value

@@ -1,4 +1,5 @@
 from assets.constant import ATTR_TYPE_TRANSLATE
+from assets.enchants import ENCHANTS
 from general.buffs import GENERAL_BUFFS
 
 
@@ -39,13 +40,7 @@ GUILD_FOOD = create_consumable_gain(2563)
 GUILD_SPREAD = create_consumable_gain(18428)
 
 WEAPON_ENCHANTS = {
-    "瀑沙熔锭": {"physical_attack_power_base": 658},
-    "瀑沙磨石": {"physical_attack_power_base": 439},
-    "坠宵熔锭": {"magical_attack_power_base": 786},
-    "坠宵磨石": {"magical_attack_power_base": 524}
-}
-WEAPON_ENCHANTS = {
-    consumable_name(k, v): v for k, v in WEAPON_ENCHANTS.items()
+    consumable_name(k, v): v for k, v in ENCHANTS.get("consumable", {}).items()
 }
 CONSUMABLES = {
     **MAJOR_FOODS,

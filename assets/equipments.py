@@ -28126,12 +28126,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "magical_attack_power_base": 8580,
-                "all_critical_strike_base": 12810,
-                "magical_overcome_base": 13725,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "magical_attack_power_base": 9133,
+                "all_critical_strike_base": 11438,
+                "magical_overcome_base": 11438,
+                "haste_base": 1830
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28158,12 +28158,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7716,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 13268,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 8214,
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 10980,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28190,12 +28190,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "strength_base": 1877,
-                "physical_attack_power_base": 7592,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 13725,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 8089,
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 11438,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28222,12 +28222,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "spirit_base": 1877,
-                "poison_attack_power_base": 8442,
-                "poison_critical_strike_base": 12353,
-                "poison_overcome_base": 14640,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spirit_base": 1642,
+                "poison_attack_power_base": 8995,
+                "poison_critical_strike_base": 10980,
+                "poison_overcome_base": 12353,
+                "haste_base": 1830
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -28254,12 +28254,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "neutral_attack_power_base": 8580,
-                "neutral_critical_strike_base": 11895,
-                "neutral_overcome_base": 13725,
-                "haste_base": 5490
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "neutral_attack_power_base": 9133,
+                "neutral_critical_strike_base": 10523,
+                "neutral_overcome_base": 11438,
+                "haste_base": 2745
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28286,12 +28286,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7716,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 13268,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 8214,
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 10980,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28318,12 +28318,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7468,
-                "physical_critical_strike_base": 13725,
-                "physical_overcome_base": 13725,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 12353,
+                "physical_overcome_base": 11438,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28350,12 +28350,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "strength_base": 1877,
-                "physical_attack_power_base": 7468,
-                "physical_critical_strike_base": 12810,
-                "physical_overcome_base": 14640,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 11438,
+                "physical_overcome_base": 12353,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28382,12 +28382,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1580
             },
             "magic": {
-                "vitality_base": 16928,
-                "spirit_base": 1877,
-                "lunar_attack_power_base": 8304,
-                "lunar_critical_strike_base": 12810,
-                "lunar_overcome_base": 14183,
-                "haste_base": 5033
+                "vitality_base": 20130,
+                "spirit_base": 1642,
+                "lunar_attack_power_base": 8857,
+                "lunar_critical_strike_base": 11438,
+                "lunar_overcome_base": 11895,
+                "haste_base": 2288
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -28414,12 +28414,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4739
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 12353,
-                "physical_overcome_base": 13268,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 8711,
+                "physical_critical_strike_base": 10980,
+                "physical_overcome_base": 10065,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28446,12 +28446,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "solar_and_lunar_attack_power_base": 8304,
-                "solar_and_lunar_critical_strike_base": 12353,
-                "solar_and_lunar_overcome_base": 14640,
-                "haste_base": 5033
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "solar_and_lunar_attack_power_base": 8857,
+                "solar_and_lunar_critical_strike_base": 10980,
+                "solar_and_lunar_overcome_base": 12353,
+                "haste_base": 2288
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -28478,11 +28478,11 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5370
             },
             "magic": {
-                "vitality_base": 16928,
-                "strength_base": 1877,
-                "physical_attack_power_base": 7716,
-                "physical_critical_strike_base": 14640,
-                "physical_overcome_base": 16470
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 8214,
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 12810
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28509,12 +28509,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4107
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7468,
-                "physical_critical_strike_base": 14640,
-                "physical_overcome_base": 12810,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 13268,
+                "physical_overcome_base": 10523,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28541,12 +28541,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "strength_base": 1877,
-                "physical_attack_power_base": 7219,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 15098,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 7716,
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 12810,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28573,12 +28573,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3159
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "poison_attack_power_base": 8304,
-                "physical_critical_strike_base": 12353,
-                "poison_overcome_base": 15098,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "poison_attack_power_base": 8857,
+                "physical_critical_strike_base": 10980,
+                "poison_overcome_base": 12810,
+                "haste_base": 1830
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -28605,12 +28605,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1580
             },
             "magic": {
-                "vitality_base": 16928,
-                "spirit_base": 1877,
-                "poison_attack_power_base": 8442,
-                "poison_critical_strike_base": 12353,
-                "poison_overcome_base": 14640,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spirit_base": 1642,
+                "poison_attack_power_base": 8995,
+                "poison_critical_strike_base": 10980,
+                "poison_overcome_base": 12353,
+                "haste_base": 1830
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -28637,12 +28637,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2053
             },
             "magic": {
-                "vitality_base": 16928,
-                "spirit_base": 1877,
-                "lunar_attack_power_base": 8580,
-                "lunar_critical_strike_base": 12353,
-                "lunar_overcome_base": 13725,
-                "haste_base": 5033
+                "vitality_base": 20130,
+                "spirit_base": 1642,
+                "lunar_attack_power_base": 9133,
+                "lunar_critical_strike_base": 10980,
+                "lunar_overcome_base": 11438,
+                "haste_base": 2288
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -28669,12 +28669,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4107
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7343,
-                "physical_critical_strike_base": 14183,
-                "physical_overcome_base": 13725,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 12810,
+                "physical_overcome_base": 10980,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28701,12 +28701,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2053
             },
             "magic": {
-                "vitality_base": 16928,
-                "spirit_base": 1877,
-                "neutral_attack_power_base": 8304,
-                "neutral_critical_strike_base": 14183,
-                "neutral_overcome_base": 13268,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spirit_base": 1642,
+                "neutral_attack_power_base": 8857,
+                "neutral_critical_strike_base": 12810,
+                "neutral_overcome_base": 10980,
+                "haste_base": 1830
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28733,12 +28733,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5370
             },
             "magic": {
-                "vitality_base": 16928,
-                "strength_base": 1877,
-                "physical_attack_power_base": 7468,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 14183,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 12353,
+                "physical_overcome_base": 11438,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28765,12 +28765,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1580
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "neutral_attack_power_base": 8580,
-                "neutral_critical_strike_base": 12353,
-                "neutral_overcome_base": 14183,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "neutral_attack_power_base": 9133,
+                "neutral_critical_strike_base": 10980,
+                "neutral_overcome_base": 11895,
+                "haste_base": 1830
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28797,12 +28797,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5370
             },
             "magic": {
-                "vitality_base": 16928,
-                "spunk_base": 1877,
-                "solar_attack_power_base": 8857,
-                "solar_critical_strike_base": 11895,
-                "solar_overcome_base": 13725,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "spunk_base": 1642,
+                "solar_attack_power_base": 9410,
+                "solar_critical_strike_base": 10523,
+                "solar_overcome_base": 11438,
+                "haste_base": 1830
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -28829,12 +28829,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "magical_attack_power_base": 8093,
-                "all_critical_strike_base": 12082,
-                "magical_overcome_base": 12945,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "magical_attack_power_base": 8614,
+                "all_critical_strike_base": 10788,
+                "magical_overcome_base": 10788,
+                "haste_base": 1726
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28861,12 +28861,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7278,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 12514,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7747,
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 10356,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28893,12 +28893,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "strength_base": 1770,
-                "physical_attack_power_base": 7161,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 12945,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7630,
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 10788,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -28925,12 +28925,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "spirit_base": 1770,
-                "poison_attack_power_base": 7962,
-                "poison_critical_strike_base": 11651,
-                "poison_overcome_base": 13808,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spirit_base": 1549,
+                "poison_attack_power_base": 8484,
+                "poison_critical_strike_base": 10356,
+                "poison_overcome_base": 11651,
+                "haste_base": 1726
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -28957,12 +28957,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "neutral_attack_power_base": 8093,
-                "neutral_critical_strike_base": 11219,
-                "neutral_overcome_base": 12945,
-                "haste_base": 5178
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "neutral_attack_power_base": 8614,
+                "neutral_critical_strike_base": 9925,
+                "neutral_overcome_base": 10788,
+                "haste_base": 2589
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -28989,12 +28989,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7278,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 12514,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7747,
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 10356,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29021,12 +29021,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7043,
-                "physical_critical_strike_base": 12945,
-                "physical_overcome_base": 12945,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 11651,
+                "physical_overcome_base": 10788,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29053,12 +29053,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "strength_base": 1770,
-                "physical_attack_power_base": 7043,
-                "physical_critical_strike_base": 12082,
-                "physical_overcome_base": 13808,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 10788,
+                "physical_overcome_base": 11651,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29085,12 +29085,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1490
             },
             "magic": {
-                "vitality_base": 15966,
-                "spirit_base": 1770,
-                "lunar_attack_power_base": 7832,
-                "lunar_critical_strike_base": 12082,
-                "lunar_overcome_base": 13377,
-                "haste_base": 4747
+                "vitality_base": 18986,
+                "spirit_base": 1549,
+                "lunar_attack_power_base": 8353,
+                "lunar_critical_strike_base": 10788,
+                "lunar_overcome_base": 11219,
+                "haste_base": 2158
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -29117,12 +29117,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4469
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 11651,
-                "physical_overcome_base": 12514,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 8216,
+                "physical_critical_strike_base": 10356,
+                "physical_overcome_base": 9493,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29149,12 +29149,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "solar_and_lunar_attack_power_base": 7832,
-                "solar_and_lunar_critical_strike_base": 11651,
-                "solar_and_lunar_overcome_base": 13808,
-                "haste_base": 4747
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "solar_and_lunar_attack_power_base": 8353,
+                "solar_and_lunar_critical_strike_base": 10356,
+                "solar_and_lunar_overcome_base": 11651,
+                "haste_base": 2158
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -29181,11 +29181,11 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5065
             },
             "magic": {
-                "vitality_base": 15966,
-                "strength_base": 1770,
-                "physical_attack_power_base": 7278,
-                "physical_critical_strike_base": 13808,
-                "physical_overcome_base": 15534
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7747,
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 12082
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29212,12 +29212,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3873
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7043,
-                "physical_critical_strike_base": 13808,
-                "physical_overcome_base": 12082,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 12514,
+                "physical_overcome_base": 9925,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29244,12 +29244,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "strength_base": 1770,
-                "physical_attack_power_base": 6809,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 14240,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7278,
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 12082,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29276,12 +29276,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2980
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "poison_attack_power_base": 7832,
-                "physical_critical_strike_base": 11651,
-                "poison_overcome_base": 14240,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "poison_attack_power_base": 8353,
+                "physical_critical_strike_base": 10356,
+                "poison_overcome_base": 12082,
+                "haste_base": 1726
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -29308,12 +29308,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1490
             },
             "magic": {
-                "vitality_base": 15966,
-                "spirit_base": 1770,
-                "poison_attack_power_base": 7962,
-                "poison_critical_strike_base": 11651,
-                "poison_overcome_base": 13808,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spirit_base": 1549,
+                "poison_attack_power_base": 8484,
+                "poison_critical_strike_base": 10356,
+                "poison_overcome_base": 11651,
+                "haste_base": 1726
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -29340,12 +29340,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1937
             },
             "magic": {
-                "vitality_base": 15966,
-                "spirit_base": 1770,
-                "lunar_attack_power_base": 8093,
-                "lunar_critical_strike_base": 11651,
-                "lunar_overcome_base": 12945,
-                "haste_base": 4747
+                "vitality_base": 18986,
+                "spirit_base": 1549,
+                "lunar_attack_power_base": 8614,
+                "lunar_critical_strike_base": 10356,
+                "lunar_overcome_base": 10788,
+                "haste_base": 2158
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -29372,12 +29372,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3873
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 6926,
-                "physical_critical_strike_base": 13377,
-                "physical_overcome_base": 12945,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 12082,
+                "physical_overcome_base": 10356,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29404,12 +29404,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1937
             },
             "magic": {
-                "vitality_base": 15966,
-                "spirit_base": 1770,
-                "neutral_attack_power_base": 7832,
-                "neutral_critical_strike_base": 13377,
-                "neutral_overcome_base": 12514,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spirit_base": 1549,
+                "neutral_attack_power_base": 8353,
+                "neutral_critical_strike_base": 12082,
+                "neutral_overcome_base": 10356,
+                "haste_base": 1726
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -29436,12 +29436,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5065
             },
             "magic": {
-                "vitality_base": 15966,
-                "strength_base": 1770,
-                "physical_attack_power_base": 7043,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 13377,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 11651,
+                "physical_overcome_base": 10788,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29468,12 +29468,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1490
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "neutral_attack_power_base": 8093,
-                "neutral_critical_strike_base": 11651,
-                "neutral_overcome_base": 13377,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "neutral_attack_power_base": 8614,
+                "neutral_critical_strike_base": 10356,
+                "neutral_overcome_base": 11219,
+                "haste_base": 1726
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -29500,12 +29500,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5065
             },
             "magic": {
-                "vitality_base": 15966,
-                "spunk_base": 1770,
-                "solar_attack_power_base": 8353,
-                "solar_critical_strike_base": 11219,
-                "solar_overcome_base": 12945,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "spunk_base": 1549,
+                "solar_attack_power_base": 8875,
+                "solar_critical_strike_base": 9925,
+                "solar_overcome_base": 10788,
+                "haste_base": 1726
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -29532,12 +29532,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "magical_attack_power_base": 7605,
-                "all_critical_strike_base": 11354,
-                "magical_overcome_base": 12165,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "magical_attack_power_base": 8095,
+                "all_critical_strike_base": 10138,
+                "magical_overcome_base": 10138,
+                "haste_base": 1622
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -29564,12 +29564,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6840,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 11760,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7280,
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 9732,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29596,12 +29596,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "strength_base": 1664,
-                "physical_attack_power_base": 6729,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 12165,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 7170,
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 10138,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29628,12 +29628,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "spirit_base": 1664,
-                "poison_attack_power_base": 7483,
-                "poison_critical_strike_base": 10949,
-                "poison_overcome_base": 12976,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spirit_base": 1456,
+                "poison_attack_power_base": 7973,
+                "poison_critical_strike_base": 9732,
+                "poison_overcome_base": 10949,
+                "haste_base": 1622
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -29660,12 +29660,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "neutral_attack_power_base": 7605,
-                "neutral_critical_strike_base": 10543,
-                "neutral_overcome_base": 12165,
-                "haste_base": 4866
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "neutral_attack_power_base": 8095,
+                "neutral_critical_strike_base": 9327,
+                "neutral_overcome_base": 10138,
+                "haste_base": 2433
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -29692,12 +29692,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6840,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 11760,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7280,
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 9732,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29724,12 +29724,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6619,
-                "physical_critical_strike_base": 12165,
-                "physical_overcome_base": 12165,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 10949,
+                "physical_overcome_base": 10138,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29756,12 +29756,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "strength_base": 1664,
-                "physical_attack_power_base": 6619,
-                "physical_critical_strike_base": 11354,
-                "physical_overcome_base": 12976,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 10138,
+                "physical_overcome_base": 10949,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29788,12 +29788,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1400
             },
             "magic": {
-                "vitality_base": 15004,
-                "spirit_base": 1664,
-                "lunar_attack_power_base": 7360,
-                "lunar_critical_strike_base": 11354,
-                "lunar_overcome_base": 12571,
-                "haste_base": 4461
+                "vitality_base": 17843,
+                "spirit_base": 1456,
+                "lunar_attack_power_base": 7850,
+                "lunar_critical_strike_base": 10138,
+                "lunar_overcome_base": 10543,
+                "haste_base": 2028
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -29820,12 +29820,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4200
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 10949,
-                "physical_overcome_base": 11760,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7721,
+                "physical_critical_strike_base": 9732,
+                "physical_overcome_base": 8921,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29852,12 +29852,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "solar_and_lunar_attack_power_base": 7360,
-                "solar_and_lunar_critical_strike_base": 10949,
-                "solar_and_lunar_overcome_base": 12976,
-                "haste_base": 4461
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "solar_and_lunar_attack_power_base": 7850,
+                "solar_and_lunar_critical_strike_base": 9732,
+                "solar_and_lunar_overcome_base": 10949,
+                "haste_base": 2028
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -29884,11 +29884,11 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4760
             },
             "magic": {
-                "vitality_base": 15004,
-                "strength_base": 1664,
-                "physical_attack_power_base": 6840,
-                "physical_critical_strike_base": 12976,
-                "physical_overcome_base": 14598
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 7280,
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 11354
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29915,12 +29915,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3640
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6619,
-                "physical_critical_strike_base": 12976,
-                "physical_overcome_base": 11354,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 11760,
+                "physical_overcome_base": 9327,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29947,12 +29947,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "strength_base": 1664,
-                "physical_attack_power_base": 6399,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 13382,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 6840,
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 11354,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -29979,12 +29979,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2800
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "poison_attack_power_base": 7360,
-                "physical_critical_strike_base": 10949,
-                "poison_overcome_base": 13382,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "poison_attack_power_base": 7850,
+                "physical_critical_strike_base": 9732,
+                "poison_overcome_base": 11354,
+                "haste_base": 1622
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -30011,12 +30011,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1400
             },
             "magic": {
-                "vitality_base": 15004,
-                "spirit_base": 1664,
-                "poison_attack_power_base": 7483,
-                "poison_critical_strike_base": 10949,
-                "poison_overcome_base": 12976,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spirit_base": 1456,
+                "poison_attack_power_base": 7973,
+                "poison_critical_strike_base": 9732,
+                "poison_overcome_base": 10949,
+                "haste_base": 1622
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -30043,12 +30043,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1820
             },
             "magic": {
-                "vitality_base": 15004,
-                "spirit_base": 1664,
-                "lunar_attack_power_base": 7605,
-                "lunar_critical_strike_base": 10949,
-                "lunar_overcome_base": 12165,
-                "haste_base": 4461
+                "vitality_base": 17843,
+                "spirit_base": 1456,
+                "lunar_attack_power_base": 8095,
+                "lunar_critical_strike_base": 9732,
+                "lunar_overcome_base": 10138,
+                "haste_base": 2028
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -30075,12 +30075,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3640
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6509,
-                "physical_critical_strike_base": 12571,
-                "physical_overcome_base": 12165,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 11354,
+                "physical_overcome_base": 9732,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -30107,12 +30107,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1820
             },
             "magic": {
-                "vitality_base": 15004,
-                "spirit_base": 1664,
-                "neutral_attack_power_base": 7360,
-                "neutral_critical_strike_base": 12571,
-                "neutral_overcome_base": 11760,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spirit_base": 1456,
+                "neutral_attack_power_base": 7850,
+                "neutral_critical_strike_base": 11354,
+                "neutral_overcome_base": 9732,
+                "haste_base": 1622
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -30139,12 +30139,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4760
             },
             "magic": {
-                "vitality_base": 15004,
-                "strength_base": 1664,
-                "physical_attack_power_base": 6619,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 12571,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 10949,
+                "physical_overcome_base": 10138,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -30171,12 +30171,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1400
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "neutral_attack_power_base": 7605,
-                "neutral_critical_strike_base": 10949,
-                "neutral_overcome_base": 12571,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "neutral_attack_power_base": 8095,
+                "neutral_critical_strike_base": 9732,
+                "neutral_overcome_base": 10543,
+                "haste_base": 1622
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -30203,12 +30203,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4760
             },
             "magic": {
-                "vitality_base": 15004,
-                "spunk_base": 1664,
-                "solar_attack_power_base": 7850,
-                "solar_critical_strike_base": 10543,
-                "solar_overcome_base": 12165,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "spunk_base": 1456,
+                "solar_attack_power_base": 8340,
+                "solar_critical_strike_base": 9327,
+                "solar_overcome_base": 10138,
+                "haste_base": 1622
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -33795,12 +33795,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "magical_attack_power_base": 7137,
-                "all_critical_strike_base": 10656,
-                "magical_overcome_base": 11417,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "magical_attack_power_base": 7597,
+                "all_critical_strike_base": 9514,
+                "magical_overcome_base": 9514,
+                "haste_base": 1522
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -33827,12 +33827,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6419,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 11036,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6832,
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 9133,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -33859,12 +33859,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "strength_base": 1561,
-                "physical_attack_power_base": 6315,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 11417,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6729,
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 9514,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -33891,12 +33891,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "spirit_base": 1561,
-                "poison_attack_power_base": 7022,
-                "poison_critical_strike_base": 10275,
-                "poison_overcome_base": 12178,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spirit_base": 1366,
+                "poison_attack_power_base": 7482,
+                "poison_critical_strike_base": 9133,
+                "poison_overcome_base": 10275,
+                "haste_base": 1522
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -33923,12 +33923,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "neutral_attack_power_base": 7137,
-                "neutral_critical_strike_base": 9894,
-                "neutral_overcome_base": 11417,
-                "haste_base": 4567
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "neutral_attack_power_base": 7597,
+                "neutral_critical_strike_base": 8753,
+                "neutral_overcome_base": 9514,
+                "haste_base": 2283
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -33955,12 +33955,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6419,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 11036,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6832,
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 9133,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -33987,12 +33987,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6212,
-                "physical_critical_strike_base": 11417,
-                "physical_overcome_base": 11417,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 10275,
+                "physical_overcome_base": 9514,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34019,12 +34019,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "strength_base": 1561,
-                "physical_attack_power_base": 6212,
-                "physical_critical_strike_base": 10656,
-                "physical_overcome_base": 12178,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 9514,
+                "physical_overcome_base": 10275,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34051,12 +34051,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1314
             },
             "magic": {
-                "vitality_base": 14081,
-                "spirit_base": 1561,
-                "lunar_attack_power_base": 6907,
-                "lunar_critical_strike_base": 10656,
-                "lunar_overcome_base": 11797,
-                "haste_base": 4186
+                "vitality_base": 16744,
+                "spirit_base": 1366,
+                "lunar_attack_power_base": 7367,
+                "lunar_critical_strike_base": 9514,
+                "lunar_overcome_base": 9894,
+                "haste_base": 1903
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -34083,12 +34083,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3942
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 10275,
-                "physical_overcome_base": 11036,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 7246,
+                "physical_critical_strike_base": 9133,
+                "physical_overcome_base": 8372,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34115,12 +34115,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "solar_and_lunar_attack_power_base": 6907,
-                "solar_and_lunar_critical_strike_base": 10275,
-                "solar_and_lunar_overcome_base": 12178,
-                "haste_base": 4186
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "solar_and_lunar_attack_power_base": 7367,
+                "solar_and_lunar_critical_strike_base": 9133,
+                "solar_and_lunar_overcome_base": 10275,
+                "haste_base": 1903
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -34147,11 +34147,11 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4467
             },
             "magic": {
-                "vitality_base": 14081,
-                "strength_base": 1561,
-                "physical_attack_power_base": 6419,
-                "physical_critical_strike_base": 12178,
-                "physical_overcome_base": 13700
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6832,
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 10656
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34178,12 +34178,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3416
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6212,
-                "physical_critical_strike_base": 12178,
-                "physical_overcome_base": 10656,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 11036,
+                "physical_overcome_base": 8753,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34210,12 +34210,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "strength_base": 1561,
-                "physical_attack_power_base": 6005,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 12558,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6419,
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 10656,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34242,12 +34242,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2628
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "poison_attack_power_base": 6907,
-                "physical_critical_strike_base": 10275,
-                "poison_overcome_base": 12558,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "poison_attack_power_base": 7367,
+                "physical_critical_strike_base": 9133,
+                "poison_overcome_base": 10656,
+                "haste_base": 1522
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -34274,12 +34274,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1314
             },
             "magic": {
-                "vitality_base": 14081,
-                "spirit_base": 1561,
-                "poison_attack_power_base": 7022,
-                "poison_critical_strike_base": 10275,
-                "poison_overcome_base": 12178,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spirit_base": 1366,
+                "poison_attack_power_base": 7482,
+                "poison_critical_strike_base": 9133,
+                "poison_overcome_base": 10275,
+                "haste_base": 1522
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -34306,12 +34306,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1708
             },
             "magic": {
-                "vitality_base": 14081,
-                "spirit_base": 1561,
-                "lunar_attack_power_base": 7137,
-                "lunar_critical_strike_base": 10275,
-                "lunar_overcome_base": 11417,
-                "haste_base": 4186
+                "vitality_base": 16744,
+                "spirit_base": 1366,
+                "lunar_attack_power_base": 7597,
+                "lunar_critical_strike_base": 9133,
+                "lunar_overcome_base": 9514,
+                "haste_base": 1903
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -34338,12 +34338,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3416
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6108,
-                "physical_critical_strike_base": 11797,
-                "physical_overcome_base": 11417,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 10656,
+                "physical_overcome_base": 9133,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34370,12 +34370,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1708
             },
             "magic": {
-                "vitality_base": 14081,
-                "spirit_base": 1561,
-                "neutral_attack_power_base": 6907,
-                "neutral_critical_strike_base": 11797,
-                "neutral_overcome_base": 11036,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spirit_base": 1366,
+                "neutral_attack_power_base": 7367,
+                "neutral_critical_strike_base": 10656,
+                "neutral_overcome_base": 9133,
+                "haste_base": 1522
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -34402,12 +34402,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4467
             },
             "magic": {
-                "vitality_base": 14081,
-                "strength_base": 1561,
-                "physical_attack_power_base": 6212,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 11797,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 10275,
+                "physical_overcome_base": 9514,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34434,12 +34434,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1314
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "neutral_attack_power_base": 7137,
-                "neutral_critical_strike_base": 10275,
-                "neutral_overcome_base": 11797,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "neutral_attack_power_base": 7597,
+                "neutral_critical_strike_base": 9133,
+                "neutral_overcome_base": 9894,
+                "haste_base": 1522
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -34466,12 +34466,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4467
             },
             "magic": {
-                "vitality_base": 14081,
-                "spunk_base": 1561,
-                "solar_attack_power_base": 7367,
-                "solar_critical_strike_base": 9894,
-                "solar_overcome_base": 11417,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "spunk_base": 1366,
+                "solar_attack_power_base": 7827,
+                "solar_critical_strike_base": 8753,
+                "solar_overcome_base": 9514,
+                "haste_base": 1522
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -34498,12 +34498,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "magical_attack_power_base": 6669,
-                "all_critical_strike_base": 9957,
-                "magical_overcome_base": 10668,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "magical_attack_power_base": 7099,
+                "all_critical_strike_base": 8890,
+                "magical_overcome_base": 8890,
+                "haste_base": 1422
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -34530,12 +34530,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5998,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 10312,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6384,
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 8534,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34562,12 +34562,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "strength_base": 1459,
-                "physical_attack_power_base": 5901,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 10668,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 6288,
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 8890,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34594,12 +34594,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "spirit_base": 1459,
-                "poison_attack_power_base": 6562,
-                "poison_critical_strike_base": 9601,
-                "poison_overcome_base": 11379,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spirit_base": 1277,
+                "poison_attack_power_base": 6991,
+                "poison_critical_strike_base": 8534,
+                "poison_overcome_base": 9601,
+                "haste_base": 1422
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -34626,12 +34626,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "neutral_attack_power_base": 6669,
-                "neutral_critical_strike_base": 9246,
-                "neutral_overcome_base": 10668,
-                "haste_base": 4267
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "neutral_attack_power_base": 7099,
+                "neutral_critical_strike_base": 8179,
+                "neutral_overcome_base": 8890,
+                "haste_base": 2134
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -34658,12 +34658,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5998,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 10312,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6384,
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 8534,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34690,12 +34690,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5805,
-                "physical_critical_strike_base": 10668,
-                "physical_overcome_base": 10668,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 9601,
+                "physical_overcome_base": 8890,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34722,12 +34722,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "strength_base": 1459,
-                "physical_attack_power_base": 5805,
-                "physical_critical_strike_base": 9957,
-                "physical_overcome_base": 11379,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 8890,
+                "physical_overcome_base": 9601,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34754,12 +34754,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1228
             },
             "magic": {
-                "vitality_base": 13157,
-                "spirit_base": 1459,
-                "lunar_attack_power_base": 6454,
-                "lunar_critical_strike_base": 9957,
-                "lunar_overcome_base": 11024,
-                "haste_base": 3912
+                "vitality_base": 15647,
+                "spirit_base": 1277,
+                "lunar_attack_power_base": 6884,
+                "lunar_critical_strike_base": 8890,
+                "lunar_overcome_base": 9246,
+                "haste_base": 1778
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -34786,12 +34786,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3683
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 9601,
-                "physical_overcome_base": 10312,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6771,
+                "physical_critical_strike_base": 8534,
+                "physical_overcome_base": 7823,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34818,12 +34818,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "solar_and_lunar_attack_power_base": 6454,
-                "solar_and_lunar_critical_strike_base": 9601,
-                "solar_and_lunar_overcome_base": 11379,
-                "haste_base": 3912
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "solar_and_lunar_attack_power_base": 6884,
+                "solar_and_lunar_critical_strike_base": 8534,
+                "solar_and_lunar_overcome_base": 9601,
+                "haste_base": 1778
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -34850,11 +34850,11 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4174
             },
             "magic": {
-                "vitality_base": 13157,
-                "strength_base": 1459,
-                "physical_attack_power_base": 5998,
-                "physical_critical_strike_base": 11379,
-                "physical_overcome_base": 12802
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 6384,
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 9957
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34881,12 +34881,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3192
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5805,
-                "physical_critical_strike_base": 11379,
-                "physical_overcome_base": 9957,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 10312,
+                "physical_overcome_base": 8179,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34913,12 +34913,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "strength_base": 1459,
-                "physical_attack_power_base": 5611,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 11735,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 5998,
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 9957,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -34945,12 +34945,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 2455
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "poison_attack_power_base": 6454,
-                "physical_critical_strike_base": 9601,
-                "poison_overcome_base": 11735,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "poison_attack_power_base": 6884,
+                "physical_critical_strike_base": 8534,
+                "poison_overcome_base": 9957,
+                "haste_base": 1422
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -34977,12 +34977,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1228
             },
             "magic": {
-                "vitality_base": 13157,
-                "spirit_base": 1459,
-                "poison_attack_power_base": 6562,
-                "poison_critical_strike_base": 9601,
-                "poison_overcome_base": 11379,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spirit_base": 1277,
+                "poison_attack_power_base": 6991,
+                "poison_critical_strike_base": 8534,
+                "poison_overcome_base": 9601,
+                "haste_base": 1422
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -35009,12 +35009,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1596
             },
             "magic": {
-                "vitality_base": 13157,
-                "spirit_base": 1459,
-                "lunar_attack_power_base": 6669,
-                "lunar_critical_strike_base": 9601,
-                "lunar_overcome_base": 10668,
-                "haste_base": 3912
+                "vitality_base": 15647,
+                "spirit_base": 1277,
+                "lunar_attack_power_base": 7099,
+                "lunar_critical_strike_base": 8534,
+                "lunar_overcome_base": 8890,
+                "haste_base": 1778
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -35041,12 +35041,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 3192
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5708,
-                "physical_critical_strike_base": 11024,
-                "physical_overcome_base": 10668,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 9957,
+                "physical_overcome_base": 8534,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -35073,12 +35073,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1596
             },
             "magic": {
-                "vitality_base": 13157,
-                "spirit_base": 1459,
-                "neutral_attack_power_base": 6454,
-                "neutral_critical_strike_base": 11024,
-                "neutral_overcome_base": 10312,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spirit_base": 1277,
+                "neutral_attack_power_base": 6884,
+                "neutral_critical_strike_base": 9957,
+                "neutral_overcome_base": 8534,
+                "haste_base": 1422
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -35105,12 +35105,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4174
             },
             "magic": {
-                "vitality_base": 13157,
-                "strength_base": 1459,
-                "physical_attack_power_base": 5805,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 11024,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 9601,
+                "physical_overcome_base": 8890,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -35137,12 +35137,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 1228
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "neutral_attack_power_base": 6669,
-                "neutral_critical_strike_base": 9601,
-                "neutral_overcome_base": 11024,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "neutral_attack_power_base": 7099,
+                "neutral_critical_strike_base": 8534,
+                "neutral_overcome_base": 9246,
+                "haste_base": 1422
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -35169,12 +35169,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4174
             },
             "magic": {
-                "vitality_base": 13157,
-                "spunk_base": 1459,
-                "solar_attack_power_base": 6884,
-                "solar_critical_strike_base": 9246,
-                "solar_overcome_base": 10668,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "spunk_base": 1277,
+                "solar_attack_power_base": 7314,
+                "solar_critical_strike_base": 8179,
+                "solar_overcome_base": 8890,
+                "haste_base": 1422
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -44779,7 +44779,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "渊忱囊_测试用#38849 (20500 )": {
+        "渊忱囊_测试用#38849 (20500 破招 无双)": {
             "id": 38849,
             "name": "渊忱囊_测试用",
             "school": "通用",
@@ -44789,15 +44789,23 @@ EQUIPMENTS = {
             "special_enchant": 0,
             "set_id": 0,
             "base": {},
-            "magic": {},
-            "embed": {},
+            "magic": {
+                "vitality_base": 6753,
+                "agility_base": 551,
+                "physical_attack_power_base": 1251,
+                "surplus_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "strain_base": 321
+            },
             "gains": [],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡双囊_测试用#38848 (20500 )": {
+        "羡双囊_测试用#38848 (20500 破招 无双)": {
             "id": 38848,
             "name": "羡双囊_测试用",
             "school": "通用",
@@ -44807,15 +44815,23 @@ EQUIPMENTS = {
             "special_enchant": 0,
             "set_id": 0,
             "base": {},
-            "magic": {},
-            "embed": {},
+            "magic": {
+                "vitality_base": 6753,
+                "strength_base": 551,
+                "physical_attack_power_base": 1251,
+                "surplus_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "strain_base": 321
+            },
             "gains": [],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庭澜囊_测试用#38847 (20500 )": {
+        "庭澜囊_测试用#38847 (20500 破招 无双)": {
             "id": 38847,
             "name": "庭澜囊_测试用",
             "school": "通用",
@@ -44825,8 +44841,16 @@ EQUIPMENTS = {
             "special_enchant": 0,
             "set_id": 0,
             "base": {},
-            "magic": {},
-            "embed": {},
+            "magic": {
+                "vitality_base": 6753,
+                "spunk_base": 551,
+                "magical_attack_power_base": 1391,
+                "surplus_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "strain_base": 321
+            },
             "gains": [],
             "recipes": {},
             "set_attr": {},
@@ -45083,12 +45107,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 6318
             },
             "magic": {
-                "vitality_base": 16928,
-                "agility_base": 1877,
-                "physical_attack_power_base": 7468,
-                "physical_critical_strike_base": 14640,
-                "physical_overcome_base": 12810,
-                "haste_base": 4575
+                "vitality_base": 20130,
+                "agility_base": 1642,
+                "physical_attack_power_base": 7965,
+                "physical_critical_strike_base": 13268,
+                "physical_overcome_base": 10523,
+                "haste_base": 1830
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -45115,12 +45139,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5959
             },
             "magic": {
-                "vitality_base": 15966,
-                "agility_base": 1770,
-                "physical_attack_power_base": 7043,
-                "physical_critical_strike_base": 13808,
-                "physical_overcome_base": 12082,
-                "haste_base": 4315
+                "vitality_base": 18986,
+                "agility_base": 1549,
+                "physical_attack_power_base": 7513,
+                "physical_critical_strike_base": 12514,
+                "physical_overcome_base": 9925,
+                "haste_base": 1726
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -45147,12 +45171,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5600
             },
             "magic": {
-                "vitality_base": 15004,
-                "agility_base": 1664,
-                "physical_attack_power_base": 6619,
-                "physical_critical_strike_base": 12976,
-                "physical_overcome_base": 11354,
-                "haste_base": 4055
+                "vitality_base": 17843,
+                "agility_base": 1456,
+                "physical_attack_power_base": 7060,
+                "physical_critical_strike_base": 11760,
+                "physical_overcome_base": 9327,
+                "haste_base": 1622
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -45400,12 +45424,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 5255
             },
             "magic": {
-                "vitality_base": 14081,
-                "agility_base": 1561,
-                "physical_attack_power_base": 6212,
-                "physical_critical_strike_base": 12178,
-                "physical_overcome_base": 10656,
-                "haste_base": 3806
+                "vitality_base": 16744,
+                "agility_base": 1366,
+                "physical_attack_power_base": 6626,
+                "physical_critical_strike_base": 11036,
+                "physical_overcome_base": 8753,
+                "haste_base": 1522
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -45432,12 +45456,12 @@ EQUIPMENTS = {
                 "weapon_damage_rand": 4911
             },
             "magic": {
-                "vitality_base": 13157,
-                "agility_base": 1459,
-                "physical_attack_power_base": 5805,
-                "physical_critical_strike_base": 11379,
-                "physical_overcome_base": 9957,
-                "haste_base": 3556
+                "vitality_base": 15647,
+                "agility_base": 1277,
+                "physical_attack_power_base": 6191,
+                "physical_critical_strike_base": 10312,
+                "physical_overcome_base": 8179,
+                "haste_base": 1422
             },
             "embed": {
                 "physical_attack_power_base": 87,

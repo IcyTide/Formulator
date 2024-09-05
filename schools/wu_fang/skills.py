@@ -30,7 +30,7 @@ class 鬼门加成(Skill):
 
 
 class 钩吻断肠秘章(鬼门加成):
-    damage_addition_extra = 154
+    damage_addition_add = 154
 
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks[70529].get(1):

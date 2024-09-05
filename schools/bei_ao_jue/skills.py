@@ -17,7 +17,7 @@ SCHOOL_SKILLS: Dict[type, Dict[int, dict]] = {
 
 
 class 项王击鼎秘章(Skill):
-    damage_addition_extra = 256
+    damage_addition_add = 256
 
 
 class 霸王加成(项王击鼎秘章):

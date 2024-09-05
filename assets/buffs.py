@@ -13692,8 +13692,8 @@ BUFFS = {
     },
     18428: {
         "attributes": {
-            "surplus_base": 258,
-            "strain_base": 258
+            "surplus_base": 553,
+            "strain_base": 553
         },
         "max_level": 1,
         "buff_name": "同泽宴",
@@ -46598,16 +46598,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    14972: {
-        "attributes": {
-            "all_damage_addition": 205
-        },
-        "max_level": 1,
-        "buff_name": "爆体",
-        "alias_name": "双刀爆体效果",
-        "max_stack": 1,
-        "recipes": {}
-    },
     23066: {
         "attributes": {},
         "max_level": 2,
@@ -46629,6 +46619,16 @@ BUFFS = {
                 2948: 1
             }
         ]
+    },
+    14972: {
+        "attributes": {
+            "all_damage_addition": 205
+        },
+        "max_level": 1,
+        "buff_name": "爆体",
+        "alias_name": "双刀爆体效果",
+        "max_stack": 1,
+        "recipes": {}
     },
     71047: {
         "attributes": {},
@@ -47339,5 +47339,12 @@ BUFFS = {
             5638: 1,
             5639: 1
         }
+    },
+    28756: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "经脉循行",
+        "max_stack": 1,
+        "recipes": {}
     }
 }
