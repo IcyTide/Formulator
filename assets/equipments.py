@@ -730,11 +730,11 @@ EQUIPMENTS = {
             "set_id": 5938,
             "base": {},
             "magic": {
-                "vitality_base": 11957,
-                "spirit_base": 1326,
-                "lunar_attack_power_base": 2539,
-                "haste_base": 11634,
-                "strain_base": 10341
+                "vitality_base": 14219,
+                "spirit_base": 1160,
+                "lunar_attack_power_base": 2930,
+                "haste_base": 9695,
+                "strain_base": 7756
             },
             "embed": {
                 "lunar_critical_strike_base": 321,
@@ -1008,7 +1008,7 @@ EQUIPMENTS = {
                 }
             }
         },
-        "揽江·凝眸衣_测试用#101467 (25900 加速 无双)": {
+        "揽江·凝眸衣_测试用#101467 (25900 会心 无双)": {
             "id": 101467,
             "name": "揽江·凝眸衣_测试用",
             "school": "五毒",
@@ -1022,15 +1022,15 @@ EQUIPMENTS = {
             "set_id": 5928,
             "base": {},
             "magic": {
-                "vitality_base": 11957,
-                "spirit_base": 1326,
-                "poison_attack_power_base": 2539,
-                "haste_base": 11634,
-                "strain_base": 10341
+                "vitality_base": 14219,
+                "spirit_base": 1160,
+                "poison_attack_power_base": 2930,
+                "poison_critical_strike_base": 9695,
+                "strain_base": 7756
             },
             "embed": {
                 "poison_critical_strike_base": 321,
-                "surplus_base": 321
+                "poison_critical_power_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -1064,11 +1064,11 @@ EQUIPMENTS = {
             "set_id": 5926,
             "base": {},
             "magic": {
-                "vitality_base": 11957,
-                "spirit_base": 1326,
-                "lunar_attack_power_base": 2539,
-                "haste_base": 11634,
-                "strain_base": 10341
+                "vitality_base": 14219,
+                "spirit_base": 1160,
+                "lunar_attack_power_base": 2930,
+                "haste_base": 9695,
+                "strain_base": 7756
             },
             "embed": {
                 "lunar_critical_strike_base": 321,
@@ -2121,11 +2121,11 @@ EQUIPMENTS = {
             "set_id": 5907,
             "base": {},
             "magic": {
-                "vitality_base": 10387,
-                "spirit_base": 1152,
-                "lunar_attack_power_base": 2206,
-                "haste_base": 10107,
-                "strain_base": 8984
+                "vitality_base": 12352,
+                "spirit_base": 1008,
+                "lunar_attack_power_base": 2545,
+                "haste_base": 8422,
+                "strain_base": 6738
             },
             "embed": {
                 "lunar_critical_strike_base": 321,
@@ -2399,7 +2399,7 @@ EQUIPMENTS = {
                 }
             }
         },
-        "展锋·松寒衣_测试用#101138 (22500 加速 无双)": {
+        "展锋·松寒衣_测试用#101138 (22500 会心 无双)": {
             "id": 101138,
             "name": "展锋·松寒衣_测试用",
             "school": "五毒",
@@ -2413,15 +2413,15 @@ EQUIPMENTS = {
             "set_id": 5897,
             "base": {},
             "magic": {
-                "vitality_base": 10387,
-                "spirit_base": 1152,
-                "poison_attack_power_base": 2206,
-                "haste_base": 10107,
-                "strain_base": 8984
+                "vitality_base": 12352,
+                "spirit_base": 1008,
+                "poison_attack_power_base": 2545,
+                "poison_critical_strike_base": 8422,
+                "strain_base": 6738
             },
             "embed": {
                 "poison_critical_strike_base": 321,
-                "surplus_base": 321
+                "poison_critical_power_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -2455,11 +2455,11 @@ EQUIPMENTS = {
             "set_id": 5895,
             "base": {},
             "magic": {
-                "vitality_base": 10387,
-                "spirit_base": 1152,
-                "lunar_attack_power_base": 2206,
-                "haste_base": 10107,
-                "strain_base": 8984
+                "vitality_base": 12352,
+                "spirit_base": 1008,
+                "lunar_attack_power_base": 2545,
+                "haste_base": 8422,
+                "strain_base": 6738
             },
             "embed": {
                 "lunar_critical_strike_base": 321,
@@ -43528,6 +43528,2664 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "他山月_测试用#40617 (12500 会心 破防 加速)": {
+            "id": 40617,
+            "name": "他山月_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 9618,
+                "spunk_base": 1066,
+                "magical_attack_power_base": 4875,
+                "all_critical_strike_base": 7278,
+                "magical_overcome_base": 7798,
+                "haste_base": 2599
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·他山月_测试用#40554 (12500 会心 破防 加速)": {
+            "id": 40554,
+            "name": "煞·他山月_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 9618,
+                "spunk_base": 1066,
+                "magical_attack_power_base": 4875,
+                "all_critical_strike_base": 7278,
+                "magical_overcome_base": 7798,
+                "haste_base": 2599
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·庄生晓梦#38587 (12500 特效 会心 破防 加速)": {
+            "id": 38587,
+            "name": "煞·庄生晓梦",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2572
+                ],
+                [
+                    2571
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·绝地天通刀#38586 (12500 特效 会心 破防 加速)": {
+            "id": 38586,
+            "name": "煞·绝地天通刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5543,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2391
+                ],
+                [
+                    2392
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·鹿王本生#38584 (12500 特效 会心 破防 加速)": {
+            "id": 38584,
+            "name": "煞·鹿王本生",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "poison_attack_power_base": 6651,
+                "poison_critical_strike_base": 5474,
+                "poison_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2414
+                ],
+                [
+                    2138
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·月升海楼#38583 (12500 特效 会心 破防 加速)": {
+            "id": 38583,
+            "name": "煞·月升海楼",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "neutral_attack_power_base": 6760,
+                "neutral_critical_strike_base": 5272,
+                "neutral_overcome_base": 6083,
+                "haste_base": 2433
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2413
+                ],
+                [
+                    1962
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·山河同渡#38582 (12500 特效 会心 破防 加速)": {
+            "id": 38582,
+            "name": "煞·山河同渡",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2428
+                ],
+                [
+                    1944
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·山海云涯#38581 (12500 特效 会心 破防 加速)": {
+            "id": 38581,
+            "name": "煞·山海云涯",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6083,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2423
+                ],
+                [
+                    1943
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·沉夜重雪#38580 (12500 特效 会心 破防 加速)": {
+            "id": 38580,
+            "name": "煞·沉夜重雪",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 5677,
+                "physical_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2430
+                ],
+                [
+                    1942
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·抚今#38578 (12500 特效 会心 破防 加速)": {
+            "id": 38578,
+            "name": "煞·抚今",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "lunar_attack_power_base": 6542,
+                "lunar_critical_strike_base": 5677,
+                "lunar_overcome_base": 6285,
+                "haste_base": 2230
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2415
+                ],
+                [
+                    1941
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·孤焰#38576 (12500 特效 会心 破防 加速)": {
+            "id": 38576,
+            "name": "煞·孤焰",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5815,
+                "physical_critical_strike_base": 5474,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2408
+                ],
+                [
+                    1940
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·血月#38574 (12500 特效 会心 破防 加速)": {
+            "id": 38574,
+            "name": "煞·血月",
+            "school": "明教",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "solar_and_lunar_attack_power_base": 6542,
+                "solar_and_lunar_critical_strike_base": 5474,
+                "solar_and_lunar_overcome_base": 6488,
+                "haste_base": 2230
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_and_lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2421
+                ],
+                [
+                    1938
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·拾牙#38573 (12500 特效 会心 破防)": {
+            "id": 38573,
+            "name": "煞·拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 7299
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·寄骨#38571 (12500 特效 会心 破防 加速)": {
+            "id": 38571,
+            "name": "煞·寄骨",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3500,
+                "weapon_damage_rand": 2333
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 5677,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2427
+                ],
+                [
+                    1945
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·摧霜#38570 (12500 特效 会心 破防 加速)": {
+            "id": 38570,
+            "name": "煞·摧霜",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5270,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6691,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2411
+                ],
+                [
+                    1936
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·罪骨浮屠#38569 (12500 特效 会心 破防 加速)": {
+            "id": 38569,
+            "name": "煞·罪骨浮屠",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "poison_attack_power_base": 6542,
+                "physical_critical_strike_base": 5474,
+                "poison_overcome_base": 6691,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spunk_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2412
+                ],
+                [
+                    1935
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·墨语沉香#38567 (12500 特效 会心 破防 加速)": {
+            "id": 38567,
+            "name": "煞·墨语沉香",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "poison_attack_power_base": 6651,
+                "poison_critical_strike_base": 5474,
+                "poison_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2420
+                ],
+                [
+                    1934
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·飞霜绛露#38565 (12500 特效 会心 破防 加速)": {
+            "id": 38565,
+            "name": "煞·飞霜绛露",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1750,
+                "weapon_damage_rand": 1167
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "lunar_attack_power_base": 6760,
+                "lunar_critical_strike_base": 5474,
+                "lunar_overcome_base": 6083,
+                "haste_base": 2230
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2416
+                ],
+                [
+                    1930
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·风霆肃#38564 (12500 特效 会心 破防 加速)": {
+            "id": 38564,
+            "name": "煞·风霆肃",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3500,
+                "weapon_damage_rand": 2333
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5361,
+                "physical_critical_strike_base": 6285,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2419
+                ],
+                [
+                    1932
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·苍冥游#38563 (12500 特效 会心 破防 加速)": {
+            "id": 38563,
+            "name": "煞·苍冥游",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1750,
+                "weapon_damage_rand": 1167
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "neutral_attack_power_base": 6542,
+                "neutral_critical_strike_base": 6285,
+                "neutral_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spirit_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2418
+                ],
+                [
+                    1931
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·旷野孤疆#38561 (12500 特效 会心 破防 加速)": {
+            "id": 38561,
+            "name": "煞·旷野孤疆",
+            "school": "天策",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6285,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2424
+                ],
+                [
+                    1933
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·璃光浮远#38559 (12500 特效 会心 破防 加速)": {
+            "id": 38559,
+            "name": "煞·璃光浮远",
+            "school": "万花",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "neutral_attack_power_base": 6760,
+                "neutral_critical_strike_base": 5474,
+                "neutral_overcome_base": 6285,
+                "haste_base": 2028
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·桑莲妙境#38557 (12500 特效 会心 破防 加速)": {
+            "id": 38557,
+            "name": "煞·桑莲妙境",
+            "school": "少林",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "solar_attack_power_base": 6978,
+                "solar_critical_strike_base": 5272,
+                "solar_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "solar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2410
+                ],
+                [
+                    1928
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "庄生晓梦#38077 (12500 特效 会心 破防 加速)": {
+            "id": 38077,
+            "name": "庄生晓梦",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2572
+                ],
+                [
+                    2571
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "绝地天通刀#38076 (12500 特效 会心 破防 加速)": {
+            "id": 38076,
+            "name": "绝地天通刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5543,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2391
+                ],
+                [
+                    2392
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "鹿王本生#38074 (12500 特效 会心 破防 加速)": {
+            "id": 38074,
+            "name": "鹿王本生",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "poison_attack_power_base": 6651,
+                "poison_critical_strike_base": 5474,
+                "poison_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2414
+                ],
+                [
+                    2138
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月升海楼#38073 (12500 特效 会心 破防 加速)": {
+            "id": 38073,
+            "name": "月升海楼",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "neutral_attack_power_base": 6760,
+                "neutral_critical_strike_base": 5272,
+                "neutral_overcome_base": 6083,
+                "haste_base": 2433
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2413
+                ],
+                [
+                    1962
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山河同渡#38072 (12500 特效 会心 破防 加速)": {
+            "id": 38072,
+            "name": "山河同渡",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2428
+                ],
+                [
+                    1944
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山海云涯#38071 (12500 特效 会心 破防 加速)": {
+            "id": 38071,
+            "name": "山海云涯",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6083,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2423
+                ],
+                [
+                    1943
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沉夜重雪#38070 (12500 特效 会心 破防 加速)": {
+            "id": 38070,
+            "name": "沉夜重雪",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 5677,
+                "physical_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2430
+                ],
+                [
+                    1942
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "抚今#38068 (12500 特效 会心 破防 加速)": {
+            "id": 38068,
+            "name": "抚今",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "lunar_attack_power_base": 6542,
+                "lunar_critical_strike_base": 5677,
+                "lunar_overcome_base": 6285,
+                "haste_base": 2230
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2415
+                ],
+                [
+                    1941
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "孤焰#38066 (12500 特效 会心 破防 加速)": {
+            "id": 38066,
+            "name": "孤焰",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4038,
+                "weapon_damage_rand": 2692
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5815,
+                "physical_critical_strike_base": 5474,
+                "physical_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2408
+                ],
+                [
+                    1940
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "血月#38064 (12500 特效 会心 破防 加速)": {
+            "id": 38064,
+            "name": "血月",
+            "school": "明教",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "solar_and_lunar_attack_power_base": 6542,
+                "solar_and_lunar_critical_strike_base": 5474,
+                "solar_and_lunar_overcome_base": 6488,
+                "haste_base": 2230
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_and_lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2421
+                ],
+                [
+                    1938
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "拾牙#38063 (12500 特效 会心 破防)": {
+            "id": 38063,
+            "name": "拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5633,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 7299
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寄骨#38061 (12500 特效 会心 破防 加速)": {
+            "id": 38061,
+            "name": "寄骨",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3500,
+                "weapon_damage_rand": 2333
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 5677,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2427
+                ],
+                [
+                    1945
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "摧霜#38060 (12500 特效 会心 破防 加速)": {
+            "id": 38060,
+            "name": "摧霜",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5270,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6691,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2411
+                ],
+                [
+                    1936
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "罪骨浮屠#38059 (12500 特效 会心 破防 加速)": {
+            "id": 38059,
+            "name": "罪骨浮屠",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2692,
+                "weapon_damage_rand": 1795
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "poison_attack_power_base": 6542,
+                "physical_critical_strike_base": 5474,
+                "poison_overcome_base": 6691,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spunk_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2412
+                ],
+                [
+                    1935
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "墨语沉香#38057 (12500 特效 会心 破防 加速)": {
+            "id": 38057,
+            "name": "墨语沉香",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "poison_attack_power_base": 6651,
+                "poison_critical_strike_base": 5474,
+                "poison_overcome_base": 6488,
+                "haste_base": 2028
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2420
+                ],
+                [
+                    1934
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "飞霜绛露#38055 (12500 特效 会心 破防 加速)": {
+            "id": 38055,
+            "name": "飞霜绛露",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1750,
+                "weapon_damage_rand": 1167
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "lunar_attack_power_base": 6760,
+                "lunar_critical_strike_base": 5474,
+                "lunar_overcome_base": 6083,
+                "haste_base": 2230
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2416
+                ],
+                [
+                    1930
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风霆肃#38054 (12500 特效 会心 破防 加速)": {
+            "id": 38054,
+            "name": "风霆肃",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3500,
+                "weapon_damage_rand": 2333
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5361,
+                "physical_critical_strike_base": 6285,
+                "physical_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2419
+                ],
+                [
+                    1932
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "苍冥游#38053 (12500 特效 会心 破防 加速)": {
+            "id": 38053,
+            "name": "苍冥游",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1750,
+                "weapon_damage_rand": 1167
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spirit_base": 1455,
+                "neutral_attack_power_base": 6542,
+                "neutral_critical_strike_base": 6285,
+                "neutral_overcome_base": 5880,
+                "haste_base": 2028
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spirit_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2418
+                ],
+                [
+                    1931
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "旷野孤疆#38051 (12500 特效 会心 破防 加速)": {
+            "id": 38051,
+            "name": "旷野孤疆",
+            "school": "天策",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "strength_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 5880,
+                "physical_overcome_base": 6285,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2424
+                ],
+                [
+                    1933
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "璃光浮远#38049 (12500 特效 会心 破防 加速)": {
+            "id": 38049,
+            "name": "璃光浮远",
+            "school": "万花",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1346,
+                "weapon_damage_rand": 897
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "neutral_attack_power_base": 6760,
+                "neutral_critical_strike_base": 5474,
+                "neutral_overcome_base": 6285,
+                "haste_base": 2028
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑莲妙境#38047 (12500 特效 会心 破防 加速)": {
+            "id": 38047,
+            "name": "桑莲妙境",
+            "school": "少林",
+            "kind": "内功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "spunk_base": 1455,
+                "solar_attack_power_base": 6978,
+                "solar_critical_strike_base": 5272,
+                "solar_overcome_base": 6083,
+                "haste_base": 2028
+            },
+            "embed": {
+                "solar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2410
+                ],
+                [
+                    1928
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "未央之夏#37104 (11650 会心 破防 加速)": {
+            "id": 37104,
+            "name": "未央之夏",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5250,
+                "physical_critical_strike_base": 5480,
+                "physical_overcome_base": 5480,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                5463: 1,
+                17471: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "渊鸣#37103 (11650 会心 破防 加速)": {
+            "id": 37103,
+            "name": "渊鸣",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "strength_base": 1356,
+                "physical_attack_power_base": 5166,
+                "physical_critical_strike_base": 5480,
+                "physical_overcome_base": 5669,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                3185: 1,
+                17359: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "迟莲·旧歌#37101 (11650 会心 破防 加速)": {
+            "id": 37101,
+            "name": "迟莲·旧歌",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2509,
+                "weapon_damage_rand": 1673
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spirit_base": 1356,
+                "poison_attack_power_base": 6199,
+                "poison_critical_strike_base": 5102,
+                "poison_overcome_base": 6047,
+                "haste_base": 1890
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                2841: 1,
+                17459: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "长生缘#37100 (11650 会心 破防 加速)": {
+            "id": 37100,
+            "name": "长生缘",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2509,
+                "weapon_damage_rand": 1673
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spunk_base": 1356,
+                "neutral_attack_power_base": 6300,
+                "neutral_critical_strike_base": 4913,
+                "neutral_overcome_base": 5669,
+                "haste_base": 2268
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                5327: 1,
+                17415: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "鬓间黄泉#37099 (11650 会心 破防 加速)": {
+            "id": 37099,
+            "name": "鬓间黄泉",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5250,
+                "physical_critical_strike_base": 5480,
+                "physical_overcome_base": 5480,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                5093: 1,
+                17330: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "槎舟渡星#37098 (11650 会心 破防 加速)": {
+            "id": 37098,
+            "name": "槎舟渡星",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5081,
+                "physical_critical_strike_base": 5669,
+                "physical_overcome_base": 5669,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                4820: 1,
+                4821: 1,
+                17410: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风雪寒鹊#37097 (11650 会心 破防 加速)": {
+            "id": 37097,
+            "name": "风雪寒鹊",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "strength_base": 1356,
+                "physical_attack_power_base": 5081,
+                "physical_critical_strike_base": 5291,
+                "physical_overcome_base": 6047,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                4296: 1,
+                4297: 1,
+                17375: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "飘铃语·月寂#37095 (11650 会心 破防 加速)": {
+            "id": 37095,
+            "name": "飘铃语·月寂",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1254,
+                "weapon_damage_rand": 836
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spirit_base": 1356,
+                "lunar_attack_power_base": 6097,
+                "lunar_critical_strike_base": 5291,
+                "lunar_overcome_base": 5858,
+                "haste_base": 2079
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17314: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凤鸣岐山·衔书#37093 (11650 会心 破防 加速)": {
+            "id": 37093,
+            "name": "凤鸣岐山·衔书",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3763,
+                "weapon_damage_rand": 2509
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5420,
+                "physical_critical_strike_base": 5102,
+                "physical_overcome_base": 5480,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1934: 1,
+                1936: 1,
+                17448: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "封霜曲刃·忆#37091 (11650 会心 破防 加速)": {
+            "id": 37091,
+            "name": "封霜曲刃·忆",
+            "school": "明教",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2509,
+                "weapon_damage_rand": 1673
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spunk_base": 1356,
+                "solar_and_lunar_attack_power_base": 6097,
+                "solar_and_lunar_critical_strike_base": 5102,
+                "solar_and_lunar_overcome_base": 6047,
+                "haste_base": 2079
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_and_lunar_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1148: 1,
+                1149: 1,
+                17334: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雾卷澜阖#37090 (11650 会心 破防)": {
+            "id": 37090,
+            "name": "雾卷澜阖",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4265,
+                "weapon_damage_rand": 2843
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "strength_base": 1356,
+                "physical_attack_power_base": 5250,
+                "physical_critical_strike_base": 6047,
+                "physical_overcome_base": 6803
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1980: 1,
+                1981: 1,
+                1982: 1,
+                1983: 1,
+                17442: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "金山月·寒晖#37088 (11650 会心 破防 加速)": {
+            "id": 37088,
+            "name": "金山月·寒晖",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3262,
+                "weapon_damage_rand": 2174
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5081,
+                "physical_critical_strike_base": 6047,
+                "physical_overcome_base": 5291,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1141: 1,
+                17369: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "清渊玉骨·寒弦#37087 (11650 会心 破防 加速)": {
+            "id": 37087,
+            "name": "清渊玉骨·寒弦",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2509,
+                "weapon_damage_rand": 1673
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "strength_base": 1356,
+                "physical_attack_power_base": 4912,
+                "physical_critical_strike_base": 5480,
+                "physical_overcome_base": 6236,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1145: 1,
+                1978: 1,
+                17436: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "清渊玉骨·霜锋#37086 (11650 会心 破防 加速)": {
+            "id": 37086,
+            "name": "清渊玉骨·霜锋",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2509,
+                "weapon_damage_rand": 1673
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spunk_base": 1356,
+                "poison_attack_power_base": 6097,
+                "physical_critical_strike_base": 5102,
+                "poison_overcome_base": 6236,
+                "haste_base": 1890
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spunk_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1146: 1,
+                1978: 1,
+                17430: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "死生往复·牵丝#37084 (11650 会心 破防 加速)": {
+            "id": 37084,
+            "name": "死生往复·牵丝",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1254,
+                "weapon_damage_rand": 836
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spirit_base": 1356,
+                "poison_attack_power_base": 6199,
+                "poison_critical_strike_base": 5102,
+                "poison_overcome_base": 6047,
+                "haste_base": 1890
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1143: 1,
+                17322: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "鳞海人间·水穷#37082 (11650 会心 破防 加速)": {
+            "id": 37082,
+            "name": "鳞海人间·水穷",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1631,
+                "weapon_damage_rand": 1087
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spirit_base": 1356,
+                "lunar_attack_power_base": 6300,
+                "lunar_critical_strike_base": 5102,
+                "lunar_overcome_base": 5669,
+                "haste_base": 2079
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1137: 1,
+                1977: 1,
+                17381: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "愧琼瑰·玉碎#37081 (11650 会心 破防 加速)": {
+            "id": 37081,
+            "name": "愧琼瑰·玉碎",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3262,
+                "weapon_damage_rand": 2174
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 4997,
+                "physical_critical_strike_base": 5858,
+                "physical_overcome_base": 5669,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1135: 1,
+                17313: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "愧琼瑰·珠沉#37080 (11650 会心 破防 加速)": {
+            "id": 37080,
+            "name": "愧琼瑰·珠沉",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1631,
+                "weapon_damage_rand": 1087
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spirit_base": 1356,
+                "neutral_attack_power_base": 6097,
+                "neutral_critical_strike_base": 5858,
+                "neutral_overcome_base": 5480,
+                "haste_base": 1890
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spirit_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1136: 1,
+                17312: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沙场闲客·幽冥#37078 (11650 会心 破防 加速)": {
+            "id": 37078,
+            "name": "沙场闲客·幽冥",
+            "school": "天策",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4265,
+                "weapon_damage_rand": 2843
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "strength_base": 1356,
+                "physical_attack_power_base": 5081,
+                "physical_critical_strike_base": 5480,
+                "physical_overcome_base": 5858,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1133: 1,
+                17367: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "衔羽还·今夕#37076 (11650 会心 破防 加速)": {
+            "id": 37076,
+            "name": "衔羽还·今夕",
+            "school": "万花",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1254,
+                "weapon_damage_rand": 836
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spunk_base": 1356,
+                "neutral_attack_power_base": 6300,
+                "neutral_critical_strike_base": 5102,
+                "neutral_overcome_base": 5858,
+                "haste_base": 1890
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1131: 1,
+                1979: 1,
+                17400: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慈悲音·观照#37074 (11650 会心 破防 加速)": {
+            "id": 37074,
+            "name": "慈悲音·观照",
+            "school": "少林",
+            "kind": "内功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4265,
+                "weapon_damage_rand": 2843
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "spunk_base": 1356,
+                "solar_attack_power_base": 6503,
+                "solar_critical_strike_base": 4913,
+                "solar_overcome_base": 5669,
+                "haste_base": 1890
+            },
+            "embed": {
+                "solar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1139: 1,
+                17352: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "tertiary_weapon": {
@@ -45904,6 +48562,129 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·螭尘#38572 (12500 特效 会心 破防 加速)": {
+            "id": 38572,
+            "name": "煞·螭尘",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5384,
+                "weapon_damage_rand": 3589
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 5677,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2426
+                ],
+                [
+                    1937
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "螭尘#38062 (12500 特效 会心 破防 加速)": {
+            "id": 38062,
+            "name": "螭尘",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5384,
+                "weapon_damage_rand": 3589
+            },
+            "magic": {
+                "vitality_base": 7502,
+                "agility_base": 1455,
+                "physical_attack_power_base": 5452,
+                "physical_critical_strike_base": 6488,
+                "physical_overcome_base": 5677,
+                "haste_base": 2028
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2426
+                ],
+                [
+                    1937
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "金山月·夕照#37089 (11650 会心 破防 加速)": {
+            "id": 37089,
+            "name": "金山月·夕照",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5018,
+                "weapon_damage_rand": 3345
+            },
+            "magic": {
+                "vitality_base": 6992,
+                "agility_base": 1356,
+                "physical_attack_power_base": 5081,
+                "physical_critical_strike_base": 6047,
+                "physical_overcome_base": 5291,
+                "haste_base": 1890
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [],
+            "recipes": {
+                1142: 1,
+                17369: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}

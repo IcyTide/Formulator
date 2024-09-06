@@ -2,8 +2,7 @@ from collections import defaultdict
 
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP, MIN_EQUIP_LEVEL, SPECIAL_ENCHANT_MAP, TARGET_ATTR_TYPE_MAP
-from assets.constant import MAX_BASE_ATTR, MAX_MAGIC_ATTR, MAX_EMBED_ATTR, MAX_SET_COUNT, MAX_SET_ATTR
+from assets.constant import *
 from schools import SUPPORT_SCHOOLS
 from tools import *
 
@@ -156,9 +155,18 @@ def get_equip_detail(row):
     return detail
 
 
+def filter_equip(row):
+    if row['SubType'] not in MIN_EQUIP_SCORE:
+        return False
+    if row['Score'] >= MIN_EQUIP_SCORE[row['SubType']]:
+        return True
+    if row['SubType'] == 0 and row['Level'] in LAST_SEASON_DIVINE_LEVEL:
+        return True
+    return False
+
+
 def get_equip_list(equip_tab):
-    equip_tab = equip_tab[
-        equip_tab.apply(lambda x: x['Score'] >= MIN_EQUIP_SCORE.get(x['SubType'], float("inf")), axis=1)]
+    equip_tab = equip_tab[equip_tab.apply(filter_equip, axis=1)]
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     # equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
     equip_tab = equip_tab[~equip_tab.MagicType.str.contains("PVP")]

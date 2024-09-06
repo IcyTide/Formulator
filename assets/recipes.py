@@ -7255,7 +7255,7 @@ RECIPES = {
     5620: {
         1: {
             "damage_addition": 153,
-            "recipe_type": 37779,
+            "skill_id": 38452,
             "recipe_name": "骤风共振伤害增加"
         }
     },
