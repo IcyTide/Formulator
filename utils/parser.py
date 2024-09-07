@@ -4,7 +4,7 @@ from typing import Union
 
 from assets.constant import MOBILE_MAX_TALENTS
 from base.constant import FRAME_PER_SECOND
-from schools import *
+from kungfus import *
 from utils.lua import parse_player, parse_actual_damage
 
 FRAME_TYPE, SECOND_TYPE = int, int
@@ -50,7 +50,6 @@ class BaseParser:
     current_damage: SKILL_ID_TYPE
 
     current_frame: FRAME_TYPE
-    current_second: SECOND_TYPE
 
     id2name: Dict[Union[CASTER_ID_TYPE, TARGET_ID_TYPE], PLAYER_NAME_TYPE]
     name2id: Dict[PLAYER_NAME_TYPE, Union[CASTER_ID_TYPE, TARGET_ID_TYPE]]
@@ -87,11 +86,11 @@ class BaseParser:
     gains: Dict[PLAYER_ID_TYPE, List[Gain]]
     recipes: Dict[PLAYER_ID_TYPE, List[Recipe]]
 
-    players: Dict[PLAYER_ID_TYPE, School]
+    players: Dict[PLAYER_ID_TYPE, Kungfu]
     targets: Dict[PLAYER_ID_TYPE, List[TARGET_ID_TYPE]]
 
     @property
-    def current_school(self):
+    def current_kungfu(self):
         return self.players[self.current_player]
 
     @property
@@ -147,7 +146,6 @@ class BaseParser:
 
     def reset(self):
         self.current_frame = 0
-        self.current_second = 0
 
         self.id2name = {}
         self.name2id = {}
@@ -185,7 +183,7 @@ class BaseParser:
         self.targets = defaultdict(list)
 
     def refresh_buff(self, buff_id, buff_level, buff_stack=1):
-        buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
+        buff, buff.buff_level = self.current_kungfu.buffs[buff_id], buff_level
         stack = max(min(self.current_buff_stacks[buff_id].get(buff_level, 0) + buff_stack, buff.max_stack), 0)
         if stack:
             self.current_buff_stacks[buff_id][buff_level] = stack
@@ -196,7 +194,7 @@ class BaseParser:
             self.current_buff_intervals[buff_id].pop(buff_level, None)
 
     def refresh_target_buff(self, buff_id, buff_level, buff_stack=1):
-        buff, buff.buff_level = self.current_school.buffs[buff_id], buff_level
+        buff, buff.buff_level = self.current_kungfu.buffs[buff_id], buff_level
         stack = max(min(self.current_target_buff_stacks[buff_id].get(buff_level, 0) + buff_stack, buff.max_stack), 0)
         if stack:
             self.current_target_buff_stacks[buff_id][buff_level] = stack
@@ -245,22 +243,22 @@ class Parser(BaseParser):
 
     def parse_player(self, row):
         detail = row.strip("{}").split(",")
-        player_id, school_id = detail[0], int(detail[3])
-        if (school_id not in SUPPORT_SCHOOLS or
+        player_id, kungfu_id = detail[0], int(detail[3])
+        if (kungfu_id not in SUPPORT_KUNGFU or
                 (player_id in self.select_talents and player_id in self.select_equipments)):
             return
 
         try:
             detail = parse_player(row)
             player_name = detail[1]
-            school = SUPPORT_SCHOOLS[school_id]
+            kungfu = SUPPORT_KUNGFU[kungfu_id]
             if equipments := detail.get(5):
                 self.select_equipments[player_id] = self.parse_equipments(equipments.values())
             if talents := detail.get(6):
                 self.select_talents[player_id] = self.parse_talents(talents.values())
-                if any(talent not in school.talents for talent in self.select_talents[player_id]):
+                if any(talent not in kungfu.talents for talent in self.select_talents[player_id]):
                     return
-            self.players[player_id] = deepcopy(school)
+            self.players[player_id] = deepcopy(kungfu)
             if len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS:
                 self.players[player_id].platform = 0
             else:
@@ -450,10 +448,10 @@ class Parser(BaseParser):
 
     @property
     def status(self):
-        damage = self.current_school.skills[self.current_damage]
+        damage = self.current_kungfu.skills[self.current_damage]
         current_status = []
         for buff_id, buff_levels in self.current_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
@@ -461,7 +459,7 @@ class Parser(BaseParser):
 
         snapshot_status = []
         for buff_id, buff_levels in self.pet_snapshot.get(self.current_caster, {}).items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
@@ -469,7 +467,7 @@ class Parser(BaseParser):
 
         target_status = []
         for buff_id, buff_levels in self.current_target_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
@@ -479,17 +477,17 @@ class Parser(BaseParser):
 
     @property
     def dot_status(self):
-        damage = self.current_school.dots[self.current_damage]
+        damage = self.current_kungfu.dots[self.current_damage]
         current_status = []
         for buff_id, buff_levels in self.current_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
                     current_status.append((buff_id, buff_level, buff_stack))
         snapshot_status = []
         for buff_id, buff_levels in self.current_dot_snapshot.get(self.current_damage, {}).items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
@@ -497,7 +495,7 @@ class Parser(BaseParser):
 
         target_status = []
         for buff_id, buff_levels in self.current_target_buff_stacks.items():
-            buff = self.current_school.buffs[buff_id]
+            buff = self.current_kungfu.buffs[buff_id]
             for buff_level, buff_stack in buff_levels.items():
                 buff.buff_level = buff_level
                 if self.filter_buff(buff, damage):
@@ -505,28 +503,28 @@ class Parser(BaseParser):
 
         return tuple(current_status), tuple(snapshot_status), tuple(target_status)
 
-    def school_add(self):
-        for player_id, school in self.players.items():
-            attribute = self.attributes[player_id] = school.attribute()
+    def kungfu_add(self):
+        for player_id, kungfu in self.players.items():
+            attribute = self.attributes[player_id] = kungfu.attribute()
             gains = self.gains[player_id] = []
             recipes = self.recipes[player_id] = []
             for talent_id in self.select_talents[player_id]:
-                talent = school.talents[talent_id]
-                talent.add(attribute, school.buffs, school.dots, school.skills)
+                talent = kungfu.talents[talent_id]
+                talent.add(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
                 gains.append(talent)
                 for recipe_key in talent.recipes:
-                    recipe = school.recipes[recipe_key]
-                    recipe.add(attribute, school.buffs, school.dots, school.skills)
+                    recipe = kungfu.recipes[recipe_key]
+                    recipe.add(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
                     recipes.append(recipe)
-            school.prepare(self, player_id)
+            kungfu.prepare(self, player_id)
 
-    def school_sub(self):
-        for player_id, school in self.players.items():
+    def kungfu_sub(self):
+        for player_id, kungfu in self.players.items():
             attribute = self.attributes[player_id]
             for gain in self.gains[player_id]:
-                gain.sub(attribute, school.buffs, school.dots, school.skills)
+                gain.sub(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
             for recipe in self.recipes[player_id]:
-                recipe.sub(attribute, school.buffs, school.dots, school.skills)
+                recipe.sub(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
 
     def merge_targets(self):
         for player_id in self.records:
@@ -550,7 +548,7 @@ class Parser(BaseParser):
             elif row[4] == "8":
                 self.parse_npc(row[-1])
 
-        self.school_add()
+        self.kungfu_add()
 
         for row in rows:
             self.current_frame = int(row[1])
@@ -572,5 +570,5 @@ class Parser(BaseParser):
 
         self.end_frame = self.current_frame
 
-        self.school_sub()
+        self.kungfu_sub()
         self.merge_targets()

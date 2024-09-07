@@ -56,7 +56,7 @@ class BaseDamage(BaseSkill):
 
     prepare_frame_add: int = 0
     channel_interval_add: float = 1.
-    
+
     _damage_addition: List[int] = []
     damage_addition_add: int = 0
     move_state_damage_addition: int = 0
@@ -1437,7 +1437,7 @@ class Skill(Damage):
             parser.current_next_pet_buff_stacks.append(pet_buffs)
 
     def dot_add(self, parser):
-        bind_dot = parser.current_school.dots[self.bind_dot]
+        bind_dot = parser.current_kungfu.dots[self.bind_dot]
         if not parser.current_dot_ticks.get(self.bind_dot):
             parser.current_dot_stacks[self.bind_dot] = 0
         parser.current_dot_ticks[self.bind_dot] = bind_dot.tick

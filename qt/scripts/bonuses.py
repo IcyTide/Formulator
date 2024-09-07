@@ -56,7 +56,7 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
         widget = bonuses_widget.formation
         formation = widget.formation.combo_box.currentText()
         rates = [rate.spin_box.value() for rate in widget.rates]
-        if formation == parser.current_school.formation:
+        if formation == parser.current_kungfu.formation:
             widget.rates[0].show()
             widget.rates[-1].show()
         else:

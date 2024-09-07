@@ -83,7 +83,7 @@ def config_script(
 
     def load_config():
         config_name = config_widget.config_select.combo_box.currentText()
-        config = CONFIG.get(parser.current_school.school, {}).get(config_name, {})
+        config = CONFIG.get(parser.current_kungfu.name, {}).get(config_name, {})
         if not config:
             return
         category = config_widget.config_category.combo_box.currentText()
@@ -155,11 +155,11 @@ def config_script(
 
     def save_config():
         config_name = config_widget.config_name.text_browser.text()
-        school = parser.current_school.school
-        if school not in CONFIG:
-            CONFIG[school] = {}
-        if config_name not in CONFIG[school]:
-            CONFIG[school][config_name] = {
+        name = parser.current_kungfu.name
+        if name not in CONFIG:
+            CONFIG[name] = {}
+        if config_name not in CONFIG[name]:
+            CONFIG[name][config_name] = {
                 "equipments": {},
                 "consumables": {},
                 "bonuses": {"formation": {}, "team_gains": {}},
@@ -167,29 +167,29 @@ def config_script(
                 "recipes": {}
             }
 
-        save_equipments(CONFIG[school][config_name]['equipments'])
-        save_consumables(CONFIG[school][config_name]['consumables'])
-        save_bonuses(CONFIG[school][config_name]['bonuses'])
-        save_recipes(CONFIG[school][config_name]['recipes'])
+        save_equipments(CONFIG[name][config_name]['equipments'])
+        save_consumables(CONFIG[name][config_name]['consumables'])
+        save_bonuses(CONFIG[name][config_name]['bonuses'])
+        save_recipes(CONFIG[name][config_name]['recipes'])
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
         config_widget.config_select.set_items(
-            list(CONFIG.get(school, {})), keep_index=True, default_index=-1
+            list(CONFIG.get(name, {})), keep_index=True, default_index=-1
         )
 
     config_widget.save_config.clicked.connect(save_config)
 
     def delete_config():
         config_name = config_widget.config_name.text_browser.text()
-        school = parser.current_school.school
-        if config_name not in CONFIG.get(school, {}):
+        name = parser.current_kungfu.name
+        if config_name not in CONFIG.get(name, {}):
             return
 
-        CONFIG[school].pop(config_name)
+        CONFIG[name].pop(config_name)
 
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
-        config_widget.config_select.set_items(list(CONFIG.get(school, {})), default_index=-1)
+        config_widget.config_select.set_items(list(CONFIG.get(name, {})), default_index=-1)
         config_widget.config_name.text_browser.clear()
 
     config_widget.delete_config.clicked.connect(delete_config)

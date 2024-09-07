@@ -9,7 +9,6 @@ from qt.scripts.equipments import Equipments
 from qt.scripts.recipes import Recipes
 from qt.scripts.talents import Talents
 from qt.scripts.top import Parser
-# from schools.wen_shui_jue.gains import SecondaryWeapon
 from utils.analyzer import Analyzer, Detail
 
 
@@ -81,10 +80,10 @@ def dashboard_script(parser: Parser,
             target_id = target_name
         parser.current_target = target_id
         record = parser.current_records
-        school = parser.current_school
+        kungfu = parser.current_kungfu
 
         target_level = int(dashboard_widget.target_level.combo_box.currentText())
-        analyzer = Analyzer(school, target_level)
+        analyzer = Analyzer(kungfu, target_level)
         equipment_attrs, equipment_gains, equipment_recipes = equipments.details
         analyzer.add_attrs(equipment_attrs)
         dashboard_widget.init_attribute.set_content(attr_content(analyzer.attribute))
@@ -92,11 +91,11 @@ def dashboard_script(parser: Parser,
         analyzer.add_attrs(consumables.attrs)
         analyzer.add_gains(equipment_gains)
         analyzer.add_recipes(equipment_recipes)
-        if not school.platform:
-            analyzer.add_gains([school.talent_encoder[t] for t in talents.gains])
-            analyzer.add_recipes([school.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
+        if not kungfu.platform:
+            analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains])
+            analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
         else:
-            analyzer.add_gains([school.talent_encoder[t] for t in talents.gains[:MOBILE_MAX_TALENTS]])
+            analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains[:MOBILE_MAX_TALENTS]])
 
         dashboard_widget.final_attribute.set_content(attr_content(analyzer.attribute))
 

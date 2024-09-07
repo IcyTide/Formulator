@@ -1,7 +1,7 @@
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from general.buffs.team import BUFFS
+from general.buffs import GENERAL_BUFFS
 
 
 class TeamGain(Gain):
@@ -43,38 +43,43 @@ def create_team_gain(buff: Buff, base_class, attributes):
 
 
 TEAM_GAINS = [
-    create_team_gain(BUFFS[-673], TeamGain, BUFFS[-673].get_attributes(level=BUFFS[-673].max_level)),
-    create_team_gain(BUFFS[20938], TeamGain, BUFFS[20938].attributes),
-    create_team_gain(BUFFS[23573], TeamGain, BUFFS[23573].attributes),
-    create_team_gain(BUFFS[-362], TeamGain, BUFFS[-362].get_attributes(level=BUFFS[-362].max_level)),
-    create_team_gain(BUFFS[-661], TargetTeamGain, {
-        BUFFS[-661].buff_name: BUFFS[-661].get_attributes(level=BUFFS[-661].max_level),
-        BUFFS[-12717].buff_name: BUFFS[-12717].get_attributes(level=BUFFS[-12717].max_level)
+    create_team_gain(GENERAL_BUFFS[-673], TeamGain,
+                     GENERAL_BUFFS[-673].get_attributes(level=GENERAL_BUFFS[-673].max_level)),
+    create_team_gain(GENERAL_BUFFS[20938], TeamGain, GENERAL_BUFFS[20938].attributes),
+    create_team_gain(GENERAL_BUFFS[23573], TeamGain, GENERAL_BUFFS[23573].attributes),
+    create_team_gain(GENERAL_BUFFS[-362], TeamGain,
+                     GENERAL_BUFFS[-362].get_attributes(level=GENERAL_BUFFS[-362].max_level)),
+    create_team_gain(GENERAL_BUFFS[-661], TargetTeamGain, {
+        GENERAL_BUFFS[-661].buff_name: GENERAL_BUFFS[-661].get_attributes(level=GENERAL_BUFFS[-661].max_level),
+        GENERAL_BUFFS[-12717].buff_name: GENERAL_BUFFS[-12717].get_attributes(level=GENERAL_BUFFS[-12717].max_level)
     }),
-    create_team_gain(BUFFS[-3465], TargetTeamGain, BUFFS[-3465].attributes),
-    create_team_gain(BUFFS[23107], TeamGain, {k: (v + v / 2) / 2 for k, v in BUFFS[23107].attributes.items()}),
-    create_team_gain(BUFFS[6363], TeamGain, BUFFS[6363].get_attributes()),
-    create_team_gain(BUFFS[-566], TargetTeamGain,
-                     BUFFS[-566].get_attributes(level=BUFFS[-566].max_level, stack=BUFFS[-566].max_stack)),
-    create_team_gain(BUFFS[10208], TeamGain, BUFFS[10208].attributes),
-    create_team_gain(BUFFS[-23305], TargetTeamGain, BUFFS[-23305].attributes),
-    create_team_gain(BUFFS[24350], TeamGain, BUFFS[24350].attributes),
-    create_team_gain(BUFFS[-378], TeamGain, BUFFS[-378].get_attributes(level=7)),
-    create_team_gain(BUFFS[-375], TeamGain, BUFFS[-375].get_attributes(level=5)),
-    create_team_gain(BUFFS[21236], TeamGain, BUFFS[21236].attributes),
-    create_team_gain(BUFFS[24742], TeamGain, BUFFS[24742].attributes),
-    create_team_gain(BUFFS[-4058], TargetTeamGain, BUFFS[-4058].get_attributes(level=1)),
-    create_team_gain(BUFFS[4246], TeamGain, {
-        BUFFS[4246].buff_name: BUFFS[4246].attributes,
-        BUFFS[9744].buff_name: BUFFS[9744].attributes
+    create_team_gain(GENERAL_BUFFS[-3465], TargetTeamGain, GENERAL_BUFFS[-3465].attributes),
+    create_team_gain(GENERAL_BUFFS[23107], TeamGain,
+                     {k: (v + v / 2) / 2 for k, v in GENERAL_BUFFS[23107].attributes.items()}),
+    create_team_gain(GENERAL_BUFFS[6363], TeamGain, GENERAL_BUFFS[6363].get_attributes()),
+    create_team_gain(GENERAL_BUFFS[-566], TargetTeamGain,
+                     GENERAL_BUFFS[-566].get_attributes(level=GENERAL_BUFFS[-566].max_level,
+                                                        stack=GENERAL_BUFFS[-566].max_stack)),
+    create_team_gain(GENERAL_BUFFS[10208], TeamGain, GENERAL_BUFFS[10208].attributes),
+    create_team_gain(GENERAL_BUFFS[-23305], TargetTeamGain, GENERAL_BUFFS[-23305].attributes),
+    create_team_gain(GENERAL_BUFFS[24350], TeamGain, GENERAL_BUFFS[24350].attributes),
+    create_team_gain(GENERAL_BUFFS[-378], TeamGain, GENERAL_BUFFS[-378].get_attributes(level=7)),
+    create_team_gain(GENERAL_BUFFS[-375], TeamGain, GENERAL_BUFFS[-375].get_attributes(level=5)),
+    create_team_gain(GENERAL_BUFFS[21236], TeamGain, GENERAL_BUFFS[21236].attributes),
+    create_team_gain(GENERAL_BUFFS[24742], TeamGain, GENERAL_BUFFS[24742].attributes),
+    create_team_gain(GENERAL_BUFFS[-4058], TargetTeamGain, GENERAL_BUFFS[-4058].get_attributes(level=1)),
+    create_team_gain(GENERAL_BUFFS[4246], TeamGain, {
+        GENERAL_BUFFS[4246].buff_name: GENERAL_BUFFS[4246].attributes,
+        GENERAL_BUFFS[9744].buff_name: GENERAL_BUFFS[9744].attributes
     }),
-    create_team_gain(BUFFS[-7180], TeamGain, BUFFS[-7180].attributes),
-    create_team_gain(BUFFS[-8248], TargetTeamGain, BUFFS[-8248].attributes),
-    create_team_gain(BUFFS[8504], TeamGain, BUFFS[8504].attributes),
-    create_team_gain(BUFFS[10031], TeamGain, BUFFS[10031].attributes),
-    create_team_gain(BUFFS[23543], TeamGain, BUFFS[23543].attributes),
-    create_team_gain(BUFFS[16911], TeamGain, BUFFS[16911].attributes),
-    create_team_gain(BUFFS[11456], TeamGain, BUFFS[11456].attributes),
-    create_team_gain(BUFFS[20877], TeamGain, BUFFS[20877].get_attributes(stack=BUFFS[20877].max_stack))
+    create_team_gain(GENERAL_BUFFS[-7180], TeamGain, GENERAL_BUFFS[-7180].attributes),
+    create_team_gain(GENERAL_BUFFS[-8248], TargetTeamGain, GENERAL_BUFFS[-8248].attributes),
+    create_team_gain(GENERAL_BUFFS[8504], TeamGain, GENERAL_BUFFS[8504].attributes),
+    create_team_gain(GENERAL_BUFFS[10031], TeamGain, GENERAL_BUFFS[10031].attributes),
+    create_team_gain(GENERAL_BUFFS[23543], TeamGain, GENERAL_BUFFS[23543].attributes),
+    create_team_gain(GENERAL_BUFFS[16911], TeamGain, GENERAL_BUFFS[16911].attributes),
+    create_team_gain(GENERAL_BUFFS[11456], TeamGain, GENERAL_BUFFS[11456].attributes),
+    create_team_gain(GENERAL_BUFFS[20877], TeamGain,
+                     GENERAL_BUFFS[20877].get_attributes(stack=GENERAL_BUFFS[20877].max_stack))
 ]
 TEAM_GAINS = {k: v for k, v in TEAM_GAINS}

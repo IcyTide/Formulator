@@ -3,14 +3,14 @@ from collections import defaultdict
 from tqdm import tqdm
 
 from base.recipe import SkillRecipe, DotRecipe
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 
 def prepare_recipes():
     recipes = []
-    for school in SUPPORT_SCHOOLS.values():
-        for recipe_key, recipe in school.recipes.items():
+    for kungfu in SUPPORT_KUNGFU.values():
+        for recipe_key, recipe in kungfu.recipes.items():
             if recipe_key in recipes:
                 continue
             if isinstance(recipe, SkillRecipe):
@@ -62,13 +62,13 @@ def collect_result():
         if recipe_id > 0:
             filter_recipes = SKILL_RECIPE_TAB[
                 (SKILL_RECIPE_TAB.RecipeID == recipe_id) & (SKILL_RECIPE_TAB.RecipeLevel == recipe_level)
-            ]
+                ]
             for _, recipe_row in filter_recipes.iterrows():
                 results[recipe_id][recipe_level] = parse_skill_recipe(recipe_row)
         else:
             filter_recipes = BUFF_RECIPE_TAB[
                 (BUFF_RECIPE_TAB.RecipeID == -recipe_id) & (BUFF_RECIPE_TAB.RecipeLevel == recipe_level)
-            ]
+                ]
             for _, recipe_row in filter_recipes.iterrows():
                 results[recipe_id][recipe_level] = parse_buff_recipe(recipe_row)
     return results

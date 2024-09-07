@@ -1,14 +1,14 @@
 from tqdm import tqdm
 
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from tools import *
 from tools.generate_buffs import BUFF_TAB, BUFF_TXT
 
 
 def prepare_dots():
     dots = []
-    for school in SUPPORT_SCHOOLS.values():
-        for dot_id, dot in school.dots.items():
+    for kungfu in SUPPORT_KUNGFU.values():
+        for dot_id, dot in kungfu.dots.items():
             if dot_id in dots:
                 continue
             dots.append(dot_id)

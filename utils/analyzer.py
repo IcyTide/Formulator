@@ -10,7 +10,7 @@ from base.constant import FRAME_PER_SECOND
 from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill, NpcSkill, PetSkill
-from schools import School
+from kungfus import Kungfu
 
 
 @dataclass
@@ -49,7 +49,7 @@ class Detail:
 
 
 class BaseAnalyzer:
-    school: School
+    kungfu: Kungfu
     attribute: Attribute
 
 
@@ -64,7 +64,7 @@ class BuffAnalyzer(BaseAnalyzer):
     def filter_status(self, status):
         buffs = []
         for buff_id, buff_level, buff_stack in status:
-            buff, buff.buff_level, buff.buff_stack = self.school.buffs[buff_id], buff_level, buff_stack
+            buff, buff.buff_level, buff.buff_stack = self.kungfu.buffs[buff_id], buff_level, buff_stack
             if not buff.activate:
                 continue
             buffs.append(copy(buff))
@@ -127,13 +127,13 @@ class BuffAnalyzer(BaseAnalyzer):
     def add_buff_recipes(self, skill: Skill, buff: Buff) -> bool:
         return_tag = False
         for recipe_key in buff.recipes.items():
-            if self.school.recipes[recipe_key].add(self.attribute, {}, {}, {skill.skill_id: skill}):
+            if self.kungfu.recipes[recipe_key].add(self.attribute, {}, {}, {skill.skill_id: skill}):
                 return_tag = True
         return return_tag
 
     def sub_buff_recipes(self, skill: Skill, buff: Buff):
         for recipe_key in buff.recipes.items():
-            self.school.recipes[recipe_key].sub(self.attribute, {}, {}, {skill.skill_id: skill})
+            self.kungfu.recipes[recipe_key].sub(self.attribute, {}, {}, {skill.skill_id: skill})
 
     def add_buffs_all(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
         display_current_buffs, display_snapshot_buffs = [], []
@@ -246,28 +246,28 @@ class SkillAnalyzer(BaseAnalyzer):
         damage_tuple, dot_skill_tuple, consume_skill_tuple = damage_tuple
         if dot_skill_tuple:
             dot_id, dot_level = damage_tuple
-            damage, damage.buff_level = self.school.dots[dot_id], dot_level
+            damage, damage.buff_level = self.kungfu.dots[dot_id], dot_level
             dot_skill_id, dot_skill_level, dot_stack = dot_skill_tuple
-            dot_skill, dot_skill.skill_level = self.school.skills[dot_skill_id], dot_skill_level
+            dot_skill, dot_skill.skill_level = self.kungfu.skills[dot_skill_id], dot_skill_level
             damage.dot_skill, damage.dot_stack = dot_skill, dot_stack
             if consume_skill_tuple:
                 consume_skill_id, consume_skill_level, consume_tick = consume_skill_tuple
-                consume_skill, consume_skill.skill_level = self.school.skills[consume_skill_id], consume_skill_level
+                consume_skill, consume_skill.skill_level = self.kungfu.skills[consume_skill_id], consume_skill_level
                 damage.consume_skill, damage.consume_tick = consume_skill, consume_tick
             else:
                 damage.consume_skill, damage.consume_tick = None, 1
             damage_name = damage.buff_name
         else:
             skill_id, skill_level = damage_tuple
-            damage, damage.skill_level, = self.school.skills[skill_id], skill_level
+            damage, damage.skill_level, = self.kungfu.skills[skill_id], skill_level
             damage_name = damage.skill_name
         return damage, damage_name
 
 
 class Analyzer(BuffAnalyzer, SkillAnalyzer):
-    def __init__(self, school: School, target_level):
-        self.school = school
-        self.attribute = school.attribute(school.platform)
+    def __init__(self, kungfu: Kungfu, target_level):
+        self.kungfu = kungfu
+        self.attribute = kungfu.attribute(kungfu.platform)
         self.attribute.target.level = target_level
         self.gains = []
         self.recipes = []
@@ -285,24 +285,24 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
     def add_gains(self, gains):
         for gain in gains:
             if not isinstance(gain, Gain):
-                gain = self.school.gains[gain] if isinstance(gain, tuple) else self.school.talents[gain]
-            gain.add(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+                gain = self.kungfu.gains[gain] if isinstance(gain, tuple) else self.kungfu.talents[gain]
+            gain.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.add_recipes(gain.recipes)
             self.gains.append(gain)
 
     def sub_gains(self):
         for gain in self.gains:
-            gain.sub(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+            gain.sub(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
 
     def add_recipes(self, recipes):
         for recipe_key in recipes:
-            recipe = self.school.recipes[recipe_key]
-            recipe.add(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+            recipe = self.kungfu.recipes[recipe_key]
+            recipe.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.recipes.append(recipe)
 
     def sub_recipes(self):
         for recipe in self.recipes:
-            recipe.sub(self.attribute, self.school.buffs, self.school.dots, self.school.skills)
+            recipe.sub(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
 
     def cal_delta(self, damage):
         results = {}

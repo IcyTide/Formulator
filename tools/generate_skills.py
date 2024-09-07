@@ -1,14 +1,14 @@
 import lupa.lua54 as lupa
 from tqdm import tqdm
 
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 
 def prepare_skills():
     skills = []
-    for school in SUPPORT_SCHOOLS.values():
-        for skill_id, skill in school.skills.items():
+    for kungfu in SUPPORT_KUNGFU.values():
+        for skill_id, skill in kungfu.skills.items():
             if skill_id in skills:
                 continue
             skills.append(skill_id)

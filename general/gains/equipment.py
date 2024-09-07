@@ -4,8 +4,8 @@ from assets.constant import SPECIAL_ENCHANT_MAP
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
-from general.buffs.equipment import BUFFS
-from general.skills.equipment import SKILLS
+from general.buffs import GENERAL_BUFFS
+from general.skills import GENERAL_SKILLS
 
 
 class EquipmentGain(Gain):
@@ -83,32 +83,32 @@ class DivineSubSkill(EquipmentGain):
 
 class WaterWeapon(EquipmentGain):
     buff_ids = [4761]
-    _attributes = BUFFS[4761].all_attributes
+    _attributes = GENERAL_BUFFS[4761].all_attributes
     rate = 10
 
 
 class WindPendant(EquipmentGain):
     buff_ids = [29268]
-    _attributes = BUFFS[29268].all_attributes
+    _attributes = GENERAL_BUFFS[29268].all_attributes
     rate = 15 / 180
 
 
 class 大附魔帽(EquipmentGain):
     # buff_ids = [15436]
-    _attributes = BUFFS[15436].all_attributes
+    _attributes = GENERAL_BUFFS[15436].all_attributes
 
 
 class 大附魔衣(EquipmentGain):
     _attributes = [
         dict(physical_attack_power_base=physical_attack_power_base, magical_attack_power_base=magical_attack_power_base)
         for physical_attack_power_base, magical_attack_power_base in
-        zip(SKILLS[22151].physical_attack_power_base, SKILLS[22151].magical_attack_power_base)
+        zip(GENERAL_SKILLS[22151].physical_attack_power_base, GENERAL_SKILLS[22151].magical_attack_power_base)
     ]
 
 
 class 大附魔腰(EquipmentGain):
     buff_ids = [15455]
-    _attributes = BUFFS[15455].get_attributes(weights=[3, 7])
+    _attributes = GENERAL_BUFFS[15455].get_attributes(weights=[3, 7])
     rate = 8 / 30
 
 
@@ -141,11 +141,11 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (38578, i + 1): WindPendant(i + 1)
-        for i in range(BUFFS[29268].max_level)
+        for i in range(GENERAL_BUFFS[29268].max_level)
     },
     **{
         (15436, i + 1): 大附魔帽(i + 1)
-        for i in range(BUFFS[15436].max_level)
+        for i in range(GENERAL_BUFFS[15436].max_level)
     },
     **{
         (22151, i + 1): 大附魔衣(i + 1)

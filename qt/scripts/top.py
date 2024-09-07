@@ -11,7 +11,7 @@ from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
 from qt.scripts.config import CONFIG
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from utils.io import serialize, unserialize
 from utils.parser import Parser
 
@@ -45,7 +45,7 @@ def top_script(
             end_frame=parser.end_frame,
             id2name=parser.id2name,
             name2id=parser.name2id,
-            players={player_id: school.id for player_id, school in parser.players.items()},
+            players={player_id: kungfu.id for player_id, kungfu in parser.players.items()},
             targets=parser.targets,
             select_talents=parser.select_talents,
             select_equipments=parser.select_equipments,
@@ -60,8 +60,8 @@ def top_script(
             return
         result = json.load(open(file_name[0], encoding="utf-8"))
         result['records'] = unserialize(result['records'])
-        for player_id, school_id in result['players'].items():
-            result['players'][player_id] = copy.deepcopy(SUPPORT_SCHOOLS[school_id])
+        for player_id, kungfu_id in result['players'].items():
+            result['players'][player_id] = copy.deepcopy(SUPPORT_KUNGFU[kungfu_id])
 
         for k, v in result.items():
             setattr(parser, k, v)
@@ -85,9 +85,9 @@ def top_script(
             [""] + [parser.id2name[target_id] for target_id in parser.current_targets],
             keep_index=True, default_index=0
         )
-        school = parser.players[player_id]
+        kungfu = parser.players[player_id]
         """ Update config """
-        config_choices = list(CONFIG.get(school.school, {}))
+        config_choices = list(CONFIG.get(kungfu.name, {}))
         config_widget.config_select.set_items(config_choices, default_index=-1)
         """ Update dashboard """
         duration = parser.duration
@@ -98,11 +98,11 @@ def top_script(
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
-            talent_choices = school.talent_choices[i]
+            talent_choices = kungfu.talent_choices[i]
             if i < len(parser.select_talents[player_id]):
                 default_index = talent_choices.index(parser.select_talents[player_id][i]) + 1
                 talent_widget.set_items(
-                    [""] + [school.talent_decoder[talent] for talent in talent_choices], default_index=default_index
+                    [""] + [kungfu.talent_decoder[talent] for talent in talent_choices], default_index=default_index
                 )
             else:
                 talent_widget.hide()
@@ -111,8 +111,8 @@ def top_script(
         for recipe_widget in recipes_widget.values():
             recipe_widget.list.clear()
             recipe_widget.hide()
-        if not school.platform:
-            for i, (skill, recipes) in enumerate(school.recipe_choices.items()):
+        if not kungfu.platform:
+            for i, (skill, recipes) in enumerate(kungfu.recipe_choices.items()):
                 recipes_widget[i].set_label(skill)
                 recipes_widget[i].set_items(recipes)
                 for n in range(min(MAX_RECIPES, len(recipes))):
@@ -123,9 +123,9 @@ def top_script(
         for label, equipment_widget in equipments_widget.items():
             choices = [""]
             for name, detail in equipment_widget.equipment_data.items():
-                if detail['kind'] not in (school.kind, school.major):
+                if detail['kind'] not in (kungfu.kind, kungfu.major):
                     continue
-                if detail['school'] not in ("精简", "通用", school.school):
+                if detail['school'] not in ("精简", "通用", kungfu.school):
                     continue
                 choices.append(name)
             equipment_widget.equipment.combo_box.clear()

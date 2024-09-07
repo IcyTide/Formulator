@@ -2,14 +2,14 @@ from tqdm import tqdm
 
 from assets.constant import ATTR_TYPE_MAP, BUFF_MAX_ATTRIB
 from base.buff import CustomBuff
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 
 def prepare_buffs():
     buffs = []
-    for school in SUPPORT_SCHOOLS.values():
-        for buff_id, buff in school.buffs.items():
+    for kungfu in SUPPORT_KUNGFU.values():
+        for buff_id, buff in kungfu.buffs.items():
             if buff_id in buffs:
                 continue
             if isinstance(buff, CustomBuff):

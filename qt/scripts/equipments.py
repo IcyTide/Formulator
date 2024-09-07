@@ -6,7 +6,7 @@ from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
 from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
 from qt.components.equipments import EquipmentsWidget
-from schools.wen_shui_jue.gains import SecondaryWeapon
+from kungfus.wen_shui_jue.gains import SecondaryWeapon
 
 
 class Enchant:

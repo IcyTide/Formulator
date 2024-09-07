@@ -3,11 +3,11 @@ from collections import defaultdict
 from tqdm import tqdm
 
 from assets.constant import *
-from schools import SUPPORT_SCHOOLS
+from kungfus import SUPPORT_KUNGFU
 from tools import *
 
-KINDS = set(sum([[school.kind, school.major] for school in SUPPORT_SCHOOLS.values()], []))
-SCHOOLS = set(["精简", "通用"] + [school.school for school in SUPPORT_SCHOOLS.values()])
+KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values()], []))
+SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFU.values()])
 
 QUALITY_COF = {
     4: 1.8,
