@@ -4,12 +4,12 @@
 ### In Progress
 
 ## Architecture
-### School Components
-- **\_\_init__.py**: this file will import all detail a school needed 
-- **attribute.py**: define the school attribute, like extra attribute from school
-- **buffs.py**: define the buffs of your school
+### Kungfu Components
+- **\_\_init__.py**: this file will import all detail a kungfu needed 
+- **attribute.py**: define the kungfu attribute, like extra attribute from kungfu
+- **buffs.py**: define the buffs of your kungfu
 - **gains.py**: define the gains from equipment, like divine and tier set activate
-- **recipes.py**: define the recipes for skills
+- **recipes.py**: define the recipes for kungfu
 - **skills.py**: define the skills, include all damage skill and dot skill
 - **talents.py**: define the talents
 

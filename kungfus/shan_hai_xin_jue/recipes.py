@@ -41,64 +41,61 @@ class 贯侯_标鹄伤害增加(PveAdditionRecipe):
             super().sub_skill(skill)
 
 
-SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
-    SkillRecipe: {
-        5408: {}, 5409: {},
-        5416: {}, 5417: {},
-        5438: {}, 5461: {}, 5462: {}, 17470: {}
+RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+    0: {
+        SkillRecipe: {
+            5408: {}, 5409: {},
+            5416: {}, 5417: {},
+            5438: {}, 5461: {}, 5462: {}
+        },
+        CriticalStrikeRecipe_300: {
+            5394: {},
+            5414: {}
+        },
+        CriticalStrikeRecipe_400: {
+            5407: {},
+            5415: {}
+        },
+        CriticalStrikeRecipe_500: {
+            5463: {}
+        },
+        万灵山庄_饮羽簇人偶图绝章: {
+            5467: {}
+        },
+        素矰_贯穿10伤害: {
+            5373: {}
+        },
+        彤弓_劲风簇10双会: {
+            5369: {}
+        },
+        贯侯_标鹄伤害增加: {
+            5422: {}
+        }
     },
-    CriticalStrikeRecipe_300: {
-        5394: {},
-        5414: {}
-    },
-    CriticalStrikeRecipe_400: {
-        5407: {},
-        5415: {}
-    },
-    CriticalStrikeRecipe_500: {
-        5463: {}
-    },
-    CriticalStrikeRecipe_306: {
-        17471: {}
-    },
-    万灵山庄_饮羽簇人偶图绝章: {
-        5467: {}
-    },
-    素矰_贯穿10伤害: {
-        5373: {}
-    },
-    彤弓_劲风簇10双会: {
-        5369: {}
-    },
-    贯侯_标鹄伤害增加: {
-        5422: {}
+    1: {
+        SkillRecipe: {
+            17470: {}
+        },
+        CriticalStrikeRecipe_306: {
+            17471: {}
+        }
     }
 }
-RECIPES: Dict[Tuple[int, int], Recipe] = {**GENERAL_RECIPES}
-for recipe_class, recipes in SCHOOL_RECIPES.items():
-    for recipe_key, attrs in recipes.items():
-        if not isinstance(recipe_key, tuple):
-            recipe_key = (recipe_key, 1)
-        RECIPES[recipe_key] = recipe = recipe_class(*recipe_key)
-        recipe.set_asset(attrs)
-RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
-    "劲风簇": {
-        "增加会心4%": 5407,
-        "增加伤害3%": 5409,
-        "增加会心3%": 5394,
-        "增加伤害2%": 5408,
+RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+    0: {
+        "劲风簇": {
+            "增加会心4%": 5407,
+            "增加伤害3%": 5409,
+            "增加会心3%": 5394,
+            "增加伤害2%": 5408,
+        },
+        "饮羽簇": {
+            "增加伤害15%": 5467,
+            "增加伤害3%": 5417,
+            "增加伤害2%": 5416,
+            "增加会心4%": 5415,
+            "增加会心3%": 5414,
+        }
     },
-    "饮羽簇": {
-        "增加伤害15%": 5467,
-        "增加伤害3%": 5417,
-        "增加伤害2%": 5416,
-        "增加会心4%": 5415,
-        "增加会心3%": 5414,
-    },
-}
-RECIPE_CHOICES: Dict[str, Dict[str, Tuple[int, int]]] = {
-    skill: {
-        desc: recipe_key if isinstance(recipe_key, tuple) else (recipe_key, 1)
-        for desc, recipe_key in recipes.items()
-    } for skill, recipes in RECIPE_CHOICES.items()
+    1: {}
 }

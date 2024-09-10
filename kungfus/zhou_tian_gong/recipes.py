@@ -42,45 +42,27 @@ class 滃从递增雾刃飞光(ChannelIntervalRecipe):
         return self.values[self.recipe_id]
 
 
-SCHOOL_RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
-    SkillRecipe: {
-        5610: {}, 5620: {}, 5636: {}, 5637: {}, 5638: {}, 5639: {},
+RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+    0: {
+        SkillRecipe: {
+            5610: {}, 5620: {}, 5636: {}, 5637: {}, 5638: {}, 5639: {},
+        },
+        断脉双会提高10: {
+            5578: {}
+        },
+        引窍增幅增加: {
+            5617: {}
+        },
+        芒渺静止增伤: {
+            5640: {}
+        },
+        滃从递增雾刃飞光: {
+            5645: {}, 5646: {}, 5647: {}
+        }
     },
-    CriticalStrikeRecipe_200: {
-    },
-    CriticalStrikeRecipe_300: {
-    },
-    CriticalStrikeRecipe_400: {
-    },
-    CriticalStrikeRecipe_500: {
-    },
-    CriticalStrikeRecipe_306: {
-    },
-    断脉双会提高10: {
-        5578: {}
-    },
-    引窍增幅增加: {
-        5617: {}
-    },
-    芒渺静止增伤: {
-        5640: {}
-    },
-    滃从递增雾刃飞光: {
-        5645: {}, 5646: {}, 5647: {}
-    }
+    1: {}
 }
-RECIPES: Dict[Tuple[int, int], Recipe] = {**GENERAL_RECIPES}
-for recipe_class, recipes in SCHOOL_RECIPES.items():
-    for recipe_key, attrs in recipes.items():
-        if not isinstance(recipe_key, tuple):
-            recipe_key = (recipe_key, 1)
-        RECIPES[recipe_key] = recipe = recipe_class(*recipe_key)
-        recipe.set_asset(attrs)
-RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
-}
-RECIPE_CHOICES: Dict[str, Dict[str, Tuple[int, int]]] = {
-    skill: {
-        desc: recipe_key if isinstance(recipe_key, tuple) else (recipe_key, 1)
-        for desc, recipe_key in recipes.items()
-    } for skill, recipes in RECIPE_CHOICES.items()
+RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+    0: {},
+    1: {}
 }

@@ -170,16 +170,6 @@ DOTS = {
         "damage_base": 10,
         "physical_damage_call": 1
     },
-    70624: {
-        "buff_name": "叠刃(DOT)",
-        "alias_name": "移动端_叠刃_逻辑",
-        "interval": 16,
-        "tick": 6,
-        "max_stack": 3,
-        "platform": 1,
-        "damage_base": 10,
-        "physical_damage_call": 1
-    },
     711: {
         "buff_name": "兰摧玉折(DOT)",
         "alias_name": "兰摧玉折_DOT",
@@ -293,16 +283,6 @@ DOTS = {
         "max_stack": 6,
         "platform": 0,
         "damage_base": 38,
-        "neutral_damage_call": 1
-    },
-    70041: {
-        "buff_name": "兰摧(DOT)",
-        "alias_name": "兰摧玉折",
-        "interval": 48,
-        "tick": 7,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": 12,
         "neutral_damage_call": 1
     },
     3442: {
@@ -424,16 +404,6 @@ DOTS = {
             96,
             100
         ],
-        "lunar_damage_call": 1
-    },
-    70030: {
-        "buff_name": "急曲·悟(DOT)",
-        "alias_name": "移动端_冰心通用_急曲效果",
-        "interval": 48,
-        "tick": 6,
-        "max_stack": 3,
-        "platform": 1,
-        "damage_base": 15,
         "lunar_damage_call": 1
     },
     6218: {
@@ -1220,38 +1190,6 @@ DOTS = {
         "damage_base": 25,
         "physical_damage_call": 1
     },
-    70364: {
-        "buff_name": "流血(DOT)",
-        "alias_name": "移动端_霸刀_闹须弥流血",
-        "interval": [
-            32,
-            48,
-            48,
-            48,
-            48,
-            48,
-            48,
-            48,
-            48,
-            48
-        ],
-        "tick": 8,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": [
-            25,
-            28,
-            31,
-            34,
-            37,
-            40,
-            43,
-            46,
-            49,
-            52
-        ],
-        "physical_damage_call": 1
-    },
     18386: {
         "buff_name": "青冥(DOT)",
         "alias_name": "青冥持续伤害",
@@ -1321,16 +1259,6 @@ DOTS = {
             74,
             95
         ],
-        "poison_damage_call": 1
-    },
-    71171: {
-        "buff_name": "中毒(DOT)",
-        "alias_name": "移动端_中毒",
-        "interval": 16,
-        "tick": 6,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": 1,
         "poison_damage_call": 1
     },
     24132: {
@@ -1409,29 +1337,6 @@ DOTS = {
         "damage_base": 25,
         "physical_damage_call": 1
     },
-    70593: {
-        "buff_name": "截辕·悟(DOT)",
-        "alias_name": "移动端_孤锋诀_孤风破浪_刀气流血效果",
-        "interval": 32,
-        "tick": 6,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": 102,
-        "physical_damage_call": 1
-    },
-    70583: {
-        "buff_name": "流血(DOT)",
-        "alias_name": "移动端_孤锋诀_停云势_流血Dot",
-        "interval": 32,
-        "tick": 9,
-        "max_stack": [
-            1,
-            3
-        ],
-        "platform": 1,
-        "damage_base": 12,
-        "physical_damage_call": 1
-    },
     26856: {
         "buff_name": "贯穿(DOT)",
         "alias_name": "万灵山庄_贯穿",
@@ -1440,16 +1345,6 @@ DOTS = {
         "max_stack": 6,
         "platform": 0,
         "damage_base": 32,
-        "physical_damage_call": 1
-    },
-    71175: {
-        "buff_name": "流血(DOT)",
-        "alias_name": "移动端_万灵_动物造成的流血",
-        "interval": 16,
-        "tick": 6,
-        "max_stack": 1,
-        "platform": 1,
-        "damage_base": 10,
         "physical_damage_call": 1
     }
 }

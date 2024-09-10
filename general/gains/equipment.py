@@ -58,7 +58,7 @@ class EquipmentGain(Gain):
 class CriticalSet(EquipmentGain):
     rate = 0.7
 
-    def __init__(self, buff):
+    def __init__(self, buff: Buff):
         self.buff_ids = [buff.buff_id]
         self.attributes = buff.attributes
         buff.activate = False
