@@ -256,13 +256,8 @@ class Parser(BaseParser):
                 self.select_equipments[player_id] = self.parse_equipments(equipments.values())
             if talents := detail.get(6):
                 self.select_talents[player_id] = self.parse_talents(talents.values())
-                if any(talent not in kungfu.talents for talent in self.select_talents[player_id]):
-                    return
+                self.players[player_id].platform = int(len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS)
             self.players[player_id] = deepcopy(kungfu)
-            if len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS:
-                self.players[player_id].platform = 0
-            else:
-                self.players[player_id].platform = 1
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
         except KeyError:
@@ -509,10 +504,10 @@ class Parser(BaseParser):
             gains = self.gains[player_id] = []
             recipes = self.recipes[player_id] = []
             for talent_id in self.select_talents[player_id]:
-                talent = kungfu.talents[talent_id]
-                talent.add(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
-                gains.append(talent)
-                for recipe_key in talent.recipes:
+                gain = kungfu.gains[(talent_id, 1)]
+                gain.add(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
+                gains.append(gain)
+                for recipe_key in gain.recipes:
                     recipe = kungfu.recipes[recipe_key]
                     recipe.add(attribute, kungfu.buffs, kungfu.dots, kungfu.skills)
                     recipes.append(recipe)

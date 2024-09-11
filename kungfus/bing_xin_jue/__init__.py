@@ -4,7 +4,7 @@ from kungfus.bing_xin_jue.dots import DOTS
 from kungfus.bing_xin_jue.gains import GAINS
 from kungfus.bing_xin_jue.recipes import RECIPE_CHOICES, RECIPES
 from kungfus.bing_xin_jue.skills import SKILLS
-from kungfus.bing_xin_jue.talents import TALENT_CHOICES, TALENTS
+from kungfus.bing_xin_jue.talents import TALENTS
 
 
 def prepare(self, player_id):

@@ -4,7 +4,7 @@ from kungfus.yi_jin_jing.dots import DOTS
 from kungfus.yi_jin_jing.gains import GAINS
 from kungfus.yi_jin_jing.recipes import RECIPE_CHOICES, RECIPES
 from kungfus.yi_jin_jing.skills import SKILLS
-from kungfus.yi_jin_jing.talents import TALENT_CHOICES, TALENTS
+from kungfus.yi_jin_jing.talents import TALENTS
 
 
 def prepare(self, player_id):

@@ -23,7 +23,7 @@ def talents_script(talents_widget: TalentsWidget):
     def talent_update(i):
         widget = talents_widget[i]
 
-        def inner(index):
+        def inner(_):
             if talent := widget.combo_box.currentText():
                 talents[i] = talent
             else:
@@ -32,6 +32,6 @@ def talents_script(talents_widget: TalentsWidget):
         return inner
 
     for n, talent_widget in enumerate(talents_widget.values()):
-        talent_widget.combo_box.currentIndexChanged.connect(talent_update(n))
+        talent_widget.combo_box.currentTextChanged.connect(talent_update(n))
 
     return talents

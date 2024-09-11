@@ -7,16 +7,16 @@ def consumable_name(name, attributes):
     return f"{name}({'/'.join(f'{v}{ATTR_TYPE_TRANSLATE[k]}' for k, v in attributes.items())})"
 
 
-def create_consumable_gain(gain_id, scope: range = None):
-    gain = GENERAL_BUFFS[-gain_id]
+def create_consumable_gain(buff_id, scope: range = None):
+    buff = GENERAL_BUFFS[-buff_id]
     if not scope:
-        scope = range(1, gain.max_level + 1)
+        scope = range(1, buff.max_level + 1)
     result = {}
     for i in scope:
-        gain.buff_level = i
-        if not gain.attributes:
+        buff.buff_level = i
+        if not buff.attributes:
             continue
-        result[consumable_name(gain.buff_name, gain.attributes)] = gain.attributes
+        result[consumable_name(buff.buff_name, buff.attributes)] = buff.attributes
     return result
 
 

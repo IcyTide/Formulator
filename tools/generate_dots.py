@@ -6,16 +6,15 @@ from tools.generate_buffs import BUFF_TAB, BUFF_TXT
 
 
 def prepare_dots():
-    dots = []
+    all_dots = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for dot_id, dot in kungfu.dots.items():
-            if dot_id in dots:
-                continue
-            dots.append(dot_id)
-    return dots
+        for dots in kungfu.all_dots.values():
+            for dot_id in dots:
+                if dot_id in all_dots:
+                    continue
+                all_dots.append(dot_id)
+    return all_dots
 
-
-DOTS = prepare_dots()
 
 MAX_ATTRIB = 2
 
@@ -56,7 +55,7 @@ def parse_dot(row):
 
 def collect_result():
     result = []
-    for buff_id in tqdm(DOTS):
+    for buff_id in tqdm(prepare_dots()):
         filter_dots = BUFF_TAB[BUFF_TAB.ID == buff_id]
         filter_dot_txt = BUFF_TXT[BUFF_TXT.BuffID == buff_id]
         for _, buff_row in filter_dots.iterrows():

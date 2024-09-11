@@ -1,4 +1,3 @@
-from functools import cached_property
 from typing import Type, Callable, Dict, List, Tuple
 
 from base.attribute import Attribute
@@ -24,8 +23,9 @@ class Kungfu:
     _buffs: Dict[int, Dict[int, Buff]]
     _dots: Dict[int, Dict[int, Dot]]
     _skills: Dict[int, Dict[int, Skill]]
-    talents: Dict[int, Gain]
-    talent_choices: List[List[int]]
+    _talent_choices: Dict[int, List[List[int]]]
+    _talent_encoder: Dict[int, Dict[str, int]]
+    _talent_decoder: Dict[int, Dict[int, str]]
     _recipes: Dict[int, Dict[Tuple[int, int], Recipe]]
     _recipe_choices: Dict[int, Dict[str, Dict[str, Tuple[int, int]]]]
     gains: Dict[tuple, Gain]
@@ -44,9 +44,25 @@ class Kungfu:
         self.build_buffs(kungfu)
         self.build_dots(kungfu)
         self.build_skills(kungfu)
+        self.build_gains(kungfu)
         self.build_talents(kungfu)
         self.build_recipes(kungfu)
-        self.build_gains(kungfu)
+
+    @property
+    def all_buffs(self):
+        return self._buffs
+
+    @property
+    def all_dots(self):
+        return self._dots
+
+    @property
+    def all_skills(self):
+        return self._skills
+
+    @property
+    def all_recipes(self):
+        return self._recipes
 
     @property
     def buffs(self):
@@ -68,14 +84,17 @@ class Kungfu:
     def recipe_choices(self):
         return self._recipe_choices[self.platform]
 
+    @property
+    def talent_choices(self):
+        return self._talent_choices[self.platform]
 
-    @cached_property
-    def talent_decoder(self):
-        return {talent_id: talent.gain_name for talent_id, talent in self.talents.items()}
-
-    @cached_property
+    @property
     def talent_encoder(self):
-        return {v: k for k, v in self.talent_decoder.items()}
+        return self._talent_encoder[self.platform]
+
+    @property
+    def talent_decoder(self):
+        return self._talent_decoder[self.platform]
 
     def build_buffs(self, kungfu):
         self._buffs = {}
@@ -87,6 +106,7 @@ class Kungfu:
                     buff.set_asset(attrs)
 
     def build_dots(self, kungfu):
+        self._dots = {}
         for platform, dots in kungfu.DOTS.items():
             self._dots[platform] = {}
             for dot_class, items in dots.items():
@@ -124,11 +144,24 @@ class Kungfu:
                     self._recipe_choices[platform][skill][name] = recipe_key
 
     def build_talents(self, kungfu):
-        self.talent_choices = kungfu.TALENT_CHOICES
-        self.talents = kungfu.TALENTS
+        self._talent_choices = {}
+        self._talent_encoder = {}
+        self._talent_decoder = {}
+        for platform, talents in kungfu.TALENTS.items():
+            self._talent_choices[platform] = []
+            self._talent_encoder[platform] = {}
+            self._talent_decoder[platform] = {}
+            for talent_choices in talents:
+                talent_choice = []
+                self._talent_choices[platform].append(talent_choice)
+                for gain_id, gain in talent_choices.items():
+                    self.gains[(gain_id, 1)] = gain
+                    self._talent_encoder[platform][gain.gain_name] = (gain_id, 1)
+                    self._talent_decoder[platform][gain_id] = gain.gain_name
+                    talent_choice.append(gain.gain_name)
 
     def build_gains(self, kungfu):
-        self.gains = kungfu.GAINS
+        self.gains = {**kungfu.GAINS}
 
 
 SUPPORT_KUNGFU = {

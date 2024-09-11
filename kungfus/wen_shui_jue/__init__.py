@@ -4,7 +4,7 @@ from kungfus.wen_shui_jue.dots import DOTS
 from kungfus.wen_shui_jue.gains import GAINS
 from kungfus.wen_shui_jue.recipes import RECIPE_CHOICES, RECIPES
 from kungfus.wen_shui_jue.skills import SKILLS
-from kungfus.wen_shui_jue.talents import TALENT_CHOICES, TALENTS
+from kungfus.wen_shui_jue.talents import TALENTS
 
 
 def prepare(self, player_id):

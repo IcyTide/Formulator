@@ -6,16 +6,15 @@ from tools import *
 
 
 def prepare_skills():
-    skills = []
+    all_skills = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for skill_id, skill in kungfu.skills.items():
-            if skill_id in skills:
-                continue
-            skills.append(skill_id)
-    return skills
+        for skills in kungfu.all_skills.values():
+            for skill_id in skills:
+                if skill_id in all_skills:
+                    continue
+                all_skills.append(skill_id)
+    return all_skills
 
-
-SKILLS = prepare_skills()
 
 ATTRIBUTE_TYPE = {
     "SKILL_PHYSICS_DAMAGE": "physical_damage_base",
@@ -334,7 +333,7 @@ def parse_lua(skill_id):
 
 def collect_result():
     result = []
-    for skill_id in tqdm(SKILLS):
+    for skill_id in tqdm(prepare_skills()):
         alias_name, max_level, lua_code, skill_args = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
         LUA.execute(lua_code)

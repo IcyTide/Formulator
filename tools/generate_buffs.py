@@ -7,20 +7,18 @@ from tools import *
 
 
 def prepare_buffs():
-    buffs = []
+    all_buffs = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for buff_id, buff in kungfu.buffs.items():
-            if buff_id in buffs:
-                continue
-            if isinstance(buff, CustomBuff):
-                continue
-            if buff_id < 0:
-                buff_id = -buff_id
-            buffs.append(buff_id)
-    return buffs
+        for buffs in kungfu.all_buffs.values():
+            for buff_id, buff in buffs.items():
+                if isinstance(buff, CustomBuff):
+                    continue
+                buff_id = abs(buff_id)
+                if buff_id in all_buffs:
+                    continue
+                all_buffs.append(buff_id)
+    return all_buffs
 
-
-BUFFS = prepare_buffs()
 
 BUFF_TAB = read_tab("settings/skill/buff.tab")
 BUFF_TAB['Platform'] = 0
@@ -51,7 +49,7 @@ def parse_buff(row, result):
 
 def collect_result():
     results = []
-    for buff_id in tqdm(BUFFS):
+    for buff_id in tqdm(prepare_buffs()):
         filter_buffs = BUFF_TAB[BUFF_TAB.ID == buff_id]
         filter_buff_txt = BUFF_TXT[BUFF_TXT.BuffID == buff_id]
         for _, buff_row in filter_buffs.iterrows():

@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, List
 
 from base.buff import Buff
 from base.gain import Gain
@@ -33,37 +33,49 @@ class 虎贲(Gain):
         buffs[28169].end_effects.remove(self.end_effect)
 
 
-TALENTS: Dict[int, Gain] = {
-    18487: Gain("百折"),
-    5656: Gain("封侯", recipes=[(4038, 3)]),
-    5657: Gain("扬戈", recipes=[(1224, 1)]),
-    5660: Gain("神勇", recipes=[(1225, 1)]),
-    5659: Gain("大漠"),
-    18602: Gain("骁勇", recipes=[(recipe_id, 1) for recipe_id in (4686, 4687, 4688, 4689)]),
-    24896: Gain("龙驭"),
-    18226: Gain("击水", recipes=[(recipe_id, -1) for recipe_id in (-132, -153)]),
-    14824: Gain("驰骋"),
-    6511: Gain("牧云"),
-    5666: Gain("风虎", buff_ids=[-12608]),
-    6781: 战心("战心"),
-    6524: Gain("破楼兰"),
-    2628: Gain("渊"),
-    5678: Gain("夜征"),
-    15001: Gain("龙血"),
-    6517: 虎贲("虎贲")
+TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+    0: [
+        {
+            18487: Gain("百折"),
+            5656: Gain("封侯", recipes=[(4038, 3)]),
+            5657: Gain("扬戈", recipes=[(1224, 1)])
+        },
+        {
+            5660: Gain("神勇", recipes=[(1225, 1)])
+        },
+        {
+            5659: Gain("大漠"),
+            18602: Gain("骁勇", recipes=[(recipe_id, 1) for recipe_id in (4686, 4687, 4688, 4689)])
+        },
+        {
+            24896: Gain("龙驭"),
+            18226: Gain("击水", recipes=[(recipe_id, -1) for recipe_id in (-132, -153)])
+        },
+        {
+            14824: Gain("驰骋")
+        },
+        {
+            6511: Gain("牧云")
+        },
+        {
+            5666: Gain("风虎", buff_ids=[-12608])
+        },
+        {
+            6781: 战心("战心")
+        },
+        {
+            6524: Gain("破楼兰"),
+            2628: Gain("渊")
+        },
+        {
+            5678: Gain("夜征")
+        },
+        {
+            15001: Gain("龙血")
+        },
+        {
+            6517: 虎贲("虎贲")
+        }
+    ],
+    1: []
 }
-
-TALENT_CHOICES = [
-    [18487, 5656, 5657],
-    [5660],
-    [5659, 18602],
-    [24896, 18226],
-    [14824],
-    [6511],
-    [5666],
-    [6781],
-    [6524, 2628],
-    [5678],
-    [15001],
-    [6517],
-]

@@ -4,7 +4,7 @@ from kungfus.tian_luo_gui_dao.dots import DOTS
 from kungfus.tian_luo_gui_dao.gains import GAINS
 from kungfus.tian_luo_gui_dao.recipes import RECIPE_CHOICES, RECIPES
 from kungfus.tian_luo_gui_dao.skills import SKILLS
-from kungfus.tian_luo_gui_dao.talents import TALENT_CHOICES, TALENTS
+from kungfus.tian_luo_gui_dao.talents import TALENTS
 
 
 def prepare(self, player_id):

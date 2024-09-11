@@ -284,8 +284,7 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
 
     def add_gains(self, gains):
         for gain in gains:
-            if not isinstance(gain, Gain):
-                gain = self.kungfu.gains[gain] if isinstance(gain, tuple) else self.kungfu.talents[gain]
+            gain = self.kungfu.gains[gain]
             gain.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.add_recipes(gain.recipes)
             self.gains.append(gain)

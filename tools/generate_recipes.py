@@ -2,26 +2,21 @@ from collections import defaultdict
 
 from tqdm import tqdm
 
-from base.recipe import SkillRecipe, DotRecipe
 from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 
 def prepare_recipes():
-    recipes = []
+    all_recipes = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for recipe_key, recipe in kungfu.recipes.items():
-            if recipe_key in recipes:
-                continue
-            if isinstance(recipe, SkillRecipe):
-                recipes.append(recipe_key)
-            elif isinstance(recipe, DotRecipe):
-                recipes.append(recipe_key)
+        for recipes in kungfu.all_recipes.values():
+            for recipe_key in recipes:
+                if recipe_key in all_recipes:
+                    continue
+                all_recipes.append(recipe_key)
 
-    return recipes
+    return all_recipes
 
-
-RECIPES = prepare_recipes()
 
 SKILL_RECIPE_TAB = read_tab("settings/skill/recipeSkill.tab").fillna(0)
 MOBILE_SKILL_RECIPE_TAB = read_tab("settings/skill_mobile/recipeSkill.tab").fillna(0)
@@ -58,7 +53,7 @@ def parse_buff_recipe(row):
 
 def collect_result():
     results = defaultdict(dict)
-    for recipe_id, recipe_level in tqdm(RECIPES):
+    for recipe_id, recipe_level in tqdm(prepare_recipes()):
         if recipe_id > 0:
             filter_recipes = SKILL_RECIPE_TAB[
                 (SKILL_RECIPE_TAB.RecipeID == recipe_id) & (SKILL_RECIPE_TAB.RecipeLevel == recipe_level)
