@@ -7,6 +7,5 @@ DOTS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Dot: {
             9357: {}, 9361: {}, 23187: {}
         }
-    },
-    1: {}
+    }
 }

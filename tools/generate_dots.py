@@ -6,14 +6,13 @@ from tools.generate_buffs import BUFF_TAB, BUFF_TXT
 
 
 def prepare_dots():
-    all_dots = []
+    dots = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for dots in kungfu.all_dots.values():
-            for dot_id in dots:
-                if dot_id in all_dots:
-                    continue
-                all_dots.append(dot_id)
-    return all_dots
+        for dot_id in kungfu.dots:
+            if dot_id in dots:
+                continue
+            dots.append(dot_id)
+    return dots
 
 
 MAX_ATTRIB = 2

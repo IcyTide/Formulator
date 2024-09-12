@@ -3,25 +3,19 @@ from base.constant import *
 
 
 class Attribute(PoisonAttribute):
-    SPIRIT_TO_ATTACK_POWER = 1976 / BINARY_SCALE
-    SPIRIT_TO_OVERCOME = 512 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10627,
+        1: 101355
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.poison_attack_power_base += 6663
-        self.poison_overcome_base += 5527
-        self.platform = platform
-        if not platform:
-            self.pve_addition_base += 102
-        else:
-            self.pve_addition_base += 461
-            self.all_shield_ignore += 614
+    spirit_to_poison_attack_power: int = 0
+    spirit_to_poison_overcome: int = 0
+    recipes = [(1711, 1)]
 
     @property
     def extra_poison_attack_power(self):
-        return int(self.spirit * self.SPIRIT_TO_ATTACK_POWER)
+        return int(self.spirit * self.spirit_to_poison_attack_power / BINARY_SCALE)
 
     @property
     def extra_poison_overcome(self):
-        return int(self.spirit * self.SPIRIT_TO_OVERCOME)
+        return int(self.spirit * self.spirit_to_poison_overcome / BINARY_SCALE)

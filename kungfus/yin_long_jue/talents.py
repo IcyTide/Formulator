@@ -44,6 +44,5 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             22603: Gain("青山共我"),
             30849: Gain("孤路")
         }
-    ],
-    1: []
+    ]
 }

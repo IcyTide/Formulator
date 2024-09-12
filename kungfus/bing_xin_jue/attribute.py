@@ -3,24 +3,19 @@ from base.constant import *
 
 
 class Attribute(LunarAttribute):
-    SPIRIT_TO_ATTACK_POWER = 2048 / BINARY_SCALE
-    SPIRIT_TO_CRITICAL_STRIKE = 297 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10081,
+        1: 100410
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.lunar_attack_power_base += 7387
-        self.platform = platform
-        if not platform:
-            pass
-        else:
-            self.pve_addition_base += 430
-            self.all_shield_ignore += 614
+    spirit_to_lunar_attack_power: int = 0
+    spirit_to_lunar_critical_strike: int = 0
+    recipes = [(1711, 1)]
 
     @property
     def extra_lunar_attack_power(self):
-        return int(self.spirit * self.SPIRIT_TO_ATTACK_POWER)
+        return int(self.spirit * self.spirit_to_lunar_attack_power / BINARY_SCALE)
 
     @property
     def extra_lunar_critical_strike(self):
-        return int(self.spirit * self.SPIRIT_TO_CRITICAL_STRIKE)
+        return int(self.spirit * self.spirit_to_lunar_critical_strike / BINARY_SCALE)

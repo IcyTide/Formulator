@@ -12,6 +12,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             -12550: dict(buff_name="跬步", activate=False, interval=4),
             -12551: dict(buff_name="跬步", activate=False, interval=4)
         }
-    },
-    1: {}
+    }
 }

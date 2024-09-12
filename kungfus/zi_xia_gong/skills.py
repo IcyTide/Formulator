@@ -35,6 +35,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             33592: dict(bind_dot=6424)
         },
         跬步判定: {18698: {}}
-    },
-    1: {}
+    }
 }

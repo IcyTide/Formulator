@@ -35,6 +35,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         },
         明法判定: {26989: {}},
         明法移除: {26991: {}},
-    },
-    1: {}
+    }
 }

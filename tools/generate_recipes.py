@@ -7,15 +7,14 @@ from tools import *
 
 
 def prepare_recipes():
-    all_recipes = []
+    recipes = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for recipes in kungfu.all_recipes.values():
-            for recipe_key in recipes:
-                if recipe_key in all_recipes:
-                    continue
-                all_recipes.append(recipe_key)
+        for recipe_key in kungfu.recipes:
+            if recipe_key in recipes:
+                continue
+            recipes.append(recipe_key)
 
-    return all_recipes
+    return recipes
 
 
 SKILL_RECIPE_TAB = read_tab("settings/skill/recipeSkill.tab").fillna(0)

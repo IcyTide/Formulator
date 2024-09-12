@@ -204,17 +204,17 @@ class BaseDamage(BaseSkill):
 
     def critical_strike(self, attribute: Attribute):
         if self.kind_type == "Physics":
-            return attribute.physical_critical_strike
+            return attribute.physical_critical_strike - attribute.target.resist_critical_strike
         elif self.kind_type == "SolarMagic":
-            return attribute.solar_critical_strike
+            return attribute.solar_critical_strike - attribute.target.resist_critical_strike
         elif self.kind_type == "LunarMagic":
-            return attribute.lunar_critical_strike
+            return attribute.lunar_critical_strike - attribute.target.resist_critical_strike
         elif self.kind_type == "NeutralMagic":
-            return attribute.neutral_critical_strike
+            return attribute.neutral_critical_strike - attribute.target.resist_critical_strike
         elif self.kind_type == "Poison":
-            return attribute.poison_critical_strike
+            return attribute.poison_critical_strike - attribute.target.resist_critical_strike
         else:
-            return attribute.critical_strike
+            return attribute.critical_strike - attribute.target.resist_critical_strike
 
     def critical_power(self, attribute: Attribute):
         if self.kind_type == "Physics":

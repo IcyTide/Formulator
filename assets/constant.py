@@ -171,6 +171,8 @@ ATTR_TYPE_MAP = {
     "atDstNpcDamageCoefficient": "pve_addition_base",
 }
 TARGET_ATTR_TYPE_MAP = {
+    "atResistCriticalStrikeRate": "resist_critical_strike_rate",
+
     "atPhysicsShieldBase": "physical_shield_base",
     "atPhysicsShieldPercent": "physical_shield_gain",
     "atMagicShield": "magical_shield_base",

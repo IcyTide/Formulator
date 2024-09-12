@@ -20,15 +20,21 @@ class Kungfu:
 
     attribute: Type[Attribute]
     prepare: Callable
-    _buffs: Dict[int, Dict[int, Buff]]
-    _dots: Dict[int, Dict[int, Dot]]
-    _skills: Dict[int, Dict[int, Skill]]
-    _talent_choices: Dict[int, List[List[int]]]
-    _talent_encoder: Dict[int, Dict[str, int]]
-    _talent_decoder: Dict[int, Dict[int, str]]
-    _recipes: Dict[int, Dict[Tuple[int, int], Recipe]]
-    _recipe_choices: Dict[int, Dict[str, Dict[str, Tuple[int, int]]]]
+    buffs: Dict[int, Buff]
+    dots: Dict[int, Dot]
+    skills: Dict[int, Skill]
+    recipes: Dict[Tuple[int, int], Recipe]
     gains: Dict[tuple, Gain]
+
+    _talent_choices: Dict[int, List[List[int]]]
+    _talent_encoder: Dict[int, Dict[str, Tuple[int, int]]]
+    _talent_decoder: Dict[int, Dict[int, str]]
+    _recipe_choices: Dict[int, Dict[str, Dict[str, Tuple[int, int]]]]
+
+    all_buffs: Dict[int, Dict[int, Buff]]
+    all_dots: Dict[int, Dict[int, Dot]]
+    all_skills: Dict[int, Dict[int, Skill]]
+    all_recipes: Dict[int, Dict[Tuple[int, int], Recipe]]
 
     def __init__(self, kungfu_id, name, school, major, kind, formation, kungfu):
         self.kungfu_id = kungfu_id
@@ -49,38 +55,6 @@ class Kungfu:
         self.build_recipes(kungfu)
 
     @property
-    def all_buffs(self):
-        return self._buffs
-
-    @property
-    def all_dots(self):
-        return self._dots
-
-    @property
-    def all_skills(self):
-        return self._skills
-
-    @property
-    def all_recipes(self):
-        return self._recipes
-
-    @property
-    def buffs(self):
-        return self._buffs[self.platform]
-
-    @property
-    def dots(self):
-        return self._dots[self.platform]
-
-    @property
-    def skills(self):
-        return self._skills[self.platform]
-
-    @property
-    def recipes(self):
-        return self._recipes[self.platform]
-
-    @property
     def recipe_choices(self):
         return self._recipe_choices[self.platform]
 
@@ -97,41 +71,42 @@ class Kungfu:
         return self._talent_decoder[self.platform]
 
     def build_buffs(self, kungfu):
-        self._buffs = {}
+        self.all_buffs, self.buffs = {}, {**GENERAL_BUFFS}
         for platform, buffs in kungfu.BUFFS.items():
-            self._buffs[platform] = {**GENERAL_BUFFS}
+            self.all_buffs[platform] = {}
             for buff_class, items in buffs.items():
                 for buff_id, attrs in items.items():
-                    self._buffs[platform][buff_id] = buff = buff_class(buff_id)
+                    self.buffs[buff_id] = self.all_buffs[platform][buff_id] = buff = buff_class(buff_id)
                     buff.set_asset(attrs)
 
     def build_dots(self, kungfu):
-        self._dots = {}
+        self.all_dots, self.dots = {}, {}
         for platform, dots in kungfu.DOTS.items():
-            self._dots[platform] = {}
+            self.all_dots[platform] = {}
             for dot_class, items in dots.items():
                 for dot_id, attrs in items.items():
-                    self._dots[platform][dot_id] = dot = dot_class(dot_id)
+                    self.dots[dot_id] = self.all_dots[platform][dot_id] = dot = dot_class(dot_id)
                     dot.set_asset(attrs)
 
     def build_skills(self, kungfu):
-        self._skills = {}
+        self.all_skills, self.skills = {}, {**GENERAL_SKILLS}
         for platform, skills in kungfu.SKILLS.items():
-            self._skills[platform] = {**GENERAL_SKILLS}
+            self.all_skills[platform] = {}
             for skill_class, items in skills.items():
                 for skill_id, attrs in items.items():
-                    self._skills[platform][skill_id] = skill = skill_class(skill_id)
+                    self.skills[skill_id] = self.all_skills[platform][skill_id] = skill = skill_class(skill_id)
                     skill.set_asset(attrs)
 
     def build_recipes(self, kungfu):
-        self._recipes = {}
+        self.all_recipes, self.recipes = {}, {**GENERAL_RECIPES}
         for platform, recipes in kungfu.RECIPES.items():
-            self._recipes[platform] = {**GENERAL_RECIPES}
+            self.all_recipes[platform] = {}
             for recipe_class, items in recipes.items():
                 for recipe_key, attrs in items.items():
                     if not isinstance(recipe_key, tuple):
                         recipe_key = (recipe_key, 1)
-                    self._recipes[platform][recipe_key] = recipe = recipe_class(*recipe_key)
+                    self.all_recipes[platform][recipe_key] = recipe = recipe_class(*recipe_key)
+                    self.recipes[recipe_key] = self.all_recipes[platform][recipe_key]
                     recipe.set_asset(attrs)
         self._recipe_choices = {}
         for platform, recipe_choices in kungfu.RECIPE_CHOICES.items():

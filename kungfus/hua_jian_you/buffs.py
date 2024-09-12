@@ -9,6 +9,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             14636: dict(buff_name="乱洒"),
             -12588: dict(buff_name="清流", activate=False),
         }
-    },
-    1: {}
+    }
 }

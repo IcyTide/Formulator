@@ -98,11 +98,11 @@ def top_script(
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
-            talent_choice = kungfu.talent_choices[i]
-            select_talent = parser.select_talents[player_id][i]
             talent_widget.combo_box.clear()
             if i < len(parser.select_talents[player_id]):
+                talent_choice = kungfu.talent_choices[i]
                 talent_widget.set_items([""] + talent_choice)
+                select_talent = parser.select_talents[player_id][i]
                 talent_widget.combo_box.setCurrentText(kungfu.talent_decoder[select_talent])
             else:
                 talent_widget.hide()

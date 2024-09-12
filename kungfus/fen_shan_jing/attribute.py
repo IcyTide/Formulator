@@ -1,16 +1,14 @@
 from base.attribute import PhysicalAttribute
-from base.constant import *
+from base.constant import BINARY_SCALE
 
 
 class Attribute(PhysicalAttribute):
-    AGILITY_TO_ATTACK_POWER = 1925 / BINARY_SCALE
+    attribute_id = {
+        0: 10390
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.physical_attack_power_base += 6513
-        self.physical_overcome_base += 4696
-        self.pve_addition_base += 92
+    agility_to_physical_attack_power: int = 0
 
     @property
     def extra_physical_attack_power(self):
-        return int(self.agility * self.AGILITY_TO_ATTACK_POWER)
+        return int(self.agility * self.agility_to_physical_attack_power / BINARY_SCALE)

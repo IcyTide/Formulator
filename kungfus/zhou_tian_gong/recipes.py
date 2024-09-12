@@ -59,10 +59,8 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         滃从递增雾刃飞光: {
             5645: {}, 5646: {}, 5647: {}
         }
-    },
-    1: {}
+    }
 }
 RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
-    0: {},
-    1: {}
+    0: {}
 }

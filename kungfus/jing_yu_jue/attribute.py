@@ -3,20 +3,18 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    STRENGTH_TO_ATTACK_POWER = 1731 / BINARY_SCALE
-    STRENGTH_TO_CRITICAL_STRIKE = 707 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10224
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.physical_attack_power_base += 6187
-        self.physical_overcome_base += 9025
-        self.pve_addition_base += 133
+    strength_to_physical_attack_power = 1731 / BINARY_SCALE
+    strength_to_physical_critical_strike = 707 / BINARY_SCALE
+    recipes = [(1711, 1)]
 
     @property
     def extra_physical_attack_power(self):
-        return int(self.strength * self.STRENGTH_TO_ATTACK_POWER)
+        return int(self.strength * self.strength_to_physical_attack_power / BINARY_SCALE)
 
     @property
     def extra_physical_critical_strike(self):
-        return int(self.strength * self.STRENGTH_TO_CRITICAL_STRIKE)
+        return int(self.strength * self.strength_to_physical_critical_strike / BINARY_SCALE)

@@ -244,20 +244,21 @@ class Parser(BaseParser):
     def parse_player(self, row):
         detail = row.strip("{}").split(",")
         player_id, kungfu_id = detail[0], int(detail[3])
-        if (kungfu_id not in SUPPORT_KUNGFU or
-                (player_id in self.select_talents and player_id in self.select_equipments)):
+        if kungfu_id not in SUPPORT_KUNGFU:
+            return
+        if player_id in self.select_talents and player_id in self.select_equipments:
             return
 
         try:
             detail = parse_player(row)
             player_name = detail[1]
-            kungfu = SUPPORT_KUNGFU[kungfu_id]
+            if player_id not in self.players:
+                self.players[player_id] = deepcopy(SUPPORT_KUNGFU[kungfu_id])
             if equipments := detail.get(5):
                 self.select_equipments[player_id] = self.parse_equipments(equipments.values())
             if talents := detail.get(6):
                 self.select_talents[player_id] = self.parse_talents(talents.values())
-                self.players[player_id].platform = int(len(self.select_talents[player_id]) > MOBILE_MAX_TALENTS)
-            self.players[player_id] = deepcopy(kungfu)
+                self.players[player_id].platform = int(len(self.select_talents[player_id]) == MOBILE_MAX_TALENTS)
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
         except KeyError:

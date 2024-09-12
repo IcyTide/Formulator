@@ -6,14 +6,13 @@ from tools import *
 
 
 def prepare_skills():
-    all_skills = []
+    skills = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for skills in kungfu.all_skills.values():
-            for skill_id in skills:
-                if skill_id in all_skills:
-                    continue
-                all_skills.append(skill_id)
-    return all_skills
+        for skill_id in kungfu.skills:
+            if skill_id in skills:
+                continue
+            skills.append(skill_id)
+    return skills
 
 
 ATTRIBUTE_TYPE = {
@@ -107,10 +106,15 @@ ATTRIBUTE_TYPE = {{
 """
 
 INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')
-LUA = lupa.LuaRuntime()
-LUA.execute(INCLUDE_LUA)
-with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
-    LUA.execute(INCLUDE_PATTERN.sub('', f.read()))
+
+
+def prepare_lua_engine(preset_lua):
+    engine = lupa.LuaRuntime()
+    engine.execute(preset_lua)
+    with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
+        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
+    return engine
+
 
 SKILL_TAB = read_tab("settings/skill/skills.tab")
 SKILL_TAB['Platform'] = 0
@@ -127,18 +131,6 @@ SCRIPTS_PATH = {
 }
 
 
-def format_float(num: float, precision: int = 5) -> float:
-    num_str = str(num)
-    if "." in num_str:
-        integer_part, decimal_part = num_str.split(".")
-        for sub in ("0", "9"):
-            sub *= precision
-            if sub in decimal_part:
-                decimal_part = decimal_part[:decimal_part.index(sub) + 1]
-                return round(float(f"{integer_part}.{decimal_part}"), len(decimal_part) - 1)
-    return num
-
-
 class SkillLua:
     skill_id = 0
     skill_level = 0
@@ -153,47 +145,7 @@ class SkillLua:
     event_mask_1 = 0
     event_mask_2 = 0
 
-    physical_damage_base = 0
-    physical_damage_rand = 0
-    lunar_damage_base = 0
-    lunar_damage_rand = 0
-    solar_damage_base = 0
-    solar_damage_rand = 0
-    neutral_damage_base = 0
-    neutral_damage_rand = 0
-    poison_damage_base = 0
-    poison_damage_rand = 0
-
-    prepare_frame = 0
-    channel_interval = 0
-    skill_cof = 0
-    dot_cof = 0
-    surplus_cof = 0
     weapon_damage_cof = 0
-    global_damage_factor = 0
-
-    physical_attack_power_gain = 0
-    physical_critical_strike_rate = 0
-    physical_critical_power_rate = 0
-    physical_shield_gain = 0
-    solar_attack_power_gain = 0
-    solar_critical_strike_rate = 0
-    solar_critical_power_rate = 0
-    solar_shield_gain = 0
-    lunar_attack_power_gain = 0
-    lunar_critical_strike_rate = 0
-    lunar_critical_power_rate = 0
-    lunar_shield_gain = 0
-    neutral_attack_power_gain = 0
-    neutral_critical_strike_rate = 0
-    neutral_critical_power_rate = 0
-    neutral_shield_gain = 0
-    poison_attack_power_gain = 0
-    poison_critical_strike_rate = 0
-    poison_critical_power_rate = 0
-    poison_shield_gain = 0
-
-    pve_addition = 0
 
     physical_damage_call = 0
     lunar_damage_call = 0
@@ -207,9 +159,6 @@ class SkillLua:
     solar_surplus_call = 0
     neutral_surplus_call = 0
     poison_surplus_call = 0
-
-    physical_attack_power_base = 0
-    magical_attack_power_base = 0
 
     @staticmethod
     def empty_function(*args):
@@ -333,10 +282,11 @@ def parse_lua(skill_id):
 
 def collect_result():
     result = []
+    lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(prepare_skills()):
         alias_name, max_level, lua_code, skill_args = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
-        LUA.execute(lua_code)
+        lua_engine.execute(lua_code)
         for skill_level in range(max_level):
             skill_level += 1
             if filter_skill_txt.empty:
@@ -349,7 +299,7 @@ def collect_result():
             skill = SkillLua(skill_id, skill_level, skill_name, *skill_args)
             skill.alias_name = alias_name
             skill.max_level = max_level
-            LUA.globals()['GetSkillLevelData'](skill)
+            lua_engine.globals()['GetSkillLevelData'](skill)
             if not skill.physical_damage_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof
 

@@ -28,6 +28,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         诛邪镇魔: {
             26916: {}
         }
-    },
-    1: {}
+    }
 }

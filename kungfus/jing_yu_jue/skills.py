@@ -45,6 +45,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         追命箭: {
             6920: {}
         }
-    },
-    1: {}
+    }
 }

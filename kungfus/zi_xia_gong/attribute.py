@@ -3,20 +3,18 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(NeutralAttribute):
-    SPIRIT_TO_ATTACK_POWER = 1946 / BINARY_SCALE
-    SPIRIT_TO_CRITICAL_STRIKE = 625 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10014
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.neutral_attack_power_base += 6518
-        self.neutral_critical_strike_base += 5527
-        self.pve_addition_base += 51
+    spirit_to_neutral_attack_power: int = 0
+    spirit_to_neutral_critical_strike: int = 0
+    recipes = [(1711, 1)]
 
     @property
     def extra_neutral_attack_power(self):
-        return int(self.spirit * self.SPIRIT_TO_ATTACK_POWER)
+        return int(self.spirit * self.spirit_to_neutral_attack_power / BINARY_SCALE)
 
     @property
     def extra_neutral_critical_strike(self):
-        return int(self.spirit * self.SPIRIT_TO_CRITICAL_STRIKE)
+        return int(self.spirit * self.spirit_to_neutral_critical_strike / BINARY_SCALE)

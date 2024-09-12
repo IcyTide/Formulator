@@ -1,3 +1,6 @@
+from typing import Dict
+
+from assets.attributes import ATTRIBUTES
 from base.constant import *
 
 
@@ -782,6 +785,12 @@ class Minor(Vitality, CriticalPower, DamageAddition):
 
 
 class Target(Shield, DamageCoefficient):
+    resist_critical_strike_rate: int = 0
+
+    @property
+    def resist_critical_strike(self):
+        return self.resist_critical_strike_rate / DECIMAL_SCALE
+
     def __getitem__(self, item):
         return getattr(self, item)
 
@@ -800,9 +809,19 @@ class Attribute(Major, Minor, Target):
     recipes: list = []
     platform: int = 0
 
+    attribute_id: Dict[int, int] = {}
+
     def __init__(self, platform: int = 0):
         self.all_major_base += MAJOR_BASE
         self.target = Target()
+        self.platform = platform
+        self.set_asset()
+
+    def set_asset(self):
+        for attr, value in ATTRIBUTES.get(self.attribute_id[self.platform]).items():
+            if isinstance(value, list):
+                value = value[-1]
+            self[attr] = value
 
     @property
     def level_reduction(self):

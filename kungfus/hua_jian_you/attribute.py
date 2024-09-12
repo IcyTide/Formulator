@@ -3,24 +3,19 @@ from base.constant import *
 
 
 class Attribute(NeutralAttribute):
-    SPUNK_TO_ATTACK_POWER = 2079 / BINARY_SCALE
-    SPUNK_TO_OVERCOME = 205 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10021,
+        1: 100408
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.neutral_attack_power_base += 7242
-        self.platform = platform
-        if not platform:
-            self.pve_addition_base += 113
-        else:
-            self.pve_addition_base += 430
-            self.all_shield_ignore += 614
+    spunk_to_neutral_attack_power: int = 0
+    spunk_to_neutral_overcome: int = 0
+    recipes = [(1711, 1)]
 
     @property
     def extra_neutral_attack_power(self):
-        return int(self.spunk * self.SPUNK_TO_ATTACK_POWER)
+        return int(self.spunk * self.spunk_to_neutral_attack_power / BINARY_SCALE)
 
     @property
     def extra_neutral_overcome(self):
-        return int(self.spunk * self.SPUNK_TO_OVERCOME)
+        return int(self.spunk * self.spunk_to_neutral_overcome / BINARY_SCALE)

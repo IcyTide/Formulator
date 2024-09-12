@@ -9,6 +9,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             17103: dict(buff_name="追命无声"),
             **{buff_id: dict(buff_name="逐一击破") for buff_id in (-23074, -10169)},
         }
-    },
-    1: {}
+    }
 }

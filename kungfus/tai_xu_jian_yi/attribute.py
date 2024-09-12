@@ -3,32 +3,24 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    AGILITY_TO_ATTACK_POWER = 1731 / BINARY_SCALE
-    AGILITY_TO_CRITICAL_STRIKE = 696 / BINARY_SCALE
-    recipes = [(1711, 1)]
+    attribute_id = {
+        0: 10015,
+        1: 100389
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.physical_attack_power_base += 6187
-        self.physical_critical_strike_base += 9025
-        self.platform = platform
-        if not platform:
-            self.pve_addition_base += 154
-        else:
-            self.pve_addition_base += 481
-            self.all_shield_ignore += 614
+    agility_to_physical_attack_power: int = 0
+    agility_to_physical_critical_strike: int = 0
+    surplus_to_pve_addition: int = 0
+    recipes = [(1711, 1)]
 
     @property
     def extra_physical_attack_power(self):
-        return int(self.agility * self.AGILITY_TO_ATTACK_POWER)
+        return int(self.agility * self.agility_to_physical_attack_power / BINARY_SCALE)
 
     @property
     def extra_physical_critical_strike(self):
-        return int(self.agility * self.AGILITY_TO_CRITICAL_STRIKE)
+        return int(self.agility * self.agility_to_physical_critical_strike / BINARY_SCALE)
 
     @property
     def extra_pve_addition(self):
-        if not self.platform:
-            return 0
-        else:
-            return int(self.surplus_base / (3000 * 100) * BINARY_SCALE)
+        return int(self.surplus_base / (self.surplus_to_pve_addition * 100) * BINARY_SCALE)

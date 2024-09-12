@@ -30,6 +30,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             22787: dict(pre_buffs={15932: {1: 1}}),
         },
         百节判定: {skill_id: {} for skill_id in (36267, 22604, 22328)}
-    },
-    1: {}
+    }
 }

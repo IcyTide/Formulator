@@ -12,6 +12,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: dict(bind_dot=6367) for skill_id in (6853, 14930)},
             **{skill_id: dict(bind_dot=6401) for skill_id in (6867, 14931)}
         }
-    },
-    1: {}
+    }
 }

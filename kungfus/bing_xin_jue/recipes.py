@@ -77,6 +77,5 @@ RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
             "增加伤害4%": 1638,
             "增加伤害3%": 1637,
         }
-    },
-    1: {}
+    }
 }

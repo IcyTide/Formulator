@@ -11,6 +11,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             16102: dict(buff_name="引魂", attribute=dict(magical_attack_power_gain=410, surplus_gain=410)),
             -19513: dict(buff_name="连缘蛊增伤", interval=32)
         }
-    },
-    1: {}
+    }
 }

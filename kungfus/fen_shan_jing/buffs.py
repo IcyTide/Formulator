@@ -14,6 +14,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             -9052: dict(buff_name="绝刀增伤")
         },
         CustomBuff: {-1: dict(buff_name="怒气", max_stack=100)}
-    },
-    1: {}
+    }
 }

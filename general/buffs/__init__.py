@@ -7,10 +7,9 @@ BUFFS = [
     consumable.BUFFS,
     equipment.BUFFS,
     formation.BUFFS,
-    mobile.BUFFS,
     team.BUFFS
 ]
-GENERAL_BUFFS: Dict[int, Buff] = {}
+GENERAL_BUFFS: Dict[int, Buff] = {**mobile.BUFFS}
 for buffs in BUFFS:
     for buff_class, items in buffs.items():
         for buff_id, attrs in items.items():

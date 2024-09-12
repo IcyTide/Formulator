@@ -1,25 +1,20 @@
 from base.attribute import PhysicalAttribute
-from base.constant import *
+from base.constant import BINARY_SCALE
 
 
 class Attribute(PhysicalAttribute):
-    STRENGTH_TO_ATTACK_POWER = 1802 / BINARY_SCALE
-    STRENGTH_TO_OVERCOME = 420 / BINARY_SCALE
+    attribute_id = {
+        0: 10464,
+        1: 100994
+    }
 
-    def __init__(self, platform=0):
-        super().__init__()
-        self.physical_attack_power_base += 7034
-        self.platform = platform
-        if not platform:
-            self.pve_addition_base += 174
-        else:
-            self.pve_addition_base += 440
-            self.all_shield_ignore += 614
+    strength_to_physical_attack_power: int = 0
+    strength_to_physical_overcome: int = 0
 
     @property
     def extra_physical_attack_power(self):
-        return int(self.strength * self.STRENGTH_TO_ATTACK_POWER)
+        return int(self.strength * self.strength_to_physical_attack_power / BINARY_SCALE)
 
     @property
     def extra_physical_overcome(self):
-        return int(self.strength * self.STRENGTH_TO_OVERCOME)
+        return int(self.strength * self.strength_to_physical_overcome / BINARY_SCALE)

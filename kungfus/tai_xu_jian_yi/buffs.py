@@ -7,6 +7,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Buff: {
             378: {}, 17933: {}, 9949: {}, 2757: {}, 14931: {}
         }
-    },
-    1: {}
+    }
 }

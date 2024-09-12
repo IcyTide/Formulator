@@ -10,6 +10,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             25759: dict(buff_name="明光·日", frame_shift=1),
             25758: dict(buff_name="明光·月", frame_shift=1)
         },
-    },
-    1: {}
+    }
 }

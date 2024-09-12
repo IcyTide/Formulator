@@ -7,17 +7,16 @@ from tools import *
 
 
 def prepare_buffs():
-    all_buffs = []
+    buffs = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for buffs in kungfu.all_buffs.values():
-            for buff_id, buff in buffs.items():
-                if isinstance(buff, CustomBuff):
-                    continue
-                buff_id = abs(buff_id)
-                if buff_id in all_buffs:
-                    continue
-                all_buffs.append(buff_id)
-    return all_buffs
+        for buff_id, buff in kungfu.buffs.items():
+            if isinstance(buff, CustomBuff):
+                continue
+            buff_id = abs(buff_id)
+            if buff_id in buffs:
+                continue
+            buffs.append(buff_id)
+    return buffs
 
 
 BUFF_TAB = read_tab("settings/skill/buff.tab")

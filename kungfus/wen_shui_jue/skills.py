@@ -11,6 +11,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             1658: dict(post_buffs={-1: {1: 1}}),
             1659: dict(post_buffs={-1: {1: 0}})
         }
-    },
-    1: {}
+    }
 }

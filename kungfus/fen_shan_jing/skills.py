@@ -53,6 +53,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         },
         盾压: {19409: {}},
         绝刀: {13075: {}}
-    },
-    1: {}
+    }
 }

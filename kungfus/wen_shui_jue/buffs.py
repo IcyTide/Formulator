@@ -9,6 +9,5 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             21640: dict(buff_name="层云"),
         },
         CustomBuff: {-1: dict(buff_name="重剑", attributes=dict(weapon_damage_base=0))}
-    },
-    1: {}
+    }
 }

@@ -33,6 +33,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             )
         },
         NpcSkill: {15076: {}}
-    },
-    1: {}
+    }
 }

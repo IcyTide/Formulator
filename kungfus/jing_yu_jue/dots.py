@@ -8,6 +8,5 @@ DOTS: Dict[int, Dict[type, Dict[int, dict]]] = {
             2237: dict(tick_add=1),
             19625: {}
         }
-    },
-    1: {}
+    }
 }

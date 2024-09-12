@@ -29,6 +29,5 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         战意判定: {
             18740: {}
         }
-    },
-    1: {}
+    }
 }
