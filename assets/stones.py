@@ -3,6 +3,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·霸体·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -11,6 +12,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -19,6 +21,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -27,6 +30,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -35,6 +39,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -43,6 +48,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -53,6 +59,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·霸体·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -61,6 +68,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -69,6 +77,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -77,6 +86,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -85,6 +95,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -93,6 +104,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -103,6 +115,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·霸体·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -111,6 +124,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -119,6 +133,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -127,6 +142,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -135,6 +151,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -143,6 +160,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -155,6 +173,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·霸体·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -163,6 +182,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -171,6 +191,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -179,6 +200,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -187,6 +209,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -195,6 +218,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -205,6 +229,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·霸体·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -213,6 +238,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -221,6 +247,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -229,6 +256,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -237,6 +265,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -245,6 +274,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -255,6 +285,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·霸体·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -263,6 +294,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -271,6 +303,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -279,6 +312,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -287,6 +321,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -295,6 +330,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -307,6 +343,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·霸体·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -315,6 +352,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -323,6 +361,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -331,6 +370,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -339,6 +379,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -347,6 +388,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -357,6 +399,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·霸体·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -365,6 +408,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -373,6 +417,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -381,6 +426,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -389,6 +435,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -397,6 +444,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -407,6 +455,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·霸体·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -415,6 +464,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -423,6 +473,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -431,6 +482,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -439,6 +491,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -447,6 +500,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -459,6 +513,7 @@ STONES = {
         "magical_shield_base": {
             "max_life_add": {
                 1: {
+                    "name": "彩·霸体·耐受·血魂(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -467,6 +522,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·耐受·血魂(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -475,6 +531,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·耐受·血魂(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -483,6 +540,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·耐受·血魂(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -491,6 +549,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·耐受·血魂(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -499,6 +558,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·耐受·血魂(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -511,6 +571,7 @@ STONES = {
         "max_life_add": {
             "magical_shield_base": {
                 1: {
+                    "name": "彩·霸体·血魂·耐受(壹)",
                     "level": 1,
                     "attr": {
                         "vitality_base": 122,
@@ -519,6 +580,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霸体·血魂·耐受(贰)",
                     "level": 2,
                     "attr": {
                         "vitality_base": 244,
@@ -527,6 +589,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霸体·血魂·耐受(叁)",
                     "level": 3,
                     "attr": {
                         "vitality_base": 366,
@@ -535,6 +598,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霸体·血魂·耐受(肆)",
                     "level": 4,
                     "attr": {
                         "vitality_base": 488,
@@ -543,6 +607,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霸体·血魂·耐受(伍)",
                     "level": 5,
                     "attr": {
                         "vitality_base": 609,
@@ -551,6 +616,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霸体·血魂·耐受(陆)",
                     "level": 6,
                     "attr": {
                         "vitality_base": 731,
@@ -565,6 +631,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·真刚·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -573,6 +640,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -581,6 +649,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -589,6 +658,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -597,6 +667,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -605,6 +676,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -615,6 +687,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·真刚·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -623,6 +696,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -631,6 +705,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -639,6 +714,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -647,6 +723,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -655,6 +732,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -665,6 +743,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·真刚·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -673,6 +752,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -681,6 +761,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -689,6 +770,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -697,6 +779,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -705,6 +788,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -717,6 +801,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·真刚·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -725,6 +810,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -733,6 +819,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -741,6 +828,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -749,6 +837,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -757,6 +846,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -767,6 +857,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·真刚·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -775,6 +866,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -783,6 +875,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -791,6 +884,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -799,6 +893,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -807,6 +902,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -817,6 +913,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·真刚·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -825,6 +922,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -833,6 +931,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -841,6 +940,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -849,6 +949,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -857,6 +958,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -869,6 +971,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·真刚·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -877,6 +980,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -885,6 +989,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -893,6 +998,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -901,6 +1007,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -909,6 +1016,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -919,6 +1027,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·真刚·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -927,6 +1036,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -935,6 +1045,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -943,6 +1054,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -951,6 +1063,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -959,6 +1072,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -969,6 +1083,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·真刚·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -977,6 +1092,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -985,6 +1101,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -993,6 +1110,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1001,6 +1119,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1009,6 +1128,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1021,6 +1141,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·真刚·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1029,6 +1150,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1037,6 +1159,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1045,6 +1168,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1053,6 +1177,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1061,6 +1186,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1071,6 +1197,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·真刚·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1079,6 +1206,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1087,6 +1215,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1095,6 +1224,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1103,6 +1233,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1111,6 +1242,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1123,6 +1255,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·真刚·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1131,6 +1264,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1139,6 +1273,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1147,6 +1282,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1155,6 +1291,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1163,6 +1300,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1173,6 +1311,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·真刚·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1181,6 +1320,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1189,6 +1329,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1197,6 +1338,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1205,6 +1347,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1213,6 +1356,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1225,6 +1369,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·真刚·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1233,6 +1378,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1241,6 +1387,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1249,6 +1396,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1257,6 +1405,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1265,6 +1414,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1275,6 +1425,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·真刚·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1283,6 +1434,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1291,6 +1443,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1299,6 +1452,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1307,6 +1461,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1315,6 +1470,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1327,6 +1483,7 @@ STONES = {
         "haste_base": {
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·真刚·急速·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strength_base": 31,
@@ -1335,6 +1492,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真刚·急速·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strength_base": 63,
@@ -1343,6 +1501,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真刚·急速·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strength_base": 94,
@@ -1351,6 +1510,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真刚·急速·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strength_base": 125,
@@ -1359,6 +1519,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真刚·急速·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strength_base": 156,
@@ -1367,6 +1528,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真刚·急速·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strength_base": 188,
@@ -1381,6 +1543,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·瞬影·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1389,6 +1552,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1397,6 +1561,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1405,6 +1570,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1413,6 +1579,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1421,6 +1588,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1431,6 +1599,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1439,6 +1608,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1447,6 +1617,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1455,6 +1626,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1463,6 +1635,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1471,6 +1644,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1481,6 +1655,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1489,6 +1664,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1497,6 +1673,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1505,6 +1682,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1513,6 +1691,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1521,6 +1700,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1533,6 +1713,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·瞬影·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1541,6 +1722,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1549,6 +1731,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1557,6 +1740,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1565,6 +1749,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1573,6 +1758,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1583,6 +1769,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1591,6 +1778,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1599,6 +1787,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1607,6 +1796,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1615,6 +1805,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1623,6 +1814,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1633,6 +1825,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1641,6 +1834,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1649,6 +1843,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1657,6 +1852,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1665,6 +1861,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1673,6 +1870,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1685,6 +1883,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·瞬影·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1693,6 +1892,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1701,6 +1901,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1709,6 +1910,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1717,6 +1919,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1725,6 +1928,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1735,6 +1939,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1743,6 +1948,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1751,6 +1957,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1759,6 +1966,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1767,6 +1975,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1775,6 +1984,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1785,6 +1995,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1793,6 +2004,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1801,6 +2013,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1809,6 +2022,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1817,6 +2031,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1825,6 +2040,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1835,6 +2051,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1843,6 +2060,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1851,6 +2069,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1859,6 +2078,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1867,6 +2087,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1875,6 +2096,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1885,6 +2107,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1893,6 +2116,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1901,6 +2125,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1909,6 +2134,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1917,6 +2143,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1925,6 +2152,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1937,6 +2165,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1945,6 +2174,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -1953,6 +2183,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -1961,6 +2192,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -1969,6 +2201,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -1977,6 +2210,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -1987,6 +2221,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -1995,6 +2230,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2003,6 +2239,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2011,6 +2248,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2019,6 +2257,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2027,6 +2266,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2039,6 +2279,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2047,6 +2288,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2055,6 +2297,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2063,6 +2306,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2071,6 +2315,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2079,6 +2324,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2089,6 +2335,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2097,6 +2344,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2105,6 +2353,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2113,6 +2362,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2121,6 +2371,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2129,6 +2380,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2141,6 +2393,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2149,6 +2402,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2157,6 +2411,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2165,6 +2420,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2173,6 +2429,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2181,6 +2438,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2191,6 +2449,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2199,6 +2458,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2207,6 +2467,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2215,6 +2476,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2223,6 +2485,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2231,6 +2494,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2243,6 +2507,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2251,6 +2516,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2259,6 +2525,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2267,6 +2534,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2275,6 +2543,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2283,6 +2552,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2293,6 +2563,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2301,6 +2572,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2309,6 +2581,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2317,6 +2590,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2325,6 +2599,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2333,6 +2608,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2345,6 +2621,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2353,6 +2630,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2361,6 +2639,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2369,6 +2648,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2377,6 +2657,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2385,6 +2666,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2395,6 +2677,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·瞬影·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2403,6 +2686,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2411,6 +2695,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2419,6 +2704,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2427,6 +2713,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2435,6 +2722,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2447,6 +2735,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2455,6 +2744,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2463,6 +2753,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2471,6 +2762,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2479,6 +2771,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2487,6 +2780,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2497,6 +2791,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·瞬影·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2505,6 +2800,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2513,6 +2809,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2521,6 +2818,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2529,6 +2827,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2537,6 +2836,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2549,6 +2849,7 @@ STONES = {
         "haste_base": {
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·瞬影·急速·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "agility_base": 31,
@@ -2557,6 +2858,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·瞬影·急速·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "agility_base": 63,
@@ -2565,6 +2867,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·瞬影·急速·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "agility_base": 94,
@@ -2573,6 +2876,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·瞬影·急速·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "agility_base": 125,
@@ -2581,6 +2885,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·瞬影·急速·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "agility_base": 156,
@@ -2589,6 +2894,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·瞬影·急速·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "agility_base": 188,
@@ -2603,6 +2909,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·灵根·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2611,6 +2918,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2619,6 +2927,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2627,6 +2936,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2635,6 +2945,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2643,6 +2954,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2653,6 +2965,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·灵根·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2661,6 +2974,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2669,6 +2983,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2677,6 +2992,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2685,6 +3001,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2693,6 +3010,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2703,6 +3021,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2711,6 +3030,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2719,6 +3039,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2727,6 +3048,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2735,6 +3057,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2743,6 +3066,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2755,6 +3079,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·灵根·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2763,6 +3088,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2771,6 +3097,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2779,6 +3106,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2787,6 +3115,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2795,6 +3124,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2805,6 +3135,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2813,6 +3144,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2821,6 +3153,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2829,6 +3162,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2837,6 +3171,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2845,6 +3180,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2855,6 +3191,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2863,6 +3200,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2871,6 +3209,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2879,6 +3218,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2887,6 +3227,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2895,6 +3236,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2907,6 +3249,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·灵根·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2915,6 +3258,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2923,6 +3267,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2931,6 +3276,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2939,6 +3285,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2947,6 +3294,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -2957,6 +3305,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·灵根·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -2965,6 +3314,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -2973,6 +3323,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -2981,6 +3332,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -2989,6 +3341,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -2997,6 +3350,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3007,6 +3361,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3015,6 +3370,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3023,6 +3379,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3031,6 +3388,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3039,6 +3397,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3047,6 +3406,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3059,6 +3419,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·灵根·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3067,6 +3428,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3075,6 +3437,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3083,6 +3446,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3091,6 +3455,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3099,6 +3464,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3109,6 +3475,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3117,6 +3484,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3125,6 +3493,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3133,6 +3502,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3141,6 +3511,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3149,6 +3520,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3161,6 +3533,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·灵根·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3169,6 +3542,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3177,6 +3551,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3185,6 +3560,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3193,6 +3569,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3201,6 +3578,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3211,6 +3589,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3219,6 +3598,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3227,6 +3607,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3235,6 +3616,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3243,6 +3625,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3251,6 +3634,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3263,6 +3647,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·灵根·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3271,6 +3656,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3279,6 +3665,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3287,6 +3674,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3295,6 +3683,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3303,6 +3692,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3313,6 +3703,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3321,6 +3712,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3329,6 +3721,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3337,6 +3730,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3345,6 +3739,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3353,6 +3748,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3365,6 +3761,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·灵根·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3373,6 +3770,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3381,6 +3779,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3389,6 +3788,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3397,6 +3797,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3405,6 +3806,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3415,6 +3817,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3423,6 +3826,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3431,6 +3835,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3439,6 +3844,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3447,6 +3853,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3455,6 +3862,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3467,6 +3875,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·灵根·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3475,6 +3884,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3483,6 +3893,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3491,6 +3902,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3499,6 +3911,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3507,6 +3920,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3517,6 +3931,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3525,6 +3940,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3533,6 +3949,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3541,6 +3958,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3549,6 +3967,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3557,6 +3976,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3569,6 +3989,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3577,6 +3998,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3585,6 +4007,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3593,6 +4016,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3601,6 +4025,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3609,6 +4034,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3619,6 +4045,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3627,6 +4054,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3635,6 +4063,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3643,6 +4072,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3651,6 +4081,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3659,6 +4090,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3671,6 +4103,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3679,6 +4112,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3687,6 +4121,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3695,6 +4130,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3703,6 +4139,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3711,6 +4148,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3721,6 +4159,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3729,6 +4168,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3737,6 +4177,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3745,6 +4186,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3753,6 +4195,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3761,6 +4204,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3773,6 +4217,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3781,6 +4226,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3789,6 +4235,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3797,6 +4244,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3805,6 +4253,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3813,6 +4262,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3823,6 +4273,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3831,6 +4282,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3839,6 +4291,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3847,6 +4300,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3855,6 +4309,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3863,6 +4318,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3875,6 +4331,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3883,6 +4340,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3891,6 +4349,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3899,6 +4358,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3907,6 +4367,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3915,6 +4376,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3925,6 +4387,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3933,6 +4396,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3941,6 +4405,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -3949,6 +4414,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -3957,6 +4423,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -3965,6 +4432,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -3977,6 +4445,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -3985,6 +4454,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -3993,6 +4463,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4001,6 +4472,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4009,6 +4481,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4017,6 +4490,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4027,6 +4501,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·灵根·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4035,6 +4510,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4043,6 +4519,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4051,6 +4528,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4059,6 +4537,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4067,6 +4546,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4079,6 +4559,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4087,6 +4568,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4095,6 +4577,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4103,6 +4586,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4111,6 +4595,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4119,6 +4604,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4129,6 +4615,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·灵根·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4137,6 +4624,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4145,6 +4633,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4153,6 +4642,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4161,6 +4651,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4169,6 +4660,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4181,6 +4673,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4189,6 +4682,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4197,6 +4691,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4205,6 +4700,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4213,6 +4709,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4221,6 +4718,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4231,6 +4729,7 @@ STONES = {
             },
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·灵根·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4239,6 +4738,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4247,6 +4747,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4255,6 +4756,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4263,6 +4765,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4271,6 +4774,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4283,6 +4787,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4291,6 +4796,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4299,6 +4805,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4307,6 +4814,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4315,6 +4823,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4323,6 +4832,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4333,6 +4843,7 @@ STONES = {
             },
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·灵根·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4341,6 +4852,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4349,6 +4861,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4357,6 +4870,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4365,6 +4879,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4373,6 +4888,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4385,6 +4901,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4393,6 +4910,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4401,6 +4919,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4409,6 +4928,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4417,6 +4937,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4425,6 +4946,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4435,6 +4957,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·灵根·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4443,6 +4966,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4451,6 +4975,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4459,6 +4984,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4467,6 +4993,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4475,6 +5002,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4487,6 +5015,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4495,6 +5024,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4503,6 +5033,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4511,6 +5042,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4519,6 +5051,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4527,6 +5060,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4537,6 +5071,7 @@ STONES = {
             },
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·灵根·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4545,6 +5080,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4553,6 +5089,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4561,6 +5098,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4569,6 +5107,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4577,6 +5116,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4589,6 +5129,7 @@ STONES = {
         "magical_shield_base": {
             "max_life_add": {
                 1: {
+                    "name": "彩·灵根·耐受·血魂(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4597,6 +5138,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·耐受·血魂(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4605,6 +5147,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·耐受·血魂(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4613,6 +5156,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·耐受·血魂(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4621,6 +5165,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·耐受·血魂(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4629,6 +5174,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·耐受·血魂(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4641,6 +5187,7 @@ STONES = {
         "max_life_add": {
             "magical_shield_base": {
                 1: {
+                    "name": "彩·灵根·血魂·耐受(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4649,6 +5196,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·血魂·耐受(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4657,6 +5205,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·血魂·耐受(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4665,6 +5214,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·血魂·耐受(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4673,6 +5223,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·血魂·耐受(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4681,6 +5232,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·血魂·耐受(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4693,6 +5245,7 @@ STONES = {
         "haste_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·急速·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4701,6 +5254,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·急速·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4709,6 +5263,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·急速·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4717,6 +5272,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·急速·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4725,6 +5281,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·急速·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4733,6 +5290,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·急速·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4743,6 +5301,7 @@ STONES = {
             },
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·急速·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4751,6 +5310,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·急速·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4759,6 +5319,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·急速·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4767,6 +5328,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·急速·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4775,6 +5337,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·急速·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4783,6 +5346,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·急速·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4793,6 +5357,7 @@ STONES = {
             },
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·急速·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4801,6 +5366,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·急速·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4809,6 +5375,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·急速·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4817,6 +5384,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·急速·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4825,6 +5393,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·急速·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4833,6 +5402,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·急速·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4843,6 +5413,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·灵根·急速·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spirit_base": 31,
@@ -4851,6 +5422,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灵根·急速·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spirit_base": 63,
@@ -4859,6 +5431,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灵根·急速·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spirit_base": 94,
@@ -4867,6 +5440,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灵根·急速·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spirit_base": 125,
@@ -4875,6 +5449,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灵根·急速·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spirit_base": 156,
@@ -4883,6 +5458,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灵根·急速·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spirit_base": 188,
@@ -4897,6 +5473,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·锐刃·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_attack_power_base": 66,
@@ -4905,6 +5482,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·锐刃·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_attack_power_base": 132,
@@ -4913,6 +5491,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·锐刃·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_attack_power_base": 199,
@@ -4921,6 +5500,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·锐刃·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_attack_power_base": 265,
@@ -4929,6 +5509,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·锐刃·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_attack_power_base": 331,
@@ -4937,6 +5518,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·锐刃·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_attack_power_base": 397,
@@ -4947,6 +5529,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·锐刃·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_attack_power_base": 66,
@@ -4955,6 +5538,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·锐刃·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_attack_power_base": 132,
@@ -4963,6 +5547,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·锐刃·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_attack_power_base": 199,
@@ -4971,6 +5556,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·锐刃·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_attack_power_base": 265,
@@ -4979,6 +5565,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·锐刃·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_attack_power_base": 331,
@@ -4987,6 +5574,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·锐刃·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_attack_power_base": 397,
@@ -4999,6 +5587,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·锐刃·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_attack_power_base": 66,
@@ -5007,6 +5596,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·锐刃·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_attack_power_base": 132,
@@ -5015,6 +5605,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·锐刃·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_attack_power_base": 199,
@@ -5023,6 +5614,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·锐刃·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_attack_power_base": 265,
@@ -5031,6 +5623,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·锐刃·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_attack_power_base": 331,
@@ -5039,6 +5632,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·锐刃·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_attack_power_base": 397,
@@ -5049,6 +5643,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·锐刃·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "physical_attack_power_base": 66,
@@ -5057,6 +5652,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·锐刃·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "physical_attack_power_base": 132,
@@ -5065,6 +5661,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·锐刃·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "physical_attack_power_base": 199,
@@ -5073,6 +5670,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·锐刃·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "physical_attack_power_base": 265,
@@ -5081,6 +5679,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·锐刃·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "physical_attack_power_base": 331,
@@ -5089,6 +5688,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·锐刃·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "physical_attack_power_base": 397,
@@ -5103,6 +5703,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·斩铁·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_overcome_base": 244,
@@ -5111,6 +5712,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·斩铁·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_overcome_base": 488,
@@ -5119,6 +5721,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·斩铁·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_overcome_base": 731,
@@ -5127,6 +5730,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·斩铁·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_overcome_base": 975,
@@ -5135,6 +5739,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·斩铁·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_overcome_base": 1219,
@@ -5143,6 +5748,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·斩铁·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_overcome_base": 1463,
@@ -5153,6 +5759,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·斩铁·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_overcome_base": 244,
@@ -5161,6 +5768,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·斩铁·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_overcome_base": 488,
@@ -5169,6 +5777,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·斩铁·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_overcome_base": 731,
@@ -5177,6 +5786,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·斩铁·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_overcome_base": 975,
@@ -5185,6 +5795,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·斩铁·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_overcome_base": 1219,
@@ -5193,6 +5804,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·斩铁·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_overcome_base": 1463,
@@ -5205,6 +5817,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·斩铁·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_overcome_base": 244,
@@ -5213,6 +5826,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·斩铁·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_overcome_base": 488,
@@ -5221,6 +5835,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·斩铁·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_overcome_base": 731,
@@ -5229,6 +5844,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·斩铁·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_overcome_base": 975,
@@ -5237,6 +5853,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·斩铁·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_overcome_base": 1219,
@@ -5245,6 +5862,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·斩铁·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_overcome_base": 1463,
@@ -5255,6 +5873,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·斩铁·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "physical_overcome_base": 244,
@@ -5263,6 +5882,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·斩铁·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "physical_overcome_base": 488,
@@ -5271,6 +5891,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·斩铁·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "physical_overcome_base": 731,
@@ -5279,6 +5900,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·斩铁·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "physical_overcome_base": 975,
@@ -5287,6 +5909,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·斩铁·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "physical_overcome_base": 1219,
@@ -5295,6 +5918,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·斩铁·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "physical_overcome_base": 1463,
@@ -5309,6 +5933,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·见切·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5317,6 +5942,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5325,6 +5951,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5333,6 +5960,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5341,6 +5969,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5349,6 +5978,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5359,6 +5989,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·见切·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5367,6 +5998,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5375,6 +6007,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5383,6 +6016,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5391,6 +6025,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5399,6 +6034,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5409,6 +6045,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·见切·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5417,6 +6054,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5425,6 +6063,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5433,6 +6072,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5441,6 +6081,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5449,6 +6090,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5461,6 +6103,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·见切·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5469,6 +6112,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5477,6 +6121,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5485,6 +6130,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5493,6 +6139,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5501,6 +6148,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5511,6 +6159,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·见切·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5519,6 +6168,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5527,6 +6177,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5535,6 +6186,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5543,6 +6195,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5551,6 +6204,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5561,6 +6215,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·见切·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5569,6 +6224,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5577,6 +6233,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5585,6 +6242,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5593,6 +6251,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5601,6 +6260,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5613,6 +6273,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·见切·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5621,6 +6282,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5629,6 +6291,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5637,6 +6300,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5645,6 +6309,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5653,6 +6318,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5663,6 +6329,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·见切·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5671,6 +6338,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5679,6 +6347,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5687,6 +6356,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5695,6 +6365,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5703,6 +6374,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5713,6 +6385,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·见切·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5721,6 +6394,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5729,6 +6403,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5737,6 +6412,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5745,6 +6421,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5753,6 +6430,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5763,6 +6441,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·见切·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5771,6 +6450,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5779,6 +6459,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5787,6 +6468,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5795,6 +6477,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5803,6 +6486,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5813,6 +6497,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·见切·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5821,6 +6506,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5829,6 +6515,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5837,6 +6524,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5845,6 +6533,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5853,6 +6542,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5865,6 +6555,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·见切·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5873,6 +6564,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5881,6 +6573,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5889,6 +6582,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5897,6 +6591,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5905,6 +6600,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5915,6 +6611,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·见切·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5923,6 +6620,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5931,6 +6629,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5939,6 +6638,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5947,6 +6647,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -5955,6 +6656,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -5967,6 +6669,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·见切·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -5975,6 +6678,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -5983,6 +6687,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -5991,6 +6696,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -5999,6 +6705,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -6007,6 +6714,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -6017,6 +6725,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·见切·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_strike_base": 244,
@@ -6025,6 +6734,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·见切·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_strike_base": 488,
@@ -6033,6 +6743,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·见切·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_strike_base": 731,
@@ -6041,6 +6752,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·见切·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_strike_base": 975,
@@ -6049,6 +6761,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·见切·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_strike_base": 1219,
@@ -6057,6 +6770,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·见切·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_strike_base": 1463,
@@ -6071,6 +6785,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·痛击·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6079,6 +6794,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6087,6 +6803,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6095,6 +6812,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6103,6 +6821,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6111,6 +6830,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6121,6 +6841,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·痛击·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6129,6 +6850,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6137,6 +6859,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6145,6 +6868,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6153,6 +6877,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6161,6 +6886,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6173,6 +6899,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·痛击·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6181,6 +6908,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6189,6 +6917,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6197,6 +6926,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6205,6 +6935,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6213,6 +6944,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6223,6 +6955,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·痛击·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6231,6 +6964,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6239,6 +6973,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6247,6 +6982,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6255,6 +6991,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6263,6 +7000,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6275,6 +7013,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·痛击·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6283,6 +7022,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6291,6 +7031,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6299,6 +7040,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6307,6 +7049,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6315,6 +7058,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6327,6 +7071,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·痛击·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6335,6 +7080,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6343,6 +7089,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6351,6 +7098,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6359,6 +7107,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6367,6 +7116,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6379,6 +7129,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·痛击·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6387,6 +7138,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6395,6 +7147,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6403,6 +7156,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6411,6 +7165,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6419,6 +7174,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6429,6 +7185,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·痛击·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "physical_critical_power_base": 244,
@@ -6437,6 +7194,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·痛击·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "physical_critical_power_base": 488,
@@ -6445,6 +7203,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·痛击·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "physical_critical_power_base": 731,
@@ -6453,6 +7212,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·痛击·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "physical_critical_power_base": 975,
@@ -6461,6 +7221,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·痛击·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "physical_critical_power_base": 1219,
@@ -6469,6 +7230,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·痛击·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "physical_critical_power_base": 1463,
@@ -6483,6 +7245,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·破招·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6491,6 +7254,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6499,6 +7263,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6507,6 +7272,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6515,6 +7281,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6523,6 +7290,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6533,6 +7301,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·破招·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6541,6 +7310,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6549,6 +7319,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6557,6 +7328,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6565,6 +7337,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6573,6 +7346,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6583,6 +7357,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6591,6 +7366,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6599,6 +7375,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6607,6 +7384,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6615,6 +7393,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6623,6 +7402,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6635,6 +7415,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·破招·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6643,6 +7424,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6651,6 +7433,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6659,6 +7442,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6667,6 +7451,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6675,6 +7460,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6685,6 +7471,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·破招·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6693,6 +7480,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6701,6 +7489,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6709,6 +7498,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6717,6 +7507,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6725,6 +7516,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6735,6 +7527,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6743,6 +7536,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6751,6 +7545,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6759,6 +7554,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6767,6 +7563,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6775,6 +7572,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6787,6 +7585,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·破招·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6795,6 +7594,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6803,6 +7603,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6811,6 +7612,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6819,6 +7621,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6827,6 +7630,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6837,6 +7641,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·破招·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6845,6 +7650,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6853,6 +7659,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6861,6 +7668,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6869,6 +7677,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6877,6 +7686,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6887,6 +7697,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·破招·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6895,6 +7706,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6903,6 +7715,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6911,6 +7724,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6919,6 +7733,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6927,6 +7742,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6937,6 +7753,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·破招·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6945,6 +7762,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -6953,6 +7771,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -6961,6 +7780,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -6969,6 +7789,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -6977,6 +7798,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -6987,6 +7809,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·破招·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -6995,6 +7818,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7003,6 +7827,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7011,6 +7836,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7019,6 +7845,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7027,6 +7854,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7039,6 +7867,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·破招·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7047,6 +7876,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7055,6 +7885,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7063,6 +7894,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7071,6 +7903,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7079,6 +7912,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7089,6 +7923,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7097,6 +7932,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7105,6 +7941,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7113,6 +7950,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7121,6 +7959,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7129,6 +7968,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7141,6 +7981,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7149,6 +7990,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7157,6 +7999,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7165,6 +8008,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7173,6 +8017,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7181,6 +8026,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7191,6 +8037,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7199,6 +8046,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7207,6 +8055,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7215,6 +8064,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7223,6 +8073,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7231,6 +8082,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7243,6 +8095,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7251,6 +8104,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7259,6 +8113,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7267,6 +8122,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7275,6 +8131,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7283,6 +8140,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7293,6 +8151,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·破招·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7301,6 +8160,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7309,6 +8169,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7317,6 +8178,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7325,6 +8187,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7333,6 +8196,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7345,6 +8209,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·破招·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7353,6 +8218,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7361,6 +8227,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7369,6 +8236,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7377,6 +8245,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7385,6 +8254,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7395,6 +8265,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·破招·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7403,6 +8274,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7411,6 +8283,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7419,6 +8292,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7427,6 +8301,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7435,6 +8310,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7447,6 +8323,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·破招·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7455,6 +8332,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7463,6 +8341,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7471,6 +8350,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7479,6 +8359,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7487,6 +8368,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7497,6 +8379,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·破招·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7505,6 +8388,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7513,6 +8397,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7521,6 +8406,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7529,6 +8415,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7537,6 +8424,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7549,6 +8437,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·破招·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7557,6 +8446,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7565,6 +8455,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7573,6 +8464,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7581,6 +8473,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7589,6 +8482,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7599,6 +8493,7 @@ STONES = {
             },
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·破招·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7607,6 +8502,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7615,6 +8511,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7623,6 +8520,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7631,6 +8529,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7639,6 +8538,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7651,6 +8551,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·破招·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7659,6 +8560,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7667,6 +8569,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7675,6 +8578,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7683,6 +8587,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7691,6 +8596,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7701,6 +8607,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7709,6 +8616,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7717,6 +8625,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7725,6 +8634,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7733,6 +8643,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7741,6 +8652,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7753,6 +8665,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7761,6 +8674,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7769,6 +8683,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7777,6 +8692,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7785,6 +8701,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7793,6 +8710,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7803,6 +8721,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7811,6 +8730,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7819,6 +8739,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7827,6 +8748,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7835,6 +8757,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7843,6 +8766,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7855,6 +8779,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7863,6 +8788,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7871,6 +8797,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7879,6 +8806,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7887,6 +8815,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7895,6 +8824,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7905,6 +8835,7 @@ STONES = {
             },
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·破招·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7913,6 +8844,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7921,6 +8853,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7929,6 +8862,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7937,6 +8871,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7945,6 +8880,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -7957,6 +8893,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·破招·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -7965,6 +8902,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -7973,6 +8911,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -7981,6 +8920,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -7989,6 +8929,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -7997,6 +8938,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8007,6 +8949,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·破招·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8015,6 +8958,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8023,6 +8967,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8031,6 +8976,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8039,6 +8985,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8047,6 +8994,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8057,6 +9005,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8065,6 +9014,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8073,6 +9023,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8081,6 +9032,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8089,6 +9041,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8097,6 +9050,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8109,6 +9063,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·破招·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8117,6 +9072,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8125,6 +9081,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8133,6 +9090,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8141,6 +9099,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8149,6 +9108,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8159,6 +9119,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·破招·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8167,6 +9128,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8175,6 +9137,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8183,6 +9146,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8191,6 +9155,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8199,6 +9164,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8209,6 +9175,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8217,6 +9184,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8225,6 +9193,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8233,6 +9202,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8241,6 +9211,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8249,6 +9220,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8261,6 +9233,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·破招·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8269,6 +9242,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8277,6 +9251,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8285,6 +9260,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8293,6 +9269,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8301,6 +9278,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8311,6 +9289,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·破招·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8319,6 +9298,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8327,6 +9307,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8335,6 +9316,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8343,6 +9325,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8351,6 +9334,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8363,6 +9347,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·破招·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8371,6 +9356,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8379,6 +9365,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8387,6 +9374,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8395,6 +9383,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8403,6 +9392,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8413,6 +9403,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8421,6 +9412,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8429,6 +9421,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8437,6 +9430,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8445,6 +9439,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8453,6 +9448,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8465,6 +9461,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·破招·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8473,6 +9470,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8481,6 +9479,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8489,6 +9488,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8497,6 +9497,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8505,6 +9506,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8515,6 +9517,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·破招·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8523,6 +9526,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8531,6 +9535,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8539,6 +9544,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8547,6 +9553,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8555,6 +9562,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8567,6 +9575,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·破招·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8575,6 +9584,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8583,6 +9593,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8591,6 +9602,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8599,6 +9611,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8607,6 +9620,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8617,6 +9631,7 @@ STONES = {
             },
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·破招·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8625,6 +9640,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8633,6 +9649,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8641,6 +9658,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8649,6 +9667,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8657,6 +9676,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8669,6 +9689,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·破招·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8677,6 +9698,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8685,6 +9707,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8693,6 +9716,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8701,6 +9725,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8709,6 +9734,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8719,6 +9745,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·破招·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8727,6 +9754,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8735,6 +9763,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8743,6 +9772,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8751,6 +9781,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8759,6 +9790,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8771,6 +9803,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8779,6 +9812,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8787,6 +9821,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8795,6 +9830,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8803,6 +9839,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8811,6 +9848,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8821,6 +9859,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·破招·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8829,6 +9868,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8837,6 +9877,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8845,6 +9886,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8853,6 +9895,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8861,6 +9904,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8873,6 +9917,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8881,6 +9926,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8889,6 +9935,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8897,6 +9944,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8905,6 +9953,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8913,6 +9962,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8923,6 +9973,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·破招·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8931,6 +9982,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8939,6 +9991,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8947,6 +10000,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -8955,6 +10009,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -8963,6 +10018,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -8975,6 +10031,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -8983,6 +10040,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -8991,6 +10049,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -8999,6 +10058,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9007,6 +10067,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9015,6 +10076,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9025,6 +10087,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·破招·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9033,6 +10096,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9041,6 +10105,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9049,6 +10114,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9057,6 +10123,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9065,6 +10132,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9077,6 +10145,7 @@ STONES = {
         "haste_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9085,6 +10154,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9093,6 +10163,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9101,6 +10172,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9109,6 +10181,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9117,6 +10190,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9127,6 +10201,7 @@ STONES = {
             },
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9135,6 +10210,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9143,6 +10219,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9151,6 +10228,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9159,6 +10237,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9167,6 +10246,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9177,6 +10257,7 @@ STONES = {
             },
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9185,6 +10266,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9193,6 +10275,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9201,6 +10284,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9209,6 +10293,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9217,6 +10302,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9227,6 +10313,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9235,6 +10322,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9243,6 +10331,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9251,6 +10340,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9259,6 +10349,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9267,6 +10358,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9277,6 +10369,7 @@ STONES = {
             },
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9285,6 +10378,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9293,6 +10387,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9301,6 +10396,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9309,6 +10405,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9317,6 +10414,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9327,6 +10425,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·破招·急速·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "surplus_base": 244,
@@ -9335,6 +10434,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·破招·急速·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "surplus_base": 488,
@@ -9343,6 +10443,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·破招·急速·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "surplus_base": 731,
@@ -9351,6 +10452,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·破招·急速·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "surplus_base": 975,
@@ -9359,6 +10461,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·破招·急速·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "surplus_base": 1219,
@@ -9367,6 +10470,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·破招·急速·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "surplus_base": 1463,
@@ -9381,6 +10485,7 @@ STONES = {
         "physical_attack_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·无双·锐刃·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9389,6 +10494,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·锐刃·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9397,6 +10503,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·锐刃·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9405,6 +10512,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·锐刃·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9413,6 +10521,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·锐刃·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9421,6 +10530,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·锐刃·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9431,6 +10541,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·无双·锐刃·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9439,6 +10550,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·锐刃·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9447,6 +10559,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·锐刃·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9455,6 +10568,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·锐刃·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9463,6 +10577,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·锐刃·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9471,6 +10586,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·锐刃·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9481,6 +10597,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·锐刃·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9489,6 +10606,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·锐刃·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9497,6 +10615,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·锐刃·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9505,6 +10624,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·锐刃·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9513,6 +10633,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·锐刃·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9521,6 +10642,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·锐刃·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9533,6 +10655,7 @@ STONES = {
         "physical_overcome_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·无双·斩铁·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9541,6 +10664,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·斩铁·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9549,6 +10673,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·斩铁·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9557,6 +10682,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·斩铁·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9565,6 +10691,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·斩铁·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9573,6 +10700,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·斩铁·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9583,6 +10711,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·无双·斩铁·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9591,6 +10720,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·斩铁·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9599,6 +10729,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·斩铁·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9607,6 +10738,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·斩铁·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9615,6 +10747,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·斩铁·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9623,6 +10756,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·斩铁·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9633,6 +10767,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·斩铁·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9641,6 +10776,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·斩铁·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9649,6 +10785,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·斩铁·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9657,6 +10794,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·斩铁·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9665,6 +10803,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·斩铁·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9673,6 +10812,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·斩铁·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9685,6 +10825,7 @@ STONES = {
         "physical_critical_power_base": {
             "weapon_damage_base": {
                 1: {
+                    "name": "彩·无双·痛击·狂攻(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9693,6 +10834,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·痛击·狂攻(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9701,6 +10843,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·痛击·狂攻(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9709,6 +10852,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·痛击·狂攻(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9717,6 +10861,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·痛击·狂攻(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9725,6 +10870,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·痛击·狂攻(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9735,6 +10881,7 @@ STONES = {
             },
             "physical_overcome_base": {
                 1: {
+                    "name": "彩·无双·痛击·斩铁(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9743,6 +10890,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·痛击·斩铁(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9751,6 +10899,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·痛击·斩铁(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9759,6 +10908,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·痛击·斩铁(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9767,6 +10917,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·痛击·斩铁(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9775,6 +10926,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·痛击·斩铁(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9785,6 +10937,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·无双·痛击·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9793,6 +10946,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·痛击·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9801,6 +10955,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·痛击·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9809,6 +10964,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·痛击·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9817,6 +10973,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·痛击·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9825,6 +10982,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·痛击·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9835,6 +10993,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·无双·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9843,6 +11002,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9851,6 +11011,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9859,6 +11020,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9867,6 +11029,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9875,6 +11038,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9885,6 +11049,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·无双·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9893,6 +11058,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9901,6 +11067,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9909,6 +11076,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9917,6 +11085,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9925,6 +11094,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9937,6 +11107,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·无双·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9945,6 +11116,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -9953,6 +11125,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -9961,6 +11134,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -9969,6 +11143,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -9977,6 +11152,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -9987,6 +11163,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -9995,6 +11172,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10003,6 +11181,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10011,6 +11190,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10019,6 +11199,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10027,6 +11208,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10039,6 +11221,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·无双·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10047,6 +11230,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10055,6 +11239,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10063,6 +11248,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10071,6 +11257,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10079,6 +11266,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10089,6 +11277,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·无双·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10097,6 +11286,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10105,6 +11295,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10113,6 +11304,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10121,6 +11313,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10129,6 +11322,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10141,6 +11335,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·无双·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10149,6 +11344,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10157,6 +11353,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10165,6 +11362,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10173,6 +11371,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10181,6 +11380,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10191,6 +11391,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10199,6 +11400,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10207,6 +11409,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10215,6 +11418,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10223,6 +11427,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10231,6 +11436,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10243,6 +11449,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·无双·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10251,6 +11458,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10259,6 +11467,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10267,6 +11476,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10275,6 +11485,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10283,6 +11494,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10293,6 +11505,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·无双·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10301,6 +11514,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10309,6 +11523,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10317,6 +11532,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10325,6 +11541,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10333,6 +11550,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10343,6 +11561,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10351,6 +11570,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10359,6 +11579,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10367,6 +11588,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10375,6 +11597,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10383,6 +11606,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10395,6 +11619,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·无双·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10403,6 +11628,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10411,6 +11637,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10419,6 +11646,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10427,6 +11655,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10435,6 +11664,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10445,6 +11675,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10453,6 +11684,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10461,6 +11693,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10469,6 +11702,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10477,6 +11711,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10485,6 +11720,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10497,6 +11733,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10505,6 +11742,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10513,6 +11751,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10521,6 +11760,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10529,6 +11769,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10537,6 +11778,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10547,6 +11789,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10555,6 +11798,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10563,6 +11807,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10571,6 +11816,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10579,6 +11825,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10587,6 +11834,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10599,6 +11847,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·无双·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10607,6 +11856,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10615,6 +11865,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10623,6 +11874,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10631,6 +11883,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10639,6 +11892,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10649,6 +11903,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·无双·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10657,6 +11912,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10665,6 +11921,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10673,6 +11930,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10681,6 +11939,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10689,6 +11948,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10701,6 +11961,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10709,6 +11970,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10717,6 +11979,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10725,6 +11988,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10733,6 +11997,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10741,6 +12006,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10751,6 +12017,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10759,6 +12026,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10767,6 +12035,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10775,6 +12044,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10783,6 +12053,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10791,6 +12062,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10803,6 +12075,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·无双·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10811,6 +12084,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10819,6 +12093,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10827,6 +12102,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10835,6 +12111,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10843,6 +12120,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10853,6 +12131,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·无双·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10861,6 +12140,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10869,6 +12149,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10877,6 +12158,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10885,6 +12167,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10893,6 +12176,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10903,6 +12187,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10911,6 +12196,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10919,6 +12205,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10927,6 +12214,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10935,6 +12223,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10943,6 +12232,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -10955,6 +12245,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·无双·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -10963,6 +12254,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -10971,6 +12263,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -10979,6 +12272,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -10987,6 +12281,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -10995,6 +12290,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11005,6 +12301,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·无双·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11013,6 +12310,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11021,6 +12319,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11029,6 +12328,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11037,6 +12337,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11045,6 +12346,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11057,6 +12359,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11065,6 +12368,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11073,6 +12377,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11081,6 +12386,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11089,6 +12395,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11097,6 +12404,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11107,6 +12415,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·无双·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11115,6 +12424,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11123,6 +12433,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11131,6 +12442,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11139,6 +12451,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11147,6 +12460,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11159,6 +12473,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·无双·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11167,6 +12482,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11175,6 +12491,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11183,6 +12500,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11191,6 +12509,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11199,6 +12518,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11209,6 +12529,7 @@ STONES = {
             },
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·无双·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11217,6 +12538,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11225,6 +12547,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11233,6 +12556,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11241,6 +12565,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11249,6 +12574,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11261,6 +12587,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11269,6 +12596,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11277,6 +12605,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11285,6 +12614,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11293,6 +12623,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11301,6 +12632,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11311,6 +12643,7 @@ STONES = {
             },
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·无双·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11319,6 +12652,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11327,6 +12661,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11335,6 +12670,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11343,6 +12679,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11351,6 +12688,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11363,6 +12701,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·无双·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11371,6 +12710,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11379,6 +12719,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11387,6 +12728,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11395,6 +12737,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11403,6 +12746,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11413,6 +12757,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·无双·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11421,6 +12766,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11429,6 +12775,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11437,6 +12784,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11445,6 +12793,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11453,6 +12802,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11465,6 +12815,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·无双·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11473,6 +12824,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11481,6 +12833,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11489,6 +12842,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11497,6 +12851,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11505,6 +12860,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11515,6 +12871,7 @@ STONES = {
             },
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·无双·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11523,6 +12880,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11531,6 +12889,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11539,6 +12898,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11547,6 +12907,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11555,6 +12916,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11567,6 +12929,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·无双·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11575,6 +12938,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11583,6 +12947,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11591,6 +12956,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11599,6 +12965,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11607,6 +12974,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11617,6 +12985,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·无双·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11625,6 +12994,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11633,6 +13003,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11641,6 +13012,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11649,6 +13021,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11657,6 +13030,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11669,6 +13043,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·无双·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11677,6 +13052,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11685,6 +13061,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11693,6 +13070,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11701,6 +13079,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11709,6 +13088,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11719,6 +13099,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11727,6 +13108,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11735,6 +13117,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11743,6 +13126,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11751,6 +13135,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11759,6 +13144,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11771,6 +13157,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11779,6 +13166,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11787,6 +13175,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11795,6 +13184,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11803,6 +13193,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11811,6 +13202,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11821,6 +13213,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·无双·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11829,6 +13222,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11837,6 +13231,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11845,6 +13240,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11853,6 +13249,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11861,6 +13258,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11873,6 +13271,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11881,6 +13280,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11889,6 +13289,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11897,6 +13298,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11905,6 +13307,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11913,6 +13316,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11923,6 +13327,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·无双·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11931,6 +13336,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11939,6 +13345,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11947,6 +13354,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -11955,6 +13363,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -11963,6 +13372,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -11975,6 +13385,7 @@ STONES = {
         "haste_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -11983,6 +13394,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -11991,6 +13403,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -11999,6 +13412,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12007,6 +13421,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12015,6 +13430,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12025,6 +13441,7 @@ STONES = {
             },
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -12033,6 +13450,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -12041,6 +13459,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -12049,6 +13468,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12057,6 +13477,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12065,6 +13486,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12075,6 +13497,7 @@ STONES = {
             },
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -12083,6 +13506,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -12091,6 +13515,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -12099,6 +13524,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12107,6 +13533,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12115,6 +13542,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12125,6 +13553,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -12133,6 +13562,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -12141,6 +13571,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -12149,6 +13580,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12157,6 +13589,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12165,6 +13598,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12175,6 +13609,7 @@ STONES = {
             },
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -12183,6 +13618,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -12191,6 +13627,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -12199,6 +13636,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12207,6 +13645,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12215,6 +13654,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12225,6 +13665,7 @@ STONES = {
             },
             "physical_attack_power_base": {
                 1: {
+                    "name": "彩·无双·急速·锐刃(壹)",
                     "level": 1,
                     "attr": {
                         "strain_base": 244,
@@ -12233,6 +13674,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·无双·急速·锐刃(贰)",
                     "level": 2,
                     "attr": {
                         "strain_base": 488,
@@ -12241,6 +13683,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·无双·急速·锐刃(叁)",
                     "level": 3,
                     "attr": {
                         "strain_base": 731,
@@ -12249,6 +13692,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·无双·急速·锐刃(肆)",
                     "level": 4,
                     "attr": {
                         "strain_base": 975,
@@ -12257,6 +13701,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·无双·急速·锐刃(伍)",
                     "level": 5,
                     "attr": {
                         "strain_base": 1219,
@@ -12265,6 +13710,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·无双·急速·锐刃(陆)",
                     "level": 6,
                     "attr": {
                         "strain_base": 1463,
@@ -12279,6 +13725,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·真元·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12287,6 +13734,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12295,6 +13743,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12303,6 +13752,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12311,6 +13761,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12319,6 +13770,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12329,6 +13781,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12337,6 +13790,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12345,6 +13799,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12353,6 +13808,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12361,6 +13817,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12369,6 +13826,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12381,6 +13839,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·真元·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12389,6 +13848,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12397,6 +13857,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12405,6 +13866,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12413,6 +13875,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12421,6 +13884,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12431,6 +13895,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·真元·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12439,6 +13904,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12447,6 +13913,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12455,6 +13922,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12463,6 +13931,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12471,6 +13940,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12483,6 +13953,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·真元·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12491,6 +13962,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12499,6 +13971,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12507,6 +13980,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12515,6 +13989,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12523,6 +13998,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12533,6 +14009,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12541,6 +14018,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12549,6 +14027,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12557,6 +14036,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12565,6 +14045,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12573,6 +14054,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12585,6 +14067,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·真元·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12593,6 +14076,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12601,6 +14085,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12609,6 +14094,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12617,6 +14103,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12625,6 +14112,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12635,6 +14123,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·真元·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12643,6 +14132,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12651,6 +14141,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12659,6 +14150,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12667,6 +14159,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12675,6 +14168,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12685,6 +14179,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·真元·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12693,6 +14188,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12701,6 +14197,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12709,6 +14206,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12717,6 +14215,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12725,6 +14224,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12737,6 +14237,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·真元·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12745,6 +14246,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12753,6 +14255,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12761,6 +14264,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12769,6 +14273,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12777,6 +14282,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12787,6 +14293,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·真元·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12795,6 +14302,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12803,6 +14311,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12811,6 +14320,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12819,6 +14329,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12827,6 +14338,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12839,6 +14351,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12847,6 +14360,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12855,6 +14369,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12863,6 +14378,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12871,6 +14387,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12879,6 +14396,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12889,6 +14407,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12897,6 +14416,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12905,6 +14425,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12913,6 +14434,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12921,6 +14443,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12929,6 +14452,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12941,6 +14465,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·真元·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12949,6 +14474,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -12957,6 +14483,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -12965,6 +14492,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -12973,6 +14501,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -12981,6 +14510,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -12991,6 +14521,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·真元·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -12999,6 +14530,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13007,6 +14539,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13015,6 +14548,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13023,6 +14557,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13031,6 +14566,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13043,6 +14579,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13051,6 +14588,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13059,6 +14597,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13067,6 +14606,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13075,6 +14615,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13083,6 +14624,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13093,6 +14635,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13101,6 +14644,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13109,6 +14653,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13117,6 +14662,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13125,6 +14671,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13133,6 +14680,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13145,6 +14693,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·真元·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13153,6 +14702,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13161,6 +14711,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13169,6 +14720,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13177,6 +14729,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13185,6 +14738,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13195,6 +14749,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·真元·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13203,6 +14758,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13211,6 +14767,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13219,6 +14776,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13227,6 +14785,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13235,6 +14794,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13245,6 +14805,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·真元·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13253,6 +14814,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13261,6 +14823,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13269,6 +14832,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13277,6 +14841,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13285,6 +14850,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13297,6 +14863,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·真元·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13305,6 +14872,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13313,6 +14881,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13321,6 +14890,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13329,6 +14899,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13337,6 +14908,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13347,6 +14919,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·真元·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13355,6 +14928,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13363,6 +14937,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13371,6 +14946,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13379,6 +14955,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13387,6 +14964,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13399,6 +14977,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13407,6 +14986,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13415,6 +14995,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13423,6 +15004,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13431,6 +15013,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13439,6 +15022,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13449,6 +15033,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·真元·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13457,6 +15042,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13465,6 +15051,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13473,6 +15060,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13481,6 +15069,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13489,6 +15078,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13501,6 +15091,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·真元·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13509,6 +15100,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13517,6 +15109,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13525,6 +15118,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13533,6 +15127,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13541,6 +15136,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13551,6 +15147,7 @@ STONES = {
             },
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·真元·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13559,6 +15156,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13567,6 +15165,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13575,6 +15174,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13583,6 +15183,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13591,6 +15192,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13603,6 +15205,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13611,6 +15214,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13619,6 +15223,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13627,6 +15232,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13635,6 +15241,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13643,6 +15250,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13653,6 +15261,7 @@ STONES = {
             },
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·真元·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13661,6 +15270,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13669,6 +15279,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13677,6 +15288,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13685,6 +15297,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13693,6 +15306,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13705,6 +15319,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·真元·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13713,6 +15328,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13721,6 +15337,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13729,6 +15346,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13737,6 +15355,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13745,6 +15364,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13755,6 +15375,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·真元·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13763,6 +15384,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13771,6 +15393,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13779,6 +15402,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13787,6 +15411,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13795,6 +15420,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13807,6 +15433,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·真元·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13815,6 +15442,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13823,6 +15451,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13831,6 +15460,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13839,6 +15469,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13847,6 +15478,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13857,6 +15489,7 @@ STONES = {
             },
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·真元·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13865,6 +15498,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13873,6 +15507,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13881,6 +15516,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13889,6 +15525,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13897,6 +15534,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13909,6 +15547,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·真元·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13917,6 +15556,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13925,6 +15565,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13933,6 +15574,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13941,6 +15583,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13949,6 +15592,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -13959,6 +15603,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·真元·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -13967,6 +15612,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -13975,6 +15621,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -13983,6 +15630,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -13991,6 +15639,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -13999,6 +15648,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14009,6 +15659,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·真元·见切·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14017,6 +15668,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·见切·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14025,6 +15677,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·见切·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14033,6 +15686,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·见切·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14041,6 +15695,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·见切·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14049,6 +15704,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·见切·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14061,6 +15717,7 @@ STONES = {
         "physical_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·真元·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14069,6 +15726,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14077,6 +15735,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14085,6 +15744,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14093,6 +15753,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14101,6 +15762,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14111,6 +15773,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·真元·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14119,6 +15782,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14127,6 +15791,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14135,6 +15800,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14143,6 +15809,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14151,6 +15818,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14163,6 +15831,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14171,6 +15840,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14179,6 +15849,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14187,6 +15858,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14195,6 +15867,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14203,6 +15876,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14213,6 +15887,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·真元·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14221,6 +15896,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14229,6 +15905,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14237,6 +15914,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14245,6 +15923,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14253,6 +15932,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14265,6 +15945,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14273,6 +15954,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14281,6 +15963,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14289,6 +15972,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14297,6 +15981,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14305,6 +15990,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14315,6 +16001,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·真元·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14323,6 +16010,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14331,6 +16019,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14339,6 +16028,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14347,6 +16037,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14355,6 +16046,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14367,6 +16059,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14375,6 +16068,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14383,6 +16077,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14391,6 +16086,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14399,6 +16095,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14407,6 +16104,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14417,6 +16115,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·真元·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14425,6 +16124,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14433,6 +16133,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14441,6 +16142,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14449,6 +16151,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14457,6 +16160,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14469,6 +16173,7 @@ STONES = {
         "haste_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·真元·急速·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14477,6 +16182,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·急速·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14485,6 +16191,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·急速·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14493,6 +16200,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·急速·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14501,6 +16209,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·急速·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14509,6 +16218,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·急速·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14519,6 +16229,7 @@ STONES = {
             },
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·急速·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14527,6 +16238,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·急速·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14535,6 +16247,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·急速·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14543,6 +16256,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·急速·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14551,6 +16265,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·急速·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14559,6 +16274,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·急速·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14569,6 +16285,7 @@ STONES = {
             },
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·真元·急速·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14577,6 +16294,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·急速·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14585,6 +16303,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·急速·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14593,6 +16312,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·急速·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14601,6 +16321,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·急速·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14609,6 +16330,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·急速·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14619,6 +16341,7 @@ STONES = {
             },
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·真元·急速·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "spunk_base": 31,
@@ -14627,6 +16350,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·真元·急速·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "spunk_base": 63,
@@ -14635,6 +16359,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·真元·急速·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "spunk_base": 94,
@@ -14643,6 +16368,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·真元·急速·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "spunk_base": 125,
@@ -14651,6 +16377,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·真元·急速·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "spunk_base": 156,
@@ -14659,6 +16386,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·真元·急速·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "spunk_base": 188,
@@ -14673,6 +16401,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·烈阳·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "solar_attack_power_base": 74,
@@ -14681,6 +16410,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·烈阳·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "solar_attack_power_base": 147,
@@ -14689,6 +16419,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·烈阳·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "solar_attack_power_base": 221,
@@ -14697,6 +16428,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·烈阳·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "solar_attack_power_base": 295,
@@ -14705,6 +16437,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·烈阳·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "solar_attack_power_base": 368,
@@ -14713,6 +16446,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·烈阳·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "solar_attack_power_base": 442,
@@ -14725,6 +16459,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·烈阳·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "solar_attack_power_base": 74,
@@ -14733,6 +16468,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·烈阳·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "solar_attack_power_base": 147,
@@ -14741,6 +16477,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·烈阳·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "solar_attack_power_base": 221,
@@ -14749,6 +16486,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·烈阳·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "solar_attack_power_base": 295,
@@ -14757,6 +16495,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·烈阳·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "solar_attack_power_base": 368,
@@ -14765,6 +16504,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·烈阳·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "solar_attack_power_base": 442,
@@ -14779,6 +16519,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·雷鸣·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_attack_power_base": 74,
@@ -14787,6 +16528,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·雷鸣·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_attack_power_base": 147,
@@ -14795,6 +16537,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·雷鸣·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_attack_power_base": 221,
@@ -14803,6 +16546,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·雷鸣·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_attack_power_base": 295,
@@ -14811,6 +16555,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·雷鸣·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_attack_power_base": 368,
@@ -14819,6 +16564,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·雷鸣·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_attack_power_base": 442,
@@ -14831,6 +16577,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·雷鸣·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_attack_power_base": 74,
@@ -14839,6 +16586,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·雷鸣·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_attack_power_base": 147,
@@ -14847,6 +16595,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·雷鸣·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_attack_power_base": 221,
@@ -14855,6 +16604,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·雷鸣·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_attack_power_base": 295,
@@ -14863,6 +16613,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·雷鸣·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_attack_power_base": 368,
@@ -14871,6 +16622,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·雷鸣·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_attack_power_base": 442,
@@ -14885,6 +16637,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·霜冷·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_attack_power_base": 74,
@@ -14893,6 +16646,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霜冷·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_attack_power_base": 147,
@@ -14901,6 +16655,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霜冷·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_attack_power_base": 221,
@@ -14909,6 +16664,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霜冷·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_attack_power_base": 295,
@@ -14917,6 +16673,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霜冷·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_attack_power_base": 368,
@@ -14925,6 +16682,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霜冷·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_attack_power_base": 442,
@@ -14937,6 +16695,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·霜冷·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_attack_power_base": 74,
@@ -14945,6 +16704,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霜冷·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_attack_power_base": 147,
@@ -14953,6 +16713,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霜冷·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_attack_power_base": 221,
@@ -14961,6 +16722,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霜冷·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_attack_power_base": 295,
@@ -14969,6 +16731,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霜冷·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_attack_power_base": 368,
@@ -14977,6 +16740,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霜冷·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_attack_power_base": 442,
@@ -14991,6 +16755,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·鹤顶·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -14999,6 +16764,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15007,6 +16773,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15015,6 +16782,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15023,6 +16791,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15031,6 +16800,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15041,6 +16811,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·鹤顶·腐心·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -15049,6 +16820,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·腐心·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15057,6 +16829,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·腐心·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15065,6 +16838,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·腐心·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15073,6 +16847,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·腐心·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15081,6 +16856,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·腐心·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15093,6 +16869,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·鹤顶·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -15101,6 +16878,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15109,6 +16887,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15117,6 +16896,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15125,6 +16905,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15133,6 +16914,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15145,6 +16927,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·鹤顶·见切·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -15153,6 +16936,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·见切·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15161,6 +16945,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·见切·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15169,6 +16954,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·见切·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15177,6 +16963,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·见切·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15185,6 +16972,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·见切·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15195,6 +16983,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·鹤顶·见切·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -15203,6 +16992,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·见切·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15211,6 +17001,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·见切·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15219,6 +17010,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·见切·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15227,6 +17019,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·见切·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15235,6 +17028,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·见切·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15247,6 +17041,7 @@ STONES = {
         "physical_critical_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·鹤顶·痛击·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_attack_power_base": 74,
@@ -15255,6 +17050,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·鹤顶·痛击·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_attack_power_base": 147,
@@ -15263,6 +17059,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·鹤顶·痛击·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_attack_power_base": 221,
@@ -15271,6 +17068,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·鹤顶·痛击·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_attack_power_base": 295,
@@ -15279,6 +17077,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·鹤顶·痛击·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_attack_power_base": 368,
@@ -15287,6 +17086,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·鹤顶·痛击·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_attack_power_base": 442,
@@ -15301,6 +17101,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·激流·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "magical_attack_power_base": 74,
@@ -15309,6 +17110,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·激流·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "magical_attack_power_base": 147,
@@ -15317,6 +17119,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·激流·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "magical_attack_power_base": 221,
@@ -15325,6 +17128,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·激流·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "magical_attack_power_base": 295,
@@ -15333,6 +17137,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·激流·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "magical_attack_power_base": 368,
@@ -15341,6 +17146,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·激流·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "magical_attack_power_base": 442,
@@ -15353,6 +17159,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·激流·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "magical_attack_power_base": 74,
@@ -15361,6 +17168,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·激流·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "magical_attack_power_base": 147,
@@ -15369,6 +17177,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·激流·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "magical_attack_power_base": 221,
@@ -15377,6 +17186,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·激流·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "magical_attack_power_base": 295,
@@ -15385,6 +17195,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·激流·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "magical_attack_power_base": 368,
@@ -15393,6 +17204,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·激流·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "magical_attack_power_base": 442,
@@ -15407,6 +17219,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·日炎·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "solar_overcome_base": 244,
@@ -15415,6 +17228,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·日炎·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "solar_overcome_base": 488,
@@ -15423,6 +17237,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·日炎·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "solar_overcome_base": 731,
@@ -15431,6 +17246,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·日炎·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "solar_overcome_base": 975,
@@ -15439,6 +17255,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·日炎·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "solar_overcome_base": 1219,
@@ -15447,6 +17264,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·日炎·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "solar_overcome_base": 1463,
@@ -15459,6 +17277,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·日炎·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "solar_overcome_base": 244,
@@ -15467,6 +17286,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·日炎·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "solar_overcome_base": 488,
@@ -15475,6 +17295,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·日炎·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "solar_overcome_base": 731,
@@ -15483,6 +17304,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·日炎·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "solar_overcome_base": 975,
@@ -15491,6 +17313,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·日炎·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "solar_overcome_base": 1219,
@@ -15499,6 +17322,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·日炎·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "solar_overcome_base": 1463,
@@ -15513,6 +17337,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·混沌·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_overcome_base": 244,
@@ -15521,6 +17346,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·混沌·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_overcome_base": 488,
@@ -15529,6 +17355,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·混沌·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_overcome_base": 731,
@@ -15537,6 +17364,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·混沌·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_overcome_base": 975,
@@ -15545,6 +17373,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·混沌·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_overcome_base": 1219,
@@ -15553,6 +17382,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·混沌·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_overcome_base": 1463,
@@ -15565,6 +17395,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·混沌·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_overcome_base": 244,
@@ -15573,6 +17404,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·混沌·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_overcome_base": 488,
@@ -15581,6 +17413,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·混沌·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_overcome_base": 731,
@@ -15589,6 +17422,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·混沌·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_overcome_base": 975,
@@ -15597,6 +17431,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·混沌·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_overcome_base": 1219,
@@ -15605,6 +17440,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·混沌·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_overcome_base": 1463,
@@ -15619,6 +17455,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·冻髓·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_overcome_base": 244,
@@ -15627,6 +17464,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·冻髓·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_overcome_base": 488,
@@ -15635,6 +17473,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·冻髓·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_overcome_base": 731,
@@ -15643,6 +17482,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·冻髓·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_overcome_base": 975,
@@ -15651,6 +17491,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·冻髓·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_overcome_base": 1219,
@@ -15659,6 +17500,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·冻髓·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_overcome_base": 1463,
@@ -15671,6 +17513,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·冻髓·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_overcome_base": 244,
@@ -15679,6 +17522,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·冻髓·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_overcome_base": 488,
@@ -15687,6 +17531,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·冻髓·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_overcome_base": 731,
@@ -15695,6 +17540,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·冻髓·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_overcome_base": 975,
@@ -15703,6 +17549,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·冻髓·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_overcome_base": 1219,
@@ -15711,6 +17558,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·冻髓·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_overcome_base": 1463,
@@ -15725,6 +17573,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·腐心·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15733,6 +17582,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15741,6 +17591,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -15749,6 +17600,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -15757,6 +17609,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -15765,6 +17618,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -15775,6 +17629,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·腐心·鹤顶·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15783,6 +17638,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·鹤顶·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15791,6 +17647,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·鹤顶·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -15799,6 +17656,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·鹤顶·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -15807,6 +17665,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·鹤顶·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -15815,6 +17674,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·鹤顶·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -15827,6 +17687,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·腐心·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15835,6 +17696,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15843,6 +17705,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -15851,6 +17714,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -15859,6 +17723,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -15867,6 +17732,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -15879,6 +17745,7 @@ STONES = {
         "physical_critical_strike_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·腐心·见切·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15887,6 +17754,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·见切·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15895,6 +17763,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·见切·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -15903,6 +17772,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·见切·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -15911,6 +17781,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·见切·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -15919,6 +17790,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·见切·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -15929,6 +17801,7 @@ STONES = {
             },
             "physical_critical_power_base": {
                 1: {
+                    "name": "彩·腐心·见切·痛击(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15937,6 +17810,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·见切·痛击(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15945,6 +17819,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·见切·痛击(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -15953,6 +17828,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·见切·痛击(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -15961,6 +17837,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·见切·痛击(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -15969,6 +17846,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·见切·痛击(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -15981,6 +17859,7 @@ STONES = {
         "physical_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·腐心·痛击·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_overcome_base": 244,
@@ -15989,6 +17868,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·腐心·痛击·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_overcome_base": 488,
@@ -15997,6 +17877,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·腐心·痛击·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_overcome_base": 731,
@@ -16005,6 +17886,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·腐心·痛击·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_overcome_base": 975,
@@ -16013,6 +17895,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·腐心·痛击·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_overcome_base": 1219,
@@ -16021,6 +17904,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·腐心·痛击·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_overcome_base": 1463,
@@ -16035,6 +17919,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·灭气·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "magical_overcome_base": 244,
@@ -16043,6 +17928,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灭气·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "magical_overcome_base": 488,
@@ -16051,6 +17937,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灭气·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "magical_overcome_base": 731,
@@ -16059,6 +17946,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灭气·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "magical_overcome_base": 975,
@@ -16067,6 +17955,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灭气·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "magical_overcome_base": 1219,
@@ -16075,6 +17964,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灭气·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "magical_overcome_base": 1463,
@@ -16087,6 +17977,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·灭气·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "magical_overcome_base": 244,
@@ -16095,6 +17986,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·灭气·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "magical_overcome_base": 488,
@@ -16103,6 +17995,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·灭气·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "magical_overcome_base": 731,
@@ -16111,6 +18004,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·灭气·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "magical_overcome_base": 975,
@@ -16119,6 +18013,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·灭气·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "magical_overcome_base": 1219,
@@ -16127,6 +18022,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·灭气·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "magical_overcome_base": 1463,
@@ -16141,6 +18037,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·燎原·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16149,6 +18046,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16157,6 +18055,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16165,6 +18064,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16173,6 +18073,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16181,6 +18082,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16191,6 +18093,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·燎原·烈阳·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16199,6 +18102,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·烈阳·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16207,6 +18111,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·烈阳·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16215,6 +18120,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·烈阳·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16223,6 +18129,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·烈阳·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16231,6 +18138,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·烈阳·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16243,6 +18151,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·燎原·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16251,6 +18160,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16259,6 +18169,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16267,6 +18178,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16275,6 +18187,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16283,6 +18196,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16293,6 +18207,7 @@ STONES = {
             },
             "solar_critical_power_base": {
                 1: {
+                    "name": "彩·燎原·日炎·浴火(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16301,6 +18216,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·日炎·浴火(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16309,6 +18225,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·日炎·浴火(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16317,6 +18234,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·日炎·浴火(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16325,6 +18243,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·日炎·浴火(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16333,6 +18252,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·日炎·浴火(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16345,6 +18265,7 @@ STONES = {
         "solar_critical_power_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·燎原·浴火·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16353,6 +18274,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·浴火·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16361,6 +18283,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·浴火·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16369,6 +18292,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·浴火·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16377,6 +18301,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·浴火·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16385,6 +18310,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·浴火·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16395,6 +18321,7 @@ STONES = {
             },
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·燎原·浴火·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_strike_base": 244,
@@ -16403,6 +18330,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·燎原·浴火·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_strike_base": 488,
@@ -16411,6 +18339,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·燎原·浴火·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_strike_base": 731,
@@ -16419,6 +18348,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·燎原·浴火·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_strike_base": 975,
@@ -16427,6 +18357,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·燎原·浴火·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_strike_base": 1219,
@@ -16435,6 +18366,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·燎原·浴火·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_strike_base": 1463,
@@ -16449,6 +18381,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·融天·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16457,6 +18390,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16465,6 +18399,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16473,6 +18408,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16481,6 +18417,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16489,6 +18426,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16499,6 +18437,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·融天·雷鸣·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16507,6 +18446,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·雷鸣·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16515,6 +18455,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·雷鸣·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16523,6 +18464,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·雷鸣·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16531,6 +18473,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·雷鸣·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16539,6 +18482,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·雷鸣·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16551,6 +18495,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·融天·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16559,6 +18504,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16567,6 +18513,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16575,6 +18522,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16583,6 +18531,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16591,6 +18540,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16601,6 +18551,7 @@ STONES = {
             },
             "neutral_critical_power_base": {
                 1: {
+                    "name": "彩·融天·混沌·霹雳(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16609,6 +18560,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·混沌·霹雳(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16617,6 +18569,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·混沌·霹雳(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16625,6 +18578,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·混沌·霹雳(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16633,6 +18587,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·混沌·霹雳(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16641,6 +18596,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·混沌·霹雳(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16653,6 +18609,7 @@ STONES = {
         "neutral_critical_power_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·融天·霹雳·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16661,6 +18618,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·霹雳·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16669,6 +18627,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·霹雳·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16677,6 +18636,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·霹雳·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16685,6 +18645,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·霹雳·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16693,6 +18654,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·霹雳·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16703,6 +18665,7 @@ STONES = {
             },
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·融天·霹雳·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_strike_base": 244,
@@ -16711,6 +18674,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·融天·霹雳·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_strike_base": 488,
@@ -16719,6 +18683,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·融天·霹雳·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_strike_base": 731,
@@ -16727,6 +18692,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·融天·霹雳·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_strike_base": 975,
@@ -16735,6 +18701,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·融天·霹雳·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_strike_base": 1219,
@@ -16743,6 +18710,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·融天·霹雳·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_strike_base": 1463,
@@ -16757,6 +18725,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·化雪·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -16765,6 +18734,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -16773,6 +18743,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -16781,6 +18752,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -16789,6 +18761,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -16797,6 +18770,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -16807,6 +18781,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·化雪·霜冷·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -16815,6 +18790,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·霜冷·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -16823,6 +18799,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·霜冷·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -16831,6 +18808,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·霜冷·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -16839,6 +18817,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·霜冷·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -16847,6 +18826,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·霜冷·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -16859,6 +18839,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·化雪·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -16867,6 +18848,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -16875,6 +18857,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -16883,6 +18866,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -16891,6 +18875,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -16899,6 +18884,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -16909,6 +18895,7 @@ STONES = {
             },
             "lunar_critical_power_base": {
                 1: {
+                    "name": "彩·化雪·冻髓·杯雪(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -16917,6 +18904,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·冻髓·杯雪(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -16925,6 +18913,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·冻髓·杯雪(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -16933,6 +18922,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·冻髓·杯雪(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -16941,6 +18931,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·冻髓·杯雪(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -16949,6 +18940,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·冻髓·杯雪(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -16961,6 +18953,7 @@ STONES = {
         "lunar_critical_power_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·化雪·杯雪·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -16969,6 +18962,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·杯雪·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -16977,6 +18971,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·杯雪·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -16985,6 +18980,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·杯雪·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -16993,6 +18989,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·杯雪·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -17001,6 +18998,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·杯雪·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -17011,6 +19009,7 @@ STONES = {
             },
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·化雪·杯雪·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_strike_base": 244,
@@ -17019,6 +19018,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·化雪·杯雪·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_strike_base": 488,
@@ -17027,6 +19027,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·化雪·杯雪·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_strike_base": 731,
@@ -17035,6 +19036,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·化雪·杯雪·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_strike_base": 975,
@@ -17043,6 +19045,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·化雪·杯雪·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_strike_base": 1219,
@@ -17051,6 +19054,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·化雪·杯雪·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_strike_base": 1463,
@@ -17065,6 +19069,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·蚀骨·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17073,6 +19078,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17081,6 +19087,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17089,6 +19096,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17097,6 +19105,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17105,6 +19114,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17115,6 +19125,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·蚀骨·鹤顶·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17123,6 +19134,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·鹤顶·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17131,6 +19143,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·鹤顶·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17139,6 +19152,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·鹤顶·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17147,6 +19161,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·鹤顶·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17155,6 +19170,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·鹤顶·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17167,6 +19183,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·蚀骨·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17175,6 +19192,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17183,6 +19201,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17191,6 +19210,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17199,6 +19219,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17207,6 +19228,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17217,6 +19239,7 @@ STONES = {
             },
             "poison_critical_power_base": {
                 1: {
+                    "name": "彩·蚀骨·腐心·穿石(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17225,6 +19248,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·腐心·穿石(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17233,6 +19257,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·腐心·穿石(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17241,6 +19266,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·腐心·穿石(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17249,6 +19275,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·腐心·穿石(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17257,6 +19284,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·腐心·穿石(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17269,6 +19297,7 @@ STONES = {
         "poison_critical_power_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·蚀骨·穿石·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17277,6 +19306,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·穿石·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17285,6 +19315,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·穿石·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17293,6 +19324,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·穿石·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17301,6 +19333,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·穿石·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17309,6 +19342,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·穿石·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17319,6 +19353,7 @@ STONES = {
             },
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·蚀骨·穿石·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_strike_base": 244,
@@ -17327,6 +19362,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·蚀骨·穿石·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_strike_base": 488,
@@ -17335,6 +19371,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·蚀骨·穿石·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_strike_base": 731,
@@ -17343,6 +19380,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·蚀骨·穿石·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_strike_base": 975,
@@ -17351,6 +19389,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·蚀骨·穿石·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_strike_base": 1219,
@@ -17359,6 +19398,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·蚀骨·穿石·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_strike_base": 1463,
@@ -17373,6 +19413,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·星见·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17381,6 +19422,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17389,6 +19431,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17397,6 +19440,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17405,6 +19449,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17413,6 +19458,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17423,6 +19469,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·星见·激流·月华(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17431,6 +19478,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·激流·月华(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17439,6 +19487,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·激流·月华(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17447,6 +19496,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·激流·月华(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17455,6 +19505,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·激流·月华(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17463,6 +19514,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·激流·月华(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17475,6 +19527,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·星见·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17483,6 +19536,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17491,6 +19545,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17499,6 +19554,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17507,6 +19563,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17515,6 +19572,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17525,6 +19583,7 @@ STONES = {
             },
             "magical_critical_power_base": {
                 1: {
+                    "name": "彩·星见·灭气·月华(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17533,6 +19592,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·灭气·月华(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17541,6 +19601,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·灭气·月华(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17549,6 +19610,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·灭气·月华(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17557,6 +19619,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·灭气·月华(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17565,6 +19628,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·灭气·月华(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17577,6 +19641,7 @@ STONES = {
         "magical_critical_power_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·星见·月华·激流(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17585,6 +19650,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·月华·激流(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17593,6 +19659,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·月华·激流(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17601,6 +19668,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·月华·激流(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17609,6 +19677,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·月华·激流(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17617,6 +19686,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·月华·激流(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17627,6 +19697,7 @@ STONES = {
             },
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·星见·月华·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_strike_base": 244,
@@ -17635,6 +19706,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·星见·月华·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_strike_base": 488,
@@ -17643,6 +19715,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·星见·月华·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_strike_base": 731,
@@ -17651,6 +19724,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·星见·月华·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_strike_base": 975,
@@ -17659,6 +19733,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·星见·月华·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_strike_base": 1219,
@@ -17667,6 +19742,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·星见·月华·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_strike_base": 1463,
@@ -17681,6 +19757,7 @@ STONES = {
         "solar_attack_power_base": {
             "solar_overcome_base": {
                 1: {
+                    "name": "彩·浴火·烈阳·日炎(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_power_base": 244,
@@ -17689,6 +19766,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·浴火·烈阳·日炎(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_power_base": 488,
@@ -17697,6 +19775,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·浴火·烈阳·日炎(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_power_base": 731,
@@ -17705,6 +19784,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·浴火·烈阳·日炎(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_power_base": 975,
@@ -17713,6 +19793,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·浴火·烈阳·日炎(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_power_base": 1219,
@@ -17721,6 +19802,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·浴火·烈阳·日炎(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_power_base": 1463,
@@ -17733,6 +19815,7 @@ STONES = {
         "solar_overcome_base": {
             "solar_attack_power_base": {
                 1: {
+                    "name": "彩·浴火·日炎·烈阳(壹)",
                     "level": 1,
                     "attr": {
                         "solar_critical_power_base": 244,
@@ -17741,6 +19824,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·浴火·日炎·烈阳(贰)",
                     "level": 2,
                     "attr": {
                         "solar_critical_power_base": 488,
@@ -17749,6 +19833,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·浴火·日炎·烈阳(叁)",
                     "level": 3,
                     "attr": {
                         "solar_critical_power_base": 731,
@@ -17757,6 +19842,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·浴火·日炎·烈阳(肆)",
                     "level": 4,
                     "attr": {
                         "solar_critical_power_base": 975,
@@ -17765,6 +19851,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·浴火·日炎·烈阳(伍)",
                     "level": 5,
                     "attr": {
                         "solar_critical_power_base": 1219,
@@ -17773,6 +19860,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·浴火·日炎·烈阳(陆)",
                     "level": 6,
                     "attr": {
                         "solar_critical_power_base": 1463,
@@ -17787,6 +19875,7 @@ STONES = {
         "neutral_attack_power_base": {
             "neutral_overcome_base": {
                 1: {
+                    "name": "彩·霹雳·雷鸣·混沌(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_power_base": 244,
@@ -17795,6 +19884,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霹雳·雷鸣·混沌(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_power_base": 488,
@@ -17803,6 +19893,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霹雳·雷鸣·混沌(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_power_base": 731,
@@ -17811,6 +19902,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霹雳·雷鸣·混沌(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_power_base": 975,
@@ -17819,6 +19911,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霹雳·雷鸣·混沌(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_power_base": 1219,
@@ -17827,6 +19920,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霹雳·雷鸣·混沌(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_power_base": 1463,
@@ -17839,6 +19933,7 @@ STONES = {
         "neutral_overcome_base": {
             "neutral_attack_power_base": {
                 1: {
+                    "name": "彩·霹雳·混沌·雷鸣(壹)",
                     "level": 1,
                     "attr": {
                         "neutral_critical_power_base": 244,
@@ -17847,6 +19942,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·霹雳·混沌·雷鸣(贰)",
                     "level": 2,
                     "attr": {
                         "neutral_critical_power_base": 488,
@@ -17855,6 +19951,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·霹雳·混沌·雷鸣(叁)",
                     "level": 3,
                     "attr": {
                         "neutral_critical_power_base": 731,
@@ -17863,6 +19960,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·霹雳·混沌·雷鸣(肆)",
                     "level": 4,
                     "attr": {
                         "neutral_critical_power_base": 975,
@@ -17871,6 +19969,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·霹雳·混沌·雷鸣(伍)",
                     "level": 5,
                     "attr": {
                         "neutral_critical_power_base": 1219,
@@ -17879,6 +19978,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·霹雳·混沌·雷鸣(陆)",
                     "level": 6,
                     "attr": {
                         "neutral_critical_power_base": 1463,
@@ -17893,6 +19993,7 @@ STONES = {
         "lunar_attack_power_base": {
             "lunar_overcome_base": {
                 1: {
+                    "name": "彩·杯雪·霜冷·冻髓(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_power_base": 244,
@@ -17901,6 +20002,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·杯雪·霜冷·冻髓(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_power_base": 488,
@@ -17909,6 +20011,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·杯雪·霜冷·冻髓(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_power_base": 731,
@@ -17917,6 +20020,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·杯雪·霜冷·冻髓(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_power_base": 975,
@@ -17925,6 +20029,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·杯雪·霜冷·冻髓(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_power_base": 1219,
@@ -17933,6 +20038,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·杯雪·霜冷·冻髓(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_power_base": 1463,
@@ -17945,6 +20051,7 @@ STONES = {
         "lunar_overcome_base": {
             "lunar_attack_power_base": {
                 1: {
+                    "name": "彩·杯雪·冻髓·霜冷(壹)",
                     "level": 1,
                     "attr": {
                         "lunar_critical_power_base": 244,
@@ -17953,6 +20060,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·杯雪·冻髓·霜冷(贰)",
                     "level": 2,
                     "attr": {
                         "lunar_critical_power_base": 488,
@@ -17961,6 +20069,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·杯雪·冻髓·霜冷(叁)",
                     "level": 3,
                     "attr": {
                         "lunar_critical_power_base": 731,
@@ -17969,6 +20078,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·杯雪·冻髓·霜冷(肆)",
                     "level": 4,
                     "attr": {
                         "lunar_critical_power_base": 975,
@@ -17977,6 +20087,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·杯雪·冻髓·霜冷(伍)",
                     "level": 5,
                     "attr": {
                         "lunar_critical_power_base": 1219,
@@ -17985,6 +20096,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·杯雪·冻髓·霜冷(陆)",
                     "level": 6,
                     "attr": {
                         "lunar_critical_power_base": 1463,
@@ -17999,6 +20111,7 @@ STONES = {
         "poison_attack_power_base": {
             "poison_overcome_base": {
                 1: {
+                    "name": "彩·穿石·鹤顶·腐心(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_power_base": 244,
@@ -18007,6 +20120,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·穿石·鹤顶·腐心(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_power_base": 488,
@@ -18015,6 +20129,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·穿石·鹤顶·腐心(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_power_base": 731,
@@ -18023,6 +20138,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·穿石·鹤顶·腐心(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_power_base": 975,
@@ -18031,6 +20147,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·穿石·鹤顶·腐心(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_power_base": 1219,
@@ -18039,6 +20156,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·穿石·鹤顶·腐心(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_power_base": 1463,
@@ -18051,6 +20169,7 @@ STONES = {
         "poison_overcome_base": {
             "poison_attack_power_base": {
                 1: {
+                    "name": "彩·穿石·腐心·鹤顶(壹)",
                     "level": 1,
                     "attr": {
                         "poison_critical_power_base": 244,
@@ -18059,6 +20178,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·穿石·腐心·鹤顶(贰)",
                     "level": 2,
                     "attr": {
                         "poison_critical_power_base": 488,
@@ -18067,6 +20187,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·穿石·腐心·鹤顶(叁)",
                     "level": 3,
                     "attr": {
                         "poison_critical_power_base": 731,
@@ -18075,6 +20196,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·穿石·腐心·鹤顶(肆)",
                     "level": 4,
                     "attr": {
                         "poison_critical_power_base": 975,
@@ -18083,6 +20205,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·穿石·腐心·鹤顶(伍)",
                     "level": 5,
                     "attr": {
                         "poison_critical_power_base": 1219,
@@ -18091,6 +20214,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·穿石·腐心·鹤顶(陆)",
                     "level": 6,
                     "attr": {
                         "poison_critical_power_base": 1463,
@@ -18105,6 +20229,7 @@ STONES = {
         "magical_attack_power_base": {
             "magical_overcome_base": {
                 1: {
+                    "name": "彩·月华·激流·灭气(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_power_base": 244,
@@ -18113,6 +20238,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·月华·激流·灭气(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_power_base": 488,
@@ -18121,6 +20247,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·月华·激流·灭气(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_power_base": 731,
@@ -18129,6 +20256,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·月华·激流·灭气(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_power_base": 975,
@@ -18137,6 +20265,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·月华·激流·灭气(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_power_base": 1219,
@@ -18145,6 +20274,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·月华·激流·灭气(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_power_base": 1463,
@@ -18157,6 +20287,7 @@ STONES = {
         "magical_overcome_base": {
             "magical_attack_power_base": {
                 1: {
+                    "name": "彩·月华·灭气·激流(壹)",
                     "level": 1,
                     "attr": {
                         "magical_critical_power_base": 244,
@@ -18165,6 +20296,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·月华·灭气·激流(贰)",
                     "level": 2,
                     "attr": {
                         "magical_critical_power_base": 488,
@@ -18173,6 +20305,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·月华·灭气·激流(叁)",
                     "level": 3,
                     "attr": {
                         "magical_critical_power_base": 731,
@@ -18181,6 +20314,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·月华·灭气·激流(肆)",
                     "level": 4,
                     "attr": {
                         "magical_critical_power_base": 975,
@@ -18189,6 +20323,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·月华·灭气·激流(伍)",
                     "level": 5,
                     "attr": {
                         "magical_critical_power_base": 1219,
@@ -18197,6 +20332,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·月华·灭气·激流(陆)",
                     "level": 6,
                     "attr": {
                         "magical_critical_power_base": 1463,
@@ -18211,6 +20347,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·琉璃·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 74,
@@ -18219,6 +20356,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·琉璃·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 147,
@@ -18227,6 +20365,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·琉璃·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 221,
@@ -18235,6 +20374,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·琉璃·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 295,
@@ -18243,6 +20383,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·琉璃·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 368,
@@ -18251,6 +20392,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·琉璃·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 442,
@@ -18263,6 +20405,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·琉璃·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 74,
@@ -18271,6 +20414,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·琉璃·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 147,
@@ -18279,6 +20423,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·琉璃·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 221,
@@ -18287,6 +20432,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·琉璃·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 295,
@@ -18295,6 +20441,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·琉璃·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 368,
@@ -18303,6 +20450,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·琉璃·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_attack_power_base": 442,
@@ -18317,6 +20465,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·焚虚·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_overcome_base": 244,
@@ -18325,6 +20474,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·焚虚·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_overcome_base": 488,
@@ -18333,6 +20483,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·焚虚·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_overcome_base": 731,
@@ -18341,6 +20492,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·焚虚·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_overcome_base": 975,
@@ -18349,6 +20501,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·焚虚·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_overcome_base": 1219,
@@ -18357,6 +20510,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·焚虚·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_overcome_base": 1463,
@@ -18369,6 +20523,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·焚虚·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_overcome_base": 244,
@@ -18377,6 +20532,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·焚虚·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_overcome_base": 488,
@@ -18385,6 +20541,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·焚虚·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_overcome_base": 731,
@@ -18393,6 +20550,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·焚虚·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_overcome_base": 975,
@@ -18401,6 +20559,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·焚虚·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_overcome_base": 1219,
@@ -18409,6 +20568,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·焚虚·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_overcome_base": 1463,
@@ -18423,6 +20583,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·虹卷·琉璃·界影(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18431,6 +20592,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·琉璃·界影(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18439,6 +20601,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·琉璃·界影(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18447,6 +20610,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·琉璃·界影(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18455,6 +20619,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·琉璃·界影(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18463,6 +20628,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·琉璃·界影(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18473,6 +20639,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·虹卷·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18481,6 +20648,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18489,6 +20657,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18497,6 +20666,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18505,6 +20675,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18513,6 +20684,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18525,6 +20697,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·虹卷·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18533,6 +20706,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18541,6 +20715,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18549,6 +20724,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18557,6 +20733,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18565,6 +20742,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18575,6 +20753,7 @@ STONES = {
             },
             "solar_and_lunar_critical_power_base": {
                 1: {
+                    "name": "彩·虹卷·焚虚·界影(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18583,6 +20762,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·焚虚·界影(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18591,6 +20771,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·焚虚·界影(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18599,6 +20780,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·焚虚·界影(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18607,6 +20789,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·焚虚·界影(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18615,6 +20798,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·焚虚·界影(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18627,6 +20811,7 @@ STONES = {
         "solar_and_lunar_critical_power_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·虹卷·界影·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18635,6 +20820,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·界影·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18643,6 +20829,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·界影·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18651,6 +20838,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·界影·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18659,6 +20847,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·界影·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18667,6 +20856,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·界影·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18677,6 +20867,7 @@ STONES = {
             },
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·虹卷·界影·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 244,
@@ -18685,6 +20876,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·虹卷·界影·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 488,
@@ -18693,6 +20885,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·虹卷·界影·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 731,
@@ -18701,6 +20894,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·虹卷·界影·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 975,
@@ -18709,6 +20903,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·虹卷·界影·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1219,
@@ -18717,6 +20912,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·虹卷·界影·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_strike_base": 1463,
@@ -18731,6 +20927,7 @@ STONES = {
         "solar_and_lunar_attack_power_base": {
             "solar_and_lunar_overcome_base": {
                 1: {
+                    "name": "彩·界影·琉璃·焚虚(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 244,
@@ -18739,6 +20936,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·界影·琉璃·焚虚(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 488,
@@ -18747,6 +20945,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·界影·琉璃·焚虚(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 731,
@@ -18755,6 +20954,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·界影·琉璃·焚虚(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 975,
@@ -18763,6 +20963,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·界影·琉璃·焚虚(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 1219,
@@ -18771,6 +20972,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·界影·琉璃·焚虚(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 1463,
@@ -18783,6 +20985,7 @@ STONES = {
         "solar_and_lunar_overcome_base": {
             "solar_and_lunar_attack_power_base": {
                 1: {
+                    "name": "彩·界影·焚虚·琉璃(壹)",
                     "level": 1,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 244,
@@ -18791,6 +20994,7 @@ STONES = {
                     }
                 },
                 2: {
+                    "name": "彩·界影·焚虚·琉璃(贰)",
                     "level": 2,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 488,
@@ -18799,6 +21003,7 @@ STONES = {
                     }
                 },
                 3: {
+                    "name": "彩·界影·焚虚·琉璃(叁)",
                     "level": 3,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 731,
@@ -18807,6 +21012,7 @@ STONES = {
                     }
                 },
                 4: {
+                    "name": "彩·界影·焚虚·琉璃(肆)",
                     "level": 4,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 975,
@@ -18815,6 +21021,7 @@ STONES = {
                     }
                 },
                 5: {
+                    "name": "彩·界影·焚虚·琉璃(伍)",
                     "level": 5,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 1219,
@@ -18823,6 +21030,7 @@ STONES = {
                     }
                 },
                 6: {
+                    "name": "彩·界影·焚虚·琉璃(陆)",
                     "level": 6,
                     "attr": {
                         "solar_and_lunar_critical_power_base": 1463,
@@ -18836,6 +21044,7 @@ STONES = {
     "all_critical_strike_base": {
         "strength_gain": {
             4: {
+                "name": "彩·击破·强击·聚力(肆)",
                 "level": 4,
                 "attr": {
                     "all_critical_strike_base": 1950,
@@ -18843,6 +21052,7 @@ STONES = {
                 }
             },
             5: {
+                "name": "彩·击破·强击·聚力(伍)",
                 "level": 5,
                 "attr": {
                     "all_critical_strike_base": 2438,
@@ -18850,6 +21060,7 @@ STONES = {
                 }
             },
             6: {
+                "name": "彩·击破·强击·聚力(陆)",
                 "level": 6,
                 "attr": {
                     "all_critical_strike_base": 2925,
@@ -18859,6 +21070,7 @@ STONES = {
         },
         "agility_gain": {
             4: {
+                "name": "彩·击破·强击·强身(肆)",
                 "level": 4,
                 "attr": {
                     "all_critical_strike_base": 1950,
@@ -18866,6 +21078,7 @@ STONES = {
                 }
             },
             5: {
+                "name": "彩·击破·强击·强身(伍)",
                 "level": 5,
                 "attr": {
                     "all_critical_strike_base": 2438,
@@ -18873,6 +21086,7 @@ STONES = {
                 }
             },
             6: {
+                "name": "彩·击破·强击·强身(陆)",
                 "level": 6,
                 "attr": {
                     "all_critical_strike_base": 2925,
@@ -18882,6 +21096,7 @@ STONES = {
         },
         "spunk_gain": {
             4: {
+                "name": "彩·击破·强击·聚魂(肆)",
                 "level": 4,
                 "attr": {
                     "all_critical_strike_base": 1950,
@@ -18889,6 +21104,7 @@ STONES = {
                 }
             },
             5: {
+                "name": "彩·击破·强击·聚魂(伍)",
                 "level": 5,
                 "attr": {
                     "all_critical_strike_base": 2438,
@@ -18896,6 +21112,7 @@ STONES = {
                 }
             },
             6: {
+                "name": "彩·击破·强击·聚魂(陆)",
                 "level": 6,
                 "attr": {
                     "all_critical_strike_base": 2925,
@@ -18905,6 +21122,7 @@ STONES = {
         },
         "spirit_gain": {
             4: {
+                "name": "彩·击破·强击·固筋(肆)",
                 "level": 4,
                 "attr": {
                     "all_critical_strike_base": 1950,
@@ -18912,6 +21130,7 @@ STONES = {
                 }
             },
             5: {
+                "name": "彩·击破·强击·固筋(伍)",
                 "level": 5,
                 "attr": {
                     "all_critical_strike_base": 2438,
@@ -18919,6 +21138,7 @@ STONES = {
                 }
             },
             6: {
+                "name": "彩·击破·强击·固筋(陆)",
                 "level": 6,
                 "attr": {
                     "all_critical_strike_base": 2925,
@@ -18930,6 +21150,7 @@ STONES = {
     "all_major_base": {
         "all_critical_power_base": {
             4: {
+                "name": "彩·击破·固本·刚烈(肆)",
                 "level": 4,
                 "attr": {
                     "all_major_base": 182,
@@ -18937,6 +21158,7 @@ STONES = {
                 }
             },
             5: {
+                "name": "彩·击破·固本·刚烈(伍)",
                 "level": 5,
                 "attr": {
                     "all_major_base": 228,
@@ -18944,6 +21166,7 @@ STONES = {
                 }
             },
             6: {
+                "name": "彩·击破·固本·刚烈(陆)",
                 "level": 6,
                 "attr": {
                     "all_major_base": 273,

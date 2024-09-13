@@ -1,6 +1,23 @@
 from typing import Dict, List
 
 from base.gain import Gain
+from base.skill import Skill
+from kungfus.xiao_chen_jue.skills import 刚健加成
+
+
+class 刚健(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 刚健加成):
+                skill.pre_target_buffs[70188] = {15: 1}
+                skill.post_target_buffs[70188] = {15: -1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 刚健加成):
+                skill.pre_target_buffs[70188].pop(15)
+                skill.post_target_buffs[70188].pop(15)
+
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
@@ -44,6 +61,20 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         {
             14927: Gain("御鸿于天"),
             28989: Gain("城复于隍")
+        }
+    ],
+    1: [
+        {
+            100849: 刚健("刚健")
+        },
+        {
+            100852: Gain("利涉", attributes=dict(physical_critical_power_rate=100))
+        },
+        {
+            100853: Gain("载物")
+        },
+        {
+            100825: Gain("天下无狗")
         }
     ]
 }

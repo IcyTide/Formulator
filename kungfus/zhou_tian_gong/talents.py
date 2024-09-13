@@ -96,16 +96,16 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     ],
     1: [
         {
-            0: Gain()
+            102293: Gain("驭风")
         },
         {
-            0: Gain()
+            102296: Gain("风扬")
         },
         {
-            0: Gain()
+            102298: Gain("奇脉")
         },
         {
-            0: Gain()
+            102290: Gain("一阳化生")
         }
     ]
 }

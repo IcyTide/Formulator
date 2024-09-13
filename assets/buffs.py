@@ -9274,6 +9274,13 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    70221: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "移动端_丐帮_竹林内标记_自身",
+        "max_stack": 1,
+        "recipes": {}
+    },
     8244: {
         "attributes": [
             {
@@ -10386,6 +10393,14 @@ BUFFS = {
         "max_level": 1,
         "alias_name": "移动端_段氏_六脉化一_递进标记",
         "max_stack": 5,
+        "recipes": {}
+    },
+    71382: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "悬剑",
+        "alias_name": "移动端_段氏_悬剑",
+        "max_stack": 1,
         "recipes": {}
     }
 }

@@ -23,4 +23,7 @@ class Attribute(PhysicalAttribute):
 
     @property
     def extra_pve_addition(self):
-        return int(self.surplus_base / (self.surplus_to_pve_addition * 100) * BINARY_SCALE)
+        if self.surplus_to_pve_addition:
+            return int(self.surplus_base / (self.surplus_to_pve_addition * 100) * BINARY_SCALE)
+        else:
+            return 0

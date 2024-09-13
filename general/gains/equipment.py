@@ -108,16 +108,16 @@ class 大附魔衣(EquipmentGain):
 
 class 大附魔腰(EquipmentGain):
     buff_ids = [15455]
-    _attributes = GENERAL_BUFFS[15455].get_attributes(weights=[3, 7])
+    _attributes = [GENERAL_BUFFS[15455].get_attributes(weights=[3, 7])]
     rate = 8 / 30
 
 
 class 大附魔腕(EquipmentGain):
-    skill_ids = list(range(22160, 22164 + 1)) + [37562]
+    skill_ids = [37562]
 
 
 class 大附魔鞋(EquipmentGain):
-    skill_ids = list(range(33257, 33261 + 1)) + [37561]
+    skill_ids = [37561]
 
 
 def set_real_formulation(tag):

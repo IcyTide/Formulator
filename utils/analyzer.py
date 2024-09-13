@@ -227,11 +227,11 @@ class BuffAnalyzer(BaseAnalyzer):
     def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
         buffs = []
         if current_buffs:
-            buffs.append(",".join(buff.display_name for buff in current_buffs))
+            buffs.append(",".join(buff.display_name for buff in sorted(current_buffs)))
         if snapshot_buffs:
-            buffs.append(",".join(buff.display_name for buff in snapshot_buffs))
+            buffs.append(",".join(buff.display_name for buff in sorted(snapshot_buffs)))
         if target_buffs:
-            buffs.append(",".join(buff.display_name for buff in target_buffs))
+            buffs.append(",".join(buff.display_name for buff in sorted(target_buffs)))
 
         if buffs:
             buffs = "|".join(buffs)
@@ -284,7 +284,8 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
 
     def add_gains(self, gains):
         for gain in gains:
-            gain = self.kungfu.gains[gain]
+            if not isinstance(gain, Gain):
+                gain = self.kungfu.gains[gain]
             gain.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.add_recipes(gain.recipes)
             self.gains.append(gain)

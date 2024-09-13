@@ -4,7 +4,8 @@ from base.constant import *
 
 class Attribute(PhysicalAttribute):
     attribute_id = {
-        0: 10268
+        0: 10268,
+        1: 100651
     }
 
     strength_to_physical_attack_power: int = 0
