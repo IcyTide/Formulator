@@ -20,13 +20,13 @@ def create_consumable_gain(buff_id, scope: range = None):
     return result
 
 
-MAJOR_FOODS = create_consumable_gain(29274)
-MINOR_FOODS = create_consumable_gain(29276)
-MAJOR_POTIONS = create_consumable_gain(29288)
-MINOR_POTIONS = create_consumable_gain(29289)
+MAJOR_FOODS = create_consumable_gain(24731)
+MINOR_FOODS = create_consumable_gain(24732)
+MAJOR_POTIONS = create_consumable_gain(24735)
+MINOR_POTIONS = create_consumable_gain(24736)
 SPREADS = {
-    **create_consumable_gain(29284),
-    **create_consumable_gain(29285)
+    **create_consumable_gain(24733),
+    **create_consumable_gain(24734)
 }
 SNACKS = {
     **create_consumable_gain(17365, range(56, 60 + 1)),

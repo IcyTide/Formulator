@@ -1,10 +1,10 @@
 ATTRIBUTES = {
     10003: {
         "alias_name": "易筋经",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 103,
-        "spunk_to_solar_attack_power": 2007,
-        "spunk_to_solar_critical_strike": 410,
+        "spunk_to_solar_attack_power": 1894,
+        "spunk_to_solar_critical_strike": 389,
         "magical_attack_power_base": [
             10,
             17,
@@ -18,13 +18,12 @@ ATTRIBUTES = {
             312,
             480,
             1831,
-            4139,
-            7242
+            4139
         ]
     },
     10014: {
         "alias_name": "紫霞功",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 51,
         "magical_attack_power_base": [
             9,
@@ -39,11 +38,10 @@ ATTRIBUTES = {
             281,
             432,
             1648,
-            3725,
-            6518
+            3725
         ],
-        "spirit_to_neutral_attack_power": 1946,
-        "spirit_to_neutral_critical_strike": 625,
+        "spirit_to_neutral_attack_power": 1792,
+        "spirit_to_neutral_critical_strike": 573,
         "neutral_critical_strike_base": [
             7,
             12,
@@ -57,16 +55,15 @@ ATTRIBUTES = {
             154,
             336,
             803,
-            1788,
-            5527
+            1788
         ]
     },
     10015: {
         "alias_name": "太虚剑意",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 154,
-        "agility_to_physical_attack_power": 1731,
-        "agility_to_physical_critical_strike": 696,
+        "agility_to_physical_attack_power": 1485,
+        "agility_to_physical_critical_strike": 594,
         "physical_critical_strike_base": [
             13,
             23,
@@ -80,8 +77,7 @@ ATTRIBUTES = {
             268,
             661,
             1327,
-            2929,
-            9025
+            2929
         ],
         "physical_attack_power_base": [
             8,
@@ -96,16 +92,15 @@ ATTRIBUTES = {
             247,
             380,
             1450,
-            3277,
-            6187
+            3277
         ]
     },
     100389: {
         "alias_name": "移动端_太虚剑意_心法",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 481,
-        "agility_to_physical_attack_power": 1731,
-        "agility_to_physical_critical_strike": 696,
+        "agility_to_physical_attack_power": 1485,
+        "agility_to_physical_critical_strike": 594,
         "physical_critical_strike_base": [
             13,
             23,
@@ -119,8 +114,7 @@ ATTRIBUTES = {
             268,
             661,
             1327,
-            2929,
-            9025
+            2929
         ],
         "physical_attack_power_base": [
             8,
@@ -135,15 +129,14 @@ ATTRIBUTES = {
             247,
             380,
             1450,
-            3277,
-            6187
+            3277
         ],
         "all_shield_ignore": 614,
         "surplus_to_pve_addition": 3000
     },
     10021: {
         "alias_name": "花间游",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 113,
         "magical_attack_power_base": [
             10,
@@ -158,15 +151,14 @@ ATTRIBUTES = {
             312,
             480,
             1831,
-            4139,
-            7242
+            4139
         ],
-        "spunk_to_neutral_attack_power": 2079,
-        "spunk_to_neutral_overcome": 205
+        "spunk_to_neutral_attack_power": 1997,
+        "spunk_to_neutral_overcome": 195
     },
     100408: {
         "alias_name": "移动端_花间游_心法",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 430,
         "magical_attack_power_base": [
             10,
@@ -181,16 +173,15 @@ ATTRIBUTES = {
             312,
             480,
             1831,
-            4139,
-            7242
+            4139
         ],
         "all_shield_ignore": 614,
-        "spunk_to_neutral_attack_power": 2079,
-        "spunk_to_neutral_overcome": 205
+        "spunk_to_neutral_attack_power": 1997,
+        "spunk_to_neutral_overcome": 195
     },
     10026: {
         "alias_name": "傲血战意",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 195,
         "physical_attack_power_base": [
             9,
@@ -205,17 +196,16 @@ ATTRIBUTES = {
             286,
             440,
             1679,
-            3794,
-            7164
+            3794
         ],
-        "strength_to_physical_attack_power": 1843,
-        "strength_to_physical_overcome": 287
+        "strength_to_physical_attack_power": 1638,
+        "strength_to_physical_overcome": 256
     },
     10081: {
         "alias_name": "冰心诀",
-        "max_level": 14,
-        "spirit_to_lunar_attack_power": 2048,
-        "spirit_to_lunar_critical_strike": 297,
+        "max_level": 13,
+        "spirit_to_lunar_attack_power": 1946,
+        "spirit_to_lunar_critical_strike": 287,
         "lunar_attack_power_base": [
             10,
             17,
@@ -229,17 +219,16 @@ ATTRIBUTES = {
             318,
             490,
             1868,
-            4222,
-            7387
+            4222
         ]
     },
     100410: {
         "alias_name": "移动端_心法_冰心诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 430,
         "all_shield_ignore": 614,
-        "spirit_to_lunar_attack_power": 2048,
-        "spirit_to_lunar_critical_strike": 297,
+        "spirit_to_lunar_attack_power": 1946,
+        "spirit_to_lunar_critical_strike": 287,
         "lunar_attack_power_base": [
             10,
             17,
@@ -253,15 +242,14 @@ ATTRIBUTES = {
             318,
             490,
             1868,
-            4222,
-            7387
+            4222
         ]
     },
     10144: {
         "alias_name": "问水诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 102,
-        "agility_to_physical_attack_power": 1843,
+        "agility_to_physical_attack_power": 1638,
         "physical_critical_strike_base": [
             12,
             22,
@@ -275,8 +263,7 @@ ATTRIBUTES = {
             239,
             617,
             1156,
-            2544,
-            7827
+            2544
         ],
         "physical_attack_power_base": [
             8,
@@ -291,14 +278,13 @@ ATTRIBUTES = {
             260,
             400,
             1526,
-            3449,
-            6513
+            3449
         ],
-        "agility_to_physical_overcome": 287
+        "agility_to_physical_overcome": 256
     },
     10175: {
         "alias_name": "毒经",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 104,
         "magical_attack_power_base": [
             10,
@@ -313,15 +299,14 @@ ATTRIBUTES = {
             312,
             480,
             1831,
-            4139,
-            7242
+            4139
         ],
-        "spirit_to_poison_attack_power": 2079,
-        "spirit_to_poison_overcome": 205
+        "spirit_to_poison_attack_power": 1997,
+        "spirit_to_poison_overcome": 195
     },
     10224: {
         "alias_name": "惊羽诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 133,
         "physical_attack_power_base": [
             8,
@@ -336,11 +321,10 @@ ATTRIBUTES = {
             247,
             380,
             1450,
-            3277,
-            6187
+            3277
         ],
-        "strength_to_physical_attack_power": 1731,
-        "strength_to_physical_critical_strike": 707,
+        "strength_to_physical_attack_power": 1485,
+        "strength_to_physical_critical_strike": 604,
         "physical_overcome_base": [
             13,
             23,
@@ -354,13 +338,12 @@ ATTRIBUTES = {
             268,
             661,
             1327,
-            2929,
-            9025
+            2929
         ]
     },
     10225: {
         "alias_name": "天罗诡道",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 21,
         "physical_critical_strike_base": [
             4,
@@ -375,11 +358,10 @@ ATTRIBUTES = {
             106,
             213,
             572,
-            1279,
-            3962
+            1279
         ],
-        "spunk_to_poison_attack_power": 1946,
-        "spunk_to_physical_critical_strike": 635,
+        "spunk_to_poison_attack_power": 1792,
+        "spunk_to_physical_critical_strike": 584,
         "poison_attack_power_base": [
             9,
             15,
@@ -393,13 +375,12 @@ ATTRIBUTES = {
             281,
             432,
             1648,
-            3725,
-            6518
+            3725
         ]
     },
     10242: {
         "alias_name": "焚影圣诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 82,
         "lunar_attack_power_base": [
             11,
@@ -414,11 +395,10 @@ ATTRIBUTES = {
             328,
             504,
             1923,
-            4346,
-            7604
+            4346
         ],
-        "spunk_to_solar_and_lunar_attack_power": 2038,
-        "spunk_to_solar_and_lunar_critical_strike": 307,
+        "spunk_to_solar_and_lunar_attack_power": 1946,
+        "spunk_to_solar_and_lunar_critical_strike": 297,
         "solar_attack_power_base": [
             11,
             18,
@@ -432,13 +412,12 @@ ATTRIBUTES = {
             328,
             504,
             1923,
-            4346,
-            7604
+            4346
         ]
     },
     10268: {
         "alias_name": "笑尘诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 41,
         "physical_attack_power_base": [
             8,
@@ -453,17 +432,39 @@ ATTRIBUTES = {
             273,
             420,
             1602,
-            3621,
-            6839
+            3621
         ],
-        "strength_to_physical_attack_power": 1772,
-        "strength_to_physical_overcome": 553
+        "strength_to_physical_attack_power": 1536,
+        "strength_to_physical_overcome": 481
+    },
+    100651: {
+        "alias_name": "移动端_笑尘诀_心法",
+        "max_level": 13,
+        "pve_addition_base": 410,
+        "physical_attack_power_base": [
+            8,
+            15,
+            23,
+            34,
+            45,
+            54,
+            64,
+            76,
+            84,
+            273,
+            420,
+            1602,
+            3621
+        ],
+        "all_shield_ignore": 614,
+        "strength_to_physical_attack_power": 1536,
+        "strength_to_physical_overcome": 481
     },
     10390: {
         "alias_name": "分山劲",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 92,
-        "agility_to_physical_attack_power": 1925,
+        "agility_to_physical_attack_power": 1751,
         "physical_attack_power_base": [
             8,
             14,
@@ -477,8 +478,7 @@ ATTRIBUTES = {
             260,
             400,
             1526,
-            3449,
-            6513
+            3449
         ],
         "physical_overcome_base": [
             7,
@@ -493,13 +493,12 @@ ATTRIBUTES = {
             143,
             370,
             694,
-            1526,
-            4696
+            1526
         ]
     },
     10447: {
         "alias_name": "莫问",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 164,
         "magical_attack_power_base": [
             9,
@@ -514,11 +513,10 @@ ATTRIBUTES = {
             281,
             432,
             1648,
-            3725,
-            6518
+            3725
         ],
-        "spirit_to_lunar_attack_power": 2007,
-        "spirit_to_lunar_critical_strike": 410,
+        "spirit_to_lunar_attack_power": 1895,
+        "spirit_to_lunar_critical_strike": 389,
         "lunar_critical_strike_base": [
             4,
             7,
@@ -532,13 +530,12 @@ ATTRIBUTES = {
             106,
             213,
             572,
-            1279,
-            3962
+            1279
         ]
     },
     10464: {
         "alias_name": "北傲诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 174,
         "physical_attack_power_base": [
             9,
@@ -553,15 +550,14 @@ ATTRIBUTES = {
             281,
             432,
             1648,
-            3725,
-            7034
+            3725
         ],
-        "strength_to_physical_attack_power": 1802,
-        "strength_to_physical_overcome": 420
+        "strength_to_physical_attack_power": 1587,
+        "strength_to_physical_overcome": 369
     },
     100994: {
         "alias_name": "移动端_北傲决",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 440,
         "physical_attack_power_base": [
             9,
@@ -576,18 +572,17 @@ ATTRIBUTES = {
             281,
             432,
             1648,
-            3725,
-            7034
+            3725
         ],
         "all_shield_ignore": 614,
-        "strength_to_physical_attack_power": 1802,
-        "strength_to_physical_overcome": 420
+        "strength_to_physical_attack_power": 1587,
+        "strength_to_physical_overcome": 369
     },
     10533: {
         "alias_name": "凌海诀",
-        "max_level": 14,
-        "agility_to_physical_attack_power": 1802,
-        "agility_to_physical_critical_strike": 420,
+        "max_level": 13,
+        "agility_to_physical_attack_power": 1587,
+        "agility_to_physical_critical_strike": 369,
         "physical_critical_strike_base": [
             11,
             20,
@@ -601,8 +596,7 @@ ATTRIBUTES = {
             210,
             572,
             986,
-            2158,
-            6628
+            2158
         ],
         "physical_attack_power_base": [
             8,
@@ -617,16 +611,15 @@ ATTRIBUTES = {
             273,
             420,
             1602,
-            3621,
-            6839
+            3621
         ]
     },
     101090: {
         "alias_name": "移动端_心法_凌海决",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 461,
-        "agility_to_physical_attack_power": 1802,
-        "agility_to_physical_critical_strike": 420,
+        "agility_to_physical_attack_power": 1587,
+        "agility_to_physical_critical_strike": 369,
         "physical_critical_strike_base": [
             11,
             20,
@@ -640,8 +633,7 @@ ATTRIBUTES = {
             210,
             572,
             986,
-            2158,
-            6628
+            2158
         ],
         "physical_attack_power_base": [
             8,
@@ -656,16 +648,15 @@ ATTRIBUTES = {
             273,
             420,
             1602,
-            3621,
-            6839
+            3621
         ],
         "all_shield_ignore": 614
     },
     10585: {
         "alias_name": "隐龙诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 225,
-        "agility_to_physical_attack_power": 1772,
+        "agility_to_physical_attack_power": 1536,
         "physical_attack_power_base": [
             8,
             15,
@@ -679,10 +670,9 @@ ATTRIBUTES = {
             276,
             424,
             1618,
-            3656,
-            6904
+            3656
         ],
-        "agility_to_physical_overcome": 553,
+        "agility_to_physical_overcome": 481,
         "physical_overcome_base": [
             11,
             20,
@@ -696,13 +686,12 @@ ATTRIBUTES = {
             204,
             563,
             952,
-            2081,
-            6389
+            2081
         ]
     },
     10615: {
         "alias_name": "太玄经",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 144,
         "magical_attack_power_base": [
             10,
@@ -717,8 +706,7 @@ ATTRIBUTES = {
             318,
             490,
             1868,
-            4222,
-            7387
+            4222
         ],
         "neutral_critical_strike_base": [
             12,
@@ -733,15 +721,14 @@ ATTRIBUTES = {
             227,
             599,
             1088,
-            2390,
-            7347
+            2390
         ],
-        "spunk_to_neutral_attack_power": 1976,
-        "spunk_to_neutral_critical_strike": 512
+        "spunk_to_neutral_attack_power": 1843,
+        "spunk_to_neutral_critical_strike": 481
     },
     10627: {
         "alias_name": "无方",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 102,
         "magical_attack_power_base": [
             9,
@@ -756,11 +743,10 @@ ATTRIBUTES = {
             287,
             442,
             1685,
-            3808,
-            6663
+            3808
         ],
-        "spirit_to_poison_attack_power": 1976,
-        "spirit_to_poison_overcome": 512,
+        "spirit_to_poison_attack_power": 1843,
+        "spirit_to_poison_overcome": 481,
         "poison_overcome_base": [
             7,
             12,
@@ -774,13 +760,12 @@ ATTRIBUTES = {
             154,
             336,
             803,
-            1788,
-            5527
+            1788
         ]
     },
     101355: {
         "alias_name": "移动端_无方_心法",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 461,
         "magical_attack_power_base": [
             9,
@@ -795,12 +780,11 @@ ATTRIBUTES = {
             287,
             442,
             1685,
-            3808,
-            6663
+            3808
         ],
         "all_shield_ignore": 614,
-        "spirit_to_poison_attack_power": 1976,
-        "spirit_to_poison_overcome": 512,
+        "spirit_to_poison_attack_power": 1843,
+        "spirit_to_poison_overcome": 481,
         "poison_overcome_base": [
             7,
             12,
@@ -814,13 +798,12 @@ ATTRIBUTES = {
             154,
             336,
             803,
-            1788,
-            5527
+            1788
         ]
     },
     10698: {
         "alias_name": "孤锋诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 184,
         "physical_critical_strike_base": [
             13,
@@ -835,8 +818,7 @@ ATTRIBUTES = {
             256,
             643,
             1258,
-            2775,
-            8546
+            2775
         ],
         "physical_attack_power_base": [
             8,
@@ -851,15 +833,14 @@ ATTRIBUTES = {
             252,
             388,
             1480,
-            3346,
-            6318
+            3346
         ],
-        "strength_to_physical_attack_power": 1843,
-        "strength_to_physical_critical_strike": 287
+        "strength_to_physical_attack_power": 1638,
+        "strength_to_physical_critical_strike": 256
     },
     101375: {
         "alias_name": "移动端_孤锋诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 461,
         "physical_critical_strike_base": [
             13,
@@ -874,8 +855,7 @@ ATTRIBUTES = {
             256,
             643,
             1258,
-            2775,
-            8546
+            2775
         ],
         "physical_attack_power_base": [
             8,
@@ -890,19 +870,18 @@ ATTRIBUTES = {
             252,
             388,
             1480,
-            3346,
-            6318
+            3346
         ],
         "all_shield_ignore": 614,
-        "strength_to_physical_attack_power": 1843,
-        "strength_to_physical_critical_strike": 287
+        "strength_to_physical_attack_power": 1638,
+        "strength_to_physical_critical_strike": 256
     },
     10756: {
         "alias_name": "山海心诀",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 82,
-        "agility_to_physical_attack_power": 1731,
-        "agility_to_physical_critical_strike": 696,
+        "agility_to_physical_attack_power": 1485,
+        "agility_to_physical_critical_strike": 594,
         "physical_critical_strike_base": [
             13,
             23,
@@ -916,8 +895,7 @@ ATTRIBUTES = {
             268,
             661,
             1327,
-            2929,
-            9025
+            2929
         ],
         "physical_attack_power_base": [
             8,
@@ -932,16 +910,15 @@ ATTRIBUTES = {
             247,
             380,
             1450,
-            3277,
-            6187
+            3277
         ]
     },
     101740: {
         "alias_name": "移动端_山海心诀_心法",
-        "max_level": 14,
+        "max_level": 13,
         "pve_addition_base": 460,
-        "agility_to_physical_attack_power": 1731,
-        "agility_to_physical_critical_strike": 696,
+        "agility_to_physical_attack_power": 1485,
+        "agility_to_physical_critical_strike": 594,
         "physical_critical_strike_base": [
             13,
             23,
@@ -955,8 +932,7 @@ ATTRIBUTES = {
             268,
             661,
             1327,
-            2929,
-            9025
+            2929
         ],
         "physical_attack_power_base": [
             8,
@@ -971,89 +947,8 @@ ATTRIBUTES = {
             247,
             380,
             1450,
-            3277,
-            6187
+            3277
         ],
         "all_shield_ignore": 614
-    },
-    10786: {
-        "alias_name": "周天功",
-        "max_level": 14,
-        "pve_addition_base": 205,
-        "magical_attack_power_base": [
-            9,
-            15,
-            24,
-            35,
-            46,
-            55,
-            66,
-            77,
-            86,
-            281,
-            432,
-            1648,
-            3725,
-            6518
-        ],
-        "neutral_critical_strike_base": [
-            7,
-            12,
-            19,
-            26,
-            33,
-            40,
-            47,
-            54,
-            61,
-            154,
-            336,
-            803,
-            1788,
-            5527
-        ],
-        "spunk_to_neutral_attack_power": 1997,
-        "spunk_to_neutral_critical_strike": 461
-    },
-    102278: {
-        "alias_name": "移动端_段氏_心法",
-        "max_level": 14,
-        "pve_addition_base": 461,
-        "magical_attack_power_base": [
-            9,
-            15,
-            24,
-            35,
-            46,
-            55,
-            66,
-            77,
-            86,
-            281,
-            432,
-            1648,
-            3725,
-            6518
-        ],
-        "neutral_critical_strike_base": [
-            7,
-            12,
-            19,
-            26,
-            33,
-            40,
-            47,
-            54,
-            61,
-            154,
-            336,
-            803,
-            1788,
-            5527
-        ],
-        "all_shield_ignore": 614,
-        "surplus_to_pve_addition": 3000,
-        "spunk_to_neutral_attack_power": 1997,
-        "spunk_to_neutral_overcome": 205
     }
 }

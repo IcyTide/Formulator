@@ -3593,303 +3593,303 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    29274: {
+    24731: {
         "attributes": [
             {
-                "vitality_base": 1354
+                "vitality_base": 632
             },
             {
-                "agility_base": 469
+                "agility_base": 382
             },
             {
-                "spunk_base": 469
+                "spunk_base": 382
             },
             {
-                "strength_base": 469
+                "strength_base": 382
             },
             {
-                "spirit_base": 469
+                "spirit_base": 382
             },
             {
-                "vitality_base": 677
+                "vitality_base": 316
             },
             {
-                "agility_base": 234
+                "agility_base": 191
             },
             {
-                "spunk_base": 234
+                "spunk_base": 191
             },
             {
-                "strength_base": 234
+                "strength_base": 191
             },
             {
-                "spirit_base": 234
+                "spirit_base": 191
             }
         ],
         "max_level": 10,
         "buff_name": [
-            "风语·皮蛋瘦肉粥",
-            "风语·杂锦鱼球粥",
-            "风语·鱼片砂锅粥",
-            "风语·三鲜粥",
-            "风语·咸骨粥",
-            "风语·贡丸汤",
-            "风语·杂碎汤",
-            "风语·鱼头豆腐汤",
-            "风语·三鲜汤",
-            "风语·老火骨汤"
+            "皮蛋瘦肉粥",
+            "杂锦鱼球粥",
+            "鱼片砂锅粥",
+            "三鲜粥",
+            "咸骨粥",
+            "贡丸汤",
+            "杂碎汤",
+            "鱼头豆腐汤",
+            "三鲜汤",
+            "老火骨汤"
         ],
-        "alias_name": "丝路风语烹饪辅助",
+        "alias_name": "横刀断浪烹饪辅助",
         "max_stack": 1,
         "recipes": {}
     },
-    29276: {
+    24732: {
         "attributes": [
             {
-                "all_critical_strike_base": 3655
+                "all_critical_strike_base": 1705
             },
             {
-                "physical_overcome_base": 3655,
-                "magical_overcome_base": 3655
+                "physical_overcome_base": 1705,
+                "magical_overcome_base": 1705
             },
             {
-                "surplus_base": 3655
+                "surplus_base": 1705
             },
             {
-                "haste_base": 3655
+                "haste_base": 1705
             },
             {
-                "physical_attack_power_base": 993
+                "physical_attack_power_base": 768
             },
             {
-                "magical_attack_power_base": 1108
+                "magical_attack_power_base": 917
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1828
+                "all_critical_strike_base": 853
             },
             {
-                "physical_overcome_base": 1828,
-                "magical_overcome_base": 1828
+                "physical_overcome_base": 853,
+                "magical_overcome_base": 853
             },
             {
-                "surplus_base": 1828
+                "surplus_base": 853
             },
             {
-                "haste_base": 1828
+                "haste_base": 853
             },
             {
-                "physical_attack_power_base": 497
+                "physical_attack_power_base": 384
             },
             {
-                "magical_attack_power_base": 554
+                "magical_attack_power_base": 458
             },
             {},
             {}
         ],
         "max_level": 16,
         "buff_name": [
-            "风语·酸菜鱼",
-            "风语·红烧排骨",
-            "风语·白肉血肠",
-            "风语·红烧扣肉",
-            "风语·太后饼",
-            "风语·灌汤包",
-            "风语·骨肉相连",
-            "风语·炸酱面",
-            "风语·鱼香肉丝",
-            "风语·水煮肉片",
-            "风语·毛血旺",
-            "风语·栗子烧肉",
-            "风语·煎饼果子",
-            "风语·鲜肉包子",
-            "风语·白汁芦筋",
-            "风语·杂碎面"
+            "酸菜鱼",
+            "红烧排骨",
+            "白肉血肠",
+            "红烧扣肉",
+            "太后饼",
+            "灌汤包",
+            "骨肉相连",
+            "炸酱面",
+            "鱼香肉丝",
+            "水煮肉片",
+            "毛血旺",
+            "栗子烧肉",
+            "煎饼果子",
+            "鲜肉包子",
+            "白汁芦筋",
+            "杂碎面"
         ],
-        "alias_name": "丝路风语烹饪增强",
+        "alias_name": "横刀断浪烹饪增强",
         "max_stack": 1,
         "recipes": {}
     },
-    29284: {
+    24735: {
         "attributes": [
             {
-                "physical_attack_power_base": 567,
-                "all_critical_strike_base": 2088,
-                "surplus_base": 2088
+                "vitality_base": 812
             },
             {
-                "magical_attack_power_base": 633,
-                "all_critical_strike_base": 2088,
-                "surplus_base": 2088
+                "agility_base": 492
             },
             {
-                "all_critical_strike_base": 2088,
-                "haste_base": 2088
+                "spunk_base": 492
             },
             {
-                "vitality_base": 773,
-                "max_life_add": 10443
+                "strength_base": 492
             },
             {
-                "vitality_base": 773
+                "spirit_base": 492
             },
             {
-                "max_life_add": 10443
+                "vitality_base": 406
+            },
+            {
+                "agility_base": 246
+            },
+            {
+                "spunk_base": 246
+            },
+            {
+                "strength_base": 246
+            },
+            {
+                "spirit_base": 246
+            }
+        ],
+        "max_level": 10,
+        "buff_name": [
+            "上品健体丸",
+            "上品轻身丹",
+            "上品聚魂丹",
+            "上品大力丸",
+            "上品静心丸",
+            "中品健体丸",
+            "中品轻身丹",
+            "中品聚魂丹",
+            "中品大力丸",
+            "中品静心丸"
+        ],
+        "alias_name": "横刀断浪医术辅助",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24736: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 2192
+            },
+            {
+                "physical_overcome_base": 2192,
+                "magical_overcome_base": 2192
+            },
+            {
+                "surplus_base": 2192
+            },
+            {
+                "haste_base": 2192
+            },
+            {
+                "physical_attack_power_base": 988
+            },
+            {
+                "magical_attack_power_base": 1179
+            },
+            {},
+            {},
+            {
+                "all_critical_strike_base": 1096
+            },
+            {
+                "physical_overcome_base": 1096,
+                "magical_overcome_base": 1096
+            },
+            {
+                "surplus_base": 1096
+            },
+            {
+                "haste_base": 1096
+            },
+            {
+                "physical_attack_power_base": 494
+            },
+            {
+                "magical_attack_power_base": 589
+            },
+            {},
+            {}
+        ],
+        "max_level": 16,
+        "buff_name": [
+            "上品玉璃散",
+            "上品破秽散",
+            "上品凝神散",
+            "上品活气散",
+            "上品亢龙散",
+            "上品展凤散",
+            "上品益气散",
+            "上品长恨散",
+            "中品玉璃散",
+            "中品破秽散",
+            "中品凝神散",
+            "中品活气散",
+            "中品亢龙散",
+            "中品展凤散",
+            "中品益气散",
+            "中品长恨散"
+        ],
+        "alias_name": "横刀断浪医术增强",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24733: {
+        "attributes": [
+            {
+                "physical_attack_power_base": 439,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "magical_attack_power_base": 524,
+                "all_critical_strike_base": 975,
+                "surplus_base": 975
+            },
+            {
+                "all_critical_strike_base": 975,
+                "haste_base": 975
+            },
+            {
+                "vitality_base": 361,
+                "max_life_add": 4872
+            },
+            {
+                "vitality_base": 361
+            },
+            {
+                "max_life_add": 4872
             }
         ],
         "max_level": 6,
         "buff_name": [
-            "风语·玉笛谁家听落梅",
-            "风语·二十四桥明月夜",
-            "风语·鸳鸯烩珍宴",
-            "风语·蜀味烘焙宴",
-            "风语·鸿门宴",
-            "风语·团圆宴"
+            "玉笛谁家听落梅",
+            "二十四桥明月夜",
+            "鸳鸯烩珍宴",
+            "蜀味烘焙宴",
+            "鸿门宴",
+            "团圆宴"
         ],
-        "alias_name": "丝路风语宴席",
+        "alias_name": "横刀断浪宴席",
         "max_stack": 1,
         "recipes": {}
     },
-    29285: {
+    24734: {
         "attributes": [
             {
-                "vitality_base": 1547
+                "vitality_base": 722
             },
             {
-                "agility_base": 536
+                "agility_base": 437
             },
             {
-                "spunk_base": 536
+                "spunk_base": 437
             },
             {
-                "strength_base": 536
+                "strength_base": 437
             },
             {
-                "spirit_base": 536
+                "spirit_base": 437
             }
         ],
         "max_level": 5,
-        "buff_name": "风语·水晶芙蓉宴",
-        "alias_name": "丝路风语全属性宴席",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29288: {
-        "attributes": [
-            {
-                "vitality_base": 1741
-            },
-            {
-                "agility_base": 602
-            },
-            {
-                "spunk_base": 602
-            },
-            {
-                "strength_base": 602
-            },
-            {
-                "spirit_base": 602
-            },
-            {
-                "vitality_base": 870
-            },
-            {
-                "agility_base": 301
-            },
-            {
-                "spunk_base": 301
-            },
-            {
-                "strength_base": 301
-            },
-            {
-                "spirit_base": 301
-            }
-        ],
-        "max_level": 10,
-        "buff_name": [
-            "风语·上品健体丸",
-            "风语·上品轻身丹",
-            "风语·上品聚魂丹",
-            "风语·上品大力丸",
-            "风语·上品静心丸",
-            "风语·中品健体丸",
-            "风语·中品轻身丹",
-            "风语·中品聚魂丹",
-            "风语·中品大力丸",
-            "风语·中品静心丸"
-        ],
-        "alias_name": "丝路风语医术辅助",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29289: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 4699
-            },
-            {
-                "physical_overcome_base": 4699,
-                "magical_overcome_base": 4699
-            },
-            {
-                "surplus_base": 4699
-            },
-            {
-                "haste_base": 4699
-            },
-            {
-                "physical_attack_power_base": 1277
-            },
-            {
-                "magical_attack_power_base": 1424
-            },
-            {},
-            {},
-            {
-                "all_critical_strike_base": 2350
-            },
-            {
-                "physical_overcome_base": 2350,
-                "magical_overcome_base": 2350
-            },
-            {
-                "surplus_base": 2350
-            },
-            {
-                "haste_base": 2350
-            },
-            {
-                "physical_attack_power_base": 639
-            },
-            {
-                "magical_attack_power_base": 712
-            },
-            {},
-            {}
-        ],
-        "max_level": 16,
-        "buff_name": [
-            "风语·上品玉璃散",
-            "风语·上品破秽散",
-            "风语·上品凝神散",
-            "风语·上品活气散",
-            "风语·上品亢龙散",
-            "风语·上品展凤散",
-            "风语·上品益气散",
-            "风语·上品长恨散",
-            "风语·中品玉璃散",
-            "风语·中品破秽散",
-            "风语·上中品凝神散",
-            "风语·中品活气散",
-            "风语·中品亢龙散",
-            "风语·中品展凤散",
-            "风语·中品益气散",
-            "风语·中品长恨散"
-        ],
-        "alias_name": "丝路风语医术增强",
+        "buff_name": "水晶芙蓉宴",
+        "alias_name": "横刀断浪全属性宴席",
         "max_stack": 1,
         "recipes": {}
     },
@@ -4217,8 +4217,8 @@ BUFFS = {
     },
     18428: {
         "attributes": {
-            "surplus_base": 553,
-            "strain_base": 553
+            "surplus_base": 258,
+            "strain_base": 258
         },
         "max_level": 1,
         "buff_name": "同泽宴",
@@ -4574,22 +4574,12 @@ BUFFS = {
             {
                 "magical_overcome_base": 1218,
                 "physical_overcome_base": 1218
-            },
-            {
-                "magical_overcome_base": 1218,
-                "physical_overcome_base": 1218
-            },
-            {
-                "magical_overcome_base": 1218,
-                "physical_overcome_base": 1218
             }
         ],
-        "max_level": 14,
+        "max_level": 12,
         "alias_name": [
             "破防等级提高",
             "破防等级提高 [15436]",
-            "破防等级提高",
-            "破防等级提高",
             "破防等级提高",
             "破防等级提高",
             "破防等级提高",
@@ -4802,22 +4792,9 @@ BUFFS = {
             {
                 "physical_shield_base": 124,
                 "magical_shield_base": 124
-            },
-            {
-                "spirit_base": 28
-            },
-            {
-                "magical_attack_power_base": 199
-            },
-            {
-                "physical_attack_power_base": 179
-            },
-            {
-                "physical_shield_base": 329,
-                "magical_shield_base": 329
             }
         ],
-        "max_level": 73,
+        "max_level": 69,
         "buff_name": [
             "水·鋭刃",
             "水·激流",
@@ -4832,10 +4809,6 @@ BUFFS = {
             "水·狂攻",
             "水·仇敌",
             "水·急速",
-            "水·百川",
-            "水·灭虚",
-            "水·斩流",
-            "水·封山",
             "水·百川",
             "水·灭虚",
             "水·斩流",
@@ -4962,32 +4935,590 @@ BUFFS = {
             "15600英雄副本水·百川",
             "15600英雄副本水·灭虚",
             "15600英雄副本水·斩流",
-            "15600英雄副本水·封山",
-            "25900英雄副本水·百川",
-            "25900英雄副本水·灭虚",
-            "25900英雄副本水·斩流",
-            "25900英雄副本水·封山"
+            "15600英雄副本水·封山"
         ],
         "max_stack": 10,
         "recipes": {}
     },
-    29268: {
+    6360: {
         "attributes": [
             {
-                "magical_overcome_base": 27931
+                "physical_attack_power_base": 251
             },
             {
-                "physical_overcome_base": 27931
+                "magical_attack_power_base": 302
+            },
+            {},
+            {
+                "all_critical_power_base": 235,
+                "all_critical_strike_base": 100
+            },
+            {
+                "physical_overcome_base": 384
+            },
+            {
+                "magical_overcome_base": 336
+            },
+            {
+                "physical_shield_base": 450
+            },
+            {
+                "magical_shield_base": 450
+            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "weapon_damage_base": 57
+            },
+            {
+                "haste_base": 160
+            },
+            {},
+            {
+                "magical_overcome_base": 342
+            },
+            {
+                "physical_overcome_base": 393
+            },
+            {
+                "magical_shield_base": 171
+            },
+            {
+                "physical_shield_base": 171
+            },
+            {},
+            {
+                "magical_overcome_base": 427
+            },
+            {
+                "physical_overcome_base": 427
+            },
+            {
+                "physical_shield_base": 214
+            },
+            {
+                "magical_shield_base": 171
+            },
+            {},
+            {
+                "magical_overcome_base": 1409
+            },
+            {
+                "physical_overcome_base": 1409
+            },
+            {
+                "magical_shield_base": 704
+            },
+            {
+                "physical_shield_base": 704
+            },
+            {},
+            {
+                "magical_overcome_base": 1491
+            },
+            {
+                "physical_overcome_base": 1491
+            },
+            {
+                "magical_shield_base": 745
+            },
+            {
+                "physical_shield_base": 745
+            },
+            {},
+            {
+                "magical_overcome_base": 1831
+            },
+            {
+                "physical_overcome_base": 1831
+            },
+            {
+                "magical_shield_base": 916
+            },
+            {
+                "physical_shield_base": 916
+            },
+            {},
+            {
+                "magical_overcome_base": 1938
+            },
+            {
+                "physical_overcome_base": 1938
+            },
+            {
+                "magical_shield_base": 969
+            },
+            {
+                "physical_shield_base": 969
+            },
+            {},
+            {
+                "magical_overcome_base": 2113
+            },
+            {
+                "physical_overcome_base": 2113
+            },
+            {
+                "magical_shield_base": 1057
+            },
+            {
+                "physical_shield_base": 1057
+            },
+            {},
+            {
+                "magical_overcome_base": 2236
+            },
+            {
+                "physical_overcome_base": 2236
+            },
+            {
+                "magical_shield_base": 1118
+            },
+            {
+                "physical_shield_base": 1118
+            },
+            {},
+            {
+                "magical_overcome_base": 2395
+            },
+            {
+                "physical_overcome_base": 2395
+            },
+            {
+                "magical_shield_base": 1197
+            },
+            {
+                "physical_shield_base": 1197
+            },
+            {},
+            {
+                "magical_overcome_base": 2534
+            },
+            {
+                "physical_overcome_base": 2534
+            },
+            {
+                "magical_shield_base": 1267
+            },
+            {
+                "physical_shield_base": 1267
+            },
+            {},
+            {
+                "magical_overcome_base": 2883
+            },
+            {
+                "physical_overcome_base": 2883
+            },
+            {
+                "magical_shield_base": 1442
+            },
+            {
+                "physical_shield_base": 1442
+            },
+            {},
+            {
+                "magical_overcome_base": 3053
+            },
+            {
+                "physical_overcome_base": 3053
+            },
+            {
+                "magical_shield_base": 1526
+            },
+            {
+                "physical_shield_base": 1526
+            },
+            {},
+            {
+                "magical_overcome_base": 3845
+            },
+            {
+                "physical_overcome_base": 3845
+            },
+            {
+                "magical_shield_base": 1922
+            },
+            {
+                "physical_shield_base": 1922
+            },
+            {},
+            {
+                "magical_overcome_base": 4070
+            },
+            {
+                "physical_overcome_base": 4070
+            },
+            {
+                "magical_shield_base": 2035
+            },
+            {
+                "physical_shield_base": 2035
+            },
+            {},
+            {
+                "magical_overcome_base": 4165
+            },
+            {
+                "physical_overcome_base": 4165
+            },
+            {
+                "physical_shield_base": 2083
+            },
+            {},
+            {
+                "magical_overcome_base": 4410
+            },
+            {
+                "physical_overcome_base": 4410
+            },
+            {},
+            {
+                "magical_overcome_base": 4806
+            },
+            {
+                "physical_overcome_base": 4806
+            },
+            {
+                "physical_shield_base": 2403
+            },
+            {},
+            {
+                "magical_overcome_base": 5088
+            },
+            {
+                "physical_overcome_base": 5088
+            },
+            {},
+            {
+                "magical_overcome_base": 6408
+            },
+            {
+                "physical_overcome_base": 6408
+            },
+            {
+                "physical_shield_base": 3204
+            },
+            {},
+            {
+                "magical_overcome_base": 6784
+            },
+            {
+                "physical_overcome_base": 6784
+            },
+            {},
+            {
+                "magical_overcome_base": 8330
+            },
+            {
+                "physical_overcome_base": 8330
+            },
+            {
+                "physical_shield_base": 4165
+            },
+            {},
+            {
+                "magical_overcome_base": 8819
+            },
+            {
+                "physical_overcome_base": 8819
+            },
+            {},
+            {
+                "magical_overcome_base": 9291
+            },
+            {
+                "physical_overcome_base": 9291
+            },
+            {
+                "physical_shield_base": 4646
+            },
+            {},
+            {
+                "magical_overcome_base": 9837
+            },
+            {
+                "physical_overcome_base": 9837
+            },
+            {},
+            {
+                "magical_overcome_base": 10573
+            },
+            {
+                "physical_overcome_base": 10573
+            },
+            {
+                "physical_shield_base": 5286
+            },
+            {},
+            {
+                "magical_overcome_base": 11194
+            },
+            {
+                "physical_overcome_base": 11194
             }
         ],
-        "max_level": 2,
+        "max_level": 127,
         "buff_name": [
+            "风·鋭刃",
+            "风·激流",
+            "风·海纳",
+            "风·痛切",
+            "风·斩铁",
+            "风·灭气",
+            "风·守御",
+            "风·耐受",
+            "风·仇敌",
+            "风·灵动",
+            "风·不屈",
+            "风·锐眼",
+            "风·血魂",
+            "风·狂攻",
+            "风·急速",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·御灵",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·御灵",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
+            "风·灭虚",
+            "风·斩流",
+            "风·守山",
+            "风·百川",
             "风·灭虚",
             "风·斩流"
         ],
         "alias_name": [
-            "25900副本腰坠风·灭虚",
-            "25900副本腰坠风·斩流"
+            "特殊属性·风·1级·锐刃",
+            "特殊属性·风·1级·激流",
+            "特殊属性·风·1级·海纳",
+            "特殊属性·风·1级·痛切",
+            "特殊属性·风·1级·斩铁",
+            "特殊属性·风·1级·灭气",
+            "特殊属性·风·1级·守御",
+            "特殊属性·风·1级·耐受",
+            "特殊属性·风·1级·仇敌",
+            "特殊属性·风·1级·灵动",
+            "特殊属性·风·1级·不屈",
+            "特殊属性·风·1级·锐眼",
+            "特殊属性·风·1级·血魂",
+            "特殊属性·风·1级·狂攻",
+            "特殊属性·风·1级·急速",
+            "特殊属性·风·1级·百川",
+            "特殊属性·风·1级·灭虚",
+            "特殊属性·风·1级·斩流",
+            "特殊属性·风·1级·御灵",
+            "特殊属性·风·1级·守山",
+            "特殊属性·风·百川·1260",
+            "特殊属性·风·灭虚·1260",
+            "特殊属性·风·斩流·1260",
+            "特殊属性·风·守山·1260",
+            "特殊属性·风·1级·御灵·1260",
+            "2350品腰坠特殊属性·风·百川",
+            "2350品腰坠特殊属性·风·灭虚",
+            "2350品腰坠特殊属性·风·斩流",
+            "2350品腰坠特殊属性·风·御灵",
+            "2350品腰坠特殊属性·风·守山",
+            "2300阵营拍卖腰坠·风·百川",
+            "2300阵营拍卖腰坠·风·灭虚",
+            "2300阵营拍卖腰坠·风·斩流",
+            "2300阵营拍卖腰坠·风·御灵",
+            "2300阵营拍卖腰坠·风·守山",
+            "2600副本腰坠·风·百川",
+            "2600副本腰坠·风·灭虚",
+            "2600副本腰坠·风·斩流",
+            "2600副本腰坠·风·御灵",
+            "2600副本腰坠·风·守山",
+            "2600阵营拍卖腰坠·风·百川",
+            "2600阵营拍卖腰坠·风·灭虚",
+            "2600阵营拍卖腰坠·风·斩流",
+            "2600阵营拍卖腰坠·风·御灵",
+            "2600阵营拍卖腰坠·风·守山",
+            "2900副本腰坠·风·百川",
+            "2900副本腰坠·风·灭虚",
+            "2900副本腰坠·风·斩流",
+            "2900副本腰坠·风·御灵",
+            "2900副本腰坠·风·守山",
+            "2940阵营拍卖腰坠·风·百川",
+            "2940阵营拍卖腰坠·风·灭虚",
+            "2940阵营拍卖腰坠·风·斩流",
+            "2940阵营拍卖腰坠·风·御灵",
+            "2940阵营拍卖腰坠·风·守山",
+            "3250副本腰坠·风·百川",
+            "3250副本腰坠·风·灭虚",
+            "3250副本腰坠·风·斩流",
+            "3250副本腰坠·风·御灵",
+            "3250副本腰坠·风·守山",
+            "3300阵营拍卖腰坠·风·百川",
+            "3300阵营拍卖腰坠·风·灭虚",
+            "3300阵营拍卖腰坠·风·斩流",
+            "3300阵营拍卖腰坠·风·御灵",
+            "3300阵营拍卖腰坠·风·守山",
+            "5070副本腰坠·风·百川",
+            "5070副本腰坠·风·灭虚",
+            "5070副本腰坠·风·斩流",
+            "5070副本腰坠·风·御灵",
+            "5070副本腰坠·风·守山",
+            "46905140阵营拍卖腰坠·风·百川",
+            "46905140阵营拍卖腰坠·风·灭虚",
+            "46905140阵营拍卖腰坠·风·斩流",
+            "46905140阵营拍卖腰坠·风·御灵",
+            "46905140阵营拍卖腰坠·风·守山",
+            "5680副本腰坠·风·百川",
+            "5680副本腰坠·风·灭虚",
+            "5680副本腰坠·风·斩流",
+            "5680副本腰坠·风·御灵",
+            "5680副本腰坠·风·守山",
+            "5760阵营拍卖腰坠·风·百川",
+            "5760阵营拍卖腰坠·风·灭虚",
+            "5760阵营拍卖腰坠·风·斩流",
+            "5760阵营拍卖腰坠·风·御灵",
+            "5760阵营拍卖腰坠·风·守山",
+            "6340副本腰坠·风·百川",
+            "6340副本腰坠·风·灭虚",
+            "6340副本腰坠·风·斩流",
+            "6340副本腰坠·风·守山",
+            "6430阵营拍卖腰坠·风·百川",
+            "6430阵营拍卖腰坠·风·灭虚",
+            "6430阵营拍卖腰坠·风·斩流",
+            "7000副本腰坠·风·百川",
+            "7000副本腰坠·风·灭虚",
+            "7000副本腰坠·风·斩流",
+            "7000副本腰坠·风·守山",
+            "7500阵营拍卖腰坠·风·百川",
+            "7500阵营拍卖腰坠·风·灭虚",
+            "7500阵营拍卖腰坠·风·斩流",
+            "11150副本腰坠·风·百川",
+            "11150副本腰坠·风·灭虚",
+            "11150副本腰坠·风·斩流",
+            "11150副本腰坠·风·守山",
+            "1130011800阵营拍卖腰坠·风·百川",
+            "1130011800阵营拍卖腰坠·风·灭虚",
+            "1130011800阵营拍卖腰坠·风·斩流",
+            "12450副本腰坠·风·百川",
+            "12450副本腰坠·风·灭虚",
+            "12450副本腰坠·风·斩流",
+            "12450副本腰坠·风·守山",
+            "1260013200阵营拍卖腰坠·风·百川",
+            "1260013200阵营拍卖腰坠·风·灭虚",
+            "1260013200阵营拍卖腰坠·风·斩流",
+            "13950副本腰坠·风·百川",
+            "13950副本腰坠·风·灭虚",
+            "13950副本腰坠·风·斩流",
+            "13950副本腰坠·风·守山",
+            "1415014400阵营拍卖腰坠·风·百川",
+            "1415014400阵营拍卖腰坠·风·灭虚",
+            "1415014400阵营拍卖腰坠·风·斩流",
+            "15600副本腰坠·风·百川",
+            "15600副本腰坠·风·灭虚",
+            "15600副本腰坠·风·斩流",
+            "15600副本腰坠·风·守山",
+            "1540016100阵营拍卖腰坠·风·百川",
+            "1540016100阵营拍卖腰坠·风·灭虚",
+            "1540016100阵营拍卖腰坠·风·斩流"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -6838,17 +7369,9 @@ BUFFS = {
             {
                 "physical_attack_power_base": 549,
                 "magical_attack_power_base": 655
-            },
-            {
-                "physical_attack_power_base": 549,
-                "magical_attack_power_base": 655
-            },
-            {
-                "physical_attack_power_base": 549,
-                "magical_attack_power_base": 655
             }
         ],
-        "max_level": 14,
+        "max_level": 12,
         "alias_name": [
             "新附魔T头基础攻击",
             "新附魔T头基础攻击凌雪藏锋",
@@ -6861,9 +7384,7 @@ BUFFS = {
             "新附魔T头基础攻击横刀断浪1",
             "新附魔T头基础攻击",
             "新附魔T头基础攻击",
-            "新附魔T头基础攻击",
-            "新附魔T头基础攻击丝路风语_低品",
-            "新附魔T头基础攻击丝路风语_高品"
+            "新附魔T头基础攻击"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -9274,6 +9795,13 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    70221: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "移动端_丐帮_竹林内标记_自身",
+        "max_stack": 1,
+        "recipes": {}
+    },
     8244: {
         "attributes": [
             {
@@ -10333,59 +10861,6 @@ BUFFS = {
         "max_level": 1,
         "alias_name": "移动端_万灵_奇穴3-1_动物命中后的标记",
         "max_stack": 1,
-        "recipes": {}
-    },
-    29243: {
-        "attributes": {
-            "all_shield_ignore": 512
-        },
-        "max_level": 1,
-        "alias_name": "玉枕_无视防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29254: {
-        "attributes": {
-            "magical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "神门",
-        "alias_name": "神门增加攻击力",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29237: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "出岫",
-        "alias_name": "出岫云散期间增伤",
-        "max_stack": 1,
-        "recipes": {
-            5636: 1,
-            5637: 1,
-            5638: 1,
-            5639: 1
-        }
-    },
-    28756: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "经脉循行",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    71388: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "移动端_段氏_一阳指_秘章标记",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    71405: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "移动端_段氏_六脉化一_递进标记",
-        "max_stack": 5,
         "recipes": {}
     }
 }

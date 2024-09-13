@@ -570,6 +570,7 @@ class Major(AttackPower, CriticalStrike, Overcome):
 class Vitality:
     vitality_base: int = 0
     max_life_base: int = 0
+    max_life_add: int = 0
 
 
 class CriticalPower:

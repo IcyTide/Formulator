@@ -59,7 +59,7 @@ def get_stones_list():
                 node[attr] = {}
             node = node[attr]
             attributes[attr] = int(value)
-        node[level] = dict(level=int(level), attr=attributes)
+        node[level] = dict(name=row.Name, level=int(level), attr=attributes)
     return result
 
 

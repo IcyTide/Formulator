@@ -76,6 +76,13 @@ class BaseBuff:
         else:
             self._max_stack = [max_stack]
 
+    def __gt__(self, other: "BaseBuff"):
+        if abs(self.buff_id) > abs(other.buff_id):
+            return True
+        if self.buff_level > other.buff_level:
+            return True
+        return False
+
 
 @dataclass
 class Buff(BaseBuff):

@@ -252,13 +252,18 @@ class Parser(BaseParser):
         try:
             detail = parse_player(row)
             player_name = detail[1]
-            if player_id not in self.players:
-                self.players[player_id] = deepcopy(SUPPORT_KUNGFU[kungfu_id])
+
             if equipments := detail.get(5):
                 self.select_equipments[player_id] = self.parse_equipments(equipments.values())
             if talents := detail.get(6):
                 self.select_talents[player_id] = self.parse_talents(talents.values())
+                if player_id not in self.players:
+                    self.players[player_id] = deepcopy(SUPPORT_KUNGFU[kungfu_id])
                 self.players[player_id].platform = int(len(self.select_talents[player_id]) == MOBILE_MAX_TALENTS)
+                for talent_id in self.select_talents[player_id]:
+                    if (talent_id, 1) not in self.players[player_id].gains:
+                        self.players.pop(player_id)
+                        break
             self.id2name[player_id] = player_name
             self.name2id[player_name] = player_id
         except KeyError:

@@ -9,5 +9,10 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             12356: dict(frame_shift=-2),
             6398: dict(frame_shift=-2),
         }
+    },
+    1: {
+        Buff: {
+            70221: {}
+        }
     }
 }

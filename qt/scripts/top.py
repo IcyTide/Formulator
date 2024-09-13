@@ -45,7 +45,7 @@ def top_script(
             end_frame=parser.end_frame,
             id2name=parser.id2name,
             name2id=parser.name2id,
-            players={player_id: kungfu.id for player_id, kungfu in parser.players.items()},
+            players={player_id: kungfu.kungfu_id for player_id, kungfu in parser.players.items()},
             targets=parser.targets,
             select_talents=parser.select_talents,
             select_equipments=parser.select_equipments,
