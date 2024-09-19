@@ -550,16 +550,14 @@ RECIPES = {
     1115: {
         3: {
             "damage_addition": 102,
-            "skill_id": 301,
-            "recipe_type": 301,
+            "skill_id": 1,
             "recipe_name": "两仪伤害3"
         }
     },
     1216: {
         1: {
             "damage_addition": 102,
-            "skill_id": 368,
-            "recipe_type": 368,
+            "skill_id": 1,
             "recipe_name": "气纯_六合伤害提高10%"
         }
     },
@@ -589,6 +587,13 @@ RECIPES = {
             "damage_addition": 614,
             "skill_id": 18653,
             "recipe_name": "重光飞剑伤害四次递增"
+        }
+    },
+    2963: {
+        1: {
+            "damage_addition": 308,
+            "skill_id": 1,
+            "recipe_name": "新无极_太极无极加伤害"
         }
     },
     4602: {
@@ -1414,8 +1419,7 @@ RECIPES = {
     4038: {
         3: {
             "damage_addition": 102,
-            "skill_id": 400,
-            "recipe_type": 400,
+            "skill_id": 1,
             "recipe_name": "穿云伤害3"
         }
     },
@@ -4366,21 +4370,21 @@ RECIPES = {
     },
     2927: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "recipe_type": 14064,
             "recipe_name": "新书离_宫百分之十伤害"
         }
     },
     2930: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "recipe_type": 14067,
             "recipe_name": "新书离_徵百分之十伤害"
         }
     },
     2931: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "recipe_type": 14068,
             "recipe_name": "新书离_羽百分之十伤害"
         }
@@ -4727,6 +4731,30 @@ RECIPES = {
             "recipe_name": "《秀明尘身·破釜沉舟》参悟绝章"
         }
     },
+    4159: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》参悟残页"
+        }
+    },
+    4160: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》参悟断篇"
+        }
+    },
+    4161: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》参悟绝章"
+        }
+    },
     4167: {
         1: {
             "damage_addition": 41,
@@ -4741,6 +4769,30 @@ RECIPES = {
             "skill_id": 16027,
             "recipe_type": 16027,
             "recipe_name": "《雪絮金屏·刀啸风吟》参悟绝章"
+        }
+    },
+    4175: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》参悟残页"
+        }
+    },
+    4176: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》参悟断篇"
+        }
+    },
+    4177: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》参悟绝章"
         }
     },
     4183: {
@@ -4847,6 +4899,75 @@ RECIPES = {
             "recipe_name": "霸刀破釜沉舟不透支"
         }
     },
+    2509: {
+        1: {
+            "damage_addition": 256,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "新砺锋醉斩加伤害"
+        }
+    },
+    2474: {
+        1: {
+            "skill_id": 16085,
+            "recipe_name": "醉斩减读条"
+        }
+    },
+    4257: {
+        1: {
+            "damage_addition": 256,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增5%"
+        }
+    },
+    4258: {
+        1: {
+            "damage_addition": 512,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增10%"
+        }
+    },
+    4259: {
+        1: {
+            "damage_addition": 768,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增15%"
+        }
+    },
+    4260: {
+        1: {
+            "damage_addition": 1024,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增20%"
+        }
+    },
+    4261: {
+        1: {
+            "damage_addition": 1280,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增25%"
+        }
+    },
+    4262: {
+        1: {
+            "damage_addition": 1536,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增30%"
+        }
+    },
+    4263: {
+        1: {
+            "skill_id": 16085,
+            "recipe_name": "醉斩白蛇触发6秒调息"
+        }
+    },
+    4264: {
+        1: {
+            "damage_addition": 1792,
+            "recipe_type": 16085,
+            "recipe_name": "醉斩白蛇会心递增35%"
+        }
+    },
     4290: {
         1: {
             "damage_addition": 102,
@@ -4900,11 +5021,25 @@ RECIPES = {
             "recipe_name": "《秀明尘身·破釜沉舟》秘诀残页"
         }
     },
+    4156: {
+        1: {
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》秘诀残页"
+        }
+    },
     4164: {
         1: {
             "skill_id": 16027,
             "recipe_type": 16027,
             "recipe_name": "《雪絮金屏·刀啸风吟》秘诀残页"
+        }
+    },
+    4172: {
+        1: {
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》秘诀残页"
         }
     },
     4180: {
@@ -4942,11 +5077,25 @@ RECIPES = {
             "recipe_name": "《秀明尘身·破釜沉舟》秘诀断篇"
         }
     },
+    4157: {
+        1: {
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》秘诀断篇"
+        }
+    },
     4165: {
         1: {
             "skill_id": 16027,
             "recipe_type": 16027,
             "recipe_name": "《雪絮金屏·刀啸风吟》秘诀断篇"
+        }
+    },
+    4173: {
+        1: {
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》秘诀断篇"
         }
     },
     4181: {
@@ -4984,11 +5133,25 @@ RECIPES = {
             "recipe_name": "《秀明尘身·破釜沉舟》秘诀绝章"
         }
     },
+    4158: {
+        1: {
+            "skill_id": 16304,
+            "recipe_type": 16304,
+            "recipe_name": "《松烟竹雾·碎江天》秘诀绝章"
+        }
+    },
     4166: {
         1: {
             "skill_id": 16027,
             "recipe_type": 16027,
             "recipe_name": "《雪絮金屏·刀啸风吟》秘诀绝章"
+        }
+    },
+    4174: {
+        1: {
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "《雪絮金屏·醉斩白蛇》秘诀绝章"
         }
     },
     4182: {
@@ -5451,8 +5614,7 @@ RECIPES = {
     },
     3270: {
         1: {
-            "skill_id": 20259,
-            "recipe_type": 20259,
+            "skill_id": 1,
             "recipe_name": "振翅图南非侠士"
         }
     },
@@ -6878,6 +7040,14 @@ RECIPES = {
             "recipe_name": "起落势伤害提高120%"
         }
     },
+    3010: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 32132,
+            "recipe_type": 32132,
+            "recipe_name": "纷绞势伤害提高10%"
+        }
+    },
     5584: {
         1: {
             "damage_addition": 82,
@@ -7089,8 +7259,7 @@ RECIPES = {
     },
     5588: {
         1: {
-            "skill_id": 32134,
-            "recipe_type": 32134,
+            "skill_id": 1,
             "recipe_name": "诀云非侠士100%"
         }
     },

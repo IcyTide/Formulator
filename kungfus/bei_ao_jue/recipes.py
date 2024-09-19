@@ -22,7 +22,7 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
 
     def add_skills(self, skills: Dict[int, Skill]):
         skills[32823].physical_shield_gain = [self.value, 0, 0, self.value]
-        skills[37458].physical_shield_gain = self.value
+        skills[38537].physical_shield_gain = self.value
         return super().add_skills(skills)
 
     def sub_skill(self, skill: Skill):
@@ -31,7 +31,7 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[32823].physical_shield_gain = 0
-        skills[37458].physical_shield_gain = 0
+        skills[38537].physical_shield_gain = 0
         super().sub_skills(skills)
 
 
@@ -45,18 +45,22 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4127: dict(clone_id=16629), 4128: dict(clone_id=16629), 4129: dict(clone_id=16629),
             4143: {}, 4144: {}, 4145: {},
             4151: {}, 4152: {}, 4153: {},
+            4159: {}, 4160: {}, 4161: {},
             4167: {}, 4168: {},
+            4175: {}, 4176: {}, 4177: {},
             4183: {}, 4184: {}, 4185: {},
             4374: {}, 4375: {}, 4376: {},
             **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)},
-            3251: {},
+            3251: {}, 2509: {}, 2474: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
             4290: {}, 4291: {}, 4294: {}, 4295: {}
         },
         CriticalStrikeRecipe_200: {
             4124: dict(clone_id=16629),
             4140: {},
             4148: {},
+            4156: {},
             4164: {},
+            4172: {},
             4180: {},
             4371: {},
         },
@@ -64,7 +68,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4125: dict(clone_id=16629),
             4141: {},
             4149: {},
+            4157: {},
             4165: {},
+            4173: {},
             4181: {},
             4372: {}
         },
@@ -72,7 +78,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4126: dict(clone_id=16629),
             4142: {},
             4150: {},
+            4158: {},
             4166: {},
+            4174: {},
             4182: {},
             4373: {}
         },
@@ -124,12 +132,28 @@ RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
             "增加会心3%": 4149,
             "增加会心2%": 4148,
         },
+        "碎江天": {
+            "增加伤害5%": 4161,
+            "增加伤害4%": 4160,
+            "增加会心4%": 4158,
+            "增加伤害3%": 4159,
+            "增加会心3%": 4157,
+            "增加会心2%": 4156,
+        },
         "刀啸风吟": {
             "增加伤害5%": 4168,
             "增加伤害4%": 4167,
             "增加会心4%": 4166,
             "增加会心3%": 4165,
             "增加会心2%": 4164,
+        },
+        "醉斩白蛇": {
+            "增加伤害5%": 4177,
+            "增加伤害4%": 4176,
+            "增加会心4%": 4174,
+            "增加伤害3%": 4175,
+            "增加会心3%": 4173,
+            "增加会心2%": 4172,
         },
         "擒龙六斩": {
             "增加伤害5%": 4185,

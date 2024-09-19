@@ -25,13 +25,16 @@ class 跬步判定(Skill):
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
-            18121: dict(channel_interval=21), 32813: {}, 303: {}, 896: {}, 18670: {}, 22014: {}, 36439: {}, 25770: {},
+            18121: dict(channel_interval=21), 32813: {}, 303: {}, 305: {}, 896: {}, 2299: {}, 2329: {}, 18670: {},
+            22014: {}, 36439: {}, 25770: {}, 24944: {}, 21716: {}, 21860: {}, 28379: {}, 30825: {}, 34633: {},
+            34634: {}, 32414: {}, 36102: {}, 28590: {},
             2681: dict(post_buffs={2757: {1: 1}}),
             **{skill_id: {} for skill_id in range(327, 331 + 1)},
             **{skill_id: {} for skill_id in range(461, 465 + 1)},
             **{skill_id: {} for skill_id in range(3439, 3448 + 1)},
             **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
             **{skill_id: {} for skill_id in range(18649, 18653 + 1)},
+            **{skill_id: {} for skill_id in range(466, 475 + 1)},
             33592: dict(bind_dot=6424)
         },
         跬步判定: {18698: {}}

@@ -31,6 +31,7 @@ class 嗜蛊(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
+            6618: Gain("尻尾"),
             6620: Gain("蝎毒")
         },
         {
@@ -52,10 +53,10 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             34640: Gain("忘情")
         },
         {
-            30088: 嗜蛊("嗜蛊")
+            30088: 嗜蛊("嗜蛊"),
+            25040: Gain("曲致", buff_ids=[-17988], recipes=[(-134, 1)]),
         },
         {
-            25040: Gain("曲致", buff_ids=[-17988], recipes=[(-134, 1)]),
             18330: Gain("固灵")
         },
         {

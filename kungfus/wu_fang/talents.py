@@ -46,7 +46,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             27530: Gain("川谷", recipes=[(2541, 1)])
         },
         {
-            28344: Gain("鸩羽", recipes=[(2549, 1)])
+            28344: Gain("鸩羽", recipes=[(2549, 1)]),
+            38631: Gain("连茹")
         },
         {
             28361: Gain("结草")
@@ -59,7 +60,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             28406: Gain("遍休")
         },
         {
-            28410: Gain("坚阴")
+            28410: Gain("坚阴"),
+            38632: Gain("汲刺")
         },
         {
             28413: Gain("相使")

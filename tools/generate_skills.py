@@ -113,6 +113,8 @@ def prepare_lua_engine(preset_lua):
     engine.execute(preset_lua)
     with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="gbk") as f:
         engine.execute(INCLUDE_PATTERN.sub('', f.read()))
+    with open(os.path.join(BASE_DIR, "scripts/include/NewSkill.lh"), encoding="gbk") as f:
+        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
     return engine
 
 
@@ -303,7 +305,7 @@ def collect_result():
             if not skill.physical_damage_call and skill.weapon_damage_cof:
                 del skill.weapon_damage_cof
 
-            result.append(skill.__dict__.copy())
+            result.append(vars(skill).copy())
     return pd.DataFrame(result)
 
 

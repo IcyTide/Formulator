@@ -148,7 +148,7 @@ def collect_result():
             attribute.max_level = max_level
             lua_engine.globals()['GetSkillLevelData'](attribute)
 
-            result.append(attribute.__dict__.copy())
+            result.append(vars(attribute).copy())
     return pd.DataFrame(result)
 
 

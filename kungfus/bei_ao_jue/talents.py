@@ -5,14 +5,6 @@ from base.skill import Skill
 from kungfus.bei_ao_jue.skills import 项王击鼎秘章
 
 
-class 含风(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        pass
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        pass
-
-
 class 征踏(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
@@ -55,38 +47,44 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16691: Gain("龙息")
         },
         {
-            16847: Gain("归酣")
+            16847: Gain("归酣"),
+            16816: Gain("碎影")
         },
         {
             17042: Gain("阳关", recipes=[(4298, 1)]),
             26904: Gain("冥鼓", recipes=[(2510, 1), (2511, 1)])
         },
         {
-            16799: Gain("霜天")
+            16799: Gain("霜天"),
+            16728: Gain("星火", attributes=dict(strength_gain=102)),
         },
         {
-            25633: 含风("含风")
+            26735: Gain("砺锋"),
+            16724: Gain("击瑕")
         },
         {
             32857: Gain("见尘"),
             37982: Gain("临江")
         },
         {
-            17047: Gain("分疆")
+            17047: Gain("分疆"),
+            16733: Gain("斩纷")
         },
         {
             25258: Gain("掠关"),
-            16728: Gain("星火", attributes=dict(strength_gain=102)),
+            16779: Gain("化蛟"),
             34677: Gain("绝河", recipes=[(3251, 1)])
         },
         {
-            16737: Gain("楚歌")
+            38535: Gain("楚歌")
         },
         {
             17056: Gain("绝期", recipes=[(4319, 1), (2833, 1)])
         },
         {
-            16893: Gain("重烟")
+            25633: Gain("含风"),
+            16893: Gain("重烟"),
+            16977: Gain("冷川")
         },
         {
             21858: Gain("降麒式")

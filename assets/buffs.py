@@ -4576,12 +4576,12 @@ BUFFS = {
                 "physical_overcome_base": 1218
             },
             {
-                "magical_overcome_base": 1218,
-                "physical_overcome_base": 1218
+                "magical_overcome_base": 2376,
+                "physical_overcome_base": 2376
             },
             {
-                "magical_overcome_base": 1218,
-                "physical_overcome_base": 1218
+                "magical_overcome_base": 2611,
+                "physical_overcome_base": 2611
             }
         ],
         "max_level": 14,
@@ -4807,14 +4807,14 @@ BUFFS = {
                 "spirit_base": 28
             },
             {
-                "magical_attack_power_base": 199
+                "magical_attack_power_base": 171
             },
             {
-                "physical_attack_power_base": 179
+                "physical_attack_power_base": 153
             },
             {
-                "physical_shield_base": 329,
-                "magical_shield_base": 329
+                "physical_shield_base": 282,
+                "magical_shield_base": 282
             }
         ],
         "max_level": 73,
@@ -4974,20 +4974,33 @@ BUFFS = {
     29268: {
         "attributes": [
             {
-                "magical_overcome_base": 27931
+                "magical_overcome_base": 23988
             },
             {
-                "physical_overcome_base": 27931
+                "physical_overcome_base": 23988
+            },
+            {},
+            {
+                "magical_overcome_base": 25404
+            },
+            {
+                "physical_overcome_base": 25404
             }
         ],
-        "max_level": 2,
+        "max_level": 5,
         "buff_name": [
+            "风·灭虚",
+            "风·斩流",
+            "风·百川",
             "风·灭虚",
             "风·斩流"
         ],
         "alias_name": [
             "25900副本腰坠风·灭虚",
-            "25900副本腰坠风·斩流"
+            "25900副本腰坠风·斩流",
+            "2660028200拍卖腰坠风·百川",
+            "2660028200拍卖腰坠风·灭虚",
+            "2660028200拍卖腰坠风·斩流"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -6588,22 +6601,22 @@ BUFFS = {
     },
     20938: {
         "attributes": {
-            "surplus_base": 54
+            "strain_base": 90
         },
         "max_level": 1,
         "buff_name": "左旋右转",
         "alias_name": "左旋右转加破招",
-        "max_stack": 150,
+        "max_stack": 100,
         "recipes": {}
     },
     23107: {
         "attributes": {
-            "strain_base": 500
+            "strain_base": 540
         },
         "max_level": 1,
         "buff_name": "号令三军",
         "alias_name": "[23107]新号令三军",
-        "max_stack": 48,
+        "max_stack": 100,
         "recipes": {}
     },
     6363: {
@@ -6638,12 +6651,12 @@ BUFFS = {
     },
     10208: {
         "attributes": {
-            "strain_base": 500
+            "strain_base": 600
         },
         "max_level": 1,
         "buff_name": "弘法",
         "alias_name": "弘法",
-        "max_stack": 36,
+        "max_stack": 100,
         "recipes": {}
     },
     24350: {
@@ -6683,23 +6696,22 @@ BUFFS = {
     },
     24742: {
         "attributes": {
-            "magical_damage_addition": 154,
-            "physical_damage_addition": 154
+            "strain_base": 324
         },
         "max_level": 1,
         "buff_name": "仙王蛊鼎",
         "alias_name": "仙王蛊鼎增益",
-        "max_stack": 1,
+        "max_stack": 100,
         "recipes": {}
     },
     4246: {
         "attributes": {
-            "strain_base": 500
+            "strain_base": 400
         },
         "max_level": 1,
         "buff_name": "朝圣",
         "alias_name": "明教_朝圣言_团队增益",
-        "max_stack": 24,
+        "max_stack": 100,
         "recipes": {}
     },
     8504: {
@@ -6729,12 +6741,12 @@ BUFFS = {
     },
     23543: {
         "attributes": {
-            "strain_base": 50
+            "strain_base": 72
         },
         "max_level": 1,
         "buff_name": "庄周梦",
         "alias_name": "庄周梦_梅花三弄独立buff",
-        "max_stack": 200,
+        "max_stack": 100,
         "recipes": {}
     },
     11456: {
@@ -6766,12 +6778,12 @@ BUFFS = {
     },
     9744: {
         "attributes": {
-            "strain_base": 875
+            "strain_base": 600
         },
         "max_level": 1,
         "buff_name": "朝圣",
         "alias_name": "朝圣言30%AP附加无威胁气劲",
-        "max_stack": 24,
+        "max_stack": 100,
         "recipes": {}
     },
     16911: {
@@ -6840,12 +6852,12 @@ BUFFS = {
                 "magical_attack_power_base": 655
             },
             {
-                "physical_attack_power_base": 549,
-                "magical_attack_power_base": 655
+                "physical_attack_power_base": 646,
+                "magical_attack_power_base": 719
             },
             {
-                "physical_attack_power_base": 549,
-                "magical_attack_power_base": 655
+                "physical_attack_power_base": 710,
+                "magical_attack_power_base": 791
             }
         ],
         "max_level": 14,
@@ -7053,7 +7065,7 @@ BUFFS = {
                 "physical_shield_base": -300
             },
             {
-                "physical_shield_base": -1150
+                "physical_shield_base": -3500
             }
         ],
         "max_level": 30,
@@ -7427,7 +7439,7 @@ BUFFS = {
                 "physical_shield_base": -400
             },
             {
-                "physical_shield_base": -1397
+                "physical_shield_base": -4655
             }
         ],
         "max_level": 30,
@@ -7539,12 +7551,7 @@ BUFFS = {
         "buff_name": "布泽",
         "alias_name": "布泽_普渡增加伤害",
         "max_stack": 1,
-        "recipes": {
-            5543: 1,
-            5544: 1,
-            5564: 1,
-            5568: 1
-        }
+        "recipes": {}
     },
     890: {
         "attributes": {},
@@ -7574,13 +7581,13 @@ BUFFS = {
     12590: {
         "attributes": [
             {
-                "magical_attack_power_gain": 82
+                "strain_base": 4000
             },
             {
-                "magical_attack_power_gain": 164
+                "strain_base": 8000
             },
             {
-                "magical_attack_power_gain": 246
+                "strain_base": 12000
             }
         ],
         "max_level": 3,
@@ -7663,6 +7670,16 @@ BUFFS = {
         "recipes": {
             3253: 1
         }
+    },
+    6103: {
+        "attributes": {
+            "neutral_attack_power_gain": 256
+        },
+        "max_level": 1,
+        "buff_name": "有涯",
+        "alias_name": "纯阳_下一招会心提高",
+        "max_stack": 1,
+        "recipes": {}
     },
     12779: {
         "attributes": {},
@@ -7866,8 +7883,7 @@ BUFFS = {
     },
     28116: {
         "attributes": {
-            "magical_attack_power_gain": 102,
-            "surplus_gain": 102
+            "magical_attack_power_gain": 154
         },
         "max_level": 1,
         "buff_name": "钟灵",
@@ -8145,7 +8161,7 @@ BUFFS = {
                 "lunar_attack_power_gain": 30
             },
             {
-                "lunar_attack_power_gain": 31
+                "lunar_attack_power_gain": 15
             },
             {
                 "lunar_attack_power_base": 204
@@ -8348,7 +8364,7 @@ BUFFS = {
     },
     70704: {
         "attributes": {
-            "all_damage_addition": 52
+            "all_damage_addition": 62
         },
         "max_level": 1,
         "buff_name": "见月",
@@ -8377,7 +8393,8 @@ BUFFS = {
                 "physical_attack_power_gain": 154
             },
             {
-                "physical_critical_strike_rate": 2000
+                "physical_critical_strike_rate": 2000,
+                "strain_gain": 512
             },
             {
                 "physical_critical_strike_rate": 2000,
@@ -8482,9 +8499,7 @@ BUFFS = {
             {
                 2910: 1
             },
-            {
-                2910: 1
-            },
+            {},
             {},
             {},
             {},
@@ -8843,9 +8858,7 @@ BUFFS = {
         }
     },
     23074: {
-        "attributes": {
-            "all_damage_addition": 103
-        },
+        "attributes": {},
         "max_level": 1,
         "alias_name": "逐一击破稳定加10%",
         "max_stack": 1,
@@ -9345,7 +9358,8 @@ BUFFS = {
     },
     27161: {
         "attributes": {
-            "physical_attack_power_gain": 102
+            "physical_attack_power_gain": 102,
+            "strain_rate": 300
         },
         "max_level": 1,
         "buff_name": "血怒·惊涌",
@@ -9718,15 +9732,71 @@ BUFFS = {
             }
         ]
     },
-    14972: {
+    19510: {
+        "attributes": {
+            "physical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "斩纷",
+        "alias_name": "斩纷加基础攻击",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    19244: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新砺锋减读条",
+        "max_stack": 1,
+        "recipes": {
+            2474: 1
+        }
+    },
+    29218: {
         "attributes": {
             "all_damage_addition": 205
         },
         "max_level": 1,
-        "buff_name": "爆体",
-        "alias_name": "双刀爆体效果",
+        "alias_name": "新爆体大刀下伤害提升",
         "max_stack": 1,
         "recipes": {}
+    },
+    11221: {
+        "attributes": {},
+        "max_level": 7,
+        "alias_name": "醉斩白蛇伤害递增实际效果",
+        "max_stack": 1,
+        "recipes": [
+            {
+                4257: 1
+            },
+            {
+                4258: 1
+            },
+            {
+                4259: 1
+            },
+            {
+                4260: 1
+            },
+            {
+                4261: 1
+            },
+            {
+                4262: 1
+            },
+            {
+                4264: 1
+            }
+        ]
+    },
+    19499: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新砺锋醉斩加25伤害",
+        "max_stack": 1,
+        "recipes": {
+            2509: 1
+        }
     },
     71047: {
         "attributes": {},
@@ -9748,7 +9818,7 @@ BUFFS = {
                 "physical_attack_power_gain": 102
             },
             {
-                "physical_attack_power_gain": 205
+                "physical_attack_power_gain": 307
             }
         ],
         "max_level": 2,
@@ -10326,8 +10396,8 @@ BUFFS = {
     },
     71172: {
         "attributes": {
-            "physical_damage_addition": 31,
-            "magical_damage_addition": 31
+            "physical_damage_addition": 21,
+            "magical_damage_addition": 21
         },
         "max_level": 1,
         "buff_name": "伤害提高",

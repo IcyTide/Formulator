@@ -5,7 +5,8 @@ from base.gain import Gain
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
-            32450: Gain("渊冲", recipes=[(3011, 1)])
+            32450: Gain("渊冲", recipes=[(3011, 1)]),
+            32449: Gain("中峙", recipes=[(3010, 1)])
         },
         {
             32580: Gain("戗风", recipes=[(5584, 1), (5585, 1), (5586, 1)])
@@ -42,7 +43,6 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             32493: Gain("流岚"),
-            32452: Gain("聚疏")
         },
         {
             36035: Gain("潋风"),
