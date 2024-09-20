@@ -93,7 +93,8 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "万花")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-23305]), 0, 0)
+        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[29294]), 0, 0)
+        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[29294]), 0, 1)
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24350]), 1, 0)
 
         tab = QWidget()
@@ -113,7 +114,8 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "五毒")
 
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24742]), 0, 0)
+        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[24742]), 0, 0)
+        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24742]), 0, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
@@ -158,6 +160,7 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "药宗")
 
         tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[20877]), 0, 0)
+        # tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[20854]), 1, 0)
 
         layout.addStretch()
 
@@ -170,26 +173,27 @@ class TeamGainsWidget(QWidget):
     def set_default(self):
         if not self.team_gains["袖气"].radio_button.isChecked():
             self.team_gains["袖气"].radio_button.click()
-        self.team_gains["左旋右转"]["stack"].spin_box.setValue(120)
+        self.team_gains["左旋右转"]["stack"].spin_box.setValue(80)
         self.team_gains["左旋右转"]["rate"].spin_box.setValue(100)
 
         if not self.team_gains["撼如雷"].radio_button.isChecked():
             self.team_gains["撼如雷"].radio_button.click()
         self.team_gains["破风"]["variety"].combo_box.setCurrentText("劲风")
         self.team_gains["破甲"]["rate"].spin_box.setValue(33)
-        self.team_gains["号令三军"]["stack"].spin_box.setValue(48)
+        self.team_gains["号令三军"]["stack"].spin_box.setValue(80)
         self.team_gains["号令三军"]["rate"].spin_box.setValue(20)
 
         if not self.team_gains["立地成佛"].radio_button.isChecked():
             self.team_gains["立地成佛"].radio_button.click()
-        self.team_gains["弘法"]["stack"].spin_box.setValue(36)
+        self.team_gains["弘法"]["stack"].spin_box.setValue(80)
         self.team_gains["弘法"]["rate"].spin_box.setValue(50)
 
-        if not self.team_gains["秋肃"].radio_button.isChecked():
-            self.team_gains["秋肃"].radio_button.click()
+        self.team_gains["秋肃"]["stack"].spin_box.setValue(80)
+        self.team_gains["秋肃"]["rate"].spin_box.setValue(100)
         self.team_gains["皎素"]["rate"].spin_box.setValue(14)
 
-        self.team_gains["仙王蛊鼎"]["rate"].spin_box.setValue(21)
+        self.team_gains["仙王蛊鼎"]["stack"].spin_box.setValue(80)
+        self.team_gains["仙王蛊鼎"]["rate"].spin_box.setValue(100)
 
         if not self.team_gains["戒火"].radio_button.isChecked():
             self.team_gains["戒火"].radio_button.click()
@@ -199,12 +203,12 @@ class TeamGainsWidget(QWidget):
 
         if not self.team_gains["虚弱"].radio_button.isChecked():
             self.team_gains["虚弱"].radio_button.click()
-        self.team_gains["振奋"]["stack"].spin_box.setValue(87)
+        self.team_gains["振奋"]["stack"].spin_box.setValue(100)
         self.team_gains["振奋"]["rate"].spin_box.setValue(100)
         self.team_gains["寒啸千军"]["rate"].spin_box.setValue(50)
 
-        self.team_gains["庄周梦"]["stack"].spin_box.setValue(120)
-        self.team_gains["庄周梦"]["rate"].spin_box.setValue(75)
+        self.team_gains["庄周梦"]["stack"].spin_box.setValue(80)
+        self.team_gains["庄周梦"]["rate"].spin_box.setValue(100)
 
         self.team_gains["配伍"]["rate"].spin_box.setValue(100)
 

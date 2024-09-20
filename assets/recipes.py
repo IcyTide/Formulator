@@ -596,6 +596,14 @@ RECIPES = {
             "recipe_name": "新无极_太极无极加伤害"
         }
     },
+    4682: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 301,
+            "recipe_type": 301,
+            "recipe_name": "两仪伤害提高30%"
+        }
+    },
     4602: {
         1: {
             "damage_addition": 102,
@@ -817,6 +825,14 @@ RECIPES = {
             "skill_id": 365,
             "recipe_type": 365,
             "recipe_name": "无我伤害提高30%"
+        }
+    },
+    2860: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 365,
+            "recipe_type": 365,
+            "recipe_name": "无我无剑减疗增伤"
         }
     },
     1522: {
@@ -1416,13 +1432,6 @@ RECIPES = {
             "recipe_name": "战意提高25%灭伤害"
         }
     },
-    4038: {
-        3: {
-            "damage_addition": 102,
-            "skill_id": 1,
-            "recipe_name": "穿云伤害3"
-        }
-    },
     1508: {
         1: {
             "damage_addition": 51,
@@ -1449,6 +1458,13 @@ RECIPES = {
             "skill_id": 415,
             "recipe_type": 415,
             "recipe_name": "龙牙会心提高"
+        }
+    },
+    5649: {
+        1: {
+            "skill_id": 403,
+            "recipe_type": 403,
+            "recipe_name": "龙吟会心会效提高10%"
         }
     },
     4686: {
@@ -1638,6 +1654,14 @@ RECIPES = {
             "skill_id": 553,
             "recipe_type": 553,
             "recipe_name": "江海凝光伤害提高10%"
+        }
+    },
+    5634: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "盈袖玳弦急曲伤害提高10%"
         }
     },
     1547: {
@@ -2350,6 +2374,14 @@ RECIPES = {
             "recipe_name": "重蛊_提高蚀心蛊伤害"
         }
     },
+    677: {
+        2: {
+            "damage_addition": 102,
+            "skill_id": 2209,
+            "recipe_type": 2209,
+            "recipe_name": "蝎心攻2"
+        }
+    },
     2513: {
         1: {
             "damage_addition": 819,
@@ -2376,6 +2408,14 @@ RECIPES = {
             "damage_addition": 3277,
             "skill_id": 25044,
             "recipe_name": "连缘蛊四毒加成"
+        }
+    },
+    5608: {
+        1: {
+            "damage_addition": 410,
+            "skill_id": 2209,
+            "recipe_type": 2209,
+            "recipe_name": "新蝎心增伤"
         }
     },
     1529: {
@@ -5398,6 +5438,30 @@ RECIPES = {
             "recipe_name": "翼绝云天伤害提高10%"
         }
     },
+    5663: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 19818,
+            "recipe_type": 19818,
+            "recipe_name": "清源木落伤害提升"
+        }
+    },
+    5664: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 19818,
+            "recipe_type": 19818,
+            "recipe_name": "清源木落伤害提升2"
+        }
+    },
+    5665: {
+        1: {
+            "damage_addition": 461,
+            "skill_id": 19818,
+            "recipe_type": 19818,
+            "recipe_name": "清源木落伤害提升3"
+        }
+    },
     4816: {
         1: {
             "damage_addition": 102,
@@ -5428,6 +5492,86 @@ RECIPES = {
             "skill_id": 19827,
             "recipe_type": 19827,
             "recipe_name": "蓬莱大橙武翼绝云天伤害5%"
+        }
+    },
+    2485: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 20083,
+            "recipe_type": 20083,
+            "recipe_name": "溟海加8%"
+        }
+    },
+    2486: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 20083,
+            "recipe_type": 20083,
+            "recipe_name": "溟海加16%"
+        }
+    },
+    2487: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 20083,
+            "recipe_type": 20083,
+            "recipe_name": "溟海加24%"
+        }
+    },
+    2488: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 20715,
+            "recipe_type": 20715,
+            "recipe_name": "海运8%"
+        }
+    },
+    2489: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 20715,
+            "recipe_type": 20715,
+            "recipe_name": "海运16%"
+        }
+    },
+    2490: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 20715,
+            "recipe_type": 20715,
+            "recipe_name": "海运24%"
+        }
+    },
+    2491: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 20084,
+            "recipe_type": 20084,
+            "recipe_name": "逐波8%"
+        }
+    },
+    2492: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 20084,
+            "recipe_type": 20084,
+            "recipe_name": "逐波16%"
+        }
+    },
+    2493: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 20084,
+            "recipe_type": 20084,
+            "recipe_name": "逐波24%"
+        }
+    },
+    5390: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 20083,
+            "recipe_type": 20083,
+            "recipe_name": "冥海伤害15"
         }
     },
     2478: {
@@ -5570,6 +5714,27 @@ RECIPES = {
             "recipe_name": "蓬莱小橙武海运南冥会心提高5%"
         }
     },
+    5666: {
+        1: {
+            "skill_id": 20083,
+            "recipe_type": 20083,
+            "recipe_name": "新鸿轨溟海加伤害"
+        }
+    },
+    5667: {
+        1: {
+            "skill_id": 20715,
+            "recipe_type": 20715,
+            "recipe_name": "新鸿轨海运加伤害"
+        }
+    },
+    5675: {
+        1: {
+            "skill_id": 20084,
+            "recipe_type": 20084,
+            "recipe_name": "新鸿轨逐波加伤害"
+        }
+    },
     4784: {
         1: {
             "skill_id": 20053,
@@ -5610,12 +5775,6 @@ RECIPES = {
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "木落双会"
-        }
-    },
-    3270: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "振翅图南非侠士"
         }
     },
     17409: {

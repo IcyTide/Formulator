@@ -44,6 +44,7 @@ class 裁魂(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
+            17045: Gain("孤漠"),
             16691: Gain("龙息")
         },
         {

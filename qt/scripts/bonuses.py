@@ -15,11 +15,7 @@ class Bonuses(dict):
         if not self.activate:
             return []
 
-        gains = list(self.values())
-        if "秋肃" in self and "戒火" in self:
-            gains.remove(self["戒火"])
-
-        return gains
+        return list(self.values())
 
 
 def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):

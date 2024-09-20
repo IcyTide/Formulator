@@ -6776,6 +6776,24 @@ BUFFS = {
         "max_stack": 5,
         "recipes": {}
     },
+    29294: {
+        "attributes": {
+            "strain_base": 90
+        },
+        "max_level": 1,
+        "buff_name": "秋肃",
+        "alias_name": "秋肃加无双",
+        "max_stack": 100,
+        "recipes": {}
+    },
+    20854: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "飘黄",
+        "alias_name": "飘黄逐云寒蕊提高急速",
+        "max_stack": 100,
+        "recipes": {}
+    },
     9744: {
         "attributes": {
             "strain_base": 600
@@ -7292,20 +7310,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    23305: {
-        "attributes": {
-            "physical_damage_cof": 61,
-            "solar_damage_cof": 61,
-            "neutral_damage_cof": 61,
-            "lunar_damage_cof": 61,
-            "poison_damage_cof": 61
-        },
-        "max_level": 1,
-        "buff_name": "秋肃",
-        "alias_name": "奶花_秋肃商阳指易伤",
-        "max_stack": 1,
-        "recipes": {}
-    },
     4058: {
         "attributes": [
             {
@@ -7545,14 +7549,6 @@ BUFFS = {
             2862: 1
         }
     },
-    28296: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "布泽",
-        "alias_name": "布泽_普渡增加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
     890: {
         "attributes": {},
         "max_level": 1,
@@ -7721,6 +7717,15 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    29183: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "两仪加伤害",
+        "max_stack": 1,
+        "recipes": {
+            4682: 1
+        }
+    },
     9966: {
         "attributes": {},
         "max_level": 4,
@@ -7797,6 +7802,48 @@ BUFFS = {
             }
         ]
     },
+    2930: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 27
+            },
+            {
+                "physical_attack_power_gain": 32
+            },
+            {
+                "physical_attack_power_gain": 35
+            },
+            {
+                "physical_attack_power_gain": 38
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 44
+            },
+            {
+                "physical_critical_power_rate": 102,
+                "physical_critical_strike_rate": 500
+            }
+        ],
+        "max_level": 7,
+        "buff_name": "碎星辰",
+        "alias_name": "碎星辰_匣中2",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    6093: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "neutral_attack_power_gain": 102
+        },
+        "max_level": 1,
+        "buff_name": "期声",
+        "alias_name": "纯阳_气场增益_会心",
+        "max_stack": 1,
+        "recipes": {}
+    },
     17933: {
         "attributes": {
             "physical_critical_power_rate": 154
@@ -7827,6 +7874,15 @@ BUFFS = {
         "recipes": {
             4877: 1,
             3237: 1
+        }
+    },
+    21865: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "无我伤害提高",
+        "max_stack": 1,
+        "recipes": {
+            2860: 1
         }
     },
     1487: {
@@ -8353,6 +8409,20 @@ BUFFS = {
             3246: 1
         }
     },
+    25435: {
+        "attributes": [
+            {},
+            {
+                "lunar_critical_strike_rate": 500,
+                "lunar_critical_power_rate": 102
+            }
+        ],
+        "max_level": 2,
+        "buff_name": "剑舞长空",
+        "alias_name": "剑破盾",
+        "max_stack": 1,
+        "recipes": {}
+    },
     17010: {
         "attributes": {
             "magical_critical_power_rate": 20
@@ -8631,6 +8701,16 @@ BUFFS = {
             5306: 1
         }
     },
+    29360: {
+        "attributes": {
+            "strain_gain": 512
+        },
+        "max_level": 1,
+        "buff_name": "听晓",
+        "alias_name": "听晓增加无双",
+        "max_stack": 1,
+        "recipes": {}
+    },
     21640: {
         "attributes": {},
         "max_level": 6,
@@ -8848,22 +8928,6 @@ BUFFS = {
             5535: 1
         }
     },
-    17103: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "追命无声加追命伤害",
-        "max_stack": 1,
-        "recipes": {
-            5145: 1
-        }
-    },
-    23074: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "逐一击破稳定加10%",
-        "max_stack": 1,
-        "recipes": {}
-    },
     10169: {
         "attributes": {
             "all_damage_addition": 103
@@ -8872,6 +8936,15 @@ BUFFS = {
         "alias_name": "逐一击破伤害加层buff",
         "max_stack": 1,
         "recipes": {}
+    },
+    17103: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "追命无声加追命伤害",
+        "max_stack": 1,
+        "recipes": {
+            5145: 1
+        }
     },
     3316: {
         "attributes": {
@@ -8934,16 +9007,6 @@ BUFFS = {
         "alias_name": "唐门_千机变范围加伤害",
         "max_stack": 1,
         "recipes": {}
-    },
-    28228: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "确固不拔",
-        "alias_name": "确固不拔计数",
-        "max_stack": 3,
-        "recipes": {
-            5580: 1
-        }
     },
     3426: {
         "attributes": {},
@@ -9912,6 +9975,68 @@ BUFFS = {
                 4788: 1
             }
         ]
+    },
+    29344: {
+        "attributes": {},
+        "max_level": 3,
+        "buff_name": "清源",
+        "alias_name": "新清源加木落伤害",
+        "max_stack": 3,
+        "recipes": [
+            {
+                5663: 1
+            },
+            {
+                5664: 1
+            },
+            {
+                5665: 1
+            }
+        ]
+    },
+    19253: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新澄穆8%",
+        "max_stack": 1,
+        "recipes": {
+            2485: 1,
+            2488: 1,
+            2491: 1
+        }
+    },
+    19254: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新澄穆16%",
+        "max_stack": 1,
+        "recipes": {
+            2486: 1,
+            2489: 1,
+            2492: 1
+        }
+    },
+    19255: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新澄穆24%",
+        "max_stack": 1,
+        "recipes": {
+            2487: 1,
+            2490: 1,
+            2493: 1
+        }
+    },
+    29348: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新鸿轨地面掌法加伤害",
+        "max_stack": 1,
+        "recipes": {
+            5666: 1,
+            5667: 1,
+            5675: 1
+        }
     },
     14321: {
         "attributes": {},

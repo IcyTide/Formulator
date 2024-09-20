@@ -46,7 +46,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             32489: Gain("青冠")
         },
         {
-            17510: Gain("倚天")
+            26692: Gain("钟灵")
         },
         {
             37267: Gain("墨海临源"),
@@ -62,7 +62,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16855: Gain("清流", buff_ids=[-12588])
         },
         {
-            26692: Gain("钟灵")
+            17510: Gain("倚天")
         },
         {
             6682: Gain("流离")

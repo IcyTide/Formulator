@@ -5,7 +5,7 @@ from base.skill import Skill
 
 class 折花吞噬(Skill):
     consume_dots = {
-        **{i + 9: skill_id for i, skill_id in enumerate([714, 666, 711, 24158])}
+        **{i + 9: dot_id for i, dot_id in enumerate([714, 666, 711, 24158])}
     }
 
     def record(self, actual_critical_strike, actual_damage, parser):

@@ -1252,12 +1252,12 @@ DOTS = {
         ],
         "physical_damage_call": 1
     },
-    18386: {
+    29350: {
         "buff_name": "青冥(DOT)",
-        "alias_name": "青冥持续伤害",
+        "alias_name": "新青冥持续伤害",
         "interval": 32,
         "tick": 6,
-        "max_stack": 6,
+        "max_stack": 1,
         "platform": 0,
         "damage_base": 50,
         "physical_damage_call": 1

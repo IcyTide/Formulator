@@ -1,6 +1,10 @@
 from general.recipes import *
 
 
+class 鸿轨_三掌加双会附带破招(PhysicalCriticalRecipe):
+    value = (1500, 154)
+
+
 class 神降_增加会心20(PhysicalCriticalRecipe):
     value = (1000, 102)
 
@@ -25,10 +29,6 @@ class 木落双会(PhysicalCriticalRecipe):
     value = (1000, 102)
 
 
-class 鸟风车非侠士增伤(PveAdditionRecipe):
-    value = 1536
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -39,7 +39,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4792: {}, 4793: {}, 4794: {},
             4789: {}, 4790: {}, 4791: {},
             4691: {}, 4762: {}, 4694: {},
-            4816: {}, 4817: {}, 4818: {}, 4819: {}
+            5663: {}, 5664: {}, 5665: {}, 4816: {}, 4817: {}, 4818: {}, 4819: {},
+            **{recipe_id: {} for recipe_id in range(2485, 2493 + 1)},
+            5390: {}
         },
         CriticalStrikeRecipe_200: {
             2478: {},
@@ -68,6 +70,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         CriticalStrikeRecipe_500: {
             4820: {}, 4821: {}
         },
+        鸿轨_三掌加双会附带破招: {
+            5666: {}, 5667: {}, 5675: {}
+        },
         神降_增加会心20: {
             4784: {}
         },
@@ -85,9 +90,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         木落双会: {
             5426: {}
-        },
-        鸟风车非侠士增伤: {
-            3270: {}
         }
     },
     1: {

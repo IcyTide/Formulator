@@ -36,7 +36,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             34912: Gain("业火麟光")
         },
         {
-            13126: Gain("恋战"),
+            13126: Gain("恋战", attributes=dict(all_damage_addition=205)),
             25203: Gain("扶阵")
         },
         {

@@ -50,7 +50,7 @@ class 阳春白雪_目标90减防(MagicalShieldGainRecipe):
 
 
 class 书离伤害加百分之十五(ChannelIntervalRecipe):
-    value = 1.2
+    value = 1.1
 
 
 class 飞帆_徵运功不被打退伤害提高10(ChannelIntervalRecipe):

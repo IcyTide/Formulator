@@ -22,7 +22,7 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
 
     def add_skills(self, skills: Dict[int, Skill]):
         skills[32823].physical_shield_gain = [self.value, 0, 0, self.value]
-        skills[38537].physical_shield_gain = self.value
+        # skills[38537].physical_shield_gain = self.value
         return super().add_skills(skills)
 
     def sub_skill(self, skill: Skill):
@@ -31,7 +31,7 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
 
     def sub_skills(self, skills: Dict[int, Skill]):
         skills[32823].physical_shield_gain = 0
-        skills[38537].physical_shield_gain = 0
+        # skills[38537].physical_shield_gain = 0
         super().sub_skills(skills)
 
 

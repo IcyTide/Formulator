@@ -28,8 +28,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             22579: Gain("玄肃", recipes=[(4952, 1)])
         },
         {
-            29166: Gain("飞刃回转"),
-            22583: Gain("王师", attributes=dict(agility_gain=102))
+            29166: Gain("飞刃回转")
         },
         {
             22593: Gain("百节")
