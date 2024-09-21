@@ -7573,6 +7573,126 @@ RECIPES = {
             "recipe_name": "【小橙武】【傍身招式】会心提高3%（劲风簇+霖集簇）"
         }
     },
+    5683: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》参悟残页"
+        }
+    },
+    5684: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》参悟断篇"
+        }
+    },
+    5685: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》参悟绝章"
+        }
+    },
+    5691: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 38007,
+            "recipe_type": 38007,
+            "recipe_name": "《一阳指·截阳》参悟残页"
+        }
+    },
+    5692: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 38007,
+            "recipe_type": 38007,
+            "recipe_name": "《一阳指·截阳》参悟断篇"
+        }
+    },
+    5693: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38007,
+            "recipe_type": 38007,
+            "recipe_name": "《一阳指·截阳》参悟绝章"
+        }
+    },
+    5698: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》参悟残页"
+        }
+    },
+    5699: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》参悟断篇"
+        }
+    },
+    5703: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》参悟绝章"
+        }
+    },
+    5706: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "《一阳指·引窍》参悟残页"
+        }
+    },
+    5707: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "《一阳指·引窍》参悟断篇"
+        }
+    },
+    5712: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 37781,
+            "recipe_type": 37781,
+            "recipe_name": "《聘风令·抟风令》参悟残页"
+        }
+    },
+    5713: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 37781,
+            "recipe_type": 37781,
+            "recipe_name": "《聘风令·抟风令》参悟断篇"
+        }
+    },
+    5716: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 37780,
+            "recipe_type": 37780,
+            "recipe_name": "《聘风令·劈风令》参悟残页"
+        }
+    },
+    5717: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 37780,
+            "recipe_type": 37780,
+            "recipe_name": "《聘风令·劈风令》参悟断篇"
+        }
+    },
     5610: {
         1: {
             "damage_addition": 103,
@@ -7613,6 +7733,96 @@ RECIPES = {
             "damage_addition": 358,
             "recipe_type": 38008,
             "recipe_name": "出岫云散期间加一阳指伤害_破穴"
+        }
+    },
+    5576: {
+        1: {
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》秘诀残页"
+        }
+    },
+    5688: {
+        1: {
+            "skill_id": 38007,
+            "recipe_type": 38007,
+            "recipe_name": "《一阳指·截阳》秘诀残页"
+        }
+    },
+    5696: {
+        1: {
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》秘诀残页"
+        }
+    },
+    5681: {
+        1: {
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》秘诀断篇"
+        }
+    },
+    5680: {
+        1: {
+            "skill_id": 38007,
+            "recipe_name": "太溪截阳充能增加"
+        }
+    },
+    5697: {
+        1: {
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》秘诀断篇"
+        }
+    },
+    5704: {
+        1: {
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "《一阳指·引窍》秘诀残页"
+        }
+    },
+    5714: {
+        1: {
+            "skill_id": 37780,
+            "recipe_type": 37780,
+            "recipe_name": "《聘风令·劈风令》秘诀残页"
+        }
+    },
+    5682: {
+        1: {
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "《一阳指·断脉》秘诀绝章"
+        }
+    },
+    5690: {
+        1: {
+            "skill_id": 38007,
+            "recipe_type": 38007,
+            "recipe_name": "《一阳指·截阳》秘诀绝章"
+        }
+    },
+    5702: {
+        1: {
+            "skill_id": 38008,
+            "recipe_type": 38008,
+            "recipe_name": "《一阳指·破穴》秘诀绝章"
+        }
+    },
+    5705: {
+        1: {
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "《一阳指·引窍》秘诀断篇"
+        }
+    },
+    5715: {
+        1: {
+            "skill_id": 37780,
+            "recipe_type": 37780,
+            "recipe_name": "《聘风令·劈风令》秘诀断篇"
         }
     },
     5578: {

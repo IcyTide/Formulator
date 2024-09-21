@@ -2296,6 +2296,24 @@ SKILLS = {
         "neutral_damage_rand": 104,
         "neutral_damage_call": 1
     },
+    32416: {
+        "alias_name": "流转_飞剑伤害",
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": [
+            150.0,
+            170.0,
+            190.0,
+            210.0
+        ],
+        "max_level": 4,
+        "skill_name": "流转",
+        "neutral_damage_base": 1038,
+        "neutral_damage_rand": 104,
+        "neutral_damage_call": 1
+    },
     2681: {
         "alias_name": "气纯_紫气东来",
         "kind_type": "NeutralMagic",

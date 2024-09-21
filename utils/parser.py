@@ -543,11 +543,12 @@ class Parser(BaseParser):
         rows = []
         for line in lines:
             row = line.split("\t")
-            rows.append(row)
             if row[4] == "4":
                 self.parse_player(row[-1])
             elif row[4] == "8":
                 self.parse_npc(row[-1])
+            if row[4] in ("6", "13", "21"):
+                rows.append(row)
 
         self.kungfu_add()
 
