@@ -417,6 +417,16 @@ SKILLS = {
         "physical_damage_call": 1,
         "weapon_damage_cof": 1024.0
     },
+    233: {
+        "alias_name": "韦陀献杵",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 233,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 29,
+        "skill_name": "韦陀献杵"
+    },
     236: {
         "alias_name": "摩诃无量",
         "kind_type": "SolarMagic",
@@ -436,6 +446,16 @@ SKILLS = {
         ],
         "solar_damage_rand": 2,
         "solar_damage_call": 1
+    },
+    243: {
+        "alias_name": "拿云式",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 243,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 19,
+        "skill_name": "拿云式"
     },
     271: {
         "alias_name": "韦陀献杵增加伤害_60级内功技能",
@@ -818,17 +838,6 @@ SKILLS = {
         "solar_damage_rand": 3,
         "solar_damage_call": 1,
         "solar_shield_gain": -820
-    },
-    38615: {
-        "alias_name": "新布泽额外伤害",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 800.0,
-        "max_level": 2,
-        "skill_name": "布泽",
-        "solar_damage_call": 1
     },
     32656: {
         "alias_name": "金刚日轮阵_阵法内额外龙爪功伤害",
@@ -1224,26 +1233,6 @@ SKILLS = {
         "solar_damage_rand": 101,
         "solar_damage_call": 1
     },
-    243: {
-        "alias_name": "拿云式",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 243,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "max_level": 19,
-        "skill_name": "拿云式"
-    },
-    233: {
-        "alias_name": "韦陀献杵",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 233,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "max_level": 29,
-        "skill_name": "韦陀献杵"
-    },
     3808: {
         "alias_name": "少林_横扫六合100%",
         "kind_type": "SolarMagic",
@@ -1493,6 +1482,17 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 16.0,
         "max_level": 1
+    },
+    38615: {
+        "alias_name": "新布泽额外伤害",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 800.0,
+        "max_level": 2,
+        "skill_name": "布泽",
+        "solar_damage_call": 1
     },
     18121: {
         "alias_name": "三柴剑法附带特效表现",
@@ -11574,6 +11574,19 @@ SKILLS = {
         "physical_damage_call": 1,
         "weapon_damage_cof": 1024.0
     },
+    38666: {
+        "alias_name": "黄龙吐翠额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 500.0,
+        "max_level": 1,
+        "skill_name": "积翠",
+        "physical_damage_base": 31,
+        "physical_damage_rand": 6,
+        "physical_damage_call": 1
+    },
     1658: {
         "alias_name": "藏剑_君子风_子技能_问水诀_啸日",
         "kind_type": "Physics",
@@ -18553,8 +18566,7 @@ SKILLS = {
         "physical_damage_base": 72,
         "physical_damage_rand": 2,
         "physical_damage_call": 1,
-        "weapon_damage_cof": 1024.0,
-        "pve_addition": 614
+        "weapon_damage_cof": 1024.0
     },
     30926: {
         "alias_name": "阵云结晦二段_伤害",
@@ -18568,8 +18580,7 @@ SKILLS = {
         "physical_damage_base": 96,
         "physical_damage_rand": 3,
         "physical_damage_call": 1,
-        "weapon_damage_cof": 1024.0,
-        "pve_addition": 614
+        "weapon_damage_cof": 1024.0
     },
     30857: {
         "alias_name": "30857 阵云结晦三段_伤害",
@@ -21446,98 +21457,6 @@ SKILLS = {
         "physical_damage_rand": 5,
         "physical_damage_call": 1
     },
-    16097: {
-        "alias_name": "龙骧虎步实际伤害效果",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 16028,
-        "recipe_mask": 0,
-        "channel_interval": [
-            43.199999999999996,
-            58.8,
-            74.39999999999999,
-            90.0,
-            105.6,
-            121.19999999999999,
-            136.79999999999998,
-            152.4,
-            168.0,
-            192.0
-        ],
-        "max_level": 10,
-        "skill_name": "龙骧虎步",
-        "physical_damage_base": [
-            35,
-            45,
-            55,
-            70,
-            85,
-            100,
-            115,
-            130,
-            145,
-            160
-        ],
-        "physical_damage_rand": [
-            5,
-            5,
-            5,
-            5,
-            5,
-            10,
-            10,
-            10,
-            10,
-            10
-        ],
-        "physical_damage_call": 1
-    },
-    16753: {
-        "alias_name": "龙骧虎步二段表现技能",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 16028,
-        "recipe_mask": 0,
-        "channel_interval": [
-            43.199999999999996,
-            58.8,
-            74.39999999999999,
-            90.0,
-            105.6,
-            121.19999999999999,
-            136.79999999999998,
-            152.4,
-            168.0,
-            192.0
-        ],
-        "max_level": 10,
-        "skill_name": "龙骧虎步",
-        "physical_damage_base": [
-            35,
-            45,
-            55,
-            70,
-            85,
-            100,
-            115,
-            130,
-            145,
-            160
-        ],
-        "physical_damage_rand": [
-            5,
-            5,
-            5,
-            5,
-            5,
-            10,
-            10,
-            10,
-            10,
-            10
-        ],
-        "physical_damage_call": 1
-    },
     16787: {
         "alias_name": "坚壁清野5尺实际伤害",
         "kind_type": "Physics",
@@ -23333,6 +23252,190 @@ SKILLS = {
         ],
         "physical_damage_call": 1,
         "weapon_damage_cof": 1638.4
+    },
+    16097: {
+        "alias_name": "龙骧虎步实际伤害效果",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 16028,
+        "recipe_mask": 0,
+        "channel_interval": [
+            43.199999999999996,
+            58.8,
+            74.39999999999999,
+            90.0,
+            105.6,
+            121.19999999999999,
+            136.79999999999998,
+            152.4,
+            168.0,
+            192.0
+        ],
+        "max_level": 10,
+        "skill_name": "龙骧虎步",
+        "physical_damage_base": [
+            35,
+            45,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130,
+            145,
+            160
+        ],
+        "physical_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "physical_damage_call": 1
+    },
+    16753: {
+        "alias_name": "龙骧虎步二段表现技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 16028,
+        "recipe_mask": 0,
+        "channel_interval": [
+            43.199999999999996,
+            58.8,
+            74.39999999999999,
+            90.0,
+            105.6,
+            121.19999999999999,
+            136.79999999999998,
+            152.4,
+            168.0,
+            192.0
+        ],
+        "max_level": 10,
+        "skill_name": "龙骧虎步",
+        "physical_damage_base": [
+            35,
+            45,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130,
+            145,
+            160
+        ],
+        "physical_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "physical_damage_call": 1
+    },
+    16774: {
+        "alias_name": "大刀龙骧虎步一段表现",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 16028,
+        "recipe_mask": 0,
+        "channel_interval": [
+            43.199999999999996,
+            58.8,
+            74.39999999999999,
+            90.0,
+            105.6,
+            121.19999999999999,
+            136.79999999999998,
+            152.4,
+            168.0,
+            192.0
+        ],
+        "max_level": 10,
+        "skill_name": "龙骧虎步",
+        "physical_damage_base": [
+            35,
+            45,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130,
+            145,
+            160
+        ],
+        "physical_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "physical_damage_call": 1
+    },
+    16775: {
+        "alias_name": "大刀龙骧虎步二段表现",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 16028,
+        "recipe_mask": 0,
+        "channel_interval": [
+            43.199999999999996,
+            58.8,
+            74.39999999999999,
+            90.0,
+            105.6,
+            121.19999999999999,
+            136.79999999999998,
+            152.4,
+            168.0,
+            192.0
+        ],
+        "max_level": 10,
+        "skill_name": "龙骧虎步",
+        "physical_damage_base": [
+            35,
+            45,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130,
+            145,
+            160
+        ],
+        "physical_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "physical_damage_call": 1
     },
     17058: {
         "alias_name": "闹须弥一段流血效果",

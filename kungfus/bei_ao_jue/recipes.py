@@ -21,7 +21,7 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
             super().add_skill(skill)
 
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[32823].physical_shield_gain = [self.value, 0, 0, self.value]
+        skills[32823].physical_shield_gain = [self.value, 0]
         # skills[38537].physical_shield_gain = self.value
         return super().add_skills(skills)
 

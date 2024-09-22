@@ -46,7 +46,7 @@ class Equipment:
     special_enchant_gain: List[List[int]]
     set_id: int
     set_attr: Dict[int, Dict[str, int]]
-    set_gain: Dict[int, List[int]]
+    set_gain: Dict[int, List[list]]
     set_recipe: Dict[int, Dict[int, int]]
 
     def __init__(self, label):

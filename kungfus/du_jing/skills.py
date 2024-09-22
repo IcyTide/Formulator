@@ -38,6 +38,7 @@ class 残香吞噬(Skill):
 
     def record(self, actual_critical_strike, actual_damage, parser):
         self.consume_dot = self.consume_dots[self.skill_level]
+        parser.current_dot_ticks[self.consume_dot] += 1
         super().record(actual_critical_strike, actual_damage, parser)
 
 
@@ -63,7 +64,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             2477: {}, 2472: {}, 22997: {}, 36292: {}, 25019: {}
         },
         残香吞噬: {
-            38454: {}
+            38454: dict(consume_tick=1)
         }
     }
 }
