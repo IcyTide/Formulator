@@ -1,6 +1,6 @@
 from typing import Dict
 
-from base.buff import Buff, CustomBuff
+from base.buff import Buff
 
 BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
@@ -11,9 +11,6 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             -13910: dict(buff_name="众嗔", interval=4),
             12590: dict(buff_name="三生"),
             19635: dict(buff_name="普渡", interval=4)
-        },
-        CustomBuff: {
-            -1: dict(buff_name="华香", activate=False, attributes=dict(solar_shield_gain=-614))
         }
     }
 }

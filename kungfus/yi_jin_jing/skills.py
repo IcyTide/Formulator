@@ -23,28 +23,17 @@ class 明法移除(Skill):
             parser.clear_target_buff(self.final_buff, buff_level)
 
 
-class 华香布泽(Skill):
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_target_buff_stacks.get(19635):
-            parser.refresh_target_buff(-1, 1)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.clear_target_buff(-1, 1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-
-
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
             11: dict(channel_interval=27),
             233: {}, 236: {}, 243: {}, 271: {}, 14951: {}, 17641: {}, 17642: {}, 19090: {}, 25766: {}, 28619: {},
             29516: {}, 32656: {}, 32659: {}, 32660: {}, 32887: {}, 3814: {}, 3816: {}, 3848: {}, 3849: {}, 3850: {},
-            13685: {}, 28542: {}, 24883: {}, 24028: {},
+            13685: {}, 28542: {}, 24883: {}, 24028: {}, 38615: {},
             **{skill_id: dict(bind_dot=743) for skill_id in (3808, 3810, 3830, 28539)},
             24026: dict(consume_dot=743, consume_tick=3)
         },
         明法判定: {26989: {}},
-        明法移除: {26991: {}},
-        华香布泽: {38615: {}}
+        明法移除: {26991: {}}
     }
 }

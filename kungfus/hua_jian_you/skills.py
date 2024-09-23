@@ -26,17 +26,17 @@ class 清流判定(Skill):
 
 class 快雪时晴(Skill):
     final_buff = -24599
-    max_level = 3
+    max_stack = 3
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if not parser.current_buff_stacks[self.final_buff].get(self.max_level):
-            for buff_level in range(1, self.max_level):
-                if buff_stack := parser.current_buff_stacks[self.final_buff].get(buff_level):
-                    parser.clear_buff(self.final_buff, buff_level)
-                    parser.refresh_buff(self.final_buff, buff_level + 1, buff_stack + 1)
-                    break
-            else:
-                parser.refresh_buff(self.final_buff, 1, 1)
+        buff_levels = parser.current_buff_stacks[self.final_buff]
+        if buff_levels:
+            buff_level = max(buff_levels)
+            if buff_level < self.max_stack:
+                parser.refresh_buff(self.final_buff, buff_level, -buff_level)
+                parser.refresh_buff(self.final_buff, buff_level + 1, buff_level + 1)
+        else:
+            parser.refresh_buff(self.final_buff, 1, 1)
         super().record(actual_critical_strike, actual_damage, parser)
 
 
@@ -55,7 +55,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             16: dict(channel_interval=16), 186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
             37525: dict(pre_buffs={28116: {1: 1}}), 2645: dict(post_buffs={14636: {1: 1}}),
-            182: dict(post_buffs={-24599: {i + 1: 0} for i in range(3)}),
+            182: dict(post_buffs={-24599: {i + 1: -i - 1} for i in range(快雪时晴.max_stack)}),
             **{skill_id: dict(bind_dot=711) for skill_id in (18730, 13848, 6136)},
             **{skill_id: dict(bind_dot=714) for skill_id in (285, 3086, 13847, 6135)},
             **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},

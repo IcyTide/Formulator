@@ -1233,6 +1233,17 @@ SKILLS = {
         "solar_damage_rand": 101,
         "solar_damage_call": 1
     },
+    38615: {
+        "alias_name": "新布泽额外伤害",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 800.0,
+        "max_level": 2,
+        "skill_name": "布泽",
+        "solar_damage_call": 1
+    },
     3808: {
         "alias_name": "少林_横扫六合100%",
         "kind_type": "SolarMagic",
@@ -1482,17 +1493,6 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 16.0,
         "max_level": 1
-    },
-    38615: {
-        "alias_name": "新布泽额外伤害",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 800.0,
-        "max_level": 2,
-        "skill_name": "布泽",
-        "solar_damage_call": 1
     },
     18121: {
         "alias_name": "三柴剑法附带特效表现",
