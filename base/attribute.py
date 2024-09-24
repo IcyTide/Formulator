@@ -774,7 +774,7 @@ class Minor(Vitality, CriticalPower, DamageAddition):
 
     @property
     def weapon_damage(self):
-        return self.base_weapon_damage + int(self.weapon_damage_rand / 2)
+        return self.base_weapon_damage + self.weapon_damage_rand / 2
 
     @property
     def extra_pve_addition(self):

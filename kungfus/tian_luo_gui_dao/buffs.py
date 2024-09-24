@@ -11,8 +11,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             13165: dict(buff_name="雷甲三铉"),
             27405: dict(buff_name="雷甲三铉"),
             23081: dict(buff_name="擘两分星"),
-            23082: dict(buff_name="擘两分星"),
-            -24668: dict(buff_name="杀机断魂", activate=False, max_stack=20)
+            23082: dict(buff_name="擘两分星")
         }
     }
 }

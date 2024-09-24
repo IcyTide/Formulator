@@ -7,7 +7,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Buff: {
             6121: {}, 6363: {}, 14981: {}, 7671: {}, 21638: {}, 2779: {}, 28169: {},
             -12608: dict(buff_name="风虎", activate=False, interval=4),
-            -26008: dict(buff_name="战心", interval=4),
+            -26008: dict(buff_name="战心"),
             1911: dict(begin_buffs={-1: {1: 5}}),
         },
         CustomBuff: {

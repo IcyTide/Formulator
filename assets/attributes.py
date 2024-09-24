@@ -1004,7 +1004,7 @@ ATTRIBUTES = {
     10786: {
         "alias_name": "周天功",
         "max_level": 14,
-        "pve_addition_base": 205,
+        "pve_addition_base": 103,
         "magical_attack_power_base": [
             9,
             15,

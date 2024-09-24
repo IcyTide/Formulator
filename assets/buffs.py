@@ -6063,7 +6063,7 @@ BUFFS = {
     },
     6345: {
         "attributes": {
-            "physical_overcome_base": 770
+            "physical_overcome_base": 2980
         },
         "max_level": 1,
         "buff_name": "伏虎",
@@ -6716,22 +6716,17 @@ BUFFS = {
     },
     8504: {
         "attributes": {
-            "physical_overcome_base": 60,
-            "magical_overcome_base": 60
+            "strain_base": 72
         },
         "max_level": 1,
         "buff_name": "振奋",
         "alias_name": "振奋",
-        "max_stack": 125,
+        "max_stack": 100,
         "recipes": {}
     },
     10031: {
         "attributes": {
-            "physical_overcome_gain": 204,
-            "lunar_overcome_gain": 204,
-            "neutral_overcome_gain": 204,
-            "poison_overcome_gain": 204,
-            "solar_overcome_gain": 204
+            "strain_gain": 102
         },
         "max_level": 1,
         "buff_name": "寒啸千军",
@@ -9074,15 +9069,6 @@ BUFFS = {
             2962: 1
         }
     },
-    24668: {
-        "attributes": {
-            "all_damage_addition": 103
-        },
-        "max_level": 1,
-        "alias_name": "杀机断魂增益",
-        "max_stack": 20,
-        "recipes": {}
-    },
     4754: {
         "attributes": [
             {
@@ -9904,17 +9890,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    17094: {
-        "attributes": {
-            "physical_critical_strike_rate": 1500,
-            "physical_critical_power_rate": 205
-        },
-        "max_level": 1,
-        "buff_name": "鸿轨",
-        "alias_name": "物化天行吸收盾",
-        "max_stack": 1,
-        "recipes": {}
-    },
     13966: {
         "attributes": {
             "all_shield_ignore": 205
@@ -10548,7 +10523,8 @@ BUFFS = {
     },
     29254: {
         "attributes": {
-            "magical_attack_power_gain": 154
+            "magical_attack_power_gain": 205,
+            "strain_rate": 205
         },
         "max_level": 1,
         "buff_name": "神门",
