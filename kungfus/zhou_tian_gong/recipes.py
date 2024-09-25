@@ -18,7 +18,7 @@ class 引窍增幅增加(SkillRecipe):
 
     def add_skill(self, skill: Skill):
         if skill.skill_id == 38438:
-            new_channel_interval = [1000 * (1 + 0.05 * level) for level in range(skill.max_level)]
+            new_channel_interval = [1000 * (1 + 0.05 * level) * 0.88 for level in range(skill.max_level)]
             self.channel_interval, skill.channel_interval = skill.all_channel_interval, new_channel_interval
 
     def sub_skill(self, skill: Skill):

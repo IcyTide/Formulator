@@ -8885,12 +8885,21 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    3276: {
+    15945: {
         "attributes": {},
         "max_level": 1,
-        "buff_name": "追命无声",
-        "alias_name": "唐门_追命箭_瞬发",
+        "buff_name": "神机",
+        "alias_name": "神机飞返",
         "max_stack": 1,
+        "recipes": {
+            5090: 1
+        }
+    },
+    10167: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "逐一击破延长buff",
+        "max_stack": 5,
         "recipes": {}
     },
     28225: {
@@ -8929,6 +8938,14 @@ BUFFS = {
         },
         "max_level": 1,
         "alias_name": "逐一击破伤害加层buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    3276: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "追命无声",
+        "alias_name": "唐门_追命箭_瞬发",
         "max_stack": 1,
         "recipes": {}
     },

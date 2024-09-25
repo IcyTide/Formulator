@@ -90,7 +90,8 @@ class BaseBuff:
 class Buff(BaseBuff):
     buff_id: int
 
-    frame_shift: int = 0
+    begin_frame_shift: int = 0
+    end_frame_shift: int = 0
     unique: bool = True
     activate: bool = True
 

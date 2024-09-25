@@ -2714,12 +2714,27 @@ RECIPES = {
             "recipe_name": "《百步穿杨·逐星箭》参悟绝章"
         }
     },
+    5090: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 3096,
+            "recipe_type": 3096,
+            "recipe_name": "追命箭减消耗读条"
+        }
+    },
     5145: {
         1: {
             "damage_addition": 205,
             "skill_id": 3096,
             "recipe_type": 3096,
             "recipe_name": "追命无声追命伤害提高20%"
+        }
+    },
+    1201: {
+        1: {
+            "damage_addition": 102,
+            "recipe_type": 3096,
+            "recipe_name": "90奇穴_追命箭_加伤害"
         }
     },
     946: {

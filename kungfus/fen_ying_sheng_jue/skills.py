@@ -5,7 +5,7 @@ from base.skill import Skill
 
 class 诛邪镇魔(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get(25759):
+        if parser.current_buff_stacks[25759].get(1):
             parser.clear_buff(25759, 1)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_buff(25759, 1)

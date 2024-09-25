@@ -29,7 +29,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         },
         知音妙意判定: {
             34676: dict(
-                global_damage_factor=GLOBAL_DAMAGE_COF(1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1))
+                global_damage_factor=1048576 * (0.25 * 0.5 * 1.3 * 1.2 * 0.5 * 1.11 * 0.9 - 1)
             )
         },
         NpcSkill: {15076: {}}

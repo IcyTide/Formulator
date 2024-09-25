@@ -29,8 +29,7 @@ class 快雪时晴(Skill):
     max_stack = 3
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        buff_levels = parser.current_buff_stacks[self.final_buff]
-        if buff_levels:
+        if buff_levels := parser.current_buff_stacks[self.final_buff]:
             buff_level = max(buff_levels)
             if buff_level < self.max_stack:
                 parser.refresh_buff(self.final_buff, buff_level, -buff_level)

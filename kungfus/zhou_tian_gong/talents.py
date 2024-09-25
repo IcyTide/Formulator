@@ -7,7 +7,7 @@ from base.skill import Skill
 class 神门(Gain):
     @staticmethod
     def pre_effect(parser):
-        if parser.current_buff_stacks[28756]:
+        if parser.current_buff_stacks[28756].get(1):
             parser.refresh_buff(29254, 1)
 
     def add_skills(self, skills: Dict[int, Skill]):

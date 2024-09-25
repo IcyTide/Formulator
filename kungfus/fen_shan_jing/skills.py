@@ -5,7 +5,7 @@ from base.skill import Skill
 
 class 盾压(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks[8474]:
+        if any(parser.current_buff_stacks[8474]):
             self.post_buffs[-1] = {1: 15 * 2}
         else:
             self.post_buffs[-1] = {1: 15}
@@ -25,7 +25,7 @@ class 绝刀(Skill):
             parser.refresh_buff(self.final_buff, buff_level)
         if parser.current_buff_stacks[8451].get(1):
             self.post_buffs[-1] = {1: 0}
-        elif parser.current_buff_stacks[8474]:
+        elif any(parser.current_buff_stacks[8474]):
             self.post_buffs[-1] = {1: 0}
         else:
             self.post_buffs[-1] = {1: -cost_rage}
