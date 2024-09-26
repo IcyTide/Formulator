@@ -1,3 +1,4 @@
+import json
 from typing import Dict
 
 from assets.constant import ATTR_TYPE_TRANSLATE, MOBILE_MAX_TALENTS
@@ -73,12 +74,6 @@ def dashboard_script(parser: Parser,
                      dashboard_widget: DashboardWidget, talents: Talents, recipes: Recipes,
                      equipments: Equipments, consumables: Consumables, bonuses: Bonuses):
     def formulate():
-        target_name = dashboard_widget.target_select.combo_box.currentText()
-        if target_name:
-            target_id = parser.name2id.get(target_name, "")
-        else:
-            target_id = target_name
-        parser.current_target = target_id
         record = parser.current_records
         kungfu = parser.current_kungfu
 
@@ -113,6 +108,19 @@ def dashboard_script(parser: Parser,
         set_skills()
 
     dashboard_widget.formulate_button.clicked.connect(formulate)
+
+    def export():
+        player_name = parser.id2name[parser.current_player]
+        file_name = parser.file_name.split(".jcl")[0] + f"-{player_name}.json"
+        result = {
+            damage: {
+                status: vars(detail) for status, detail in details.items()
+            }
+            for damage, details in dashboard_widget.detail_widget.details.items()
+        }
+        json.dump(result, open(file_name, "w", encoding="utf-8"), ensure_ascii=False)
+
+    dashboard_widget.export_button.clicked.connect(export)
 
     def set_skills():
         detail_widget = dashboard_widget.detail_widget

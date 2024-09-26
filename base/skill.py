@@ -1481,23 +1481,20 @@ class NpcSkill(Skill):
 
 class PetSkill(Skill):
     def call_poison_damage(self, attribute: Attribute):
+        attribute.pve_addition_base /= 2
         attack_power = int(attribute.poison_attack_power * 0.87 + attribute.surplus * DEFAULT_SURPLUS_COF * 59 / 1664)
+
         damage = init_result(
             damage_base=self.poison_damage_base, damage_rand=self.poison_damage_rand,
-            attack_power_cof=self.magical_attack_power_cof, attack_power=attack_power
+            attack_power_cof=self.magical_attack_power_cof, attack_power=attack_power,
         )
-
         if damage:
-            damage = damage_addition_result(damage, attribute.magical_damage_addition, self.move_state_damage_addition)
-            damage = overcome_result(
-                damage, attribute.poison_overcome, 0,
-                attribute.target.poison_shield, attribute.target.shield_constant
-            )
-            damage, critical_damage = self.general_damage_chain(damage, attribute)
-            damage = damage_cof_result(damage, attribute.target.poison_damage_cof)
-            critical_damage = damage_cof_result(critical_damage, attribute.target.poison_damage_cof)
-            return damage, critical_damage
-        return 0, 0
+            damage = self.poison_damage_chain(damage, attribute)
+        else:
+            damage = 0, 0
+
+        attribute.pve_addition_base *= 2
+        return damage
 
 
 class PureSkill(Skill):

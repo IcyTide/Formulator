@@ -32,8 +32,6 @@ class DashboardWidget(QWidget):
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
 
-        self.target_select = ComboWithLabel("选择目标")
-        top_layout.addWidget(self.target_select)
         self.target_level = ComboWithLabel("目标等级", items=[str(level) for level in SHIELD_BASE_MAP])
         top_layout.addWidget(self.target_level)
         self.start_time = DoubleSpinWithLabel("开始时间", maximum=3600, value=0)
@@ -41,8 +39,12 @@ class DashboardWidget(QWidget):
         self.end_time = DoubleSpinWithLabel("结束时间", maximum=3600, value=180)
         top_layout.addWidget(self.end_time)
 
+        mid_layout = QHBoxLayout()
+        layout.addLayout(mid_layout)
         self.formulate_button = QPushButton(text="开始模拟!")
-        layout.addWidget(self.formulate_button)
+        mid_layout.addWidget(self.formulate_button)
+        self.export_button = QPushButton(text="导出上一次模拟结果！")
+        mid_layout.addWidget(self.export_button)
 
         bottom_layout = QHBoxLayout()
         layout.addLayout(bottom_layout)
