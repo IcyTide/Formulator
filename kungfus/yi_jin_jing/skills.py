@@ -9,9 +9,9 @@ class 明法判定(Skill):
     bind_buff_2 = 12479
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_level := parser.current_target_buff_stacks.get((self.bind_buff_1, 1)):
+        if buff_level := parser.current_target_buff_stacks[self.bind_buff_1].get(1):
             parser.refresh_target_buff(self.final_buff, buff_level)
-        elif buff_level := parser.current_target_buff_stacks.get((self.bind_buff_2, 1)):
+        elif buff_level := parser.current_target_buff_stacks[self.bind_buff_2].get(1):
             parser.refresh_target_buff(self.final_buff, buff_level)
 
 

@@ -5,19 +5,19 @@ from base.skill import Skill
 
 class 跬步判定(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get(12779):
+        if parser.current_buff_stacks[12779].get(1):
             parser.refresh_buff(-12550, 1)
             parser.refresh_buff(-12551, 1)
-        elif parser.current_buff_stacks.get(12780):
+        elif parser.current_buff_stacks[12780].get(1):
             parser.refresh_buff(-12550, 2)
             parser.refresh_buff(-12551, 2)
-        elif parser.current_buff_stacks.get(12781):
+        elif parser.current_buff_stacks[12781].get(1):
             parser.refresh_buff(-12550, 3)
             parser.refresh_buff(-12551, 3)
-        elif parser.current_buff_stacks.get(12782):
+        elif parser.current_buff_stacks[12782].get(1):
             parser.refresh_buff(-12550, 4)
             parser.refresh_buff(-12551, 4)
-        elif parser.current_buff_stacks.get(12783):
+        elif parser.current_buff_stacks[12783].get(1):
             parser.refresh_buff(-12550, 5)
             parser.refresh_buff(-12551, 5)
 

@@ -5,7 +5,7 @@ from base.skill import Skill
 
 class 一阳指秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get(71388):
+        if parser.current_buff_stacks[71388].get(1):
             parser.refresh_target_buff(70188, 15)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 15, -1)
@@ -24,7 +24,7 @@ class 引窍(一阳指秘章):
 
 class 一阳化生(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_stack := parser.current_buff_stacks.get(71405, {}).get(1):
+        if buff_stack := parser.current_buff_stacks[71405].get(1):
             parser.refresh_target_buff(70188, 20 * buff_stack)
             parser.refresh_target_buff(70973, 20 * buff_stack)
             super().record(actual_critical_strike, actual_damage, parser)

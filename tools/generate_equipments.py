@@ -10,6 +10,9 @@ KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFU.values()])
 
 QUALITY_COF = {
+    1: 1,
+    2: 1.4,
+    3: 1.6,
     4: 1.8,
     5: 2.5
 }

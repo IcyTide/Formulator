@@ -58,7 +58,7 @@ class BuffAnalyzer(BaseAnalyzer):
         "attack_power", "critical_strike", "critical_power", "surplus", "strain", "damage_addition", "pve_addition"
     ]
     PET_SNAPSHOT_ATTRS = [
-        "attack_power", "critical_power", "overcome", "surplus", "strain", "damage_addition", "pve_addition"
+        "attack_power", "critical_power", "overcome", "surplus", "strain"
     ]
 
     def filter_status(self, status):
@@ -202,7 +202,7 @@ class BuffAnalyzer(BaseAnalyzer):
 
     def sub_buffs_pet(self, current_buffs: List[Buff], snapshot_buffs: List[Buff], damage: Skill):
         for buff in current_buffs:
-            self.sub_buff_attributes_pet(buff)
+            self.sub_buff_attributes_all(buff)
             self.sub_buff_recipes(damage, buff)
         for buff in snapshot_buffs:
             self.sub_buff_attributes_pet(buff)

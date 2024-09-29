@@ -6878,6 +6878,14 @@ RECIPES = {
             "recipe_name": "起落势伤害提高120%"
         }
     },
+    3010: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 32132,
+            "recipe_type": 32132,
+            "recipe_name": "纷绞势伤害提高10%"
+        }
+    },
     5584: {
         1: {
             "damage_addition": 82,

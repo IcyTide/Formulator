@@ -79,6 +79,8 @@ class BaseBuff:
     def __gt__(self, other: "BaseBuff"):
         if abs(self.buff_id) > abs(other.buff_id):
             return True
+        if abs(self.buff_id) < abs(other.buff_id):
+            return False
         if self.buff_level > other.buff_level:
             return True
         return False
@@ -88,7 +90,8 @@ class BaseBuff:
 class Buff(BaseBuff):
     buff_id: int
 
-    frame_shift: int = 0
+    begin_frame_shift: int = 0
+    end_frame_shift: int = 0
     unique: bool = True
     activate: bool = True
 

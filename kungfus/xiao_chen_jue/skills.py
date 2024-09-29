@@ -5,7 +5,7 @@ from base.skill import Skill
 
 class 载物加成(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get(70221) and not parser.current_buff_stacks.get(70167):
+        if parser.current_buff_stacks[70221].get(1) and not any(parser.current_buff_stacks[70167]):
             parser.refresh_buff(70161, 10)
             parser.refresh_buff(70167, 10)
             super().record(actual_critical_strike, actual_damage, parser)
@@ -21,7 +21,7 @@ class 刚健加成(载物加成):
 
 class 拨狗朝天(刚健加成):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks.get(70221):
+        if parser.current_buff_stacks[70221].get(1):
             parser.refresh_target_buff(70188, 50)
             super().record(actual_critical_strike, actual_damage, parser)
             parser.refresh_target_buff(70188, 50, -1)

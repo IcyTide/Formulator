@@ -4,6 +4,7 @@ import json
 from PySide6.QtWidgets import QFileDialog, QWidget
 
 from assets.constant import MAX_RECIPES, MAX_STONE_LEVEL
+from kungfus import SUPPORT_KUNGFU
 from qt.components.config import ConfigWidget
 from qt.components.dashboard import DashboardWidget
 from qt.components.equipments import EquipmentsWidget
@@ -11,7 +12,6 @@ from qt.components.recipes import RecipesWidget
 from qt.components.talents import TalentsWidget
 from qt.components.top import TopWidget
 from qt.scripts.config import CONFIG
-from kungfus import SUPPORT_KUNGFU
 from utils.io import serialize, unserialize
 from utils.parser import Parser
 
@@ -32,8 +32,10 @@ def top_script(
             [parser.id2name[player_id] for player_id in parser.players], keep_index=True, default_index=0
         )
         top_widget.player_select.show()
+        top_widget.target_select.show()
         top_widget.save_json.show()
         select_player(None)
+        select_target(None)
 
     top_widget.upload_log.clicked.connect(upload_logs)
 
@@ -81,7 +83,7 @@ def top_script(
             return
         player_id = parser.name2id[player_name]
         parser.current_player = player_id
-        dashboard_widget.target_select.set_items(
+        top_widget.target_select.set_items(
             [""] + [parser.id2name[target_id] for target_id in parser.current_targets],
             keep_index=True, default_index=0
         )
@@ -148,5 +150,14 @@ def top_script(
         bottom_widget.show()
 
     top_widget.player_select.combo_box.currentTextChanged.connect(select_player)
+
+    def select_target(_):
+        target_name = top_widget.target_select.combo_box.currentText()
+        if target_name:
+            parser.current_target = parser.name2id.get(target_name, "")
+        else:
+            parser.current_target = target_name
+
+    top_widget.target_select.combo_box.currentTextChanged.connect(select_target)
 
     return parser
