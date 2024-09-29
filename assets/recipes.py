@@ -4143,7 +4143,6 @@ RECIPES = {
     },
     2004: {
         1: {
-            "damage_addition": 205,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝返绝刀伤害提高10%"
@@ -4151,7 +4150,6 @@ RECIPES = {
     },
     2006: {
         1: {
-            "damage_addition": 410,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝返绝刀伤害提高20%"
@@ -4159,7 +4157,6 @@ RECIPES = {
     },
     2007: {
         1: {
-            "damage_addition": 614,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝返绝刀伤害提高30%"
@@ -4167,7 +4164,6 @@ RECIPES = {
     },
     2008: {
         1: {
-            "damage_addition": 819,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝返绝刀伤害提高40%"
@@ -4175,7 +4171,6 @@ RECIPES = {
     },
     4918: {
         1: {
-            "damage_addition": 205,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀伤害提高18%"
@@ -4183,7 +4178,6 @@ RECIPES = {
     },
     4919: {
         1: {
-            "damage_addition": 410,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀伤害提高36%"
@@ -4191,7 +4185,6 @@ RECIPES = {
     },
     4920: {
         1: {
-            "damage_addition": 614,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀伤害提高54%"
@@ -4199,7 +4192,6 @@ RECIPES = {
     },
     4921: {
         1: {
-            "damage_addition": 819,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀伤害提高72%"
@@ -4946,6 +4938,96 @@ RECIPES = {
             "recipe_name": "新含风坚壁加伤害2"
         }
     },
+    3350: {
+        1: {
+            "skill_id": 16602,
+            "recipe_name": "爆体破釜沉舟+10能"
+        }
+    },
+    4247: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高5%"
+        }
+    },
+    4248: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高10%"
+        }
+    },
+    4249: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高15%"
+        }
+    },
+    4250: {
+        1: {
+            "damage_addition": 410,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高20%"
+        }
+    },
+    4251: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高25%"
+        }
+    },
+    4252: {
+        1: {
+            "damage_addition": 614,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高30%"
+        }
+    },
+    4253: {
+        1: {
+            "damage_addition": 717,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高35%"
+        }
+    },
+    4254: {
+        1: {
+            "damage_addition": 819,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高40%"
+        }
+    },
+    4255: {
+        1: {
+            "damage_addition": 922,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害提高45%"
+        }
+    },
+    4309: {
+        1: {
+            "damage_addition": 1024,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害增加100%"
+        }
+    },
+    4310: {
+        1: {
+            "damage_addition": 1126,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害增加110%"
+        }
+    },
+    4311: {
+        1: {
+            "damage_addition": 1229,
+            "skill_id": 16382,
+            "recipe_name": "项王击鼎旋转伤害增加120%"
+        }
+    },
     3251: {
         1: {
             "damage_addition": 154,
@@ -5026,17 +5108,17 @@ RECIPES = {
     4290: {
         1: {
             "damage_addition": 102,
-            "skill_id": 16027,
-            "recipe_type": 16027,
+            "skill_id": 16085,
+            "recipe_type": 16085,
             "recipe_name": "PVE6件套_霸刀_醉斩白蛇"
         }
     },
     4291: {
         1: {
             "damage_addition": 102,
-            "skill_id": 16627,
-            "recipe_type": 16627,
-            "recipe_name": "PVE6件套_霸刀_项王击鼎"
+            "skill_id": 16602,
+            "recipe_type": 16602,
+            "recipe_name": "PVE6件套_霸刀_破釜沉舟"
         }
     },
     4294: {
@@ -5455,7 +5537,7 @@ RECIPES = {
     },
     5663: {
         1: {
-            "damage_addition": 154,
+            "damage_addition": 205,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升"
@@ -5463,7 +5545,7 @@ RECIPES = {
     },
     5664: {
         1: {
-            "damage_addition": 307,
+            "damage_addition": 410,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升2"
@@ -5471,7 +5553,7 @@ RECIPES = {
     },
     5665: {
         1: {
-            "damage_addition": 461,
+            "damage_addition": 614,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升3"
@@ -5579,14 +5661,6 @@ RECIPES = {
             "skill_id": 20084,
             "recipe_type": 20084,
             "recipe_name": "逐波24%"
-        }
-    },
-    5390: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 20083,
-            "recipe_type": 20083,
-            "recipe_name": "冥海伤害15"
         }
     },
     2478: {
@@ -6560,64 +6634,55 @@ RECIPES = {
     },
     5548: {
         1: {
-            "skill_id": 24369,
-            "recipe_type": 24369,
+            "skill_id": 1,
             "recipe_name": "重山1临"
         }
     },
     5549: {
         1: {
-            "skill_id": 24371,
-            "recipe_type": 24371,
+            "skill_id": 1,
             "recipe_name": "重山1兵"
         }
     },
     5550: {
         1: {
-            "skill_id": 24372,
-            "recipe_type": 24372,
+            "skill_id": 1,
             "recipe_name": "重山1斗"
         }
     },
     5551: {
         1: {
-            "skill_id": 24369,
-            "recipe_type": 24369,
+            "skill_id": 1,
             "recipe_name": "重山2临"
         }
     },
     5552: {
         1: {
-            "skill_id": 24371,
-            "recipe_type": 24371,
+            "skill_id": 1,
             "recipe_name": "重山2兵"
         }
     },
     5553: {
         1: {
-            "skill_id": 24372,
-            "recipe_type": 24372,
+            "skill_id": 1,
             "recipe_name": "重山2斗"
         }
     },
     5554: {
         1: {
-            "skill_id": 24369,
-            "recipe_type": 24369,
+            "skill_id": 1,
             "recipe_name": "重山1临"
         }
     },
     5555: {
         1: {
-            "skill_id": 24371,
-            "recipe_type": 24371,
+            "skill_id": 1,
             "recipe_name": "重山1兵"
         }
     },
     5556: {
         1: {
-            "skill_id": 24372,
-            "recipe_type": 24372,
+            "skill_id": 1,
             "recipe_name": "重山1斗"
         }
     },
@@ -7710,14 +7775,14 @@ RECIPES = {
     },
     5610: {
         1: {
-            "damage_addition": 103,
+            "damage_addition": 205,
             "recipe_type": 38085,
             "recipe_name": "绝脉引爆伤害提高10%"
         }
     },
     5620: {
         1: {
-            "damage_addition": 153,
+            "damage_addition": 205,
             "skill_id": 38452,
             "recipe_name": "骤风共振伤害增加"
         }

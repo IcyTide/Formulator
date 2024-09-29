@@ -49,6 +49,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             16847: Gain("归酣"),
+            16777: Gain("沧雪"),
             16816: Gain("碎影")
         },
         {
@@ -69,7 +70,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             17047: Gain("分疆"),
-            16733: Gain("斩纷")
+            16733: Gain("斩纷"),
+            18625: Gain("百战")
         },
         {
             25258: Gain("掠关"),
@@ -88,7 +90,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16977: Gain("冷川")
         },
         {
-            21858: Gain("降麒式")
+            21858: Gain("降麒式", buff_ids=[-29478])
         }
     ],
     1: [

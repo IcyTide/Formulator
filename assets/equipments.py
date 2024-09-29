@@ -3607,6 +3607,438 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "桑柘衣_测试用#100635 (18800 会心 无双)": {
+            "id": 100635,
+            "name": "桑柘衣_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "agility_base": 842,
+                "physical_attack_power_base": 1912,
+                "physical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石衣_测试用#100634 (18800 会心 无双)": {
+            "id": 100634,
+            "name": "分石衣_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "strength_base": 842,
+                "physical_attack_power_base": 1912,
+                "physical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽衣_测试用#100633 (18800 会心 无双)": {
+            "id": 100633,
+            "name": "散幽衣_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "spunk_base": 842,
+                "magical_attack_power_base": 2126,
+                "all_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深衣_测试用#100632 (18800 会心 无双)": {
+            "id": 100632,
+            "name": "岭深衣_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "spirit_base": 842,
+                "magical_attack_power_base": 2126,
+                "magical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语衫_测试用#100599 (17600 破防 无双)": {
+            "id": 100599,
+            "name": "慎语衫_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "agility_base": 788,
+                "physical_attack_power_base": 1790,
+                "physical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪衫_测试用#100598 (17600 破防 无双)": {
+            "id": 100598,
+            "name": "少雪衫_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "strength_base": 788,
+                "physical_attack_power_base": 1790,
+                "physical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风衫_测试用#100597 (17600 破防 无双)": {
+            "id": 100597,
+            "name": "澹风衫_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "spunk_base": 788,
+                "magical_attack_power_base": 1991,
+                "magical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "spunk_base": 41,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池衫_测试用#100596 (17600 破防 无双)": {
+            "id": 100596,
+            "name": "北池衫_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "spirit_base": 788,
+                "magical_attack_power_base": 1991,
+                "magical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞衫_测试用#101863 (16500 破招 无双)": {
+            "id": 101863,
+            "name": "逐飞衫_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "agility_base": 739,
+                "physical_attack_power_base": 1678,
+                "surplus_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼衫_测试用#101862 (16500 破招 无双)": {
+            "id": 101862,
+            "name": "画楼衫_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "strength_base": 739,
+                "physical_attack_power_base": 1678,
+                "surplus_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船衫_测试用#101861 (16500 破招 无双)": {
+            "id": 101861,
+            "name": "轻船衫_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spunk_base": 739,
+                "magical_attack_power_base": 1866,
+                "surplus_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑衫_测试用#101860 (16500 破招 无双)": {
+            "id": 101860,
+            "name": "月阑衫_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spirit_base": 739,
+                "magical_attack_power_base": 1866,
+                "surplus_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野衣_测试用#100563 (16500 破防 全能)": {
+            "id": 100563,
+            "name": "连野衣_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "agility_base": 686,
+                "physical_attack_power_base": 1343,
+                "physical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月衣_测试用#100562 (16500 破防 全能)": {
+            "id": 100562,
+            "name": "崇月衣_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "strength_base": 686,
+                "physical_attack_power_base": 1343,
+                "physical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟衣_测试用#100561 (16500 破防 全能)": {
+            "id": 100561,
+            "name": "无竟衣_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spunk_base": 686,
+                "magical_attack_power_base": 1493,
+                "magical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心衣_测试用#100560 (16500 破防 全能)": {
+            "id": 100560,
+            "name": "凭心衣_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spirit_base": 686,
+                "magical_attack_power_base": 1493,
+                "magical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "bottoms": {
@@ -5841,6 +6273,438 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "桑柘裤_测试用#100623 (18800 会心 无双)": {
+            "id": 100623,
+            "name": "桑柘裤_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "agility_base": 842,
+                "physical_attack_power_base": 1912,
+                "physical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石裤_测试用#100622 (18800 会心 无双)": {
+            "id": 100622,
+            "name": "分石裤_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "strength_base": 842,
+                "physical_attack_power_base": 1912,
+                "physical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽裤_测试用#100621 (18800 会心 无双)": {
+            "id": 100621,
+            "name": "散幽裤_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "spunk_base": 842,
+                "magical_attack_power_base": 2126,
+                "all_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "surplus_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深裤_测试用#100620 (18800 会心 无双)": {
+            "id": 100620,
+            "name": "岭深裤_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10321,
+                "spirit_base": 842,
+                "magical_attack_power_base": 2126,
+                "magical_critical_strike_base": 7037,
+                "strain_base": 5630
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语裤_测试用#100587 (17600 破防 无双)": {
+            "id": 100587,
+            "name": "慎语裤_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "agility_base": 788,
+                "physical_attack_power_base": 1790,
+                "physical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪裤_测试用#100586 (17600 破防 无双)": {
+            "id": 100586,
+            "name": "少雪裤_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "strength_base": 788,
+                "physical_attack_power_base": 1790,
+                "physical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风裤_测试用#100585 (17600 破防 无双)": {
+            "id": 100585,
+            "name": "澹风裤_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "spunk_base": 788,
+                "magical_attack_power_base": 1991,
+                "magical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "magical_attack_power_base": 97,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池裤_测试用#100584 (17600 破防 无双)": {
+            "id": 100584,
+            "name": "北池裤_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9662,
+                "spirit_base": 788,
+                "magical_attack_power_base": 1991,
+                "magical_overcome_base": 6588,
+                "strain_base": 5270
+            },
+            "embed": {
+                "magical_attack_power_base": 97,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞裳_测试用#101851 (16500 会心 无双)": {
+            "id": 101851,
+            "name": "逐飞裳_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "agility_base": 739,
+                "physical_attack_power_base": 1678,
+                "physical_critical_strike_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼裳_测试用#101850 (16500 会心 无双)": {
+            "id": 101850,
+            "name": "画楼裳_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "strength_base": 739,
+                "physical_attack_power_base": 1678,
+                "physical_critical_strike_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船裳_测试用#101849 (16500 会心 无双)": {
+            "id": 101849,
+            "name": "轻船裳_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spunk_base": 739,
+                "magical_attack_power_base": 1866,
+                "all_critical_strike_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑裳_测试用#101848 (16500 会心 无双)": {
+            "id": 101848,
+            "name": "月阑裳_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spirit_base": 739,
+                "magical_attack_power_base": 1866,
+                "magical_critical_strike_base": 6176,
+                "strain_base": 4941
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野裤_测试用#100551 (16500 破防 全能)": {
+            "id": 100551,
+            "name": "连野裤_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "agility_base": 686,
+                "physical_attack_power_base": 1343,
+                "physical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月裤_测试用#100550 (16500 破防 全能)": {
+            "id": 100550,
+            "name": "崇月裤_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "strength_base": 686,
+                "physical_attack_power_base": 1343,
+                "physical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟裤_测试用#100549 (16500 破防 全能)": {
+            "id": 100549,
+            "name": "无竟裤_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spunk_base": 686,
+                "magical_attack_power_base": 1493,
+                "magical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心裤_测试用#100548 (16500 破防 全能)": {
+            "id": 100548,
+            "name": "凭心裤_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9059,
+                "spirit_base": 686,
+                "magical_attack_power_base": 1493,
+                "magical_overcome_base": 6176,
+                "pvx_round": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "hat": {
@@ -7407,7 +8271,11 @@ EQUIPMENTS = {
                 "physical_critical_power_base": 321,
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7436,7 +8304,11 @@ EQUIPMENTS = {
                 "physical_critical_power_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7464,7 +8336,11 @@ EQUIPMENTS = {
                 "physical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7494,7 +8370,11 @@ EQUIPMENTS = {
                 "all_critical_power_base": 321,
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7523,7 +8403,11 @@ EQUIPMENTS = {
                 "all_critical_power_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7551,7 +8435,11 @@ EQUIPMENTS = {
                 "all_critical_strike_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2703
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7581,7 +8469,11 @@ EQUIPMENTS = {
                 "physical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7611,7 +8503,11 @@ EQUIPMENTS = {
                 "physical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7640,7 +8536,11 @@ EQUIPMENTS = {
                 "surplus_base": 321,
                 "physical_attack_power_base": 87
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7670,7 +8570,11 @@ EQUIPMENTS = {
                 "magical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7700,7 +8604,11 @@ EQUIPMENTS = {
                 "magical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -7729,7 +8637,11 @@ EQUIPMENTS = {
                 "surplus_base": 321,
                 "magical_attack_power_base": 97
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -10775,6 +11687,918 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "无封头饰_测试用#101667 (19800 精简 会心 破防 破招)": {
+            "id": 101667,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 3505,
+                "physical_critical_strike_base": 4447,
+                "physical_overcome_base": 4447,
+                "surplus_base": 3558
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封头饰_测试用#101666 (19800 精简 会心 无双)": {
+            "id": 101666,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 2900,
+                "physical_critical_strike_base": 4892,
+                "strain_base": 9783
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封头饰_测试用#101665 (19800 精简 无双)": {
+            "id": 101665,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 4109,
+                "strain_base": 9783
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封头饰_测试用#101664 (19800 精简 会心 破防 破招)": {
+            "id": 101664,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 3897,
+                "all_critical_strike_base": 4447,
+                "magical_overcome_base": 4447,
+                "surplus_base": 3558
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封头饰_测试用#101663 (19800 精简 会心 无双)": {
+            "id": 101663,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 3225,
+                "all_critical_strike_base": 4892,
+                "strain_base": 9783
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封头饰_测试用#101662 (19800 精简 无双)": {
+            "id": 101662,
+            "name": "无封头饰_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 4569,
+                "strain_base": 9783
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临书帽_测试用#100779 (19400 破防 无双)": {
+            "id": 100779,
+            "name": "临书帽_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9586,
+                "agility_base": 782,
+                "physical_attack_power_base": 1776,
+                "physical_overcome_base": 6536,
+                "strain_base": 5228
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临雾帽_测试用#100778 (19400 破防 无双)": {
+            "id": 100778,
+            "name": "临雾帽_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9586,
+                "strength_base": 782,
+                "physical_attack_power_base": 1776,
+                "physical_overcome_base": 6536,
+                "strain_base": 5228
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临起帽_测试用#100777 (19400 破防 无双)": {
+            "id": 100777,
+            "name": "临起帽_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9586,
+                "spunk_base": 782,
+                "magical_attack_power_base": 1975,
+                "magical_overcome_base": 6536,
+                "strain_base": 5228
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临可帽_测试用#100776 (19400 破防 无双)": {
+            "id": 100776,
+            "name": "临可帽_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9586,
+                "spirit_base": 782,
+                "magical_attack_power_base": 1975,
+                "magical_overcome_base": 6536,
+                "strain_base": 5228
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘帽_测试用#100629 (18800 加速 无双)": {
+            "id": 100629,
+            "name": "桑柘帽_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9289,
+                "agility_base": 758,
+                "physical_attack_power_base": 1721,
+                "haste_base": 6333,
+                "strain_base": 5067
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石帽_测试用#100628 (18800 加速 无双)": {
+            "id": 100628,
+            "name": "分石帽_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9289,
+                "strength_base": 758,
+                "physical_attack_power_base": 1721,
+                "haste_base": 6333,
+                "strain_base": 5067
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽帽_测试用#100627 (18800 加速 无双)": {
+            "id": 100627,
+            "name": "散幽帽_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9289,
+                "spunk_base": 758,
+                "magical_attack_power_base": 1914,
+                "haste_base": 6333,
+                "strain_base": 5067
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深帽_测试用#100626 (18800 加速 无双)": {
+            "id": 100626,
+            "name": "岭深帽_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9289,
+                "spirit_base": 758,
+                "magical_attack_power_base": 1914,
+                "haste_base": 6333,
+                "strain_base": 5067
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临书帽_测试用#100755 (18100 破防 无双)": {
+            "id": 100755,
+            "name": "临书帽_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8943,
+                "agility_base": 730,
+                "physical_attack_power_base": 1657,
+                "physical_overcome_base": 6098,
+                "strain_base": 4878
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临雾帽_测试用#100754 (18100 破防 无双)": {
+            "id": 100754,
+            "name": "临雾帽_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8943,
+                "strength_base": 730,
+                "physical_attack_power_base": 1657,
+                "physical_overcome_base": 6098,
+                "strain_base": 4878
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临起帽_测试用#100753 (18100 破防 无双)": {
+            "id": 100753,
+            "name": "临起帽_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8943,
+                "spunk_base": 730,
+                "magical_attack_power_base": 1843,
+                "magical_overcome_base": 6098,
+                "strain_base": 4878
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临可帽_测试用#100752 (18100 破防 无双)": {
+            "id": 100752,
+            "name": "临可帽_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8943,
+                "spirit_base": 730,
+                "magical_attack_power_base": 1843,
+                "magical_overcome_base": 6098,
+                "strain_base": 4878
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语巾_测试用#100593 (17600 破防 无双)": {
+            "id": 100593,
+            "name": "慎语巾_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8696,
+                "agility_base": 709,
+                "physical_attack_power_base": 1611,
+                "physical_overcome_base": 5929,
+                "strain_base": 4743
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪巾_测试用#100592 (17600 破防 无双)": {
+            "id": 100592,
+            "name": "少雪巾_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8696,
+                "strength_base": 709,
+                "physical_attack_power_base": 1611,
+                "physical_overcome_base": 5929,
+                "strain_base": 4743
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风巾_测试用#100591 (17600 破防 无双)": {
+            "id": 100591,
+            "name": "澹风巾_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8696,
+                "spunk_base": 709,
+                "magical_attack_power_base": 1792,
+                "magical_overcome_base": 5929,
+                "strain_base": 4743
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池巾_测试用#100590 (17600 破防 无双)": {
+            "id": 100590,
+            "name": "北池巾_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8696,
+                "spirit_base": 709,
+                "magical_attack_power_base": 1792,
+                "magical_overcome_base": 5929,
+                "strain_base": 4743
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临书帽_测试用#100731 (16800 破防 无双)": {
+            "id": 100731,
+            "name": "临书帽_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "agility_base": 677,
+                "physical_attack_power_base": 1538,
+                "physical_overcome_base": 5660,
+                "strain_base": 4528
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临雾帽_测试用#100730 (16800 破防 无双)": {
+            "id": 100730,
+            "name": "临雾帽_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "strength_base": 677,
+                "physical_attack_power_base": 1538,
+                "physical_overcome_base": 5660,
+                "strain_base": 4528
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临起帽_测试用#100729 (16800 破防 无双)": {
+            "id": 100729,
+            "name": "临起帽_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "spunk_base": 677,
+                "magical_attack_power_base": 1710,
+                "magical_overcome_base": 5660,
+                "strain_base": 4528
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临可帽_测试用#100728 (16800 破防 无双)": {
+            "id": 100728,
+            "name": "临可帽_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "spirit_base": 677,
+                "magical_attack_power_base": 1710,
+                "magical_overcome_base": 5660,
+                "strain_base": 4528
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞冠_测试用#101857 (16500 破招 无双)": {
+            "id": 101857,
+            "name": "逐飞冠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "agility_base": 665,
+                "physical_attack_power_base": 1511,
+                "surplus_base": 5559,
+                "strain_base": 4447
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼冠_测试用#101856 (16500 破招 无双)": {
+            "id": 101856,
+            "name": "画楼冠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "strength_base": 665,
+                "physical_attack_power_base": 1511,
+                "surplus_base": 5559,
+                "strain_base": 4447
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船冠_测试用#101855 (16500 破招 无双)": {
+            "id": 101855,
+            "name": "轻船冠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "spunk_base": 665,
+                "magical_attack_power_base": 1680,
+                "surplus_base": 5559,
+                "strain_base": 4447
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑冠_测试用#101854 (16500 破招 无双)": {
+            "id": 101854,
+            "name": "月阑冠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "spirit_base": 665,
+                "magical_attack_power_base": 1680,
+                "surplus_base": 5559,
+                "strain_base": 4447
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野帽_测试用#100557 (16500 破防 全能)": {
+            "id": 100557,
+            "name": "连野帽_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "agility_base": 618,
+                "physical_attack_power_base": 1208,
+                "physical_overcome_base": 5559,
+                "pvx_round": 2223
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月帽_测试用#100556 (16500 破防 全能)": {
+            "id": 100556,
+            "name": "崇月帽_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "strength_base": 618,
+                "physical_attack_power_base": 1208,
+                "physical_overcome_base": 5559,
+                "pvx_round": 2223
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟帽_测试用#100555 (16500 破防 全能)": {
+            "id": 100555,
+            "name": "无竟帽_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "spunk_base": 618,
+                "magical_attack_power_base": 1344,
+                "magical_overcome_base": 5559,
+                "pvx_round": 2223
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心帽_测试用#100554 (16500 破防 全能)": {
+            "id": 100554,
+            "name": "凭心帽_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8153,
+                "spirit_base": 618,
+                "magical_attack_power_base": 1344,
+                "magical_overcome_base": 5559,
+                "pvx_round": 2223
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "shoes": {
@@ -12182,7 +14006,11 @@ EQUIPMENTS = {
                 "physical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2710
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12210,7 +14038,11 @@ EQUIPMENTS = {
                 "surplus_base": 321,
                 "physical_attack_power_base": 87
             },
-            "gains": [],
+            "gains": [
+                [
+                    2702
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12237,7 +14069,11 @@ EQUIPMENTS = {
                 "physical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2702
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12266,7 +14102,11 @@ EQUIPMENTS = {
                 "magical_overcome_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2710
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12294,7 +14134,11 @@ EQUIPMENTS = {
                 "surplus_base": 321,
                 "magical_attack_power_base": 97
             },
-            "gains": [],
+            "gains": [
+                [
+                    2702
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12321,7 +14165,11 @@ EQUIPMENTS = {
                 "all_critical_strike_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2702
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12350,7 +14198,11 @@ EQUIPMENTS = {
                 "physical_critical_strike_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12379,7 +14231,11 @@ EQUIPMENTS = {
                 "physical_critical_power_base": 321,
                 "physical_attack_power_base": 87
             },
-            "gains": [],
+            "gains": [
+                [
+                    2709
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12407,7 +14263,11 @@ EQUIPMENTS = {
                 "physical_critical_power_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2709
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12436,7 +14296,11 @@ EQUIPMENTS = {
                 "all_critical_strike_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2698
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12465,7 +14329,11 @@ EQUIPMENTS = {
                 "all_critical_power_base": 321,
                 "magical_attack_power_base": 97
             },
-            "gains": [],
+            "gains": [
+                [
+                    2709
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -12493,7 +14361,11 @@ EQUIPMENTS = {
                 "all_critical_power_base": 321,
                 "strain_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2709
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -15420,6 +17292,918 @@ EQUIPMENTS = {
             },
             "embed": {
                 "magical_attack_power_base": 97,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101685 (19800 精简 会心 破招 无双)": {
+            "id": 101685,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 2726,
+                "physical_critical_strike_base": 3459,
+                "surplus_base": 3459,
+                "strain_base": 3459
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101684 (19800 精简 破防 无双)": {
+            "id": 101684,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 2256,
+                "physical_overcome_base": 3805,
+                "strain_base": 7609
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101683 (19800 精简 无双)": {
+            "id": 101683,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 3196,
+                "strain_base": 7609
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101682 (19800 精简 会心 破招 无双)": {
+            "id": 101682,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 3031,
+                "all_critical_strike_base": 3459,
+                "surplus_base": 3459,
+                "strain_base": 3459
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101681 (19800 精简 破防 无双)": {
+            "id": 101681,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 2508,
+                "magical_overcome_base": 3805,
+                "strain_base": 7609
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封鞋_测试用#101680 (19800 精简 无双)": {
+            "id": 101680,
+            "name": "无封鞋_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 3553,
+                "strain_base": 7609
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临旭鞋_测试用#100773 (19400 破招 无双)": {
+            "id": 100773,
+            "name": "临旭鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "agility_base": 608,
+                "physical_attack_power_base": 1381,
+                "surplus_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晨鞋_测试用#100772 (19400 破招 无双)": {
+            "id": 100772,
+            "name": "临晨鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "strength_base": 608,
+                "physical_attack_power_base": 1381,
+                "surplus_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临虹鞋_测试用#100771 (19400 破招 无双)": {
+            "id": 100771,
+            "name": "临虹鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spunk_base": 608,
+                "magical_attack_power_base": 1536,
+                "surplus_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临宇鞋_测试用#100770 (19400 破招 无双)": {
+            "id": 100770,
+            "name": "临宇鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spirit_base": 608,
+                "magical_attack_power_base": 1536,
+                "surplus_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘鞋_测试用#100617 (18800 破招 无双)": {
+            "id": 100617,
+            "name": "桑柘鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "agility_base": 589,
+                "physical_attack_power_base": 1339,
+                "surplus_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石鞋_测试用#100616 (18800 破招 无双)": {
+            "id": 100616,
+            "name": "分石鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "strength_base": 589,
+                "physical_attack_power_base": 1339,
+                "surplus_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽鞋_测试用#100615 (18800 破招 无双)": {
+            "id": 100615,
+            "name": "散幽鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spunk_base": 589,
+                "magical_attack_power_base": 1489,
+                "surplus_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深鞋_测试用#100614 (18800 破招 无双)": {
+            "id": 100614,
+            "name": "岭深鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spirit_base": 589,
+                "magical_attack_power_base": 1489,
+                "surplus_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临旭鞋_测试用#100749 (18100 破招 无双)": {
+            "id": 100749,
+            "name": "临旭鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "agility_base": 567,
+                "physical_attack_power_base": 1289,
+                "surplus_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晨鞋_测试用#100748 (18100 破招 无双)": {
+            "id": 100748,
+            "name": "临晨鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "strength_base": 567,
+                "physical_attack_power_base": 1289,
+                "surplus_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临虹鞋_测试用#100747 (18100 破招 无双)": {
+            "id": 100747,
+            "name": "临虹鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spunk_base": 567,
+                "magical_attack_power_base": 1433,
+                "surplus_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临宇鞋_测试用#100746 (18100 破招 无双)": {
+            "id": 100746,
+            "name": "临宇鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spirit_base": 567,
+                "magical_attack_power_base": 1433,
+                "surplus_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语靴_测试用#100581 (17600 破防 无双)": {
+            "id": 100581,
+            "name": "慎语靴_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "agility_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_overcome_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪靴_测试用#100580 (17600 破防 无双)": {
+            "id": 100580,
+            "name": "少雪靴_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "strength_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_overcome_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风靴_测试用#100579 (17600 破防 无双)": {
+            "id": 100579,
+            "name": "澹风靴_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spunk_base": 552,
+                "magical_attack_power_base": 1393,
+                "magical_overcome_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "magical_attack_power_base": 97,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池靴_测试用#100578 (17600 破防 无双)": {
+            "id": 100578,
+            "name": "北池靴_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spirit_base": 552,
+                "magical_attack_power_base": 1393,
+                "magical_overcome_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "magical_attack_power_base": 97,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临旭鞋_测试用#100725 (16800 破招 无双)": {
+            "id": 100725,
+            "name": "临旭鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "agility_base": 527,
+                "physical_attack_power_base": 1196,
+                "surplus_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晨鞋_测试用#100724 (16800 破招 无双)": {
+            "id": 100724,
+            "name": "临晨鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "strength_base": 527,
+                "physical_attack_power_base": 1196,
+                "surplus_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临虹鞋_测试用#100723 (16800 破招 无双)": {
+            "id": 100723,
+            "name": "临虹鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spunk_base": 527,
+                "magical_attack_power_base": 1330,
+                "surplus_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临宇鞋_测试用#100722 (16800 破招 无双)": {
+            "id": 100722,
+            "name": "临宇鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spirit_base": 527,
+                "magical_attack_power_base": 1330,
+                "surplus_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞鞋_测试用#101845 (16500 会心 无双)": {
+            "id": 101845,
+            "name": "逐飞鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_critical_strike_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "agility_base": 41,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼鞋_测试用#101844 (16500 会心 无双)": {
+            "id": 101844,
+            "name": "画楼鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_critical_strike_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strength_base": 41,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船鞋_测试用#101843 (16500 会心 无双)": {
+            "id": 101843,
+            "name": "轻船鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 517,
+                "magical_attack_power_base": 1306,
+                "all_critical_strike_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "spunk_base": 41,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑鞋_测试用#101842 (16500 会心 无双)": {
+            "id": 101842,
+            "name": "月阑鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 517,
+                "magical_attack_power_base": 1306,
+                "magical_critical_strike_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "spirit_base": 41,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野鞋_测试用#100545 (16500 破防 全能)": {
+            "id": 100545,
+            "name": "连野鞋_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月鞋_测试用#100544 (16500 破防 全能)": {
+            "id": 100544,
+            "name": "崇月鞋_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟鞋_测试用#100543 (16500 破防 全能)": {
+            "id": 100543,
+            "name": "无竟鞋_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心鞋_测试用#100542 (16500 破防 全能)": {
+            "id": 100542,
+            "name": "凭心鞋_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
                 "magical_overcome_base": 321
             },
             "gains": [],
@@ -19273,6 +22057,762 @@ EQUIPMENTS = {
             "embed": {
                 "spirit_base": 41,
                 "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临夜腰带_测试用#100767 (19400 破防 无双)": {
+            "id": 100767,
+            "name": "临夜腰带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "agility_base": 608,
+                "physical_attack_power_base": 1381,
+                "physical_overcome_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临岳腰带_测试用#100766 (19400 破防 无双)": {
+            "id": 100766,
+            "name": "临岳腰带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "strength_base": 608,
+                "physical_attack_power_base": 1381,
+                "physical_overcome_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临初腰带_测试用#100765 (19400 破防 无双)": {
+            "id": 100765,
+            "name": "临初腰带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spunk_base": 608,
+                "magical_attack_power_base": 1536,
+                "magical_overcome_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临罡腰带_测试用#100764 (19400 破防 无双)": {
+            "id": 100764,
+            "name": "临罡腰带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spirit_base": 608,
+                "magical_attack_power_base": 1536,
+                "magical_overcome_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘带_测试用#100611 (18800 破防 无双)": {
+            "id": 100611,
+            "name": "桑柘带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "agility_base": 589,
+                "physical_attack_power_base": 1339,
+                "physical_overcome_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石带_测试用#100610 (18800 破防 无双)": {
+            "id": 100610,
+            "name": "分石带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "strength_base": 589,
+                "physical_attack_power_base": 1339,
+                "physical_overcome_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽带_测试用#100609 (18800 破防 无双)": {
+            "id": 100609,
+            "name": "散幽带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spunk_base": 589,
+                "magical_attack_power_base": 1489,
+                "magical_overcome_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深带_测试用#100608 (18800 破防 无双)": {
+            "id": 100608,
+            "name": "岭深带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spirit_base": 589,
+                "magical_attack_power_base": 1489,
+                "magical_overcome_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临夜腰带_测试用#100743 (18100 破防 无双)": {
+            "id": 100743,
+            "name": "临夜腰带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "agility_base": 567,
+                "physical_attack_power_base": 1289,
+                "physical_overcome_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临岳腰带_测试用#100742 (18100 破防 无双)": {
+            "id": 100742,
+            "name": "临岳腰带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "strength_base": 567,
+                "physical_attack_power_base": 1289,
+                "physical_overcome_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临初腰带_测试用#100741 (18100 破防 无双)": {
+            "id": 100741,
+            "name": "临初腰带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spunk_base": 567,
+                "magical_attack_power_base": 1433,
+                "magical_overcome_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临罡腰带_测试用#100740 (18100 破防 无双)": {
+            "id": 100740,
+            "name": "临罡腰带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spirit_base": 567,
+                "magical_attack_power_base": 1433,
+                "magical_overcome_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语护腰_测试用#100575 (17600 会心 无双)": {
+            "id": 100575,
+            "name": "慎语护腰_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "agility_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪护腰_测试用#100574 (17600 会心 无双)": {
+            "id": 100574,
+            "name": "少雪护腰_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "strength_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风护腰_测试用#100573 (17600 会心 无双)": {
+            "id": 100573,
+            "name": "澹风护腰_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spunk_base": 552,
+                "magical_attack_power_base": 1393,
+                "all_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池护腰_测试用#100572 (17600 会心 无双)": {
+            "id": 100572,
+            "name": "北池护腰_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spirit_base": 552,
+                "magical_attack_power_base": 1393,
+                "magical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临夜腰带_测试用#100719 (16800 破防 无双)": {
+            "id": 100719,
+            "name": "临夜腰带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "agility_base": 527,
+                "physical_attack_power_base": 1196,
+                "physical_overcome_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临岳腰带_测试用#100718 (16800 破防 无双)": {
+            "id": 100718,
+            "name": "临岳腰带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "strength_base": 527,
+                "physical_attack_power_base": 1196,
+                "physical_overcome_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临初腰带_测试用#100717 (16800 破防 无双)": {
+            "id": 100717,
+            "name": "临初腰带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spunk_base": 527,
+                "magical_attack_power_base": 1330,
+                "magical_overcome_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临罡腰带_测试用#100716 (16800 破防 无双)": {
+            "id": 100716,
+            "name": "临罡腰带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spirit_base": 527,
+                "magical_attack_power_base": 1330,
+                "magical_overcome_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞带_测试用#101839 (16500 破防 无双)": {
+            "id": 101839,
+            "name": "逐飞带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼带_测试用#101838 (16500 破防 无双)": {
+            "id": 101838,
+            "name": "画楼带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船带_测试用#101837 (16500 破防 无双)": {
+            "id": 101837,
+            "name": "轻船带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 517,
+                "magical_attack_power_base": 1306,
+                "magical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑带_测试用#101836 (16500 破防 无双)": {
+            "id": 101836,
+            "name": "月阑带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 517,
+                "magical_attack_power_base": 1306,
+                "magical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野腰带_测试用#100539 (16500 破防 全能)": {
+            "id": 100539,
+            "name": "连野腰带_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月腰带_测试用#100538 (16500 破防 全能)": {
+            "id": 100538,
+            "name": "崇月腰带_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟腰带_测试用#100537 (16500 破防 全能)": {
+            "id": 100537,
+            "name": "无竟腰带_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心腰带_测试用#100536 (16500 破防 全能)": {
+            "id": 100536,
+            "name": "凭心腰带_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -23465,6 +27005,762 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "临钧护手_测试用#100761 (19400 会心 无双)": {
+            "id": 100761,
+            "name": "临钧护手_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "agility_base": 608,
+                "physical_attack_power_base": 1381,
+                "physical_critical_strike_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临英护手_测试用#100760 (19400 会心 无双)": {
+            "id": 100760,
+            "name": "临英护手_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "strength_base": 608,
+                "physical_attack_power_base": 1381,
+                "physical_critical_strike_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临穹护手_测试用#100759 (19400 会心 无双)": {
+            "id": 100759,
+            "name": "临穹护手_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spunk_base": 608,
+                "magical_attack_power_base": 1536,
+                "all_critical_strike_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临心护手_测试用#100758 (19400 会心 无双)": {
+            "id": 100758,
+            "name": "临心护手_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7455,
+                "spirit_base": 608,
+                "magical_attack_power_base": 1536,
+                "magical_critical_strike_base": 5083,
+                "strain_base": 4067
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘护手_测试用#100605 (18800 加速 无双)": {
+            "id": 100605,
+            "name": "桑柘护手_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "agility_base": 589,
+                "physical_attack_power_base": 1339,
+                "haste_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石护手_测试用#100604 (18800 加速 无双)": {
+            "id": 100604,
+            "name": "分石护手_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "strength_base": 589,
+                "physical_attack_power_base": 1339,
+                "haste_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽护手_测试用#100603 (18800 加速 无双)": {
+            "id": 100603,
+            "name": "散幽护手_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spunk_base": 589,
+                "magical_attack_power_base": 1489,
+                "haste_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深护手_测试用#100602 (18800 加速 无双)": {
+            "id": 100602,
+            "name": "岭深护手_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7225,
+                "spirit_base": 589,
+                "magical_attack_power_base": 1489,
+                "haste_base": 4926,
+                "strain_base": 3941
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临钧护手_测试用#100737 (18100 会心 无双)": {
+            "id": 100737,
+            "name": "临钧护手_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "agility_base": 567,
+                "physical_attack_power_base": 1289,
+                "physical_critical_strike_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临英护手_测试用#100736 (18100 会心 无双)": {
+            "id": 100736,
+            "name": "临英护手_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "strength_base": 567,
+                "physical_attack_power_base": 1289,
+                "physical_critical_strike_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临穹护手_测试用#100735 (18100 会心 无双)": {
+            "id": 100735,
+            "name": "临穹护手_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spunk_base": 567,
+                "magical_attack_power_base": 1433,
+                "all_critical_strike_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临心护手_测试用#100734 (18100 会心 无双)": {
+            "id": 100734,
+            "name": "临心护手_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6956,
+                "spirit_base": 567,
+                "magical_attack_power_base": 1433,
+                "magical_critical_strike_base": 4743,
+                "strain_base": 3794
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语袖_测试用#100569 (17600 会心 无双)": {
+            "id": 100569,
+            "name": "慎语袖_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "agility_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪袖_测试用#100568 (17600 会心 无双)": {
+            "id": 100568,
+            "name": "少雪袖_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "strength_base": 552,
+                "physical_attack_power_base": 1253,
+                "physical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风袖_测试用#100567 (17600 会心 无双)": {
+            "id": 100567,
+            "name": "澹风袖_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spunk_base": 552,
+                "magical_attack_power_base": 1393,
+                "all_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池袖_测试用#100566 (17600 会心 无双)": {
+            "id": 100566,
+            "name": "北池袖_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6764,
+                "spirit_base": 552,
+                "magical_attack_power_base": 1393,
+                "magical_critical_strike_base": 4612,
+                "strain_base": 3689
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临钧护手_测试用#100713 (16800 会心 无双)": {
+            "id": 100713,
+            "name": "临钧护手_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "agility_base": 527,
+                "physical_attack_power_base": 1196,
+                "physical_critical_strike_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临英护手_测试用#100712 (16800 会心 无双)": {
+            "id": 100712,
+            "name": "临英护手_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "strength_base": 527,
+                "physical_attack_power_base": 1196,
+                "physical_critical_strike_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临穹护手_测试用#100711 (16800 会心 无双)": {
+            "id": 100711,
+            "name": "临穹护手_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spunk_base": 527,
+                "magical_attack_power_base": 1330,
+                "all_critical_strike_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临心护手_测试用#100710 (16800 会心 无双)": {
+            "id": 100710,
+            "name": "临心护手_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6456,
+                "spirit_base": 527,
+                "magical_attack_power_base": 1330,
+                "magical_critical_strike_base": 4402,
+                "strain_base": 3522
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞袖_测试用#101833 (16500 破防 无双)": {
+            "id": 101833,
+            "name": "逐飞袖_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼袖_测试用#101832 (16500 破防 无双)": {
+            "id": 101832,
+            "name": "画楼袖_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 517,
+                "physical_attack_power_base": 1175,
+                "physical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船袖_测试用#101831 (16500 破防 无双)": {
+            "id": 101831,
+            "name": "轻船袖_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 517,
+                "magical_attack_power_base": 1306,
+                "magical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑袖_测试用#101830 (16500 破防 无双)": {
+            "id": 101830,
+            "name": "月阑袖_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 517,
+                "magical_attack_power_base": 1306,
+                "magical_overcome_base": 4323,
+                "strain_base": 3459
+            },
+            "embed": {
+                "strain_base": 321,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野护手_测试用#100533 (16500 破防 全能)": {
+            "id": 100533,
+            "name": "连野护手_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "agility_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月护手_测试用#100532 (16500 破防 全能)": {
+            "id": 100532,
+            "name": "崇月护手_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "strength_base": 480,
+                "physical_attack_power_base": 940,
+                "physical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟护手_测试用#100531 (16500 破防 全能)": {
+            "id": 100531,
+            "name": "无竟护手_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spunk_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心护手_测试用#100530 (16500 破防 全能)": {
+            "id": 100530,
+            "name": "凭心护手_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6341,
+                "spirit_base": 480,
+                "magical_attack_power_base": 1045,
+                "magical_overcome_base": 4323,
+                "pvx_round": 1729
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "ring": {
@@ -25627,6 +29923,678 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "临仙戒_测试用#41160 (19400 会心 无双)": {
+            "id": 41160,
+            "name": "临仙戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "agility_base": 434,
+                "physical_attack_power_base": 987,
+                "physical_critical_strike_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临尚戒_测试用#41159 (19400 会心 无双)": {
+            "id": 41159,
+            "name": "临尚戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "strength_base": 434,
+                "physical_attack_power_base": 987,
+                "physical_critical_strike_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临曦戒_测试用#41158 (19400 会心 无双)": {
+            "id": 41158,
+            "name": "临曦戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spunk_base": 434,
+                "magical_attack_power_base": 1097,
+                "all_critical_strike_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临衣戒_测试用#41157 (19400 会心 无双)": {
+            "id": 41157,
+            "name": "临衣戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spirit_base": 434,
+                "magical_attack_power_base": 1097,
+                "magical_critical_strike_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘戒_测试用#41070 (18800 破防 无双)": {
+            "id": 41070,
+            "name": "桑柘戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "agility_base": 421,
+                "physical_attack_power_base": 956,
+                "physical_overcome_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石戒_测试用#41069 (18800 破防 无双)": {
+            "id": 41069,
+            "name": "分石戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "strength_base": 421,
+                "physical_attack_power_base": 956,
+                "physical_overcome_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽戒_测试用#41068 (18800 破防 无双)": {
+            "id": 41068,
+            "name": "散幽戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spunk_base": 421,
+                "magical_attack_power_base": 1063,
+                "magical_overcome_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深戒_测试用#41067 (18800 破防 无双)": {
+            "id": 41067,
+            "name": "岭深戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spirit_base": 421,
+                "magical_attack_power_base": 1063,
+                "magical_overcome_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临仙戒_测试用#41142 (18100 会心 无双)": {
+            "id": 41142,
+            "name": "临仙戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "agility_base": 405,
+                "physical_attack_power_base": 921,
+                "physical_critical_strike_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临尚戒_测试用#41141 (18100 会心 无双)": {
+            "id": 41141,
+            "name": "临尚戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "strength_base": 405,
+                "physical_attack_power_base": 921,
+                "physical_critical_strike_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临曦戒_测试用#41140 (18100 会心 无双)": {
+            "id": 41140,
+            "name": "临曦戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spunk_base": 405,
+                "magical_attack_power_base": 1024,
+                "all_critical_strike_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临衣戒_测试用#41139 (18100 会心 无双)": {
+            "id": 41139,
+            "name": "临衣戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spirit_base": 405,
+                "magical_attack_power_base": 1024,
+                "magical_critical_strike_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语戒_测试用#41052 (17600 加速 无双)": {
+            "id": 41052,
+            "name": "慎语戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "agility_base": 394,
+                "physical_attack_power_base": 895,
+                "haste_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪戒_测试用#41051 (17600 加速 无双)": {
+            "id": 41051,
+            "name": "少雪戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "strength_base": 394,
+                "physical_attack_power_base": 895,
+                "haste_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风戒_测试用#41050 (17600 加速 无双)": {
+            "id": 41050,
+            "name": "澹风戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spunk_base": 394,
+                "magical_attack_power_base": 995,
+                "haste_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池戒_测试用#41049 (17600 加速 无双)": {
+            "id": 41049,
+            "name": "北池戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spirit_base": 394,
+                "magical_attack_power_base": 995,
+                "haste_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临仙戒_测试用#41124 (16800 会心 无双)": {
+            "id": 41124,
+            "name": "临仙戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "agility_base": 376,
+                "physical_attack_power_base": 854,
+                "physical_critical_strike_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临尚戒_测试用#41123 (16800 会心 无双)": {
+            "id": 41123,
+            "name": "临尚戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "strength_base": 376,
+                "physical_attack_power_base": 854,
+                "physical_critical_strike_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临曦戒_测试用#41122 (16800 会心 无双)": {
+            "id": 41122,
+            "name": "临曦戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spunk_base": 376,
+                "magical_attack_power_base": 950,
+                "all_critical_strike_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临衣戒_测试用#41121 (16800 会心 无双)": {
+            "id": 41121,
+            "name": "临衣戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spirit_base": 376,
+                "magical_attack_power_base": 950,
+                "magical_critical_strike_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞戒_测试用#41534 (16500 会心 无双)": {
+            "id": 41534,
+            "name": "逐飞戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼戒_测试用#41533 (16500 会心 无双)": {
+            "id": 41533,
+            "name": "画楼戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船戒_测试用#41532 (16500 会心 无双)": {
+            "id": 41532,
+            "name": "轻船戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 370,
+                "magical_attack_power_base": 933,
+                "all_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑戒_测试用#41531 (16500 会心 无双)": {
+            "id": 41531,
+            "name": "月阑戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 370,
+                "magical_attack_power_base": 933,
+                "magical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野戒_测试用#41034 (16500 会心 全能)": {
+            "id": 41034,
+            "name": "连野戒_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月戒_测试用#41033 (16500 会心 全能)": {
+            "id": 41033,
+            "name": "崇月戒_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟戒_测试用#41032 (16500 会心 全能)": {
+            "id": 41032,
+            "name": "无竟戒_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 343,
+                "magical_attack_power_base": 747,
+                "all_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心戒_测试用#41031 (16500 会心 全能)": {
+            "id": 41031,
+            "name": "凭心戒_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 343,
+                "magical_attack_power_base": 747,
+                "magical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "pendant": {
@@ -26190,7 +31158,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2712
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26216,7 +31188,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2705
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26240,7 +31216,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2705
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26266,7 +31246,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2712
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26292,7 +31276,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2705
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26316,7 +31304,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2705
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26342,7 +31334,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2700
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26367,7 +31363,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2711
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26392,7 +31392,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2700
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26418,7 +31422,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2700
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26443,7 +31451,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2711
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -26468,7 +31480,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2700
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28333,6 +33349,886 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "无封腰坠_测试用#41446 (19800 精简 会心 会效 无双)": {
+            "id": 41446,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_critical_strike_base": 3706,
+                "physical_critical_power_base": 1853,
+                "strain_base": 1853
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封腰坠_测试用#41445 (19800 精简 破防 破招 无双)": {
+            "id": 41445,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封腰坠_测试用#41444 (19800 精简 无双)": {
+            "id": 41444,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 2283,
+                "strain_base": 5435
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封腰坠_测试用#41443 (19800 精简 会心 会效 无双)": {
+            "id": 41443,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "all_critical_strike_base": 3706,
+                "all_critical_power_base": 1853,
+                "strain_base": 1853
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封腰坠_测试用#41442 (19800 精简 破防 破招 无双)": {
+            "id": 41442,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "magical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封腰坠_测试用#41441 (19800 精简 无双)": {
+            "id": 41441,
+            "name": "无封腰坠_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2538,
+                "strain_base": 5435
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临苑坠_测试用#41154 (19400 破招 无双)": {
+            "id": 41154,
+            "name": "临苑坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "agility_base": 434,
+                "physical_attack_power_base": 987,
+                "surplus_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临梧坠_测试用#41153 (19400 破招 无双)": {
+            "id": 41153,
+            "name": "临梧坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "strength_base": 434,
+                "physical_attack_power_base": 987,
+                "surplus_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临典坠_测试用#41152 (19400 破招 无双)": {
+            "id": 41152,
+            "name": "临典坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spunk_base": 434,
+                "magical_attack_power_base": 1097,
+                "surplus_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临乐坠_测试用#41151 (19400 破招 无双)": {
+            "id": 41151,
+            "name": "临乐坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spirit_base": 434,
+                "magical_attack_power_base": 1097,
+                "surplus_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘坠_测试用#41064 (18800 会心 无双)": {
+            "id": 41064,
+            "name": "桑柘坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "agility_base": 421,
+                "physical_attack_power_base": 956,
+                "physical_critical_strike_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石坠_测试用#41063 (18800 会心 无双)": {
+            "id": 41063,
+            "name": "分石坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "strength_base": 421,
+                "physical_attack_power_base": 956,
+                "physical_critical_strike_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽坠_测试用#41062 (18800 会心 无双)": {
+            "id": 41062,
+            "name": "散幽坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spunk_base": 421,
+                "magical_attack_power_base": 1063,
+                "all_critical_strike_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深坠_测试用#41061 (18800 会心 无双)": {
+            "id": 41061,
+            "name": "岭深坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spirit_base": 421,
+                "magical_attack_power_base": 1063,
+                "magical_critical_strike_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临苑坠_测试用#41136 (18100 破招 无双)": {
+            "id": 41136,
+            "name": "临苑坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "agility_base": 405,
+                "physical_attack_power_base": 921,
+                "surplus_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临梧坠_测试用#41135 (18100 破招 无双)": {
+            "id": 41135,
+            "name": "临梧坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "strength_base": 405,
+                "physical_attack_power_base": 921,
+                "surplus_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临典坠_测试用#41134 (18100 破招 无双)": {
+            "id": 41134,
+            "name": "临典坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spunk_base": 405,
+                "magical_attack_power_base": 1024,
+                "surplus_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临乐坠_测试用#41133 (18100 破招 无双)": {
+            "id": 41133,
+            "name": "临乐坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spirit_base": 405,
+                "magical_attack_power_base": 1024,
+                "surplus_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语坠_测试用#41046 (17600 破招 无双)": {
+            "id": 41046,
+            "name": "慎语坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "agility_base": 394,
+                "physical_attack_power_base": 895,
+                "surplus_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪坠_测试用#41045 (17600 破招 无双)": {
+            "id": 41045,
+            "name": "少雪坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "strength_base": 394,
+                "physical_attack_power_base": 895,
+                "surplus_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风坠_测试用#41044 (17600 破招 无双)": {
+            "id": 41044,
+            "name": "澹风坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spunk_base": 394,
+                "magical_attack_power_base": 995,
+                "surplus_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池坠_测试用#41043 (17600 破招 无双)": {
+            "id": 41043,
+            "name": "北池坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spirit_base": 394,
+                "magical_attack_power_base": 995,
+                "surplus_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临苑坠_测试用#41118 (16800 破招 无双)": {
+            "id": 41118,
+            "name": "临苑坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "agility_base": 376,
+                "physical_attack_power_base": 854,
+                "surplus_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临梧坠_测试用#41117 (16800 破招 无双)": {
+            "id": 41117,
+            "name": "临梧坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "strength_base": 376,
+                "physical_attack_power_base": 854,
+                "surplus_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临典坠_测试用#41116 (16800 破招 无双)": {
+            "id": 41116,
+            "name": "临典坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spunk_base": 376,
+                "magical_attack_power_base": 950,
+                "surplus_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临乐坠_测试用#41115 (16800 破招 无双)": {
+            "id": 41115,
+            "name": "临乐坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spirit_base": 376,
+                "magical_attack_power_base": 950,
+                "surplus_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞坠_测试用#41528 (16500 会心 无双)": {
+            "id": 41528,
+            "name": "逐飞坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼坠_测试用#41527 (16500 会心 无双)": {
+            "id": 41527,
+            "name": "画楼坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船坠_测试用#41526 (16500 会心 无双)": {
+            "id": 41526,
+            "name": "轻船坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 370,
+                "magical_attack_power_base": 933,
+                "all_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑坠_测试用#41525 (16500 会心 无双)": {
+            "id": 41525,
+            "name": "月阑坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 370,
+                "magical_attack_power_base": 933,
+                "magical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野坠_测试用#41028 (16500 会心 全能)": {
+            "id": 41028,
+            "name": "连野坠_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月坠_测试用#41027 (16500 会心 全能)": {
+            "id": 41027,
+            "name": "崇月坠_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟坠_测试用#41026 (16500 会心 全能)": {
+            "id": 41026,
+            "name": "无竟坠_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 343,
+                "magical_attack_power_base": 747,
+                "all_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心坠_测试用#41025 (16500 会心 全能)": {
+            "id": 41025,
+            "name": "凭心坠_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 343,
+                "magical_attack_power_base": 747,
+                "magical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "necklace": {
@@ -28876,7 +34772,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2704
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28902,7 +34802,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2708
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28927,7 +34831,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2704
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28953,7 +34861,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2704
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28979,7 +34891,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2708
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29004,7 +34920,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2704
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29030,7 +34950,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2707
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29055,7 +34979,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2699
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29080,7 +35008,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2707
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29106,7 +35038,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2707
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29131,7 +35067,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2699
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -29156,7 +35096,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_power_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2707
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -31214,6 +37158,888 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 927,
                 "magical_critical_strike_base": 3837,
                 "pvx_round": 1535
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41440 (19800 精简 破防 破招 无双)": {
+            "id": 41440,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41439 (19800 精简 会心 破招 无双)": {
+            "id": 41439,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_critical_strike_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41438 (19800 精简 破防 无双)": {
+            "id": 41438,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1611,
+                "physical_overcome_base": 5682,
+                "strain_base": 2965
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41437 (19800 精简 破防 破招 无双)": {
+            "id": 41437,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "magical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41436 (19800 精简 会心 破招 无双)": {
+            "id": 41436,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "all_critical_strike_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封项链_测试用#41435 (19800 精简 破防 无双)": {
+            "id": 41435,
+            "name": "无封项链_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 1792,
+                "magical_overcome_base": 5682,
+                "strain_base": 2965
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临越链_测试用#41148 (19400 破防 无双)": {
+            "id": 41148,
+            "name": "临越链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "agility_base": 434,
+                "physical_attack_power_base": 987,
+                "physical_overcome_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临邦链_测试用#41147 (19400 破防 无双)": {
+            "id": 41147,
+            "name": "临邦链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "strength_base": 434,
+                "physical_attack_power_base": 987,
+                "physical_overcome_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临溪链_测试用#41146 (19400 破防 无双)": {
+            "id": 41146,
+            "name": "临溪链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spunk_base": 434,
+                "magical_attack_power_base": 1097,
+                "magical_overcome_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临黎链_测试用#41145 (19400 破防 无双)": {
+            "id": 41145,
+            "name": "临黎链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5325,
+                "spirit_base": 434,
+                "magical_attack_power_base": 1097,
+                "magical_overcome_base": 3631,
+                "strain_base": 2905
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘链_测试用#41058 (18800 破招 无双)": {
+            "id": 41058,
+            "name": "桑柘链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "agility_base": 421,
+                "physical_attack_power_base": 956,
+                "surplus_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石链_测试用#41057 (18800 破招 无双)": {
+            "id": 41057,
+            "name": "分石链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "strength_base": 421,
+                "physical_attack_power_base": 956,
+                "surplus_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽链_测试用#41056 (18800 破招 无双)": {
+            "id": 41056,
+            "name": "散幽链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spunk_base": 421,
+                "magical_attack_power_base": 1063,
+                "surplus_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深链_测试用#41055 (18800 破招 无双)": {
+            "id": 41055,
+            "name": "岭深链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5161,
+                "spirit_base": 421,
+                "magical_attack_power_base": 1063,
+                "surplus_base": 3519,
+                "strain_base": 2815
+            },
+            "embed": {
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临越链_测试用#41130 (18100 破防 无双)": {
+            "id": 41130,
+            "name": "临越链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "agility_base": 405,
+                "physical_attack_power_base": 921,
+                "physical_overcome_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临邦链_测试用#41129 (18100 破防 无双)": {
+            "id": 41129,
+            "name": "临邦链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "strength_base": 405,
+                "physical_attack_power_base": 921,
+                "physical_overcome_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临溪链_测试用#41128 (18100 破防 无双)": {
+            "id": 41128,
+            "name": "临溪链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spunk_base": 405,
+                "magical_attack_power_base": 1024,
+                "magical_overcome_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临黎链_测试用#41127 (18100 破防 无双)": {
+            "id": 41127,
+            "name": "临黎链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4968,
+                "spirit_base": 405,
+                "magical_attack_power_base": 1024,
+                "magical_overcome_base": 3388,
+                "strain_base": 2710
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语链_测试用#41040 (17600 会心 无双)": {
+            "id": 41040,
+            "name": "慎语链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "agility_base": 394,
+                "physical_attack_power_base": 895,
+                "physical_critical_strike_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪链_测试用#41039 (17600 会心 无双)": {
+            "id": 41039,
+            "name": "少雪链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "strength_base": 394,
+                "physical_attack_power_base": 895,
+                "physical_critical_strike_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风链_测试用#41038 (17600 会心 无双)": {
+            "id": 41038,
+            "name": "澹风链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spunk_base": 394,
+                "magical_attack_power_base": 995,
+                "all_critical_strike_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池链_测试用#41037 (17600 会心 无双)": {
+            "id": 41037,
+            "name": "北池链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4831,
+                "spirit_base": 394,
+                "magical_attack_power_base": 995,
+                "magical_critical_strike_base": 3294,
+                "strain_base": 2635
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临越链_测试用#41112 (16800 破防 无双)": {
+            "id": 41112,
+            "name": "临越链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "agility_base": 376,
+                "physical_attack_power_base": 854,
+                "physical_overcome_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临邦链_测试用#41111 (16800 破防 无双)": {
+            "id": 41111,
+            "name": "临邦链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "strength_base": 376,
+                "physical_attack_power_base": 854,
+                "physical_overcome_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临溪链_测试用#41110 (16800 破防 无双)": {
+            "id": 41110,
+            "name": "临溪链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spunk_base": 376,
+                "magical_attack_power_base": 950,
+                "magical_overcome_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临黎链_测试用#41109 (16800 破防 无双)": {
+            "id": 41109,
+            "name": "临黎链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4612,
+                "spirit_base": 376,
+                "magical_attack_power_base": 950,
+                "magical_overcome_base": 3144,
+                "strain_base": 2515
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞链_测试用#41522 (16500 会心 无双)": {
+            "id": 41522,
+            "name": "逐飞链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼链_测试用#41521 (16500 会心 无双)": {
+            "id": 41521,
+            "name": "画楼链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 370,
+                "physical_attack_power_base": 839,
+                "physical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船链_测试用#41520 (16500 会心 无双)": {
+            "id": 41520,
+            "name": "轻船链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 370,
+                "magical_attack_power_base": 933,
+                "all_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑链_测试用#41519 (16500 会心 无双)": {
+            "id": 41519,
+            "name": "月阑链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 370,
+                "magical_attack_power_base": 933,
+                "magical_critical_strike_base": 3088,
+                "strain_base": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野链_测试用#41022 (16500 会心 全能)": {
+            "id": 41022,
+            "name": "连野链_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "agility_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月链_测试用#41021 (16500 会心 全能)": {
+            "id": 41021,
+            "name": "崇月链_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "strength_base": 343,
+                "physical_attack_power_base": 671,
+                "physical_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟链_测试用#41020 (16500 会心 全能)": {
+            "id": 41020,
+            "name": "无竟链_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spunk_base": 343,
+                "magical_attack_power_base": 747,
+                "all_critical_strike_base": 3088,
+                "pvx_round": 1235
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心链_测试用#41019 (16500 会心 全能)": {
+            "id": 41019,
+            "name": "凭心链_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 4529,
+                "spirit_base": 343,
+                "magical_attack_power_base": 747,
+                "magical_critical_strike_base": 3088,
+                "pvx_round": 1235
             },
             "embed": {
                 "magical_critical_strike_base": 321
@@ -46836,6 +53662,2052 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "循天扇·断浪_测试用#39469 (19800 破防 无双)": {
+            "id": 39469,
+            "name": "循天扇·断浪_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "magical_attack_power_base": 5918,
+                "magical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山海弓·断浪_测试用#39468 (19800 破防 无双)": {
+            "id": 39468,
+            "name": "山海弓·断浪_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "孤锋刀·断浪_测试用#39467 (19800 破防 无双)": {
+            "id": 39467,
+            "name": "孤锋刀·断浪_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "长白卷·内·断浪_测试用#39465 (19800 破防 无双)": {
+            "id": 39465,
+            "name": "长白卷·内·断浪_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spirit_base": 1064,
+                "poison_attack_power_base": 5918,
+                "poison_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "循天魂灯·断浪_测试用#39464 (19800 破防 无双)": {
+            "id": 39464,
+            "name": "循天魂灯·断浪_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "neutral_attack_power_base": 5918,
+                "neutral_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无间链刃·断浪_测试用#39463 (19800 破防 无双)": {
+            "id": 39463,
+            "name": "无间链刃·断浪_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逸仙伞·断浪_测试用#39462 (19800 破防 无双)": {
+            "id": 39462,
+            "name": "逸仙伞·断浪_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "河朔刀·断浪_测试用#39461 (19800 破防 无双)": {
+            "id": 39461,
+            "name": "河朔刀·断浪_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "儒风琴·内·断浪_测试用#39459 (19800 破防 无双)": {
+            "id": 39459,
+            "name": "儒风琴·内·断浪_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1535,
+                "weapon_damage_rand": 1024
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spirit_base": 1064,
+                "lunar_attack_power_base": 5918,
+                "lunar_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斩马刀盾·外·断浪_测试用#39457 (19800 破防 无双)": {
+            "id": 39457,
+            "name": "斩马刀盾·外·断浪_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4606,
+                "weapon_damage_rand": 3071
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "日月双刀·内·断浪_测试用#39455 (19800 破防 无双)": {
+            "id": 39455,
+            "name": "日月双刀·内·断浪_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "solar_and_lunar_attack_power_base": 5918,
+                "solar_and_lunar_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "豪义短棒·断浪_测试用#39454 (19800 破防 无双)": {
+            "id": 39454,
+            "name": "豪义短棒·断浪_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5220,
+                "weapon_damage_rand": 3480
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "君子轻剑·断浪_测试用#39452 (19800 破防 无双)": {
+            "id": 39452,
+            "name": "君子轻剑·断浪_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3992,
+                "weapon_damage_rand": 2661
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "千机弩·外·断浪_测试用#39451 (19800 破防 无双)": {
+            "id": 39451,
+            "name": "千机弩·外·断浪_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "千机弩·内·断浪_测试用#39450 (19800 破防 无双)": {
+            "id": 39450,
+            "name": "千机弩·内·断浪_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3071,
+                "weapon_damage_rand": 2047
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "poison_attack_power_base": 5918,
+                "poison_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "千蛊笛·内·断浪_测试用#39448 (19800 破防 无双)": {
+            "id": 39448,
+            "name": "千蛊笛·内·断浪_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1535,
+                "weapon_damage_rand": 1024
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spirit_base": 1064,
+                "poison_attack_power_base": 5918,
+                "poison_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "妙若双剑·内·断浪_测试用#39446 (19800 破防 无双)": {
+            "id": 39446,
+            "name": "妙若双剑·内·断浪_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1996,
+                "weapon_damage_rand": 1331
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spirit_base": 1064,
+                "lunar_attack_power_base": 5918,
+                "lunar_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "太清剑·外·断浪_测试用#39445 (19800 破防 无双)": {
+            "id": 39445,
+            "name": "太清剑·外·断浪_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3992,
+                "weapon_damage_rand": 2661
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "太清剑·内·断浪_测试用#39444 (19800 破防 无双)": {
+            "id": 39444,
+            "name": "太清剑·内·断浪_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1996,
+                "weapon_damage_rand": 1331
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spirit_base": 1064,
+                "neutral_attack_power_base": 5918,
+                "neutral_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "红缨枪·外·断浪_测试用#39442 (19800 破防 无双)": {
+            "id": 39442,
+            "name": "红缨枪·外·断浪_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5220,
+                "weapon_damage_rand": 3480
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青岩笔·内·断浪_测试用#39440 (19800 破防 无双)": {
+            "id": 39440,
+            "name": "青岩笔·内·断浪_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1535,
+                "weapon_damage_rand": 1024
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "neutral_attack_power_base": 5918,
+                "neutral_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "齐眉棍·内·断浪_测试用#39438 (19800 破防 无双)": {
+            "id": 39438,
+            "name": "齐眉棍·内·断浪_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5220,
+                "weapon_damage_rand": 3480
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "spunk_base": 1064,
+                "solar_attack_power_base": 5918,
+                "solar_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雾天_测试用#38745 (18800 破防 无双)": {
+            "id": 38745,
+            "name": "雾天_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "magical_attack_power_base": 5619,
+                "magical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "流光射影_测试用#38744 (18800 破防 无双)": {
+            "id": 38744,
+            "name": "流光射影_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "枯山_测试用#38743 (18800 破防 无双)": {
+            "id": 38743,
+            "name": "枯山_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "strength_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "竹风卷_测试用#38741 (18800 破防 无双)": {
+            "id": 38741,
+            "name": "竹风卷_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spirit_base": 1010,
+                "poison_attack_power_base": 5619,
+                "poison_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雾天_测试用#38740 (18800 破防 无双)": {
+            "id": 38740,
+            "name": "雾天_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "neutral_attack_power_base": 5619,
+                "neutral_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "修断水_测试用#38739 (18800 破防 无双)": {
+            "id": 38739,
+            "name": "修断水_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "梦归墟_测试用#38738 (18800 破防 无双)": {
+            "id": 38738,
+            "name": "梦归墟_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "悲秋月_测试用#38737 (18800 破防 无双)": {
+            "id": 38737,
+            "name": "悲秋月_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "strength_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "飞霜渡海_测试用#38735 (18800 破防 无双)": {
+            "id": 38735,
+            "name": "飞霜渡海_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1458,
+                "weapon_damage_rand": 972
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spirit_base": 1010,
+                "lunar_attack_power_base": 5619,
+                "lunar_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寒露沾衣_测试用#38733 (18800 破防 无双)": {
+            "id": 38733,
+            "name": "寒露沾衣_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4373,
+                "weapon_damage_rand": 2915
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暗魔惑心_测试用#38731 (18800 破防 无双)": {
+            "id": 38731,
+            "name": "暗魔惑心_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "solar_and_lunar_attack_power_base": 5619,
+                "solar_and_lunar_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "赤霞珠玉_测试用#38730 (18800 破防 无双)": {
+            "id": 38730,
+            "name": "赤霞珠玉_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4956,
+                "weapon_damage_rand": 3304
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "strength_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "流水尽_测试用#38728 (18800 破防 无双)": {
+            "id": 38728,
+            "name": "流水尽_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3790,
+                "weapon_damage_rand": 2527
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "剪灯_测试用#38727 (18800 破防 无双)": {
+            "id": 38727,
+            "name": "剪灯_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "strength_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "残意_测试用#38726 (18800 破防 无双)": {
+            "id": 38726,
+            "name": "残意_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2915,
+                "weapon_damage_rand": 1944
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "poison_attack_power_base": 5619,
+                "poison_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉阶青_测试用#38724 (18800 破防 无双)": {
+            "id": 38724,
+            "name": "玉阶青_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1458,
+                "weapon_damage_rand": 972
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spirit_base": 1010,
+                "poison_attack_power_base": 5619,
+                "poison_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无风细浪_测试用#38722 (18800 破防 无双)": {
+            "id": 38722,
+            "name": "无风细浪_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1895,
+                "weapon_damage_rand": 1263
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spirit_base": 1010,
+                "lunar_attack_power_base": 5619,
+                "lunar_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "尘世短_测试用#38721 (18800 破防 无双)": {
+            "id": 38721,
+            "name": "尘世短_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3790,
+                "weapon_damage_rand": 2527
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "九霄云_测试用#38720 (18800 破防 无双)": {
+            "id": 38720,
+            "name": "九霄云_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1895,
+                "weapon_damage_rand": 1263
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spirit_base": 1010,
+                "neutral_attack_power_base": 5619,
+                "neutral_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "犹共水_测试用#38718 (18800 破防 无双)": {
+            "id": 38718,
+            "name": "犹共水_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4956,
+                "weapon_damage_rand": 3304
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "strength_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沈犀_测试用#38716 (18800 破防 无双)": {
+            "id": 38716,
+            "name": "沈犀_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1458,
+                "weapon_damage_rand": 972
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "neutral_attack_power_base": 5619,
+                "neutral_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "度生_测试用#38714 (18800 破防 无双)": {
+            "id": 38714,
+            "name": "度生_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4956,
+                "weapon_damage_rand": 3304
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "spunk_base": 1010,
+                "solar_attack_power_base": 5619,
+                "solar_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "占缘_测试用#38707 (17600 破防 无双)": {
+            "id": 38707,
+            "name": "占缘_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "magical_attack_power_base": 5261,
+                "magical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "流光射影_测试用#38706 (17600 破防 无双)": {
+            "id": 38706,
+            "name": "流光射影_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寒天_测试用#38705 (17600 破防 无双)": {
+            "id": 38705,
+            "name": "寒天_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "strength_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雪丹青_测试用#38703 (17600 破防 无双)": {
+            "id": 38703,
+            "name": "雪丹青_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spirit_base": 946,
+                "poison_attack_power_base": 5261,
+                "poison_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "占缘_测试用#38702 (17600 破防 无双)": {
+            "id": 38702,
+            "name": "占缘_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "neutral_attack_power_base": 5261,
+                "neutral_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "念冬恩_测试用#38701 (17600 破防 无双)": {
+            "id": 38701,
+            "name": "念冬恩_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "隐雾_测试用#38700 (17600 破防 无双)": {
+            "id": 38700,
+            "name": "隐雾_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "患难_测试用#38699 (17600 破防 无双)": {
+            "id": 38699,
+            "name": "患难_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "strength_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "惊韵_测试用#38697 (17600 破防 无双)": {
+            "id": 38697,
+            "name": "惊韵_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1365,
+                "weapon_damage_rand": 910
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spirit_base": 946,
+                "lunar_attack_power_base": 5261,
+                "lunar_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "疑胜_测试用#38695 (17600 破防 无双)": {
+            "id": 38695,
+            "name": "疑胜_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4094,
+                "weapon_damage_rand": 2729
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "盼霖_测试用#38693 (17600 破防 无双)": {
+            "id": 38693,
+            "name": "盼霖_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "solar_and_lunar_attack_power_base": 5261,
+                "solar_and_lunar_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桃玉_测试用#38692 (17600 破防 无双)": {
+            "id": 38692,
+            "name": "桃玉_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4640,
+                "weapon_damage_rand": 3093
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "strength_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "刻情_测试用#38690 (17600 破防 无双)": {
+            "id": 38690,
+            "name": "刻情_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3548,
+                "weapon_damage_rand": 2365
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "归静_测试用#38689 (17600 破防 无双)": {
+            "id": 38689,
+            "name": "归静_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "strength_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "喧竹_测试用#38688 (17600 破防 无双)": {
+            "id": 38688,
+            "name": "喧竹_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2729,
+                "weapon_damage_rand": 1820
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "poison_attack_power_base": 5261,
+                "poison_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "闲竹声_测试用#38686 (17600 破防 无双)": {
+            "id": 38686,
+            "name": "闲竹声_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1365,
+                "weapon_damage_rand": 910
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spirit_base": 946,
+                "poison_attack_power_base": 5261,
+                "poison_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "赠意_测试用#38684 (17600 破防 无双)": {
+            "id": 38684,
+            "name": "赠意_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1774,
+                "weapon_damage_rand": 1183
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spirit_base": 946,
+                "lunar_attack_power_base": 5261,
+                "lunar_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "拭尘雪_测试用#38683 (17600 破防 无双)": {
+            "id": 38683,
+            "name": "拭尘雪_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3548,
+                "weapon_damage_rand": 2365
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "远涯_测试用#38682 (17600 破防 无双)": {
+            "id": 38682,
+            "name": "远涯_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1774,
+                "weapon_damage_rand": 1183
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spirit_base": 946,
+                "neutral_attack_power_base": 5261,
+                "neutral_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "安魂_测试用#38680 (17600 破防 无双)": {
+            "id": 38680,
+            "name": "安魂_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4640,
+                "weapon_damage_rand": 3093
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "strength_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "点昙_测试用#38678 (17600 破防 无双)": {
+            "id": 38678,
+            "name": "点昙_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1365,
+                "weapon_damage_rand": 910
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "neutral_attack_power_base": 5261,
+                "neutral_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "落归_测试用#38676 (17600 破防 无双)": {
+            "id": 38676,
+            "name": "落归_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4640,
+                "weapon_damage_rand": 3093
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "spunk_base": 946,
+                "solar_attack_power_base": 5261,
+                "solar_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "他山月_测试用#40617 (12500 会心 破防 加速)": {
             "id": 40617,
             "name": "他山月_测试用",
@@ -48748,6 +57620,2326 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "他山月_测试用#40616 (11900 会心 破防 加速)": {
+            "id": 40616,
+            "name": "他山月_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 9156,
+                "spunk_base": 1015,
+                "magical_attack_power_base": 4641,
+                "all_critical_strike_base": 6929,
+                "magical_overcome_base": 7424,
+                "haste_base": 2475
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "庄生晓梦#38046 (11900 特效 会心 破防 加速)": {
+            "id": 38046,
+            "name": "庄生晓梦",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5363,
+                "physical_critical_strike_base": 5598,
+                "physical_overcome_base": 5598,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2572
+                ],
+                [
+                    2571
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "绝地天通刀#38045 (11900 特效 会心 破防 加速)": {
+            "id": 38045,
+            "name": "绝地天通刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "strength_base": 1385,
+                "physical_attack_power_base": 5277,
+                "physical_critical_strike_base": 5598,
+                "physical_overcome_base": 5791,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2391
+                ],
+                [
+                    2392
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "鹿王本生#38043 (11900 特效 会心 破防 加速)": {
+            "id": 38043,
+            "name": "鹿王本生",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spirit_base": 1385,
+                "poison_attack_power_base": 6332,
+                "poison_critical_strike_base": 5212,
+                "poison_overcome_base": 6177,
+                "haste_base": 1930
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2414
+                ],
+                [
+                    2138
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月升海楼#38042 (11900 特效 会心 破防 加速)": {
+            "id": 38042,
+            "name": "月升海楼",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spunk_base": 1385,
+                "neutral_attack_power_base": 6436,
+                "neutral_critical_strike_base": 5019,
+                "neutral_overcome_base": 5791,
+                "haste_base": 2316
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2413
+                ],
+                [
+                    1962
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山河同渡#38041 (11900 特效 会心 破防 加速)": {
+            "id": 38041,
+            "name": "山河同渡",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5363,
+                "physical_critical_strike_base": 5598,
+                "physical_overcome_base": 5598,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2428
+                ],
+                [
+                    1944
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山海云涯#38040 (11900 特效 会心 破防 加速)": {
+            "id": 38040,
+            "name": "山海云涯",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5190,
+                "physical_critical_strike_base": 5791,
+                "physical_overcome_base": 5791,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2423
+                ],
+                [
+                    1943
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沉夜重雪#38039 (11900 特效 会心 破防 加速)": {
+            "id": 38039,
+            "name": "沉夜重雪",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "strength_base": 1385,
+                "physical_attack_power_base": 5190,
+                "physical_critical_strike_base": 5405,
+                "physical_overcome_base": 6177,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2430
+                ],
+                [
+                    1942
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "抚今#38037 (11900 特效 会心 破防 加速)": {
+            "id": 38037,
+            "name": "抚今",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1281,
+                "weapon_damage_rand": 854
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spirit_base": 1385,
+                "lunar_attack_power_base": 6228,
+                "lunar_critical_strike_base": 5405,
+                "lunar_overcome_base": 5984,
+                "haste_base": 2123
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2415
+                ],
+                [
+                    1941
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "孤焰#38035 (11900 特效 会心 破防 加速)": {
+            "id": 38035,
+            "name": "孤焰",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3844,
+                "weapon_damage_rand": 2563
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5536,
+                "physical_critical_strike_base": 5212,
+                "physical_overcome_base": 5598,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2408
+                ],
+                [
+                    1940
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "血月#38033 (11900 特效 会心 破防 加速)": {
+            "id": 38033,
+            "name": "血月",
+            "school": "明教",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spunk_base": 1385,
+                "solar_and_lunar_attack_power_base": 6228,
+                "solar_and_lunar_critical_strike_base": 5212,
+                "solar_and_lunar_overcome_base": 6177,
+                "haste_base": 2123
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_and_lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2421
+                ],
+                [
+                    1938
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "拾牙#38032 (11900 特效 会心 破防)": {
+            "id": 38032,
+            "name": "拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4357,
+                "weapon_damage_rand": 2904
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "strength_base": 1385,
+                "physical_attack_power_base": 5363,
+                "physical_critical_strike_base": 6177,
+                "physical_overcome_base": 6949
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寄骨#38030 (11900 特效 会心 破防 加速)": {
+            "id": 38030,
+            "name": "寄骨",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3332,
+                "weapon_damage_rand": 2221
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5190,
+                "physical_critical_strike_base": 6177,
+                "physical_overcome_base": 5405,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2427
+                ],
+                [
+                    1945
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "摧霜#38029 (11900 特效 会心 破防 加速)": {
+            "id": 38029,
+            "name": "摧霜",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "strength_base": 1385,
+                "physical_attack_power_base": 5017,
+                "physical_critical_strike_base": 5598,
+                "physical_overcome_base": 6370,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2411
+                ],
+                [
+                    1936
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "罪骨浮屠#38028 (11900 特效 会心 破防 加速)": {
+            "id": 38028,
+            "name": "罪骨浮屠",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2563,
+                "weapon_damage_rand": 1709
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spunk_base": 1385,
+                "poison_attack_power_base": 6228,
+                "physical_critical_strike_base": 5212,
+                "poison_overcome_base": 6370,
+                "haste_base": 1930
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spunk_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2412
+                ],
+                [
+                    1935
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "墨语沉香#38026 (11900 特效 会心 破防 加速)": {
+            "id": 38026,
+            "name": "墨语沉香",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1281,
+                "weapon_damage_rand": 854
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spirit_base": 1385,
+                "poison_attack_power_base": 6332,
+                "poison_critical_strike_base": 5212,
+                "poison_overcome_base": 6177,
+                "haste_base": 1930
+            },
+            "embed": {
+                "poison_attack_power_base": 86,
+                "spirit_base": 36,
+                "poison_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2420
+                ],
+                [
+                    1934
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "飞霜绛露#38024 (11900 特效 会心 破防 加速)": {
+            "id": 38024,
+            "name": "飞霜绛露",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1666,
+                "weapon_damage_rand": 1111
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spirit_base": 1385,
+                "lunar_attack_power_base": 6436,
+                "lunar_critical_strike_base": 5212,
+                "lunar_overcome_base": 5791,
+                "haste_base": 2123
+            },
+            "embed": {
+                "lunar_attack_power_base": 86,
+                "spirit_base": 36,
+                "lunar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2416
+                ],
+                [
+                    1930
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风霆肃#38023 (11900 特效 会心 破防 加速)": {
+            "id": 38023,
+            "name": "风霆肃",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3332,
+                "weapon_damage_rand": 2221
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5104,
+                "physical_critical_strike_base": 5984,
+                "physical_overcome_base": 5791,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2419
+                ],
+                [
+                    1932
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "苍冥游#38022 (11900 特效 会心 破防 加速)": {
+            "id": 38022,
+            "name": "苍冥游",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1666,
+                "weapon_damage_rand": 1111
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spirit_base": 1385,
+                "neutral_attack_power_base": 6228,
+                "neutral_critical_strike_base": 5984,
+                "neutral_overcome_base": 5598,
+                "haste_base": 1930
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spirit_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2418
+                ],
+                [
+                    1931
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "旷野孤疆#38020 (11900 特效 会心 破防 加速)": {
+            "id": 38020,
+            "name": "旷野孤疆",
+            "school": "天策",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4357,
+                "weapon_damage_rand": 2904
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "strength_base": 1385,
+                "physical_attack_power_base": 5190,
+                "physical_critical_strike_base": 5598,
+                "physical_overcome_base": 5984,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "strength_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2424
+                ],
+                [
+                    1933
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "璃光浮远#38018 (11900 特效 会心 破防 加速)": {
+            "id": 38018,
+            "name": "璃光浮远",
+            "school": "万花",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1281,
+                "weapon_damage_rand": 854
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spunk_base": 1385,
+                "neutral_attack_power_base": 6436,
+                "neutral_critical_strike_base": 5212,
+                "neutral_overcome_base": 5984,
+                "haste_base": 1930
+            },
+            "embed": {
+                "neutral_attack_power_base": 86,
+                "spunk_base": 36,
+                "neutral_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑莲妙境#38016 (11900 特效 会心 破防 加速)": {
+            "id": 38016,
+            "name": "桑莲妙境",
+            "school": "少林",
+            "kind": "内功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4357,
+                "weapon_damage_rand": 2904
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "spunk_base": 1385,
+                "solar_attack_power_base": 6643,
+                "solar_critical_strike_base": 5019,
+                "solar_overcome_base": 5791,
+                "haste_base": 1930
+            },
+            "embed": {
+                "solar_attack_power_base": 86,
+                "spunk_base": 36,
+                "solar_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2410
+                ],
+                [
+                    1928
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "和玉扇_测试用#39507 (16500 破招 无双)": {
+            "id": 39507,
+            "name": "和玉扇_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "magical_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "臻荣_测试用#39506 (16500 破招 无双)": {
+            "id": 39506,
+            "name": "臻荣_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崄远刀_测试用#39505 (16500 破招 无双)": {
+            "id": 39505,
+            "name": "崄远刀_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "山槐卷_测试用#39503 (16500 破招 无双)": {
+            "id": 39503,
+            "name": "山槐卷_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 887,
+                "poison_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "和玉魂灯_测试用#39502 (16500 破招 无双)": {
+            "id": 39502,
+            "name": "和玉魂灯_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "neutral_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "元戈链刃_测试用#39501 (16500 破招 无双)": {
+            "id": 39501,
+            "name": "元戈链刃_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "海遥伞_测试用#39500 (16500 破招 无双)": {
+            "id": 39500,
+            "name": "海遥伞_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "震肃刀_测试用#39499 (16500 破招 无双)": {
+            "id": 39499,
+            "name": "震肃刀_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "秉文琴_测试用#39497 (16500 破招 无双)": {
+            "id": 39497,
+            "name": "秉文琴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 887,
+                "lunar_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "长亭刀盾_测试用#39495 (16500 破招 无双)": {
+            "id": 39495,
+            "name": "长亭刀盾_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "明旭双刀_测试用#39493 (16500 破招 无双)": {
+            "id": 39493,
+            "name": "明旭双刀_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "solar_and_lunar_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无楫短棒_测试用#39492 (16500 破招 无双)": {
+            "id": 39492,
+            "name": "无楫短棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "永宁轻剑_测试用#39490 (16500 破招 无双)": {
+            "id": 39490,
+            "name": "永宁轻剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3326,
+                "weapon_damage_rand": 2218
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "奇略弩_测试用#39489 (16500 破招 无双)": {
+            "id": 39489,
+            "name": "奇略弩_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青寒弩_测试用#39488 (16500 破招 无双)": {
+            "id": 39488,
+            "name": "青寒弩_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "poison_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "秋蓬笛_测试用#39486 (16500 破招 无双)": {
+            "id": 39486,
+            "name": "秋蓬笛_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 887,
+                "poison_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "越溪双剑_测试用#39484 (16500 破招 无双)": {
+            "id": 39484,
+            "name": "越溪双剑_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1663,
+                "weapon_damage_rand": 1109
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 887,
+                "lunar_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "悬流剑_测试用#39483 (16500 破招 无双)": {
+            "id": 39483,
+            "name": "悬流剑_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3326,
+                "weapon_damage_rand": 2218
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "广泽剑_测试用#39482 (16500 破招 无双)": {
+            "id": 39482,
+            "name": "广泽剑_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1663,
+                "weapon_damage_rand": 1109
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 887,
+                "neutral_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "洛山枪_测试用#39480 (16500 破招 无双)": {
+            "id": 39480,
+            "name": "洛山枪_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "朝露笔_测试用#39478 (16500 破招 无双)": {
+            "id": 39478,
+            "name": "朝露笔_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "neutral_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "合心棍_测试用#39476 (16500 破招 无双)": {
+            "id": 39476,
+            "name": "合心棍_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 887,
+                "solar_attack_power_base": 4932,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "几微扇_测试用#38669 (16500 会心 全能)": {
+            "id": 38669,
+            "name": "几微扇_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "magical_attack_power_base": 4484,
+                "all_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "流光射影_测试用#38668 (16500 会心 全能)": {
+            "id": 38668,
+            "name": "流光射影_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "游踪刀_测试用#38667 (16500 会心 全能)": {
+            "id": 38667,
+            "name": "游踪刀_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "春枯卷_测试用#38665 (16500 会心 全能)": {
+            "id": 38665,
+            "name": "春枯卷_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 824,
+                "poison_attack_power_base": 4484,
+                "poison_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "几微灯_测试用#38664 (16500 会心 全能)": {
+            "id": 38664,
+            "name": "几微灯_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "neutral_attack_power_base": 4484,
+                "neutral_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "云仍链刃_测试用#38663 (16500 会心 全能)": {
+            "id": 38663,
+            "name": "云仍链刃_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "石黛伞_测试用#38662 (16500 会心 全能)": {
+            "id": 38662,
+            "name": "石黛伞_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "泠然刀_测试用#38661 (16500 会心 全能)": {
+            "id": 38661,
+            "name": "泠然刀_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "大章琴_测试用#38659 (16500 会心 全能)": {
+            "id": 38659,
+            "name": "大章琴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 824,
+                "lunar_attack_power_base": 4484,
+                "lunar_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "烈业刀盾_测试用#38657 (16500 会心 全能)": {
+            "id": 38657,
+            "name": "烈业刀盾_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3838,
+                "weapon_damage_rand": 2559
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沙雁双刀_测试用#38655 (16500 会心 全能)": {
+            "id": 38655,
+            "name": "沙雁双刀_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "solar_and_lunar_attack_power_base": 4484,
+                "solar_and_lunar_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "盈饶短棒_测试用#38654 (16500 会心 全能)": {
+            "id": 38654,
+            "name": "盈饶短棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "伏泉剑_测试用#38652 (16500 会心 全能)": {
+            "id": 38652,
+            "name": "伏泉剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3326,
+                "weapon_damage_rand": 2218
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "四凶弩_测试用#38651 (16500 会心 全能)": {
+            "id": 38651,
+            "name": "四凶弩_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "邪魂弩_测试用#38650 (16500 会心 全能)": {
+            "id": 38650,
+            "name": "邪魂弩_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2559,
+                "weapon_damage_rand": 1706
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "poison_attack_power_base": 4484,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玄杳虫笛_测试用#38648 (16500 会心 全能)": {
+            "id": 38648,
+            "name": "玄杳虫笛_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 824,
+                "poison_attack_power_base": 4484,
+                "poison_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "容可双剑_测试用#38646 (16500 会心 全能)": {
+            "id": 38646,
+            "name": "容可双剑_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1663,
+                "weapon_damage_rand": 1109
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 824,
+                "lunar_attack_power_base": 4484,
+                "lunar_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "天钟剑_测试用#38645 (16500 会心 全能)": {
+            "id": 38645,
+            "name": "天钟剑_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3326,
+                "weapon_damage_rand": 2218
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "时年剑_测试用#38644 (16500 会心 全能)": {
+            "id": 38644,
+            "name": "时年剑_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1663,
+                "weapon_damage_rand": 1109
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spirit_base": 824,
+                "neutral_attack_power_base": 4484,
+                "neutral_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "顾望枪_测试用#38642 (16500 会心 全能)": {
+            "id": 38642,
+            "name": "顾望枪_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "strength_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "花庭笔_测试用#38640 (16500 会心 全能)": {
+            "id": 38640,
+            "name": "花庭笔_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1279,
+                "weapon_damage_rand": 853
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "neutral_attack_power_base": 4484,
+                "neutral_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风喻棍_测试用#38638 (16500 会心 全能)": {
+            "id": 38638,
+            "name": "风喻棍_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4350,
+                "weapon_damage_rand": 2900
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "spunk_base": 824,
+                "solar_attack_power_base": 4484,
+                "solar_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "未央之夏#37104 (11650 会心 破防 加速)": {
             "id": 37104,
             "name": "未央之夏",
@@ -49932,7 +61124,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -49958,7 +61154,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -49983,7 +61183,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50009,7 +61213,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50035,7 +61243,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50060,7 +61272,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50086,7 +61302,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50112,7 +61332,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50136,7 +61360,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50162,7 +61390,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50188,7 +61420,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -50212,7 +61448,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -52079,6 +63319,888 @@ EQUIPMENTS = {
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
+        },
+        "无封囊_测试用#39401 (19800 精简 会心 会效 破招)": {
+            "id": 39401,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 2336,
+                "physical_critical_strike_base": 4447,
+                "physical_critical_power_base": 2223,
+                "surplus_base": 2223
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封囊_测试用#39400 (19800 精简 会心 会效 无双)": {
+            "id": 39400,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 2336,
+                "physical_critical_strike_base": 4447,
+                "physical_critical_power_base": 2223,
+                "strain_base": 2223
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封囊_测试用#39399 (19800 精简 破防 无双)": {
+            "id": 39399,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 1934,
+                "physical_overcome_base": 6819,
+                "strain_base": 3558
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封囊_测试用#39398 (19800 精简 会心 会效 破招)": {
+            "id": 39398,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2598,
+                "all_critical_strike_base": 4447,
+                "all_critical_power_base": 2223,
+                "surplus_base": 2223
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封囊_测试用#39397 (19800 精简 会心 会效 无双)": {
+            "id": 39397,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2598,
+                "all_critical_strike_base": 4447,
+                "all_critical_power_base": 2223,
+                "strain_base": 2223
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无封囊_测试用#39396 (19800 精简 破防 无双)": {
+            "id": 39396,
+            "name": "无封囊_测试用",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2150,
+                "magical_overcome_base": 6819,
+                "strain_base": 3558
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晚囊_测试用#38837 (19400 会心 无双)": {
+            "id": 38837,
+            "name": "临晚囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6390,
+                "agility_base": 521,
+                "physical_attack_power_base": 1184,
+                "physical_critical_strike_base": 4357,
+                "strain_base": 3486
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临掣囊_测试用#38836 (19400 会心 无双)": {
+            "id": 38836,
+            "name": "临掣囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6390,
+                "strength_base": 521,
+                "physical_attack_power_base": 1184,
+                "physical_critical_strike_base": 4357,
+                "strain_base": 3486
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临甘囊_测试用#38835 (19400 会心 无双)": {
+            "id": 38835,
+            "name": "临甘囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6390,
+                "spunk_base": 521,
+                "magical_attack_power_base": 1317,
+                "all_critical_strike_base": 4357,
+                "strain_base": 3486
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临珏囊_测试用#38834 (19400 会心 无双)": {
+            "id": 38834,
+            "name": "临珏囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 19400,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6390,
+                "spirit_base": 521,
+                "magical_attack_power_base": 1317,
+                "magical_critical_strike_base": 4357,
+                "strain_base": 3486
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "桑柘囊_测试用#38711 (18800 会心 无双)": {
+            "id": 38711,
+            "name": "桑柘囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6193,
+                "agility_base": 505,
+                "physical_attack_power_base": 1147,
+                "physical_critical_strike_base": 4222,
+                "strain_base": 3378
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "分石囊_测试用#38710 (18800 会心 无双)": {
+            "id": 38710,
+            "name": "分石囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6193,
+                "strength_base": 505,
+                "physical_attack_power_base": 1147,
+                "physical_critical_strike_base": 4222,
+                "strain_base": 3378
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "散幽囊_测试用#38709 (18800 会心 无双)": {
+            "id": 38709,
+            "name": "散幽囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6193,
+                "spunk_base": 505,
+                "magical_attack_power_base": 1276,
+                "all_critical_strike_base": 4222,
+                "strain_base": 3378
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岭深囊_测试用#38708 (18800 会心 无双)": {
+            "id": 38708,
+            "name": "岭深囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6193,
+                "spirit_base": 505,
+                "magical_attack_power_base": 1276,
+                "magical_critical_strike_base": 4222,
+                "strain_base": 3378
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晚囊_测试用#38831 (18100 会心 无双)": {
+            "id": 38831,
+            "name": "临晚囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5962,
+                "agility_base": 486,
+                "physical_attack_power_base": 1105,
+                "physical_critical_strike_base": 4065,
+                "strain_base": 3252
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临掣囊_测试用#38830 (18100 会心 无双)": {
+            "id": 38830,
+            "name": "临掣囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5962,
+                "strength_base": 486,
+                "physical_attack_power_base": 1105,
+                "physical_critical_strike_base": 4065,
+                "strain_base": 3252
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临甘囊_测试用#38829 (18100 会心 无双)": {
+            "id": 38829,
+            "name": "临甘囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5962,
+                "spunk_base": 486,
+                "magical_attack_power_base": 1228,
+                "all_critical_strike_base": 4065,
+                "strain_base": 3252
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临珏囊_测试用#38828 (18100 会心 无双)": {
+            "id": 38828,
+            "name": "临珏囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 18100,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5962,
+                "spirit_base": 486,
+                "magical_attack_power_base": 1228,
+                "magical_critical_strike_base": 4065,
+                "strain_base": 3252
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "慎语囊_测试用#38673 (17600 加速 无双)": {
+            "id": 38673,
+            "name": "慎语囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5797,
+                "agility_base": 473,
+                "physical_attack_power_base": 1074,
+                "haste_base": 3953,
+                "strain_base": 3162
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "少雪囊_测试用#38672 (17600 加速 无双)": {
+            "id": 38672,
+            "name": "少雪囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5797,
+                "strength_base": 473,
+                "physical_attack_power_base": 1074,
+                "haste_base": 3953,
+                "strain_base": 3162
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "澹风囊_测试用#38671 (17600 加速 无双)": {
+            "id": 38671,
+            "name": "澹风囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5797,
+                "spunk_base": 473,
+                "magical_attack_power_base": 1194,
+                "haste_base": 3953,
+                "strain_base": 3162
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "北池囊_测试用#38670 (17600 加速 无双)": {
+            "id": 38670,
+            "name": "北池囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5797,
+                "spirit_base": 473,
+                "magical_attack_power_base": 1194,
+                "haste_base": 3953,
+                "strain_base": 3162
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临晚囊_测试用#38825 (16800 会心 无双)": {
+            "id": 38825,
+            "name": "临晚囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5534,
+                "agility_base": 451,
+                "physical_attack_power_base": 1025,
+                "physical_critical_strike_base": 3773,
+                "strain_base": 3019
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临掣囊_测试用#38824 (16800 会心 无双)": {
+            "id": 38824,
+            "name": "临掣囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5534,
+                "strength_base": 451,
+                "physical_attack_power_base": 1025,
+                "physical_critical_strike_base": 3773,
+                "strain_base": 3019
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临甘囊_测试用#38823 (16800 会心 无双)": {
+            "id": 38823,
+            "name": "临甘囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5534,
+                "spunk_base": 451,
+                "magical_attack_power_base": 1140,
+                "all_critical_strike_base": 3773,
+                "strain_base": 3019
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "临珏囊_测试用#38822 (16800 会心 无双)": {
+            "id": 38822,
+            "name": "临珏囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5534,
+                "spirit_base": 451,
+                "magical_attack_power_base": 1140,
+                "magical_critical_strike_base": 3773,
+                "strain_base": 3019
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "逐飞囊_测试用#39473 (16500 会心 无双)": {
+            "id": 39473,
+            "name": "逐飞囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "agility_base": 443,
+                "physical_attack_power_base": 1007,
+                "physical_critical_strike_base": 3706,
+                "strain_base": 2965
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "画楼囊_测试用#39472 (16500 会心 无双)": {
+            "id": 39472,
+            "name": "画楼囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "strength_base": 443,
+                "physical_attack_power_base": 1007,
+                "physical_critical_strike_base": 3706,
+                "strain_base": 2965
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "轻船囊_测试用#39471 (16500 会心 无双)": {
+            "id": 39471,
+            "name": "轻船囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "spunk_base": 443,
+                "magical_attack_power_base": 1120,
+                "all_critical_strike_base": 3706,
+                "strain_base": 2965
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月阑囊_测试用#39470 (16500 会心 无双)": {
+            "id": 39470,
+            "name": "月阑囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "spirit_base": 443,
+                "magical_attack_power_base": 1120,
+                "magical_critical_strike_base": 3706,
+                "strain_base": 2965
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "连野囊_测试用#38635 (16500 会心 全能)": {
+            "id": 38635,
+            "name": "连野囊_测试用",
+            "school": "通用",
+            "kind": "身法",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "agility_base": 412,
+                "physical_attack_power_base": 806,
+                "physical_critical_strike_base": 3706,
+                "pvx_round": 1482
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "崇月囊_测试用#38634 (16500 会心 全能)": {
+            "id": 38634,
+            "name": "崇月囊_测试用",
+            "school": "通用",
+            "kind": "力道",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "strength_base": 412,
+                "physical_attack_power_base": 806,
+                "physical_critical_strike_base": 3706,
+                "pvx_round": 1482
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无竟囊_测试用#38633 (16500 会心 全能)": {
+            "id": 38633,
+            "name": "无竟囊_测试用",
+            "school": "通用",
+            "kind": "元气",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "spunk_base": 412,
+                "magical_attack_power_base": 896,
+                "all_critical_strike_base": 3706,
+                "pvx_round": 1482
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凭心囊_测试用#38632 (16500 会心 全能)": {
+            "id": 38632,
+            "name": "凭心囊_测试用",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "spirit_base": 412,
+                "magical_attack_power_base": 896,
+                "magical_critical_strike_base": 3706,
+                "pvx_round": 1482
+            },
+            "embed": {
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
         }
     },
     "secondary_weapon": {
@@ -52905,6 +65027,99 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "青峰重剑·断浪_测试用#39453 (19800 破防 无双)": {
+            "id": 39453,
+            "name": "青峰重剑·断浪_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6141,
+                "weapon_damage_rand": 4094
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "agility_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "坚白_测试用#38729 (18800 破防 无双)": {
+            "id": 38729,
+            "name": "坚白_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 18800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5831,
+                "weapon_damage_rand": 3887
+            },
+            "magic": {
+                "vitality_base": 12385,
+                "agility_base": 1010,
+                "physical_attack_power_base": 5054,
+                "physical_overcome_base": 8445,
+                "strain_base": 8163
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "剑渡万千_测试用#38691 (17600 破防 无双)": {
+            "id": 38691,
+            "name": "剑渡万千_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 17600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5459,
+                "weapon_damage_rand": 3639
+            },
+            "magic": {
+                "vitality_base": 11595,
+                "agility_base": 946,
+                "physical_attack_power_base": 4731,
+                "physical_overcome_base": 7906,
+                "strain_base": 6324
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "煞·螭尘#38572 (12500 特效 会心 破防 加速)": {
             "id": 38572,
             "name": "煞·螭尘",
@@ -52989,6 +65204,112 @@ EQUIPMENTS = {
                 17368: 1,
                 17239: 1
             },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "螭尘#38031 (11900 特效 会心 破防 加速)": {
+            "id": 38031,
+            "name": "螭尘",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5126,
+                "weapon_damage_rand": 3417
+            },
+            "magic": {
+                "vitality_base": 7142,
+                "agility_base": 1385,
+                "physical_attack_power_base": 5190,
+                "physical_critical_strike_base": 6177,
+                "physical_overcome_base": 5405,
+                "haste_base": 1930
+            },
+            "embed": {
+                "physical_attack_power_base": 72,
+                "agility_base": 36,
+                "physical_overcome_base": 161
+            },
+            "gains": [
+                [
+                    2426
+                ],
+                [
+                    1937
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "博远重剑_测试用#39491 (16500 破招 无双)": {
+            "id": 39491,
+            "name": "博远重剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5117,
+                "weapon_damage_rand": 3412
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 887,
+                "physical_attack_power_base": 4435,
+                "surplus_base": 7412,
+                "strain_base": 7164
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "火风重剑_测试用#38653 (16500 会心 全能)": {
+            "id": 38653,
+            "name": "火风重剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 16500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5117,
+                "weapon_damage_rand": 3412
+            },
+            "magic": {
+                "vitality_base": 10870,
+                "agility_base": 824,
+                "physical_attack_power_base": 4033,
+                "physical_critical_strike_base": 7412,
+                "pvx_round": 2965
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}

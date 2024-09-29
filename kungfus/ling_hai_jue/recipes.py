@@ -40,8 +40,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4789: {}, 4790: {}, 4791: {},
             4691: {}, 4762: {}, 4694: {},
             5663: {}, 5664: {}, 5665: {}, 4816: {}, 4817: {}, 4818: {}, 4819: {},
-            **{recipe_id: {} for recipe_id in range(2485, 2493 + 1)},
-            5390: {}
+            **{recipe_id: {} for recipe_id in range(2485, 2493 + 1)}
         },
         CriticalStrikeRecipe_200: {
             2478: {},

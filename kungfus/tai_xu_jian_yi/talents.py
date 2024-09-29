@@ -1,6 +1,18 @@
 from typing import Dict, List
 
 from base.gain import Gain
+from base.skill import Skill
+
+
+class 无欲(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop(2757)
+        skills[2681].post_buffs[2757] = {3: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2681].post_buffs.pop(2757)
+        skills[2681].post_buffs[2757] = {1: 1}
+
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
@@ -45,7 +57,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             14832: Gain("虚极", recipes=[(4583, 1), (5173, 1)]),
-            38551: Gain("元一")
+            17731: 无欲("无欲")
         },
         {
             14833: Gain("玄门"),

@@ -4804,7 +4804,8 @@ BUFFS = {
                 "magical_shield_base": 124
             },
             {
-                "spirit_base": 28
+                "spirit_base": 18,
+                "magical_critical_strike_base": 339
             },
             {
                 "magical_attack_power_base": 171
@@ -5703,7 +5704,7 @@ BUFFS = {
     },
     1925: {
         "attributes": {
-            "weapon_damage_base": 1571
+            "weapon_damage_base": 2385
         },
         "max_level": 1,
         "buff_name": "鸣速",
@@ -7572,13 +7573,13 @@ BUFFS = {
     12590: {
         "attributes": [
             {
-                "strain_base": 4000
+                "strain_gain": 102
             },
             {
-                "strain_base": 8000
+                "strain_gain": 205
             },
             {
-                "strain_base": 12000
+                "strain_gain": 307
             }
         ],
         "max_level": 3,
@@ -7924,7 +7925,7 @@ BUFFS = {
     },
     11809: {
         "attributes": {
-            "all_shield_ignore": 102
+            "all_shield_ignore": 256
         },
         "max_level": 1,
         "buff_name": "倚天",
@@ -7963,15 +7964,9 @@ BUFFS = {
         "alias_name": "花间_雪中行加阳明指伤害",
         "max_stack": 4,
         "recipes": [
-            {
-                3019: 1
-            },
-            {
-                3020: 1
-            },
-            {
-                3235: 1
-            },
+            {},
+            {},
+            {},
             {
                 3236: 1
             }
@@ -8408,8 +8403,8 @@ BUFFS = {
         "attributes": [
             {},
             {
-                "lunar_critical_strike_rate": 500,
-                "lunar_critical_power_rate": 102
+                "lunar_critical_power_rate": 154,
+                "lunar_critical_strike_rate": 500
             }
         ],
         "max_level": 2,
@@ -8455,7 +8450,8 @@ BUFFS = {
             },
             {
                 "physical_critical_strike_rate": 2000,
-                "physical_attack_power_gain": 154
+                "physical_attack_power_gain": 154,
+                "strain_gain": 512
             },
             {
                 "physical_critical_strike_rate": 2000,
@@ -8561,9 +8557,7 @@ BUFFS = {
             {},
             {},
             {},
-            {
-                2910: 1
-            },
+            {},
             {},
             {},
             {},
@@ -9109,7 +9103,7 @@ BUFFS = {
             "solar_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         },
-        "max_level": 1,
+        "max_level": 2,
         "buff_name": "无明业火",
         "alias_name": "明教_无明业火_眩晕",
         "max_stack": 1,
@@ -9128,7 +9122,7 @@ BUFFS = {
     25721: {
         "attributes": [
             {
-                "magical_damage_addition": 102
+                "magical_damage_addition": 82
             },
             {
                 "magical_damage_addition": 154
@@ -9248,19 +9242,19 @@ BUFFS = {
     25904: {
         "attributes": [
             {
-                "all_damage_addition": 82
+                "all_damage_addition": 41
             },
             {
-                "all_damage_addition": 123
+                "all_damage_addition": 61
             },
             {
-                "all_damage_addition": 184
+                "all_damage_addition": 102
             },
             {
-                "all_damage_addition": 266
+                "all_damage_addition": 143
             },
             {
-                "pve_addition_base": 112
+                "pve_addition_base": 82
             }
         ],
         "max_level": 5,
@@ -9412,7 +9406,9 @@ BUFFS = {
         "buff_name": "锋鸣",
         "alias_name": "血怒外功破防加15%",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": {
+            5735: 1
+        }
     },
     8451: {
         "attributes": {},
@@ -9425,7 +9421,7 @@ BUFFS = {
     27161: {
         "attributes": {
             "physical_attack_power_gain": 102,
-            "strain_rate": 300
+            "strain_rate": 200
         },
         "max_level": 1,
         "buff_name": "血怒·惊涌",
@@ -9630,7 +9626,7 @@ BUFFS = {
     },
     9052: {
         "attributes": {},
-        "max_level": 8,
+        "max_level": 9,
         "alias_name": [
             "绝返奇穴绝刀伤害提高10%",
             "绝返奇穴绝刀伤害提高20%",
@@ -9639,7 +9635,8 @@ BUFFS = {
             "绝返奇穴绝刀伤害提高18%",
             "绝返奇穴绝刀伤害提高36%",
             "绝返奇穴绝刀伤害提高54%",
-            "绝返奇穴绝刀伤害提高72%"
+            "绝返奇穴绝刀伤害提高72%",
+            "绝返奇穴绝刀伤害提高120%"
         ],
         "max_stack": 1,
         "recipes": [
@@ -9666,6 +9663,9 @@ BUFFS = {
             },
             {
                 4921: 1
+            },
+            {
+                5725: 1
             }
         ]
     },
@@ -9823,6 +9823,60 @@ BUFFS = {
         },
         "max_level": 1,
         "alias_name": "新爆体大刀下伤害提升",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    11222: {
+        "attributes": {},
+        "max_level": 12,
+        "alias_name": "项王击鼎旋转递增实际效果",
+        "max_stack": 1,
+        "recipes": [
+            {
+                4247: 1
+            },
+            {
+                4248: 1
+            },
+            {
+                4249: 1
+            },
+            {
+                4250: 1
+            },
+            {
+                4251: 1
+            },
+            {
+                4252: 1
+            },
+            {
+                4253: 1
+            },
+            {
+                4254: 1
+            },
+            {
+                4255: 1
+            },
+            {
+                4309: 1
+            },
+            {
+                4310: 1
+            },
+            {
+                4311: 1
+            }
+        ]
+    },
+    29478: {
+        "attributes": {
+            "all_shield_ignore": 512,
+            "strain_gain": 307
+        },
+        "max_level": 1,
+        "alias_name": "爆体常驻无视",
         "max_stack": 1,
         "recipes": {}
     },
@@ -10298,7 +10352,7 @@ BUFFS = {
     },
     20696: {
         "attributes": {
-            "all_shield_ignore": 512
+            "all_shield_ignore": 717
         },
         "max_level": 1,
         "buff_name": "凄骨",
@@ -10541,7 +10595,7 @@ BUFFS = {
     29254: {
         "attributes": {
             "magical_attack_power_gain": 205,
-            "strain_rate": 205
+            "strain_rate": 154
         },
         "max_level": 1,
         "buff_name": "神门",
@@ -10550,17 +10604,14 @@ BUFFS = {
         "recipes": {}
     },
     29237: {
-        "attributes": {},
+        "attributes": {
+            "all_damage_addition": 154
+        },
         "max_level": 1,
         "buff_name": "出岫",
         "alias_name": "出岫云散期间增伤",
         "max_stack": 1,
-        "recipes": {
-            5636: 1,
-            5637: 1,
-            5638: 1,
-            5639: 1
-        }
+        "recipes": {}
     },
     28756: {
         "attributes": {},

@@ -15,8 +15,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6537: Gain("斩岳"),
-            18682: Gain("景行"),
-            38665: Gain("积翠")
+            6549: Gain("残雪")
         },
         {
             5964: Gain("造化")
@@ -25,7 +24,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5957: Gain("怜光")
         },
         {
-            6545: Gain("层云")
+            6545: Gain("层云"),
+            18682: Gain("景行")
         },
         {
             30862: Gain("山倾")

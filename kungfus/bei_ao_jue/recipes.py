@@ -20,19 +20,9 @@ class 新冥鼓无视防御(PhysicalShieldGainRecipe):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
             super().add_skill(skill)
 
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[32823].physical_shield_gain = [self.value, 0]
-        # skills[38537].physical_shield_gain = self.value
-        return super().add_skills(skills)
-
     def sub_skill(self, skill: Skill):
         if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
             super().sub_skill(skill)
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[32823].physical_shield_gain = 0
-        # skills[38537].physical_shield_gain = 0
-        super().sub_skills(skills)
 
 
 class 绝期_闹须弥增加持续伤害(ChannelIntervalRecipe):
@@ -50,7 +40,8 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4175: {}, 4176: {}, 4177: {},
             4183: {}, 4184: {}, 4185: {},
             4374: {}, 4375: {}, 4376: {},
-            **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)},
+            **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)}, 3350: {},
+            **{recipe_id: {} for recipe_id in range(4247, 4255 + 1)}, 4309: {}, 4310: {}, 4311: {},
             3251: {}, 2509: {}, 2474: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
             4290: {}, 4291: {}, 4294: {}, 4295: {}
         },
