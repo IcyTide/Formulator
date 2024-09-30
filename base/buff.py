@@ -156,7 +156,7 @@ class Buff(BaseBuff):
             attributes = self._attributes[-1]
         else:
             attributes = self._attributes[self.buff_level - 1]
-        return {k: v * self.buff_stack for k, v in attributes.items()}
+        return {k: int(v * self.buff_stack) for k, v in attributes.items()}
 
     @attributes.setter
     def attributes(self, attributes):

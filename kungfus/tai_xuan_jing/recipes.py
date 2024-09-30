@@ -42,7 +42,7 @@ class 临会心会效提高(NeutralCriticalRecipe):
 
 
 class 山艮状态伤害技能系数提高(ChannelIntervalRecipe):
-    value = 1.286
+    value = 1.095
 
     def add_skill(self, skill: Skill):
         if skill.skill_id in (24823, 24676, 24813, 34683):

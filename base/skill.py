@@ -1441,7 +1441,8 @@ class Skill(Damage):
         if not parser.current_dot_ticks.get(self.bind_dot):
             parser.current_dot_stacks[self.bind_dot] = 0
         parser.current_dot_ticks[self.bind_dot] = bind_dot.tick
-        parser.current_dot_stacks[self.bind_dot] = parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_stack
+        dot_stack = min(parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_stack, bind_dot.max_stack)
+        parser.current_dot_stacks[self.bind_dot] = dot_stack
         parser.current_dot_skills[self.bind_dot] = (self.skill_id, self.skill_level)
         parser.current_dot_snapshot[self.bind_dot] = parser.current_buff_stacks.copy()
 

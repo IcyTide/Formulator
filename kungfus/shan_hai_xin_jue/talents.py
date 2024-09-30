@@ -1,18 +1,9 @@
 from typing import Dict, List
 
 from base.buff import Buff
-from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
 from kungfus.shan_hai_xin_jue.skills import 射日加成, 白泽加成
-
-
-class 桑柘(Gain):
-    def add_dots(self, dots: Dict[int, Dot]):
-        dots[26856].tick_add += 1
-
-    def sub_dots(self, dots: Dict[int, Dot]):
-        dots[26856].tick_add -= 1
 
 
 class 孰湖(Gain):
@@ -111,7 +102,6 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             35729: Gain("鹿蜀")
         },
         {
-            35736: 桑柘("桑柘"),
             35733: 诸怀("诸怀")
         },
         {
@@ -121,14 +111,14 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             35745: Gain("卢令", attributes=dict(agility_gain=102))
         },
         {
-            35749: Gain("托月")
+            35757: Gain("贯侯", recipes=[(5422, 1)])
         },
         {
             35751: Gain("佩弦"),
             35754: Gain("丛云隐月")
         },
         {
-            35757: Gain("贯侯", recipes=[(5422, 1)])
+            35759: Gain("审固")
         },
         {
             35764: Gain("朝仪万汇"),

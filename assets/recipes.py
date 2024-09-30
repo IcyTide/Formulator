@@ -812,27 +812,20 @@ RECIPES = {
             "recipe_name": "《天道剑势·八荒归元》参悟绝章"
         }
     },
-    3237: {
-        1: {
-            "skill_id": 365,
-            "recipe_type": 365,
-            "recipe_name": "风势_无我距离"
-        }
-    },
-    4877: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 365,
-            "recipe_type": 365,
-            "recipe_name": "无我伤害提高30%"
-        }
-    },
     2860: {
         1: {
             "damage_addition": 102,
             "skill_id": 365,
             "recipe_type": 365,
             "recipe_name": "无我无剑减疗增伤"
+        }
+    },
+    5722: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 2699,
+            "recipe_type": 2699,
+            "recipe_name": "八荒降低CD"
         }
     },
     1522: {
@@ -2089,6 +2082,14 @@ RECIPES = {
             "damage_addition": 512,
             "skill_id": 18299,
             "recipe_name": "听晓加断潮伤害"
+        }
+    },
+    5670: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 1600,
+            "recipe_type": 1600,
+            "recipe_name": "夕照10%伤害"
         }
     },
     4347: {
@@ -5317,6 +5318,13 @@ RECIPES = {
             "skill_id": 16085,
             "recipe_type": 16085,
             "recipe_name": "小橙武霸刀属性2"
+        }
+    },
+    4214: {
+        1: {
+            "skill_id": 16601,
+            "recipe_type": 16601,
+            "recipe_name": "虎踞_龙骧虎步会心会效"
         }
     },
     4298: {

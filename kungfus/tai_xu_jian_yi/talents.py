@@ -4,6 +4,14 @@ from base.gain import Gain
 from base.skill import Skill
 
 
+class 风逝(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[394].post_target_buffs[29451] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[394].post_target_buffs.pop(29451)
+
+
 class 无欲(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[2681].post_buffs.pop(2757)
@@ -20,11 +28,11 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5807: Gain("心固", recipes=[(638, 3)])
         },
         {
-            32407: Gain("环月")
+            32407: Gain("环月", recipes=[(5722,1)])
         },
         {
             5800: Gain("白虹"),
-            17742: Gain("风逝"),
+            17742: 风逝("风逝"),
             38540: Gain("浑沦")
         },
         {

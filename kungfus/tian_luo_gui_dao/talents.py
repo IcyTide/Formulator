@@ -19,7 +19,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6441: Gain("流星赶月", recipes=[(1204, 1)]),
-            37326: Gain("确固不拔")
+            6504: Gain("天罗地网")
         },
         {
             6451: Gain("聚精凝神")
@@ -28,14 +28,13 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             18249: Gain("化血迷心")
         },
         {
-            33134: Gain("杀机断魂", buff_ids=[-24668]),
             14857: Gain("雷甲三铉")
         },
         {
             6461: Gain("秋风散影")
         },
         {
-            34679: Gain("雀引彀中"),
+            17572: Gain("分水逐旌"),
             37327: Gain("云合影从")
         },
         {

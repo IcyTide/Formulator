@@ -1,6 +1,10 @@
 from general.recipes import *
 
 
+class 虎踞_增加会心10(PhysicalCriticalRecipe):
+    value = (1000, 102)
+
+
 class 上将军印无视外防(PhysicalShieldGainRecipe):
     value = -205
 
@@ -77,6 +81,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_500: {
             4296: {}, 4297: {}
+        },
+        虎踞_增加会心10: {
+            4214: {}
         },
         上将军印无视外防: {
             4298: {}

@@ -5174,6 +5174,14 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    29480: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "含章挺秀阵",
+        "alias_name": "段氏阵法释放",
+        "max_stack": 1,
+        "recipes": {}
+    },
     71338: {
         "attributes": {
             "physical_damage_addition": 52,
@@ -6600,6 +6608,37 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    29481: {
+        "attributes": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                "magical_attack_power_gain": 51,
+                "surplus_base": 2666,
+                "lunar_critical_strike_rate": 500,
+                "solar_critical_strike_rate": 500,
+                "neutral_critical_strike_rate": 500,
+                "poison_critical_strike_rate": 500
+            }
+        ],
+        "max_level": 6,
+        "alias_name": "段氏_阵法",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29482: {
+        "attributes": {
+            "all_damage_addition": 62
+        },
+        "max_level": 1,
+        "buff_name": "含章挺秀阵四重",
+        "alias_name": "段氏_阵法4阵伤害增加",
+        "max_stack": 1,
+        "recipes": {}
+    },
     20938: {
         "attributes": {
             "strain_base": 90
@@ -7861,17 +7900,6 @@ BUFFS = {
         "max_stack": 3,
         "recipes": {}
     },
-    14931: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "风逝",
-        "alias_name": "风逝_无我伤害提高",
-        "max_stack": 1,
-        "recipes": {
-            4877: 1,
-            3237: 1
-        }
-    },
     21865: {
         "attributes": {},
         "max_level": 1,
@@ -7880,6 +7908,14 @@ BUFFS = {
         "recipes": {
             2860: 1
         }
+    },
+    29451: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "风逝",
+        "alias_name": "风逝标记",
+        "max_stack": 4,
+        "recipes": {}
     },
     1487: {
         "attributes": [
@@ -8969,37 +9005,6 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "弩心",
         "alias_name": "唐门_连弩加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    27457: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "诡鉴拟态天绝数量记录",
-        "max_stack": 10,
-        "recipes": {}
-    },
-    16234: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "暗藏杀机A",
-        "alias_name": "暗藏杀机A",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    16235: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "暗藏杀机B",
-        "alias_name": "暗藏杀机B",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    16236: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "暗藏杀机C",
-        "alias_name": "暗藏杀机C",
         "max_stack": 1,
         "recipes": {}
     },

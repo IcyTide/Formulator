@@ -43,7 +43,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5756: Gain("烟霞", recipes=[(1295, 1)])
         },
         {
-            32489: Gain("青冠")
+            17510: Gain("倚天")
         },
         {
             26692: Gain("钟灵")
@@ -62,16 +62,17 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16855: Gain("清流", buff_ids=[-12588])
         },
         {
-            17510: Gain("倚天")
+            32489: Gain("青冠")
         },
         {
             6682: Gain("流离")
         },
         {
-            32480: Gain("雪弃")
+            30650: Gain("丹青"),
+            32469: Gain("焚玉")
         },
         {
-            32469: Gain("焚玉"),
+            32480: Gain("雪弃"),
             26669: Gain("故幽", recipes=[(recipe_id, 1) for recipe_id in (2439, 2440, 2441, 2442, 2443, 3151)])
         },
         {

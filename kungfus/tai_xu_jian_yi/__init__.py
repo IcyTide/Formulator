@@ -8,5 +8,4 @@ from kungfus.tai_xu_jian_yi.talents import TALENTS
 
 
 def prepare(self, player_id):
-    if 14833 in self.select_talents[player_id]:
-        self.buff_stacks[player_id][9949][1] = 3
+    pass

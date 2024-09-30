@@ -5,8 +5,19 @@ from base.skill import Skill
 
 class 折花吞噬(Skill):
     consume_dots = {
-        **{i + 9: dot_id for i, dot_id in enumerate([714, 666, 711, 24158])}
+        i + 9: dot_id for i, dot_id in enumerate([714, 666, 711, 24158])
     }
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        self.consume_dot = self.consume_dots[self.skill_level]
+        super().record(actual_critical_strike, actual_damage, parser)
+
+
+class 丹青吞噬(Skill):
+    consume_dots = {
+        i: dot_id for i, dot_id in enumerate([666, 714, 711, 24158])
+    }
+    consume_tick = 1
 
     def record(self, actual_critical_strike, actual_damage, parser):
         self.consume_dot = self.consume_dots[self.skill_level]
@@ -24,21 +35,6 @@ class 清流判定(Skill):
             parser.clear_buff(self.final_buff, 1)
 
 
-class 快雪时晴(Skill):
-    final_buff = -24599
-    max_stack = 3
-
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_levels := parser.current_buff_stacks[self.final_buff]:
-            buff_level = max(buff_levels)
-            if buff_level < self.max_stack:
-                parser.refresh_buff(self.final_buff, buff_level, -buff_level)
-                parser.refresh_buff(self.final_buff, buff_level + 1, buff_level + 1)
-        else:
-            parser.refresh_buff(self.final_buff, 1, 1)
-        super().record(actual_critical_strike, actual_damage, parser)
-
-
 class 快雪时晴秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_dot_ticks.get(70041):
@@ -52,9 +48,9 @@ class 快雪时晴秘章(Skill):
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
-            16: dict(channel_interval=16), 186: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {}, 32501: {}, 37270: {},
+            16: dict(channel_interval=16), 182: {}, 186: {},6233: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {},
+            32501: {}, 37270: {}, 32629: {}, 30648: {},33222: {},
             37525: dict(pre_buffs={28116: {1: 1}}), 2645: dict(post_buffs={14636: {1: 1}}),
-            182: dict(post_buffs={-24599: {i + 1: -i - 1} for i in range(快雪时晴.max_stack)}),
             **{skill_id: dict(bind_dot=711) for skill_id in (18730, 13848, 6136)},
             **{skill_id: dict(bind_dot=714) for skill_id in (285, 3086, 13847, 6135)},
             **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},
@@ -64,8 +60,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             6128: dict(consume_dot=666),
             32410: dict(consume_dot=24158)
         },
-        快雪时晴: {33222: {}},
         折花吞噬: {601: {}},
+        丹青吞噬: {32630: {}},
         清流判定: {18722: {}}
     },
     1: {

@@ -10,3 +10,6 @@ from kungfus.tai_xuan_jing.talents import TALENTS
 def prepare(self, player_id):
     if 25072 in self.select_talents[player_id]:
         self.buff_stacks[player_id][18174][1] = 1
+    if 25022 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][18176][1] = 1
+
