@@ -23,8 +23,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             409: dict(post_buffs={-1: {1: 3}}),
             18773: dict(post_buffs={-1: {1: -3}}),
             31031: dict(post_buffs={-1: {1: 5}}),
-            401: dict(bind_dot=12461),
-            18591: dict(bind_dot=3442),
+            401: dict(bind_dots={12461: 1}),
+            18591: dict(bind_dots={3442: 1}),
         },
         战意判定: {
             18740: {}

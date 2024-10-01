@@ -49,7 +49,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             13463: dict(post_target_buffs={-8248: {1: 1}}),
             13040: dict(post_buffs={-1: {1: 10 + 15}}),
             16727: dict(post_buffs={-1: {1: 3}}),
-            29188: dict(bind_dot=8249, post_target_buffs={-8248: {1: -1}})
+            29188: dict(bind_dots={8249: 1}, post_target_buffs={-8248: {1: -1}})
         },
         盾压: {19409: {}},
         绝刀: {13075: {}}

@@ -5,6 +5,18 @@ from base.skill import Skill
 from kungfus.bei_ao_jue.skills import 项王击鼎秘章
 
 
+class 含风(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in range(16610, 16614 + 1):
+            skills[skill_id].pre_buffs[18384] = {1: 1}
+            skills[skill_id].pre_buffs[23066] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in range(16610, 16614 + 1):
+            skills[skill_id].pre_buffs.pop(18384)
+            skills[skill_id].pre_buffs.pop(23066)
+
+
 class 征踏(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
@@ -87,7 +99,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             17056: Gain("绝期", recipes=[(4319, 1), (2833, 1)])
         },
         {
-            25633: Gain("含风"),
+            25633: 含风("含风"),
             16893: Gain("重烟"),
             16977: Gain("冷川")
         },

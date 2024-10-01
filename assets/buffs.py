@@ -10148,14 +10148,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    15926: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "百节",
-        "alias_name": "百节隐雷鞭招式伤害提高10%",
-        "max_stack": 3,
-        "recipes": {}
-    },
     15927: {
         "attributes": {},
         "max_level": 1,

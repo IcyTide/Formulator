@@ -3,24 +3,10 @@ from typing import Dict
 from base.skill import Skill
 
 
-class 折花吞噬(Skill):
-    consume_dots = {
-        i + 9: dot_id for i, dot_id in enumerate([714, 666, 711, 24158])
-    }
-
-    def record(self, actual_critical_strike, actual_damage, parser):
-        self.consume_dot = self.consume_dots[self.skill_level]
-        super().record(actual_critical_strike, actual_damage, parser)
-
-
 class 丹青吞噬(Skill):
-    consume_dots = {
-        i: dot_id for i, dot_id in enumerate([666, 714, 711, 24158])
-    }
-    consume_tick = 1
-
     def record(self, actual_critical_strike, actual_damage, parser):
-        self.consume_dot = self.consume_dots[self.skill_level]
+        for dot_id in self.consume_dots:
+            parser.current_dot_ticks[dot_id] += 1
         super().record(actual_critical_strike, actual_damage, parser)
 
 
@@ -51,24 +37,24 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             16: dict(channel_interval=16), 182: {}, 186: {},6233: {}, 6693: {}, 14941: {}, 25768: {}, 32467: {},
             32501: {}, 37270: {}, 32629: {}, 30648: {},33222: {},
             37525: dict(pre_buffs={28116: {1: 1}}), 2645: dict(post_buffs={14636: {1: 1}}),
-            **{skill_id: dict(bind_dot=711) for skill_id in (18730, 13848, 6136)},
-            **{skill_id: dict(bind_dot=714) for skill_id in (285, 3086, 13847, 6135)},
-            **{skill_id: dict(bind_dot=666) for skill_id in (180, 13849, 6134)},
-            **{skill_id: dict(bind_dot=24158) for skill_id in (32481, 32409)},
-            6129: dict(consume_dot=711),
-            6126: dict(consume_dot=714),
-            6128: dict(consume_dot=666),
-            32410: dict(consume_dot=24158)
+            **{skill_id: dict(bind_dots={711: 1}) for skill_id in (18730, 13848, 6136)},
+            **{skill_id: dict(bind_dots={714: 1}) for skill_id in (285, 3086, 13847, 6135)},
+            **{skill_id: dict(bind_dots={666: 1}) for skill_id in (180, 13849, 6134)},
+            **{skill_id: dict(bind_dots={24158: 1}) for skill_id in (32481, 32409)},
+            601: dict(consume_dots=[{dot_id: 0} for dot_id in (714, 666, 711, 24158)] * 3),
+            6129: dict(consume_dots=[{}, {711: 0}, {711: 0}] * 2),
+            6126: dict(consume_dots=[{}, {714: 0}, {714: 0}] * 2),
+            6128: dict(consume_dots=[{}, {666: 0}, {666: 0}] * 2),
+            32410: dict(consume_dots={24158: 0})
         },
-        折花吞噬: {601: {}},
-        丹青吞噬: {32630: {}},
+        丹青吞噬: {32630: dict(consume_dots=[{dot_id: 1} for dot_id in (666, 714, 711, 24158)])},
         清流判定: {18722: {}}
     },
     1: {
         Skill: {
             101939: {}, 100047: {}, 100041: {},
-            101593: dict(bind_dot=70041),
-            100043: dict(consume_dot=70041)
+            101593: dict(bind_dots={70041: 1}),
+            100043: dict(consume_dots={70041: 0})
         },
         快雪时晴秘章: {
             100458: {}, 101583: {}

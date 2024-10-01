@@ -35,7 +35,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
             **{skill_id: {} for skill_id in range(18649, 18653 + 1)},
             **{skill_id: {} for skill_id in range(466, 475 + 1)},
-            33592: dict(bind_dot=6424)
+            33592: dict(bind_dots={6424: 1})
         },
         跬步判定: {18698: {}}
     }

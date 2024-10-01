@@ -23,9 +23,9 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             25781: {}, 31008: {}, 31138: {}, 32624: {}, 32738: {}, 34514: {}, 38015: {}, 14082: {}, 30799: {},
             14070: dict(post_buffs={9437: {1: 1}}),
             **{skill_id: dict(post_buffs={-23167: {1: 1}}) for skill_id in (14299, 14067)},
-            **{skill_id: dict(bind_dot=9357) for skill_id in (14287, 17788)},
-            **{skill_id: dict(bind_dot=9361) for skill_id in (14291, 17792)},
-            31005: dict(bind_dot=23187)
+            **{skill_id: dict(bind_dots={9357: 1}) for skill_id in (14287, 17788)},
+            **{skill_id: dict(bind_dots={9361: 1}) for skill_id in (14291, 17792)},
+            31005: dict(bind_dots={23187: 1})
         },
         知音妙意判定: {
             34676: dict(

@@ -610,7 +610,7 @@ ATTRIBUTES = {
     10533: {
         "alias_name": "凌海诀",
         "max_level": 14,
-        "pve_addition_base": 102,
+        "pve_addition_base": 174,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
         "physical_critical_strike_base": [

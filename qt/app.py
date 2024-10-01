@@ -62,8 +62,8 @@ class MainWindow(QMainWindow):
         self.recipes_widget = RecipesWidget()
         self.detail_widget.addTab(self.recipes_widget, "秘籍")
 
-        bottom_layout.addWidget(self.detail_widget, 2)
-        bottom_layout.addWidget(self.dashboard_widget, 3)
+        bottom_layout.addWidget(self.detail_widget, 1)
+        bottom_layout.addWidget(self.dashboard_widget, 1)
         bottom_layout.addStretch()
 
         parser = top_script(

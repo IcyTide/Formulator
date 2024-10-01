@@ -22,10 +22,11 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             2681: dict(post_buffs={2757: {1: 1}}),
             **{skill_id: {} for skill_id in range(386, 394 + 1)},
             **{skill_id: {} for skill_id in range(6076, 6085 + 1)},
-            32408: dict(consume_dot=748, consume_tick=1),
-            600: dict(bind_dot=748),
-            37453: dict(bind_dot=889),
-            30944: dict(bind_dot=23170)
+            32408: dict(consume_dots={748: 1}),
+            6761: dict(consume_dots={748: 0}),
+            600: dict(bind_dots={748: 1}),
+            37453: dict(bind_dots={889: 1}),
+            30944: dict(bind_dots={23170: 1})
         },
         风逝加成: {
             4954: {}
@@ -35,9 +36,9 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             100010: {}, 100011: {}, 101658: {}, 100374: {}, 100019: {}, 100012: {}, 100017: {}, 100003: {}, 100008: {},
             101633: {},
-            101581: dict(bind_dot=70624),
-            100021: dict(consume_dot=70624),
-            101634: dict(consume_dot=70624),
+            101581: dict(bind_dots={70624: 1}),
+            100021: dict(consume_dots={70624: 0}),
+            101634: dict(consume_dots={70624: 0}),
         }
     }
 }

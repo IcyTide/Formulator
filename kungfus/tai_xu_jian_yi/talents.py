@@ -49,6 +49,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6481: Gain("雾外江山"),
+            6758: Gain("切玉"),
             21725: Gain("长生")
         },
         {

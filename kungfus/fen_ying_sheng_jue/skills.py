@@ -21,9 +21,9 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             34349: {}, 34362: {}, 34363: {}, 34359: {}, 34361: {}, 37336: {}, 25777: {}, 35065: {}, 14701: {},
             18631: dict(post_buffs={-12575: {1: 1}}),
             **{skill_id: {} for skill_id in range(4483, 4490 + 1)},
-            13359: dict(bind_dot=4202),
-            **{skill_id: dict(bind_dot=25725) for skill_id in (34373, 35038)},
-            **{skill_id: dict(bind_dot=25726) for skill_id in (34374, 35039)}
+            13359: dict(bind_dots={4202: 1}),
+            **{skill_id: dict(bind_dots={25725: 1}) for skill_id in (34373, 35038)},
+            **{skill_id: dict(bind_dots={25726: 1}) for skill_id in (34374, 35039)}
         },
         诛邪镇魔: {
             26916: {}

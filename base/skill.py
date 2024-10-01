@@ -1,6 +1,7 @@
 from collections import defaultdict
+from copy import deepcopy
 from dataclasses import dataclass
-from typing import List
+from typing import List, Dict
 
 from assets.skills import SKILLS
 from base.attribute import Attribute, PhysicalAttribute
@@ -13,6 +14,9 @@ class BaseSkill:
     _skill_name: List[str] = []
     skill_level: int = 0
     alias_name: str = ""
+
+    _bind_dots: List[Dict[int, int]] = []
+    _consume_dots: List[Dict[int, int]] = []
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
@@ -39,6 +43,38 @@ class BaseSkill:
             self._skill_name = skill_name
         else:
             self._skill_name = [skill_name]
+
+    @property
+    def bind_dots(self):
+        if not self._bind_dots:
+            return {}
+        elif self.skill_level > len(self._bind_dots):
+            return self._bind_dots[-1]
+        else:
+            return self._bind_dots[self.skill_level - 1]
+
+    @bind_dots.setter
+    def bind_dots(self, bind_dots):
+        if isinstance(bind_dots, list):
+            self._bind_dots = bind_dots
+        else:
+            self._bind_dots = [bind_dots]
+
+    @property
+    def consume_dots(self):
+        if not self._consume_dots:
+            return {}
+        elif self.skill_level > len(self._consume_dots):
+            return self._consume_dots[-1]
+        else:
+            return self._consume_dots[self.skill_level - 1]
+
+    @consume_dots.setter
+    def consume_dots(self, consume_dots):
+        if isinstance(consume_dots, list):
+            self._consume_dots = consume_dots
+        else:
+            self._consume_dots = [consume_dots]
 
 
 class BaseDamage(BaseSkill):
@@ -1354,11 +1390,6 @@ class Skill(Damage):
     event_mask_1: int = 0
     event_mask_2: int = 0
 
-    bind_dot: int = 0
-    bind_stack: int = 1
-    consume_dot: int = 0
-    consume_tick: int = 0
-
     pet_count: int = 1
     pet_buffs: dict = None
 
@@ -1399,9 +1430,9 @@ class Skill(Damage):
     def record(self, actual_critical_strike, actual_damage, parser):
         if self.damage_call:
             self.damage(actual_critical_strike, actual_damage, parser)
-        if self.bind_dot:
+        if self.bind_dots:
             self.dot_add(parser)
-        if self.consume_dot:
+        if self.consume_dots:
             self.dot_consume(parser)
         if self.pet_buffs:
             self.pet_create(parser)
@@ -1437,36 +1468,35 @@ class Skill(Damage):
             parser.current_next_pet_buff_stacks.append(pet_buffs)
 
     def dot_add(self, parser):
-        bind_dot = parser.current_kungfu.dots[self.bind_dot]
-        if not parser.current_dot_ticks.get(self.bind_dot):
-            parser.current_dot_stacks[self.bind_dot] = 0
-        parser.current_dot_ticks[self.bind_dot] = bind_dot.tick
-        dot_stack = min(parser.current_dot_stacks.get(self.bind_dot, 0) + self.bind_stack, bind_dot.max_stack)
-        parser.current_dot_stacks[self.bind_dot] = dot_stack
-        parser.current_dot_skills[self.bind_dot] = (self.skill_id, self.skill_level)
-        parser.current_dot_snapshot[self.bind_dot] = parser.current_buff_stacks.copy()
+        for dot_id, dot_stack in self.bind_dots.items():
+            if not parser.current_dot_ticks.get(dot_id):
+                parser.current_dot_stacks[dot_id] = 0
+            bind_dot = parser.current_kungfu.dots[dot_id]
+            parser.current_dot_ticks[dot_id] = bind_dot.tick
+            dot_stack = min(parser.current_dot_stacks.get(dot_id, 0) + dot_stack, bind_dot.max_stack)
+            parser.current_dot_stacks[dot_id] = dot_stack
+            parser.current_dot_skills[dot_id] = (self.skill_id, self.skill_level)
+            parser.current_dot_snapshot[dot_id] = deepcopy(parser.current_buff_stacks)
 
     def dot_consume(self, parser):
-        if not (last_dot := parser.current_last_dot.pop(self.consume_dot, None)):
-            return
-        damage_tuple, status_tuple = last_dot
-        (dot_id, dot_level), (dot_skill_id, dot_skill_level, dot_stack), _ = damage_tuple
-        parser.current_dot_ticks[dot_id] += 1
-        if not self.consume_tick:
-            consume_tick = parser.current_dot_ticks[dot_id]
-        else:
-            consume_tick = min(parser.current_dot_ticks[dot_id], self.consume_tick)
-        new_damage_tuple = (
-            (dot_id, dot_level), (dot_skill_id, dot_skill_level, dot_stack),
-            (self.skill_id, self.skill_level, consume_tick)
-        )
-        parser.current_damage = dot_id
-        new_status_tuple = parser.dot_status
-        parser.current_damage = self.skill_id
-        parser.current_records[new_damage_tuple][new_status_tuple].append(
-            parser.current_records[damage_tuple][status_tuple].pop()
-        )
-        parser.current_dot_ticks[dot_id] -= consume_tick
+        for dot_id, dot_tick in self.consume_dots.items():
+            if not (last_dot := parser.current_last_dot.pop(dot_id, None)):
+                return
+            damage_tuple, status_tuple = last_dot
+            dot_tuple, dot_skill_tuple, _ = damage_tuple
+            parser.current_dot_ticks[dot_id] += 1
+            if not dot_tick:
+                consume_tick = parser.current_dot_ticks[dot_id]
+            else:
+                consume_tick = min(parser.current_dot_ticks[dot_id], dot_tick)
+            new_damage_tuple = (dot_tuple, dot_skill_tuple, (self.skill_id, self.skill_level, consume_tick))
+            parser.current_damage = dot_id
+            new_status_tuple = parser.dot_status
+            parser.current_damage = self.skill_id
+            parser.current_records[new_damage_tuple][new_status_tuple].append(
+                parser.current_records[damage_tuple][status_tuple].pop()
+            )
+            parser.current_dot_ticks[dot_id] -= consume_tick
 
 
 class NpcSkill(Skill):

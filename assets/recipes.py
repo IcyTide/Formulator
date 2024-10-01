@@ -1032,6 +1032,13 @@ RECIPES = {
             "recipe_name": "新雪中行快雪时晴伤害提高_4层"
         }
     },
+    2323: {
+        1: {
+            "damage_addition": 1024,
+            "skill_id": 186,
+            "recipe_name": "芙蓉降低5秒调息时间"
+        }
+    },
     1546: {
         1: {
             "damage_addition": 102,

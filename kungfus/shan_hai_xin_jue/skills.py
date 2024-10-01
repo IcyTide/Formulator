@@ -22,8 +22,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             35894: dict(channel_interval=24), 35866: {}, 35987: {}, 36157: {}, 36177: {}, 36453: {}, 36579: {},
             36580: {},
-            35771: dict(bind_dot=26856),
-            36165: dict(consume_dot=26856, consume_tick=3),
+            35771: dict(bind_dots={26856: 1}),
+            36165: dict(consume_dots={26856: 3}),
             35695: dict(pet_buffs={26857: {1: 1}}),
             35696: dict(pet_count=3, pet_buffs={26857: {1: 1}})
         },
@@ -34,7 +34,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     1: {
         射日加成: {
             102019: {}, 102018: {}, 102037: {}, 102027: {}, 101998: {}, 102035: {},
-            102211: dict(bind_dot=71175),
+            102211: dict(bind_dots={71175: 1}),
         },
         白泽加成: {
             102028: {}, 102029: {}, 102030: {}, 102031: {}, 102032: {}, 102033: {},
