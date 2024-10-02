@@ -117,10 +117,11 @@ class Dot(BaseDot):
     def display_name(self):
         if not self.dot_skill:
             return super().display_name
+        dot_skill_display_name = f"{self.dot_skill.display_name}-{self.dot_stack}"
         if not self.consume_skill:
-            return f"{super().display_name}({self.dot_skill.display_name})"
-        else:
-            return f"{super().display_name}({self.dot_skill.display_name}|{self.consume_skill.display_name})"
+            return f"{super().display_name}({dot_skill_display_name})"
+        consume_skill_display_name = f"{self.consume_skill.display_name}-{self.consume_tick}"
+        return f"{super().display_name}({dot_skill_display_name}|{consume_skill_display_name})"
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.buff_id]

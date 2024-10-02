@@ -7868,17 +7868,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    6093: {
-        "attributes": {
-            "physical_attack_power_gain": 102,
-            "neutral_attack_power_gain": 102
-        },
-        "max_level": 1,
-        "buff_name": "期声",
-        "alias_name": "纯阳_气场增益_会心",
-        "max_stack": 1,
-        "recipes": {}
-    },
     17933: {
         "attributes": {
             "physical_critical_power_rate": 154
@@ -7889,17 +7878,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    9949: {
-        "attributes": {
-            "physical_overcome_gain": 204,
-            "physical_critical_strike_rate": 300
-        },
-        "max_level": 1,
-        "buff_name": "玄门",
-        "alias_name": "玄门_5%破防和会心",
-        "max_stack": 3,
-        "recipes": {}
-    },
     21865: {
         "attributes": {},
         "max_level": 1,
@@ -7908,6 +7886,17 @@ BUFFS = {
         "recipes": {
             2860: 1
         }
+    },
+    6093: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "neutral_attack_power_gain": 102
+        },
+        "max_level": 1,
+        "buff_name": "期声",
+        "alias_name": "纯阳_气场增益_会心",
+        "max_stack": 1,
+        "recipes": {}
     },
     29451: {
         "attributes": {},
@@ -9684,24 +9673,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    25997: {
-        "attributes": [
-            {
-                "magical_critical_power_rate": 102
-            },
-            {
-                "magical_critical_power_rate": 204
-            },
-            {
-                "magical_critical_power_rate": 410
-            }
-        ],
-        "max_level": 3,
-        "buff_name": "知音妙意",
-        "alias_name": "正律和鸣结束会效buff",
-        "max_stack": 1,
-        "recipes": {}
-    },
     9433: {
         "attributes": {},
         "max_level": 3,
@@ -9740,6 +9711,24 @@ BUFFS = {
             5337: 1,
             5338: 1
         }
+    },
+    25997: {
+        "attributes": [
+            {
+                "magical_critical_power_rate": 102
+            },
+            {
+                "magical_critical_power_rate": 204
+            },
+            {
+                "magical_critical_power_rate": 410
+            }
+        ],
+        "max_level": 3,
+        "buff_name": "知音妙意",
+        "alias_name": "正律和鸣结束会效buff",
+        "max_stack": 1,
+        "recipes": {}
     },
     23167: {
         "attributes": {},
@@ -10146,6 +10135,14 @@ BUFFS = {
         "buff_name": "徵逐",
         "alias_name": "徵逐无视外防",
         "max_stack": 1,
+        "recipes": {}
+    },
+    15926: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "百节",
+        "alias_name": "百节隐雷鞭招式伤害提高10%",
+        "max_stack": 3,
         "recipes": {}
     },
     15927: {
