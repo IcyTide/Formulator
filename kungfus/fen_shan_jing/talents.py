@@ -24,7 +24,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             13087: Gain("分野", recipes=[(1823, 1)])
         },
         {
-            21281: 血魄("血魄")
+            21281: 血魄("血魄"),
+            13109: Gain("北漠")
         },
         {
             22897: Gain("锋鸣")
@@ -46,7 +47,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             36205: Gain("惊涌")
         },
         {
-            14838: Gain("蔑视", buff_ids=[-9889])
+            14838: Gain("蔑视")
         },
         {
             30769: Gain("阵云结晦"),

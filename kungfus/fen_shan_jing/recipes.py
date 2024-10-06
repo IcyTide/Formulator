@@ -1,6 +1,24 @@
 from general.recipes import *
 
 
+class 绝刀怒气消耗伤害提高(ChannelIntervalRecipe):
+    values = {
+        2004: 1.2,
+        2006: 1.4,
+        2007: 1.6,
+        2008: 1.8,
+        4918: 1.2,
+        4919: 1.4,
+        4920: 1.6,
+        4921: 1.8,
+        5725: 2.2
+    }
+
+    @property
+    def value(self):
+        return self.values[self.recipe_id]
+
+
 class 绝刀加会心(PhysicalCriticalRecipe):
     value = (1500, 200)
 
@@ -14,7 +32,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             1852: {}, 1853: {},
             1860: {}, 1861: {}, 1862: {},
             1953: {}, 1954: {},
-            1941: {}, 2004: {}, 2006: {}, 2007: {}, 2008: {}, 4918: {}, 4919: {}, 4920: {}, 4921: {},
+            1941: {}, 5735: {},
             1932: {}, 1933: {}, 1937: {}, 1938: {}
         },
         CriticalStrikeRecipe_200: {
@@ -40,6 +58,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_500: {
             1934: {}, 1936: {}
+        },
+        绝刀怒气消耗伤害提高: {
+            2004: {}, 2006: {}, 2007: {}, 2008: {}, 4918: {}, 4919: {}, 4920: {}, 4921: {}, 5725: {},
         },
         绝刀加会心: {
             1823: {}

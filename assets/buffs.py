@@ -7968,17 +7968,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    9722: {
-        "attributes": {
-            "neutral_critical_strike_rate": 160,
-            "neutral_critical_power_rate": 16
-        },
-        "max_level": 1,
-        "buff_name": "涓流",
-        "alias_name": "涓流_会心几率2%会心效果2%",
-        "max_stack": 10,
-        "recipes": {}
-    },
     24599: {
         "attributes": {
             "neutral_critical_strike_rate": 600,
@@ -7996,6 +7985,17 @@ BUFFS = {
                 3236: 1
             }
         ]
+    },
+    9722: {
+        "attributes": {
+            "neutral_critical_strike_rate": 160,
+            "neutral_critical_power_rate": 16
+        },
+        "max_level": 1,
+        "buff_name": "涓流",
+        "alias_name": "涓流_会心几率2%会心效果2%",
+        "max_stack": 10,
+        "recipes": {}
     },
     14636: {
         "attributes": {},
@@ -9382,16 +9382,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    8267: {
-        "attributes": {
-            "physical_critical_strike_rate": 300
-        },
-        "max_level": 1,
-        "buff_name": "恋战",
-        "alias_name": "恋战",
-        "max_stack": 10,
-        "recipes": {}
-    },
     14309: {
         "attributes": {
             "physical_overcome_gain": 154
@@ -9403,14 +9393,6 @@ BUFFS = {
         "recipes": {
             5735: 1
         }
-    },
-    8451: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "狂绝",
-        "alias_name": "狂绝标记buff",
-        "max_stack": 1,
-        "recipes": {}
     },
     27161: {
         "attributes": {
@@ -9444,13 +9426,11 @@ BUFFS = {
         "max_stack": 100,
         "recipes": {}
     },
-    9889: {
-        "attributes": {
-            "all_shield_ignore": 512
-        },
+    8451: {
+        "attributes": {},
         "max_level": 1,
-        "buff_name": "蔑视",
-        "alias_name": "蔑视_无视目标30%外防",
+        "buff_name": "狂绝",
+        "alias_name": "狂绝标记buff",
         "max_stack": 1,
         "recipes": {}
     },
@@ -9662,6 +9642,16 @@ BUFFS = {
                 5725: 1
             }
         ]
+    },
+    9889: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "buff_name": "蔑视",
+        "alias_name": "蔑视_无视目标30%外防",
+        "max_stack": 1,
+        "recipes": {}
     },
     9437: {
         "attributes": {

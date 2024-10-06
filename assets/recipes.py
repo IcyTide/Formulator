@@ -4149,60 +4149,12 @@ RECIPES = {
             "recipe_name": "绝刀无消耗秘籍"
         }
     },
-    2004: {
+    5735: {
         1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝返绝刀伤害提高10%"
-        }
-    },
-    2006: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝返绝刀伤害提高20%"
-        }
-    },
-    2007: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝返绝刀伤害提高30%"
-        }
-    },
-    2008: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝返绝刀伤害提高40%"
-        }
-    },
-    4918: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝刀伤害提高18%"
-        }
-    },
-    4919: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝刀伤害提高36%"
-        }
-    },
-    4920: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝刀伤害提高54%"
-        }
-    },
-    4921: {
-        1: {
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝刀伤害提高72%"
+            "damage_addition": 1024,
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "盾飞伤害提高"
         }
     },
     1932: {
@@ -4354,6 +4306,69 @@ RECIPES = {
             "skill_id": 13054,
             "recipe_type": 13054,
             "recipe_name": "小橙武_分山劲2"
+        }
+    },
+    2004: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高10%"
+        }
+    },
+    2006: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高20%"
+        }
+    },
+    2007: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高30%"
+        }
+    },
+    2008: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高40%"
+        }
+    },
+    4918: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高18%"
+        }
+    },
+    4919: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高36%"
+        }
+    },
+    4920: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高54%"
+        }
+    },
+    4921: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高72%"
+        }
+    },
+    5725: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "怒气上限额外加成"
         }
     },
     1823: {
