@@ -1,15 +1,6 @@
 from typing import Dict, List
 
 from base.gain import Gain
-from base.skill import Skill
-
-
-class 血魄(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[13040].post_buffs[-1][1] += 25
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[13040].post_buffs[-1][1] -= 25
 
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
@@ -24,7 +15,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             13087: Gain("分野", recipes=[(1823, 1)])
         },
         {
-            21281: 血魄("血魄"),
+            21281: Gain("血魄"),
             13109: Gain("北漠")
         },
         {

@@ -10,7 +10,7 @@ class 百节判定(Skill):
         if stack := parser.current_buff_stacks[self.final_buff].get(1, 0):
             parser.refresh_buff(self.final_buff + stack, 1)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.clear_buff(self.final_buff + stack, 1)
+            parser.clear_buff(self.final_buff + stack)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
         parser.refresh_buff(self.final_buff + min(stack + 1, 3), 1)

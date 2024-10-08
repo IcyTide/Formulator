@@ -23,7 +23,7 @@ class 众嗔(Gain):
             parser.refresh_buff(-13910, 1)
 
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[271].pre_buffs[-13910] = {1: 0}
+        skills[271].pre_buffs[-13910] = {1: -1}
         for skill_id in (271, 243, 233):
             skills[skill_id].post_effects.append(self.post_effect)
 

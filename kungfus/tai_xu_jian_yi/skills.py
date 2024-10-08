@@ -8,8 +8,8 @@ class 风逝加成(Skill):
         if buff_stack := parser.current_target_buff_stacks[29451].get(1):
             parser.refresh_target_buff(-29451, 1, buff_stack)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.clear_target_buff(-29451, 1)
-            parser.clear_target_buff(29451, 1)
+            parser.clear_target_buff(-29451)
+            parser.clear_target_buff(29451)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
 

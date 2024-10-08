@@ -1632,6 +1632,13 @@ RECIPES = {
             "recipe_name": "流玉_下一个玳弦急曲加伤害"
         }
     },
+    1254: {
+        1: {
+            "damage_addition": 358,
+            "skill_id": 2716,
+            "recipe_name": "剑破加伤害"
+        }
+    },
     2893: {
         1: {
             "damage_addition": 102,

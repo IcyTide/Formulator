@@ -18,7 +18,7 @@ class 清流判定(Skill):
         if parser.current_dot_ticks.get(self.bind_buff):
             parser.refresh_buff(self.final_buff, 1)
         else:
-            parser.clear_buff(self.final_buff, 1)
+            parser.clear_buff(self.final_buff)
 
 
 class 涓流判定(Skill):

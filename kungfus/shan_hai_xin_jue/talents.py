@@ -18,20 +18,12 @@ class 孰湖(Gain):
 
 class 诸怀(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs[-27099] = {1: 1}
-        skills[35696].pet_buffs[-27099] = {1: 1}
-
-    def add_buffs(self, buffs: Dict[int, Buff]):
-        buffs[26857].begin_buffs[-27099] = {1: 1}
-        buffs[26857].end_buffs[-27099] = {1: 0}
+        skills[35695].pet_buffs[27099] = {1: 1}
+        skills[35696].pet_buffs[27099] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[35695].pet_buffs.pop(-27099)
-        skills[35696].pet_buffs.pop(-27099)
-
-    def sub_buffs(self, buffs: Dict[int, Buff]):
-        buffs[26857].begin_buffs.pop(-27099)
-        buffs[26857].end_buffs.pop(-27099)
+        skills[35695].pet_buffs.pop(27099)
+        skills[35696].pet_buffs.pop(27099)
 
 
 class 朱厌(Gain):

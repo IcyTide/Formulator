@@ -8145,30 +8145,6 @@ BUFFS = {
             3257: 1
         }
     },
-    1911: {
-        "attributes": {},
-        "max_level": 7,
-        "buff_name": [
-            "碎魂",
-            "焚海",
-            "火龙沥泉",
-            "紫龙寂地",
-            "赤乌流火",
-            "泣血",
-            "旷野孤疆"
-        ],
-        "alias_name": [
-            "橙武_傲血战意_龙牙附致残",
-            "70橙武_傲血战意_龙牙附致残",
-            "90级橙武_傲血战意_龙牙附致残",
-            "95级橙武_傲血战意_龙牙附致残",
-            "100级橙武_傲血战意_龙牙附致残",
-            "110级橙武_傲血战意_龙牙附致残",
-            "橙武_傲血战意_龙牙附致残"
-        ],
-        "max_stack": 1,
-        "recipes": {}
-    },
     409: {
         "attributes": [
             {
@@ -9372,27 +9348,15 @@ BUFFS = {
         "max_stack": 3,
         "recipes": {}
     },
-    17176: {
+    8385: {
         "attributes": {
-            "all_damage_addition": 51
+            "physical_attack_power_gain": 133
         },
         "max_level": 1,
-        "buff_name": "分野",
-        "alias_name": "对静止伤害提高12%",
-        "max_stack": 1,
+        "buff_name": "血怒",
+        "alias_name": "血怒奇穴加强后",
+        "max_stack": 3,
         "recipes": {}
-    },
-    14309: {
-        "attributes": {
-            "physical_overcome_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "锋鸣",
-        "alias_name": "血怒外功破防加15%",
-        "max_stack": 1,
-        "recipes": {
-            5735: 1
-        }
     },
     27161: {
         "attributes": {
@@ -9402,67 +9366,6 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "血怒·惊涌",
         "alias_name": "惊涌_新血怒",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    16957: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 5
-            },
-            {
-                "physical_attack_power_base": 40
-            },
-            {
-                "physical_attack_power_base": 100
-            },
-            {
-                "physical_attack_power_base": 150
-            }
-        ],
-        "max_level": 4,
-        "buff_name": "单刀赴会·战",
-        "alias_name": "新苍云特殊武器_增伤",
-        "max_stack": 100,
-        "recipes": {}
-    },
-    8451: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "狂绝",
-        "alias_name": "狂绝标记buff",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    25937: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 204
-            },
-            {
-                "physical_attack_power_gain": 307
-            },
-            {
-                "physical_attack_power_gain": 410
-            },
-            {
-                "physical_attack_power_gain": 512
-            }
-        ],
-        "max_level": 5,
-        "alias_name": "分山祭血关山伤害增幅",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    8627: {
-        "attributes": {
-            "physical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "alias_name": "刀魂实际效果",
         "max_stack": 1,
         "recipes": {}
     },
@@ -9590,6 +9493,99 @@ BUFFS = {
             {}
         ]
     },
+    17176: {
+        "attributes": {
+            "all_damage_addition": 51
+        },
+        "max_level": 1,
+        "buff_name": "分野",
+        "alias_name": "对静止伤害提高12%",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    14309: {
+        "attributes": {
+            "physical_overcome_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "锋鸣",
+        "alias_name": "血怒外功破防加15%",
+        "max_stack": 1,
+        "recipes": {
+            5735: 1
+        }
+    },
+    16957: {
+        "attributes": [
+            {
+                "physical_attack_power_base": 5
+            },
+            {
+                "physical_attack_power_base": 40
+            },
+            {
+                "physical_attack_power_base": 100
+            },
+            {
+                "physical_attack_power_base": 150
+            }
+        ],
+        "max_level": 4,
+        "buff_name": "单刀赴会·战",
+        "alias_name": "新苍云特殊武器_增伤",
+        "max_stack": 100,
+        "recipes": {}
+    },
+    8451: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "狂绝",
+        "alias_name": "狂绝标记buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    9889: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "buff_name": "蔑视",
+        "alias_name": "蔑视_无视目标30%外防",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    25937: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 204
+            },
+            {
+                "physical_attack_power_gain": 307
+            },
+            {
+                "physical_attack_power_gain": 410
+            },
+            {
+                "physical_attack_power_gain": 512
+            }
+        ],
+        "max_level": 5,
+        "alias_name": "分山祭血关山伤害增幅",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8627: {
+        "attributes": {
+            "physical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "alias_name": "刀魂实际效果",
+        "max_stack": 1,
+        "recipes": {}
+    },
     26212: {
         "attributes": {},
         "max_level": 1,
@@ -9642,16 +9638,6 @@ BUFFS = {
                 5725: 1
             }
         ]
-    },
-    9889: {
-        "attributes": {
-            "all_shield_ignore": 512
-        },
-        "max_level": 1,
-        "buff_name": "蔑视",
-        "alias_name": "蔑视_无视目标30%外防",
-        "max_stack": 1,
-        "recipes": {}
     },
     9437: {
         "attributes": {

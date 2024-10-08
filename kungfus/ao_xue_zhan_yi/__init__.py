@@ -8,4 +8,4 @@ from kungfus.ao_xue_zhan_yi.talents import TALENTS
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][-1][1] = 5
+    pass

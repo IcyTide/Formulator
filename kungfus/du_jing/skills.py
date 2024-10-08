@@ -10,7 +10,7 @@ class 曲致判定(PetSkill):
         if parser.current_dot_ticks.get(2296) or parser.current_dot_ticks.get(25917):
             parser.refresh_buff(self.final_buff, 1)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.clear_buff(self.final_buff, 1)
+            parser.clear_buff(self.final_buff)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
 
