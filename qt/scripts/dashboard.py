@@ -50,6 +50,20 @@ def gradient_content(total: Detail):
     return content
 
 
+def anomaly_detect(details: Dict[str, Dict[str, Detail]]):
+    anomaly_details = {}
+    for skill, skill_detail in details.items():
+        anomaly_details[skill] = {}
+        for status, detail in skill_detail.items():
+            if not status:
+                continue
+            if anomaly_detail := detail.anomaly_detail:
+                anomaly_details[skill][status] = anomaly_detail
+        if not anomaly_details[skill]:
+            anomaly_details.pop(skill)
+    return anomaly_details
+
+
 def detail_content(detail: Detail):
     damage_content = [
         ["命中伤害", f"{round(detail.damage)}"],
@@ -106,6 +120,8 @@ def dashboard_script(parser: Parser,
 
         dashboard_widget.detail_widget.details = details
         set_skills()
+        dashboard_widget.anomaly_widget.details = anomaly_detect(details)
+        set_anomaly_skills()
 
     dashboard_widget.formulate_button.clicked.connect(formulate)
 
@@ -127,6 +143,11 @@ def dashboard_script(parser: Parser,
         detail_widget.skill_combo.set_items(list(detail_widget.details), keep_index=True, default_index=-1)
         set_status(None)
 
+    def set_anomaly_skills():
+        anomaly_widget = dashboard_widget.anomaly_widget
+        anomaly_widget.skill_combo.set_items(list(anomaly_widget.details), keep_index=True, default_index=-1)
+        set_anomaly_status(None)
+
     def set_status(_):
         detail_widget = dashboard_widget.detail_widget
         skill = detail_widget.skill_combo.combo_box.currentText()
@@ -136,6 +157,16 @@ def dashboard_script(parser: Parser,
         set_detail(None)
 
     dashboard_widget.detail_widget.skill_combo.combo_box.currentTextChanged.connect(set_status)
+
+    def set_anomaly_status(_):
+        anomaly_widget = dashboard_widget.anomaly_widget
+        skill = anomaly_widget.skill_combo.combo_box.currentText()
+        anomaly_widget.status_combo.set_items(
+            list(anomaly_widget.details.get(skill, {})), keep_index=True, default_index=-1
+        )
+        set_anomaly_detail(None)
+
+    dashboard_widget.anomaly_widget.skill_combo.combo_box.currentTextChanged.connect(set_anomaly_status)
 
     def set_detail(_):
         detail_widget = dashboard_widget.detail_widget
@@ -150,3 +181,16 @@ def dashboard_script(parser: Parser,
             detail_widget.timeline.clear_content()
 
     dashboard_widget.detail_widget.status_combo.combo_box.currentTextChanged.connect(set_detail)
+
+    def set_anomaly_detail(_):
+        anomaly_widget = dashboard_widget.anomaly_widget
+        skill = anomaly_widget.skill_combo.combo_box.currentText()
+        status = anomaly_widget.status_combo.combo_box.currentText()
+        if detail := anomaly_widget.details.get(skill, {}).get(status):
+            damage_content, timeline_content = detail_content(detail)
+            anomaly_widget.damage_detail.set_content(damage_content)
+            anomaly_widget.timeline.set_content(timeline_content)
+        else:
+            anomaly_widget.damage_detail.table.clear()
+            anomaly_widget.timeline.clear_content()
+    dashboard_widget.anomaly_widget.status_combo.combo_box.currentTextChanged.connect(set_anomaly_detail)

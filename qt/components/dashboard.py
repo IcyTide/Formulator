@@ -65,6 +65,8 @@ class DashboardWidget(QWidget):
 
         self.detail_widget = DetailWidget()
         tab.addTab(self.detail_widget, "伤害总结")
+        self.anomaly_widget = DetailWidget()
+        tab.addTab(self.anomaly_widget, "异常伤害")
 
         self.summary = TableWithLabel("伤害统计", headers=["技能/次数", "期望命中/%", "期望会心/%", "期望总伤害/%"])
 

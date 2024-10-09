@@ -93,7 +93,7 @@ class Buff(BaseBuff):
     begin_frame_shift: int = 0
     end_frame_shift: int = 0
     unique: bool = True
-    continuous: bool = True
+    continuous: bool = False
     activate: bool = True
 
     _recipes: List[dict] = None

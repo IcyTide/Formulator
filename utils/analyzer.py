@@ -23,9 +23,13 @@ class Detail:
     timeline: List[tuple] = None
     gradients: Dict[str, float] = None
 
+    EPSILON: float = 5e-2
+
     def __post_init__(self):
-        self.timeline = []
-        self.gradients = defaultdict(float)
+        if not self.timeline:
+            self.timeline = []
+        if not self.gradients:
+            self.gradients = defaultdict(float)
 
     @cached_property
     def count(self):
@@ -46,6 +50,22 @@ class Detail:
     @cached_property
     def actual_damage(self):
         return self.total_actual_damage / self.count
+
+    @property
+    def anomaly_detail(self):
+        anomaly_timeline = []
+        for index, critical, damage in self.timeline:
+            if critical and abs(damage - self.critical_damage) / self.critical_damage > self.EPSILON:
+                anomaly_timeline.append((index, critical, damage))
+            elif not critical and abs(damage - self.damage) / self.damage > self.EPSILON:
+                anomaly_timeline.append((index, critical, damage))
+        if anomaly_timeline:
+            return Detail(
+                self.damage, self.critical_damage, self.critical_strike, self.expected_damage,
+                timeline=anomaly_timeline
+            )
+        else:
+            return None
 
 
 class BaseAnalyzer:
