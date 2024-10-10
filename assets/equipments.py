@@ -1,5 +1,907 @@
 EQUIPMENTS = {
     "jacket": {
+        "陶然意·星雪衣_测试用#103875 (26300 破防 全能)": {
+            "id": 103875,
+            "name": "陶然意·星雪衣_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影衣_测试用#103874 (26300 破防 全能)": {
+            "id": 103874,
+            "name": "陶然意·旭影衣_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟衣_测试用#103873 (26300 破防 全能)": {
+            "id": 103873,
+            "name": "陶然意·沉麟衣_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时衣_测试用#103872 (26300 破防 全能)": {
+            "id": 103872,
+            "name": "陶然意·和时衣_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "poison_attack_power_base": 1983,
+                "poison_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪衣_测试用#103871 (26300 破防 全能)": {
+            "id": 103871,
+            "name": "陶然意·星雪衣_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影衣_测试用#103870 (26300 破防 全能)": {
+            "id": 103870,
+            "name": "陶然意·匿影衣_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔衣_测试用#103869 (26300 破防 全能)": {
+            "id": 103869,
+            "name": "陶然意·弘阔衣_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳衣_测试用#103868 (26300 破防 全能)": {
+            "id": 103868,
+            "name": "陶然意·海岳衣_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪衣_测试用#103867 (26300 破防 全能)": {
+            "id": 103867,
+            "name": "陶然意·咏雪衣_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "lunar_attack_power_base": 1983,
+                "lunar_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭衣_测试用#103866 (26300 破防 全能)": {
+            "id": 103866,
+            "name": "陶然意·严峭衣_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日衣_测试用#103865 (26300 破防 全能)": {
+            "id": 103865,
+            "name": "陶然意·赫日衣_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "solar_and_lunar_attack_power_base": 1983,
+                "solar_and_lunar_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌衣_测试用#103864 (26300 破防 全能)": {
+            "id": 103864,
+            "name": "陶然意·长陌衣_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景衣_测试用#103863 (26300 破防 全能)": {
+            "id": 103863,
+            "name": "陶然意·浮景衣_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋衣_测试用#103862 (26300 破防 全能)": {
+            "id": 103862,
+            "name": "陶然意·奇锋衣_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠衣_测试用#103861 (26300 破防 全能)": {
+            "id": 103861,
+            "name": "陶然意·森泠衣_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "poison_attack_power_base": 1983,
+                "poison_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁衣_测试用#103860 (26300 破防 全能)": {
+            "id": 103860,
+            "name": "陶然意·清篁衣_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "poison_attack_power_base": 1983,
+                "poison_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞衣_测试用#103859 (26300 破防 全能)": {
+            "id": 103859,
+            "name": "陶然意·云舞衣_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "lunar_attack_power_base": 1983,
+                "lunar_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云衣_测试用#103858 (26300 破防 全能)": {
+            "id": 103858,
+            "name": "陶然意·泊云衣_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹衣_测试用#103857 (26300 破防 全能)": {
+            "id": 103857,
+            "name": "陶然意·青虹衣_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊衣_测试用#103856 (26300 破防 全能)": {
+            "id": 103856,
+            "name": "陶然意·长渊衣_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷衣_测试用#103855 (26300 破防 全能)": {
+            "id": 103855,
+            "name": "陶然意·兰谷衣_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉衣_测试用#103854 (26300 破防 全能)": {
+            "id": 103854,
+            "name": "陶然意·修觉衣_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "solar_attack_power_base": 1983,
+                "solar_overcome_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "暮渝衣_测试用#101623 (26300 破防 无双)": {
             "id": 101623,
             "name": "暮渝衣_测试用",
@@ -1417,6 +2319,842 @@ EQUIPMENTS = {
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪衣_测试用#103713 (22600 破防 全能)": {
+            "id": 103713,
+            "name": "陶然意·星雪衣_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影衣_测试用#103712 (22600 破防 全能)": {
+            "id": 103712,
+            "name": "陶然意·旭影衣_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟衣_测试用#103711 (22600 破防 全能)": {
+            "id": 103711,
+            "name": "陶然意·沉麟衣_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时衣_测试用#103710 (22600 破防 全能)": {
+            "id": 103710,
+            "name": "陶然意·和时衣_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "poison_attack_power_base": 1704,
+                "poison_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪衣_测试用#103709 (22600 破防 全能)": {
+            "id": 103709,
+            "name": "陶然意·星雪衣_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影衣_测试用#103708 (22600 破防 全能)": {
+            "id": 103708,
+            "name": "陶然意·匿影衣_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔衣_测试用#103707 (22600 破防 全能)": {
+            "id": 103707,
+            "name": "陶然意·弘阔衣_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳衣_测试用#103706 (22600 破防 全能)": {
+            "id": 103706,
+            "name": "陶然意·海岳衣_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪衣_测试用#103705 (22600 破防 全能)": {
+            "id": 103705,
+            "name": "陶然意·咏雪衣_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "lunar_attack_power_base": 1704,
+                "lunar_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭衣_测试用#103704 (22600 破防 全能)": {
+            "id": 103704,
+            "name": "陶然意·严峭衣_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日衣_测试用#103703 (22600 破防 全能)": {
+            "id": 103703,
+            "name": "陶然意·赫日衣_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "solar_and_lunar_attack_power_base": 1704,
+                "solar_and_lunar_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌衣_测试用#103702 (22600 破防 全能)": {
+            "id": 103702,
+            "name": "陶然意·长陌衣_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景衣_测试用#103701 (22600 破防 全能)": {
+            "id": 103701,
+            "name": "陶然意·浮景衣_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋衣_测试用#103700 (22600 破防 全能)": {
+            "id": 103700,
+            "name": "陶然意·奇锋衣_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠衣_测试用#103699 (22600 破防 全能)": {
+            "id": 103699,
+            "name": "陶然意·森泠衣_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "poison_attack_power_base": 1704,
+                "poison_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁衣_测试用#103698 (22600 破防 全能)": {
+            "id": 103698,
+            "name": "陶然意·清篁衣_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "poison_attack_power_base": 1704,
+                "poison_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞衣_测试用#103697 (22600 破防 全能)": {
+            "id": 103697,
+            "name": "陶然意·云舞衣_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "lunar_attack_power_base": 1704,
+                "lunar_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云衣_测试用#103696 (22600 破防 全能)": {
+            "id": 103696,
+            "name": "陶然意·泊云衣_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹衣_测试用#103695 (22600 破防 全能)": {
+            "id": 103695,
+            "name": "陶然意·青虹衣_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊衣_测试用#103694 (22600 破防 全能)": {
+            "id": 103694,
+            "name": "陶然意·长渊衣_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷衣_测试用#103693 (22600 破防 全能)": {
+            "id": 103693,
+            "name": "陶然意·兰谷衣_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉衣_测试用#103692 (22600 破防 全能)": {
+            "id": 103692,
+            "name": "陶然意·修觉衣_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "solar_attack_power_base": 1704,
+                "solar_overcome_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
             "set_recipe": {}
         },
         "沉龙荡波·燕晚衣_测试用#103519 (22500 破招 无双)": {
@@ -3405,7 +5143,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "agility_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -3432,7 +5170,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "strength_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -3459,7 +5197,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spunk_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -3486,7 +5224,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spirit_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -3513,7 +5251,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "agility_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "physical_critical_strike_base": 7674,
                 "pvx_round": 3069
             },
@@ -3540,7 +5278,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "strength_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "physical_critical_strike_base": 7674,
                 "pvx_round": 3069
             },
@@ -3567,7 +5305,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spunk_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "all_critical_strike_base": 7674,
                 "pvx_round": 3069
             },
@@ -3594,7 +5332,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spirit_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "magical_critical_strike_base": 7674,
                 "pvx_round": 3069
             },
@@ -3945,7 +5683,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "agility_base": 686,
-                "physical_attack_power_base": 1343,
+                "physical_attack_power_base": 1119,
                 "physical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -3972,7 +5710,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "strength_base": 686,
-                "physical_attack_power_base": 1343,
+                "physical_attack_power_base": 1119,
                 "physical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -3999,7 +5737,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "spunk_base": 686,
-                "magical_attack_power_base": 1493,
+                "magical_attack_power_base": 1244,
                 "magical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -4026,7 +5764,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "spirit_base": 686,
-                "magical_attack_power_base": 1493,
+                "magical_attack_power_base": 1244,
                 "magical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -4042,6 +5780,600 @@ EQUIPMENTS = {
         }
     },
     "bottoms": {
+        "陶然意·星雪裤_测试用#103831 (26300 会心 全能)": {
+            "id": 103831,
+            "name": "陶然意·星雪裤_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影裤_测试用#103830 (26300 会心 全能)": {
+            "id": 103830,
+            "name": "陶然意·旭影裤_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟裤_测试用#103829 (26300 会心 全能)": {
+            "id": 103829,
+            "name": "陶然意·沉麟裤_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时裤_测试用#103828 (26300 会心 全能)": {
+            "id": 103828,
+            "name": "陶然意·和时裤_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "poison_attack_power_base": 1983,
+                "poison_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪裤_测试用#103827 (26300 会心 全能)": {
+            "id": 103827,
+            "name": "陶然意·星雪裤_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影裤_测试用#103826 (26300 会心 全能)": {
+            "id": 103826,
+            "name": "陶然意·匿影裤_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔裤_测试用#103825 (26300 会心 全能)": {
+            "id": 103825,
+            "name": "陶然意·弘阔裤_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳裤_测试用#103824 (26300 会心 全能)": {
+            "id": 103824,
+            "name": "陶然意·海岳裤_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪裤_测试用#103823 (26300 会心 全能)": {
+            "id": 103823,
+            "name": "陶然意·咏雪裤_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "lunar_attack_power_base": 1983,
+                "lunar_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭裤_测试用#103822 (26300 会心 全能)": {
+            "id": 103822,
+            "name": "陶然意·严峭裤_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日裤_测试用#103821 (26300 会心 全能)": {
+            "id": 103821,
+            "name": "陶然意·赫日裤_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "solar_and_lunar_attack_power_base": 1983,
+                "solar_and_lunar_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌裤_测试用#103820 (26300 会心 全能)": {
+            "id": 103820,
+            "name": "陶然意·长陌裤_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景裤_测试用#103819 (26300 会心 全能)": {
+            "id": 103819,
+            "name": "陶然意·浮景裤_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋裤_测试用#103818 (26300 会心 全能)": {
+            "id": 103818,
+            "name": "陶然意·奇锋裤_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠裤_测试用#103817 (26300 会心 全能)": {
+            "id": 103817,
+            "name": "陶然意·森泠裤_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "poison_attack_power_base": 1983,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁裤_测试用#103816 (26300 会心 全能)": {
+            "id": 103816,
+            "name": "陶然意·清篁裤_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "poison_attack_power_base": 1983,
+                "poison_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞裤_测试用#103815 (26300 会心 全能)": {
+            "id": 103815,
+            "name": "陶然意·云舞裤_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "lunar_attack_power_base": 1983,
+                "lunar_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云裤_测试用#103814 (26300 会心 全能)": {
+            "id": 103814,
+            "name": "陶然意·泊云裤_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "agility_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹裤_测试用#103813 (26300 会心 全能)": {
+            "id": 103813,
+            "name": "陶然意·青虹裤_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spirit_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊裤_测试用#103812 (26300 会心 全能)": {
+            "id": 103812,
+            "name": "陶然意·长渊裤_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "strength_base": 1094,
+                "physical_attack_power_base": 1784,
+                "physical_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷裤_测试用#103811 (26300 会心 全能)": {
+            "id": 103811,
+            "name": "陶然意·兰谷裤_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "neutral_attack_power_base": 1983,
+                "neutral_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉裤_测试用#103810 (26300 会心 全能)": {
+            "id": 103810,
+            "name": "陶然意·修觉裤_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 14439,
+                "spunk_base": 1094,
+                "solar_attack_power_base": 1983,
+                "solar_critical_strike_base": 9845,
+                "pvx_round": 3938
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "暮渝裤_测试用#101611 (26300 会心 无双)": {
             "id": 101611,
             "name": "暮渝裤_测试用",
@@ -4971,6 +7303,600 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321,
                 "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪裤_测试用#103669 (22600 会心 全能)": {
+            "id": 103669,
+            "name": "陶然意·星雪裤_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影裤_测试用#103668 (22600 会心 全能)": {
+            "id": 103668,
+            "name": "陶然意·旭影裤_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟裤_测试用#103667 (22600 会心 全能)": {
+            "id": 103667,
+            "name": "陶然意·沉麟裤_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时裤_测试用#103666 (22600 会心 全能)": {
+            "id": 103666,
+            "name": "陶然意·和时裤_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "poison_attack_power_base": 1704,
+                "poison_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪裤_测试用#103665 (22600 会心 全能)": {
+            "id": 103665,
+            "name": "陶然意·星雪裤_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影裤_测试用#103664 (22600 会心 全能)": {
+            "id": 103664,
+            "name": "陶然意·匿影裤_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔裤_测试用#103663 (22600 会心 全能)": {
+            "id": 103663,
+            "name": "陶然意·弘阔裤_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳裤_测试用#103662 (22600 会心 全能)": {
+            "id": 103662,
+            "name": "陶然意·海岳裤_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪裤_测试用#103661 (22600 会心 全能)": {
+            "id": 103661,
+            "name": "陶然意·咏雪裤_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "lunar_attack_power_base": 1704,
+                "lunar_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭裤_测试用#103660 (22600 会心 全能)": {
+            "id": 103660,
+            "name": "陶然意·严峭裤_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日裤_测试用#103659 (22600 会心 全能)": {
+            "id": 103659,
+            "name": "陶然意·赫日裤_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "solar_and_lunar_attack_power_base": 1704,
+                "solar_and_lunar_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌裤_测试用#103658 (22600 会心 全能)": {
+            "id": 103658,
+            "name": "陶然意·长陌裤_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景裤_测试用#103657 (22600 会心 全能)": {
+            "id": 103657,
+            "name": "陶然意·浮景裤_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋裤_测试用#103656 (22600 会心 全能)": {
+            "id": 103656,
+            "name": "陶然意·奇锋裤_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠裤_测试用#103655 (22600 会心 全能)": {
+            "id": 103655,
+            "name": "陶然意·森泠裤_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "poison_attack_power_base": 1704,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁裤_测试用#103654 (22600 会心 全能)": {
+            "id": 103654,
+            "name": "陶然意·清篁裤_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "poison_attack_power_base": 1704,
+                "poison_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞裤_测试用#103653 (22600 会心 全能)": {
+            "id": 103653,
+            "name": "陶然意·云舞裤_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "lunar_attack_power_base": 1704,
+                "lunar_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云裤_测试用#103652 (22600 会心 全能)": {
+            "id": 103652,
+            "name": "陶然意·泊云裤_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "agility_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹裤_测试用#103651 (22600 会心 全能)": {
+            "id": 103651,
+            "name": "陶然意·青虹裤_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spirit_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊裤_测试用#103650 (22600 会心 全能)": {
+            "id": 103650,
+            "name": "陶然意·长渊裤_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "strength_base": 940,
+                "physical_attack_power_base": 1533,
+                "physical_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷裤_测试用#103649 (22600 会心 全能)": {
+            "id": 103649,
+            "name": "陶然意·兰谷裤_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "neutral_attack_power_base": 1704,
+                "neutral_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉裤_测试用#103648 (22600 会心 全能)": {
+            "id": 103648,
+            "name": "陶然意·修觉裤_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12407,
+                "spunk_base": 940,
+                "solar_attack_power_base": 1704,
+                "solar_critical_strike_base": 8460,
+                "pvx_round": 3384
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -6071,7 +8997,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "agility_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "physical_overcome_base": 7674,
                 "pvx_round": 3069
             },
@@ -6098,7 +9024,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "strength_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "physical_overcome_base": 7674,
                 "pvx_round": 3069
             },
@@ -6125,7 +9051,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spunk_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "magical_overcome_base": 7674,
                 "pvx_round": 3069
             },
@@ -6152,7 +9078,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spirit_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "magical_overcome_base": 7674,
                 "pvx_round": 3069
             },
@@ -6179,7 +9105,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "agility_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -6206,7 +9132,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "strength_base": 853,
-                "physical_attack_power_base": 1668,
+                "physical_attack_power_base": 1390,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -6233,7 +9159,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spunk_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -6260,7 +9186,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 11255,
                 "spirit_base": 853,
-                "magical_attack_power_base": 1855,
+                "magical_attack_power_base": 1546,
                 "haste_base": 7674,
                 "pvx_round": 3069
             },
@@ -6611,7 +9537,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "agility_base": 686,
-                "physical_attack_power_base": 1343,
+                "physical_attack_power_base": 1119,
                 "physical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -6638,7 +9564,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "strength_base": 686,
-                "physical_attack_power_base": 1343,
+                "physical_attack_power_base": 1119,
                 "physical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -6665,7 +9591,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "spunk_base": 686,
-                "magical_attack_power_base": 1493,
+                "magical_attack_power_base": 1244,
                 "magical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -6692,7 +9618,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 9059,
                 "spirit_base": 686,
-                "magical_attack_power_base": 1493,
+                "magical_attack_power_base": 1244,
                 "magical_overcome_base": 6176,
                 "pvx_round": 2471
             },
@@ -6708,6 +9634,908 @@ EQUIPMENTS = {
         }
     },
     "hat": {
+        "陶然意·星雪帽_测试用#103853 (26300 会心 全能)": {
+            "id": 103853,
+            "name": "陶然意·星雪帽_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "neutral_attack_power_base": 1785,
+                "neutral_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影帽_测试用#103852 (26300 会心 全能)": {
+            "id": 103852,
+            "name": "陶然意·旭影帽_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟帽_测试用#103851 (26300 会心 全能)": {
+            "id": 103851,
+            "name": "陶然意·沉麟帽_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "strength_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时帽_测试用#103850 (26300 会心 全能)": {
+            "id": 103850,
+            "name": "陶然意·和时帽_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spirit_base": 984,
+                "poison_attack_power_base": 1785,
+                "poison_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "poison_critical_strike_base": 321,
+                "poison_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪帽_测试用#103849 (26300 会心 全能)": {
+            "id": 103849,
+            "name": "陶然意·星雪帽_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "neutral_attack_power_base": 1785,
+                "neutral_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影帽_测试用#103848 (26300 会心 全能)": {
+            "id": 103848,
+            "name": "陶然意·匿影帽_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔帽_测试用#103847 (26300 会心 全能)": {
+            "id": 103847,
+            "name": "陶然意·弘阔帽_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳帽_测试用#103846 (26300 会心 全能)": {
+            "id": 103846,
+            "name": "陶然意·海岳帽_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "strength_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪帽_测试用#103845 (26300 加速 全能)": {
+            "id": 103845,
+            "name": "陶然意·咏雪帽_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spirit_base": 984,
+                "lunar_attack_power_base": 1785,
+                "haste_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭帽_测试用#103844 (26300 会心 全能)": {
+            "id": 103844,
+            "name": "陶然意·严峭帽_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日帽_测试用#103843 (26300 会心 全能)": {
+            "id": 103843,
+            "name": "陶然意·赫日帽_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "solar_and_lunar_attack_power_base": 1785,
+                "solar_and_lunar_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "solar_and_lunar_critical_strike_base": 321,
+                "solar_and_lunar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌帽_测试用#103842 (26300 会心 全能)": {
+            "id": 103842,
+            "name": "陶然意·长陌帽_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "strength_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景帽_测试用#103841 (26300 会心 全能)": {
+            "id": 103841,
+            "name": "陶然意·浮景帽_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋帽_测试用#103840 (26300 会心 全能)": {
+            "id": 103840,
+            "name": "陶然意·奇锋帽_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "strength_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠帽_测试用#103839 (26300 会心 全能)": {
+            "id": 103839,
+            "name": "陶然意·森泠帽_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "poison_attack_power_base": 1785,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁帽_测试用#103838 (26300 加速 全能)": {
+            "id": 103838,
+            "name": "陶然意·清篁帽_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spirit_base": 984,
+                "poison_attack_power_base": 1785,
+                "haste_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "poison_critical_strike_base": 321,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞帽_测试用#103837 (26300 会心 全能)": {
+            "id": 103837,
+            "name": "陶然意·云舞帽_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spirit_base": 984,
+                "lunar_attack_power_base": 1785,
+                "lunar_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321,
+                "lunar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云帽_测试用#103836 (26300 会心 全能)": {
+            "id": 103836,
+            "name": "陶然意·泊云帽_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "agility_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹帽_测试用#103835 (26300 会心 全能)": {
+            "id": 103835,
+            "name": "陶然意·青虹帽_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spirit_base": 984,
+                "neutral_attack_power_base": 1785,
+                "neutral_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊帽_测试用#103834 (26300 会心 全能)": {
+            "id": 103834,
+            "name": "陶然意·长渊帽_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "strength_base": 984,
+                "physical_attack_power_base": 1605,
+                "physical_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷帽_测试用#103833 (26300 会心 全能)": {
+            "id": 103833,
+            "name": "陶然意·兰谷帽_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "neutral_attack_power_base": 1785,
+                "neutral_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉帽_测试用#103832 (26300 会心 全能)": {
+            "id": 103832,
+            "name": "陶然意·修觉帽_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 12995,
+                "spunk_base": 984,
+                "solar_attack_power_base": 1785,
+                "solar_critical_strike_base": 8860,
+                "pvx_round": 3544
+            },
+            "embed": {
+                "solar_critical_strike_base": 321,
+                "solar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "暮渝冠_测试用#101617 (26300 破招 无双)": {
             "id": 101617,
             "name": "暮渝冠_测试用",
@@ -8247,7 +12075,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101811 (25500 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101811 (25500 精简 会心 破防 无双)": {
             "id": 101811,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -8265,11 +12093,11 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 4513,
                 "physical_critical_strike_base": 5727,
                 "physical_overcome_base": 5727,
-                "surplus_base": 4582
+                "strain_base": 5727
             },
             "embed": {
                 "physical_critical_power_base": 321,
-                "physical_overcome_base": 321
+                "physical_attack_power_base": 87
             },
             "gains": [
                 [
@@ -8346,7 +12174,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101808 (25500 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101808 (25500 精简 会心 破防 无双)": {
             "id": 101808,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -8364,11 +12192,11 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 5019,
                 "all_critical_strike_base": 5727,
                 "magical_overcome_base": 5727,
-                "surplus_base": 4582
+                "strain_base": 5727
             },
             "embed": {
                 "all_critical_power_base": 321,
-                "magical_overcome_base": 321
+                "magical_attack_power_base": 97
             },
             "gains": [
                 [
@@ -8807,6 +12635,842 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "陶然意·星雪帽_测试用#103691 (22600 会心 全能)": {
+            "id": 103691,
+            "name": "陶然意·星雪帽_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "neutral_attack_power_base": 1534,
+                "neutral_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影帽_测试用#103690 (22600 会心 全能)": {
+            "id": 103690,
+            "name": "陶然意·旭影帽_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟帽_测试用#103689 (22600 会心 全能)": {
+            "id": 103689,
+            "name": "陶然意·沉麟帽_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "strength_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时帽_测试用#103688 (22600 会心 全能)": {
+            "id": 103688,
+            "name": "陶然意·和时帽_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spirit_base": 846,
+                "poison_attack_power_base": 1534,
+                "poison_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "poison_critical_strike_base": 321,
+                "poison_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪帽_测试用#103687 (22600 会心 全能)": {
+            "id": 103687,
+            "name": "陶然意·星雪帽_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "neutral_attack_power_base": 1534,
+                "neutral_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影帽_测试用#103686 (22600 会心 全能)": {
+            "id": 103686,
+            "name": "陶然意·匿影帽_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔帽_测试用#103685 (22600 会心 全能)": {
+            "id": 103685,
+            "name": "陶然意·弘阔帽_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳帽_测试用#103684 (22600 会心 全能)": {
+            "id": 103684,
+            "name": "陶然意·海岳帽_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "strength_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪帽_测试用#103683 (22600 加速 全能)": {
+            "id": 103683,
+            "name": "陶然意·咏雪帽_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spirit_base": 846,
+                "lunar_attack_power_base": 1534,
+                "haste_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭帽_测试用#103682 (22600 会心 全能)": {
+            "id": 103682,
+            "name": "陶然意·严峭帽_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日帽_测试用#103681 (22600 会心 全能)": {
+            "id": 103681,
+            "name": "陶然意·赫日帽_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "solar_and_lunar_attack_power_base": 1534,
+                "solar_and_lunar_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "solar_and_lunar_critical_strike_base": 321,
+                "solar_and_lunar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌帽_测试用#103680 (22600 会心 全能)": {
+            "id": 103680,
+            "name": "陶然意·长陌帽_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "strength_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景帽_测试用#103679 (22600 会心 全能)": {
+            "id": 103679,
+            "name": "陶然意·浮景帽_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋帽_测试用#103678 (22600 会心 全能)": {
+            "id": 103678,
+            "name": "陶然意·奇锋帽_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "strength_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠帽_测试用#103677 (22600 会心 全能)": {
+            "id": 103677,
+            "name": "陶然意·森泠帽_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "poison_attack_power_base": 1534,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁帽_测试用#103676 (22600 加速 全能)": {
+            "id": 103676,
+            "name": "陶然意·清篁帽_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spirit_base": 846,
+                "poison_attack_power_base": 1534,
+                "haste_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "poison_critical_strike_base": 321,
+                "max_life_add": 1607
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞帽_测试用#103675 (22600 会心 全能)": {
+            "id": 103675,
+            "name": "陶然意·云舞帽_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spirit_base": 846,
+                "lunar_attack_power_base": 1534,
+                "lunar_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321,
+                "lunar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云帽_测试用#103674 (22600 会心 全能)": {
+            "id": 103674,
+            "name": "陶然意·泊云帽_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "agility_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹帽_测试用#103673 (22600 会心 全能)": {
+            "id": 103673,
+            "name": "陶然意·青虹帽_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spirit_base": 846,
+                "neutral_attack_power_base": 1534,
+                "neutral_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊帽_测试用#103672 (22600 会心 全能)": {
+            "id": 103672,
+            "name": "陶然意·长渊帽_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "strength_base": 846,
+                "physical_attack_power_base": 1379,
+                "physical_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷帽_测试用#103671 (22600 会心 全能)": {
+            "id": 103671,
+            "name": "陶然意·兰谷帽_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "neutral_attack_power_base": 1534,
+                "neutral_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321,
+                "neutral_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉帽_测试用#103670 (22600 会心 全能)": {
+            "id": 103670,
+            "name": "陶然意·修觉帽_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 11167,
+                "spunk_base": 846,
+                "solar_attack_power_base": 1534,
+                "solar_critical_strike_base": 7614,
+                "pvx_round": 3045
+            },
+            "embed": {
+                "solar_critical_strike_base": 321,
+                "solar_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "沉龙荡波·燕晚冠_测试用#103513 (22500 会心 无双)": {
             "id": 103513,
             "name": "沉龙荡波·燕晚冠_测试用",
@@ -8915,7 +13579,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101739 (22500 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101739 (22500 精简 会心 破防 无双)": {
             "id": 101739,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -8930,11 +13594,11 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 3982,
                 "physical_critical_strike_base": 5053,
                 "physical_overcome_base": 5053,
-                "surplus_base": 4043
+                "strain_base": 5053
             },
             "embed": {
                 "physical_critical_power_base": 321,
-                "physical_overcome_base": 321
+                "physical_attack_power_base": 87
             },
             "gains": [],
             "recipes": {},
@@ -8993,7 +13657,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101736 (22500 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101736 (22500 精简 会心 破防 无双)": {
             "id": 101736,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -9008,11 +13672,11 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 4428,
                 "all_critical_strike_base": 5053,
                 "magical_overcome_base": 5053,
-                "surplus_base": 4043
+                "strain_base": 5053
             },
             "embed": {
                 "all_critical_power_base": 321,
-                "magical_overcome_base": 321
+                "magical_attack_power_base": 97
             },
             "gains": [],
             "recipes": {},
@@ -11485,7 +16149,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "agility_base": 767,
-                "physical_attack_power_base": 1501,
+                "physical_attack_power_base": 1251,
                 "haste_base": 6906,
                 "pvx_round": 2762
             },
@@ -11512,7 +16176,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "strength_base": 767,
-                "physical_attack_power_base": 1501,
+                "physical_attack_power_base": 1251,
                 "haste_base": 6906,
                 "pvx_round": 2762
             },
@@ -11539,7 +16203,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "spunk_base": 767,
-                "magical_attack_power_base": 1669,
+                "magical_attack_power_base": 1391,
                 "haste_base": 6906,
                 "pvx_round": 2762
             },
@@ -11566,7 +16230,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "spirit_base": 767,
-                "magical_attack_power_base": 1669,
+                "magical_attack_power_base": 1391,
                 "haste_base": 6906,
                 "pvx_round": 2762
             },
@@ -11593,7 +16257,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "agility_base": 767,
-                "physical_attack_power_base": 1501,
+                "physical_attack_power_base": 1251,
                 "physical_critical_strike_base": 6906,
                 "pvx_round": 2762
             },
@@ -11620,7 +16284,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "strength_base": 767,
-                "physical_attack_power_base": 1501,
+                "physical_attack_power_base": 1251,
                 "physical_critical_strike_base": 6906,
                 "pvx_round": 2762
             },
@@ -11647,7 +16311,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "spunk_base": 767,
-                "magical_attack_power_base": 1669,
+                "magical_attack_power_base": 1391,
                 "all_critical_strike_base": 6906,
                 "pvx_round": 2762
             },
@@ -11674,7 +16338,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10129,
                 "spirit_base": 767,
-                "magical_attack_power_base": 1669,
+                "magical_attack_power_base": 1391,
                 "magical_critical_strike_base": 6906,
                 "pvx_round": 2762
             },
@@ -11688,7 +16352,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101667 (19800 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101667 (19800 精简 会心 破防 无双)": {
             "id": 101667,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -11703,11 +16367,11 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 3505,
                 "physical_critical_strike_base": 4447,
                 "physical_overcome_base": 4447,
-                "surplus_base": 3558
+                "strain_base": 4447
             },
             "embed": {
                 "physical_critical_power_base": 321,
-                "physical_overcome_base": 321
+                "physical_attack_power_base": 87
             },
             "gains": [],
             "recipes": {},
@@ -11766,7 +16430,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封头饰_测试用#101664 (19800 精简 会心 破防 破招)": {
+        "无封头饰_测试用#101664 (19800 精简 会心 破防 无双)": {
             "id": 101664,
             "name": "无封头饰_测试用",
             "school": "精简",
@@ -11781,11 +16445,11 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 3897,
                 "all_critical_strike_base": 4447,
                 "magical_overcome_base": 4447,
-                "surplus_base": 3558
+                "strain_base": 4447
             },
             "embed": {
                 "all_critical_power_base": 321,
-                "magical_overcome_base": 321
+                "magical_attack_power_base": 97
             },
             "gains": [],
             "recipes": {},
@@ -12505,7 +17169,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 8153,
                 "agility_base": 618,
-                "physical_attack_power_base": 1208,
+                "physical_attack_power_base": 1007,
                 "physical_overcome_base": 5559,
                 "pvx_round": 2223
             },
@@ -12532,7 +17196,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 8153,
                 "strength_base": 618,
-                "physical_attack_power_base": 1208,
+                "physical_attack_power_base": 1007,
                 "physical_overcome_base": 5559,
                 "pvx_round": 2223
             },
@@ -12559,7 +17223,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 8153,
                 "spunk_base": 618,
-                "magical_attack_power_base": 1344,
+                "magical_attack_power_base": 1120,
                 "magical_overcome_base": 5559,
                 "pvx_round": 2223
             },
@@ -12586,7 +17250,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 8153,
                 "spirit_base": 618,
-                "magical_attack_power_base": 1344,
+                "magical_attack_power_base": 1120,
                 "magical_overcome_base": 5559,
                 "pvx_round": 2223
             },
@@ -12602,6 +17266,886 @@ EQUIPMENTS = {
         }
     },
     "shoes": {
+        "陶然意·星雪靴_测试用#103809 (26300 破防 全能)": {
+            "id": 103809,
+            "name": "陶然意·星雪靴_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影靴_测试用#103808 (26300 破防 全能)": {
+            "id": 103808,
+            "name": "陶然意·旭影靴_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟靴_测试用#103807 (26300 破防 全能)": {
+            "id": 103807,
+            "name": "陶然意·沉麟靴_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时靴_测试用#103806 (26300 破防 全能)": {
+            "id": 103806,
+            "name": "陶然意·和时靴_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪靴_测试用#103805 (26300 破防 全能)": {
+            "id": 103805,
+            "name": "陶然意·星雪靴_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影靴_测试用#103804 (26300 破防 全能)": {
+            "id": 103804,
+            "name": "陶然意·匿影靴_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔靴_测试用#103803 (26300 破防 全能)": {
+            "id": 103803,
+            "name": "陶然意·弘阔靴_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳靴_测试用#103802 (26300 破防 全能)": {
+            "id": 103802,
+            "name": "陶然意·海岳靴_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪靴_测试用#103801 (26300 破防 全能)": {
+            "id": 103801,
+            "name": "陶然意·咏雪靴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "lunar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭靴_测试用#103800 (26300 破防 全能)": {
+            "id": 103800,
+            "name": "陶然意·严峭靴_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日靴_测试用#103799 (26300 破防 全能)": {
+            "id": 103799,
+            "name": "陶然意·赫日靴_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_and_lunar_attack_power_base": 1388,
+                "solar_and_lunar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌靴_测试用#103798 (26300 破防 全能)": {
+            "id": 103798,
+            "name": "陶然意·长陌靴_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景靴_测试用#103797 (26300 破防 全能)": {
+            "id": 103797,
+            "name": "陶然意·浮景靴_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋靴_测试用#103796 (26300 破防 全能)": {
+            "id": 103796,
+            "name": "陶然意·奇锋靴_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠靴_测试用#103795 (26300 破防 全能)": {
+            "id": 103795,
+            "name": "陶然意·森泠靴_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁靴_测试用#103794 (26300 破防 全能)": {
+            "id": 103794,
+            "name": "陶然意·清篁靴_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞靴_测试用#103793 (26300 破防 全能)": {
+            "id": 103793,
+            "name": "陶然意·云舞靴_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "lunar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云靴_测试用#103792 (26300 破防 全能)": {
+            "id": 103792,
+            "name": "陶然意·泊云靴_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹靴_测试用#103791 (26300 破防 全能)": {
+            "id": 103791,
+            "name": "陶然意·青虹靴_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊靴_测试用#103790 (26300 破防 全能)": {
+            "id": 103790,
+            "name": "陶然意·长渊靴_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷靴_测试用#103789 (26300 破防 全能)": {
+            "id": 103789,
+            "name": "陶然意·兰谷靴_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉靴_测试用#103788 (26300 破防 全能)": {
+            "id": 103788,
+            "name": "陶然意·修觉靴_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_attack_power_base": 1388,
+                "solar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "暮渝靴_测试用#101605 (26300 破招 无双)": {
             "id": 101605,
             "name": "暮渝靴_测试用",
@@ -14529,6 +20073,842 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "陶然意·星雪靴_测试用#103647 (22600 破防 全能)": {
+            "id": 103647,
+            "name": "陶然意·星雪靴_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影靴_测试用#103646 (22600 破防 全能)": {
+            "id": 103646,
+            "name": "陶然意·旭影靴_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟靴_测试用#103645 (22600 破防 全能)": {
+            "id": 103645,
+            "name": "陶然意·沉麟靴_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时靴_测试用#103644 (22600 破防 全能)": {
+            "id": 103644,
+            "name": "陶然意·和时靴_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪靴_测试用#103643 (22600 破防 全能)": {
+            "id": 103643,
+            "name": "陶然意·星雪靴_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影靴_测试用#103642 (22600 破防 全能)": {
+            "id": 103642,
+            "name": "陶然意·匿影靴_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔靴_测试用#103641 (22600 破防 全能)": {
+            "id": 103641,
+            "name": "陶然意·弘阔靴_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳靴_测试用#103640 (22600 破防 全能)": {
+            "id": 103640,
+            "name": "陶然意·海岳靴_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪靴_测试用#103639 (22600 破防 全能)": {
+            "id": 103639,
+            "name": "陶然意·咏雪靴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "lunar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭靴_测试用#103638 (22600 破防 全能)": {
+            "id": 103638,
+            "name": "陶然意·严峭靴_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日靴_测试用#103637 (22600 破防 全能)": {
+            "id": 103637,
+            "name": "陶然意·赫日靴_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_and_lunar_attack_power_base": 1193,
+                "solar_and_lunar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌靴_测试用#103636 (22600 破防 全能)": {
+            "id": 103636,
+            "name": "陶然意·长陌靴_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景靴_测试用#103635 (22600 破防 全能)": {
+            "id": 103635,
+            "name": "陶然意·浮景靴_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋靴_测试用#103634 (22600 破防 全能)": {
+            "id": 103634,
+            "name": "陶然意·奇锋靴_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠靴_测试用#103633 (22600 破防 全能)": {
+            "id": 103633,
+            "name": "陶然意·森泠靴_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁靴_测试用#103632 (22600 破防 全能)": {
+            "id": 103632,
+            "name": "陶然意·清篁靴_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞靴_测试用#103631 (22600 破防 全能)": {
+            "id": 103631,
+            "name": "陶然意·云舞靴_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "lunar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云靴_测试用#103630 (22600 破防 全能)": {
+            "id": 103630,
+            "name": "陶然意·泊云靴_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹靴_测试用#103629 (22600 破防 全能)": {
+            "id": 103629,
+            "name": "陶然意·青虹靴_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊靴_测试用#103628 (22600 破防 全能)": {
+            "id": 103628,
+            "name": "陶然意·长渊靴_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷靴_测试用#103627 (22600 破防 全能)": {
+            "id": 103627,
+            "name": "陶然意·兰谷靴_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉靴_测试用#103626 (22600 破防 全能)": {
+            "id": 103626,
+            "name": "陶然意·修觉靴_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_attack_power_base": 1193,
+                "solar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "沉龙荡波·燕晚靴_测试用#103501 (22500 会心 无双)": {
             "id": 103501,
             "name": "沉龙荡波·燕晚靴_测试用",
@@ -15083,7 +21463,7 @@ EQUIPMENTS = {
         "展锋·风驰靴_测试用#101094 (22500 破防 无双)": {
             "id": 101094,
             "name": "展锋·风驰靴_测试用",
-            "school": "万灵",
+            "school": "刀宗",
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
@@ -15092,7 +21472,7 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 8647,
-                "agility_base": 705,
+                "strength_base": 705,
                 "physical_attack_power_base": 1602,
                 "physical_overcome_base": 5896,
                 "strain_base": 4716
@@ -17097,7 +23477,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -17124,7 +23504,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -17151,7 +23531,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -17178,7 +23558,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -17205,7 +23585,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -17232,7 +23612,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -17259,7 +23639,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -17286,7 +23666,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -18117,7 +24497,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "agility_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -18144,7 +24524,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "strength_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -18171,7 +24551,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spunk_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -18198,7 +24578,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spirit_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -18214,6 +24594,886 @@ EQUIPMENTS = {
         }
     },
     "belt": {
+        "陶然意·星雪腰带_测试用#103787 (26300 会心 全能)": {
+            "id": 103787,
+            "name": "陶然意·星雪腰带_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影腰带_测试用#103786 (26300 会心 全能)": {
+            "id": 103786,
+            "name": "陶然意·旭影腰带_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟腰带_测试用#103785 (26300 会心 全能)": {
+            "id": 103785,
+            "name": "陶然意·沉麟腰带_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时腰带_测试用#103784 (26300 会心 全能)": {
+            "id": 103784,
+            "name": "陶然意·和时腰带_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪腰带_测试用#103783 (26300 会心 全能)": {
+            "id": 103783,
+            "name": "陶然意·星雪腰带_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影腰带_测试用#103782 (26300 会心 全能)": {
+            "id": 103782,
+            "name": "陶然意·匿影腰带_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔腰带_测试用#103781 (26300 会心 全能)": {
+            "id": 103781,
+            "name": "陶然意·弘阔腰带_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳腰带_测试用#103780 (26300 会心 全能)": {
+            "id": 103780,
+            "name": "陶然意·海岳腰带_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪腰带_测试用#103779 (26300 会心 全能)": {
+            "id": 103779,
+            "name": "陶然意·咏雪腰带_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "lunar_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭腰带_测试用#103778 (26300 会心 全能)": {
+            "id": 103778,
+            "name": "陶然意·严峭腰带_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日腰带_测试用#103777 (26300 会心 全能)": {
+            "id": 103777,
+            "name": "陶然意·赫日腰带_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_and_lunar_attack_power_base": 1388,
+                "solar_and_lunar_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌腰带_测试用#103776 (26300 会心 全能)": {
+            "id": 103776,
+            "name": "陶然意·长陌腰带_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景腰带_测试用#103775 (26300 会心 全能)": {
+            "id": 103775,
+            "name": "陶然意·浮景腰带_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋腰带_测试用#103774 (26300 会心 全能)": {
+            "id": 103774,
+            "name": "陶然意·奇锋腰带_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠腰带_测试用#103773 (26300 会心 全能)": {
+            "id": 103773,
+            "name": "陶然意·森泠腰带_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "poison_attack_power_base": 1388,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁腰带_测试用#103772 (26300 会心 全能)": {
+            "id": 103772,
+            "name": "陶然意·清篁腰带_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞腰带_测试用#103771 (26300 会心 全能)": {
+            "id": 103771,
+            "name": "陶然意·云舞腰带_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "lunar_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云腰带_测试用#103770 (26300 会心 全能)": {
+            "id": 103770,
+            "name": "陶然意·泊云腰带_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹腰带_测试用#103769 (26300 会心 全能)": {
+            "id": 103769,
+            "name": "陶然意·青虹腰带_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊腰带_测试用#103768 (26300 会心 全能)": {
+            "id": 103768,
+            "name": "陶然意·长渊腰带_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷腰带_测试用#103767 (26300 会心 全能)": {
+            "id": 103767,
+            "name": "陶然意·兰谷腰带_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉腰带_测试用#103766 (26300 会心 全能)": {
+            "id": 103766,
+            "name": "陶然意·修觉腰带_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_attack_power_base": 1388,
+                "solar_critical_strike_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "暮渝腰带_测试用#101599 (26300 会心 无双)": {
             "id": 101599,
             "name": "暮渝腰带_测试用",
@@ -19873,6 +27133,842 @@ EQUIPMENTS = {
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪腰带_测试用#103625 (22600 会心 全能)": {
+            "id": 103625,
+            "name": "陶然意·星雪腰带_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影腰带_测试用#103624 (22600 会心 全能)": {
+            "id": 103624,
+            "name": "陶然意·旭影腰带_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟腰带_测试用#103623 (22600 会心 全能)": {
+            "id": 103623,
+            "name": "陶然意·沉麟腰带_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时腰带_测试用#103622 (22600 会心 全能)": {
+            "id": 103622,
+            "name": "陶然意·和时腰带_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪腰带_测试用#103621 (22600 会心 全能)": {
+            "id": 103621,
+            "name": "陶然意·星雪腰带_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影腰带_测试用#103620 (22600 会心 全能)": {
+            "id": 103620,
+            "name": "陶然意·匿影腰带_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔腰带_测试用#103619 (22600 会心 全能)": {
+            "id": 103619,
+            "name": "陶然意·弘阔腰带_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳腰带_测试用#103618 (22600 会心 全能)": {
+            "id": 103618,
+            "name": "陶然意·海岳腰带_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪腰带_测试用#103617 (22600 会心 全能)": {
+            "id": 103617,
+            "name": "陶然意·咏雪腰带_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "lunar_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭腰带_测试用#103616 (22600 会心 全能)": {
+            "id": 103616,
+            "name": "陶然意·严峭腰带_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日腰带_测试用#103615 (22600 会心 全能)": {
+            "id": 103615,
+            "name": "陶然意·赫日腰带_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_and_lunar_attack_power_base": 1193,
+                "solar_and_lunar_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌腰带_测试用#103614 (22600 会心 全能)": {
+            "id": 103614,
+            "name": "陶然意·长陌腰带_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景腰带_测试用#103613 (22600 会心 全能)": {
+            "id": 103613,
+            "name": "陶然意·浮景腰带_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋腰带_测试用#103612 (22600 会心 全能)": {
+            "id": 103612,
+            "name": "陶然意·奇锋腰带_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠腰带_测试用#103611 (22600 会心 全能)": {
+            "id": 103611,
+            "name": "陶然意·森泠腰带_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "poison_attack_power_base": 1193,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁腰带_测试用#103610 (22600 会心 全能)": {
+            "id": 103610,
+            "name": "陶然意·清篁腰带_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞腰带_测试用#103609 (22600 会心 全能)": {
+            "id": 103609,
+            "name": "陶然意·云舞腰带_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "lunar_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云腰带_测试用#103608 (22600 会心 全能)": {
+            "id": 103608,
+            "name": "陶然意·泊云腰带_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "agility_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹腰带_测试用#103607 (22600 会心 全能)": {
+            "id": 103607,
+            "name": "陶然意·青虹腰带_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spirit_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊腰带_测试用#103606 (22600 会心 全能)": {
+            "id": 103606,
+            "name": "陶然意·长渊腰带_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "strength_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷腰带_测试用#103605 (22600 会心 全能)": {
+            "id": 103605,
+            "name": "陶然意·兰谷腰带_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉腰带_测试用#103604 (22600 会心 全能)": {
+            "id": 103604,
+            "name": "陶然意·修觉腰带_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_attack_power_base": 1193,
+                "solar_critical_strike_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "spunk_base": 41,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
             "set_recipe": {}
         },
         "沉龙荡波·燕晚腰带_测试用#103495 (22500 破防 无双)": {
@@ -21861,7 +29957,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -21888,7 +29984,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -21915,7 +30011,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -21942,7 +30038,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_overcome_base": 5371,
                 "pvx_round": 2149
             },
@@ -21969,7 +30065,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -21996,7 +30092,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -22023,7 +30119,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "all_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -22050,7 +30146,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -22725,7 +30821,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "agility_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -22752,7 +30848,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "strength_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -22779,7 +30875,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spunk_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -22806,7 +30902,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spirit_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -22822,6 +30918,886 @@ EQUIPMENTS = {
         }
     },
     "wrist": {
+        "陶然意·星雪护手_测试用#103765 (26300 破防 全能)": {
+            "id": 103765,
+            "name": "陶然意·星雪护手_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影护手_测试用#103764 (26300 破防 全能)": {
+            "id": 103764,
+            "name": "陶然意·旭影护手_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟护手_测试用#103763 (26300 破防 全能)": {
+            "id": 103763,
+            "name": "陶然意·沉麟护手_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时护手_测试用#103762 (26300 破防 全能)": {
+            "id": 103762,
+            "name": "陶然意·和时护手_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪护手_测试用#103761 (26300 破防 全能)": {
+            "id": 103761,
+            "name": "陶然意·星雪护手_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影护手_测试用#103760 (26300 破防 全能)": {
+            "id": 103760,
+            "name": "陶然意·匿影护手_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔护手_测试用#103759 (26300 破防 全能)": {
+            "id": 103759,
+            "name": "陶然意·弘阔护手_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳护手_测试用#103758 (26300 破防 全能)": {
+            "id": 103758,
+            "name": "陶然意·海岳护手_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪护手_测试用#103757 (26300 加速 全能)": {
+            "id": 103757,
+            "name": "陶然意·咏雪护手_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "haste_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭护手_测试用#103756 (26300 破防 全能)": {
+            "id": 103756,
+            "name": "陶然意·严峭护手_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日护手_测试用#103755 (26300 破防 全能)": {
+            "id": 103755,
+            "name": "陶然意·赫日护手_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_and_lunar_attack_power_base": 1388,
+                "solar_and_lunar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌护手_测试用#103754 (26300 破防 全能)": {
+            "id": 103754,
+            "name": "陶然意·长陌护手_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景护手_测试用#103753 (26300 破防 全能)": {
+            "id": 103753,
+            "name": "陶然意·浮景护手_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋护手_测试用#103752 (26300 破防 全能)": {
+            "id": 103752,
+            "name": "陶然意·奇锋护手_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠护手_测试用#103751 (26300 破防 全能)": {
+            "id": 103751,
+            "name": "陶然意·森泠护手_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁护手_测试用#103750 (26300 破防 全能)": {
+            "id": 103750,
+            "name": "陶然意·清篁护手_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "poison_attack_power_base": 1388,
+                "poison_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞护手_测试用#103749 (26300 破防 全能)": {
+            "id": 103749,
+            "name": "陶然意·云舞护手_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "lunar_attack_power_base": 1388,
+                "lunar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云护手_测试用#103748 (26300 破防 全能)": {
+            "id": 103748,
+            "name": "陶然意·泊云护手_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "agility_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹护手_测试用#103747 (26300 破防 全能)": {
+            "id": 103747,
+            "name": "陶然意·青虹护手_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spirit_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊护手_测试用#103746 (26300 破防 全能)": {
+            "id": 103746,
+            "name": "陶然意·长渊护手_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "strength_base": 766,
+                "physical_attack_power_base": 1248,
+                "physical_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷护手_测试用#103745 (26300 破防 全能)": {
+            "id": 103745,
+            "name": "陶然意·兰谷护手_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "neutral_attack_power_base": 1388,
+                "neutral_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉护手_测试用#103744 (26300 破防 全能)": {
+            "id": 103744,
+            "name": "陶然意·修觉护手_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 10107,
+                "spunk_base": 766,
+                "solar_attack_power_base": 1388,
+                "solar_overcome_base": 6891,
+                "pvx_round": 2756
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
         "暮渝袖_测试用#101593 (26300 破防 无双)": {
             "id": 101593,
             "name": "暮渝袖_测试用",
@@ -24599,6 +33575,842 @@ EQUIPMENTS = {
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪护手_测试用#103603 (22600 破防 全能)": {
+            "id": 103603,
+            "name": "陶然意·星雪护手_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6165,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·旭影护手_测试用#103602 (22600 破防 全能)": {
+            "id": 103602,
+            "name": "陶然意·旭影护手_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6164,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·沉麟护手_测试用#103601 (22600 破防 全能)": {
+            "id": 103601,
+            "name": "陶然意·沉麟护手_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6163,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·和时护手_测试用#103600 (22600 破防 全能)": {
+            "id": 103600,
+            "name": "陶然意·和时护手_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6162,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·星雪护手_测试用#103599 (22600 破防 全能)": {
+            "id": 103599,
+            "name": "陶然意·星雪护手_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6161,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·匿影护手_测试用#103598 (22600 破防 全能)": {
+            "id": 103598,
+            "name": "陶然意·匿影护手_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6160,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·弘阔护手_测试用#103597 (22600 破防 全能)": {
+            "id": 103597,
+            "name": "陶然意·弘阔护手_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6159,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·海岳护手_测试用#103596 (22600 破防 全能)": {
+            "id": 103596,
+            "name": "陶然意·海岳护手_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6158,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·咏雪护手_测试用#103595 (22600 加速 全能)": {
+            "id": 103595,
+            "name": "陶然意·咏雪护手_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6157,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "haste_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·严峭护手_测试用#103594 (22600 破防 全能)": {
+            "id": 103594,
+            "name": "陶然意·严峭护手_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6156,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·赫日护手_测试用#103593 (22600 破防 全能)": {
+            "id": 103593,
+            "name": "陶然意·赫日护手_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6155,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_and_lunar_attack_power_base": 1193,
+                "solar_and_lunar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长陌护手_测试用#103592 (22600 破防 全能)": {
+            "id": 103592,
+            "name": "陶然意·长陌护手_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6154,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·浮景护手_测试用#103591 (22600 破防 全能)": {
+            "id": 103591,
+            "name": "陶然意·浮景护手_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6153,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·奇锋护手_测试用#103590 (22600 破防 全能)": {
+            "id": 103590,
+            "name": "陶然意·奇锋护手_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6152,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·森泠护手_测试用#103589 (22600 破防 全能)": {
+            "id": 103589,
+            "name": "陶然意·森泠护手_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6151,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·清篁护手_测试用#103588 (22600 破防 全能)": {
+            "id": 103588,
+            "name": "陶然意·清篁护手_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6150,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "poison_attack_power_base": 1193,
+                "poison_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·云舞护手_测试用#103587 (22600 破防 全能)": {
+            "id": 103587,
+            "name": "陶然意·云舞护手_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6149,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "lunar_attack_power_base": 1193,
+                "lunar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·泊云护手_测试用#103586 (22600 破防 全能)": {
+            "id": 103586,
+            "name": "陶然意·泊云护手_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6148,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "agility_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·青虹护手_测试用#103585 (22600 破防 全能)": {
+            "id": 103585,
+            "name": "陶然意·青虹护手_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6147,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spirit_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·长渊护手_测试用#103584 (22600 破防 全能)": {
+            "id": 103584,
+            "name": "陶然意·长渊护手_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6146,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "strength_base": 658,
+                "physical_attack_power_base": 1073,
+                "physical_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·兰谷护手_测试用#103583 (22600 破防 全能)": {
+            "id": 103583,
+            "name": "陶然意·兰谷护手_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6145,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "neutral_attack_power_base": 1193,
+                "neutral_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
+            "set_recipe": {}
+        },
+        "陶然意·修觉护手_测试用#103582 (22600 破防 全能)": {
+            "id": 103582,
+            "name": "陶然意·修觉护手_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6144,
+            "base": {},
+            "magic": {
+                "vitality_base": 8685,
+                "spunk_base": 658,
+                "solar_attack_power_base": 1193,
+                "solar_overcome_base": 5922,
+                "pvx_round": 2369
+            },
+            "embed": {
+                "max_life_add": 1607,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        2640
+                    ]
+                ],
+                4: [
+                    [
+                        2633
+                    ]
+                ]
+            },
             "set_recipe": {}
         },
         "沉龙荡波·燕晚护手_测试用#103489 (22500 破招 无双)": {
@@ -26803,7 +36615,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -26830,7 +36642,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "physical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -26857,7 +36669,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "all_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -26884,7 +36696,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "magical_critical_strike_base": 5371,
                 "pvx_round": 2149
             },
@@ -26911,7 +36723,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "agility_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -26938,7 +36750,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "strength_base": 597,
-                "physical_attack_power_base": 1168,
+                "physical_attack_power_base": 973,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -26965,7 +36777,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spunk_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -26992,7 +36804,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 7878,
                 "spirit_base": 597,
-                "magical_attack_power_base": 1298,
+                "magical_attack_power_base": 1082,
                 "haste_base": 5371,
                 "pvx_round": 2149
             },
@@ -27667,7 +37479,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "agility_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -27694,7 +37506,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "strength_base": 480,
-                "physical_attack_power_base": 940,
+                "physical_attack_power_base": 783,
                 "physical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -27721,7 +37533,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spunk_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -27748,7 +37560,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6341,
                 "spirit_base": 480,
-                "magical_attack_power_base": 1045,
+                "magical_attack_power_base": 871,
                 "magical_overcome_base": 4323,
                 "pvx_round": 1729
             },
@@ -27856,6 +37668,534 @@ EQUIPMENTS = {
                 "magical_critical_strike_base": 4804,
                 "magical_overcome_base": 5147,
                 "haste_base": 1716
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪戒_测试用#42589 (26300 破防 全能)": {
+            "id": 42589,
+            "name": "陶然意·星雪戒_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影戒_测试用#42588 (26300 破防 全能)": {
+            "id": 42588,
+            "name": "陶然意·旭影戒_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟戒_测试用#42587 (26300 破防 全能)": {
+            "id": 42587,
+            "name": "陶然意·沉麟戒_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时戒_测试用#42586 (26300 破防 全能)": {
+            "id": 42586,
+            "name": "陶然意·和时戒_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪戒_测试用#42585 (26300 破防 全能)": {
+            "id": 42585,
+            "name": "陶然意·星雪戒_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影戒_测试用#42584 (26300 破防 全能)": {
+            "id": 42584,
+            "name": "陶然意·匿影戒_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔戒_测试用#42583 (26300 破防 全能)": {
+            "id": 42583,
+            "name": "陶然意·弘阔戒_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳戒_测试用#42582 (26300 破防 全能)": {
+            "id": 42582,
+            "name": "陶然意·海岳戒_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪戒_测试用#42581 (26300 破防 全能)": {
+            "id": 42581,
+            "name": "陶然意·咏雪戒_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭戒_测试用#42580 (26300 破防 全能)": {
+            "id": 42580,
+            "name": "陶然意·严峭戒_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日戒_测试用#42579 (26300 破防 全能)": {
+            "id": 42579,
+            "name": "陶然意·赫日戒_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_and_lunar_attack_power_base": 992,
+                "solar_and_lunar_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌戒_测试用#42578 (26300 破防 全能)": {
+            "id": 42578,
+            "name": "陶然意·长陌戒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景戒_测试用#42577 (26300 破防 全能)": {
+            "id": 42577,
+            "name": "陶然意·浮景戒_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋戒_测试用#42576 (26300 破防 全能)": {
+            "id": 42576,
+            "name": "陶然意·奇锋戒_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠戒_测试用#42575 (26300 破防 全能)": {
+            "id": 42575,
+            "name": "陶然意·森泠戒_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁戒_测试用#42574 (26300 破防 全能)": {
+            "id": 42574,
+            "name": "陶然意·清篁戒_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞戒_测试用#42573 (26300 破防 全能)": {
+            "id": 42573,
+            "name": "陶然意·云舞戒_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云戒_测试用#42572 (26300 破防 全能)": {
+            "id": 42572,
+            "name": "陶然意·泊云戒_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹戒_测试用#42571 (26300 破防 全能)": {
+            "id": 42571,
+            "name": "陶然意·青虹戒_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊戒_测试用#42570 (26300 破防 全能)": {
+            "id": 42570,
+            "name": "陶然意·长渊戒_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷戒_测试用#42569 (26300 破防 全能)": {
+            "id": 42569,
+            "name": "陶然意·兰谷戒_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_overcome_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉戒_测试用#42568 (26300 破防 全能)": {
+            "id": 42568,
+            "name": "陶然意·修觉戒_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_attack_power_base": 992,
+                "solar_overcome_base": 4922,
+                "pvx_round": 1969
             },
             "embed": {},
             "gains": [],
@@ -28664,6 +39004,534 @@ EQUIPMENTS = {
                 "magical_critical_strike_base": 4185,
                 "magical_overcome_base": 4484,
                 "haste_base": 1495
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪戒_测试用#42508 (22600 破防 全能)": {
+            "id": 42508,
+            "name": "陶然意·星雪戒_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影戒_测试用#42507 (22600 破防 全能)": {
+            "id": 42507,
+            "name": "陶然意·旭影戒_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟戒_测试用#42506 (22600 破防 全能)": {
+            "id": 42506,
+            "name": "陶然意·沉麟戒_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时戒_测试用#42505 (22600 破防 全能)": {
+            "id": 42505,
+            "name": "陶然意·和时戒_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪戒_测试用#42504 (22600 破防 全能)": {
+            "id": 42504,
+            "name": "陶然意·星雪戒_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影戒_测试用#42503 (22600 破防 全能)": {
+            "id": 42503,
+            "name": "陶然意·匿影戒_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔戒_测试用#42502 (22600 破防 全能)": {
+            "id": 42502,
+            "name": "陶然意·弘阔戒_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳戒_测试用#42501 (22600 破防 全能)": {
+            "id": 42501,
+            "name": "陶然意·海岳戒_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪戒_测试用#42500 (22600 破防 全能)": {
+            "id": 42500,
+            "name": "陶然意·咏雪戒_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭戒_测试用#42499 (22600 破防 全能)": {
+            "id": 42499,
+            "name": "陶然意·严峭戒_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日戒_测试用#42498 (22600 破防 全能)": {
+            "id": 42498,
+            "name": "陶然意·赫日戒_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_and_lunar_attack_power_base": 852,
+                "solar_and_lunar_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌戒_测试用#42497 (22600 破防 全能)": {
+            "id": 42497,
+            "name": "陶然意·长陌戒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景戒_测试用#42496 (22600 破防 全能)": {
+            "id": 42496,
+            "name": "陶然意·浮景戒_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋戒_测试用#42495 (22600 破防 全能)": {
+            "id": 42495,
+            "name": "陶然意·奇锋戒_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠戒_测试用#42494 (22600 破防 全能)": {
+            "id": 42494,
+            "name": "陶然意·森泠戒_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁戒_测试用#42493 (22600 破防 全能)": {
+            "id": 42493,
+            "name": "陶然意·清篁戒_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞戒_测试用#42492 (22600 破防 全能)": {
+            "id": 42492,
+            "name": "陶然意·云舞戒_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云戒_测试用#42491 (22600 破防 全能)": {
+            "id": 42491,
+            "name": "陶然意·泊云戒_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹戒_测试用#42490 (22600 破防 全能)": {
+            "id": 42490,
+            "name": "陶然意·青虹戒_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊戒_测试用#42489 (22600 破防 全能)": {
+            "id": 42489,
+            "name": "陶然意·长渊戒_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷戒_测试用#42488 (22600 破防 全能)": {
+            "id": 42488,
+            "name": "陶然意·兰谷戒_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_overcome_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉戒_测试用#42487 (22600 破防 全能)": {
+            "id": 42487,
+            "name": "陶然意·修觉戒_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_attack_power_base": 852,
+                "solar_overcome_base": 4230,
+                "pvx_round": 1692
             },
             "embed": {},
             "gains": [],
@@ -29745,7 +40613,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -29769,7 +40637,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -29793,7 +40661,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -29817,7 +40685,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -29841,7 +40709,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -29865,7 +40733,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -29889,7 +40757,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -29913,7 +40781,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -30513,7 +41381,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "agility_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -30537,7 +41405,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "strength_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -30561,7 +41429,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spunk_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "all_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -30585,7 +41453,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spirit_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "magical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -30598,6 +41466,578 @@ EQUIPMENTS = {
         }
     },
     "pendant": {
+        "陶然意·星雪坠_测试用#42567 (26300 会心 全能)": {
+            "id": 42567,
+            "name": "陶然意·星雪坠_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影坠_测试用#42566 (26300 会心 全能)": {
+            "id": 42566,
+            "name": "陶然意·旭影坠_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟坠_测试用#42565 (26300 会心 全能)": {
+            "id": 42565,
+            "name": "陶然意·沉麟坠_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时坠_测试用#42564 (26300 会心 全能)": {
+            "id": 42564,
+            "name": "陶然意·和时坠_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪坠_测试用#42563 (26300 会心 全能)": {
+            "id": 42563,
+            "name": "陶然意·星雪坠_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影坠_测试用#42562 (26300 会心 全能)": {
+            "id": 42562,
+            "name": "陶然意·匿影坠_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔坠_测试用#42561 (26300 会心 全能)": {
+            "id": 42561,
+            "name": "陶然意·弘阔坠_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳坠_测试用#42560 (26300 会心 全能)": {
+            "id": 42560,
+            "name": "陶然意·海岳坠_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪坠_测试用#42559 (26300 会心 全能)": {
+            "id": 42559,
+            "name": "陶然意·咏雪坠_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭坠_测试用#42558 (26300 会心 全能)": {
+            "id": 42558,
+            "name": "陶然意·严峭坠_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日坠_测试用#42557 (26300 会心 全能)": {
+            "id": 42557,
+            "name": "陶然意·赫日坠_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_and_lunar_attack_power_base": 992,
+                "solar_and_lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌坠_测试用#42556 (26300 会心 全能)": {
+            "id": 42556,
+            "name": "陶然意·长陌坠_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景坠_测试用#42555 (26300 会心 全能)": {
+            "id": 42555,
+            "name": "陶然意·浮景坠_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋坠_测试用#42554 (26300 会心 全能)": {
+            "id": 42554,
+            "name": "陶然意·奇锋坠_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠坠_测试用#42553 (26300 会心 全能)": {
+            "id": 42553,
+            "name": "陶然意·森泠坠_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "poison_attack_power_base": 992,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁坠_测试用#42552 (26300 会心 全能)": {
+            "id": 42552,
+            "name": "陶然意·清篁坠_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞坠_测试用#42551 (26300 会心 全能)": {
+            "id": 42551,
+            "name": "陶然意·云舞坠_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云坠_测试用#42550 (26300 会心 全能)": {
+            "id": 42550,
+            "name": "陶然意·泊云坠_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹坠_测试用#42549 (26300 会心 全能)": {
+            "id": 42549,
+            "name": "陶然意·青虹坠_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊坠_测试用#42548 (26300 会心 全能)": {
+            "id": 42548,
+            "name": "陶然意·长渊坠_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷坠_测试用#42547 (26300 会心 全能)": {
+            "id": 42547,
+            "name": "陶然意·兰谷坠_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉坠_测试用#42546 (26300 会心 全能)": {
+            "id": 42546,
+            "name": "陶然意·修觉坠_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_attack_power_base": 992,
+                "solar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "凌容坠_测试用#41420 (26300 会心 无双)": {
             "id": 41420,
             "name": "凌容坠_测试用",
@@ -31748,6 +43188,578 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "陶然意·星雪坠_测试用#42486 (22600 会心 全能)": {
+            "id": 42486,
+            "name": "陶然意·星雪坠_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影坠_测试用#42485 (22600 会心 全能)": {
+            "id": 42485,
+            "name": "陶然意·旭影坠_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟坠_测试用#42484 (22600 会心 全能)": {
+            "id": 42484,
+            "name": "陶然意·沉麟坠_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时坠_测试用#42483 (22600 会心 全能)": {
+            "id": 42483,
+            "name": "陶然意·和时坠_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪坠_测试用#42482 (22600 会心 全能)": {
+            "id": 42482,
+            "name": "陶然意·星雪坠_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影坠_测试用#42481 (22600 会心 全能)": {
+            "id": 42481,
+            "name": "陶然意·匿影坠_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔坠_测试用#42480 (22600 会心 全能)": {
+            "id": 42480,
+            "name": "陶然意·弘阔坠_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳坠_测试用#42479 (22600 会心 全能)": {
+            "id": 42479,
+            "name": "陶然意·海岳坠_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪坠_测试用#42478 (22600 会心 全能)": {
+            "id": 42478,
+            "name": "陶然意·咏雪坠_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭坠_测试用#42477 (22600 会心 全能)": {
+            "id": 42477,
+            "name": "陶然意·严峭坠_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日坠_测试用#42476 (22600 会心 全能)": {
+            "id": 42476,
+            "name": "陶然意·赫日坠_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_and_lunar_attack_power_base": 852,
+                "solar_and_lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌坠_测试用#42475 (22600 会心 全能)": {
+            "id": 42475,
+            "name": "陶然意·长陌坠_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景坠_测试用#42474 (22600 会心 全能)": {
+            "id": 42474,
+            "name": "陶然意·浮景坠_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋坠_测试用#42473 (22600 会心 全能)": {
+            "id": 42473,
+            "name": "陶然意·奇锋坠_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠坠_测试用#42472 (22600 会心 全能)": {
+            "id": 42472,
+            "name": "陶然意·森泠坠_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "poison_attack_power_base": 852,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁坠_测试用#42471 (22600 会心 全能)": {
+            "id": 42471,
+            "name": "陶然意·清篁坠_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞坠_测试用#42470 (22600 会心 全能)": {
+            "id": 42470,
+            "name": "陶然意·云舞坠_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云坠_测试用#42469 (22600 会心 全能)": {
+            "id": 42469,
+            "name": "陶然意·泊云坠_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹坠_测试用#42468 (22600 会心 全能)": {
+            "id": 42468,
+            "name": "陶然意·青虹坠_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊坠_测试用#42467 (22600 会心 全能)": {
+            "id": 42467,
+            "name": "陶然意·长渊坠_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷坠_测试用#42466 (22600 会心 全能)": {
+            "id": 42466,
+            "name": "陶然意·兰谷坠_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉坠_测试用#42465 (22600 会心 全能)": {
+            "id": 42465,
+            "name": "陶然意·修觉坠_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_attack_power_base": 852,
+                "solar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无封腰坠_测试用#41482 (22500 精简 会心 会效 无双)": {
             "id": 41482,
             "name": "无封腰坠_测试用",
@@ -32726,6 +44738,110 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "灵空·风行坠#42742 (20500 会心 无双)": {
+            "id": 42742,
+            "name": "灵空·风行坠",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·撼地坠#42741 (20500 会心 无双)": {
+            "id": 42741,
+            "name": "灵空·撼地坠",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·未判坠#42740 (20500 会心 无双)": {
+            "id": 42740,
+            "name": "灵空·未判坠",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "all_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·心斋坠#42739 (20500 会心 无双)": {
+            "id": 42739,
+            "name": "灵空·心斋坠",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "风岱坠_测试用#42629 (20500 破防 无双)": {
             "id": 42629,
             "name": "风岱坠_测试用",
@@ -33155,7 +45271,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -33181,7 +45297,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -33207,7 +45323,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -33233,7 +45349,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "haste_base": 3837,
                 "pvx_round": 1535
             },
@@ -33259,7 +45375,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -33285,7 +45401,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -33311,7 +45427,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "all_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -33337,7 +45453,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -34139,7 +46255,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "agility_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -34165,7 +46281,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "strength_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -34191,7 +46307,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spunk_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "all_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -34217,7 +46333,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spirit_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "magical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -34232,6 +46348,578 @@ EQUIPMENTS = {
         }
     },
     "necklace": {
+        "陶然意·星雪链_测试用#42545 (26300 会心 全能)": {
+            "id": 42545,
+            "name": "陶然意·星雪链_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影链_测试用#42544 (26300 会心 全能)": {
+            "id": 42544,
+            "name": "陶然意·旭影链_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟链_测试用#42543 (26300 会心 全能)": {
+            "id": 42543,
+            "name": "陶然意·沉麟链_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时链_测试用#42542 (26300 会心 全能)": {
+            "id": 42542,
+            "name": "陶然意·和时链_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪链_测试用#42541 (26300 会心 全能)": {
+            "id": 42541,
+            "name": "陶然意·星雪链_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影链_测试用#42540 (26300 会心 全能)": {
+            "id": 42540,
+            "name": "陶然意·匿影链_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔链_测试用#42539 (26300 会心 全能)": {
+            "id": 42539,
+            "name": "陶然意·弘阔链_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳链_测试用#42538 (26300 会心 全能)": {
+            "id": 42538,
+            "name": "陶然意·海岳链_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪链_测试用#42537 (26300 会心 全能)": {
+            "id": 42537,
+            "name": "陶然意·咏雪链_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭链_测试用#42536 (26300 会心 全能)": {
+            "id": 42536,
+            "name": "陶然意·严峭链_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日链_测试用#42535 (26300 会心 全能)": {
+            "id": 42535,
+            "name": "陶然意·赫日链_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_and_lunar_attack_power_base": 992,
+                "solar_and_lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌链_测试用#42534 (26300 会心 全能)": {
+            "id": 42534,
+            "name": "陶然意·长陌链_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景链_测试用#42533 (26300 会心 全能)": {
+            "id": 42533,
+            "name": "陶然意·浮景链_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋链_测试用#42532 (26300 会心 全能)": {
+            "id": 42532,
+            "name": "陶然意·奇锋链_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠链_测试用#42531 (26300 会心 全能)": {
+            "id": 42531,
+            "name": "陶然意·森泠链_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "poison_attack_power_base": 992,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁链_测试用#42530 (26300 会心 全能)": {
+            "id": 42530,
+            "name": "陶然意·清篁链_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "poison_attack_power_base": 992,
+                "poison_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞链_测试用#42529 (26300 会心 全能)": {
+            "id": 42529,
+            "name": "陶然意·云舞链_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "lunar_attack_power_base": 992,
+                "lunar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云链_测试用#42528 (26300 会心 全能)": {
+            "id": 42528,
+            "name": "陶然意·泊云链_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "agility_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹链_测试用#42527 (26300 会心 全能)": {
+            "id": 42527,
+            "name": "陶然意·青虹链_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spirit_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊链_测试用#42526 (26300 会心 全能)": {
+            "id": 42526,
+            "name": "陶然意·长渊链_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "strength_base": 547,
+                "physical_attack_power_base": 892,
+                "physical_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷链_测试用#42525 (26300 会心 全能)": {
+            "id": 42525,
+            "name": "陶然意·兰谷链_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "neutral_attack_power_base": 992,
+                "neutral_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉链_测试用#42524 (26300 会心 全能)": {
+            "id": 42524,
+            "name": "陶然意·修觉链_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7219,
+                "spunk_base": 547,
+                "solar_attack_power_base": 992,
+                "solar_critical_strike_base": 4922,
+                "pvx_round": 1969
+            },
+            "embed": {
+                "solar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "凌容链_测试用#41414 (26300 破招 无双)": {
             "id": 41414,
             "name": "凌容链_测试用",
@@ -35353,6 +48041,578 @@ EQUIPMENTS = {
             },
             "embed": {
                 "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪链_测试用#42464 (22600 会心 全能)": {
+            "id": 42464,
+            "name": "陶然意·星雪链_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影链_测试用#42463 (22600 会心 全能)": {
+            "id": 42463,
+            "name": "陶然意·旭影链_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟链_测试用#42462 (22600 会心 全能)": {
+            "id": 42462,
+            "name": "陶然意·沉麟链_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时链_测试用#42461 (22600 会心 全能)": {
+            "id": 42461,
+            "name": "陶然意·和时链_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪链_测试用#42460 (22600 会心 全能)": {
+            "id": 42460,
+            "name": "陶然意·星雪链_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影链_测试用#42459 (22600 会心 全能)": {
+            "id": 42459,
+            "name": "陶然意·匿影链_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔链_测试用#42458 (22600 会心 全能)": {
+            "id": 42458,
+            "name": "陶然意·弘阔链_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳链_测试用#42457 (22600 会心 全能)": {
+            "id": 42457,
+            "name": "陶然意·海岳链_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪链_测试用#42456 (22600 会心 全能)": {
+            "id": 42456,
+            "name": "陶然意·咏雪链_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭链_测试用#42455 (22600 会心 全能)": {
+            "id": 42455,
+            "name": "陶然意·严峭链_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日链_测试用#42454 (22600 会心 全能)": {
+            "id": 42454,
+            "name": "陶然意·赫日链_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_and_lunar_attack_power_base": 852,
+                "solar_and_lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌链_测试用#42453 (22600 会心 全能)": {
+            "id": 42453,
+            "name": "陶然意·长陌链_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景链_测试用#42452 (22600 会心 全能)": {
+            "id": 42452,
+            "name": "陶然意·浮景链_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋链_测试用#42451 (22600 会心 全能)": {
+            "id": 42451,
+            "name": "陶然意·奇锋链_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠链_测试用#42450 (22600 会心 全能)": {
+            "id": 42450,
+            "name": "陶然意·森泠链_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "poison_attack_power_base": 852,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁链_测试用#42449 (22600 会心 全能)": {
+            "id": 42449,
+            "name": "陶然意·清篁链_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "poison_attack_power_base": 852,
+                "poison_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞链_测试用#42448 (22600 会心 全能)": {
+            "id": 42448,
+            "name": "陶然意·云舞链_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "lunar_attack_power_base": 852,
+                "lunar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云链_测试用#42447 (22600 会心 全能)": {
+            "id": 42447,
+            "name": "陶然意·泊云链_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "agility_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹链_测试用#42446 (22600 会心 全能)": {
+            "id": 42446,
+            "name": "陶然意·青虹链_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spirit_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊链_测试用#42445 (22600 会心 全能)": {
+            "id": 42445,
+            "name": "陶然意·长渊链_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "strength_base": 470,
+                "physical_attack_power_base": 766,
+                "physical_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷链_测试用#42444 (22600 会心 全能)": {
+            "id": 42444,
+            "name": "陶然意·兰谷链_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "neutral_attack_power_base": 852,
+                "neutral_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉链_测试用#42443 (22600 会心 全能)": {
+            "id": 42443,
+            "name": "陶然意·修觉链_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6204,
+                "spunk_base": 470,
+                "solar_attack_power_base": 852,
+                "solar_critical_strike_base": 4230,
+                "pvx_round": 1692
+            },
+            "embed": {
+                "solar_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -36544,6 +49804,110 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "灵空·风行链#42736 (20500 破防 无双)": {
+            "id": 42736,
+            "name": "灵空·风行链",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·撼地链#42735 (20500 破防 无双)": {
+            "id": 42735,
+            "name": "灵空·撼地链",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·未判链#42734 (20500 破防 无双)": {
+            "id": 42734,
+            "name": "灵空·未判链",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵空·心斋链#42733 (20500 破防 无双)": {
+            "id": 42733,
+            "name": "灵空·心斋链",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "风岱链_测试用#42623 (20500 会心 无双)": {
             "id": 42623,
             "name": "风岱链_测试用",
@@ -36973,7 +50337,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -36999,7 +50363,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -37025,7 +50389,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -37051,7 +50415,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_overcome_base": 3837,
                 "pvx_round": 1535
             },
@@ -37077,7 +50441,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "agility_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -37103,7 +50467,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "strength_base": 426,
-                "physical_attack_power_base": 834,
+                "physical_attack_power_base": 695,
                 "physical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -37129,7 +50493,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spunk_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "all_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -37155,7 +50519,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5627,
                 "spirit_base": 426,
-                "magical_attack_power_base": 927,
+                "magical_attack_power_base": 773,
                 "magical_critical_strike_base": 3837,
                 "pvx_round": 1535
             },
@@ -37959,7 +51323,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "agility_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -37985,7 +51349,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "strength_base": 343,
-                "physical_attack_power_base": 671,
+                "physical_attack_power_base": 559,
                 "physical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -38011,7 +51375,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spunk_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "all_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -38037,7 +51401,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 4529,
                 "spirit_base": 343,
-                "magical_attack_power_base": 747,
+                "magical_attack_power_base": 622,
                 "magical_critical_strike_base": 3088,
                 "pvx_round": 1235
             },
@@ -40179,6 +53543,688 @@ EQUIPMENTS = {
                 "neutral_attack_power_base": 97,
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪扇_测试用#40421 (26300 破防 全能)": {
+            "id": 40421,
+            "name": "陶然意·星雪扇_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "magical_attack_power_base": 6671,
+                "magical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影弓_测试用#40420 (26300 破防 全能)": {
+            "id": 40420,
+            "name": "陶然意·旭影弓_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟刀_测试用#40419 (26300 破防 全能)": {
+            "id": 40419,
+            "name": "陶然意·沉麟刀_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时卷_测试用#40418 (26300 破防 全能)": {
+            "id": 40418,
+            "name": "陶然意·和时卷_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spirit_base": 1313,
+                "poison_attack_power_base": 6671,
+                "poison_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪灯_测试用#40417 (26300 破防 全能)": {
+            "id": 40417,
+            "name": "陶然意·星雪灯_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "neutral_attack_power_base": 6671,
+                "neutral_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影链刃_测试用#40416 (26300 破防 全能)": {
+            "id": 40416,
+            "name": "陶然意·匿影链刃_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔伞_测试用#40415 (26300 破防 全能)": {
+            "id": 40415,
+            "name": "陶然意·弘阔伞_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳刀_测试用#40414 (26300 破防 全能)": {
+            "id": 40414,
+            "name": "陶然意·海岳刀_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪琴_测试用#40413 (26300 破防 全能)": {
+            "id": 40413,
+            "name": "陶然意·咏雪琴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2039,
+                "weapon_damage_rand": 1360
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spirit_base": 1313,
+                "lunar_attack_power_base": 6671,
+                "lunar_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭盾刀_测试用#40412 (26300 破防 全能)": {
+            "id": 40412,
+            "name": "陶然意·严峭盾刀_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6118,
+                "weapon_damage_rand": 4079
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日双刀_测试用#40411 (26300 破防 全能)": {
+            "id": 40411,
+            "name": "陶然意·赫日双刀_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "solar_and_lunar_attack_power_base": 6671,
+                "solar_and_lunar_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌棒_测试用#40410 (26300 破防 全能)": {
+            "id": 40410,
+            "name": "陶然意·长陌棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6934,
+                "weapon_damage_rand": 4623
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景轻剑_测试用#40408 (26300 破防 全能)": {
+            "id": 40408,
+            "name": "陶然意·浮景轻剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5302,
+                "weapon_damage_rand": 3535
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋弩_测试用#40407 (26300 破防 全能)": {
+            "id": 40407,
+            "name": "陶然意·奇锋弩_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠弩_测试用#40406 (26300 破防 全能)": {
+            "id": 40406,
+            "name": "陶然意·森泠弩_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4079,
+                "weapon_damage_rand": 2719
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "poison_attack_power_base": 6671,
+                "poison_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁笛_测试用#40405 (26300 破防 全能)": {
+            "id": 40405,
+            "name": "陶然意·清篁笛_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2039,
+                "weapon_damage_rand": 1360
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spirit_base": 1313,
+                "poison_attack_power_base": 6671,
+                "poison_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞双剑_测试用#40404 (26300 破防 全能)": {
+            "id": 40404,
+            "name": "陶然意·云舞双剑_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2651,
+                "weapon_damage_rand": 1767
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spirit_base": 1313,
+                "lunar_attack_power_base": 6671,
+                "lunar_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云剑_测试用#40403 (26300 破防 全能)": {
+            "id": 40403,
+            "name": "陶然意·泊云剑_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5302,
+                "weapon_damage_rand": 3535
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹剑_测试用#40402 (26300 破防 全能)": {
+            "id": 40402,
+            "name": "陶然意·青虹剑_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2651,
+                "weapon_damage_rand": 1767
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spirit_base": 1313,
+                "neutral_attack_power_base": 6671,
+                "neutral_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊枪_测试用#40401 (26300 破防 全能)": {
+            "id": 40401,
+            "name": "陶然意·长渊枪_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6934,
+                "weapon_damage_rand": 4623
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷笔_测试用#40400 (26300 破防 全能)": {
+            "id": 40400,
+            "name": "陶然意·兰谷笔_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2039,
+                "weapon_damage_rand": 1360
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "neutral_attack_power_base": 6671,
+                "neutral_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉杖_测试用#40399 (26300 破防 全能)": {
+            "id": 40399,
+            "name": "陶然意·修觉杖_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6934,
+                "weapon_damage_rand": 4623
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "spunk_base": 1313,
+                "solar_attack_power_base": 6671,
+                "solar_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_overcome_base": 321,
+                "pvx_round": 161
             },
             "gains": [],
             "recipes": {},
@@ -45145,6 +59191,688 @@ EQUIPMENTS = {
                 "solar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪扇_测试用#40366 (22600 破防 全能)": {
+            "id": 40366,
+            "name": "陶然意·星雪扇_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "magical_attack_power_base": 5733,
+                "magical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影弓_测试用#40365 (22600 破防 全能)": {
+            "id": 40365,
+            "name": "陶然意·旭影弓_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟刀_测试用#40364 (22600 破防 全能)": {
+            "id": 40364,
+            "name": "陶然意·沉麟刀_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "strength_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时卷_测试用#40363 (22600 破防 全能)": {
+            "id": 40363,
+            "name": "陶然意·和时卷_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spirit_base": 1128,
+                "poison_attack_power_base": 5733,
+                "poison_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪灯_测试用#40362 (22600 破防 全能)": {
+            "id": 40362,
+            "name": "陶然意·星雪灯_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "neutral_attack_power_base": 5733,
+                "neutral_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影链刃_测试用#40361 (22600 破防 全能)": {
+            "id": 40361,
+            "name": "陶然意·匿影链刃_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔伞_测试用#40360 (22600 破防 全能)": {
+            "id": 40360,
+            "name": "陶然意·弘阔伞_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳刀_测试用#40359 (22600 破防 全能)": {
+            "id": 40359,
+            "name": "陶然意·海岳刀_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "strength_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪琴_测试用#40358 (22600 破防 全能)": {
+            "id": 40358,
+            "name": "陶然意·咏雪琴_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1752,
+                "weapon_damage_rand": 1168
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spirit_base": 1128,
+                "lunar_attack_power_base": 5733,
+                "lunar_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭盾刀_测试用#40357 (22600 破防 全能)": {
+            "id": 40357,
+            "name": "陶然意·严峭盾刀_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5257,
+                "weapon_damage_rand": 3505
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日双刀_测试用#40356 (22600 破防 全能)": {
+            "id": 40356,
+            "name": "陶然意·赫日双刀_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "solar_and_lunar_attack_power_base": 5733,
+                "solar_and_lunar_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌棒_测试用#40355 (22600 破防 全能)": {
+            "id": 40355,
+            "name": "陶然意·长陌棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5958,
+                "weapon_damage_rand": 3972
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "strength_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景轻剑_测试用#40353 (22600 破防 全能)": {
+            "id": 40353,
+            "name": "陶然意·浮景轻剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4556,
+                "weapon_damage_rand": 3038
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋弩_测试用#40352 (22600 破防 全能)": {
+            "id": 40352,
+            "name": "陶然意·奇锋弩_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "strength_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠弩_测试用#40351 (22600 破防 全能)": {
+            "id": 40351,
+            "name": "陶然意·森泠弩_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3505,
+                "weapon_damage_rand": 2337
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "poison_attack_power_base": 5733,
+                "poison_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁笛_测试用#40350 (22600 破防 全能)": {
+            "id": 40350,
+            "name": "陶然意·清篁笛_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1752,
+                "weapon_damage_rand": 1168
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spirit_base": 1128,
+                "poison_attack_power_base": 5733,
+                "poison_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞双剑_测试用#40349 (22600 破防 全能)": {
+            "id": 40349,
+            "name": "陶然意·云舞双剑_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2278,
+                "weapon_damage_rand": 1519
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spirit_base": 1128,
+                "lunar_attack_power_base": 5733,
+                "lunar_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云剑_测试用#40348 (22600 破防 全能)": {
+            "id": 40348,
+            "name": "陶然意·泊云剑_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4556,
+                "weapon_damage_rand": 3038
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹剑_测试用#40347 (22600 破防 全能)": {
+            "id": 40347,
+            "name": "陶然意·青虹剑_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2278,
+                "weapon_damage_rand": 1519
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spirit_base": 1128,
+                "neutral_attack_power_base": 5733,
+                "neutral_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊枪_测试用#40346 (22600 破防 全能)": {
+            "id": 40346,
+            "name": "陶然意·长渊枪_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5958,
+                "weapon_damage_rand": 3972
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "strength_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷笔_测试用#40345 (22600 破防 全能)": {
+            "id": 40345,
+            "name": "陶然意·兰谷笔_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1752,
+                "weapon_damage_rand": 1168
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "neutral_attack_power_base": 5733,
+                "neutral_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_overcome_base": 321,
+                "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉杖_测试用#40344 (22600 破防 全能)": {
+            "id": 40344,
+            "name": "陶然意·修觉杖_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5958,
+                "weapon_damage_rand": 3972
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "spunk_base": 1128,
+                "solar_attack_power_base": 5733,
+                "solar_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_overcome_base": 321,
+                "pvx_round": 161
             },
             "gains": [],
             "recipes": {},
@@ -52314,7 +67042,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "magical_attack_power_base": 5571,
+                "magical_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52345,7 +67073,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52376,7 +67104,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52407,7 +67135,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52438,7 +67166,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52469,7 +67197,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52500,7 +67228,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52531,7 +67259,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52562,7 +67290,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "lunar_attack_power_base": 5571,
+                "lunar_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52593,7 +67321,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52624,7 +67352,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "solar_and_lunar_attack_power_base": 5571,
+                "solar_and_lunar_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52655,7 +67383,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52686,7 +67414,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52717,7 +67445,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52748,7 +67476,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52779,7 +67507,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52810,7 +67538,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "lunar_attack_power_base": 5571,
+                "lunar_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52841,7 +67569,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52872,7 +67600,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52903,7 +67631,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52934,7 +67662,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52965,7 +67693,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "solar_attack_power_base": 5571,
+                "solar_attack_power_base": 5200,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -52996,7 +67724,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "magical_attack_power_base": 5571,
+                "magical_attack_power_base": 5200,
                 "magical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53027,7 +67755,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53058,7 +67786,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53089,7 +67817,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "poison_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53120,7 +67848,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "neutral_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53151,7 +67879,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53182,7 +67910,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53213,7 +67941,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53244,7 +67972,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "lunar_attack_power_base": 5571,
+                "lunar_attack_power_base": 5200,
                 "lunar_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53275,7 +68003,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53306,7 +68034,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "solar_and_lunar_attack_power_base": 5571,
+                "solar_and_lunar_attack_power_base": 5200,
                 "solar_and_lunar_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53337,7 +68065,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53368,7 +68096,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53399,7 +68127,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53430,7 +68158,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "poison_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53461,7 +68189,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "poison_attack_power_base": 5571,
+                "poison_attack_power_base": 5200,
                 "poison_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53492,7 +68220,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "lunar_attack_power_base": 5571,
+                "lunar_attack_power_base": 5200,
                 "lunar_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53523,7 +68251,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53554,7 +68282,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spirit_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "neutral_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53585,7 +68313,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "strength_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53616,7 +68344,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "neutral_attack_power_base": 5571,
+                "neutral_attack_power_base": 5200,
                 "neutral_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -53647,7 +68375,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "spunk_base": 1023,
-                "solar_attack_power_base": 5571,
+                "solar_attack_power_base": 5200,
                 "solar_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -59274,7 +74002,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "magical_attack_power_base": 4484,
+                "magical_attack_power_base": 4185,
                 "all_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59305,7 +74033,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59336,7 +74064,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "strength_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59367,7 +74095,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spirit_base": 824,
-                "poison_attack_power_base": 4484,
+                "poison_attack_power_base": 4185,
                 "poison_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59398,7 +74126,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "neutral_attack_power_base": 4484,
+                "neutral_attack_power_base": 4185,
                 "neutral_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59429,7 +74157,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59460,7 +74188,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59491,7 +74219,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "strength_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59522,7 +74250,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spirit_base": 824,
-                "lunar_attack_power_base": 4484,
+                "lunar_attack_power_base": 4185,
                 "lunar_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59553,7 +74281,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59584,7 +74312,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "solar_and_lunar_attack_power_base": 4484,
+                "solar_and_lunar_attack_power_base": 4185,
                 "solar_and_lunar_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59615,7 +74343,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "strength_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59646,7 +74374,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59677,7 +74405,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "strength_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59708,7 +74436,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "poison_attack_power_base": 4484,
+                "poison_attack_power_base": 4185,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59739,7 +74467,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spirit_base": 824,
-                "poison_attack_power_base": 4484,
+                "poison_attack_power_base": 4185,
                 "poison_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59770,7 +74498,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spirit_base": 824,
-                "lunar_attack_power_base": 4484,
+                "lunar_attack_power_base": 4185,
                 "lunar_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59801,7 +74529,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59832,7 +74560,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spirit_base": 824,
-                "neutral_attack_power_base": 4484,
+                "neutral_attack_power_base": 4185,
                 "neutral_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59863,7 +74591,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "strength_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59894,7 +74622,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "neutral_attack_power_base": 4484,
+                "neutral_attack_power_base": 4185,
                 "neutral_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -59925,7 +74653,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "spunk_base": 824,
-                "solar_attack_power_base": 4484,
+                "solar_attack_power_base": 4185,
                 "solar_critical_strike_base": 7412,
                 "pvx_round": 2965
             },
@@ -60688,6 +75416,578 @@ EQUIPMENTS = {
         }
     },
     "tertiary_weapon": {
+        "陶然意·星雪囊_测试用#40398 (26300 破防 全能)": {
+            "id": 40398,
+            "name": "陶然意·星雪囊_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "magical_attack_power_base": 1190,
+                "magical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影囊_测试用#40397 (26300 破防 全能)": {
+            "id": 40397,
+            "name": "陶然意·旭影囊_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟囊_测试用#40396 (26300 破防 全能)": {
+            "id": 40396,
+            "name": "陶然意·沉麟囊_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "strength_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时囊_测试用#40395 (26300 破防 全能)": {
+            "id": 40395,
+            "name": "陶然意·和时囊_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spirit_base": 656,
+                "poison_attack_power_base": 1190,
+                "poison_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪囊_测试用#40394 (26300 破防 全能)": {
+            "id": 40394,
+            "name": "陶然意·星雪囊_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "neutral_attack_power_base": 1190,
+                "neutral_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影囊_测试用#40393 (26300 破防 全能)": {
+            "id": 40393,
+            "name": "陶然意·匿影囊_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔囊_测试用#40392 (26300 破防 全能)": {
+            "id": 40392,
+            "name": "陶然意·弘阔囊_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳囊_测试用#40391 (26300 破防 全能)": {
+            "id": 40391,
+            "name": "陶然意·海岳囊_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "strength_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪囊_测试用#40390 (26300 加速 全能)": {
+            "id": 40390,
+            "name": "陶然意·咏雪囊_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spirit_base": 656,
+                "lunar_attack_power_base": 1190,
+                "haste_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭囊_测试用#40389 (26300 破防 全能)": {
+            "id": 40389,
+            "name": "陶然意·严峭囊_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日囊_测试用#40388 (26300 破防 全能)": {
+            "id": 40388,
+            "name": "陶然意·赫日囊_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "solar_and_lunar_attack_power_base": 1190,
+                "solar_and_lunar_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌囊_测试用#40387 (26300 破防 全能)": {
+            "id": 40387,
+            "name": "陶然意·长陌囊_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "strength_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景囊_测试用#40386 (26300 破防 全能)": {
+            "id": 40386,
+            "name": "陶然意·浮景囊_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋囊_测试用#40385 (26300 破防 全能)": {
+            "id": 40385,
+            "name": "陶然意·奇锋囊_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "strength_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠囊_测试用#40384 (26300 破防 全能)": {
+            "id": 40384,
+            "name": "陶然意·森泠囊_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "poison_attack_power_base": 1190,
+                "poison_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁囊_测试用#40383 (26300 破防 全能)": {
+            "id": 40383,
+            "name": "陶然意·清篁囊_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spirit_base": 656,
+                "poison_attack_power_base": 1190,
+                "poison_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞囊_测试用#40382 (26300 破防 全能)": {
+            "id": 40382,
+            "name": "陶然意·云舞囊_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spirit_base": 656,
+                "lunar_attack_power_base": 1190,
+                "lunar_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云囊_测试用#40381 (26300 破防 全能)": {
+            "id": 40381,
+            "name": "陶然意·泊云囊_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "agility_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹囊_测试用#40380 (26300 破防 全能)": {
+            "id": 40380,
+            "name": "陶然意·青虹囊_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spirit_base": 656,
+                "neutral_attack_power_base": 1190,
+                "neutral_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊囊_测试用#40379 (26300 破防 全能)": {
+            "id": 40379,
+            "name": "陶然意·长渊囊_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "strength_base": 656,
+                "physical_attack_power_base": 1070,
+                "physical_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷囊_测试用#40378 (26300 破防 全能)": {
+            "id": 40378,
+            "name": "陶然意·兰谷囊_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "neutral_attack_power_base": 1190,
+                "neutral_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉囊_测试用#40377 (26300 破防 全能)": {
+            "id": 40377,
+            "name": "陶然意·修觉囊_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8663,
+                "spunk_base": 656,
+                "solar_attack_power_base": 1190,
+                "solar_overcome_base": 5907,
+                "pvx_round": 2363
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "尘许囊_测试用#39361 (25900 破招 无双)": {
             "id": 39361,
             "name": "尘许囊_测试用",
@@ -61458,7 +76758,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封囊_测试用#39425 (23500 精简 会心 破防 破招)": {
+        "无封囊_测试用#39425 (23500 精简 会心 破防 无双)": {
             "id": 39425,
             "name": "无封囊_测试用",
             "school": "精简",
@@ -61473,7 +76773,7 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 2773,
                 "physical_critical_strike_base": 3519,
                 "physical_overcome_base": 3519,
-                "surplus_base": 2815
+                "strain_base": 3519
             },
             "embed": {
                 "physical_critical_power_base": 321
@@ -61535,7 +76835,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封囊_测试用#39422 (23500 精简 会心 破防 破招)": {
+        "无封囊_测试用#39422 (23500 精简 会心 破防 无双)": {
             "id": 39422,
             "name": "无封囊_测试用",
             "school": "精简",
@@ -61550,7 +76850,7 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 3083,
                 "all_critical_strike_base": 3519,
                 "magical_overcome_base": 3519,
-                "surplus_base": 2815
+                "strain_base": 3519
             },
             "embed": {
                 "all_critical_power_base": 321
@@ -61605,6 +76905,578 @@ EQUIPMENTS = {
             },
             "embed": {
                 "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪囊_测试用#40343 (22600 破防 全能)": {
+            "id": 40343,
+            "name": "陶然意·星雪囊_测试用",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "magical_attack_power_base": 1022,
+                "magical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·旭影囊_测试用#40342 (22600 破防 全能)": {
+            "id": 40342,
+            "name": "陶然意·旭影囊_测试用",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·沉麟囊_测试用#40341 (22600 破防 全能)": {
+            "id": 40341,
+            "name": "陶然意·沉麟囊_测试用",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "strength_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·和时囊_测试用#40340 (22600 破防 全能)": {
+            "id": 40340,
+            "name": "陶然意·和时囊_测试用",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spirit_base": 564,
+                "poison_attack_power_base": 1022,
+                "poison_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·星雪囊_测试用#40339 (22600 破防 全能)": {
+            "id": 40339,
+            "name": "陶然意·星雪囊_测试用",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "neutral_attack_power_base": 1022,
+                "neutral_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·匿影囊_测试用#40338 (22600 破防 全能)": {
+            "id": 40338,
+            "name": "陶然意·匿影囊_测试用",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·弘阔囊_测试用#40337 (22600 破防 全能)": {
+            "id": 40337,
+            "name": "陶然意·弘阔囊_测试用",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·海岳囊_测试用#40336 (22600 破防 全能)": {
+            "id": 40336,
+            "name": "陶然意·海岳囊_测试用",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "strength_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·咏雪囊_测试用#40335 (22600 加速 全能)": {
+            "id": 40335,
+            "name": "陶然意·咏雪囊_测试用",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spirit_base": 564,
+                "lunar_attack_power_base": 1022,
+                "haste_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·严峭囊_测试用#40334 (22600 破防 全能)": {
+            "id": 40334,
+            "name": "陶然意·严峭囊_测试用",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·赫日囊_测试用#40333 (22600 破防 全能)": {
+            "id": 40333,
+            "name": "陶然意·赫日囊_测试用",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "solar_and_lunar_attack_power_base": 1022,
+                "solar_and_lunar_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长陌囊_测试用#40332 (22600 破防 全能)": {
+            "id": 40332,
+            "name": "陶然意·长陌囊_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "strength_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景囊_测试用#40331 (22600 破防 全能)": {
+            "id": 40331,
+            "name": "陶然意·浮景囊_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·奇锋囊_测试用#40330 (22600 破防 全能)": {
+            "id": 40330,
+            "name": "陶然意·奇锋囊_测试用",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "strength_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·森泠囊_测试用#40329 (22600 破防 全能)": {
+            "id": 40329,
+            "name": "陶然意·森泠囊_测试用",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "poison_attack_power_base": 1022,
+                "poison_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·清篁囊_测试用#40328 (22600 破防 全能)": {
+            "id": 40328,
+            "name": "陶然意·清篁囊_测试用",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spirit_base": 564,
+                "poison_attack_power_base": 1022,
+                "poison_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·云舞囊_测试用#40327 (22600 破防 全能)": {
+            "id": 40327,
+            "name": "陶然意·云舞囊_测试用",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spirit_base": 564,
+                "lunar_attack_power_base": 1022,
+                "lunar_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·泊云囊_测试用#40326 (22600 破防 全能)": {
+            "id": 40326,
+            "name": "陶然意·泊云囊_测试用",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "agility_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·青虹囊_测试用#40325 (22600 破防 全能)": {
+            "id": 40325,
+            "name": "陶然意·青虹囊_测试用",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spirit_base": 564,
+                "neutral_attack_power_base": 1022,
+                "neutral_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·长渊囊_测试用#40324 (22600 破防 全能)": {
+            "id": 40324,
+            "name": "陶然意·长渊囊_测试用",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "strength_base": 564,
+                "physical_attack_power_base": 920,
+                "physical_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·兰谷囊_测试用#40323 (22600 破防 全能)": {
+            "id": 40323,
+            "name": "陶然意·兰谷囊_测试用",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "neutral_attack_power_base": 1022,
+                "neutral_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·修觉囊_测试用#40322 (22600 破防 全能)": {
+            "id": 40322,
+            "name": "陶然意·修觉囊_测试用",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7444,
+                "spunk_base": 564,
+                "solar_attack_power_base": 1022,
+                "solar_overcome_base": 5076,
+                "pvx_round": 2030
+            },
+            "embed": {
+                "spunk_base": 41
             },
             "gains": [],
             "recipes": {},
@@ -62438,7 +78310,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封囊_测试用#39407 (20700 精简 会心 破防 破招)": {
+        "无封囊_测试用#39407 (20700 精简 会心 破防 无双)": {
             "id": 39407,
             "name": "无封囊_测试用",
             "school": "精简",
@@ -62453,7 +78325,7 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 2443,
                 "physical_critical_strike_base": 3099,
                 "physical_overcome_base": 3099,
-                "surplus_base": 2479
+                "strain_base": 3099
             },
             "embed": {
                 "physical_critical_power_base": 321
@@ -62515,7 +78387,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无封囊_测试用#39404 (20700 精简 会心 破防 破招)": {
+        "无封囊_测试用#39404 (20700 精简 会心 破防 无双)": {
             "id": 39404,
             "name": "无封囊_测试用",
             "school": "精简",
@@ -62530,7 +78402,7 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 2716,
                 "all_critical_strike_base": 3099,
                 "magical_overcome_base": 3099,
-                "surplus_base": 2479
+                "strain_base": 3099
             },
             "embed": {
                 "all_critical_power_base": 321
@@ -63125,7 +78997,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "agility_base": 512,
-                "physical_attack_power_base": 1001,
+                "physical_attack_power_base": 834,
                 "physical_critical_strike_base": 4604,
                 "pvx_round": 1842
             },
@@ -63151,7 +79023,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "strength_base": 512,
-                "physical_attack_power_base": 1001,
+                "physical_attack_power_base": 834,
                 "physical_critical_strike_base": 4604,
                 "pvx_round": 1842
             },
@@ -63177,7 +79049,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "spunk_base": 512,
-                "magical_attack_power_base": 1113,
+                "magical_attack_power_base": 927,
                 "all_critical_strike_base": 4604,
                 "pvx_round": 1842
             },
@@ -63203,7 +79075,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "spirit_base": 512,
-                "magical_attack_power_base": 1113,
+                "magical_attack_power_base": 927,
                 "magical_critical_strike_base": 4604,
                 "pvx_round": 1842
             },
@@ -63229,7 +79101,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "agility_base": 512,
-                "physical_attack_power_base": 1001,
+                "physical_attack_power_base": 834,
                 "physical_overcome_base": 4604,
                 "pvx_round": 1842
             },
@@ -63255,7 +79127,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "strength_base": 512,
-                "physical_attack_power_base": 1001,
+                "physical_attack_power_base": 834,
                 "physical_overcome_base": 4604,
                 "pvx_round": 1842
             },
@@ -63281,7 +79153,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "spunk_base": 512,
-                "magical_attack_power_base": 1113,
+                "magical_attack_power_base": 927,
                 "magical_overcome_base": 4604,
                 "pvx_round": 1842
             },
@@ -63307,7 +79179,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 6753,
                 "spirit_base": 512,
-                "magical_attack_power_base": 1113,
+                "magical_attack_power_base": 927,
                 "magical_overcome_base": 4604,
                 "pvx_round": 1842
             },
@@ -64111,7 +79983,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5435,
                 "agility_base": 412,
-                "physical_attack_power_base": 806,
+                "physical_attack_power_base": 671,
                 "physical_critical_strike_base": 3706,
                 "pvx_round": 1482
             },
@@ -64137,7 +80009,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5435,
                 "strength_base": 412,
-                "physical_attack_power_base": 806,
+                "physical_attack_power_base": 671,
                 "physical_critical_strike_base": 3706,
                 "pvx_round": 1482
             },
@@ -64163,7 +80035,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5435,
                 "spunk_base": 412,
-                "magical_attack_power_base": 896,
+                "magical_attack_power_base": 747,
                 "all_critical_strike_base": 3706,
                 "pvx_round": 1482
             },
@@ -64189,7 +80061,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5435,
                 "spirit_base": 412,
-                "magical_attack_power_base": 896,
+                "magical_attack_power_base": 747,
                 "magical_critical_strike_base": 3706,
                 "pvx_round": 1482
             },
@@ -64293,6 +80165,37 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 87,
                 "agility_base": 41,
                 "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景重剑_测试用#40409 (26300 破防 全能)": {
+            "id": 40409,
+            "name": "陶然意·浮景重剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 8158,
+                "weapon_damage_rand": 5438
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "agility_base": 1313,
+                "physical_attack_power_base": 6000,
+                "physical_overcome_base": 11813,
+                "pvx_round": 4725
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
             },
             "gains": [],
             "recipes": {},
@@ -64578,6 +80481,37 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 87,
                 "agility_base": 41,
                 "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "陶然意·浮景重剑_测试用#40354 (22600 破防 全能)": {
+            "id": 40354,
+            "name": "陶然意·浮景重剑_测试用",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 7010,
+                "weapon_damage_rand": 4673
+            },
+            "magic": {
+                "vitality_base": 14889,
+                "agility_base": 1128,
+                "physical_attack_power_base": 5156,
+                "physical_overcome_base": 10152,
+                "pvx_round": 4061
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_overcome_base": 321,
+                "pvx_round": 161
             },
             "gains": [],
             "recipes": {},
@@ -64981,7 +80915,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "haste_base": 9208,
                 "pvx_round": 3683
             },
@@ -65012,7 +80946,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 13505,
                 "agility_base": 1023,
-                "physical_attack_power_base": 5010,
+                "physical_attack_power_base": 4677,
                 "physical_overcome_base": 9208,
                 "pvx_round": 3683
             },
@@ -65299,7 +81233,7 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 10870,
                 "agility_base": 824,
-                "physical_attack_power_base": 4033,
+                "physical_attack_power_base": 3764,
                 "physical_critical_strike_base": 7412,
                 "pvx_round": 2965
             },

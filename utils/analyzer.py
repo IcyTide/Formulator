@@ -195,8 +195,8 @@ class BuffAnalyzer(BaseAnalyzer):
     def add_buffs(self, current_buffs, snapshot_buffs, target_buffs, damage: Union[Dot, Skill]):
         if isinstance(damage, Dot):
             display_current_buffs, display_snapshot_buffs = self.add_buffs_dot(current_buffs, snapshot_buffs, damage)
-        elif isinstance(damage, NpcSkill):
-            display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, snapshot_buffs, damage)
+        # elif isinstance(damage, NpcSkill):
+        #     display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, snapshot_buffs, damage)
         elif isinstance(damage, PetSkill):
             display_current_buffs, display_snapshot_buffs = self.add_buffs_pet(current_buffs, snapshot_buffs, damage)
         else:
@@ -235,8 +235,8 @@ class BuffAnalyzer(BaseAnalyzer):
     def sub_buffs(self, current_buffs, snapshot_buffs, target_buffs, damage: Union[Dot, Skill]):
         if isinstance(damage, Dot):
             self.sub_buffs_dot(current_buffs, snapshot_buffs, damage)
-        elif isinstance(damage, NpcSkill):
-            self.sub_buffs_all(current_buffs, snapshot_buffs, damage)
+        # elif isinstance(damage, NpcSkill):
+        #     self.sub_buffs_all(current_buffs, snapshot_buffs, damage)
         elif isinstance(damage, PetSkill):
             self.sub_buffs_pet(current_buffs, snapshot_buffs, damage)
         else:

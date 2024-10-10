@@ -8,4 +8,6 @@ from kungfus.shan_hai_xin_jue.talents import TALENTS
 
 
 def prepare(self, player_id):
-    pass
+    self.buff_stacks[player_id][26857][1] = 5
+    if 35733 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][27099][1] = 1

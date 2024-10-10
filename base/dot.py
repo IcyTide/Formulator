@@ -140,24 +140,16 @@ class Dot(BaseDot):
     @property
     def physical_attack_power_cof(self):
         if not self.dot_skill.platform:
-            dot_cof = PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
+            return PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
         else:
-            dot_cof = PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
-        if self.consume_skill:
-            return dot_cof * self.consume_skill.global_damage_factor
-        else:
-            return dot_cof
+            return PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
 
     @property
     def magical_attack_power_cof(self):
         if not self.dot_skill.platform:
-            dot_cof = MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
+            return MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
         else:
-            dot_cof = MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
-        if self.consume_skill:
-            return dot_cof * self.consume_skill.global_damage_factor
-        else:
-            return dot_cof
+            return MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
 
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
@@ -207,10 +199,16 @@ class Dot(BaseDot):
     def pre_damage(self, attribute: Attribute):
         self.dot_skill.pre_damage(attribute)
         attribute.all_damage_addition -= self.dot_skill.damage_addition
+        if self.consume_skill:
+            self.consume_skill.pre_damage(attribute)
+            attribute.all_damage_addition -= self.consume_skill.damage_addition
 
     def post_damage(self, attribute: Attribute):
         self.dot_skill.post_damage(attribute)
         attribute.all_damage_addition += self.dot_skill.damage_addition
+        if self.consume_skill:
+            self.consume_skill.post_damage(attribute)
+            attribute.all_damage_addition += self.consume_skill.damage_addition
 
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)

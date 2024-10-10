@@ -4,7 +4,7 @@ import re
 
 import pandas as pd
 
-BASE_DIR = "../JX3TABS"
+BASE_DIR = "../jx3_exp_src"
 SAVE_DIR = "assets"
 
 JSON_STR_KEY_PATTERN = re.compile(r'"(-?\d+)":')
@@ -12,7 +12,7 @@ JSON_STR_KEY_PATTERN = re.compile(r'"(-?\d+)":')
 
 def read_tab(file):
     file_path = os.path.join(BASE_DIR, file)
-    df = pd.read_csv(file_path, sep="\t", low_memory=False, encoding="gbk", on_bad_lines="skip")
+    df = pd.read_csv(file_path, sep="\t", low_memory=False, encoding="utf-8", on_bad_lines="skip")
     return df
 
 

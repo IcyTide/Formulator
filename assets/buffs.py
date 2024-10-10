@@ -8070,16 +8070,6 @@ BUFFS = {
         ],
         "recipes": {}
     },
-    21638: {
-        "attributes": {
-            "all_damage_addition": 72
-        },
-        "max_level": 1,
-        "buff_name": "龙驭",
-        "alias_name": "[21638]龙驭_灭后增伤",
-        "max_stack": 3,
-        "recipes": {}
-    },
     2779: {
         "attributes": {
             "physical_attack_power_gain": 358
@@ -8095,6 +8085,16 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "龙印",
         "alias_name": "虎贲龙牙印记",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    21638: {
+        "attributes": {
+            "all_damage_addition": 72
+        },
+        "max_level": 1,
+        "buff_name": "龙驭",
+        "alias_name": "[21638]龙驭_灭后增伤",
         "max_stack": 3,
         "recipes": {}
     },

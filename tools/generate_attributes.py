@@ -130,7 +130,7 @@ def parse_lua(attribute_id):
     alias_name = attribute_row.SkillName
     max_level = int(attribute_row.MaxLevel)
     platform = attribute_row.Platform
-    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], attribute_row.ScriptFile), encoding="gbk").read()
+    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], attribute_row.ScriptFile), encoding="utf-8").read()
     lua_code = INCLUDE_PATTERN.sub('', lua_code)
     return max_level, lua_code, (attribute_id, platform, alias_name)
 
