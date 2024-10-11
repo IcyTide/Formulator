@@ -7968,6 +7968,17 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    9722: {
+        "attributes": {
+            "neutral_critical_strike_rate": 160,
+            "neutral_critical_power_rate": 16
+        },
+        "max_level": 1,
+        "buff_name": "涓流",
+        "alias_name": "涓流_会心几率2%会心效果2%",
+        "max_stack": 10,
+        "recipes": {}
+    },
     24599: {
         "attributes": {
             "neutral_critical_strike_rate": 600,
@@ -7986,15 +7997,13 @@ BUFFS = {
             }
         ]
     },
-    9722: {
+    12588: {
         "attributes": {
-            "neutral_critical_strike_rate": 160,
-            "neutral_critical_power_rate": 16
+            "all_damage_addition": 102
         },
         "max_level": 1,
-        "buff_name": "涓流",
-        "alias_name": "涓流_会心几率2%会心效果2%",
-        "max_stack": 10,
+        "alias_name": "对兰摧标记目标伤害提高",
+        "max_stack": 1,
         "recipes": {}
     },
     14636: {
@@ -8005,15 +8014,6 @@ BUFFS = {
         "recipes": {
             4849: 1
         }
-    },
-    12588: {
-        "attributes": {
-            "all_damage_addition": 102
-        },
-        "max_level": 1,
-        "alias_name": "对兰摧标记目标伤害提高",
-        "max_stack": 1,
-        "recipes": {}
     },
     6121: {
         "attributes": [

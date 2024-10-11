@@ -54,11 +54,13 @@ class Detail:
     @property
     def anomaly_detail(self):
         anomaly_timeline = []
-        for index, critical, damage in self.timeline:
-            if critical and abs(damage - self.critical_damage) / self.critical_damage > self.EPSILON:
-                anomaly_timeline.append((index, critical, damage))
+        for frame, critical, damage in self.timeline:
+            if not self.damage and not damage:
+                anomaly_timeline.append((frame, critical, damage))
+            elif critical and abs(damage - self.critical_damage) / self.critical_damage > self.EPSILON:
+                anomaly_timeline.append((frame, critical, damage))
             elif not critical and abs(damage - self.damage) / self.damage > self.EPSILON:
-                anomaly_timeline.append((index, critical, damage))
+                anomaly_timeline.append((frame, critical, damage))
         if anomaly_timeline:
             return Detail(
                 self.damage, self.critical_damage, self.critical_strike, self.expected_damage,
