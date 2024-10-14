@@ -173,32 +173,32 @@ class TeamGainsWidget(QWidget):
     def set_default(self):
         if not self.team_gains["袖气"].radio_button.isChecked():
             self.team_gains["袖气"].radio_button.click()
-        self.team_gains["左旋右转"]["stack"].spin_box.setValue(80)
+        self.team_gains["左旋右转"]["stack"].spin_box.setValue(100)
         self.team_gains["左旋右转"]["rate"].spin_box.setValue(100)
 
         if not self.team_gains["撼如雷"].radio_button.isChecked():
             self.team_gains["撼如雷"].radio_button.click()
         self.team_gains["破风"]["variety"].combo_box.setCurrentText("劲风")
         self.team_gains["破甲"]["rate"].spin_box.setValue(33)
-        self.team_gains["号令三军"]["stack"].spin_box.setValue(80)
+        self.team_gains["号令三军"]["stack"].spin_box.setValue(100)
         self.team_gains["号令三军"]["rate"].spin_box.setValue(20)
 
         if not self.team_gains["立地成佛"].radio_button.isChecked():
             self.team_gains["立地成佛"].radio_button.click()
-        self.team_gains["弘法"]["stack"].spin_box.setValue(80)
+        self.team_gains["弘法"]["stack"].spin_box.setValue(100)
         self.team_gains["弘法"]["rate"].spin_box.setValue(50)
 
-        self.team_gains["秋肃"]["stack"].spin_box.setValue(80)
+        self.team_gains["秋肃"]["stack"].spin_box.setValue(100)
         self.team_gains["秋肃"]["rate"].spin_box.setValue(100)
         self.team_gains["皎素"]["rate"].spin_box.setValue(14)
 
-        self.team_gains["仙王蛊鼎"]["stack"].spin_box.setValue(80)
+        self.team_gains["仙王蛊鼎"]["stack"].spin_box.setValue(100)
         self.team_gains["仙王蛊鼎"]["rate"].spin_box.setValue(100)
 
         if not self.team_gains["戒火"].radio_button.isChecked():
             self.team_gains["戒火"].radio_button.click()
         self.team_gains["朝圣"]["variety"].combo_box.setCurrentText("圣浴明心")
-        self.team_gains["朝圣"]["stack"].spin_box.setValue(24)
+        self.team_gains["朝圣"]["stack"].spin_box.setValue(100)
         self.team_gains["朝圣"]["rate"].spin_box.setValue(7)
 
         if not self.team_gains["虚弱"].radio_button.isChecked():
@@ -207,7 +207,7 @@ class TeamGainsWidget(QWidget):
         self.team_gains["振奋"]["rate"].spin_box.setValue(100)
         self.team_gains["寒啸千军"]["rate"].spin_box.setValue(50)
 
-        self.team_gains["庄周梦"]["stack"].spin_box.setValue(80)
+        self.team_gains["庄周梦"]["stack"].spin_box.setValue(100)
         self.team_gains["庄周梦"]["rate"].spin_box.setValue(100)
 
         self.team_gains["配伍"]["rate"].spin_box.setValue(100)

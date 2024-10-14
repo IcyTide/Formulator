@@ -10,7 +10,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             11222: dict(buff_name="沧雪"),
             -29478: dict(buff_name="降麒式"),
             11221: dict(buff_name="化蛟"),
-            19499: dict(buff_name="砺锋")
+            19499: dict(buff_name="砺锋", begin_frame_shift=-2)
         }
     },
     1: {

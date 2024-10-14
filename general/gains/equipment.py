@@ -152,15 +152,19 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i in range(13)
     },
     **{
-        tuple(gain): 大附魔腰()
-        for gain in SPECIAL_ENCHANT_MAP[6].values()
+        tuple(gain_key): 大附魔腰()
+        for gain_key in SPECIAL_ENCHANT_MAP[6].values()
     },
     **{
-        tuple(gain): 大附魔腕()
-        for gain in SPECIAL_ENCHANT_MAP[10].values()
+        tuple(gain_key): 大附魔腕()
+        for gain_key in SPECIAL_ENCHANT_MAP[10].values()
     },
     **{
-        tuple(gain): 大附魔鞋()
-        for gain in SPECIAL_ENCHANT_MAP[9].values()
+        tuple(gain_key): 大附魔鞋()
+        for gain_key in SPECIAL_ENCHANT_MAP[9].values()
     },
+    **{
+        (gain_id, ): Gain()
+        for gain_id in range(2697, 2712 + 1)
+    }
 }

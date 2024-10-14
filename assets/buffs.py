@@ -7968,6 +7968,15 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    29525: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "alias_name": "新青冠无视防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
     9722: {
         "attributes": {
             "neutral_critical_strike_rate": 160,

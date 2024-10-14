@@ -69,7 +69,7 @@ FORMATION_GAINS = [
     create_formation_gain(GENERAL_BUFFS[-1923], [
         GENERAL_BUFFS[-1924].get_attributes(level=6),
         {},
-        {},
+        GENERAL_BUFFS[1925].attributes,
         GENERAL_BUFFS[1926].attributes
     ]),
     create_formation_gain(GENERAL_BUFFS[-2511], [

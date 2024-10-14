@@ -17,6 +17,14 @@ class 含风(Gain):
             skills[skill_id].pre_buffs.pop(23066)
 
 
+class 斩纷(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[16615].pre_buffs[19510] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[16615].pre_buffs.pop(19510)
+
+
 class 征踏(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
@@ -83,7 +91,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             17047: Gain("分疆"),
-            16733: Gain("斩纷"),
+            16733: 斩纷("斩纷"),
             18625: Gain("百战")
         },
         {

@@ -30,6 +30,18 @@ class 涓流判定(Skill):
             parser.refresh_buff(self.final_buff, 1)
 
 
+class 青冠吞噬(Skill):
+    final_buff = -29525
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if self.skill_level == 5:
+            parser.refresh_buff(self.final_buff, 1)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.clear_buff(self.final_buff)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
 class 快雪时晴秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_dot_ticks.get(70041):
@@ -53,10 +65,13 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: dict(bind_dots={666: 1}) for skill_id in (180, 13849, 6134)},
             **{skill_id: dict(bind_dots={24158: 1}) for skill_id in (32481, 32409)},
             601: dict(consume_dots=[{dot_id: 0} for dot_id in (714, 666, 711, 24158)] * 3),
+
+            32410: dict(consume_dots={24158: 0})
+        },
+        青冠吞噬: {
             6129: dict(consume_dots=[{}, {711: 0}, {711: 0}] * 2),
             6126: dict(consume_dots=[{}, {714: 0}, {714: 0}] * 2),
             6128: dict(consume_dots=[{}, {666: 0}, {666: 0}] * 2),
-            32410: dict(consume_dots={24158: 0})
         },
         丹青吞噬: {
             32630: dict(consume_dots=[{dot_id: 1} for dot_id in (666, 714, 711, 24158)])

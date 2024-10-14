@@ -52,6 +52,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             5712: {}, 5713: {},
             5716: {}, 5717: {},
             5610: {}, 5620: {}, 5636: {}, 5637: {}, 5638: {}, 5639: {},
+            5737: {}
         },
         CriticalStrikeRecipe_200: {
             5576: {},
@@ -83,6 +84,11 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         滃从递增雾刃飞光: {
             5645: {}, 5646: {}, 5647: {}
+        }
+    },
+    1: {
+        SkillRecipe: {
+            17250: {}
         }
     }
 }

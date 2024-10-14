@@ -44,6 +44,8 @@ IGNORE_TARGETS = ["125406"]
 
 
 class BaseParser:
+    CONTINUOUS_DELAY = 2
+
     current_player: PLAYER_ID_TYPE
     current_caster: CASTER_ID_TYPE
     current_target: TARGET_ID_TYPE
@@ -291,7 +293,7 @@ class Parser(BaseParser):
                 self.buff_stacks[pet_id] = self.next_pet_buff_stacks[player_id].pop()
             self.pet_snapshot[pet_id] = deepcopy(self.buff_stacks[player_id])
 
-    def parse_shift_buff(self, row):
+    def prepare_shift_buff(self, row):
         detail = row.strip("{}").split(",")
         player_id = detail[0]
         if player_id not in self.players:
@@ -308,7 +310,7 @@ class Parser(BaseParser):
             shift_frame = self.current_frame + buff.end_frame_shift
             self.frame_shift_buffs[shift_frame][player_id].pop(buff_id, None)
 
-    def parse_frame_shift_status(self):
+    def parse_shift_buff(self):
         for frame in list(self.frame_shift_buffs):
             if frame > self.current_frame:
                 break
@@ -320,7 +322,7 @@ class Parser(BaseParser):
                         else:
                             self.buff_stacks[player_id].pop(buff_id, None)
 
-    def parse_buff_intervals(self):
+    def parse_custom_buff(self):
         for caster_id, buff_ids in self.buff_intervals.items():
             pop_buff_ids = []
             for buff_id, buff_levels in buff_ids.items():
@@ -386,6 +388,8 @@ class Parser(BaseParser):
         self.current_caster = caster_id
 
         if buff_stack:
+            if buff.continuous:
+                self.current_buff_intervals.pop(buff_id, None)
             if buff.unique:
                 buff_stacks[buff_id] = {buff_level: buff_stack}
             elif unique_id not in self.id2buff:
@@ -393,8 +397,8 @@ class Parser(BaseParser):
                 buff_stacks[buff_id][buff_level] = buff_stacks[buff_id].get(buff_level, 0) + 1
             buff.begin(self)
         else:
-            if buff.continuous and self.current_frame < end_frame:
-                return
+            if buff.continuous:
+                self.current_buff_intervals[buff_id][buff_level] = self.CONTINUOUS_DELAY + 1
             if buff.unique:
                 buff_stacks.pop(buff_id, None)
             elif unique_id in self.id2buff:
@@ -565,13 +569,13 @@ class Parser(BaseParser):
         for row in rows:
             self.current_frame = int(row[1])
             if row[4] == "13":
-                self.parse_shift_buff(row[-1])
+                self.prepare_shift_buff(row[-1])
 
         for row in rows:
             if (current_frame := int(row[1])) != self.current_frame:
                 self.current_frame = current_frame
-                self.parse_frame_shift_status()
-                self.parse_buff_intervals()
+                self.parse_shift_buff()
+                self.parse_custom_buff()
 
             if row[4] == "6":
                 self.parse_pet(row[-1])

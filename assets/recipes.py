@@ -7852,6 +7852,14 @@ RECIPES = {
             "recipe_name": "出岫云散期间加一阳指伤害_破穴"
         }
     },
+    5737: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "段氏pve四件套"
+        }
+    },
     5576: {
         1: {
             "skill_id": 38006,
