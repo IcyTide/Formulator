@@ -247,18 +247,12 @@ class BuffAnalyzer(BaseAnalyzer):
 
     @staticmethod
     def concat_buffs(current_buffs, snapshot_buffs, target_buffs):
-        buffs = []
-        if current_buffs:
-            buffs.append(",".join(buff.display_name for buff in sorted(current_buffs)))
-        if snapshot_buffs:
-            buffs.append(",".join(buff.display_name for buff in sorted(snapshot_buffs)))
-        if target_buffs:
-            buffs.append(",".join(buff.display_name for buff in sorted(target_buffs)))
-
-        if buffs:
-            buffs = "|".join(buffs)
-        else:
-            buffs = "~"
+        buffs = [
+            ",".join(buff.display_name for buff in sorted(current_buffs)),
+            ",".join(buff.display_name for buff in sorted(snapshot_buffs)),
+            ",".join(buff.display_name for buff in sorted(target_buffs))
+        ]
+        buffs = "|".join(buffs)
         return buffs
 
 

@@ -308,7 +308,7 @@ class Parser(BaseParser):
             self.frame_shift_buffs[shift_frame][player_id][buff_id] = {buff_level: buff_stack}
         if buff.end_frame_shift and not buff_stack:
             shift_frame = self.current_frame + buff.end_frame_shift
-            self.frame_shift_buffs[shift_frame][player_id].pop(buff_id, None)
+            self.frame_shift_buffs[shift_frame][player_id][buff_id] = {buff_level: buff_stack}
 
     def parse_shift_buff(self):
         for frame in list(self.frame_shift_buffs):
@@ -399,6 +399,7 @@ class Parser(BaseParser):
         else:
             if buff.continuous:
                 self.current_buff_intervals[buff_id][buff_level] = self.CONTINUOUS_DELAY + 1
+                return
             if buff.unique:
                 buff_stacks.pop(buff_id, None)
             elif unique_id in self.id2buff:

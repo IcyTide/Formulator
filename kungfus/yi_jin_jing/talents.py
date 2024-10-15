@@ -6,12 +6,14 @@ from base.skill import Skill
 
 class 明法(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[17641].post_target_buffs = {12479: {1: 1}}
+        for skill_id in (17641, 17642):
+            skills[skill_id].post_target_buffs = {12479: {1: 1}}
         for skill_id in (3848, 3849, 3850):
             skills[skill_id].post_target_buffs[12479] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[17641].post_target_buffs = {890: {1: 1}}
+        for skill_id in (17641, 17642):
+            skills[skill_id].post_target_buffs = {890: {1: 1}}
         for skill_id in (3848, 3849, 3850):
             skills[skill_id].post_target_buffs.pop(12479)
 

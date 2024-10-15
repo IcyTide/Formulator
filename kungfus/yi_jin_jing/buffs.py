@@ -9,7 +9,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             890: dict(max_stack=2, interval=352),
             12479: dict(max_stack=3, interval=352),
             -13910: dict(buff_name="众嗔", interval=4),
-            12590: dict(buff_name="三生", continuous=True, begin_frame_shift=-1),
+            12590: dict(buff_name="三生", continuous=True),
             19635: dict(buff_name="普渡", interval=4)
         }
     }
