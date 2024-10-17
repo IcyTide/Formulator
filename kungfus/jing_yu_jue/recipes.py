@@ -22,7 +22,7 @@ class 唐门_穿心弩_加伤害2(ChannelIntervalRecipe):
 
 
 class 蹑景追风120非侠士效果(PveAdditionRecipe):
-    value = 1229
+    value = 1024
 
 
 class 蹑景追风80非侠士效果(PveAdditionRecipe):

@@ -308,34 +308,6 @@ RECIPES = {
             "recipe_name": "横扫加会心减cd"
         }
     },
-    2300: {
-        1: {
-            "skill_id": 233,
-            "recipe_type": 233,
-            "recipe_name": "委托无视目标50%内防"
-        }
-    },
-    2301: {
-        1: {
-            "skill_id": 243,
-            "recipe_type": 243,
-            "recipe_name": "拿云无视目标50%内防"
-        }
-    },
-    5096: {
-        1: {
-            "skill_id": 2572,
-            "recipe_type": 2572,
-            "recipe_name": "守缺式无视目标50%内功防御"
-        }
-    },
-    5545: {
-        1: {
-            "skill_id": 232,
-            "recipe_type": 232,
-            "recipe_name": "华香普渡无视防御"
-        }
-    },
     17351: {
         1: {
             "damage_addition": 21,
@@ -1032,13 +1004,6 @@ RECIPES = {
             "recipe_name": "新雪中行快雪时晴伤害提高_4层"
         }
     },
-    2323: {
-        1: {
-            "damage_addition": 1024,
-            "skill_id": 186,
-            "recipe_name": "芙蓉降低5秒调息时间"
-        }
-    },
     1546: {
         1: {
             "damage_addition": 102,
@@ -1113,6 +1078,20 @@ RECIPES = {
             "skill_id": 179,
             "recipe_type": 179,
             "recipe_name": "阳明指_加会心"
+        }
+    },
+    5743: {
+        1: {
+            "skill_id": 2636,
+            "recipe_type": 2636,
+            "recipe_name": "青冠_快雪静止增伤"
+        }
+    },
+    5744: {
+        1: {
+            "skill_id": 179,
+            "recipe_type": 179,
+            "recipe_name": "青冠_阳明静止增伤"
         }
     },
     2439: {
@@ -2086,7 +2065,7 @@ RECIPES = {
     },
     5306: {
         1: {
-            "damage_addition": 410,
+            "damage_addition": 307,
             "skill_id": 18299,
             "recipe_name": "断潮加15%伤害"
         }
@@ -5058,17 +5037,79 @@ RECIPES = {
             "recipe_name": "项王击鼎旋转伤害增加120%"
         }
     },
-    3251: {
+    3351: {
         1: {
-            "damage_addition": 154,
+            "skill_id": 37979,
+            "recipe_name": "临江上将军印归酣"
+        }
+    },
+    3352: {
+        1: {
+            "skill_id": 16601,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3353: {
+        1: {
+            "skill_id": 17078,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3354: {
+        1: {
+            "skill_id": 17079,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3355: {
+        1: {
+            "skill_id": 16627,
+            "recipe_name": "爆体上将+10能"
+        }
+    },
+    3356: {
+        1: {
+            "skill_id": 37979,
+            "recipe_name": "爆体临江上将+10能"
+        }
+    },
+    3357: {
+        1: {
+            "skill_id": 30526,
+            "recipe_name": "爆体余声+10能"
+        }
+    },
+    3358: {
+        1: {
+            "skill_id": 16479,
+            "recipe_name": "爆体割据+10能"
+        }
+    },
+    3359: {
+        1: {
+            "skill_id": 33123,
+            "recipe_name": "爆体扬刀+10能"
+        }
+    },
+    2510: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 16601,
+            "recipe_type": 16601,
+            "recipe_name": "新冥鼓项王"
+        }
+    },
+    2511: {
+        1: {
+            "damage_addition": 205,
             "skill_id": 16602,
             "recipe_type": 16602,
-            "recipe_name": "霸刀破釜沉舟不透支"
+            "recipe_name": "新冥鼓破釜"
         }
     },
     2509: {
         1: {
-            "damage_addition": 256,
+            "damage_addition": 307,
             "skill_id": 16085,
             "recipe_type": 16085,
             "recipe_name": "新砺锋醉斩加伤害"
@@ -5362,22 +5403,6 @@ RECIPES = {
             "skill_id": 16627,
             "recipe_type": 16627,
             "recipe_name": "上将军印增加伤害"
-        }
-    },
-    2510: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 16601,
-            "recipe_type": 16601,
-            "recipe_name": "新冥鼓项王"
-        }
-    },
-    2511: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 16602,
-            "recipe_type": 16602,
-            "recipe_name": "新冥鼓破釜"
         }
     },
     4319: {

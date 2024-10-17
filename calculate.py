@@ -2,6 +2,7 @@ import json
 import os
 from typing import Dict, List, Tuple, Literal
 
+from assets.constant import SPECIAL_ENCHANT_MAP
 from kungfus import SUPPORT_KUNGFU
 
 path = "../jx3_exp_src"
@@ -10,7 +11,10 @@ path = "../jx3_exp_src"
 def build_mapping():
     import pandas as pd
     kungfu2event = {
-        kungfu_id: (list(kungfu.gains)[0][0], list(kungfu.gains)[1][0])
+        kungfu_id: (
+            list(kungfu.gains)[0][0], list(kungfu.gains)[1][0], list(kungfu.gains)[2][0],
+            list(SPECIAL_ENCHANT_MAP[6].values())[0][0]
+        )
         for kungfu_id, kungfu in SUPPORT_KUNGFU.items()
         if kungfu_id != 10786
     }
@@ -19,8 +23,8 @@ def build_mapping():
                      encoding="utf-8").fillna(0)
     skill2mask = {}
     for row in df.itertuples():
-        if row.SkillEventMask1:
-            skill2mask[row.SkillID] = int(row.SkillEventMask1)
+        skill2mask[row.SkillID] = [int(row.SkillEventMask1), int(row.SkillEventMask2)]
+
     df = pd.read_csv(os.path.join(path, "settings/skill/skillevent.tab"), sep="\t", low_memory=False,
                      encoding="utf-8").fillna(0)
     kungfu2mask = {}
@@ -30,7 +34,7 @@ def build_mapping():
         event_probs = kungfu2prob[kungfu_id] = []
         for event_id in event_ids:
             row = df[df.ID == event_id].iloc[0]
-            event_masks.append(int(row.EventMask1))
+            event_masks.append([int(row.EventMask1), int(row.EventMask2)])
             event_probs.append(int(row.Odds))
 
     json.dump(kungfu2mask, open("kungfu2mask.json", "w", encoding="utf-8"))
@@ -85,12 +89,24 @@ class Calculator:
                 continue
 
             skill_id = details[4]
-            if self.skill2mask.get(skill_id, 0) & self.kungfu2mask[self.id2kungfu[player_id]][tag]:
+            skill_mask_1, skill_mask_2 = self.skill2mask.get(skill_id, (0, 0))
+            event_mask_1, event_mask_2 = self.kungfu2mask[self.id2kungfu[player_id]][tag]
+            if skill_mask_1 & event_mask_1 or skill_mask_2 & event_mask_2:
                 if frame not in self.counts[player_id]:
                     self.counts[player_id][frame] = 0
                 self.counts[player_id][frame] += 1
 
-    def calculate_set(self, tag):
+    def calculate(self, tag):
+        for player_id, counts in self.counts.items():
+            player_name = self.id2name[player_id]
+            probs = self.probs[player_name] = {frame: 0 for frame in counts}
+            event_prob = self.kungfu2prob[self.id2kungfu[player_id]][tag] / 1024
+            for frame, count in counts.items():
+                if not count:
+                    continue
+                probs[frame] += event_prob * count
+
+    def calculate_overlap(self, tag):
         for player_id, counts in self.counts.items():
             player_name = self.id2name[player_id]
             probs = self.probs[player_name] = {frame: 0 for frame in counts}
@@ -104,7 +120,7 @@ class Calculator:
                         continue
                     probs[i] += (1 - probs[i]) * prob
 
-    def calculate_divine_1(self, tag):
+    def calculate_interval(self, tag):
         for player_id, counts in self.counts.items():
             player_name = self.id2name[player_id]
             probs = self.probs[player_name] = {frame: 1 for frame in counts}
@@ -114,22 +130,40 @@ class Calculator:
                     continue
                 prob = 1 - (1 - event_prob) ** count
                 probs[frame] *= prob
-                for i in range(frame, frame + self.duration):
+                for i in range(frame, frame + self.interval):
                     if i == frame or i not in probs:
                         continue
                     probs[i] *= 1 - prob
 
-    def __call__(self, file_name, tag: Literal[0, 1] = 0):
+    def calculate_hybrid(self, tag):
+        self.calculate_interval(tag)
+        for player_name, probs in self.probs.items():
+            for frame, prob in probs.items():
+                if not prob:
+                    continue
+                for i in range(frame, frame + self.duration):
+                    if i not in probs:
+                        continue
+                    probs[i] += (1 - probs[i]) * prob
+
+    def __call__(self, file_name, tag: Literal[0, 1, 2, 3] = 0):
         rows = open(file_name, encoding="gbk").readlines()
         self.reset(rows)
         self.prepare()
         self.parse(tag)
         if tag == 0:
             self.duration = 6 * 16
-            self.calculate_set(tag)
+            self.calculate_overlap(tag)
         elif tag == 1:
-            self.duration = 40 * 16
-            self.calculate_divine_1(tag)
+            self.interval = 40 * 16
+            self.calculate_interval(tag)
+        elif tag == 2:
+            self.calculate(tag)
+        elif tag == 3:
+            self.duration = 8 * 16
+            self.interval = 30 * 16
+            self.calculate_hybrid(tag)
+
         return self.probs
 
 
@@ -140,7 +174,6 @@ def plot(data):
         xs = [x - xs[0] for x in xs]
         ys = list(points.values())
         print(sum(ys))
-        # 绘制散点图
         plt.plot(xs, ys, label=name)
     plt.title('Plot of Prob')
     plt.xlabel('X')
@@ -153,5 +186,5 @@ def plot(data):
 if __name__ == '__main__':
     build_mapping()
     calculator = Calculator()
-    result = calculator("logs/yjj-2.jcl", 1)
+    result = calculator("logs/yjj-2.jcl", 3)
     plot(result)

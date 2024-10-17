@@ -13,22 +13,6 @@ class 横扫10会心会效(SolarCriticalRecipe):
     value = (1000, 205)
 
 
-class 拿云委托无视目标50内防(MagicalShieldGainRecipe):
-    value = -614
-
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (
-                3833, 3842, 3845, 3836, 3843, 3846, 3839, 3844, 3847, 13681, 13682, 13683, 13684, 13685, 13686, 3848,
-                3849, 3850, 6787, 3816, 3815, 3814, 2866, 17642, 17641):
-            super().add_skill(skill)
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (
-                3833, 3842, 3845, 3836, 3843, 3846, 3839, 3844, 3847, 13681, 13682, 13683, 13684, 13685, 13686, 3848,
-                3849, 3850, 6787, 3816, 3815, 3814, 2866, 17642, 17641):
-            super().sub_skill(skill)
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -65,9 +49,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         横扫10会心会效: {
             5157: {}
-        },
-        拿云委托无视目标50内防: {
-            2300: {}, 2301: {}, 5096: {}, 5545: {}
         }
     },
     1: {

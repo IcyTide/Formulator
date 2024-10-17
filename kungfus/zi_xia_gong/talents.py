@@ -4,6 +4,14 @@ from base.gain import Gain
 from base.skill import Skill
 
 
+class 霜锋(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[896].post_buffs[29183] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[896].post_buffs.pop(29183)
+
+
 class 固本(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         skills[2681].post_buffs.pop(2757)
@@ -32,7 +40,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             17752: Gain("不善")
         },
         {
-            5828: Gain("霜锋"),
+            5828: 霜锋("霜锋"),
             5823: Gain("心固"),
             17747: Gain("吐故纳新")
         },

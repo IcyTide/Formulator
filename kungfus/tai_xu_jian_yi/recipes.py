@@ -18,7 +18,7 @@ class 无我增加会心10会心后伤害20(PhysicalCriticalRecipe):
 
 
 class 叠刃伤害实际提高(ChannelIntervalRecipe):
-    value = 1.2
+    value = 1.45
 
 
 class 万剑10会心会效(PhysicalCriticalRecipe):
@@ -32,7 +32,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             70: {}, 71: {}, 72: {},
             105: {}, 106: {}, 107: {},
             1589: {}, 1590: {}, 1591: {},
-            3253: {}, 2860: {},
+            3253: {}, 2860: {}, 5616: {}, (5613, 2): {},
             5722: {},
             (818, 1): {}, 1522: {}, 1523: {}
         },

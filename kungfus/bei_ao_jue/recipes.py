@@ -17,18 +17,6 @@ class 上将军印无视外防(PhysicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
-class 新冥鼓无视防御(PhysicalShieldGainRecipe):
-    value = -512
-
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
-            super().add_skill(skill)
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (16758, 16759, 16760, 16382, 20991):
-            super().sub_skill(skill)
-
-
 class 绝期_闹须弥增加持续伤害(ChannelIntervalRecipe):
     value = 1.7
 
@@ -46,7 +34,8 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4374: {}, 4375: {}, 4376: {},
             **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)}, 3350: {},
             **{recipe_id: {} for recipe_id in range(4247, 4255 + 1)}, 4309: {}, 4310: {}, 4311: {},
-            3251: {}, 2509: {}, 2474: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
+            **{recipe_id: {} for recipe_id in range(3350, 3359 + 1)},
+            2510: {}, 2511: {}, 2509: {}, 2474: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
             4290: {}, 4291: {}, 4294: {}, 4295: {}
         },
         CriticalStrikeRecipe_200: {
@@ -87,9 +76,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         上将军印无视外防: {
             4298: {}
-        },
-        新冥鼓无视防御: {
-            2510: {}, 2511: {}
         },
         绝期_闹须弥增加持续伤害: {
             4319: {}, 2833: {}

@@ -72,7 +72,7 @@ TEAM_GAINS = [
     create_team_gain(GENERAL_BUFFS[24350], TeamGain, GENERAL_BUFFS[24350].attributes),
     create_team_gain(GENERAL_BUFFS[-378], TeamGain, GENERAL_BUFFS[-378].get_attributes(level=7)),
     create_team_gain(GENERAL_BUFFS[-375], TeamGain, GENERAL_BUFFS[-375].get_attributes(level=5)),
-    create_team_gain(GENERAL_BUFFS[21236], TeamGain, GENERAL_BUFFS[21236].attributes),
+    create_team_gain(GENERAL_BUFFS[29354], TeamGain, GENERAL_BUFFS[29354].attributes),
     create_team_gain(GENERAL_BUFFS[24742], TeamGain, GENERAL_BUFFS[24742].attributes),
     create_team_gain(GENERAL_BUFFS[-4058], TargetTeamGain, GENERAL_BUFFS[-4058].get_attributes(level=1)),
     create_team_gain(GENERAL_BUFFS[4246], TeamGain, {

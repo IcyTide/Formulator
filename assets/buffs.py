@@ -6641,7 +6641,7 @@ BUFFS = {
     },
     20938: {
         "attributes": {
-            "strain_base": 90
+            "strain_base": 100
         },
         "max_level": 1,
         "buff_name": "左旋右转",
@@ -6651,7 +6651,7 @@ BUFFS = {
     },
     23107: {
         "attributes": {
-            "strain_base": 540
+            "strain_base": 594
         },
         "max_level": 1,
         "buff_name": "号令三军",
@@ -6691,7 +6691,7 @@ BUFFS = {
     },
     10208: {
         "attributes": {
-            "strain_base": 600
+            "strain_base": 660
         },
         "max_level": 1,
         "buff_name": "弘法",
@@ -6710,33 +6710,39 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    21236: {
-        "attributes": {
-            "weapon_damage_gain": 1536
-        },
-        "max_level": 13,
-        "buff_name": "百锻",
-        "alias_name": [
-            "百锻",
-            "百锻",
-            "百锻",
-            "百锻（丐帮专用）",
-            "百锻（苍云专用）",
-            "百锻（奶毒专用）",
-            "百锻（毒经专用）",
-            "百锻（花间专用）",
-            "百锻（奶花专用）",
-            "百锻（无方专用）",
-            "百锻（灵素专用）",
-            "百锻（自身额外）",
-            "百锻（兽王庄专用）"
+    29354: {
+        "attributes": [
+            {
+                "physical_overcome_base": 11298,
+                "poison_overcome_base": 11298,
+                "lunar_overcome_base": 11298,
+                "neutral_overcome_base": 11298,
+                "solar_overcome_base": 11298
+            },
+            {
+                "physical_overcome_base": 22596,
+                "poison_overcome_base": 22596,
+                "lunar_overcome_base": 22596,
+                "neutral_overcome_base": 22596,
+                "solar_overcome_base": 22596
+            },
+            {
+                "physical_overcome_base": 45192,
+                "poison_overcome_base": 45192,
+                "lunar_overcome_base": 45192,
+                "neutral_overcome_base": 45192,
+                "solar_overcome_base": 45192
+            }
         ],
+        "max_level": 3,
+        "buff_name": "百锻",
+        "alias_name": "新打铁buff",
         "max_stack": 1,
         "recipes": {}
     },
     24742: {
         "attributes": {
-            "strain_base": 324
+            "strain_base": 360
         },
         "max_level": 1,
         "buff_name": "仙王蛊鼎",
@@ -6746,7 +6752,7 @@ BUFFS = {
     },
     4246: {
         "attributes": {
-            "strain_base": 400
+            "strain_base": 440
         },
         "max_level": 1,
         "buff_name": "朝圣",
@@ -6756,7 +6762,7 @@ BUFFS = {
     },
     8504: {
         "attributes": {
-            "strain_base": 72
+            "strain_base": 80
         },
         "max_level": 1,
         "buff_name": "振奋",
@@ -6766,7 +6772,7 @@ BUFFS = {
     },
     10031: {
         "attributes": {
-            "strain_gain": 102
+            "strain_rate": 51
         },
         "max_level": 1,
         "buff_name": "寒啸千军",
@@ -6776,7 +6782,7 @@ BUFFS = {
     },
     23543: {
         "attributes": {
-            "strain_base": 72
+            "strain_base": 80
         },
         "max_level": 1,
         "buff_name": "庄周梦",
@@ -6813,7 +6819,7 @@ BUFFS = {
     },
     29294: {
         "attributes": {
-            "strain_base": 90
+            "strain_base": 100
         },
         "max_level": 1,
         "buff_name": "秋肃",
@@ -6831,7 +6837,7 @@ BUFFS = {
     },
     9744: {
         "attributes": {
-            "strain_base": 600
+            "strain_base": 660
         },
         "max_level": 1,
         "buff_name": "朝圣",
@@ -7539,14 +7545,6 @@ BUFFS = {
         "max_stack": 10,
         "recipes": {}
     },
-    24288: {
-        "attributes": {},
-        "max_level": 6,
-        "buff_name": "果报",
-        "alias_name": "业因实际效果",
-        "max_stack": 4,
-        "recipes": {}
-    },
     21859: {
         "attributes": {
             "solar_critical_strike_rate": 500,
@@ -7583,6 +7581,15 @@ BUFFS = {
         "recipes": {
             2862: 1
         }
+    },
+    29547: {
+        "attributes": {
+            "all_shield_ignore": 614
+        },
+        "max_level": 1,
+        "alias_name": "新华香常驻无视",
+        "max_stack": 1,
+        "recipes": {}
     },
     890: {
         "attributes": {},
@@ -7887,6 +7894,17 @@ BUFFS = {
             2860: 1
         }
     },
+    29204: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "人剑合一",
+        "alias_name": "剑纯人剑合一状态",
+        "max_stack": 1,
+        "recipes": {
+            5616: 1,
+            5613: 2
+        }
+    },
     6093: {
         "attributes": {
             "physical_attack_power_gain": 102,
@@ -7965,15 +7983,6 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "钟灵",
         "alias_name": "新新钟灵加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29525: {
-        "attributes": {
-            "all_shield_ignore": 512
-        },
-        "max_level": 1,
-        "alias_name": "新青冠无视防御",
         "max_stack": 1,
         "recipes": {}
     },
@@ -8461,11 +8470,11 @@ BUFFS = {
             {
                 "physical_critical_strike_rate": 2000,
                 "physical_attack_power_gain": 154,
-                "strain_gain": 512
+                "strain_gain": 307
             },
             {
                 "physical_critical_strike_rate": 2000,
-                "strain_gain": 512
+                "strain_gain": 307
             },
             {
                 "physical_critical_strike_rate": 2000,
@@ -8690,7 +8699,7 @@ BUFFS = {
     },
     18008: {
         "attributes": {
-            "physical_critical_strike_rate": 1000
+            "physical_critical_strike_rate": 800
         },
         "max_level": 1,
         "buff_name": "闻踪",
@@ -9796,12 +9805,42 @@ BUFFS = {
             2474: 1
         }
     },
-    29218: {
+    29219: {
         "attributes": {
-            "all_damage_addition": 205
+            "all_damage_addition": 307
         },
         "max_level": 1,
-        "alias_name": "新爆体大刀下伤害提升",
+        "buff_name": "斩狂枭",
+        "alias_name": "新爆体持续监控",
+        "max_stack": 1,
+        "recipes": {
+            3350: 1,
+            3352: 1,
+            3353: 1,
+            3354: 1,
+            3355: 1,
+            3356: 1,
+            3357: 1,
+            3358: 1,
+            3359: 1
+        }
+    },
+    29561: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "buff_name": "冥鼓",
+        "alias_name": "冥鼓无视防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29478: {
+        "attributes": {
+            "strain_gain": 307
+        },
+        "max_level": 1,
+        "alias_name": "星火常驻无双",
         "max_stack": 1,
         "recipes": {}
     },
@@ -9848,16 +9887,6 @@ BUFFS = {
                 4311: 1
             }
         ]
-    },
-    29478: {
-        "attributes": {
-            "all_shield_ignore": 512,
-            "strain_gain": 307
-        },
-        "max_level": 1,
-        "alias_name": "爆体常驻无视",
-        "max_stack": 1,
-        "recipes": {}
     },
     11221: {
         "attributes": {},

@@ -79,7 +79,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             16799: Gain("霜天"),
-            16728: Gain("星火", attributes=dict(strength_gain=102)),
+            16728: Gain("星火", buff_ids=[-29478], attributes=dict(strength_gain=102)),
         },
         {
             26735: Gain("砺锋"),
@@ -97,7 +97,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         {
             25258: Gain("掠关"),
             16779: Gain("化蛟"),
-            34677: Gain("绝河", recipes=[(3251, 1)])
+            34677: Gain("绝河")
         },
         {
             16748: Gain("逐鹿"),
@@ -112,7 +112,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16977: Gain("冷川")
         },
         {
-            21858: Gain("降麒式", buff_ids=[-29478])
+            21858: Gain("斩狂枭"),
+            16912: Gain("心镜")
         }
     ],
     1: [

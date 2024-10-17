@@ -11,3 +11,5 @@ def prepare(self, player_id):
     self.buff_stacks[player_id][10023][1] = 1
     if 17730 in self.select_talents[player_id]:
         self.buff_stacks[player_id][11979][1] = 1
+    if 38957 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][29547][1] = 1

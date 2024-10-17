@@ -108,7 +108,7 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "藏剑")
 
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[21236]), 0, 0)
+        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[29354]), 0, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)

@@ -5,11 +5,30 @@ from base.skill import Skill
 
 
 class 风逝(Gain):
+    @staticmethod
+    def trigger_effect(parser):
+        if parser.current_buff_stacks[29204].get(1):
+            parser.refresh_target_buff(29451, 1)
+
+    @staticmethod
+    def consume_pre_effect(parser):
+        if buff_stack := parser.current_target_buff_stacks[29451].get(1):
+            parser.refresh_target_buff(-29451, 1, buff_stack)
+
+    @staticmethod
+    def consume_post_effect(parser):
+        parser.clear_target_buff(-29451)
+        parser.clear_target_buff(29451)
+
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[394].post_target_buffs[29451] = {1: 1}
+        skills[394].post_effects.append(self.trigger_effect)
+        skills[4954].pre_effects.append(self.consume_pre_effect)
+        skills[4954].post_effects.append(self.consume_post_effect)
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[394].post_target_buffs.pop(29451)
+        skills[394].post_effects.remove(self.trigger_effect)
+        skills[4954].pre_effects.remove(self.consume_pre_effect)
+        skills[4954].post_effects.remove(self.consume_post_effect)
 
 
 class 无欲(Gain):
@@ -28,7 +47,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5807: Gain("心固", recipes=[(638, 3)])
         },
         {
-            32407: Gain("环月", recipes=[(5722,1)])
+            32407: Gain("环月", recipes=[(5722, 1)])
         },
         {
             5800: Gain("白虹"),

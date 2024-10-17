@@ -30,6 +30,19 @@ class 鬼门(Gain):
                 skill.post_effects.remove(self.post_effect)
 
 
+class 凄骨(Gain):
+    @staticmethod
+    def post_effect(parser):
+        if parser.current_buff_stacks[20054].get(1) == 3:
+            parser.refresh_buff(20696, 1)
+
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[27557].post_effects.append(self.post_effect)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[27557].post_effects.remove(self.post_effect)
+
+
 class 疾根(Gain):
     def add_dots(self, dots: Dict[int, Dot]):
         dots[20052].tick_add += 1
@@ -68,13 +81,13 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             28413: Gain("相使")
         },
         {
-            28419: Gain("凄骨")
+            28419: 凄骨("凄骨")
         },
         {
             28432: 疾根("疾根")
         },
         {
-            28433: Gain("紫伏"),
+            38965: Gain("紫伏"),
             28431: Gain("避奚"),
             30734: Gain("折枝拂露")
         },
