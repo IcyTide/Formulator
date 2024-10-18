@@ -1,8 +1,8 @@
-from base.attribute import MixingAttribute
+from base.attribute import HybridAttribute
 from base.constant import *
 
 
-class Attribute(MixingAttribute):
+class Attribute(HybridAttribute):
     attribute_id = {
         0: 10225
     }

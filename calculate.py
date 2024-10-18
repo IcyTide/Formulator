@@ -173,7 +173,7 @@ def plot(data):
         xs = list(points)
         xs = [x - xs[0] for x in xs]
         ys = list(points.values())
-        print(sum(ys))
+        print(sum(ys) / len(ys))
         plt.plot(xs, ys, label=name)
     plt.title('Plot of Prob')
     plt.xlabel('X')
@@ -184,7 +184,7 @@ def plot(data):
 
 
 if __name__ == '__main__':
-    build_mapping()
+    # build_mapping()
     calculator = Calculator()
-    result = calculator("logs/yjj-2.jcl", 3)
+    result = calculator("logs/wf-2.jcl", 1)
     plot(result)

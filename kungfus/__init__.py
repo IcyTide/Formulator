@@ -7,6 +7,7 @@ from base.gain import Gain
 from base.recipe import Recipe
 from base.skill import Skill
 from general.buffs import GENERAL_BUFFS
+from general.dots import GENERAL_DOTS
 from general.recipes import GENERAL_RECIPES
 from general.skills import GENERAL_SKILLS
 from kungfus import ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue, bei_ao_jue, gu_feng_jue
@@ -80,7 +81,7 @@ class Kungfu:
                     buff.set_asset(attrs)
 
     def build_dots(self, kungfu):
-        self.all_dots, self.dots = {}, {}
+        self.all_dots, self.dots = {}, {**GENERAL_DOTS}
         for platform, dots in kungfu.DOTS.items():
             self.all_dots[platform] = {}
             for dot_class, items in dots.items():

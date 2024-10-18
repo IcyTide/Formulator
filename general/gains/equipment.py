@@ -61,7 +61,6 @@ class CriticalSet(EquipmentGain):
     def __init__(self, buff: Buff):
         self.buff_ids = [buff.buff_id]
         self.attributes = buff.attributes
-        buff.activate = False
         super().__init__()
 
 
@@ -120,6 +119,81 @@ class 大附魔鞋(EquipmentGain):
     skill_ids = [37561]
 
 
+class TertiaryWeaponGain(EquipmentGain):
+    dot_ids = [29541]
+
+
+class HatGain(EquipmentGain):
+    attr_level: int
+
+    buff_ids = [29519]
+    _attributes = GENERAL_BUFFS[29519].all_attributes
+
+    @property
+    def attributes(self):
+        level = self.level * 3 + self.attr_level
+        return self._attributes[level - 1]
+
+    def add_attribute(self, attribute: Attribute):
+        max_value = max(attribute.final_overcome, attribute.final_critical_strike, attribute.surplus)
+        if attribute.final_overcome == max_value:
+            self.attr_level = -2
+        elif attribute.final_critical_strike == max_value:
+            self.attr_level = -1
+        else:
+            self.attr_level = 0
+        super().add_attribute(attribute)
+
+
+class OvercomePendantGain(EquipmentGain):
+    buff_ids = [29536]
+    _attributes = GENERAL_BUFFS[29536].all_attributes
+
+
+class CriticalPendantGain(EquipmentGain):
+    buff_ids = [29537]
+    _attributes = GENERAL_BUFFS[29537].all_attributes
+
+
+class NecklaceGain(EquipmentGain):
+    scales: List[int]
+
+    @property
+    def scale(self):
+        return self.scales[self.level - 1]
+
+    def add_attribute(self, attribute: Attribute):
+        self.rate = int(attribute.final_overcome / self.scale)
+        super().add_attribute(attribute)
+
+
+class OvercomeNecklaceGain(NecklaceGain):
+    scales = [5427, 5648]
+    buff_ids = [29529]
+
+
+class CriticalNecklaceGain(NecklaceGain):
+    scales = [4748, 4942]
+    buff_ids = [29528]
+
+    def add_attribute(self, attribute: Attribute):
+        scale = self.scales[self.level - 1]
+        self.rate = int(attribute.final_overcome / scale)
+        super().add_attribute(attribute)
+
+
+class OvercomeShoesGain(EquipmentGain):
+    buff_ids = [29526]
+    _attributes = GENERAL_BUFFS[29526].all_attributes
+    rate = 10 / 20
+
+
+class CriticalShoesGain(EquipmentGain):
+    buff_ids = [29524]
+    _attributes = GENERAL_BUFFS[29524].all_attributes
+    rate = 10 / 20
+
+
 def set_real_formulation(tag):
     EquipmentGain.real_formulation = tag
 
@@ -164,7 +238,36 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for gain_key in SPECIAL_ENCHANT_MAP[9].values()
     },
     **{
-        (gain_id, ): Gain()
-        for gain_id in range(2697, 2712 + 1)
+        (gain_id,): TertiaryWeaponGain()
+        for gain_id in (2701, 2706)
+    },
+    **{
+        (gain_id,): HatGain(i)
+        for i, gain_id in enumerate((2698, 2703))
+    },
+    **{
+        (gain_id,): OvercomePendantGain(i)
+        for i, gain_id in enumerate((2700, 2705))
+    },
+    **{
+        (gain_id,): CriticalPendantGain(i)
+        for i, gain_id in enumerate((2711, 2712))
+    },
+    **{
+        (gain_id,): OvercomeNecklaceGain(i)
+        for i, gain_id in enumerate((2699, 2704))
+    },
+    **{
+        (gain_id,): CriticalNecklaceGain(i)
+        for i, gain_id in enumerate((2707, 2708))
+    },
+    **{
+        (gain_id,): OvercomeShoesGain(i)
+        for i, gain_id in enumerate((2697, 2702))
+    },
+    **{
+        (gain_id,): CriticalShoesGain(i)
+        for i, gain_id in enumerate((2709, 2710))
     }
+
 }

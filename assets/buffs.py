@@ -5006,6 +5006,136 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    29519: {
+        "attributes": [
+            {
+                "physical_overcome_base": 2440,
+                "magical_overcome_base": 2440
+            },
+            {
+                "all_critical_strike_base": 2440
+            },
+            {
+                "surplus_base": 2440
+            },
+            {
+                "physical_overcome_base": 2540,
+                "magical_overcome_base": 2540
+            },
+            {
+                "all_critical_strike_base": 2540
+            },
+            {
+                "surplus_base": 2540
+            }
+        ],
+        "max_level": 6,
+        "alias_name": "黄字帽子适应之力",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29537: {
+        "attributes": [
+            {
+                "all_critical_power_base": 270
+            },
+            {
+                "all_critical_power_base": 282
+            }
+        ],
+        "max_level": 2,
+        "alias_name": "黄字腰坠会效",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    29536: {
+        "attributes": [
+            {
+                "physical_overcome_base": 270,
+                "magical_overcome_base": 270
+            },
+            {
+                "physical_overcome_base": 282,
+                "magical_overcome_base": 282
+            }
+        ],
+        "max_level": 2,
+        "alias_name": "黄字腰坠破防",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    29524: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 4218
+            },
+            {
+                "all_critical_strike_base": 4391
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "黄字鞋子加会心_低品",
+            "黄字鞋子加会心_高品"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29526: {
+        "attributes": [
+            {
+                "physical_overcome_base": 4218,
+                "magical_overcome_base": 4218
+            },
+            {
+                "physical_overcome_base": 4391,
+                "magical_overcome_base": 4391
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "黄字鞋子加破防_低品",
+            "黄字鞋子加破防_高品"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29528: {
+        "attributes": [
+            {
+                "all_critical_power_base": 109
+            },
+            {
+                "all_critical_power_base": 114
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "黄字项链会效_低品",
+            "黄字项链会效_高品"
+        ],
+        "max_stack": 10,
+        "recipes": {}
+    },
+    29529: {
+        "attributes": [
+            {
+                "physical_attack_power_base": 30,
+                "magical_attack_power_base": 33
+            },
+            {
+                "physical_attack_power_base": 32,
+                "magical_attack_power_base": 35
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "黄字项链攻击_低品",
+            "黄字项链攻击_高品"
+        ],
+        "max_stack": 10,
+        "recipes": {}
+    },
     918: {
         "attributes": {},
         "max_level": 1,
@@ -10366,6 +10496,13 @@ BUFFS = {
         "buff_name": "凄骨",
         "alias_name": "凄骨无视防御",
         "max_stack": 1,
+        "recipes": {}
+    },
+    20054: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "奚毒射罔计数",
+        "max_stack": 4,
         "recipes": {}
     },
     20718: {

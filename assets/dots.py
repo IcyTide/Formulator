@@ -1,4 +1,12 @@
 DOTS = {
+    29541: {
+        "buff_name": "火·燎原(DOT)",
+        "alias_name": "黄字暗器dot",
+        "interval": 32,
+        "tick": 7,
+        "max_stack": 1,
+        "platform": 0
+    },
     743: {
         "buff_name": "横扫六合(DOT)",
         "alias_name": "六合内伤",
@@ -756,6 +764,16 @@ DOTS = {
             95,
             100
         ],
+        "poison_damage_call": 1
+    },
+    29549: {
+        "buff_name": "雀引(DOT)",
+        "alias_name": "雀引持续伤害",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 180,
         "poison_damage_call": 1
     },
     4202: {

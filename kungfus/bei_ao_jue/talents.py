@@ -10,19 +10,31 @@ class 含风(Gain):
         for skill_id in range(16610, 16614 + 1):
             skills[skill_id].pre_buffs[18384] = {1: 1}
             skills[skill_id].pre_buffs[23066] = {1: 1}
+        for skill_id in range(16913, 16918 + 1):
+            skills[skill_id].pre_buffs[18384] = {1: 1}
+            skills[skill_id].pre_buffs[23066] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in range(16610, 16614 + 1):
+            skills[skill_id].pre_buffs.pop(18384)
+            skills[skill_id].pre_buffs.pop(23066)
+        for skill_id in range(16913, 16918 + 1):
             skills[skill_id].pre_buffs.pop(18384)
             skills[skill_id].pre_buffs.pop(23066)
 
 
 class 斩纷(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[16615].pre_buffs[19510] = {1: 1}
+        for skill_id in range(16615, 16619 + 1):
+            skills[skill_id].pre_buffs[19510] = {1: 1}
+        for skill_id in range(16920, 16925 + 1):
+            skills[skill_id].pre_buffs[19510] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[16615].pre_buffs.pop(19510)
+        for skill_id in range(16615, 16619 + 1):
+            skills[skill_id].pre_buffs.pop(19510)
+        for skill_id in range(16920, 16925 + 1):
+            skills[skill_id].pre_buffs.pop(19510)
 
 
 class 征踏(Gain):

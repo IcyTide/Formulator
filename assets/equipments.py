@@ -8934,6 +8934,198 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修鞋·外·荒#104453 (25500 精简 会心 破招 无双)": {
+            "id": 104453,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "physical_attack_power_base": 3510,
+                "physical_critical_strike_base": 4454,
+                "surplus_base": 4454,
+                "strain_base": 4454
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2710
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104452 (25500 精简 破防 无双)": {
+            "id": 104452,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "physical_attack_power_base": 2905,
+                "physical_overcome_base": 4900,
+                "strain_base": 9800
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [
+                [
+                    2702
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104451 (25500 精简 无双)": {
+            "id": 104451,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "physical_attack_power_base": 4116,
+                "strain_base": 9800
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2702
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104450 (25500 精简 会心 破招 无双)": {
+            "id": 104450,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "magical_attack_power_base": 3903,
+                "all_critical_strike_base": 4454,
+                "surplus_base": 4454,
+                "strain_base": 4454
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2710
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104449 (25500 精简 破防 无双)": {
+            "id": 104449,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "magical_attack_power_base": 3230,
+                "magical_overcome_base": 4900,
+                "strain_base": 9800
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [
+                [
+                    2702
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104448 (25500 精简 无双)": {
+            "id": 104448,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9800,
+                "magical_attack_power_base": 4576,
+                "strain_base": 9800
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2702
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修鞋·外·荒#101829 (25500 精简 会心 破招 无双)": {
             "id": 101829,
             "name": "无修鞋·外·荒",
@@ -9119,6 +9311,202 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2702
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104441 (24500 精简 破防 破招 无双)": {
+            "id": 104441,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "physical_attack_power_base": 3373,
+                "physical_overcome_base": 4280,
+                "surplus_base": 4280,
+                "strain_base": 4280
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2697
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104440 (24500 精简 会心 破防 无双)": {
+            "id": 104440,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "physical_attack_power_base": 3373,
+                "physical_critical_strike_base": 4280,
+                "physical_overcome_base": 4280,
+                "strain_base": 4280
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [
+                [
+                    2709
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104439 (24500 精简 会心 无双)": {
+            "id": 104439,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "physical_attack_power_base": 2791,
+                "physical_critical_strike_base": 9843,
+                "strain_base": 5136
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2709
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104438 (24500 精简 破防 破招 无双)": {
+            "id": 104438,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "magical_attack_power_base": 3750,
+                "magical_overcome_base": 4280,
+                "surplus_base": 4280,
+                "strain_base": 4280
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2697
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104437 (24500 精简 会心 破防 无双)": {
+            "id": 104437,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "magical_attack_power_base": 3750,
+                "all_critical_strike_base": 4280,
+                "magical_overcome_base": 4280,
+                "strain_base": 4280
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [
+                [
+                    2709
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104436 (24500 精简 会心 无双)": {
+            "id": 104436,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9415,
+                "magical_attack_power_base": 3104,
+                "all_critical_strike_base": 9843,
+                "strain_base": 5136
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2709
                 ]
             ],
             "recipes": {},
@@ -9317,6 +9705,164 @@ EQUIPMENTS = {
                     2709
                 ]
             ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104429 (23500 精简 会心 会效 无双)": {
+            "id": 104429,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "physical_attack_power_base": 3235,
+                "physical_critical_strike_base": 6158,
+                "physical_critical_power_base": 3079,
+                "strain_base": 3079
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104428 (23500 精简 破招 无双)": {
+            "id": 104428,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "physical_attack_power_base": 2231,
+                "surplus_base": 9442,
+                "strain_base": 6158
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104427 (23500 精简 破防 无双)": {
+            "id": 104427,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "physical_attack_power_base": 2677,
+                "physical_overcome_base": 9442,
+                "strain_base": 4926
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104426 (23500 精简 会心 会效 无双)": {
+            "id": 104426,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "magical_attack_power_base": 3597,
+                "all_critical_strike_base": 6158,
+                "all_critical_power_base": 3079,
+                "strain_base": 3079
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104425 (23500 精简 破招 无双)": {
+            "id": 104425,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "magical_attack_power_base": 2481,
+                "surplus_base": 9442,
+                "strain_base": 6158
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104424 (23500 精简 破防 无双)": {
+            "id": 104424,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9031,
+                "magical_attack_power_base": 2977,
+                "magical_overcome_base": 9442,
+                "strain_base": 4926
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -10314,6 +10860,162 @@ EQUIPMENTS = {
                     ]
                 ]
             },
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104417 (22500 精简 会心 破招 无双)": {
+            "id": 104417,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "physical_attack_power_base": 3097,
+                "physical_critical_strike_base": 3930,
+                "surplus_base": 3930,
+                "strain_base": 3930
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104416 (22500 精简 破防 无双)": {
+            "id": 104416,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "physical_attack_power_base": 2563,
+                "physical_overcome_base": 4323,
+                "strain_base": 8647
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104415 (22500 精简 无双)": {
+            "id": 104415,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "physical_attack_power_base": 3631,
+                "strain_base": 8647
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104414 (22500 精简 会心 破招 无双)": {
+            "id": 104414,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "magical_attack_power_base": 3444,
+                "all_critical_strike_base": 3930,
+                "surplus_base": 3930,
+                "strain_base": 3930
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104413 (22500 精简 破防 无双)": {
+            "id": 104413,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "magical_attack_power_base": 2850,
+                "magical_overcome_base": 4323,
+                "strain_base": 8647
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104412 (22500 精简 无双)": {
+            "id": 104412,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "magical_attack_power_base": 4038,
+                "strain_base": 8647
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
             "set_recipe": {}
         },
         "孤山寒月·逐刃靴#103501 (22500 会心 无双)": {
@@ -11778,6 +12480,166 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
+        "无修鞋·外·荒#104405 (21600 精简 破防 破招 无双)": {
+            "id": 104405,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "physical_attack_power_base": 2974,
+                "physical_overcome_base": 3773,
+                "surplus_base": 3773,
+                "strain_base": 3773
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104404 (21600 精简 会心 破防 无双)": {
+            "id": 104404,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "physical_attack_power_base": 2974,
+                "physical_critical_strike_base": 3773,
+                "physical_overcome_base": 3773,
+                "strain_base": 3773
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104403 (21600 精简 会心 无双)": {
+            "id": 104403,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "physical_attack_power_base": 2461,
+                "physical_critical_strike_base": 8678,
+                "strain_base": 4528
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104402 (21600 精简 破防 破招 无双)": {
+            "id": 104402,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "magical_attack_power_base": 3306,
+                "magical_overcome_base": 3773,
+                "surplus_base": 3773,
+                "strain_base": 3773
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104401 (21600 精简 会心 破防 无双)": {
+            "id": 104401,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "magical_attack_power_base": 3306,
+                "all_critical_strike_base": 3773,
+                "magical_overcome_base": 3773,
+                "strain_base": 3773
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104400 (21600 精简 会心 无双)": {
+            "id": 104400,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8301,
+                "magical_attack_power_base": 2736,
+                "all_critical_strike_base": 8678,
+                "strain_base": 4528
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修鞋·外·荒#101733 (21600 精简 破防 破招 无双)": {
             "id": 101733,
             "name": "无修鞋·外·荒",
@@ -12171,6 +13033,164 @@ EQUIPMENTS = {
             "embed": {
                 "magical_attack_power_base": 97,
                 "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104393 (20700 精简 会心 会效 无双)": {
+            "id": 104393,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "physical_attack_power_base": 2850,
+                "physical_critical_strike_base": 5424,
+                "physical_critical_power_base": 2712,
+                "strain_base": 2712
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104392 (20700 精简 破招 无双)": {
+            "id": 104392,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "physical_attack_power_base": 1965,
+                "surplus_base": 8317,
+                "strain_base": 5424
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104391 (20700 精简 破防 无双)": {
+            "id": 104391,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "physical_attack_power_base": 2358,
+                "physical_overcome_base": 8317,
+                "strain_base": 4339
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104390 (20700 精简 会心 会效 无双)": {
+            "id": 104390,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "magical_attack_power_base": 3169,
+                "all_critical_strike_base": 5424,
+                "all_critical_power_base": 2712,
+                "strain_base": 2712
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104389 (20700 精简 破招 无双)": {
+            "id": 104389,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "magical_attack_power_base": 2185,
+                "surplus_base": 8317,
+                "strain_base": 5424
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104388 (20700 精简 破防 无双)": {
+            "id": 104388,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7955,
+                "magical_attack_power_base": 2622,
+                "magical_overcome_base": 8317,
+                "strain_base": 4339
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
             },
             "gains": [],
             "recipes": {},
@@ -13085,6 +14105,162 @@ EQUIPMENTS = {
             "embed": {
                 "magical_attack_power_base": 97,
                 "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104381 (19800 精简 会心 破招 无双)": {
+            "id": 104381,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 2726,
+                "physical_critical_strike_base": 3459,
+                "surplus_base": 3459,
+                "strain_base": 3459
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104380 (19800 精简 破防 无双)": {
+            "id": 104380,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 2256,
+                "physical_overcome_base": 3805,
+                "strain_base": 7609
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·外·荒#104379 (19800 精简 无双)": {
+            "id": 104379,
+            "name": "无修鞋·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "physical_attack_power_base": 3196,
+                "strain_base": 7609
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104378 (19800 精简 会心 破招 无双)": {
+            "id": 104378,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 3031,
+                "all_critical_strike_base": 3459,
+                "surplus_base": 3459,
+                "strain_base": 3459
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104377 (19800 精简 破防 无双)": {
+            "id": 104377,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 2508,
+                "magical_overcome_base": 3805,
+                "strain_base": 7609
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修鞋·内·荒#104376 (19800 精简 无双)": {
+            "id": 104376,
+            "name": "无修鞋·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7609,
+                "magical_attack_power_base": 3553,
+                "strain_base": 7609
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -26640,6 +27816,204 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修冠·外·荒#104447 (25500 精简 会心 破防 无双)": {
+            "id": 104447,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "physical_attack_power_base": 4513,
+                "physical_critical_strike_base": 5727,
+                "physical_overcome_base": 5727,
+                "strain_base": 5727
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104446 (25500 精简 会心 无双)": {
+            "id": 104446,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "physical_attack_power_base": 3735,
+                "physical_critical_strike_base": 6300,
+                "strain_base": 12600
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104445 (25500 精简 无双)": {
+            "id": 104445,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "physical_attack_power_base": 5292,
+                "strain_base": 12600
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104444 (25500 精简 会心 破防 无双)": {
+            "id": 104444,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "magical_attack_power_base": 5019,
+                "all_critical_strike_base": 5727,
+                "magical_overcome_base": 5727,
+                "strain_base": 5727
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104443 (25500 精简 会心 无双)": {
+            "id": 104443,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "magical_attack_power_base": 4153,
+                "all_critical_strike_base": 6300,
+                "strain_base": 12600
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104442 (25500 精简 无双)": {
+            "id": 104442,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12600,
+                "magical_attack_power_base": 5884,
+                "strain_base": 12600
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修冠·外·荒#101811 (25500 精简 会心 破防 无双)": {
             "id": 101811,
             "name": "无修冠·外·荒",
@@ -26831,6 +28205,208 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2703
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104435 (24500 精简 会心 破招 无双)": {
+            "id": 104435,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "physical_attack_power_base": 4336,
+                "physical_critical_strike_base": 5502,
+                "surplus_base": 5502,
+                "strain_base": 5502
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2698
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104434 (24500 精简 会心 会效 无双)": {
+            "id": 104434,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "physical_attack_power_base": 4336,
+                "physical_critical_strike_base": 8254,
+                "physical_critical_power_base": 4127,
+                "strain_base": 4127
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2698
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104433 (24500 精简 破防 无双)": {
+            "id": 104433,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "physical_attack_power_base": 3589,
+                "physical_overcome_base": 12656,
+                "strain_base": 6603
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [
+                [
+                    2698
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104432 (24500 精简 会心 破招 无双)": {
+            "id": 104432,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "magical_attack_power_base": 4822,
+                "all_critical_strike_base": 5502,
+                "surplus_base": 5502,
+                "strain_base": 5502
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2698
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104431 (24500 精简 会心 会效 无双)": {
+            "id": 104431,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "magical_attack_power_base": 4822,
+                "all_critical_strike_base": 8254,
+                "all_critical_power_base": 4127,
+                "strain_base": 4127
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [
+                [
+                    2698
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104430 (24500 精简 破防 无双)": {
+            "id": 104430,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 12105,
+                "magical_attack_power_base": 3990,
+                "magical_overcome_base": 12656,
+                "strain_base": 6603
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [
+                [
+                    2698
                 ]
             ],
             "recipes": {},
@@ -27035,6 +28611,166 @@ EQUIPMENTS = {
                     2698
                 ]
             ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104423 (23500 精简 会心 破防 无双)": {
+            "id": 104423,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "physical_attack_power_base": 4159,
+                "physical_critical_strike_base": 5278,
+                "physical_overcome_base": 5278,
+                "strain_base": 5278
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104422 (23500 精简 会心 破招 无双)": {
+            "id": 104422,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "physical_attack_power_base": 4159,
+                "physical_critical_strike_base": 5278,
+                "surplus_base": 5278,
+                "strain_base": 5278
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104421 (23500 精简 会心 无双)": {
+            "id": 104421,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "physical_attack_power_base": 3442,
+                "physical_critical_strike_base": 12139,
+                "strain_base": 6333
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104420 (23500 精简 会心 破防 无双)": {
+            "id": 104420,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "magical_attack_power_base": 4625,
+                "all_critical_strike_base": 5278,
+                "magical_overcome_base": 5278,
+                "strain_base": 5278
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104419 (23500 精简 会心 破招 无双)": {
+            "id": 104419,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "magical_attack_power_base": 4625,
+                "all_critical_strike_base": 5278,
+                "surplus_base": 5278,
+                "strain_base": 5278
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104418 (23500 精简 会心 无双)": {
+            "id": 104418,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11611,
+                "magical_attack_power_base": 3828,
+                "all_critical_strike_base": 12139,
+                "strain_base": 6333
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -28034,6 +29770,162 @@ EQUIPMENTS = {
                     ]
                 ]
             },
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104411 (22500 精简 会心 破防 无双)": {
+            "id": 104411,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "physical_attack_power_base": 3982,
+                "physical_critical_strike_base": 5053,
+                "physical_overcome_base": 5053,
+                "strain_base": 5053
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104410 (22500 精简 会心 无双)": {
+            "id": 104410,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "physical_attack_power_base": 3296,
+                "physical_critical_strike_base": 5559,
+                "strain_base": 11117
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104409 (22500 精简 无双)": {
+            "id": 104409,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "physical_attack_power_base": 4669,
+                "strain_base": 11117
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104408 (22500 精简 会心 破防 无双)": {
+            "id": 104408,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "magical_attack_power_base": 4428,
+                "all_critical_strike_base": 5053,
+                "magical_overcome_base": 5053,
+                "strain_base": 5053
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104407 (22500 精简 会心 无双)": {
+            "id": 104407,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "magical_attack_power_base": 3665,
+                "all_critical_strike_base": 5559,
+                "strain_base": 11117
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104406 (22500 精简 无双)": {
+            "id": 104406,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "magical_attack_power_base": 5192,
+                "strain_base": 11117
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
             "set_recipe": {}
         },
         "孤山寒月·逐刃冠#103513 (22500 会心 无双)": {
@@ -29606,6 +31498,166 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
+        "无修冠·外·荒#104399 (21600 精简 会心 破招 无双)": {
+            "id": 104399,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "physical_attack_power_base": 3823,
+                "physical_critical_strike_base": 4851,
+                "surplus_base": 4851,
+                "strain_base": 4851
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104398 (21600 精简 会心 会效 无双)": {
+            "id": 104398,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "physical_attack_power_base": 3823,
+                "physical_critical_strike_base": 7277,
+                "physical_critical_power_base": 3638,
+                "strain_base": 3638
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104397 (21600 精简 破防 无双)": {
+            "id": 104397,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "physical_attack_power_base": 3164,
+                "physical_overcome_base": 11158,
+                "strain_base": 5821
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104396 (21600 精简 会心 破招 无双)": {
+            "id": 104396,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "magical_attack_power_base": 4251,
+                "all_critical_strike_base": 4851,
+                "surplus_base": 4851,
+                "strain_base": 4851
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104395 (21600 精简 会心 会效 无双)": {
+            "id": 104395,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "magical_attack_power_base": 4251,
+                "all_critical_strike_base": 7277,
+                "all_critical_power_base": 3638,
+                "strain_base": 3638
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104394 (21600 精简 破防 无双)": {
+            "id": 104394,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10673,
+                "magical_attack_power_base": 3518,
+                "magical_overcome_base": 11158,
+                "strain_base": 5821
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修冠·外·荒#101715 (21600 精简 会心 破招 无双)": {
             "id": 101715,
             "name": "无修冠·外·荒",
@@ -29999,6 +32051,166 @@ EQUIPMENTS = {
             "embed": {
                 "spirit_base": 41,
                 "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104387 (20700 精简 会心 破防 无双)": {
+            "id": 104387,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "physical_attack_power_base": 3664,
+                "physical_critical_strike_base": 4649,
+                "physical_overcome_base": 4649,
+                "strain_base": 4649
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104386 (20700 精简 会心 破招 无双)": {
+            "id": 104386,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "physical_attack_power_base": 3664,
+                "physical_critical_strike_base": 4649,
+                "surplus_base": 4649,
+                "strain_base": 4649
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104385 (20700 精简 会心 无双)": {
+            "id": 104385,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "physical_attack_power_base": 3032,
+                "physical_critical_strike_base": 10693,
+                "strain_base": 5579
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104384 (20700 精简 会心 破防 无双)": {
+            "id": 104384,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "magical_attack_power_base": 4074,
+                "all_critical_strike_base": 4649,
+                "magical_overcome_base": 4649,
+                "strain_base": 4649
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104383 (20700 精简 会心 破招 无双)": {
+            "id": 104383,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "magical_attack_power_base": 4074,
+                "all_critical_strike_base": 4649,
+                "surplus_base": 4649,
+                "strain_base": 4649
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104382 (20700 精简 会心 无双)": {
+            "id": 104382,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10228,
+                "magical_attack_power_base": 3372,
+                "all_critical_strike_base": 10693,
+                "strain_base": 5579
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -30915,6 +33127,162 @@ EQUIPMENTS = {
             "embed": {
                 "magical_critical_strike_base": 321,
                 "magical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104375 (19800 精简 会心 破防 无双)": {
+            "id": 104375,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 3505,
+                "physical_critical_strike_base": 4447,
+                "physical_overcome_base": 4447,
+                "strain_base": 4447
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104374 (19800 精简 会心 无双)": {
+            "id": 104374,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 2900,
+                "physical_critical_strike_base": 4892,
+                "strain_base": 9783
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·外·荒#104373 (19800 精简 无双)": {
+            "id": 104373,
+            "name": "无修冠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "physical_attack_power_base": 4109,
+                "strain_base": 9783
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104372 (19800 精简 会心 破防 无双)": {
+            "id": 104372,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 3897,
+                "all_critical_strike_base": 4447,
+                "magical_overcome_base": 4447,
+                "strain_base": 4447
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104371 (19800 精简 会心 无双)": {
+            "id": 104371,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 3225,
+                "all_critical_strike_base": 4892,
+                "strain_base": 9783
+            },
+            "embed": {
+                "all_critical_power_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修冠·内·荒#104370 (19800 精简 无双)": {
+            "id": 104370,
+            "name": "无修冠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 9783,
+                "magical_attack_power_base": 4569,
+                "strain_base": 9783
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "strain_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -38738,6 +41106,182 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修坠·外·荒#42838 (25500 精简 会心 会效 无双)": {
+            "id": 42838,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2507,
+                "physical_critical_strike_base": 4773,
+                "physical_critical_power_base": 2386,
+                "strain_base": 2386
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2712
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42837 (25500 精简 破防 破招 无双)": {
+            "id": 42837,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2507,
+                "physical_overcome_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2705
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42836 (25500 精简 无双)": {
+            "id": 42836,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2940,
+                "strain_base": 7000
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2705
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42835 (25500 精简 会心 会效 无双)": {
+            "id": 42835,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 2788,
+                "all_critical_strike_base": 4773,
+                "all_critical_power_base": 2386,
+                "strain_base": 2386
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2712
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42834 (25500 精简 破防 破招 无双)": {
+            "id": 42834,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 2788,
+                "magical_overcome_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2705
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42833 (25500 精简 无双)": {
+            "id": 42833,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 3269,
+                "strain_base": 7000
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2705
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修坠·外·荒#41518 (25500 精简 会心 会效 无双)": {
             "id": 41518,
             "name": "无修坠·外·荒",
@@ -38907,6 +41451,182 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2705
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42826 (24500 精简 会心 破防 无双)": {
+            "id": 42826,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 2409,
+                "physical_critical_strike_base": 3057,
+                "physical_overcome_base": 3057,
+                "strain_base": 3057
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2700
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42825 (24500 精简 会心 无双)": {
+            "id": 42825,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 1994,
+                "physical_critical_strike_base": 3363,
+                "strain_base": 6725
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2711
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42824 (24500 精简 破防 无双)": {
+            "id": 42824,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 1994,
+                "physical_overcome_base": 7031,
+                "strain_base": 3668
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [
+                [
+                    2700
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42823 (24500 精简 会心 破防 无双)": {
+            "id": 42823,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 2679,
+                "all_critical_strike_base": 3057,
+                "magical_overcome_base": 3057,
+                "strain_base": 3057
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2700
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42822 (24500 精简 会心 无双)": {
+            "id": 42822,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 2217,
+                "all_critical_strike_base": 3363,
+                "strain_base": 6725
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2711
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42821 (24500 精简 破防 无双)": {
+            "id": 42821,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 2217,
+                "magical_overcome_base": 7031,
+                "strain_base": 3668
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [
+                [
+                    2700
                 ]
             ],
             "recipes": {},
@@ -39187,6 +41907,160 @@ EQUIPMENTS = {
             },
             "embed": {
                 "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42814 (23500 精简 会心 会效 无双)": {
+            "id": 42814,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 2311,
+                "physical_critical_strike_base": 4398,
+                "physical_critical_power_base": 2199,
+                "strain_base": 2199
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42813 (23500 精简 会心 破防 无双)": {
+            "id": 42813,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 2311,
+                "physical_critical_strike_base": 2932,
+                "physical_overcome_base": 2932,
+                "strain_base": 2932
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42812 (23500 精简 会心 无双)": {
+            "id": 42812,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 1912,
+                "physical_critical_strike_base": 6744,
+                "strain_base": 3519
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42811 (23500 精简 会心 会效 无双)": {
+            "id": 42811,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 2569,
+                "all_critical_strike_base": 4398,
+                "all_critical_power_base": 2199,
+                "strain_base": 2199
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42810 (23500 精简 会心 破防 无双)": {
+            "id": 42810,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 2569,
+                "all_critical_strike_base": 2932,
+                "magical_overcome_base": 2932,
+                "strain_base": 2932
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42809 (23500 精简 会心 无双)": {
+            "id": 42809,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 2126,
+                "all_critical_strike_base": 6744,
+                "strain_base": 3519
+            },
+            "embed": {
+                "all_critical_power_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -39920,6 +42794,158 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修坠·外·荒#42802 (22500 精简 会心 会效 无双)": {
+            "id": 42802,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 2212,
+                "physical_critical_strike_base": 4211,
+                "physical_critical_power_base": 2106,
+                "strain_base": 2106
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42801 (22500 精简 破防 破招 无双)": {
+            "id": 42801,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 2212,
+                "physical_overcome_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42800 (22500 精简 无双)": {
+            "id": 42800,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 2594,
+                "strain_base": 6176
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42799 (22500 精简 会心 会效 无双)": {
+            "id": 42799,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2460,
+                "all_critical_strike_base": 4211,
+                "all_critical_power_base": 2106,
+                "strain_base": 2106
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42798 (22500 精简 破防 破招 无双)": {
+            "id": 42798,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2460,
+                "magical_overcome_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42797 (22500 精简 无双)": {
+            "id": 42797,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2884,
+                "strain_base": 6176
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修坠·外·荒#41482 (22500 精简 会心 会效 无双)": {
             "id": 41482,
             "name": "无修坠·外·荒",
@@ -40384,6 +43410,158 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修坠·外·荒#42790 (21600 精简 会心 破防 无双)": {
+            "id": 42790,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 2124,
+                "physical_critical_strike_base": 2695,
+                "physical_overcome_base": 2695,
+                "strain_base": 2695
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42789 (21600 精简 会心 无双)": {
+            "id": 42789,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 1758,
+                "physical_critical_strike_base": 2965,
+                "strain_base": 5929
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42788 (21600 精简 破防 无双)": {
+            "id": 42788,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 1758,
+                "physical_overcome_base": 6199,
+                "strain_base": 3234
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42787 (21600 精简 会心 破防 无双)": {
+            "id": 42787,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 2362,
+                "all_critical_strike_base": 2695,
+                "magical_overcome_base": 2695,
+                "strain_base": 2695
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42786 (21600 精简 会心 无双)": {
+            "id": 42786,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 1955,
+                "all_critical_strike_base": 2965,
+                "strain_base": 5929
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42785 (21600 精简 破防 无双)": {
+            "id": 42785,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 1955,
+                "magical_overcome_base": 6199,
+                "strain_base": 3234
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修坠·外·荒#41470 (21600 精简 会心 破防 无双)": {
             "id": 41470,
             "name": "无修坠·外·荒",
@@ -40529,6 +43707,160 @@ EQUIPMENTS = {
             },
             "embed": {
                 "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42778 (20700 精简 会心 会效 无双)": {
+            "id": 42778,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 2035,
+                "physical_critical_strike_base": 3874,
+                "physical_critical_power_base": 1937,
+                "strain_base": 1937
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42777 (20700 精简 会心 破防 无双)": {
+            "id": 42777,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 2035,
+                "physical_critical_strike_base": 2583,
+                "physical_overcome_base": 2583,
+                "strain_base": 2583
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42776 (20700 精简 会心 无双)": {
+            "id": 42776,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 1685,
+                "physical_critical_strike_base": 5940,
+                "strain_base": 3099
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42775 (20700 精简 会心 会效 无双)": {
+            "id": 42775,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 2263,
+                "all_critical_strike_base": 3874,
+                "all_critical_power_base": 1937,
+                "strain_base": 1937
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42774 (20700 精简 会心 破防 无双)": {
+            "id": 42774,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 2263,
+                "all_critical_strike_base": 2583,
+                "magical_overcome_base": 2583,
+                "strain_base": 2583
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42773 (20700 精简 会心 无双)": {
+            "id": 42773,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 1873,
+                "all_critical_strike_base": 5940,
+                "strain_base": 3099
+            },
+            "embed": {
+                "all_critical_power_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -41619,6 +44951,158 @@ EQUIPMENTS = {
             },
             "embed": {
                 "pvx_round": 161
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42766 (19800 精简 会心 会效 无双)": {
+            "id": 42766,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_critical_strike_base": 3706,
+                "physical_critical_power_base": 1853,
+                "strain_base": 1853
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42765 (19800 精简 破防 破招 无双)": {
+            "id": 42765,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·外·荒#42764 (19800 精简 无双)": {
+            "id": 42764,
+            "name": "无修坠·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 2283,
+                "strain_base": 5435
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42763 (19800 精简 会心 会效 无双)": {
+            "id": 42763,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "all_critical_strike_base": 3706,
+                "all_critical_power_base": 1853,
+                "strain_base": 1853
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42762 (19800 精简 破防 破招 无双)": {
+            "id": 42762,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "magical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修坠·内·荒#42761 (19800 精简 无双)": {
+            "id": 42761,
+            "name": "无修坠·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2538,
+                "strain_base": 5435
+            },
+            "embed": {
+                "all_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -47490,6 +50974,184 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修链·外·荒#42832 (25500 精简 破防 破招 无双)": {
+            "id": 42832,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2507,
+                "physical_overcome_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2704
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42831 (25500 精简 会心 破招 无双)": {
+            "id": 42831,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2507,
+                "physical_critical_strike_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2708
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42830 (25500 精简 破防 无双)": {
+            "id": 42830,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "physical_attack_power_base": 2075,
+                "physical_overcome_base": 7318,
+                "strain_base": 3818
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [
+                [
+                    2704
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42829 (25500 精简 破防 破招 无双)": {
+            "id": 42829,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 2788,
+                "magical_overcome_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2704
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42828 (25500 精简 会心 破招 无双)": {
+            "id": 42828,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 2788,
+                "all_critical_strike_base": 3182,
+                "surplus_base": 3182,
+                "strain_base": 3182
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2708
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42827 (25500 精简 破防 无双)": {
+            "id": 42827,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7000,
+                "magical_attack_power_base": 2307,
+                "magical_overcome_base": 7318,
+                "strain_base": 3818
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [
+                [
+                    2704
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修链·外·荒#41512 (25500 精简 破防 破招 无双)": {
             "id": 41512,
             "name": "无修链·外·荒",
@@ -47661,6 +51323,182 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2704
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42820 (24500 精简 会心 会效 破招)": {
+            "id": 42820,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 2409,
+                "physical_critical_strike_base": 4585,
+                "physical_critical_power_base": 2293,
+                "surplus_base": 2293
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2707
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42819 (24500 精简 破招 无双)": {
+            "id": 42819,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 1661,
+                "surplus_base": 7031,
+                "strain_base": 4585
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2699
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42818 (24500 精简 会心 无双)": {
+            "id": 42818,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "physical_attack_power_base": 1994,
+                "physical_critical_strike_base": 7031,
+                "strain_base": 3668
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2707
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42817 (24500 精简 会心 会效 破招)": {
+            "id": 42817,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 2679,
+                "all_critical_strike_base": 4585,
+                "all_critical_power_base": 2293,
+                "surplus_base": 2293
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2707
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42816 (24500 精简 破招 无双)": {
+            "id": 42816,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 1847,
+                "surplus_base": 7031,
+                "strain_base": 4585
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [
+                [
+                    2699
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42815 (24500 精简 会心 无双)": {
+            "id": 42815,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6725,
+                "magical_attack_power_base": 2217,
+                "all_critical_strike_base": 7031,
+                "strain_base": 3668
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [
+                [
+                    2707
                 ]
             ],
             "recipes": {},
@@ -47941,6 +51779,156 @@ EQUIPMENTS = {
             },
             "embed": {
                 "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42808 (23500 精简 会心 破招 无双)": {
+            "id": 42808,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 2311,
+                "physical_critical_strike_base": 2932,
+                "surplus_base": 2932,
+                "strain_base": 2932
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42807 (23500 精简 破防 无双)": {
+            "id": 42807,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 1912,
+                "physical_overcome_base": 3225,
+                "strain_base": 6451
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42806 (23500 精简 无双)": {
+            "id": 42806,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "physical_attack_power_base": 2709,
+                "strain_base": 6451
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42805 (23500 精简 会心 破招 无双)": {
+            "id": 42805,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 2569,
+                "all_critical_strike_base": 2932,
+                "surplus_base": 2932,
+                "strain_base": 2932
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42804 (23500 精简 破防 无双)": {
+            "id": 42804,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 2126,
+                "magical_overcome_base": 3225,
+                "strain_base": 6451
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42803 (23500 精简 无双)": {
+            "id": 42803,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6451,
+                "magical_attack_power_base": 3012,
+                "strain_base": 6451
+            },
+            "embed": {
+                "all_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -48670,6 +52658,160 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修链·外·荒#42796 (22500 精简 破防 破招 无双)": {
+            "id": 42796,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 2212,
+                "physical_overcome_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42795 (22500 精简 会心 破招 无双)": {
+            "id": 42795,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 2212,
+                "physical_critical_strike_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42794 (22500 精简 破防 无双)": {
+            "id": 42794,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "physical_attack_power_base": 1831,
+                "physical_overcome_base": 6457,
+                "strain_base": 3369
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42793 (22500 精简 破防 破招 无双)": {
+            "id": 42793,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2460,
+                "magical_overcome_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42792 (22500 精简 会心 破招 无双)": {
+            "id": 42792,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2460,
+                "all_critical_strike_base": 2807,
+                "surplus_base": 2807,
+                "strain_base": 2807
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42791 (22500 精简 破防 无双)": {
+            "id": 42791,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6176,
+                "magical_attack_power_base": 2036,
+                "magical_overcome_base": 6457,
+                "strain_base": 3369
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修链·外·荒#41476 (22500 精简 破防 破招 无双)": {
             "id": 41476,
             "name": "无修链·外·荒",
@@ -49240,6 +53382,158 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修链·外·荒#42784 (21600 精简 会心 会效 破招)": {
+            "id": 42784,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 2124,
+                "physical_critical_strike_base": 4043,
+                "physical_critical_power_base": 2021,
+                "surplus_base": 2021
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42783 (21600 精简 破招 无双)": {
+            "id": 42783,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 1465,
+                "surplus_base": 6199,
+                "strain_base": 4043
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42782 (21600 精简 会心 无双)": {
+            "id": 42782,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "physical_attack_power_base": 1758,
+                "physical_critical_strike_base": 6199,
+                "strain_base": 3234
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42781 (21600 精简 会心 会效 破招)": {
+            "id": 42781,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 2362,
+                "all_critical_strike_base": 4043,
+                "all_critical_power_base": 2021,
+                "surplus_base": 2021
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42780 (21600 精简 破招 无双)": {
+            "id": 42780,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 1629,
+                "surplus_base": 6199,
+                "strain_base": 4043
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42779 (21600 精简 会心 无双)": {
+            "id": 42779,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5929,
+                "magical_attack_power_base": 1955,
+                "all_critical_strike_base": 6199,
+                "strain_base": 3234
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修链·外·荒#41464 (21600 精简 会心 会效 破招)": {
             "id": 41464,
             "name": "无修链·外·荒",
@@ -49489,6 +53783,156 @@ EQUIPMENTS = {
             },
             "embed": {
                 "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42772 (20700 精简 会心 破招 无双)": {
+            "id": 42772,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 2035,
+                "physical_critical_strike_base": 2583,
+                "surplus_base": 2583,
+                "strain_base": 2583
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42771 (20700 精简 破防 无双)": {
+            "id": 42771,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 1685,
+                "physical_overcome_base": 2841,
+                "strain_base": 5682
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42770 (20700 精简 无双)": {
+            "id": 42770,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "physical_attack_power_base": 2386,
+                "strain_base": 5682
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42769 (20700 精简 会心 破招 无双)": {
+            "id": 42769,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 2263,
+                "all_critical_strike_base": 2583,
+                "surplus_base": 2583,
+                "strain_base": 2583
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42768 (20700 精简 破防 无双)": {
+            "id": 42768,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 1873,
+                "magical_overcome_base": 2841,
+                "strain_base": 5682
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42767 (20700 精简 无双)": {
+            "id": 42767,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5682,
+                "magical_attack_power_base": 2654,
+                "strain_base": 5682
+            },
+            "embed": {
+                "all_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -50575,6 +55019,160 @@ EQUIPMENTS = {
             },
             "embed": {
                 "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42760 (19800 精简 破防 破招 无双)": {
+            "id": 42760,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42759 (19800 精简 会心 破招 无双)": {
+            "id": 42759,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1947,
+                "physical_critical_strike_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·外·荒#42758 (19800 精简 破防 无双)": {
+            "id": 42758,
+            "name": "无修链·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "physical_attack_power_base": 1611,
+                "physical_overcome_base": 5682,
+                "strain_base": 2965
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42757 (19800 精简 破防 破招 无双)": {
+            "id": 42757,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "magical_overcome_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42756 (19800 精简 会心 破招 无双)": {
+            "id": 42756,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 2165,
+                "all_critical_strike_base": 2471,
+                "surplus_base": 2471,
+                "strain_base": 2471
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修链·内·荒#42755 (19800 精简 破防 无双)": {
+            "id": 42755,
+            "name": "无修链·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5435,
+                "magical_attack_power_base": 1792,
+                "magical_overcome_base": 5682,
+                "strain_base": 2965
+            },
+            "embed": {
+                "surplus_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -52454,6 +57052,160 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修囊·外·荒#40884 (25500 精简 会心 会效 破招)": {
+            "id": 40884,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "physical_attack_power_base": 3009,
+                "physical_critical_strike_base": 5727,
+                "physical_critical_power_base": 2864,
+                "surplus_base": 2864
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40883 (25500 精简 会心 会效 无双)": {
+            "id": 40883,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "physical_attack_power_base": 3009,
+                "physical_critical_strike_base": 5727,
+                "physical_critical_power_base": 2864,
+                "strain_base": 2864
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40882 (25500 精简 破防 无双)": {
+            "id": 40882,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "physical_attack_power_base": 2490,
+                "physical_overcome_base": 8782,
+                "strain_base": 4582
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40881 (25500 精简 会心 会效 破招)": {
+            "id": 40881,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "magical_attack_power_base": 3346,
+                "all_critical_strike_base": 5727,
+                "all_critical_power_base": 2864,
+                "surplus_base": 2864
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40880 (25500 精简 会心 会效 无双)": {
+            "id": 40880,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "magical_attack_power_base": 3346,
+                "all_critical_strike_base": 5727,
+                "all_critical_power_base": 2864,
+                "strain_base": 2864
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40879 (25500 精简 破防 无双)": {
+            "id": 40879,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 25500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8400,
+                "magical_attack_power_base": 2769,
+                "magical_overcome_base": 8782,
+                "strain_base": 4582
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修囊·外·荒#39437 (25500 精简 会心 会效 破招)": {
             "id": 39437,
             "name": "无修囊·外·荒",
@@ -52632,6 +57384,158 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修囊·外·荒#40878 (24500 精简 会心 会效 无双)": {
+            "id": 40878,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "physical_attack_power_base": 2891,
+                "physical_critical_strike_base": 5502,
+                "physical_critical_power_base": 2751,
+                "strain_base": 2751
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40877 (24500 精简 会心 破招 无双)": {
+            "id": 40877,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "physical_attack_power_base": 2891,
+                "physical_critical_strike_base": 3668,
+                "surplus_base": 3668,
+                "strain_base": 3668
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40876 (24500 精简 无双)": {
+            "id": 40876,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "physical_attack_power_base": 3389,
+                "strain_base": 8070
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40875 (24500 精简 会心 会效 无双)": {
+            "id": 40875,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "magical_attack_power_base": 3215,
+                "all_critical_strike_base": 5502,
+                "all_critical_power_base": 2751,
+                "strain_base": 2751
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40874 (24500 精简 会心 破招 无双)": {
+            "id": 40874,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "magical_attack_power_base": 3215,
+                "all_critical_strike_base": 3668,
+                "surplus_base": 3668,
+                "strain_base": 3668
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40873 (24500 精简 无双)": {
+            "id": 40873,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 8070,
+                "magical_attack_power_base": 3769,
+                "strain_base": 8070
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修囊·外·荒#39431 (24500 精简 会心 会效 无双)": {
             "id": 39431,
             "name": "无修囊·外·荒",
@@ -52803,6 +57707,160 @@ EQUIPMENTS = {
                     2701
                 ]
             ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40872 (23500 精简 会心 破防 无双)": {
+            "id": 40872,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "physical_attack_power_base": 2773,
+                "physical_critical_strike_base": 3519,
+                "physical_overcome_base": 3519,
+                "strain_base": 3519
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40871 (23500 精简 破防 破招 无双)": {
+            "id": 40871,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "physical_attack_power_base": 2773,
+                "physical_overcome_base": 3519,
+                "surplus_base": 3519,
+                "strain_base": 3519
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40870 (23500 精简 会心 无双)": {
+            "id": 40870,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "physical_attack_power_base": 2295,
+                "physical_critical_strike_base": 8093,
+                "strain_base": 4222
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40869 (23500 精简 会心 破防 无双)": {
+            "id": 40869,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "magical_attack_power_base": 3083,
+                "all_critical_strike_base": 3519,
+                "magical_overcome_base": 3519,
+                "strain_base": 3519
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40868 (23500 精简 破防 破招 无双)": {
+            "id": 40868,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "magical_attack_power_base": 3083,
+                "magical_overcome_base": 3519,
+                "surplus_base": 3519,
+                "strain_base": 3519
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40867 (23500 精简 会心 无双)": {
+            "id": 40867,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 23500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7741,
+                "magical_attack_power_base": 2552,
+                "all_critical_strike_base": 8093,
+                "strain_base": 4222
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -53534,6 +58592,160 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修囊·外·荒#40866 (22500 精简 会心 会效 破招)": {
+            "id": 40866,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "physical_attack_power_base": 2655,
+                "physical_critical_strike_base": 5053,
+                "physical_critical_power_base": 2527,
+                "surplus_base": 2527
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40865 (22500 精简 会心 会效 无双)": {
+            "id": 40865,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "physical_attack_power_base": 2655,
+                "physical_critical_strike_base": 5053,
+                "physical_critical_power_base": 2527,
+                "strain_base": 2527
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40864 (22500 精简 破防 无双)": {
+            "id": 40864,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "physical_attack_power_base": 2197,
+                "physical_overcome_base": 7748,
+                "strain_base": 4043
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40863 (22500 精简 会心 会效 破招)": {
+            "id": 40863,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "magical_attack_power_base": 2952,
+                "all_critical_strike_base": 5053,
+                "all_critical_power_base": 2527,
+                "surplus_base": 2527
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40862 (22500 精简 会心 会效 无双)": {
+            "id": 40862,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "magical_attack_power_base": 2952,
+                "all_critical_strike_base": 5053,
+                "all_critical_power_base": 2527,
+                "strain_base": 2527
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40861 (22500 精简 破防 无双)": {
+            "id": 40861,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7412,
+                "magical_attack_power_base": 2443,
+                "magical_overcome_base": 7748,
+                "strain_base": 4043
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "尘许囊#40832 (22500 破招 无双)": {
             "id": 40832,
             "name": "尘许囊",
@@ -54104,6 +59316,158 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "无修囊·外·荒#40860 (21600 精简 会心 会效 无双)": {
+            "id": 40860,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "physical_attack_power_base": 2549,
+                "physical_critical_strike_base": 4851,
+                "physical_critical_power_base": 2426,
+                "strain_base": 2426
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40859 (21600 精简 会心 破招 无双)": {
+            "id": 40859,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "physical_attack_power_base": 2549,
+                "physical_critical_strike_base": 3234,
+                "surplus_base": 3234,
+                "strain_base": 3234
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40858 (21600 精简 无双)": {
+            "id": 40858,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "physical_attack_power_base": 2988,
+                "strain_base": 7115
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40857 (21600 精简 会心 会效 无双)": {
+            "id": 40857,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "magical_attack_power_base": 2834,
+                "all_critical_strike_base": 4851,
+                "all_critical_power_base": 2426,
+                "strain_base": 2426
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40856 (21600 精简 会心 破招 无双)": {
+            "id": 40856,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "magical_attack_power_base": 2834,
+                "all_critical_strike_base": 3234,
+                "surplus_base": 3234,
+                "strain_base": 3234
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40855 (21600 精简 无双)": {
+            "id": 40855,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 21600,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7115,
+                "magical_attack_power_base": 3323,
+                "strain_base": 7115
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修囊·外·荒#39413 (21600 精简 会心 会效 无双)": {
             "id": 39413,
             "name": "无修囊·外·荒",
@@ -54353,6 +59717,160 @@ EQUIPMENTS = {
             },
             "embed": {
                 "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40854 (20700 精简 会心 破防 无双)": {
+            "id": 40854,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "physical_attack_power_base": 2443,
+                "physical_critical_strike_base": 3099,
+                "physical_overcome_base": 3099,
+                "strain_base": 3099
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40853 (20700 精简 破防 破招 无双)": {
+            "id": 40853,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "physical_attack_power_base": 2443,
+                "physical_overcome_base": 3099,
+                "surplus_base": 3099,
+                "strain_base": 3099
+            },
+            "embed": {
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40852 (20700 精简 会心 无双)": {
+            "id": 40852,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "physical_attack_power_base": 2021,
+                "physical_critical_strike_base": 7129,
+                "strain_base": 3719
+            },
+            "embed": {
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40851 (20700 精简 会心 破防 无双)": {
+            "id": 40851,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "magical_attack_power_base": 2716,
+                "all_critical_strike_base": 3099,
+                "magical_overcome_base": 3099,
+                "strain_base": 3099
+            },
+            "embed": {
+                "all_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40850 (20700 精简 破防 破招 无双)": {
+            "id": 40850,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "magical_attack_power_base": 2716,
+                "magical_overcome_base": 3099,
+                "surplus_base": 3099,
+                "strain_base": 3099
+            },
+            "embed": {
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40849 (20700 精简 会心 无双)": {
+            "id": 40849,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 20700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6819,
+                "magical_attack_power_base": 2248,
+                "all_critical_strike_base": 7129,
+                "strain_base": 3719
+            },
+            "embed": {
+                "all_critical_power_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -55235,6 +60753,160 @@ EQUIPMENTS = {
             },
             "embed": {
                 "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40848 (19800 精简 会心 会效 破招)": {
+            "id": 40848,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 2336,
+                "physical_critical_strike_base": 4447,
+                "physical_critical_power_base": 2223,
+                "surplus_base": 2223
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40847 (19800 精简 会心 会效 无双)": {
+            "id": 40847,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 2336,
+                "physical_critical_strike_base": 4447,
+                "physical_critical_power_base": 2223,
+                "strain_base": 2223
+            },
+            "embed": {
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·外·荒#40846 (19800 精简 破防 无双)": {
+            "id": 40846,
+            "name": "无修囊·外·荒",
+            "school": "精简",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "physical_attack_power_base": 1934,
+                "physical_overcome_base": 6819,
+                "strain_base": 3558
+            },
+            "embed": {
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40845 (19800 精简 会心 会效 破招)": {
+            "id": 40845,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2598,
+                "all_critical_strike_base": 4447,
+                "all_critical_power_base": 2223,
+                "surplus_base": 2223
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40844 (19800 精简 会心 会效 无双)": {
+            "id": 40844,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2598,
+                "all_critical_strike_base": 4447,
+                "all_critical_power_base": 2223,
+                "strain_base": 2223
+            },
+            "embed": {
+                "magical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "无修囊·内·荒#40843 (19800 精简 破防 无双)": {
+            "id": 40843,
+            "name": "无修囊·内·荒",
+            "school": "精简",
+            "kind": "内功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6522,
+                "magical_attack_power_base": 2150,
+                "magical_overcome_base": 6819,
+                "strain_base": 3558
+            },
+            "embed": {
+                "surplus_base": 321
             },
             "gains": [],
             "recipes": {},

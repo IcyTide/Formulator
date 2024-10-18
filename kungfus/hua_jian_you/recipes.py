@@ -41,7 +41,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             1131: {}, 1979: {}
         },
         混元内功会心提高: {
-            1295: {}
+            1295: {}, 5497: {}
         },
         新青冠静止目标增伤: {
             5743: {}, 5744: {}

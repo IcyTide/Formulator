@@ -295,6 +295,10 @@ class CriticalStrike(BaseMajor):
     poison_critical_strike_rate: int = 0
 
     @property
+    def final_critical_strike(self):
+        raise NotImplementedError
+
+    @property
     def critical_strike(self):
         raise NotImplementedError
 
@@ -448,6 +452,10 @@ class Overcome(BaseMajor):
     lunar_overcome_gain: int = 0
     neutral_overcome_gain: int = 0
     poison_overcome_gain: int = 0
+
+    @property
+    def final_overcome(self):
+        raise NotImplementedError
 
     @property
     def overcome(self):
@@ -862,8 +870,16 @@ class PhysicalAttribute(Attribute):
         return self.physical_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_physical_critical_strike
+
+    @property
     def critical_strike(self):
         return self.physical_critical_strike
+
+    @property
+    def final_overcome(self):
+        return self.final_physical_overcome
 
     @property
     def overcome(self):
@@ -918,8 +934,16 @@ class SolarAttribute(MagicalAttribute):
         return self.solar_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_solar_critical_strike
+
+    @property
     def critical_strike(self):
         return self.solar_critical_strike
+
+    @property
+    def final_overcome(self):
+        return self.final_solar_overcome
 
     @property
     def overcome(self):
@@ -953,8 +977,16 @@ class LunarAttribute(MagicalAttribute):
         return self.lunar_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_lunar_critical_strike
+
+    @property
     def critical_strike(self):
         return self.lunar_critical_strike
+
+    @property
+    def final_overcome(self):
+        return self.final_lunar_overcome
 
     @property
     def overcome(self):
@@ -988,8 +1020,16 @@ class NeutralAttribute(MagicalAttribute):
         return self.neutral_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_neutral_critical_strike
+
+    @property
     def critical_strike(self):
         return self.neutral_critical_strike
+
+    @property
+    def final_overcome(self):
+        return self.final_neutral_overcome
 
     @property
     def overcome(self):
@@ -1023,8 +1063,16 @@ class PoisonAttribute(MagicalAttribute):
         return self.poison_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_poison_critical_strike
+
+    @property
     def critical_strike(self):
         return self.poison_critical_strike
+
+    @property
+    def final_overcome(self):
+        return self.final_poison_overcome
 
     @property
     def overcome(self):
@@ -1043,7 +1091,7 @@ class PoisonAttribute(MagicalAttribute):
         return self.target.poison_damage_cof
 
 
-class MixingAttribute(MagicalAttribute):
+class HybridAttribute(MagicalAttribute):
     grad_attrs = dict(
         agility_base=MAJOR_DELTA,
         spunk_base=MAJOR_DELTA,
@@ -1067,9 +1115,17 @@ class MixingAttribute(MagicalAttribute):
         return self.poison_attack_power
 
     @property
+    def final_critical_strike(self):
+        return self.final_physical_critical_strike
+
+    @property
     def critical_strike(self):
         return self.physical_critical_strike
 
+    @property
+    def final_overcome(self):
+        return self.final_poison_overcome
+    
     @property
     def overcome(self):
         return self.poison_overcome

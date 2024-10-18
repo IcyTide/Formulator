@@ -21,11 +21,11 @@ class 彤弓_劲风簇10双会(PhysicalCriticalRecipe):
     value = (1000, 102)
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id == 35866:
+        if skill.skill_id == 35866 or skill.skill_id == 36453:
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id == 35866:
+        if skill.skill_id == 35866 or skill.skill_id == 36453:
             super().sub_skill(skill)
 
 

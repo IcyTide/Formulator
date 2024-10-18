@@ -792,6 +792,20 @@ RECIPES = {
             "recipe_name": "无我无剑减疗增伤"
         }
     },
+    5616: {
+        1: {
+            "skill_id": 364,
+            "recipe_type": 364,
+            "recipe_name": "三环距离提高"
+        }
+    },
+    5613: {
+        2: {
+            "skill_id": 365,
+            "recipe_type": 365,
+            "recipe_name": "无我距离提高"
+        }
+    },
     5722: {
         1: {
             "damage_addition": 102,
@@ -1078,6 +1092,12 @@ RECIPES = {
             "skill_id": 179,
             "recipe_type": 179,
             "recipe_name": "阳明指_加会心"
+        }
+    },
+    5497: {
+        1: {
+            "recipe_type": 2636,
+            "recipe_name": "新青歌快雪双会10%"
         }
     },
     5743: {
