@@ -5,10 +5,6 @@ class 混元内功会心提高(NeutralCriticalRecipe):
     value = (2000, 205)
 
 
-class 新青冠静止目标增伤(MoveStateDamageAdditionRecipe):
-    value = 205
-
-
 class 故幽加芙蓉会心(NeutralCriticalRecipe):
     value = (1500, 154)
 
@@ -42,9 +38,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         混元内功会心提高: {
             1295: {}, 5497: {}
-        },
-        新青冠静止目标增伤: {
-            5743: {}, 5744: {}
         },
         故幽加芙蓉会心: {
             2439: {}, 2440: {}, 2441: {}, 2442: {}, 2443: {}, 3151: {}

@@ -63,7 +63,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             16855: Gain("清流")
         },
         {
-            38972: Gain("青冠", recipes=[(5743, 1), (5744, 1)])
+            38972: Gain("青冠", attributes=dict(neutral_attack_power_gain=102, strain_gain=102))
         },
         {
             6682: Gain("流离")

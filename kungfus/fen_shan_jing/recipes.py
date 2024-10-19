@@ -23,6 +23,22 @@ class 绝刀加会心(PhysicalCriticalRecipe):
     value = (1500, 200)
 
 
+class 绝刀无视防御(PhysicalShieldGainRecipe):
+    value = -1024
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id != 13055:
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id != 13055:
+            super().sub_skill(skill)
+
+
+class 绝刀破招无视防御(PhysicalShieldGainRecipe):
+    value = -1024
+
+
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -64,6 +80,12 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         绝刀加会心: {
             1823: {}
+        },
+        绝刀无视防御: {
+            5745: {}
+        },
+        绝刀破招无视防御: {
+            5746: {}
         }
     },
     1: {

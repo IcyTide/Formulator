@@ -7889,15 +7889,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    29183: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "两仪加伤害",
-        "max_stack": 1,
-        "recipes": {
-            4682: 1
-        }
-    },
     9966: {
         "attributes": {},
         "max_level": 4,
@@ -8772,7 +8763,7 @@ BUFFS = {
     },
     9714: {
         "attributes": {
-            "all_shield_ignore": 614
+            "all_shield_ignore": 461
         },
         "max_level": 1,
         "buff_name": "雾锁",
@@ -8940,7 +8931,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 104
+            "pve_addition_base": 72
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -9020,7 +9011,7 @@ BUFFS = {
     },
     7659: {
         "attributes": {
-            "physical_attack_power_gain": 205
+            "physical_attack_power_gain": 307
         },
         "max_level": 1,
         "buff_name": "命陨",
@@ -9692,16 +9683,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    9889: {
-        "attributes": {
-            "all_shield_ignore": 512
-        },
-        "max_level": 1,
-        "buff_name": "蔑视",
-        "alias_name": "蔑视_无视目标30%外防",
-        "max_stack": 1,
-        "recipes": {}
-    },
     25937: {
         "attributes": [
             {
@@ -9881,17 +9862,6 @@ BUFFS = {
         "max_level": 1,
         "alias_name": "云汉伤害buff",
         "max_stack": 9,
-        "recipes": {}
-    },
-    18384: {
-        "attributes": {
-            "physical_critical_strike_rate": 1000,
-            "physical_critical_power_rate": 102
-        },
-        "max_level": 1,
-        "buff_name": "含风",
-        "alias_name": "新含风加会心会效",
-        "max_stack": 1,
         "recipes": {}
     },
     23066: {
@@ -10544,7 +10514,7 @@ BUFFS = {
     20699: {
         "attributes": {
             "poison_overcome_gain": 256,
-            "strain_gain": 307
+            "strain_gain": 256
         },
         "max_level": 1,
         "alias_name": "养荣千枝绽蕊加破防",
@@ -10671,13 +10641,13 @@ BUFFS = {
     },
     71297: {
         "attributes": {
-            "physical_damage_addition": 41,
-            "magical_damage_addition": 41
+            "physical_damage_addition": 51,
+            "magical_damage_addition": 51
         },
         "max_level": 1,
         "buff_name": "披靡·悟",
         "alias_name": "移动端_孤锋诀_奇穴_可叠加增伤",
-        "max_stack": 5,
+        "max_stack": 3,
         "recipes": {}
     },
     26857: {

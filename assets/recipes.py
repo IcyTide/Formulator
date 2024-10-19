@@ -1100,20 +1100,6 @@ RECIPES = {
             "recipe_name": "新青歌快雪双会10%"
         }
     },
-    5743: {
-        1: {
-            "skill_id": 2636,
-            "recipe_type": 2636,
-            "recipe_name": "青冠_快雪静止增伤"
-        }
-    },
-    5744: {
-        1: {
-            "skill_id": 179,
-            "recipe_type": 179,
-            "recipe_name": "青冠_阳明静止增伤"
-        }
-    },
     2439: {
         1: {
             "skill_id": 186,
@@ -2865,6 +2851,27 @@ RECIPES = {
             "recipe_name": "《百步穿杨·穿心弩》参悟断篇"
         }
     },
+    1200: {
+        1: {
+            "skill_id": 3095,
+            "recipe_type": 3095,
+            "recipe_name": "90奇穴_夺魄箭加会心"
+        }
+    },
+    3167: {
+        1: {
+            "skill_id": 3093,
+            "recipe_type": 3093,
+            "recipe_name": "新声若惊雷无视防御"
+        }
+    },
+    1483: {
+        1: {
+            "skill_id": 3093,
+            "recipe_type": 3093,
+            "recipe_name": "90奇穴_暴雨梨花针减CD"
+        }
+    },
     5533: {
         1: {
             "prepare_frame": -24,
@@ -2884,20 +2891,6 @@ RECIPES = {
             "prepare_frame": -24,
             "recipe_type": 3096,
             "recipe_name": "蹑景追风3"
-        }
-    },
-    1200: {
-        1: {
-            "skill_id": 3095,
-            "recipe_type": 3095,
-            "recipe_name": "90奇穴_夺魄箭加会心"
-        }
-    },
-    3167: {
-        1: {
-            "skill_id": 3093,
-            "recipe_type": 3093,
-            "recipe_name": "新声若惊雷无视防御"
         }
     },
     2864: {
@@ -3042,6 +3035,13 @@ RECIPES = {
             "skill_id": 25154,
             "recipe_type": 25154,
             "recipe_name": "神机控制诡面埋伏加伤害"
+        }
+    },
+    1223: {
+        1: {
+            "damage_addition": 82,
+            "recipe_type": 3367,
+            "recipe_name": "90奇穴_千机变加会心会伤"
         }
     },
     947: {
@@ -4381,6 +4381,20 @@ RECIPES = {
         1: {
             "recipe_type": 13055,
             "recipe_name": "分野_绝刀加会心会效"
+        }
+    },
+    5745: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀无视防御"
+        }
+    },
+    5746: {
+        1: {
+            "skill_id": 38889,
+            "recipe_type": 38889,
+            "recipe_name": "绝刀破招无视防御"
         }
     },
     17447: {
@@ -7993,6 +8007,13 @@ RECIPES = {
             "skill_id": 37780,
             "recipe_type": 37780,
             "recipe_name": "《聘风令·劈风令》秘诀断篇"
+        }
+    },
+    5323: {
+        1: {
+            "skill_id": 24491,
+            "recipe_type": 24491,
+            "recipe_name": "衍天宗PVP套装效果1"
         }
     },
     5578: {

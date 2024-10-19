@@ -61,6 +61,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             884: {}, 885: {}, 886: {},
             1669: {}, 1670: {}, 1671: {},
             5580: {}, 4932: {}, 4933: {}, 2962: {},
+            1223: {},
             947: {}, 4120: {}, 1532: {}, 1533: {}
         },
         CriticalStrikeRecipe_200: {

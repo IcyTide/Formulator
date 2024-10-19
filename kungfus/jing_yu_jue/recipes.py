@@ -8,9 +8,17 @@ class 追命箭_忽视20外防(PhysicalShieldGainRecipe):
         if skill.skill_id not in (3096, 18801):
             super().add_skill(skill)
 
+    def add_skills(self, skills: Dict[int, Skill]):
+        super().add_skills(skills)
+        super().add_skill(skills[36543])
+
     def sub_skill(self, skill: Skill):
         if skill.skill_id not in (3096, 18801):
             super().sub_skill(skill)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        super().sub_skills(skills)
+        super().sub_skill(skills[36543])
 
 
 class 唐门_穿心弩_加伤害1(ChannelIntervalRecipe):
@@ -19,18 +27,6 @@ class 唐门_穿心弩_加伤害1(ChannelIntervalRecipe):
 
 class 唐门_穿心弩_加伤害2(ChannelIntervalRecipe):
     value = 1.1
-
-
-class 蹑景追风120非侠士效果(PveAdditionRecipe):
-    value = 1024
-
-
-class 蹑景追风80非侠士效果(PveAdditionRecipe):
-    value = 820
-
-
-class 蹑景追风60非侠士效果(PveAdditionRecipe):
-    value = 615
 
 
 class 夺魄箭_加会心会伤(PhysicalCriticalRecipe):
@@ -49,6 +45,22 @@ class 唐门_新声若惊雷无视防御(PhysicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
+class 唐门_天罗_暴雨梨花针减CD(PhysicalCriticalRecipe):
+    value = (500 * 4, 100 * 4)
+
+
+class 蹑景追风120非侠士效果(PveAdditionRecipe):
+    value = 922
+
+
+class 蹑景追风80非侠士效果(PveAdditionRecipe):
+    value = 768
+
+
+class 蹑景追风60非侠士效果(PveAdditionRecipe):
+    value = 615
+
+
 class 穿林打叶伤害修正(ChannelIntervalRecipe):
     value = 1.5
 
@@ -60,9 +72,17 @@ class 唐门_追命箭_忽视50外防(PhysicalShieldGainRecipe):
         if skill.skill_id not in (3096, 18801):
             super().add_skill(skill)
 
+    def add_skills(self, skills: Dict[int, Skill]):
+        super().add_skills(skills)
+        super().add_skill(skills[36543])
+
     def sub_skill(self, skill: Skill):
         if skill.skill_id not in (3096, 18801):
             super().sub_skill(skill)
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        super().sub_skills(skills)
+        super().sub_skill(skills[36543])
 
 
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
@@ -102,6 +122,15 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         唐门_穿心弩_加伤害2: {
             860: {}
         },
+        夺魄箭_加会心会伤: {
+            1200: {}
+        },
+        唐门_新声若惊雷无视防御: {
+            3167: {}
+        },
+        唐门_天罗_暴雨梨花针减CD: {
+            1483: {}
+        },
         蹑景追风120非侠士效果: {
             5533: {}
         },
@@ -110,12 +139,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         蹑景追风60非侠士效果: {
             5535: {}
-        },
-        夺魄箭_加会心会伤: {
-            1200: {}
-        },
-        唐门_新声若惊雷无视防御: {
-            3167: {}
         },
         穿林打叶伤害修正: {
             2864: {}

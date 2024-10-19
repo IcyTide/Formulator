@@ -8,18 +8,14 @@ from kungfus.bei_ao_jue.skills import 项王击鼎秘章
 class 含风(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in range(16610, 16614 + 1):
-            skills[skill_id].pre_buffs[18384] = {1: 1}
-            skills[skill_id].pre_buffs[23066] = {1: 1}
+            skills[skill_id].pre_buffs[23066] = {2: 1}
         for skill_id in range(16913, 16918 + 1):
-            skills[skill_id].pre_buffs[18384] = {1: 1}
-            skills[skill_id].pre_buffs[23066] = {1: 1}
+            skills[skill_id].pre_buffs[23066] = {2: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in range(16610, 16614 + 1):
-            skills[skill_id].pre_buffs.pop(18384)
             skills[skill_id].pre_buffs.pop(23066)
         for skill_id in range(16913, 16918 + 1):
-            skills[skill_id].pre_buffs.pop(18384)
             skills[skill_id].pre_buffs.pop(23066)
 
 

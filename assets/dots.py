@@ -613,16 +613,6 @@ DOTS = {
         ],
         "poison_damage_call": 1
     },
-    18882: {
-        "buff_name": "赤蛇(DOT)",
-        "alias_name": "橙武额外dot",
-        "interval": 48,
-        "tick": 10,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 20,
-        "poison_damage_call": 1
-    },
     2296: {
         "buff_name": "蛇影(DOT)",
         "alias_name": "五毒_五仙图录_蛇影",
@@ -713,6 +703,44 @@ DOTS = {
             90,
             95,
             100
+        ],
+        "physical_damage_call": 1
+    },
+    12663: {
+        "buff_name": "穿心(DOT)",
+        "alias_name": "化学镖_叠三层",
+        "interval": 48,
+        "tick": 6,
+        "max_stack": 3,
+        "platform": 0,
+        "damage_base": [
+            19,
+            21,
+            23,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48,
+            48
         ],
         "physical_damage_call": 1
     },

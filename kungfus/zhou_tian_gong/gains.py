@@ -1,7 +1,7 @@
-from general.buffs import GENERAL_BUFFS
-from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
+from base.gain import Gain
+from general.gains.equipment import EQUIPMENT_GAINS
 
 GAINS = {
-    (1956,): CriticalSet(GENERAL_BUFFS[18555]),
+    (2726,): Gain(),
     **EQUIPMENT_GAINS,
 }
