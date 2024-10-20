@@ -1,6 +1,5 @@
 from typing import Dict, List
 
-from base.buff import Buff
 from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
@@ -109,7 +108,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             35737: Gain("于狩")
         },
         {
-            35745: Gain("卢令", attributes=dict(agility_gain=102))
+            35745: Gain("卢令", attributes=dict(agility_gain=102)),
+            35756: Gain("命俦")
         },
         {
             35757: Gain("贯侯", recipes=[(5422, 1)])

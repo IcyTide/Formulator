@@ -9112,6 +9112,17 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    3468: {
+        "attributes": {
+            "physical_critical_strike_rate": 1500,
+            "physical_critical_power_rate": 300
+        },
+        "max_level": 1,
+        "buff_name": "心无旁骛",
+        "alias_name": "唐门_诡道_心无旁骛",
+        "max_stack": 1,
+        "recipes": {}
+    },
     6112: {
         "attributes": {
             "physical_attack_power_gain": 154,

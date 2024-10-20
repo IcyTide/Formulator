@@ -10,7 +10,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             25937: dict(buff_name="祭血关山"),
             8627: dict(buff_name="刀魂"),
             26212: dict(begin_target_buffs={8248: {1: 1}}),
-            9052: dict(buff_name="绝刀增伤", continuous=True),
+            9052: dict(buff_name="绝刀增伤", begin_frame_shift=-2),
         }
     }
 }

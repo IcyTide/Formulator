@@ -60,6 +60,7 @@ class BaseParser:
     records: Dict[PLAYER_ID_TYPE, Dict[TARGET_ID_TYPE, RECORD_TYPE]]
 
     frame_shift_buffs: Dict[FRAME_TYPE, Dict[PLAYER_ID_TYPE, BUFF_TYPE]]
+    begin_shift_buffs: Dict[PLAYER_ID_TYPE, BUFF_TYPE]
 
     id2buff: Dict[int, Tuple[BUFF_ID_TYPE, BUFF_LEVEL_TYPE, BUFF_STACK_TYPE]]
     buff_stacks: Dict[CASTER_ID_TYPE, BUFF_TYPE]
@@ -156,6 +157,7 @@ class BaseParser:
         self.records = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list))))
 
         self.frame_shift_buffs = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
+        self.begin_shift_buffs = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
 
         self.id2buff = {}
         self.buff_stacks = defaultdict(lambda: defaultdict(dict))
@@ -319,6 +321,7 @@ class Parser(BaseParser):
                     for buff_level, buff_stack in buff_levels.items():
                         if buff_stack:
                             self.buff_stacks[player_id][buff_id] = {buff_level: buff_stack}
+                            self.begin_shift_buffs[player_id][buff_id][buff_level] += 1
                         else:
                             self.buff_stacks[player_id].pop(buff_id, None)
 
@@ -380,6 +383,7 @@ class Parser(BaseParser):
 
         buff = self.players[player_id].buffs[buff_id]
         if buff.begin_frame_shift and buff_stack:
+            self.begin_shift_buffs[player_id][buff_id][buff_level] -= 1
             return
         if buff.end_frame_shift and not buff_stack:
             return
@@ -391,7 +395,7 @@ class Parser(BaseParser):
             if buff.continuous:
                 self.current_buff_intervals.pop(buff_id, None)
             if buff.unique:
-                buff_stacks[buff_id] = {buff_level: buff_stack}
+                buff_stacks[buff_id][buff_level] = buff_stack
             elif unique_id not in self.id2buff:
                 self.id2buff[unique_id] = (buff_id, buff_level, buff_stack)
                 buff_stacks[buff_id][buff_level] = buff_stacks[buff_id].get(buff_level, 0) + 1
@@ -400,8 +404,10 @@ class Parser(BaseParser):
             if buff.continuous:
                 self.current_buff_intervals[buff_id][buff_level] = self.CONTINUOUS_DELAY + 1
                 return
+            if self.begin_shift_buffs[player_id][buff_id].get(buff_level):
+                return
             if buff.unique:
-                buff_stacks.pop(buff_id, None)
+                buff_stacks[buff_id].pop(buff_level, None)
             elif unique_id in self.id2buff:
                 buff_id, buff_level, buff_stack = self.id2buff.pop(unique_id)
                 buff_stacks[buff_id][buff_level] = buff_stacks[buff_id].get(buff_level, 1) - 1

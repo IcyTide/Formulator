@@ -145,12 +145,16 @@ class HatGain(EquipmentGain):
         super().add_attribute(attribute)
 
 
-class OvercomePendantGain(EquipmentGain):
+class PendantGain(EquipmentGain):
+    rate = 5
+
+
+class OvercomePendantGain(PendantGain):
     buff_ids = [29536]
     _attributes = GENERAL_BUFFS[29536].all_attributes
 
 
-class CriticalPendantGain(EquipmentGain):
+class CriticalPendantGain(PendantGain):
     buff_ids = [29537]
     _attributes = GENERAL_BUFFS[29537].all_attributes
 
@@ -176,19 +180,18 @@ class CriticalNecklaceGain(NecklaceGain):
     scales = [4748, 4942]
     buff_ids = [29528]
 
-    def add_attribute(self, attribute: Attribute):
-        scale = self.scales[self.level - 1]
-        self.rate = int(attribute.final_overcome / scale)
-        super().add_attribute(attribute)
+
+class ShoesGain(EquipmentGain):
+    rate = 10 / 20
 
 
-class OvercomeShoesGain(EquipmentGain):
+class OvercomeShoesGain(ShoesGain):
     buff_ids = [29526]
     _attributes = GENERAL_BUFFS[29526].all_attributes
     rate = 10 / 20
 
 
-class CriticalShoesGain(EquipmentGain):
+class CriticalShoesGain(ShoesGain):
     buff_ids = [29524]
     _attributes = GENERAL_BUFFS[29524].all_attributes
     rate = 10 / 20
