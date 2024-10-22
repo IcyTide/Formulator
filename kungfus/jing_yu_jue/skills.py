@@ -17,6 +17,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             3121: dict(channel_interval=16), 3095: {}, 3187: {}, 3222: {}, 3291: {}, 6920: {}, 22789: {}, 25775: {},
             32884: {}, 37616: {}, 33870: {}, 37504: {}, 36543: {},
             **{skill_id: {} for skill_id in (21841, 21840, 3227, 8470, 8469, 8468, 8467)},
+            **{skill_id: dict(post_buffs={3276: {1: 1}, 17103: {1: 1}}) for skill_id in (3386, 30629)},
             3125: dict(bind_dots={2237: 1}),
             29148: dict(bind_dots={2237: 1}),
             18815: dict(bind_dots={12663: 1}),

@@ -568,14 +568,6 @@ RECIPES = {
             "recipe_name": "新无极_太极无极加伤害"
         }
     },
-    4682: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 301,
-            "recipe_type": 301,
-            "recipe_name": "两仪伤害提高30%"
-        }
-    },
     4602: {
         1: {
             "damage_addition": 102,

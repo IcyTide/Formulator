@@ -1,12 +1,4 @@
 DOTS = {
-    29541: {
-        "buff_name": "火·燎原(DOT)",
-        "alias_name": "黄字暗器dot",
-        "interval": 32,
-        "tick": 7,
-        "max_stack": 1,
-        "platform": 0
-    },
     743: {
         "buff_name": "横扫六合(DOT)",
         "alias_name": "六合内伤",

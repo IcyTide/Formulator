@@ -5044,6 +5044,7 @@ BUFFS = {
             }
         ],
         "max_level": 2,
+        "buff_name": "无修·会",
         "alias_name": "黄字腰坠会效",
         "max_stack": 5,
         "recipes": {}
@@ -5060,6 +5061,7 @@ BUFFS = {
             }
         ],
         "max_level": 2,
+        "buff_name": "无修·破",
         "alias_name": "黄字腰坠破防",
         "max_stack": 5,
         "recipes": {}
@@ -6629,27 +6631,27 @@ BUFFS = {
                 "physical_attack_power_gain": 50
             },
             {
-                "surplus_base": 1516,
+                "surplus_base": 2667,
                 "physical_attack_power_gain": 50
             },
             {
                 "physical_overcome_gain": 256,
                 "physical_attack_power_gain": 50,
-                "surplus_base": 1516
+                "surplus_base": 2667
             },
             {
                 "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
+                "surplus_base": 2667,
                 "physical_overcome_gain": 256
             },
             {
                 "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
+                "surplus_base": 2667,
                 "physical_overcome_gain": 256
             },
             {
                 "physical_attack_power_gain": 50,
-                "surplus_base": 1516,
+                "surplus_base": 2667,
                 "physical_overcome_gain": 256
             }
         ],
@@ -7829,9 +7831,18 @@ BUFFS = {
                 "physical_attack_power_gain": 256,
                 "physical_critical_power_rate": 250,
                 "physical_critical_strike_rate": 2500
+            },
+            {
+                "neutral_critical_strike_rate": 2500,
+                "magical_critical_power_rate": 256,
+                "neutral_attack_power_gain": 512,
+                "physical_attack_power_gain": 512,
+                "physical_critical_power_rate": 256,
+                "physical_critical_strike_rate": 2500,
+                "strain_rate": 102
             }
         ],
-        "max_level": 4,
+        "max_level": 5,
         "buff_name": "紫气东来",
         "alias_name": "镇派_紫气东来",
         "max_stack": 1,
@@ -9019,6 +9030,13 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    10167: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "逐一击破延长buff",
+        "max_stack": 5,
+        "recipes": {}
+    },
     15945: {
         "attributes": {},
         "max_level": 1,
@@ -9028,13 +9046,6 @@ BUFFS = {
         "recipes": {
             5090: 1
         }
-    },
-    10167: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "逐一击破延长buff",
-        "max_stack": 5,
-        "recipes": {}
     },
     28225: {
         "attributes": {},
@@ -10711,7 +10722,7 @@ BUFFS = {
     },
     29243: {
         "attributes": {
-            "all_shield_ignore": 512
+            "all_shield_ignore": 410
         },
         "max_level": 1,
         "alias_name": "玉枕_无视防御",

@@ -25,7 +25,7 @@ ATTRIBUTES = {
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
-        "pve_addition_base": 317,
+        "pve_addition_base": 358,
         "magical_attack_power_base": [
             9,
             15,
@@ -64,7 +64,7 @@ ATTRIBUTES = {
     10015: {
         "alias_name": "太虚剑意",
         "max_level": 14,
-        "pve_addition_base": 410,
+        "pve_addition_base": 338,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
@@ -144,7 +144,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 297,
+        "pve_addition_base": 328,
         "magical_attack_power_base": [
             10,
             17,
@@ -214,7 +214,7 @@ ATTRIBUTES = {
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,
-        "pve_addition_base": 133,
+        "pve_addition_base": 102,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
         "lunar_attack_power_base": [
@@ -361,7 +361,6 @@ ATTRIBUTES = {
     10225: {
         "alias_name": "天罗诡道",
         "max_level": 14,
-        "pve_addition_base": 184,
         "physical_critical_strike_base": [
             4,
             7,
@@ -767,7 +766,7 @@ ATTRIBUTES = {
     10627: {
         "alias_name": "无方",
         "max_level": 14,
-        "pve_addition_base": 276,
+        "pve_addition_base": 317,
         "magical_attack_power_base": [
             9,
             16,
@@ -846,7 +845,7 @@ ATTRIBUTES = {
     10698: {
         "alias_name": "孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 307,
+        "pve_addition_base": 379,
         "physical_critical_strike_base": [
             13,
             23,
@@ -925,7 +924,7 @@ ATTRIBUTES = {
     10756: {
         "alias_name": "山海心诀",
         "max_level": 14,
-        "pve_addition_base": 102,
+        "pve_addition_base": 20,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [

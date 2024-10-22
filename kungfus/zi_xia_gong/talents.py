@@ -6,21 +6,17 @@ from base.skill import Skill
 
 class 固本(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2681].post_buffs.pop(2757)
         skills[2681].post_buffs[2757] = {3: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2681].post_buffs.pop(2757)
         skills[2681].post_buffs[2757] = {1: 1}
 
 
 class 若水(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        skills[2681].post_buffs.pop(2757)
         skills[2681].post_buffs[2757] = {2: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2681].post_buffs.pop(2757)
         skills[2681].post_buffs[2757] = {1: 1}
 
 

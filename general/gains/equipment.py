@@ -120,7 +120,7 @@ class 大附魔鞋(EquipmentGain):
 
 
 class TertiaryWeaponGain(EquipmentGain):
-    dot_ids = [29541]
+    skill_ids = [38966]
 
 
 class HatGain(EquipmentGain):
