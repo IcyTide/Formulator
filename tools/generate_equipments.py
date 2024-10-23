@@ -7,6 +7,7 @@ from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values()], []))
+# KINDS = ["治疗"]
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFU.values()])
 
 QUALITY_COF = {
@@ -49,6 +50,7 @@ MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }
 ATTR_ABBR = {
+    "therapy_base": "治疗",
     "overcome_base": "破防",
     "critical_strike_base": "会心",
     "critical_power_base": "会效",

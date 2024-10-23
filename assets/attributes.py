@@ -144,7 +144,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 328,
+        "pve_addition_base": 379,
         "magical_attack_power_base": [
             10,
             17,
@@ -167,7 +167,7 @@ ATTRIBUTES = {
     100408: {
         "alias_name": "移动端_花间游_心法",
         "max_level": 14,
-        "pve_addition_base": 492,
+        "pve_addition_base": 440,
         "magical_attack_power_base": [
             10,
             17,
@@ -237,7 +237,7 @@ ATTRIBUTES = {
     100410: {
         "alias_name": "移动端_心法_冰心诀",
         "max_level": 14,
-        "pve_addition_base": 492,
+        "pve_addition_base": 440,
         "all_shield_ignore": 614,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
@@ -261,7 +261,7 @@ ATTRIBUTES = {
     10144: {
         "alias_name": "问水诀",
         "max_level": 14,
-        "pve_addition_base": 31,
+        "pve_addition_base": 61,
         "agility_to_physical_attack_power": 1843,
         "physical_critical_strike_base": [
             12,
@@ -562,7 +562,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 379,
+        "pve_addition_base": 338,
         "physical_attack_power_base": [
             9,
             15,
@@ -805,7 +805,7 @@ ATTRIBUTES = {
     101355: {
         "alias_name": "移动端_无方_心法",
         "max_level": 14,
-        "pve_addition_base": 492,
+        "pve_addition_base": 461,
         "magical_attack_power_base": [
             9,
             16,
@@ -884,7 +884,7 @@ ATTRIBUTES = {
     101375: {
         "alias_name": "移动端_孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 430,
+        "pve_addition_base": 369,
         "physical_critical_strike_base": [
             13,
             23,
@@ -1042,7 +1042,7 @@ ATTRIBUTES = {
     102278: {
         "alias_name": "移动端_段氏_心法",
         "max_level": 14,
-        "pve_addition_base": 492,
+        "pve_addition_base": 389,
         "magical_attack_power_base": [
             9,
             15,

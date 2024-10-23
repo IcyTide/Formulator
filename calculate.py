@@ -16,7 +16,6 @@ def build_mapping():
             list(SPECIAL_ENCHANT_MAP[6].values())[0][0]
         )
         for kungfu_id, kungfu in SUPPORT_KUNGFU.items()
-        if kungfu_id != 10786
     }
 
     df = pd.read_csv(os.path.join(path, "settings/skill/skills.tab"), sep="\t", low_memory=False,
@@ -138,13 +137,15 @@ class Calculator:
     def calculate_hybrid(self, tag):
         self.calculate_interval(tag)
         for player_name, probs in self.probs.items():
+            final_probs = {frame: 0 for frame in probs}
             for frame, prob in probs.items():
                 if not prob:
                     continue
                 for i in range(frame, frame + self.duration):
-                    if i not in probs:
+                    if i not in final_probs:
                         continue
-                    probs[i] += (1 - probs[i]) * prob
+                    final_probs[i] += (1 - final_probs[i]) * prob
+            self.probs[player_name] = final_probs
 
     def __call__(self, file_name, tag: Literal[0, 1, 2, 3] = 0):
         rows = open(file_name, encoding="gbk").readlines()
@@ -186,5 +187,5 @@ def plot(data):
 if __name__ == '__main__':
     # build_mapping()
     calculator = Calculator()
-    result = calculator("logs/wf-2.jcl", 1)
+    result = calculator("logs/wf-2.jcl", 3)
     plot(result)

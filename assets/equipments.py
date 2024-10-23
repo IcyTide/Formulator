@@ -45992,7 +45992,7 @@ EQUIPMENTS = {
         }
     },
     "ring": {
-        "共苍茫·芥#42441 (19800 会心 破防 加速)": {
+        "共苍茫·芥#42441 (19800 特效 会心 破防 加速)": {
             "id": 42441,
             "name": "共苍茫·芥",
             "school": "通用",
@@ -46011,13 +46011,17 @@ EQUIPMENTS = {
                 "haste_base": 1716
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2727
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·舟#42440 (19800 会心 破防 加速)": {
+        "共苍茫·舟#42440 (19800 特效 会心 破防 加速)": {
             "id": 42440,
             "name": "共苍茫·舟",
             "school": "通用",
@@ -46036,13 +46040,17 @@ EQUIPMENTS = {
                 "haste_base": 1716
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2727
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·乘#42439 (19800 会心 破防 加速)": {
+        "共苍茫·乘#42439 (19800 特效 会心 破防 加速)": {
             "id": 42439,
             "name": "共苍茫·乘",
             "school": "通用",
@@ -46061,13 +46069,17 @@ EQUIPMENTS = {
                 "haste_base": 1716
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2727
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·羽#42438 (19800 会心 破防 加速)": {
+        "共苍茫·羽#42438 (19800 特效 会心 破防 加速)": {
             "id": 42438,
             "name": "共苍茫·羽",
             "school": "通用",
@@ -46086,7 +46098,11 @@ EQUIPMENTS = {
                 "haste_base": 1716
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2727
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57072,7 +57088,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57098,7 +57118,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57123,7 +57147,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57149,7 +57177,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57175,7 +57207,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57200,7 +57236,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57226,7 +57266,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57252,7 +57296,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57277,7 +57325,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57303,7 +57355,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57329,7 +57385,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57354,7 +57414,11 @@ EQUIPMENTS = {
             "embed": {
                 "surplus_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2706
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57380,7 +57444,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57406,7 +57474,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57430,7 +57502,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57456,7 +57532,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57482,7 +57562,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57506,7 +57590,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57532,7 +57620,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57558,7 +57650,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57582,7 +57678,11 @@ EQUIPMENTS = {
             "embed": {
                 "physical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57608,7 +57708,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57634,7 +57738,11 @@ EQUIPMENTS = {
             "embed": {
                 "magical_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -57658,7 +57766,11 @@ EQUIPMENTS = {
             "embed": {
                 "all_critical_strike_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    2701
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -61750,7 +61862,7 @@ EQUIPMENTS = {
         }
     },
     "primary_weapon": {
-        "伏龙阳焰_测试用#40321 (22000 会心 破防 加速)": {
+        "伏龙阳焰_测试用#40321 (22000 特效 会心 破防 加速)": {
             "id": 40321,
             "name": "伏龙阳焰_测试用",
             "school": "段氏",
@@ -61776,13 +61888,23 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2724
+                ],
+                [
+                    2725
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40320 (22000 会心 破防 加速)": {
+        "庄生晓梦_测试用#40320 (22000 特效 会心 破防 加速)": {
             "id": 40320,
             "name": "庄生晓梦_测试用",
             "school": "万灵",
@@ -61808,13 +61930,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2572
+                ],
+                [
+                    2571
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40319 (22000 会心 破防 加速)": {
+        "绝地天通刀_测试用#40319 (22000 特效 会心 破防 加速)": {
             "id": 40319,
             "name": "绝地天通刀_测试用",
             "school": "刀宗",
@@ -61840,13 +61974,25 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2391
+                ],
+                [
+                    2392
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40317 (22000 会心 破防 加速)": {
+        "鹿王本生_测试用#40317 (22000 特效 会心 破防 加速)": {
             "id": 40317,
             "name": "鹿王本生_测试用",
             "school": "药宗",
@@ -61872,13 +62018,25 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2414
+                ],
+                [
+                    2138
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40316 (22000 会心 破防 加速)": {
+        "月升海楼_测试用#40316 (22000 特效 会心 破防 加速)": {
             "id": 40316,
             "name": "月升海楼_测试用",
             "school": "衍天",
@@ -61904,13 +62062,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2413
+                ],
+                [
+                    1962
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40315 (22000 会心 破防 加速)": {
+        "山河同渡_测试用#40315 (22000 特效 会心 破防 加速)": {
             "id": 40315,
             "name": "山河同渡_测试用",
             "school": "凌雪",
@@ -61936,13 +62106,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2428
+                ],
+                [
+                    1944
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40314 (22000 会心 破防 加速)": {
+        "山海云涯_测试用#40314 (22000 特效 会心 破防 加速)": {
             "id": 40314,
             "name": "山海云涯_测试用",
             "school": "蓬莱",
@@ -61968,13 +62150,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2423
+                ],
+                [
+                    1943
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40313 (22000 会心 破防 加速)": {
+        "沉夜重雪_测试用#40313 (22000 特效 会心 破防 加速)": {
             "id": 40313,
             "name": "沉夜重雪_测试用",
             "school": "霸刀",
@@ -62000,13 +62194,25 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2430
+                ],
+                [
+                    1942
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40311 (22000 会心 破防 加速)": {
+        "抚今_测试用#40311 (22000 特效 会心 破防 加速)": {
             "id": 40311,
             "name": "抚今_测试用",
             "school": "长歌",
@@ -62032,13 +62238,25 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2415
+                ],
+                [
+                    1941
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40309 (22000 会心 破防 加速)": {
+        "孤焰_测试用#40309 (22000 特效 会心 破防 加速)": {
             "id": 40309,
             "name": "孤焰_测试用",
             "school": "苍云",
@@ -62064,13 +62282,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2408
+                ],
+                [
+                    1940
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40307 (22000 会心 破防 加速)": {
+        "血月_测试用#40307 (22000 特效 会心 破防 加速)": {
             "id": 40307,
             "name": "血月_测试用",
             "school": "明教",
@@ -62096,13 +62326,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2421
+                ],
+                [
+                    1938
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40306 (22000 会心 破防)": {
+        "拾牙_测试用#40306 (22000 特效 会心 破防)": {
             "id": 40306,
             "name": "拾牙_测试用",
             "school": "丐帮",
@@ -62127,13 +62369,26 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40304 (22000 会心 破防 加速)": {
+        "寄骨_测试用#40304 (22000 特效 会心 破防 加速)": {
             "id": 40304,
             "name": "寄骨_测试用",
             "school": "藏剑",
@@ -62159,13 +62414,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2427
+                ],
+                [
+                    1945
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40303 (22000 会心 破防 加速)": {
+        "摧霜_测试用#40303 (22000 特效 会心 破防 加速)": {
             "id": 40303,
             "name": "摧霜_测试用",
             "school": "唐门",
@@ -62191,13 +62458,25 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2411
+                ],
+                [
+                    1936
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40302 (22000 会心 破防 加速)": {
+        "罪骨浮屠_测试用#40302 (22000 特效 会心 破防 加速)": {
             "id": 40302,
             "name": "罪骨浮屠_测试用",
             "school": "唐门",
@@ -62223,13 +62502,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2412
+                ],
+                [
+                    1935
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40300 (22000 会心 破防 加速)": {
+        "墨语沉香_测试用#40300 (22000 特效 会心 破防 加速)": {
             "id": 40300,
             "name": "墨语沉香_测试用",
             "school": "五毒",
@@ -62255,13 +62546,25 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2420
+                ],
+                [
+                    1934
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40298 (22000 会心 破防 加速)": {
+        "飞霜绛露_测试用#40298 (22000 特效 会心 破防 加速)": {
             "id": 40298,
             "name": "飞霜绛露_测试用",
             "school": "七秀",
@@ -62287,13 +62590,25 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2416
+                ],
+                [
+                    1930
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40297 (22000 会心 破防 加速)": {
+        "风霆肃_测试用#40297 (22000 特效 会心 破防 加速)": {
             "id": 40297,
             "name": "风霆肃_测试用",
             "school": "纯阳",
@@ -62319,13 +62634,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2419
+                ],
+                [
+                    1932
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40296 (22000 会心 破防 加速)": {
+        "苍冥游_测试用#40296 (22000 特效 会心 破防 加速)": {
             "id": 40296,
             "name": "苍冥游_测试用",
             "school": "纯阳",
@@ -62351,13 +62678,25 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2418
+                ],
+                [
+                    1931
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40294 (22000 会心 破防 加速)": {
+        "旷野孤疆_测试用#40294 (22000 特效 会心 破防 加速)": {
             "id": 40294,
             "name": "旷野孤疆_测试用",
             "school": "天策",
@@ -62383,13 +62722,25 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2424
+                ],
+                [
+                    1933
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40292 (22000 会心 破防 加速)": {
+        "璃光浮远_测试用#40292 (22000 特效 会心 破防 加速)": {
             "id": 40292,
             "name": "璃光浮远_测试用",
             "school": "万花",
@@ -62415,13 +62766,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40290 (22000 会心 破防 加速)": {
+        "桑莲妙境_测试用#40290 (22000 特效 会心 破防 加速)": {
             "id": 40290,
             "name": "桑莲妙境_测试用",
             "school": "少林",
@@ -62447,8 +62810,20 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2410
+                ],
+                [
+                    1928
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -85756,7 +86131,7 @@ EQUIPMENTS = {
         }
     },
     "secondary_weapon": {
-        "螭尘_测试用#40305 (22000 会心 破防 加速)": {
+        "螭尘_测试用#40305 (22000 特效 会心 破防 加速)": {
             "id": 40305,
             "name": "螭尘_测试用",
             "school": "藏剑",
@@ -85782,8 +86157,20 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2426
+                ],
+                [
+                    1937
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}

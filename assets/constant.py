@@ -87,6 +87,7 @@ ATTR_TYPE_MAP = {
     "atSpiritBasePercentAdd": "spirit_gain",
     "atSpunkBasePercentAdd": "spunk_gain",
 
+    # "atTherapyPowerBase": "therapy_base",
     "atPhysicsAttackPowerBase": "physical_attack_power_base",
     "atMagicAttackPowerBase": "magical_attack_power_base",
     "atSolarAndLunarAttackPowerBase": "solar_and_lunar_attack_power_base",

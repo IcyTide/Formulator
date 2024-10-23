@@ -155,6 +155,10 @@ class BaseMajor:
         return int(self.spunk * SPUNK_TO_OVERCOME)
 
 
+class Therapy(BaseMajor):
+    therapy_base: int = 0
+
+
 class AttackPower(BaseMajor):
     physical_attack_power_base: int = 0
     _magical_attack_power_base: int = 0
@@ -571,7 +575,7 @@ class Overcome(BaseMajor):
         return self.final_poison_overcome / OVERCOME_SCALE
 
 
-class Major(AttackPower, CriticalStrike, Overcome):
+class Major(Therapy, AttackPower, CriticalStrike, Overcome):
     pass
 
 

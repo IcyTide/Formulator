@@ -4141,7 +4141,6 @@ RECIPES = {
     },
     1941: {
         1: {
-            "damage_addition": 410,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀无消耗秘籍"
@@ -7728,6 +7727,12 @@ RECIPES = {
             "recipe_name": "贯侯_标鹄伤害增加"
         }
     },
+    5748: {
+        1: {
+            "skill_id": 35987,
+            "recipe_name": "佩弦-饮雨簇无视防御"
+        }
+    },
     17470: {
         1: {
             "damage_addition": 21,
@@ -7864,6 +7869,7 @@ RECIPES = {
     5610: {
         1: {
             "damage_addition": 205,
+            "skill_id": 38085,
             "recipe_type": 38085,
             "recipe_name": "绝脉引爆伤害提高10%"
         }
@@ -7909,6 +7915,22 @@ RECIPES = {
             "skill_id": 38009,
             "recipe_type": 38009,
             "recipe_name": "段氏pve四件套"
+        }
+    },
+    5749: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "段氏大CW属性加成1"
+        }
+    },
+    5750: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 38009,
+            "recipe_type": 38009,
+            "recipe_name": "段氏大CW属性加成2"
         }
     },
     5576: {

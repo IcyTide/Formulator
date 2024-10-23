@@ -36,7 +36,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             25378: Gain("连断"),
-            25066: Gain("神元", attributes=dict(spunk_gain=102))
+            25066: Gain("神元", attributes=dict(spunk_gain=102)),
+            25382: Gain("知微")
         },
         {
             25085: Gain("荧入白")

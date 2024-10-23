@@ -25,6 +25,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             6812: Gain("玄黄", recipes=[(1714, 1)])
         },
         {
+            6813: Gain("御龙"),
             6836: Gain("益元"),
             26702: Gain("坚冰")
         },
@@ -54,10 +55,12 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6843: Gain("含弘"),
-            6814: Gain("复礼")
+            6814: Gain("复礼"),
+            6822: Gain("贞固")
         },
         {
-            14625: Gain("饮江")
+            14625: Gain("饮江"),
+            6838: Gain("不息")
         },
         {
             14927: Gain("御鸿于天"),

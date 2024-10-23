@@ -41,6 +41,18 @@ class 贯侯_标鹄伤害增加(PveAdditionRecipe):
             super().sub_skill(skill)
 
 
+class 饮雨簇无视防御(PhysicalShieldGainRecipe):
+    value = -666
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 35987:
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 35987:
+            super().sub_skill(skill)
+
+
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -70,6 +82,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         贯侯_标鹄伤害增加: {
             5422: {}
+        },
+        饮雨簇无视防御: {
+            5748: {}
         }
     },
     1: {

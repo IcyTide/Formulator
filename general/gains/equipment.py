@@ -271,6 +271,9 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (gain_id,): CriticalShoesGain(i)
         for i, gain_id in enumerate((2709, 2710))
+    },
+    **{
+        (gain_id,): Gain()
+        for gain_id in (2727, 1194)
     }
-
 }
