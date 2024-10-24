@@ -8,17 +8,9 @@ class 追命箭_忽视20外防(PhysicalShieldGainRecipe):
         if skill.skill_id not in (3096, 18801):
             super().add_skill(skill)
 
-    def add_skills(self, skills: Dict[int, Skill]):
-        super().add_skills(skills)
-        super().add_skill(skills[36543])
-
     def sub_skill(self, skill: Skill):
         if skill.skill_id not in (3096, 18801):
             super().sub_skill(skill)
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        super().sub_skills(skills)
-        super().sub_skill(skills[36543])
 
 
 class 唐门_穿心弩_加伤害1(ChannelIntervalRecipe):
@@ -72,17 +64,9 @@ class 唐门_追命箭_忽视50外防(PhysicalShieldGainRecipe):
         if skill.skill_id not in (3096, 18801):
             super().add_skill(skill)
 
-    def add_skills(self, skills: Dict[int, Skill]):
-        super().add_skills(skills)
-        super().add_skill(skills[36543])
-
     def sub_skill(self, skill: Skill):
         if skill.skill_id not in (3096, 18801):
             super().sub_skill(skill)
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        super().sub_skills(skills)
-        super().sub_skill(skills[36543])
 
 
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {

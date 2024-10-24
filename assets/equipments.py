@@ -48370,9 +48370,9 @@ EQUIPMENTS = {
                 "vitality_base": 5909,
                 "agility_base": 482,
                 "physical_attack_power_base": 1095,
-                "physical_critical_strike_base": 3358,
-                "physical_overcome_base": 3358,
-                "haste_base": 537
+                "physical_critical_strike_base": 2955,
+                "physical_overcome_base": 2955,
+                "haste_base": 1343
             },
             "embed": {},
             "gains": [],
@@ -48395,9 +48395,9 @@ EQUIPMENTS = {
                 "vitality_base": 5909,
                 "strength_base": 482,
                 "physical_attack_power_base": 1095,
-                "physical_critical_strike_base": 3358,
-                "physical_overcome_base": 3358,
-                "haste_base": 537
+                "physical_critical_strike_base": 2955,
+                "physical_overcome_base": 2955,
+                "haste_base": 1343
             },
             "embed": {},
             "gains": [],
@@ -48420,9 +48420,9 @@ EQUIPMENTS = {
                 "vitality_base": 5909,
                 "spunk_base": 482,
                 "magical_attack_power_base": 1217,
-                "all_critical_strike_base": 3358,
-                "magical_overcome_base": 3358,
-                "haste_base": 537
+                "all_critical_strike_base": 2955,
+                "magical_overcome_base": 2955,
+                "haste_base": 1343
             },
             "embed": {},
             "gains": [],
@@ -48445,9 +48445,9 @@ EQUIPMENTS = {
                 "vitality_base": 5909,
                 "spirit_base": 482,
                 "magical_attack_power_base": 1217,
-                "magical_critical_strike_base": 3358,
-                "magical_overcome_base": 3358,
-                "haste_base": 537
+                "magical_critical_strike_base": 2955,
+                "magical_overcome_base": 2955,
+                "haste_base": 1343
             },
             "embed": {},
             "gains": [],
@@ -61879,9 +61879,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "neutral_attack_power_base": 9133,
-                "neutral_critical_strike_base": 11438,
-                "neutral_overcome_base": 11438,
-                "haste_base": 1830
+                "neutral_critical_strike_base": 10065,
+                "neutral_overcome_base": 10065,
+                "haste_base": 4575
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -61898,7 +61898,9 @@ EQUIPMENTS = {
             ],
             "recipes": {
                 5749: 1,
-                5750: 1
+                5750: 1,
+                17511: 1,
+                17239: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -61921,9 +61923,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 8214,
-                "physical_critical_strike_base": 11895,
-                "physical_overcome_base": 10980,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 9608,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -61965,9 +61967,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "strength_base": 1642,
                 "physical_attack_power_base": 8089,
-                "physical_critical_strike_base": 11895,
-                "physical_overcome_base": 11438,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 10065,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62009,9 +62011,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spirit_base": 1642,
                 "poison_attack_power_base": 8995,
-                "poison_critical_strike_base": 10980,
-                "poison_overcome_base": 12353,
-                "haste_base": 1830
+                "poison_critical_strike_base": 9608,
+                "poison_overcome_base": 10980,
+                "haste_base": 4575
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -62053,9 +62055,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "neutral_attack_power_base": 9133,
-                "neutral_critical_strike_base": 10523,
-                "neutral_overcome_base": 11438,
-                "haste_base": 2745
+                "neutral_critical_strike_base": 9150,
+                "neutral_overcome_base": 10065,
+                "haste_base": 5490
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -62097,9 +62099,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 8214,
-                "physical_critical_strike_base": 11895,
-                "physical_overcome_base": 10980,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 9608,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62141,9 +62143,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 12353,
-                "physical_overcome_base": 11438,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10980,
+                "physical_overcome_base": 10065,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62185,9 +62187,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "strength_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 11438,
-                "physical_overcome_base": 12353,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10065,
+                "physical_overcome_base": 10980,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62229,9 +62231,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spirit_base": 1642,
                 "lunar_attack_power_base": 8857,
-                "lunar_critical_strike_base": 11438,
-                "lunar_overcome_base": 11895,
-                "haste_base": 2288
+                "lunar_critical_strike_base": 10065,
+                "lunar_overcome_base": 10523,
+                "haste_base": 5033
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -62273,9 +62275,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 8711,
-                "physical_critical_strike_base": 10980,
-                "physical_overcome_base": 10065,
-                "haste_base": 1830
+                "physical_critical_strike_base": 9608,
+                "physical_overcome_base": 8693,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62317,9 +62319,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "solar_and_lunar_attack_power_base": 8857,
-                "solar_and_lunar_critical_strike_base": 10980,
-                "solar_and_lunar_overcome_base": 12353,
-                "haste_base": 2288
+                "solar_and_lunar_critical_strike_base": 9608,
+                "solar_and_lunar_overcome_base": 10980,
+                "haste_base": 5033
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -62361,8 +62363,8 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "strength_base": 1642,
                 "physical_attack_power_base": 8214,
-                "physical_critical_strike_base": 11895,
-                "physical_overcome_base": 12810
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 11438
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62405,9 +62407,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 10523,
-                "haste_base": 1830
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 9150,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62449,9 +62451,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "strength_base": 1642,
                 "physical_attack_power_base": 7716,
-                "physical_critical_strike_base": 11895,
-                "physical_overcome_base": 12810,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 11438,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62493,9 +62495,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "poison_attack_power_base": 8857,
-                "physical_critical_strike_base": 10980,
-                "poison_overcome_base": 12810,
-                "haste_base": 1830
+                "physical_critical_strike_base": 9608,
+                "poison_overcome_base": 11438,
+                "haste_base": 4575
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -62537,9 +62539,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spirit_base": 1642,
                 "poison_attack_power_base": 8995,
-                "poison_critical_strike_base": 10980,
-                "poison_overcome_base": 12353,
-                "haste_base": 1830
+                "poison_critical_strike_base": 9608,
+                "poison_overcome_base": 10980,
+                "haste_base": 4575
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -62581,9 +62583,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spirit_base": 1642,
                 "lunar_attack_power_base": 9133,
-                "lunar_critical_strike_base": 10980,
-                "lunar_overcome_base": 11438,
-                "haste_base": 2288
+                "lunar_critical_strike_base": 9608,
+                "lunar_overcome_base": 10065,
+                "haste_base": 5033
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -62625,9 +62627,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 12810,
-                "physical_overcome_base": 10980,
-                "haste_base": 1830
+                "physical_critical_strike_base": 11438,
+                "physical_overcome_base": 9608,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62669,9 +62671,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spirit_base": 1642,
                 "neutral_attack_power_base": 8857,
-                "neutral_critical_strike_base": 12810,
-                "neutral_overcome_base": 10980,
-                "haste_base": 1830
+                "neutral_critical_strike_base": 11438,
+                "neutral_overcome_base": 9608,
+                "haste_base": 4575
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -62713,9 +62715,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "strength_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 12353,
-                "physical_overcome_base": 11438,
-                "haste_base": 1830
+                "physical_critical_strike_base": 10980,
+                "physical_overcome_base": 10065,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62757,9 +62759,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "neutral_attack_power_base": 9133,
-                "neutral_critical_strike_base": 10980,
-                "neutral_overcome_base": 11895,
-                "haste_base": 1830
+                "neutral_critical_strike_base": 9608,
+                "neutral_overcome_base": 10523,
+                "haste_base": 4575
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -62801,9 +62803,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "spunk_base": 1642,
                 "solar_attack_power_base": 9410,
-                "solar_critical_strike_base": 10523,
-                "solar_overcome_base": 11438,
-                "haste_base": 1830
+                "solar_critical_strike_base": 9150,
+                "solar_overcome_base": 10065,
+                "haste_base": 4575
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -62845,9 +62847,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "neutral_attack_power_base": 8614,
-                "neutral_critical_strike_base": 10788,
-                "neutral_overcome_base": 10788,
-                "haste_base": 1726
+                "neutral_critical_strike_base": 9493,
+                "neutral_overcome_base": 9493,
+                "haste_base": 4315
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -62877,9 +62879,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7747,
-                "physical_critical_strike_base": 11219,
-                "physical_overcome_base": 10356,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 9062,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62909,9 +62911,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "strength_base": 1549,
                 "physical_attack_power_base": 7630,
-                "physical_critical_strike_base": 11219,
-                "physical_overcome_base": 10788,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 9493,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -62941,9 +62943,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spirit_base": 1549,
                 "poison_attack_power_base": 8484,
-                "poison_critical_strike_base": 10356,
-                "poison_overcome_base": 11651,
-                "haste_base": 1726
+                "poison_critical_strike_base": 9062,
+                "poison_overcome_base": 10356,
+                "haste_base": 4315
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -62973,9 +62975,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "neutral_attack_power_base": 8614,
-                "neutral_critical_strike_base": 9925,
-                "neutral_overcome_base": 10788,
-                "haste_base": 2589
+                "neutral_critical_strike_base": 8630,
+                "neutral_overcome_base": 9493,
+                "haste_base": 5178
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -63005,9 +63007,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7747,
-                "physical_critical_strike_base": 11219,
-                "physical_overcome_base": 10356,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 9062,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63037,9 +63039,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 11651,
-                "physical_overcome_base": 10788,
-                "haste_base": 1726
+                "physical_critical_strike_base": 10356,
+                "physical_overcome_base": 9493,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63069,9 +63071,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "strength_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 10788,
-                "physical_overcome_base": 11651,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9493,
+                "physical_overcome_base": 10356,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63101,9 +63103,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spirit_base": 1549,
                 "lunar_attack_power_base": 8353,
-                "lunar_critical_strike_base": 10788,
-                "lunar_overcome_base": 11219,
-                "haste_base": 2158
+                "lunar_critical_strike_base": 9493,
+                "lunar_overcome_base": 9925,
+                "haste_base": 4747
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -63133,9 +63135,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 8216,
-                "physical_critical_strike_base": 10356,
-                "physical_overcome_base": 9493,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9062,
+                "physical_overcome_base": 8199,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63165,9 +63167,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "solar_and_lunar_attack_power_base": 8353,
-                "solar_and_lunar_critical_strike_base": 10356,
-                "solar_and_lunar_overcome_base": 11651,
-                "haste_base": 2158
+                "solar_and_lunar_critical_strike_base": 9062,
+                "solar_and_lunar_overcome_base": 10356,
+                "haste_base": 4747
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -63197,8 +63199,8 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "strength_base": 1549,
                 "physical_attack_power_base": 7747,
-                "physical_critical_strike_base": 11219,
-                "physical_overcome_base": 12082
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 10788
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63228,9 +63230,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 9925,
-                "haste_base": 1726
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 8630,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63260,9 +63262,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "strength_base": 1549,
                 "physical_attack_power_base": 7278,
-                "physical_critical_strike_base": 11219,
-                "physical_overcome_base": 12082,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 10788,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63292,9 +63294,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "poison_attack_power_base": 8353,
-                "physical_critical_strike_base": 10356,
-                "poison_overcome_base": 12082,
-                "haste_base": 1726
+                "physical_critical_strike_base": 9062,
+                "poison_overcome_base": 10788,
+                "haste_base": 4315
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -63324,9 +63326,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spirit_base": 1549,
                 "poison_attack_power_base": 8484,
-                "poison_critical_strike_base": 10356,
-                "poison_overcome_base": 11651,
-                "haste_base": 1726
+                "poison_critical_strike_base": 9062,
+                "poison_overcome_base": 10356,
+                "haste_base": 4315
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -63356,9 +63358,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spirit_base": 1549,
                 "lunar_attack_power_base": 8614,
-                "lunar_critical_strike_base": 10356,
-                "lunar_overcome_base": 10788,
-                "haste_base": 2158
+                "lunar_critical_strike_base": 9062,
+                "lunar_overcome_base": 9493,
+                "haste_base": 4747
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -63388,9 +63390,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 12082,
-                "physical_overcome_base": 10356,
-                "haste_base": 1726
+                "physical_critical_strike_base": 10788,
+                "physical_overcome_base": 9062,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63420,9 +63422,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spirit_base": 1549,
                 "neutral_attack_power_base": 8353,
-                "neutral_critical_strike_base": 12082,
-                "neutral_overcome_base": 10356,
-                "haste_base": 1726
+                "neutral_critical_strike_base": 10788,
+                "neutral_overcome_base": 9062,
+                "haste_base": 4315
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -63452,9 +63454,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "strength_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 11651,
-                "physical_overcome_base": 10788,
-                "haste_base": 1726
+                "physical_critical_strike_base": 10356,
+                "physical_overcome_base": 9493,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63484,9 +63486,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "neutral_attack_power_base": 8614,
-                "neutral_critical_strike_base": 10356,
-                "neutral_overcome_base": 11219,
-                "haste_base": 1726
+                "neutral_critical_strike_base": 9062,
+                "neutral_overcome_base": 9925,
+                "haste_base": 4315
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -63516,9 +63518,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "spunk_base": 1549,
                 "solar_attack_power_base": 8875,
-                "solar_critical_strike_base": 9925,
-                "solar_overcome_base": 10788,
-                "haste_base": 1726
+                "solar_critical_strike_base": 8630,
+                "solar_overcome_base": 9493,
+                "haste_base": 4315
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -63548,9 +63550,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "neutral_attack_power_base": 8095,
-                "neutral_critical_strike_base": 10138,
-                "neutral_overcome_base": 10138,
-                "haste_base": 1622
+                "neutral_critical_strike_base": 8921,
+                "neutral_overcome_base": 8921,
+                "haste_base": 4055
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -63580,9 +63582,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7280,
-                "physical_critical_strike_base": 10543,
-                "physical_overcome_base": 9732,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 8516,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63612,9 +63614,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "strength_base": 1456,
                 "physical_attack_power_base": 7170,
-                "physical_critical_strike_base": 10543,
-                "physical_overcome_base": 10138,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 8921,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63644,9 +63646,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spirit_base": 1456,
                 "poison_attack_power_base": 7973,
-                "poison_critical_strike_base": 9732,
-                "poison_overcome_base": 10949,
-                "haste_base": 1622
+                "poison_critical_strike_base": 8516,
+                "poison_overcome_base": 9732,
+                "haste_base": 4055
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -63676,9 +63678,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "neutral_attack_power_base": 8095,
-                "neutral_critical_strike_base": 9327,
-                "neutral_overcome_base": 10138,
-                "haste_base": 2433
+                "neutral_critical_strike_base": 8110,
+                "neutral_overcome_base": 8921,
+                "haste_base": 4866
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -63708,9 +63710,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7280,
-                "physical_critical_strike_base": 10543,
-                "physical_overcome_base": 9732,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 8516,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63740,9 +63742,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 10949,
-                "physical_overcome_base": 10138,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9732,
+                "physical_overcome_base": 8921,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63772,9 +63774,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "strength_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 10138,
-                "physical_overcome_base": 10949,
-                "haste_base": 1622
+                "physical_critical_strike_base": 8921,
+                "physical_overcome_base": 9732,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63804,9 +63806,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spirit_base": 1456,
                 "lunar_attack_power_base": 7850,
-                "lunar_critical_strike_base": 10138,
-                "lunar_overcome_base": 10543,
-                "haste_base": 2028
+                "lunar_critical_strike_base": 8921,
+                "lunar_overcome_base": 9327,
+                "haste_base": 4461
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -63836,9 +63838,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7721,
-                "physical_critical_strike_base": 9732,
-                "physical_overcome_base": 8921,
-                "haste_base": 1622
+                "physical_critical_strike_base": 8516,
+                "physical_overcome_base": 7705,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63868,9 +63870,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "solar_and_lunar_attack_power_base": 7850,
-                "solar_and_lunar_critical_strike_base": 9732,
-                "solar_and_lunar_overcome_base": 10949,
-                "haste_base": 2028
+                "solar_and_lunar_critical_strike_base": 8516,
+                "solar_and_lunar_overcome_base": 9732,
+                "haste_base": 4461
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -63900,8 +63902,8 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "strength_base": 1456,
                 "physical_attack_power_base": 7280,
-                "physical_critical_strike_base": 10543,
-                "physical_overcome_base": 11354
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 10138
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63931,9 +63933,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 9327,
-                "haste_base": 1622
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 8110,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63963,9 +63965,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "strength_base": 1456,
                 "physical_attack_power_base": 6840,
-                "physical_critical_strike_base": 10543,
-                "physical_overcome_base": 11354,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 10138,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -63995,9 +63997,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "poison_attack_power_base": 7850,
-                "physical_critical_strike_base": 9732,
-                "poison_overcome_base": 11354,
-                "haste_base": 1622
+                "physical_critical_strike_base": 8516,
+                "poison_overcome_base": 10138,
+                "haste_base": 4055
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -64027,9 +64029,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spirit_base": 1456,
                 "poison_attack_power_base": 7973,
-                "poison_critical_strike_base": 9732,
-                "poison_overcome_base": 10949,
-                "haste_base": 1622
+                "poison_critical_strike_base": 8516,
+                "poison_overcome_base": 9732,
+                "haste_base": 4055
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -64059,9 +64061,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spirit_base": 1456,
                 "lunar_attack_power_base": 8095,
-                "lunar_critical_strike_base": 9732,
-                "lunar_overcome_base": 10138,
-                "haste_base": 2028
+                "lunar_critical_strike_base": 8516,
+                "lunar_overcome_base": 8921,
+                "haste_base": 4461
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -64091,9 +64093,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 11354,
-                "physical_overcome_base": 9732,
-                "haste_base": 1622
+                "physical_critical_strike_base": 10138,
+                "physical_overcome_base": 8516,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -64123,9 +64125,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spirit_base": 1456,
                 "neutral_attack_power_base": 7850,
-                "neutral_critical_strike_base": 11354,
-                "neutral_overcome_base": 9732,
-                "haste_base": 1622
+                "neutral_critical_strike_base": 10138,
+                "neutral_overcome_base": 8516,
+                "haste_base": 4055
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -64155,9 +64157,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "strength_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 10949,
-                "physical_overcome_base": 10138,
-                "haste_base": 1622
+                "physical_critical_strike_base": 9732,
+                "physical_overcome_base": 8921,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -64187,9 +64189,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "neutral_attack_power_base": 8095,
-                "neutral_critical_strike_base": 9732,
-                "neutral_overcome_base": 10543,
-                "haste_base": 1622
+                "neutral_critical_strike_base": 8516,
+                "neutral_overcome_base": 9327,
+                "haste_base": 4055
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -64219,9 +64221,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "spunk_base": 1456,
                 "solar_attack_power_base": 8340,
-                "solar_critical_strike_base": 9327,
-                "solar_overcome_base": 10138,
-                "haste_base": 1622
+                "solar_critical_strike_base": 8110,
+                "solar_overcome_base": 8921,
+                "haste_base": 4055
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -68524,9 +68526,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "neutral_attack_power_base": 7597,
-                "neutral_critical_strike_base": 9514,
-                "neutral_overcome_base": 9514,
-                "haste_base": 1522
+                "neutral_critical_strike_base": 8372,
+                "neutral_overcome_base": 8372,
+                "haste_base": 3806
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -68556,9 +68558,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6832,
-                "physical_critical_strike_base": 9894,
-                "physical_overcome_base": 9133,
-                "haste_base": 1522
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 7992,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68588,9 +68590,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "strength_base": 1366,
                 "physical_attack_power_base": 6729,
-                "physical_critical_strike_base": 9894,
-                "physical_overcome_base": 9514,
-                "haste_base": 1522
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 8372,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68620,9 +68622,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spirit_base": 1366,
                 "poison_attack_power_base": 7482,
-                "poison_critical_strike_base": 9133,
-                "poison_overcome_base": 10275,
-                "haste_base": 1522
+                "poison_critical_strike_base": 7992,
+                "poison_overcome_base": 9133,
+                "haste_base": 3806
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -68652,9 +68654,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "neutral_attack_power_base": 7597,
-                "neutral_critical_strike_base": 8753,
-                "neutral_overcome_base": 9514,
-                "haste_base": 2283
+                "neutral_critical_strike_base": 7611,
+                "neutral_overcome_base": 8372,
+                "haste_base": 4567
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -68684,9 +68686,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6832,
-                "physical_critical_strike_base": 9894,
-                "physical_overcome_base": 9133,
-                "haste_base": 1522
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 7992,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68716,9 +68718,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 10275,
-                "physical_overcome_base": 9514,
-                "haste_base": 1522
+                "physical_critical_strike_base": 9133,
+                "physical_overcome_base": 8372,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68748,9 +68750,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "strength_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 9514,
-                "physical_overcome_base": 10275,
-                "haste_base": 1522
+                "physical_critical_strike_base": 8372,
+                "physical_overcome_base": 9133,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68780,9 +68782,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spirit_base": 1366,
                 "lunar_attack_power_base": 7367,
-                "lunar_critical_strike_base": 9514,
-                "lunar_overcome_base": 9894,
-                "haste_base": 1903
+                "lunar_critical_strike_base": 8372,
+                "lunar_overcome_base": 8753,
+                "haste_base": 4186
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -68812,9 +68814,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 7246,
-                "physical_critical_strike_base": 9133,
-                "physical_overcome_base": 8372,
-                "haste_base": 1522
+                "physical_critical_strike_base": 7992,
+                "physical_overcome_base": 7231,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68844,9 +68846,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "solar_and_lunar_attack_power_base": 7367,
-                "solar_and_lunar_critical_strike_base": 9133,
-                "solar_and_lunar_overcome_base": 10275,
-                "haste_base": 1903
+                "solar_and_lunar_critical_strike_base": 7992,
+                "solar_and_lunar_overcome_base": 9133,
+                "haste_base": 4186
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -68876,8 +68878,8 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "strength_base": 1366,
                 "physical_attack_power_base": 6832,
-                "physical_critical_strike_base": 9894,
-                "physical_overcome_base": 10656
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 9514
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68907,9 +68909,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 8753,
-                "haste_base": 1522
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 7611,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68939,9 +68941,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "strength_base": 1366,
                 "physical_attack_power_base": 6419,
-                "physical_critical_strike_base": 9894,
-                "physical_overcome_base": 10656,
-                "haste_base": 1522
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 9514,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -68971,9 +68973,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "poison_attack_power_base": 7367,
-                "physical_critical_strike_base": 9133,
-                "poison_overcome_base": 10656,
-                "haste_base": 1522
+                "physical_critical_strike_base": 7992,
+                "poison_overcome_base": 9514,
+                "haste_base": 3806
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -69003,9 +69005,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spirit_base": 1366,
                 "poison_attack_power_base": 7482,
-                "poison_critical_strike_base": 9133,
-                "poison_overcome_base": 10275,
-                "haste_base": 1522
+                "poison_critical_strike_base": 7992,
+                "poison_overcome_base": 9133,
+                "haste_base": 3806
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -69035,9 +69037,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spirit_base": 1366,
                 "lunar_attack_power_base": 7597,
-                "lunar_critical_strike_base": 9133,
-                "lunar_overcome_base": 9514,
-                "haste_base": 1903
+                "lunar_critical_strike_base": 7992,
+                "lunar_overcome_base": 8372,
+                "haste_base": 4186
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -69067,9 +69069,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 10656,
-                "physical_overcome_base": 9133,
-                "haste_base": 1522
+                "physical_critical_strike_base": 9514,
+                "physical_overcome_base": 7992,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69099,9 +69101,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spirit_base": 1366,
                 "neutral_attack_power_base": 7367,
-                "neutral_critical_strike_base": 10656,
-                "neutral_overcome_base": 9133,
-                "haste_base": 1522
+                "neutral_critical_strike_base": 9514,
+                "neutral_overcome_base": 7992,
+                "haste_base": 3806
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69131,9 +69133,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "strength_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 10275,
-                "physical_overcome_base": 9514,
-                "haste_base": 1522
+                "physical_critical_strike_base": 9133,
+                "physical_overcome_base": 8372,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69163,9 +69165,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "neutral_attack_power_base": 7597,
-                "neutral_critical_strike_base": 9133,
-                "neutral_overcome_base": 9894,
-                "haste_base": 1522
+                "neutral_critical_strike_base": 7992,
+                "neutral_overcome_base": 8753,
+                "haste_base": 3806
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69195,9 +69197,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "spunk_base": 1366,
                 "solar_attack_power_base": 7827,
-                "solar_critical_strike_base": 8753,
-                "solar_overcome_base": 9514,
-                "haste_base": 1522
+                "solar_critical_strike_base": 7611,
+                "solar_overcome_base": 8372,
+                "haste_base": 3806
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -69227,9 +69229,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "neutral_attack_power_base": 7099,
-                "neutral_critical_strike_base": 8890,
-                "neutral_overcome_base": 8890,
-                "haste_base": 1422
+                "neutral_critical_strike_base": 7823,
+                "neutral_overcome_base": 7823,
+                "haste_base": 3556
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69259,9 +69261,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6384,
-                "physical_critical_strike_base": 9246,
-                "physical_overcome_base": 8534,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 7468,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69291,9 +69293,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "strength_base": 1277,
                 "physical_attack_power_base": 6288,
-                "physical_critical_strike_base": 9246,
-                "physical_overcome_base": 8890,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 7823,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69323,9 +69325,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spirit_base": 1277,
                 "poison_attack_power_base": 6991,
-                "poison_critical_strike_base": 8534,
-                "poison_overcome_base": 9601,
-                "haste_base": 1422
+                "poison_critical_strike_base": 7468,
+                "poison_overcome_base": 8534,
+                "haste_base": 3556
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -69355,9 +69357,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "neutral_attack_power_base": 7099,
-                "neutral_critical_strike_base": 8179,
-                "neutral_overcome_base": 8890,
-                "haste_base": 2134
+                "neutral_critical_strike_base": 7112,
+                "neutral_overcome_base": 7823,
+                "haste_base": 4267
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69387,9 +69389,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6384,
-                "physical_critical_strike_base": 9246,
-                "physical_overcome_base": 8534,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 7468,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69419,9 +69421,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 9601,
-                "physical_overcome_base": 8890,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8534,
+                "physical_overcome_base": 7823,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69451,9 +69453,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "strength_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 8890,
-                "physical_overcome_base": 9601,
-                "haste_base": 1422
+                "physical_critical_strike_base": 7823,
+                "physical_overcome_base": 8534,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69483,9 +69485,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spirit_base": 1277,
                 "lunar_attack_power_base": 6884,
-                "lunar_critical_strike_base": 8890,
-                "lunar_overcome_base": 9246,
-                "haste_base": 1778
+                "lunar_critical_strike_base": 7823,
+                "lunar_overcome_base": 8179,
+                "haste_base": 3912
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -69515,9 +69517,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6771,
-                "physical_critical_strike_base": 8534,
-                "physical_overcome_base": 7823,
-                "haste_base": 1422
+                "physical_critical_strike_base": 7468,
+                "physical_overcome_base": 6756,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69547,9 +69549,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "solar_and_lunar_attack_power_base": 6884,
-                "solar_and_lunar_critical_strike_base": 8534,
-                "solar_and_lunar_overcome_base": 9601,
-                "haste_base": 1778
+                "solar_and_lunar_critical_strike_base": 7468,
+                "solar_and_lunar_overcome_base": 8534,
+                "haste_base": 3912
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -69579,8 +69581,8 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "strength_base": 1277,
                 "physical_attack_power_base": 6384,
-                "physical_critical_strike_base": 9246,
-                "physical_overcome_base": 9957
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 8890
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69610,9 +69612,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 8179,
-                "haste_base": 1422
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 7112,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69642,9 +69644,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "strength_base": 1277,
                 "physical_attack_power_base": 5998,
-                "physical_critical_strike_base": 9246,
-                "physical_overcome_base": 9957,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 8890,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69674,9 +69676,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "poison_attack_power_base": 6884,
-                "physical_critical_strike_base": 8534,
-                "poison_overcome_base": 9957,
-                "haste_base": 1422
+                "physical_critical_strike_base": 7468,
+                "poison_overcome_base": 8890,
+                "haste_base": 3556
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -69706,9 +69708,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spirit_base": 1277,
                 "poison_attack_power_base": 6991,
-                "poison_critical_strike_base": 8534,
-                "poison_overcome_base": 9601,
-                "haste_base": 1422
+                "poison_critical_strike_base": 7468,
+                "poison_overcome_base": 8534,
+                "haste_base": 3556
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -69738,9 +69740,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spirit_base": 1277,
                 "lunar_attack_power_base": 7099,
-                "lunar_critical_strike_base": 8534,
-                "lunar_overcome_base": 8890,
-                "haste_base": 1778
+                "lunar_critical_strike_base": 7468,
+                "lunar_overcome_base": 7823,
+                "haste_base": 3912
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -69770,9 +69772,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 9957,
-                "physical_overcome_base": 8534,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8890,
+                "physical_overcome_base": 7468,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69802,9 +69804,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spirit_base": 1277,
                 "neutral_attack_power_base": 6884,
-                "neutral_critical_strike_base": 9957,
-                "neutral_overcome_base": 8534,
-                "haste_base": 1422
+                "neutral_critical_strike_base": 8890,
+                "neutral_overcome_base": 7468,
+                "haste_base": 3556
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69834,9 +69836,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "strength_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 9601,
-                "physical_overcome_base": 8890,
-                "haste_base": 1422
+                "physical_critical_strike_base": 8534,
+                "physical_overcome_base": 7823,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -69866,9 +69868,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "neutral_attack_power_base": 7099,
-                "neutral_critical_strike_base": 8534,
-                "neutral_overcome_base": 9246,
-                "haste_base": 1422
+                "neutral_critical_strike_base": 7468,
+                "neutral_overcome_base": 8179,
+                "haste_base": 3556
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -69898,9 +69900,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "spunk_base": 1277,
                 "solar_attack_power_base": 7314,
-                "solar_critical_strike_base": 8179,
-                "solar_overcome_base": 8890,
-                "haste_base": 1422
+                "solar_critical_strike_base": 7112,
+                "solar_overcome_base": 7823,
+                "haste_base": 3556
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -73486,9 +73488,9 @@ EQUIPMENTS = {
                 "vitality_base": 14640,
                 "spunk_base": 1194,
                 "neutral_attack_power_base": 6642,
-                "neutral_critical_strike_base": 8318,
-                "neutral_overcome_base": 8318,
-                "haste_base": 1331
+                "neutral_critical_strike_base": 7320,
+                "neutral_overcome_base": 7320,
+                "haste_base": 3327
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -73518,9 +73520,9 @@ EQUIPMENTS = {
                 "vitality_base": 14182,
                 "spunk_base": 1157,
                 "neutral_attack_power_base": 6435,
-                "neutral_critical_strike_base": 8058,
-                "neutral_overcome_base": 8058,
-                "haste_base": 1289
+                "neutral_critical_strike_base": 7091,
+                "neutral_overcome_base": 7091,
+                "haste_base": 3223
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -74998,9 +75000,9 @@ EQUIPMENTS = {
                 "vitality_base": 13725,
                 "spunk_base": 1120,
                 "neutral_attack_power_base": 6227,
-                "neutral_critical_strike_base": 7798,
-                "neutral_overcome_base": 7798,
-                "haste_base": 1248
+                "neutral_critical_strike_base": 6862,
+                "neutral_overcome_base": 6862,
+                "haste_base": 3119
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -81168,9 +81170,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 6499,
-                "neutral_overcome_base": 6499,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 5719,
+                "neutral_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -81200,9 +81202,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 6499,
-                "neutral_overcome_base": 6499,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 5719,
+                "neutral_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -81232,9 +81234,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81276,9 +81278,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4596,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81320,9 +81322,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "poison_attack_power_base": 5111,
-                "poison_critical_strike_base": 6239,
-                "poison_overcome_base": 7018,
-                "haste_base": 1040
+                "poison_critical_strike_base": 5459,
+                "poison_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -81364,9 +81366,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 5979,
-                "neutral_overcome_base": 6499,
-                "haste_base": 1560
+                "neutral_critical_strike_base": 5199,
+                "neutral_overcome_base": 5719,
+                "haste_base": 3119
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -81408,9 +81410,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81452,9 +81454,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7018,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6239,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81496,9 +81498,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 6499,
-                "physical_overcome_base": 7018,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5719,
+                "physical_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81540,9 +81542,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "lunar_attack_power_base": 5032,
-                "lunar_critical_strike_base": 6499,
-                "lunar_overcome_base": 6759,
-                "haste_base": 1300
+                "lunar_critical_strike_base": 5719,
+                "lunar_overcome_base": 5979,
+                "haste_base": 2859
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -81584,9 +81586,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4808,
-                "physical_critical_strike_base": 6239,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5459,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81628,9 +81630,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "solar_and_lunar_attack_power_base": 5032,
-                "solar_and_lunar_critical_strike_base": 6239,
-                "solar_and_lunar_overcome_base": 7018,
-                "haste_base": 1300
+                "solar_and_lunar_critical_strike_base": 5459,
+                "solar_and_lunar_overcome_base": 6239,
+                "haste_base": 2859
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -81672,8 +81674,8 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 7278
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81716,9 +81718,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7538,
-                "physical_overcome_base": 5979,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6759,
+                "physical_overcome_base": 5199,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81760,9 +81762,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4384,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 7278,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81804,9 +81806,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "poison_attack_power_base": 5032,
-                "physical_critical_strike_base": 6239,
-                "poison_overcome_base": 7278,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5459,
+                "poison_overcome_base": 6499,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -81848,9 +81850,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "poison_attack_power_base": 5111,
-                "poison_critical_strike_base": 6239,
-                "poison_overcome_base": 7018,
-                "haste_base": 1040
+                "poison_critical_strike_base": 5459,
+                "poison_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -81892,9 +81894,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "lunar_attack_power_base": 5189,
-                "lunar_critical_strike_base": 6239,
-                "lunar_overcome_base": 6499,
-                "haste_base": 1300
+                "lunar_critical_strike_base": 5459,
+                "lunar_overcome_base": 5719,
+                "haste_base": 2859
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -81936,9 +81938,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4455,
-                "physical_critical_strike_base": 7278,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6499,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -81980,9 +81982,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "neutral_attack_power_base": 5032,
-                "neutral_critical_strike_base": 7278,
-                "neutral_overcome_base": 6239,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 6499,
+                "neutral_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -82024,9 +82026,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6759,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5979,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82068,9 +82070,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 6239,
-                "neutral_overcome_base": 6759,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 5459,
+                "neutral_overcome_base": 5979,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -82112,9 +82114,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "solar_attack_power_base": 5346,
-                "solar_critical_strike_base": 5979,
-                "solar_overcome_base": 6499,
-                "haste_base": 1040
+                "solar_critical_strike_base": 5199,
+                "solar_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -82156,9 +82158,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82200,9 +82202,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4596,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82244,9 +82246,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "poison_attack_power_base": 5111,
-                "poison_critical_strike_base": 6239,
-                "poison_overcome_base": 7018,
-                "haste_base": 1040
+                "poison_critical_strike_base": 5459,
+                "poison_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -82288,9 +82290,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 5979,
-                "neutral_overcome_base": 6499,
-                "haste_base": 1560
+                "neutral_critical_strike_base": 5199,
+                "neutral_overcome_base": 5719,
+                "haste_base": 3119
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -82332,9 +82334,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82376,9 +82378,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7018,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6239,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82420,9 +82422,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 6499,
-                "physical_overcome_base": 7018,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5719,
+                "physical_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82464,9 +82466,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "lunar_attack_power_base": 5032,
-                "lunar_critical_strike_base": 6499,
-                "lunar_overcome_base": 6759,
-                "haste_base": 1300
+                "lunar_critical_strike_base": 5719,
+                "lunar_overcome_base": 5979,
+                "haste_base": 2859
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -82508,9 +82510,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4808,
-                "physical_critical_strike_base": 6239,
-                "physical_overcome_base": 6239,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5459,
+                "physical_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82552,9 +82554,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "solar_and_lunar_attack_power_base": 5032,
-                "solar_and_lunar_critical_strike_base": 6239,
-                "solar_and_lunar_overcome_base": 7018,
-                "haste_base": 1300
+                "solar_and_lunar_critical_strike_base": 5459,
+                "solar_and_lunar_overcome_base": 6239,
+                "haste_base": 2859
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -82596,8 +82598,8 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4667,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 7278
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82640,9 +82642,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7538,
-                "physical_overcome_base": 5979,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6759,
+                "physical_overcome_base": 5199,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82684,9 +82686,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4384,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 7278,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82728,9 +82730,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "poison_attack_power_base": 5032,
-                "physical_critical_strike_base": 6239,
-                "poison_overcome_base": 7278,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5459,
+                "poison_overcome_base": 6499,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -82772,9 +82774,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "poison_attack_power_base": 5111,
-                "poison_critical_strike_base": 6239,
-                "poison_overcome_base": 7018,
-                "haste_base": 1040
+                "poison_critical_strike_base": 5459,
+                "poison_overcome_base": 6239,
+                "haste_base": 2599
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -82816,9 +82818,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "lunar_attack_power_base": 5189,
-                "lunar_critical_strike_base": 6239,
-                "lunar_overcome_base": 6499,
-                "haste_base": 1300
+                "lunar_critical_strike_base": 5459,
+                "lunar_overcome_base": 5719,
+                "haste_base": 2859
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -82860,9 +82862,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4455,
-                "physical_critical_strike_base": 7278,
-                "physical_overcome_base": 6499,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6499,
+                "physical_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82904,9 +82906,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spirit_base": 933,
                 "neutral_attack_power_base": 5032,
-                "neutral_critical_strike_base": 7278,
-                "neutral_overcome_base": 6239,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 6499,
+                "neutral_overcome_base": 5459,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -82948,9 +82950,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "strength_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 6759,
-                "physical_overcome_base": 6759,
-                "haste_base": 1040
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 5979,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -82992,9 +82994,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "neutral_attack_power_base": 5189,
-                "neutral_critical_strike_base": 6239,
-                "neutral_overcome_base": 6759,
-                "haste_base": 1040
+                "neutral_critical_strike_base": 5459,
+                "neutral_overcome_base": 5979,
+                "haste_base": 2599
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -83036,9 +83038,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "spunk_base": 933,
                 "solar_attack_power_base": 5346,
-                "solar_critical_strike_base": 5979,
-                "solar_overcome_base": 6499,
-                "haste_base": 1040
+                "solar_critical_strike_base": 5199,
+                "solar_overcome_base": 5719,
+                "haste_base": 2599
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -83080,9 +83082,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "neutral_attack_power_base": 4940,
-                "neutral_critical_strike_base": 6187,
-                "neutral_overcome_base": 6187,
-                "haste_base": 990
+                "neutral_critical_strike_base": 5444,
+                "neutral_overcome_base": 5444,
+                "haste_base": 2475
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -83112,9 +83114,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4443,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 5939,
-                "haste_base": 990
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 5197,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83156,9 +83158,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "strength_base": 888,
                 "physical_attack_power_base": 4376,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 6187,
-                "haste_base": 990
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 5444,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83200,9 +83202,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spirit_base": 888,
                 "poison_attack_power_base": 4865,
-                "poison_critical_strike_base": 5939,
-                "poison_overcome_base": 6682,
-                "haste_base": 990
+                "poison_critical_strike_base": 5197,
+                "poison_overcome_base": 5939,
+                "haste_base": 2475
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -83244,9 +83246,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "neutral_attack_power_base": 4940,
-                "neutral_critical_strike_base": 5692,
-                "neutral_overcome_base": 6187,
-                "haste_base": 1485
+                "neutral_critical_strike_base": 4949,
+                "neutral_overcome_base": 5444,
+                "haste_base": 2970
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -83288,9 +83290,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4443,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 5939,
-                "haste_base": 990
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 5197,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83332,9 +83334,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4308,
-                "physical_critical_strike_base": 6682,
-                "physical_overcome_base": 6187,
-                "haste_base": 990
+                "physical_critical_strike_base": 5939,
+                "physical_overcome_base": 5444,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83376,9 +83378,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "strength_base": 888,
                 "physical_attack_power_base": 4308,
-                "physical_critical_strike_base": 6187,
-                "physical_overcome_base": 6682,
-                "haste_base": 990
+                "physical_critical_strike_base": 5444,
+                "physical_overcome_base": 5939,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83420,9 +83422,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spirit_base": 888,
                 "lunar_attack_power_base": 4791,
-                "lunar_critical_strike_base": 6187,
-                "lunar_overcome_base": 6434,
-                "haste_base": 1237
+                "lunar_critical_strike_base": 5444,
+                "lunar_overcome_base": 5692,
+                "haste_base": 2722
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -83464,9 +83466,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4577,
-                "physical_critical_strike_base": 5939,
-                "physical_overcome_base": 5939,
-                "haste_base": 990
+                "physical_critical_strike_base": 5197,
+                "physical_overcome_base": 5197,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83508,9 +83510,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "solar_and_lunar_attack_power_base": 4791,
-                "solar_and_lunar_critical_strike_base": 5939,
-                "solar_and_lunar_overcome_base": 6682,
-                "haste_base": 1237
+                "solar_and_lunar_critical_strike_base": 5197,
+                "solar_and_lunar_overcome_base": 5939,
+                "haste_base": 2722
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -83552,8 +83554,8 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "strength_base": 888,
                 "physical_attack_power_base": 4443,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 6929
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 6187
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83596,9 +83598,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4308,
-                "physical_critical_strike_base": 7177,
-                "physical_overcome_base": 5692,
-                "haste_base": 990
+                "physical_critical_strike_base": 6434,
+                "physical_overcome_base": 4949,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83640,9 +83642,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "strength_base": 888,
                 "physical_attack_power_base": 4174,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 6929,
-                "haste_base": 990
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 6187,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83684,9 +83686,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "poison_attack_power_base": 4791,
-                "physical_critical_strike_base": 5939,
-                "poison_overcome_base": 6929,
-                "haste_base": 990
+                "physical_critical_strike_base": 5197,
+                "poison_overcome_base": 6187,
+                "haste_base": 2475
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -83728,9 +83730,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spirit_base": 888,
                 "poison_attack_power_base": 4865,
-                "poison_critical_strike_base": 5939,
-                "poison_overcome_base": 6682,
-                "haste_base": 990
+                "poison_critical_strike_base": 5197,
+                "poison_overcome_base": 5939,
+                "haste_base": 2475
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -83772,9 +83774,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spirit_base": 888,
                 "lunar_attack_power_base": 4940,
-                "lunar_critical_strike_base": 5939,
-                "lunar_overcome_base": 6187,
-                "haste_base": 1237
+                "lunar_critical_strike_base": 5197,
+                "lunar_overcome_base": 5444,
+                "haste_base": 2722
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -83816,9 +83818,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4241,
-                "physical_critical_strike_base": 6929,
-                "physical_overcome_base": 6187,
-                "haste_base": 990
+                "physical_critical_strike_base": 6187,
+                "physical_overcome_base": 5444,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83860,9 +83862,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spirit_base": 888,
                 "neutral_attack_power_base": 4791,
-                "neutral_critical_strike_base": 6929,
-                "neutral_overcome_base": 5939,
-                "haste_base": 990
+                "neutral_critical_strike_base": 6187,
+                "neutral_overcome_base": 5197,
+                "haste_base": 2475
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -83904,9 +83906,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "strength_base": 888,
                 "physical_attack_power_base": 4308,
-                "physical_critical_strike_base": 6434,
-                "physical_overcome_base": 6434,
-                "haste_base": 990
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 5692,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -83948,9 +83950,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "neutral_attack_power_base": 4940,
-                "neutral_critical_strike_base": 5939,
-                "neutral_overcome_base": 6434,
-                "haste_base": 990
+                "neutral_critical_strike_base": 5197,
+                "neutral_overcome_base": 5692,
+                "haste_base": 2475
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -83992,9 +83994,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "spunk_base": 888,
                 "solar_attack_power_base": 5090,
-                "solar_critical_strike_base": 5692,
-                "solar_overcome_base": 6187,
-                "haste_base": 990
+                "solar_critical_strike_base": 4949,
+                "solar_overcome_base": 5444,
+                "haste_base": 2475
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -85400,9 +85402,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4350,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 5814,
-                "haste_base": 969
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 5088,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85435,9 +85437,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "strength_base": 870,
                 "physical_attack_power_base": 4284,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 6057,
-                "haste_base": 969
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 5330,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85470,9 +85472,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spirit_base": 870,
                 "poison_attack_power_base": 4763,
-                "poison_critical_strike_base": 5814,
-                "poison_overcome_base": 6541,
-                "haste_base": 969
+                "poison_critical_strike_base": 5088,
+                "poison_overcome_base": 5814,
+                "haste_base": 2423
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -85505,9 +85507,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spunk_base": 870,
                 "neutral_attack_power_base": 4836,
-                "neutral_critical_strike_base": 5572,
-                "neutral_overcome_base": 6057,
-                "haste_base": 1454
+                "neutral_critical_strike_base": 4845,
+                "neutral_overcome_base": 5330,
+                "haste_base": 2907
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -85540,9 +85542,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4350,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 5814,
-                "haste_base": 969
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 5088,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85575,9 +85577,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4218,
-                "physical_critical_strike_base": 6541,
-                "physical_overcome_base": 6057,
-                "haste_base": 969
+                "physical_critical_strike_base": 5814,
+                "physical_overcome_base": 5330,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85611,9 +85613,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "strength_base": 870,
                 "physical_attack_power_base": 4218,
-                "physical_critical_strike_base": 6057,
-                "physical_overcome_base": 6541,
-                "haste_base": 969
+                "physical_critical_strike_base": 5330,
+                "physical_overcome_base": 5814,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85647,9 +85649,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spirit_base": 870,
                 "lunar_attack_power_base": 4690,
-                "lunar_critical_strike_base": 6057,
-                "lunar_overcome_base": 6299,
-                "haste_base": 1211
+                "lunar_critical_strike_base": 5330,
+                "lunar_overcome_base": 5572,
+                "haste_base": 2665
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -85683,9 +85685,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4481,
-                "physical_critical_strike_base": 5814,
-                "physical_overcome_base": 5814,
-                "haste_base": 969
+                "physical_critical_strike_base": 5088,
+                "physical_overcome_base": 5088,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85719,9 +85721,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spunk_base": 870,
                 "solar_and_lunar_attack_power_base": 4690,
-                "solar_and_lunar_critical_strike_base": 5814,
-                "solar_and_lunar_overcome_base": 6541,
-                "haste_base": 1211
+                "solar_and_lunar_critical_strike_base": 5088,
+                "solar_and_lunar_overcome_base": 5814,
+                "haste_base": 2665
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -85755,8 +85757,8 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "strength_base": 870,
                 "physical_attack_power_base": 4350,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 6783
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 6057
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85792,9 +85794,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4218,
-                "physical_critical_strike_base": 7026,
-                "physical_overcome_base": 5572,
-                "haste_base": 969
+                "physical_critical_strike_base": 6299,
+                "physical_overcome_base": 4845,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85827,9 +85829,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "strength_base": 870,
                 "physical_attack_power_base": 4086,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 6783,
-                "haste_base": 969
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 6057,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -85863,9 +85865,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spunk_base": 870,
                 "poison_attack_power_base": 4690,
-                "physical_critical_strike_base": 5814,
-                "poison_overcome_base": 6783,
-                "haste_base": 969
+                "physical_critical_strike_base": 5088,
+                "poison_overcome_base": 6057,
+                "haste_base": 2423
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -85899,9 +85901,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spirit_base": 870,
                 "poison_attack_power_base": 4763,
-                "poison_critical_strike_base": 5814,
-                "poison_overcome_base": 6541,
-                "haste_base": 969
+                "poison_critical_strike_base": 5088,
+                "poison_overcome_base": 5814,
+                "haste_base": 2423
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -85934,9 +85936,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spirit_base": 870,
                 "lunar_attack_power_base": 4836,
-                "lunar_critical_strike_base": 5814,
-                "lunar_overcome_base": 6057,
-                "haste_base": 1211
+                "lunar_critical_strike_base": 5088,
+                "lunar_overcome_base": 5330,
+                "haste_base": 2665
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -85970,9 +85972,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4152,
-                "physical_critical_strike_base": 6783,
-                "physical_overcome_base": 6057,
-                "haste_base": 969
+                "physical_critical_strike_base": 6057,
+                "physical_overcome_base": 5330,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86005,9 +86007,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spirit_base": 870,
                 "neutral_attack_power_base": 4690,
-                "neutral_critical_strike_base": 6783,
-                "neutral_overcome_base": 5814,
-                "haste_base": 969
+                "neutral_critical_strike_base": 6057,
+                "neutral_overcome_base": 5088,
+                "haste_base": 2423
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -86040,9 +86042,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "strength_base": 870,
                 "physical_attack_power_base": 4218,
-                "physical_critical_strike_base": 6299,
-                "physical_overcome_base": 6299,
-                "haste_base": 969
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 5572,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86075,9 +86077,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spunk_base": 870,
                 "neutral_attack_power_base": 4836,
-                "neutral_critical_strike_base": 5814,
-                "neutral_overcome_base": 6299,
-                "haste_base": 969
+                "neutral_critical_strike_base": 5088,
+                "neutral_overcome_base": 5572,
+                "haste_base": 2423
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -86111,9 +86113,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "spunk_base": 870,
                 "solar_attack_power_base": 4983,
-                "solar_critical_strike_base": 5572,
-                "solar_overcome_base": 6057,
-                "haste_base": 969
+                "solar_critical_strike_base": 4845,
+                "solar_overcome_base": 5330,
+                "haste_base": 2423
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -86148,9 +86150,9 @@ EQUIPMENTS = {
                 "vitality_base": 20130,
                 "agility_base": 1642,
                 "physical_attack_power_base": 7965,
-                "physical_critical_strike_base": 13268,
-                "physical_overcome_base": 10523,
-                "haste_base": 1830
+                "physical_critical_strike_base": 11895,
+                "physical_overcome_base": 9150,
+                "haste_base": 4575
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86192,9 +86194,9 @@ EQUIPMENTS = {
                 "vitality_base": 18986,
                 "agility_base": 1549,
                 "physical_attack_power_base": 7513,
-                "physical_critical_strike_base": 12514,
-                "physical_overcome_base": 9925,
-                "haste_base": 1726
+                "physical_critical_strike_base": 11219,
+                "physical_overcome_base": 8630,
+                "haste_base": 4315
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86224,9 +86226,9 @@ EQUIPMENTS = {
                 "vitality_base": 17843,
                 "agility_base": 1456,
                 "physical_attack_power_base": 7060,
-                "physical_critical_strike_base": 11760,
-                "physical_overcome_base": 9327,
-                "haste_base": 1622
+                "physical_critical_strike_base": 10543,
+                "physical_overcome_base": 8110,
+                "haste_base": 4055
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86508,9 +86510,9 @@ EQUIPMENTS = {
                 "vitality_base": 16744,
                 "agility_base": 1366,
                 "physical_attack_power_base": 6626,
-                "physical_critical_strike_base": 11036,
-                "physical_overcome_base": 8753,
-                "haste_base": 1522
+                "physical_critical_strike_base": 9894,
+                "physical_overcome_base": 7611,
+                "haste_base": 3806
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -86540,9 +86542,9 @@ EQUIPMENTS = {
                 "vitality_base": 15647,
                 "agility_base": 1277,
                 "physical_attack_power_base": 6191,
-                "physical_critical_strike_base": 10312,
-                "physical_overcome_base": 8179,
-                "haste_base": 1422
+                "physical_critical_strike_base": 9246,
+                "physical_overcome_base": 7112,
+                "haste_base": 3556
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -87138,9 +87140,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7538,
-                "physical_overcome_base": 5979,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6759,
+                "physical_overcome_base": 5199,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -87182,9 +87184,9 @@ EQUIPMENTS = {
                 "vitality_base": 11438,
                 "agility_base": 933,
                 "physical_attack_power_base": 4526,
-                "physical_critical_strike_base": 7538,
-                "physical_overcome_base": 5979,
-                "haste_base": 1040
+                "physical_critical_strike_base": 6759,
+                "physical_overcome_base": 5199,
+                "haste_base": 2599
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -87226,9 +87228,9 @@ EQUIPMENTS = {
                 "vitality_base": 10888,
                 "agility_base": 888,
                 "physical_attack_power_base": 4308,
-                "physical_critical_strike_base": 7177,
-                "physical_overcome_base": 5692,
-                "haste_base": 990
+                "physical_critical_strike_base": 6434,
+                "physical_overcome_base": 4949,
+                "haste_base": 2475
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -87332,9 +87334,9 @@ EQUIPMENTS = {
                 "vitality_base": 10660,
                 "agility_base": 870,
                 "physical_attack_power_base": 4218,
-                "physical_critical_strike_base": 7026,
-                "physical_overcome_base": 5572,
-                "haste_base": 969
+                "physical_critical_strike_base": 6299,
+                "physical_overcome_base": 4845,
+                "haste_base": 2423
             },
             "embed": {
                 "physical_attack_power_base": 87,

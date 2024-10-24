@@ -1248,16 +1248,6 @@ DOTS = {
         ],
         "physical_damage_call": 1
     },
-    19555: {
-        "buff_name": "背水沉舟(DOT)",
-        "alias_name": "霸刀橙武dot",
-        "interval": 48,
-        "tick": 6,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 25,
-        "physical_damage_call": 1
-    },
     70364: {
         "buff_name": "流血(DOT)",
         "alias_name": "移动端_霸刀_闹须弥流血",
@@ -1329,16 +1319,6 @@ DOTS = {
         "platform": 0,
         "damage_base": 25,
         "physical_damage_call": 1
-    },
-    24846: {
-        "buff_name": "斗循天转(DOT)",
-        "alias_name": "衍天宗橙色武器特效dot",
-        "interval": 48,
-        "tick": 10,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 15,
-        "neutral_damage_call": 1
     },
     20052: {
         "buff_name": "逆乱(DOT)",
@@ -1435,16 +1415,6 @@ DOTS = {
         "max_stack": 1,
         "platform": 0,
         "damage_base": 102,
-        "physical_damage_call": 1
-    },
-    27820: {
-        "buff_name": "斩浪破锋(DOT)",
-        "alias_name": "刀宗cwDot",
-        "interval": 48,
-        "tick": 6,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 25,
         "physical_damage_call": 1
     },
     70593: {

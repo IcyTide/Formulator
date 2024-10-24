@@ -32,7 +32,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             **{skill_id: dict(channel_interval=24) for skill_id in (16419, 16820, 16822)},
             32823: {}, 16599: {}, 16631: {}, 16794: {}, 17092: {}, 20991: {}, 19424: {}, 34585: {}, 32859: {},
-            37984: {}, 25782: {}, 38533: {}, 38537: {},
+            37984: {}, 25782: {}, 38533: {}, 38537: {}, 39106: {},
             **{skill_id: {} for skill_id in (16758, 16759, 16760, 16382)},
             **{skill_id: {} for skill_id in range(16787, 16791 + 1)},
             **{skill_id: {} for skill_id in range(16610, 16614 + 1)},
@@ -43,7 +43,6 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: {} for skill_id in (16804, 16803, 16802, 16801, 16800, 17043, 19423)},
             **{skill_id: {} for skill_id in (16097, 16753, 16774, 16775)},
             **{skill_id: dict(bind_dots={11447: 1}) for skill_id in (17058, 17060)},
-            26934: dict(bind_dots={19555: 1})
         }
     },
     1: {

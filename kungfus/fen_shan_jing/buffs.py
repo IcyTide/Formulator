@@ -5,7 +5,7 @@ from base.buff import Buff
 BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Buff: {
-            8244: {}, 8385: {}, 27161: {}, 17176: {}, 14309: {}, 16957: {}, 8451: {},
+            8244: {}, 8385: {}, 27161: {}, 17176: {}, 14309: {}, 16957: {}, 8451: {}, 8474: {},
             8248: dict(interval=400),
             25937: dict(buff_name="祭血关山"),
             8627: dict(buff_name="刀魂"),

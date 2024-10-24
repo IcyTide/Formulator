@@ -45,11 +45,23 @@ class 饮雨簇无视防御(PhysicalShieldGainRecipe):
     value = -666
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id == 35987:
+        if skill.skill_id == 39092:
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id == 35987:
+        if skill.skill_id == 39092:
+            super().sub_skill(skill)
+
+
+class 万灵CW劲风簇伤害提高10(ChannelIntervalRecipe):
+    value = 1.1
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 35866 or skill.skill_id == 36453:
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 35866 or skill.skill_id == 36453:
             super().sub_skill(skill)
 
 
@@ -85,6 +97,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         饮雨簇无视防御: {
             5748: {}
+        },
+        万灵CW劲风簇伤害提高10: {
+            5755: {}
         }
     },
     1: {

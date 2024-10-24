@@ -24,7 +24,6 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             32602: {}, 32603: {}, 32604: {}, 32891: {}, 32892: {}, 32357: {}, 36118: {}, 33239: {}, 34695: {},
             32591: {},
             **{skill_id: {} for skill_id in range(32234, 32239 + 1)},
-            36851: dict(bind_dots={27820: 1}),
             33133: dict(bind_dots={24650: 1}),
             **{skill_id: dict(bind_dots={24132: i + 1}) for i, skill_id in enumerate(range(32372, 32369 - 1, -1))},
             **{skill_id: dict(bind_dots={24443: i + 1}) for i, skill_id in enumerate(range(32874, 32869 - 1, -1))}

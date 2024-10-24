@@ -35,7 +35,7 @@ class 贯穿(Skill):
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
-            35894: dict(channel_interval=24), 35866: {}, 35987: {}, 36157: {}, 36177: {}, 36453: {}, 36579: {},
+            35894: dict(channel_interval=24), 35866: {}, 39092: {}, 36157: {}, 36177: {}, 36453: {}, 36579: {},
             36580: {},
             36165: dict(consume_dots={26856: 3}),
             35695: dict(pet_buffs={26857: {1: 1}}),

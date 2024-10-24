@@ -9597,6 +9597,130 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    8474: {
+        "attributes": [
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            }
+        ],
+        "max_level": 14,
+        "buff_name": [
+            "血云",
+            "太初社稷",
+            "征天",
+            "题龙旐",
+            "千仞",
+            "旧嗜",
+            "朱轩怀雀",
+            "修罗鬼面",
+            "十律守心·猊焰",
+            "十律守心·犴魂",
+            "白狼河北",
+            "四面边声",
+            "孤焰",
+            "致远"
+        ],
+        "alias_name": [
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "100分山苍云橙武触发buff效果",
+            "100铁骨苍云橙武触发buff效果",
+            "110苍云橙武触发buff效果",
+            "110苍云橙武触发buff效果",
+            "120级分山劲苍云cw",
+            "120级铁骨苍云cw"
+        ],
+        "max_stack": 1,
+        "recipes": [
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {}
+        ]
+    },
     25937: {
         "attributes": [
             {
@@ -10288,7 +10412,7 @@ BUFFS = {
     18002: {
         "attributes": {
             "neutral_critical_strike_rate": 1000,
-            "magical_critical_power_rate": 100
+            "magical_critical_power_rate": 102
         },
         "max_level": 1,
         "buff_name": "枭神",
@@ -10511,6 +10635,19 @@ BUFFS = {
             }
         ]
     },
+    24752: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": [
+            "善臻",
+            "绝地天通刀"
+        ],
+        "alias_name": "刀宗橙武效果",
+        "max_stack": 1,
+        "recipes": {
+            5754: 1
+        }
+    },
     24179: {
         "attributes": {},
         "max_level": 1,
@@ -10573,6 +10710,22 @@ BUFFS = {
         "alias_name": "万灵山庄_承契",
         "max_stack": 5,
         "recipes": {}
+    },
+    27543: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": [
+            "雀引昭明",
+            "庄生晓梦"
+        ],
+        "alias_name": "万灵山庄橙武效果",
+        "max_stack": 1,
+        "recipes": [
+            {},
+            {
+                5755: 1
+            }
+        ]
     },
     27099: {
         "attributes": {

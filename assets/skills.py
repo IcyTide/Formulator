@@ -12533,9 +12533,9 @@ SKILLS = {
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
-        "channel_interval": 150.0,
+        "channel_interval": 750.0,
         "max_level": 1,
-        "skill_name": "蝎心·神兵",
+        "skill_name": "赤蝎",
         "poison_damage_rand": 21,
         "poison_damage_call": 1
     },
@@ -16269,7 +16269,7 @@ SKILLS = {
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
-        "channel_interval": 320.0,
+        "channel_interval": 640.0,
         "max_level": 1,
         "skill_name": "愿火长燃",
         "solar_damage_base": 70,
@@ -22137,6 +22137,19 @@ SKILLS = {
         "physical_damage_base": 55,
         "physical_damage_rand": 5
     },
+    39106: {
+        "alias_name": "背水沉舟额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 1140.4800000000002,
+        "max_level": 1,
+        "skill_name": "背水沉舟",
+        "physical_damage_call": 1,
+        "physical_damage_base": 55,
+        "physical_damage_rand": 5
+    },
     16758: {
         "alias_name": "项王击鼎一段表现技能",
         "kind_type": "Physics",
@@ -25162,15 +25175,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "闹须弥"
-    },
-    26934: {
-        "alias_name": "橙武_霸刀_破釜沉舟带dot",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 380.0,
-        "max_level": 1
     },
     101198: {
         "alias_name": "移动端_霸刀_坚壁清野_地毯每跳实际伤害",
@@ -29274,6 +29278,18 @@ SKILLS = {
         "neutral_damage_rand": 5,
         "neutral_damage_call": 1
     },
+    33588: {
+        "alias_name": "衍天宗橙色武器实际上dot技能",
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 33588,
+        "recipe_mask": 0,
+        "channel_interval": 778.8000000000001,
+        "max_level": 1,
+        "skill_name": "神兵·合灯",
+        "neutral_damage_base": 120,
+        "neutral_damage_call": 1
+    },
     24675: {
         "alias_name": "临伤害子技能_水坎",
         "kind_type": "NeutralMagic",
@@ -29966,15 +29982,6 @@ SKILLS = {
             425
         ],
         "neutral_damage_call": 1
-    },
-    33588: {
-        "alias_name": "衍天宗橙色武器实际上dot技能",
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 33588,
-        "recipe_mask": 0,
-        "channel_interval": 437.0,
-        "max_level": 1
     },
     27451: {
         "alias_name": "普通攻击_百草卷",
@@ -32737,15 +32744,6 @@ SKILLS = {
             75
         ]
     },
-    36851: {
-        "alias_name": "刀宗cw加DOT",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 500.0,
-        "max_level": 1
-    },
     33133: {
         "alias_name": "刀气流血效果",
         "kind_type": "Physics",
@@ -33210,8 +33208,8 @@ SKILLS = {
         ],
         "physical_damage_rand": 5
     },
-    35987: {
-        "alias_name": "万灵山庄_集雨簇伤害子技能",
+    39092: {
+        "alias_name": "万灵集雨簇伤害真正子技能下发",
         "kind_type": "Physics",
         "platform": 0,
         "recipe_type": 35661,

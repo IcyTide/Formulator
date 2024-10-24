@@ -4,12 +4,15 @@ from assets.constant import SPECIAL_ENCHANT_MAP
 from base.attribute import Attribute
 from base.buff import Buff
 from base.gain import Gain
+from base.skill import Skill, PureSkill
 from general.buffs import GENERAL_BUFFS
 from general.skills import GENERAL_SKILLS
 
 
 class EquipmentGain(Gain):
     _attributes: List[dict] = None
+    _damage_base: List[int] = None
+
     rate: Union[int, float] = 1
     level: int = 1
     real_formulation: bool = True
@@ -27,12 +30,14 @@ class EquipmentGain(Gain):
         else:
             return self._attributes[self.level - 1]
 
-    @attributes.setter
-    def attributes(self, attributes):
-        if isinstance(attributes, list):
-            self._attributes = attributes
+    @property
+    def damage_base(self):
+        if not self._damage_base:
+            return 0
+        elif self.level > len(self._damage_base):
+            return self._damage_base[-1]
         else:
-            self._attributes = [attributes]
+            return self._damage_base[self.level - 1]
 
     def add_buffs(self, buffs: Dict[int, Buff]):
         if self.real_formulation:
@@ -41,6 +46,12 @@ class EquipmentGain(Gain):
     def sub_buffs(self, buffs: Dict[int, Buff]):
         if self.real_formulation:
             super().sub_buffs(buffs)
+
+    def add_skills(self, skills: Dict[int, Union[PureSkill, Skill]]):
+        super().add_skills(skills)
+        if damage_base := self.damage_base:
+            for skill_id in self.skill_ids:
+                skills[skill_id].damage_base = damage_base
 
     def add_attribute(self, attribute: Attribute):
         if self.buff_ids and self.real_formulation:
@@ -60,7 +71,7 @@ class CriticalSet(EquipmentGain):
 
     def __init__(self, buff: Buff):
         self.buff_ids = [buff.buff_id]
-        self.attributes = buff.attributes
+        self._attributes = [buff.attributes]
         super().__init__()
 
 
@@ -113,14 +124,17 @@ class 大附魔腰(EquipmentGain):
 
 class 大附魔腕(EquipmentGain):
     skill_ids = [37562]
+    _damage_base = [154425, 177760]
 
 
 class 大附魔鞋(EquipmentGain):
     skill_ids = [37561]
+    _damage_base = [102927, 118480]
 
 
 class TertiaryWeaponGain(EquipmentGain):
     skill_ids = [38966]
+    _damage_base = [86500, 90000]
 
 
 class HatGain(EquipmentGain):
@@ -135,10 +149,10 @@ class HatGain(EquipmentGain):
         return self._attributes[level - 1]
 
     def add_attribute(self, attribute: Attribute):
-        max_value = max(attribute.final_overcome, attribute.final_critical_strike, attribute.surplus)
-        if attribute.final_overcome == max_value:
+        max_value = max(attribute.max_overcome_base, attribute.max_critical_strike_base, attribute.surplus)
+        if attribute.max_overcome_base == max_value:
             self.attr_level = -2
-        elif attribute.final_critical_strike == max_value:
+        elif attribute.max_critical_strike_base == max_value:
             self.attr_level = -1
         else:
             self.attr_level = 0
@@ -166,19 +180,23 @@ class NecklaceGain(EquipmentGain):
     def scale(self):
         return self.scales[self.level - 1]
 
-    def add_attribute(self, attribute: Attribute):
-        self.rate = int(attribute.final_overcome / self.scale)
-        super().add_attribute(attribute)
-
 
 class OvercomeNecklaceGain(NecklaceGain):
     scales = [5427, 5648]
     buff_ids = [29529]
 
+    def add_attribute(self, attribute: Attribute):
+        self.rate = int(attribute.max_overcome_base / self.scale)
+        super().add_attribute(attribute)
+
 
 class CriticalNecklaceGain(NecklaceGain):
     scales = [4748, 4942]
     buff_ids = [29528]
+
+    def add_attribute(self, attribute: Attribute):
+        self.rate = int(attribute.max_critical_strike_base / self.scale)
+        super().add_attribute(attribute)
 
 
 class ShoesGain(EquipmentGain):
@@ -233,16 +251,16 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for gain_key in SPECIAL_ENCHANT_MAP[6].values()
     },
     **{
-        tuple(gain_key): 大附魔腕()
-        for gain_key in SPECIAL_ENCHANT_MAP[10].values()
+        tuple(gain_key): 大附魔腕(i + 1)
+        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP[10].values())
     },
     **{
-        tuple(gain_key): 大附魔鞋()
-        for gain_key in SPECIAL_ENCHANT_MAP[9].values()
+        tuple(gain_key): 大附魔鞋(i + 1)
+        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP[9].values())
     },
     **{
-        (gain_id,): TertiaryWeaponGain()
-        for gain_id in (2701, 2706)
+        (gain_id,): TertiaryWeaponGain(i + 1)
+        for i, gain_id in enumerate((2701, 2706))
     },
     **{
         (gain_id,): HatGain(i)

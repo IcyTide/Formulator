@@ -207,6 +207,7 @@ RECIPES = {
         1: {
             "damage_addition": 51,
             "skill_id": 232,
+            "recipe_type": 232,
             "recipe_name": "90级易筋橙武属性1"
         }
     },
@@ -4141,6 +4142,7 @@ RECIPES = {
     },
     1941: {
         1: {
+            "damage_addition": 410,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀无消耗秘籍"
@@ -7405,6 +7407,14 @@ RECIPES = {
             "recipe_name": "孤锋破浪伤害提高30%"
         }
     },
+    5754: {
+        1: {
+            "damage_addition": 1331,
+            "skill_id": 32145,
+            "recipe_type": 32145,
+            "recipe_name": "橙武孤锋增伤"
+        }
+    },
     3188: {
         1: {
             "damage_addition": 102,
@@ -7729,8 +7739,14 @@ RECIPES = {
     },
     5748: {
         1: {
-            "skill_id": 35987,
+            "skill_id": 39092,
             "recipe_name": "佩弦-饮雨簇无视防御"
+        }
+    },
+    5755: {
+        1: {
+            "recipe_type": 35659,
+            "recipe_name": "万灵CW劲风伤害增加"
         }
     },
     17470: {
@@ -7931,6 +7947,13 @@ RECIPES = {
             "skill_id": 38009,
             "recipe_type": 38009,
             "recipe_name": "段氏大CW属性加成2"
+        }
+    },
+    17511: {
+        1: {
+            "damage_addition": 21,
+            "recipe_mask": 1,
+            "recipe_name": "【橙武】【傍身招式】伤害提高2%（劲风簇+霖集簇）"
         }
     },
     5576: {

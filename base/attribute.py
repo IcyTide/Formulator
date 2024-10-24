@@ -299,12 +299,18 @@ class CriticalStrike(BaseMajor):
     poison_critical_strike_rate: int = 0
 
     @property
-    def final_critical_strike(self):
+    def critical_strike(self):
         raise NotImplementedError
 
     @property
-    def critical_strike(self):
-        raise NotImplementedError
+    def max_critical_strike_base(self):
+        return max(
+            self.physical_critical_strike_base,
+            self.solar_critical_strike_base,
+            self.lunar_critical_strike_base,
+            self.neutral_critical_strike_base,
+            self.poison_critical_strike_base
+        )
 
     @property
     def all_critical_strike_base(self):
@@ -458,12 +464,18 @@ class Overcome(BaseMajor):
     poison_overcome_gain: int = 0
 
     @property
-    def final_overcome(self):
+    def overcome(self):
         raise NotImplementedError
 
     @property
-    def overcome(self):
-        raise NotImplementedError
+    def max_overcome_base(self):
+        return max(
+            self.physical_overcome_base,
+            self.solar_overcome_base,
+            self.lunar_overcome_base,
+            self.neutral_overcome_base,
+            self.poison_overcome_base
+        )
 
     @property
     def base_physical_overcome(self):
@@ -576,7 +588,9 @@ class Overcome(BaseMajor):
 
 
 class Major(Therapy, AttackPower, CriticalStrike, Overcome):
-    pass
+    @property
+    def major(self):
+        raise NotImplementedError
 
 
 class Vitality:
@@ -874,16 +888,8 @@ class PhysicalAttribute(Attribute):
         return self.physical_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_physical_critical_strike
-
-    @property
     def critical_strike(self):
         return self.physical_critical_strike
-
-    @property
-    def final_overcome(self):
-        return self.final_physical_overcome
 
     @property
     def overcome(self):
@@ -938,16 +944,8 @@ class SolarAttribute(MagicalAttribute):
         return self.solar_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_solar_critical_strike
-
-    @property
     def critical_strike(self):
         return self.solar_critical_strike
-
-    @property
-    def final_overcome(self):
-        return self.final_solar_overcome
 
     @property
     def overcome(self):
@@ -981,16 +979,8 @@ class LunarAttribute(MagicalAttribute):
         return self.lunar_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_lunar_critical_strike
-
-    @property
     def critical_strike(self):
         return self.lunar_critical_strike
-
-    @property
-    def final_overcome(self):
-        return self.final_lunar_overcome
 
     @property
     def overcome(self):
@@ -1024,16 +1014,8 @@ class NeutralAttribute(MagicalAttribute):
         return self.neutral_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_neutral_critical_strike
-
-    @property
     def critical_strike(self):
         return self.neutral_critical_strike
-
-    @property
-    def final_overcome(self):
-        return self.final_neutral_overcome
 
     @property
     def overcome(self):
@@ -1067,16 +1049,8 @@ class PoisonAttribute(MagicalAttribute):
         return self.poison_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_poison_critical_strike
-
-    @property
     def critical_strike(self):
         return self.poison_critical_strike
-
-    @property
-    def final_overcome(self):
-        return self.final_poison_overcome
 
     @property
     def overcome(self):
@@ -1119,17 +1093,9 @@ class HybridAttribute(MagicalAttribute):
         return self.poison_attack_power
 
     @property
-    def final_critical_strike(self):
-        return self.final_physical_critical_strike
-
-    @property
     def critical_strike(self):
         return self.physical_critical_strike
 
-    @property
-    def final_overcome(self):
-        return self.final_poison_overcome
-    
     @property
     def overcome(self):
         return self.poison_overcome

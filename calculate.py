@@ -13,7 +13,7 @@ def build_mapping():
     kungfu2event = {
         kungfu_id: (
             list(kungfu.gains)[0][0], list(kungfu.gains)[1][0], list(kungfu.gains)[2][0],
-            list(SPECIAL_ENCHANT_MAP[6].values())[0][0]
+            list(SPECIAL_ENCHANT_MAP[6].values())[0][0], list(SPECIAL_ENCHANT_MAP[10].values())[0][0]
         )
         for kungfu_id, kungfu in SUPPORT_KUNGFU.items()
     }
@@ -164,6 +164,9 @@ class Calculator:
             self.duration = 8 * 16
             self.interval = 30 * 16
             self.calculate_hybrid(tag)
+        elif tag == 4:
+            self.interval = 10 * 16
+            self.calculate_interval(tag)
 
         return self.probs
 

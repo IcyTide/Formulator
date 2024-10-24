@@ -5,7 +5,7 @@ from base.buff import Buff, CustomBuff
 BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Buff: {
-            26857: {},
+            26857: {}, 27543: {},
             27099: dict(continuous=True),
             27406: dict(buff_name="朱厌")
         },
