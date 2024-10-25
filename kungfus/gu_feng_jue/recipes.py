@@ -143,7 +143,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
     },
     1: {
         SkillRecipe: {
-            17358: {}
+            17358: {}, 17365: {}, 17364: {}
         },
         CriticalStrikeRecipe_306: {
             17359: {}

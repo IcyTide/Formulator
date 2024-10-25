@@ -5154,6 +5154,16 @@ BUFFS = {
         "max_stack": 10,
         "recipes": {}
     },
+    29608: {
+        "attributes": {
+            "strain_base": 864
+        },
+        "max_level": 1,
+        "buff_name": "神兵·无双",
+        "alias_name": "202410赛季CW无双黄字",
+        "max_stack": 5,
+        "recipes": {}
+    },
     918: {
         "attributes": {},
         "max_level": 1,

@@ -14,8 +14,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: {} for skill_id in range(6076, 6085 + 1)},
             6761: dict(consume_dots={748: 0}),
             600: dict(bind_dots={748: 1}),
-            37453: dict(bind_dots={889: 1}),
-            30944: dict(bind_dots={23170: 1})
+            37453: dict(bind_dots={889: 1})
         }
     },
     1: {

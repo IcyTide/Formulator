@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from typing import Dict, List, Tuple, Literal
 
 from assets.constant import SPECIAL_ENCHANT_MAP
@@ -50,7 +51,9 @@ class Calculator:
     counts: Dict[str, Dict[int, int]]
     probs: Dict[str, Dict[int, float]]
 
-    def __init__(self):
+    def __init__(self, epoch: int = 1000000, seed: int = 0):
+        self.epoch = epoch
+        self.dice = random.Random(seed)
         self.kungfu2mask = json.load(open("kungfu2mask.json", "r", encoding="utf-8"))
         self.skill2mask = json.load(open("skill2mask.json", "r", encoding="utf-8"))
         self.kungfu2prob = json.load(open("kungfu2prob.json", "r", encoding="utf-8"))
@@ -119,20 +122,46 @@ class Calculator:
                         continue
                     probs[i] += (1 - probs[i]) * prob
 
+    def simulate_interval(self, tag):
+        for player_id, counts in self.counts.items():
+            player_name = self.id2name[player_id]
+            probs = {frame: 0 for frame, count in counts.items()}
+            event_prob = self.kungfu2prob[self.id2kungfu[player_id]][tag] / 1024
+            # event_prob = 1
+            for _ in range(self.epoch):
+                cooldown = 0
+                for frame, count in counts.items():
+                    if not count or cooldown > frame:
+                        continue
+                    for _ in range(count):
+                        if self.dice.random() < event_prob:
+                            probs[frame] += 1
+                            cooldown = frame + self.interval
+                            break
+            self.probs[player_name] = {k: v / self.epoch for k, v in probs.items()}
+
     def calculate_interval(self, tag):
         for player_id, counts in self.counts.items():
             player_name = self.id2name[player_id]
-            probs = self.probs[player_name] = {frame: 1 for frame in counts}
+            probs = self.probs[player_name] = {frame: 1 for frame, count in counts.items()}
             event_prob = self.kungfu2prob[self.id2kungfu[player_id]][tag] / 1024
+            # event_prob = 1
             for frame, count in counts.items():
                 if not count:
                     continue
-                prob = 1 - (1 - event_prob) ** count
-                probs[frame] *= prob
-                for i in range(frame, frame + self.interval):
-                    if i == frame or i not in probs:
+                probs[frame] = [probs[frame]] * count
+                for t in range(count):
+                    probs[frame][t] *= event_prob
+                    for i in range(t + 1, count):
+                        probs[frame][i] *= 1 - probs[frame][t]
+                n_prob = 1
+                for prob in probs[frame]:
+                    n_prob *= (1 - prob)
+                probs[frame] = 1 - n_prob
+                for i in range(frame + 1, frame + self.interval):
+                    if i not in probs:
                         continue
-                    probs[i] *= 1 - prob
+                    probs[i] *= 1 - probs[frame]
 
     def calculate_hybrid(self, tag):
         self.calculate_interval(tag)
@@ -147,7 +176,7 @@ class Calculator:
                     final_probs[i] += (1 - final_probs[i]) * prob
             self.probs[player_name] = final_probs
 
-    def __call__(self, file_name, tag: Literal[0, 1, 2, 3] = 0):
+    def __call__(self, file_name, tag: Literal[0, 1, 2, 3, 4] = 0):
         rows = open(file_name, encoding="gbk").readlines()
         self.reset(rows)
         self.prepare()
@@ -156,8 +185,9 @@ class Calculator:
             self.duration = 6 * 16
             self.calculate_overlap(tag)
         elif tag == 1:
-            self.interval = 40 * 16
+            self.interval = 30 * 16
             self.calculate_interval(tag)
+            # self.simulate_interval(tag)
         elif tag == 2:
             self.calculate(tag)
         elif tag == 3:
@@ -173,12 +203,16 @@ class Calculator:
 
 def plot(data):
     import matplotlib.pyplot as plt
+    from matplotlib.ticker import MultipleLocator
+
     for name, points in data.items():
         xs = list(points)
         xs = [x - xs[0] for x in xs]
         ys = list(points.values())
-        print(sum(ys) / len(ys))
+        # print(sum(ys) / len(ys))
+        print(sum(ys))
         plt.plot(xs, ys, label=name)
+    plt.yticks([0, 0.025, 0.05, 0.075, 0.1, 0.125, 0.15, 0.175])
     plt.title('Plot of Prob')
     plt.xlabel('X')
     plt.ylabel('Y')
@@ -188,7 +222,7 @@ def plot(data):
 
 
 if __name__ == '__main__':
-    # build_mapping()
+    build_mapping()
     calculator = Calculator()
-    result = calculator("logs/wf-2.jcl", 3)
+    result = calculator("logs/dj-1.jcl", 1)
     plot(result)

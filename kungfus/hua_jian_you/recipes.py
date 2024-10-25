@@ -48,7 +48,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
     },
     1: {
         SkillRecipe: {
-            17399: {}
+            17399: {}, 17402: {}, 17403: {}
         },
         CriticalStrikeRecipe_306: {
             17400: {}
@@ -74,7 +74,7 @@ RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
             "增加会心4%": 4906,
             "增加伤害3%": 4907,
             "增加会心3%": 4905,
-            "增加会心2%": 4904,
+            "增加会心2%": 4904
         }
     }
 }

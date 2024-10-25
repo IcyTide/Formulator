@@ -91,6 +91,12 @@ class DivineSubSkill(EquipmentGain):
         self.skill_ids = [skill_id]
 
 
+class DivineGain(EquipmentGain):
+    buff_ids = [29608]
+    _attributes = GENERAL_BUFFS[29608].attributes
+    rate = 5
+
+
 class WaterWeapon(EquipmentGain):
     buff_ids = [4761]
     _attributes = GENERAL_BUFFS[4761].all_attributes
@@ -292,6 +298,7 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (gain_id,): Gain()
-        for gain_id in (2727, 1194)
-    }
+        for gain_id in (1194,)
+    },
+    (2727, ): DivineGain()
 }

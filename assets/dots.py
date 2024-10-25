@@ -127,16 +127,6 @@ DOTS = {
         ],
         "solar_damage_call": 1
     },
-    6424: {
-        "buff_name": "气竭(DOT)",
-        "alias_name": "纯阳_万世不竭DOT",
-        "interval": 48,
-        "tick": 6,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 50,
-        "neutral_damage_call": 1
-    },
     748: {
         "buff_name": "叠刃(DOT)",
         "alias_name": "太虚剑意_放气暴击DOT",
@@ -158,16 +148,6 @@ DOTS = {
         "max_stack": 1,
         "platform": 0,
         "damage_base": 16,
-        "physical_damage_call": 1
-    },
-    23170: {
-        "buff_name": "万象归元(DOT)",
-        "alias_name": "剑纯八荒橙武dot",
-        "interval": 48,
-        "tick": 10,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 10,
         "physical_damage_call": 1
     },
     70624: {

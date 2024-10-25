@@ -4993,15 +4993,6 @@ SKILLS = {
         "neutral_damage_base": 34,
         "neutral_damage_call": 1
     },
-    33592: {
-        "alias_name": "气纯橙武附加dot",
-        "kind_type": "NeutralMagic",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 390.8299999999999,
-        "max_level": 1
-    },
     18698: {
         "alias_name": "跬步_气剑增加四象两仪伤害",
         "kind_type": "NeutralMagic",
@@ -7584,16 +7575,6 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 450.0,
         "max_level": 1
-    },
-    30944: {
-        "alias_name": "剑纯橙武特效八荒额外伤害",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 450.0,
-        "max_level": 1,
-        "skill_name": "万象归元"
     },
     100010: {
         "alias_name": "移动端_无我无剑",
