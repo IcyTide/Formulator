@@ -46,7 +46,7 @@ def summary_content(summary: Dict[str, Detail], total: Detail):
 def gradient_content(total: Detail):
     content = []
     for k, v in total.gradients.items():
-        content.append([ATTR_TYPE_TRANSLATE[k], f"{round(v / total.expected_damage * 100, 2)}%"])
+        content.append([ATTR_TYPE_TRANSLATE[k], f"{round((v / total.expected_damage - 1) * 100, 2)}%"])
     return content
 
 

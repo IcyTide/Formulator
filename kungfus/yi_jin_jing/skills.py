@@ -30,6 +30,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             32656: {}, 32659: {}, 32660: {}, 32887: {}, 3814: {}, 3816: {}, 28542: {}, 24883: {}, 24028: {}, 38615: {},
             **{skill_id: {} for skill_id in range(3848, 3850 + 1)},
             **{skill_id: {} for skill_id in range(13681, 13686 + 1)},
+            **{skill_id: {} for skill_id in range(36049, 36051 + 1)},
             **{skill_id: dict(bind_dots={743: 1}) for skill_id in (3808, 3810, 3830, 28539)},
             24026: dict(consume_dots={743: 3})
         },
