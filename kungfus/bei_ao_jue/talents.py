@@ -87,7 +87,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             16799: Gain("霜天"),
-            16728: Gain("星火", buff_ids=[-29478], attributes=dict(strength_gain=102)),
+            16728: Gain("星火", attributes=dict(strength_gain=102, strain_gain=307)),
         },
         {
             26735: Gain("砺锋"),

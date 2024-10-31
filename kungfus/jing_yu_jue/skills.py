@@ -21,8 +21,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             3125: dict(bind_dots={2237: 1}),
             29148: dict(bind_dots={2237: 1}),
             18815: dict(bind_dots={12663: 1}),
-            29154: dict(bind_dots={12663: 1}),
-            3478: dict(bind_dots={19625: 1})
+            29154: dict(bind_dots={12663: 1})
         },
         逐一击破判定: {
             26551: {}

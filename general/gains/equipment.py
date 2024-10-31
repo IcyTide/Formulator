@@ -93,7 +93,7 @@ class DivineSubSkill(EquipmentGain):
 
 class DivineGain(EquipmentGain):
     buff_ids = [29608]
-    _attributes = GENERAL_BUFFS[29608].attributes
+    _attributes = GENERAL_BUFFS[29608].all_attributes
     rate = 5
 
 
@@ -269,36 +269,39 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i, gain_id in enumerate((2701, 2706))
     },
     **{
-        (gain_id,): HatGain(i)
+        (gain_id,): HatGain(i + 1)
         for i, gain_id in enumerate((2698, 2703))
     },
     **{
-        (gain_id,): OvercomePendantGain(i)
+        (gain_id,): OvercomePendantGain(i + 1)
         for i, gain_id in enumerate((2700, 2705))
     },
     **{
-        (gain_id,): CriticalPendantGain(i)
+        (gain_id,): CriticalPendantGain(i + 1)
         for i, gain_id in enumerate((2711, 2712))
     },
     **{
-        (gain_id,): OvercomeNecklaceGain(i)
+        (gain_id,): OvercomeNecklaceGain(i + 1)
         for i, gain_id in enumerate((2699, 2704))
     },
     **{
-        (gain_id,): CriticalNecklaceGain(i)
+        (gain_id,): CriticalNecklaceGain(i + 1)
         for i, gain_id in enumerate((2707, 2708))
     },
     **{
-        (gain_id,): OvercomeShoesGain(i)
+        (gain_id,): OvercomeShoesGain(i + 1)
         for i, gain_id in enumerate((2697, 2702))
     },
     **{
-        (gain_id,): CriticalShoesGain(i)
+        (gain_id,): CriticalShoesGain(i + 1)
         for i, gain_id in enumerate((2709, 2710))
     },
     **{
         (gain_id,): Gain()
         for gain_id in (1194,)
     },
-    (2727, ): DivineGain()
+    **{
+        (gain_id,): DivineGain(i + 1)
+        for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732))
+    }
 }

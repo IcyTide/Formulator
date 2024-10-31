@@ -8,5 +8,4 @@ from kungfus.bei_ao_jue.talents import TALENTS
 
 
 def prepare(self, player_id):
-    if 16728 in self.select_talents[player_id]:
-        self.buff_stacks[player_id][-29478][1] = 1
+    pass

@@ -5155,12 +5155,32 @@ BUFFS = {
         "recipes": {}
     },
     29608: {
-        "attributes": {
-            "strain_base": 864
-        },
-        "max_level": 1,
+        "attributes": [
+            {
+                "strain_base": 864
+            },
+            {
+                "strain_base": 671
+            },
+            {
+                "strain_base": 718
+            },
+            {
+                "strain_base": 765
+            },
+            {
+                "strain_base": 814
+            }
+        ],
+        "max_level": 5,
         "buff_name": "神兵·无双",
-        "alias_name": "202410赛季CW无双黄字",
+        "alias_name": [
+            "22000CW无双黄字",
+            "17100CW无双黄字",
+            "18300CW无双黄字",
+            "19500CW无双黄字",
+            "20750CW无双黄字"
+        ],
         "max_stack": 5,
         "recipes": {}
     },
@@ -7149,8 +7169,8 @@ BUFFS = {
                 "magical_shield_base": 154
             },
             {
-                "all_major_base": 244,
-                "magical_shield_base": 340
+                "all_major_base": 317,
+                "magical_shield_base": 1010
             }
         ],
         "max_level": 11,
@@ -7716,7 +7736,7 @@ BUFFS = {
     },
     1919: {
         "attributes": {},
-        "max_level": 7,
+        "max_level": 8,
         "buff_name": [
             "龙木金藤",
             "白骨碎云",
@@ -7724,7 +7744,8 @@ BUFFS = {
             "浮心·劫",
             "涅槃",
             "泥犁之狱",
-            "桑莲妙境"
+            "桑莲妙境",
+            "昭佛光"
         ],
         "alias_name": [
             "80橙武_易筋经_攻击回豆",
@@ -7733,7 +7754,8 @@ BUFFS = {
             "95橙武_易筋经_攻击回豆",
             "100橙武_易筋经_攻击回豆",
             "110橙武_易筋经_攻击回豆",
-            "120橙武_易筋经_攻击回豆"
+            "120橙武_易筋经_攻击回豆",
+            "130橙武_易筋经_攻击回豆"
         ],
         "max_stack": 1,
         "recipes": {
@@ -7865,7 +7887,7 @@ BUFFS = {
                 "physical_attack_power_gain": 512,
                 "physical_critical_power_rate": 256,
                 "physical_critical_strike_rate": 2500,
-                "strain_rate": 102
+                "strain_gain": 307
             }
         ],
         "max_level": 5,
@@ -7885,6 +7907,34 @@ BUFFS = {
         "alias_name": "纯阳_下一招会心提高",
         "max_stack": 1,
         "recipes": {}
+    },
+    1916: {
+        "attributes": {},
+        "max_level": 8,
+        "buff_name": [
+            "玉清玄明",
+            "留情",
+            "赤霄红莲",
+            "渊微指玄",
+            "霜影玄玑",
+            "松间云鹤",
+            "苍冥游",
+            "仙灵"
+        ],
+        "alias_name": [
+            "80橙武_紫霞功_两仪化形回气",
+            "70橙武_紫霞功_两仪化形回气",
+            "90橙武_紫霞功_两仪化形回气",
+            "95橙武_紫霞功_两仪化形回气",
+            "100橙武_紫霞功_两仪化形回气",
+            "110橙武_紫霞功_两仪化形回气",
+            "80橙武_紫霞功_两仪化形回气",
+            "80橙武_紫霞功_两仪化形回气"
+        ],
+        "max_stack": 1,
+        "recipes": {
+            5756: 1
+        }
     },
     12779: {
         "attributes": {},
@@ -8061,6 +8111,34 @@ BUFFS = {
         "recipes": {
             5616: 1,
             5613: 2
+        }
+    },
+    1915: {
+        "attributes": {},
+        "max_level": 8,
+        "buff_name": [
+            "吞吴",
+            "蛟影",
+            "雪名",
+            "周流星位",
+            "瀚海长风",
+            "玄鹤唳天",
+            "风霆肃",
+            "镇恶"
+        ],
+        "alias_name": [
+            "80橙武_太虚剑意_无我无剑回气",
+            "70橙武_太虚剑意_无我无剑回气",
+            "90橙武_太虚剑意_无我无剑回气",
+            "95橙武_太虚剑意_无我无剑回气",
+            "100橙武_太虚剑意_无我无剑回气",
+            "110橙武_太虚剑意_无我无剑回气",
+            "80橙武_太虚剑意_无我无剑回气",
+            "80橙武_太虚剑意_无我无剑回气"
+        ],
+        "max_stack": 1,
+        "recipes": {
+            5758: 1
         }
     },
     6093: {
@@ -8558,7 +8636,7 @@ BUFFS = {
     },
     17969: {
         "attributes": {
-            "pve_addition_base": 102
+            "strain_gain": 307
         },
         "max_level": 1,
         "buff_name": "化冰",
@@ -8928,7 +9006,8 @@ BUFFS = {
     },
     22232: {
         "attributes": {
-            "all_shield_ignore": 820
+            "all_shield_ignore": 614,
+            "strain_gain": 307
         },
         "max_level": 1,
         "buff_name": "嗜蛊",
@@ -9548,7 +9627,7 @@ BUFFS = {
     27161: {
         "attributes": {
             "physical_attack_power_gain": 102,
-            "strain_rate": 200
+            "strain_gain": 307
         },
         "max_level": 1,
         "buff_name": "血怒·惊涌",
@@ -9664,9 +9743,17 @@ BUFFS = {
                 "neutral_shield_gain": 102,
                 "poison_shield_gain": 102,
                 "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
             }
         ],
-        "max_level": 14,
+        "max_level": 16,
         "buff_name": [
             "血云",
             "太初社稷",
@@ -9681,7 +9768,9 @@ BUFFS = {
             "白狼河北",
             "四面边声",
             "孤焰",
-            "致远"
+            "致远",
+            "天下宏愿",
+            "驭焰"
         ],
         "alias_name": [
             "苍云橙武触发buff效果",
@@ -9697,7 +9786,9 @@ BUFFS = {
             "110苍云橙武触发buff效果",
             "110苍云橙武触发buff效果",
             "120级分山劲苍云cw",
-            "120级铁骨苍云cw"
+            "120级铁骨苍云cw",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果"
         ],
         "max_stack": 1,
         "recipes": [
@@ -9728,8 +9819,23 @@ BUFFS = {
             {
                 1941: 1
             },
+            {},
+            {
+                1941: 1
+            },
             {}
         ]
+    },
+    8423: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "strain_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "从容",
+        "alias_name": "从容",
+        "max_stack": 1,
+        "recipes": {}
     },
     25937: {
         "attributes": [
@@ -9980,15 +10086,6 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "冥鼓",
         "alias_name": "冥鼓无视防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29478: {
-        "attributes": {
-            "strain_gain": 307
-        },
-        "max_level": 1,
-        "alias_name": "星火常驻无双",
         "max_stack": 1,
         "recipes": {}
     },
@@ -10647,10 +10744,11 @@ BUFFS = {
     },
     24752: {
         "attributes": {},
-        "max_level": 2,
+        "max_level": 3,
         "buff_name": [
             "善臻",
-            "绝地天通刀"
+            "绝地天通刀",
+            "烛微刀"
         ],
         "alias_name": "刀宗橙武效果",
         "max_stack": 1,
@@ -10723,15 +10821,23 @@ BUFFS = {
     },
     27543: {
         "attributes": {},
-        "max_level": 2,
+        "max_level": 3,
         "buff_name": [
             "雀引昭明",
-            "庄生晓梦"
+            "庄生晓梦",
+            "金乌回首"
         ],
-        "alias_name": "万灵山庄橙武效果",
+        "alias_name": [
+            "万灵山庄橙武效果",
+            "万灵山庄橙武效果",
+            "130级万灵山庄橙武效果"
+        ],
         "max_stack": 1,
         "recipes": [
             {},
+            {
+                5755: 1
+            },
             {
                 5755: 1
             }

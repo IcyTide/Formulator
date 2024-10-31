@@ -581,6 +581,14 @@ RECIPES = {
             "recipe_name": "新无极_太极无极加伤害"
         }
     },
+    5756: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 18640,
+            "recipe_type": 18640,
+            "recipe_name": "橙武万世加伤害"
+        }
+    },
     4602: {
         1: {
             "damage_addition": 102,
@@ -829,6 +837,14 @@ RECIPES = {
             "skill_id": 2699,
             "recipe_type": 2699,
             "recipe_name": "八荒降低CD"
+        }
+    },
+    5758: {
+        1: {
+            "damage_addition": 717,
+            "skill_id": 2699,
+            "recipe_type": 2699,
+            "recipe_name": "橙武八荒增伤"
         }
     },
     1522: {
@@ -5390,8 +5406,8 @@ RECIPES = {
     4294: {
         1: {
             "damage_addition": 51,
-            "skill_id": 16027,
-            "recipe_type": 16027,
+            "skill_id": 16085,
+            "recipe_type": 16085,
             "recipe_name": "90橙武霸刀属性1"
         }
     },
@@ -8132,7 +8148,6 @@ RECIPES = {
         1: {
             "damage_addition": 205,
             "skill_id": 38085,
-            "recipe_type": 38085,
             "recipe_name": "绝脉引爆伤害提高10%"
         }
     },
@@ -8283,13 +8298,6 @@ RECIPES = {
             "skill_id": 37780,
             "recipe_type": 37780,
             "recipe_name": "《聘风令·劈风令》秘诀断篇"
-        }
-    },
-    5323: {
-        1: {
-            "skill_id": 24491,
-            "recipe_type": 24491,
-            "recipe_name": "衍天宗PVP套装效果1"
         }
     },
     5578: {

@@ -1024,9 +1024,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "化鹤护腕#104336 (25900 精简 破招 无双)": {
+        "锋权护腕#104336 (25900 精简 破招 无双)": {
             "id": 104336,
-            "name": "化鹤护腕",
+            "name": "锋权护腕",
             "school": "精简",
             "kind": "外功",
             "level": 25900,
@@ -1052,9 +1052,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迁莺护腕#104335 (25900 精简 破招 无双)": {
+        "钗语护腕#104335 (25900 精简 破招 无双)": {
             "id": 104335,
-            "name": "迁莺护腕",
+            "name": "钗语护腕",
             "school": "精简",
             "kind": "内功",
             "level": 25900,
@@ -15912,9 +15912,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "云合裤#104338 (25900 精简 破招 无双)": {
+        "澄潭裤#104338 (25900 精简 破招 无双)": {
             "id": 104338,
-            "name": "云合裤",
+            "name": "澄潭裤",
             "school": "精简",
             "kind": "外功",
             "level": 25900,
@@ -15938,9 +15938,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "然犀裤#104337 (25900 精简 破招 无双)": {
+        "喻声裤#104337 (25900 精简 破招 无双)": {
             "id": 104337,
-            "name": "然犀裤",
+            "name": "喻声裤",
             "school": "精简",
             "kind": "内功",
             "level": 25900,
@@ -16280,9 +16280,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁裤#101563 (25900 破招 无双)": {
+        "临云裤#101563 (25900 破招 无双)": {
             "id": 101563,
-            "name": "羡雁裤",
+            "name": "临云裤",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -16307,9 +16307,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深裤#101562 (25900 破招 无双)": {
+        "君信裤#101562 (25900 破招 无双)": {
             "id": 101562,
-            "name": "君深裤",
+            "name": "君信裤",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -16334,9 +16334,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑裤#101561 (25900 破招 无双)": {
+        "清槐裤#101561 (25900 破招 无双)": {
             "id": 101561,
-            "name": "青桑裤",
+            "name": "清槐裤",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -16361,9 +16361,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春裤#101560 (25900 破招 无双)": {
+        "孟春裤#101560 (25900 破招 无双)": {
             "id": 101560,
-            "name": "季春裤",
+            "name": "孟春裤",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -20060,9 +20060,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "醉别腰带#104334 (25900 精简 破招 无双)": {
+        "含封腰带#104334 (25900 精简 破招 无双)": {
             "id": 104334,
-            "name": "醉别腰带",
+            "name": "含封腰带",
             "school": "精简",
             "kind": "外功",
             "level": 25900,
@@ -20088,9 +20088,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松悲腰带#104333 (25900 精简 破招 无双)": {
+        "平陌腰带#104333 (25900 精简 破招 无双)": {
             "id": 104333,
-            "name": "松悲腰带",
+            "name": "平陌腰带",
             "school": "精简",
             "kind": "内功",
             "level": 25900,
@@ -46003,11 +46003,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 6348,
-                "agility_base": 704,
-                "physical_attack_power_base": 1212,
-                "physical_critical_strike_base": 4804,
-                "physical_overcome_base": 5147,
+                "vitality_base": 7549,
+                "agility_base": 616,
+                "physical_attack_power_base": 1305,
+                "physical_critical_strike_base": 1887,
+                "physical_overcome_base": 1887,
                 "haste_base": 1716
             },
             "embed": {},
@@ -46032,11 +46032,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 6348,
-                "strength_base": 704,
-                "physical_attack_power_base": 1212,
-                "physical_critical_strike_base": 4804,
-                "physical_overcome_base": 5147,
+                "vitality_base": 7549,
+                "strength_base": 616,
+                "physical_attack_power_base": 1305,
+                "physical_critical_strike_base": 1887,
+                "physical_overcome_base": 1887,
                 "haste_base": 1716
             },
             "embed": {},
@@ -46061,11 +46061,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 6348,
-                "spunk_base": 704,
-                "magical_attack_power_base": 1348,
-                "all_critical_strike_base": 4804,
-                "magical_overcome_base": 5147,
+                "vitality_base": 7549,
+                "spunk_base": 616,
+                "magical_attack_power_base": 1452,
+                "all_critical_strike_base": 1887,
+                "magical_overcome_base": 1887,
                 "haste_base": 1716
             },
             "embed": {},
@@ -46090,11 +46090,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 6348,
-                "spirit_base": 704,
-                "magical_attack_power_base": 1348,
-                "magical_critical_strike_base": 4804,
-                "magical_overcome_base": 5147,
+                "vitality_base": 7549,
+                "spirit_base": 616,
+                "magical_attack_power_base": 1452,
+                "magical_critical_strike_base": 1887,
+                "magical_overcome_base": 1887,
                 "haste_base": 1716
             },
             "embed": {},
@@ -46636,9 +46636,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "窗幽戒#42729 (25900 精简 加速)": {
+        "舫梦戒#42729 (25900 精简 加速)": {
             "id": 42729,
-            "name": "窗幽戒",
+            "name": "舫梦戒",
             "school": "精简",
             "kind": "外功",
             "level": 25900,
@@ -46658,9 +46658,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "砌冷戒#42728 (25900 精简 加速)": {
+        "希叡戒#42728 (25900 精简 加速)": {
             "id": 42728,
-            "name": "砌冷戒",
+            "name": "希叡戒",
             "school": "精简",
             "kind": "内功",
             "level": 25900,
@@ -46960,9 +46960,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁戒#41358 (25900 加速 无双)": {
+        "临云戒#41358 (25900 加速 无双)": {
             "id": 41358,
-            "name": "羡雁戒",
+            "name": "临云戒",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -46984,9 +46984,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深戒#41357 (25900 加速 无双)": {
+        "君信戒#41357 (25900 加速 无双)": {
             "id": 41357,
-            "name": "君深戒",
+            "name": "君信戒",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -47008,9 +47008,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑戒#41356 (25900 加速 无双)": {
+        "清槐戒#41356 (25900 加速 无双)": {
             "id": 41356,
-            "name": "青桑戒",
+            "name": "清槐戒",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -47032,9 +47032,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春戒#41355 (25900 加速 无双)": {
+        "孟春戒#41355 (25900 加速 无双)": {
             "id": 41355,
-            "name": "季春戒",
+            "name": "孟春戒",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -47355,11 +47355,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 5530,
-                "agility_base": 613,
-                "physical_attack_power_base": 1056,
-                "physical_critical_strike_base": 4185,
-                "physical_overcome_base": 4484,
+                "vitality_base": 6577,
+                "agility_base": 537,
+                "physical_attack_power_base": 1137,
+                "physical_critical_strike_base": 1644,
+                "physical_overcome_base": 1644,
                 "haste_base": 1495
             },
             "embed": {},
@@ -47380,11 +47380,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 5530,
-                "strength_base": 613,
-                "physical_attack_power_base": 1056,
-                "physical_critical_strike_base": 4185,
-                "physical_overcome_base": 4484,
+                "vitality_base": 6577,
+                "strength_base": 537,
+                "physical_attack_power_base": 1137,
+                "physical_critical_strike_base": 1644,
+                "physical_overcome_base": 1644,
                 "haste_base": 1495
             },
             "embed": {},
@@ -47405,11 +47405,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 5530,
-                "spunk_base": 613,
-                "magical_attack_power_base": 1174,
-                "all_critical_strike_base": 4185,
-                "magical_overcome_base": 4484,
+                "vitality_base": 6577,
+                "spunk_base": 537,
+                "magical_attack_power_base": 1265,
+                "all_critical_strike_base": 1644,
+                "magical_overcome_base": 1644,
                 "haste_base": 1495
             },
             "embed": {},
@@ -47430,11 +47430,11 @@ EQUIPMENTS = {
             "set_id": 0,
             "base": {},
             "magic": {
-                "vitality_base": 5530,
-                "spirit_base": 613,
-                "magical_attack_power_base": 1174,
-                "magical_critical_strike_base": 4185,
-                "magical_overcome_base": 4484,
+                "vitality_base": 6577,
+                "spirit_base": 537,
+                "magical_attack_power_base": 1265,
+                "magical_critical_strike_base": 1644,
+                "magical_overcome_base": 1644,
                 "haste_base": 1495
             },
             "embed": {},
@@ -48369,9 +48369,9 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5909,
                 "agility_base": 482,
-                "physical_attack_power_base": 1095,
-                "physical_critical_strike_base": 2955,
-                "physical_overcome_base": 2955,
+                "physical_attack_power_base": 1022,
+                "physical_critical_strike_base": 1477,
+                "physical_overcome_base": 1477,
                 "haste_base": 1343
             },
             "embed": {},
@@ -48394,9 +48394,9 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5909,
                 "strength_base": 482,
-                "physical_attack_power_base": 1095,
-                "physical_critical_strike_base": 2955,
-                "physical_overcome_base": 2955,
+                "physical_attack_power_base": 1022,
+                "physical_critical_strike_base": 1477,
+                "physical_overcome_base": 1477,
                 "haste_base": 1343
             },
             "embed": {},
@@ -48419,9 +48419,9 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5909,
                 "spunk_base": 482,
-                "magical_attack_power_base": 1217,
-                "all_critical_strike_base": 2955,
-                "magical_overcome_base": 2955,
+                "magical_attack_power_base": 1136,
+                "all_critical_strike_base": 1477,
+                "magical_overcome_base": 1477,
                 "haste_base": 1343
             },
             "embed": {},
@@ -48444,9 +48444,9 @@ EQUIPMENTS = {
             "magic": {
                 "vitality_base": 5909,
                 "spirit_base": 482,
-                "magical_attack_power_base": 1217,
-                "magical_critical_strike_base": 2955,
-                "magical_overcome_base": 2955,
+                "magical_attack_power_base": 1136,
+                "magical_critical_strike_base": 1477,
+                "magical_overcome_base": 1477,
                 "haste_base": 1343
             },
             "embed": {},
@@ -49216,6 +49216,102 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 773,
                 "magical_overcome_base": 3837,
                 "pvx_round": 1535
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风沙行·远风#42842 (20200 破招 无双)": {
+            "id": 42842,
+            "name": "风沙行·远风",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5545,
+                "agility_base": 452,
+                "physical_attack_power_base": 1027,
+                "surplus_base": 3781,
+                "strain_base": 3024
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风沙行·孤旅#42841 (20200 破招 无双)": {
+            "id": 42841,
+            "name": "风沙行·孤旅",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5545,
+                "strength_base": 452,
+                "physical_attack_power_base": 1027,
+                "surplus_base": 3781,
+                "strain_base": 3024
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风沙行·长河#42840 (20200 破招 无双)": {
+            "id": 42840,
+            "name": "风沙行·长河",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5545,
+                "spunk_base": 452,
+                "magical_attack_power_base": 1142,
+                "surplus_base": 3781,
+                "strain_base": 3024
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风沙行·沙影#42839 (20200 破招 无双)": {
+            "id": 42839,
+            "name": "风沙行·沙影",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5545,
+                "spirit_base": 452,
+                "magical_attack_power_base": 1142,
+                "surplus_base": 3781,
+                "strain_base": 3024
             },
             "embed": {},
             "gains": [],
@@ -50574,9 +50670,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁项饰#41352 (25900 加速 无双)": {
+        "临云项饰#41352 (25900 加速 无双)": {
             "id": 41352,
-            "name": "羡雁项饰",
+            "name": "临云项饰",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -50600,9 +50696,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深项饰#41351 (25900 加速 无双)": {
+        "君信项饰#41351 (25900 加速 无双)": {
             "id": 41351,
-            "name": "君深项饰",
+            "name": "君信项饰",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -50626,9 +50722,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑项饰#41350 (25900 加速 无双)": {
+        "清槐项饰#41350 (25900 加速 无双)": {
             "id": 41350,
-            "name": "青桑项饰",
+            "name": "清槐项饰",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -50652,9 +50748,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春项饰#41349 (25900 加速 无双)": {
+        "孟春项饰#41349 (25900 加速 无双)": {
             "id": 41349,
-            "name": "季春项饰",
+            "name": "孟春项饰",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -58810,9 +58906,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尘许囊#40832 (22500 破招 无双)": {
+        "碎菱囊#40832 (22500 破招 无双)": {
             "id": 40832,
-            "name": "尘许囊",
+            "name": "碎菱囊",
             "school": "通用",
             "kind": "身法",
             "level": 22500,
@@ -58836,9 +58932,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "度飞囊#40831 (22500 破招 无双)": {
+        "泊澜囊#40831 (22500 破招 无双)": {
             "id": 40831,
-            "name": "度飞囊",
+            "name": "泊澜囊",
             "school": "通用",
             "kind": "力道",
             "level": 22500,
@@ -58862,9 +58958,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "令仪囊#40830 (22500 破招 无双)": {
+        "青志囊#40830 (22500 破招 无双)": {
             "id": 40830,
-            "name": "令仪囊",
+            "name": "青志囊",
             "school": "通用",
             "kind": "元气",
             "level": 22500,
@@ -58888,9 +58984,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "素溱囊#40829 (22500 破招 无双)": {
+        "虹雨囊#40829 (22500 破招 无双)": {
             "id": 40829,
-            "name": "素溱囊",
+            "name": "虹雨囊",
             "school": "通用",
             "kind": "根骨",
             "level": 22500,
@@ -61862,9 +61958,9 @@ EQUIPMENTS = {
         }
     },
     "primary_weapon": {
-        "伏龙阳焰_测试用#40321 (22000 特效 会心 破防 加速)": {
+        "测试武器#40321 (22000 特效 会心 破防 加速)": {
             "id": 40321,
-            "name": "伏龙阳焰_测试用",
+            "name": "测试武器",
             "school": "段氏",
             "kind": "内功",
             "level": 22000,
@@ -61894,21 +61990,26 @@ EQUIPMENTS = {
                 ],
                 [
                     2725
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 5749: 1,
                 5750: 1,
                 17511: 1,
-                17239: 1
+                17239: 1,
+                17512: 1,
+                17513: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40320 (22000 特效 会心 破防 加速)": {
+        "测试武器#40320 (22000 特效 会心 破防 加速)": {
             "id": 40320,
-            "name": "庄生晓梦_测试用",
+            "name": "测试武器",
             "school": "万灵",
             "kind": "外功",
             "level": 22000,
@@ -61934,25 +62035,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2572
+                    2746
                 ],
                 [
                     2571
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 5461: 1,
                 5462: 1,
                 17470: 1,
-                17239: 1
+                17239: 1,
+                17473: 1,
+                17474: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40319 (22000 特效 会心 破防 加速)": {
+        "测试武器#40319 (22000 特效 会心 破防 加速)": {
             "id": 40319,
-            "name": "绝地天通刀_测试用",
+            "name": "测试武器",
             "school": "刀宗",
             "kind": "外功",
             "level": 22000,
@@ -61978,25 +62084,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2391
+                    2757
                 ],
                 [
                     2392
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 3186: 1,
                 3187: 1,
                 17358: 1,
-                17239: 1
+                17239: 1,
+                17365: 1,
+                17364: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40317 (22000 特效 会心 破防 加速)": {
+        "测试武器#40317 (22000 特效 会心 破防 加速)": {
             "id": 40317,
-            "name": "鹿王本生_测试用",
+            "name": "测试武器",
             "school": "药宗",
             "kind": "内功",
             "level": 22000,
@@ -62022,25 +62133,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2414
+                    2762
                 ],
                 [
                     2138
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 2842: 1,
                 2843: 1,
                 17458: 1,
-                17239: 1
+                17239: 1,
+                17461: 1,
+                17462: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40316 (22000 特效 会心 破防 加速)": {
+        "测试武器#40316 (22000 特效 会心 破防 加速)": {
             "id": 40316,
-            "name": "月升海楼_测试用",
+            "name": "测试武器",
             "school": "衍天",
             "kind": "内功",
             "level": 22000,
@@ -62066,25 +62182,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2413
+                    2756
                 ],
                 [
                     1962
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 5325: 1,
                 5326: 1,
                 17414: 1,
-                17239: 1
+                17239: 1,
+                17417: 1,
+                17418: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40315 (22000 特效 会心 破防 加速)": {
+        "测试武器#40315 (22000 特效 会心 破防 加速)": {
             "id": 40315,
-            "name": "山河同渡_测试用",
+            "name": "测试武器",
             "school": "凌雪",
             "kind": "外功",
             "level": 22000,
@@ -62110,25 +62231,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2428
+                    2745
                 ],
                 [
                     1944
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 5091: 1,
                 5092: 1,
                 17324: 1,
-                17239: 1
+                17239: 1,
+                17326: 1,
+                17339: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40314 (22000 特效 会心 破防 加速)": {
+        "测试武器#40314 (22000 特效 会心 破防 加速)": {
             "id": 40314,
-            "name": "山海云涯_测试用",
+            "name": "测试武器",
             "school": "蓬莱",
             "kind": "外功",
             "level": 22000,
@@ -62154,25 +62280,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2423
+                    2749
                 ],
                 [
                     1943
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 4818: 1,
                 4819: 1,
                 17409: 1,
-                17239: 1
+                17239: 1,
+                17412: 1,
+                17413: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40313 (22000 特效 会心 破防 加速)": {
+        "测试武器#40313 (22000 特效 会心 破防 加速)": {
             "id": 40313,
-            "name": "沉夜重雪_测试用",
+            "name": "测试武器",
             "school": "霸刀",
             "kind": "外功",
             "level": 22000,
@@ -62198,25 +62329,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2430
+                    2761
                 ],
                 [
                     1942
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 4294: 1,
                 4295: 1,
                 17374: 1,
-                17239: 1
+                17239: 1,
+                17378: 1,
+                17377: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40311 (22000 特效 会心 破防 加速)": {
+        "测试武器#40311 (22000 特效 会心 破防 加速)": {
             "id": 40311,
-            "name": "抚今_测试用",
+            "name": "测试武器",
             "school": "长歌",
             "kind": "内功",
             "level": 22000,
@@ -62242,25 +62378,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2415
+                    2718
                 ],
                 [
                     1941
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 2401: 1,
                 2402: 1,
                 17306: 1,
-                17239: 1
+                17239: 1,
+                17308: 1,
+                17325: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40309 (22000 特效 会心 破防 加速)": {
+        "测试武器#40309 (22000 特效 会心 破防 加速)": {
             "id": 40309,
-            "name": "孤焰_测试用",
+            "name": "测试武器",
             "school": "苍云",
             "kind": "外功",
             "level": 22000,
@@ -62286,25 +62427,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2408
+                    2754
                 ],
                 [
                     1940
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1937: 1,
                 1938: 1,
                 17447: 1,
-                17239: 1
+                17239: 1,
+                17450: 1,
+                17451: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40307 (22000 特效 会心 破防 加速)": {
+        "测试武器#40307 (22000 特效 会心 破防 加速)": {
             "id": 40307,
-            "name": "血月_测试用",
+            "name": "测试武器",
             "school": "明教",
             "kind": "内功",
             "level": 22000,
@@ -62330,25 +62476,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2421
+                    2759
                 ],
                 [
                     1938
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1542: 1,
                 1543: 1,
                 17332: 1,
-                17239: 1
+                17239: 1,
+                17336: 1,
+                17342: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40306 (22000 特效 会心 破防)": {
+        "测试武器#40306 (22000 特效 会心 破防)": {
             "id": 40306,
-            "name": "拾牙_测试用",
+            "name": "测试武器",
             "school": "丐帮",
             "kind": "外功",
             "level": 22000,
@@ -62373,10 +62524,13 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2431
+                    2738
                 ],
                 [
                     1939
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
@@ -62384,15 +62538,16 @@ EQUIPMENTS = {
                 1541: 1,
                 17441: 1,
                 17239: 1,
-                17444: 1
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40304 (22000 特效 会心 破防 加速)": {
+        "测试武器#40304 (22000 特效 会心 破防 加速)": {
             "id": 40304,
-            "name": "寄骨_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 22000,
@@ -62418,25 +62573,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2427
+                    2744
                 ],
                 [
                     1945
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1536: 1,
                 1537: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40303 (22000 特效 会心 破防 加速)": {
+        "测试武器#40303 (22000 特效 会心 破防 加速)": {
             "id": 40303,
-            "name": "摧霜_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "外功",
             "level": 22000,
@@ -62462,25 +62622,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2411
+                    2737
                 ],
                 [
                     1936
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1534: 1,
                 1535: 1,
                 17435: 1,
-                17239: 1
+                17239: 1,
+                17438: 1,
+                17439: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40302 (22000 特效 会心 破防 加速)": {
+        "测试武器#40302 (22000 特效 会心 破防 加速)": {
             "id": 40302,
-            "name": "罪骨浮屠_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "内功",
             "level": 22000,
@@ -62506,25 +62671,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2412
+                    2736
                 ],
                 [
                     1935
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1532: 1,
                 1533: 1,
                 17429: 1,
-                17239: 1
+                17239: 1,
+                17432: 1,
+                17433: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40300 (22000 特效 会心 破防 加速)": {
+        "测试武器#40300 (22000 特效 会心 破防 加速)": {
             "id": 40300,
-            "name": "墨语沉香_测试用",
+            "name": "测试武器",
             "school": "五毒",
             "kind": "内功",
             "level": 22000,
@@ -62550,25 +62720,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2420
+                    2717
                 ],
                 [
                     1934
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1528: 1,
                 1529: 1,
                 17316: 1,
-                17239: 1
+                17239: 1,
+                17318: 1,
+                17329: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40298 (22000 特效 会心 破防 加速)": {
+        "测试武器#40298 (22000 特效 会心 破防 加速)": {
             "id": 40298,
-            "name": "飞霜绛露_测试用",
+            "name": "测试武器",
             "school": "七秀",
             "kind": "内功",
             "level": 22000,
@@ -62594,25 +62769,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2416
+                    2719
                 ],
                 [
                     1930
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1524: 1,
                 1525: 1,
                 17380: 1,
-                17239: 1
+                17239: 1,
+                17384: 1,
+                17383: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40297 (22000 特效 会心 破防 加速)": {
+        "测试武器#40297 (22000 特效 会心 破防 加速)": {
             "id": 40297,
-            "name": "风霆肃_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "外功",
             "level": 22000,
@@ -62638,25 +62818,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2419
+                    2753
                 ],
                 [
                     1932
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1522: 1,
                 1523: 1,
                 17301: 1,
-                17239: 1
+                17239: 1,
+                17305: 1,
+                17341: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40296 (22000 特效 会心 破防 加速)": {
+        "测试武器#40296 (22000 特效 会心 破防 加速)": {
             "id": 40296,
-            "name": "苍冥游_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "内功",
             "level": 22000,
@@ -62682,25 +62867,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2418
+                    2739
                 ],
                 [
                     1931
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1520: 1,
                 1521: 1,
                 17300: 1,
-                17239: 1
+                17239: 1,
+                17304: 1,
+                17340: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40294 (22000 特效 会心 破防 加速)": {
+        "测试武器#40294 (22000 特效 会心 破防 加速)": {
             "id": 40294,
-            "name": "旷野孤疆_测试用",
+            "name": "测试武器",
             "school": "天策",
             "kind": "外功",
             "level": 22000,
@@ -62726,25 +62916,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2424
+                    2741
                 ],
                 [
                     1933
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1508: 1,
                 1509: 1,
                 17362: 1,
-                17239: 1
+                17239: 1,
+                17393: 1,
+                17394: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40292 (22000 特效 会心 破防 加速)": {
+        "测试武器#40292 (22000 特效 会心 破防 加速)": {
             "id": 40292,
-            "name": "璃光浮远_测试用",
+            "name": "测试武器",
             "school": "万花",
             "kind": "内功",
             "level": 22000,
@@ -62774,21 +62969,26 @@ EQUIPMENTS = {
                 ],
                 [
                     1929
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1516: 1,
                 1517: 1,
                 17399: 1,
-                17239: 1
+                17239: 1,
+                17402: 1,
+                17403: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40290 (22000 特效 会心 破防 加速)": {
+        "测试武器#40290 (22000 特效 会心 破防 加速)": {
             "id": 40290,
-            "name": "桑莲妙境_测试用",
+            "name": "测试武器",
             "school": "少林",
             "kind": "内功",
             "level": 22000,
@@ -62814,25 +63014,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2410
+                    2758
                 ],
                 [
                     1928
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1512: 1,
                 1513: 1,
                 17351: 1,
-                17239: 1
+                17239: 1,
+                17354: 1,
+                17355: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏龙阳焰_测试用#40289 (20750 会心 破防 加速)": {
+        "测试武器#40289 (20750 特效 会心 破防 加速)": {
             "id": 40289,
-            "name": "伏龙阳焰_测试用",
+            "name": "测试武器",
             "school": "段氏",
             "kind": "内功",
             "level": 20750,
@@ -62856,15 +63061,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2724
+                ],
+                [
+                    2725
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40288 (20750 会心 破防 加速)": {
+        "测试武器#40288 (20750 特效 会心 破防 加速)": {
             "id": 40288,
-            "name": "庄生晓梦_测试用",
+            "name": "测试武器",
             "school": "万灵",
             "kind": "外功",
             "level": 20750,
@@ -62888,15 +63110,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2746
+                ],
+                [
+                    2571
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1,
+                17473: 1,
+                17474: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40287 (20750 会心 破防 加速)": {
+        "测试武器#40287 (20750 特效 会心 破防 加速)": {
             "id": 40287,
-            "name": "绝地天通刀_测试用",
+            "name": "测试武器",
             "school": "刀宗",
             "kind": "外功",
             "level": 20750,
@@ -62920,15 +63159,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2757
+                ],
+                [
+                    2392
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1,
+                17365: 1,
+                17364: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40285 (20750 会心 破防 加速)": {
+        "测试武器#40285 (20750 特效 会心 破防 加速)": {
             "id": 40285,
-            "name": "鹿王本生_测试用",
+            "name": "测试武器",
             "school": "药宗",
             "kind": "内功",
             "level": 20750,
@@ -62952,15 +63208,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2762
+                ],
+                [
+                    2138
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1,
+                17461: 1,
+                17462: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40284 (20750 会心 破防 加速)": {
+        "测试武器#40284 (20750 特效 会心 破防 加速)": {
             "id": 40284,
-            "name": "月升海楼_测试用",
+            "name": "测试武器",
             "school": "衍天",
             "kind": "内功",
             "level": 20750,
@@ -62984,15 +63257,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2756
+                ],
+                [
+                    1962
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1,
+                17417: 1,
+                17418: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40283 (20750 会心 破防 加速)": {
+        "测试武器#40283 (20750 特效 会心 破防 加速)": {
             "id": 40283,
-            "name": "山河同渡_测试用",
+            "name": "测试武器",
             "school": "凌雪",
             "kind": "外功",
             "level": 20750,
@@ -63016,15 +63306,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2745
+                ],
+                [
+                    1944
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1,
+                17326: 1,
+                17339: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40282 (20750 会心 破防 加速)": {
+        "测试武器#40282 (20750 特效 会心 破防 加速)": {
             "id": 40282,
-            "name": "山海云涯_测试用",
+            "name": "测试武器",
             "school": "蓬莱",
             "kind": "外功",
             "level": 20750,
@@ -63048,15 +63355,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2749
+                ],
+                [
+                    1943
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1,
+                17412: 1,
+                17413: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40281 (20750 会心 破防 加速)": {
+        "测试武器#40281 (20750 特效 会心 破防 加速)": {
             "id": 40281,
-            "name": "沉夜重雪_测试用",
+            "name": "测试武器",
             "school": "霸刀",
             "kind": "外功",
             "level": 20750,
@@ -63080,15 +63404,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2761
+                ],
+                [
+                    1942
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1,
+                17378: 1,
+                17377: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40279 (20750 会心 破防 加速)": {
+        "测试武器#40279 (20750 特效 会心 破防 加速)": {
             "id": 40279,
-            "name": "抚今_测试用",
+            "name": "测试武器",
             "school": "长歌",
             "kind": "内功",
             "level": 20750,
@@ -63112,15 +63453,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2718
+                ],
+                [
+                    1941
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1,
+                17308: 1,
+                17325: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40277 (20750 会心 破防 加速)": {
+        "测试武器#40277 (20750 特效 会心 破防 加速)": {
             "id": 40277,
-            "name": "孤焰_测试用",
+            "name": "测试武器",
             "school": "苍云",
             "kind": "外功",
             "level": 20750,
@@ -63144,15 +63502,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2754
+                ],
+                [
+                    1940
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1,
+                17450: 1,
+                17451: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40275 (20750 会心 破防 加速)": {
+        "测试武器#40275 (20750 特效 会心 破防 加速)": {
             "id": 40275,
-            "name": "血月_测试用",
+            "name": "测试武器",
             "school": "明教",
             "kind": "内功",
             "level": 20750,
@@ -63176,15 +63551,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2759
+                ],
+                [
+                    1938
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1,
+                17336: 1,
+                17342: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40274 (20750 会心 破防)": {
+        "测试武器#40274 (20750 特效 会心 破防)": {
             "id": 40274,
-            "name": "拾牙_测试用",
+            "name": "测试武器",
             "school": "丐帮",
             "kind": "外功",
             "level": 20750,
@@ -63207,15 +63599,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40272 (20750 会心 破防 加速)": {
+        "测试武器#40272 (20750 特效 会心 破防 加速)": {
             "id": 40272,
-            "name": "寄骨_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 20750,
@@ -63239,15 +63648,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2744
+                ],
+                [
+                    1945
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40271 (20750 会心 破防 加速)": {
+        "测试武器#40271 (20750 特效 会心 破防 加速)": {
             "id": 40271,
-            "name": "摧霜_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "外功",
             "level": 20750,
@@ -63271,15 +63697,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2737
+                ],
+                [
+                    1936
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1,
+                17438: 1,
+                17439: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40270 (20750 会心 破防 加速)": {
+        "测试武器#40270 (20750 特效 会心 破防 加速)": {
             "id": 40270,
-            "name": "罪骨浮屠_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "内功",
             "level": 20750,
@@ -63303,15 +63746,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2736
+                ],
+                [
+                    1935
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1,
+                17432: 1,
+                17433: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40268 (20750 会心 破防 加速)": {
+        "测试武器#40268 (20750 特效 会心 破防 加速)": {
             "id": 40268,
-            "name": "墨语沉香_测试用",
+            "name": "测试武器",
             "school": "五毒",
             "kind": "内功",
             "level": 20750,
@@ -63335,15 +63795,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2717
+                ],
+                [
+                    1934
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1,
+                17318: 1,
+                17329: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40266 (20750 会心 破防 加速)": {
+        "测试武器#40266 (20750 特效 会心 破防 加速)": {
             "id": 40266,
-            "name": "飞霜绛露_测试用",
+            "name": "测试武器",
             "school": "七秀",
             "kind": "内功",
             "level": 20750,
@@ -63367,15 +63844,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2719
+                ],
+                [
+                    1930
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1,
+                17384: 1,
+                17383: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40265 (20750 会心 破防 加速)": {
+        "测试武器#40265 (20750 特效 会心 破防 加速)": {
             "id": 40265,
-            "name": "风霆肃_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "外功",
             "level": 20750,
@@ -63399,15 +63893,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2753
+                ],
+                [
+                    1932
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1,
+                17305: 1,
+                17341: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40264 (20750 会心 破防 加速)": {
+        "测试武器#40264 (20750 特效 会心 破防 加速)": {
             "id": 40264,
-            "name": "苍冥游_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "内功",
             "level": 20750,
@@ -63431,15 +63942,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2739
+                ],
+                [
+                    1931
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1,
+                17304: 1,
+                17340: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40262 (20750 会心 破防 加速)": {
+        "测试武器#40262 (20750 特效 会心 破防 加速)": {
             "id": 40262,
-            "name": "旷野孤疆_测试用",
+            "name": "测试武器",
             "school": "天策",
             "kind": "外功",
             "level": 20750,
@@ -63463,15 +63991,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2741
+                ],
+                [
+                    1933
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1,
+                17393: 1,
+                17394: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40260 (20750 会心 破防 加速)": {
+        "测试武器#40260 (20750 特效 会心 破防 加速)": {
             "id": 40260,
-            "name": "璃光浮远_测试用",
+            "name": "测试武器",
             "school": "万花",
             "kind": "内功",
             "level": 20750,
@@ -63495,15 +64040,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1,
+                17402: 1,
+                17403: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40258 (20750 会心 破防 加速)": {
+        "测试武器#40258 (20750 特效 会心 破防 加速)": {
             "id": 40258,
-            "name": "桑莲妙境_测试用",
+            "name": "测试武器",
             "school": "少林",
             "kind": "内功",
             "level": 20750,
@@ -63527,15 +64089,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2758
+                ],
+                [
+                    1928
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1,
+                17354: 1,
+                17355: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏龙阳焰_测试用#40257 (19500 会心 破防 加速)": {
+        "测试武器#40257 (19500 特效 会心 破防 加速)": {
             "id": 40257,
-            "name": "伏龙阳焰_测试用",
+            "name": "测试武器",
             "school": "段氏",
             "kind": "内功",
             "level": 19500,
@@ -63559,15 +64138,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2724
+                ],
+                [
+                    2725
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40256 (19500 会心 破防 加速)": {
+        "测试武器#40256 (19500 特效 会心 破防 加速)": {
             "id": 40256,
-            "name": "庄生晓梦_测试用",
+            "name": "测试武器",
             "school": "万灵",
             "kind": "外功",
             "level": 19500,
@@ -63591,15 +64187,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2746
+                ],
+                [
+                    2571
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1,
+                17473: 1,
+                17474: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40255 (19500 会心 破防 加速)": {
+        "测试武器#40255 (19500 特效 会心 破防 加速)": {
             "id": 40255,
-            "name": "绝地天通刀_测试用",
+            "name": "测试武器",
             "school": "刀宗",
             "kind": "外功",
             "level": 19500,
@@ -63623,15 +64236,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2757
+                ],
+                [
+                    2392
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1,
+                17365: 1,
+                17364: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40253 (19500 会心 破防 加速)": {
+        "测试武器#40253 (19500 特效 会心 破防 加速)": {
             "id": 40253,
-            "name": "鹿王本生_测试用",
+            "name": "测试武器",
             "school": "药宗",
             "kind": "内功",
             "level": 19500,
@@ -63655,15 +64285,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2762
+                ],
+                [
+                    2138
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1,
+                17461: 1,
+                17462: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40252 (19500 会心 破防 加速)": {
+        "测试武器#40252 (19500 特效 会心 破防 加速)": {
             "id": 40252,
-            "name": "月升海楼_测试用",
+            "name": "测试武器",
             "school": "衍天",
             "kind": "内功",
             "level": 19500,
@@ -63687,15 +64334,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2756
+                ],
+                [
+                    1962
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1,
+                17417: 1,
+                17418: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40251 (19500 会心 破防 加速)": {
+        "测试武器#40251 (19500 特效 会心 破防 加速)": {
             "id": 40251,
-            "name": "山河同渡_测试用",
+            "name": "测试武器",
             "school": "凌雪",
             "kind": "外功",
             "level": 19500,
@@ -63719,15 +64383,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2745
+                ],
+                [
+                    1944
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1,
+                17326: 1,
+                17339: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40250 (19500 会心 破防 加速)": {
+        "测试武器#40250 (19500 特效 会心 破防 加速)": {
             "id": 40250,
-            "name": "山海云涯_测试用",
+            "name": "测试武器",
             "school": "蓬莱",
             "kind": "外功",
             "level": 19500,
@@ -63751,15 +64432,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2749
+                ],
+                [
+                    1943
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1,
+                17412: 1,
+                17413: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40249 (19500 会心 破防 加速)": {
+        "测试武器#40249 (19500 特效 会心 破防 加速)": {
             "id": 40249,
-            "name": "沉夜重雪_测试用",
+            "name": "测试武器",
             "school": "霸刀",
             "kind": "外功",
             "level": 19500,
@@ -63783,15 +64481,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2761
+                ],
+                [
+                    1942
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1,
+                17378: 1,
+                17377: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40247 (19500 会心 破防 加速)": {
+        "测试武器#40247 (19500 特效 会心 破防 加速)": {
             "id": 40247,
-            "name": "抚今_测试用",
+            "name": "测试武器",
             "school": "长歌",
             "kind": "内功",
             "level": 19500,
@@ -63815,15 +64530,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2718
+                ],
+                [
+                    1941
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1,
+                17308: 1,
+                17325: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40245 (19500 会心 破防 加速)": {
+        "测试武器#40245 (19500 特效 会心 破防 加速)": {
             "id": 40245,
-            "name": "孤焰_测试用",
+            "name": "测试武器",
             "school": "苍云",
             "kind": "外功",
             "level": 19500,
@@ -63847,15 +64579,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2754
+                ],
+                [
+                    1940
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1,
+                17450: 1,
+                17451: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40243 (19500 会心 破防 加速)": {
+        "测试武器#40243 (19500 特效 会心 破防 加速)": {
             "id": 40243,
-            "name": "血月_测试用",
+            "name": "测试武器",
             "school": "明教",
             "kind": "内功",
             "level": 19500,
@@ -63879,15 +64628,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2759
+                ],
+                [
+                    1938
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1,
+                17336: 1,
+                17342: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40242 (19500 会心 破防)": {
+        "测试武器#40242 (19500 特效 会心 破防)": {
             "id": 40242,
-            "name": "拾牙_测试用",
+            "name": "测试武器",
             "school": "丐帮",
             "kind": "外功",
             "level": 19500,
@@ -63910,15 +64676,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40240 (19500 会心 破防 加速)": {
+        "测试武器#40240 (19500 特效 会心 破防 加速)": {
             "id": 40240,
-            "name": "寄骨_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 19500,
@@ -63942,15 +64725,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2744
+                ],
+                [
+                    1945
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40239 (19500 会心 破防 加速)": {
+        "测试武器#40239 (19500 特效 会心 破防 加速)": {
             "id": 40239,
-            "name": "摧霜_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "外功",
             "level": 19500,
@@ -63974,15 +64774,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2737
+                ],
+                [
+                    1936
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1,
+                17438: 1,
+                17439: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40238 (19500 会心 破防 加速)": {
+        "测试武器#40238 (19500 特效 会心 破防 加速)": {
             "id": 40238,
-            "name": "罪骨浮屠_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "内功",
             "level": 19500,
@@ -64006,15 +64823,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2736
+                ],
+                [
+                    1935
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1,
+                17432: 1,
+                17433: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40236 (19500 会心 破防 加速)": {
+        "测试武器#40236 (19500 特效 会心 破防 加速)": {
             "id": 40236,
-            "name": "墨语沉香_测试用",
+            "name": "测试武器",
             "school": "五毒",
             "kind": "内功",
             "level": 19500,
@@ -64038,15 +64872,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2717
+                ],
+                [
+                    1934
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1,
+                17318: 1,
+                17329: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40234 (19500 会心 破防 加速)": {
+        "测试武器#40234 (19500 特效 会心 破防 加速)": {
             "id": 40234,
-            "name": "飞霜绛露_测试用",
+            "name": "测试武器",
             "school": "七秀",
             "kind": "内功",
             "level": 19500,
@@ -64070,15 +64921,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2719
+                ],
+                [
+                    1930
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1,
+                17384: 1,
+                17383: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40233 (19500 会心 破防 加速)": {
+        "测试武器#40233 (19500 特效 会心 破防 加速)": {
             "id": 40233,
-            "name": "风霆肃_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "外功",
             "level": 19500,
@@ -64102,15 +64970,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2753
+                ],
+                [
+                    1932
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1,
+                17305: 1,
+                17341: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40232 (19500 会心 破防 加速)": {
+        "测试武器#40232 (19500 特效 会心 破防 加速)": {
             "id": 40232,
-            "name": "苍冥游_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "内功",
             "level": 19500,
@@ -64134,15 +65019,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2739
+                ],
+                [
+                    1931
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1,
+                17304: 1,
+                17340: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40230 (19500 会心 破防 加速)": {
+        "测试武器#40230 (19500 特效 会心 破防 加速)": {
             "id": 40230,
-            "name": "旷野孤疆_测试用",
+            "name": "测试武器",
             "school": "天策",
             "kind": "外功",
             "level": 19500,
@@ -64166,15 +65068,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2741
+                ],
+                [
+                    1933
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1,
+                17393: 1,
+                17394: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40228 (19500 会心 破防 加速)": {
+        "测试武器#40228 (19500 特效 会心 破防 加速)": {
             "id": 40228,
-            "name": "璃光浮远_测试用",
+            "name": "测试武器",
             "school": "万花",
             "kind": "内功",
             "level": 19500,
@@ -64198,15 +65117,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1,
+                17402: 1,
+                17403: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40226 (19500 会心 破防 加速)": {
+        "测试武器#40226 (19500 特效 会心 破防 加速)": {
             "id": 40226,
-            "name": "桑莲妙境_测试用",
+            "name": "测试武器",
             "school": "少林",
             "kind": "内功",
             "level": 19500,
@@ -64230,8 +65166,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2758
+                ],
+                [
+                    1928
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1,
+                17354: 1,
+                17355: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -67114,9 +68067,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "映雪双剑#39284 (25900 会心 无双)": {
+        "兰茂轻剑#39284 (25900 会心 无双)": {
             "id": 39284,
-            "name": "映雪双剑",
+            "name": "兰茂轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
@@ -68509,9 +69462,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏龙阳焰_测试用#40225 (18300 会心 破防 加速)": {
+        "测试武器#40225 (18300 特效 会心 破防 加速)": {
             "id": 40225,
-            "name": "伏龙阳焰_测试用",
+            "name": "测试武器",
             "school": "段氏",
             "kind": "内功",
             "level": 18300,
@@ -68535,15 +69488,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2724
+                ],
+                [
+                    2725
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40224 (18300 会心 破防 加速)": {
+        "测试武器#40224 (18300 特效 会心 破防 加速)": {
             "id": 40224,
-            "name": "庄生晓梦_测试用",
+            "name": "测试武器",
             "school": "万灵",
             "kind": "外功",
             "level": 18300,
@@ -68567,15 +69537,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2746
+                ],
+                [
+                    2571
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1,
+                17473: 1,
+                17474: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40223 (18300 会心 破防 加速)": {
+        "测试武器#40223 (18300 特效 会心 破防 加速)": {
             "id": 40223,
-            "name": "绝地天通刀_测试用",
+            "name": "测试武器",
             "school": "刀宗",
             "kind": "外功",
             "level": 18300,
@@ -68599,15 +69586,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2757
+                ],
+                [
+                    2392
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1,
+                17365: 1,
+                17364: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40221 (18300 会心 破防 加速)": {
+        "测试武器#40221 (18300 特效 会心 破防 加速)": {
             "id": 40221,
-            "name": "鹿王本生_测试用",
+            "name": "测试武器",
             "school": "药宗",
             "kind": "内功",
             "level": 18300,
@@ -68631,15 +69635,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2762
+                ],
+                [
+                    2138
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1,
+                17461: 1,
+                17462: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40220 (18300 会心 破防 加速)": {
+        "测试武器#40220 (18300 特效 会心 破防 加速)": {
             "id": 40220,
-            "name": "月升海楼_测试用",
+            "name": "测试武器",
             "school": "衍天",
             "kind": "内功",
             "level": 18300,
@@ -68663,15 +69684,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2756
+                ],
+                [
+                    1962
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1,
+                17417: 1,
+                17418: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40219 (18300 会心 破防 加速)": {
+        "测试武器#40219 (18300 特效 会心 破防 加速)": {
             "id": 40219,
-            "name": "山河同渡_测试用",
+            "name": "测试武器",
             "school": "凌雪",
             "kind": "外功",
             "level": 18300,
@@ -68695,15 +69733,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2745
+                ],
+                [
+                    1944
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1,
+                17326: 1,
+                17339: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40218 (18300 会心 破防 加速)": {
+        "测试武器#40218 (18300 特效 会心 破防 加速)": {
             "id": 40218,
-            "name": "山海云涯_测试用",
+            "name": "测试武器",
             "school": "蓬莱",
             "kind": "外功",
             "level": 18300,
@@ -68727,15 +69782,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2749
+                ],
+                [
+                    1943
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1,
+                17412: 1,
+                17413: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40217 (18300 会心 破防 加速)": {
+        "测试武器#40217 (18300 特效 会心 破防 加速)": {
             "id": 40217,
-            "name": "沉夜重雪_测试用",
+            "name": "测试武器",
             "school": "霸刀",
             "kind": "外功",
             "level": 18300,
@@ -68759,15 +69831,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2761
+                ],
+                [
+                    1942
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1,
+                17378: 1,
+                17377: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40215 (18300 会心 破防 加速)": {
+        "测试武器#40215 (18300 特效 会心 破防 加速)": {
             "id": 40215,
-            "name": "抚今_测试用",
+            "name": "测试武器",
             "school": "长歌",
             "kind": "内功",
             "level": 18300,
@@ -68791,15 +69880,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2718
+                ],
+                [
+                    1941
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1,
+                17308: 1,
+                17325: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40213 (18300 会心 破防 加速)": {
+        "测试武器#40213 (18300 特效 会心 破防 加速)": {
             "id": 40213,
-            "name": "孤焰_测试用",
+            "name": "测试武器",
             "school": "苍云",
             "kind": "外功",
             "level": 18300,
@@ -68823,15 +69929,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2754
+                ],
+                [
+                    1940
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1,
+                17450: 1,
+                17451: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40211 (18300 会心 破防 加速)": {
+        "测试武器#40211 (18300 特效 会心 破防 加速)": {
             "id": 40211,
-            "name": "血月_测试用",
+            "name": "测试武器",
             "school": "明教",
             "kind": "内功",
             "level": 18300,
@@ -68855,15 +69978,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2759
+                ],
+                [
+                    1938
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1,
+                17336: 1,
+                17342: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40210 (18300 会心 破防)": {
+        "测试武器#40210 (18300 特效 会心 破防)": {
             "id": 40210,
-            "name": "拾牙_测试用",
+            "name": "测试武器",
             "school": "丐帮",
             "kind": "外功",
             "level": 18300,
@@ -68886,15 +70026,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40208 (18300 会心 破防 加速)": {
+        "测试武器#40208 (18300 特效 会心 破防 加速)": {
             "id": 40208,
-            "name": "寄骨_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 18300,
@@ -68918,15 +70075,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2744
+                ],
+                [
+                    1945
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40207 (18300 会心 破防 加速)": {
+        "测试武器#40207 (18300 特效 会心 破防 加速)": {
             "id": 40207,
-            "name": "摧霜_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "外功",
             "level": 18300,
@@ -68950,15 +70124,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2737
+                ],
+                [
+                    1936
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1,
+                17438: 1,
+                17439: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40206 (18300 会心 破防 加速)": {
+        "测试武器#40206 (18300 特效 会心 破防 加速)": {
             "id": 40206,
-            "name": "罪骨浮屠_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "内功",
             "level": 18300,
@@ -68982,15 +70173,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2736
+                ],
+                [
+                    1935
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1,
+                17432: 1,
+                17433: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40204 (18300 会心 破防 加速)": {
+        "测试武器#40204 (18300 特效 会心 破防 加速)": {
             "id": 40204,
-            "name": "墨语沉香_测试用",
+            "name": "测试武器",
             "school": "五毒",
             "kind": "内功",
             "level": 18300,
@@ -69014,15 +70222,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2717
+                ],
+                [
+                    1934
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1,
+                17318: 1,
+                17329: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40202 (18300 会心 破防 加速)": {
+        "测试武器#40202 (18300 特效 会心 破防 加速)": {
             "id": 40202,
-            "name": "飞霜绛露_测试用",
+            "name": "测试武器",
             "school": "七秀",
             "kind": "内功",
             "level": 18300,
@@ -69046,15 +70271,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2719
+                ],
+                [
+                    1930
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1,
+                17384: 1,
+                17383: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40201 (18300 会心 破防 加速)": {
+        "测试武器#40201 (18300 特效 会心 破防 加速)": {
             "id": 40201,
-            "name": "风霆肃_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "外功",
             "level": 18300,
@@ -69078,15 +70320,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2753
+                ],
+                [
+                    1932
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1,
+                17305: 1,
+                17341: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40200 (18300 会心 破防 加速)": {
+        "测试武器#40200 (18300 特效 会心 破防 加速)": {
             "id": 40200,
-            "name": "苍冥游_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "内功",
             "level": 18300,
@@ -69110,15 +70369,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2739
+                ],
+                [
+                    1931
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1,
+                17304: 1,
+                17340: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40198 (18300 会心 破防 加速)": {
+        "测试武器#40198 (18300 特效 会心 破防 加速)": {
             "id": 40198,
-            "name": "旷野孤疆_测试用",
+            "name": "测试武器",
             "school": "天策",
             "kind": "外功",
             "level": 18300,
@@ -69142,15 +70418,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2741
+                ],
+                [
+                    1933
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1,
+                17393: 1,
+                17394: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40196 (18300 会心 破防 加速)": {
+        "测试武器#40196 (18300 特效 会心 破防 加速)": {
             "id": 40196,
-            "name": "璃光浮远_测试用",
+            "name": "测试武器",
             "school": "万花",
             "kind": "内功",
             "level": 18300,
@@ -69174,15 +70467,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1,
+                17402: 1,
+                17403: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40194 (18300 会心 破防 加速)": {
+        "测试武器#40194 (18300 特效 会心 破防 加速)": {
             "id": 40194,
-            "name": "桑莲妙境_测试用",
+            "name": "测试武器",
             "school": "少林",
             "kind": "内功",
             "level": 18300,
@@ -69206,15 +70516,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2758
+                ],
+                [
+                    1928
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1,
+                17354: 1,
+                17355: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏龙阳焰_测试用#40193 (17100 会心 破防 加速)": {
+        "测试武器#40193 (17100 特效 会心 破防 加速)": {
             "id": 40193,
-            "name": "伏龙阳焰_测试用",
+            "name": "测试武器",
             "school": "段氏",
             "kind": "内功",
             "level": 17100,
@@ -69238,15 +70565,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2724
+                ],
+                [
+                    2725
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "庄生晓梦_测试用#40192 (17100 会心 破防 加速)": {
+        "测试武器#40192 (17100 特效 会心 破防 加速)": {
             "id": 40192,
-            "name": "庄生晓梦_测试用",
+            "name": "测试武器",
             "school": "万灵",
             "kind": "外功",
             "level": 17100,
@@ -69270,15 +70614,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2746
+                ],
+                [
+                    2571
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                5461: 1,
+                5462: 1,
+                17470: 1,
+                17239: 1,
+                17473: 1,
+                17474: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝地天通刀_测试用#40191 (17100 会心 破防 加速)": {
+        "测试武器#40191 (17100 特效 会心 破防 加速)": {
             "id": 40191,
-            "name": "绝地天通刀_测试用",
+            "name": "测试武器",
             "school": "刀宗",
             "kind": "外功",
             "level": 17100,
@@ -69302,15 +70663,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2757
+                ],
+                [
+                    2392
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                3186: 1,
+                3187: 1,
+                17358: 1,
+                17239: 1,
+                17365: 1,
+                17364: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "鹿王本生_测试用#40189 (17100 会心 破防 加速)": {
+        "测试武器#40189 (17100 特效 会心 破防 加速)": {
             "id": 40189,
-            "name": "鹿王本生_测试用",
+            "name": "测试武器",
             "school": "药宗",
             "kind": "内功",
             "level": 17100,
@@ -69334,15 +70712,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2762
+                ],
+                [
+                    2138
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                2842: 1,
+                2843: 1,
+                17458: 1,
+                17239: 1,
+                17461: 1,
+                17462: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "月升海楼_测试用#40188 (17100 会心 破防 加速)": {
+        "测试武器#40188 (17100 特效 会心 破防 加速)": {
             "id": 40188,
-            "name": "月升海楼_测试用",
+            "name": "测试武器",
             "school": "衍天",
             "kind": "内功",
             "level": 17100,
@@ -69366,15 +70761,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2756
+                ],
+                [
+                    1962
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                5325: 1,
+                5326: 1,
+                17414: 1,
+                17239: 1,
+                17417: 1,
+                17418: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山河同渡_测试用#40187 (17100 会心 破防 加速)": {
+        "测试武器#40187 (17100 特效 会心 破防 加速)": {
             "id": 40187,
-            "name": "山河同渡_测试用",
+            "name": "测试武器",
             "school": "凌雪",
             "kind": "外功",
             "level": 17100,
@@ -69398,15 +70810,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2745
+                ],
+                [
+                    1944
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                5091: 1,
+                5092: 1,
+                17324: 1,
+                17239: 1,
+                17326: 1,
+                17339: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "山海云涯_测试用#40186 (17100 会心 破防 加速)": {
+        "测试武器#40186 (17100 特效 会心 破防 加速)": {
             "id": 40186,
-            "name": "山海云涯_测试用",
+            "name": "测试武器",
             "school": "蓬莱",
             "kind": "外功",
             "level": 17100,
@@ -69430,15 +70859,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2749
+                ],
+                [
+                    1943
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                4818: 1,
+                4819: 1,
+                17409: 1,
+                17239: 1,
+                17412: 1,
+                17413: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "沉夜重雪_测试用#40185 (17100 会心 破防 加速)": {
+        "测试武器#40185 (17100 特效 会心 破防 加速)": {
             "id": 40185,
-            "name": "沉夜重雪_测试用",
+            "name": "测试武器",
             "school": "霸刀",
             "kind": "外功",
             "level": 17100,
@@ -69462,15 +70908,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2761
+                ],
+                [
+                    1942
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                4294: 1,
+                4295: 1,
+                17374: 1,
+                17239: 1,
+                17378: 1,
+                17377: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "抚今_测试用#40183 (17100 会心 破防 加速)": {
+        "测试武器#40183 (17100 特效 会心 破防 加速)": {
             "id": 40183,
-            "name": "抚今_测试用",
+            "name": "测试武器",
             "school": "长歌",
             "kind": "内功",
             "level": 17100,
@@ -69494,15 +70957,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2718
+                ],
+                [
+                    1941
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                2401: 1,
+                2402: 1,
+                17306: 1,
+                17239: 1,
+                17308: 1,
+                17325: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤焰_测试用#40181 (17100 会心 破防 加速)": {
+        "测试武器#40181 (17100 特效 会心 破防 加速)": {
             "id": 40181,
-            "name": "孤焰_测试用",
+            "name": "测试武器",
             "school": "苍云",
             "kind": "外功",
             "level": 17100,
@@ -69526,15 +71006,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2754
+                ],
+                [
+                    1940
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1937: 1,
+                1938: 1,
+                17447: 1,
+                17239: 1,
+                17450: 1,
+                17451: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "血月_测试用#40179 (17100 会心 破防 加速)": {
+        "测试武器#40179 (17100 特效 会心 破防 加速)": {
             "id": 40179,
-            "name": "血月_测试用",
+            "name": "测试武器",
             "school": "明教",
             "kind": "内功",
             "level": 17100,
@@ -69558,15 +71055,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2759
+                ],
+                [
+                    1938
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1542: 1,
+                1543: 1,
+                17332: 1,
+                17239: 1,
+                17336: 1,
+                17342: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "拾牙_测试用#40178 (17100 会心 破防)": {
+        "测试武器#40178 (17100 特效 会心 破防)": {
             "id": 40178,
-            "name": "拾牙_测试用",
+            "name": "测试武器",
             "school": "丐帮",
             "kind": "外功",
             "level": 17100,
@@ -69589,15 +71103,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "寄骨_测试用#40176 (17100 会心 破防 加速)": {
+        "测试武器#40176 (17100 特效 会心 破防 加速)": {
             "id": 40176,
-            "name": "寄骨_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 17100,
@@ -69621,15 +71152,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2744
+                ],
+                [
+                    1945
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1536: 1,
+                1537: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "摧霜_测试用#40175 (17100 会心 破防 加速)": {
+        "测试武器#40175 (17100 特效 会心 破防 加速)": {
             "id": 40175,
-            "name": "摧霜_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "外功",
             "level": 17100,
@@ -69653,15 +71201,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2737
+                ],
+                [
+                    1936
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1534: 1,
+                1535: 1,
+                17435: 1,
+                17239: 1,
+                17438: 1,
+                17439: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "罪骨浮屠_测试用#40174 (17100 会心 破防 加速)": {
+        "测试武器#40174 (17100 特效 会心 破防 加速)": {
             "id": 40174,
-            "name": "罪骨浮屠_测试用",
+            "name": "测试武器",
             "school": "唐门",
             "kind": "内功",
             "level": 17100,
@@ -69685,15 +71250,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2736
+                ],
+                [
+                    1935
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1532: 1,
+                1533: 1,
+                17429: 1,
+                17239: 1,
+                17432: 1,
+                17433: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "墨语沉香_测试用#40172 (17100 会心 破防 加速)": {
+        "测试武器#40172 (17100 特效 会心 破防 加速)": {
             "id": 40172,
-            "name": "墨语沉香_测试用",
+            "name": "测试武器",
             "school": "五毒",
             "kind": "内功",
             "level": 17100,
@@ -69717,15 +71299,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "poison_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2717
+                ],
+                [
+                    1934
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1528: 1,
+                1529: 1,
+                17316: 1,
+                17239: 1,
+                17318: 1,
+                17329: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "飞霜绛露_测试用#40170 (17100 会心 破防 加速)": {
+        "测试武器#40170 (17100 特效 会心 破防 加速)": {
             "id": 40170,
-            "name": "飞霜绛露_测试用",
+            "name": "测试武器",
             "school": "七秀",
             "kind": "内功",
             "level": 17100,
@@ -69749,15 +71348,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "lunar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2719
+                ],
+                [
+                    1930
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1524: 1,
+                1525: 1,
+                17380: 1,
+                17239: 1,
+                17384: 1,
+                17383: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "风霆肃_测试用#40169 (17100 会心 破防 加速)": {
+        "测试武器#40169 (17100 特效 会心 破防 加速)": {
             "id": 40169,
-            "name": "风霆肃_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "外功",
             "level": 17100,
@@ -69781,15 +71397,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2753
+                ],
+                [
+                    1932
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1522: 1,
+                1523: 1,
+                17301: 1,
+                17239: 1,
+                17305: 1,
+                17341: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "苍冥游_测试用#40168 (17100 会心 破防 加速)": {
+        "测试武器#40168 (17100 特效 会心 破防 加速)": {
             "id": 40168,
-            "name": "苍冥游_测试用",
+            "name": "测试武器",
             "school": "纯阳",
             "kind": "内功",
             "level": 17100,
@@ -69813,15 +71446,32 @@ EQUIPMENTS = {
                 "spirit_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2739
+                ],
+                [
+                    1931
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1520: 1,
+                1521: 1,
+                17300: 1,
+                17239: 1,
+                17304: 1,
+                17340: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "旷野孤疆_测试用#40166 (17100 会心 破防 加速)": {
+        "测试武器#40166 (17100 特效 会心 破防 加速)": {
             "id": 40166,
-            "name": "旷野孤疆_测试用",
+            "name": "测试武器",
             "school": "天策",
             "kind": "外功",
             "level": 17100,
@@ -69845,15 +71495,32 @@ EQUIPMENTS = {
                 "strength_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2741
+                ],
+                [
+                    1933
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1508: 1,
+                1509: 1,
+                17362: 1,
+                17239: 1,
+                17393: 1,
+                17394: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "璃光浮远_测试用#40164 (17100 会心 破防 加速)": {
+        "测试武器#40164 (17100 特效 会心 破防 加速)": {
             "id": 40164,
-            "name": "璃光浮远_测试用",
+            "name": "测试武器",
             "school": "万花",
             "kind": "内功",
             "level": 17100,
@@ -69877,15 +71544,32 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2417
+                ],
+                [
+                    1929
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1516: 1,
+                1517: 1,
+                17399: 1,
+                17239: 1,
+                17402: 1,
+                17403: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "桑莲妙境_测试用#40162 (17100 会心 破防 加速)": {
+        "测试武器#40162 (17100 特效 会心 破防 加速)": {
             "id": 40162,
-            "name": "桑莲妙境_测试用",
+            "name": "测试武器",
             "school": "少林",
             "kind": "内功",
             "level": 17100,
@@ -69909,8 +71593,25 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2758
+                ],
+                [
+                    1928
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1512: 1,
+                1513: 1,
+                17351: 1,
+                17239: 1,
+                17354: 1,
+                17355: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -73498,7 +75199,10 @@ EQUIPMENTS = {
                 "neutral_overcome_base": 321
             },
             "gains": [],
-            "recipes": {},
+            "recipes": {
+                5751: 1,
+                17514: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -81153,7 +82857,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "他山月#40617 (12500 会心 破防 加速)": {
+        "他山月#40617 (12500 特效 会心 破防 加速)": {
             "id": 40617,
             "name": "他山月",
             "school": "段氏",
@@ -81179,13 +82883,27 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2723
+                ],
+                [
+                    2725
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "煞·他山月#40554 (12500 会心 破防 加速)": {
+        "煞·他山月#40554 (12500 特效 会心 破防 加速)": {
             "id": 40554,
             "name": "煞·他山月",
             "school": "段氏",
@@ -81211,8 +82929,22 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2723
+                ],
+                [
+                    2725
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -81255,7 +82987,9 @@ EQUIPMENTS = {
                 5461: 1,
                 5462: 1,
                 17470: 1,
-                17239: 1
+                17239: 1,
+                17473: 1,
+                17474: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81299,7 +83033,9 @@ EQUIPMENTS = {
                 3186: 1,
                 3187: 1,
                 17358: 1,
-                17239: 1
+                17239: 1,
+                17365: 1,
+                17364: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81343,7 +83079,9 @@ EQUIPMENTS = {
                 2842: 1,
                 2843: 1,
                 17458: 1,
-                17239: 1
+                17239: 1,
+                17461: 1,
+                17462: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81387,7 +83125,9 @@ EQUIPMENTS = {
                 5325: 1,
                 5326: 1,
                 17414: 1,
-                17239: 1
+                17239: 1,
+                17417: 1,
+                17418: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81431,7 +83171,9 @@ EQUIPMENTS = {
                 5091: 1,
                 5092: 1,
                 17324: 1,
-                17239: 1
+                17239: 1,
+                17326: 1,
+                17339: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81475,7 +83217,9 @@ EQUIPMENTS = {
                 4818: 1,
                 4819: 1,
                 17409: 1,
-                17239: 1
+                17239: 1,
+                17412: 1,
+                17413: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81519,7 +83263,9 @@ EQUIPMENTS = {
                 4294: 1,
                 4295: 1,
                 17374: 1,
-                17239: 1
+                17239: 1,
+                17378: 1,
+                17377: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81563,7 +83309,9 @@ EQUIPMENTS = {
                 2401: 1,
                 2402: 1,
                 17306: 1,
-                17239: 1
+                17239: 1,
+                17308: 1,
+                17325: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81607,7 +83355,9 @@ EQUIPMENTS = {
                 1937: 1,
                 1938: 1,
                 17447: 1,
-                17239: 1
+                17239: 1,
+                17450: 1,
+                17451: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81651,7 +83401,9 @@ EQUIPMENTS = {
                 1542: 1,
                 1543: 1,
                 17332: 1,
-                17239: 1
+                17239: 1,
+                17336: 1,
+                17342: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81695,7 +83447,8 @@ EQUIPMENTS = {
                 1541: 1,
                 17441: 1,
                 17239: 1,
-                17444: 1
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81739,7 +83492,9 @@ EQUIPMENTS = {
                 1536: 1,
                 1537: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81783,7 +83538,9 @@ EQUIPMENTS = {
                 1534: 1,
                 1535: 1,
                 17435: 1,
-                17239: 1
+                17239: 1,
+                17438: 1,
+                17439: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81827,7 +83584,9 @@ EQUIPMENTS = {
                 1532: 1,
                 1533: 1,
                 17429: 1,
-                17239: 1
+                17239: 1,
+                17432: 1,
+                17433: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81871,7 +83630,9 @@ EQUIPMENTS = {
                 1528: 1,
                 1529: 1,
                 17316: 1,
-                17239: 1
+                17239: 1,
+                17318: 1,
+                17329: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81915,7 +83676,9 @@ EQUIPMENTS = {
                 1524: 1,
                 1525: 1,
                 17380: 1,
-                17239: 1
+                17239: 1,
+                17384: 1,
+                17383: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -81959,7 +83722,9 @@ EQUIPMENTS = {
                 1522: 1,
                 1523: 1,
                 17301: 1,
-                17239: 1
+                17239: 1,
+                17305: 1,
+                17341: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82003,7 +83768,9 @@ EQUIPMENTS = {
                 1520: 1,
                 1521: 1,
                 17300: 1,
-                17239: 1
+                17239: 1,
+                17304: 1,
+                17340: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82047,7 +83814,9 @@ EQUIPMENTS = {
                 1508: 1,
                 1509: 1,
                 17362: 1,
-                17239: 1
+                17239: 1,
+                17393: 1,
+                17394: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82091,7 +83860,9 @@ EQUIPMENTS = {
                 1516: 1,
                 1517: 1,
                 17399: 1,
-                17239: 1
+                17239: 1,
+                17402: 1,
+                17403: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82135,7 +83906,9 @@ EQUIPMENTS = {
                 1512: 1,
                 1513: 1,
                 17351: 1,
-                17239: 1
+                17239: 1,
+                17354: 1,
+                17355: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82179,7 +83952,9 @@ EQUIPMENTS = {
                 5461: 1,
                 5462: 1,
                 17470: 1,
-                17239: 1
+                17239: 1,
+                17473: 1,
+                17474: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82223,7 +83998,9 @@ EQUIPMENTS = {
                 3186: 1,
                 3187: 1,
                 17358: 1,
-                17239: 1
+                17239: 1,
+                17365: 1,
+                17364: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82267,7 +84044,9 @@ EQUIPMENTS = {
                 2842: 1,
                 2843: 1,
                 17458: 1,
-                17239: 1
+                17239: 1,
+                17461: 1,
+                17462: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82311,7 +84090,9 @@ EQUIPMENTS = {
                 5325: 1,
                 5326: 1,
                 17414: 1,
-                17239: 1
+                17239: 1,
+                17417: 1,
+                17418: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82355,7 +84136,9 @@ EQUIPMENTS = {
                 5091: 1,
                 5092: 1,
                 17324: 1,
-                17239: 1
+                17239: 1,
+                17326: 1,
+                17339: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82399,7 +84182,9 @@ EQUIPMENTS = {
                 4818: 1,
                 4819: 1,
                 17409: 1,
-                17239: 1
+                17239: 1,
+                17412: 1,
+                17413: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82443,7 +84228,9 @@ EQUIPMENTS = {
                 4294: 1,
                 4295: 1,
                 17374: 1,
-                17239: 1
+                17239: 1,
+                17378: 1,
+                17377: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82487,7 +84274,9 @@ EQUIPMENTS = {
                 2401: 1,
                 2402: 1,
                 17306: 1,
-                17239: 1
+                17239: 1,
+                17308: 1,
+                17325: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82531,7 +84320,9 @@ EQUIPMENTS = {
                 1937: 1,
                 1938: 1,
                 17447: 1,
-                17239: 1
+                17239: 1,
+                17450: 1,
+                17451: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82575,7 +84366,9 @@ EQUIPMENTS = {
                 1542: 1,
                 1543: 1,
                 17332: 1,
-                17239: 1
+                17239: 1,
+                17336: 1,
+                17342: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82619,7 +84412,8 @@ EQUIPMENTS = {
                 1541: 1,
                 17441: 1,
                 17239: 1,
-                17444: 1
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82663,7 +84457,9 @@ EQUIPMENTS = {
                 1536: 1,
                 1537: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82707,7 +84503,9 @@ EQUIPMENTS = {
                 1534: 1,
                 1535: 1,
                 17435: 1,
-                17239: 1
+                17239: 1,
+                17438: 1,
+                17439: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82751,7 +84549,9 @@ EQUIPMENTS = {
                 1532: 1,
                 1533: 1,
                 17429: 1,
-                17239: 1
+                17239: 1,
+                17432: 1,
+                17433: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82795,7 +84595,9 @@ EQUIPMENTS = {
                 1528: 1,
                 1529: 1,
                 17316: 1,
-                17239: 1
+                17239: 1,
+                17318: 1,
+                17329: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82839,7 +84641,9 @@ EQUIPMENTS = {
                 1524: 1,
                 1525: 1,
                 17380: 1,
-                17239: 1
+                17239: 1,
+                17384: 1,
+                17383: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82883,7 +84687,9 @@ EQUIPMENTS = {
                 1522: 1,
                 1523: 1,
                 17301: 1,
-                17239: 1
+                17239: 1,
+                17305: 1,
+                17341: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82927,7 +84733,9 @@ EQUIPMENTS = {
                 1520: 1,
                 1521: 1,
                 17300: 1,
-                17239: 1
+                17239: 1,
+                17304: 1,
+                17340: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -82971,7 +84779,9 @@ EQUIPMENTS = {
                 1508: 1,
                 1509: 1,
                 17362: 1,
-                17239: 1
+                17239: 1,
+                17393: 1,
+                17394: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83015,7 +84825,9 @@ EQUIPMENTS = {
                 1516: 1,
                 1517: 1,
                 17399: 1,
-                17239: 1
+                17239: 1,
+                17402: 1,
+                17403: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83059,13 +84871,15 @@ EQUIPMENTS = {
                 1512: 1,
                 1513: 1,
                 17351: 1,
-                17239: 1
+                17239: 1,
+                17354: 1,
+                17355: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "他山月#40616 (11900 会心 破防 加速)": {
+        "他山月#40616 (11900 特效 会心 破防 加速)": {
             "id": 40616,
             "name": "他山月",
             "school": "段氏",
@@ -83091,8 +84905,22 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2723
+                ],
+                [
+                    2725
+                ]
+            ],
+            "recipes": {
+                5749: 1,
+                5750: 1,
+                17511: 1,
+                17239: 1,
+                17512: 1,
+                17513: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -83135,7 +84963,9 @@ EQUIPMENTS = {
                 5461: 1,
                 5462: 1,
                 17470: 1,
-                17239: 1
+                17239: 1,
+                17473: 1,
+                17474: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83179,7 +85009,9 @@ EQUIPMENTS = {
                 3186: 1,
                 3187: 1,
                 17358: 1,
-                17239: 1
+                17239: 1,
+                17365: 1,
+                17364: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83223,7 +85055,9 @@ EQUIPMENTS = {
                 2842: 1,
                 2843: 1,
                 17458: 1,
-                17239: 1
+                17239: 1,
+                17461: 1,
+                17462: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83267,7 +85101,9 @@ EQUIPMENTS = {
                 5325: 1,
                 5326: 1,
                 17414: 1,
-                17239: 1
+                17239: 1,
+                17417: 1,
+                17418: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83311,7 +85147,9 @@ EQUIPMENTS = {
                 5091: 1,
                 5092: 1,
                 17324: 1,
-                17239: 1
+                17239: 1,
+                17326: 1,
+                17339: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83355,7 +85193,9 @@ EQUIPMENTS = {
                 4818: 1,
                 4819: 1,
                 17409: 1,
-                17239: 1
+                17239: 1,
+                17412: 1,
+                17413: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83399,7 +85239,9 @@ EQUIPMENTS = {
                 4294: 1,
                 4295: 1,
                 17374: 1,
-                17239: 1
+                17239: 1,
+                17378: 1,
+                17377: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83443,7 +85285,9 @@ EQUIPMENTS = {
                 2401: 1,
                 2402: 1,
                 17306: 1,
-                17239: 1
+                17239: 1,
+                17308: 1,
+                17325: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83487,7 +85331,9 @@ EQUIPMENTS = {
                 1937: 1,
                 1938: 1,
                 17447: 1,
-                17239: 1
+                17239: 1,
+                17450: 1,
+                17451: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83531,7 +85377,9 @@ EQUIPMENTS = {
                 1542: 1,
                 1543: 1,
                 17332: 1,
-                17239: 1
+                17239: 1,
+                17336: 1,
+                17342: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83575,7 +85423,8 @@ EQUIPMENTS = {
                 1541: 1,
                 17441: 1,
                 17239: 1,
-                17444: 1
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83619,7 +85468,9 @@ EQUIPMENTS = {
                 1536: 1,
                 1537: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83663,7 +85514,9 @@ EQUIPMENTS = {
                 1534: 1,
                 1535: 1,
                 17435: 1,
-                17239: 1
+                17239: 1,
+                17438: 1,
+                17439: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83707,7 +85560,9 @@ EQUIPMENTS = {
                 1532: 1,
                 1533: 1,
                 17429: 1,
-                17239: 1
+                17239: 1,
+                17432: 1,
+                17433: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83751,7 +85606,9 @@ EQUIPMENTS = {
                 1528: 1,
                 1529: 1,
                 17316: 1,
-                17239: 1
+                17239: 1,
+                17318: 1,
+                17329: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83795,7 +85652,9 @@ EQUIPMENTS = {
                 1524: 1,
                 1525: 1,
                 17380: 1,
-                17239: 1
+                17239: 1,
+                17384: 1,
+                17383: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83839,7 +85698,9 @@ EQUIPMENTS = {
                 1522: 1,
                 1523: 1,
                 17301: 1,
-                17239: 1
+                17239: 1,
+                17305: 1,
+                17341: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83883,7 +85744,9 @@ EQUIPMENTS = {
                 1520: 1,
                 1521: 1,
                 17300: 1,
-                17239: 1
+                17239: 1,
+                17304: 1,
+                17340: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83927,7 +85790,9 @@ EQUIPMENTS = {
                 1508: 1,
                 1509: 1,
                 17362: 1,
-                17239: 1
+                17239: 1,
+                17393: 1,
+                17394: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83971,7 +85836,9 @@ EQUIPMENTS = {
                 1516: 1,
                 1517: 1,
                 17399: 1,
-                17239: 1
+                17239: 1,
+                17402: 1,
+                17403: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -84015,7 +85882,9 @@ EQUIPMENTS = {
                 1512: 1,
                 1513: 1,
                 17351: 1,
-                17239: 1
+                17239: 1,
+                17354: 1,
+                17355: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -86133,9 +88002,9 @@ EQUIPMENTS = {
         }
     },
     "secondary_weapon": {
-        "螭尘_测试用#40305 (22000 特效 会心 破防 加速)": {
+        "测试武器#40305 (22000 特效 会心 破防 加速)": {
             "id": 40305,
-            "name": "螭尘_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 22000,
@@ -86161,25 +88030,30 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2426
+                    2743
                 ],
                 [
                     1937
+                ],
+                [
+                    2732
                 ]
             ],
             "recipes": {
                 1538: 1,
                 1539: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "螭尘_测试用#40273 (20750 会心 破防 加速)": {
+        "测试武器#40273 (20750 特效 会心 破防 加速)": {
             "id": 40273,
-            "name": "螭尘_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 20750,
@@ -86203,15 +88077,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2743
+                ],
+                [
+                    1937
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "螭尘_测试用#40241 (19500 会心 破防 加速)": {
+        "测试武器#40241 (19500 特效 会心 破防 加速)": {
             "id": 40241,
-            "name": "螭尘_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 19500,
@@ -86235,8 +88126,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2743
+                ],
+                [
+                    1937
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -86400,9 +88308,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "芳桂双剑#39285 (25900 会心 无双)": {
+        "柳繁重剑#39285 (25900 会心 无双)": {
             "id": 39285,
-            "name": "芳桂双剑",
+            "name": "柳繁重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
@@ -86493,9 +88401,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "螭尘_测试用#40209 (18300 会心 破防 加速)": {
+        "测试武器#40209 (18300 特效 会心 破防 加速)": {
             "id": 40209,
-            "name": "螭尘_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 18300,
@@ -86519,15 +88427,32 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2743
+                ],
+                [
+                    1937
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "螭尘_测试用#40177 (17100 会心 破防 加速)": {
+        "测试武器#40177 (17100 特效 会心 破防 加速)": {
             "id": 40177,
-            "name": "螭尘_测试用",
+            "name": "测试武器",
             "school": "藏剑",
             "kind": "外功",
             "level": 17100,
@@ -86551,8 +88476,25 @@ EQUIPMENTS = {
                 "agility_base": 41,
                 "physical_overcome_base": 321
             },
-            "gains": [],
-            "recipes": {},
+            "gains": [
+                [
+                    2743
+                ],
+                [
+                    1937
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1538: 1,
+                1539: 1,
+                17368: 1,
+                17239: 1,
+                17372: 1,
+                17371: 1
+            },
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
@@ -87161,7 +89103,9 @@ EQUIPMENTS = {
                 1538: 1,
                 1539: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -87205,7 +89149,9 @@ EQUIPMENTS = {
                 1538: 1,
                 1539: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -87249,7 +89195,9 @@ EQUIPMENTS = {
                 1538: 1,
                 1539: 1,
                 17368: 1,
-                17239: 1
+                17239: 1,
+                17372: 1,
+                17371: 1
             },
             "set_attr": {},
             "set_gain": {},

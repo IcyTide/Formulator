@@ -716,16 +716,6 @@ DOTS = {
         ],
         "physical_damage_call": 1
     },
-    19625: {
-        "buff_name": "星斗阑干(DOT)",
-        "alias_name": "惊羽CWdot",
-        "interval": 48,
-        "tick": 10,
-        "max_stack": 3,
-        "platform": 0,
-        "damage_base": 25,
-        "physical_damage_call": 1
-    },
     14611: {
         "buff_name": "化血(DOT)",
         "alias_name": "化学镖内功当前目标",
