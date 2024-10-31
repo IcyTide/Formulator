@@ -8082,6 +8082,26 @@ BUFFS = {
         "max_stack": 4,
         "recipes": {}
     },
+    11809: {
+        "attributes": {
+            "all_shield_ignore": 256
+        },
+        "max_level": 1,
+        "buff_name": "倚天",
+        "alias_name": "无视目标内功防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    28116: {
+        "attributes": {
+            "magical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "钟灵",
+        "alias_name": "新新钟灵加伤害",
+        "max_stack": 1,
+        "recipes": {}
+    },
     1487: {
         "attributes": [
             {
@@ -8122,26 +8142,6 @@ BUFFS = {
             1,
             1
         ],
-        "recipes": {}
-    },
-    11809: {
-        "attributes": {
-            "all_shield_ignore": 256
-        },
-        "max_level": 1,
-        "buff_name": "倚天",
-        "alias_name": "无视目标内功防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    28116: {
-        "attributes": {
-            "magical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "钟灵",
-        "alias_name": "新新钟灵加伤害",
-        "max_stack": 1,
         "recipes": {}
     },
     9722: {

@@ -908,6 +908,35 @@ SKILLS = {
         "skill_name": "布泽",
         "solar_damage_call": 1
     },
+    24886: {
+        "alias_name": "千斤坠实际自身范围aoe",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": [
+            198.0,
+            228.0,
+            258.0,
+            288.0,
+            318.0,
+            348.0,
+            378.0,
+            408.0,
+            438.0,
+            468.0,
+            498.0,
+            528.0,
+            558.0,
+            588.0,
+            618.0
+        ],
+        "max_level": 15,
+        "skill_name": "诸行",
+        "solar_damage_base": 54,
+        "solar_damage_rand": 1,
+        "solar_damage_call": 1
+    },
     3848: {
         "alias_name": "韦陀献杵无镇派3豆",
         "kind_type": "SolarMagic",
