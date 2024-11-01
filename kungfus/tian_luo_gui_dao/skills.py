@@ -12,6 +12,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             38760: dict(bind_dots=[{}, {29549: 1}]),
             15049: dict(post_buffs={-10005: {1: 2}}),
             20968: dict(post_buffs={-10005: {1: -1}}),
+            3126: dict(bind_dots={3221: 1}),
             21266: dict(bind_dots={14611: 1})
         }
     }

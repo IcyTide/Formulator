@@ -298,7 +298,7 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (gain_id,): Gain()
-        for gain_id in (1194,)
+        for gain_id in (1194, 2727)
     },
     **{
         (gain_id,): DivineGain(i + 1)
