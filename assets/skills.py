@@ -33976,7 +33976,7 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": [
             262.2,
-            524.4
+            445.73999999999995
         ],
         "max_level": 2,
         "skill_name": [

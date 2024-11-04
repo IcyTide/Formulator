@@ -4,7 +4,8 @@ from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
 
 GAINS = {
     (2125,): CriticalSet(GENERAL_BUFFS[21758]),
-    (2414,): Gain(),
+    (2762,): Gain(),
     (2138,): Gain(),
+    (2414,): Gain(),
     **EQUIPMENT_GAINS,
 }

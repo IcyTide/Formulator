@@ -20,9 +20,11 @@ class SecondaryWeapon(Gain):
 
 GAINS = {
     (1920,): CriticalSet(GENERAL_BUFFS[1955]),
-    (2426,): Gain(),
-    (2427,): Gain(),
-    (1937,): Gain(),
+    (2744,): Gain(),
+    (2743,): Gain(),
     (1945,): Gain(),
+    (1937,): Gain(),
+    (2427,): Gain(),
+    (2426,): Gain(),
     **EQUIPMENT_GAINS,
 }

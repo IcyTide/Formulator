@@ -8,7 +8,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6165,
             "base": {},
@@ -48,7 +48,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6164,
             "base": {},
@@ -88,7 +88,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6163,
             "base": {},
@@ -128,7 +128,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6162,
             "base": {},
@@ -168,7 +168,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6161,
             "base": {},
@@ -208,7 +208,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6160,
             "base": {},
@@ -248,7 +248,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6159,
             "base": {},
@@ -288,7 +288,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6158,
             "base": {},
@@ -328,7 +328,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6157,
             "base": {},
@@ -368,7 +368,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6156,
             "base": {},
@@ -408,7 +408,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6155,
             "base": {},
@@ -448,7 +448,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6154,
             "base": {},
@@ -488,7 +488,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6153,
             "base": {},
@@ -528,7 +528,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6152,
             "base": {},
@@ -568,7 +568,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6151,
             "base": {},
@@ -608,7 +608,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6150,
             "base": {},
@@ -648,7 +648,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6149,
             "base": {},
@@ -688,7 +688,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6148,
             "base": {},
@@ -728,7 +728,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6147,
             "base": {},
@@ -768,7 +768,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6146,
             "base": {},
@@ -808,7 +808,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6145,
             "base": {},
@@ -848,7 +848,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6144,
             "base": {},
@@ -888,7 +888,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6141,
             "base": {},
@@ -924,7 +924,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6140,
             "base": {},
@@ -960,7 +960,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6139,
             "base": {},
@@ -996,7 +996,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 6138,
             "base": {},
@@ -1032,7 +1032,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1060,7 +1060,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1088,7 +1088,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1117,7 +1117,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1146,7 +1146,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1175,7 +1175,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1204,7 +1204,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1232,7 +1232,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1260,7 +1260,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1288,7 +1288,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1317,7 +1317,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1345,7 +1345,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1373,7 +1373,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1401,7 +1401,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1430,7 +1430,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1459,7 +1459,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1488,7 +1488,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1517,7 +1517,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1546,7 +1546,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1575,7 +1575,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1604,7 +1604,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1633,7 +1633,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -1662,7 +1662,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5948,
             "base": {},
@@ -1702,7 +1702,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5947,
             "base": {},
@@ -1742,7 +1742,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5946,
             "base": {},
@@ -1782,7 +1782,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5944,
             "base": {},
@@ -1823,7 +1823,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5943,
             "base": {},
@@ -1864,7 +1864,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5942,
             "base": {},
@@ -1905,7 +1905,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5941,
             "base": {},
@@ -1946,7 +1946,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5940,
             "base": {},
@@ -1987,7 +1987,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5938,
             "base": {},
@@ -2028,7 +2028,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5936,
             "base": {},
@@ -2069,7 +2069,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5934,
             "base": {},
@@ -2109,7 +2109,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5933,
             "base": {},
@@ -2149,7 +2149,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5932,
             "base": {},
@@ -2190,7 +2190,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5931,
             "base": {},
@@ -2231,7 +2231,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5930,
             "base": {},
@@ -2272,7 +2272,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5928,
             "base": {},
@@ -2313,7 +2313,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5926,
             "base": {},
@@ -2353,7 +2353,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5925,
             "base": {},
@@ -2393,7 +2393,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5924,
             "base": {},
@@ -2434,7 +2434,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5922,
             "base": {},
@@ -2474,7 +2474,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5920,
             "base": {},
@@ -2515,7 +2515,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 5918,
             "base": {},
@@ -2556,7 +2556,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -2585,7 +2585,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -2614,7 +2614,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -2643,7 +2643,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2663
+                2673
             ],
             "set_id": 0,
             "base": {},
@@ -2671,7 +2671,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6165,
             "base": {},
             "magic": {
@@ -2709,7 +2711,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6164,
             "base": {},
             "magic": {
@@ -2747,7 +2751,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6163,
             "base": {},
             "magic": {
@@ -2785,7 +2791,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6162,
             "base": {},
             "magic": {
@@ -2823,7 +2831,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6161,
             "base": {},
             "magic": {
@@ -2861,7 +2871,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6160,
             "base": {},
             "magic": {
@@ -2899,7 +2911,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6159,
             "base": {},
             "magic": {
@@ -2937,7 +2951,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6158,
             "base": {},
             "magic": {
@@ -2975,7 +2991,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6157,
             "base": {},
             "magic": {
@@ -3013,7 +3031,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6156,
             "base": {},
             "magic": {
@@ -3051,7 +3071,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6155,
             "base": {},
             "magic": {
@@ -3089,7 +3111,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6154,
             "base": {},
             "magic": {
@@ -3127,7 +3151,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6153,
             "base": {},
             "magic": {
@@ -3165,7 +3191,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6152,
             "base": {},
             "magic": {
@@ -3203,7 +3231,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6151,
             "base": {},
             "magic": {
@@ -3241,7 +3271,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6150,
             "base": {},
             "magic": {
@@ -3279,7 +3311,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6149,
             "base": {},
             "magic": {
@@ -3317,7 +3351,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6148,
             "base": {},
             "magic": {
@@ -3355,7 +3391,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6147,
             "base": {},
             "magic": {
@@ -3393,7 +3431,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6146,
             "base": {},
             "magic": {
@@ -3431,7 +3471,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6145,
             "base": {},
             "magic": {
@@ -3469,7 +3511,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 6144,
             "base": {},
             "magic": {
@@ -3507,7 +3551,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3534,7 +3580,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3561,7 +3609,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3588,7 +3638,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3615,7 +3667,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3642,7 +3696,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3669,7 +3725,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3696,7 +3754,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3723,7 +3783,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3750,7 +3812,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3777,7 +3841,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3804,7 +3870,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3831,7 +3899,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3858,7 +3928,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3885,7 +3957,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3912,7 +3986,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -3939,7 +4015,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5948,
             "base": {},
             "magic": {
@@ -3977,7 +4055,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5947,
             "base": {},
             "magic": {
@@ -4015,7 +4095,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5946,
             "base": {},
             "magic": {
@@ -4053,7 +4135,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5944,
             "base": {},
             "magic": {
@@ -4092,7 +4176,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5943,
             "base": {},
             "magic": {
@@ -4131,7 +4217,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5942,
             "base": {},
             "magic": {
@@ -4170,7 +4258,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5941,
             "base": {},
             "magic": {
@@ -4209,7 +4299,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5940,
             "base": {},
             "magic": {
@@ -4248,7 +4340,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5938,
             "base": {},
             "magic": {
@@ -4287,7 +4381,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5936,
             "base": {},
             "magic": {
@@ -4326,7 +4422,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5934,
             "base": {},
             "magic": {
@@ -4364,7 +4462,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5933,
             "base": {},
             "magic": {
@@ -4402,7 +4502,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5932,
             "base": {},
             "magic": {
@@ -4441,7 +4543,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5931,
             "base": {},
             "magic": {
@@ -4480,7 +4584,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5930,
             "base": {},
             "magic": {
@@ -4519,7 +4625,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5928,
             "base": {},
             "magic": {
@@ -4558,7 +4666,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5926,
             "base": {},
             "magic": {
@@ -4596,7 +4706,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5925,
             "base": {},
             "magic": {
@@ -4634,7 +4746,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5924,
             "base": {},
             "magic": {
@@ -4673,7 +4787,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5922,
             "base": {},
             "magic": {
@@ -4711,7 +4827,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5920,
             "base": {},
             "magic": {
@@ -4750,7 +4868,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5918,
             "base": {},
             "magic": {
@@ -4789,7 +4909,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5884,
             "base": {},
             "magic": {
@@ -4822,7 +4944,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5883,
             "base": {},
             "magic": {
@@ -4855,7 +4979,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5882,
             "base": {},
             "magic": {
@@ -4888,7 +5014,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5881,
             "base": {},
             "magic": {
@@ -4921,7 +5049,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5878,
             "base": {},
             "magic": {
@@ -4954,7 +5084,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5877,
             "base": {},
             "magic": {
@@ -4987,7 +5119,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5876,
             "base": {},
             "magic": {
@@ -5020,7 +5154,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 5875,
             "base": {},
             "magic": {
@@ -5053,7 +5189,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5080,7 +5218,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5107,7 +5247,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5134,7 +5276,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5161,7 +5305,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5188,7 +5334,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5215,7 +5363,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5242,7 +5392,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5262,6 +5414,238 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "润源袖#104503 (20500 破招 无双)": {
+            "id": 104503,
+            "name": "润源袖",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁袖#104502 (20500 破招 无双)": {
+            "id": 104502,
+            "name": "辞羁袖",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文袖#104501 (20500 破招 无双)": {
+            "id": 104501,
+            "name": "昭文袖",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟袖#104500 (20500 破招 无双)": {
+            "id": 104500,
+            "name": "丘墟袖",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀护手#104457 (20500 加速 无双)": {
+            "id": 104457,
+            "name": "羽缀护手",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌护手#104456 (20500 加速 无双)": {
+            "id": 104456,
+            "name": "夏凌护手",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘护手#104455 (20500 加速 无双)": {
+            "id": 104455,
+            "name": "斛尘护手",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春护手#104454 (20500 加速 无双)": {
+            "id": 104454,
+            "name": "熙春护手",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2663
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "平皋袖#104114 (20500 破防 无双)": {
             "id": 104114,
             "name": "平皋袖",
@@ -5269,7 +5653,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5296,7 +5682,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5323,7 +5711,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5350,7 +5740,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5377,7 +5769,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5404,7 +5798,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5431,7 +5827,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5458,7 +5856,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5485,7 +5885,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5512,7 +5914,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5539,7 +5943,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5566,7 +5972,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5593,7 +6001,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5620,7 +6030,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5647,7 +6059,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5674,7 +6088,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5701,7 +6117,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5728,7 +6146,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5755,7 +6175,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5782,7 +6204,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5809,7 +6233,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5836,7 +6262,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5863,7 +6291,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5890,7 +6320,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5917,7 +6349,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5944,7 +6378,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5971,7 +6407,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -5998,7 +6436,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6025,7 +6465,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6052,7 +6494,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6079,7 +6523,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6106,7 +6552,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6133,7 +6581,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6160,7 +6610,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6187,7 +6639,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6214,7 +6668,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6241,7 +6697,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6268,7 +6726,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6295,7 +6755,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6322,7 +6784,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6349,7 +6813,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6376,7 +6842,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6403,7 +6871,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6430,7 +6900,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6457,7 +6929,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6484,7 +6958,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6511,7 +6987,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6538,7 +7016,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6565,7 +7045,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6592,7 +7074,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6619,7 +7103,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6646,7 +7132,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2663
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -6676,7 +7164,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6165,
             "base": {},
@@ -6716,7 +7204,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6164,
             "base": {},
@@ -6756,7 +7244,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6163,
             "base": {},
@@ -6796,7 +7284,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6162,
             "base": {},
@@ -6836,7 +7324,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6161,
             "base": {},
@@ -6876,7 +7364,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6160,
             "base": {},
@@ -6916,7 +7404,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6159,
             "base": {},
@@ -6956,7 +7444,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6158,
             "base": {},
@@ -6996,7 +7484,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6157,
             "base": {},
@@ -7036,7 +7524,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6156,
             "base": {},
@@ -7076,7 +7564,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6155,
             "base": {},
@@ -7116,7 +7604,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6154,
             "base": {},
@@ -7156,7 +7644,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6153,
             "base": {},
@@ -7196,7 +7684,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6152,
             "base": {},
@@ -7236,7 +7724,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6151,
             "base": {},
@@ -7276,7 +7764,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6150,
             "base": {},
@@ -7316,7 +7804,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6149,
             "base": {},
@@ -7356,7 +7844,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6148,
             "base": {},
@@ -7396,7 +7884,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6147,
             "base": {},
@@ -7436,7 +7924,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6146,
             "base": {},
@@ -7476,7 +7964,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6145,
             "base": {},
@@ -7516,7 +8004,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6144,
             "base": {},
@@ -7556,7 +8044,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6141,
             "base": {},
@@ -7592,7 +8080,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6140,
             "base": {},
@@ -7628,7 +8116,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6139,
             "base": {},
@@ -7664,7 +8152,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 6138,
             "base": {},
@@ -7700,7 +8188,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7729,7 +8217,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7758,7 +8246,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7787,7 +8275,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7816,7 +8304,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7845,7 +8333,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7874,7 +8362,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7903,7 +8391,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -7932,7 +8420,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5948,
             "base": {},
@@ -7972,7 +8460,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5947,
             "base": {},
@@ -8012,7 +8500,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5946,
             "base": {},
@@ -8052,7 +8540,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5944,
             "base": {},
@@ -8093,7 +8581,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5943,
             "base": {},
@@ -8134,7 +8622,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5942,
             "base": {},
@@ -8175,7 +8663,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5941,
             "base": {},
@@ -8216,7 +8704,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5940,
             "base": {},
@@ -8257,7 +8745,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5938,
             "base": {},
@@ -8298,7 +8786,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5936,
             "base": {},
@@ -8339,7 +8827,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5934,
             "base": {},
@@ -8379,7 +8867,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5933,
             "base": {},
@@ -8419,7 +8907,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5932,
             "base": {},
@@ -8460,7 +8948,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5931,
             "base": {},
@@ -8501,7 +8989,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5930,
             "base": {},
@@ -8542,7 +9030,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5928,
             "base": {},
@@ -8583,7 +9071,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5926,
             "base": {},
@@ -8623,7 +9111,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5925,
             "base": {},
@@ -8663,7 +9151,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5924,
             "base": {},
@@ -8704,7 +9192,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5922,
             "base": {},
@@ -8744,7 +9232,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5920,
             "base": {},
@@ -8785,7 +9273,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 5918,
             "base": {},
@@ -8826,7 +9314,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -8855,7 +9343,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -8884,7 +9372,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -8913,7 +9401,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -8942,7 +9430,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -8975,7 +9463,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9007,7 +9495,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9038,7 +9526,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9071,7 +9559,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9103,7 +9591,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9134,7 +9622,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9167,7 +9655,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9199,7 +9687,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9230,7 +9718,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9263,7 +9751,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9295,7 +9783,7 @@ EQUIPMENTS = {
             "level": 25500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9326,7 +9814,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9359,7 +9847,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9392,7 +9880,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9424,7 +9912,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9457,7 +9945,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9490,7 +9978,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9522,7 +10010,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9555,7 +10043,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9588,7 +10076,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9620,7 +10108,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9653,7 +10141,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9686,7 +10174,7 @@ EQUIPMENTS = {
             "level": 24500,
             "max_strength": 6,
             "special_enchant": [
-                2664
+                2674
             ],
             "set_id": 0,
             "base": {},
@@ -9717,7 +10205,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9744,7 +10234,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9770,7 +10262,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9796,7 +10290,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9823,7 +10319,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9849,7 +10347,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9875,7 +10375,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9902,7 +10404,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9928,7 +10432,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9954,7 +10460,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -9981,7 +10489,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10007,7 +10517,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10033,7 +10545,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6165,
             "base": {},
             "magic": {
@@ -10071,7 +10585,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6164,
             "base": {},
             "magic": {
@@ -10109,7 +10625,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6163,
             "base": {},
             "magic": {
@@ -10147,7 +10665,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6162,
             "base": {},
             "magic": {
@@ -10185,7 +10705,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6161,
             "base": {},
             "magic": {
@@ -10223,7 +10745,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6160,
             "base": {},
             "magic": {
@@ -10261,7 +10785,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6159,
             "base": {},
             "magic": {
@@ -10299,7 +10825,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6158,
             "base": {},
             "magic": {
@@ -10337,7 +10865,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6157,
             "base": {},
             "magic": {
@@ -10375,7 +10905,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6156,
             "base": {},
             "magic": {
@@ -10413,7 +10945,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6155,
             "base": {},
             "magic": {
@@ -10451,7 +10985,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6154,
             "base": {},
             "magic": {
@@ -10489,7 +11025,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6153,
             "base": {},
             "magic": {
@@ -10527,7 +11065,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6152,
             "base": {},
             "magic": {
@@ -10565,7 +11105,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6151,
             "base": {},
             "magic": {
@@ -10603,7 +11145,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6150,
             "base": {},
             "magic": {
@@ -10641,7 +11185,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6149,
             "base": {},
             "magic": {
@@ -10679,7 +11225,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6148,
             "base": {},
             "magic": {
@@ -10717,7 +11265,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6147,
             "base": {},
             "magic": {
@@ -10755,7 +11305,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6146,
             "base": {},
             "magic": {
@@ -10793,7 +11345,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6145,
             "base": {},
             "magic": {
@@ -10831,7 +11385,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 6144,
             "base": {},
             "magic": {
@@ -10869,7 +11425,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10896,7 +11454,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10922,7 +11482,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10947,7 +11509,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -10974,7 +11538,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11000,7 +11566,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11025,7 +11593,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11052,7 +11622,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11079,7 +11651,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11106,7 +11680,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11133,7 +11709,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11160,7 +11738,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11186,7 +11766,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11211,7 +11793,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11238,7 +11822,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11264,7 +11850,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11289,7 +11877,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11316,7 +11906,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11343,7 +11935,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11370,7 +11964,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11397,7 +11993,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11424,7 +12022,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11451,7 +12051,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11478,7 +12080,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -11505,7 +12109,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5948,
             "base": {},
             "magic": {
@@ -11543,7 +12149,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5947,
             "base": {},
             "magic": {
@@ -11581,7 +12189,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5946,
             "base": {},
             "magic": {
@@ -11619,7 +12229,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5944,
             "base": {},
             "magic": {
@@ -11658,7 +12270,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5943,
             "base": {},
             "magic": {
@@ -11697,7 +12311,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5942,
             "base": {},
             "magic": {
@@ -11736,7 +12352,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5941,
             "base": {},
             "magic": {
@@ -11775,7 +12393,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5940,
             "base": {},
             "magic": {
@@ -11814,7 +12434,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5938,
             "base": {},
             "magic": {
@@ -11853,7 +12475,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5936,
             "base": {},
             "magic": {
@@ -11892,7 +12516,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5934,
             "base": {},
             "magic": {
@@ -11930,7 +12556,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5933,
             "base": {},
             "magic": {
@@ -11968,7 +12596,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5932,
             "base": {},
             "magic": {
@@ -12007,7 +12637,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5931,
             "base": {},
             "magic": {
@@ -12046,7 +12678,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5930,
             "base": {},
             "magic": {
@@ -12085,7 +12719,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5928,
             "base": {},
             "magic": {
@@ -12124,7 +12760,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5926,
             "base": {},
             "magic": {
@@ -12162,7 +12800,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5925,
             "base": {},
             "magic": {
@@ -12200,7 +12840,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5924,
             "base": {},
             "magic": {
@@ -12239,7 +12881,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5922,
             "base": {},
             "magic": {
@@ -12277,7 +12921,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5920,
             "base": {},
             "magic": {
@@ -12316,7 +12962,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5918,
             "base": {},
             "magic": {
@@ -12355,7 +13003,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5884,
             "base": {},
             "magic": {
@@ -12388,7 +13038,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5883,
             "base": {},
             "magic": {
@@ -12421,7 +13073,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5882,
             "base": {},
             "magic": {
@@ -12454,7 +13108,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5881,
             "base": {},
             "magic": {
@@ -12487,7 +13143,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12514,7 +13172,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12541,7 +13201,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12567,7 +13229,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12594,7 +13258,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12621,7 +13287,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12647,7 +13315,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12674,7 +13344,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12701,7 +13373,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12727,7 +13401,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12754,7 +13430,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12781,7 +13459,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12807,7 +13487,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5878,
             "base": {},
             "magic": {
@@ -12840,7 +13522,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5877,
             "base": {},
             "magic": {
@@ -12873,7 +13557,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5876,
             "base": {},
             "magic": {
@@ -12906,7 +13592,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 5875,
             "base": {},
             "magic": {
@@ -12939,7 +13627,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12966,7 +13656,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -12993,7 +13685,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13020,7 +13714,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13047,7 +13743,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13074,7 +13772,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13100,7 +13800,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13126,7 +13828,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13153,7 +13857,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13179,7 +13885,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13205,7 +13913,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13232,7 +13942,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13258,7 +13970,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13284,7 +13998,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13311,7 +14027,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13337,7 +14055,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13363,7 +14083,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13390,7 +14112,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13417,7 +14141,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13444,7 +14170,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13464,6 +14192,238 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "润源靴#104514 (20500 破招 无双)": {
+            "id": 104514,
+            "name": "润源靴",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁靴#104513 (20500 破招 无双)": {
+            "id": 104513,
+            "name": "辞羁靴",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文靴#104512 (20500 破招 无双)": {
+            "id": 104512,
+            "name": "昭文靴",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "spunk_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟靴#104511 (20500 破招 无双)": {
+            "id": 104511,
+            "name": "丘墟靴",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "surplus_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "平皋靴#104482 (20500 加速 无双)": {
+            "id": 104482,
+            "name": "平皋靴",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛靴#104481 (20500 加速 无双)": {
+            "id": 104481,
+            "name": "淮沛靴",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉靴#104480 (20500 加速 无双)": {
+            "id": 104480,
+            "name": "玉凉靴",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝靴#104479 (20500 加速 无双)": {
+            "id": 104479,
+            "name": "樛枝靴",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2664
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "haste_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "羽缀靴#104126 (20500 会心 无双)": {
             "id": 104126,
             "name": "羽缀靴",
@@ -13471,7 +14431,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13498,7 +14460,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13525,7 +14489,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13552,7 +14518,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13579,7 +14547,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13606,7 +14576,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13633,7 +14605,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13660,7 +14634,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13687,7 +14663,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13714,7 +14692,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13741,7 +14721,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13768,7 +14750,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13795,7 +14779,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13822,7 +14808,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13849,7 +14837,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13876,7 +14866,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13903,7 +14895,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13930,7 +14924,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13957,7 +14953,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -13984,7 +14982,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14011,7 +15011,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14038,7 +15040,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14065,7 +15069,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14092,7 +15098,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14119,7 +15127,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14146,7 +15156,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14172,7 +15184,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14197,7 +15211,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14224,7 +15240,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14250,7 +15268,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14275,7 +15295,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14302,7 +15324,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14328,7 +15352,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14353,7 +15379,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14380,7 +15408,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14406,7 +15436,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14431,7 +15463,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14458,7 +15492,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14485,7 +15521,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14512,7 +15550,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14539,7 +15579,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14566,7 +15608,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14593,7 +15637,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14620,7 +15666,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14647,7 +15695,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14674,7 +15724,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14701,7 +15753,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14728,7 +15782,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14755,7 +15811,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14782,7 +15840,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14809,7 +15869,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14836,7 +15898,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14863,7 +15927,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14890,7 +15956,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14917,7 +15985,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14944,7 +16014,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14971,7 +16043,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -14998,7 +16072,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15025,7 +16101,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15052,7 +16130,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15079,7 +16159,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15106,7 +16188,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15133,7 +16217,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -15160,7 +16246,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2664
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -17954,6 +19042,222 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "润源裤#104520 (20500 会心 无双)": {
+            "id": 104520,
+            "name": "润源裤",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "agility_base": 918,
+                "physical_attack_power_base": 2085,
+                "physical_critical_strike_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁裤#104519 (20500 会心 无双)": {
+            "id": 104519,
+            "name": "辞羁裤",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "strength_base": 918,
+                "physical_attack_power_base": 2085,
+                "physical_critical_strike_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文裤#104518 (20500 会心 无双)": {
+            "id": 104518,
+            "name": "昭文裤",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spunk_base": 918,
+                "magical_attack_power_base": 2319,
+                "all_critical_strike_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟裤#104517 (20500 会心 无双)": {
+            "id": 104517,
+            "name": "丘墟裤",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spirit_base": 918,
+                "magical_attack_power_base": 2319,
+                "magical_critical_strike_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "平皋裤#104488 (20500 破招 无双)": {
+            "id": 104488,
+            "name": "平皋裤",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "agility_base": 918,
+                "physical_attack_power_base": 2085,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛裤#104487 (20500 破招 无双)": {
+            "id": 104487,
+            "name": "淮沛裤",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "strength_base": 918,
+                "physical_attack_power_base": 2085,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉裤#104486 (20500 破招 无双)": {
+            "id": 104486,
+            "name": "玉凉裤",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spunk_base": 918,
+                "magical_attack_power_base": 2319,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝裤#104485 (20500 破招 无双)": {
+            "id": 104485,
+            "name": "樛枝裤",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spirit_base": 918,
+                "magical_attack_power_base": 2319,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "羽缀裤#104132 (20500 破防 无双)": {
             "id": 104132,
             "name": "羽缀裤",
@@ -19044,7 +20348,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6165,
             "base": {},
@@ -19084,7 +20388,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6164,
             "base": {},
@@ -19124,7 +20428,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6163,
             "base": {},
@@ -19164,7 +20468,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6162,
             "base": {},
@@ -19204,7 +20508,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6161,
             "base": {},
@@ -19244,7 +20548,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6160,
             "base": {},
@@ -19284,7 +20588,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6159,
             "base": {},
@@ -19324,7 +20628,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6158,
             "base": {},
@@ -19364,7 +20668,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6157,
             "base": {},
@@ -19404,7 +20708,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6156,
             "base": {},
@@ -19444,7 +20748,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6155,
             "base": {},
@@ -19484,7 +20788,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6154,
             "base": {},
@@ -19524,7 +20828,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6153,
             "base": {},
@@ -19564,7 +20868,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6152,
             "base": {},
@@ -19604,7 +20908,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6151,
             "base": {},
@@ -19644,7 +20948,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6150,
             "base": {},
@@ -19684,7 +20988,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6149,
             "base": {},
@@ -19724,7 +21028,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6148,
             "base": {},
@@ -19764,7 +21068,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6147,
             "base": {},
@@ -19804,7 +21108,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6146,
             "base": {},
@@ -19844,7 +21148,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6145,
             "base": {},
@@ -19884,7 +21188,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6144,
             "base": {},
@@ -19924,7 +21228,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6141,
             "base": {},
@@ -19960,7 +21264,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6140,
             "base": {},
@@ -19996,7 +21300,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6139,
             "base": {},
@@ -20032,7 +21336,7 @@ EQUIPMENTS = {
             "level": 26300,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 6138,
             "base": {},
@@ -20068,7 +21372,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20096,7 +21400,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20124,7 +21428,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20152,7 +21456,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20180,7 +21484,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20209,7 +21513,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20236,7 +21540,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20264,7 +21568,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20292,7 +21596,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20321,7 +21625,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20348,7 +21652,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20377,7 +21681,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20406,7 +21710,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20435,7 +21739,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20464,7 +21768,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20493,7 +21797,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20522,7 +21826,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20551,7 +21855,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -20580,7 +21884,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5948,
             "base": {},
@@ -20620,7 +21924,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5947,
             "base": {},
@@ -20660,7 +21964,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5946,
             "base": {},
@@ -20700,7 +22004,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5944,
             "base": {},
@@ -20741,7 +22045,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5943,
             "base": {},
@@ -20782,7 +22086,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5942,
             "base": {},
@@ -20823,7 +22127,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5941,
             "base": {},
@@ -20864,7 +22168,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5940,
             "base": {},
@@ -20905,7 +22209,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5938,
             "base": {},
@@ -20946,7 +22250,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5936,
             "base": {},
@@ -20987,7 +22291,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5934,
             "base": {},
@@ -21027,7 +22331,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5933,
             "base": {},
@@ -21067,7 +22371,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5932,
             "base": {},
@@ -21108,7 +22412,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5931,
             "base": {},
@@ -21149,7 +22453,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5930,
             "base": {},
@@ -21190,7 +22494,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5928,
             "base": {},
@@ -21231,7 +22535,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5926,
             "base": {},
@@ -21271,7 +22575,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5925,
             "base": {},
@@ -21311,7 +22615,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5924,
             "base": {},
@@ -21352,7 +22656,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5922,
             "base": {},
@@ -21392,7 +22696,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5920,
             "base": {},
@@ -21433,7 +22737,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 5918,
             "base": {},
@@ -21474,7 +22778,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -21503,7 +22807,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -21532,7 +22836,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -21561,7 +22865,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": [
-                2662
+                2672
             ],
             "set_id": 0,
             "base": {},
@@ -21589,7 +22893,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6165,
             "base": {},
             "magic": {
@@ -21627,7 +22933,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6164,
             "base": {},
             "magic": {
@@ -21665,7 +22973,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6163,
             "base": {},
             "magic": {
@@ -21703,7 +23013,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6162,
             "base": {},
             "magic": {
@@ -21741,7 +23053,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6161,
             "base": {},
             "magic": {
@@ -21779,7 +23093,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6160,
             "base": {},
             "magic": {
@@ -21817,7 +23133,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6159,
             "base": {},
             "magic": {
@@ -21855,7 +23173,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6158,
             "base": {},
             "magic": {
@@ -21893,7 +23213,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6157,
             "base": {},
             "magic": {
@@ -21931,7 +23253,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6156,
             "base": {},
             "magic": {
@@ -21969,7 +23293,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6155,
             "base": {},
             "magic": {
@@ -22007,7 +23333,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6154,
             "base": {},
             "magic": {
@@ -22045,7 +23373,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6153,
             "base": {},
             "magic": {
@@ -22083,7 +23413,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6152,
             "base": {},
             "magic": {
@@ -22121,7 +23453,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6151,
             "base": {},
             "magic": {
@@ -22159,7 +23493,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6150,
             "base": {},
             "magic": {
@@ -22197,7 +23533,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6149,
             "base": {},
             "magic": {
@@ -22235,7 +23573,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6148,
             "base": {},
             "magic": {
@@ -22273,7 +23613,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6147,
             "base": {},
             "magic": {
@@ -22311,7 +23653,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6146,
             "base": {},
             "magic": {
@@ -22349,7 +23693,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6145,
             "base": {},
             "magic": {
@@ -22387,7 +23733,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 6144,
             "base": {},
             "magic": {
@@ -22425,7 +23773,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22452,7 +23802,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22479,7 +23831,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22506,7 +23860,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22533,7 +23889,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22560,7 +23918,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22587,7 +23947,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22614,7 +23976,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22641,7 +24005,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22668,7 +24034,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22695,7 +24063,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22722,7 +24092,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -22749,7 +24121,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5948,
             "base": {},
             "magic": {
@@ -22787,7 +24161,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5947,
             "base": {},
             "magic": {
@@ -22825,7 +24201,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5946,
             "base": {},
             "magic": {
@@ -22863,7 +24241,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5944,
             "base": {},
             "magic": {
@@ -22902,7 +24282,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5943,
             "base": {},
             "magic": {
@@ -22941,7 +24323,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5942,
             "base": {},
             "magic": {
@@ -22980,7 +24364,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5941,
             "base": {},
             "magic": {
@@ -23019,7 +24405,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5940,
             "base": {},
             "magic": {
@@ -23058,7 +24446,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5938,
             "base": {},
             "magic": {
@@ -23097,7 +24487,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5936,
             "base": {},
             "magic": {
@@ -23136,7 +24528,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5934,
             "base": {},
             "magic": {
@@ -23174,7 +24568,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5933,
             "base": {},
             "magic": {
@@ -23212,7 +24608,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5932,
             "base": {},
             "magic": {
@@ -23251,7 +24649,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5931,
             "base": {},
             "magic": {
@@ -23290,7 +24690,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5930,
             "base": {},
             "magic": {
@@ -23329,7 +24731,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5928,
             "base": {},
             "magic": {
@@ -23368,7 +24772,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5926,
             "base": {},
             "magic": {
@@ -23406,7 +24812,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5925,
             "base": {},
             "magic": {
@@ -23444,7 +24852,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5924,
             "base": {},
             "magic": {
@@ -23483,7 +24893,9 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5922,
             "base": {},
             "magic": {
@@ -23521,7 +24933,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5920,
             "base": {},
             "magic": {
@@ -23560,7 +24974,9 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5918,
             "base": {},
             "magic": {
@@ -23599,7 +25015,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5884,
             "base": {},
             "magic": {
@@ -23632,7 +25050,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5883,
             "base": {},
             "magic": {
@@ -23665,7 +25085,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5882,
             "base": {},
             "magic": {
@@ -23698,7 +25120,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5881,
             "base": {},
             "magic": {
@@ -23731,7 +25155,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5878,
             "base": {},
             "magic": {
@@ -23764,7 +25190,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5877,
             "base": {},
             "magic": {
@@ -23797,7 +25225,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5876,
             "base": {},
             "magic": {
@@ -23830,7 +25260,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 5875,
             "base": {},
             "magic": {
@@ -23863,7 +25295,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -23890,7 +25324,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -23917,7 +25353,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -23944,7 +25382,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -23964,6 +25404,238 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "润源腰带#104508 (20500 破防 无双)": {
+            "id": 104508,
+            "name": "润源腰带",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "physical_overcome_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁腰带#104507 (20500 破防 无双)": {
+            "id": 104507,
+            "name": "辞羁腰带",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "physical_overcome_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文腰带#104506 (20500 破防 无双)": {
+            "id": 104506,
+            "name": "昭文腰带",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "magical_overcome_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "strain_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟腰带#104505 (20500 破防 无双)": {
+            "id": 104505,
+            "name": "丘墟腰带",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "magical_overcome_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀腰带#104462 (20500 会心 无双)": {
+            "id": 104462,
+            "name": "羽缀腰带",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "agility_base": 643,
+                "physical_attack_power_base": 1460,
+                "physical_critical_strike_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌腰带#104461 (20500 会心 无双)": {
+            "id": 104461,
+            "name": "夏凌腰带",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "strength_base": 643,
+                "physical_attack_power_base": 1460,
+                "physical_critical_strike_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘腰带#104460 (20500 会心 无双)": {
+            "id": 104460,
+            "name": "斛尘腰带",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spunk_base": 643,
+                "magical_attack_power_base": 1623,
+                "all_critical_strike_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "all_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春腰带#104459 (20500 会心 无双)": {
+            "id": 104459,
+            "name": "熙春腰带",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7878,
+                "spirit_base": 643,
+                "magical_attack_power_base": 1623,
+                "magical_critical_strike_base": 5371,
+                "strain_base": 4297
+            },
+            "embed": {
+                "magical_critical_strike_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "平皋腰带#104120 (20500 破招 无双)": {
             "id": 104120,
             "name": "平皋腰带",
@@ -23971,7 +25643,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -23998,7 +25672,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24025,7 +25701,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24052,7 +25730,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24079,7 +25759,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24106,7 +25788,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24133,7 +25817,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24160,7 +25846,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24187,7 +25875,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24214,7 +25904,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24241,7 +25933,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24268,7 +25962,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24295,7 +25991,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24322,7 +26020,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24349,7 +26049,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24376,7 +26078,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24403,7 +26107,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24430,7 +26136,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24457,7 +26165,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24484,7 +26194,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24511,7 +26223,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24538,7 +26252,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24565,7 +26281,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24592,7 +26310,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24619,7 +26339,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24646,7 +26368,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24673,7 +26397,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24700,7 +26426,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24727,7 +26455,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24754,7 +26484,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24781,7 +26513,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24808,7 +26542,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24835,7 +26571,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24862,7 +26600,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24889,7 +26629,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24916,7 +26658,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24943,7 +26687,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24970,7 +26716,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -24997,7 +26745,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25024,7 +26774,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25051,7 +26803,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25078,7 +26832,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25105,7 +26861,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25132,7 +26890,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25159,7 +26919,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25186,7 +26948,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25213,7 +26977,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25240,7 +27006,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25267,7 +27035,9 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25294,7 +27064,9 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25321,7 +27093,9 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25348,7 +27122,9 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                2662
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -25379,7 +27155,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6165,
             "base": {},
@@ -25420,7 +27196,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6164,
             "base": {},
@@ -25461,7 +27237,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6163,
             "base": {},
@@ -25502,7 +27278,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6162,
             "base": {},
@@ -25543,7 +27319,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6161,
             "base": {},
@@ -25584,7 +27360,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6160,
             "base": {},
@@ -25625,7 +27401,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6159,
             "base": {},
@@ -25666,7 +27442,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6158,
             "base": {},
@@ -25707,7 +27483,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6157,
             "base": {},
@@ -25748,7 +27524,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6156,
             "base": {},
@@ -25789,7 +27565,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6155,
             "base": {},
@@ -25830,7 +27606,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6154,
             "base": {},
@@ -25871,7 +27647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6153,
             "base": {},
@@ -25912,7 +27688,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6152,
             "base": {},
@@ -25953,7 +27729,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6151,
             "base": {},
@@ -25994,7 +27770,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6150,
             "base": {},
@@ -26035,7 +27811,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6149,
             "base": {},
@@ -26076,7 +27852,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6148,
             "base": {},
@@ -26117,7 +27893,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6147,
             "base": {},
@@ -26158,7 +27934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6146,
             "base": {},
@@ -26199,7 +27975,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6145,
             "base": {},
@@ -26240,7 +28016,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6144,
             "base": {},
@@ -26281,7 +28057,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6141,
             "base": {},
@@ -26318,7 +28094,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6140,
             "base": {},
@@ -26355,7 +28131,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6139,
             "base": {},
@@ -26392,7 +28168,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 6138,
             "base": {},
@@ -26429,7 +28205,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26459,7 +28235,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26489,7 +28265,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26519,7 +28295,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26549,7 +28325,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26579,7 +28355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26609,7 +28385,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26639,7 +28415,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26669,7 +28445,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26699,7 +28475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26729,7 +28505,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26759,7 +28535,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -26789,7 +28565,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5948,
             "base": {},
@@ -26830,7 +28606,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5947,
             "base": {},
@@ -26871,7 +28647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5946,
             "base": {},
@@ -26912,7 +28688,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5944,
             "base": {},
@@ -26954,7 +28730,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5943,
             "base": {},
@@ -26996,7 +28772,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5942,
             "base": {},
@@ -27038,7 +28814,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5941,
             "base": {},
@@ -27080,7 +28856,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5940,
             "base": {},
@@ -27122,7 +28898,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5938,
             "base": {},
@@ -27164,7 +28940,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5936,
             "base": {},
@@ -27206,7 +28982,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5934,
             "base": {},
@@ -27247,7 +29023,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5933,
             "base": {},
@@ -27288,7 +29064,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5932,
             "base": {},
@@ -27330,7 +29106,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5931,
             "base": {},
@@ -27372,7 +29148,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5930,
             "base": {},
@@ -27414,7 +29190,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5928,
             "base": {},
@@ -27456,7 +29232,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5926,
             "base": {},
@@ -27497,7 +29273,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5925,
             "base": {},
@@ -27538,7 +29314,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5924,
             "base": {},
@@ -27580,7 +29356,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5922,
             "base": {},
@@ -27621,7 +29397,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5920,
             "base": {},
@@ -27663,7 +29439,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 5918,
             "base": {},
@@ -27705,7 +29481,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27735,7 +29511,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27765,7 +29541,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27795,7 +29571,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27825,7 +29601,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27859,7 +29635,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27892,7 +29668,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27924,7 +29700,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27958,7 +29734,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -27991,7 +29767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28023,7 +29799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28057,7 +29833,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28090,7 +29866,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28122,7 +29898,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28156,7 +29932,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28189,7 +29965,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28221,7 +29997,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28255,7 +30031,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28289,7 +30065,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28322,7 +30098,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28356,7 +30132,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28390,7 +30166,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28423,7 +30199,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28457,7 +30233,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28491,7 +30267,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28524,7 +30300,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28558,7 +30334,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28592,7 +30368,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 15436,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -28623,7 +30399,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28650,7 +30429,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28677,7 +30459,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28703,7 +30488,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28730,7 +30518,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28757,7 +30548,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28783,7 +30577,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28810,7 +30607,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28837,7 +30637,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28863,7 +30666,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28890,7 +30696,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28917,7 +30726,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 23500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -28943,7 +30755,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6165,
             "base": {},
             "magic": {
@@ -28981,7 +30796,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6164,
             "base": {},
             "magic": {
@@ -29019,7 +30837,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6163,
             "base": {},
             "magic": {
@@ -29057,7 +30878,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6162,
             "base": {},
             "magic": {
@@ -29095,7 +30919,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6161,
             "base": {},
             "magic": {
@@ -29133,7 +30960,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6160,
             "base": {},
             "magic": {
@@ -29171,7 +31001,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6159,
             "base": {},
             "magic": {
@@ -29209,7 +31042,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6158,
             "base": {},
             "magic": {
@@ -29247,7 +31083,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6157,
             "base": {},
             "magic": {
@@ -29285,7 +31124,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6156,
             "base": {},
             "magic": {
@@ -29323,7 +31165,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6155,
             "base": {},
             "magic": {
@@ -29361,7 +31206,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6154,
             "base": {},
             "magic": {
@@ -29399,7 +31247,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6153,
             "base": {},
             "magic": {
@@ -29437,7 +31288,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6152,
             "base": {},
             "magic": {
@@ -29475,7 +31329,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6151,
             "base": {},
             "magic": {
@@ -29513,7 +31370,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6150,
             "base": {},
             "magic": {
@@ -29551,7 +31411,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6149,
             "base": {},
             "magic": {
@@ -29589,7 +31452,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6148,
             "base": {},
             "magic": {
@@ -29627,7 +31493,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6147,
             "base": {},
             "magic": {
@@ -29665,7 +31534,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6146,
             "base": {},
             "magic": {
@@ -29703,7 +31575,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6145,
             "base": {},
             "magic": {
@@ -29741,7 +31616,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 6144,
             "base": {},
             "magic": {
@@ -29779,7 +31657,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29806,7 +31687,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29832,7 +31716,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29857,7 +31744,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29884,7 +31774,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29910,7 +31803,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29935,7 +31831,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29962,7 +31861,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -29989,7 +31891,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30016,7 +31921,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30043,7 +31951,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30070,7 +31981,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30096,7 +32010,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30121,7 +32038,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30148,7 +32068,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30174,7 +32097,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30199,7 +32125,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30226,7 +32155,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30253,7 +32185,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30280,7 +32215,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30307,7 +32245,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30334,7 +32275,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30361,7 +32305,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30388,7 +32335,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30415,7 +32365,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30442,7 +32395,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30469,7 +32425,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30496,7 +32455,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -30523,7 +32485,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5948,
             "base": {},
             "magic": {
@@ -30561,7 +32526,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5947,
             "base": {},
             "magic": {
@@ -30599,7 +32567,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5946,
             "base": {},
             "magic": {
@@ -30637,7 +32608,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5944,
             "base": {},
             "magic": {
@@ -30676,7 +32650,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5943,
             "base": {},
             "magic": {
@@ -30715,7 +32692,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5942,
             "base": {},
             "magic": {
@@ -30754,7 +32734,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5941,
             "base": {},
             "magic": {
@@ -30793,7 +32776,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5940,
             "base": {},
             "magic": {
@@ -30832,7 +32818,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5938,
             "base": {},
             "magic": {
@@ -30871,7 +32860,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5936,
             "base": {},
             "magic": {
@@ -30910,7 +32902,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5934,
             "base": {},
             "magic": {
@@ -30948,7 +32943,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5933,
             "base": {},
             "magic": {
@@ -30986,7 +32984,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5932,
             "base": {},
             "magic": {
@@ -31025,7 +33026,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5931,
             "base": {},
             "magic": {
@@ -31064,7 +33068,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5930,
             "base": {},
             "magic": {
@@ -31103,7 +33110,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5928,
             "base": {},
             "magic": {
@@ -31142,7 +33152,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5926,
             "base": {},
             "magic": {
@@ -31180,7 +33193,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5925,
             "base": {},
             "magic": {
@@ -31218,7 +33234,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5924,
             "base": {},
             "magic": {
@@ -31257,7 +33276,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5922,
             "base": {},
             "magic": {
@@ -31295,7 +33317,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5920,
             "base": {},
             "magic": {
@@ -31334,7 +33359,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5918,
             "base": {},
             "magic": {
@@ -31373,7 +33401,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5884,
             "base": {},
             "magic": {
@@ -31406,7 +33437,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5883,
             "base": {},
             "magic": {
@@ -31439,7 +33473,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5882,
             "base": {},
             "magic": {
@@ -31472,7 +33509,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5881,
             "base": {},
             "magic": {
@@ -31505,7 +33545,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31532,7 +33575,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31559,7 +33605,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31585,7 +33634,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31612,7 +33664,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31639,7 +33694,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31665,7 +33723,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31692,7 +33753,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31719,7 +33783,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31745,7 +33812,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31772,7 +33842,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31799,7 +33872,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 21600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31825,7 +33901,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5878,
             "base": {},
             "magic": {
@@ -31858,7 +33937,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5877,
             "base": {},
             "magic": {
@@ -31891,7 +33973,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5876,
             "base": {},
             "magic": {
@@ -31924,7 +34009,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 5875,
             "base": {},
             "magic": {
@@ -31957,7 +34045,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -31984,7 +34075,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32011,7 +34105,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32038,7 +34135,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32065,7 +34165,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32092,7 +34195,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32119,7 +34225,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32145,7 +34254,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32172,7 +34284,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32199,7 +34314,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32225,7 +34343,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32252,7 +34373,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32279,7 +34403,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32305,7 +34432,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32332,7 +34462,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32359,7 +34492,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32385,7 +34521,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32412,7 +34551,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32439,7 +34581,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32466,7 +34611,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20700,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32486,6 +34634,246 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "平皋冠#104494 (20500 加速 无双)": {
+            "id": 104494,
+            "name": "平皋冠",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "agility_base": 826,
+                "physical_attack_power_base": 1877,
+                "haste_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛冠#104493 (20500 加速 无双)": {
+            "id": 104493,
+            "name": "淮沛冠",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "strength_base": 826,
+                "physical_attack_power_base": 1877,
+                "haste_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉冠#104492 (20500 加速 无双)": {
+            "id": 104492,
+            "name": "玉凉冠",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "spunk_base": 826,
+                "magical_attack_power_base": 2087,
+                "haste_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝冠#104491 (20500 加速 无双)": {
+            "id": 104491,
+            "name": "樛枝冠",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "spirit_base": 826,
+                "magical_attack_power_base": 2087,
+                "haste_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "strain_base": 321,
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀冠#104466 (20500 会心 无双)": {
+            "id": 104466,
+            "name": "羽缀冠",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "agility_base": 826,
+                "physical_attack_power_base": 1877,
+                "physical_critical_strike_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌冠#104465 (20500 会心 无双)": {
+            "id": 104465,
+            "name": "夏凌冠",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "strength_base": 826,
+                "physical_attack_power_base": 1877,
+                "physical_critical_strike_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘冠#104464 (20500 会心 无双)": {
+            "id": 104464,
+            "name": "斛尘冠",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "spunk_base": 826,
+                "magical_attack_power_base": 2087,
+                "all_critical_strike_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春冠#104463 (20500 会心 无双)": {
+            "id": 104463,
+            "name": "熙春冠",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                15436,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10129,
+                "spirit_base": 826,
+                "magical_attack_power_base": 2087,
+                "magical_critical_strike_base": 6906,
+                "strain_base": 5525
+            },
+            "embed": {
+                "magical_overcome_base": 321,
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "润源冠#104138 (20500 破招 无双)": {
             "id": 104138,
             "name": "润源冠",
@@ -32493,7 +34881,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32520,7 +34911,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32547,7 +34941,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32574,7 +34971,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32601,7 +35001,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32628,7 +35031,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32655,7 +35061,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32682,7 +35091,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32709,7 +35121,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32736,7 +35151,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32763,7 +35181,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32790,7 +35211,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32817,7 +35241,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32844,7 +35271,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32871,7 +35301,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32898,7 +35331,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32925,7 +35361,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32952,7 +35391,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -32979,7 +35421,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33006,7 +35451,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33033,7 +35481,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33060,7 +35511,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33087,7 +35541,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33114,7 +35571,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33141,7 +35601,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33168,7 +35631,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33194,7 +35660,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33219,7 +35688,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33246,7 +35718,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33272,7 +35747,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33297,7 +35775,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33324,7 +35805,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33350,7 +35834,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33375,7 +35862,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33402,7 +35892,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33428,7 +35921,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 19800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33453,7 +35949,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33480,7 +35979,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33507,7 +36009,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33534,7 +36039,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 19400,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33561,7 +36069,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33588,7 +36099,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33615,7 +36129,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33642,7 +36159,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33669,7 +36189,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33696,7 +36219,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33723,7 +36249,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33750,7 +36279,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18100,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33777,7 +36309,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33804,7 +36339,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33831,7 +36369,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33858,7 +36399,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33885,7 +36429,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33912,7 +36459,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33939,7 +36489,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33966,7 +36519,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -33993,7 +36549,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34020,7 +36579,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34047,7 +36609,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34074,7 +36639,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34101,7 +36669,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34128,7 +36699,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34155,7 +36729,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34182,7 +36759,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                15436,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -34213,7 +36793,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6165,
             "base": {},
@@ -34254,7 +36834,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6164,
             "base": {},
@@ -34295,7 +36875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6163,
             "base": {},
@@ -34336,7 +36916,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6162,
             "base": {},
@@ -34377,7 +36957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6161,
             "base": {},
@@ -34418,7 +36998,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6160,
             "base": {},
@@ -34459,7 +37039,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6159,
             "base": {},
@@ -34500,7 +37080,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6158,
             "base": {},
@@ -34541,7 +37121,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6157,
             "base": {},
@@ -34582,7 +37162,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6156,
             "base": {},
@@ -34623,7 +37203,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6155,
             "base": {},
@@ -34664,7 +37244,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6154,
             "base": {},
@@ -34705,7 +37285,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6153,
             "base": {},
@@ -34746,7 +37326,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6152,
             "base": {},
@@ -34787,7 +37367,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6151,
             "base": {},
@@ -34828,7 +37408,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6150,
             "base": {},
@@ -34869,7 +37449,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6149,
             "base": {},
@@ -34910,7 +37490,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6148,
             "base": {},
@@ -34951,7 +37531,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6147,
             "base": {},
@@ -34992,7 +37572,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6146,
             "base": {},
@@ -35033,7 +37613,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6145,
             "base": {},
@@ -35074,7 +37654,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6144,
             "base": {},
@@ -35115,7 +37695,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6141,
             "base": {},
@@ -35152,7 +37732,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6140,
             "base": {},
@@ -35189,7 +37769,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6139,
             "base": {},
@@ -35226,7 +37806,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 6138,
             "base": {},
@@ -35263,7 +37843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35293,7 +37873,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35323,7 +37903,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35353,7 +37933,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35383,7 +37963,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35413,7 +37993,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35443,7 +38023,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35473,7 +38053,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -35503,7 +38083,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5948,
             "base": {},
@@ -35544,7 +38124,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5947,
             "base": {},
@@ -35585,7 +38165,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5946,
             "base": {},
@@ -35626,7 +38206,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5944,
             "base": {},
@@ -35668,7 +38248,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5943,
             "base": {},
@@ -35710,7 +38290,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5942,
             "base": {},
@@ -35752,7 +38332,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5941,
             "base": {},
@@ -35794,7 +38374,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5940,
             "base": {},
@@ -35836,7 +38416,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5938,
             "base": {},
@@ -35878,7 +38458,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5936,
             "base": {},
@@ -35920,7 +38500,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5934,
             "base": {},
@@ -35961,7 +38541,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5933,
             "base": {},
@@ -36002,7 +38582,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5932,
             "base": {},
@@ -36044,7 +38624,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5931,
             "base": {},
@@ -36086,7 +38666,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5930,
             "base": {},
@@ -36128,7 +38708,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5928,
             "base": {},
@@ -36170,7 +38750,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5926,
             "base": {},
@@ -36211,7 +38791,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5925,
             "base": {},
@@ -36252,7 +38832,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5924,
             "base": {},
@@ -36294,7 +38874,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5922,
             "base": {},
@@ -36335,7 +38915,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5920,
             "base": {},
@@ -36377,7 +38957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 5918,
             "base": {},
@@ -36419,7 +38999,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -36449,7 +39029,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -36479,7 +39059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -36509,7 +39089,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": [
                 22151,
-                13
+                14
             ],
             "set_id": 0,
             "base": {},
@@ -36537,7 +39117,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6165,
             "base": {},
             "magic": {
@@ -36575,7 +39158,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6164,
             "base": {},
             "magic": {
@@ -36613,7 +39199,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6163,
             "base": {},
             "magic": {
@@ -36651,7 +39240,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6162,
             "base": {},
             "magic": {
@@ -36689,7 +39281,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6161,
             "base": {},
             "magic": {
@@ -36727,7 +39322,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6160,
             "base": {},
             "magic": {
@@ -36765,7 +39363,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6159,
             "base": {},
             "magic": {
@@ -36803,7 +39404,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6158,
             "base": {},
             "magic": {
@@ -36841,7 +39445,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6157,
             "base": {},
             "magic": {
@@ -36879,7 +39486,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6156,
             "base": {},
             "magic": {
@@ -36917,7 +39527,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6155,
             "base": {},
             "magic": {
@@ -36955,7 +39568,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6154,
             "base": {},
             "magic": {
@@ -36993,7 +39609,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6153,
             "base": {},
             "magic": {
@@ -37031,7 +39650,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6152,
             "base": {},
             "magic": {
@@ -37069,7 +39691,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6151,
             "base": {},
             "magic": {
@@ -37107,7 +39732,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6150,
             "base": {},
             "magic": {
@@ -37145,7 +39773,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6149,
             "base": {},
             "magic": {
@@ -37183,7 +39814,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6148,
             "base": {},
             "magic": {
@@ -37221,7 +39855,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6147,
             "base": {},
             "magic": {
@@ -37259,7 +39896,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6146,
             "base": {},
             "magic": {
@@ -37297,7 +39937,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6145,
             "base": {},
             "magic": {
@@ -37335,7 +39978,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 6144,
             "base": {},
             "magic": {
@@ -37373,7 +40019,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37400,7 +40049,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37427,7 +40079,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37454,7 +40109,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37481,7 +40139,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37508,7 +40169,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37535,7 +40199,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37562,7 +40229,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37589,7 +40259,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37616,7 +40289,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37643,7 +40319,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37670,7 +40349,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -37697,7 +40379,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5948,
             "base": {},
             "magic": {
@@ -37735,7 +40420,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5947,
             "base": {},
             "magic": {
@@ -37773,7 +40461,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5946,
             "base": {},
             "magic": {
@@ -37811,7 +40502,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5944,
             "base": {},
             "magic": {
@@ -37850,7 +40544,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5943,
             "base": {},
             "magic": {
@@ -37889,7 +40586,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5942,
             "base": {},
             "magic": {
@@ -37928,7 +40628,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5941,
             "base": {},
             "magic": {
@@ -37967,7 +40670,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5940,
             "base": {},
             "magic": {
@@ -38006,7 +40712,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5938,
             "base": {},
             "magic": {
@@ -38045,7 +40754,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5936,
             "base": {},
             "magic": {
@@ -38084,7 +40796,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5934,
             "base": {},
             "magic": {
@@ -38122,7 +40837,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5933,
             "base": {},
             "magic": {
@@ -38160,7 +40878,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5932,
             "base": {},
             "magic": {
@@ -38199,7 +40920,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5931,
             "base": {},
             "magic": {
@@ -38238,7 +40962,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5930,
             "base": {},
             "magic": {
@@ -38277,7 +41004,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5928,
             "base": {},
             "magic": {
@@ -38316,7 +41046,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5926,
             "base": {},
             "magic": {
@@ -38354,7 +41087,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5925,
             "base": {},
             "magic": {
@@ -38392,7 +41128,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5924,
             "base": {},
             "magic": {
@@ -38431,7 +41170,10 @@ EQUIPMENTS = {
             "kind": "外功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5922,
             "base": {},
             "magic": {
@@ -38469,7 +41211,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5920,
             "base": {},
             "magic": {
@@ -38508,7 +41253,10 @@ EQUIPMENTS = {
             "kind": "内功",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5918,
             "base": {},
             "magic": {
@@ -38547,7 +41295,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5884,
             "base": {},
             "magic": {
@@ -38580,7 +41331,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5883,
             "base": {},
             "magic": {
@@ -38613,7 +41367,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5882,
             "base": {},
             "magic": {
@@ -38646,7 +41403,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 22500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5881,
             "base": {},
             "magic": {
@@ -38679,7 +41439,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5878,
             "base": {},
             "magic": {
@@ -38712,7 +41475,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5877,
             "base": {},
             "magic": {
@@ -38745,7 +41511,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5876,
             "base": {},
             "magic": {
@@ -38778,7 +41547,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 5875,
             "base": {},
             "magic": {
@@ -38811,7 +41583,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38838,7 +41613,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38865,7 +41643,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38892,7 +41673,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 21000,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38912,6 +41696,246 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "平皋衣#104499 (20500 破招 无双)": {
+            "id": 104499,
+            "name": "平皋衣",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "agility_base": 918,
+                "physical_attack_power_base": 2085,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛衣#104498 (20500 破招 无双)": {
+            "id": 104498,
+            "name": "淮沛衣",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "strength_base": 918,
+                "physical_attack_power_base": 2085,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉衣#104497 (20500 破招 无双)": {
+            "id": 104497,
+            "name": "玉凉衣",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spunk_base": 918,
+                "magical_attack_power_base": 2319,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝衣#104496 (20500 破招 无双)": {
+            "id": 104496,
+            "name": "樛枝衣",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spirit_base": 918,
+                "magical_attack_power_base": 2319,
+                "surplus_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "surplus_base": 321,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀衣#104472 (20500 破防 无双)": {
+            "id": 104472,
+            "name": "羽缀衣",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "agility_base": 918,
+                "physical_attack_power_base": 2085,
+                "physical_overcome_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌衣#104471 (20500 破防 无双)": {
+            "id": 104471,
+            "name": "夏凌衣",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "strength_base": 918,
+                "physical_attack_power_base": 2085,
+                "physical_overcome_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘衣#104470 (20500 破防 无双)": {
+            "id": 104470,
+            "name": "斛尘衣",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spunk_base": 918,
+                "magical_attack_power_base": 2319,
+                "magical_overcome_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "spunk_base": 41,
+                "all_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春衣#104469 (20500 破防 无双)": {
+            "id": 104469,
+            "name": "熙春衣",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 11255,
+                "spirit_base": 918,
+                "magical_attack_power_base": 2319,
+                "magical_overcome_base": 7674,
+                "strain_base": 6139
+            },
+            "embed": {
+                "spirit_base": 41,
+                "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "润源衣#104144 (20500 加速 无双)": {
             "id": 104144,
             "name": "润源衣",
@@ -38919,7 +41943,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38946,7 +41973,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -38973,7 +42003,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39000,7 +42033,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39027,7 +42063,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39054,7 +42093,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39081,7 +42123,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39108,7 +42153,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39135,7 +42183,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39162,7 +42213,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39189,7 +42243,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39216,7 +42273,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39243,7 +42303,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39270,7 +42333,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39297,7 +42363,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39324,7 +42393,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39351,7 +42423,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39378,7 +42453,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39405,7 +42483,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39432,7 +42513,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39459,7 +42543,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39486,7 +42573,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39513,7 +42603,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39540,7 +42633,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 20500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39567,7 +42663,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39594,7 +42693,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39621,7 +42723,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39648,7 +42753,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 18800,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39675,7 +42783,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39702,7 +42813,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39729,7 +42843,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39756,7 +42873,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 17600,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39783,7 +42903,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39810,7 +42933,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39837,7 +42963,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39864,7 +42993,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39891,7 +43023,10 @@ EQUIPMENTS = {
             "kind": "身法",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39918,7 +43053,10 @@ EQUIPMENTS = {
             "kind": "力道",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39945,7 +43083,10 @@ EQUIPMENTS = {
             "kind": "元气",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -39972,7 +43113,10 @@ EQUIPMENTS = {
             "kind": "根骨",
             "level": 16500,
             "max_strength": 6,
-            "special_enchant": 0,
+            "special_enchant": [
+                22151,
+                13
+            ],
             "set_id": 0,
             "base": {},
             "magic": {
@@ -44223,6 +47367,214 @@ EQUIPMENTS = {
             },
             "embed": {
                 "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "平皋坠#42870 (20500 会心 无双)": {
+            "id": 42870,
+            "name": "平皋坠",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛坠#42869 (20500 会心 无双)": {
+            "id": 42869,
+            "name": "淮沛坠",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉坠#42868 (20500 会心 无双)": {
+            "id": 42868,
+            "name": "玉凉坠",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "all_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝坠#42867 (20500 会心 无双)": {
+            "id": 42867,
+            "name": "樛枝坠",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀坠#42854 (20500 加速 无双)": {
+            "id": 42854,
+            "name": "羽缀坠",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌坠#42853 (20500 加速 无双)": {
+            "id": 42853,
+            "name": "夏凌坠",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘坠#42852 (20500 加速 无双)": {
+            "id": 42852,
+            "name": "斛尘坠",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春坠#42851 (20500 加速 无双)": {
+            "id": 42851,
+            "name": "熙春坠",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "spirit_base": 41
             },
             "gains": [],
             "recipes": {},
@@ -48640,6 +51992,198 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 1171,
                 "magical_critical_strike_base": 3874,
                 "strain_base": 3099
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "润源戒#42879 (20500 会心 无双)": {
+            "id": 42879,
+            "name": "润源戒",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁戒#42878 (20500 会心 无双)": {
+            "id": 42878,
+            "name": "辞羁戒",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文戒#42877 (20500 会心 无双)": {
+            "id": 42877,
+            "name": "昭文戒",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "all_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟戒#42876 (20500 会心 无双)": {
+            "id": 42876,
+            "name": "丘墟戒",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_critical_strike_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀戒#42860 (20500 破招 无双)": {
+            "id": 42860,
+            "name": "羽缀戒",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "surplus_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌戒#42859 (20500 破招 无双)": {
+            "id": 42859,
+            "name": "夏凌戒",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "surplus_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘戒#42858 (20500 破招 无双)": {
+            "id": 42858,
+            "name": "斛尘戒",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "surplus_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春戒#42857 (20500 破招 无双)": {
+            "id": 42857,
+            "name": "熙春戒",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "surplus_base": 3837,
+                "strain_base": 3069
             },
             "embed": {},
             "gains": [],
@@ -54403,6 +57947,214 @@ EQUIPMENTS = {
             },
             "embed": {
                 "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "平皋链#42866 (20500 破防 无双)": {
+            "id": 42866,
+            "name": "平皋链",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛链#42865 (20500 破防 无双)": {
+            "id": 42865,
+            "name": "淮沛链",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "physical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉链#42864 (20500 破防 无双)": {
+            "id": 42864,
+            "name": "玉凉链",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝链#42863 (20500 破防 无双)": {
+            "id": 42863,
+            "name": "樛枝链",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "magical_overcome_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "羽缀链#42848 (20500 加速 无双)": {
+            "id": 42848,
+            "name": "羽缀链",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "agility_base": 459,
+                "physical_attack_power_base": 1043,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "夏凌链#42847 (20500 加速 无双)": {
+            "id": 42847,
+            "name": "夏凌链",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "strength_base": 459,
+                "physical_attack_power_base": 1043,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "斛尘链#42846 (20500 加速 无双)": {
+            "id": 42846,
+            "name": "斛尘链",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spunk_base": 459,
+                "magical_attack_power_base": 1159,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "熙春链#42845 (20500 加速 无双)": {
+            "id": 42845,
+            "name": "熙春链",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 5627,
+                "spirit_base": 459,
+                "magical_attack_power_base": 1159,
+                "haste_base": 3837,
+                "strain_base": 3069
+            },
+            "embed": {
+                "strain_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -60289,6 +64041,214 @@ EQUIPMENTS = {
             },
             "embed": {
                 "magical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "润源囊#40933 (20500 加速 无双)": {
+            "id": 40933,
+            "name": "润源囊",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "agility_base": 551,
+                "physical_attack_power_base": 1251,
+                "haste_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "辞羁囊#40932 (20500 加速 无双)": {
+            "id": 40932,
+            "name": "辞羁囊",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "strength_base": 551,
+                "physical_attack_power_base": 1251,
+                "haste_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "昭文囊#40931 (20500 加速 无双)": {
+            "id": 40931,
+            "name": "昭文囊",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "spunk_base": 551,
+                "magical_attack_power_base": 1391,
+                "haste_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "丘墟囊#40930 (20500 加速 无双)": {
+            "id": 40930,
+            "name": "丘墟囊",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "spirit_base": 551,
+                "magical_attack_power_base": 1391,
+                "haste_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "spirit_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "平皋囊#40918 (20500 破防 无双)": {
+            "id": 40918,
+            "name": "平皋囊",
+            "school": "通用",
+            "kind": "身法",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "agility_base": 551,
+                "physical_attack_power_base": 1251,
+                "physical_overcome_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淮沛囊#40917 (20500 破防 无双)": {
+            "id": 40917,
+            "name": "淮沛囊",
+            "school": "通用",
+            "kind": "力道",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "strength_base": 551,
+                "physical_attack_power_base": 1251,
+                "physical_overcome_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "玉凉囊#40916 (20500 破防 无双)": {
+            "id": 40916,
+            "name": "玉凉囊",
+            "school": "通用",
+            "kind": "元气",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "spunk_base": 551,
+                "magical_attack_power_base": 1391,
+                "magical_overcome_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "樛枝囊#40915 (20500 破防 无双)": {
+            "id": 40915,
+            "name": "樛枝囊",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 6753,
+                "spirit_base": 551,
+                "magical_attack_power_base": 1391,
+                "magical_overcome_base": 4604,
+                "strain_base": 3683
+            },
+            "embed": {
+                "magical_attack_power_base": 97
             },
             "gains": [],
             "recipes": {},
@@ -76719,6 +80679,1370 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "映泫扇#40960 (20500 加速 无双)": {
+            "id": 40960,
+            "name": "映泫扇",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_attack_power_base": 97,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "参目弓#40959 (20500 加速 无双)": {
+            "id": 40959,
+            "name": "参目弓",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "撩风刀#40958 (20500 加速 无双)": {
+            "id": 40958,
+            "name": "撩风刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "采蘩卷#40957 (20500 加速 无双)": {
+            "id": 40957,
+            "name": "采蘩卷",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "poison_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_attack_power_base": 97,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "月皓灯#40956 (20500 加速 无双)": {
+            "id": 40956,
+            "name": "月皓灯",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_attack_power_base": 97,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "探幽链刃#40955 (20500 加速 无双)": {
+            "id": 40955,
+            "name": "探幽链刃",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "振溪伞#40954 (20500 加速 无双)": {
+            "id": 40954,
+            "name": "振溪伞",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "虺雷刀#40953 (20500 加速 无双)": {
+            "id": 40953,
+            "name": "虺雷刀",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "归言琴#40952 (20500 加速 无双)": {
+            "id": 40952,
+            "name": "归言琴",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "lunar_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_attack_power_base": 97,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "洪业刀盾#40950 (20500 加速 无双)": {
+            "id": 40950,
+            "name": "洪业刀盾",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "扬砂双刀#40948 (20500 加速 无双)": {
+            "id": 40948,
+            "name": "扬砂双刀",
+            "school": "明教",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "solar_and_lunar_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_attack_power_base": 97,
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "唤渡棒#40947 (20500 加速 无双)": {
+            "id": 40947,
+            "name": "唤渡棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "甘风剑#40945 (20500 加速 无双)": {
+            "id": 40945,
+            "name": "甘风剑",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4133,
+                "weapon_damage_rand": 2755
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "悬叶弩#40944 (20500 加速 无双)": {
+            "id": 40944,
+            "name": "悬叶弩",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "越塘弩#40943 (20500 加速 无双)": {
+            "id": 40943,
+            "name": "越塘弩",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "poison_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "poison_attack_power_base": 97,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "露行笛#40942 (20500 加速 无双)": {
+            "id": 40942,
+            "name": "露行笛",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "poison_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_attack_power_base": 97,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "增冰双剑#40941 (20500 加速 无双)": {
+            "id": 40941,
+            "name": "增冰双剑",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2066,
+                "weapon_damage_rand": 1378
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "lunar_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_attack_power_base": 97,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "泽水剑#40940 (20500 加速 无双)": {
+            "id": 40940,
+            "name": "泽水剑",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4133,
+                "weapon_damage_rand": 2755
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "禄观剑#40939 (20500 加速 无双)": {
+            "id": 40939,
+            "name": "禄观剑",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2066,
+                "weapon_damage_rand": 1378
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_attack_power_base": 97,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雷渊枪#40937 (20500 加速 无双)": {
+            "id": 40937,
+            "name": "雷渊枪",
+            "school": "天策",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "停华笔#40936 (20500 加速 无双)": {
+            "id": 40936,
+            "name": "停华笔",
+            "school": "万花",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_attack_power_base": 97,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "观心棍#40934 (20500 加速 无双)": {
+            "id": 40934,
+            "name": "观心棍",
+            "school": "少林",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "solar_attack_power_base": 6128,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_attack_power_base": 97,
+                "solar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "容雾扇#40914 (20500 破防 无双)": {
+            "id": 40914,
+            "name": "容雾扇",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "neutral_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "群云弓#40913 (20500 破防 无双)": {
+            "id": 40913,
+            "name": "群云弓",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "离北刀#40912 (20500 破防 无双)": {
+            "id": 40912,
+            "name": "离北刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "涤川卷#40910 (20500 破防 无双)": {
+            "id": 40910,
+            "name": "涤川卷",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "poison_attack_power_base": 6128,
+                "poison_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "转月灯#40909 (20500 破防 无双)": {
+            "id": 40909,
+            "name": "转月灯",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "neutral_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "鸿飞链刀#40908 (20500 破防 无双)": {
+            "id": 40908,
+            "name": "鸿飞链刀",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凝漪伞#40907 (20500 破防 无双)": {
+            "id": 40907,
+            "name": "凝漪伞",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "峙岳刀#40906 (20500 破防 无双)": {
+            "id": 40906,
+            "name": "峙岳刀",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "兰泽琴#40904 (20500 破防 无双)": {
+            "id": 40904,
+            "name": "兰泽琴",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "lunar_attack_power_base": 6128,
+                "lunar_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "扶山刀盾#40903 (20500 破防 无双)": {
+            "id": 40903,
+            "name": "扶山刀盾",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4769,
+                "weapon_damage_rand": 3179
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "振野双刀#40902 (20500 破防 无双)": {
+            "id": 40902,
+            "name": "振野双刀",
+            "school": "明教",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "solar_and_lunar_attack_power_base": 6128,
+                "solar_and_lunar_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "四隅短棒#40901 (20500 破防 无双)": {
+            "id": 40901,
+            "name": "四隅短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "延陵剑#40899 (20500 破防 无双)": {
+            "id": 40899,
+            "name": "延陵剑",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4133,
+                "weapon_damage_rand": 2755
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蒙楚弩#40898 (20500 破防 无双)": {
+            "id": 40898,
+            "name": "蒙楚弩",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "半岩弩#40897 (20500 破防 无双)": {
+            "id": 40897,
+            "name": "半岩弩",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3179,
+                "weapon_damage_rand": 2119
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "poison_attack_power_base": 6128,
+                "poison_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "垂影笛#40895 (20500 破防 无双)": {
+            "id": 40895,
+            "name": "垂影笛",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "poison_attack_power_base": 6128,
+                "poison_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "兰沚双剑#40893 (20500 破防 无双)": {
+            "id": 40893,
+            "name": "兰沚双剑",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2066,
+                "weapon_damage_rand": 1378
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "lunar_attack_power_base": 6128,
+                "lunar_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "织寒剑#40892 (20500 破防 无双)": {
+            "id": 40892,
+            "name": "织寒剑",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4133,
+                "weapon_damage_rand": 2755
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "千霄剑#40891 (20500 破防 无双)": {
+            "id": 40891,
+            "name": "千霄剑",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2066,
+                "weapon_damage_rand": 1378
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spirit_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "neutral_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "烛曜枪#40890 (20500 破防 无双)": {
+            "id": 40890,
+            "name": "烛曜枪",
+            "school": "天策",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "聿云笔#40888 (20500 破防 无双)": {
+            "id": 40888,
+            "name": "聿云笔",
+            "school": "万花",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1590,
+                "weapon_damage_rand": 1060
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "neutral_attack_power_base": 6128,
+                "neutral_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "真妄棍#40887 (20500 破防 无双)": {
+            "id": 40887,
+            "name": "真妄棍",
+            "school": "少林",
+            "kind": "内功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "spunk_base": 1102,
+                "solar_attack_power_base": 6128,
+                "solar_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "汎舟扇#40613 (20500 会心 无双)": {
             "id": 40613,
             "name": "汎舟扇",
@@ -88779,6 +94103,68 @@ EQUIPMENTS = {
                 "physical_critical_power_base": 321,
                 "physical_critical_strike_base": 321,
                 "agility_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "隐华重剑#40946 (20500 加速 无双)": {
+            "id": 40946,
+            "name": "隐华重剑",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6358,
+                "weapon_damage_rand": 4239
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "haste_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "流安重剑#40900 (20500 破防 无双)": {
+            "id": 40900,
+            "name": "流安重剑",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6358,
+                "weapon_damage_rand": 4239
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "agility_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
