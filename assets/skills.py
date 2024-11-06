@@ -17893,6 +17893,32 @@ SKILLS = {
             3
         ]
     },
+    25201: {
+        "alias_name": "祭湘君目标点伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 210.0,
+        "max_level": 1,
+        "skill_name": "祭湘君",
+        "physical_damage_call": 1,
+        "physical_damage_base": 15,
+        "physical_damage_rand": 1
+    },
+    25202: {
+        "alias_name": "祭湘君亢龙附带额外伤害回蓝",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 100.0,
+        "max_level": 1,
+        "skill_name": "祭湘君",
+        "physical_damage_call": 1,
+        "physical_damage_base": 11,
+        "physical_damage_rand": 1
+    },
     38891: {
         "alias_name": "追远追加伤害",
         "kind_type": "Physics",
