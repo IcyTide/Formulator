@@ -10593,6 +10593,27 @@ BUFFS = {
             5556: 1
         }
     },
+    71259: {
+        "attributes": {
+            "all_damage_addition": 51
+        },
+        "max_level": 1,
+        "buff_name": "堙灭·悟",
+        "alias_name": "移动端_衍天_奇穴4_灯灭增伤",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    71260: {
+        "attributes": {
+            "neutral_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 100
+        },
+        "max_level": 1,
+        "buff_name": "灵灯·悟",
+        "alias_name": "移动端_衍天_奇穴6_内功双会",
+        "max_stack": 1,
+        "recipes": {}
+    },
     20680: {
         "attributes": {
             "magical_attack_power_gain": 154

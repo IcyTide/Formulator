@@ -4,7 +4,8 @@ from base.constant import *
 
 class Attribute(NeutralAttribute):
     attribute_id = {
-        0: 10615
+        0: 10615,
+        1: 101450
     }
 
     spunk_to_neutral_attack_power: int = 0

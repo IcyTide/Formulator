@@ -763,6 +763,46 @@ ATTRIBUTES = {
         "spunk_to_neutral_attack_power": 1976,
         "spunk_to_neutral_critical_strike": 512
     },
+    101450: {
+        "alias_name": "移动端_心法_太玄经",
+        "max_level": 14,
+        "pve_addition_base": 481,
+        "magical_attack_power_base": [
+            10,
+            17,
+            28,
+            40,
+            52,
+            62,
+            74,
+            88,
+            98,
+            318,
+            490,
+            1868,
+            4222,
+            7387
+        ],
+        "neutral_critical_strike_base": [
+            12,
+            21,
+            33,
+            45,
+            57,
+            69,
+            81,
+            92,
+            104,
+            227,
+            599,
+            1088,
+            2390,
+            7347
+        ],
+        "all_shield_ignore": 614,
+        "spunk_to_neutral_attack_power": 1976,
+        "spunk_to_neutral_critical_strike": 512
+    },
     10627: {
         "alias_name": "无方",
         "max_level": 14,
