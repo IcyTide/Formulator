@@ -1391,6 +1391,7 @@ class Skill(Damage):
     event_mask_2: int = 0
 
     pet_count: int = 1
+    key_skill: bool = False
     pet_buffs: dict = None
 
     pre_effects: list = None
@@ -1428,7 +1429,7 @@ class Skill(Damage):
             effect(parser)
 
     def record(self, actual_critical_strike, actual_damage, parser):
-        if self.damage_call:
+        if self.damage_call or self.key_skill:
             self.damage(actual_critical_strike, actual_damage, parser)
         if self.bind_dots:
             self.dot_add(parser)

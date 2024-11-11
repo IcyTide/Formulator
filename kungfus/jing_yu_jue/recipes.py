@@ -21,6 +21,20 @@ class 唐门_穿心弩_加伤害2(ChannelIntervalRecipe):
     value = 1.1
 
 
+class 神机读条变快(SkillRecipe):
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 3096 or skill.skill_id == 18801:
+            skill.prepare_frame_add -= 32
+        else:
+            skill.prepare_frame_add -= 8
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 3096 or skill.skill_id == 18801:
+            skill.prepare_frame_add += 32
+        else:
+            skill.prepare_frame_add += 8
+
+
 class 夺魄箭_加会心会伤(PhysicalCriticalRecipe):
     value = (1000, 100)
 
@@ -105,6 +119,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         唐门_穿心弩_加伤害2: {
             860: {}
+        },
+        神机读条变快: {
+            2897: {}, 2898: {}, 2899: {}
         },
         夺魄箭_加会心会伤: {
             1200: {}

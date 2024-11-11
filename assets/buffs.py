@@ -9142,6 +9142,18 @@ BUFFS = {
         "max_stack": 5,
         "recipes": {}
     },
+    22750: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "窥影",
+        "alias_name": "神机锁定自身增益",
+        "max_stack": 1,
+        "recipes": {
+            2897: 1,
+            2898: 1,
+            2899: 1
+        }
+    },
     15945: {
         "attributes": {},
         "max_level": 1,

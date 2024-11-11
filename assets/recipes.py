@@ -2956,6 +2956,24 @@ RECIPES = {
             "recipe_name": "《百步穿杨·穿心弩》参悟断篇"
         }
     },
+    2897: {
+        1: {
+            "recipe_type": 3096,
+            "recipe_name": "神机锁定追命增强"
+        }
+    },
+    2898: {
+        1: {
+            "recipe_type": 3095,
+            "recipe_name": "神机锁定夺魄增强"
+        }
+    },
+    2899: {
+        1: {
+            "recipe_type": 3098,
+            "recipe_name": "神机锁定穿心增强"
+        }
+    },
     1200: {
         1: {
             "skill_id": 3095,

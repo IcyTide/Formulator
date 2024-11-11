@@ -14237,6 +14237,16 @@ SKILLS = {
         "max_level": 1,
         "skill_name": "神机锁定"
     },
+    3094: {
+        "alias_name": "心无旁骛",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1,
+        "skill_name": "心无旁骛"
+    },
     3125: {
         "alias_name": "化血镖_外功",
         "kind_type": "Physics",

@@ -250,7 +250,7 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (22151, i + 1): 大附魔衣(i + 1)
-        for i in range(13)
+        for i in range(GENERAL_SKILLS[22151].max_level)
     },
     **{
         tuple(gain_key): 大附魔腰()
