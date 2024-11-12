@@ -5,9 +5,9 @@ from base.skill import Skill
 
 class 击水加成(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        parser.refresh_target_buff(70188, 30)
+        parser.refresh_target_buff(70188, 20)
         super().record(actual_critical_strike, actual_damage, parser)
-        parser.refresh_target_buff(70188, 30, -1)
+        parser.refresh_target_buff(70188, 20, -1)
 
 
 class 逐波加成(Skill):

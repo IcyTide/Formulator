@@ -50,12 +50,12 @@ class 征踏(Gain):
 class 裁魂(Gain):
     @staticmethod
     def pre_effect(parser):
-        if 70454 in parser.current_target_buff_stacks:
+        if parser.current_target_buff_stacks[70454].get(1):
             parser.refresh_target_buff(70188, 20)
 
     @staticmethod
     def post_effect(parser):
-        if 70454 in parser.current_target_buff_stacks:
+        if parser.current_target_buff_stacks[70454].get(1):
             parser.refresh_target_buff(70188, 20, -1)
 
     def add_skills(self, skills: Dict[int, Skill]):

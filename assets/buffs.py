@@ -8979,6 +8979,32 @@ BUFFS = {
             }
         ]
     },
+    70899: {
+        "attributes": {
+            "physical_critical_power_rate": 10
+        },
+        "max_level": 1,
+        "buff_name": "澜江·悟",
+        "alias_name": "移动端_藏剑_龙池增伤效果",
+        "max_stack": 10,
+        "recipes": {}
+    },
+    70271: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "听雷·悟·绝篇",
+        "alias_name": "移动端_听雷秘籍_轻剑增伤",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    70953: {
+        "attributes": {},
+        "max_level": 3,
+        "buff_name": "闻踪·悟",
+        "alias_name": "移动端_藏剑_闻踪效果",
+        "max_stack": 1,
+        "recipes": {}
+    },
     2543: {
         "attributes": [
             {
