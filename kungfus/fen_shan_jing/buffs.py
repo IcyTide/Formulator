@@ -12,5 +12,10 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             26212: dict(begin_target_buffs={8248: {1: 1}}),
             9052: dict(buff_name="绝刀增伤", begin_frame_shift=-2),
         }
+    },
+    1: {
+        Buff: {
+            70382: {}, 71320: {}, 71321: {}, 71095: {},
+        }
     }
 }

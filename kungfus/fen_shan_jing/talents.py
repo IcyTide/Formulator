@@ -44,5 +44,19 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             30769: Gain("阵云结晦"),
             32619: Gain("祭血关山")
         }
+    ],
+    1: [
+        {
+            101245: Gain("血狱", attributes=dict(physical_critical_strike_rate=500))
+        },
+        {
+            101248: Gain("陷阵")
+        },
+        {
+            101249: Gain("碎甲")
+        },
+        {
+            102040: Gain("祭血关山")
+        }
     ]
 }

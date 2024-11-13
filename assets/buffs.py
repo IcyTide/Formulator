@@ -9960,6 +9960,47 @@ BUFFS = {
             }
         ]
     },
+    70382: {
+        "attributes": {
+            "physical_damage_addition": 154
+        },
+        "max_level": 1,
+        "buff_name": "擎刀",
+        "alias_name": "移动端_苍云_刀姿标记",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    71320: {
+        "attributes": {
+            "physical_damage_addition": 31
+        },
+        "max_level": 1,
+        "buff_name": "血怒·悟",
+        "alias_name": "移动端_苍云_血怒",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    71321: {
+        "attributes": {
+            "physical_damage_addition": 51
+        },
+        "max_level": 1,
+        "buff_name": "血怒·悟",
+        "alias_name": "移动端_苍云_增强血怒",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    71095: {
+        "attributes": {
+            "physical_critical_strike_rate": 300,
+            "physical_critical_power_rate": 30
+        },
+        "max_level": 1,
+        "buff_name": "恋战·悟",
+        "alias_name": "移动端_分山_奇穴_流血加双会",
+        "max_stack": 3,
+        "recipes": {}
+    },
     9437: {
         "attributes": {
             "lunar_attack_power_gain": 102
@@ -10650,6 +10691,14 @@ BUFFS = {
         "buff_name": "灵灯·悟",
         "alias_name": "移动端_衍天_奇穴6_内功双会",
         "max_stack": 1,
+        "recipes": {}
+    },
+    71232: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "明灯",
+        "alias_name": "移动端_列宿游_明灯标记",
+        "max_stack": 9,
         "recipes": {}
     },
     20680: {

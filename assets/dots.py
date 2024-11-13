@@ -1155,6 +1155,19 @@ DOTS = {
         ],
         "physical_damage_call": 1
     },
+    70402: {
+        "buff_name": "流血(DOT)",
+        "alias_name": "移动端_苍云_流血",
+        "interval": 32,
+        "tick": 8,
+        "max_stack": [
+            1,
+            3
+        ],
+        "platform": 1,
+        "damage_base": 5,
+        "physical_damage_call": 1
+    },
     9357: {
         "buff_name": "商(DOT)",
         "alias_name": "商正常dot",

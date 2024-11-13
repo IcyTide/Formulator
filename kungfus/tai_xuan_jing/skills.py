@@ -8,6 +8,18 @@ class 兵主逆绝篇(Skill):
     neutral_critical_power_rate_add = 205
 
 
+class 列宿游(Skill):
+    damage_cof: int = 5
+
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if buff_stack := parser.current_buff_stacks[71232].get(1):
+            parser.refresh_target_buff(70188, self.damage_cof * buff_stack)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, self.damage_cof * buff_stack, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
@@ -20,10 +32,13 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     },
     1: {
         Skill: {
-            101497: {}, 101466: {}, 102205: {}, 102247: {}, 102248: {}, 102249: {}, 102238: {}, 101467: {}, 102265: {},
+            101497: {}, 101466: {}, 102205: {}, 102247: {}, 102249: {}, 102238: {}, 101467: {}, 102265: {},
         },
         兵主逆绝篇: {
             101481: {}
+        },
+        列宿游: {
+            102248: {}
         }
     }
 }

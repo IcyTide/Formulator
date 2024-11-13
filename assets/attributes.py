@@ -616,6 +616,45 @@ ATTRIBUTES = {
             4696
         ]
     },
+    101024: {
+        "alias_name": "移动端_心法_分山劲",
+        "max_level": 14,
+        "pve_addition_base": 492,
+        "agility_to_physical_attack_power": 1925,
+        "physical_attack_power_base": [
+            8,
+            14,
+            22,
+            32,
+            43,
+            51,
+            61,
+            72,
+            80,
+            260,
+            400,
+            1526,
+            3449,
+            6513
+        ],
+        "all_shield_ignore": 614,
+        "physical_overcome_base": [
+            7,
+            13,
+            20,
+            28,
+            35,
+            43,
+            50,
+            57,
+            65,
+            143,
+            370,
+            694,
+            1526,
+            4696
+        ]
+    },
     10447: {
         "alias_name": "莫问",
         "max_level": 14,

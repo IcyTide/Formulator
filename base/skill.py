@@ -100,6 +100,8 @@ class BaseDamage(BaseSkill):
     _pve_addition: List[int] = []
     pve_addition_add: int = 0
 
+    damage_cof_add: int = 0
+
     physical_attack_power_base: List[int] = []
     magical_attack_power_base: List[int] = []
 
@@ -279,10 +281,12 @@ class BaseDamage(BaseSkill):
     def pre_damage(self, attribute):
         attribute.all_damage_addition += self.damage_addition
         attribute.pve_addition_base += self.pve_addition
+        attribute.target.all_damage_cof += self.damage_cof_add
 
     def post_damage(self, attribute):
         attribute.all_damage_addition -= self.damage_addition
         attribute.pve_addition_base -= self.pve_addition
+        attribute.target.all_damage_cof -= self.damage_cof_add
 
 
 class PhysicalDamage(BaseDamage):
