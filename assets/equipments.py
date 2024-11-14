@@ -78442,7 +78442,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·乘渚扇#39061 (22500 破招 无双)": {
+        "寻踪觅宝·乘渚扇#39061 (22500 特效 破招 无双)": {
             "id": 39061,
             "name": "寻踪觅宝·乘渚扇",
             "school": "段氏",
@@ -78467,7 +78467,11 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    1194
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -79275,7 +79279,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·群殊扇#39029 (21000 破招 无双)": {
+        "寻踪觅宝·群殊扇#39029 (21000 特效 破招 无双)": {
             "id": 39029,
             "name": "寻踪觅宝·群殊扇",
             "school": "段氏",
@@ -79300,7 +79304,11 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "neutral_overcome_base": 321
             },
-            "gains": [],
+            "gains": [
+                [
+                    1194
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},

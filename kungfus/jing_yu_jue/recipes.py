@@ -56,15 +56,15 @@ class 唐门_天罗_暴雨梨花针减CD(PhysicalCriticalRecipe):
 
 
 class 蹑景追风120非侠士效果(PveAdditionRecipe):
-    value = 819
+    value = 512
 
 
 class 蹑景追风80非侠士效果(PveAdditionRecipe):
-    value = 666
+    value = 461
 
 
 class 蹑景追风60非侠士效果(PveAdditionRecipe):
-    value = 512
+    value = 410
 
 
 class 穿林打叶伤害修正(ChannelIntervalRecipe):

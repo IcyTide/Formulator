@@ -7538,7 +7538,7 @@ RECIPES = {
     },
     3147: {
         1: {
-            "damage_addition": 82,
+            "damage_addition": 51,
             "skill_id": 32145,
             "recipe_type": 32145,
             "recipe_name": "孤锋破浪伤害提高"
@@ -7546,7 +7546,7 @@ RECIPES = {
     },
     5355: {
         1: {
-            "damage_addition": 82,
+            "damage_addition": 51,
             "skill_id": 32144,
             "recipe_type": 32144,
             "recipe_name": "横云断浪15%"
@@ -7554,7 +7554,7 @@ RECIPES = {
     },
     5356: {
         1: {
-            "damage_addition": 82,
+            "damage_addition": 51,
             "skill_id": 32601,
             "recipe_type": 32601,
             "recipe_name": "沧浪三叠15%"
