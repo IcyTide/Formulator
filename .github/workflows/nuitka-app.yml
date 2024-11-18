@@ -27,7 +27,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pyside6==6.7.2
-    - uses: Nuitka/Nuitka-Action@main
+    - uses: Nuitka/Nuitka-Action@v1.1
       with:
         nuitka-version: 2.3.11
         script-name: qt/app.py

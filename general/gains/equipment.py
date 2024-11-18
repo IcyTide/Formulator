@@ -212,13 +212,11 @@ class ShoesGain(EquipmentGain):
 class OvercomeShoesGain(ShoesGain):
     buff_ids = [29526]
     _attributes = GENERAL_BUFFS[29526].all_attributes
-    rate = 10 / 20
 
 
 class CriticalShoesGain(ShoesGain):
     buff_ids = [29524]
     _attributes = GENERAL_BUFFS[29524].all_attributes
-    rate = 10 / 20
 
 
 def set_real_formulation(tag):

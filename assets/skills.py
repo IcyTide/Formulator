@@ -9498,7 +9498,7 @@ SKILLS = {
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
-        "channel_interval": 252.0,
+        "channel_interval": 378.0,
         "max_level": 1,
         "skill_name": "击水",
         "physical_damage_call": 1,
@@ -34861,6 +34861,7 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 704.0,
         "max_level": 1,
+        "skill_name": "纷飙",
         "neutral_damage_base": 20,
         "neutral_damage_call": 1
     },
