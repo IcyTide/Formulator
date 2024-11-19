@@ -19328,15 +19328,6 @@ SKILLS = {
         "physical_damage_base": 100,
         "physical_damage_rand": 20
     },
-    100774: {
-        "alias_name": "移动端_时乘六龙",
-        "kind_type": "Physics",
-        "platform": 1,
-        "recipe_type": 100774,
-        "recipe_mask": 68,
-        "max_level": 1,
-        "skill_name": "时乘六龙·悟"
-    },
     100776: {
         "alias_name": "移动端_龙啸九天",
         "kind_type": "Physics",
@@ -19345,6 +19336,18 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "龙啸九天·悟"
+    },
+    102331: {
+        "alias_name": "移动端_时乘六龙_伤害",
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 100774,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "时乘六龙·悟",
+        "physical_damage_call": 1,
+        "physical_damage_base": 1,
+        "skill_cof": 154
     },
     101960: {
         "alias_name": "移动端_天下无狗_伤害",
@@ -19371,6 +19374,46 @@ SKILLS = {
         "physical_surplus_call": 1,
         "skill_cof": 504,
         "surplus_cof": 1935
+    },
+    100773: {
+        "alias_name": "移动端_恶狗拦路",
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "恶狗拦路·悟",
+        "physical_damage_call": 1,
+        "physical_damage_base": 1,
+        "skill_cof": 359
+    },
+    100821: {
+        "alias_name": "移动端_恶狗拦路_追加技1",
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "max_level": 1,
+        "skill_name": "恶狗拦路·悟",
+        "physical_damage_call": 1,
+        "physical_damage_base": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 360,
+        "surplus_cof": 1382
+    },
+    100775: {
+        "alias_name": "移动端_蜀犬吠日",
+        "kind_type": "Physics",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "蜀犬吠日·悟",
+        "physical_damage_call": 1,
+        "physical_damage_base": 1,
+        "physical_surplus_call": 1,
+        "skill_cof": 909,
+        "surplus_cof": 3490
     },
     100664: {
         "alias_name": "移动端_拨狗朝天_追加技1",

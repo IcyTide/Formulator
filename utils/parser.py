@@ -194,19 +194,19 @@ class BaseParser:
             if buff.interval > 0:
                 self.current_buff_intervals[buff_id] = {buff_level: self.current_frame + buff.interval + 1}
         else:
-            self.current_buff_stacks.pop(buff_id, None)
-            self.current_buff_intervals.pop(buff_id, None)
+            self.current_buff_stacks[buff_id].pop(buff_level, None)
+            self.current_buff_intervals[buff_id].pop(buff_level, None)
 
     def refresh_target_buff(self, buff_id, buff_level, buff_stack=1):
         buff, buff.buff_level = self.current_kungfu.buffs[buff_id], buff_level
         stack = max(min(self.current_target_buff_stacks[buff_id].get(buff_level, 0) + buff_stack, buff.max_stack), 0)
         if stack:
-            self.current_target_buff_stacks[buff_id] = {buff_level: stack}
+            self.current_target_buff_stacks[buff_id][buff_level] = stack
             if buff.interval:
                 self.current_target_buff_intervals[buff_id] = {buff_level: self.current_frame + buff.interval + 1}
         else:
-            self.current_target_buff_stacks.pop(buff_id, None)
-            self.current_target_buff_intervals.pop(buff_id, None)
+            self.current_target_buff_stacks[buff_id].pop(buff_level, None)
+            self.current_target_buff_intervals[buff_id].pop(buff_level, None)
 
     def clear_buff(self, buff_id, buff_level=None):
         if buff_level:
