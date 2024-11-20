@@ -192,7 +192,7 @@ class OvercomeNecklaceGain(NecklaceGain):
     buff_ids = [29529]
 
     def add_attribute(self, attribute: Attribute):
-        self.rate = int(attribute.max_overcome_base / self.scale)
+        self.rate = min(int(attribute.max_overcome_base / self.scale), GENERAL_BUFFS[29529].max_stack)
         super().add_attribute(attribute)
 
 
@@ -201,7 +201,7 @@ class CriticalNecklaceGain(NecklaceGain):
     buff_ids = [29528]
 
     def add_attribute(self, attribute: Attribute):
-        self.rate = int(attribute.max_critical_strike_base / self.scale)
+        self.rate = min(int(attribute.max_critical_strike_base / self.scale), GENERAL_BUFFS[29528].max_stack)
         super().add_attribute(attribute)
 
 

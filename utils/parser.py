@@ -192,7 +192,7 @@ class BaseParser:
         if stack:
             self.current_buff_stacks[buff_id][buff_level] = stack
             if buff.interval > 0:
-                self.current_buff_intervals[buff_id] = {buff_level: self.current_frame + buff.interval + 1}
+                self.current_buff_intervals[buff_id][buff_level] = self.current_frame + buff.interval + 1
         else:
             self.current_buff_stacks[buff_id].pop(buff_level, None)
             self.current_buff_intervals[buff_id].pop(buff_level, None)
@@ -203,7 +203,7 @@ class BaseParser:
         if stack:
             self.current_target_buff_stacks[buff_id][buff_level] = stack
             if buff.interval:
-                self.current_target_buff_intervals[buff_id] = {buff_level: self.current_frame + buff.interval + 1}
+                self.current_target_buff_intervals[buff_id][buff_level] = self.current_frame + buff.interval + 1
         else:
             self.current_target_buff_stacks[buff_id].pop(buff_level, None)
             self.current_target_buff_intervals[buff_id].pop(buff_level, None)
@@ -459,6 +459,8 @@ class Parser(BaseParser):
 
     @staticmethod
     def filter_buff(buff, damage):
+        if not damage.damage_call:
+            return False
         if buff.recipes:
             return True
         if buff.attributes:
