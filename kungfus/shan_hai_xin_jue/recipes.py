@@ -54,7 +54,7 @@ class 饮雨簇无视防御(PhysicalShieldGainRecipe):
 
 
 class 万灵CW劲风簇伤害提高10(ChannelIntervalRecipe):
-    value = 1.1
+    value = 1.3
 
     def add_skill(self, skill: Skill):
         if skill.skill_id == 35866 or skill.skill_id == 36453:

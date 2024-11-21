@@ -2,21 +2,42 @@ from typing import Dict, List
 
 from base.gain import Gain
 from base.skill import Skill
-from kungfus.xiao_chen_jue.skills import 刚健加成
 
 
 class 刚健(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
+            skills[skill_id].pre_target_buffs[70188] = {15: 1}
+            skills[skill_id].post_target_buffs[70188] = {15: -1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
+            skills[skill_id].pre_target_buffs[70188].pop(15)
+            skills[skill_id].post_target_buffs[70188].pop(15)
+
+
+class 载物(Gain):
+    @staticmethod
+    def pre_effect(parser):
+        if parser.current_buff_stacks[70221].get(1) and not any(parser.current_buff_stacks[70167]):
+            parser.refresh_buff(70161, 10)
+            parser.refresh_buff(70167, 10)
+
+    @staticmethod
+    def post_effect(parser):
+        if parser.current_buff_stacks[70221].get(1) and any(parser.current_buff_stacks[70167]):
+            parser.refresh_buff(70161, 10, -1)
+            parser.refresh_buff(70167, 10, -1)
+
+    def add_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():
-            if isinstance(skill, 刚健加成):
-                skill.pre_target_buffs[70188] = {15: 1}
-                skill.post_target_buffs[70188] = {15: -1}
+            skill.pre_effects.append(self.pre_effect)
+            skill.post_effects.append(self.post_effect)
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():
-            if isinstance(skill, 刚健加成):
-                skill.pre_target_buffs[70188].pop(15)
-                skill.post_target_buffs[70188].pop(15)
+            skill.pre_effects.remove(self.pre_effect)
+            skill.post_effects.remove(self.post_effect)
 
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
@@ -70,13 +91,14 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     ],
     1: [
         {
-            100849: 刚健("刚健")
+            100849: 刚健("刚健"),
+            100850: Gain("无妄", recipes=[(recipe_id, 1) for recipe_id in range(17233, 17237 + 1)])
         },
         {
             100852: Gain("利涉", attributes=dict(physical_critical_power_rate=100))
         },
         {
-            100853: Gain("载物")
+            100853: 载物("载物")
         },
         {
             100825: Gain("天下无狗")

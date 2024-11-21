@@ -841,7 +841,7 @@ RECIPES = {
     },
     5758: {
         1: {
-            "damage_addition": 717,
+            "damage_addition": 307,
             "skill_id": 2699,
             "recipe_type": 2699,
             "recipe_name": "橙武八荒增伤"
@@ -4196,6 +4196,41 @@ RECIPES = {
         1: {
             "recipe_mask": 3,
             "recipe_name": "【小橙武】【傍身招式】会心提高3%（拨狗朝天+蛟龙翻江）"
+        }
+    },
+    17233: {
+        1: {
+            "skill_id": 100819,
+            "recipe_type": 100819,
+            "recipe_name": "移动端_笑尘决_奇穴1-2_掌法_蛟龙翻江"
+        }
+    },
+    17234: {
+        1: {
+            "skill_id": 100660,
+            "recipe_type": 100660,
+            "recipe_name": "移动端_笑尘决_奇穴1-2_掌法_亢龙有悔"
+        }
+    },
+    17235: {
+        1: {
+            "skill_id": 100774,
+            "recipe_type": 100774,
+            "recipe_name": "移动端_笑尘决_奇穴1-2_掌法_时乘六龙"
+        }
+    },
+    17236: {
+        1: {
+            "skill_id": 100776,
+            "recipe_type": 100776,
+            "recipe_name": "移动端_笑尘决_奇穴1-2_掌法_龙啸九天"
+        }
+    },
+    17237: {
+        1: {
+            "skill_id": 100824,
+            "recipe_type": 100824,
+            "recipe_name": "移动端_笑尘决_奇穴1-2_掌法_神龙降世"
         }
     },
     1830: {

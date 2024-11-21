@@ -1,5 +1,10 @@
 from general.recipes import *
 
+
+class 移动端_笑尘决_奇穴1_2_会心率增加(CriticalStrikeRecipe):
+    value = 1500
+
+
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -52,6 +57,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_306: {
             17442: {}
+        },
+        移动端_笑尘决_奇穴1_2_会心率增加: {
+            recipe_id: {} for recipe_id in range(17233, 17237 + 1)
         }
     }
 }

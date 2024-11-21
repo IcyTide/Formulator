@@ -3882,7 +3882,7 @@ BUFFS = {
             "风语·上品长恨散",
             "风语·中品玉璃散",
             "风语·中品破秽散",
-            "风语·上中品凝神散",
+            "风语·中品凝神散",
             "风语·中品活气散",
             "风语·中品亢龙散",
             "风语·中品展凤散",
@@ -9632,7 +9632,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 72
+            "pve_addition_base": 133
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -10185,6 +10185,13 @@ BUFFS = {
         "attributes": {},
         "max_level": 1,
         "alias_name": "移动端_丐帮_竹林内标记_自身",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    70889: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "移动端_蛟龙翻江_秘籍1_贰式后标记",
         "max_stack": 1,
         "recipes": {}
     },
@@ -11231,6 +11238,15 @@ BUFFS = {
             5555: 1,
             5556: 1
         }
+    },
+    29835: {
+        "attributes": {
+            "strain_gain": 72
+        },
+        "max_level": 1,
+        "alias_name": "衍天无双叠加",
+        "max_stack": 3,
+        "recipes": {}
     },
     71259: {
         "attributes": {

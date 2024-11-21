@@ -11,23 +11,7 @@ class 御鸿于天(Skill):
             parser.current_dot_stacks.pop(dot_id, None)
 
 
-class 载物加成(Skill):
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_buff_stacks[70221].get(1) and not any(parser.current_buff_stacks[70167]):
-            parser.refresh_buff(70161, 10)
-            parser.refresh_buff(70167, 10)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_buff(70161, 10, -1)
-            parser.refresh_buff(70167, 10, -1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-
-
-class 刚健加成(载物加成):
-    pass
-
-
-class 拨狗朝天(刚健加成):
+class 拨狗朝天秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks[70221].get(1):
             parser.refresh_target_buff(70188, 50)
@@ -37,12 +21,12 @@ class 拨狗朝天(刚健加成):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-class 时乘六龙(刚健加成):
+class 蛟龙翻江秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if not parser.current_buff_stacks[70161].get(15):
-            parser.refresh_buff(70161, 15)
+        if parser.current_buff_stacks[70889].get(1):
+            parser.refresh_target_buff(70188, 20)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_buff(70161, 15, -1)
+            parser.refresh_target_buff(70188, 20, -1)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
 
@@ -63,18 +47,15 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         }
     },
     1: {
-        载物加成: {
-            100776: {}
-        },
-        刚健加成: {
+        Skill: {
             101960: {}, 100662: {}, 100773: {}, 100821: {},
             100775: dict(damage_addition_add=51)
         },
-        时乘六龙: {
-            102331: {}
-        },
-        拨狗朝天: {
+        拨狗朝天秘章: {
             100664: {}, 100653: {}
+        },
+        蛟龙翻江秘章: {
+            102332: {}, 100819: {}, 100820: {}, 102331: {}
         }
     }
 }

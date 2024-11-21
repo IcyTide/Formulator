@@ -237,7 +237,7 @@ ATTRIBUTES = {
     100410: {
         "alias_name": "移动端_心法_冰心诀",
         "max_level": 14,
-        "pve_addition_base": 399,
+        "pve_addition_base": 430,
         "all_shield_ignore": 614,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
@@ -784,7 +784,7 @@ ATTRIBUTES = {
     101090: {
         "alias_name": "移动端_心法_凌海决",
         "max_level": 14,
-        "pve_addition_base": 358,
+        "pve_addition_base": 410,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
         "physical_critical_strike_base": [
