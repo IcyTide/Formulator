@@ -3,7 +3,6 @@ from typing import Dict, List
 from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
-from kungfus.shan_hai_xin_jue.skills import 射日加成, 白泽加成
 
 
 class 孰湖(Gain):
@@ -44,42 +43,52 @@ class 朱厌(Gain):
 
 class 射日(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 射日加成):
-                skill.pre_target_buffs[70188] = {25: 1}
-                skill.post_target_buffs[70188] = {25: -1}
+        for skill_id in (102019, 102018, 102037, 102027, 101998, 102035, 102211):
+            skills[skill_id].pre_target_buffs[70188] = {25: 1}
+            skills[skill_id].post_target_buffs[70188] = {25: -1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 射日加成):
-                skill.pre_target_buffs[70188].pop(25)
-                skill.post_target_buffs[70188].pop(25)
+        for skill_id in (102019, 102018, 102037, 102027, 101998, 102035, 102211):
+            skills[skill_id].pre_target_buffs[70188].pop(25)
+            skills[skill_id].post_target_buffs[70188].pop(25)
 
 
 class 白泽(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 白泽加成):
-                skill.pre_target_buffs[70188] = {30: 1}
-                skill.post_target_buffs[70188] = {30: -1}
+        for skill_id in range(102028, 102033):
+            skills[skill_id].pre_target_buffs[70188] = {30: 1}
+            skills[skill_id].post_target_buffs[70188] = {30: -1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 白泽加成):
-                skill.pre_target_buffs[70188].pop(30)
-                skill.post_target_buffs[70188].pop(30)
+        for skill_id in range(102028, 102033):
+            skills[skill_id].pre_target_buffs[70188].pop(30)
+            skills[skill_id].post_target_buffs[70188].pop(30)
 
 
 class 偕行(Gain):
+    @staticmethod
+    def pre_effect(parser):
+        if parser.current_target_buff_stacks[71182].get(1):
+            parser.refresh_target_buff(70188, 20)
+
+    @staticmethod
+    def post_effect(parser):
+        if parser.current_target_buff_stacks[71182].get(1):
+            parser.refresh_target_buff(70188, 20, -1)
+
     def add_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 白泽加成):
-                skill.post_target_buffs[71182] = {1: 1}
+        for skill_id in (102019, 102018, 102037, 102027, 101998, 102035, 102211):
+            skills[skill_id].pre_effects.append(self.pre_effect)
+            skills[skill_id].post_effects.append(self.post_effect)
+        for skill_id in range(102028, 102033):
+            skills[skill_id].post_target_buffs[71182] = {1: 1}
 
     def sub_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 白泽加成):
-                skill.post_target_buffs.pop(71182)
+        for skill_id in (102019, 102018, 102037, 102027, 101998, 102035, 102211):
+            skills[skill_id].pre_effects.remove(self.pre_effect)
+            skills[skill_id].post_effects.remove(self.post_effect)
+        for skill_id in range(102028, 102033):
+            skills[skill_id].post_target_buffs.pop(71182)
 
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {

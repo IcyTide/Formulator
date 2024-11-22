@@ -202,7 +202,7 @@ class BuffAnalyzer(BaseAnalyzer):
         elif isinstance(damage, PetSkill):
             display_current_buffs, display_snapshot_buffs = self.add_buffs_pet(current_buffs, snapshot_buffs, damage)
         else:
-            display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, [], damage)
+            display_current_buffs, display_snapshot_buffs = self.add_buffs_all(current_buffs, snapshot_buffs, damage)
 
         display_target_buffs = self.add_buffs_target(target_buffs)
         return display_current_buffs, display_snapshot_buffs, display_target_buffs
@@ -242,7 +242,7 @@ class BuffAnalyzer(BaseAnalyzer):
         elif isinstance(damage, PetSkill):
             self.sub_buffs_pet(current_buffs, snapshot_buffs, damage)
         else:
-            self.sub_buffs_all(current_buffs, [], damage)
+            self.sub_buffs_all(current_buffs, snapshot_buffs, damage)
         self.sub_buffs_target(target_buffs)
 
     @staticmethod
