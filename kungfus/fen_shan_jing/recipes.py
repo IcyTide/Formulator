@@ -19,6 +19,10 @@ class 绝刀怒气消耗伤害提高(ChannelIntervalRecipe):
         return self.values[self.recipe_id]
 
 
+class 登锋_加流血dot伤害(ChannelIntervalRecipe):
+    value = 1.7
+
+
 class 绝刀加会心(PhysicalCriticalRecipe):
     value = (1500, 200)
 
@@ -77,6 +81,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         绝刀怒气消耗伤害提高: {
             2004: {}, 2006: {}, 2007: {}, 2008: {}, 4918: {}, 4919: {}, 4920: {}, 4921: {}, 5725: {},
+        },
+        登锋_加流血dot伤害: {
+            5562: {}
         },
         绝刀加会心: {
             1823: {}

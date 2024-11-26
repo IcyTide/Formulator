@@ -4583,6 +4583,12 @@ RECIPES = {
             "recipe_name": "怒气上限额外加成"
         }
     },
+    5562: {
+        1: {
+            "recipe_type": 13308,
+            "recipe_name": "登锋流血+100"
+        }
+    },
     1823: {
         1: {
             "recipe_type": 13055,

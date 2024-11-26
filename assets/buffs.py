@@ -10474,14 +10474,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    26212: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "麟黯",
-        "alias_name": "业火麟光_麟黯",
-        "max_stack": 1,
-        "recipes": {}
-    },
     9052: {
         "attributes": {},
         "max_level": 9,
