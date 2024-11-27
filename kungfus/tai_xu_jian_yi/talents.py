@@ -45,11 +45,11 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5807: Gain("心固", recipes=[(638, 3)])
         },
         {
-            32407: Gain("环月", recipes=[(5722, 1)])
+            32407: Gain("和光", recipes=[(5722, 1)])
         },
         {
             5800: Gain("白虹"),
-            17742: 风逝("风逝"),
+            357: Gain("化三清"),
             38539: Gain("无尤"),
             38540: Gain("浑沦")
         },
@@ -58,7 +58,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             21812: Gain("云中剑")
         },
         {
-            357: Gain("化三清"),
+            17742: 风逝("风逝"),
             36106: Gain("瑞氛"),
             24969: Gain("合虚")
         },
