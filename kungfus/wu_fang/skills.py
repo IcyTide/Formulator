@@ -3,19 +3,7 @@ from typing import Dict
 from base.skill import Skill
 
 
-class 鬼门加成(Skill):
-    talent_activate = False
-
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if self.talent_activate and parser.current_dot_ticks.get(71171):
-            parser.refresh_target_buff(70188, 10)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, 10, -1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-
-
-class 钩吻断肠秘章(鬼门加成):
+class 钩吻断肠秘章(Skill):
     damage_addition_add = 154
 
     def record(self, actual_critical_strike, actual_damage, parser):
@@ -27,7 +15,7 @@ class 钩吻断肠秘章(鬼门加成):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-class 苍棘缚地(鬼门加成):
+class 苍棘缚地(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks[71230].get(1):
             parser.refresh_target_buff(70188, 10)
@@ -52,8 +40,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         }
     },
     1: {
-        鬼门加成: {
-            102159: {}, 102157: {}, 102158: {}, 102164: {},
+        Skill: {
+            102159: {}, 102157: {}, 102158: {}, 102164: {}, 101365: {},
             101417: dict(bind_dots={71171: 1}),
             102163: dict(consume_dots={71171: 0}),
         },

@@ -7802,7 +7802,7 @@ SKILLS = {
         "skill_name": "气剑",
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 80
+        "skill_cof": 96
     },
     100374: {
         "alias_name": "移动端_气场_被引爆",
@@ -7903,7 +7903,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 4,
         "max_level": 1,
-        "dot_cof": 216
+        "dot_cof": 260
     },
     100021: {
         "alias_name": "移动端_吞日月_贰式",
@@ -8942,8 +8942,8 @@ SKILLS = {
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
         "neutral_damage_call": 1,
-        "skill_cof": 175,
-        "surplus_cof": 563
+        "skill_cof": 210,
+        "surplus_cof": 666
     },
     101583: {
         "alias_name": "移动端_南风吐月额外伤害",
@@ -10947,8 +10947,8 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "玳弦急曲·悟",
-        "skill_cof": 315,
-        "surplus_cof": 1004,
+        "skill_cof": 379,
+        "surplus_cof": 1208,
         "lunar_damage_base": 1,
         "lunar_damage_call": 1,
         "lunar_surplus_call": 1
@@ -12170,7 +12170,7 @@ SKILLS = {
         "skill_name": "断潮·悟",
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 240
+        "skill_cof": 216
     },
     100784: {
         "alias_name": "移动端_藏剑_龙池伤害",
@@ -14367,6 +14367,17 @@ SKILLS = {
         "max_level": 1,
         "skill_name": "心无旁骛"
     },
+    3098: {
+        "alias_name": "穿心弩（记得改飞天）",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 3098,
+        "recipe_mask": 0,
+        "channel_interval": 80.0,
+        "max_level": 15,
+        "skill_name": "穿心弩",
+        "prepare_frame": 24.0
+    },
     3125: {
         "alias_name": "化血镖_外功",
         "kind_type": "Physics",
@@ -14413,7 +14424,7 @@ SKILLS = {
             174.44358855000004,
             206.74795680000008,
             239.05232505000004,
-            395.7285110625001
+            750.8948497410938
         ],
         "max_level": 15
     },
@@ -14463,7 +14474,7 @@ SKILLS = {
             174.44358855000004,
             206.74795680000008,
             239.05232505000004,
-            395.7285110625001
+            750.8948497410938
         ],
         "max_level": 15
     },
@@ -20298,7 +20309,7 @@ SKILLS = {
         "alias_name": "血誓第三刀伤害子技能",
         "kind_type": "Physics",
         "platform": 0,
-        "recipe_type": 13055,
+        "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 162.0,
         "max_level": 1,
@@ -23841,8 +23852,8 @@ SKILLS = {
         "physical_damage_call": 1,
         "physical_damage_base": 1,
         "physical_surplus_call": 1,
-        "skill_cof": 381,
-        "surplus_cof": 1894
+        "skill_cof": 420,
+        "surplus_cof": 2079
     },
     101029: {
         "alias_name": "移动端_盾刀",
@@ -28505,7 +28516,7 @@ SKILLS = {
         "skill_name": "坚壁清野·悟",
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 290
+        "skill_cof": 349
     },
     101200: {
         "alias_name": "移动端_霸刀_坚壁清野_释放时单次普通伤害",
@@ -29807,7 +29818,7 @@ SKILLS = {
         "skill_name": "振翅图南·悟",
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 80
+        "skill_cof": 88
     },
     102173: {
         "alias_name": "移动端_振翅图南_秘籍_额外伤害",
@@ -29819,7 +29830,7 @@ SKILLS = {
         "skill_name": "振翅图南·悟",
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 279
+        "skill_cof": 306
     },
     102145: {
         "alias_name": "移动端_澹然若海_龙卷_伤害",
@@ -29872,7 +29883,7 @@ SKILLS = {
         "weapon_damage_cof": 1024.0,
         "physical_damage_call": 1,
         "physical_damage_base": 1,
-        "skill_cof": 348
+        "skill_cof": 399
     },
     102103: {
         "alias_name": "移动端_溟海御波",
@@ -33312,7 +33323,7 @@ SKILLS = {
         "skill_name": "杀星在尾·悟",
         "neutral_damage_base": 1,
         "neutral_damage_call": 1,
-        "skill_cof": 202
+        "skill_cof": 242
     },
     101466: {
         "alias_name": "移动端_三星临_实际伤害",
@@ -34690,6 +34701,18 @@ SKILLS = {
         "surplus_cof": 594,
         "poison_surplus_call": 1
     },
+    101365: {
+        "alias_name": "移动端_紫叶沉疴",
+        "kind_type": "Poison",
+        "platform": 1,
+        "recipe_type": 101365,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "紫叶沉疴·悟",
+        "poison_damage_base": 1,
+        "poison_damage_call": 1,
+        "skill_cof": 690
+    },
     101417: {
         "alias_name": "移动端_无方中和_实际效果",
         "kind_type": "Poison",
@@ -34749,7 +34772,7 @@ SKILLS = {
         "skill_name": "苍棘缚地·悟",
         "poison_damage_base": 1,
         "poison_damage_call": 1,
-        "skill_cof": 576
+        "skill_cof": 634
     },
     32974: {
         "alias_name": "横刀单持普通攻击",

@@ -11365,6 +11365,14 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    70529: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "腾空跃起",
+        "alias_name": "移动端_腾空跃起_标记",
+        "max_stack": 1,
+        "recipes": {}
+    },
     24553: {
         "attributes": [
             {

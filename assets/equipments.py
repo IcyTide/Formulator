@@ -69225,37 +69225,6 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "笼雾愁#40630 (26300 会心 破招)": {
-            "id": 40630,
-            "name": "笼雾愁",
-            "school": "段氏",
-            "kind": "内功",
-            "level": 26300,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "base": {
-                "weapon_damage_base": 4079,
-                "weapon_damage_rand": 2719
-            },
-            "magic": {
-                "vitality_base": 14570,
-                "spunk_base": 1616,
-                "neutral_attack_power_base": 7385,
-                "neutral_critical_strike_base": 14176,
-                "surplus_base": 15121
-            },
-            "embed": {
-                "neutral_attack_power_base": 97,
-                "spunk_base": 41,
-                "neutral_overcome_base": 321
-            },
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
         "陶然意·月容扇#40421 (26300 破防 全能)": {
             "id": 40421,
             "name": "陶然意·月容扇",

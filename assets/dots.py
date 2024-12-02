@@ -406,6 +406,16 @@ DOTS = {
         ],
         "lunar_damage_call": 1
     },
+    18512: {
+        "buff_name": "气吞长江(DOT)",
+        "alias_name": "冰心cwdot",
+        "interval": 48,
+        "tick": 10,
+        "max_stack": 3,
+        "platform": 0,
+        "damage_base": 25,
+        "lunar_damage_call": 1
+    },
     70030: {
         "buff_name": "急曲·悟(DOT)",
         "alias_name": "移动端_冰心通用_急曲效果",

@@ -20,6 +20,7 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             3386: dict(post_buffs={3276: {1: 1}, 17103: {1: 1}}),
             30629: dict(post_buffs={3276: {1: 1}, 17103: {1: 1}}, key_skill=True),
             3094: dict(key_skill=True),
+            3098: dict(key_skill=True),
             3125: dict(bind_dots={2237: 1}),
             29148: dict(bind_dots={2237: 1}),
             18815: dict(bind_dots={12663: 1}),

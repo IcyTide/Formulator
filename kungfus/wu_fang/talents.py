@@ -3,31 +3,6 @@ from typing import Dict, List
 from base.dot import Dot
 from base.gain import Gain
 from base.skill import Skill
-from kungfus.wu_fang.skills import 鬼门加成
-
-
-class 鬼门(Gain):
-    @staticmethod
-    def pre_effect(parser):
-        if parser.current_dot_ticks.get(71171):
-            parser.refresh_target_buff(70188, 10)
-
-    @staticmethod
-    def post_effect(parser):
-        if parser.current_dot_ticks.get(71171):
-            parser.refresh_target_buff(70188, 10, -1)
-
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 鬼门加成):
-                skill.pre_effects.append(self.pre_effect)
-                skill.post_effects.append(self.post_effect)
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill in skills.values():
-            if isinstance(skill, 鬼门加成):
-                skill.pre_effects.remove(self.pre_effect)
-                skill.post_effects.remove(self.post_effect)
 
 
 class 凄骨(Gain):
@@ -103,7 +78,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     ],
     1: [
         {
-            101419: 鬼门("鬼门")
+            101419: Gain("鬼门")
         },
         {
             101422: Gain("神莹")
