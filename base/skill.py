@@ -1437,6 +1437,7 @@ class Skill(Damage):
             self.damage(actual_critical_strike, actual_damage, parser)
         if self.bind_dots:
             self.dot_add(parser)
+        self.post_record(parser)
         if self.consume_dots:
             self.dot_consume(parser)
         if self.pet_buffs:
@@ -1455,7 +1456,6 @@ class Skill(Damage):
     def parse(self, actual_critical_strike, actual_damage, parser):
         self.pre_record(parser)
         self.record(actual_critical_strike, actual_damage, parser)
-        self.post_record(parser)
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         damage_tuple = ((self.skill_id, self.skill_level), tuple(), tuple())
