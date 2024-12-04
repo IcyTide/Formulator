@@ -37,5 +37,11 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: {} for skill_id in range(466, 475 + 1)}
         },
         跬步判定: {18698: {}}
+    },
+    1: {
+        Skill: {
+            100077: {}, 100079: {}, 101571: {}, 101973: {}, 101570: {},
+            **{skill_id: {} for skill_id in range(101613, 101617 + 1)}
+        }
     }
 }

@@ -51,6 +51,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
             6618: Gain("尻尾", recipes=[(677, 2)]),
+            6877: Gain("生发"),
             6620: Gain("蝎毒")
         },
         {
