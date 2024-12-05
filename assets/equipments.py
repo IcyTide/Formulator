@@ -25148,6 +25148,732 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
+        "云风御厨腰带·火候#104557 (22200 破招 无双)": {
+            "id": 104557,
+            "name": "云风御厨腰带·火候",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6243,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "neutral_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "梧风御厨腰带·刀功#104556 (22200 破招 无双)": {
+            "id": 104556,
+            "name": "梧风御厨腰带·刀功",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6242,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岚峰御厨腰带·刀功#104555 (22200 破招 无双)": {
+            "id": 104555,
+            "name": "岚峰御厨腰带·刀功",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6241,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "迎新御厨腰带·火候#104553 (22200 破招 无双)": {
+            "id": 104553,
+            "name": "迎新御厨腰带·火候",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6239,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spirit_base": 696,
+                "poison_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寻龙御厨腰带·火候#104552 (22200 破招 无双)": {
+            "id": 104552,
+            "name": "寻龙御厨腰带·火候",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6238,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "neutral_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凌晓御厨腰带·刀功 #104551 (22200 破招 无双)": {
+            "id": 104551,
+            "name": "凌晓御厨腰带·刀功 ",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6237,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沧波御厨腰带·刀功 #104550 (22200 破招 无双)": {
+            "id": 104550,
+            "name": "沧波御厨腰带·刀功 ",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6236,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "傲寒御厨腰带·刀功 #104549 (22200 破招 无双)": {
+            "id": 104549,
+            "name": "傲寒御厨腰带·刀功 ",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6235,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "古意御厨腰带·火候#104547 (22200 破招 无双)": {
+            "id": 104547,
+            "name": "古意御厨腰带·火候",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6233,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spirit_base": 696,
+                "lunar_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "塞雪御厨腰带·刀工#104545 (22200 破招 无双)": {
+            "id": 104545,
+            "name": "塞雪御厨腰带·刀工",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6231,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "妙火御厨腰带·火候#104543 (22200 破招 无双)": {
+            "id": 104543,
+            "name": "妙火御厨腰带·火候",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6229,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "solar_and_lunar_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥腰带·刀功#104542 (22200 破招 无双)": {
+            "id": 104542,
+            "name": "醉梦逍遥腰带·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6228,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "至尊御厨腰带·刀功#104541 (22200 破招 无双)": {
+            "id": 104541,
+            "name": "至尊御厨腰带·刀功",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6227,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨腰带·刀功#104540 (22200 破招 无双)": {
+            "id": 104540,
+            "name": "蜀月御厨腰带·刀功",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6226,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨腰带·火候#104539 (22200 破招 无双)": {
+            "id": 104539,
+            "name": "蜀月御厨腰带·火候",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6225,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "poison_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "瑶星御厨腰带·火候#104537 (22200 破招 无双)": {
+            "id": 104537,
+            "name": "瑶星御厨腰带·火候",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6223,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spirit_base": 696,
+                "poison_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "霓裳御厨腰带·火候#104535 (22200 破招 无双)": {
+            "id": 104535,
+            "name": "霓裳御厨腰带·火候",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6221,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spirit_base": 696,
+                "lunar_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨腰带·刀功#104534 (22200 破招 无双)": {
+            "id": 104534,
+            "name": "灵虚御厨腰带·刀功",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6220,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "agility_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨腰带·火候#104533 (22200 破招 无双)": {
+            "id": 104533,
+            "name": "灵虚御厨腰带·火候",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6219,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spirit_base": 696,
+                "neutral_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "御赐御厨腰带·刀功#104531 (22200 破招 无双)": {
+            "id": 104531,
+            "name": "御赐御厨腰带·刀功",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6217,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "翡翠御厨腰带·火候#104529 (22200 破招 无双)": {
+            "id": 104529,
+            "name": "翡翠御厨腰带·火候",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6215,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "neutral_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "菩提御厨腰带·火候#104527 (22200 破招 无双)": {
+            "id": 104527,
+            "name": "菩提御厨腰带·火候",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                2662
+            ],
+            "set_id": 6213,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "spunk_base": 696,
+                "solar_attack_power_base": 1758,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "solar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "寻踪觅宝·迭微腰带#100953 (21000 加速 无双)": {
             "id": 100953,
             "name": "寻踪觅宝·迭微腰带",
@@ -41432,6 +42158,754 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
+        "云风御厨上衣·火候#104588 (22200 破防 无双)": {
+            "id": 104588,
+            "name": "云风御厨上衣·火候",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6243,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "neutral_attack_power_base": 2511,
+                "neutral_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "梧风御厨上衣·刀功#104587 (22200 破防 无双)": {
+            "id": 104587,
+            "name": "梧风御厨上衣·刀功",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6242,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岚峰御厨上衣·刀功#104586 (22200 破防 无双)": {
+            "id": 104586,
+            "name": "岚峰御厨上衣·刀功",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6241,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "迎新御厨上衣·火候#104584 (22200 破防 无双)": {
+            "id": 104584,
+            "name": "迎新御厨上衣·火候",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6239,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spirit_base": 994,
+                "poison_attack_power_base": 2511,
+                "poison_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寻龙御厨上衣·火候#104583 (22200 破防 无双)": {
+            "id": 104583,
+            "name": "寻龙御厨上衣·火候",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6238,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "neutral_attack_power_base": 2511,
+                "neutral_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凌晓御厨上衣·刀功#104582 (22200 破防 无双)": {
+            "id": 104582,
+            "name": "凌晓御厨上衣·刀功",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6237,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沧波御厨上衣·刀功#104581 (22200 破防 无双)": {
+            "id": 104581,
+            "name": "沧波御厨上衣·刀功",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6236,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "傲寒御厨上衣·刀功#104580 (22200 破防 无双)": {
+            "id": 104580,
+            "name": "傲寒御厨上衣·刀功",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6235,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "古意御厨上衣·火候#104578 (22200 破防 无双)": {
+            "id": 104578,
+            "name": "古意御厨上衣·火候",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6233,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spirit_base": 994,
+                "lunar_attack_power_base": 2511,
+                "lunar_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "塞雪御厨上衣·刀工#104576 (22200 破防 无双)": {
+            "id": 104576,
+            "name": "塞雪御厨上衣·刀工",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6231,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "妙火御厨上衣·火候#104574 (22200 破防 无双)": {
+            "id": 104574,
+            "name": "妙火御厨上衣·火候",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6229,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "solar_and_lunar_attack_power_base": 2511,
+                "solar_and_lunar_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥上衣·刀功#104573 (22200 破防 无双)": {
+            "id": 104573,
+            "name": "醉梦逍遥上衣·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6228,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "至尊御厨上衣·刀功#104572 (22200 破防 无双)": {
+            "id": 104572,
+            "name": "至尊御厨上衣·刀功",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6227,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨上衣·刀功#104571 (22200 破防 无双)": {
+            "id": 104571,
+            "name": "蜀月御厨上衣·刀功",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6226,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨上衣·火候#104570 (22200 破防 无双)": {
+            "id": 104570,
+            "name": "蜀月御厨上衣·火候",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6225,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "poison_attack_power_base": 2511,
+                "poison_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "瑶星御厨上衣·火候#104568 (22200 破防 无双)": {
+            "id": 104568,
+            "name": "瑶星御厨上衣·火候",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6223,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spirit_base": 994,
+                "poison_attack_power_base": 2511,
+                "poison_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spirit_base": 41,
+                "poison_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "霓裳御厨上衣·火候#104566 (22200 破防 无双)": {
+            "id": 104566,
+            "name": "霓裳御厨上衣·火候",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6221,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spirit_base": 994,
+                "lunar_attack_power_base": 2511,
+                "lunar_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spirit_base": 41,
+                "lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨上衣·刀功#104565 (22200 破防 无双)": {
+            "id": 104565,
+            "name": "灵虚御厨上衣·刀功",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6220,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "agility_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "agility_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨上衣·火候#104564 (22200 破防 无双)": {
+            "id": 104564,
+            "name": "灵虚御厨上衣·火候",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6219,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spirit_base": 994,
+                "neutral_attack_power_base": 2511,
+                "neutral_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spirit_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "御赐御厨上衣·刀功#104562 (22200 破防 无双)": {
+            "id": 104562,
+            "name": "御赐御厨上衣·刀功",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6217,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "翡翠御厨上衣·火候#104560 (22200 破防 无双)": {
+            "id": 104560,
+            "name": "翡翠御厨上衣·火候",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6215,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "neutral_attack_power_base": 2511,
+                "neutral_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "neutral_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "菩提御厨上衣·火候#104558 (22200 破防 无双)": {
+            "id": 104558,
+            "name": "菩提御厨上衣·火候",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": [
+                22151,
+                13
+            ],
+            "set_id": 6213,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "spunk_base": 994,
+                "solar_attack_power_base": 2511,
+                "solar_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "spunk_base": 41,
+                "solar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "寻踪觅宝·迭微衣#100971 (21000 加速 无双)": {
             "id": 100971,
             "name": "寻踪觅宝·迭微衣",
@@ -51757,6 +53231,622 @@ EQUIPMENTS = {
             "gains": [],
             "recipes": {},
             "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "云风御厨戒指·火候#42914 (22200 会心 无双)": {
+            "id": 42914,
+            "name": "云风御厨戒指·火候",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6243,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "neutral_attack_power_base": 1256,
+                "neutral_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "梧风御厨戒指·刀功#42913 (22200 会心 无双)": {
+            "id": 42913,
+            "name": "梧风御厨戒指·刀功",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6242,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岚峰御厨戒指·刀功#42912 (22200 会心 无双)": {
+            "id": 42912,
+            "name": "岚峰御厨戒指·刀功",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6241,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "迎新御厨戒指·火候#42910 (22200 会心 无双)": {
+            "id": 42910,
+            "name": "迎新御厨戒指·火候",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6239,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spirit_base": 497,
+                "poison_attack_power_base": 1256,
+                "poison_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寻龙御厨戒指·火候#42909 (22200 会心 无双)": {
+            "id": 42909,
+            "name": "寻龙御厨戒指·火候",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6238,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "neutral_attack_power_base": 1256,
+                "neutral_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凌晓御厨戒指·刀功 #42908 (22200 会心 无双)": {
+            "id": 42908,
+            "name": "凌晓御厨戒指·刀功 ",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6237,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沧波御厨戒指·刀功 #42907 (22200 会心 无双)": {
+            "id": 42907,
+            "name": "沧波御厨戒指·刀功 ",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6236,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "傲寒御厨戒指·刀功 #42906 (22200 会心 无双)": {
+            "id": 42906,
+            "name": "傲寒御厨戒指·刀功 ",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6235,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "古意御厨戒指·火候#42904 (22200 会心 无双)": {
+            "id": 42904,
+            "name": "古意御厨戒指·火候",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6233,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spirit_base": 497,
+                "lunar_attack_power_base": 1256,
+                "lunar_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "塞雪御厨戒指·刀工#42902 (22200 会心 无双)": {
+            "id": 42902,
+            "name": "塞雪御厨戒指·刀工",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6231,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "妙火御厨戒指·火候#42900 (22200 会心 无双)": {
+            "id": 42900,
+            "name": "妙火御厨戒指·火候",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6229,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "solar_and_lunar_attack_power_base": 1256,
+                "solar_and_lunar_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥戒指·刀功#42899 (22200 会心 无双)": {
+            "id": 42899,
+            "name": "醉梦逍遥戒指·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "至尊御厨戒指·刀功#42898 (22200 会心 无双)": {
+            "id": 42898,
+            "name": "至尊御厨戒指·刀功",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6227,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨戒指·刀功#42897 (22200 会心 无双)": {
+            "id": 42897,
+            "name": "蜀月御厨戒指·刀功",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6226,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月御厨戒指·火候#42896 (22200 会心 无双)": {
+            "id": 42896,
+            "name": "蜀月御厨戒指·火候",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6225,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "poison_attack_power_base": 1256,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "瑶星御厨戒指·火候#42894 (22200 会心 无双)": {
+            "id": 42894,
+            "name": "瑶星御厨戒指·火候",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6223,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spirit_base": 497,
+                "poison_attack_power_base": 1256,
+                "poison_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "霓裳御厨戒指·火候#42892 (22200 会心 无双)": {
+            "id": 42892,
+            "name": "霓裳御厨戒指·火候",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6221,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spirit_base": 497,
+                "lunar_attack_power_base": 1256,
+                "lunar_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨戒指·刀功#42891 (22200 会心 无双)": {
+            "id": 42891,
+            "name": "灵虚御厨戒指·刀功",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6220,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "agility_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚御厨戒指·火候#42890 (22200 会心 无双)": {
+            "id": 42890,
+            "name": "灵虚御厨戒指·火候",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6219,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spirit_base": 497,
+                "neutral_attack_power_base": 1256,
+                "neutral_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "御赐御厨戒指·刀功#42888 (22200 会心 无双)": {
+            "id": 42888,
+            "name": "御赐御厨戒指·刀功",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6217,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "翡翠御厨戒指·火候#42886 (22200 会心 无双)": {
+            "id": 42886,
+            "name": "翡翠御厨戒指·火候",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6215,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "neutral_attack_power_base": 1256,
+                "neutral_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "菩提御厨戒指·火候#42884 (22200 会心 无双)": {
+            "id": 42884,
+            "name": "菩提御厨戒指·火候",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6213,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "spunk_base": 497,
+                "solar_attack_power_base": 1256,
+                "solar_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
             "set_gain": {},
             "set_recipe": {}
         },
@@ -79216,6 +81306,776 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "云风手抓饭·火候#40993 (22200 破防 无双)": {
+            "id": 40993,
+            "name": "云风手抓饭·火候",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6243,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "neutral_attack_power_base": 6636,
+                "neutral_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "梧风棉棉钩·刀功#40992 (22200 破防 无双)": {
+            "id": 40992,
+            "name": "梧风棉棉钩·刀功",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6242,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "岚峰海坚鱼·刀功#40991 (22200 破防 无双)": {
+            "id": 40991,
+            "name": "岚峰海坚鱼·刀功",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6241,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "迎新春饼·火候#40989 (22200 破防 无双)": {
+            "id": 40989,
+            "name": "迎新春饼·火候",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6239,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spirit_base": 1193,
+                "poison_attack_power_base": 6636,
+                "poison_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寻龙鸳鸯镬·火候#40988 (22200 破防 无双)": {
+            "id": 40988,
+            "name": "寻龙鸳鸯镬·火候",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6238,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "neutral_attack_power_base": 6636,
+                "neutral_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "凌晓绿竹剑·刀功#40987 (22200 破防 无双)": {
+            "id": 40987,
+            "name": "凌晓绿竹剑·刀功",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6237,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沧波渔网架·刀功#40986 (22200 破防 无双)": {
+            "id": 40986,
+            "name": "沧波渔网架·刀功",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6236,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "傲寒绛腊厨装·刀功#40985 (22200 破防 无双)": {
+            "id": 40985,
+            "name": "傲寒绛腊厨装·刀功",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6235,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "古意调味匣·火候#40983 (22200 破防 无双)": {
+            "id": 40983,
+            "name": "古意调味匣·火候",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6233,
+            "base": {
+                "weapon_damage_base": 1721,
+                "weapon_damage_rand": 1148
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spirit_base": 1193,
+                "lunar_attack_power_base": 6636,
+                "lunar_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "塞雪蒸鱼屉·刀功#40981 (22200 破防 无双)": {
+            "id": 40981,
+            "name": "塞雪蒸鱼屉·刀功",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6231,
+            "base": {
+                "weapon_damage_base": 5164,
+                "weapon_damage_rand": 3443
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "妙火天香串·火候#40979 (22200 破防 无双)": {
+            "id": 40979,
+            "name": "妙火天香串·火候",
+            "school": "明教",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6229,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "solar_and_lunar_attack_power_base": 6636,
+                "solar_and_lunar_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥棒·刀功#40978 (22200 破防 无双)": {
+            "id": 40978,
+            "name": "醉梦逍遥棒·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "base": {
+                "weapon_damage_base": 5853,
+                "weapon_damage_rand": 3902
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "至尊剔骨刀·刀功#40976 (22200 破防 无双)": {
+            "id": 40976,
+            "name": "至尊剔骨刀·刀功",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6227,
+            "base": {
+                "weapon_damage_base": 4476,
+                "weapon_damage_rand": 2984
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月竹筒饭·刀功#40975 (22200 破防 无双)": {
+            "id": 40975,
+            "name": "蜀月竹筒饭·刀功",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6226,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "蜀月竹筒饭·火候#40974 (22200 破防 无双)": {
+            "id": 40974,
+            "name": "蜀月竹筒饭·火候",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6225,
+            "base": {
+                "weapon_damage_base": 3443,
+                "weapon_damage_rand": 2295
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "poison_attack_power_base": 6636,
+                "poison_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "瑶星青玉葱·火候#40972 (22200 破防 无双)": {
+            "id": 40972,
+            "name": "瑶星青玉葱·火候",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6223,
+            "base": {
+                "weapon_damage_base": 1721,
+                "weapon_damage_rand": 1148
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spirit_base": 1193,
+                "poison_attack_power_base": 6636,
+                "poison_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "霓裳玉女勺·火候#40970 (22200 破防 无双)": {
+            "id": 40970,
+            "name": "霓裳玉女勺·火候",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6221,
+            "base": {
+                "weapon_damage_base": 2238,
+                "weapon_damage_rand": 1492
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spirit_base": 1193,
+                "lunar_attack_power_base": 6636,
+                "lunar_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚大菜刀·刀功#40969 (22200 破防 无双)": {
+            "id": 40969,
+            "name": "灵虚大菜刀·刀功",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6220,
+            "base": {
+                "weapon_damage_base": 4476,
+                "weapon_damage_rand": 2984
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "灵虚大菜刀·火候#40968 (22200 破防 无双)": {
+            "id": 40968,
+            "name": "灵虚大菜刀·火候",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6219,
+            "base": {
+                "weapon_damage_base": 2238,
+                "weapon_damage_rand": 1492
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spirit_base": 1193,
+                "neutral_attack_power_base": 6636,
+                "neutral_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "御赐大锅铲·刀功#40966 (22200 破防 无双)": {
+            "id": 40966,
+            "name": "御赐大锅铲·刀功",
+            "school": "天策",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6217,
+            "base": {
+                "weapon_damage_base": 5853,
+                "weapon_damage_rand": 3902
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "翡翠玲珑筷·火候#40964 (22200 破防 无双)": {
+            "id": 40964,
+            "name": "翡翠玲珑筷·火候",
+            "school": "万花",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6215,
+            "base": {
+                "weapon_damage_base": 1721,
+                "weapon_damage_rand": 1148
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "neutral_attack_power_base": 6636,
+                "neutral_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "菩提擀面杖·火候#40962 (22200 破防 无双)": {
+            "id": 40962,
+            "name": "菩提擀面杖·火候",
+            "school": "少林",
+            "kind": "内功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6213,
+            "base": {
+                "weapon_damage_base": 5853,
+                "weapon_damage_rand": 3902
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "spunk_base": 1193,
+                "solar_attack_power_base": 6636,
+                "solar_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "停湖雀#40556 (15500 会心 破防 加速)": {
             "id": 40556,
             "name": "停湖雀",
@@ -94094,6 +96954,41 @@ EQUIPMENTS = {
             ],
             "recipes": {},
             "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "至尊熏猪腿·刀功#40977 (22200 破防 无双)": {
+            "id": 40977,
+            "name": "至尊熏猪腿·刀功",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6227,
+            "base": {
+                "weapon_damage_base": 6886,
+                "weapon_damage_rand": 4590
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "agility_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
             "set_gain": {},
             "set_recipe": {}
         },

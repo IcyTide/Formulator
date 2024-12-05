@@ -36832,7 +36832,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "饮羽簇",
-        "weapon_damage_cof": 2048.0,
         "physical_damage_call": 1,
         "physical_damage_base": [
             77,

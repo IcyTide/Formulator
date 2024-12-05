@@ -237,7 +237,7 @@ ATTRIBUTES = {
     100410: {
         "alias_name": "移动端_心法_冰心诀",
         "max_level": 14,
-        "pve_addition_base": 512,
+        "pve_addition_base": 471,
         "all_shield_ignore": 614,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
