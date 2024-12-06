@@ -22,6 +22,30 @@ ATTRIBUTES = {
             7242
         ]
     },
+    100053: {
+        "alias_name": "移动端_易筋经_心法",
+        "max_level": 14,
+        "pve_addition_base": 543,
+        "spunk_to_solar_attack_power": 2007,
+        "spunk_to_solar_critical_strike": 410,
+        "magical_attack_power_base": [
+            10,
+            17,
+            27,
+            39,
+            51,
+            61,
+            73,
+            86,
+            96,
+            312,
+            480,
+            1831,
+            4139,
+            7242
+        ],
+        "all_shield_ignore": 614
+    },
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
@@ -104,6 +128,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_太虚剑意_心法",
         "max_level": 14,
         "pve_addition_base": 532,
+        "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
@@ -138,7 +163,6 @@ ATTRIBUTES = {
             3277,
             6187
         ],
-        "all_shield_ignore": 614,
         "surplus_to_pve_addition": 8000
     },
     10021: {
@@ -329,6 +353,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_心法_问水诀",
         "max_level": 14,
         "pve_addition_base": 440,
+        "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1843,
         "physical_critical_strike_base": [
             12,
@@ -390,7 +415,6 @@ ATTRIBUTES = {
             3449,
             6513
         ],
-        "all_shield_ignore": 614,
         "agility_to_physical_overcome": 287
     },
     10175: {
@@ -559,6 +583,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_笑尘诀_心法",
         "max_level": 14,
         "pve_addition_base": 543,
+        "all_shield_ignore": 614,
         "physical_attack_power_base": [
             8,
             15,
@@ -575,7 +600,6 @@ ATTRIBUTES = {
             3621,
             6839
         ],
-        "all_shield_ignore": 614,
         "strength_to_physical_attack_power": 1772,
         "strength_to_physical_overcome": 553
     },
@@ -621,6 +645,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_心法_分山劲",
         "max_level": 14,
         "pve_addition_base": 553,
+        "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1925,
         "physical_attack_power_base": [
             8,
@@ -638,7 +663,6 @@ ATTRIBUTES = {
             3449,
             6513
         ],
-        "all_shield_ignore": 614,
         "physical_overcome_base": [
             7,
             13,
@@ -722,6 +746,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_北傲决",
         "max_level": 14,
         "pve_addition_base": 563,
+        "all_shield_ignore": 614,
         "physical_attack_power_base": [
             9,
             15,
@@ -738,7 +763,6 @@ ATTRIBUTES = {
             3725,
             7034
         ],
-        "all_shield_ignore": 614,
         "strength_to_physical_attack_power": 1802,
         "strength_to_physical_overcome": 420
     },
@@ -785,6 +809,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_心法_凌海决",
         "max_level": 14,
         "pve_addition_base": 410,
+        "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
         "physical_critical_strike_base": [
@@ -818,8 +843,7 @@ ATTRIBUTES = {
             1602,
             3621,
             6839
-        ],
-        "all_shield_ignore": 614
+        ]
     },
     10585: {
         "alias_name": "隐龙诀",
@@ -919,6 +943,7 @@ ATTRIBUTES = {
             4222,
             7387
         ],
+        "all_shield_ignore": 614,
         "neutral_critical_strike_base": [
             12,
             21,
@@ -935,7 +960,6 @@ ATTRIBUTES = {
             2390,
             7347
         ],
-        "all_shield_ignore": 614,
         "spunk_to_neutral_attack_power": 1976,
         "spunk_to_neutral_critical_strike": 512
     },
@@ -1061,6 +1085,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_孤锋诀",
         "max_level": 14,
         "pve_addition_base": 430,
+        "all_shield_ignore": 614,
         "physical_critical_strike_base": [
             13,
             23,
@@ -1093,7 +1118,6 @@ ATTRIBUTES = {
             3346,
             6318
         ],
-        "all_shield_ignore": 614,
         "strength_to_physical_attack_power": 1843,
         "strength_to_physical_critical_strike": 287
     },
@@ -1140,6 +1164,7 @@ ATTRIBUTES = {
         "alias_name": "移动端_山海心诀_心法",
         "max_level": 14,
         "pve_addition_base": 553,
+        "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
@@ -1173,8 +1198,7 @@ ATTRIBUTES = {
             1450,
             3277,
             6187
-        ],
-        "all_shield_ignore": 614
+        ]
     },
     10786: {
         "alias_name": "周天功",
@@ -1235,6 +1259,7 @@ ATTRIBUTES = {
             3725,
             6518
         ],
+        "all_shield_ignore": 614,
         "neutral_critical_strike_base": [
             7,
             12,
@@ -1251,7 +1276,6 @@ ATTRIBUTES = {
             1788,
             5527
         ],
-        "all_shield_ignore": 614,
         "surplus_to_pve_addition": 8000,
         "spunk_to_neutral_attack_power": 1997,
         "spunk_to_neutral_critical_strike": 461

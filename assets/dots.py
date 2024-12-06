@@ -127,6 +127,16 @@ DOTS = {
         ],
         "solar_damage_call": 1
     },
+    70852: {
+        "buff_name": "六合(DOT)",
+        "alias_name": "移动端_六合",
+        "interval": 32,
+        "tick": 6,
+        "max_stack": 1,
+        "platform": 1,
+        "damage_base": 30,
+        "solar_damage_call": 1
+    },
     748: {
         "buff_name": "叠刃(DOT)",
         "alias_name": "太虚剑意_放气暴击DOT",

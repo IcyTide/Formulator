@@ -8389,6 +8389,14 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    70864: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "普渡",
+        "alias_name": "移动端_普渡",
+        "max_stack": 1,
+        "recipes": {}
+    },
     1908: {
         "attributes": {
             "magical_critical_power_rate": 200

@@ -13,5 +13,10 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
             12590: dict(buff_name="三生", continuous=True),
             19635: dict(buff_name="普渡", interval=4)
         }
+    },
+    1: {
+        Buff: {
+            70864: dict(interval=80)
+        }
     }
 }

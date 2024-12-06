@@ -2,6 +2,7 @@ from typing import Dict, List
 
 from base.gain import Gain
 from base.skill import Skill
+from kungfus.yi_jin_jing.skills import 罗汉棍法
 
 
 class 明法(Gain):
@@ -33,6 +34,34 @@ class 众嗔(Gain):
         skills[271].pre_buffs.pop(-13910)
         for skill_id in (271, 243, 233):
             skills[skill_id].post_effects.remove(self.post_effect)
+
+
+class 如来(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 罗汉棍法):
+                if 70188 not in skill.pre_target_buffs:
+                    skill.pre_target_buffs[70188] = {}
+                skill.pre_target_buffs[70188][25] = 1
+                if 70188 not in skill.post_target_buffs:
+                    skill.post_target_buffs[70188] = {}
+                skill.post_target_buffs[70188][25] = -1
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill in skills.values():
+            if isinstance(skill, 罗汉棍法):
+                skill.pre_target_buffs[70188].pop(25)
+                skill.post_target_buffs[70188].pop(25)
+
+
+class 法界(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[101796].pre_target_buffs[70188] = {30: 1}
+        skills[101796].post_target_buffs[70188] = {30: -1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[101796].pre_target_buffs.pop(70188)
+        skills[101796].post_target_buffs.pop(70188)
 
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
@@ -81,6 +110,20 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         {
             32651: Gain("业因"),
             32649: Gain("无诤")
+        }
+    ],
+    1: [
+        {
+            101780: 如来("如来")
+        },
+        {
+            101783: Gain("无垢")
+        },
+        {
+            101784: 法界("法界")
+        },
+        {
+            101762: Gain("醍醐灌顶")
         }
     ]
 }

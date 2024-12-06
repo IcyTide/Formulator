@@ -1821,6 +1821,121 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1
     },
+    101754: {
+        "alias_name": "移动端_韦陀献杵",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101754,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "韦陀献杵·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "solar_surplus_call": 1,
+        "skill_cof": 613,
+        "surplus_cof": 1956
+    },
+    101752: {
+        "alias_name": "移动端_普渡四方",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101752,
+        "recipe_mask": 1,
+        "max_level": 1,
+        "skill_name": "普渡四方·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "solar_surplus_call": 1,
+        "skill_cof": 354,
+        "surplus_cof": 1126
+    },
+    101793: {
+        "alias_name": "移动端_普渡四方_二式",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101752,
+        "recipe_mask": 1,
+        "max_level": 1,
+        "skill_name": "普渡四方·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 223
+    },
+    101756: {
+        "alias_name": "移动端_横扫六合",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101756,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "横扫六合·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "solar_surplus_call": 1,
+        "skill_cof": 323,
+        "surplus_cof": 1034,
+        "dot_cof": 1383
+    },
+    101759: {
+        "alias_name": "移动端_大狮子吼",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101759,
+        "recipe_mask": 68,
+        "max_level": 1,
+        "skill_name": "大狮子吼·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 646
+    },
+    101830: {
+        "alias_name": "移动端_擒龙诀额外伤害",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "max_level": 1,
+        "skill_name": "擒龙诀·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 192
+    },
+    101796: {
+        "alias_name": "移动端_禅灵",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "max_level": 1,
+        "skill_name": "禅灵",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 154
+    },
+    101832: {
+        "alias_name": "移动端_醍醐灌顶追加攻击",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101762,
+        "recipe_mask": 0,
+        "max_level": 1,
+        "skill_name": "醍醐灌顶·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 1014
+    },
+    101762: {
+        "alias_name": "移动端_醍醐灌顶",
+        "kind_type": "SolarMagic",
+        "platform": 1,
+        "recipe_type": 101762,
+        "recipe_mask": 16,
+        "max_level": 1,
+        "skill_name": "醍醐灌顶·悟",
+        "solar_damage_base": 1,
+        "solar_damage_call": 1,
+        "skill_cof": 1151
+    },
     18121: {
         "alias_name": "三柴剑法附带特效表现",
         "kind_type": "Physics",
@@ -5198,11 +5313,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "四象轮回·悟",
+        "skill_cof": 429,
+        "surplus_cof": 1772,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 429,
-        "surplus_cof": 1772
+        "neutral_damage_call": 1
     },
     100079: {
         "alias_name": "移动端_两仪化形",
@@ -5212,11 +5327,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "两仪化形·悟",
+        "skill_cof": 755,
+        "surplus_cof": 2417,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 755,
-        "surplus_cof": 2417
+        "neutral_damage_call": 1
     },
     101571: {
         "alias_name": "移动端_七星拱瑞",
@@ -5226,11 +5341,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "七星拱瑞·悟",
+        "skill_cof": 874,
+        "surplus_cof": 2796,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 874,
-        "surplus_cof": 2796
+        "neutral_damage_call": 1
     },
     101973: {
         "alias_name": "移动端_气破鸿蒙_伤害",
@@ -5240,9 +5355,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "气破鸿蒙·悟",
+        "skill_cof": 1959,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 1959
+        "neutral_damage_call": 1
     },
     101570: {
         "alias_name": "移动端_破苍穹",
@@ -5252,9 +5367,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "破苍穹·悟",
+        "skill_cof": 87,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 87
+        "neutral_damage_call": 1
     },
     101613: {
         "alias_name": "移动端_气剑_1把_攻击",
@@ -5264,9 +5379,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "飞剑",
+        "skill_cof": 154,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 154
+        "neutral_damage_call": 1
     },
     101614: {
         "alias_name": "移动端_气剑_2把_攻击",
@@ -5276,9 +5391,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "飞剑",
+        "skill_cof": 154,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 154
+        "neutral_damage_call": 1
     },
     101615: {
         "alias_name": "移动端_气剑_3把_攻击",
@@ -5288,9 +5403,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "飞剑",
+        "skill_cof": 154,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 154
+        "neutral_damage_call": 1
     },
     101616: {
         "alias_name": "移动端_气剑_4把_攻击",
@@ -5300,9 +5415,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "飞剑",
+        "skill_cof": 154,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 154
+        "neutral_damage_call": 1
     },
     101617: {
         "alias_name": "移动端_气剑_5把_攻击",
@@ -5312,9 +5427,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "飞剑",
+        "skill_cof": 154,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 154
+        "neutral_damage_call": 1
     },
     589: {
         "alias_name": "子技能_人剑合一",
@@ -9004,11 +9119,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "南风吐月·悟",
+        "skill_cof": 621,
+        "surplus_cof": 1987,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 621,
-        "surplus_cof": 1987
+        "neutral_damage_call": 1
     },
     100047: {
         "alias_name": "移动端_厥阴指",
@@ -9018,9 +9133,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "厥阴指·悟",
+        "skill_cof": 676,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 676
+        "neutral_damage_call": 1
     },
     100041: {
         "alias_name": "移动端_兰摧玉折",
@@ -9030,11 +9145,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "兰摧玉折·悟",
+        "skill_cof": 379,
+        "surplus_cof": 1208,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 379,
-        "surplus_cof": 1208
+        "neutral_damage_call": 1
     },
     101593: {
         "alias_name": "移动端_兰摧玉折dot",
@@ -9053,9 +9168,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "玉石俱焚·悟",
+        "skill_cof": 813,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 813
+        "neutral_damage_call": 1
     },
     100458: {
         "alias_name": "移动端_快雪时晴伤害",
@@ -9065,11 +9180,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "快雪时晴·悟",
+        "skill_cof": 210,
+        "surplus_cof": 666,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 210,
-        "surplus_cof": 666
+        "neutral_damage_call": 1
     },
     101583: {
         "alias_name": "移动端_南风吐月额外伤害",
@@ -9079,9 +9194,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "南风吐月·悟",
+        "skill_cof": 384,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 384
+        "neutral_damage_call": 1
     },
     12: {
         "alias_name": "普通攻击-枪攻击",
@@ -28845,9 +28960,9 @@ SKILLS = {
         "physical_damage_call": 1,
         "skill_cof": 311,
         "surplus_cof": 1188,
+        "dot_cof": 768,
         "physical_damage_base": 1,
-        "physical_surplus_call": 1,
-        "dot_cof": 768
+        "physical_surplus_call": 1
     },
     19712: {
         "alias_name": "普通攻击_伞",
@@ -33447,9 +33562,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "杀星在尾·悟",
+        "skill_cof": 242,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 242
+        "neutral_damage_call": 1
     },
     101466: {
         "alias_name": "移动端_三星临_实际伤害",
@@ -33459,11 +33574,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "三星临·悟",
+        "skill_cof": 275,
+        "surplus_cof": 1434,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 275,
-        "surplus_cof": 1434
+        "neutral_damage_call": 1
     },
     102205: {
         "alias_name": "移动端_衍天_奇穴2_实际伤害",
@@ -33473,9 +33588,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "辰星·悟",
+        "skill_cof": 116,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 116
+        "neutral_damage_call": 1
     },
     102247: {
         "alias_name": "移动端_奇门飞宫_撞击伤害",
@@ -33485,9 +33600,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "飞宫·悟",
+        "skill_cof": 373,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 373
+        "neutral_damage_call": 1
     },
     102249: {
         "alias_name": "移动端_奇门飞宫_连撞伤害",
@@ -33497,11 +33612,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "飞宫·悟",
+        "skill_cof": 392,
+        "surplus_cof": 1249,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 392,
-        "surplus_cof": 1249
+        "neutral_damage_call": 1
     },
     102238: {
         "alias_name": "移动端_奇门飞宫_每秒伤害",
@@ -33511,11 +33626,11 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "奇门飞宫·悟",
+        "skill_cof": 24,
+        "surplus_cof": 72,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 24,
-        "surplus_cof": 72
+        "neutral_damage_call": 1
     },
     101467: {
         "alias_name": "移动端_天斗璇_实际伤害",
@@ -33525,11 +33640,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "天斗旋·悟",
+        "skill_cof": 296,
+        "surplus_cof": 1546,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 296,
-        "surplus_cof": 1546
+        "neutral_damage_call": 1
     },
     102265: {
         "alias_name": "移动端_衍天_天斗璇_秘籍伤害",
@@ -33539,9 +33654,9 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "天斗旋·悟",
+        "skill_cof": 96,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 96
+        "neutral_damage_call": 1
     },
     101481: {
         "alias_name": "移动端_兵主逆_伤害子技能",
@@ -33551,11 +33666,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "兵主逆·悟",
+        "skill_cof": 444,
+        "surplus_cof": 1423,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 444,
-        "surplus_cof": 1423
+        "neutral_damage_call": 1
     },
     102248: {
         "alias_name": "移动端_列宿游_实际伤害",
@@ -33565,9 +33680,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "列宿游·悟",
+        "skill_cof": 1542,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 1542
+        "neutral_damage_call": 1
     },
     27451: {
         "alias_name": "普通攻击_百草卷",
@@ -36724,8 +36839,8 @@ SKILLS = {
         "skill_name": "孤锋破浪·悟",
         "physical_damage_call": 1,
         "skill_cof": 538,
-        "physical_damage_base": 1,
-        "dot_cof": 864
+        "dot_cof": 864,
+        "physical_damage_base": 1
     },
     102222: {
         "alias_name": "移动端_孤锋诀_加流血通用子技能",
@@ -37771,11 +37886,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "一阳指·悟",
+        "skill_cof": 384,
+        "surplus_cof": 1229,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 384,
-        "surplus_cof": 1229
+        "neutral_damage_call": 1
     },
     102310: {
         "alias_name": "移动端_骤风令_伤害",
@@ -37785,9 +37900,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "骤风令·悟",
+        "skill_cof": 672,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 672
+        "neutral_damage_call": 1
     },
     102312: {
         "alias_name": "移动端_一阳化生_伤害",
@@ -37797,9 +37912,9 @@ SKILLS = {
         "recipe_mask": 16,
         "max_level": 1,
         "skill_name": "一阳化生·悟",
+        "skill_cof": 181,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 181
+        "neutral_damage_call": 1
     },
     102322: {
         "alias_name": "移动端_悬剑_删除",
@@ -37817,11 +37932,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "锁神·悟",
+        "skill_cof": 219,
+        "surplus_cof": 696,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 219,
-        "surplus_cof": 696
+        "neutral_damage_call": 1
     },
     102311: {
         "alias_name": "移动端_断脉_伤害",
@@ -37831,9 +37946,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "断脉·悟",
+        "skill_cof": 323,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 323
+        "neutral_damage_call": 1
     },
     102313: {
         "alias_name": "移动端_锁神_秘籍绝篇_伤害",
@@ -37843,9 +37958,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "锁神·悟",
+        "skill_cof": 191,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 191
+        "neutral_damage_call": 1
     },
     102318: {
         "alias_name": "移动端_断脉_二段伤害",
@@ -37855,9 +37970,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "断脉·悟",
+        "skill_cof": 323,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 323
+        "neutral_damage_call": 1
     },
     102323: {
         "alias_name": "移动端_悬剑_奇穴伤害",
@@ -37867,9 +37982,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "风扬·悟",
+        "skill_cof": 260,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 260
+        "neutral_damage_call": 1
     },
     102282: {
         "alias_name": "移动端_引窍",
@@ -37879,10 +37994,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "引窍·悟",
+        "skill_cof": 667,
+        "surplus_cof": 2130,
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
-        "neutral_damage_call": 1,
-        "skill_cof": 667,
-        "surplus_cof": 2130
+        "neutral_damage_call": 1
     }
 }

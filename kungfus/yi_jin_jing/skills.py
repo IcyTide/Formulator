@@ -22,6 +22,16 @@ class 明法移除(Skill):
         parser.clear_target_buff(self.final_buff)
 
 
+class 罗汉棍法(Skill):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if parser.current_target_buff_stacks[70864].get(1):
+            parser.refresh_target_buff(70188, 15)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 15, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
@@ -36,5 +46,16 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         },
         明法判定: {26989: {}},
         明法移除: {26991: {}}
+    },
+    1: {
+        罗汉棍法: {
+            101754: {},
+            **{skill_id: dict(post_target_buffs={70864: {1: 1}}) for skill_id in (101752, 101793)},
+            101756: dict(bind_dots={70852: 1}, pre_target_buffs={70188: {30: 1}}, post_target_buffs={70188: {30: -1}}),
+            101759: dict(pre_target_buffs={70188: {80: 1}}, post_target_buffs={70188: {80: -1}})
+        },
+        Skill: {
+            101830: {}, 101796: {}, 101832: {}, 101762: {}
+        }
     }
 }

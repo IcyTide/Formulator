@@ -4,7 +4,8 @@ from base.constant import *
 
 class Attribute(SolarAttribute):
     attribute_id = {
-        0: 10003
+        0: 10003,
+        1: 100053
     }
 
     spunk_to_solar_attack_power: int = 0
