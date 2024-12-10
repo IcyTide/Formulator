@@ -37999,5 +37999,17 @@ SKILLS = {
         "neutral_surplus_call": 1,
         "neutral_damage_base": 1,
         "neutral_damage_call": 1
+    },
+    102309: {
+        "alias_name": "移动端_截阳_伤害",
+        "kind_type": "NeutralMagic",
+        "platform": 1,
+        "recipe_type": 0,
+        "recipe_mask": 4,
+        "max_level": 1,
+        "skill_name": "截阳·悟",
+        "skill_cof": 776,
+        "neutral_damage_base": 1,
+        "neutral_damage_call": 1
     }
 }

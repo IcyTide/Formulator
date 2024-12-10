@@ -97,7 +97,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     ],
     1: [
         {
-            102293: Gain("驭风")
+            102293: Gain("驭风"),
+            102294: Gain("逆脉", attributes=dict(neutral_critical_strike_rate=1500))
         },
         {
             102296: Gain("风扬")

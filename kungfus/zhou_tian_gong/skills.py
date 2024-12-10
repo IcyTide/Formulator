@@ -6,20 +6,31 @@ from base.skill import Skill
 class 一阳指秘章(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_buff_stacks[71388].get(1):
-            parser.refresh_target_buff(70188, 15)
+            parser.refresh_target_buff(70188, 30)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, 15, -1)
+            parser.refresh_target_buff(70188, 30, -1)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
-        parser.clear_target_buff(71382)
 
 
 class 引窍(一阳指秘章):
     def record(self, actual_critical_strike, actual_damage, parser):
         if parser.current_target_buff_stacks.get(71382):
             parser.refresh_target_buff(70973, 15)
-        super().record(actual_critical_strike, actual_damage, parser)
-        parser.refresh_target_buff(70973, 15, -1)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70973, 15, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
+
+
+class 截阳(一阳指秘章):
+    def record(self, actual_critical_strike, actual_damage, parser):
+        if parser.current_target_buff_stacks.get(71382):
+            parser.refresh_target_buff(70188, 35)
+            super().record(actual_critical_strike, actual_damage, parser)
+            parser.refresh_target_buff(70188, 35, -1)
+        else:
+            super().record(actual_critical_strike, actual_damage, parser)
 
 
 class 一阳化生(Skill):
@@ -51,6 +62,9 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         },
         引窍: {
             102282: {}
+        },
+        截阳: {
+            102309: {}
         },
         一阳化生: {
             102312: {}
