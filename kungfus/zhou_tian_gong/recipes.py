@@ -79,6 +79,10 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             5715: {}
         },
         CriticalStrikeRecipe_500: {
+            5751: {}
+        },
+        CriticalStrikeRecipe_306: {
+            17514: {}
         },
         断脉双会提高10: {
             5578: {}

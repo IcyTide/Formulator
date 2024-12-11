@@ -8359,6 +8359,19 @@ RECIPES = {
             "recipe_name": "《聘风令·劈风令》秘诀断篇"
         }
     },
+    5751: {
+        1: {
+            "skill_id": 38006,
+            "recipe_type": 38006,
+            "recipe_name": "段氏小CW属性加成"
+        }
+    },
+    17514: {
+        1: {
+            "recipe_mask": 3,
+            "recipe_name": "【小橙武】【傍身招式】会心提高3%（劲风簇+霖集簇）"
+        }
+    },
     5578: {
         1: {
             "recipe_type": 38006,
