@@ -268,33 +268,6 @@ RECIPES = {
             "recipe_name": "小橙武_易经"
         }
     },
-    5543: {
-        1: {
-            "skill_id": 232,
-            "recipe_type": 232,
-            "recipe_name": "布泽普渡"
-        }
-    },
-    5544: {
-        1: {
-            "skill_id": 233,
-            "recipe_type": 233,
-            "recipe_name": "布泽韦陀"
-        }
-    },
-    5564: {
-        1: {
-            "skill_id": 235,
-            "recipe_type": 235,
-            "recipe_name": "布泽横扫六合"
-        }
-    },
-    5568: {
-        1: {
-            "skill_id": 236,
-            "recipe_name": "布泽摩诃无量"
-        }
-    },
     2299: {
         1: {
             "skill_id": 2572,
@@ -3996,6 +3969,14 @@ RECIPES = {
             "skill_id": 5354,
             "recipe_type": 5354,
             "recipe_name": "横打加20%伤害"
+        }
+    },
+    4340: {
+        1: {
+            "damage_addition": 614,
+            "skill_id": 8490,
+            "recipe_type": 5638,
+            "recipe_name": "驯致加伤害"
         }
     },
     1548: {

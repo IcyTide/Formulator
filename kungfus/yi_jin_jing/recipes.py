@@ -1,10 +1,6 @@
 from general.recipes import *
 
 
-class 布泽80非侠士(PveAdditionRecipe):
-    value = 820
-
-
 class 守缺10会心会效(SolarCriticalRecipe):
     value = (1000, 102)
 
@@ -40,9 +36,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_500: {
             1139: {}
-        },
-        布泽80非侠士: {
-            5543: {}, 5544: {}, 5564: {}, 5568: {}
         },
         守缺10会心会效: {
             2299: {}

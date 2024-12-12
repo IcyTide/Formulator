@@ -68,11 +68,11 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6818: Gain("雨龙"),
+            6824: Gain("驯致", recipes=[(4340, 1)]),
             30774: Gain("龙醒")
         },
         {
             37339: Gain("易损"),
-            38878: Gain("追远"),
             6822: Gain("贞固")
         },
         {

@@ -36,8 +36,10 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             32908: {}, 13520: {}, 34916: {}, 6337: {}, 26703: {}, 32898: {}, 14928: {}, 36570: {}, 28819: {},
             25779: {}, 34998: {}, 28952: {}, 25201: {}, 25202: {},
-            38891: dict(global_damage_factor=1048576 * (0.2925 * 1.15 - 1)),
-            **{skill_id: {} for skill_id in range(6355, 6374 + 1)},
+            **{skill_id: {} for skill_id in range(8491, 8514 + 1)},
+            **{skill_id: {} for skill_id in range(19430, 19439 + 1)},
+            **{skill_id: {} for skill_id in range(6351, 6374 + 1)},
+            **{skill_id: {} for skill_id in range(6376, 6380 + 1)},
             **{skill_id: {} for skill_id in range(13523, 13530 + 1)},
             **{skill_id: dict(bind_dots={6367: 1}) for skill_id in (6853, 14930)},
             **{skill_id: dict(bind_dots={6401: 1}) for skill_id in (6867, 14931)}
