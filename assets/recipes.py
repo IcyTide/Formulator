@@ -2808,6 +2808,14 @@ RECIPES = {
             "recipe_name": "追命无声追命伤害提高20%"
         }
     },
+    5759: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 3096,
+            "recipe_type": 3096,
+            "recipe_name": "橙武追命加伤害无消耗"
+        }
+    },
     1201: {
         1: {
             "damage_addition": 102,

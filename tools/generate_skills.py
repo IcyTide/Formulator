@@ -274,7 +274,8 @@ def parse_lua(skill_id):
     skill_cof = int(skill_row.SkillCoefficient) if pd.notna(skill_row.SkillCoefficient) else 0
     dot_cof = int(skill_row.DotCoefficient) if pd.notna(skill_row.DotCoefficient) else 0
     surplus_cof = int(skill_row.SurplusCoefficient) if pd.notna(skill_row.SurplusCoefficient) else 0
-    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], skill_row.ScriptFile), encoding="utf-8").read()
+    target_file_path = skill_row.ScriptFile.replace('\\','/')
+    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path), encoding="utf-8").read()
     lua_code = INCLUDE_PATTERN.sub('', lua_code)
     skill_args = (
         kind_type, recipe_type, recipe_mask, weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof

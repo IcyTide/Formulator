@@ -82,6 +82,8 @@ class BaseParser:
     start_frame: FRAME_TYPE
     end_frame: FRAME_TYPE
 
+    stop_frames: Dict[PLAYER_ID_TYPE, int]
+
     select_talents: Dict[PLAYER_ID_TYPE, List[int]]
     select_equipments: Dict[PLAYER_ID_TYPE, Dict[int, Dict[str, Union[int, list]]]]
 
@@ -147,6 +149,10 @@ class BaseParser:
     def current_last_dot(self):
         return self.last_dot[self.current_target][self.current_player]
 
+    @property
+    def current_stop_time(self):
+        return round((self.stop_frames[self.current_player] - self.start_frame) / FRAME_PER_SECOND, 3)
+
     def reset(self):
         self.current_frame = 0
 
@@ -175,6 +181,8 @@ class BaseParser:
         self.last_dot = defaultdict(lambda: defaultdict(dict))
 
         self.start_frame = 0
+
+        self.stop_frames = {}
 
         self.select_talents = {}
         self.select_equipments = {}
@@ -443,6 +451,7 @@ class Parser(BaseParser):
         self.current_damage = damage_id
         if damage_type == 1:
             damage, damage.skill_level = self.players[player_id].skills[damage_id], damage_level
+            self.stop_frames[self.current_player] = self.current_frame
         elif damage_type == 2:
             damage, damage.buff_level = self.players[player_id].dots[damage_id], damage_level
         else:
@@ -562,7 +571,10 @@ class Parser(BaseParser):
     def __call__(self, file_name):
         self.file_name = file_name
         self.reset()
-        lines = open(file_name, encoding="gbk").readlines()
+        try:
+            lines = open(file_name, encoding="gbk").readlines()
+        except UnicodeDecodeError:
+            lines = open(file_name, encoding="utf-8").readlines()
         rows = []
         for line in lines:
             row = line.split("\t")

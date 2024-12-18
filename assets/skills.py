@@ -40881,6 +40881,18 @@ SKILLS = {
         "neutral_damage_base": 20,
         "neutral_damage_call": 1
     },
+    38590: {
+        "alias_name": "雾分身伤害子技能",
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 720.0,
+        "max_level": 1,
+        "skill_name": "胧雾观花",
+        "neutral_damage_base": 20,
+        "neutral_damage_call": 1
+    },
     102280: {
         "alias_name": "移动端_一阳指",
         "kind_type": "NeutralMagic",

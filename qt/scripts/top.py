@@ -92,11 +92,9 @@ def top_script(
         config_choices = list(CONFIG.get(kungfu.name, {}))
         config_widget.config_select.set_items(config_choices, default_index=-1)
         """ Update dashboard """
-        duration = parser.duration
-        dashboard_widget.end_time.set_value(duration)
-        dashboard_widget.end_time.set_info(str(round(duration, 2)))
-        if dashboard_widget.start_time.spin_box.value() >= duration:
-            dashboard_widget.start_time.set_value(0)
+        dashboard_widget.start_time.set_value(0)
+        dashboard_widget.end_time.set_info(str(round(parser.duration, 2)))
+        dashboard_widget.end_time.set_value(parser.current_stop_time)
 
         """ Update talent options """
         for i, talent_widget in enumerate(talents_widget.values()):
