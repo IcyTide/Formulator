@@ -8397,6 +8397,13 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    70859: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "移动端_禅灵计数",
+        "max_stack": 5,
+        "recipes": {}
+    },
     1908: {
         "attributes": {
             "magical_critical_power_rate": 200

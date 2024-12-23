@@ -16,7 +16,7 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     },
     1: {
         Buff: {
-            70864: dict(interval=80)
+            70864: dict(interval=80), 70859: {}
         }
     }
 }
