@@ -219,6 +219,12 @@ class CriticalShoesGain(ShoesGain):
     _attributes = GENERAL_BUFFS[29524].all_attributes
 
 
+class WinterWeaponGain(EquipmentGain):
+    buff_ids = [18792]
+    _attributes = GENERAL_BUFFS[18792].all_attributes
+    rate = 6 / 30
+
+
 def set_real_formulation(tag):
     EquipmentGain.real_formulation = tag
 
@@ -301,5 +307,6 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (gain_id,): DivineGain(i + 1)
         for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732))
-    }
+    },
+    (2770,): WinterWeaponGain()
 }

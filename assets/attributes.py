@@ -556,6 +556,46 @@ ATTRIBUTES = {
             7604
         ]
     },
+    100618: {
+        "alias_name": "移动端_焚影圣诀_心法",
+        "max_level": 14,
+        "pve_addition_base": 563,
+        "all_shield_ignore": 614,
+        "lunar_attack_power_base": [
+            11,
+            18,
+            28,
+            41,
+            54,
+            64,
+            77,
+            90,
+            101,
+            328,
+            504,
+            1923,
+            4346,
+            7604
+        ],
+        "spunk_to_solar_and_lunar_attack_power": 2038,
+        "spunk_to_solar_and_lunar_critical_strike": 307,
+        "solar_attack_power_base": [
+            11,
+            18,
+            28,
+            41,
+            54,
+            64,
+            77,
+            90,
+            101,
+            328,
+            504,
+            1923,
+            4346,
+            7604
+        ]
+    },
     10268: {
         "alias_name": "笑尘诀",
         "max_level": 14,

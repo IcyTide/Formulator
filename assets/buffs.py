@@ -5743,6 +5743,35 @@ BUFFS = {
         "max_stack": 5,
         "recipes": {}
     },
+    18792: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 1680,
+                "all_critical_power_base": 800
+            },
+            {
+                "all_critical_strike_base": 1890,
+                "all_critical_power_base": 900
+            },
+            {
+                "all_critical_strike_base": 3400,
+                "all_critical_power_base": 1620
+            },
+            {
+                "all_critical_strike_base": 4420,
+                "all_critical_power_base": 2110
+            },
+            {
+                "all_critical_strike_base": 12600,
+                "all_critical_power_base": 5900
+            }
+        ],
+        "max_level": 5,
+        "buff_name": "飞剑绝意·锋",
+        "alias_name": "龙门飞剑特殊武器_输出爆发",
+        "max_stack": 1,
+        "recipes": {}
+    },
     918: {
         "attributes": {},
         "max_level": 1,
@@ -10078,6 +10107,13 @@ BUFFS = {
             3226: 1,
             3227: 1
         }
+    },
+    70891: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "焚影_冥月渡心_秘籍_破魔增伤",
+        "max_stack": 1,
+        "recipes": {}
     },
     5994: {
         "attributes": [

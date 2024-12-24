@@ -2133,7 +2133,7 @@ RECIPES = {
     2910: {
         1: {
             "damage_addition": 512,
-            "skill_id": 18299,
+            "skill_id": 1,
             "recipe_name": "听晓加断潮伤害"
         }
     },

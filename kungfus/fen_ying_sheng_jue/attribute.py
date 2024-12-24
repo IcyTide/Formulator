@@ -4,7 +4,8 @@ from base.constant import BINARY_SCALE
 
 class Attribute(LunarAttribute):
     attribute_id = {
-        0: 10242
+        0: 10242,
+        1: 100618
     }
 
     spunk_to_solar_and_lunar_attack_power: int = 0

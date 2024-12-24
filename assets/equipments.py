@@ -76634,6 +76634,776 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "玉竹游归扇#41047 (24500 特效 破招 无双)": {
+            "id": 41047,
+            "name": "玉竹游归扇",
+            "school": "段氏",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "neutral_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "裂风破天弓#41046 (24500 特效 破招 无双)": {
+            "id": 41046,
+            "name": "裂风破天弓",
+            "school": "万灵",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "四绝分海刀#41045 (24500 特效 破招 无双)": {
+            "id": 41045,
+            "name": "四绝分海刀",
+            "school": "刀宗",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "传薪百草卷·尊道#41043 (24500 特效 破招 无双)": {
+            "id": 41043,
+            "name": "传薪百草卷·尊道",
+            "school": "药宗",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spirit_base": 1317,
+                "poison_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "三试夺魂灯#41042 (24500 特效 破招 无双)": {
+            "id": 41042,
+            "name": "三试夺魂灯",
+            "school": "衍天",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "neutral_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "九节摘心链#41041 (24500 特效 破招 无双)": {
+            "id": 41041,
+            "name": "九节摘心链",
+            "school": "凌雪",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "风雪不归伞#41040 (24500 特效 破招 无双)": {
+            "id": 41040,
+            "name": "风雪不归伞",
+            "school": "蓬莱",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "百炼环首刀#41039 (24500 特效 破招 无双)": {
+            "id": 41039,
+            "name": "百炼环首刀",
+            "school": "霸刀",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "国士无双·天乐#41037 (24500 特效 破招 无双)": {
+            "id": 41037,
+            "name": "国士无双·天乐",
+            "school": "长歌",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1900,
+                "weapon_damage_rand": 1267
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spirit_base": 1317,
+                "lunar_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "双虎遮日·雁门如铁#41035 (24500 特效 破招 无双)": {
+            "id": 41035,
+            "name": "双虎遮日·雁门如铁",
+            "school": "苍云",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 5699,
+                "weapon_damage_rand": 3800
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "赤日火纹刀·暗影#41033 (24500 特效 破招 无双)": {
+            "id": 41033,
+            "name": "赤日火纹刀·暗影",
+            "school": "明教",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "solar_and_lunar_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "solar_and_lunar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青玉夺龙棒#41032 (24500 特效 破招 无双)": {
+            "id": 41032,
+            "name": "青玉夺龙棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6459,
+                "weapon_damage_rand": 4306
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青衣子母剑·轻#41030 (24500 特效 破招 无双)": {
+            "id": 41030,
+            "name": "青衣子母剑·轻",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4939,
+                "weapon_damage_rand": 3293
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "浪子穿心弩·杀心#41029 (24500 特效 破招 无双)": {
+            "id": 41029,
+            "name": "浪子穿心弩·杀心",
+            "school": "唐门",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "浪子穿心弩·无情#41028 (24500 特效 破招 无双)": {
+            "id": 41028,
+            "name": "浪子穿心弩·无情",
+            "school": "唐门",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 3800,
+                "weapon_damage_rand": 2533
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "poison_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spunk_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "十方断魂笛·虫魂#41026 (24500 特效 破招 无双)": {
+            "id": 41026,
+            "name": "十方断魂笛·虫魂",
+            "school": "五毒",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1900,
+                "weapon_damage_rand": 1267
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spirit_base": 1317,
+                "poison_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "poison_attack_power_base": 97,
+                "spirit_base": 41,
+                "poison_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "淬血霜花剑·金莲#41024 (24500 特效 破招 无双)": {
+            "id": 41024,
+            "name": "淬血霜花剑·金莲",
+            "school": "七秀",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2470,
+                "weapon_damage_rand": 1646
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spirit_base": 1317,
+                "lunar_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "lunar_attack_power_base": 97,
+                "spirit_base": 41,
+                "lunar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "悲风悯月剑·分野#41023 (24500 特效 破招 无双)": {
+            "id": 41023,
+            "name": "悲风悯月剑·分野",
+            "school": "纯阳",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 4939,
+                "weapon_damage_rand": 3293
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "悲风悯月剑·星辰#41022 (24500 特效 破招 无双)": {
+            "id": 41022,
+            "name": "悲风悯月剑·星辰",
+            "school": "纯阳",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 2470,
+                "weapon_damage_rand": 1646
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spirit_base": 1317,
+                "neutral_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spirit_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "红缨亮银枪·肃清#41020 (24500 特效 破招 无双)": {
+            "id": 41020,
+            "name": "红缨亮银枪·肃清",
+            "school": "天策",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6459,
+                "weapon_damage_rand": 4306
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "哭佛点睛笔·山水#41018 (24500 特效 破招 无双)": {
+            "id": 41018,
+            "name": "哭佛点睛笔·山水",
+            "school": "万花",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 1900,
+                "weapon_damage_rand": 1267
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "neutral_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "neutral_attack_power_base": 97,
+                "spunk_base": 41,
+                "neutral_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "裂叶齐眉棍·禅#41016 (24500 特效 破招 无双)": {
+            "id": 41016,
+            "name": "裂叶齐眉棍·禅",
+            "school": "少林",
+            "kind": "内功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 6459,
+                "weapon_damage_rand": 4306
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "spunk_base": 1317,
+                "solar_attack_power_base": 7323,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "solar_attack_power_base": 97,
+                "spunk_base": 41,
+                "solar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏龙阳焰#40193 (17100 特效 会心 破防 加速)": {
             "id": 40193,
             "name": "伏龙阳焰",
@@ -96683,6 +97453,41 @@ EQUIPMENTS = {
                 17372: 1,
                 17371: 1
             },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青衣子母剑·重#41031 (24500 特效 破招 无双)": {
+            "id": 41031,
+            "name": "青衣子母剑·重",
+            "school": "藏剑",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {
+                "weapon_damage_base": 7599,
+                "weapon_damage_rand": 5066
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "agility_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 8804
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "agility_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ]
+            ],
+            "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
