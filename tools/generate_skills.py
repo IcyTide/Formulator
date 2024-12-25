@@ -21,12 +21,14 @@ ATTRIBUTE_TYPE = {
     "SKILL_SOLAR_DAMAGE": "solar_damage_base",
     "SKILL_NEUTRAL_DAMAGE": "neutral_damage_base",
     "SKILL_POISON_DAMAGE": "poison_damage_base",
+    "SKILL_ADAPTIVE_DAMAGE": "adaptive_damage_base",
 
     "SKILL_PHYSICS_DAMAGE_RAND": "physical_damage_rand",
     "SKILL_LUNAR_DAMAGE_RAND": "lunar_damage_rand",
     "SKILL_SOLAR_DAMAGE_RAND": "solar_damage_rand",
     "SKILL_NEUTRAL_DAMAGE_RAND": "neutral_damage_rand",
     "SKILL_POISON_DAMAGE_RAND": "poison_damage_rand",
+    "SKILL_ADAPTIVE_DAMAGE_RAND": "adaptive_damage_rand",
 
     "PHYSICS_ATTACK_POWER_PERCENT": "physical_attack_power_gain",
     "LUNAR_ATTACK_POWER_PERCENT": "lunar_attack_power_gain",
@@ -248,12 +250,14 @@ class SkillLua:
         if len(args) < 3:
             return
 
-        attr_type, param = args[1], args[2]
+        attr_type, param_1, param_2 = args[1], args[2], args[3]
         if attr := ATTRIBUTE_TYPE_MAP.get(attr_type):
             if "call" in attr:
                 setattr(self, attr, getattr(self, attr) + 1)
+            elif "adaptive" in attr:
+                setattr(self, attr, param_2)
             else:
-                setattr(self, attr, param)
+                setattr(self, attr, param_1)
 
     def __call__(self, *args, **kwargs):
         pass
