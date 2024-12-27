@@ -13,6 +13,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
             **{skill_id: dict(post_buffs={-23167: {1: 1}}) for skill_id in (14299, 14067)},
             **{skill_id: dict(bind_dots={9357: 1}) for skill_id in (14287, 17788)},
             **{skill_id: dict(bind_dots={9361: 1}) for skill_id in (14291, 17792)},
+            **{skill_id: dict(bind_dots={9358: 1}) for skill_id in (14288, 17789)},
+            **{skill_id: dict(bind_dots={9362: 1}) for skill_id in (14292, 17793)},
             31005: dict(bind_dots={23187: 1})
         },
         NpcSkill: {15076: {}}
