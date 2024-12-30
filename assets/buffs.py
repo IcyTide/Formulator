@@ -5762,8 +5762,8 @@ BUFFS = {
                 "all_critical_power_base": 2110
             },
             {
-                "all_critical_strike_base": 12600,
-                "all_critical_power_base": 5900
+                "all_critical_strike_base": 9070,
+                "all_critical_power_base": 4320
             }
         ],
         "max_level": 5,
@@ -7930,10 +7930,10 @@ BUFFS = {
                 "magical_shield_base": -15
             },
             {
-                "solar_shield_gain": -30,
-                "neutral_shield_gain": -30,
-                "lunar_shield_gain": -30,
-                "poison_shield_gain": -30
+                "solar_shield_gain": -154,
+                "neutral_shield_gain": -154,
+                "lunar_shield_gain": -154,
+                "poison_shield_gain": -154
             }
         ],
         "max_level": 6,
@@ -7946,7 +7946,14 @@ BUFFS = {
             "外缚印段3",
             "立地成佛3"
         ],
-        "max_stack": 5,
+        "max_stack": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            1
+        ],
         "recipes": {}
     },
     378: {
@@ -7995,7 +8002,21 @@ BUFFS = {
         "buff_name": "碎星辰",
         "alias_name": "碎星辰",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": [
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {
+                5772: 1
+            },
+            {}
+        ]
     },
     375: {
         "attributes": [
@@ -8274,9 +8295,14 @@ BUFFS = {
         "attributes": {
             "solar_attack_power_gain": 204
         },
-        "max_level": 2,
+        "max_level": 4,
         "buff_name": "擒龙诀",
-        "alias_name": "金刚诀",
+        "alias_name": [
+            "金刚诀",
+            "金刚诀",
+            "金刚诀_不回豆",
+            "金刚诀_不回豆回血"
+        ],
         "max_stack": 1,
         "recipes": {}
     },
@@ -9676,7 +9702,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 133
+            "pve_addition_base": 174
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -10630,18 +10656,19 @@ BUFFS = {
     },
     71095: {
         "attributes": {
-            "physical_critical_strike_rate": 300,
-            "physical_critical_power_rate": 30
+            "physical_critical_strike_rate": 600,
+            "physical_critical_power_rate": 60
         },
         "max_level": 1,
-        "buff_name": "恋战·悟",
+        "buff_name": "陷阵·悟",
         "alias_name": "移动端_分山_奇穴_流血加双会",
-        "max_stack": 3,
+        "max_stack": 2,
         "recipes": {}
     },
     9437: {
         "attributes": {
-            "lunar_attack_power_gain": 102
+            "lunar_attack_power_gain": 102,
+            "strain_gain": 184
         },
         "max_level": 1,
         "buff_name": "参连",
@@ -11563,13 +11590,13 @@ BUFFS = {
     },
     71297: {
         "attributes": {
-            "physical_damage_addition": 51,
-            "magical_damage_addition": 51
+            "physical_damage_addition": 103,
+            "magical_damage_addition": 103
         },
         "max_level": 1,
         "buff_name": "披靡·悟",
         "alias_name": "移动端_孤锋诀_奇穴_可叠加增伤",
-        "max_stack": 3,
+        "max_stack": 2,
         "recipes": {}
     },
     26857: {

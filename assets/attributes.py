@@ -49,7 +49,7 @@ ATTRIBUTES = {
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
-        "pve_addition_base": 410,
+        "pve_addition_base": 430,
         "magical_attack_power_base": [
             9,
             15,
@@ -127,7 +127,7 @@ ATTRIBUTES = {
     100389: {
         "alias_name": "移动端_太虚剑意_心法",
         "max_level": 14,
-        "pve_addition_base": 532,
+        "pve_addition_base": 573,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
@@ -168,7 +168,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 450,
+        "pve_addition_base": 481,
         "magical_attack_power_base": [
             10,
             17,
@@ -215,7 +215,7 @@ ATTRIBUTES = {
     10026: {
         "alias_name": "傲血战意",
         "max_level": 14,
-        "pve_addition_base": 389,
+        "pve_addition_base": 471,
         "physical_attack_power_base": [
             9,
             15,
@@ -238,7 +238,7 @@ ATTRIBUTES = {
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,
-        "pve_addition_base": 133,
+        "pve_addition_base": 195,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
         "lunar_attack_power_base": [
@@ -352,7 +352,7 @@ ATTRIBUTES = {
     100725: {
         "alias_name": "移动端_心法_问水诀",
         "max_level": 14,
-        "pve_addition_base": 440,
+        "pve_addition_base": 441,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1843,
         "physical_critical_strike_base": [
@@ -420,7 +420,7 @@ ATTRIBUTES = {
     10175: {
         "alias_name": "毒经",
         "max_level": 14,
-        "pve_addition_base": 133,
+        "pve_addition_base": 174,
         "magical_attack_power_base": [
             10,
             17,
@@ -481,7 +481,7 @@ ATTRIBUTES = {
     10225: {
         "alias_name": "天罗诡道",
         "max_level": 14,
-        "pve_addition_base": 51,
+        "pve_addition_base": 113,
         "physical_critical_strike_base": [
             4,
             7,
@@ -520,7 +520,7 @@ ATTRIBUTES = {
     10242: {
         "alias_name": "焚影圣诀",
         "max_level": 14,
-        "pve_addition_base": 184,
+        "pve_addition_base": 236,
         "lunar_attack_power_base": [
             11,
             18,
@@ -559,7 +559,7 @@ ATTRIBUTES = {
     100618: {
         "alias_name": "移动端_焚影圣诀_心法",
         "max_level": 14,
-        "pve_addition_base": 563,
+        "pve_addition_base": 594,
         "all_shield_ignore": 614,
         "lunar_attack_power_base": [
             11,
@@ -622,7 +622,7 @@ ATTRIBUTES = {
     100651: {
         "alias_name": "移动端_笑尘诀_心法",
         "max_level": 14,
-        "pve_addition_base": 543,
+        "pve_addition_base": 696,
         "all_shield_ignore": 614,
         "physical_attack_power_base": [
             8,
@@ -684,7 +684,7 @@ ATTRIBUTES = {
     101024: {
         "alias_name": "移动端_心法_分山劲",
         "max_level": 14,
-        "pve_addition_base": 553,
+        "pve_addition_base": 594,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1925,
         "physical_attack_power_base": [
@@ -762,7 +762,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 328,
+        "pve_addition_base": 379,
         "physical_attack_power_base": [
             9,
             15,
@@ -785,7 +785,7 @@ ATTRIBUTES = {
     100994: {
         "alias_name": "移动端_北傲决",
         "max_level": 14,
-        "pve_addition_base": 563,
+        "pve_addition_base": 594,
         "all_shield_ignore": 614,
         "physical_attack_power_base": [
             9,
@@ -848,7 +848,7 @@ ATTRIBUTES = {
     101090: {
         "alias_name": "移动端_心法_凌海决",
         "max_level": 14,
-        "pve_addition_base": 410,
+        "pve_addition_base": 594,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
@@ -888,7 +888,7 @@ ATTRIBUTES = {
     10585: {
         "alias_name": "隐龙诀",
         "max_level": 14,
-        "pve_addition_base": 338,
+        "pve_addition_base": 287,
         "agility_to_physical_attack_power": 1772,
         "physical_attack_power_base": [
             8,
@@ -966,7 +966,7 @@ ATTRIBUTES = {
     101450: {
         "alias_name": "移动端_心法_太玄经",
         "max_level": 14,
-        "pve_addition_base": 563,
+        "pve_addition_base": 533,
         "magical_attack_power_base": [
             10,
             17,
@@ -1085,7 +1085,7 @@ ATTRIBUTES = {
     10698: {
         "alias_name": "孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 369,
+        "pve_addition_base": 338,
         "physical_critical_strike_base": [
             13,
             23,
@@ -1124,7 +1124,7 @@ ATTRIBUTES = {
     101375: {
         "alias_name": "移动端_孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 430,
+        "pve_addition_base": 594,
         "all_shield_ignore": 614,
         "physical_critical_strike_base": [
             13,
@@ -1203,7 +1203,7 @@ ATTRIBUTES = {
     101740: {
         "alias_name": "移动端_山海心诀_心法",
         "max_level": 14,
-        "pve_addition_base": 553,
+        "pve_addition_base": 635,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,

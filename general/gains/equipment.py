@@ -308,5 +308,6 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         (gain_id,): DivineGain(i + 1)
         for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732))
     },
-    (2770,): WinterWeaponGain()
+    (2770,): WinterWeaponGain(),
+    (26060, 5): Gain()
 }

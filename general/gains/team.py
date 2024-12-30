@@ -63,9 +63,7 @@ TEAM_GAINS = [
     ),
     create_team_gain(GENERAL_BUFFS[6363], TeamGain, GENERAL_BUFFS[6363].get_attributes()),
     create_team_gain(
-        GENERAL_BUFFS[-566], TargetTeamGain, GENERAL_BUFFS[-566].get_attributes(
-            level=GENERAL_BUFFS[-566].max_level, stack=GENERAL_BUFFS[-566].max_stack
-        )
+        GENERAL_BUFFS[-566], TargetTeamGain, GENERAL_BUFFS[-566].get_attributes(level=GENERAL_BUFFS[-566].max_level)
     ),
     create_team_gain(GENERAL_BUFFS[10208], TeamGain, GENERAL_BUFFS[10208].attributes),
     create_team_gain(GENERAL_BUFFS[29294], TeamGain, GENERAL_BUFFS[29294].attributes),

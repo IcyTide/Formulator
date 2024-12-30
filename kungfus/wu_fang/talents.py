@@ -29,13 +29,13 @@ class 疾根(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
-            28343: Gain("淮茵"),
+            38631: Gain("连茹"),
             28338: Gain("怯邪"),
             27530: Gain("川谷", recipes=[(2541, 1)])
         },
         {
             28344: Gain("鸩羽", recipes=[(2549, 1)]),
-            38631: Gain("连茹")
+            28343: Gain("淮茵"),
         },
         {
             28361: Gain("结草")

@@ -58,7 +58,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             21812: Gain("云中剑")
         },
         {
-            17742: 风逝("风逝"),
+            14833: Gain("玄门"),
             36106: Gain("瑞氛"),
             24969: Gain("合虚")
         },
@@ -87,7 +87,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             17731: 无欲("无欲")
         },
         {
-            14833: Gain("玄门"),
+            17742: 风逝("风逝"),
             24972: Gain("凌云剑"),
             15187: Gain("行天道")
         }

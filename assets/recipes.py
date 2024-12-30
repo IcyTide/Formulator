@@ -820,6 +820,13 @@ RECIPES = {
             "recipe_name": "橙武八荒增伤"
         }
     },
+    5772: {
+        1: {
+            "damage_addition": 307,
+            "recipe_type": 364,
+            "recipe_name": "三环伤害提高"
+        }
+    },
     1522: {
         1: {
             "damage_addition": 51,
@@ -1007,24 +1014,21 @@ RECIPES = {
     3019: {
         1: {
             "damage_addition": 174,
-            "skill_id": 2636,
-            "recipe_type": 2636,
+            "skill_id": 1,
             "recipe_name": "新雪中行快雪加伤害"
         }
     },
     3020: {
         1: {
             "damage_addition": 348,
-            "skill_id": 2636,
-            "recipe_type": 2636,
+            "skill_id": 1,
             "recipe_name": "新雪中行快雪时晴伤害提高_30%"
         }
     },
     3235: {
         1: {
             "damage_addition": 420,
-            "skill_id": 2636,
-            "recipe_type": 2636,
+            "skill_id": 1,
             "recipe_name": "新雪中行快雪时晴伤害提高_3层"
         }
     },
@@ -8209,28 +8213,28 @@ RECIPES = {
     5636: {
         1: {
             "damage_addition": 358,
-            "recipe_type": 38006,
+            "skill_id": 1,
             "recipe_name": "出岫云散期间加一阳指伤害_断脉"
         }
     },
     5637: {
         1: {
             "damage_addition": 358,
-            "recipe_type": 38007,
+            "skill_id": 1,
             "recipe_name": "出岫云散期间加一阳指伤害_截阳"
         }
     },
     5638: {
         1: {
             "damage_addition": 358,
-            "recipe_type": 38009,
+            "skill_id": 1,
             "recipe_name": "出岫云散期间加一阳指伤害_引窍"
         }
     },
     5639: {
         1: {
             "damage_addition": 358,
-            "recipe_type": 38008,
+            "skill_id": 1,
             "recipe_name": "出岫云散期间加一阳指伤害_破穴"
         }
     },
