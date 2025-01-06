@@ -646,7 +646,7 @@ ATTRIBUTES = {
     10390: {
         "alias_name": "分山劲",
         "max_level": 14,
-        "pve_addition_base": 246,
+        "pve_addition_base": 287,
         "agility_to_physical_attack_power": 1925,
         "physical_attack_power_base": [
             8,
@@ -762,7 +762,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 379,
+        "pve_addition_base": 450,
         "physical_attack_power_base": [
             9,
             15,
@@ -966,7 +966,7 @@ ATTRIBUTES = {
     101450: {
         "alias_name": "移动端_心法_太玄经",
         "max_level": 14,
-        "pve_addition_base": 533,
+        "pve_addition_base": 574,
         "magical_attack_power_base": [
             10,
             17,

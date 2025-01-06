@@ -3,13 +3,6 @@ from typing import Dict
 from base.skill import Skill
 
 
-class 逐波加成(Skill):
-    def record(self, actual_critical_strike, actual_damage, parser):
-        parser.refresh_target_buff(70188, 80)
-        super().record(actual_critical_strike, actual_damage, parser)
-        parser.refresh_target_buff(70188, 80, -1)
-
-
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
@@ -24,10 +17,8 @@ SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
         Skill: {
             102091: {}, 102092: {}, 102093: {},
             102134: {}, 102173: {}, 102145: {}, 102111: {}, 102161: {}, 102103: {},
-            102228: dict(pre_target_buffs={70188: {40: 1}}, post_target_buffs={70188: {40: -1}})
-        },
-        逐波加成: {
-            102104: {}
+            102228: dict(pre_target_buffs={70188: {40: 1}}, post_target_buffs={70188: {40: -1}}),
+            102104: dict(pre_target_buffs={70188: {80: 1}}, post_target_buffs={70188: {80: -1}})
         }
     }
 }

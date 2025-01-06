@@ -76652,7 +76652,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "neutral_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -76691,7 +76691,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -76730,7 +76730,7 @@ EQUIPMENTS = {
                 "strength_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -76769,7 +76769,7 @@ EQUIPMENTS = {
                 "spirit_base": 1317,
                 "poison_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -76808,7 +76808,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "neutral_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -76847,7 +76847,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -76886,7 +76886,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -76925,7 +76925,7 @@ EQUIPMENTS = {
                 "strength_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -76964,7 +76964,7 @@ EQUIPMENTS = {
                 "spirit_base": 1317,
                 "lunar_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -77003,7 +77003,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77042,7 +77042,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "solar_and_lunar_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "solar_and_lunar_attack_power_base": 97,
@@ -77081,7 +77081,7 @@ EQUIPMENTS = {
                 "strength_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77120,7 +77120,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77159,7 +77159,7 @@ EQUIPMENTS = {
                 "strength_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77198,7 +77198,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "poison_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -77237,7 +77237,7 @@ EQUIPMENTS = {
                 "spirit_base": 1317,
                 "poison_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "poison_attack_power_base": 97,
@@ -77276,7 +77276,7 @@ EQUIPMENTS = {
                 "spirit_base": 1317,
                 "lunar_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "lunar_attack_power_base": 97,
@@ -77315,7 +77315,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77354,7 +77354,7 @@ EQUIPMENTS = {
                 "spirit_base": 1317,
                 "neutral_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -77393,7 +77393,7 @@ EQUIPMENTS = {
                 "strength_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,
@@ -77432,7 +77432,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "neutral_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "neutral_attack_power_base": 97,
@@ -77471,7 +77471,7 @@ EQUIPMENTS = {
                 "spunk_base": 1317,
                 "solar_attack_power_base": 7323,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "solar_attack_power_base": 97,
@@ -97563,7 +97563,7 @@ EQUIPMENTS = {
                 "agility_base": 1317,
                 "physical_attack_power_base": 6586,
                 "surplus_base": 11005,
-                "strain_base": 8804
+                "strain_base": 10638
             },
             "embed": {
                 "physical_attack_power_base": 87,

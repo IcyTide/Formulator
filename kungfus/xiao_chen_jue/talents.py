@@ -16,6 +16,18 @@ class 刚健(Gain):
             skills[skill_id].post_target_buffs[70188].pop(15)
 
 
+class 遁亨(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
+            skills[skill_id].pre_target_buffs[70188] = {10: 1}
+            skills[skill_id].post_target_buffs[70188] = {10: -1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
+            skills[skill_id].pre_target_buffs[70188].pop(10)
+            skills[skill_id].post_target_buffs[70188].pop(10)
+
+
 class 载物(Gain):
     @staticmethod
     def pre_effect(parser):
@@ -95,6 +107,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             100850: Gain("无妄", recipes=[(recipe_id, 1) for recipe_id in range(17233, 17237 + 1)])
         },
         {
+            100851: 遁亨("遁亨", attributes=dict(physical_critical_power_rate=100)),
             100852: Gain("利涉", attributes=dict(physical_critical_power_rate=100))
         },
         {
