@@ -5,6 +5,22 @@ from base.skill import Skill
 from kungfus.hua_jian_you.skills import 快雪时晴秘章
 
 
+class 钟灵(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[182].pre_buffs[28116] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[182].pre_buffs.pop(28116)
+
+
+class 雪中行(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[182].post_buffs[24599] = {i + 1: -i - 1 for i in range(3)}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[182].post_buffs.pop(24599)
+
+
 class 陶然(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():
@@ -43,10 +59,11 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             5756: Gain("烟霞", recipes=[(1295, 1)])
         },
         {
-            17510: Gain("倚天")
+            17510: Gain("倚天"),
+            5751: Gain("定式黑白")
         },
         {
-            26692: Gain("钟灵")
+            26692: 钟灵("钟灵")
         },
         {
             38954: Gain("焚玉"),
@@ -57,7 +74,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             21744: Gain("折花")
         },
         {
-            32477: Gain("雪中行")
+            32477: 雪中行("雪中行")
         },
         {
             16855: Gain("清流")
@@ -66,7 +83,8 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             38972: Gain("青冠", attributes=dict(neutral_attack_power_gain=102, strain_gain=102))
         },
         {
-            6682: Gain("流离")
+            6682: Gain("流离"),
+            26694: Gain("碎玉")
         },
         {
             30650: Gain("丹青"),
@@ -78,8 +96,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             26669: Gain("故幽", recipes=[(recipe_id, 1) for recipe_id in (2439, 2440, 2441, 2442, 2443, 3151)])
         },
         {
-            14643: Gain("涓流"),
-            14965: Gain("南风吐月")
+            14643: Gain("涓流")
         }
     ],
 
