@@ -65394,6 +65394,110 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "敬行囊#41051 (22200 破防 无双)": {
+            "id": 41051,
+            "name": "敬行囊",
+            "school": "通用",
+            "kind": "身法",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7313,
+                "agility_base": 597,
+                "physical_attack_power_base": 1355,
+                "physical_overcome_base": 4986,
+                "strain_base": 3989
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "纵远囊#41050 (22200 破防 无双)": {
+            "id": 41050,
+            "name": "纵远囊",
+            "school": "通用",
+            "kind": "力道",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7313,
+                "strength_base": 597,
+                "physical_attack_power_base": 1355,
+                "physical_overcome_base": 4986,
+                "strain_base": 3989
+            },
+            "embed": {
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "卓谦囊#41049 (22200 破防 无双)": {
+            "id": 41049,
+            "name": "卓谦囊",
+            "school": "通用",
+            "kind": "元气",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7313,
+                "spunk_base": 597,
+                "magical_attack_power_base": 1507,
+                "magical_overcome_base": 4986,
+                "strain_base": 3989
+            },
+            "embed": {
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "赋灵囊#41048 (22200 破防 无双)": {
+            "id": 41048,
+            "name": "赋灵囊",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 7313,
+                "spirit_base": 597,
+                "magical_attack_power_base": 1507,
+                "magical_overcome_base": 4986,
+                "strain_base": 3989
+            },
+            "embed": {
+                "magical_attack_power_base": 97
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "无修囊·外·荒#40860 (21600 精简 会心 会效 无双)": {
             "id": 40860,
             "name": "无修囊·外·荒",
