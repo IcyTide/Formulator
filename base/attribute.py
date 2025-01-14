@@ -785,6 +785,10 @@ class Minor(Vitality, CriticalPower, DamageAddition):
         return self.final_strain / STRAIN_SCALE + self.strain_rate / BINARY_SCALE
 
     @property
+    def haste(self):
+        return self.haste_base / HASTE_SCALE
+
+    @property
     def pvx_round(self):
         return self._pvx_round
 
@@ -832,7 +836,7 @@ class Attribute(Major, Minor, Target):
         strain_base=MINOR_DELTA,
         pvx_round=PVX_DELTA
     )
-    display_attrs: list = ["strain_base", "strain", "surplus", "base_weapon_damage", "weapon_damage_rand"]
+    display_attrs: list = ["strain_base", "strain", "haste_base", "haste", "surplus", "base_weapon_damage", "weapon_damage_rand"]
     recipes: list = []
     platform: int = 0
 

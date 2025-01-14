@@ -226,9 +226,9 @@ ATTR_TYPE_TRANSLATE = {
     "solar_and_lunar_overcome_base": "阴阳破防等级",
     "poison_overcome_base": "毒性破防等级",
     "surplus_base": "破招值",
+    "haste_base": "加速等级",
     "strain_base": "无双等级",
     "pvx_round": "全能",
-    "haste_base": "加速",
 }
 ATTR_TYPE_TRANSLATE_REVERSE = {v: k for k, v in ATTR_TYPE_TRANSLATE.items()}
 ATTR_TYPE_TRANSLATE = {
@@ -236,6 +236,7 @@ ATTR_TYPE_TRANSLATE = {
     "base_weapon_damage": "基础武器伤害",
     "strain": "无双",
     "surplus": "破招",
+    "haste": "加速",
     "agility": "身法",
     "strength": "力道",
     "spirit": "根骨",
