@@ -36,6 +36,8 @@ ARMOR_TAB = read_tab("settings/item/Custom_Armor.tab").fillna(0)
 TRINKET_TAB = read_tab("settings/item/Custom_Trinket.tab").fillna(0)
 ATTRIB_TAB = read_tab("settings/item/Attrib.tab")
 SET_TAB = read_tab("settings/item/Set.tab").fillna(0)
+ITEM_TAB = read_tab("ui/scheme/case/Item.txt").fillna(0)
+
 ARMOR_TAB['Score'] = ARMOR_TAB.apply(
     lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)), axis=1
 )
@@ -96,6 +98,8 @@ def get_equip_detail(row):
         "id": row.ID, "name": row.Name, "school": row.BelongSchool, "kind": row.MagicKind, "level": int(row.Level),
         "max_strength": int(row.MaxStrengthLevel), "special_enchant": 0, "set_id": 0,
     }
+    item_row = ITEM_TAB[ITEM_TAB.ItemID == row.UiID].iloc[0]
+    detail['icon_id'] = item_row['IconID']
     detail['base'] = base_attrs = {}
     detail['magic'] = magic_attrs = {}
     detail['embed'] = embed_attrs = {}

@@ -11,6 +11,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6165,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -51,6 +52,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6164,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -91,6 +93,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6163,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -131,6 +134,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6162,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -171,6 +175,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6161,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -211,6 +216,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6160,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -251,6 +257,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6159,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -291,6 +298,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6158,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -331,6 +339,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6157,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -371,6 +380,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6156,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -411,6 +421,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6155,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -451,6 +462,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6154,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -491,6 +503,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6153,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -531,6 +544,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6152,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -571,6 +585,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6151,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -611,6 +626,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6150,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -651,6 +667,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6149,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -691,6 +708,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6148,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -731,6 +749,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6147,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -771,6 +790,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6146,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -811,6 +831,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6145,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -851,6 +872,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6144,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -891,6 +913,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6141,
+            "icon_id": 23149.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -927,6 +950,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6140,
+            "icon_id": 23149.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -963,6 +987,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6139,
+            "icon_id": 23149.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -999,6 +1024,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 6138,
+            "icon_id": 23149.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -1035,6 +1061,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1063,6 +1090,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1091,6 +1119,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1120,6 +1149,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1149,6 +1179,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1178,6 +1209,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1207,6 +1239,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1235,6 +1268,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1263,6 +1297,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1291,6 +1326,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1320,6 +1356,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1348,6 +1385,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1376,6 +1414,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1404,6 +1443,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1433,6 +1473,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1462,6 +1503,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1491,6 +1533,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1520,6 +1563,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1549,6 +1593,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1578,6 +1623,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1607,6 +1653,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1636,6 +1683,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1665,6 +1713,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5948,
+            "icon_id": 23192.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1705,6 +1754,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5947,
+            "icon_id": 23258.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1745,6 +1795,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5946,
+            "icon_id": 23186.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1785,6 +1836,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5944,
+            "icon_id": 23276.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1826,6 +1878,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5943,
+            "icon_id": 23270.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1867,6 +1920,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5942,
+            "icon_id": 23210.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1908,6 +1962,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5941,
+            "icon_id": 23222.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1949,6 +2004,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5940,
+            "icon_id": 23161.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -1990,6 +2046,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5938,
+            "icon_id": 23282.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2031,6 +2088,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5936,
+            "icon_id": 23167.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2072,6 +2130,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5934,
+            "icon_id": 23216.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2112,6 +2171,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5933,
+            "icon_id": 23204.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2152,6 +2212,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5932,
+            "icon_id": 23173.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2193,6 +2254,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5931,
+            "icon_id": 23240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2234,6 +2296,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5930,
+            "icon_id": 23240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2275,6 +2338,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5928,
+            "icon_id": 23264.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2316,6 +2380,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5926,
+            "icon_id": 23228.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2356,6 +2421,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5925,
+            "icon_id": 23179.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2396,6 +2462,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5924,
+            "icon_id": 23179.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2437,6 +2504,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5922,
+            "icon_id": 23246.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2477,6 +2545,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5920,
+            "icon_id": 23252.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2518,6 +2587,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 5918,
+            "icon_id": 23234.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2559,6 +2629,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 9686.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2588,6 +2659,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 9686.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2617,6 +2689,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 9686.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2646,6 +2719,7 @@ EQUIPMENTS = {
                 2673
             ],
             "set_id": 0,
+            "icon_id": 9686.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2675,6 +2749,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6165,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2715,6 +2790,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6164,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2755,6 +2831,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6163,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2795,6 +2872,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6162,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2835,6 +2913,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6161,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2875,6 +2954,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6160,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2915,6 +2995,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6159,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2955,6 +3036,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6158,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -2995,6 +3077,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6157,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3035,6 +3118,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6156,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3075,6 +3159,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6155,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3115,6 +3200,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6154,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3155,6 +3241,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6153,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3195,6 +3282,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6152,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3235,6 +3323,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6151,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3275,6 +3364,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6150,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3315,6 +3405,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6149,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3355,6 +3446,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6148,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3395,6 +3487,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6147,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3435,6 +3528,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6146,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3475,6 +3569,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6145,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3515,6 +3610,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 6144,
+            "icon_id": 22083.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -3555,6 +3651,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6478.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3584,6 +3681,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6478.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3613,6 +3711,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6478.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3642,6 +3741,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6478.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3671,6 +3771,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3700,6 +3801,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3729,6 +3831,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3758,6 +3861,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3787,6 +3891,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3816,6 +3921,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3845,6 +3951,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3874,6 +3981,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3903,6 +4011,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3932,6 +4041,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3961,6 +4071,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -3990,6 +4101,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 23143.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4019,6 +4131,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5948,
+            "icon_id": 23192.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4059,6 +4172,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5947,
+            "icon_id": 23258.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4099,6 +4213,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5946,
+            "icon_id": 23186.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4139,6 +4254,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5944,
+            "icon_id": 23276.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4180,6 +4296,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5943,
+            "icon_id": 23270.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4221,6 +4338,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5942,
+            "icon_id": 23210.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4262,6 +4380,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5941,
+            "icon_id": 23222.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4303,6 +4422,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5940,
+            "icon_id": 23161.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4344,6 +4464,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5938,
+            "icon_id": 23282.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4385,6 +4506,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5936,
+            "icon_id": 23167.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4426,6 +4548,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5934,
+            "icon_id": 23216.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4466,6 +4589,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5933,
+            "icon_id": 23204.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4506,6 +4630,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5932,
+            "icon_id": 23173.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4547,6 +4672,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5931,
+            "icon_id": 23240.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4588,6 +4714,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5930,
+            "icon_id": 23240.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4629,6 +4756,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5928,
+            "icon_id": 23264.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4670,6 +4798,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5926,
+            "icon_id": 23228.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4710,6 +4839,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5925,
+            "icon_id": 23179.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4750,6 +4880,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5924,
+            "icon_id": 23179.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4791,6 +4922,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5922,
+            "icon_id": 23246.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4831,6 +4963,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5920,
+            "icon_id": 23252.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4872,6 +5005,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5918,
+            "icon_id": 23234.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4913,6 +5047,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5884,
+            "icon_id": 8889.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4948,6 +5083,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5883,
+            "icon_id": 8889.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -4983,6 +5119,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5882,
+            "icon_id": 8889.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -5018,6 +5155,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5881,
+            "icon_id": 8889.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -5053,6 +5191,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5878,
+            "icon_id": 7987.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5088,6 +5227,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5877,
+            "icon_id": 7987.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5123,6 +5263,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5876,
+            "icon_id": 7987.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5158,6 +5299,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 5875,
+            "icon_id": 7987.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5193,6 +5335,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5222,6 +5365,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5251,6 +5395,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5280,6 +5425,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -5309,6 +5455,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -5338,6 +5485,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -5367,6 +5515,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -5396,6 +5545,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -5425,6 +5575,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5454,6 +5605,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5483,6 +5635,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5512,6 +5665,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5541,6 +5695,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5570,6 +5725,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5599,6 +5755,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5628,6 +5785,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5657,6 +5815,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5686,6 +5845,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5715,6 +5875,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5744,6 +5905,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5773,6 +5935,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5802,6 +5965,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5831,6 +5995,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5860,6 +6025,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5889,6 +6055,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5918,6 +6085,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5947,6 +6115,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -5976,6 +6145,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6005,6 +6175,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6034,6 +6205,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6063,6 +6235,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6092,6 +6265,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11599.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6121,6 +6295,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6150,6 +6325,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6179,6 +6355,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6208,6 +6385,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6237,6 +6415,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6266,6 +6445,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6295,6 +6475,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6324,6 +6505,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 11045.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -6353,6 +6535,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -6382,6 +6565,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -6411,6 +6595,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -6440,6 +6625,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -6469,6 +6655,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -6498,6 +6685,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -6527,6 +6715,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -6556,6 +6745,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -6585,6 +6775,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -6614,6 +6805,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -6643,6 +6835,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -6672,6 +6865,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -6701,6 +6895,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6827.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -6730,6 +6925,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6827.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -6759,6 +6955,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6827.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -6788,6 +6985,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 6827.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -6817,6 +7015,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -6846,6 +7045,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -6875,6 +7075,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -6904,6 +7105,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -6933,6 +7135,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -6962,6 +7165,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -6991,6 +7195,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7020,6 +7225,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 5882.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7049,6 +7255,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 17930.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7078,6 +7285,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 17930.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7107,6 +7315,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 17930.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7136,6 +7345,7 @@ EQUIPMENTS = {
                 2663
             ],
             "set_id": 0,
+            "icon_id": 17930.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -7167,6 +7377,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6165,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7207,6 +7418,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6164,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7247,6 +7459,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6163,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7287,6 +7500,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6162,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7327,6 +7541,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6161,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7367,6 +7582,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6160,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7407,6 +7623,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6159,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7447,6 +7664,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6158,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7487,6 +7705,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6157,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7527,6 +7746,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6156,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7567,6 +7787,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6155,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7607,6 +7828,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6154,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7647,6 +7869,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6153,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7687,6 +7910,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6152,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7727,6 +7951,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6151,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7767,6 +7992,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6150,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7807,6 +8033,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6149,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7847,6 +8074,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6148,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7887,6 +8115,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6147,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7927,6 +8156,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6146,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -7967,6 +8197,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6145,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8007,6 +8238,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6144,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8047,6 +8279,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6141,
+            "icon_id": 23152.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8083,6 +8316,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6140,
+            "icon_id": 23152.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8119,6 +8353,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6139,
+            "icon_id": 23152.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8155,6 +8390,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 6138,
+            "icon_id": 23152.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -8191,6 +8427,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8220,6 +8457,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8249,6 +8487,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8278,6 +8517,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8307,6 +8547,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8336,6 +8577,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8365,6 +8607,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8394,6 +8637,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8423,6 +8667,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5948,
+            "icon_id": 23195.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8463,6 +8708,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5947,
+            "icon_id": 23261.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8503,6 +8749,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5946,
+            "icon_id": 23189.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8543,6 +8790,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5944,
+            "icon_id": 23279.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8584,6 +8832,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5943,
+            "icon_id": 23273.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8625,6 +8874,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5942,
+            "icon_id": 23213.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8666,6 +8916,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5941,
+            "icon_id": 23225.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8707,6 +8958,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5940,
+            "icon_id": 23164.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8748,6 +9000,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5938,
+            "icon_id": 23285.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8789,6 +9042,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5936,
+            "icon_id": 23170.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8830,6 +9084,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5934,
+            "icon_id": 23219.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8870,6 +9125,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5933,
+            "icon_id": 23207.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8910,6 +9166,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5932,
+            "icon_id": 23176.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8951,6 +9208,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5931,
+            "icon_id": 23243.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -8992,6 +9250,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5930,
+            "icon_id": 23243.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9033,6 +9292,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5928,
+            "icon_id": 23267.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9074,6 +9334,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5926,
+            "icon_id": 23231.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9114,6 +9375,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5925,
+            "icon_id": 23182.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9154,6 +9416,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5924,
+            "icon_id": 23182.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9195,6 +9458,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5922,
+            "icon_id": 23249.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9235,6 +9499,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5920,
+            "icon_id": 23255.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9276,6 +9541,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 5918,
+            "icon_id": 23237.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9317,6 +9583,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9689.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9346,6 +9613,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9689.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9375,6 +9643,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9689.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9404,6 +9673,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9689.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -9433,6 +9703,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9466,6 +9737,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9498,6 +9770,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9529,6 +9802,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9562,6 +9836,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9594,6 +9869,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9625,6 +9901,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9658,6 +9935,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9690,6 +9968,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9721,6 +10000,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9754,6 +10034,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9786,6 +10067,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9800,
@@ -9817,6 +10099,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -9850,6 +10133,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -9883,6 +10167,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -9915,6 +10200,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -9948,6 +10234,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -9981,6 +10268,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10013,6 +10301,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10046,6 +10335,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10079,6 +10369,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10111,6 +10402,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10144,6 +10436,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10177,6 +10470,7 @@ EQUIPMENTS = {
                 2674
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9415,
@@ -10209,6 +10503,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10238,6 +10533,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10266,6 +10562,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10294,6 +10591,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10323,6 +10621,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10351,6 +10650,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10379,6 +10679,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10408,6 +10709,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10436,6 +10738,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10464,6 +10767,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10493,6 +10797,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10521,6 +10826,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 9031,
@@ -10549,6 +10855,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6165,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10589,6 +10896,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6164,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10629,6 +10937,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6163,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10669,6 +10978,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6162,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10709,6 +11019,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6161,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10749,6 +11060,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6160,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10789,6 +11101,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6159,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10829,6 +11142,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6158,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10869,6 +11183,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6157,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10909,6 +11224,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6156,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10949,6 +11265,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6155,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -10989,6 +11306,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6154,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11029,6 +11347,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6153,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11069,6 +11388,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6152,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11109,6 +11429,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6151,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11149,6 +11470,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6150,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11189,6 +11511,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6149,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11229,6 +11552,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6148,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11269,6 +11593,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6147,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11309,6 +11634,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6146,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11349,6 +11675,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6145,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11389,6 +11716,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 6144,
+            "icon_id": 22086.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -11429,6 +11757,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11458,6 +11787,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11486,6 +11816,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11513,6 +11844,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11542,6 +11874,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11570,6 +11903,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11597,6 +11931,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6551.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11626,6 +11961,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6551.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11655,6 +11991,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6551.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11684,6 +12021,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6551.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11713,6 +12051,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11742,6 +12081,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11770,6 +12110,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11797,6 +12138,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11826,6 +12168,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11854,6 +12197,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11881,6 +12225,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11910,6 +12255,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11939,6 +12285,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11968,6 +12315,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -11997,6 +12345,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12026,6 +12375,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12055,6 +12405,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12084,6 +12435,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 23146.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12113,6 +12465,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5948,
+            "icon_id": 23195.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12153,6 +12506,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5947,
+            "icon_id": 23261.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12193,6 +12547,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5946,
+            "icon_id": 23189.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12233,6 +12588,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5944,
+            "icon_id": 23279.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12274,6 +12630,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5943,
+            "icon_id": 23273.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12315,6 +12672,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5942,
+            "icon_id": 23213.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12356,6 +12714,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5941,
+            "icon_id": 23225.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12397,6 +12756,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5940,
+            "icon_id": 23164.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12438,6 +12798,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5938,
+            "icon_id": 23285.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12479,6 +12840,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5936,
+            "icon_id": 23170.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12520,6 +12882,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5934,
+            "icon_id": 23219.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12560,6 +12923,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5933,
+            "icon_id": 23207.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12600,6 +12964,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5932,
+            "icon_id": 23176.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12641,6 +13006,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5931,
+            "icon_id": 23243.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12682,6 +13048,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5930,
+            "icon_id": 23243.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12723,6 +13090,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5928,
+            "icon_id": 23267.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12764,6 +13132,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5926,
+            "icon_id": 23231.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12804,6 +13173,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5925,
+            "icon_id": 23182.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12844,6 +13214,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5924,
+            "icon_id": 23182.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12885,6 +13256,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5922,
+            "icon_id": 23249.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12925,6 +13297,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5920,
+            "icon_id": 23255.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -12966,6 +13339,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5918,
+            "icon_id": 23237.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -13007,6 +13381,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5884,
+            "icon_id": 8893.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -13042,6 +13417,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5883,
+            "icon_id": 8893.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -13077,6 +13453,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5882,
+            "icon_id": 8893.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -13112,6 +13489,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5881,
+            "icon_id": 8893.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -13147,6 +13525,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13176,6 +13555,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13205,6 +13585,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13233,6 +13614,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13262,6 +13644,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13291,6 +13674,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13319,6 +13703,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13348,6 +13733,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13377,6 +13763,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13405,6 +13792,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13434,6 +13822,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13463,6 +13852,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -13491,6 +13881,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5878,
+            "icon_id": 7991.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13526,6 +13917,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5877,
+            "icon_id": 7991.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13561,6 +13953,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5876,
+            "icon_id": 7991.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13596,6 +13989,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 5875,
+            "icon_id": 7991.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13631,6 +14025,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13660,6 +14055,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13689,6 +14085,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13718,6 +14115,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -13747,6 +14145,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13776,6 +14175,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13804,6 +14204,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13832,6 +14233,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13861,6 +14263,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13889,6 +14292,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13917,6 +14321,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13946,6 +14351,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -13974,6 +14380,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14002,6 +14409,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14031,6 +14439,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14059,6 +14468,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14087,6 +14497,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14116,6 +14527,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14145,6 +14557,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14174,6 +14587,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -14203,6 +14617,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14232,6 +14647,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14261,6 +14677,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14290,6 +14707,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14319,6 +14737,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14348,6 +14767,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14377,6 +14797,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14406,6 +14827,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14435,6 +14857,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14464,6 +14887,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14493,6 +14917,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14522,6 +14947,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14551,6 +14977,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14580,6 +15007,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14609,6 +15037,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14638,6 +15067,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14667,6 +15097,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14696,6 +15127,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14725,6 +15157,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14754,6 +15187,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14783,6 +15217,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14812,6 +15247,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14841,6 +15277,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14870,6 +15307,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11603.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14899,6 +15337,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14928,6 +15367,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14957,6 +15397,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -14986,6 +15427,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -15015,6 +15457,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -15044,6 +15487,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -15073,6 +15517,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -15102,6 +15547,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 11046.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -15131,6 +15577,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15160,6 +15607,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15188,6 +15636,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15215,6 +15664,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15244,6 +15694,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15272,6 +15723,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15299,6 +15751,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15328,6 +15781,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15356,6 +15810,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15383,6 +15838,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15412,6 +15868,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15440,6 +15897,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 9245.0,
             "base": {},
             "magic": {
                 "vitality_base": 7609,
@@ -15467,6 +15925,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -15496,6 +15955,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -15525,6 +15985,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -15554,6 +16015,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -15583,6 +16045,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -15612,6 +16075,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -15641,6 +16105,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -15670,6 +16135,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -15699,6 +16165,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -15728,6 +16195,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -15757,6 +16225,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -15786,6 +16255,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -15815,6 +16285,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6825.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -15844,6 +16315,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6825.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -15873,6 +16345,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6825.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -15902,6 +16375,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 6825.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -15931,6 +16405,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -15960,6 +16435,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -15989,6 +16465,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -16018,6 +16495,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -16047,6 +16525,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16076,6 +16555,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16105,6 +16585,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16134,6 +16615,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 5886.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16163,6 +16645,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 17934.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16192,6 +16675,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 17934.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16221,6 +16705,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 17934.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16250,6 +16735,7 @@ EQUIPMENTS = {
                 2664
             ],
             "set_id": 0,
+            "icon_id": 17934.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -16279,6 +16765,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16306,6 +16793,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16333,6 +16821,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16360,6 +16849,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16387,6 +16877,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16414,6 +16905,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16441,6 +16933,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16468,6 +16961,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16495,6 +16989,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16522,6 +17017,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16549,6 +17045,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16576,6 +17073,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16603,6 +17101,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16630,6 +17129,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16657,6 +17157,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16684,6 +17185,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16711,6 +17213,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16738,6 +17241,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16765,6 +17269,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16792,6 +17297,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16819,6 +17325,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16846,6 +17353,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16873,6 +17381,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6141,
+            "icon_id": 23151.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16907,6 +17416,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6140,
+            "icon_id": 23151.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16941,6 +17451,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6139,
+            "icon_id": 23151.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -16975,6 +17486,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6138,
+            "icon_id": 23151.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -17009,6 +17521,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17035,6 +17548,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17061,6 +17575,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17088,6 +17603,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17115,6 +17631,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17142,6 +17659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17169,6 +17687,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17195,6 +17714,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17220,6 +17740,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17247,6 +17768,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17273,6 +17795,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17299,6 +17822,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17324,6 +17848,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17351,6 +17876,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17377,6 +17903,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17404,6 +17931,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17431,6 +17959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17458,6 +17987,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17485,6 +18015,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17512,6 +18043,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17539,6 +18071,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17566,6 +18099,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17593,6 +18127,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17620,6 +18155,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17647,6 +18183,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17674,6 +18211,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17701,6 +18239,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9688.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17728,6 +18267,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9688.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17755,6 +18295,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9688.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17782,6 +18323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9688.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -17809,6 +18351,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17836,6 +18379,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17863,6 +18407,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17890,6 +18435,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17917,6 +18463,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17944,6 +18491,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17971,6 +18519,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -17998,6 +18547,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18025,6 +18575,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18052,6 +18603,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18079,6 +18631,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18106,6 +18659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18133,6 +18687,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18160,6 +18715,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18187,6 +18743,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18214,6 +18771,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18241,6 +18799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18268,6 +18827,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18295,6 +18855,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18322,6 +18883,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18349,6 +18911,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18376,6 +18939,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22085.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -18403,6 +18967,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6479.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18430,6 +18995,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6479.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18457,6 +19023,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6479.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18484,6 +19051,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6479.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18511,6 +19079,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18538,6 +19107,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18565,6 +19135,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18592,6 +19163,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18619,6 +19191,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18646,6 +19219,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18673,6 +19247,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18700,6 +19275,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18727,6 +19303,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18754,6 +19331,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18781,6 +19359,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18808,6 +19387,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18835,6 +19415,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18862,6 +19443,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18889,6 +19471,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18916,6 +19499,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23145.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -18943,6 +19527,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -18970,6 +19555,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -18997,6 +19583,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -19024,6 +19611,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -19051,6 +19639,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19078,6 +19667,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19105,6 +19695,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19132,6 +19723,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19159,6 +19751,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19186,6 +19779,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19213,6 +19807,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19240,6 +19835,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19267,6 +19863,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19294,6 +19891,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19321,6 +19919,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19348,6 +19947,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19375,6 +19975,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19402,6 +20003,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19429,6 +20031,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19456,6 +20059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19483,6 +20087,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19510,6 +20115,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19537,6 +20143,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19564,6 +20171,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19591,6 +20199,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19618,6 +20227,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19645,6 +20255,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19672,6 +20283,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11602.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19699,6 +20311,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19726,6 +20339,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19753,6 +20367,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19780,6 +20395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19807,6 +20423,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19834,6 +20451,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19861,6 +20479,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19888,6 +20507,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11044.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -19915,6 +20535,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -19942,6 +20563,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -19969,6 +20591,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -19996,6 +20619,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -20023,6 +20647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6824.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -20050,6 +20675,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6824.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -20077,6 +20703,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6824.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -20104,6 +20731,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6824.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -20131,6 +20759,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20158,6 +20787,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20185,6 +20815,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20212,6 +20843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 5885.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20239,6 +20871,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17931.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20266,6 +20899,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17931.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20293,6 +20927,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17931.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20320,6 +20955,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17931.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -20351,6 +20987,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6165,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20391,6 +21028,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6164,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20431,6 +21069,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6163,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20471,6 +21110,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6162,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20511,6 +21151,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6161,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20551,6 +21192,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6160,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20591,6 +21233,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6159,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20631,6 +21274,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6158,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20671,6 +21315,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6157,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20711,6 +21356,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6156,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20751,6 +21397,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6155,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20791,6 +21438,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6154,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20831,6 +21479,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6153,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20871,6 +21520,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6152,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20911,6 +21561,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6151,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20951,6 +21602,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6150,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -20991,6 +21643,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6149,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21031,6 +21684,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6148,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21071,6 +21725,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6147,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21111,6 +21766,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6146,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21151,6 +21807,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6145,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21191,6 +21848,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6144,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21231,6 +21889,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6141,
+            "icon_id": 23153.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21267,6 +21926,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6140,
+            "icon_id": 23153.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21303,6 +21963,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6139,
+            "icon_id": 23153.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21339,6 +22000,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 6138,
+            "icon_id": 23153.0,
             "base": {},
             "magic": {
                 "vitality_base": 10107,
@@ -21375,6 +22037,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21403,6 +22066,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21431,6 +22095,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21459,6 +22124,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21487,6 +22153,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21516,6 +22183,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21543,6 +22211,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21571,6 +22240,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21599,6 +22269,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21628,6 +22299,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21655,6 +22327,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21684,6 +22357,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21713,6 +22387,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21742,6 +22417,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21771,6 +22447,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21800,6 +22477,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21829,6 +22507,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21858,6 +22537,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21887,6 +22567,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5948,
+            "icon_id": 23196.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21927,6 +22608,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5947,
+            "icon_id": 23262.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -21967,6 +22649,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5946,
+            "icon_id": 23190.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22007,6 +22690,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5944,
+            "icon_id": 23280.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22048,6 +22732,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5943,
+            "icon_id": 23274.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22089,6 +22774,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5942,
+            "icon_id": 23214.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22130,6 +22816,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5941,
+            "icon_id": 23226.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22171,6 +22858,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5940,
+            "icon_id": 23165.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22212,6 +22900,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5938,
+            "icon_id": 23286.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22253,6 +22942,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5936,
+            "icon_id": 23171.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22294,6 +22984,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5934,
+            "icon_id": 23220.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22334,6 +23025,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5933,
+            "icon_id": 23208.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22374,6 +23066,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5932,
+            "icon_id": 23177.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22415,6 +23108,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5931,
+            "icon_id": 23244.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22456,6 +23150,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5930,
+            "icon_id": 23244.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22497,6 +23192,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5928,
+            "icon_id": 23268.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22538,6 +23234,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5926,
+            "icon_id": 23232.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22578,6 +23275,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5925,
+            "icon_id": 23183.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22618,6 +23316,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5924,
+            "icon_id": 23183.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22659,6 +23358,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5922,
+            "icon_id": 23250.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22699,6 +23399,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5920,
+            "icon_id": 23256.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22740,6 +23441,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 5918,
+            "icon_id": 23238.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22781,6 +23483,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 9687.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22810,6 +23513,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 9687.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22839,6 +23543,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 9687.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22868,6 +23573,7 @@ EQUIPMENTS = {
                 2672
             ],
             "set_id": 0,
+            "icon_id": 9687.0,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -22897,6 +23603,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6165,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -22937,6 +23644,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6164,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -22977,6 +23685,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6163,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23017,6 +23726,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6162,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23057,6 +23767,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6161,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23097,6 +23808,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6160,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23137,6 +23849,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6159,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23177,6 +23890,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6158,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23217,6 +23931,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6157,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23257,6 +23972,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6156,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23297,6 +24013,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6155,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23337,6 +24054,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6154,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23377,6 +24095,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6153,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23417,6 +24136,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6152,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23457,6 +24177,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6151,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23497,6 +24218,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6150,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23537,6 +24259,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6149,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23577,6 +24300,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6148,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23617,6 +24341,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6147,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23657,6 +24382,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6146,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23697,6 +24423,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6145,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23737,6 +24464,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6144,
+            "icon_id": 22087.0,
             "base": {},
             "magic": {
                 "vitality_base": 8685,
@@ -23777,6 +24505,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6552.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23806,6 +24535,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6552.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23835,6 +24565,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6552.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23864,6 +24595,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6552.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23893,6 +24625,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23922,6 +24655,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23951,6 +24685,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -23980,6 +24715,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24009,6 +24745,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24038,6 +24775,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24067,6 +24805,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24096,6 +24835,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 23147.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24125,6 +24865,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5948,
+            "icon_id": 23196.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24165,6 +24906,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5947,
+            "icon_id": 23262.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24205,6 +24947,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5946,
+            "icon_id": 23190.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24245,6 +24988,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5944,
+            "icon_id": 23280.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24286,6 +25030,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5943,
+            "icon_id": 23274.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24327,6 +25072,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5942,
+            "icon_id": 23214.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24368,6 +25114,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5941,
+            "icon_id": 23226.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24409,6 +25156,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5940,
+            "icon_id": 23165.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24450,6 +25198,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5938,
+            "icon_id": 23286.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24491,6 +25240,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5936,
+            "icon_id": 23171.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24532,6 +25282,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5934,
+            "icon_id": 23220.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24572,6 +25323,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5933,
+            "icon_id": 23208.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24612,6 +25364,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5932,
+            "icon_id": 23177.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24653,6 +25406,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5931,
+            "icon_id": 23244.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24694,6 +25448,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5930,
+            "icon_id": 23244.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24735,6 +25490,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5928,
+            "icon_id": 23268.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24776,6 +25532,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5926,
+            "icon_id": 23232.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24816,6 +25573,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5925,
+            "icon_id": 23183.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24856,6 +25614,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5924,
+            "icon_id": 23183.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24897,6 +25656,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5922,
+            "icon_id": 23250.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24937,6 +25697,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5920,
+            "icon_id": 23256.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -24978,6 +25739,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5918,
+            "icon_id": 23238.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -25019,6 +25781,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5884,
+            "icon_id": 8891.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -25054,6 +25817,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5883,
+            "icon_id": 8891.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -25089,6 +25853,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5882,
+            "icon_id": 8891.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -25124,6 +25889,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5881,
+            "icon_id": 8891.0,
             "base": {},
             "magic": {
                 "vitality_base": 8647,
@@ -25159,6 +25925,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6243,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25192,6 +25959,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6242,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25225,6 +25993,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6241,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25258,6 +26027,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6239,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25291,6 +26061,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6238,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25324,6 +26095,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6237,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25357,6 +26129,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6236,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25390,6 +26163,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6235,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25423,6 +26197,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6233,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25456,6 +26231,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6231,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25489,6 +26265,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6229,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25522,6 +26299,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6228,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25555,6 +26333,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6227,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25588,6 +26367,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6226,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25621,6 +26401,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6225,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25654,6 +26435,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6223,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25687,6 +26469,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6221,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25720,6 +26503,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6220,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25753,6 +26537,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6219,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25786,6 +26571,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6217,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25819,6 +26605,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6215,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25852,6 +26639,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 6213,
+            "icon_id": 52.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -25885,6 +26673,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5878,
+            "icon_id": 7988.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -25920,6 +26709,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5877,
+            "icon_id": 7988.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -25955,6 +26745,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5876,
+            "icon_id": 7988.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -25990,6 +26781,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 5875,
+            "icon_id": 7988.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -26025,6 +26817,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -26054,6 +26847,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -26083,6 +26877,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -26112,6 +26907,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7955,
@@ -26141,6 +26937,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26170,6 +26967,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26199,6 +26997,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26228,6 +27027,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26257,6 +27057,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26286,6 +27087,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26315,6 +27117,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26344,6 +27147,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26373,6 +27177,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26402,6 +27207,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26431,6 +27237,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26460,6 +27267,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26489,6 +27297,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26518,6 +27327,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26547,6 +27357,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26576,6 +27387,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26605,6 +27417,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26634,6 +27447,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26663,6 +27477,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26692,6 +27507,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26721,6 +27537,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26750,6 +27567,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26779,6 +27597,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26808,6 +27627,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11600.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26837,6 +27657,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26866,6 +27687,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26895,6 +27717,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26924,6 +27747,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26953,6 +27777,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -26982,6 +27807,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -27011,6 +27837,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -27040,6 +27867,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 11043.0,
             "base": {},
             "magic": {
                 "vitality_base": 7878,
@@ -27069,6 +27897,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -27098,6 +27927,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -27127,6 +27957,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -27156,6 +27987,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7455,
@@ -27185,6 +28017,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -27214,6 +28047,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -27243,6 +28077,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -27272,6 +28107,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 7225,
@@ -27301,6 +28137,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -27330,6 +28167,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -27359,6 +28197,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -27388,6 +28227,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6956,
@@ -27417,6 +28257,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6826.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -27446,6 +28287,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6826.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -27475,6 +28317,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6826.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -27504,6 +28347,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 6826.0,
             "base": {},
             "magic": {
                 "vitality_base": 6764,
@@ -27533,6 +28377,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -27562,6 +28407,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -27591,6 +28437,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -27620,6 +28467,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6456,
@@ -27649,6 +28497,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27678,6 +28527,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27707,6 +28557,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27736,6 +28587,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 5883.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27765,6 +28617,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 17935.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27794,6 +28647,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 17935.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27823,6 +28677,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 17935.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27852,6 +28707,7 @@ EQUIPMENTS = {
                 2662
             ],
             "set_id": 0,
+            "icon_id": 17935.0,
             "base": {},
             "magic": {
                 "vitality_base": 6341,
@@ -27884,6 +28740,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6165,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -27925,6 +28782,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6164,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -27966,6 +28824,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6163,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28007,6 +28866,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6162,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28048,6 +28908,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6161,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28089,6 +28950,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6160,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28130,6 +28992,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6159,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28171,6 +29034,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6158,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28212,6 +29076,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6157,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28253,6 +29118,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6156,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28294,6 +29160,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6155,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28335,6 +29202,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6154,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28376,6 +29244,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6153,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28417,6 +29286,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6152,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28458,6 +29328,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6151,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28499,6 +29370,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6150,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28540,6 +29412,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6149,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28581,6 +29454,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6148,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28622,6 +29496,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6147,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28663,6 +29538,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6146,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28704,6 +29580,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6145,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28745,6 +29622,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6144,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28786,6 +29664,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6141,
+            "icon_id": 23150.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28823,6 +29702,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6140,
+            "icon_id": 23150.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28860,6 +29740,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6139,
+            "icon_id": 23150.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28897,6 +29778,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6138,
+            "icon_id": 23150.0,
             "base": {},
             "magic": {
                 "vitality_base": 12995,
@@ -28934,6 +29816,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -28964,6 +29847,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -28994,6 +29878,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29024,6 +29909,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29054,6 +29940,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29084,6 +29971,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29114,6 +30002,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29144,6 +30033,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29174,6 +30064,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29204,6 +30095,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29234,6 +30126,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29264,6 +30157,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29294,6 +30188,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5948,
+            "icon_id": 23193.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29335,6 +30230,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5947,
+            "icon_id": 23259.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29376,6 +30272,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5946,
+            "icon_id": 23187.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29417,6 +30314,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5944,
+            "icon_id": 23277.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29459,6 +30357,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5943,
+            "icon_id": 23271.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29501,6 +30400,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5942,
+            "icon_id": 23211.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29543,6 +30443,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5941,
+            "icon_id": 23223.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29585,6 +30486,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5940,
+            "icon_id": 23162.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29627,6 +30529,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5938,
+            "icon_id": 23283.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29669,6 +30572,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5936,
+            "icon_id": 23168.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29711,6 +30615,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5934,
+            "icon_id": 23217.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29752,6 +30657,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5933,
+            "icon_id": 23205.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29793,6 +30699,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5932,
+            "icon_id": 23174.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29835,6 +30742,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5931,
+            "icon_id": 23241.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29877,6 +30785,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5930,
+            "icon_id": 23241.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29919,6 +30828,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5928,
+            "icon_id": 23265.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -29961,6 +30871,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5926,
+            "icon_id": 23229.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30002,6 +30913,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5925,
+            "icon_id": 23180.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30043,6 +30955,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5924,
+            "icon_id": 23180.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30085,6 +30998,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5922,
+            "icon_id": 23247.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30126,6 +31040,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5920,
+            "icon_id": 23253.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30168,6 +31083,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5918,
+            "icon_id": 23235.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30210,6 +31126,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9684.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30240,6 +31157,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9684.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30270,6 +31188,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9684.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30300,6 +31219,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9684.0,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -30330,6 +31250,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30364,6 +31285,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30397,6 +31319,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30429,6 +31352,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30463,6 +31387,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30496,6 +31421,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30528,6 +31454,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30562,6 +31489,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30595,6 +31523,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30627,6 +31556,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30661,6 +31591,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30694,6 +31625,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12600,
@@ -30726,6 +31658,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30760,6 +31693,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30794,6 +31728,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30827,6 +31762,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30861,6 +31797,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30895,6 +31832,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30928,6 +31866,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30962,6 +31901,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -30996,6 +31936,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -31029,6 +31970,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -31063,6 +32005,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -31097,6 +32040,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 12105,
@@ -31130,6 +32074,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31160,6 +32105,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31190,6 +32136,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31219,6 +32166,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31249,6 +32197,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31279,6 +32228,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31308,6 +32258,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31338,6 +32289,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31368,6 +32320,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31397,6 +32350,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31427,6 +32381,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31457,6 +32412,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11611,
@@ -31486,6 +32442,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6165,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31527,6 +32484,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6164,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31568,6 +32526,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6163,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31609,6 +32568,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6162,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31650,6 +32610,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6161,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31691,6 +32652,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6160,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31732,6 +32694,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6159,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31773,6 +32736,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6158,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31814,6 +32778,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6157,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31855,6 +32820,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6156,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31896,6 +32862,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6155,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31937,6 +32904,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6154,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -31978,6 +32946,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6153,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32019,6 +32988,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6152,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32060,6 +33030,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6151,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32101,6 +33072,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6150,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32142,6 +33114,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6149,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32183,6 +33156,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6148,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32224,6 +33198,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6147,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32265,6 +33240,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6146,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32306,6 +33282,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6145,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32347,6 +33324,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6144,
+            "icon_id": 22084.0,
             "base": {},
             "magic": {
                 "vitality_base": 11167,
@@ -32388,6 +33366,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32418,6 +33397,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32447,6 +33427,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32475,6 +33456,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32505,6 +33487,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32534,6 +33517,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32562,6 +33546,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6480.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32592,6 +33577,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6480.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32622,6 +33608,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6480.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32652,6 +33639,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6480.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32682,6 +33670,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32712,6 +33701,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32741,6 +33731,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32769,6 +33760,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32799,6 +33791,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32828,6 +33821,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32856,6 +33850,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32886,6 +33881,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32916,6 +33912,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32946,6 +33943,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -32976,6 +33974,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33006,6 +34005,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33036,6 +34036,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33066,6 +34067,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33096,6 +34098,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33126,6 +34129,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33156,6 +34160,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33186,6 +34191,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23144.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33216,6 +34222,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5948,
+            "icon_id": 23193.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33257,6 +34264,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5947,
+            "icon_id": 23259.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33298,6 +34306,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5946,
+            "icon_id": 23187.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33339,6 +34348,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5944,
+            "icon_id": 23277.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33381,6 +34391,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5943,
+            "icon_id": 23271.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33423,6 +34434,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5942,
+            "icon_id": 23211.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33465,6 +34477,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5941,
+            "icon_id": 23223.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33507,6 +34520,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5940,
+            "icon_id": 23162.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33549,6 +34563,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5938,
+            "icon_id": 23283.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33591,6 +34606,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5936,
+            "icon_id": 23168.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33633,6 +34649,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5934,
+            "icon_id": 23217.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33674,6 +34691,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5933,
+            "icon_id": 23205.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33715,6 +34733,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5932,
+            "icon_id": 23174.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33757,6 +34776,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5931,
+            "icon_id": 23241.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33799,6 +34819,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5930,
+            "icon_id": 23241.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33841,6 +34862,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5928,
+            "icon_id": 23265.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33883,6 +34905,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5926,
+            "icon_id": 23229.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33924,6 +34947,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5925,
+            "icon_id": 23180.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -33965,6 +34989,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5924,
+            "icon_id": 23180.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34007,6 +35032,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5922,
+            "icon_id": 23247.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34048,6 +35074,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5920,
+            "icon_id": 23253.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34090,6 +35117,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5918,
+            "icon_id": 23235.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34132,6 +35160,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5884,
+            "icon_id": 8888.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34168,6 +35197,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5883,
+            "icon_id": 8888.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34204,6 +35234,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5882,
+            "icon_id": 8888.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34240,6 +35271,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5881,
+            "icon_id": 8888.0,
             "base": {},
             "magic": {
                 "vitality_base": 11117,
@@ -34276,6 +35308,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34306,6 +35339,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34336,6 +35370,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34365,6 +35400,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34395,6 +35431,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34425,6 +35462,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34454,6 +35492,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34484,6 +35523,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34514,6 +35554,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34543,6 +35584,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34573,6 +35615,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34603,6 +35646,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10673,
@@ -34632,6 +35676,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5878,
+            "icon_id": 7986.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34668,6 +35713,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5877,
+            "icon_id": 7986.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34704,6 +35750,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5876,
+            "icon_id": 7986.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34740,6 +35787,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5875,
+            "icon_id": 7986.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34776,6 +35824,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34806,6 +35855,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34836,6 +35886,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34866,6 +35917,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10376,
@@ -34896,6 +35948,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -34926,6 +35979,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -34956,6 +36010,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -34985,6 +36040,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35015,6 +36071,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35045,6 +36102,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35074,6 +36132,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35104,6 +36163,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35134,6 +36194,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35163,6 +36224,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35193,6 +36255,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35223,6 +36286,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35252,6 +36316,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35282,6 +36347,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35312,6 +36378,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35342,6 +36409,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 10228,
@@ -35372,6 +36440,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35402,6 +36471,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35432,6 +36502,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35462,6 +36533,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35492,6 +36564,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35522,6 +36595,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35552,6 +36626,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35582,6 +36657,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35612,6 +36688,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35642,6 +36719,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35672,6 +36750,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35702,6 +36781,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35732,6 +36812,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35762,6 +36843,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35792,6 +36874,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35822,6 +36905,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35852,6 +36936,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35882,6 +36967,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35912,6 +36998,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35942,6 +37029,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -35972,6 +37060,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36002,6 +37091,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36032,6 +37122,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36062,6 +37153,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11598.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36092,6 +37184,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36122,6 +37215,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36152,6 +37246,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36182,6 +37277,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36212,6 +37308,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36242,6 +37339,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36272,6 +37370,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36302,6 +37401,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11041.0,
             "base": {},
             "magic": {
                 "vitality_base": 10129,
@@ -36332,6 +37432,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36362,6 +37463,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36391,6 +37493,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36419,6 +37522,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36449,6 +37553,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36478,6 +37583,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36506,6 +37612,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36536,6 +37643,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36565,6 +37673,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36593,6 +37702,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36623,6 +37733,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36652,6 +37763,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 9240.0,
             "base": {},
             "magic": {
                 "vitality_base": 9783,
@@ -36680,6 +37792,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9586,
@@ -36710,6 +37823,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9586,
@@ -36740,6 +37854,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9586,
@@ -36770,6 +37885,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9586,
@@ -36800,6 +37916,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9289,
@@ -36830,6 +37947,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9289,
@@ -36860,6 +37978,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9289,
@@ -36890,6 +38009,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 9289,
@@ -36920,6 +38040,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8943,
@@ -36950,6 +38071,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8943,
@@ -36980,6 +38102,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8943,
@@ -37010,6 +38133,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8943,
@@ -37040,6 +38164,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6822.0,
             "base": {},
             "magic": {
                 "vitality_base": 8696,
@@ -37070,6 +38195,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6822.0,
             "base": {},
             "magic": {
                 "vitality_base": 8696,
@@ -37100,6 +38226,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6822.0,
             "base": {},
             "magic": {
                 "vitality_base": 8696,
@@ -37130,6 +38257,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6822.0,
             "base": {},
             "magic": {
                 "vitality_base": 8696,
@@ -37160,6 +38288,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -37190,6 +38319,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -37220,6 +38350,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -37250,6 +38381,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8301,
@@ -37280,6 +38412,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37310,6 +38443,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37340,6 +38474,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37370,6 +38505,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5881.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37400,6 +38536,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17933.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37430,6 +38567,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17933.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37460,6 +38598,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17933.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37490,6 +38629,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17933.0,
             "base": {},
             "magic": {
                 "vitality_base": 8153,
@@ -37522,6 +38662,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6165,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37563,6 +38704,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6164,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37604,6 +38746,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6163,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37645,6 +38788,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6162,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37686,6 +38830,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6161,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37727,6 +38872,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6160,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37768,6 +38914,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6159,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37809,6 +38956,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6158,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37850,6 +38998,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6157,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37891,6 +39040,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6156,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37932,6 +39082,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6155,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -37973,6 +39124,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6154,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38014,6 +39166,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6153,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38055,6 +39208,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6152,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38096,6 +39250,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6151,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38137,6 +39292,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6150,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38178,6 +39334,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6149,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38219,6 +39376,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6148,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38260,6 +39418,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6147,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38301,6 +39460,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6146,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38342,6 +39502,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6145,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38383,6 +39544,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6144,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38424,6 +39586,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6141,
+            "icon_id": 23148.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38461,6 +39624,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6140,
+            "icon_id": 23148.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38498,6 +39662,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6139,
+            "icon_id": 23148.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38535,6 +39700,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 6138,
+            "icon_id": 23148.0,
             "base": {},
             "magic": {
                 "vitality_base": 14439,
@@ -38572,6 +39738,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38602,6 +39769,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38632,6 +39800,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38662,6 +39831,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38692,6 +39862,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38722,6 +39893,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38752,6 +39924,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38782,6 +39955,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38812,6 +39986,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5948,
+            "icon_id": 23191.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38853,6 +40028,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5947,
+            "icon_id": 23257.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38894,6 +40070,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5946,
+            "icon_id": 23185.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38935,6 +40112,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5944,
+            "icon_id": 23275.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -38977,6 +40155,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5943,
+            "icon_id": 23269.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39019,6 +40198,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5942,
+            "icon_id": 23209.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39061,6 +40241,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5941,
+            "icon_id": 23221.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39103,6 +40284,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5940,
+            "icon_id": 23160.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39145,6 +40327,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5938,
+            "icon_id": 23281.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39187,6 +40370,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5936,
+            "icon_id": 23166.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39229,6 +40413,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5934,
+            "icon_id": 23215.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39270,6 +40455,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5933,
+            "icon_id": 23203.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39311,6 +40497,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5932,
+            "icon_id": 23172.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39353,6 +40540,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5931,
+            "icon_id": 23239.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39395,6 +40583,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5930,
+            "icon_id": 23239.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39437,6 +40626,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5928,
+            "icon_id": 23263.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39479,6 +40669,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5926,
+            "icon_id": 23227.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39520,6 +40711,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5925,
+            "icon_id": 23178.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39561,6 +40753,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5924,
+            "icon_id": 23178.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39603,6 +40796,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5922,
+            "icon_id": 23245.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39644,6 +40838,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5920,
+            "icon_id": 23251.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39686,6 +40881,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 5918,
+            "icon_id": 23233.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39728,6 +40924,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9685.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39758,6 +40955,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9685.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39788,6 +40986,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9685.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39818,6 +41017,7 @@ EQUIPMENTS = {
                 14
             ],
             "set_id": 0,
+            "icon_id": 9685.0,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -39848,6 +41048,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6165,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -39889,6 +41090,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6164,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -39930,6 +41132,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6163,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -39971,6 +41174,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6162,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40012,6 +41216,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6161,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40053,6 +41258,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6160,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40094,6 +41300,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6159,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40135,6 +41342,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6158,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40176,6 +41384,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6157,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40217,6 +41426,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6156,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40258,6 +41468,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6155,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40299,6 +41510,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6154,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40340,6 +41552,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6153,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40381,6 +41594,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6152,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40422,6 +41636,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6151,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40463,6 +41678,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6150,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40504,6 +41720,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6149,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40545,6 +41762,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6148,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40586,6 +41804,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6147,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40627,6 +41846,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6146,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40668,6 +41888,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6145,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40709,6 +41930,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6144,
+            "icon_id": 22082.0,
             "base": {},
             "magic": {
                 "vitality_base": 12407,
@@ -40750,6 +41972,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6553.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40780,6 +42003,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6553.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40810,6 +42034,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6553.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40840,6 +42065,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6553.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40870,6 +42096,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40900,6 +42127,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40930,6 +42158,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40960,6 +42189,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -40990,6 +42220,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41020,6 +42251,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41050,6 +42282,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41080,6 +42313,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 23142.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41110,6 +42344,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5948,
+            "icon_id": 23191.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41151,6 +42386,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5947,
+            "icon_id": 23257.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41192,6 +42428,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5946,
+            "icon_id": 23185.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41233,6 +42470,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5944,
+            "icon_id": 23275.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41275,6 +42513,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5943,
+            "icon_id": 23269.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41317,6 +42556,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5942,
+            "icon_id": 23209.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41359,6 +42599,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5941,
+            "icon_id": 23221.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41401,6 +42642,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5940,
+            "icon_id": 23160.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41443,6 +42685,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5938,
+            "icon_id": 23281.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41485,6 +42728,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5936,
+            "icon_id": 23166.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41527,6 +42771,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5934,
+            "icon_id": 23215.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41568,6 +42813,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5933,
+            "icon_id": 23203.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41609,6 +42855,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5932,
+            "icon_id": 23172.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41651,6 +42898,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5931,
+            "icon_id": 23239.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41693,6 +42941,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5930,
+            "icon_id": 23239.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41735,6 +42984,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5928,
+            "icon_id": 23263.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41777,6 +43027,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5926,
+            "icon_id": 23227.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41818,6 +43069,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5925,
+            "icon_id": 23178.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41859,6 +43111,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5924,
+            "icon_id": 23178.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41901,6 +43154,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5922,
+            "icon_id": 23245.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41942,6 +43196,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5920,
+            "icon_id": 23251.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -41984,6 +43239,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5918,
+            "icon_id": 23233.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -42026,6 +43282,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5884,
+            "icon_id": 8890.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -42062,6 +43319,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5883,
+            "icon_id": 8890.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -42098,6 +43356,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5882,
+            "icon_id": 8890.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -42134,6 +43393,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5881,
+            "icon_id": 8890.0,
             "base": {},
             "magic": {
                 "vitality_base": 12352,
@@ -42170,6 +43430,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6243,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42204,6 +43465,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6242,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42238,6 +43500,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6241,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42272,6 +43535,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6239,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42306,6 +43570,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6238,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42340,6 +43605,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6237,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42374,6 +43640,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6236,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42408,6 +43675,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6235,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42442,6 +43710,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6233,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42476,6 +43745,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6231,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42510,6 +43780,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6229,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42544,6 +43815,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6228,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42578,6 +43850,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6227,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42612,6 +43885,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6226,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42646,6 +43920,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6225,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42680,6 +43955,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6223,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42714,6 +43990,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6221,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42748,6 +44025,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6220,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42782,6 +44060,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6219,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42816,6 +44095,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6217,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42850,6 +44130,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6215,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42884,6 +44165,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 6213,
+            "icon_id": 1048.0,
             "base": {},
             "magic": {
                 "vitality_base": 12188,
@@ -42918,6 +44200,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5878,
+            "icon_id": 7989.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -42954,6 +44237,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5877,
+            "icon_id": 7989.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -42990,6 +44274,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5876,
+            "icon_id": 7989.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43026,6 +44311,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 5875,
+            "icon_id": 7989.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43062,6 +44348,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43092,6 +44379,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43122,6 +44410,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43152,6 +44441,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11529,
@@ -43182,6 +44472,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43212,6 +44503,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43242,6 +44534,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43272,6 +44565,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43302,6 +44596,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43332,6 +44627,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43362,6 +44658,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43392,6 +44689,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43422,6 +44720,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43452,6 +44751,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43482,6 +44782,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43512,6 +44813,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43542,6 +44844,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43572,6 +44875,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43602,6 +44906,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43632,6 +44937,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43662,6 +44968,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43692,6 +44999,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43722,6 +45030,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43752,6 +45061,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43782,6 +45092,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43812,6 +45123,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43842,6 +45154,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43872,6 +45185,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11601.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43902,6 +45216,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43932,6 +45247,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43962,6 +45278,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -43992,6 +45309,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -44022,6 +45340,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -44052,6 +45371,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -44082,6 +45402,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -44112,6 +45433,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 11042.0,
             "base": {},
             "magic": {
                 "vitality_base": 11255,
@@ -44142,6 +45464,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -44172,6 +45495,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -44202,6 +45526,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -44232,6 +45557,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 10321,
@@ -44262,6 +45588,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6823.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -44292,6 +45619,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6823.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -44322,6 +45650,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6823.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -44352,6 +45681,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 6823.0,
             "base": {},
             "magic": {
                 "vitality_base": 9662,
@@ -44382,6 +45712,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44412,6 +45743,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44442,6 +45774,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44472,6 +45805,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 5884.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44502,6 +45836,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17932.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44532,6 +45867,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17932.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44562,6 +45898,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17932.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44592,6 +45929,7 @@ EQUIPMENTS = {
                 13
             ],
             "set_id": 0,
+            "icon_id": 17932.0,
             "base": {},
             "magic": {
                 "vitality_base": 9059,
@@ -44621,6 +45959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44647,6 +45986,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44673,6 +46013,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44699,6 +46040,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44725,6 +46067,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44751,6 +46094,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44777,6 +46121,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44803,6 +46148,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44829,6 +46175,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44855,6 +46202,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44881,6 +46229,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44907,6 +46256,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44933,6 +46283,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44959,6 +46310,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -44985,6 +46337,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45011,6 +46364,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45037,6 +46391,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45063,6 +46418,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45089,6 +46445,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45115,6 +46472,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45141,6 +46499,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45167,6 +46526,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45193,6 +46553,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45219,6 +46580,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45245,6 +46607,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45271,6 +46634,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -45297,6 +46661,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22903.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45328,6 +46693,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22902.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45359,6 +46725,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22901.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45390,6 +46757,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22900.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45421,6 +46789,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1216.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45447,6 +46816,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1216.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45473,6 +46843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1216.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45499,6 +46870,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1216.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45525,6 +46897,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1214.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45551,6 +46924,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1214.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45577,6 +46951,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1214.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45603,6 +46978,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1214.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45629,6 +47005,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2842.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45655,6 +47032,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2842.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45681,6 +47059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2842.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45707,6 +47086,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2842.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -45733,6 +47113,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45763,6 +47144,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45793,6 +47175,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45821,6 +47204,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45851,6 +47235,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45881,6 +47266,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45909,6 +47295,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45939,6 +47326,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45969,6 +47357,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -45997,6 +47386,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -46027,6 +47417,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -46057,6 +47448,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -46085,6 +47477,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46115,6 +47508,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46144,6 +47538,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46173,6 +47568,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46203,6 +47599,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46232,6 +47629,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46261,6 +47659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46291,6 +47690,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46320,6 +47720,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46349,6 +47750,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46379,6 +47781,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46408,6 +47811,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -46437,6 +47841,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -46463,6 +47868,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -46489,6 +47895,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -46515,6 +47922,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -46541,6 +47949,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46567,6 +47976,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46593,6 +48003,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46618,6 +48029,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46644,6 +48056,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46670,6 +48083,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46695,6 +48109,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46721,6 +48136,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46747,6 +48163,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46772,6 +48189,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46798,6 +48216,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46824,6 +48243,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -46849,6 +48269,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -46875,6 +48296,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -46901,6 +48323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -46927,6 +48350,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -46953,6 +48377,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -46979,6 +48404,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47005,6 +48431,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47031,6 +48458,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47057,6 +48485,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47083,6 +48512,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47109,6 +48539,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47135,6 +48566,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47161,6 +48593,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47187,6 +48620,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47213,6 +48647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47239,6 +48674,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47265,6 +48701,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47291,6 +48728,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47317,6 +48755,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47343,6 +48782,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47369,6 +48809,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47395,6 +48836,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -47421,6 +48863,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47447,6 +48890,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47473,6 +48917,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47497,6 +48942,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47523,6 +48969,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47549,6 +48996,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47573,6 +49021,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47599,6 +49048,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47625,6 +49075,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47649,6 +49100,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47675,6 +49127,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47701,6 +49154,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47725,6 +49179,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47751,6 +49206,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47777,6 +49233,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47803,6 +49260,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47829,6 +49287,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1213.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47855,6 +49314,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1213.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47881,6 +49341,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1213.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47907,6 +49368,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1213.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47933,6 +49395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47959,6 +49422,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -47985,6 +49449,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -48011,6 +49476,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -48037,6 +49503,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48063,6 +49530,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48088,6 +49556,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48113,6 +49582,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48139,6 +49609,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48164,6 +49635,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48189,6 +49661,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48215,6 +49688,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48240,6 +49714,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48265,6 +49740,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48291,6 +49767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48316,6 +49793,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -48341,6 +49819,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48367,6 +49846,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48393,6 +49873,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48418,6 +49899,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48444,6 +49926,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48470,6 +49953,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48495,6 +49979,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48521,6 +50006,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48547,6 +50033,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48572,6 +50059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48598,6 +50086,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48624,6 +50113,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48649,6 +50139,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48675,6 +50166,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48701,6 +50193,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48727,6 +50220,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -48753,6 +50247,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -48779,6 +50274,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -48805,6 +50301,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -48831,6 +50328,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -48857,6 +50355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -48883,6 +50382,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -48909,6 +50409,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -48935,6 +50436,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -48961,6 +50463,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -48987,6 +50490,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49013,6 +50517,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49039,6 +50544,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49065,6 +50571,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49091,6 +50598,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49117,6 +50625,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49143,6 +50652,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49169,6 +50679,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49195,6 +50706,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49221,6 +50733,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49247,6 +50760,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49273,6 +50787,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49299,6 +50814,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49325,6 +50841,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49351,6 +50868,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49377,6 +50895,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49403,6 +50922,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49429,6 +50949,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49455,6 +50976,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49481,6 +51003,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49507,6 +51030,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49533,6 +51057,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49559,6 +51084,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2840.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49585,6 +51111,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49611,6 +51138,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49637,6 +51165,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49663,6 +51192,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49689,6 +51219,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49715,6 +51246,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49741,6 +51273,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49767,6 +51300,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4254.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -49793,6 +51327,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49819,6 +51354,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49845,6 +51381,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49869,6 +51406,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49895,6 +51433,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49921,6 +51460,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49945,6 +51485,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49971,6 +51512,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -49997,6 +51539,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -50021,6 +51564,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -50047,6 +51591,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -50073,6 +51618,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1215.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -50097,6 +51643,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -50123,6 +51670,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -50149,6 +51697,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -50175,6 +51724,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -50201,6 +51751,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -50227,6 +51778,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -50253,6 +51805,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -50279,6 +51832,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -50305,6 +51859,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -50331,6 +51886,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -50357,6 +51913,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -50383,6 +51940,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -50409,6 +51967,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -50435,6 +51994,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -50461,6 +52021,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -50487,6 +52048,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -50513,6 +52075,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -50539,6 +52102,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -50565,6 +52129,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -50591,6 +52156,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1211.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -50617,6 +52183,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50643,6 +52210,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50669,6 +52237,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50695,6 +52264,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4246.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50721,6 +52291,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1222.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50747,6 +52318,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1222.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50773,6 +52345,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1222.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50799,6 +52372,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1222.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -50827,6 +52401,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18059.0,
             "base": {},
             "magic": {
                 "vitality_base": 7549,
@@ -50855,6 +52430,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18065.0,
             "base": {},
             "magic": {
                 "vitality_base": 7549,
@@ -50884,6 +52460,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18059.0,
             "base": {},
             "magic": {
                 "vitality_base": 7549,
@@ -50913,6 +52490,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18059.0,
             "base": {},
             "magic": {
                 "vitality_base": 7549,
@@ -50942,6 +52520,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18059.0,
             "base": {},
             "magic": {
                 "vitality_base": 7549,
@@ -50971,6 +52550,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -50995,6 +52575,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51019,6 +52600,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51043,6 +52625,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51067,6 +52650,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51091,6 +52675,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51115,6 +52700,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51139,6 +52725,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51163,6 +52750,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51187,6 +52775,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51211,6 +52800,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51235,6 +52825,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51259,6 +52850,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51283,6 +52875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51307,6 +52900,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51331,6 +52925,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51355,6 +52950,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51379,6 +52975,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51403,6 +53000,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51427,6 +53025,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51451,6 +53050,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51475,6 +53075,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -51499,6 +53100,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2849.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51521,6 +53123,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2854.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51543,6 +53146,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51567,6 +53171,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51591,6 +53196,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51615,6 +53221,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51639,6 +53246,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22891.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51662,6 +53270,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22890.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51685,6 +53294,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1236.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51709,6 +53319,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2856.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51731,6 +53342,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2853.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51754,6 +53366,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 22889.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51777,6 +53390,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2848.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51801,6 +53415,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1238.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51823,6 +53438,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1235.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51847,6 +53463,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1235.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51871,6 +53488,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1235.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51895,6 +53513,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1235.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51919,6 +53538,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51943,6 +53563,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51967,6 +53588,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -51991,6 +53613,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52015,6 +53638,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1228.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52039,6 +53663,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1228.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52063,6 +53688,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1228.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52087,6 +53713,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1228.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52111,6 +53738,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52135,6 +53763,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52159,6 +53788,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52183,6 +53813,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -52207,6 +53838,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18058.0,
             "base": {},
             "magic": {
                 "vitality_base": 6577,
@@ -52231,6 +53863,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18064.0,
             "base": {},
             "magic": {
                 "vitality_base": 6577,
@@ -52256,6 +53889,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18058.0,
             "base": {},
             "magic": {
                 "vitality_base": 6577,
@@ -52281,6 +53915,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18058.0,
             "base": {},
             "magic": {
                 "vitality_base": 6577,
@@ -52306,6 +53941,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18058.0,
             "base": {},
             "magic": {
                 "vitality_base": 6577,
@@ -52331,6 +53967,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52355,6 +53992,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52379,6 +54017,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52403,6 +54042,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52427,6 +54067,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52451,6 +54092,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52475,6 +54117,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52499,6 +54142,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52523,6 +54167,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52547,6 +54192,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52571,6 +54217,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52595,6 +54242,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52619,6 +54267,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52643,6 +54292,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52667,6 +54317,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52691,6 +54342,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52715,6 +54367,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52739,6 +54392,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52763,6 +54417,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52787,6 +54442,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52811,6 +54467,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52835,6 +54492,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1232.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -52859,6 +54517,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2851.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -52883,6 +54542,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2851.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -52907,6 +54567,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2851.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -52931,6 +54592,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2851.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -52955,6 +54617,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -52979,6 +54642,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53003,6 +54667,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53027,6 +54692,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1234.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53051,6 +54717,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1227.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53075,6 +54742,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1227.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53099,6 +54767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1227.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53123,6 +54792,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1227.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53147,6 +54817,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53171,6 +54842,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53195,6 +54867,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53219,6 +54892,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -53243,6 +54917,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6243,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53271,6 +54946,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6242,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53299,6 +54975,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6241,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53327,6 +55004,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6239,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53355,6 +55033,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6238,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53383,6 +55062,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6237,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53411,6 +55091,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6236,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53439,6 +55120,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6235,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53467,6 +55149,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6233,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53495,6 +55178,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6231,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53523,6 +55207,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6229,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53551,6 +55236,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6228,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53579,6 +55265,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6227,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53607,6 +55294,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6226,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53635,6 +55323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6225,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53663,6 +55352,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6223,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53691,6 +55381,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6221,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53719,6 +55410,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6220,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53747,6 +55439,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6219,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53775,6 +55468,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6217,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53803,6 +55497,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6215,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53831,6 +55526,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6213,
+            "icon_id": 1231.0,
             "base": {},
             "magic": {
                 "vitality_base": 6094,
@@ -53859,6 +55555,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18057.0,
             "base": {},
             "magic": {
                 "vitality_base": 5909,
@@ -53883,6 +55580,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18063.0,
             "base": {},
             "magic": {
                 "vitality_base": 5909,
@@ -53908,6 +55606,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18057.0,
             "base": {},
             "magic": {
                 "vitality_base": 5909,
@@ -53933,6 +55632,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18057.0,
             "base": {},
             "magic": {
                 "vitality_base": 5909,
@@ -53958,6 +55658,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18057.0,
             "base": {},
             "magic": {
                 "vitality_base": 5909,
@@ -53983,6 +55684,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -54007,6 +55709,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -54031,6 +55734,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -54055,6 +55759,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2845.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -54079,6 +55784,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -54103,6 +55809,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -54127,6 +55834,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -54151,6 +55859,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -54175,6 +55884,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54199,6 +55909,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54223,6 +55934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54247,6 +55959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54271,6 +55984,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54295,6 +56009,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54319,6 +56034,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54343,6 +56059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54367,6 +56084,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54391,6 +56109,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54415,6 +56134,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54439,6 +56159,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54463,6 +56184,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54487,6 +56209,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54511,6 +56234,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54535,6 +56259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54559,6 +56284,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54583,6 +56309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54607,6 +56334,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54631,6 +56359,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54655,6 +56384,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54679,6 +56409,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54703,6 +56434,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54727,6 +56459,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1233.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54751,6 +56484,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54775,6 +56509,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54799,6 +56534,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54823,6 +56559,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54847,6 +56584,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54871,6 +56609,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54895,6 +56634,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54919,6 +56659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2847.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -54943,6 +56684,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2853.0,
             "base": {},
             "magic": {
                 "vitality_base": 5545,
@@ -54967,6 +56709,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2853.0,
             "base": {},
             "magic": {
                 "vitality_base": 5545,
@@ -54991,6 +56734,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2853.0,
             "base": {},
             "magic": {
                 "vitality_base": 5545,
@@ -55015,6 +56759,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2853.0,
             "base": {},
             "magic": {
                 "vitality_base": 5545,
@@ -55039,6 +56784,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -55063,6 +56809,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -55087,6 +56834,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -55111,6 +56859,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -55135,6 +56884,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -55159,6 +56909,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -55183,6 +56934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -55207,6 +56959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -55231,6 +56984,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -55255,6 +57009,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -55279,6 +57034,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -55303,6 +57059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -55327,6 +57084,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -55351,6 +57109,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -55375,6 +57134,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -55399,6 +57159,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -55423,6 +57184,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -55447,6 +57209,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -55471,6 +57234,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -55495,6 +57259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1229.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -55519,6 +57284,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55543,6 +57309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55567,6 +57334,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55591,6 +57359,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2850.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55615,6 +57384,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4257.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55639,6 +57409,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4257.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55663,6 +57434,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4257.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55687,6 +57459,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4257.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -55713,6 +57486,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55739,6 +57513,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55765,6 +57540,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55791,6 +57567,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55817,6 +57594,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55843,6 +57621,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55869,6 +57648,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55895,6 +57675,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55921,6 +57702,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55947,6 +57729,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55973,6 +57756,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -55999,6 +57783,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56025,6 +57810,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56051,6 +57837,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56077,6 +57864,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56103,6 +57891,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56129,6 +57918,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56155,6 +57945,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56181,6 +57972,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56207,6 +57999,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56233,6 +58026,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56259,6 +58053,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56285,6 +58080,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56311,6 +58107,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56337,6 +58134,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56363,6 +58161,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 7219,
@@ -56389,6 +58188,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56415,6 +58215,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56441,6 +58242,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56467,6 +58269,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56493,6 +58296,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1201.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56519,6 +58323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1201.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56545,6 +58350,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1201.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56571,6 +58377,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1201.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56597,6 +58404,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1200.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56623,6 +58431,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1200.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56649,6 +58458,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1200.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56675,6 +58485,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1200.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56701,6 +58512,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56727,6 +58539,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56753,6 +58566,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56779,6 +58593,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1207.0,
             "base": {},
             "magic": {
                 "vitality_base": 7110,
@@ -56805,6 +58620,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56835,6 +58651,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56865,6 +58682,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56894,6 +58712,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56924,6 +58743,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56954,6 +58774,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -56983,6 +58804,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57013,6 +58835,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57043,6 +58866,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57072,6 +58896,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57102,6 +58927,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57132,6 +58958,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -57161,6 +58988,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57191,6 +59019,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57220,6 +59049,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57249,6 +59079,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57279,6 +59110,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57308,6 +59140,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57337,6 +59170,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57367,6 +59201,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57396,6 +59231,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57425,6 +59261,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57455,6 +59292,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57484,6 +59322,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6725,
@@ -57513,6 +59352,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -57539,6 +59379,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -57565,6 +59406,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -57591,6 +59433,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6698,
@@ -57617,6 +59460,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57643,6 +59487,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57668,6 +59513,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57692,6 +59538,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57718,6 +59565,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57743,6 +59591,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57767,6 +59616,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57793,6 +59643,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57818,6 +59669,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57842,6 +59694,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57868,6 +59721,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57893,6 +59747,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6451,
@@ -57917,6 +59772,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -57943,6 +59799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -57969,6 +59826,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -57995,6 +59853,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58021,6 +59880,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58047,6 +59907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58073,6 +59934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58099,6 +59961,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58125,6 +59988,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58151,6 +60015,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58177,6 +60042,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58203,6 +60069,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58229,6 +60096,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58255,6 +60123,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58281,6 +60150,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58307,6 +60177,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58333,6 +60204,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58359,6 +60231,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58385,6 +60258,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58411,6 +60285,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58437,6 +60312,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58463,6 +60339,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1205.0,
             "base": {},
             "magic": {
                 "vitality_base": 6204,
@@ -58489,6 +60366,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58515,6 +60393,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58541,6 +60420,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58566,6 +60446,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58592,6 +60473,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58618,6 +60500,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58643,6 +60526,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58669,6 +60553,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58695,6 +60580,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58720,6 +60606,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58746,6 +60633,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58772,6 +60660,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58797,6 +60686,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58823,6 +60713,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58849,6 +60740,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58875,6 +60767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58901,6 +60794,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58927,6 +60821,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58953,6 +60848,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -58979,6 +60875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59005,6 +60902,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59031,6 +60929,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59057,6 +60956,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59083,6 +60983,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59109,6 +61010,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59135,6 +61037,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59161,6 +61064,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59187,6 +61091,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 6176,
@@ -59213,6 +61118,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59239,6 +61145,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59264,6 +61171,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59289,6 +61197,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59315,6 +61224,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59340,6 +61250,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59365,6 +61276,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59391,6 +61303,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59416,6 +61329,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59441,6 +61355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59467,6 +61382,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59492,6 +61408,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5929,
@@ -59517,6 +61434,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -59543,6 +61461,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -59569,6 +61488,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -59595,6 +61515,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1206.0,
             "base": {},
             "magic": {
                 "vitality_base": 5765,
@@ -59621,6 +61542,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59647,6 +61569,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59672,6 +61595,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59696,6 +61620,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59722,6 +61647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59747,6 +61673,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59771,6 +61698,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59797,6 +61725,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59822,6 +61751,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59846,6 +61776,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59872,6 +61803,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59897,6 +61829,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59921,6 +61854,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59947,6 +61881,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59973,6 +61908,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -59999,6 +61935,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5682,
@@ -60025,6 +61962,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -60051,6 +61989,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -60077,6 +62016,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -60103,6 +62043,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5655,
@@ -60129,6 +62070,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60155,6 +62097,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60181,6 +62124,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60207,6 +62151,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60233,6 +62178,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60259,6 +62205,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60285,6 +62232,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60311,6 +62259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60337,6 +62286,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2833.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60363,6 +62313,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2833.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60389,6 +62340,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2833.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60415,6 +62367,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2833.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60441,6 +62394,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60467,6 +62421,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60493,6 +62448,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60519,6 +62475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60545,6 +62502,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60571,6 +62529,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60597,6 +62556,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60623,6 +62583,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60649,6 +62610,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60675,6 +62637,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60701,6 +62664,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60727,6 +62691,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60753,6 +62718,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60779,6 +62745,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60805,6 +62772,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60831,6 +62799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 1199.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60857,6 +62826,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60883,6 +62853,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60909,6 +62880,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60935,6 +62907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60961,6 +62934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -60987,6 +62961,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -61013,6 +62988,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -61039,6 +63015,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4248.0,
             "base": {},
             "magic": {
                 "vitality_base": 5627,
@@ -61065,6 +63042,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61091,6 +63069,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61117,6 +63096,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61142,6 +63122,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61168,6 +63149,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61194,6 +63176,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61219,6 +63202,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61245,6 +63229,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61271,6 +63256,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61296,6 +63282,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61322,6 +63309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61348,6 +63336,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2838.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -61373,6 +63362,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -61399,6 +63389,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -61425,6 +63416,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -61451,6 +63443,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 5325,
@@ -61477,6 +63470,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -61503,6 +63497,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -61529,6 +63524,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -61555,6 +63551,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 5161,
@@ -61581,6 +63578,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -61607,6 +63605,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -61633,6 +63632,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -61659,6 +63659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4968,
@@ -61685,6 +63686,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -61711,6 +63713,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -61737,6 +63740,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -61763,6 +63767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4831,
@@ -61789,6 +63794,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -61815,6 +63821,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -61841,6 +63848,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -61867,6 +63875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4249.0,
             "base": {},
             "magic": {
                 "vitality_base": 4612,
@@ -61893,6 +63902,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -61919,6 +63929,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -61945,6 +63956,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -61971,6 +63983,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4250.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -61997,6 +64010,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4252.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -62023,6 +64037,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4252.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -62049,6 +64064,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4252.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -62075,6 +64091,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 4252.0,
             "base": {},
             "magic": {
                 "vitality_base": 4529,
@@ -62103,6 +64120,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62129,6 +64147,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62155,6 +64174,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62181,6 +64201,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62207,6 +64228,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62233,6 +64255,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62259,6 +64282,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62285,6 +64309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62311,6 +64336,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62337,6 +64363,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62363,6 +64390,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62389,6 +64417,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62415,6 +64444,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62441,6 +64471,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62467,6 +64498,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62493,6 +64525,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62519,6 +64552,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62545,6 +64579,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62571,6 +64606,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62597,6 +64633,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62623,6 +64660,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62649,6 +64687,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 8663,
@@ -62675,6 +64714,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2899.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62701,6 +64741,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2899.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62727,6 +64768,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2899.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62753,6 +64795,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2899.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62779,6 +64822,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 806.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62805,6 +64849,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 806.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62831,6 +64876,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 806.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62857,6 +64903,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 806.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62883,6 +64930,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 805.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62909,6 +64957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 805.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62935,6 +64984,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 805.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62961,6 +65011,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 805.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -62987,6 +65038,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -63013,6 +65065,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -63039,6 +65092,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -63065,6 +65119,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -63091,6 +65146,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63121,6 +65177,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63151,6 +65208,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63180,6 +65238,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63210,6 +65269,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63240,6 +65300,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63269,6 +65330,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63299,6 +65361,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63329,6 +65392,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63358,6 +65422,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63388,6 +65453,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63418,6 +65484,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8400,
@@ -63447,6 +65514,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63477,6 +65545,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63507,6 +65576,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63535,6 +65605,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63565,6 +65636,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63595,6 +65667,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63623,6 +65696,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63653,6 +65727,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63683,6 +65758,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63711,6 +65787,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63741,6 +65818,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63771,6 +65849,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 8070,
@@ -63799,6 +65878,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63825,6 +65905,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63851,6 +65932,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63876,6 +65958,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63902,6 +65985,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63928,6 +66012,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63953,6 +66038,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -63979,6 +66065,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -64005,6 +66092,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -64030,6 +66118,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -64056,6 +66145,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -64082,6 +66172,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7741,
@@ -64107,6 +66198,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64133,6 +66225,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64159,6 +66252,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64185,6 +66279,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64211,6 +66306,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64237,6 +66333,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64263,6 +66360,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64289,6 +66387,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64315,6 +66414,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64341,6 +66441,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64367,6 +66468,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64393,6 +66495,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64419,6 +66522,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64445,6 +66549,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64471,6 +66576,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64497,6 +66603,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64523,6 +66630,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64549,6 +66657,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64575,6 +66684,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64601,6 +66711,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64627,6 +66738,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64653,6 +66765,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7444,
@@ -64679,6 +66792,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64705,6 +66819,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64731,6 +66846,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64756,6 +66872,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64782,6 +66899,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64808,6 +66926,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64833,6 +66952,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 821.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64859,6 +66979,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 821.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64885,6 +67006,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 821.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64911,6 +67033,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 821.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64937,6 +67060,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64963,6 +67087,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -64989,6 +67114,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65015,6 +67141,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65041,6 +67168,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65067,6 +67195,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65093,6 +67222,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65118,6 +67248,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65144,6 +67275,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65170,6 +67302,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65195,6 +67328,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 804.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65221,6 +67355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 804.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65247,6 +67382,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 804.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65273,6 +67409,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 804.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65299,6 +67436,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65325,6 +67463,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65351,6 +67490,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65377,6 +67517,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 7412,
@@ -65403,6 +67544,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 7313,
@@ -65429,6 +67571,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 7313,
@@ -65455,6 +67598,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 7313,
@@ -65481,6 +67625,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 798.0,
             "base": {},
             "magic": {
                 "vitality_base": 7313,
@@ -65507,6 +67652,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65533,6 +67679,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65559,6 +67706,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65583,6 +67731,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65609,6 +67758,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65635,6 +67785,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65659,6 +67810,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65685,6 +67837,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65711,6 +67864,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65735,6 +67889,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65761,6 +67916,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65787,6 +67943,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 7115,
@@ -65811,6 +67968,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2903.0,
             "base": {},
             "magic": {
                 "vitality_base": 6917,
@@ -65837,6 +67995,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2903.0,
             "base": {},
             "magic": {
                 "vitality_base": 6917,
@@ -65863,6 +68022,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2903.0,
             "base": {},
             "magic": {
                 "vitality_base": 6917,
@@ -65889,6 +68049,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2903.0,
             "base": {},
             "magic": {
                 "vitality_base": 6917,
@@ -65915,6 +68076,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -65941,6 +68103,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -65967,6 +68130,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -65992,6 +68156,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66018,6 +68183,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66044,6 +68210,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66069,6 +68236,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66095,6 +68263,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66121,6 +68290,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66146,6 +68316,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66172,6 +68343,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66198,6 +68370,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66223,6 +68396,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66249,6 +68423,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66275,6 +68450,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66301,6 +68477,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6819,
@@ -66327,6 +68504,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66353,6 +68531,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66379,6 +68558,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66405,6 +68585,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66431,6 +68612,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66457,6 +68639,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66483,6 +68666,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66509,6 +68693,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66535,6 +68720,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66561,6 +68747,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66587,6 +68774,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66613,6 +68801,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66639,6 +68828,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66665,6 +68855,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66691,6 +68882,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66717,6 +68909,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66743,6 +68936,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66769,6 +68963,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66795,6 +68990,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66821,6 +69017,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66847,6 +69044,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66873,6 +69071,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66899,6 +69098,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66925,6 +69125,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66951,6 +69152,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -66977,6 +69179,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67003,6 +69206,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67029,6 +69233,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67055,6 +69260,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67081,6 +69287,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67107,6 +69314,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67133,6 +69341,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 814.0,
             "base": {},
             "magic": {
                 "vitality_base": 6753,
@@ -67159,6 +69368,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67185,6 +69395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67211,6 +69422,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67236,6 +69448,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67262,6 +69475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67288,6 +69502,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67313,6 +69528,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67339,6 +69555,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67365,6 +69582,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67390,6 +69608,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67416,6 +69635,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67442,6 +69662,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 801.0,
             "base": {},
             "magic": {
                 "vitality_base": 6522,
@@ -67467,6 +69688,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6390,
@@ -67493,6 +69715,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6390,
@@ -67519,6 +69742,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6390,
@@ -67545,6 +69769,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 6390,
@@ -67571,6 +69796,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 6193,
@@ -67597,6 +69823,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 6193,
@@ -67623,6 +69850,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 6193,
@@ -67649,6 +69877,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 6193,
@@ -67675,6 +69904,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5962,
@@ -67701,6 +69931,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5962,
@@ -67727,6 +69958,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5962,
@@ -67753,6 +69985,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5962,
@@ -67779,6 +70012,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 809.0,
             "base": {},
             "magic": {
                 "vitality_base": 5797,
@@ -67805,6 +70039,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 809.0,
             "base": {},
             "magic": {
                 "vitality_base": 5797,
@@ -67831,6 +70066,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 809.0,
             "base": {},
             "magic": {
                 "vitality_base": 5797,
@@ -67857,6 +70093,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 809.0,
             "base": {},
             "magic": {
                 "vitality_base": 5797,
@@ -67883,6 +70120,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5534,
@@ -67909,6 +70147,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5534,
@@ -67935,6 +70174,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5534,
@@ -67961,6 +70201,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 802.0,
             "base": {},
             "magic": {
                 "vitality_base": 5534,
@@ -67987,6 +70228,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68013,6 +70255,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68039,6 +70282,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68065,6 +70309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 803.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68091,6 +70336,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68117,6 +70363,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68143,6 +70390,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68169,6 +70417,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 2900.0,
             "base": {},
             "magic": {
                 "vitality_base": 5435,
@@ -68197,6 +70446,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23391.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68246,6 +70496,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23410.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68295,6 +70546,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23389.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68344,6 +70596,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23414.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68393,6 +70646,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23413.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68442,6 +70696,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23396.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68491,6 +70746,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23399.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68540,6 +70796,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23382.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68589,6 +70846,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23416.0,
             "base": {
                 "weapon_damage_base": 2369,
                 "weapon_damage_rand": 1580
@@ -68638,6 +70896,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23384.0,
             "base": {
                 "weapon_damage_base": 7108,
                 "weapon_damage_rand": 4739
@@ -68687,6 +70946,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23398.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68736,6 +70996,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23395.0,
             "base": {
                 "weapon_damage_base": 8056,
                 "weapon_damage_rand": 5370
@@ -68784,6 +71045,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23385.0,
             "base": {
                 "weapon_damage_base": 6160,
                 "weapon_damage_rand": 4107
@@ -68833,6 +71095,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23404.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68882,6 +71145,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23405.0,
             "base": {
                 "weapon_damage_base": 4739,
                 "weapon_damage_rand": 3159
@@ -68931,6 +71195,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23411.0,
             "base": {
                 "weapon_damage_base": 2369,
                 "weapon_damage_rand": 1580
@@ -68980,6 +71245,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23400.0,
             "base": {
                 "weapon_damage_base": 3080,
                 "weapon_damage_rand": 2053
@@ -69029,6 +71295,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23387.0,
             "base": {
                 "weapon_damage_base": 6160,
                 "weapon_damage_rand": 4107
@@ -69078,6 +71345,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23388.0,
             "base": {
                 "weapon_damage_base": 3080,
                 "weapon_damage_rand": 2053
@@ -69127,6 +71395,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23407.0,
             "base": {
                 "weapon_damage_base": 8056,
                 "weapon_damage_rand": 5370
@@ -69176,6 +71445,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23408.0,
             "base": {
                 "weapon_damage_base": 2369,
                 "weapon_damage_rand": 1580
@@ -69225,6 +71495,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23403.0,
             "base": {
                 "weapon_damage_base": 8056,
                 "weapon_damage_rand": 5370
@@ -69274,6 +71545,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23391.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -69323,6 +71595,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23410.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69372,6 +71645,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23389.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69421,6 +71695,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23414.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -69470,6 +71745,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23413.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -69519,6 +71795,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23396.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69568,6 +71845,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23399.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69617,6 +71895,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23382.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69666,6 +71945,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23416.0,
             "base": {
                 "weapon_damage_base": 2235,
                 "weapon_damage_rand": 1490
@@ -69715,6 +71995,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23384.0,
             "base": {
                 "weapon_damage_base": 6704,
                 "weapon_damage_rand": 4469
@@ -69764,6 +72045,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23398.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -69813,6 +72095,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23395.0,
             "base": {
                 "weapon_damage_base": 7598,
                 "weapon_damage_rand": 5065
@@ -69861,6 +72144,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23385.0,
             "base": {
                 "weapon_damage_base": 5810,
                 "weapon_damage_rand": 3873
@@ -69910,6 +72194,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23404.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -69959,6 +72244,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23405.0,
             "base": {
                 "weapon_damage_base": 4469,
                 "weapon_damage_rand": 2980
@@ -70008,6 +72294,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23411.0,
             "base": {
                 "weapon_damage_base": 2235,
                 "weapon_damage_rand": 1490
@@ -70057,6 +72344,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23400.0,
             "base": {
                 "weapon_damage_base": 2905,
                 "weapon_damage_rand": 1937
@@ -70106,6 +72394,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23387.0,
             "base": {
                 "weapon_damage_base": 5810,
                 "weapon_damage_rand": 3873
@@ -70155,6 +72444,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23388.0,
             "base": {
                 "weapon_damage_base": 2905,
                 "weapon_damage_rand": 1937
@@ -70204,6 +72494,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23407.0,
             "base": {
                 "weapon_damage_base": 7598,
                 "weapon_damage_rand": 5065
@@ -70253,6 +72544,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23408.0,
             "base": {
                 "weapon_damage_base": 2235,
                 "weapon_damage_rand": 1490
@@ -70302,6 +72594,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23403.0,
             "base": {
                 "weapon_damage_base": 7598,
                 "weapon_damage_rand": 5065
@@ -70351,6 +72644,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23391.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -70400,6 +72694,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23410.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70449,6 +72744,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23389.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70498,6 +72794,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23414.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -70547,6 +72844,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23413.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -70596,6 +72894,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23396.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70645,6 +72944,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23399.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70694,6 +72994,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23382.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70743,6 +73044,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23416.0,
             "base": {
                 "weapon_damage_base": 2100,
                 "weapon_damage_rand": 1400
@@ -70792,6 +73094,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23384.0,
             "base": {
                 "weapon_damage_base": 6300,
                 "weapon_damage_rand": 4200
@@ -70841,6 +73144,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23398.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -70890,6 +73194,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23395.0,
             "base": {
                 "weapon_damage_base": 7140,
                 "weapon_damage_rand": 4760
@@ -70938,6 +73243,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23385.0,
             "base": {
                 "weapon_damage_base": 5460,
                 "weapon_damage_rand": 3640
@@ -70987,6 +73293,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23404.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -71036,6 +73343,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23405.0,
             "base": {
                 "weapon_damage_base": 4200,
                 "weapon_damage_rand": 2800
@@ -71085,6 +73393,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23411.0,
             "base": {
                 "weapon_damage_base": 2100,
                 "weapon_damage_rand": 1400
@@ -71134,6 +73443,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23400.0,
             "base": {
                 "weapon_damage_base": 2730,
                 "weapon_damage_rand": 1820
@@ -71183,6 +73493,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23387.0,
             "base": {
                 "weapon_damage_base": 5460,
                 "weapon_damage_rand": 3640
@@ -71232,6 +73543,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23388.0,
             "base": {
                 "weapon_damage_base": 2730,
                 "weapon_damage_rand": 1820
@@ -71281,6 +73593,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23407.0,
             "base": {
                 "weapon_damage_base": 7140,
                 "weapon_damage_rand": 4760
@@ -71330,6 +73643,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23408.0,
             "base": {
                 "weapon_damage_base": 2100,
                 "weapon_damage_rand": 1400
@@ -71379,6 +73693,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23403.0,
             "base": {
                 "weapon_damage_base": 7140,
                 "weapon_damage_rand": 4760
@@ -71428,6 +73743,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23049.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71459,6 +73775,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20150.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71490,6 +73807,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20149.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71521,6 +73839,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20148.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71552,6 +73871,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20147.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71583,6 +73903,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20146.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71614,6 +73935,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20145.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71645,6 +73967,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20144.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71676,6 +73999,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20143.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -71707,6 +74031,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20142.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -71738,6 +74063,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20140.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71769,6 +74095,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20141.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -71800,6 +74127,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20134.0,
             "base": {
                 "weapon_damage_base": 5302,
                 "weapon_damage_rand": 3535
@@ -71831,6 +74159,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20139.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71862,6 +74191,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20139.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -71893,6 +74223,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20138.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -71924,6 +74255,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20135.0,
             "base": {
                 "weapon_damage_base": 2651,
                 "weapon_damage_rand": 1767
@@ -71955,6 +74287,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20133.0,
             "base": {
                 "weapon_damage_base": 5302,
                 "weapon_damage_rand": 3535
@@ -71986,6 +74319,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20133.0,
             "base": {
                 "weapon_damage_base": 2651,
                 "weapon_damage_rand": 1767
@@ -72017,6 +74351,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20132.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -72048,6 +74383,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20136.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -72079,6 +74415,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20131.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -72110,6 +74447,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23046.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72141,6 +74479,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20231.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72172,6 +74511,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17808.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72203,6 +74543,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18037.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72234,6 +74575,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18036.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72265,6 +74607,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18027.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72296,6 +74639,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18029.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72327,6 +74671,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18021.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72358,6 +74703,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18038.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -72389,6 +74735,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18022.0,
             "base": {
                 "weapon_damage_base": 6118,
                 "weapon_damage_rand": 4079
@@ -72420,6 +74767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18028.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72451,6 +74799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18026.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -72482,6 +74831,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18023.0,
             "base": {
                 "weapon_damage_base": 5302,
                 "weapon_damage_rand": 3535
@@ -72513,6 +74863,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18032.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72544,6 +74895,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18032.0,
             "base": {
                 "weapon_damage_base": 4079,
                 "weapon_damage_rand": 2719
@@ -72575,6 +74927,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18035.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -72606,6 +74959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18030.0,
             "base": {
                 "weapon_damage_base": 2651,
                 "weapon_damage_rand": 1767
@@ -72637,6 +74991,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18025.0,
             "base": {
                 "weapon_damage_base": 5302,
                 "weapon_damage_rand": 3535
@@ -72668,6 +75023,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18025.0,
             "base": {
                 "weapon_damage_base": 2651,
                 "weapon_damage_rand": 1767
@@ -72699,6 +75055,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18033.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -72730,6 +75087,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18034.0,
             "base": {
                 "weapon_damage_base": 2039,
                 "weapon_damage_rand": 1360
@@ -72761,6 +75119,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18031.0,
             "base": {
                 "weapon_damage_base": 6934,
                 "weapon_damage_rand": 4623
@@ -72792,6 +75151,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -72827,6 +75187,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23101.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -72862,6 +75223,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23037.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -72897,6 +75259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23114.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -72932,6 +75295,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23126.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -72967,6 +75331,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23061.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73002,6 +75367,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23071.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73037,6 +75403,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23012.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73072,6 +75439,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23119.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -73107,6 +75475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23017.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73142,6 +75511,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23066.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73177,6 +75547,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23056.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -73212,6 +75583,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -73247,6 +75619,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73282,6 +75655,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73317,6 +75691,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23106.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -73352,6 +75727,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23076.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -73387,6 +75763,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -73422,6 +75799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -73457,6 +75835,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23091.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -73492,6 +75871,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23096.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -73527,6 +75907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23081.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -73562,6 +75943,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -73593,6 +75975,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73624,6 +76007,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23101.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73655,6 +76039,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23037.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73686,6 +76071,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23114.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73717,6 +76103,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23126.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73748,6 +76135,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23061.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73779,6 +76167,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23071.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73810,6 +76199,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23012.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73841,6 +76231,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23119.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -73872,6 +76263,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23017.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -73903,6 +76295,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23066.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -73934,6 +76327,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23056.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -73965,6 +76359,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -73996,6 +76391,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74027,6 +76423,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74058,6 +76455,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23106.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -74089,6 +76487,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23076.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -74120,6 +76519,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -74151,6 +76551,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -74182,6 +76583,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23091.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -74213,6 +76615,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23096.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -74244,6 +76647,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23081.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -74275,6 +76679,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -74306,6 +76711,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74337,6 +76743,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23101.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74368,6 +76775,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23037.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74399,6 +76807,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23114.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74430,6 +76839,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23126.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74461,6 +76871,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23061.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74492,6 +76903,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23071.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74523,6 +76935,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23012.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74554,6 +76967,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23119.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -74585,6 +76999,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23017.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -74616,6 +77031,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23066.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74647,6 +77063,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23056.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -74678,6 +77095,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -74709,6 +77127,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74740,6 +77159,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -74771,6 +77191,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23106.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -74802,6 +77223,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23076.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -74833,6 +77255,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -74864,6 +77287,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -74895,6 +77319,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23091.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -74926,6 +77351,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23096.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -74957,6 +77383,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23081.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -74988,6 +77415,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75019,6 +77447,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20231.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75050,6 +77479,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17825.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75081,6 +77511,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75112,6 +77543,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14438.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75143,6 +77575,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12367.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75174,6 +77607,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11183.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75205,6 +77639,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9772.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75236,6 +77671,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9771.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -75267,6 +77703,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9768.0,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -75298,6 +77735,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9770.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75329,6 +77767,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9761.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -75360,6 +77799,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9767.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -75391,6 +77831,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9763.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75422,6 +77863,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9763.0,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -75453,6 +77895,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9762.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -75484,6 +77927,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9759.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -75515,6 +77959,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9766.0,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -75546,6 +77991,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9766.0,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -75577,6 +78023,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9764.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -75608,6 +78055,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9760.0,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -75639,6 +78087,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9765.0,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -75670,6 +78119,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23391.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -75719,6 +78169,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23410.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -75768,6 +78219,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23389.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -75817,6 +78269,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23414.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -75866,6 +78319,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23413.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -75915,6 +78369,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23396.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -75964,6 +78419,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23399.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -76013,6 +78469,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23382.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -76062,6 +78519,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23416.0,
             "base": {
                 "weapon_damage_base": 1971,
                 "weapon_damage_rand": 1314
@@ -76111,6 +78569,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23384.0,
             "base": {
                 "weapon_damage_base": 5912,
                 "weapon_damage_rand": 3942
@@ -76160,6 +78619,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23398.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -76209,6 +78669,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23395.0,
             "base": {
                 "weapon_damage_base": 6701,
                 "weapon_damage_rand": 4467
@@ -76257,6 +78718,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23385.0,
             "base": {
                 "weapon_damage_base": 5124,
                 "weapon_damage_rand": 3416
@@ -76306,6 +78768,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23404.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -76355,6 +78818,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23405.0,
             "base": {
                 "weapon_damage_base": 3942,
                 "weapon_damage_rand": 2628
@@ -76404,6 +78868,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23411.0,
             "base": {
                 "weapon_damage_base": 1971,
                 "weapon_damage_rand": 1314
@@ -76453,6 +78918,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23400.0,
             "base": {
                 "weapon_damage_base": 2562,
                 "weapon_damage_rand": 1708
@@ -76502,6 +78968,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23387.0,
             "base": {
                 "weapon_damage_base": 5124,
                 "weapon_damage_rand": 3416
@@ -76551,6 +79018,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23388.0,
             "base": {
                 "weapon_damage_base": 2562,
                 "weapon_damage_rand": 1708
@@ -76600,6 +79068,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23407.0,
             "base": {
                 "weapon_damage_base": 6701,
                 "weapon_damage_rand": 4467
@@ -76649,6 +79118,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23408.0,
             "base": {
                 "weapon_damage_base": 1971,
                 "weapon_damage_rand": 1314
@@ -76698,6 +79168,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23403.0,
             "base": {
                 "weapon_damage_base": 6701,
                 "weapon_damage_rand": 4467
@@ -76747,6 +79218,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23044.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -76786,6 +79258,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20238.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -76825,6 +79298,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18729.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -76864,6 +79338,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 16512.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -76903,6 +79378,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14640.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -76942,6 +79418,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14639.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -76981,6 +79458,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14638.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -77020,6 +79498,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14637.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -77059,6 +79538,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14635.0,
             "base": {
                 "weapon_damage_base": 1900,
                 "weapon_damage_rand": 1267
@@ -77098,6 +79578,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14633.0,
             "base": {
                 "weapon_damage_base": 5699,
                 "weapon_damage_rand": 3800
@@ -77137,6 +79618,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14631.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -77176,6 +79658,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14636.0,
             "base": {
                 "weapon_damage_base": 6459,
                 "weapon_damage_rand": 4306
@@ -77215,6 +79698,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14625.0,
             "base": {
                 "weapon_damage_base": 4939,
                 "weapon_damage_rand": 3293
@@ -77254,6 +79738,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14632.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -77293,6 +79778,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14632.0,
             "base": {
                 "weapon_damage_base": 3800,
                 "weapon_damage_rand": 2533
@@ -77332,6 +79818,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14630.0,
             "base": {
                 "weapon_damage_base": 1900,
                 "weapon_damage_rand": 1267
@@ -77371,6 +79858,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14629.0,
             "base": {
                 "weapon_damage_base": 2470,
                 "weapon_damage_rand": 1646
@@ -77410,6 +79898,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14624.0,
             "base": {
                 "weapon_damage_base": 4939,
                 "weapon_damage_rand": 3293
@@ -77449,6 +79938,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14624.0,
             "base": {
                 "weapon_damage_base": 2470,
                 "weapon_damage_rand": 1646
@@ -77488,6 +79978,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14627.0,
             "base": {
                 "weapon_damage_base": 6459,
                 "weapon_damage_rand": 4306
@@ -77527,6 +80018,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14628.0,
             "base": {
                 "weapon_damage_base": 1900,
                 "weapon_damage_rand": 1267
@@ -77566,6 +80058,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14634.0,
             "base": {
                 "weapon_damage_base": 6459,
                 "weapon_damage_rand": 4306
@@ -77605,6 +80098,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23391.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -77654,6 +80148,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23410.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -77703,6 +80198,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23389.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -77752,6 +80248,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23414.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -77801,6 +80298,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23413.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -77850,6 +80348,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23396.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -77899,6 +80398,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23399.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -77948,6 +80448,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23382.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -77997,6 +80498,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23416.0,
             "base": {
                 "weapon_damage_base": 1842,
                 "weapon_damage_rand": 1228
@@ -78046,6 +80548,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23384.0,
             "base": {
                 "weapon_damage_base": 5525,
                 "weapon_damage_rand": 3683
@@ -78095,6 +80598,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23398.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -78144,6 +80648,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23395.0,
             "base": {
                 "weapon_damage_base": 6261,
                 "weapon_damage_rand": 4174
@@ -78192,6 +80697,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23385.0,
             "base": {
                 "weapon_damage_base": 4788,
                 "weapon_damage_rand": 3192
@@ -78241,6 +80747,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23404.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -78290,6 +80797,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23405.0,
             "base": {
                 "weapon_damage_base": 3683,
                 "weapon_damage_rand": 2455
@@ -78339,6 +80847,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23411.0,
             "base": {
                 "weapon_damage_base": 1842,
                 "weapon_damage_rand": 1228
@@ -78388,6 +80897,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23400.0,
             "base": {
                 "weapon_damage_base": 2394,
                 "weapon_damage_rand": 1596
@@ -78437,6 +80947,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23387.0,
             "base": {
                 "weapon_damage_base": 4788,
                 "weapon_damage_rand": 3192
@@ -78486,6 +80997,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23388.0,
             "base": {
                 "weapon_damage_base": 2394,
                 "weapon_damage_rand": 1596
@@ -78535,6 +81047,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23407.0,
             "base": {
                 "weapon_damage_base": 6261,
                 "weapon_damage_rand": 4174
@@ -78584,6 +81097,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23408.0,
             "base": {
                 "weapon_damage_base": 1842,
                 "weapon_damage_rand": 1228
@@ -78633,6 +81147,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23403.0,
             "base": {
                 "weapon_damage_base": 6261,
                 "weapon_damage_rand": 4174
@@ -78682,6 +81197,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23049.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -78713,6 +81229,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20150.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78744,6 +81261,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20149.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78775,6 +81293,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20148.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -78806,6 +81325,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20147.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -78837,6 +81357,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20146.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78868,6 +81389,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20145.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78899,6 +81421,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20144.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78930,6 +81453,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20143.0,
             "base": {
                 "weapon_damage_base": 1752,
                 "weapon_damage_rand": 1168
@@ -78961,6 +81485,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20142.0,
             "base": {
                 "weapon_damage_base": 5257,
                 "weapon_damage_rand": 3505
@@ -78992,6 +81517,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20140.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -79023,6 +81549,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20141.0,
             "base": {
                 "weapon_damage_base": 5958,
                 "weapon_damage_rand": 3972
@@ -79054,6 +81581,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20134.0,
             "base": {
                 "weapon_damage_base": 4556,
                 "weapon_damage_rand": 3038
@@ -79085,6 +81613,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20139.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -79116,6 +81645,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20139.0,
             "base": {
                 "weapon_damage_base": 3505,
                 "weapon_damage_rand": 2337
@@ -79147,6 +81677,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20138.0,
             "base": {
                 "weapon_damage_base": 1752,
                 "weapon_damage_rand": 1168
@@ -79178,6 +81709,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20135.0,
             "base": {
                 "weapon_damage_base": 2278,
                 "weapon_damage_rand": 1519
@@ -79209,6 +81741,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20133.0,
             "base": {
                 "weapon_damage_base": 4556,
                 "weapon_damage_rand": 3038
@@ -79240,6 +81773,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20133.0,
             "base": {
                 "weapon_damage_base": 2278,
                 "weapon_damage_rand": 1519
@@ -79271,6 +81805,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20132.0,
             "base": {
                 "weapon_damage_base": 5958,
                 "weapon_damage_rand": 3972
@@ -79302,6 +81837,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20136.0,
             "base": {
                 "weapon_damage_base": 1752,
                 "weapon_damage_rand": 1168
@@ -79333,6 +81869,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20131.0,
             "base": {
                 "weapon_damage_base": 5958,
                 "weapon_damage_rand": 3972
@@ -79364,6 +81901,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23050.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79395,6 +81933,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79426,6 +81965,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79457,6 +81997,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79488,6 +82029,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14438.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79519,6 +82061,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79550,6 +82093,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11185.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79581,6 +82125,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9173.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79612,6 +82157,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9171.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -79643,6 +82189,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9182.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -79674,6 +82221,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9181.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79705,6 +82253,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9172.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -79736,6 +82285,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9175.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -79767,6 +82317,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9174.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79798,6 +82349,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9174.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -79829,6 +82381,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9180.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -79860,6 +82413,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9179.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -79891,6 +82445,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9169.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -79922,6 +82477,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9169.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -79953,6 +82509,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9177.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -79984,6 +82541,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9178.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -80015,6 +82573,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9170.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -80046,6 +82605,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -80077,6 +82637,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80108,6 +82669,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23101.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80139,6 +82701,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23037.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80170,6 +82733,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23114.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80201,6 +82765,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23126.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80232,6 +82797,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23061.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80263,6 +82829,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23071.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80294,6 +82861,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23012.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80325,6 +82893,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23119.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -80356,6 +82925,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23017.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80387,6 +82957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23066.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80418,6 +82989,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23056.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -80449,6 +83021,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -80480,6 +83053,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80511,6 +83085,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80542,6 +83117,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23106.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -80573,6 +83149,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23076.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -80604,6 +83181,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -80635,6 +83213,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -80666,6 +83245,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23091.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -80697,6 +83277,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23096.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -80728,6 +83309,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23081.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -80759,6 +83341,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -80790,6 +83373,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80821,6 +83405,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23101.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80852,6 +83437,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23037.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80883,6 +83469,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23114.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80914,6 +83501,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23126.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -80945,6 +83533,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23061.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -80976,6 +83565,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23071.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81007,6 +83597,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23012.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81038,6 +83629,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23119.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -81069,6 +83661,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23017.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81100,6 +83693,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23066.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81131,6 +83725,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23056.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -81162,6 +83757,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23032.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -81193,6 +83789,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81224,6 +83821,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23086.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81255,6 +83853,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23106.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -81286,6 +83885,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23076.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -81317,6 +83917,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23022.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -81348,6 +83949,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17776.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -81379,6 +83981,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23091.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -81410,6 +84013,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23096.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -81441,6 +84045,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23081.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -81472,6 +84077,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23050.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81507,6 +84113,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81542,6 +84149,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17824.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81577,6 +84185,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81612,6 +84221,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14438.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81647,6 +84257,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81682,6 +84293,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11184.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81717,6 +84329,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8720.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81752,6 +84365,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8737.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -81787,6 +84401,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8764.0,
             "base": {
                 "weapon_damage_base": 5234,
                 "weapon_damage_rand": 3489
@@ -81822,6 +84437,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8758.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81857,6 +84473,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8753.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -81892,6 +84509,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8785.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -81927,6 +84545,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8746.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81962,6 +84581,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8746.0,
             "base": {
                 "weapon_damage_base": 3489,
                 "weapon_damage_rand": 2326
@@ -81997,6 +84617,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8733.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -82032,6 +84653,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8783.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -82067,6 +84689,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8784.0,
             "base": {
                 "weapon_damage_base": 4536,
                 "weapon_damage_rand": 3024
@@ -82102,6 +84725,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8784.0,
             "base": {
                 "weapon_damage_base": 2268,
                 "weapon_damage_rand": 1512
@@ -82137,6 +84761,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8770.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -82172,6 +84797,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8751.0,
             "base": {
                 "weapon_damage_base": 1745,
                 "weapon_damage_rand": 1163
@@ -82207,6 +84833,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8790.0,
             "base": {
                 "weapon_damage_base": 5932,
                 "weapon_damage_rand": 3955
@@ -82242,6 +84869,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23394.0,
             "base": {
                 "weapon_damage_base": 3446,
                 "weapon_damage_rand": 2297
@@ -82277,6 +84905,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6243,
+            "icon_id": 23042.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82312,6 +84941,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6242,
+            "icon_id": 20237.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82347,6 +84977,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6241,
+            "icon_id": 17821.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82382,6 +85013,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6239,
+            "icon_id": 16513.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82417,6 +85049,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6238,
+            "icon_id": 14446.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82452,6 +85085,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6237,
+            "icon_id": 12599.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82487,6 +85121,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6236,
+            "icon_id": 11145.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82522,6 +85157,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6235,
+            "icon_id": 8964.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82557,6 +85193,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6233,
+            "icon_id": 7803.0,
             "base": {
                 "weapon_damage_base": 1721,
                 "weapon_damage_rand": 1148
@@ -82592,6 +85229,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6231,
+            "icon_id": 6736.0,
             "base": {
                 "weapon_damage_base": 5164,
                 "weapon_damage_rand": 3443
@@ -82627,6 +85265,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6229,
+            "icon_id": 4230.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82662,6 +85301,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6228,
+            "icon_id": 4828.0,
             "base": {
                 "weapon_damage_base": 5853,
                 "weapon_damage_rand": 3902
@@ -82697,6 +85337,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6227,
+            "icon_id": 2230.0,
             "base": {
                 "weapon_damage_base": 4476,
                 "weapon_damage_rand": 2984
@@ -82732,6 +85373,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6226,
+            "icon_id": 3322.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82767,6 +85409,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6225,
+            "icon_id": 3322.0,
             "base": {
                 "weapon_damage_base": 3443,
                 "weapon_damage_rand": 2295
@@ -82802,6 +85445,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6223,
+            "icon_id": 3321.0,
             "base": {
                 "weapon_damage_base": 1721,
                 "weapon_damage_rand": 1148
@@ -82837,6 +85481,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6221,
+            "icon_id": 2208.0,
             "base": {
                 "weapon_damage_base": 2238,
                 "weapon_damage_rand": 1492
@@ -82872,6 +85517,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6220,
+            "icon_id": 2230.0,
             "base": {
                 "weapon_damage_base": 4476,
                 "weapon_damage_rand": 2984
@@ -82907,6 +85553,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6219,
+            "icon_id": 2230.0,
             "base": {
                 "weapon_damage_base": 2238,
                 "weapon_damage_rand": 1492
@@ -82942,6 +85589,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6217,
+            "icon_id": 2213.0,
             "base": {
                 "weapon_damage_base": 5853,
                 "weapon_damage_rand": 3902
@@ -82977,6 +85625,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6215,
+            "icon_id": 2228.0,
             "base": {
                 "weapon_damage_base": 1721,
                 "weapon_damage_rand": 1148
@@ -83012,6 +85661,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6213,
+            "icon_id": 2221.0,
             "base": {
                 "weapon_damage_base": 5853,
                 "weapon_damage_rand": 3902
@@ -83047,6 +85697,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23393.0,
             "base": {
                 "weapon_damage_base": 3338,
                 "weapon_damage_rand": 2226
@@ -83079,6 +85730,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23050.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83114,6 +85766,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83149,6 +85802,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17634.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83184,6 +85838,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15880.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83219,6 +85874,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83254,6 +85910,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12369.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83289,6 +85946,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11185.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83324,6 +85982,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8719.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83359,6 +86018,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7798.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -83394,6 +86054,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6844.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83429,6 +86090,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6842.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83464,6 +86126,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6837.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -83499,6 +86162,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6845.0,
             "base": {
                 "weapon_damage_base": 4234,
                 "weapon_damage_rand": 2822
@@ -83534,6 +86198,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6839.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83569,6 +86234,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6839.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83604,6 +86270,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6838.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -83639,6 +86306,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6835.0,
             "base": {
                 "weapon_damage_base": 2117,
                 "weapon_damage_rand": 1411
@@ -83674,6 +86342,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6843.0,
             "base": {
                 "weapon_damage_base": 4234,
                 "weapon_damage_rand": 2822
@@ -83709,6 +86378,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6843.0,
             "base": {
                 "weapon_damage_base": 2117,
                 "weapon_damage_rand": 1411
@@ -83744,6 +86414,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6840.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -83779,6 +86450,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6836.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -83814,6 +86486,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6841.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -83849,6 +86522,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23050.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83880,6 +86554,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83911,6 +86586,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -83942,6 +86618,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -83973,6 +86650,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -84004,6 +86682,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -84035,6 +86714,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -84066,6 +86746,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -84097,6 +86778,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -84128,6 +86810,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4885,
                 "weapon_damage_rand": 3257
@@ -84159,6 +86842,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -84190,6 +86874,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -84221,6 +86906,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4234,
                 "weapon_damage_rand": 2822
@@ -84252,6 +86938,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -84283,6 +86970,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3257,
                 "weapon_damage_rand": 2171
@@ -84314,6 +87002,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -84345,6 +87034,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2117,
                 "weapon_damage_rand": 1411
@@ -84376,6 +87066,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4234,
                 "weapon_damage_rand": 2822
@@ -84407,6 +87098,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2117,
                 "weapon_damage_rand": 1411
@@ -84438,6 +87130,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -84469,6 +87162,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1628,
                 "weapon_damage_rand": 1086
@@ -84500,6 +87194,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5536,
                 "weapon_damage_rand": 3691
@@ -84531,6 +87226,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23392.0,
             "base": {
                 "weapon_damage_base": 3231,
                 "weapon_damage_rand": 2154
@@ -84563,6 +87259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -84594,6 +87291,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84625,6 +87323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84656,6 +87355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -84687,6 +87387,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -84718,6 +87419,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84749,6 +87451,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84780,6 +87483,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84811,6 +87515,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -84842,6 +87547,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -84873,6 +87579,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -84904,6 +87611,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -84935,6 +87643,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -84966,6 +87675,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -84997,6 +87707,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85028,6 +87739,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -85059,6 +87771,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -85090,6 +87803,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -85121,6 +87835,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -85152,6 +87867,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -85183,6 +87899,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -85214,6 +87931,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -85245,6 +87963,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85276,6 +87995,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85307,6 +88027,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85338,6 +88059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85369,6 +88091,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85400,6 +88123,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85431,6 +88155,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85462,6 +88187,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85493,6 +88219,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -85524,6 +88251,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85555,6 +88283,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85586,6 +88315,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -85617,6 +88347,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -85648,6 +88379,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85679,6 +88411,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85710,6 +88443,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -85741,6 +88475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -85772,6 +88507,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -85803,6 +88539,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -85834,6 +88571,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -85865,6 +88603,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -85896,6 +88635,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -85927,6 +88667,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -85958,6 +88699,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -85989,6 +88731,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86020,6 +88763,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86051,6 +88795,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86082,6 +88827,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86113,6 +88859,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86144,6 +88891,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86175,6 +88923,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -86206,6 +88955,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86237,6 +88987,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86268,6 +89019,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -86299,6 +89051,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -86330,6 +89083,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86361,6 +89115,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86392,6 +89147,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -86423,6 +89179,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -86454,6 +89211,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -86485,6 +89243,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -86516,6 +89275,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -86547,6 +89307,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -86578,6 +89339,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -86609,6 +89371,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86640,6 +89403,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86671,6 +89435,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86702,6 +89467,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86733,6 +89499,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86764,6 +89531,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86795,6 +89563,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86826,6 +89595,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86857,6 +89627,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -86888,6 +89659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -86919,6 +89691,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -86950,6 +89723,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -86981,6 +89755,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -87012,6 +89787,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87043,6 +89819,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87074,6 +89851,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -87105,6 +89883,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -87136,6 +89915,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -87167,6 +89947,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -87198,6 +89979,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -87229,6 +90011,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -87260,6 +90043,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -87291,6 +90075,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87322,6 +90107,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87353,6 +90139,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87384,6 +90171,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87415,6 +90203,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87446,6 +90235,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87477,6 +90267,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87508,6 +90299,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87539,6 +90331,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -87570,6 +90363,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -87601,6 +90395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87632,6 +90427,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -87663,6 +90459,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -87694,6 +90491,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87725,6 +90523,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -87756,6 +90555,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -87787,6 +90587,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -87818,6 +90619,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -87849,6 +90651,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -87880,6 +90683,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -87911,6 +90715,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -87942,6 +90747,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -87973,6 +90779,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88004,6 +90811,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20232.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88035,6 +90843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88066,6 +90875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88097,6 +90907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88128,6 +90939,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12366.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88159,6 +90971,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11760.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88190,6 +91003,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11759.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88221,6 +91035,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11757.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -88252,6 +91067,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11755.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88283,6 +91099,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11753.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88314,6 +91131,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11758.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -88345,6 +91163,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11747.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -88376,6 +91195,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88407,6 +91227,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11754.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88438,6 +91259,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11752.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -88469,6 +91291,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11751.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -88500,6 +91323,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -88531,6 +91355,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11746.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -88562,6 +91387,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11749.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -88593,6 +91419,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11750.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -88624,6 +91451,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11756.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -88655,6 +91483,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23048.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88686,6 +91515,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88717,6 +91547,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17824.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88748,6 +91579,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15880.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88779,6 +91611,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 13893.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88810,6 +91643,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88841,6 +91675,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11182.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88872,6 +91707,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11088.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88903,6 +91739,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11087.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -88934,6 +91771,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11084.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -88965,6 +91803,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11082.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -88996,6 +91835,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11077.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -89027,6 +91867,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11085.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -89058,6 +91899,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11079.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89089,6 +91931,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11079.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89120,6 +91963,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11078.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -89151,6 +91995,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11075.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -89182,6 +92027,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11083.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -89213,6 +92059,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11083.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -89244,6 +92091,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11080.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -89275,6 +92123,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11076.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -89306,6 +92155,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11081.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -89337,6 +92187,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23048.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89368,6 +92219,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89399,6 +92251,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17824.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89430,6 +92283,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15880.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89461,6 +92315,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 13893.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89492,6 +92347,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89523,6 +92379,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11182.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89554,6 +92411,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11088.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89585,6 +92443,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11087.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -89616,6 +92475,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11084.0,
             "base": {
                 "weapon_damage_base": 4769,
                 "weapon_damage_rand": 3179
@@ -89647,6 +92507,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11082.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89678,6 +92539,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11077.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -89709,6 +92571,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11085.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -89740,6 +92603,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11079.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89771,6 +92635,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11079.0,
             "base": {
                 "weapon_damage_base": 3179,
                 "weapon_damage_rand": 2119
@@ -89802,6 +92667,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11078.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -89833,6 +92699,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11075.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -89864,6 +92731,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11083.0,
             "base": {
                 "weapon_damage_base": 4133,
                 "weapon_damage_rand": 2755
@@ -89895,6 +92763,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11083.0,
             "base": {
                 "weapon_damage_base": 2066,
                 "weapon_damage_rand": 1378
@@ -89926,6 +92795,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11080.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -89957,6 +92827,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11076.0,
             "base": {
                 "weapon_damage_base": 1590,
                 "weapon_damage_rand": 1060
@@ -89988,6 +92859,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11081.0,
             "base": {
                 "weapon_damage_base": 5405,
                 "weapon_damage_rand": 3603
@@ -90019,6 +92891,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90050,6 +92923,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90081,6 +92955,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17634.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90112,6 +92987,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15880.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90143,6 +93019,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 13893.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90174,6 +93051,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90205,6 +93083,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11147.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90236,6 +93115,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8822.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90267,6 +93147,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7786.0,
             "base": {
                 "weapon_damage_base": 1535,
                 "weapon_damage_rand": 1024
@@ -90298,6 +93179,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7845.0,
             "base": {
                 "weapon_damage_base": 4606,
                 "weapon_damage_rand": 3071
@@ -90329,6 +93211,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7879.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90360,6 +93243,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7862.0,
             "base": {
                 "weapon_damage_base": 5220,
                 "weapon_damage_rand": 3480
@@ -90391,6 +93275,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7829.0,
             "base": {
                 "weapon_damage_base": 3992,
                 "weapon_damage_rand": 2661
@@ -90422,6 +93307,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90453,6 +93339,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 3071,
                 "weapon_damage_rand": 2047
@@ -90484,6 +93371,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7904.0,
             "base": {
                 "weapon_damage_base": 1535,
                 "weapon_damage_rand": 1024
@@ -90515,6 +93403,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7884.0,
             "base": {
                 "weapon_damage_base": 1996,
                 "weapon_damage_rand": 1331
@@ -90546,6 +93435,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 3992,
                 "weapon_damage_rand": 2661
@@ -90577,6 +93467,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 1996,
                 "weapon_damage_rand": 1331
@@ -90608,6 +93499,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7894.0,
             "base": {
                 "weapon_damage_base": 5220,
                 "weapon_damage_rand": 3480
@@ -90639,6 +93531,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7909.0,
             "base": {
                 "weapon_damage_base": 1535,
                 "weapon_damage_rand": 1024
@@ -90670,6 +93563,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7889.0,
             "base": {
                 "weapon_damage_base": 5220,
                 "weapon_damage_rand": 3480
@@ -90701,6 +93595,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -90732,6 +93627,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -90763,6 +93659,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17823.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -90794,6 +93691,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -90825,6 +93723,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14440.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -90856,6 +93755,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -90887,6 +93787,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11147.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -90918,6 +93819,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8822.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -90949,6 +93851,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7786.0,
             "base": {
                 "weapon_damage_base": 1458,
                 "weapon_damage_rand": 972
@@ -90980,6 +93883,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7845.0,
             "base": {
                 "weapon_damage_base": 4373,
                 "weapon_damage_rand": 2915
@@ -91011,6 +93915,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7879.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -91042,6 +93947,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7862.0,
             "base": {
                 "weapon_damage_base": 4956,
                 "weapon_damage_rand": 3304
@@ -91073,6 +93979,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7829.0,
             "base": {
                 "weapon_damage_base": 3790,
                 "weapon_damage_rand": 2527
@@ -91104,6 +94011,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -91135,6 +94043,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2915,
                 "weapon_damage_rand": 1944
@@ -91166,6 +94075,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7904.0,
             "base": {
                 "weapon_damage_base": 1458,
                 "weapon_damage_rand": 972
@@ -91197,6 +94107,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7884.0,
             "base": {
                 "weapon_damage_base": 1895,
                 "weapon_damage_rand": 1263
@@ -91228,6 +94139,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 3790,
                 "weapon_damage_rand": 2527
@@ -91259,6 +94171,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 1895,
                 "weapon_damage_rand": 1263
@@ -91290,6 +94203,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7894.0,
             "base": {
                 "weapon_damage_base": 4956,
                 "weapon_damage_rand": 3304
@@ -91321,6 +94235,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7909.0,
             "base": {
                 "weapon_damage_base": 1458,
                 "weapon_damage_rand": 972
@@ -91352,6 +94267,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7889.0,
             "base": {
                 "weapon_damage_base": 4956,
                 "weapon_damage_rand": 3304
@@ -91383,6 +94299,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23048.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91414,6 +94331,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91445,6 +94363,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17634.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91476,6 +94395,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15650.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91507,6 +94427,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 13893.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91538,6 +94459,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12367.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91569,6 +94491,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11147.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91600,6 +94523,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8822.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91631,6 +94555,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7786.0,
             "base": {
                 "weapon_damage_base": 1365,
                 "weapon_damage_rand": 910
@@ -91662,6 +94587,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7845.0,
             "base": {
                 "weapon_damage_base": 4094,
                 "weapon_damage_rand": 2729
@@ -91693,6 +94619,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7879.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91724,6 +94651,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7862.0,
             "base": {
                 "weapon_damage_base": 4640,
                 "weapon_damage_rand": 3093
@@ -91755,6 +94683,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7829.0,
             "base": {
                 "weapon_damage_base": 3548,
                 "weapon_damage_rand": 2365
@@ -91786,6 +94715,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91817,6 +94747,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2729,
                 "weapon_damage_rand": 1820
@@ -91848,6 +94779,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7904.0,
             "base": {
                 "weapon_damage_base": 1365,
                 "weapon_damage_rand": 910
@@ -91879,6 +94811,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7884.0,
             "base": {
                 "weapon_damage_base": 1774,
                 "weapon_damage_rand": 1183
@@ -91910,6 +94843,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 3548,
                 "weapon_damage_rand": 2365
@@ -91941,6 +94875,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 1774,
                 "weapon_damage_rand": 1183
@@ -91972,6 +94907,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7894.0,
             "base": {
                 "weapon_damage_base": 4640,
                 "weapon_damage_rand": 3093
@@ -92003,6 +94939,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7909.0,
             "base": {
                 "weapon_damage_base": 1365,
                 "weapon_damage_rand": 910
@@ -92034,6 +94971,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7889.0,
             "base": {
                 "weapon_damage_base": 4640,
                 "weapon_damage_rand": 3093
@@ -92065,6 +95003,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23390.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92111,6 +95050,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23390.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92157,6 +95097,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20244.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92203,6 +95144,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17801.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92249,6 +95191,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17831.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92295,6 +95238,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17829.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92341,6 +95285,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17803.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92387,6 +95332,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17806.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92433,6 +95379,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17791.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92479,6 +95426,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17832.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -92525,6 +95473,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17793.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -92571,6 +95520,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17804.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92617,6 +95567,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17802.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -92662,6 +95613,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17794.0,
             "base": {
                 "weapon_damage_base": 3500,
                 "weapon_damage_rand": 2333
@@ -92708,6 +95660,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17813.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92754,6 +95707,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17814.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -92800,6 +95754,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17820.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -92846,6 +95801,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17809.0,
             "base": {
                 "weapon_damage_base": 1750,
                 "weapon_damage_rand": 1167
@@ -92892,6 +95848,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17800.0,
             "base": {
                 "weapon_damage_base": 3500,
                 "weapon_damage_rand": 2333
@@ -92938,6 +95895,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17799.0,
             "base": {
                 "weapon_damage_base": 1750,
                 "weapon_damage_rand": 1167
@@ -92984,6 +95942,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17815.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -93030,6 +95989,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17817.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -93076,6 +96036,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17812.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -93122,6 +96083,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20244.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93168,6 +96130,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17801.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93214,6 +96177,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17831.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -93260,6 +96224,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17829.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -93306,6 +96271,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17803.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93352,6 +96318,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17806.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93398,6 +96365,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17791.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93444,6 +96412,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17832.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -93490,6 +96459,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17793.0,
             "base": {
                 "weapon_damage_base": 4038,
                 "weapon_damage_rand": 2692
@@ -93536,6 +96506,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17804.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -93582,6 +96553,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17802.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -93627,6 +96599,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17794.0,
             "base": {
                 "weapon_damage_base": 3500,
                 "weapon_damage_rand": 2333
@@ -93673,6 +96646,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17813.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -93719,6 +96693,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17814.0,
             "base": {
                 "weapon_damage_base": 2692,
                 "weapon_damage_rand": 1795
@@ -93765,6 +96740,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17820.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -93811,6 +96787,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17809.0,
             "base": {
                 "weapon_damage_base": 1750,
                 "weapon_damage_rand": 1167
@@ -93857,6 +96834,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17800.0,
             "base": {
                 "weapon_damage_base": 3500,
                 "weapon_damage_rand": 2333
@@ -93903,6 +96881,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17799.0,
             "base": {
                 "weapon_damage_base": 1750,
                 "weapon_damage_rand": 1167
@@ -93949,6 +96928,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17815.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -93995,6 +96975,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17817.0,
             "base": {
                 "weapon_damage_base": 1346,
                 "weapon_damage_rand": 897
@@ -94041,6 +97022,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17812.0,
             "base": {
                 "weapon_damage_base": 4576,
                 "weapon_damage_rand": 3051
@@ -94087,6 +97069,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23390.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94133,6 +97116,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20244.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94179,6 +97163,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17801.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94225,6 +97210,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17831.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94271,6 +97257,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17829.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94317,6 +97304,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17803.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94363,6 +97351,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17806.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94409,6 +97398,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17791.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94455,6 +97445,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17832.0,
             "base": {
                 "weapon_damage_base": 1281,
                 "weapon_damage_rand": 854
@@ -94501,6 +97492,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17793.0,
             "base": {
                 "weapon_damage_base": 3844,
                 "weapon_damage_rand": 2563
@@ -94547,6 +97539,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17804.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94593,6 +97586,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17802.0,
             "base": {
                 "weapon_damage_base": 4357,
                 "weapon_damage_rand": 2904
@@ -94638,6 +97632,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17794.0,
             "base": {
                 "weapon_damage_base": 3332,
                 "weapon_damage_rand": 2221
@@ -94684,6 +97679,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17813.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94730,6 +97726,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17814.0,
             "base": {
                 "weapon_damage_base": 2563,
                 "weapon_damage_rand": 1709
@@ -94776,6 +97773,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17820.0,
             "base": {
                 "weapon_damage_base": 1281,
                 "weapon_damage_rand": 854
@@ -94822,6 +97820,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17809.0,
             "base": {
                 "weapon_damage_base": 1666,
                 "weapon_damage_rand": 1111
@@ -94868,6 +97867,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17800.0,
             "base": {
                 "weapon_damage_base": 3332,
                 "weapon_damage_rand": 2221
@@ -94914,6 +97914,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17799.0,
             "base": {
                 "weapon_damage_base": 1666,
                 "weapon_damage_rand": 1111
@@ -94960,6 +97961,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17815.0,
             "base": {
                 "weapon_damage_base": 4357,
                 "weapon_damage_rand": 2904
@@ -95006,6 +98008,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17817.0,
             "base": {
                 "weapon_damage_base": 1281,
                 "weapon_damage_rand": 854
@@ -95052,6 +98055,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17812.0,
             "base": {
                 "weapon_damage_base": 4357,
                 "weapon_damage_rand": 2904
@@ -95098,6 +98102,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23043.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95129,6 +98134,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95160,6 +98166,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17634.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95191,6 +98198,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15879.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95222,6 +98230,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 13893.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95253,6 +98262,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95284,6 +98294,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11147.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95315,6 +98326,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8822.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95346,6 +98358,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7786.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -95377,6 +98390,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7845.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95408,6 +98422,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7879.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95439,6 +98454,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7862.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -95470,6 +98486,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7829.0,
             "base": {
                 "weapon_damage_base": 3326,
                 "weapon_damage_rand": 2218
@@ -95501,6 +98518,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95532,6 +98550,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7899.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95563,6 +98582,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7904.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -95594,6 +98614,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7884.0,
             "base": {
                 "weapon_damage_base": 1663,
                 "weapon_damage_rand": 1109
@@ -95625,6 +98646,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 3326,
                 "weapon_damage_rand": 2218
@@ -95656,6 +98678,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7839.0,
             "base": {
                 "weapon_damage_base": 1663,
                 "weapon_damage_rand": 1109
@@ -95687,6 +98710,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7894.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -95718,6 +98742,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7909.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -95749,6 +98774,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7889.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -95780,6 +98806,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23047.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95811,6 +98838,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 19665.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95842,6 +98870,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17634.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95873,6 +98902,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 15650.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95904,6 +98934,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14438.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -95935,6 +98966,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 12245.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95966,6 +98998,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11147.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -95997,6 +99030,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8824.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -96028,6 +99062,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7787.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -96059,6 +99094,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7849.0,
             "base": {
                 "weapon_damage_base": 3838,
                 "weapon_damage_rand": 2559
@@ -96090,6 +99126,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7883.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -96121,6 +99158,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7866.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -96152,6 +99190,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7833.0,
             "base": {
                 "weapon_damage_base": 3326,
                 "weapon_damage_rand": 2218
@@ -96183,6 +99222,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7903.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -96214,6 +99254,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7903.0,
             "base": {
                 "weapon_damage_base": 2559,
                 "weapon_damage_rand": 1706
@@ -96245,6 +99286,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7908.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -96276,6 +99318,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6541.0,
             "base": {
                 "weapon_damage_base": 1663,
                 "weapon_damage_rand": 1109
@@ -96307,6 +99350,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7844.0,
             "base": {
                 "weapon_damage_base": 3326,
                 "weapon_damage_rand": 2218
@@ -96338,6 +99382,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7844.0,
             "base": {
                 "weapon_damage_base": 1663,
                 "weapon_damage_rand": 1109
@@ -96369,6 +99414,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7898.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -96400,6 +99446,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7913.0,
             "base": {
                 "weapon_damage_base": 1279,
                 "weapon_damage_rand": 853
@@ -96431,6 +99478,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7893.0,
             "base": {
                 "weapon_damage_base": 4350,
                 "weapon_damage_rand": 2900
@@ -96462,6 +99510,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21689.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96497,6 +99546,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21656.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96532,6 +99582,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21698.0,
             "base": {
                 "weapon_damage_base": 2509,
                 "weapon_damage_rand": 1673
@@ -96567,6 +99618,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21695.0,
             "base": {
                 "weapon_damage_base": 2509,
                 "weapon_damage_rand": 1673
@@ -96602,6 +99654,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21662.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96637,6 +99690,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21668.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96673,6 +99727,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21647.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96709,6 +99764,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21701.0,
             "base": {
                 "weapon_damage_base": 1254,
                 "weapon_damage_rand": 836
@@ -96745,6 +99801,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21650.0,
             "base": {
                 "weapon_damage_base": 3763,
                 "weapon_damage_rand": 2509
@@ -96781,6 +99838,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21665.0,
             "base": {
                 "weapon_damage_base": 2509,
                 "weapon_damage_rand": 1673
@@ -96817,6 +99875,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21659.0,
             "base": {
                 "weapon_damage_base": 4265,
                 "weapon_damage_rand": 2843
@@ -96854,6 +99913,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21674.0,
             "base": {
                 "weapon_damage_base": 3262,
                 "weapon_damage_rand": 2174
@@ -96889,6 +99949,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21680.0,
             "base": {
                 "weapon_damage_base": 2509,
                 "weapon_damage_rand": 1673
@@ -96925,6 +99986,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21680.0,
             "base": {
                 "weapon_damage_base": 2509,
                 "weapon_damage_rand": 1673
@@ -96961,6 +100023,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21692.0,
             "base": {
                 "weapon_damage_base": 1254,
                 "weapon_damage_rand": 836
@@ -96996,6 +100059,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21671.0,
             "base": {
                 "weapon_damage_base": 1631,
                 "weapon_damage_rand": 1087
@@ -97032,6 +100096,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21653.0,
             "base": {
                 "weapon_damage_base": 3262,
                 "weapon_damage_rand": 2174
@@ -97067,6 +100132,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21653.0,
             "base": {
                 "weapon_damage_base": 1631,
                 "weapon_damage_rand": 1087
@@ -97102,6 +100168,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21683.0,
             "base": {
                 "weapon_damage_base": 4265,
                 "weapon_damage_rand": 2843
@@ -97137,6 +100204,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21686.0,
             "base": {
                 "weapon_damage_base": 1254,
                 "weapon_damage_rand": 836
@@ -97173,6 +100241,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21677.0,
             "base": {
                 "weapon_damage_base": 4265,
                 "weapon_damage_rand": 2843
@@ -97210,6 +100279,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23386.0,
             "base": {
                 "weapon_damage_base": 9477,
                 "weapon_damage_rand": 6318
@@ -97259,6 +100329,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23386.0,
             "base": {
                 "weapon_damage_base": 8939,
                 "weapon_damage_rand": 5959
@@ -97308,6 +100379,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23386.0,
             "base": {
                 "weapon_damage_base": 8400,
                 "weapon_damage_rand": 5600
@@ -97357,6 +100429,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20137.0,
             "base": {
                 "weapon_damage_base": 8158,
                 "weapon_damage_rand": 5438
@@ -97388,6 +100461,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 18024.0,
             "base": {
                 "weapon_damage_base": 8158,
                 "weapon_damage_rand": 5438
@@ -97419,6 +100493,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97454,6 +100529,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97485,6 +100561,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97516,6 +100593,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97547,6 +100625,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97578,6 +100657,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9769.0,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -97609,6 +100689,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23386.0,
             "base": {
                 "weapon_damage_base": 7883,
                 "weapon_damage_rand": 5255
@@ -97658,6 +100739,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 14626.0,
             "base": {
                 "weapon_damage_base": 7599,
                 "weapon_damage_rand": 5066
@@ -97697,6 +100779,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23386.0,
             "base": {
                 "weapon_damage_base": 7366,
                 "weapon_damage_rand": 4911
@@ -97746,6 +100829,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 20137.0,
             "base": {
                 "weapon_damage_base": 7010,
                 "weapon_damage_rand": 4673
@@ -97777,6 +100861,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 9176.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97808,6 +100893,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97839,6 +100925,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97870,6 +100957,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97901,6 +100989,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 23030.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97932,6 +101021,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 8728.0,
             "base": {
                 "weapon_damage_base": 6979,
                 "weapon_damage_rand": 4653
@@ -97967,6 +101057,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6227,
+            "icon_id": 87.0,
             "base": {
                 "weapon_damage_base": 6886,
                 "weapon_damage_rand": 4590
@@ -98002,6 +101093,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 6846.0,
             "base": {
                 "weapon_damage_base": 6513,
                 "weapon_damage_rand": 4342
@@ -98037,6 +101129,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6513,
                 "weapon_damage_rand": 4342
@@ -98068,6 +101161,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98099,6 +101193,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98130,6 +101225,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98161,6 +101257,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98192,6 +101289,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98223,6 +101321,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11748.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98254,6 +101353,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11086.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98285,6 +101385,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 11086.0,
             "base": {
                 "weapon_damage_base": 6358,
                 "weapon_damage_rand": 4239
@@ -98316,6 +101417,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7834.0,
             "base": {
                 "weapon_damage_base": 6141,
                 "weapon_damage_rand": 4094
@@ -98347,6 +101449,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7834.0,
             "base": {
                 "weapon_damage_base": 5831,
                 "weapon_damage_rand": 3887
@@ -98378,6 +101481,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7834.0,
             "base": {
                 "weapon_damage_base": 5459,
                 "weapon_damage_rand": 3639
@@ -98409,6 +101513,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17795.0,
             "base": {
                 "weapon_damage_base": 5384,
                 "weapon_damage_rand": 3589
@@ -98455,6 +101560,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17795.0,
             "base": {
                 "weapon_damage_base": 5384,
                 "weapon_damage_rand": 3589
@@ -98501,6 +101607,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 17795.0,
             "base": {
                 "weapon_damage_base": 5126,
                 "weapon_damage_rand": 3417
@@ -98547,6 +101654,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7834.0,
             "base": {
                 "weapon_damage_base": 5117,
                 "weapon_damage_rand": 3412
@@ -98578,6 +101686,7 @@ EQUIPMENTS = {
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 7838.0,
             "base": {
                 "weapon_damage_base": 5117,
                 "weapon_damage_rand": 3412
@@ -98609,6 +101718,7 @@ EQUIPMENTS = {
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
+            "icon_id": 21704.0,
             "base": {
                 "weapon_damage_base": 5018,
                 "weapon_damage_rand": 3345
