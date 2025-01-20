@@ -7,7 +7,6 @@ from kungfus import SUPPORT_KUNGFU
 from tools import *
 
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFU.values()], []))
-# KINDS = ["治疗"]
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFU.values()])
 
 QUALITY_COF = {
@@ -118,13 +117,13 @@ def get_equip_detail(row):
         if not (attr_id := getattr(row, f'Magic{i + 1}Type')):
             break
         attr_row = ATTRIB_TAB[ATTRIB_TAB.ID == attr_id].iloc[0]
-        attr, value = attr_row.ModifyType, int(attr_row.Param1Max)
+        attr = attr_row.ModifyType
         if attr in ATTR_TYPE_MAP:
-            magic_attrs[ATTR_TYPE_MAP[attr]] = value
+            magic_attrs[ATTR_TYPE_MAP[attr]] = int(attr_row.Param1Max)
         elif attr == "atSetEquipmentRecipe":
-            recipes[value] = int(attr_row.Param2Max)
+            recipes[int(attr_row.Param1Max)] = int(attr_row.Param2Max)
         elif attr == "atSkillEventHandler":
-            gains.append([value])
+            gains.append([int(attr_row.Param1Max)])
         else:
             continue
     for i in range(MAX_EMBED_ATTR):
@@ -176,9 +175,8 @@ def filter_equip(row):
 
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.apply(filter_equip, axis=1)]
-    equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
-    # equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
-    equip_tab = equip_tab[~equip_tab.MagicType.str.contains("PVP")]
+    equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS + MAJORS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
+    equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
 
     results = defaultdict(dict)

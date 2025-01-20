@@ -72,6 +72,7 @@ SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
 ATTR_TYPE_MAP = {
     "atVitalityBase": "vitality_base",
+    "atVitalityBasePercentAdd": "vitality_gain",
     "atMaxLifeAdditional": "max_life_add",
     "atMeleeWeaponDamageBase": "weapon_damage_base",
     "atMeleeWeaponDamageRand": "weapon_damage_rand",
@@ -187,6 +188,7 @@ ATTR_TYPE_MAP = {
 }
 ATTR_TYPE_TRANSLATE = {
     "vitality_base": "体质",
+    "vitality_gain": "体质百分比",
     "max_life_add": "额外气血上限",
     "weapon_damage_base": "基础武器伤害",
     "weapon_damage_rand": "浮动武器伤害",
@@ -241,6 +243,7 @@ ATTR_TYPE_TRANSLATE = {
     "strength": "力道",
     "spirit": "根骨",
     "spunk": "元气",
+    "vitality": "体质",
 
     "base_physical_attack_power": "外功基础攻击",
     "base_magical_attack_power": "内功基础攻击",

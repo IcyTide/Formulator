@@ -104,7 +104,7 @@ class ComboWithLabel(LabelWidget):
 
         layout.addStretch()
 
-    def set_items(self, items, keep_index=False, default_index=0):
+    def set_items(self, items, keep_content=False, default_index=0):
         self.items = items
         self.combo_box.blockSignals(True)
         current_text = self.combo_box.currentText()
@@ -114,8 +114,8 @@ class ComboWithLabel(LabelWidget):
         if not items:
             self.combo_box.clear()
             self.combo_box.setCurrentIndex(-1)
-        elif keep_index and current_text and current_text in items:
-            self.combo_box.setCurrentIndex(items.index(current_text))
+        elif keep_content and current_text and current_text in items:
+            self.combo_box.setCurrentText(current_text)
         else:
             self.combo_box.setCurrentIndex(default_index)
 

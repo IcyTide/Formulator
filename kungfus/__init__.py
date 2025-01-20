@@ -11,6 +11,7 @@ from general.dots import GENERAL_DOTS
 from general.recipes import GENERAL_RECIPES
 from general.skills import GENERAL_SKILLS
 from kungfus import ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue, bei_ao_jue, gu_feng_jue
+from kungfus import ming_zun_liu_li_ti
 from kungfus import tai_xu_jian_yi, wen_shui_jue, fen_shan_jing, ling_hai_jue, yin_long_jue, shan_hai_xin_jue
 from kungfus import yi_jin_jing, hua_jian_you, tian_luo_gui_dao, fen_ying_sheng_jue, tai_xuan_jing, zhou_tian_gong
 from kungfus import zi_xia_gong, bing_xin_jue, du_jing, mo_wen, wu_fang
@@ -176,6 +177,9 @@ SUPPORT_KUNGFU = {
     ),
     10242: Kungfu(
         10242, "焚影圣诀", "明教", "元气", "内功", "炎威破魔阵", fen_ying_sheng_jue
+    ),
+    10243: Kungfu(
+        10243, "明尊琉璃体", "明教", "", "防御", "", ming_zun_liu_li_ti
     ),
     10268: Kungfu(
         10268, "笑尘诀", "丐帮", "力道", "外功", "降龙伏虎阵", xiao_chen_jue

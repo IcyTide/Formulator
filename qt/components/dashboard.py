@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTabWidget
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTabWidget, QMessageBox
 
 from base.constant import SHIELD_BASE_MAP
 from qt.components import ComboWithLabel, DoubleSpinWithLabel, LabelWithLabel, TableWithLabel
@@ -82,3 +82,9 @@ class DashboardWidget(QWidget):
         result_layout.addStretch()
 
         layout.addStretch()
+
+    def pop_warning(self, text):
+        msg_box = QMessageBox(self)
+        msg_box.setWindowTitle("报告")
+        msg_box.setText(text)
+        msg_box.exec()

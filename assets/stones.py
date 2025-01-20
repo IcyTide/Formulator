@@ -34363,6 +34363,60 @@ STONES = {
             }
         }
     },
+    "all_major_base": {
+        "vitality_gain": {
+            4: {
+                "name": "彩·守护·固本·健体(肆)",
+                "level": 4,
+                "attr": {
+                    "all_major_base": 182,
+                    "vitality_gain": 61
+                }
+            },
+            5: {
+                "name": "彩·守护·固本·健体(伍)",
+                "level": 5,
+                "attr": {
+                    "all_major_base": 228,
+                    "vitality_gain": 71
+                }
+            },
+            6: {
+                "name": "彩·守护·固本·健体(陆)",
+                "level": 6,
+                "attr": {
+                    "all_major_base": 273,
+                    "vitality_gain": 81
+                }
+            }
+        },
+        "all_critical_power_base": {
+            4: {
+                "name": "彩·击破·固本·刚烈(肆)",
+                "level": 4,
+                "attr": {
+                    "all_major_base": 182,
+                    "all_critical_power_base": 3900
+                }
+            },
+            5: {
+                "name": "彩·击破·固本·刚烈(伍)",
+                "level": 5,
+                "attr": {
+                    "all_major_base": 228,
+                    "all_critical_power_base": 4875
+                }
+            },
+            6: {
+                "name": "彩·击破·固本·刚烈(陆)",
+                "level": 6,
+                "attr": {
+                    "all_major_base": 273,
+                    "all_critical_power_base": 5850
+                }
+            }
+        }
+    },
     "all_critical_strike_base": {
         "strength_gain": {
             4: {
@@ -34465,34 +34519,6 @@ STONES = {
                 "attr": {
                     "all_critical_strike_base": 2925,
                     "spirit_gain": 81
-                }
-            }
-        }
-    },
-    "all_major_base": {
-        "all_critical_power_base": {
-            4: {
-                "name": "彩·击破·固本·刚烈(肆)",
-                "level": 4,
-                "attr": {
-                    "all_major_base": 182,
-                    "all_critical_power_base": 3900
-                }
-            },
-            5: {
-                "name": "彩·击破·固本·刚烈(伍)",
-                "level": 5,
-                "attr": {
-                    "all_major_base": 228,
-                    "all_critical_power_base": 4875
-                }
-            },
-            6: {
-                "name": "彩·击破·固本·刚烈(陆)",
-                "level": 6,
-                "attr": {
-                    "all_major_base": 273,
-                    "all_critical_power_base": 5850
                 }
             }
         }

@@ -7601,6 +7601,16 @@ BUFFS = {
         "max_stack": 100,
         "recipes": {}
     },
+    20841: {
+        "attributes": {
+            "vitality_gain": 205
+        },
+        "max_level": 1,
+        "buff_name": "香稠",
+        "alias_name": "香稠提高体质",
+        "max_stack": 1,
+        "recipes": {}
+    },
     9744: {
         "attributes": {
             "strain_base": 660
@@ -10142,6 +10152,29 @@ BUFFS = {
         "alias_name": "焚影_冥月渡心_秘籍_破魔增伤",
         "max_stack": 1,
         "recipes": {}
+    },
+    28355: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "烈日buff_轮增伤实际效果",
+        "max_stack": 1,
+        "recipes": {
+            5557: 1
+        }
+    },
+    12578: {
+        "attributes": {},
+        "max_level": 2,
+        "alias_name": "明教_双消耗净世破魔破伤害提高",
+        "max_stack": 1,
+        "recipes": [
+            {
+                4488: 1
+            },
+            {
+                4489: 1
+            }
+        ]
     },
     5994: {
         "attributes": [

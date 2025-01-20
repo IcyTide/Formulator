@@ -19,8 +19,18 @@ class EquipmentWidget(QWidget):
         self.equipment_mapping = {v['id']: k for k, v in self.equipment_data.items()}
         self.enchant_data = ENCHANTS.get(self.position, {})
         self.enchant_mapping = {v['id']: k for k, v in self.enchant_data.items()}
-        self.equipment = ComboWithLabel("装备")
-        layout.addWidget(self.equipment)
+        top_layout = QHBoxLayout()
+        layout.addLayout(top_layout)
+        schools = []
+        for equipment in self.equipment_data.values():
+            if equipment['school'] not in schools:
+                schools.append(equipment['school'])
+        self.school = ComboWithLabel("一级筛选", items=[""] + schools)
+        top_layout.addWidget(self.school, 1)
+        self.kind = ComboWithLabel("二级筛选")
+        top_layout.addWidget(self.kind, 1)
+        self.equipment = ComboWithLabel("装备", items=[""] + list(self.equipment_data))
+        top_layout.addWidget(self.equipment, 3)
 
         self.detail_widget = QWidget()
         detail_layout = QHBoxLayout(self.detail_widget)

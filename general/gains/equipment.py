@@ -109,6 +109,10 @@ class WindPendant(EquipmentGain):
     rate = 15 / 180
 
 
+class TankPendant(EquipmentGain):
+    skill_ids = [38787]
+
+
 class 大附魔帽(EquipmentGain):
     # buff_ids = [15436]
     _attributes = GENERAL_BUFFS[15436].all_attributes
@@ -248,6 +252,7 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         (38578, i + 1): WindPendant(i + 1)
         for i in range(GENERAL_BUFFS[29268].max_level)
     },
+    (38786, 1): TankPendant(),
     **{
         (15436, i + 1): 大附魔帽(i + 1)
         for i in range(GENERAL_BUFFS[15436].max_level)
@@ -309,5 +314,5 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732))
     },
     (2770,): WinterWeaponGain(),
-    (26060, 5): Gain()
+    (26060, 5): Gain(),
 }

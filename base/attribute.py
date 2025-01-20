@@ -101,6 +101,9 @@ class BaseMajor:
     spunk_base: int = 0
     spunk_gain: int = 0
 
+    vitality_base: int = 1
+    vitality_gain: int = 0
+
     @property
     def all_major_base(self):
         return self._all_major_base
@@ -112,6 +115,7 @@ class BaseMajor:
         self.strength_base += residual
         self.spirit_base += residual
         self.spunk_base += residual
+        self.vitality_base += residual
         self._all_major_base = all_major_base
 
     @property
@@ -153,6 +157,10 @@ class BaseMajor:
     @property
     def spunk_overcome_base(self):
         return int(self.spunk * SPUNK_TO_OVERCOME)
+
+    @property
+    def vitality(self):
+        return int(self.vitality_base * (1 + self.vitality_gain / BINARY_SCALE))
 
 
 class Therapy(BaseMajor):
@@ -357,6 +365,10 @@ class CriticalStrike(BaseMajor):
         self._magical_critical_strike_base = magical_critical_strike_base
 
     @property
+    def extra_magical_critical_strike(self):
+        return 0
+
+    @property
     def solar_and_lunar_critical_strike_base(self):
         return self._solar_and_lunar_critical_strike_base
 
@@ -377,7 +389,8 @@ class CriticalStrike(BaseMajor):
 
     @property
     def final_solar_critical_strike(self):
-        return int(self.base_solar_critical_strike + self.extra_solar_critical_strike)
+        return int(
+            self.base_solar_critical_strike + self.extra_solar_critical_strike + self.extra_magical_critical_strike)
 
     @property
     def solar_critical_strike_percent(self):
@@ -389,7 +402,8 @@ class CriticalStrike(BaseMajor):
 
     @property
     def base_lunar_critical_strike(self):
-        return int(self.lunar_critical_strike_base + self.spirit_critical_strike_base)
+        return int(
+            self.lunar_critical_strike_base + self.spirit_critical_strike_base + self.extra_magical_critical_strike)
 
     @property
     def extra_lunar_critical_strike(self):
@@ -417,7 +431,8 @@ class CriticalStrike(BaseMajor):
 
     @property
     def final_neutral_critical_strike(self):
-        return int(self.base_neutral_critical_strike + self.extra_neutral_critical_strike)
+        return int(
+            self.base_neutral_critical_strike + self.extra_neutral_critical_strike + self.extra_magical_critical_strike)
 
     @property
     def neutral_critical_strike_percent(self):
@@ -437,7 +452,8 @@ class CriticalStrike(BaseMajor):
 
     @property
     def final_poison_critical_strike(self):
-        return int(self.base_poison_critical_strike + self.extra_poison_critical_strike)
+        return int(
+            self.base_poison_critical_strike + self.extra_poison_critical_strike + self.extra_magical_critical_strike)
 
     @property
     def poison_critical_strike_percent(self):
@@ -508,6 +524,10 @@ class Overcome(BaseMajor):
         self._magical_overcome_base = magical_overcome_base
 
     @property
+    def extra_magical_overcome(self):
+        return 0
+
+    @property
     def solar_and_lunar_overcome_base(self):
         return self._solar_and_lunar_overcome_base
 
@@ -529,7 +549,7 @@ class Overcome(BaseMajor):
     @property
     def final_solar_overcome(self):
         overcome = int(self.base_solar_overcome * (1 + self.solar_overcome_gain / BINARY_SCALE))
-        return int(overcome + self.extra_solar_overcome)
+        return int(overcome + self.extra_solar_overcome + self.extra_magical_overcome)
 
     @property
     def solar_overcome(self):
@@ -546,7 +566,7 @@ class Overcome(BaseMajor):
     @property
     def final_lunar_overcome(self):
         overcome = int(self.base_lunar_overcome * (1 + self.lunar_overcome_gain / BINARY_SCALE))
-        return int(overcome + self.extra_lunar_overcome)
+        return int(overcome + self.extra_lunar_overcome + self.extra_magical_overcome)
 
     @property
     def lunar_overcome(self):
@@ -563,7 +583,7 @@ class Overcome(BaseMajor):
     @property
     def final_neutral_overcome(self):
         overcome = int(self.base_neutral_overcome * (1 + self.neutral_overcome_gain / BINARY_SCALE))
-        return int(overcome + self.extra_neutral_overcome)
+        return int(overcome + self.extra_neutral_overcome + self.extra_magical_overcome)
 
     @property
     def neutral_overcome(self):
@@ -580,7 +600,7 @@ class Overcome(BaseMajor):
     @property
     def final_poison_overcome(self):
         overcome = int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
-        return int(overcome + self.extra_poison_overcome)
+        return int(overcome + self.extra_poison_overcome + self.extra_magical_overcome)
 
     @property
     def poison_overcome(self):
@@ -588,15 +608,12 @@ class Overcome(BaseMajor):
 
 
 class Major(Therapy, AttackPower, CriticalStrike, Overcome):
+    max_life_base: int = 0
+    max_life_add: int = 0
+
     @property
     def major(self):
         raise NotImplementedError
-
-
-class Vitality:
-    vitality_base: int = 0
-    max_life_base: int = 0
-    max_life_add: int = 0
 
 
 class CriticalPower:
@@ -750,7 +767,7 @@ class DamageAddition:
         self._all_damage_addition = all_damage_addition
 
 
-class Minor(Vitality, CriticalPower, DamageAddition):
+class Minor(CriticalPower, DamageAddition):
     surplus_base: int = 0
     surplus_gain: int = 0
 
@@ -836,7 +853,8 @@ class Attribute(Major, Minor, Target):
         strain_base=MINOR_DELTA,
         pvx_round=PVX_DELTA
     )
-    display_attrs: list = ["strain_base", "strain", "haste_base", "haste", "surplus", "base_weapon_damage", "weapon_damage_rand"]
+    display_attrs: list = ["strain_base", "strain", "haste_base", "haste", "surplus", "base_weapon_damage",
+                           "weapon_damage_rand"]
     recipes: list = []
     platform: int = 0
 
@@ -852,7 +870,10 @@ class Attribute(Major, Minor, Target):
         for attr, value in ATTRIBUTES.get(self.attribute_id[self.platform]).items():
             if isinstance(value, list):
                 value = value[-1]
-            self[attr] = value
+            if hasattr(self, attr):
+                self[attr] += value
+            else:
+                self[attr] = value
 
     @property
     def level_reduction(self):
@@ -879,7 +900,7 @@ class PhysicalAttribute(Attribute):
         weapon_damage_base=WEAPON_DELTA
     )
     display_attrs: list = [
-        "agility", "strength",
+        "vitality", "agility", "strength",
         "base_physical_attack_power", "physical_attack_power",
         "final_physical_critical_strike", "physical_critical_strike",
         "physical_critical_power_base", "physical_critical_power",
@@ -926,7 +947,7 @@ class MagicalAttribute(Attribute):
         all_critical_power_base=MINOR_DELTA,
         magical_overcome_base=MINOR_DELTA
     )
-    display_attrs: list = ["spirit", "spunk"]
+    display_attrs: list = ["vitality", "spirit", "spunk"]
 
     @property
     def damage_addition(self):

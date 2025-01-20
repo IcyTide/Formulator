@@ -87,6 +87,7 @@ TEAM_GAINS = [
     create_team_gain(
         GENERAL_BUFFS[20877], TeamGain, GENERAL_BUFFS[20877].get_attributes(stack=GENERAL_BUFFS[20877].max_stack)
     ),
-    create_team_gain(GENERAL_BUFFS[20854], TeamGain, GENERAL_BUFFS[20854].attributes)
+    create_team_gain(GENERAL_BUFFS[20854], TeamGain, GENERAL_BUFFS[20854].attributes),
+    create_team_gain(GENERAL_BUFFS[20841], TeamGain, GENERAL_BUFFS[20841].attributes)
 ]
 TEAM_GAINS = {k: v for k, v in TEAM_GAINS}

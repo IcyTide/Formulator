@@ -57,6 +57,25 @@ SKILLS = {
         ],
         "adaptive_damage_call": 1
     },
+    38787: {
+        "alias_name": "130级防御特效腰坠实际生效子技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 2,
+        "skill_name": "破·守山",
+        "physical_damage_base": [
+            760000,
+            380000
+        ],
+        "physical_damage_rand": [
+            80000,
+            40000
+        ],
+        "physical_damage_call": 1
+    },
     38966: {
         "alias_name": "黄字暗器子技能",
         "kind_type": "Adaptive",
@@ -319,8 +338,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "六合棍",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     233: {
         "alias_name": "韦陀献杵",
@@ -692,6 +711,7 @@ SKILLS = {
             "摩诃无量",
             "归去来棍"
         ],
+        "physical_damage_call": 1,
         "weapon_damage_cof": [
             1024.0,
             2048.0,
@@ -699,7 +719,6 @@ SKILLS = {
             1024.0,
             2048.0
         ],
-        "physical_damage_call": 1,
         "physical_attack_power_gain": -1024
     },
     25766: {
@@ -1962,8 +1981,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "三柴剑法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32813: {
         "alias_name": "纯阳_气纯破招子技能",
@@ -5457,7 +5476,6 @@ SKILLS = {
         "channel_interval": 40.0,
         "max_level": 22,
         "skill_name": "人剑合一",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             26,
             28,
@@ -5481,7 +5499,8 @@ SKILLS = {
             60,
             61,
             63
-        ]
+        ],
+        "physical_damage_call": 1
     },
     4954: {
         "alias_name": "纯阳_八荒归元_伤害",
@@ -5496,8 +5515,6 @@ SKILLS = {
         ],
         "max_level": 3,
         "skill_name": "八荒归元",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             76,
             115,
@@ -5507,7 +5524,9 @@ SKILLS = {
             7,
             11,
             23
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     21726: {
         "alias_name": "剑纯伤害招式触发额外伤害",
@@ -5518,9 +5537,9 @@ SKILLS = {
         "channel_interval": 127.0,
         "max_level": 1,
         "skill_name": "持盈",
-        "physical_damage_call": 1,
         "physical_damage_base": 40,
-        "physical_damage_rand": 17
+        "physical_damage_rand": 17,
+        "physical_damage_call": 1
     },
     21979: {
         "alias_name": "云中剑实际伤害",
@@ -5535,9 +5554,9 @@ SKILLS = {
             "云中剑·碎星辰",
             "云中剑·吞日月"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": 40,
-        "physical_damage_rand": 17
+        "physical_damage_rand": 17,
+        "physical_damage_call": 1
     },
     25771: {
         "alias_name": "110CW新增特效太虚剑意",
@@ -5548,8 +5567,8 @@ SKILLS = {
         "channel_interval": 65.0,
         "max_level": 1,
         "skill_name": "八荒归元·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     32814: {
         "alias_name": "纯阳_剑纯破招子技能",
@@ -5575,9 +5594,9 @@ SKILLS = {
         "channel_interval": 136.0,
         "max_level": 1,
         "skill_name": "剑入",
-        "physical_damage_call": 1,
         "physical_damage_base": 77,
-        "physical_damage_rand": 25
+        "physical_damage_rand": 25,
+        "physical_damage_call": 1
     },
     34694: {
         "alias_name": "剑入_引爆伤害",
@@ -5588,9 +5607,9 @@ SKILLS = {
         "channel_interval": 284.0,
         "max_level": 1,
         "skill_name": "剑入·爆炸",
-        "physical_damage_call": 1,
         "physical_damage_base": 77,
-        "physical_damage_rand": 25
+        "physical_damage_rand": 25,
+        "physical_damage_call": 1
     },
     36272: {
         "alias_name": "瑞氛伤害子技能",
@@ -5601,9 +5620,9 @@ SKILLS = {
         "channel_interval": 200.0,
         "max_level": 1,
         "skill_name": "瑞氛",
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 7
+        "physical_damage_rand": 7,
+        "physical_damage_call": 1
     },
     24973: {
         "alias_name": "千秋观月伤害子技能",
@@ -5614,9 +5633,9 @@ SKILLS = {
         "channel_interval": 172.5,
         "max_level": 1,
         "skill_name": "凌云剑",
-        "physical_damage_call": 1,
         "physical_damage_base": 1233,
-        "physical_damage_rand": 137
+        "physical_damage_rand": 137,
+        "physical_damage_call": 1
     },
     24977: {
         "alias_name": "千秋观月二段自身范围AOE",
@@ -5627,9 +5646,9 @@ SKILLS = {
         "channel_interval": 459.99999999999994,
         "max_level": 1,
         "skill_name": "凌云剑·破",
-        "physical_damage_call": 1,
         "physical_damage_base": 35,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     38534: {
         "alias_name": "人剑无气场伤害定身",
@@ -5640,9 +5659,9 @@ SKILLS = {
         "channel_interval": 40.0,
         "max_level": 1,
         "skill_name": "人剑合一",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 63,
         "physical_damage_call": 1,
-        "physical_damage_base": 63
+        "weapon_damage_cof": 1024.0
     },
     32780: {
         "alias_name": "行天道首跳打击",
@@ -5656,7 +5675,6 @@ SKILLS = {
         ],
         "max_level": 2,
         "skill_name": "天道剑气",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             77,
             177
@@ -5664,7 +5682,8 @@ SKILLS = {
         "physical_damage_rand": [
             25,
             125
-        ]
+        ],
+        "physical_damage_call": 1
     },
     18528: {
         "alias_name": "行天道完整伤害效果",
@@ -5681,7 +5700,6 @@ SKILLS = {
             "行天道",
             "剑冲阴阳·剑灵"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": [
             1233,
             2466
@@ -5689,7 +5707,8 @@ SKILLS = {
         "physical_damage_rand": [
             217,
             434
-        ]
+        ],
+        "physical_damage_call": 1
     },
     18529: {
         "alias_name": "行天道递减后伤害效果",
@@ -5700,9 +5719,9 @@ SKILLS = {
         "channel_interval": 35.132212499999994,
         "max_level": 1,
         "skill_name": "行天道",
-        "physical_damage_call": 1,
         "physical_damage_base": 369,
-        "physical_damage_rand": 65
+        "physical_damage_rand": 65,
+        "physical_damage_call": 1
     },
     14975: {
         "alias_name": "万剑归宗正常AOE伤害",
@@ -5745,8 +5764,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "万剑归宗",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             10,
             15,
@@ -5812,7 +5829,9 @@ SKILLS = {
             15,
             16,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     17689: {
         "alias_name": "三环套月一段表现",
@@ -5857,8 +5876,6 @@ SKILLS = {
         ],
         "max_level": 33,
         "skill_name": "三环套月",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             7,
@@ -5928,7 +5945,9 @@ SKILLS = {
             12,
             13,
             13
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     17690: {
         "alias_name": "三环套月二段表现",
@@ -5973,8 +5992,6 @@ SKILLS = {
         ],
         "max_level": 33,
         "skill_name": "三环套月",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             7,
@@ -6044,7 +6061,9 @@ SKILLS = {
             12,
             13,
             13
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     386: {
         "alias_name": "无我无剑_2点气",
@@ -6091,8 +6110,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             1,
             4,
@@ -6166,7 +6183,9 @@ SKILLS = {
             4,
             4,
             4
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     387: {
         "alias_name": "无我无剑_3点气",
@@ -6213,8 +6232,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             6,
@@ -6288,7 +6305,9 @@ SKILLS = {
             6,
             6,
             7
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     388: {
         "alias_name": "无我无剑_4点气",
@@ -6335,8 +6354,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             8,
@@ -6410,7 +6427,9 @@ SKILLS = {
             9,
             9,
             9
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     389: {
         "alias_name": "无我无剑_5点气",
@@ -6457,8 +6476,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             10,
@@ -6532,7 +6549,9 @@ SKILLS = {
             11,
             11,
             11
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     390: {
         "alias_name": "无我无剑_6点气",
@@ -6579,8 +6598,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             12,
@@ -6654,7 +6671,9 @@ SKILLS = {
             13,
             13,
             14
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     391: {
         "alias_name": "无我无剑_7点气",
@@ -6701,8 +6720,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             14,
@@ -6776,7 +6793,9 @@ SKILLS = {
             15,
             16,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     392: {
         "alias_name": "无我无剑_8点气",
@@ -6823,8 +6842,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             5,
             16,
@@ -6898,7 +6915,9 @@ SKILLS = {
             18,
             18,
             19
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     393: {
         "alias_name": "无我无剑_9点气",
@@ -6945,8 +6964,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             6,
             19,
@@ -7020,7 +7037,9 @@ SKILLS = {
             20,
             20,
             21
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     394: {
         "alias_name": "无我无剑_10点气",
@@ -7067,8 +7086,6 @@ SKILLS = {
         ],
         "max_level": 35,
         "skill_name": "无我无剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             6,
             21,
@@ -7142,7 +7159,9 @@ SKILLS = {
             22,
             23,
             23
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     6076: {
         "alias_name": "纯阳_90级奇穴_无我无剑的AOE1",
@@ -7153,7 +7172,6 @@ SKILLS = {
         "channel_interval": 14.25,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7227,7 +7245,8 @@ SKILLS = {
             6,
             6,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6077: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE2",
@@ -7238,7 +7257,6 @@ SKILLS = {
         "channel_interval": 28.5,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7312,7 +7330,8 @@ SKILLS = {
             6,
             6,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6078: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE3",
@@ -7323,7 +7342,6 @@ SKILLS = {
         "channel_interval": 42.75,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7397,7 +7415,8 @@ SKILLS = {
             7,
             7,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6079: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE4",
@@ -7408,7 +7427,6 @@ SKILLS = {
         "channel_interval": 57.0,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7482,7 +7500,8 @@ SKILLS = {
             7,
             7,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6080: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE5",
@@ -7493,7 +7512,6 @@ SKILLS = {
         "channel_interval": 71.25,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7567,7 +7585,8 @@ SKILLS = {
             7,
             7,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6081: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE6",
@@ -7578,7 +7597,6 @@ SKILLS = {
         "channel_interval": 85.5,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7652,7 +7670,8 @@ SKILLS = {
             7,
             7,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6082: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE7",
@@ -7663,7 +7682,6 @@ SKILLS = {
         "channel_interval": 99.75,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7737,7 +7755,8 @@ SKILLS = {
             7,
             8,
             8
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6083: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE8",
@@ -7748,7 +7767,6 @@ SKILLS = {
         "channel_interval": 114.0,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             4,
@@ -7822,7 +7840,8 @@ SKILLS = {
             7,
             8,
             8
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6084: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE9",
@@ -7833,7 +7852,6 @@ SKILLS = {
         "channel_interval": 128.25,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             5,
@@ -7907,7 +7925,8 @@ SKILLS = {
             8,
             8,
             8
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6085: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE10",
@@ -7918,7 +7937,6 @@ SKILLS = {
         "channel_interval": 142.5,
         "max_level": 35,
         "skill_name": "无我无剑",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             2,
             5,
@@ -7992,7 +8010,8 @@ SKILLS = {
             9,
             9,
             9
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6761: {
         "alias_name": "纯阳爆叠刃",
@@ -8030,10 +8049,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "无我无剑·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 252,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 252
     },
     100011: {
         "alias_name": "移动端_无我无剑_贰式",
@@ -8043,11 +8062,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "无我无剑·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 298,
         "surplus_cof": 1147,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101658: {
@@ -8058,9 +8077,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "气剑",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 116,
-        "physical_damage_base": 1
+        "skill_cof": 116
     },
     100374: {
         "alias_name": "移动端_气场_被引爆",
@@ -8070,9 +8089,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "爆气场",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 480,
-        "physical_damage_base": 1
+        "skill_cof": 480
     },
     100019: {
         "alias_name": "移动端_万剑归宗",
@@ -8082,10 +8101,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "万剑归宗·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 690,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 690
     },
     100012: {
         "alias_name": "移动端_吞日月",
@@ -8095,10 +8114,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "吞日月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 392,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 392
     },
     100017: {
         "alias_name": "移动端_碎星辰",
@@ -8108,9 +8127,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "碎星辰·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 112,
-        "physical_damage_base": 1
+        "skill_cof": 112
     },
     100003: {
         "alias_name": "移动端_三环套月",
@@ -8120,11 +8139,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "三环套月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 250,
         "surplus_cof": 1239,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100008: {
@@ -8135,11 +8154,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "三环套月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 319,
         "surplus_cof": 1577,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101633: {
@@ -8150,9 +8169,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "行剑千风·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 274,
-        "physical_damage_base": 1
+        "skill_cof": 274
     },
     101581: {
         "alias_name": "移动端_添加叠刃",
@@ -8171,10 +8190,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "吞日月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 488,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 488
     },
     101634: {
         "alias_name": "移动端_行剑千风_最后一击伤害",
@@ -8184,9 +8203,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "行剑千风·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 696,
-        "physical_damage_base": 1
+        "skill_cof": 696
     },
     16: {
         "alias_name": "普通攻击-笔攻击",
@@ -8197,8 +8216,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "判官笔法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     182: {
         "alias_name": "玉石俱焚",
@@ -9237,8 +9256,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "梅花枪法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     400: {
         "alias_name": "天策-穿云",
@@ -9259,8 +9278,6 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 7,
         "skill_name": "断魂刺",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             26,
             28,
@@ -9270,7 +9287,9 @@ SKILLS = {
             38,
             39
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     431: {
         "alias_name": "天策_子技能_突_伤害",
@@ -9281,9 +9300,6 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 6,
         "skill_name": "突",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
-        "physical_attack_power_gain": -1024,
         "physical_damage_base": [
             17,
             21,
@@ -9292,7 +9308,10 @@ SKILLS = {
             35,
             37
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_attack_power_gain": -1024
     },
     701: {
         "alias_name": "天策_子技能_灭_低生命值",
@@ -9323,8 +9342,6 @@ SKILLS = {
         ],
         "max_level": 19,
         "skill_name": "灭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             26,
             32,
@@ -9366,7 +9383,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     702: {
         "alias_name": "天策_子技能_灭_高生命值",
@@ -9397,8 +9416,6 @@ SKILLS = {
         ],
         "max_level": 19,
         "skill_name": "灭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             26,
             32,
@@ -9440,7 +9457,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     6525: {
         "alias_name": "天策_灭_斩杀额外伤害",
@@ -9471,8 +9490,6 @@ SKILLS = {
         ],
         "max_level": 19,
         "skill_name": "灭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             59,
             62,
@@ -9514,7 +9531,9 @@ SKILLS = {
             11,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     6526: {
         "alias_name": "天策_灭_斩杀额外伤害1",
@@ -9545,8 +9564,6 @@ SKILLS = {
         ],
         "max_level": 19,
         "skill_name": "灭",
-        "weapon_damage_cof": 256.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             29,
             31,
@@ -9588,7 +9605,9 @@ SKILLS = {
             5,
             5,
             6
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 256.0
     },
     14882: {
         "alias_name": "突额外击倒2秒",
@@ -9599,16 +9618,16 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 4,
         "skill_name": "突",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
-        "physical_attack_power_gain": -1024,
         "physical_damage_base": [
             10,
             14,
             18,
             22
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
+        "physical_attack_power_gain": -1024
     },
     15002: {
         "alias_name": "龙牙额外10%伤害",
@@ -9649,8 +9668,6 @@ SKILLS = {
         ],
         "max_level": 29,
         "skill_name": "龙牙",
-        "weapon_damage_cof": 102.4,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             7,
@@ -9712,7 +9729,9 @@ SKILLS = {
             1,
             1,
             1
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 102.4
     },
     24898: {
         "alias_name": "马上灭额外伤害",
@@ -9723,8 +9742,8 @@ SKILLS = {
         "channel_interval": 42.0,
         "max_level": 1,
         "skill_name": "灭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     25772: {
         "alias_name": "110CW新增特效傲血战意",
@@ -9735,8 +9754,8 @@ SKILLS = {
         "channel_interval": 50.0,
         "max_level": 1,
         "skill_name": "龙牙·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     32820: {
         "alias_name": "天策破招伤害子技能",
@@ -9758,10 +9777,10 @@ SKILLS = {
         "channel_interval": 350.0,
         "max_level": 1,
         "skill_name": "龙吟·大漠",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 70,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36568: {
         "alias_name": "击水伤害子技能",
@@ -9772,9 +9791,9 @@ SKILLS = {
         "channel_interval": 415.8,
         "max_level": 1,
         "skill_name": "击水",
-        "physical_damage_call": 1,
         "physical_damage_base": 78,
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1
     },
     18207: {
         "alias_name": "穿云二段表现及伤害",
@@ -9814,8 +9833,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "穿云",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             42,
@@ -9875,7 +9892,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18208: {
         "alias_name": "穿云一段表现及伤害",
@@ -9915,8 +9934,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "穿云",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             42,
@@ -9976,7 +9993,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18603: {
         "alias_name": "龙吟实际伤害",
@@ -10018,8 +10037,6 @@ SKILLS = {
         ],
         "max_level": 30,
         "skill_name": "龙吟",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             39,
             50,
@@ -10083,7 +10100,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18773: {
         "alias_name": "龙牙伤害实际子技能",
@@ -10124,8 +10143,6 @@ SKILLS = {
         ],
         "max_level": 29,
         "skill_name": "龙牙",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             70,
             75,
@@ -10187,7 +10204,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     31031: {
         "alias_name": "龙牙橙武特效龙牙额外伤害",
@@ -10198,9 +10217,9 @@ SKILLS = {
         "channel_interval": 205.0,
         "max_level": 1,
         "skill_name": "画角闻龙",
-        "physical_damage_call": 1,
         "physical_damage_base": 496,
-        "physical_damage_rand": 52
+        "physical_damage_rand": 52,
+        "physical_damage_call": 1
     },
     401: {
         "alias_name": "天策-破风",
@@ -10292,8 +10311,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "连环双刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     506: {
         "alias_name": "剑神无我-秀舞",
@@ -11284,8 +11303,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "四季剑法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18383: {
         "alias_name": "藏剑三柴剑法有特效",
@@ -11296,8 +11315,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "三柴剑法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     1594: {
         "alias_name": "藏剑_灵峰剑式_子技能_云飞玉皇近距离",
@@ -11308,8 +11327,6 @@ SKILLS = {
         "channel_interval": 158.99145575500697,
         "max_level": 16,
         "skill_name": "云飞玉皇",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             140,
             147,
@@ -11345,7 +11362,9 @@ SKILLS = {
             22,
             23,
             25
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     1595: {
         "alias_name": "藏剑_灵峰剑式_子技能_云飞玉皇远距离",
@@ -11373,8 +11392,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "云飞玉皇",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             125,
             147,
@@ -11410,7 +11427,9 @@ SKILLS = {
             22,
             23,
             25
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     1598: {
         "alias_name": "藏剑_灵峰剑式_子技能_鹤归孤山远距离",
@@ -11440,8 +11459,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "鹤归孤山",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             107,
@@ -11481,7 +11498,9 @@ SKILLS = {
             12,
             12,
             13
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     1706: {
         "alias_name": "藏剑_君子风_听雷_问水诀",
@@ -11526,8 +11545,6 @@ SKILLS = {
         ],
         "max_level": 33,
         "skill_name": "听雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             54,
             55,
@@ -11597,7 +11614,9 @@ SKILLS = {
             10,
             11,
             11
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     1707: {
         "alias_name": "藏剑_君子风_听雷_山居剑意",
@@ -11642,8 +11661,6 @@ SKILLS = {
         ],
         "max_level": 33,
         "skill_name": "听雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             54,
             55,
@@ -11713,7 +11730,9 @@ SKILLS = {
             10,
             11,
             11
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     2896: {
         "alias_name": "藏剑_灵锋剑式_夕照雷锋_正常",
@@ -11753,8 +11772,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "夕照雷峰",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             63,
             70,
@@ -11814,7 +11831,9 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     13471: {
         "alias_name": "黄龙吐翠伤害",
@@ -11852,8 +11871,6 @@ SKILLS = {
         ],
         "max_level": 26,
         "skill_name": "黄龙吐翠",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             22,
@@ -11909,7 +11926,9 @@ SKILLS = {
             11,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18299: {
         "alias_name": "外功招式附带断潮效果",
@@ -11937,8 +11956,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "断潮",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             13,
             21,
@@ -11974,7 +11991,9 @@ SKILLS = {
             12,
             13,
             14
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     18317: {
         "alias_name": "厌高_云飞最大伤害",
@@ -12002,8 +12021,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "云飞玉皇",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             266,
             294,
@@ -12039,7 +12056,9 @@ SKILLS = {
             44,
             47,
             50
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     18685: {
         "alias_name": "九溪弥烟剑泽伤害",
@@ -12083,7 +12102,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "九溪弥烟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             22,
             23,
@@ -12151,7 +12169,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     18991: {
         "alias_name": "原地风来吴山究极普通伤害",
@@ -12173,7 +12192,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "风来吴山",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             54,
             62,
@@ -12197,7 +12215,8 @@ SKILLS = {
             4,
             4,
             5
-        ]
+        ],
+        "physical_damage_call": 1
     },
     25776: {
         "alias_name": "110级CW新增特效藏剑",
@@ -12208,8 +12227,8 @@ SKILLS = {
         "channel_interval": 60.0,
         "max_level": 1,
         "skill_name": "云飞玉皇·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     26673: {
         "alias_name": "九溪弥烟伤害子技能",
@@ -12253,7 +12272,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "九溪弥烟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             31,
             32,
@@ -12321,7 +12339,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     30861: {
         "alias_name": "山倾实际伤害子技能",
@@ -12332,9 +12351,9 @@ SKILLS = {
         "channel_interval": 457.3800000000001,
         "max_level": 1,
         "skill_name": "鹤归孤山·山倾",
-        "physical_damage_call": 1,
         "physical_damage_base": 1500,
-        "physical_damage_rand": 9
+        "physical_damage_rand": 9,
+        "physical_damage_call": 1
     },
     32821: {
         "alias_name": "藏剑破招伤害子技能",
@@ -12361,10 +12380,10 @@ SKILLS = {
         "channel_interval": 302.5,
         "max_level": 1,
         "skill_name": "九皋鹤野·落剑",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 280,
-        "physical_damage_rand": 22
+        "physical_damage_rand": 22,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     34984: {
         "alias_name": "岱宗额外伤害子技能",
@@ -12375,10 +12394,10 @@ SKILLS = {
         "channel_interval": 270.0,
         "max_level": 1,
         "skill_name": "云飞玉皇·岱宗",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 300,
-        "physical_damage_rand": 35
+        "physical_damage_rand": 35,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     35051: {
         "alias_name": "藏剑cw特效额外伤害",
@@ -12395,10 +12414,10 @@ SKILLS = {
             "烟流暮景",
             "玉山揽云"
         ],
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 300,
-        "physical_damage_rand": 35
+        "physical_damage_rand": 35,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     38666: {
         "alias_name": "黄龙吐翠额外伤害",
@@ -12409,9 +12428,9 @@ SKILLS = {
         "channel_interval": 500.0,
         "max_level": 1,
         "skill_name": "积翠",
-        "physical_damage_call": 1,
         "physical_damage_base": 31,
-        "physical_damage_rand": 6
+        "physical_damage_rand": 6,
+        "physical_damage_call": 1
     },
     1658: {
         "alias_name": "藏剑_君子风_子技能_问水诀_啸日",
@@ -12439,9 +12458,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "断潮·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 216,
-        "physical_damage_base": 1
+        "skill_cof": 216
     },
     100784: {
         "alias_name": "移动端_藏剑_龙池伤害",
@@ -12451,9 +12470,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "龙池",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 117,
-        "physical_damage_base": 1
+        "skill_cof": 117
     },
     100906: {
         "alias_name": "移动端_九溪弥烟",
@@ -12463,11 +12482,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "九溪弥烟·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 560,
         "surplus_cof": 2150,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100844: {
@@ -12478,10 +12497,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "松舍问霞·悟",
-        "weapon_damage_cof": 2048.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 712,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 2048.0,
+        "skill_cof": 712
     },
     100733: {
         "alias_name": "移动端_黄龙吐翠",
@@ -12491,10 +12510,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "平湖断月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 364,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 364
     },
     100732: {
         "alias_name": "移动端_平湖断月",
@@ -12504,10 +12523,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "平湖断月·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 351,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 351
     },
     100786: {
         "alias_name": "移动端_虎跑_冲刺攻击",
@@ -12517,9 +12536,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "梦泉虎跑·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 266,
-        "physical_damage_base": 1
+        "skill_cof": 266
     },
     100796: {
         "alias_name": "移动端_听雷_贰式",
@@ -12529,11 +12548,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "听雷·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 360,
         "surplus_cof": 1382,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100728: {
@@ -12544,11 +12563,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "听雷·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 295,
         "surplus_cof": 1126,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     2183: {
@@ -12560,8 +12579,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "大荒笛法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     3067: {
         "alias_name": "毒经_吞噬蛇影",
@@ -13467,8 +13486,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "罡风镖法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     3095: {
         "alias_name": "夺魄箭（记得改飞天）",
@@ -13508,8 +13527,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "夺魄箭",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             34,
             45,
@@ -13570,6 +13587,8 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0,
         "prepare_frame": 28.0
     },
     3187: {
@@ -13610,8 +13629,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "逐星箭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             47,
             50,
@@ -13671,7 +13688,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     3222: {
         "alias_name": "孔雀翎_外功",
@@ -13682,9 +13701,9 @@ SKILLS = {
         "channel_interval": 130.0,
         "max_level": 1,
         "skill_name": "孔雀翎",
-        "physical_damage_call": 1,
         "physical_damage_base": 147,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1
     },
     3291: {
         "alias_name": "追命箭_额外伤害",
@@ -13724,7 +13743,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "追命箭",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             237,
             256,
@@ -13784,7 +13802,8 @@ SKILLS = {
             112,
             116,
             120
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6920: {
         "alias_name": "唐门_90奇穴_追命箭_正常",
@@ -13824,8 +13843,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "追命箭",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             74,
             79,
@@ -13885,7 +13902,9 @@ SKILLS = {
             28,
             29,
             30
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     22789: {
         "alias_name": "穹苍实际伤害",
@@ -13896,9 +13915,9 @@ SKILLS = {
         "channel_interval": 216.0,
         "max_level": 1,
         "skill_name": "掠影穹苍",
-        "physical_damage_call": 1,
         "physical_damage_base": 310,
-        "physical_damage_rand": 32
+        "physical_damage_rand": 32,
+        "physical_damage_call": 1
     },
     25775: {
         "alias_name": "110级CW新增特效惊羽",
@@ -13909,8 +13928,8 @@ SKILLS = {
         "channel_interval": 50.0,
         "max_level": 1,
         "skill_name": "夺魄箭·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     32884: {
         "alias_name": "惊羽破招子技能",
@@ -13935,9 +13954,9 @@ SKILLS = {
         "channel_interval": 540.0,
         "max_level": 1,
         "skill_name": "穿林打叶",
-        "physical_damage_call": 1,
         "physical_damage_base": 310,
-        "physical_damage_rand": 32
+        "physical_damage_rand": 32,
+        "physical_damage_call": 1
     },
     33870: {
         "alias_name": "百里追魂实际伤害子技能",
@@ -13955,15 +13974,6 @@ SKILLS = {
         ],
         "max_level": 6,
         "skill_name": "百里追魂",
-        "weapon_damage_cof": [
-            1536.0,
-            2150.3999999999996,
-            2764.8,
-            3379.2000000000003,
-            3993.6000000000004,
-            4608.000000000001
-        ],
-        "physical_damage_call": 1,
         "physical_damage_base": [
             22,
             31,
@@ -13979,6 +13989,15 @@ SKILLS = {
             3,
             2,
             3
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": [
+            1536.0,
+            2150.3999999999996,
+            2764.8,
+            3379.2000000000003,
+            3993.6000000000004,
+            4608.000000000001
         ],
         "physical_critical_strike_rate": [
             2250,
@@ -14035,8 +14054,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "夺魄箭",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             34,
             45,
@@ -14097,6 +14114,8 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0,
         "prepare_frame": 28.0
     },
     36543: {
@@ -14108,9 +14127,9 @@ SKILLS = {
         "channel_interval": 213.192,
         "max_level": 1,
         "skill_name": "白雨跳珠",
-        "physical_damage_call": 1,
         "physical_damage_base": 255,
-        "physical_damage_rand": 180
+        "physical_damage_rand": 180,
+        "physical_damage_call": 1
     },
     21841: {
         "alias_name": "惊羽_暴雨梨花针6",
@@ -14121,7 +14140,6 @@ SKILLS = {
         "channel_interval": 285.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14181,7 +14199,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     21840: {
         "alias_name": "惊羽_暴雨梨花针5",
@@ -14192,7 +14211,6 @@ SKILLS = {
         "channel_interval": 248.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14252,7 +14270,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     3227: {
         "alias_name": "暴雨梨花针_外功",
@@ -14263,7 +14282,6 @@ SKILLS = {
         "channel_interval": 125.77950000000004,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14323,7 +14341,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8470: {
         "alias_name": "唐门_暴雨外功奇穴4",
@@ -14334,7 +14353,6 @@ SKILLS = {
         "channel_interval": 216.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14394,7 +14412,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8469: {
         "alias_name": "唐门_暴雨外功奇穴3",
@@ -14405,7 +14424,6 @@ SKILLS = {
         "channel_interval": 188.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14465,7 +14483,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8468: {
         "alias_name": "唐门_暴雨外功奇穴2",
@@ -14476,7 +14495,6 @@ SKILLS = {
         "channel_interval": 164.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14536,7 +14554,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8467: {
         "alias_name": "唐门_暴雨外功奇穴1",
@@ -14547,7 +14566,6 @@ SKILLS = {
         "channel_interval": 143.0,
         "max_level": 28,
         "skill_name": "暴雨梨花针",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             81,
@@ -14607,7 +14625,8 @@ SKILLS = {
             48,
             50,
             52
-        ]
+        ],
+        "physical_damage_call": 1
     },
     3386: {
         "alias_name": "夺魄箭_3次_上瞬发BUFF",
@@ -14806,6 +14825,7 @@ SKILLS = {
         ],
         "max_level": 27,
         "skill_name": "蚀肌弹",
+        "physical_damage_call": 1,
         "poison_damage_base": [
             20,
             25,
@@ -14866,7 +14886,6 @@ SKILLS = {
         ],
         "poison_damage_call": 1,
         "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_attack_power_gain": -1024,
         "prepare_frame": 28.0
     },
@@ -14907,6 +14926,7 @@ SKILLS = {
         ],
         "max_level": 27,
         "skill_name": "蚀肌弹·飞天",
+        "physical_damage_call": 1,
         "poison_damage_base": [
             20,
             25,
@@ -14967,7 +14987,6 @@ SKILLS = {
         ],
         "poison_damage_call": 1,
         "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_attack_power_gain": -1024,
         "prepare_frame": 28.0
     },
@@ -15927,8 +15946,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "大漠刀法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32816: {
         "alias_name": "明教_焚影阳性破招子技能",
@@ -15968,6 +15987,7 @@ SKILLS = {
             "悬象著明·日",
             "悬象著明·月"
         ],
+        "physical_damage_call": 1,
         "weapon_damage_cof": [
             1024.0,
             1024.0,
@@ -15981,7 +16001,6 @@ SKILLS = {
             1024.0,
             1024.0
         ],
-        "physical_damage_call": 1,
         "physical_attack_power_gain": -1024
     },
     13468: {
@@ -18186,6 +18205,686 @@ SKILLS = {
         "lunar_damage_base": 1,
         "lunar_damage_call": 1
     },
+    3980: {
+        "alias_name": "戒火斩",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 5,
+        "skill_name": "戒火斩",
+        "solar_damage_base": [
+            108,
+            142,
+            196,
+            234,
+            272
+        ],
+        "solar_damage_rand": [
+            11,
+            15,
+            20,
+            24,
+            28
+        ],
+        "solar_damage_call": 1
+    },
+    6750: {
+        "alias_name": "明教_AOE仇恨",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 120.0,
+        "max_level": 1,
+        "skill_name": "无明业火",
+        "solar_damage_base": 710,
+        "solar_damage_call": 1
+    },
+    25172: {
+        "alias_name": "明教大招伤害子技能",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 72.0,
+        "max_level": 5,
+        "skill_name": "微妙风",
+        "solar_damage_base": 118,
+        "solar_damage_rand": 6,
+        "solar_damage_call": 1,
+        "lunar_damage_base": 118,
+        "lunar_damage_rand": 6,
+        "lunar_damage_call": 1
+    },
+    29128: {
+        "alias_name": "微妙风双系传染",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 30.0,
+        "max_level": 1,
+        "skill_name": "微妙风·爆炸",
+        "solar_damage_base": 118,
+        "solar_damage_rand": 6,
+        "solar_damage_call": 1,
+        "lunar_damage_base": 118,
+        "lunar_damage_rand": 6,
+        "lunar_damage_call": 1
+    },
+    4024: {
+        "alias_name": "明教_幽月轮_第一下",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3959,
+        "recipe_mask": 0,
+        "channel_interval": [
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            133.42689360000003,
+            141.2755344,
+            149.12417520000002,
+            156.97281600000005,
+            164.82145680000005,
+            172.67009760000002,
+            180.51873840000005,
+            188.3673792,
+            196.21602000000004,
+            204.0646608,
+            211.9133016,
+            219.76194240000007,
+            227.61058320000004,
+            235.459224,
+            274.70242800000005
+        ],
+        "max_level": 24,
+        "skill_name": "幽月轮",
+        "lunar_damage_base": [
+            19,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            39,
+            41,
+            43,
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            72
+        ],
+        "lunar_damage_rand": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7
+        ],
+        "lunar_damage_call": 1
+    },
+    4025: {
+        "alias_name": "明教_幽月轮_第二下",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3959,
+        "recipe_mask": 0,
+        "channel_interval": [
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            133.42689360000003,
+            141.2755344,
+            149.12417520000002,
+            156.97281600000005,
+            164.82145680000005,
+            172.67009760000002,
+            180.51873840000005,
+            188.3673792,
+            196.21602000000004,
+            204.0646608,
+            211.9133016,
+            219.76194240000007,
+            227.61058320000004,
+            235.459224,
+            274.70242800000005
+        ],
+        "max_level": 24,
+        "skill_name": "幽月轮",
+        "lunar_damage_base": [
+            19,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            39,
+            41,
+            43,
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            72
+        ],
+        "lunar_damage_rand": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7
+        ],
+        "lunar_damage_call": 1,
+        "lunar_critical_strike_rate": 500
+    },
+    4026: {
+        "alias_name": "明教_幽月轮_第三下",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3959,
+        "recipe_mask": 0,
+        "channel_interval": [
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            156.97281600000005,
+            168.74577720000005,
+            180.51873840000005,
+            192.29169960000002,
+            204.0646608,
+            215.83762200000004,
+            227.61058320000004,
+            239.38354440000003,
+            251.15650560000006,
+            262.9294668,
+            274.70242800000005,
+            286.47538920000005,
+            298.24835040000005,
+            310.02131160000005,
+            321.79427280000004,
+            313.9456320000001
+        ],
+        "max_level": 24,
+        "skill_name": "幽月轮",
+        "lunar_damage_base": [
+            19,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            39,
+            41,
+            43,
+            45,
+            48,
+            51,
+            54,
+            57,
+            60,
+            63,
+            66,
+            69,
+            72
+        ],
+        "lunar_damage_rand": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            6,
+            6,
+            6,
+            7,
+            7,
+            7
+        ],
+        "lunar_damage_call": 1,
+        "lunar_critical_strike_rate": 1000
+    },
+    4028: {
+        "alias_name": "明教_赤日轮_第一下",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3962,
+        "recipe_mask": 0,
+        "channel_interval": [
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            102.0323304,
+            107.91881100000002,
+            113.80529160000002,
+            119.69177220000002,
+            125.57825280000003,
+            131.4647334,
+            137.35121400000003,
+            143.23769460000003,
+            149.12417520000002,
+            155.01065580000002,
+            160.89713640000002,
+            166.78361700000005,
+            172.67009760000002,
+            178.55657820000008,
+            184.44305880000007,
+            190.3295394,
+            196.21602000000004,
+            202.1025006,
+            207.9889812,
+            213.8754618,
+            219.76194240000007,
+            225.64842300000004,
+            231.5349036000001,
+            237.42138420000003,
+            302.17267080000005
+        ],
+        "max_level": 33,
+        "skill_name": "赤日轮",
+        "solar_damage_base": [
+            37,
+            40,
+            43,
+            46,
+            49,
+            52,
+            55,
+            58,
+            61,
+            64,
+            67,
+            70,
+            73,
+            76,
+            79,
+            82,
+            85,
+            88,
+            91,
+            94,
+            97,
+            100,
+            103,
+            106,
+            109,
+            112,
+            115,
+            118,
+            121,
+            124,
+            127,
+            130,
+            135
+        ],
+        "solar_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            15,
+            15,
+            15,
+            15,
+            15,
+            15,
+            20,
+            20,
+            20,
+            20,
+            20
+        ],
+        "solar_damage_call": 1
+    },
+    4029: {
+        "alias_name": "明教_赤日轮_第二下",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3962,
+        "recipe_mask": 0,
+        "channel_interval": [
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            98.10801000000002,
+            103.9944906,
+            109.88097120000003,
+            115.76745180000005,
+            121.65393240000003,
+            127.54041300000006,
+            133.42689360000003,
+            139.31337420000006,
+            145.19985480000005,
+            151.08633540000002,
+            156.97281600000005,
+            162.85929660000005,
+            168.74577720000005,
+            174.63225780000005,
+            180.51873840000005,
+            186.40521900000005,
+            192.29169960000002,
+            198.17818020000007,
+            204.0646608,
+            209.95114140000007,
+            215.83762200000004,
+            221.72410260000004,
+            227.61058320000004,
+            233.4970638,
+            302.17267080000005
+        ],
+        "max_level": 33,
+        "skill_name": "赤日轮",
+        "solar_damage_base": [
+            40,
+            44,
+            47,
+            50,
+            53,
+            57,
+            60,
+            63,
+            67,
+            70,
+            73,
+            77,
+            80,
+            83,
+            86,
+            90,
+            93,
+            96,
+            100,
+            103,
+            106,
+            110,
+            113,
+            116,
+            119,
+            123,
+            126,
+            129,
+            133,
+            136,
+            139,
+            143,
+            148
+        ],
+        "solar_damage_rand": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            11,
+            16,
+            16,
+            16,
+            16,
+            16,
+            16,
+            22,
+            22,
+            22,
+            22,
+            22
+        ],
+        "solar_damage_call": 1
+    },
+    4030: {
+        "alias_name": "明教_赤日轮_第三下",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3962,
+        "recipe_mask": 0,
+        "channel_interval": [
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            125.57825280000003,
+            134.99662176,
+            144.41499072000002,
+            153.83335968,
+            163.25172864000004,
+            172.67009760000002,
+            182.08846656000006,
+            191.50683552000004,
+            200.92520448000005,
+            210.34357344000003,
+            219.76194240000007,
+            229.18031136000008,
+            238.59868032000003,
+            248.01704928000007,
+            257.43541824,
+            266.85378720000006,
+            276.27215616000007,
+            285.6905251200001,
+            295.10889407999997,
+            304.52726304000004,
+            313.9456320000001,
+            323.3640009600001,
+            332.78236992000006,
+            342.20073888,
+            376.7347584
+        ],
+        "max_level": 33,
+        "skill_name": "赤日轮",
+        "solar_damage_base": [
+            44,
+            48,
+            51,
+            55,
+            58,
+            62,
+            66,
+            69,
+            73,
+            76,
+            80,
+            84,
+            87,
+            91,
+            94,
+            98,
+            102,
+            105,
+            109,
+            112,
+            116,
+            120,
+            123,
+            127,
+            130,
+            134,
+            138,
+            141,
+            145,
+            148,
+            152,
+            156,
+            162
+        ],
+        "solar_damage_rand": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            12,
+            18,
+            18,
+            18,
+            18,
+            18,
+            18,
+            24,
+            24,
+            24,
+            24,
+            24
+        ],
+        "solar_damage_call": 1
+    },
     32908: {
         "alias_name": "丐帮破招伤害子技能",
         "kind_type": "Physics",
@@ -18215,7 +18914,6 @@ SKILLS = {
         ],
         "max_level": 8,
         "skill_name": "恶狗拦路",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             65,
             73,
@@ -18235,7 +18933,8 @@ SKILLS = {
             10,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1
     },
     34916: {
         "alias_name": "蛟影_单体伤害子技能需求BUFF",
@@ -18256,7 +18955,6 @@ SKILLS = {
             "蛟影·三重",
             "蛟影·四重"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": [
             454,
             682,
@@ -18268,7 +18966,8 @@ SKILLS = {
             68,
             155,
             166
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6337: {
         "alias_name": "斜打狗背",
@@ -18279,10 +18978,10 @@ SKILLS = {
         "channel_interval": 180.0,
         "max_level": 1,
         "skill_name": "斜打狗背",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 43,
-        "physical_damage_rand": 4
+        "physical_damage_rand": 4,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     26703: {
         "alias_name": "新坚冰目标点伤害",
@@ -18293,9 +18992,9 @@ SKILLS = {
         "channel_interval": 100.0,
         "max_level": 1,
         "skill_name": "灵隼击",
-        "physical_damage_call": 1,
         "physical_damage_base": 15,
-        "physical_damage_rand": 1
+        "physical_damage_rand": 1,
+        "physical_damage_call": 1
     },
     32898: {
         "alias_name": "醉拳_醉影造成真实伤害",
@@ -18309,7 +19008,6 @@ SKILLS = {
             "龙战于野·醉影",
             "亢龙有悔·醉影袭"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": [
             152,
             209
@@ -18317,7 +19015,8 @@ SKILLS = {
         "physical_damage_rand": [
             16,
             22
-        ]
+        ],
+        "physical_damage_call": 1
     },
     14928: {
         "alias_name": "御鸿于天二段",
@@ -18328,10 +19027,10 @@ SKILLS = {
         "channel_interval": 144.0,
         "max_level": 1,
         "skill_name": "御鸿于天",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 100,
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36570: {
         "alias_name": "御鸿于天_额外伤害",
@@ -18342,8 +19041,8 @@ SKILLS = {
         "channel_interval": 416.8,
         "max_level": 1,
         "skill_name": "御鸿于天",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 55
+        "physical_damage_rand": 55,
+        "physical_damage_call": 1
     },
     28819: {
         "alias_name": "温酒_掌法触发伤害",
@@ -18354,9 +19053,9 @@ SKILLS = {
         "channel_interval": 34.5,
         "max_level": 1,
         "skill_name": "温酒",
-        "physical_damage_call": 1,
         "physical_damage_base": 161,
-        "physical_damage_rand": 322
+        "physical_damage_rand": 322,
+        "physical_damage_call": 1
     },
     25779: {
         "alias_name": "110级CW新增特效丐帮",
@@ -18367,8 +19066,8 @@ SKILLS = {
         "channel_interval": 60.0,
         "max_level": 1,
         "skill_name": "龙战于野·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     34998: {
         "alias_name": "丐帮龙醒伤害子技能",
@@ -18390,7 +19089,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "亢龙有悔·龙醒",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             10,
             13,
@@ -18403,7 +19101,8 @@ SKILLS = {
             26,
             28
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     28952: {
         "alias_name": "28952 城复于隍_伤害子技能",
@@ -18430,7 +19129,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "城复于隍",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             18,
             20,
@@ -18464,7 +19162,8 @@ SKILLS = {
             3,
             3,
             3
-        ]
+        ],
+        "physical_damage_call": 1
     },
     25201: {
         "alias_name": "祭湘君目标点伤害",
@@ -18475,9 +19174,9 @@ SKILLS = {
         "channel_interval": 210.0,
         "max_level": 1,
         "skill_name": "祭湘君",
-        "physical_damage_call": 1,
         "physical_damage_base": 15,
-        "physical_damage_rand": 1
+        "physical_damage_rand": 1,
+        "physical_damage_call": 1
     },
     25202: {
         "alias_name": "祭湘君亢龙附带额外伤害回蓝",
@@ -18488,9 +19187,9 @@ SKILLS = {
         "channel_interval": 100.0,
         "max_level": 1,
         "skill_name": "祭湘君",
-        "physical_damage_call": 1,
         "physical_damage_base": 11,
-        "physical_damage_rand": 1
+        "physical_damage_rand": 1,
+        "physical_damage_call": 1
     },
     8491: {
         "alias_name": "亢龙有悔合一掌1",
@@ -18522,7 +19221,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18566,7 +19264,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8492: {
         "alias_name": "亢龙有悔合一掌2",
@@ -18598,7 +19297,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18642,7 +19340,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8493: {
         "alias_name": "亢龙有悔合一掌3",
@@ -18674,7 +19373,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18718,7 +19416,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8494: {
         "alias_name": "亢龙有悔合一掌4",
@@ -18750,7 +19449,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18794,7 +19492,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8495: {
         "alias_name": "亢龙有悔合一掌5",
@@ -18826,7 +19525,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18870,7 +19568,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8496: {
         "alias_name": "亢龙有悔合一掌6",
@@ -18902,7 +19601,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -18946,7 +19644,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8497: {
         "alias_name": "亢龙有悔合一掌7",
@@ -18978,7 +19677,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19022,7 +19720,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8498: {
         "alias_name": "亢龙有悔合一掌8",
@@ -19054,7 +19753,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19098,7 +19796,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8499: {
         "alias_name": "亢龙有悔合一掌9",
@@ -19130,7 +19829,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19174,7 +19872,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8500: {
         "alias_name": "亢龙有悔合一掌10",
@@ -19206,7 +19905,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19250,7 +19948,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8501: {
         "alias_name": "亢龙有悔合一掌11",
@@ -19282,7 +19981,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19326,7 +20024,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8502: {
         "alias_name": "亢龙有悔合一掌12",
@@ -19358,7 +20057,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -19402,7 +20100,8 @@ SKILLS = {
             18,
             19,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8503: {
         "alias_name": "亢龙有悔合一掌1增强",
@@ -19434,7 +20133,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19478,7 +20176,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8504: {
         "alias_name": "亢龙有悔合一掌2增强",
@@ -19510,7 +20209,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19554,7 +20252,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8505: {
         "alias_name": "亢龙有悔合一掌3增强",
@@ -19586,7 +20285,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19630,7 +20328,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8506: {
         "alias_name": "亢龙有悔合一掌4增强",
@@ -19662,7 +20361,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19706,7 +20404,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8507: {
         "alias_name": "亢龙有悔合一掌5增强",
@@ -19738,7 +20437,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19782,7 +20480,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8508: {
         "alias_name": "亢龙有悔合一掌6增强",
@@ -19814,7 +20513,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19858,7 +20556,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8509: {
         "alias_name": "亢龙有悔合一掌7增强",
@@ -19890,7 +20589,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -19934,7 +20632,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8510: {
         "alias_name": "亢龙有悔合一掌8增强",
@@ -19966,7 +20665,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -20010,7 +20708,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8511: {
         "alias_name": "亢龙有悔合一掌9增强",
@@ -20042,7 +20741,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -20086,7 +20784,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8512: {
         "alias_name": "亢龙有悔合一掌10增强",
@@ -20118,7 +20817,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -20162,7 +20860,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8513: {
         "alias_name": "亢龙有悔合一掌11增强",
@@ -20194,7 +20893,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -20238,7 +20936,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     8514: {
         "alias_name": "亢龙有悔合一掌12增强",
@@ -20270,7 +20969,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             9,
             23,
@@ -20314,7 +21012,8 @@ SKILLS = {
             36,
             38,
             40
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19430: {
         "alias_name": "丐帮3分之一亢龙翻倍",
@@ -20346,7 +21045,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             16,
@@ -20390,7 +21088,8 @@ SKILLS = {
             26,
             27,
             29
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19431: {
         "alias_name": "丐帮3分之一亢龙翻倍1",
@@ -20422,7 +21121,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             16,
@@ -20466,7 +21164,8 @@ SKILLS = {
             26,
             27,
             29
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19432: {
         "alias_name": "丐帮3分之一亢龙翻倍2",
@@ -20498,7 +21197,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             16,
@@ -20542,7 +21240,8 @@ SKILLS = {
             26,
             27,
             29
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19433: {
         "alias_name": "丐帮3分之一亢龙翻倍3",
@@ -20574,7 +21273,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             16,
@@ -20618,7 +21316,8 @@ SKILLS = {
             26,
             27,
             29
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19434: {
         "alias_name": "丐帮3分之一亢龙翻倍4",
@@ -20650,7 +21349,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             7,
             16,
@@ -20694,7 +21392,8 @@ SKILLS = {
             26,
             27,
             29
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19435: {
         "alias_name": "亢龙3分之一亢龙不翻倍",
@@ -20726,7 +21425,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             8,
@@ -20770,7 +21468,8 @@ SKILLS = {
             13,
             14,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19436: {
         "alias_name": "亢龙3分之一亢龙不翻倍1",
@@ -20802,7 +21501,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             8,
@@ -20846,7 +21544,8 @@ SKILLS = {
             13,
             14,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19437: {
         "alias_name": "亢龙3分之一亢龙不翻倍2",
@@ -20878,7 +21577,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             8,
@@ -20922,7 +21620,8 @@ SKILLS = {
             13,
             14,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19438: {
         "alias_name": "亢龙3分之一亢龙不翻倍3",
@@ -20954,7 +21653,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             8,
@@ -20998,7 +21696,8 @@ SKILLS = {
             13,
             14,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     19439: {
         "alias_name": "亢龙3分之一亢龙不翻倍4",
@@ -21030,7 +21729,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             8,
@@ -21074,7 +21772,8 @@ SKILLS = {
             13,
             14,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6351: {
         "alias_name": "蜀犬吠日_伤害2",
@@ -21102,7 +21801,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "蜀犬吠日",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21121,7 +21819,8 @@ SKILLS = {
             56,
             57
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6352: {
         "alias_name": "蜀犬吠日_伤害3",
@@ -21149,7 +21848,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "蜀犬吠日",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21168,7 +21866,8 @@ SKILLS = {
             56,
             57
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6353: {
         "alias_name": "蜀犬吠日_伤害1",
@@ -21196,7 +21895,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "蜀犬吠日",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21215,7 +21913,8 @@ SKILLS = {
             56,
             57
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6354: {
         "alias_name": "蜀犬吠日_伤害4",
@@ -21243,7 +21942,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "蜀犬吠日",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21262,7 +21960,8 @@ SKILLS = {
             56,
             57
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6355: {
         "alias_name": "龙跃1",
@@ -21273,7 +21972,6 @@ SKILLS = {
         "channel_interval": 72.8,
         "max_level": 7,
         "skill_name": "龙跃于渊",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             22,
             24,
@@ -21283,7 +21981,8 @@ SKILLS = {
             32,
             34
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6356: {
         "alias_name": "龙跃2",
@@ -21294,7 +21993,6 @@ SKILLS = {
         "channel_interval": 52.0,
         "max_level": 7,
         "skill_name": "龙跃于渊",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             22,
             24,
@@ -21304,7 +22002,8 @@ SKILLS = {
             32,
             34
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6357: {
         "alias_name": "龙跃3",
@@ -21315,7 +22014,6 @@ SKILLS = {
         "channel_interval": 62.400000000000006,
         "max_level": 7,
         "skill_name": "龙跃于渊",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             22,
             24,
@@ -21325,7 +22023,8 @@ SKILLS = {
             32,
             34
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6358: {
         "alias_name": "蛟龙1",
@@ -21349,7 +22048,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "蛟龙翻江",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             4,
             11,
@@ -21377,7 +22075,8 @@ SKILLS = {
             7,
             8,
             9
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6359: {
         "alias_name": "蛟龙2",
@@ -21401,7 +22100,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "蛟龙翻江",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             9,
@@ -21429,7 +22127,8 @@ SKILLS = {
             6,
             7,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6360: {
         "alias_name": "蛟龙3",
@@ -21504,7 +22203,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙游天地",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             15,
             34,
@@ -21528,7 +22226,8 @@ SKILLS = {
             6,
             6,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6363: {
         "alias_name": "龙游2",
@@ -21550,7 +22249,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙游天地",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             15,
             34,
@@ -21574,7 +22272,8 @@ SKILLS = {
             6,
             6,
             7
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6364: {
         "alias_name": "龙游3",
@@ -21646,7 +22345,6 @@ SKILLS = {
         ],
         "max_level": 17,
         "skill_name": "龙战于野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             22,
@@ -21666,7 +22364,8 @@ SKILLS = {
             54,
             56
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6367: {
         "alias_name": "龙战2",
@@ -21695,7 +22394,6 @@ SKILLS = {
         ],
         "max_level": 17,
         "skill_name": "龙战于野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             22,
@@ -21715,7 +22413,8 @@ SKILLS = {
             54,
             56
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6368: {
         "alias_name": "龙战3",
@@ -21744,7 +22443,6 @@ SKILLS = {
         ],
         "max_level": 17,
         "skill_name": "龙战于野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             22,
@@ -21764,7 +22462,8 @@ SKILLS = {
             54,
             56
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     6369: {
         "alias_name": "亢龙1",
@@ -21796,7 +22495,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21819,7 +22517,8 @@ SKILLS = {
             50,
             52
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6370: {
         "alias_name": "亢龙2",
@@ -21851,7 +22550,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21874,7 +22572,8 @@ SKILLS = {
             50,
             52
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6371: {
         "alias_name": "亢龙3",
@@ -21906,7 +22605,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21929,7 +22627,8 @@ SKILLS = {
             50,
             52
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6372: {
         "alias_name": "亢龙4",
@@ -21961,7 +22660,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -21984,7 +22682,8 @@ SKILLS = {
             50,
             52
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6373: {
         "alias_name": "亢龙5",
@@ -22016,7 +22715,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             14,
@@ -22039,7 +22737,8 @@ SKILLS = {
             50,
             52
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6374: {
         "alias_name": "亢龙6",
@@ -22050,7 +22749,6 @@ SKILLS = {
         "channel_interval": 246.23999999999998,
         "max_level": 20,
         "skill_name": "亢龙有悔",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             10,
             13,
@@ -22073,7 +22771,8 @@ SKILLS = {
             47,
             49
         ],
-        "physical_damage_rand": 3
+        "physical_damage_rand": 3,
+        "physical_damage_call": 1
     },
     6376: {
         "alias_name": "拨狗朝天_伤害1",
@@ -22138,7 +22837,6 @@ SKILLS = {
         ],
         "max_level": 21,
         "skill_name": "横打双獒",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             28,
             33,
@@ -22184,7 +22882,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6378: {
         "alias_name": "横打双獒_伤害2",
@@ -22217,7 +22916,6 @@ SKILLS = {
         ],
         "max_level": 21,
         "skill_name": "横打双獒",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             28,
             33,
@@ -22263,7 +22961,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6379: {
         "alias_name": "棒打狗头_伤害1",
@@ -22274,7 +22973,6 @@ SKILLS = {
         "channel_interval": 72.0,
         "max_level": 6,
         "skill_name": "棒打狗头",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             70,
             85,
@@ -22290,7 +22988,8 @@ SKILLS = {
             12,
             13,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6380: {
         "alias_name": "棒打狗头_伤害2",
@@ -22301,7 +23000,6 @@ SKILLS = {
         "channel_interval": 72.0,
         "max_level": 6,
         "skill_name": "棒打狗头",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             70,
             85,
@@ -22317,7 +23015,8 @@ SKILLS = {
             12,
             13,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13523: {
         "alias_name": "犬牙交错_伤害1_真实伤害",
@@ -22328,9 +23027,9 @@ SKILLS = {
         "channel_interval": 192.0,
         "max_level": 1,
         "skill_name": "犬牙交错",
-        "physical_damage_call": 1,
         "physical_damage_base": 81,
-        "physical_damage_rand": 8
+        "physical_damage_rand": 8,
+        "physical_damage_call": 1
     },
     13524: {
         "alias_name": "拨狗朝天_伤害1_真实伤害",
@@ -22363,7 +23062,6 @@ SKILLS = {
         ],
         "max_level": 21,
         "skill_name": "拨狗朝天",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             27,
             31,
@@ -22409,7 +23107,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13525: {
         "alias_name": "天下无狗三段_伤害7_真实伤害",
@@ -22443,7 +23142,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "天下无狗",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             8,
             11,
@@ -22468,7 +23166,8 @@ SKILLS = {
             25,
             25
         ],
-        "physical_damage_rand": 1
+        "physical_damage_rand": 1,
+        "physical_damage_call": 1
     },
     13526: {
         "alias_name": "蛟龙翻江_伤害3_真实伤害",
@@ -22492,7 +23191,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "蛟龙翻江",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             21,
             59,
@@ -22520,7 +23218,8 @@ SKILLS = {
             38,
             42,
             46
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13527: {
         "alias_name": "双龙取水_伤害1_真实伤害",
@@ -22551,7 +23250,6 @@ SKILLS = {
         ],
         "max_level": 19,
         "skill_name": "双龙取水",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             8,
             15,
@@ -22593,7 +23291,8 @@ SKILLS = {
             12,
             13,
             13
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13528: {
         "alias_name": "龙游天地_伤害3_真实伤害",
@@ -22615,7 +23314,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙游天地",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             95,
             206,
@@ -22639,7 +23337,8 @@ SKILLS = {
             36,
             41,
             46
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13529: {
         "alias_name": "龙腾五岳_伤害1_真实伤害",
@@ -22662,7 +23361,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "龙腾五岳",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             29,
             48,
@@ -22688,7 +23386,8 @@ SKILLS = {
             19,
             21,
             23
-        ]
+        ],
+        "physical_damage_call": 1
     },
     13530: {
         "alias_name": "潜龙勿用_伤害7_真实伤害",
@@ -22706,7 +23405,6 @@ SKILLS = {
         ],
         "max_level": 6,
         "skill_name": "潜龙勿用",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             13,
@@ -22722,7 +23420,8 @@ SKILLS = {
             1,
             1,
             2
-        ]
+        ],
+        "physical_damage_call": 1
     },
     6853: {
         "alias_name": "丐帮_亢龙DOT",
@@ -22769,10 +23468,10 @@ SKILLS = {
         "channel_interval": 144.0,
         "max_level": 1,
         "skill_name": "御鸿于天",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 100,
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     101960: {
         "alias_name": "移动端_天下无狗_伤害",
@@ -22782,9 +23481,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "天下无狗·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 276,
-        "physical_damage_base": 1
+        "skill_cof": 276
     },
     100662: {
         "alias_name": "移动端_祭湘君",
@@ -22794,10 +23493,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "祭湘君·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 504,
         "surplus_cof": 1935,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100773: {
@@ -22808,9 +23507,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "恶狗拦路·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 359,
-        "physical_damage_base": 1
+        "skill_cof": 359
     },
     100821: {
         "alias_name": "移动端_恶狗拦路_追加技1",
@@ -22820,10 +23519,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "恶狗拦路·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 360,
         "surplus_cof": 1382,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100775: {
@@ -22834,10 +23533,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "蜀犬吠日·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 909,
         "surplus_cof": 3490,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100664: {
@@ -22848,10 +23547,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "拨狗朝天·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 360,
         "surplus_cof": 1382,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100653: {
@@ -22862,10 +23561,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "拨狗朝天·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 276,
         "surplus_cof": 1057,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102332: {
@@ -22876,9 +23575,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "龙啸九天·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 212,
-        "physical_damage_base": 1
+        "skill_cof": 212
     },
     100819: {
         "alias_name": "移动端_蛟龙翻江",
@@ -22888,10 +23587,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "蛟龙翻江·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 304,
         "surplus_cof": 1167,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100820: {
@@ -22902,10 +23601,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "蛟龙翻江·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 322,
         "surplus_cof": 1235,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102331: {
@@ -22916,9 +23615,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "时乘六龙·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 154,
-        "physical_damage_base": 1
+        "skill_cof": 154
     },
     13039: {
         "alias_name": "普通攻击_盾刀攻击",
@@ -22929,8 +23628,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "卷雪刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36065: {
         "alias_name": "苍云奇穴破招子技能",
@@ -23047,8 +23746,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "盾飞",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             3,
             4,
@@ -23082,7 +23779,9 @@ SKILLS = {
             2,
             2,
             2
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36482: {
         "alias_name": "援戈外功伤害子技能",
@@ -23093,10 +23792,10 @@ SKILLS = {
         "channel_interval": 687.2399999999999,
         "max_level": 1,
         "skill_name": "援戈·血影",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     37253: {
         "alias_name": "麾远斩刀远距离附带额外伤害子技能",
@@ -23107,10 +23806,10 @@ SKILLS = {
         "channel_interval": 340.0,
         "max_level": 1,
         "skill_name": "麾远",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     34673: {
         "alias_name": "业火麟光之地狱业火每跳爆裂子技能",
@@ -23121,8 +23820,8 @@ SKILLS = {
         "channel_interval": 40.0,
         "max_level": 1,
         "skill_name": "业火焚城",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     34674: {
         "alias_name": "业火麟光之麟光甲每次苍雪刀额外伤害子技能",
@@ -23133,10 +23832,10 @@ SKILLS = {
         "channel_interval": 377.52000000000004,
         "max_level": 1,
         "skill_name": "麟光甲寒",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     34714: {
         "alias_name": "业火麟光之地狱业火之业火焚城",
@@ -23147,10 +23846,10 @@ SKILLS = {
         "channel_interval": 228.8,
         "max_level": 1,
         "skill_name": "业火焚城·云盾",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     30925: {
         "alias_name": "阵云结晦一段_伤害",
@@ -23161,10 +23860,10 @@ SKILLS = {
         "channel_interval": 540.0,
         "max_level": 1,
         "skill_name": "阵云结晦",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 72,
         "physical_damage_rand": 2,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -1024,
         "pve_addition": 1331
     },
@@ -23177,10 +23876,10 @@ SKILLS = {
         "channel_interval": 675.0,
         "max_level": 1,
         "skill_name": "阵云结晦",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 96,
         "physical_damage_rand": 3,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -1024,
         "pve_addition": 1331
     },
@@ -23201,8 +23900,6 @@ SKILLS = {
             "雁门迢递",
             "雁门迢递"
         ],
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             120,
             138,
@@ -23221,6 +23918,8 @@ SKILLS = {
             12,
             12
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -1024,
         "pve_addition": 1331
     },
@@ -23232,8 +23931,6 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 10,
         "skill_name": "争神焱舞",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             86625,
             88698,
@@ -23245,7 +23942,9 @@ SKILLS = {
             0,
             0,
             0
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     23285: {
         "alias_name": "新苍云特殊武器_苍蛟扫狼",
@@ -23255,8 +23954,6 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 10,
         "skill_name": "苍蛟扫狼",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             57750,
             59132,
@@ -23268,7 +23965,9 @@ SKILLS = {
             0,
             0,
             0
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     23286: {
         "alias_name": "新苍云特殊武器_争神炎舞增",
@@ -23278,8 +23977,6 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 10,
         "skill_name": "争神焱舞",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             144375,
             147831,
@@ -23291,7 +23988,9 @@ SKILLS = {
             0,
             0,
             0
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     23287: {
         "alias_name": "新苍云特殊武器_炎帝反击增",
@@ -23346,8 +24045,8 @@ SKILLS = {
         "channel_interval": 50.0,
         "max_level": 1,
         "skill_name": "盾击·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     19409: {
         "alias_name": "盾压打伤害",
@@ -23383,8 +24082,6 @@ SKILLS = {
         ],
         "max_level": 24,
         "skill_name": "盾压",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             15,
             37,
@@ -23436,7 +24133,9 @@ SKILLS = {
             17,
             18,
             18
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16727: {
         "alias_name": "苍云特殊武器_魂吸",
@@ -23482,8 +24181,6 @@ SKILLS = {
         ],
         "max_level": 25,
         "skill_name": "盾猛",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             11,
             25,
@@ -23537,7 +24234,9 @@ SKILLS = {
             11,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13044: {
         "alias_name": "盾刀",
@@ -23582,8 +24281,6 @@ SKILLS = {
         ],
         "max_level": 33,
         "skill_name": "盾刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             31,
             40,
@@ -23653,7 +24350,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13040: {
         "alias_name": "血怒",
@@ -23691,8 +24390,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾舞",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             90,
             130,
@@ -23728,7 +24425,9 @@ SKILLS = {
             26,
             28,
             30
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     38651: {
         "alias_name": "苍云护盾燃烧",
@@ -23739,9 +24438,9 @@ SKILLS = {
         "channel_interval": 120.0,
         "max_level": 1,
         "skill_name": "过涯",
-        "physical_damage_call": 1,
         "physical_damage_base": 54,
-        "physical_damage_rand": 1
+        "physical_damage_rand": 1,
+        "physical_damage_call": 1
     },
     33097: {
         "alias_name": "血誓第三刀伤害子技能",
@@ -23752,10 +24451,10 @@ SKILLS = {
         "channel_interval": 162.0,
         "max_level": 1,
         "skill_name": "血誓",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": 80,
-        "physical_damage_rand": 15
+        "physical_damage_rand": 15,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13453: {
         "alias_name": "闪刀伤害",
@@ -23785,8 +24484,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "闪刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             15,
             22,
@@ -23826,7 +24523,9 @@ SKILLS = {
             12,
             13,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13076: {
         "alias_name": "绝刀90-100",
@@ -23858,8 +24557,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             60,
             67,
@@ -23903,7 +24600,9 @@ SKILLS = {
             10,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13077: {
         "alias_name": "绝刀80-90",
@@ -23935,8 +24634,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             64,
             72,
@@ -23980,7 +24677,9 @@ SKILLS = {
             11,
             11,
             13
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13078: {
         "alias_name": "绝刀70-80",
@@ -24012,8 +24711,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             68,
             76,
@@ -24057,7 +24754,9 @@ SKILLS = {
             11,
             12,
             14
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13079: {
         "alias_name": "绝刀60-70",
@@ -24089,8 +24788,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             72,
             81,
@@ -24134,7 +24831,9 @@ SKILLS = {
             12,
             13,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13080: {
         "alias_name": "绝刀50-60",
@@ -24166,8 +24865,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             76,
             86,
@@ -24211,7 +24908,9 @@ SKILLS = {
             13,
             14,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13081: {
         "alias_name": "绝刀40-50",
@@ -24243,8 +24942,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             81,
             91,
@@ -24288,7 +24985,9 @@ SKILLS = {
             14,
             14,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13082: {
         "alias_name": "绝刀30-40",
@@ -24320,8 +25019,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             85,
             95,
@@ -24365,7 +25062,9 @@ SKILLS = {
             14,
             15,
             17
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13083: {
         "alias_name": "绝刀20-30",
@@ -24397,8 +25096,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             89,
             100,
@@ -24442,7 +25139,9 @@ SKILLS = {
             15,
             16,
             18
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13084: {
         "alias_name": "绝刀10-20",
@@ -24474,8 +25173,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             93,
             105,
@@ -24519,7 +25216,9 @@ SKILLS = {
             16,
             17,
             19
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13085: {
         "alias_name": "绝刀0-10",
@@ -24551,8 +25250,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             97,
             110,
@@ -24596,7 +25293,9 @@ SKILLS = {
             17,
             17,
             20
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13075: {
         "alias_name": "绝刀全血量",
@@ -24628,8 +25327,6 @@ SKILLS = {
         ],
         "max_level": 20,
         "skill_name": "绝刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             60,
             67,
@@ -24673,7 +25370,9 @@ SKILLS = {
             10,
             11,
             12
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18355: {
         "alias_name": "斩刀90-100",
@@ -24707,8 +25406,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -24756,7 +25453,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18356: {
         "alias_name": "斩刀80-90",
@@ -24790,8 +25489,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -24839,7 +25536,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18357: {
         "alias_name": "斩刀70-80",
@@ -24873,8 +25572,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -24922,7 +25619,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18358: {
         "alias_name": "斩刀60-70",
@@ -24956,8 +25655,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25005,7 +25702,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18359: {
         "alias_name": "斩刀50-60",
@@ -25039,8 +25738,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25088,7 +25785,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18360: {
         "alias_name": "斩刀40-50",
@@ -25122,8 +25821,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25171,7 +25868,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18361: {
         "alias_name": "斩刀30-40",
@@ -25205,8 +25904,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25254,7 +25951,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18362: {
         "alias_name": "斩刀20-30",
@@ -25288,8 +25987,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25337,7 +26034,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18363: {
         "alias_name": "斩刀10-20",
@@ -25371,8 +26070,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25420,7 +26117,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     18364: {
         "alias_name": "斩刀0-10",
@@ -25454,8 +26153,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25503,7 +26200,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13092: {
         "alias_name": "斩刀近距离",
@@ -25537,8 +26236,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "斩刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             69,
             78,
@@ -25586,7 +26283,9 @@ SKILLS = {
             9,
             9,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28468: {
         "alias_name": "28468 劫刀 90-100",
@@ -25626,8 +26325,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             24,
             30,
@@ -25687,7 +26384,9 @@ SKILLS = {
             27,
             28,
             29
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28469: {
         "alias_name": "28469 劫刀 80-90",
@@ -25727,8 +26426,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             25,
             32,
@@ -25758,7 +26455,9 @@ SKILLS = {
             111,
             113,
             117
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28470: {
         "alias_name": "28470 劫刀 70-80",
@@ -25798,8 +26497,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             27,
             34,
@@ -25829,7 +26526,9 @@ SKILLS = {
             118,
             120,
             125
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28471: {
         "alias_name": "28471 劫刀 60-70",
@@ -25869,8 +26568,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             29,
             36,
@@ -25900,7 +26597,9 @@ SKILLS = {
             125,
             128,
             133
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28472: {
         "alias_name": "28472 劫刀 50-60",
@@ -25940,8 +26639,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             28,
             36,
@@ -25971,7 +26668,9 @@ SKILLS = {
             124,
             127,
             132
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28473: {
         "alias_name": "28473 劫刀 40-50",
@@ -26011,8 +26710,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             37,
@@ -26042,7 +26739,9 @@ SKILLS = {
             130,
             132,
             137
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28474: {
         "alias_name": "28474 劫刀 30-40",
@@ -26082,8 +26781,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             31,
             39,
@@ -26113,7 +26810,9 @@ SKILLS = {
             135,
             137,
             143
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28475: {
         "alias_name": "28475 劫刀 20-30",
@@ -26153,8 +26852,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             32,
             40,
@@ -26184,7 +26881,9 @@ SKILLS = {
             140,
             143,
             148
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28476: {
         "alias_name": "28476 劫刀 10-20",
@@ -26224,8 +26923,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             42,
@@ -26255,7 +26952,9 @@ SKILLS = {
             145,
             148,
             154
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28477: {
         "alias_name": "28477 劫刀 0-10",
@@ -26295,8 +26994,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             34,
             43,
@@ -26326,7 +27023,9 @@ SKILLS = {
             150,
             153,
             159
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     28479: {
         "alias_name": "28479 劫刀_伤害子技能",
@@ -26366,8 +27065,6 @@ SKILLS = {
         ],
         "max_level": 28,
         "skill_name": "劫刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             24,
             30,
@@ -26427,7 +27124,9 @@ SKILLS = {
             27,
             28,
             29
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     13106: {
         "alias_name": "盾击正常伤害",
@@ -26455,8 +27154,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             36,
@@ -26493,6 +27190,8 @@ SKILLS = {
             9,
             10
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     13107: {
@@ -26521,8 +27220,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             60,
             72,
@@ -26559,6 +27256,8 @@ SKILLS = {
             19,
             20
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     13108: {
@@ -26587,8 +27286,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             90,
             108,
@@ -26625,6 +27322,8 @@ SKILLS = {
             28,
             31
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     13110: {
@@ -26653,8 +27352,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             36,
@@ -26691,6 +27388,8 @@ SKILLS = {
             9,
             10
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     13160: {
@@ -26719,8 +27418,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             36,
@@ -26757,6 +27454,8 @@ SKILLS = {
             9,
             10
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     13161: {
@@ -26785,8 +27484,6 @@ SKILLS = {
         ],
         "max_level": 16,
         "skill_name": "盾击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             36,
@@ -26823,6 +27520,8 @@ SKILLS = {
             9,
             10
         ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "physical_shield_gain": -512
     },
     32745: {
@@ -27070,11 +27769,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "斩刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 477,
         "surplus_cof": 1823,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102212: {
@@ -27085,9 +27784,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "祭血关山·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 135,
-        "physical_damage_base": 1
+        "skill_cof": 135
     },
     101089: {
         "alias_name": "移动端_祭血关山_每秒伤害",
@@ -27097,9 +27796,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "祭血关山·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 103,
-        "physical_damage_base": 1
+        "skill_cof": 103
     },
     101317: {
         "alias_name": "移动端_撼地",
@@ -27109,10 +27808,10 @@ SKILLS = {
         "recipe_mask": 128,
         "max_level": 1,
         "skill_name": "撼地·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 416,
         "surplus_cof": 1597,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102040: {
@@ -27123,10 +27822,10 @@ SKILLS = {
         "recipe_mask": 16,
         "max_level": 1,
         "skill_name": "祭血关山·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 444,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 444
     },
     101171: {
         "alias_name": "移动端_苍云通用_流血",
@@ -27145,11 +27844,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "绝刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 466,
         "surplus_cof": 1792,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101174: {
@@ -27160,9 +27859,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "绝刀·悟·绝篇",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 264,
-        "physical_damage_base": 1
+        "skill_cof": 264
     },
     101189: {
         "alias_name": "移动端_盾阵_范围伤害",
@@ -27172,9 +27871,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "盾飞·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 116,
-        "physical_damage_base": 1
+        "skill_cof": 116
     },
     101271: {
         "alias_name": "移动端_盾飞_贰式_爆炸",
@@ -27184,9 +27883,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "盾飞·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 421,
-        "physical_damage_base": 1
+        "skill_cof": 421
     },
     101194: {
         "alias_name": "移动端_血刀",
@@ -27196,11 +27895,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "闪刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 338,
         "surplus_cof": 1300,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101042: {
@@ -27211,11 +27910,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "闪刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 285,
         "surplus_cof": 1096,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101038: {
@@ -27226,11 +27925,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "劫刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 420,
         "surplus_cof": 2079,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101029: {
@@ -27241,11 +27940,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "盾刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 288,
         "surplus_cof": 1106,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101065: {
@@ -27256,11 +27955,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "盾刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 320,
         "surplus_cof": 1229,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101066: {
@@ -27271,11 +27970,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "盾刀·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 354,
         "surplus_cof": 1362,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     14063: {
@@ -27287,8 +27986,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "五音六律",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     14100: {
         "alias_name": "羽无奇穴子技能",
@@ -28535,8 +29234,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "霜风刀法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16820: {
         "alias_name": "大刀普通攻击有特效",
@@ -28547,8 +29246,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "霜风刀法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16822: {
         "alias_name": "鞘刀和腿普通攻击有特效",
@@ -28559,8 +29258,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "霜风刀法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32823: {
         "alias_name": "霸刀破招伤害子技能",
@@ -28599,7 +29298,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "雷走风切",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -28623,7 +29321,8 @@ SKILLS = {
             10,
             10,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16631: {
         "alias_name": "大刀雷走风切普通伤害",
@@ -28645,7 +29344,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "雷走风切",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -28669,7 +29367,8 @@ SKILLS = {
             10,
             10,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16794: {
         "alias_name": "坚壁清野残留效果实际伤害",
@@ -28696,7 +29395,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             55,
             70,
@@ -28730,7 +29428,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     17092: {
         "alias_name": "碎江天伤害子技能",
@@ -28757,8 +29456,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "碎江天",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             40,
@@ -28792,7 +29489,9 @@ SKILLS = {
             30,
             30,
             30
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     20991: {
         "alias_name": "破釜正常伤害",
@@ -28819,8 +29518,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "破釜沉舟",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             90,
             86,
@@ -28854,7 +29551,9 @@ SKILLS = {
             15,
             15,
             20
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     19424: {
         "alias_name": "上将军印连续命中六次",
@@ -28876,8 +29575,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1638.4,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             190,
             266,
@@ -28901,7 +29598,9 @@ SKILLS = {
             28,
             28,
             28
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1638.4
     },
     34585: {
         "alias_name": "绝期额外伤害子技能",
@@ -28912,9 +29611,9 @@ SKILLS = {
         "channel_interval": 120.0,
         "max_level": 1,
         "skill_name": "绝期",
-        "physical_damage_call": 1,
         "physical_damage_base": 55,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     32859: {
         "alias_name": "霸刀_见尘_大范围上将真实伤害",
@@ -28925,9 +29624,9 @@ SKILLS = {
         "channel_interval": 66.99,
         "max_level": 1,
         "skill_name": "上将军印·见尘",
-        "physical_damage_call": 1,
         "physical_damage_base": 72,
-        "physical_damage_rand": 7
+        "physical_damage_rand": 7,
+        "physical_damage_call": 1
     },
     37984: {
         "alias_name": "召唤上将二段伤害子技能",
@@ -28938,9 +29637,9 @@ SKILLS = {
         "channel_interval": 320.0,
         "max_level": 1,
         "skill_name": "临江",
-        "physical_damage_call": 1,
         "physical_damage_base": 100,
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1
     },
     25782: {
         "alias_name": "110级CW新增特效霸刀",
@@ -28951,8 +29650,8 @@ SKILLS = {
         "channel_interval": 25.0,
         "max_level": 1,
         "skill_name": "上将军印·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     38533: {
         "alias_name": "碎影额外伤害子技能",
@@ -28963,9 +29662,9 @@ SKILLS = {
         "channel_interval": 950.4000000000001,
         "max_level": 1,
         "skill_name": "碎影",
-        "physical_damage_call": 1,
         "physical_damage_base": 55,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     38537: {
         "alias_name": "楚歌_破釜沉舟额外伤害",
@@ -28985,9 +29684,9 @@ SKILLS = {
         ],
         "max_level": 8,
         "skill_name": "楚歌",
-        "physical_damage_call": 1,
         "physical_damage_base": 55,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     39106: {
         "alias_name": "背水沉舟额外伤害",
@@ -28998,9 +29697,9 @@ SKILLS = {
         "channel_interval": 912.3840000000002,
         "max_level": 1,
         "skill_name": "背水沉舟",
-        "physical_damage_call": 1,
         "physical_damage_base": 55,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     16758: {
         "alias_name": "项王击鼎一段表现技能",
@@ -29027,8 +29726,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "项王击鼎",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -29062,7 +29759,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16759: {
         "alias_name": "项王击鼎二段表现技能",
@@ -29089,8 +29788,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "项王击鼎",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -29124,7 +29821,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16760: {
         "alias_name": "项王击鼎三段表现技能",
@@ -29151,8 +29850,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "项王击鼎",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -29186,7 +29883,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16382: {
         "alias_name": "项王击鼎AOE实际AOE伤害",
@@ -29213,8 +29912,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "项王击鼎",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             50,
             60,
@@ -29248,7 +29945,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16787: {
         "alias_name": "坚壁清野5尺实际伤害",
@@ -29275,7 +29974,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             150,
             170,
@@ -29309,7 +30007,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16788: {
         "alias_name": "坚壁清野10尺实际伤害",
@@ -29336,7 +30035,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             150,
             170,
@@ -29370,7 +30068,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16789: {
         "alias_name": "坚壁清野15尺实际伤害",
@@ -29397,7 +30096,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             150,
             170,
@@ -29431,7 +30129,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16790: {
         "alias_name": "坚壁清野20尺实际伤害",
@@ -29458,7 +30157,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             150,
             170,
@@ -29492,7 +30190,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16791: {
         "alias_name": "坚壁清野25尺实际伤害",
@@ -29519,7 +30218,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "坚壁清野",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             150,
             170,
@@ -29553,7 +30251,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16610: {
         "alias_name": "刀啸风吟5尺伤害",
@@ -29580,7 +30279,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29614,7 +30312,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16611: {
         "alias_name": "刀啸风吟10尺伤害",
@@ -29641,7 +30340,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29675,7 +30373,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16612: {
         "alias_name": "刀啸风吟15尺伤害",
@@ -29702,7 +30401,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29736,7 +30434,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16613: {
         "alias_name": "刀啸风吟20尺伤害",
@@ -29763,7 +30462,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29797,7 +30495,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16614: {
         "alias_name": "刀啸风吟25尺伤害",
@@ -29824,7 +30523,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29858,7 +30556,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16913: {
         "alias_name": "刀啸风吟5尺伤害加强版",
@@ -29885,7 +30584,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29920,6 +30618,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -29948,7 +30647,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -29983,6 +30681,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30011,7 +30710,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -30046,6 +30744,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30074,7 +30773,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -30109,6 +30807,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30137,7 +30836,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "刀啸风吟",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             110,
@@ -30172,6 +30870,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30200,7 +30899,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             55,
             70,
@@ -30235,6 +30933,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30263,7 +30962,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30297,7 +30995,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16616: {
         "alias_name": "醉斩白蛇10尺伤害",
@@ -30324,7 +31023,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30358,7 +31056,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16617: {
         "alias_name": "醉斩白蛇15尺伤害",
@@ -30385,7 +31084,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30419,7 +31117,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16618: {
         "alias_name": "醉斩白蛇20尺伤害",
@@ -30446,7 +31145,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30480,7 +31178,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16619: {
         "alias_name": "醉斩白蛇25尺伤害",
@@ -30507,7 +31206,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30541,7 +31239,8 @@ SKILLS = {
             20,
             20,
             20
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16920: {
         "alias_name": "醉斩白蛇5尺伤害加强版",
@@ -30568,7 +31267,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30603,6 +31301,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30631,7 +31330,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30666,6 +31364,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30694,7 +31393,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30729,6 +31427,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30757,7 +31456,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30792,6 +31490,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30820,7 +31519,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             45,
             60,
@@ -30855,6 +31553,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30883,7 +31582,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "醉斩白蛇",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             10,
             20,
@@ -30918,6 +31616,7 @@ SKILLS = {
             20,
             20
         ],
+        "physical_damage_call": 1,
         "physical_critical_strike_rate": 2000,
         "physical_critical_power_rate": 205
     },
@@ -30941,8 +31640,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "惊燕式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -30966,7 +31663,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16934: {
         "alias_name": "擒王六式·一式子技能B",
@@ -30988,8 +31687,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "惊燕式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31013,7 +31710,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16935: {
         "alias_name": "擒王六式·二式子技能A",
@@ -31035,8 +31734,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "逐鹰式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31060,7 +31757,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16936: {
         "alias_name": "擒王六式·二式子技能B",
@@ -31082,8 +31781,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "逐鹰式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31107,7 +31804,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16937: {
         "alias_name": "擒王六式·三式子技能A",
@@ -31129,8 +31828,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "控鹤式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31154,7 +31851,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16938: {
         "alias_name": "擒王六式·三式子技能B",
@@ -31176,8 +31875,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "控鹤式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31201,7 +31898,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16939: {
         "alias_name": "擒王六式·四式子技能A",
@@ -31223,8 +31922,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "起凤式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31248,7 +31945,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16940: {
         "alias_name": "擒王六式·四式子技能B",
@@ -31270,8 +31969,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "起凤式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31295,7 +31992,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16941: {
         "alias_name": "擒王六式·五式子技能A",
@@ -31317,8 +32016,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "腾蛟式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31342,7 +32039,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16942: {
         "alias_name": "擒王六式·五式子技能B",
@@ -31364,8 +32063,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "腾蛟式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31389,7 +32086,9 @@ SKILLS = {
             10,
             10,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16943: {
         "alias_name": "擒王六式·六式子技能A",
@@ -31411,8 +32110,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "擒龙式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31436,7 +32133,9 @@ SKILLS = {
             10,
             10,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16944: {
         "alias_name": "擒王六式·六式子技能B",
@@ -31458,8 +32157,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "擒龙式",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             30,
             35,
@@ -31483,7 +32180,9 @@ SKILLS = {
             10,
             10,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16804: {
         "alias_name": "上将军印无奇穴伤害",
@@ -31505,8 +32204,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             140,
@@ -31530,7 +32227,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16803: {
         "alias_name": "上将军印连续命中三次伤害",
@@ -31552,8 +32251,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             140,
@@ -31577,7 +32274,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     16802: {
         "alias_name": "上将军印连续命中二次伤害",
@@ -31599,8 +32298,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1177.6,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             114,
             161,
@@ -31612,7 +32309,9 @@ SKILLS = {
             299,
             322,
             345
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1177.6
     },
     16801: {
         "alias_name": "上将军印连续命中一次伤害",
@@ -31634,8 +32333,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1331.2,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             130,
             182,
@@ -31659,7 +32356,9 @@ SKILLS = {
             19,
             19,
             19
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1331.2
     },
     16800: {
         "alias_name": "上将军印普通伤害",
@@ -31681,8 +32380,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1484.8,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             145,
             203,
@@ -31706,7 +32403,9 @@ SKILLS = {
             21,
             21,
             21
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1484.8
     },
     17043: {
         "alias_name": "上将军印连续命中目标四次",
@@ -31728,8 +32427,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1638.4,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             224,
@@ -31753,7 +32450,9 @@ SKILLS = {
             24,
             24,
             24
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1638.4
     },
     19423: {
         "alias_name": "上将军印连续命中五次",
@@ -31775,8 +32474,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "上将军印",
-        "weapon_damage_cof": 1638.4,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             175,
             245,
@@ -31800,7 +32497,9 @@ SKILLS = {
             26,
             26,
             26
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1638.4
     },
     16097: {
         "alias_name": "龙骧虎步实际伤害效果",
@@ -31822,7 +32521,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙骧虎步",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -31846,7 +32544,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16753: {
         "alias_name": "龙骧虎步二段表现技能",
@@ -31868,7 +32567,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙骧虎步",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -31892,7 +32590,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16774: {
         "alias_name": "大刀龙骧虎步一段表现",
@@ -31914,7 +32613,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙骧虎步",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -31938,7 +32636,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     16775: {
         "alias_name": "大刀龙骧虎步二段表现",
@@ -31960,7 +32659,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "龙骧虎步",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -31984,7 +32682,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     17058: {
         "alias_name": "闹须弥一段流血效果",
@@ -32036,9 +32735,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "坚壁清野·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 349,
-        "physical_damage_base": 1
+        "skill_cof": 349
     },
     101200: {
         "alias_name": "移动端_霸刀_坚壁清野_释放时单次普通伤害",
@@ -32048,9 +32747,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "坚壁清野·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 493,
-        "physical_damage_base": 1
+        "skill_cof": 493
     },
     101080: {
         "alias_name": "移动端_霸刀_醉斩白蛇_普通伤害",
@@ -32060,10 +32759,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "醉斩白蛇·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 236,
         "surplus_cof": 901,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101110: {
@@ -32074,10 +32773,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "割据秦宫·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 588,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
     },
     101109: {
         "alias_name": "移动端_霸刀_割据秦宫2段眩晕",
@@ -32087,10 +32786,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "割据秦宫·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 588,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
     },
     101108: {
         "alias_name": "移动端_霸刀_割据秦宫1段锁足",
@@ -32100,10 +32799,10 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "割据秦宫·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 588,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 588
     },
     101260: {
         "alias_name": "移动端_霸刀_上将军印_前方伤害_第5刀递增60%",
@@ -32113,10 +32812,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "上将军印·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 652,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 652
     },
     101259: {
         "alias_name": "移动端_霸刀_上将军印_右侧伤害_第4刀递增45%",
@@ -32126,10 +32825,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "上将军印·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 580,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 580
     },
     101257: {
         "alias_name": "移动端_霸刀_上将军印_右侧伤害_第2刀递增15%",
@@ -32139,10 +32838,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "上将军印·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 434,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 434
     },
     101258: {
         "alias_name": "移动端_霸刀_上将军印_左侧伤害_第3刀递增30%",
@@ -32152,10 +32851,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "上将军印·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 508,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 508
     },
     101256: {
         "alias_name": "移动端_霸刀_上将军印_前方伤害_第1刀初始伤害",
@@ -32165,10 +32864,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "上将军印·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 362,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 362
     },
     101001: {
         "alias_name": "移动端_项王击鼎三段",
@@ -32178,11 +32877,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "项王击鼎·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 354,
         "surplus_cof": 1362,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101000: {
@@ -32193,11 +32892,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "项王击鼎·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 320,
         "surplus_cof": 1229,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     100999: {
@@ -32208,11 +32907,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "项王击鼎·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 288,
         "surplus_cof": 1106,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101050: {
@@ -32223,11 +32922,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "项王击鼎·悟",
-        "weapon_damage_cof": 512.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 512.0,
         "skill_cof": 309,
         "surplus_cof": 1188,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101068: {
@@ -32238,11 +32937,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "闹须弥·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 311,
         "surplus_cof": 1188,
         "dot_cof": 768,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     19712: {
@@ -32254,8 +32953,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "飘遥伞击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     19766: {
         "alias_name": "击水三千一段表现",
@@ -32298,8 +32997,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "击水三千",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -32365,7 +33062,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     19767: {
         "alias_name": "击水三千二段表现",
@@ -32408,8 +33107,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "击水三千",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -32475,7 +33172,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     20014: {
         "alias_name": "击水三千三段表现",
@@ -32518,8 +33217,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "击水三千",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -32585,7 +33282,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     19819: {
         "alias_name": "木落雁归实际伤害",
@@ -32619,8 +33318,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "木落雁归",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             87,
             134,
@@ -32668,7 +33365,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     20016: {
         "alias_name": "翼绝云天伤害技能",
@@ -32712,7 +33411,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "翼绝云天",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -32780,7 +33478,8 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20052: {
         "alias_name": "浮游天地伤害技能",
@@ -32802,8 +33501,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "浮游天地",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             67,
             152,
@@ -32816,7 +33513,9 @@ SKILLS = {
             748,
             833
         ],
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     20054: {
         "alias_name": "如来神掌实际伤害",
@@ -32843,7 +33542,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "跃潮斩波",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             130,
             237,
@@ -32877,7 +33575,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     30503: {
         "alias_name": "惊潮引爆伤害",
@@ -32892,7 +33591,6 @@ SKILLS = {
         ],
         "max_level": 3,
         "skill_name": "溯徊",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             67,
             122,
@@ -32902,7 +33600,8 @@ SKILLS = {
             5,
             5,
             0
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20322: {
         "alias_name": "溟海御波实际伤害",
@@ -32929,7 +33628,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "溟海御波",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             130,
             237,
@@ -32963,7 +33661,8 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20323: {
         "alias_name": "逐波灵游实际伤害",
@@ -32990,7 +33689,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "逐波灵游",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             67,
             122,
@@ -33024,7 +33722,8 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20684: {
         "alias_name": "海运南冥10尺伤害",
@@ -33051,7 +33750,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "海运南冥",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             125,
             228,
@@ -33085,7 +33783,8 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20685: {
         "alias_name": "海运南冥5尺伤害",
@@ -33112,7 +33811,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "海运南冥",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             167,
             304,
@@ -33146,7 +33844,8 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1
     },
     20734: {
         "alias_name": " 定波砥澜浪潮二段伤害",
@@ -33162,14 +33861,14 @@ SKILLS = {
         ],
         "max_level": 4,
         "skill_name": "定波砥澜",
-        "weapon_damage_cof": 100.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             100,
             150,
             200,
             250
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 100.0
     },
     25783: {
         "alias_name": "110级CW新增特效蓬莱",
@@ -33180,8 +33879,8 @@ SKILLS = {
         "channel_interval": 50.0,
         "max_level": 1,
         "skill_name": "木落雁归·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     31250: {
         "alias_name": "镜壁4尺风车伤害复制",
@@ -33208,7 +33907,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "振翅图南",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             67,
@@ -33242,7 +33940,8 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1
     },
     32478: {
         "alias_name": "风驰_驰风震域引爆伤害",
@@ -33253,9 +33952,9 @@ SKILLS = {
         "channel_interval": 540.0,
         "max_level": 1,
         "skill_name": "风驰",
-        "physical_damage_call": 1,
         "physical_damage_base": 130,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     32815: {
         "alias_name": "蓬莱破招子技能",
@@ -33289,15 +33988,15 @@ SKILLS = {
         ],
         "max_level": 4,
         "skill_name": "定波砥澜",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             90,
             86,
             130,
             130
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32595: {
         "alias_name": "怒翼_实际伤害",
@@ -33308,9 +34007,9 @@ SKILLS = {
         "channel_interval": 180.57600000000002,
         "max_level": 1,
         "skill_name": "怒翼",
-        "physical_damage_call": 1,
         "physical_damage_base": 73,
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1
     },
     38675: {
         "alias_name": "新青冥持续伤害",
@@ -33338,11 +34037,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "击水三千·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 268,
         "surplus_cof": 1024,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102092: {
@@ -33353,11 +34052,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "击水三千·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 298,
         "surplus_cof": 1147,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102093: {
@@ -33368,11 +34067,11 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "击水三千·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 327,
         "surplus_cof": 1249,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102134: {
@@ -33383,9 +34082,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "振翅图南·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 88,
-        "physical_damage_base": 1
+        "skill_cof": 88
     },
     102173: {
         "alias_name": "移动端_振翅图南_秘籍_额外伤害",
@@ -33395,9 +34094,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "振翅图南·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 306,
-        "physical_damage_base": 1
+        "skill_cof": 306
     },
     102145: {
         "alias_name": "移动端_澹然若海_龙卷_伤害",
@@ -33407,9 +34106,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "澹然若海·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 109,
-        "physical_damage_base": 1
+        "skill_cof": 109
     },
     102111: {
         "alias_name": "移动端_澹然若海",
@@ -33419,10 +34118,10 @@ SKILLS = {
         "recipe_mask": 16,
         "max_level": 1,
         "skill_name": "澹然若海·悟",
-        "weapon_damage_cof": 2048.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 783,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 2048.0,
+        "skill_cof": 783
     },
     102161: {
         "alias_name": "移动端_定波砥澜_秘籍",
@@ -33432,11 +34131,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "定波砥澜·悟",
-        "weapon_damage_cof": 2048.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0,
         "skill_cof": 808,
         "surplus_cof": 3103,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102103: {
@@ -33447,10 +34146,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "溟海御波·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 386,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 386
     },
     102228: {
         "alias_name": "移动端_溟海御波_贰式",
@@ -33460,10 +34159,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "溟海御波·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 399,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 399
     },
     102104: {
         "alias_name": "移动端_逐波灵游",
@@ -33473,10 +34172,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "逐波灵游·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 522,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 522
     },
     22126: {
         "alias_name": "普通攻击_链刃",
@@ -33487,8 +34186,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "碎风刃",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32822: {
         "alias_name": "凌雪破招伤害子技能",
@@ -33545,8 +34244,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "星垂平野",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -33612,7 +34309,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22550: {
         "alias_name": "星垂平野二段AOE",
@@ -33655,8 +34354,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "星垂平野",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -33722,7 +34419,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22551: {
         "alias_name": "星垂平野三段AOE",
@@ -33765,8 +34464,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "星垂平野",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -33832,7 +34529,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22298: {
         "alias_name": "星垂平野链接额外伤害",
@@ -33875,8 +34574,6 @@ SKILLS = {
         ],
         "max_level": 31,
         "skill_name": "星垂平野",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             40,
             55,
@@ -33942,7 +34639,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22621: {
         "alias_name": "金戈回澜正常伤害",
@@ -33976,8 +34675,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "金戈回澜",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             87,
             134,
@@ -34025,7 +34722,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     22620: {
         "alias_name": "金戈回澜远距离额外伤害",
@@ -34059,8 +34758,6 @@ SKILLS = {
         ],
         "max_level": 22,
         "skill_name": "金戈回澜",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             87,
             134,
@@ -34108,7 +34805,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22610: {
         "alias_name": "隐风雷短距离伤害",
@@ -34138,8 +34837,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "隐风雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             180,
@@ -34179,7 +34876,9 @@ SKILLS = {
             37,
             39,
             41
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22611: {
         "alias_name": "隐风雷长距离伤害",
@@ -34209,8 +34908,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "隐风雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             180,
@@ -34250,7 +34947,9 @@ SKILLS = {
             37,
             39,
             41
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22612: {
         "alias_name": "隐风雷长距离额外伤害",
@@ -34280,8 +34979,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "隐风雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             180,
@@ -34321,7 +35018,9 @@ SKILLS = {
             37,
             39,
             41
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22604: {
         "alias_name": "寂洪荒远距离伤害",
@@ -34365,8 +35064,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "寂洪荒",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -34434,7 +35131,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     22605: {
         "alias_name": "寂洪荒远距离额外伤害",
@@ -34478,8 +35177,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "寂洪荒",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -34547,7 +35244,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22490: {
         "alias_name": "乱天狼伤害远距离子技能",
@@ -34574,8 +35273,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "乱天狼",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             67,
@@ -34609,7 +35306,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22554: {
         "alias_name": "乱天狼远距离额外伤害",
@@ -34636,8 +35335,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "乱天狼",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             67,
@@ -34671,7 +35368,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     25314: {
         "alias_name": "遗恨伤害子技能",
@@ -34682,9 +35381,9 @@ SKILLS = {
         "channel_interval": 206.31,
         "max_level": 1,
         "skill_name": "遗恨",
-        "physical_damage_call": 1,
         "physical_damage_base": 133,
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1
     },
     34981: {
         "alias_name": "凌雪阁跳跃寂洪荒额外伤害",
@@ -34695,9 +35394,9 @@ SKILLS = {
         "channel_interval": 525.0,
         "max_level": 1,
         "skill_name": "寂洪荒·风骨",
-        "physical_damage_call": 1,
         "physical_damage_base": 300,
-        "physical_damage_rand": 35
+        "physical_damage_rand": 35,
+        "physical_damage_call": 1
     },
     29751: {
         "alias_name": "飞刃回转实际伤害",
@@ -34708,9 +35407,9 @@ SKILLS = {
         "channel_interval": 126.5,
         "max_level": 1,
         "skill_name": "飞刃回转",
-        "physical_damage_call": 1,
         "physical_damage_base": 77,
-        "physical_damage_rand": 25
+        "physical_damage_rand": 25,
+        "physical_damage_call": 1
     },
     22761: {
         "alias_name": "青山共我撞上黑洞大量伤害",
@@ -34721,9 +35420,9 @@ SKILLS = {
         "channel_interval": 184.87190700000005,
         "max_level": 1,
         "skill_name": "山河渊隙",
-        "physical_damage_call": 1,
         "physical_damage_base": 272,
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     25784: {
         "alias_name": "110级CW新增特效凌雪阁",
@@ -34734,8 +35433,8 @@ SKILLS = {
         "channel_interval": 50.0,
         "max_level": 1,
         "skill_name": "寂洪荒·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     22359: {
         "alias_name": "斩无常伤害技能",
@@ -34755,8 +35454,6 @@ SKILLS = {
         ],
         "max_level": 8,
         "skill_name": "斩无常",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             45,
@@ -34776,7 +35473,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36265: {
         "alias_name": "乱天狼远距离遗恨伤害子技能",
@@ -34803,8 +35502,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "乱天狼",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             67,
@@ -34838,7 +35535,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36266: {
         "alias_name": "乱天狼远距离遗恨副手伤害子技能",
@@ -34865,8 +35564,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "乱天狼",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             67,
@@ -34900,7 +35597,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36267: {
         "alias_name": "寂洪荒远距遗恨伤害子技能",
@@ -34944,8 +35643,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "寂洪荒",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -35013,7 +35710,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     36268: {
         "alias_name": "寂洪荒遗恨远距离副手伤害子技能",
@@ -35057,8 +35756,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "寂洪荒",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -35126,7 +35823,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36269: {
         "alias_name": "隐风雷远距离遗恨伤害子技能",
@@ -35156,8 +35855,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "隐风雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             180,
@@ -35197,7 +35894,9 @@ SKILLS = {
             37,
             39,
             41
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     36270: {
         "alias_name": "远距离遗恨隐风雷副手伤害子技能",
@@ -35227,8 +35926,6 @@ SKILLS = {
         ],
         "max_level": 18,
         "skill_name": "隐风雷",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             160,
             180,
@@ -35268,7 +35965,9 @@ SKILLS = {
             37,
             39,
             41
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22330: {
         "alias_name": "寂洪荒附带持续伤害",
@@ -35342,8 +36041,6 @@ SKILLS = {
         ],
         "max_level": 10,
         "skill_name": "幽冥窥月",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             67,
             152,
@@ -35356,7 +36053,9 @@ SKILLS = {
             748,
             833
         ],
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     22328: {
         "alias_name": "寂洪荒普通伤害",
@@ -35400,8 +36099,6 @@ SKILLS = {
         ],
         "max_level": 32,
         "skill_name": "寂洪荒",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             33,
             45,
@@ -35469,7 +36166,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     25512: {
         "alias_name": "普通攻击_魂灯",
@@ -35480,8 +36179,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "魂击",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     24454: {
         "alias_name": "卦象·火离实际伤害",
@@ -36974,8 +37673,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "裁叶饮刃",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32841: {
         "alias_name": "无方破招伤害子技能",
@@ -38305,8 +39004,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "云刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32975: {
         "alias_name": "横刀双持普通攻击",
@@ -38317,8 +39016,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "云刀",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     33146: {
         "alias_name": "刀宗破招子技能",
@@ -38347,8 +39046,6 @@ SKILLS = {
         ],
         "max_level": 6,
         "skill_name": "避实击虚",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             42,
@@ -38357,7 +39054,9 @@ SKILLS = {
             55,
             60
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32246: {
         "alias_name": "留客雨实际伤害",
@@ -38396,8 +39095,6 @@ SKILLS = {
         ],
         "max_level": 27,
         "skill_name": "留客雨",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             38,
             46,
@@ -38455,7 +39152,9 @@ SKILLS = {
             16,
             16,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32766: {
         "alias_name": "触石雨伤害效果",
@@ -38469,8 +39168,6 @@ SKILLS = {
         ],
         "max_level": 2,
         "skill_name": "触石雨",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             180,
             200
@@ -38478,7 +39175,9 @@ SKILLS = {
         "physical_damage_rand": [
             15,
             30
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32149: {
         "alias_name": "行云势实际伤害一段",
@@ -38520,8 +39219,6 @@ SKILLS = {
         ],
         "max_level": 30,
         "skill_name": "行云势·一",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             42,
@@ -38585,7 +39282,9 @@ SKILLS = {
             15,
             15,
             15
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32150: {
         "alias_name": "行云势实际伤害二段",
@@ -38627,8 +39326,6 @@ SKILLS = {
         ],
         "max_level": 30,
         "skill_name": "行云势·二",
-        "weapon_damage_cof": 1536.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             42,
             50,
@@ -38692,7 +39389,9 @@ SKILLS = {
             18,
             18,
             18
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1536.0
     },
     32151: {
         "alias_name": "行云势实际伤害三段",
@@ -38734,8 +39433,6 @@ SKILLS = {
         ],
         "max_level": 30,
         "skill_name": "行云势·三",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             52,
             63,
@@ -38799,7 +39496,9 @@ SKILLS = {
             22,
             22,
             22
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     32154: {
         "alias_name": "决云势实际伤害",
@@ -38816,8 +39515,6 @@ SKILLS = {
         ],
         "max_level": 5,
         "skill_name": "决云势",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             133,
             150,
@@ -38825,7 +39522,9 @@ SKILLS = {
             180,
             196
         ],
-        "physical_damage_rand": 6
+        "physical_damage_rand": 6,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     32167: {
         "alias_name": "断云势实际伤害",
@@ -38851,8 +39550,6 @@ SKILLS = {
         ],
         "max_level": 14,
         "skill_name": "断云势",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             93,
             96,
@@ -38884,7 +39581,9 @@ SKILLS = {
             22,
             22,
             22
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     32348: {
         "alias_name": "断云势逆斩杀伤害",
@@ -38910,8 +39609,6 @@ SKILLS = {
         ],
         "max_level": 14,
         "skill_name": "断云势",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             37,
             38,
@@ -38943,7 +39640,9 @@ SKILLS = {
             9,
             9,
             9
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     32602: {
         "alias_name": "沧浪三叠扇形子技能一段",
@@ -38980,8 +39679,6 @@ SKILLS = {
         ],
         "max_level": 25,
         "skill_name": "沧浪三叠·一",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             60,
             68,
@@ -39035,7 +39732,9 @@ SKILLS = {
             16,
             16,
             16
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     32603: {
         "alias_name": "沧浪三叠扇形子技能二段",
@@ -39072,8 +39771,6 @@ SKILLS = {
         ],
         "max_level": 25,
         "skill_name": "沧浪三叠·二",
-        "weapon_damage_cof": 2560.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             79,
             89,
@@ -39127,7 +39824,9 @@ SKILLS = {
             21,
             21,
             21
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2560.0
     },
     32604: {
         "alias_name": "沧浪三叠扇形子技能三段",
@@ -39164,8 +39863,6 @@ SKILLS = {
         ],
         "max_level": 25,
         "skill_name": "沧浪三叠·三",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             87,
             97,
@@ -39219,7 +39916,9 @@ SKILLS = {
             23,
             23,
             23
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32891: {
         "alias_name": "破浪三式额外25%无视减伤",
@@ -39243,8 +39942,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39272,7 +39969,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32892: {
         "alias_name": "破浪三式额外30%无视减伤",
@@ -39296,8 +39995,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39325,7 +40022,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32357: {
         "alias_name": "门派轻功后撤伤害",
@@ -39336,9 +40035,9 @@ SKILLS = {
         "channel_interval": 45.0,
         "max_level": 1,
         "skill_name": "驰风八步",
-        "physical_damage_call": 1,
         "physical_damage_base": 10,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     36118: {
         "alias_name": "刀宗墨圈子伤害子技能1",
@@ -39352,9 +40051,9 @@ SKILLS = {
             "潋风·携刃",
             "潋风·拓锋"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": 78,
-        "physical_damage_rand": 10
+        "physical_damage_rand": 10,
+        "physical_damage_call": 1
     },
     33239: {
         "alias_name": "刀宗新cw特效行云额外伤害",
@@ -39365,8 +40064,8 @@ SKILLS = {
         "channel_interval": 60.0,
         "max_level": 1,
         "skill_name": "行云势·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     34695: {
         "alias_name": "刀气爆炸伤害子技能",
@@ -39377,9 +40076,9 @@ SKILLS = {
         "channel_interval": 487.0250000000001,
         "max_level": 1,
         "skill_name": "界破",
-        "physical_damage_call": 1,
         "physical_damage_base": 160,
-        "physical_damage_rand": 317
+        "physical_damage_rand": 317,
+        "physical_damage_call": 1
     },
     32591: {
         "alias_name": "残留刀气实际伤害",
@@ -39396,7 +40095,6 @@ SKILLS = {
             "截辕",
             "截辕·破碎"
         ],
-        "physical_damage_call": 1,
         "physical_damage_base": [
             77,
             109
@@ -39404,7 +40102,8 @@ SKILLS = {
         "physical_damage_rand": [
             25,
             38
-        ]
+        ],
+        "physical_damage_call": 1
     },
     32234: {
         "alias_name": "破浪三式二式实际伤害",
@@ -39433,8 +40132,6 @@ SKILLS = {
         ],
         "max_level": 17,
         "skill_name": "横云断浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             328,
             352,
@@ -39472,7 +40169,9 @@ SKILLS = {
             81,
             84,
             88
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32235: {
         "alias_name": "破浪三式常规无视减伤",
@@ -39496,8 +40195,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39525,7 +40222,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32236: {
         "alias_name": "破浪三式额外5%无视减伤",
@@ -39549,8 +40248,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39578,7 +40275,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32237: {
         "alias_name": "破浪三式额外10%无视减伤",
@@ -39602,8 +40301,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39631,7 +40328,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32238: {
         "alias_name": "破浪三式额外15%无视减伤",
@@ -39655,8 +40354,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39684,7 +40381,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     32239: {
         "alias_name": "破浪三式额外20%无视减伤",
@@ -39708,8 +40407,6 @@ SKILLS = {
         ],
         "max_level": 12,
         "skill_name": "孤锋破浪",
-        "weapon_damage_cof": 3072.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             450,
             490,
@@ -39737,7 +40434,9 @@ SKILLS = {
             75,
             75,
             75
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 3072.0
     },
     33133: {
         "alias_name": "刀气流血效果",
@@ -40026,10 +40725,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "行云势·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 306,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 306
     },
     102083: {
         "alias_name": "移动端_行云三折_3段",
@@ -40039,10 +40738,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "行云势·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 314,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 314
     },
     101381: {
         "alias_name": "移动端_行云三折",
@@ -40052,10 +40751,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "行云势·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 300,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 300
     },
     101393: {
         "alias_name": "移动端_停云势",
@@ -40065,10 +40764,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "停云势·悟",
-        "weapon_damage_cof": 2048.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 885,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 2048.0,
+        "skill_cof": 885
     },
     101395: {
         "alias_name": "移动端_孤风破浪",
@@ -40078,10 +40777,10 @@ SKILLS = {
         "recipe_mask": 16,
         "max_level": 1,
         "skill_name": "孤锋破浪·悟",
-        "weapon_damage_cof": 2048.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 957,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 2048.0,
+        "skill_cof": 957
     },
     102220: {
         "alias_name": "移动端_断云势",
@@ -40091,11 +40790,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "横云势·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 319,
         "surplus_cof": 1219,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101385: {
@@ -40106,9 +40805,9 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "横云势·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 191,
-        "physical_damage_base": 1
+        "skill_cof": 191
     },
     101528: {
         "alias_name": "移动端_孤风破浪_每跳实际伤害",
@@ -40118,10 +40817,10 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "孤锋破浪·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 538,
-        "dot_cof": 864,
-        "physical_damage_base": 1
+        "dot_cof": 864
     },
     102222: {
         "alias_name": "移动端_孤锋诀_加流血通用子技能",
@@ -40140,10 +40839,10 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "留客雨·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 512,
-        "physical_damage_base": 1
+        "weapon_damage_cof": 1024.0,
+        "skill_cof": 512
     },
     35894: {
         "alias_name": "普通攻击_弓箭",
@@ -40154,8 +40853,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "风矢",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     35866: {
         "alias_name": "万灵山庄_劲风簇伤害子技能",
@@ -40182,8 +40881,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "劲风簇",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             35,
             70,
@@ -40201,7 +40898,9 @@ SKILLS = {
             315,
             333
         ],
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     39092: {
         "alias_name": "万灵集雨簇伤害真正子技能下发",
@@ -40228,8 +40927,6 @@ SKILLS = {
         ],
         "max_level": 15,
         "skill_name": "饮羽簇",
-        "weapon_damage_cof": 2048.0,
-        "physical_damage_call": 1,
         "physical_damage_base": [
             77,
             154,
@@ -40263,7 +40960,9 @@ SKILLS = {
             10,
             10,
             10
-        ]
+        ],
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 2048.0
     },
     36157: {
         "alias_name": "万灵山庄_贯侯引爆额外伤害",
@@ -40274,9 +40973,9 @@ SKILLS = {
         "channel_interval": 553.7664,
         "max_level": 1,
         "skill_name": "标鹄",
-        "physical_damage_call": 1,
         "physical_damage_base": 30,
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36177: {
         "alias_name": "万灵山庄_破招伤害子技能",
@@ -40302,9 +41001,9 @@ SKILLS = {
         "channel_interval": 442.72800000000007,
         "max_level": 1,
         "skill_name": "朝仪万汇",
-        "physical_damage_call": 1,
         "physical_damage_base": 37,
-        "physical_damage_rand": 5
+        "physical_damage_rand": 5,
+        "physical_damage_call": 1
     },
     36579: {
         "alias_name": "万灵山庄橙武额外伤害",
@@ -40315,8 +41014,8 @@ SKILLS = {
         "channel_interval": 60.0,
         "max_level": 1,
         "skill_name": "劲风簇·神兵",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     36580: {
         "alias_name": "万灵山庄橙武特效期间额外伤害",
@@ -40327,8 +41026,8 @@ SKILLS = {
         "channel_interval": 468.0,
         "max_level": 1,
         "skill_name": "月弦激星",
-        "physical_damage_call": 1,
-        "physical_damage_rand": 2
+        "physical_damage_rand": 2,
+        "physical_damage_call": 1
     },
     36165: {
         "alias_name": "万灵山庄_引爆贯穿",
@@ -40389,7 +41088,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "践踏",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             44,
@@ -40403,7 +41101,8 @@ SKILLS = {
             268,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36057: {
         "alias_name": "万灵山庄_召唤兽控制技能",
@@ -40426,7 +41125,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "重击",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             44,
@@ -40440,7 +41138,8 @@ SKILLS = {
             268,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36111: {
         "alias_name": "万灵山庄_追击型普攻",
@@ -40463,7 +41162,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "攻击",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             44,
@@ -40477,7 +41175,8 @@ SKILLS = {
             268,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36112: {
         "alias_name": "万灵山庄_强击型普攻",
@@ -40500,7 +41199,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "攻击",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             48,
             132,
@@ -40514,7 +41212,8 @@ SKILLS = {
             804,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36113: {
         "alias_name": "万灵山庄_飞行型普攻",
@@ -40537,7 +41236,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "攻击",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             44,
@@ -40551,7 +41249,8 @@ SKILLS = {
             268,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     36114: {
         "alias_name": "万灵山庄_防御型普攻",
@@ -40574,7 +41273,6 @@ SKILLS = {
         ],
         "max_level": 11,
         "skill_name": "攻击",
-        "physical_damage_call": 1,
         "physical_damage_base": [
             16,
             44,
@@ -40588,7 +41286,8 @@ SKILLS = {
             268,
             296
         ],
-        "physical_damage_rand": 20
+        "physical_damage_rand": 20,
+        "physical_damage_call": 1
     },
     102019: {
         "alias_name": "移动端_劲风簇_贰式_伤害",
@@ -40598,10 +41297,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "劲风簇·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 108,
         "surplus_cof": 412,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102018: {
@@ -40612,10 +41311,10 @@ SKILLS = {
         "recipe_mask": 1,
         "max_level": 1,
         "skill_name": "劲风簇·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
         "skill_cof": 277,
         "surplus_cof": 1063,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102037: {
@@ -40626,9 +41325,9 @@ SKILLS = {
         "recipe_mask": 0,
         "max_level": 1,
         "skill_name": "白虹贯日·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 2252,
-        "physical_damage_base": 1
+        "skill_cof": 2252
     },
     102027: {
         "alias_name": "移动端_饮雨簇_贰式_伤害",
@@ -40638,11 +41337,11 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "饮雨簇·悟",
-        "weapon_damage_cof": 205.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 205.0,
         "skill_cof": 125,
         "surplus_cof": 479,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     101998: {
@@ -40653,11 +41352,11 @@ SKILLS = {
         "recipe_mask": 68,
         "max_level": 1,
         "skill_name": "饮雨簇·悟",
-        "weapon_damage_cof": 1024.0,
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0,
         "skill_cof": 269,
         "surplus_cof": 1032,
-        "physical_damage_base": 1,
         "physical_surplus_call": 1
     },
     102035: {
@@ -40668,9 +41367,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "朝仪万汇·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 184,
-        "physical_damage_base": 1
+        "skill_cof": 184
     },
     102211: {
         "alias_name": "移动端_万灵_动物_流血",
@@ -40689,9 +41388,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "野豕叱虎·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 426,
-        "physical_damage_base": 1
+        "skill_cof": 426
     },
     102029: {
         "alias_name": "移动端_携行动物_野猪_贰式_虎_伤害",
@@ -40701,9 +41400,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "野豕叱虎·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 423,
-        "physical_damage_base": 1
+        "skill_cof": 423
     },
     102030: {
         "alias_name": "移动端_携行动物_鹰_伤害",
@@ -40713,9 +41412,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "疾隼驰狼·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 437,
-        "physical_damage_base": 1
+        "skill_cof": 437
     },
     102031: {
         "alias_name": "移动端_携行动物_鹰_贰式_狼_伤害",
@@ -40725,9 +41424,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "疾隼驰狼·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 477,
-        "physical_damage_base": 1
+        "skill_cof": 477
     },
     102032: {
         "alias_name": "移动端_携行动物_熊_伤害",
@@ -40737,9 +41436,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "巨熊龙象·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 418,
-        "physical_damage_base": 1
+        "skill_cof": 418
     },
     102033: {
         "alias_name": "移动端_携行动物_熊_贰式大象_伤害",
@@ -40749,9 +41448,9 @@ SKILLS = {
         "recipe_mask": 4,
         "max_level": 1,
         "skill_name": "巨熊龙象·悟",
+        "physical_damage_base": 1,
         "physical_damage_call": 1,
-        "skill_cof": 413,
-        "physical_damage_base": 1
+        "skill_cof": 413
     },
     38034: {
         "alias_name": "普通攻击_扇子",
@@ -40762,8 +41461,8 @@ SKILLS = {
         "channel_interval": 16.0,
         "max_level": 1,
         "skill_name": "云合扇法",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
+        "physical_damage_call": 1,
+        "weapon_damage_cof": 1024.0
     },
     37804: {
         "alias_name": "骤风实际伤害子技能",

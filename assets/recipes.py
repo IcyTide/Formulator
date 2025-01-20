@@ -3691,6 +3691,28 @@ RECIPES = {
             "recipe_name": "【小橙武】【傍身招式】会心提高3%（焚影·赤日轮+幽月轮）"
         }
     },
+    4489: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 3967,
+            "recipe_type": 3967,
+            "recipe_name": "双消耗_月破伤害提高"
+        }
+    },
+    5557: {
+        1: {
+            "damage_addition": 102,
+            "recipe_type": 3962,
+            "recipe_name": "烈日buff_日轮加伤害"
+        }
+    },
+    1974: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 3973,
+            "recipe_name": "PVE防御2件套_明尊"
+        }
+    },
     1340: {
         1: {
             "damage_addition": 31,

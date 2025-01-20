@@ -5,8 +5,8 @@ from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
 from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
 from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
-from qt.components.equipments import EquipmentsWidget
 from kungfus.wen_shui_jue.gains import SecondaryWeapon
+from qt.components.equipments import EquipmentsWidget
 
 
 class Enchant:
@@ -106,13 +106,16 @@ class Equipment:
     @property
     def magic_attr_content(self):
         if strength_attr := self.strength_attr:
-            return [[ATTR_TYPE_TRANSLATE[k], f"{v}(+{strength_attr[k]})"] for k, v in self.magic_attr.items()]
+            return [
+                [ATTR_TYPE_TRANSLATE[k], f"{v}(+{strength_attr[k]})"]
+                for k, v in self.magic_attr.items() if k in ATTR_TYPE_TRANSLATE
+            ]
         else:
-            return [[ATTR_TYPE_TRANSLATE[k], f"{v}"] for k, v in self.magic_attr.items()]
+            return [[ATTR_TYPE_TRANSLATE[k], f"{v}"] for k, v in self.magic_attr.items() if k in ATTR_TYPE_TRANSLATE]
 
     @property
     def embed_attr_content(self):
-        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.embed_attr.items()]
+        return [[ATTR_TYPE_TRANSLATE[k], str(v)] for k, v in self.embed_attr.items() if k in ATTR_TYPE_TRANSLATE]
 
 
 class Equipments:
@@ -241,6 +244,42 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 embed_level.combo_box.setCurrentIndex(index)
 
     equipments_widget.all_embed_level.combo_box.currentIndexChanged.connect(all_embed_level_update)
+
+    def school_filter_update(label):
+        widget = equipments_widget[label]
+
+        def inner(_):
+            school = widget.school.combo_box.currentText()
+            if not school:
+                widget.kind.combo_box.clear()
+            else:
+                choices = [""]
+                for name, detail in widget.equipment_data.items():
+                    if school and detail['school'] != school:
+                        continue
+                    if detail['kind'] not in choices:
+                        choices.append(detail['kind'])
+                widget.kind.set_items(choices, keep_content=True)
+
+        return inner
+
+    def kind_filter_update(label):
+        widget = equipments_widget[label]
+
+        def inner(_):
+            school = widget.school.combo_box.currentText()
+            kind = widget.kind.combo_box.currentText()
+            choices = [""]
+            for name, detail in widget.equipment_data.items():
+                if school and detail['school'] != school:
+                    continue
+                if kind and detail['kind'] != kind:
+                    continue
+                choices.append(name)
+            widget.equipment.combo_box.clear()
+            widget.equipment.set_items(choices, keep_content=True)
+
+        return inner
 
     def equipment_update(label):
         widget = equipments_widget[label]
@@ -380,7 +419,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         return inner
 
     for equipment_label, equipment_widget in equipments_widget.items():
-
+        equipment_widget.school.combo_box.currentTextChanged.connect(school_filter_update(equipment_label))
+        equipment_widget.kind.combo_box.currentTextChanged.connect(kind_filter_update(equipment_label))
         equipment_widget.equipment.combo_box.currentTextChanged.connect(equipment_update(equipment_label))
         if equipment_widget.special_enchant:
             equipment_widget.special_enchant.radio_button.clicked.connect(special_enchant_update(equipment_label))

@@ -51,7 +51,7 @@ class Calculator:
     counts: Dict[str, Dict[int, int]]
     probs: Dict[str, Dict[int, float]]
 
-    def __init__(self, epoch: int = 1000000, seed: int = 0):
+    def __init__(self, epoch: int = 100000, seed: int = 0):
         self.epoch = epoch
         self.dice = random.Random(seed)
         self.kungfu2mask = json.load(open("kungfu2mask.json", "r", encoding="utf-8"))
@@ -131,13 +131,12 @@ class Calculator:
             for _ in range(self.epoch):
                 cooldown = 0
                 for frame, count in counts.items():
+                    count = 3
                     if not count or cooldown > frame:
                         continue
-                    for _ in range(count):
-                        if self.dice.random() < event_prob:
-                            probs[frame] += 1
-                            cooldown = frame + self.interval
-                            break
+                    if self.dice.random() < (1 - (1 - event_prob) ** count):
+                        probs[frame] += 1
+                        cooldown = frame + self.interval
             self.probs[player_name] = {k: v / self.epoch for k, v in probs.items()}
 
     def calculate_interval(self, tag):
@@ -148,16 +147,10 @@ class Calculator:
             # event_prob = 1
             for frame, count in counts.items():
                 if not count:
+                    probs[frame] = 0
                     continue
-                probs[frame] = [probs[frame]] * count
-                for t in range(count):
-                    probs[frame][t] *= event_prob
-                    for i in range(t + 1, count):
-                        probs[frame][i] *= 1 - probs[frame][t]
-                n_prob = 1
-                for prob in probs[frame]:
-                    n_prob *= (1 - prob)
-                probs[frame] = 1 - n_prob
+                prob = 1 - (1 - event_prob) ** count
+                probs[frame] *= prob
                 for i in range(frame + 1, frame + self.interval):
                     if i not in probs:
                         continue
@@ -222,7 +215,7 @@ def plot(data):
 
 
 if __name__ == '__main__':
-    build_mapping()
+    # build_mapping()
     calculator = Calculator()
     result = calculator("logs/dj-1.jcl", 1)
     plot(result)

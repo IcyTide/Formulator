@@ -98,8 +98,10 @@ def dashboard_script(parser: Parser,
         dashboard_widget.init_attribute.set_content(attr_content(analyzer.attribute))
         analyzer.add_gains(bonuses.gains)
         analyzer.add_attrs(consumables.attrs)
-        analyzer.add_gains(equipment_gains)
-        analyzer.add_recipes(equipment_recipes)
+        if not_support_gains := analyzer.add_gains(equipment_gains):
+            dashboard_widget.pop_warning(f"以下装备特效未支持：{';'.join(not_support_gains)}")
+        if not_support_recipes := analyzer.add_recipes(equipment_recipes):
+            dashboard_widget.pop_warning(f"以下装备秘籍未支持：{';'.join(not_support_recipes)}")
         if not kungfu.platform:
             analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains])
             analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
@@ -140,19 +142,19 @@ def dashboard_script(parser: Parser,
 
     def set_skills():
         detail_widget = dashboard_widget.detail_widget
-        detail_widget.skill_combo.set_items(list(detail_widget.details), keep_index=True, default_index=-1)
+        detail_widget.skill_combo.set_items(list(detail_widget.details), keep_content=True, default_index=-1)
         set_status(None)
 
     def set_anomaly_skills():
         anomaly_widget = dashboard_widget.anomaly_widget
-        anomaly_widget.skill_combo.set_items(list(anomaly_widget.details), keep_index=True, default_index=-1)
+        anomaly_widget.skill_combo.set_items(list(anomaly_widget.details), keep_content=True, default_index=-1)
         set_anomaly_status(None)
 
     def set_status(_):
         detail_widget = dashboard_widget.detail_widget
         skill = detail_widget.skill_combo.combo_box.currentText()
         detail_widget.status_combo.set_items(
-            list(detail_widget.details.get(skill, {})), keep_index=True, default_index=-1
+            list(detail_widget.details.get(skill, {})), keep_content=True, default_index=-1
         )
         set_detail(None)
 
@@ -162,7 +164,7 @@ def dashboard_script(parser: Parser,
         anomaly_widget = dashboard_widget.anomaly_widget
         skill = anomaly_widget.skill_combo.combo_box.currentText()
         anomaly_widget.status_combo.set_items(
-            list(anomaly_widget.details.get(skill, {})), keep_index=True, default_index=-1
+            list(anomaly_widget.details.get(skill, {})), keep_content=True, default_index=-1
         )
         set_anomaly_detail(None)
 

@@ -29,7 +29,7 @@ def top_script(
             return
         parser(file_name[0])
         top_widget.player_select.set_items(
-            [parser.id2name[player_id] for player_id in parser.players], keep_index=True, default_index=0
+            [parser.id2name[player_id] for player_id in parser.players], default_index=0
         )
         top_widget.player_select.show()
         top_widget.target_select.show()
@@ -84,8 +84,7 @@ def top_script(
         player_id = parser.name2id[player_name]
         parser.current_player = player_id
         top_widget.target_select.set_items(
-            [""] + [parser.id2name[target_id] for target_id in parser.current_targets],
-            keep_index=True, default_index=0
+            [""] + [parser.id2name[target_id] for target_id in parser.current_targets], default_index=0
         )
         kungfu = parser.players[player_id]
         """ Update config """
@@ -121,15 +120,6 @@ def top_script(
 
         """ Update equipment options """
         for label, equipment_widget in equipments_widget.items():
-            choices = [""]
-            for name, detail in equipment_widget.equipment_data.items():
-                if detail['kind'] not in (kungfu.kind, kungfu.major):
-                    continue
-                if detail['school'] not in ("精简", "通用", kungfu.school):
-                    continue
-                choices.append(name)
-            equipment_widget.equipment.combo_box.clear()
-            equipment_widget.equipment.set_items(choices)
             if equipment_widget.enchant:
                 equipment_widget.enchant.combo_box.setCurrentIndex(0)
             if equipment_widget.stones_data:
@@ -138,6 +128,9 @@ def top_script(
                 equipment_widget.stone_level.combo_box.setCurrentIndex(current_index)
             if select_equipment := parser.select_equipments.get(player_id, {}).get(label, {}):
                 if equipment := equipment_widget.equipment_mapping.get(select_equipment['equipment']):
+                    equipment_detail = equipment_widget.equipment_data[equipment]
+                    equipment_widget.school.combo_box.setCurrentText(equipment_detail['school'])
+                    equipment_widget.kind.combo_box.setCurrentText(equipment_detail['kind'])
                     if equipment in equipment_widget.equipment.items:
                         equipment_widget.equipment.combo_box.setCurrentText(equipment)
                 if enchant := equipment_widget.enchant_mapping.get(select_equipment['enchant']):
