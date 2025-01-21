@@ -24,29 +24,28 @@ def config_script(
         if not config:
             return
 
-        for label, equipment in equipments_widget.items():
+        for label, widget in equipments_widget.items():
             if 'equipment' not in config[label]:
                 continue
-            else:
-                index = equipment.equipment.combo_box.findText(config[label]['equipment'])
-                equipment.equipment.combo_box.setCurrentIndex(index)
+            equipment_detail = widget.equipment_data[config[label]['equipment']]
+            widget.school.combo_box.setCurrentText(equipment_detail['school'])
+            widget.kind.combo_box.setCurrentText(equipment_detail['kind'])
+            widget.equipment.combo_box.setCurrentText(config[label]['equipment'])
 
-            equipment.strength_level.combo_box.setCurrentIndex(config[label]['strength_level'])
+            widget.strength_level.combo_box.setCurrentIndex(config[label]['strength_level'])
             if 'enchant' in config[label]:
-                index = equipment.enchant.combo_box.findText(config[label]['enchant'])
-                equipment.enchant.combo_box.setCurrentIndex(index)
+                widget.enchant.combo_box.setCurrentText(config[label]['enchant'])
             if 'special_enchant' in config[label]:
-                if equipment.special_enchant.radio_button.isChecked() != config[label]['special_enchant']:
-                    equipment.special_enchant.radio_button.click()
+                if widget.special_enchant.radio_button.isChecked() != config[label]['special_enchant']:
+                    widget.special_enchant.radio_button.click()
             if 'embed_levels' in config[label]:
-                for i, embed_level in enumerate(equipment.embed_levels):
+                for i, embed_level in enumerate(widget.embed_levels):
                     embed_level.combo_box.setCurrentIndex(config[label]['embed_levels'][i])
             if 'stone_level' in config[label]:
-                equipment.stone_level.combo_box.setCurrentIndex(config[label]['stone_level'])
+                widget.stone_level.combo_box.setCurrentIndex(config[label]['stone_level'])
             if 'stone_attrs' in config[label]:
-                for i, stone_attr in enumerate(equipment.stone_attrs):
-                    index = equipment.stone_attrs[i].combo_box.findText(config[label]['stone_attrs'][i])
-                    stone_attr.combo_box.setCurrentIndex(index)
+                for i, stone_attr in enumerate(widget.stone_attrs):
+                    stone_attr.combo_box.setCurrentText(config[label]['stone_attrs'][i])
 
     def load_consumables(config):
         for label, consumable in consumable_widget.items():
@@ -174,7 +173,7 @@ def config_script(
         json.dump(CONFIG, open("config", "w", encoding="utf-8"), ensure_ascii=False)
 
         config_widget.config_select.set_items(
-            list(CONFIG.get(name, {})), keep_index=True, default_index=-1
+            list(CONFIG.get(name, {})), keep_content=True, default_index=-1
         )
 
     config_widget.save_config.clicked.connect(save_config)
