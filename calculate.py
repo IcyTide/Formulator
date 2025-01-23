@@ -127,11 +127,9 @@ class Calculator:
             player_name = self.id2name[player_id]
             probs = {frame: 0 for frame, count in counts.items()}
             event_prob = self.kungfu2prob[self.id2kungfu[player_id]][tag] / 1024
-            # event_prob = 1
             for _ in range(self.epoch):
                 cooldown = 0
                 for frame, count in counts.items():
-                    count = 3
                     if not count or cooldown > frame:
                         continue
                     if self.dice.random() < (1 - (1 - event_prob) ** count):
@@ -142,19 +140,13 @@ class Calculator:
     def calculate_interval(self, tag):
         for player_id, counts in self.counts.items():
             player_name = self.id2name[player_id]
-            probs = self.probs[player_name] = {frame: 1 for frame, count in counts.items()}
+            probs = self.probs[player_name] = {frame: 0 for frame, count in counts.items()}
             event_prob = self.kungfu2prob[self.id2kungfu[player_id]][tag] / 1024
-            # event_prob = 1
             for frame, count in counts.items():
                 if not count:
-                    probs[frame] = 0
                     continue
-                prob = 1 - (1 - event_prob) ** count
-                probs[frame] *= prob
-                for i in range(frame + 1, frame + self.interval):
-                    if i not in probs:
-                        continue
-                    probs[i] *= 1 - probs[frame]
+                suppress_prob = 1 - sum([p for f, p in probs.items() if f > frame - self.interval])
+                probs[frame] = (1 - (1 - event_prob) ** count) * suppress_prob
 
     def calculate_hybrid(self, tag):
         self.calculate_interval(tag)
@@ -180,7 +172,6 @@ class Calculator:
         elif tag == 1:
             self.interval = 30 * 16
             self.calculate_interval(tag)
-            # self.simulate_interval(tag)
         elif tag == 2:
             self.calculate(tag)
         elif tag == 3:

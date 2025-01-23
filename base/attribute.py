@@ -167,6 +167,19 @@ class Therapy(BaseMajor):
     therapy_base: int = 0
 
 
+class Defensive(BaseMajor):
+    parry_base: int = 0
+    parry_gain: int = 0
+
+    @property
+    def extra_parry(self):
+        return 0
+
+    @property
+    def parry(self):
+        return int(self.parry_base * (1 + self.parry_gain / BINARY_SCALE)) + self.extra_parry
+
+
 class AttackPower(BaseMajor):
     physical_attack_power_base: int = 0
     _magical_attack_power_base: int = 0
@@ -607,7 +620,7 @@ class Overcome(BaseMajor):
         return self.final_poison_overcome / OVERCOME_SCALE
 
 
-class Major(Therapy, AttackPower, CriticalStrike, Overcome):
+class Major(Therapy, Defensive, AttackPower, CriticalStrike, Overcome):
     max_life_base: int = 0
     max_life_add: int = 0
 

@@ -56,7 +56,9 @@ ATTRIBUTE_TYPE = {
     "SPUNK_TO_NEUTRAL_OVERCOME_COF": "spunk_to_neutral_overcome",
 
     "VITALITY_TO_SOLAR_ATTACK_POWER_COF": "vitality_to_solar_attack_power",
-    "VITALITY_TO_LUNAR_ATTACK_POWER_COF": "vitality_to_lunar_attack_power"
+    "VITALITY_TO_LUNAR_ATTACK_POWER_COF": "vitality_to_lunar_attack_power",
+    "VITALITY_TO_PHYSICS_ATTACK_POWER_COF": "vitality_to_physical_attack_power",
+    "VITALITY_TO_PARRY_VALUE_COF": "vitality_to_parry"
 }
 ATTRIBUTE_TYPE_CODE = "\n".join(f'{k}={i},' for i, k in enumerate(ATTRIBUTE_TYPE))
 ATTRIBUTE_TYPE_MAP = {i: v for i, v in enumerate(ATTRIBUTE_TYPE.values())}
