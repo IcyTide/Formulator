@@ -3713,6 +3713,20 @@ RECIPES = {
             "recipe_name": "PVE防御2件套_明尊"
         }
     },
+    1544: {
+        1: {
+            "skill_id": 3959,
+            "recipe_type": 3959,
+            "recipe_name": "90级明尊橙武属性1"
+        }
+    },
+    1545: {
+        1: {
+            "skill_id": 3962,
+            "recipe_type": 3962,
+            "recipe_name": "90级明尊橙武属性2"
+        }
+    },
     1340: {
         1: {
             "damage_addition": 31,

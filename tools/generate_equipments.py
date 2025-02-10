@@ -175,7 +175,7 @@ def filter_equip(row):
 
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.apply(filter_equip, axis=1)]
-    equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS + MAJORS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
+    equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
 
