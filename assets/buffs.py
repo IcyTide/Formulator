@@ -5568,9 +5568,16 @@ BUFFS = {
             },
             {
                 "physical_overcome_base": 36612
+            },
+            {},
+            {
+                "magical_overcome_base": 1044
+            },
+            {
+                "physical_overcome_base": 1044
             }
         ],
-        "max_level": 8,
+        "max_level": 11,
         "buff_name": [
             "风·灭虚",
             "风·斩流",
@@ -5579,6 +5586,9 @@ BUFFS = {
             "风·斩流",
             "风·百川",
             "风·灭虚",
+            "风·斩流",
+            "风·斩流",
+            "风·斩流",
             "风·斩流"
         ],
         "alias_name": [
@@ -5589,7 +5599,10 @@ BUFFS = {
             "2660028200拍卖腰坠风·斩流",
             "27800拍卖腰坠风·百川",
             "27800拍卖腰坠风·灭虚",
-            "27800拍卖腰坠风·斩流"
+            "27800拍卖腰坠风·斩流",
+            "27800世界boss腰坠风·百川",
+            "27800世界boss腰坠风·灭虚",
+            "27800世界boss腰坠风·斩流"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -8486,18 +8499,12 @@ BUFFS = {
     },
     1908: {
         "attributes": {
-            "magical_critical_power_rate": 200
+            "all_critical_power_rate": 328
         },
         "max_level": 5,
         "buff_name": "会神",
         "alias_name": "三才化生加20%会心伤害",
-        "max_stack": [
-            2,
-            1,
-            1,
-            1,
-            1
-        ],
+        "max_stack": 1,
         "recipes": {}
     },
     2757: {
@@ -9727,7 +9734,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 174
+            "pve_addition_base": 205
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",

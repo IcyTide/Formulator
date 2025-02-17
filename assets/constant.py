@@ -149,6 +149,8 @@ ATTR_TYPE_MAP = {
     "atNeutralCriticalDamagePowerBaseKiloNumRate": "neutral_critical_power_rate",
     "atPoisonCriticalDamagePowerBaseKiloNumRate": "poison_critical_power_rate",
 
+    "atUnlimitCriticalDamagePowerKiloNumRate": "all_critical_power_rate",
+
     "atSurplusValueBase": "surplus_base",
     "atSurplusValueAddPercent": "surplus_gain",
 

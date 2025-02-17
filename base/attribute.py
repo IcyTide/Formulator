@@ -639,6 +639,7 @@ class CriticalPower:
     neutral_critical_power_base: int = 0
     poison_critical_power_base: int = 0
 
+    _all_critical_power_rate: int = 0
     physical_critical_power_rate: int = 0
     _magical_critical_power_rate: int = 0
     solar_critical_power_rate: int = 0
@@ -660,6 +661,17 @@ class CriticalPower:
         self.physical_critical_power_base += residual
         self.magical_critical_power_base += residual
         self._all_critical_power_base = all_critical_power_base
+
+    @property
+    def all_critical_power_rate(self):
+        return self._all_critical_power_rate
+
+    @all_critical_power_rate.setter
+    def all_critical_power_rate(self, all_critical_power_rate):
+        residual = all_critical_power_rate - self._all_critical_power_rate
+        self.physical_critical_power_rate += residual
+        self.magical_critical_power_rate += residual
+        self._all_critical_power_rate = all_critical_power_rate
 
     @property
     def extra_physical_critical_power(self):

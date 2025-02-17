@@ -5863,7 +5863,7 @@ RECIPES = {
     },
     4789: {
         1: {
-            "damage_addition": 307,
+            "damage_addition": 205,
             "skill_id": 20715,
             "recipe_type": 20715,
             "recipe_name": "海运南冥伤害提高20%"
@@ -5871,7 +5871,7 @@ RECIPES = {
     },
     4790: {
         1: {
-            "damage_addition": 307,
+            "damage_addition": 205,
             "skill_id": 20083,
             "recipe_type": 20083,
             "recipe_name": "溟海御波伤害提高20%"
@@ -5879,7 +5879,7 @@ RECIPES = {
     },
     4791: {
         1: {
-            "damage_addition": 307,
+            "damage_addition": 205,
             "skill_id": 20084,
             "recipe_type": 20084,
             "recipe_name": "逐波灵游伤害提高20%"

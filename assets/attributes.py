@@ -2,7 +2,7 @@ ATTRIBUTES = {
     10003: {
         "alias_name": "易筋经",
         "max_level": 14,
-        "pve_addition_base": 307,
+        "pve_addition_base": 256,
         "spunk_to_solar_attack_power": 2007,
         "spunk_to_solar_critical_strike": 410,
         "magical_attack_power_base": [
@@ -49,7 +49,7 @@ ATTRIBUTES = {
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
-        "pve_addition_base": 430,
+        "pve_addition_base": 389,
         "magical_attack_power_base": [
             9,
             15,
@@ -168,7 +168,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 481,
+        "pve_addition_base": 440,
         "magical_attack_power_base": [
             10,
             17,
@@ -215,7 +215,7 @@ ATTRIBUTES = {
     10026: {
         "alias_name": "傲血战意",
         "max_level": 14,
-        "pve_addition_base": 471,
+        "pve_addition_base": 430,
         "physical_attack_power_base": [
             9,
             15,
@@ -238,7 +238,7 @@ ATTRIBUTES = {
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,
-        "pve_addition_base": 195,
+        "pve_addition_base": 225,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
         "lunar_attack_power_base": [
@@ -261,7 +261,7 @@ ATTRIBUTES = {
     100410: {
         "alias_name": "移动端_心法_冰心诀",
         "max_level": 14,
-        "pve_addition_base": 471,
+        "pve_addition_base": 522,
         "all_shield_ignore": 614,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
@@ -420,7 +420,7 @@ ATTRIBUTES = {
     10175: {
         "alias_name": "毒经",
         "max_level": 14,
-        "pve_addition_base": 174,
+        "pve_addition_base": 205,
         "magical_attack_power_base": [
             10,
             17,
@@ -520,7 +520,7 @@ ATTRIBUTES = {
     10242: {
         "alias_name": "焚影圣诀",
         "max_level": 14,
-        "pve_addition_base": 236,
+        "pve_addition_base": 266,
         "lunar_attack_power_base": [
             11,
             18,
@@ -653,7 +653,7 @@ ATTRIBUTES = {
     10390: {
         "alias_name": "分山劲",
         "max_level": 14,
-        "pve_addition_base": 287,
+        "pve_addition_base": 317,
         "agility_to_physical_attack_power": 1925,
         "physical_attack_power_base": [
             8,
@@ -691,7 +691,7 @@ ATTRIBUTES = {
     101024: {
         "alias_name": "移动端_心法_分山劲",
         "max_level": 14,
-        "pve_addition_base": 594,
+        "pve_addition_base": 625,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1925,
         "physical_attack_power_base": [
@@ -769,7 +769,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 450,
+        "pve_addition_base": 471,
         "physical_attack_power_base": [
             9,
             15,
@@ -855,7 +855,7 @@ ATTRIBUTES = {
     101090: {
         "alias_name": "移动端_心法_凌海决",
         "max_level": 14,
-        "pve_addition_base": 594,
+        "pve_addition_base": 666,
         "all_shield_ignore": 614,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
@@ -934,7 +934,7 @@ ATTRIBUTES = {
     10615: {
         "alias_name": "太玄经",
         "max_level": 14,
-        "pve_addition_base": 236,
+        "pve_addition_base": 266,
         "magical_attack_power_base": [
             10,
             17,
@@ -1092,7 +1092,7 @@ ATTRIBUTES = {
     10698: {
         "alias_name": "孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 338,
+        "pve_addition_base": 369,
         "physical_critical_strike_base": [
             13,
             23,
@@ -1171,7 +1171,7 @@ ATTRIBUTES = {
     10756: {
         "alias_name": "山海心诀",
         "max_level": 14,
-        "pve_addition_base": 51,
+        "pve_addition_base": 82,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
