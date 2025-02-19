@@ -7,8 +7,12 @@ from base.skill import Skill
 class 刚健(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
-            skills[skill_id].pre_target_buffs[70188] = {15: 1}
-            skills[skill_id].post_target_buffs[70188] = {15: -1}
+            if 70188 not in skills[skill_id].pre_target_buffs:
+                skills[skill_id].pre_target_buffs[70188] = {}
+            skills[skill_id].pre_target_buffs[70188][15] = 1
+            if 70188 not in skills[skill_id].post_target_buffs:
+                skills[skill_id].post_target_buffs[70188] = {}
+            skills[skill_id].post_target_buffs[70188][15] = -1
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
@@ -19,8 +23,12 @@ class 刚健(Gain):
 class 遁亨(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):
-            skills[skill_id].pre_target_buffs[70188] = {10: 1}
-            skills[skill_id].post_target_buffs[70188] = {10: -1}
+            if 70188 not in skills[skill_id].pre_target_buffs:
+                skills[skill_id].pre_target_buffs[70188] = {}
+            skills[skill_id].pre_target_buffs[70188][10] = 1
+            if 70188 not in skills[skill_id].post_target_buffs:
+                skills[skill_id].post_target_buffs[70188] = {}
+            skills[skill_id].post_target_buffs[70188][10] = -1
 
     def sub_skills(self, skills: Dict[int, Skill]):
         for skill_id in (101960, 100662, 100773, 100821, 100775, 100664, 100653):

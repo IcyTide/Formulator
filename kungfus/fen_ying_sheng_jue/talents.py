@@ -26,6 +26,7 @@ class 日月同辉(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
+            5974: Gain("血泪成悦"),
             5972: Gain("腾焰飞芒", recipes=[(1314, 1), (1315, 1)])
         },
         {
