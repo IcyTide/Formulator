@@ -6,9 +6,9 @@ BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Buff: {
             3254: {}, 8210: {}, 9981: {}, 7659: {}, 10167: {}, 22750: {}, 3487: {},
-            15945: dict(end_frame_shift=1),
+            15945: dict(end_frame_shift=2),
             **{
-                buff_id: dict(buff_name=f"蹑景·{i + 1}", end_frame_shift=1)
+                buff_id: dict(buff_name=f"蹑景·{i + 1}", begin_frame_shift=2, end_frame_shift=2)
                 for i, buff_id in enumerate((28225, 28226, 28227))
             },
             10169: dict(buff_name="逐一击破"),
