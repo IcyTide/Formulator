@@ -8,7 +8,7 @@ from utils.parser import Parser
 
 
 class Bonuses(dict):
-    activate: bool = False
+    activate: bool = True
 
     @property
     def gains(self):
@@ -92,7 +92,11 @@ def bonuses_script(parser: Parser, bonuses_widget: BonusesWidget):
                 elif isinstance(widget, SpinWithLabel):
                     kwargs[attr] = widget.spin_box.value()
             if all(kwargs.values()):
-                bonuses[label] = TEAM_GAINS[label](**kwargs)
+                if variety := kwargs.pop("variety", ""):
+                    gain = TEAM_GAINS[variety]
+                else:
+                    gain = TEAM_GAINS[label]
+                bonuses[label] = gain(**kwargs)
             else:
                 bonuses.pop(label, None)
 

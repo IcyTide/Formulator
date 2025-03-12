@@ -66,7 +66,7 @@ def anomaly_detect(details: Dict[str, Dict[str, Detail]]):
 
 def detail_content(detail: Detail):
     damage_content = [
-        ["命中伤害", f"{round(detail.damage)}"],
+        ["命中伤害", f"{round(detail.hit_damage)}"],
         ["会心伤害", f"{round(detail.critical_damage)}"],
         ["期望会心", f"{round(detail.critical_strike * 100, 2)}%"],
         ["实际会心", f"{round(detail.actual_critical_strike * 100, 2)}%"],

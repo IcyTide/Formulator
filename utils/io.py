@@ -29,7 +29,7 @@ def unserialize(data: dict):
         for target_id in data[player_id]:
             for damage, status in data[player_id][target_id].items():
                 damage, dot_skill, consume_skill = damage.split(SEMICOLON)
-                damage = tuple(int(e) for e in damage.damage(SLASH))
+                damage = tuple(int(e) for e in damage.hit_damage(SLASH))
                 dot_skill = tuple(int(e) for e in dot_skill.split(SLASH)) if dot_skill else tuple()
                 consume_skill = tuple(int(e) for e in consume_skill.split(SLASH)) if consume_skill else tuple()
                 concat_damage = (damage, dot_skill, consume_skill)

@@ -7662,85 +7662,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    15413: {
-        "attributes": [
-            {
-                "physical_attack_power_base": 125,
-                "magical_attack_power_base": 150
-            },
-            {
-                "physical_attack_power_base": 141,
-                "magical_attack_power_base": 168
-            },
-            {
-                "physical_attack_power_base": 157,
-                "magical_attack_power_base": 188
-            },
-            {
-                "physical_attack_power_base": 243,
-                "magical_attack_power_base": 291
-            },
-            {
-                "physical_attack_power_base": 298,
-                "magical_attack_power_base": 357
-            },
-            {
-                "physical_attack_power_base": 330,
-                "magical_attack_power_base": 395
-            },
-            {
-                "physical_attack_power_base": 368,
-                "magical_attack_power_base": 440
-            },
-            {
-                "physical_attack_power_base": 408,
-                "magical_attack_power_base": 486
-            },
-            {
-                "physical_attack_power_base": 371,
-                "magical_attack_power_base": 442
-            },
-            {
-                "physical_attack_power_base": 450,
-                "magical_attack_power_base": 538
-            },
-            {
-                "physical_attack_power_base": 495,
-                "magical_attack_power_base": 591
-            },
-            {
-                "physical_attack_power_base": 549,
-                "magical_attack_power_base": 655
-            },
-            {
-                "physical_attack_power_base": 646,
-                "magical_attack_power_base": 719
-            },
-            {
-                "physical_attack_power_base": 710,
-                "magical_attack_power_base": 791
-            }
-        ],
-        "max_level": 14,
-        "alias_name": [
-            "新附魔T头基础攻击",
-            "新附魔T头基础攻击凌雪藏锋",
-            "新附魔T头基础攻击结庐在江湖",
-            "新附魔T头基础攻击奉天证道",
-            "新附魔T头基础攻击白帝风云",
-            "新附魔T头基础攻击北天药宗",
-            "新附魔T头基础攻击江湖无限",
-            "新附魔T头基础攻击横刀断浪",
-            "新附魔T头基础攻击横刀断浪1",
-            "新附魔T头基础攻击",
-            "新附魔T头基础攻击",
-            "新附魔T头基础攻击",
-            "新附魔T头基础攻击丝路风语_低品",
-            "新附魔T头基础攻击丝路风语_高品"
-        ],
-        "max_stack": 1,
-        "recipes": {}
-    },
     23573: {
         "attributes": {
             "all_damage_addition": 154
@@ -8315,6 +8236,108 @@ BUFFS = {
         "max_level": 30,
         "buff_name": "破风",
         "alias_name": "破甲增强",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    17885: {
+        "attributes": [
+            {
+                "vitality_to_solar_attack_power": 516
+            },
+            {
+                "vitality_to_solar_attack_power": 516,
+                "vitality_to_magical_overcome": 459
+            },
+            {
+                "vitality_to_physical_attack_power": 557,
+                "vitality_to_physical_overcome": 459
+            },
+            {
+                "vitality_to_solar_attack_power": 572,
+                "vitality_to_magical_overcome": 549,
+                "vitality_to_lunar_attack_power": 572
+            },
+            {
+                "vitality_to_physical_attack_power": 183,
+                "vitality_to_physical_overcome": 141
+            },
+            {
+                "vitality_to_physical_attack_power": 604,
+                "vitality_to_physical_overcome": 465
+            },
+            {
+                "vitality_to_solar_attack_power": 572,
+                "vitality_to_magical_overcome": 549,
+                "vitality_to_lunar_attack_power": 572,
+                "vitality_to_magical_critical_strike": 90
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "洗髓·宿敌",
+            "洗髓·宿敌",
+            "铁牢·宿敌",
+            "明尊·宿敌",
+            "铁骨·宿敌",
+            "铁骨·宿敌",
+            "明尊·宿敌"
+        ],
+        "alias_name": [
+            "洗髓增益普通",
+            "洗髓增益普通",
+            "铁牢增益",
+            "明尊增益",
+            "铁骨增益",
+            "铁骨增益加强",
+            "明尊增益加强"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29938: {
+        "attributes": [
+            {
+                "vitality_to_solar_attack_power": 172
+            },
+            {
+                "vitality_to_solar_attack_power": 171,
+                "vitality_to_magical_overcome": 154
+            },
+            {
+                "vitality_to_physical_attack_power": 184,
+                "vitality_to_physical_overcome": 154
+            },
+            {
+                "vitality_to_solar_attack_power": 191,
+                "vitality_to_magical_overcome": 184,
+                "vitality_to_lunar_attack_power": 191
+            },
+            {
+                "vitality_to_physical_attack_power": 61,
+                "vitality_to_physical_overcome": 47
+            },
+            {
+                "vitality_to_physical_attack_power": 201,
+                "vitality_to_physical_overcome": 155
+            },
+            {
+                "vitality_to_solar_attack_power": 191,
+                "vitality_to_magical_overcome": 184,
+                "vitality_to_lunar_attack_power": 191,
+                "vitality_to_magical_critical_strike": 90
+            }
+        ],
+        "max_level": 7,
+        "buff_name": [
+            "洗髓",
+            "洗髓",
+            "铁牢",
+            "明尊",
+            "铁骨",
+            "铁骨",
+            "明尊"
+        ],
+        "alias_name": "T增益削弱版",
         "max_stack": 1,
         "recipes": {}
     },
@@ -8995,14 +9018,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    28169: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "龙印",
-        "alias_name": "虎贲龙牙印记",
-        "max_stack": 3,
-        "recipes": {}
-    },
     21638: {
         "attributes": {
             "all_damage_addition": 72
@@ -9059,6 +9074,26 @@ BUFFS = {
         "recipes": {
             3257: 1
         }
+    },
+    18222: {
+        "attributes": {
+            "surplus_gain": 102
+        },
+        "max_level": 4,
+        "buff_name": [
+            "大善",
+            "崩决",
+            "怜世人",
+            "严阵"
+        ],
+        "alias_name": "大善破招叠加",
+        "max_stack": [
+            5,
+            7,
+            5,
+            5
+        ],
+        "recipes": {}
     },
     409: {
         "attributes": [

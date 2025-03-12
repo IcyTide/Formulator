@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import List
+from typing import List, Optional
 
 from assets.dots import DOTS
 from base.attribute import Attribute
@@ -11,7 +11,7 @@ from utils.damage import init_result
 
 class BaseDot(BaseBuff):
     dot_skill: Skill = None
-    consume_skill: Skill = None
+    consume_skill: Optional[Skill] = None
 
     dot_stack: int = 1
     consume_tick: int = 1

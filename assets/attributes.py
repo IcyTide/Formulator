@@ -235,6 +235,12 @@ ATTRIBUTES = {
         "strength_to_physical_attack_power": 1843,
         "strength_to_physical_overcome": 287
     },
+    10062: {
+        "alias_name": "铁牢律",
+        "max_level": 14,
+        "vitality_to_parry": 1792,
+        "vitality_to_physical_attack_power": 41
+    },
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,

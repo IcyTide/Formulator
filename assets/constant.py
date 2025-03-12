@@ -70,7 +70,16 @@ EMBED_POSITIONS = {
 }
 SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
-ATTR_TYPE_MAP = {
+TANK_ATTR_TYPE_MAP = {
+    "atVitalityToPhysicsAttackPowerCof": "vitality_to_physical_attack_power",
+    "atVitalityToSolarAttackPowerCof": "vitality_to_solar_attack_power",
+    "atVitalityToLunarAttackPowerCof": "vitality_to_lunar_attack_power",
+
+    "atVitalityToPhysicsOverComeCof": "vitality_to_physical_overcome",
+    "atVitalityToMagicOverComeCof": "vitality_to_magical_overcome",
+    "atVitalityToMagicCriticalStrikeCof": "vitality_to_magical_critical_strike"
+}
+SELF_ATTR_TYPE_MAP = {
     "atVitalityBase": "vitality_base",
     "atVitalityBasePercentAdd": "vitality_gain",
     "atMaxLifeAdditional": "max_life_add",
@@ -185,7 +194,8 @@ TARGET_ATTR_TYPE_MAP = {
     "atPoisonDamageCoefficient": "poison_damage_cof",
 }
 ATTR_TYPE_MAP = {
-    **ATTR_TYPE_MAP,
+    **TANK_ATTR_TYPE_MAP,
+    **SELF_ATTR_TYPE_MAP,
     **TARGET_ATTR_TYPE_MAP
 }
 ATTR_TYPE_TRANSLATE = {

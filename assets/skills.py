@@ -9313,16 +9313,6 @@ SKILLS = {
         "weapon_damage_cof": 1024.0,
         "physical_damage_call": 1
     },
-    400: {
-        "alias_name": "天策-穿云",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 16.0,
-        "max_level": 28,
-        "skill_name": "穿云"
-    },
     409: {
         "alias_name": "天策_子技能_断魂刺_子弹",
         "kind_type": "Physics",
@@ -10355,6 +10345,33 @@ SKILLS = {
             552.4336263600001
         ],
         "max_level": 30
+    },
+    402: {
+        "alias_name": "天策-定军",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1,
+        "skill_name": "定军",
+        "physical_damage_call": 1,
+        "physical_attack_power_gain": -1024,
+        "physical_damage_base": 20,
+        "physical_damage_rand": 5
+    },
+    13778: {
+        "alias_name": "天策子技能_乘龙箭",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 2603,
+        "recipe_mask": 0,
+        "channel_interval": 160.0,
+        "max_level": 1,
+        "skill_name": "乘龙箭",
+        "physical_damage_call": 1,
+        "physical_damage_base": 218,
+        "physical_damage_rand": 23
     },
     15: {
         "alias_name": "普通攻击-双兵攻击",

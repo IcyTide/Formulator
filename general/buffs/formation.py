@@ -2,7 +2,7 @@ from typing import Dict, Tuple
 
 from base.buff import Buff
 
-BUFFS: Dict[int, Tuple[int, int, int, int]] = {
+FORMATION_BUFFS: Dict[int, Tuple[int, int, int, int]] = {
     -918: (-919, 0, 920, 940),
     -929: (-930, 935, 936, 940),
     -933: (-934, 937, 0, 0),
@@ -29,7 +29,7 @@ BUFFS: Dict[int, Tuple[int, int, int, int]] = {
 }
 BUFFS: Dict[type, Dict[int, dict]] = {
     Buff: {
-        **{buff_id: {} for buff_id in BUFFS.keys()},
-        **{buff_id: {} for buff_ids in BUFFS.values() for buff_id in buff_ids if buff_id}
+        **{buff_id: {} for buff_id in FORMATION_BUFFS.keys()},
+        **{buff_id: {} for buff_ids in FORMATION_BUFFS.values() for buff_id in buff_ids if buff_id}
     }
 }

@@ -25,32 +25,35 @@ class FormationWidget(QWidget):
 
 
 class TeamGainsWidget(QWidget):
-    def create_single(self, buff: Buff):
-        self.team_gains[buff.buff_name] = RadioWithLabel(buff.buff_name, "常驻")
-        return self.team_gains[buff.buff_name]
+    def create_single(self, gain_name):
+        self.team_gains[gain_name] = RadioWithLabel(gain_name, "常驻")
+        return self.team_gains[gain_name]
 
-    def create_rate(self, buff: Buff):
-        if buff.buff_name not in self.team_gains:
-            self.team_gains[buff.buff_name] = {}
-        self.team_gains[buff.buff_name]['rate'] = SpinWithLabel(buff.buff_name, "覆盖(%)", maximum=100)
-        return self.team_gains[buff.buff_name]['rate']
+    def create_rate(self, gain_name):
+        if gain_name not in self.team_gains:
+            self.team_gains[gain_name] = {}
+        self.team_gains[gain_name]['rate'] = SpinWithLabel(gain_name, "覆盖(%)", maximum=100)
+        return self.team_gains[gain_name]['rate']
 
-    def create_stack(self, buff: Buff):
-        if buff.buff_name not in self.team_gains:
-            self.team_gains[buff.buff_name] = {}
-        self.team_gains[buff.buff_name]['stack'] = SpinWithLabel(
-            buff.buff_name, f"层数({buff.max_stack})", maximum=buff.max_stack
+    def create_stack(self, gain_name):
+        if gain_name not in self.team_gains:
+            self.team_gains[gain_name] = {}
+        gain = TEAM_GAINS[gain_name]
+        buff = GENERAL_BUFFS[gain.buff_id]
+        self.team_gains[gain_name]['stack'] = SpinWithLabel(
+            gain_name, f"层数({buff.max_stack})", maximum=buff.max_stack
         )
-        return self.team_gains[buff.buff_name]['stack']
+        return self.team_gains[gain_name]['stack']
 
-    def create_variety(self, buff: Buff):
-        if buff.buff_name not in self.team_gains:
-            self.team_gains[buff.buff_name] = {}
+    def create_variety(self, gain_names):
+        gain_name = gain_names[0]
+        if gain_name not in self.team_gains:
+            self.team_gains[gain_name] = {}
 
-        self.team_gains[buff.buff_name]['variety'] = ComboWithLabel(
-            buff.buff_name, "种类", [""] + list(TEAM_GAINS[buff.buff_name].attributes)
+        self.team_gains[gain_name]['variety'] = ComboWithLabel(
+            gain_name, "种类", [""] + gain_names
         )
-        return self.team_gains[buff.buff_name]['variety']
+        return self.team_gains[gain_name]['variety']
 
     def __init__(self):
         super().__init__()
@@ -65,102 +68,108 @@ class TeamGainsWidget(QWidget):
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "七秀")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-673]), 0, 0)
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[20938]), 1, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[20938]), 1, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[23573]), 2, 0)
+        tab_layout.addWidget(self.create_single("袖气"), 0, 0)
+        tab_layout.addWidget(self.create_stack("左旋右转"), 1, 0)
+        tab_layout.addWidget(self.create_rate("左旋右转"), 1, 1)
+        tab_layout.addWidget(self.create_rate("泠风解怀"), 2, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "天策")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-362]), 0, 0)
-        tab_layout.addWidget(self.create_variety(GENERAL_BUFFS[-661]), 1, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[-3465]), 2, 0)
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[23107]), 3, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[23107]), 3, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[6363]), 4, 0)
+        tab_layout.addWidget(self.create_single("撼如雷"), 0, 0)
+        tab_layout.addWidget(self.create_variety(["破风", "劲风"]), 1, 0)
+        tab_layout.addWidget(self.create_rate("破甲"), 2, 0)
+        tab_layout.addWidget(self.create_stack("号令三军"), 3, 0)
+        tab_layout.addWidget(self.create_rate("号令三军"), 3, 1)
+        tab_layout.addWidget(self.create_rate("激雷"), 4, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "少林")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-566]), 0, 0)
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[10208]), 1, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[10208]), 1, 1)
+        tab_layout.addWidget(self.create_single("立地成佛"), 0, 0)
+        tab_layout.addWidget(self.create_stack("弘法"), 1, 0)
+        tab_layout.addWidget(self.create_rate("弘法"), 1, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "万花")
 
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[29294]), 0, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[29294]), 0, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24350]), 1, 0)
+        tab_layout.addWidget(self.create_stack("秋肃"), 0, 0)
+        tab_layout.addWidget(self.create_rate("秋肃"), 0, 1)
+        tab_layout.addWidget(self.create_rate("皎素"), 1, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "纯阳")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-378]), 0, 0)
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-375]), 0, 1)
+        tab_layout.addWidget(self.create_single("碎星辰"), 0, 0)
+        tab_layout.addWidget(self.create_single("破苍穹"), 0, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "藏剑")
 
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[29354]), 0, 0)
+        tab_layout.addWidget(self.create_rate("百锻"), 0, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "五毒")
 
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[24742]), 0, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[24742]), 0, 1)
+        tab_layout.addWidget(self.create_stack("仙王蛊鼎"), 0, 0)
+        tab_layout.addWidget(self.create_rate("仙王蛊鼎"), 0, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "明教")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-4058]), 0, 0)
-        tab_layout.addWidget(self.create_variety(GENERAL_BUFFS[4246]), 1, 0)
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[4246]), 1, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[4246]), 1, 2)
+        tab_layout.addWidget(self.create_single("戒火"), 0, 0)
+        tab_layout.addWidget(self.create_variety(["朝圣", "圣浴明心"]), 1, 0)
+        tab_layout.addWidget(self.create_stack("朝圣"), 1, 1)
+        tab_layout.addWidget(self.create_rate("朝圣"), 1, 2)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "丐帮")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-7180]), 0, 0)
+        tab_layout.addWidget(self.create_single("酣畅淋漓"), 0, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "苍云")
 
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[-8248]), 0, 0)
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[8504]), 1, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[8504]), 1, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[10031]), 2, 0)
+        tab_layout.addWidget(self.create_single("虚弱"), 0, 0)
+        tab_layout.addWidget(self.create_stack("振奋"), 1, 0)
+        tab_layout.addWidget(self.create_rate("振奋"), 1, 1)
+        tab_layout.addWidget(self.create_rate("寒啸千军"), 2, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "长歌")
 
-        tab_layout.addWidget(self.create_stack(GENERAL_BUFFS[23543]), 0, 0)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[23543]), 0, 1)
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[16911]), 1, 0)
+        tab_layout.addWidget(self.create_stack("庄周梦"), 0, 0)
+        tab_layout.addWidget(self.create_rate("庄周梦"), 0, 1)
+        tab_layout.addWidget(self.create_rate("弄梅"), 1, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "霸刀")
 
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[11456]), 0, 0)
+        tab_layout.addWidget(self.create_rate("疏狂"), 0, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "药宗")
 
-        tab_layout.addWidget(self.create_rate(GENERAL_BUFFS[20877]), 0, 0)
-        tab_layout.addWidget(self.create_single(GENERAL_BUFFS[20841]), 1, 0)
+        tab_layout.addWidget(self.create_rate("配伍"), 0, 0)
+        tab_layout.addWidget(self.create_single("香稠"), 1, 0)
+
+        tab = QWidget()
+        tab_layout = QGridLayout(tab)
+        tabs.addTab(tab, "坦克")
+
+        tab_layout.addWidget(self.create_variety(["坦克增益", "宿敌增益"]), 0, 0)
 
         layout.addStretch()
 
@@ -235,7 +244,7 @@ class BonusesWidget(QWidget):
         self.setLayout(layout)
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
-        self.activation = RadioWithLabel("启用增益")
+        self.activation = RadioWithLabel("启用增益", tag=True)
         top_layout.addWidget(self.activation)
         self.select_bonus = ComboWithLabel("配置增益", items=["", "开荒"])
         top_layout.addWidget(self.select_bonus)

@@ -15,7 +15,7 @@ from kungfus import Kungfu
 
 @dataclass
 class Detail:
-    damage: int = 0
+    hit_damage: int = 0
     critical_damage: int = 0
     critical_strike: float = 0.
     expected_damage: float = 0.
@@ -55,15 +55,15 @@ class Detail:
     def anomaly_detail(self):
         anomaly_timeline = []
         for frame, critical, damage in self.timeline:
-            if not self.damage or not damage:
+            if not self.hit_damage or not damage:
                 anomaly_timeline.append((frame, critical, damage))
             elif critical and abs(damage - self.critical_damage) / self.critical_damage > self.EPSILON:
                 anomaly_timeline.append((frame, critical, damage))
-            elif not critical and abs(damage - self.damage) / self.damage > self.EPSILON:
+            elif not critical and abs(damage - self.hit_damage) / self.hit_damage > self.EPSILON:
                 anomaly_timeline.append((frame, critical, damage))
         if anomaly_timeline:
             return Detail(
-                self.damage, self.critical_damage, self.critical_strike, self.expected_damage,
+                self.hit_damage, self.critical_damage, self.critical_strike, self.expected_damage,
                 timeline=anomaly_timeline
             )
         else:
@@ -372,7 +372,7 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
                 detail.timeline += timeline
                 damage_total.timeline += timeline
 
-                damage_total.damage += detail.damage * len(timeline)
+                damage_total.hit_damage += detail.hit_damage * len(timeline)
                 damage_total.critical_damage += detail.critical_damage * len(timeline)
                 damage_total.critical_strike += detail.critical_strike * len(timeline)
                 damage_total.expected_damage += detail.expected_damage * len(timeline)
@@ -384,7 +384,7 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
                 damage_summary.critical_strike += damage_total.critical_strike
                 damage_summary.expected_damage += damage_total.expected_damage
                 damage_summary.timeline += damage_total.timeline
-                damage_total.damage /= len(damage_total.timeline)
+                damage_total.hit_damage /= len(damage_total.timeline)
                 damage_total.critical_damage /= len(damage_total.timeline)
                 damage_total.expected_damage /= len(damage_total.timeline)
                 damage_total.critical_strike /= len(damage_total.timeline)

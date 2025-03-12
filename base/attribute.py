@@ -2,6 +2,7 @@ from typing import Dict
 
 from assets.attributes import ATTRIBUTES
 from base.constant import *
+from general.buffs import GENERAL_BUFFS
 
 
 class Shield:
@@ -911,6 +912,49 @@ class Attribute(Major, Minor, Target):
     @property
     def target_damage_cof(self):
         raise NotImplementedError
+
+
+class TankAttribute(Attribute):
+    _tank_buff_id: int = 0
+    _tank_buff_level: int = 0
+
+    @property
+    def tank_buff_id(self):
+        return self._tank_buff_id
+
+    @tank_buff_id.setter
+    def tank_buff_id(self, tank_buff_id):
+        self.sub_tank_attribute()
+        self._tank_buff_id = tank_buff_id
+        self.add_tank_attribute()
+
+    @property
+    def tank_buff_level(self):
+        return self._tank_buff_level
+
+    @tank_buff_level.setter
+    def tank_buff_level(self, tank_buff_level):
+        self.sub_tank_attribute()
+        self._tank_buff_level = tank_buff_level
+        self.add_tank_attribute()
+
+    def add_tank_attribute(self):
+        if not self.tank_buff_id:
+            return
+        if not self.tank_buff_level:
+            return
+        buff, buff.buff_level = GENERAL_BUFFS[self.tank_buff_id], self.tank_buff_level
+        for attr, value in buff.attributes.items():
+            self[attr] += value
+
+    def sub_tank_attribute(self):
+        if not self.tank_buff_id:
+            return
+        if not self.tank_buff_level:
+            return
+        buff, buff.buff_level = GENERAL_BUFFS[self.tank_buff_id], self.tank_buff_level
+        for attr, value in buff.attributes.items():
+            self[attr] -= value
 
 
 class PhysicalAttribute(Attribute):

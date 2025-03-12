@@ -24,7 +24,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             14698: Gain("驱夷逐法")
         },
         {
-            26717: Gain("极本溯源", attributes=dict(vitality_to_magical_critical_strike=90))
+            26717: Gain("极本溯源", attributes=dict(tank_buff_level=3))
         },
         {
             25160: Gain("五明乐见")

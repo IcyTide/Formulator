@@ -1,16 +1,16 @@
-from base.attribute import LunarAttribute
+from base.attribute import LunarAttribute, TankAttribute
 from base.constant import BINARY_SCALE
 
 
-class Attribute(LunarAttribute):
+class Attribute(LunarAttribute, TankAttribute):
     attribute_id = {
         0: 10243
     }
+    _tank_buff_level = 4
 
-    # buff: 17885-4
-    vitality_to_solar_attack_power: int = 572
-    vitality_to_lunar_attack_power: int = 572
-    vitality_to_magical_overcome: int = 549
+    vitality_to_solar_attack_power: int = 0
+    vitality_to_lunar_attack_power: int = 0
+    vitality_to_magical_overcome: int = 0
     vitality_to_magical_critical_strike: int = 0
 
     recipes = [(1711, 1)]

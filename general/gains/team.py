@@ -1,33 +1,30 @@
-from base.attribute import Attribute
-from base.buff import Buff
+from typing import Dict
+
+from base.attribute import Attribute, TankAttribute
 from base.gain import Gain
 from general.buffs import GENERAL_BUFFS
 
 
 class TeamGain(Gain):
     attributes: dict = {}
+    buff_id: int
 
-    def __init__(self, rate=100, stack=1, variety=None):
+    def __init__(self, rate=100, stack=1):
         super().__init__()
         self.rate = rate / 100
         self.stack = stack
-        self.variety = variety
 
     def add_attribute(self, attribute: Attribute):
-        if self.variety:
-            attributes = self.attributes.get(self.variety, {})
-        else:
-            attributes = self.attributes
-        for attr, value in attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) + int(value * self.rate * self.stack))
+        if GENERAL_BUFFS[self.buff_id].activate:
+            return
+        for attr, value in self.attributes.items():
+            attribute[attr] += int(value * self.rate * self.stack)
 
     def sub_attribute(self, attribute: Attribute):
-        if self.variety:
-            attributes = self.attributes.get(self.variety, {})
-        else:
-            attributes = self.attributes
-        for attr, value in attributes.items():
-            setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate * self.stack))
+        if GENERAL_BUFFS[self.buff_id].activate:
+            return
+        for attr, value in self.attributes.items():
+            attribute[attr] -= int(value * self.rate * self.stack)
 
 
 class TargetTeamGain(TeamGain):
@@ -38,56 +35,66 @@ class TargetTeamGain(TeamGain):
         super().sub_attribute(attribute.target)
 
 
-def create_team_gain(buff: Buff, base_class, attributes):
-    return buff.buff_name, type(buff.buff_name, (base_class,), dict(attributes=attributes))
+class TankGain(Gain):
+    buff_id: int
+
+    def add_attribute(self, attribute: Attribute):
+        if not isinstance(attribute, TankAttribute):
+            return
+        if self.buff_id:
+            attribute.tank_buff_id = self.buff_id
+
+    def sub_attribute(self, attribute: Attribute):
+        if not isinstance(attribute, TankAttribute):
+            return
+        if self.buff_id:
+            attribute.tank_buff_id = 0
 
 
-TEAM_GAINS = [
-    create_team_gain(
-        GENERAL_BUFFS[-673], TeamGain, GENERAL_BUFFS[-673].get_attributes(level=GENERAL_BUFFS[-673].max_level)
-    ),
-    create_team_gain(GENERAL_BUFFS[20938], TeamGain, GENERAL_BUFFS[20938].attributes),
-    create_team_gain(GENERAL_BUFFS[23573], TeamGain, GENERAL_BUFFS[23573].attributes),
-    create_team_gain(
-        GENERAL_BUFFS[-362], TeamGain, GENERAL_BUFFS[-362].get_attributes(level=GENERAL_BUFFS[-362].max_level)
-    ),
-    create_team_gain(
-        GENERAL_BUFFS[-661], TargetTeamGain, {
-            GENERAL_BUFFS[-661].buff_name: GENERAL_BUFFS[-661].get_attributes(level=GENERAL_BUFFS[-661].max_level),
-            GENERAL_BUFFS[-12717].buff_name: GENERAL_BUFFS[-12717].get_attributes(level=GENERAL_BUFFS[-12717].max_level)
-        }
-    ),
-    create_team_gain(GENERAL_BUFFS[-3465], TargetTeamGain, GENERAL_BUFFS[-3465].attributes),
-    create_team_gain(
-        GENERAL_BUFFS[23107], TeamGain, {k: (v + v / 2) / 2 for k, v in GENERAL_BUFFS[23107].attributes.items()}
-    ),
-    create_team_gain(GENERAL_BUFFS[6363], TeamGain, GENERAL_BUFFS[6363].get_attributes()),
-    create_team_gain(
-        GENERAL_BUFFS[-566], TargetTeamGain, GENERAL_BUFFS[-566].get_attributes(level=GENERAL_BUFFS[-566].max_level)
-    ),
-    create_team_gain(GENERAL_BUFFS[10208], TeamGain, GENERAL_BUFFS[10208].attributes),
-    create_team_gain(GENERAL_BUFFS[29294], TeamGain, GENERAL_BUFFS[29294].attributes),
-    create_team_gain(GENERAL_BUFFS[24350], TeamGain, GENERAL_BUFFS[24350].attributes),
-    create_team_gain(GENERAL_BUFFS[-378], TeamGain, GENERAL_BUFFS[-378].get_attributes(level=7)),
-    create_team_gain(GENERAL_BUFFS[-375], TeamGain, GENERAL_BUFFS[-375].get_attributes(level=5)),
-    create_team_gain(GENERAL_BUFFS[29354], TeamGain, GENERAL_BUFFS[29354].get_attributes(level=1)),
-    create_team_gain(GENERAL_BUFFS[24742], TeamGain, GENERAL_BUFFS[24742].attributes),
-    create_team_gain(GENERAL_BUFFS[-4058], TargetTeamGain, GENERAL_BUFFS[-4058].get_attributes(level=1)),
-    create_team_gain(GENERAL_BUFFS[4246], TeamGain, {
-        GENERAL_BUFFS[4246].buff_name: GENERAL_BUFFS[4246].attributes,
-        GENERAL_BUFFS[9744].buff_name: GENERAL_BUFFS[9744].attributes
-    }),
-    create_team_gain(GENERAL_BUFFS[-7180], TeamGain, GENERAL_BUFFS[-7180].attributes),
-    create_team_gain(GENERAL_BUFFS[-8248], TargetTeamGain, GENERAL_BUFFS[-8248].attributes),
-    create_team_gain(GENERAL_BUFFS[8504], TeamGain, GENERAL_BUFFS[8504].attributes),
-    create_team_gain(GENERAL_BUFFS[10031], TeamGain, GENERAL_BUFFS[10031].attributes),
-    create_team_gain(GENERAL_BUFFS[23543], TeamGain, GENERAL_BUFFS[23543].attributes),
-    create_team_gain(GENERAL_BUFFS[16911], TeamGain, GENERAL_BUFFS[16911].attributes),
-    create_team_gain(GENERAL_BUFFS[11456], TeamGain, GENERAL_BUFFS[11456].attributes),
-    create_team_gain(
-        GENERAL_BUFFS[20877], TeamGain, GENERAL_BUFFS[20877].get_attributes(stack=GENERAL_BUFFS[20877].max_stack)
-    ),
-    create_team_gain(GENERAL_BUFFS[20854], TeamGain, GENERAL_BUFFS[20854].attributes),
-    create_team_gain(GENERAL_BUFFS[20841], TeamGain, GENERAL_BUFFS[20841].attributes)
-]
-TEAM_GAINS = {k: v for k, v in TEAM_GAINS}
+def create_team_gain(buff_id: int, base_class, level=0, stack=1, func=None, gain_name=None):
+    buff = GENERAL_BUFFS[buff_id]
+    buff.buff_level, buff.buff_stack = level, stack
+    if not gain_name:
+        gain_name = buff.buff_name
+    attributes = buff.attributes
+    if func:
+        attributes = {k: func(v) for k, v in attributes.items()}
+
+    return gain_name, type(gain_name, (base_class,), dict(attributes=attributes, buff_id=buff_id))
+
+
+TEAM_GAINS: Dict[str, type(TeamGain) | type(TankGain)] = {k: v for k, v in [
+    create_team_gain(-673, TeamGain),
+    create_team_gain(20938, TeamGain),
+    create_team_gain(23573, TeamGain),
+    create_team_gain(-362, TeamGain),
+    create_team_gain(-661, TargetTeamGain),
+    create_team_gain(-12717, TargetTeamGain),
+    create_team_gain(-3465, TargetTeamGain),
+    create_team_gain(23107, TeamGain, func=lambda x: (x + x / 2) / 2),
+    create_team_gain(6363, TeamGain),
+    create_team_gain(-566, TargetTeamGain),
+    create_team_gain(10208, TeamGain),
+    create_team_gain(29294, TeamGain),
+    create_team_gain(24350, TeamGain),
+    create_team_gain(-378, TeamGain, level=7),
+    create_team_gain(-375, TeamGain, level=5),
+    create_team_gain(29354, TeamGain, level=1),
+    create_team_gain(24742, TeamGain),
+    create_team_gain(-4058, TargetTeamGain, level=1),
+    create_team_gain(4246, TeamGain),
+    create_team_gain(9744, TeamGain),
+    create_team_gain(-7180, TeamGain),
+    create_team_gain(-8248, TargetTeamGain),
+    create_team_gain(8504, TeamGain),
+    create_team_gain(10031, TeamGain),
+    create_team_gain(23543, TeamGain),
+    create_team_gain(16911, TeamGain),
+    create_team_gain(11456, TeamGain),
+    create_team_gain(20877, TeamGain),
+    create_team_gain(20854, TeamGain),
+    create_team_gain(20841, TeamGain),
+
+    create_team_gain(-29938, TankGain),
+    create_team_gain(-17885, TankGain),
+]}
