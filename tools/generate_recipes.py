@@ -68,29 +68,6 @@ def collect_result():
     return results
 
 
-def convert_json(result):
-    exclude_columns = ["buff_id", "buff_level"]
-    result_json = {}
-    for buff_id in result.buff_id.unique().tolist():
-        filter_result = result[result.buff_id == buff_id]
-        result_json[buff_id] = dict(attributes={}, max_level=int(filter_result.buff_level.max()))
-        for column in result.columns:
-            if column in exclude_columns:
-                continue
-            if filter_result[column].isna().all():
-                continue
-
-            if filter_result[column].dtype == float:
-                filter_column = filter_result[column].fillna(0).astype(int)
-            else:
-                filter_column = filter_result[column]
-
-            result_dict = result_json[buff_id]
-            result_dict[column] = filter_column.tolist()
-
-    save_code("buffs", result_json)
-
-
 def generate():
     results = collect_result()
     save_code("recipes", results)

@@ -10373,6 +10373,26 @@ SKILLS = {
         "physical_damage_base": 218,
         "physical_damage_rand": 23
     },
+    24843: {
+        "alias_name": "战疏狂击退以及伤害子技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 24841,
+        "recipe_mask": 0,
+        "channel_interval": [
+            261.62136000000004,
+            523.2427200000001,
+            784.8640800000003,
+            444.7563120000001,
+            889.5126240000002,
+            1334.2689360000004
+        ],
+        "max_level": 6,
+        "skill_name": "力破万钧",
+        "physical_damage_call": 1,
+        "physical_damage_base": 160,
+        "physical_damage_rand": 317
+    },
     15: {
         "alias_name": "普通攻击-双兵攻击",
         "kind_type": "Physics",

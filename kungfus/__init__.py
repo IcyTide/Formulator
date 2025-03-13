@@ -26,6 +26,7 @@ class Kungfu:
     dots: Dict[int, Dot]
     skills: Dict[int, Skill]
     recipes: Dict[Tuple[int, int], Recipe]
+    talents: Dict[int, Gain]
     gains: Dict[tuple, Gain]
 
     _talent_choices: Dict[int, List[List[int]]]
@@ -121,18 +122,16 @@ class Kungfu:
                     self._recipe_choices[platform][skill][name] = recipe_key
 
     def build_talents(self, kungfu):
-        self._talent_choices = {}
-        self._talent_encoder = {}
-        self._talent_decoder = {}
+        self._talent_choices, self.talents = {}, {}
+        self._talent_encoder, self._talent_decoder = {}, {}
         for platform, talents in kungfu.TALENTS.items():
             self._talent_choices[platform] = []
-            self._talent_encoder[platform] = {}
-            self._talent_decoder[platform] = {}
+            self._talent_encoder[platform], self._talent_decoder[platform] = {}, {}
             for talent_choices in talents:
                 talent_choice = []
                 self._talent_choices[platform].append(talent_choice)
                 for gain_id, gain in talent_choices.items():
-                    self.gains[(gain_id, 1)] = gain
+                    self.gains[(gain_id, 1)] = self.talents[gain_id] = gain
                     self._talent_encoder[platform][gain.gain_name] = (gain_id, 1)
                     self._talent_decoder[platform][gain_id] = gain.gain_name
                     talent_choice.append(gain.gain_name)
