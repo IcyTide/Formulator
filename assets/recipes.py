@@ -522,28 +522,28 @@ RECIPES = {
     2593: {
         1: {
             "damage_addition": 154,
-            "skill_id": 18650,
+            "skill_id": 1,
             "recipe_name": "重光飞剑伤害一次递增"
         }
     },
     2594: {
         1: {
             "damage_addition": 307,
-            "skill_id": 18651,
+            "skill_id": 1,
             "recipe_name": "重光飞剑伤害二次递增"
         }
     },
     2595: {
         1: {
             "damage_addition": 461,
-            "skill_id": 18652,
+            "skill_id": 1,
             "recipe_name": "重光飞剑伤害三次递增"
         }
     },
     2596: {
         1: {
             "damage_addition": 614,
-            "skill_id": 18653,
+            "skill_id": 1,
             "recipe_name": "重光飞剑伤害四次递增"
         }
     },
@@ -1040,6 +1040,14 @@ RECIPES = {
             "recipe_name": "新雪中行快雪时晴伤害提高_4层"
         }
     },
+    4661: {
+        1: {
+            "damage_addition": 1741,
+            "skill_id": 2636,
+            "recipe_type": 2636,
+            "recipe_name": "十二跳Dot快雪伤害单次提高"
+        }
+    },
     1546: {
         1: {
             "damage_addition": 102,
@@ -1107,13 +1115,6 @@ RECIPES = {
             "skill_id": 2636,
             "recipe_type": 2636,
             "recipe_name": "小橙武_花间_快雪"
-        }
-    },
-    1295: {
-        1: {
-            "skill_id": 179,
-            "recipe_type": 179,
-            "recipe_name": "阳明指_加会心"
         }
     },
     5497: {
@@ -1199,14 +1200,14 @@ RECIPES = {
     },
     -132: {
         1: {
-            "tick": 3,
+            "tick": 5,
             "buff_id": 12461,
             "recipe_name": "流血加2跳"
         }
     },
     -153: {
         1: {
-            "tick": 3,
+            "tick": 5,
             "buff_id": 19317,
             "recipe_name": "叠加3层且跳数变快"
         }
@@ -1696,7 +1697,7 @@ RECIPES = {
     },
     5634: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 205,
             "skill_id": 2707,
             "recipe_type": 2707,
             "recipe_name": "盈袖玳弦急曲伤害提高10%"
@@ -2143,7 +2144,7 @@ RECIPES = {
     },
     5670: {
         1: {
-            "damage_addition": 102,
+            "prepare_frame": -4,
             "skill_id": 1600,
             "recipe_type": 1600,
             "recipe_name": "夕照10%伤害"
@@ -4713,21 +4714,21 @@ RECIPES = {
     },
     2927: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 154,
             "recipe_type": 14064,
             "recipe_name": "新书离_宫百分之十伤害"
         }
     },
     2930: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 154,
             "recipe_type": 14067,
             "recipe_name": "新书离_徵百分之十伤害"
         }
     },
     2931: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 154,
             "recipe_type": 14068,
             "recipe_name": "新书离_羽百分之十伤害"
         }
@@ -5910,7 +5911,7 @@ RECIPES = {
     },
     5663: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 307,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升"
@@ -5918,7 +5919,7 @@ RECIPES = {
     },
     5664: {
         1: {
-            "damage_addition": 410,
+            "damage_addition": 614,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升2"
@@ -5926,7 +5927,7 @@ RECIPES = {
     },
     5665: {
         1: {
-            "damage_addition": 614,
+            "damage_addition": 922,
             "skill_id": 19818,
             "recipe_type": 19818,
             "recipe_name": "清源木落伤害提升3"

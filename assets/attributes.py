@@ -49,7 +49,7 @@ ATTRIBUTES = {
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
-        "pve_addition_base": 389,
+        "pve_addition_base": 102,
         "magical_attack_power_base": [
             9,
             15,
@@ -244,7 +244,7 @@ ATTRIBUTES = {
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,
-        "pve_addition_base": 225,
+        "pve_addition_base": 82,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
         "lunar_attack_power_base": [
@@ -526,7 +526,7 @@ ATTRIBUTES = {
     10242: {
         "alias_name": "焚影圣诀",
         "max_level": 14,
-        "pve_addition_base": 266,
+        "pve_addition_base": 61,
         "lunar_attack_power_base": [
             11,
             18,

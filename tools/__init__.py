@@ -4,7 +4,7 @@ import re
 
 import pandas as pd
 
-BASE_DIR = "../jx3_hd_src"
+BASE_DIR = "../jx3_exp_src"
 SAVE_DIR = "assets"
 
 JSON_STR_KEY_PATTERN = re.compile(r'"(-?\d+)":')

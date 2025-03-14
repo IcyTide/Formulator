@@ -163,7 +163,6 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "药宗")
 
         tab_layout.addWidget(self.create_rate("配伍"), 0, 0)
-        tab_layout.addWidget(self.create_single("香稠"), 1, 0)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
@@ -220,9 +219,6 @@ class TeamGainsWidget(QWidget):
         self.team_gains["庄周梦"]["rate"].spin_box.setValue(100)
 
         self.team_gains["配伍"]["rate"].spin_box.setValue(100)
-
-        if not self.team_gains["香稠"].radio_button.isChecked():
-            self.team_gains["香稠"].radio_button.click()
 
     def clear_bonuses(self):
         for bonus in self.team_gains.values():

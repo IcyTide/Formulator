@@ -3596,34 +3596,34 @@ BUFFS = {
     29274: {
         "attributes": [
             {
-                "vitality_base": 1354
+                "vitality_base": 1778
             },
             {
-                "agility_base": 469
+                "agility_base": 616
             },
             {
-                "spunk_base": 469
+                "spunk_base": 616
             },
             {
-                "strength_base": 469
+                "strength_base": 616
             },
             {
-                "spirit_base": 469
+                "spirit_base": 616
             },
             {
-                "vitality_base": 677
+                "vitality_base": 889
             },
             {
-                "agility_base": 234
+                "agility_base": 308
             },
             {
-                "spunk_base": 234
+                "spunk_base": 308
             },
             {
-                "strength_base": 234
+                "strength_base": 308
             },
             {
-                "spirit_base": 234
+                "spirit_base": 308
             }
         ],
         "max_level": 10,
@@ -3646,44 +3646,44 @@ BUFFS = {
     29276: {
         "attributes": [
             {
-                "all_critical_strike_base": 3655
+                "all_critical_strike_base": 4202
             },
             {
-                "physical_overcome_base": 3655,
-                "magical_overcome_base": 3655
+                "physical_overcome_base": 4202,
+                "magical_overcome_base": 4202
             },
             {
-                "surplus_base": 3655
+                "surplus_base": 4202
             },
             {
-                "haste_base": 3655
+                "haste_base": 4202
             },
             {
-                "physical_attack_power_base": 993
+                "physical_attack_power_base": 1142
             },
             {
-                "magical_attack_power_base": 1108
+                "magical_attack_power_base": 1273
             },
             {},
             {},
             {
-                "all_critical_strike_base": 1828
+                "all_critical_strike_base": 2101
             },
             {
-                "physical_overcome_base": 1828,
-                "magical_overcome_base": 1828
+                "physical_overcome_base": 2101,
+                "magical_overcome_base": 2101
             },
             {
-                "surplus_base": 1828
+                "surplus_base": 2101
             },
             {
-                "haste_base": 1828
+                "haste_base": 2101
             },
             {
-                "physical_attack_power_base": 497
+                "physical_attack_power_base": 571
             },
             {
-                "magical_attack_power_base": 554
+                "magical_attack_power_base": 637
             },
             {},
             {}
@@ -3714,28 +3714,28 @@ BUFFS = {
     29284: {
         "attributes": [
             {
-                "physical_attack_power_base": 567,
-                "all_critical_strike_base": 2088,
-                "surplus_base": 2088
+                "physical_attack_power_base": 653,
+                "all_critical_strike_base": 2401,
+                "surplus_base": 2401
             },
             {
-                "magical_attack_power_base": 633,
-                "all_critical_strike_base": 2088,
-                "surplus_base": 2088
+                "magical_attack_power_base": 728,
+                "all_critical_strike_base": 2401,
+                "surplus_base": 2401
             },
             {
-                "all_critical_strike_base": 2088,
-                "haste_base": 2088
+                "all_critical_strike_base": 2401,
+                "haste_base": 2401
             },
             {
-                "vitality_base": 773,
-                "max_life_add": 10443
+                "vitality_base": 889,
+                "max_life_add": 12005
             },
             {
-                "vitality_base": 773
+                "vitality_base": 889
             },
             {
-                "max_life_add": 10443
+                "max_life_add": 12005
             }
         ],
         "max_level": 6,
@@ -3754,19 +3754,19 @@ BUFFS = {
     29285: {
         "attributes": [
             {
-                "vitality_base": 1547
+                "vitality_base": 1778
             },
             {
-                "agility_base": 536
+                "agility_base": 616
             },
             {
-                "spunk_base": 536
+                "spunk_base": 616
             },
             {
-                "strength_base": 536
+                "strength_base": 616
             },
             {
-                "spirit_base": 536
+                "spirit_base": 616
             }
         ],
         "max_level": 5,
@@ -3778,34 +3778,34 @@ BUFFS = {
     29288: {
         "attributes": [
             {
-                "vitality_base": 1741
+                "vitality_base": 2001
             },
             {
-                "agility_base": 602
+                "agility_base": 693
             },
             {
-                "spunk_base": 602
+                "spunk_base": 693
             },
             {
-                "strength_base": 602
+                "strength_base": 693
             },
             {
-                "spirit_base": 602
+                "spirit_base": 693
             },
             {
-                "vitality_base": 870
+                "vitality_base": 1000
             },
             {
-                "agility_base": 301
+                "agility_base": 346
             },
             {
-                "spunk_base": 301
+                "spunk_base": 346
             },
             {
-                "strength_base": 301
+                "strength_base": 346
             },
             {
-                "spirit_base": 301
+                "spirit_base": 346
             }
         ],
         "max_level": 10,
@@ -3828,44 +3828,44 @@ BUFFS = {
     29289: {
         "attributes": [
             {
-                "all_critical_strike_base": 4699
+                "all_critical_strike_base": 5402
             },
             {
-                "physical_overcome_base": 4699,
-                "magical_overcome_base": 4699
+                "physical_overcome_base": 5402,
+                "magical_overcome_base": 5402
             },
             {
-                "surplus_base": 4699
+                "surplus_base": 5402
             },
             {
-                "haste_base": 4699
+                "haste_base": 5402
             },
             {
-                "physical_attack_power_base": 1277
+                "physical_attack_power_base": 1468
             },
             {
-                "magical_attack_power_base": 1424
+                "magical_attack_power_base": 1637
             },
             {},
             {},
             {
-                "all_critical_strike_base": 2350
+                "all_critical_strike_base": 2701
             },
             {
-                "physical_overcome_base": 2350,
-                "magical_overcome_base": 2350
+                "physical_overcome_base": 2701,
+                "magical_overcome_base": 2701
             },
             {
-                "surplus_base": 2350
+                "surplus_base": 2701
             },
             {
-                "haste_base": 2350
+                "haste_base": 2701
             },
             {
-                "physical_attack_power_base": 639
+                "physical_attack_power_base": 734
             },
             {
-                "magical_attack_power_base": 712
+                "magical_attack_power_base": 819
             },
             {},
             {}
@@ -4217,8 +4217,8 @@ BUFFS = {
     },
     18428: {
         "attributes": {
-            "surplus_base": 553,
-            "strain_base": 553
+            "surplus_base": 636,
+            "strain_base": 636
         },
         "max_level": 1,
         "buff_name": "同泽宴",
@@ -4243,8 +4243,8 @@ BUFFS = {
                 "strain_base": 100
             },
             {
-                "surplus_base": 450,
-                "strain_base": 450
+                "surplus_base": 500,
+                "strain_base": 500
             }
         ],
         "max_level": 2,
@@ -5391,9 +5391,23 @@ BUFFS = {
             {
                 "physical_shield_base": 282,
                 "magical_shield_base": 282
+            },
+            {
+                "spirit_base": 21,
+                "magical_critical_strike_base": 388
+            },
+            {
+                "magical_attack_power_base": 196
+            },
+            {
+                "physical_attack_power_base": 176
+            },
+            {
+                "physical_shield_base": 324,
+                "magical_shield_base": 324
             }
         ],
-        "max_level": 73,
+        "max_level": 77,
         "buff_name": [
             "水·鋭刃",
             "水·激流",
@@ -5408,6 +5422,10 @@ BUFFS = {
             "水·狂攻",
             "水·仇敌",
             "水·急速",
+            "水·百川",
+            "水·灭虚",
+            "水·斩流",
+            "水·封山",
             "水·百川",
             "水·灭虚",
             "水·斩流",
@@ -5542,7 +5560,11 @@ BUFFS = {
             "25900英雄副本水·百川",
             "25900英雄副本水·灭虚",
             "25900英雄副本水·斩流",
-            "25900英雄副本水·封山"
+            "25900英雄副本水·封山",
+            "29800英雄副本水·百川",
+            "29800英雄副本水·灭虚",
+            "29800英雄副本水·斩流",
+            "+29800英雄副本水·封山"
         ],
         "max_stack": 10,
         "recipes": {}
@@ -5575,9 +5597,15 @@ BUFFS = {
             },
             {
                 "physical_overcome_base": 1044
+            },
+            {
+                "magical_overcome_base": 27516
+            },
+            {
+                "physical_overcome_base": 27516
             }
         ],
-        "max_level": 11,
+        "max_level": 13,
         "buff_name": [
             "风·灭虚",
             "风·斩流",
@@ -5589,6 +5617,8 @@ BUFFS = {
             "风·斩流",
             "风·斩流",
             "风·斩流",
+            "风·斩流",
+            "风·灭虚",
             "风·斩流"
         ],
         "alias_name": [
@@ -5602,7 +5632,9 @@ BUFFS = {
             "27800拍卖腰坠风·斩流",
             "27800世界boss腰坠风·百川",
             "27800世界boss腰坠风·灭虚",
-            "27800世界boss腰坠风·斩流"
+            "27800世界boss腰坠风·斩流",
+            "29800副本腰坠风·灭虚",
+            "29800副本腰坠风·斩流"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -5628,10 +5660,41 @@ BUFFS = {
             },
             {
                 "surplus_base": 2540
+            },
+            {
+                "surplus_base": 2769
+            },
+            {
+                "surplus_base": 2769
+            },
+            {
+                "surplus_base": 2769
+            },
+            {
+                "surplus_base": 2969
+            },
+            {
+                "surplus_base": 2969
+            },
+            {
+                "surplus_base": 2969
             }
         ],
-        "max_level": 6,
-        "alias_name": "黄字帽子适应之力",
+        "max_level": 12,
+        "alias_name": [
+            "黄字帽子适应之力",
+            "黄字帽子适应之力",
+            "黄字帽子适应之力",
+            "黄字帽子适应之力",
+            "黄字帽子适应之力",
+            "黄字帽子适应之力",
+            "黄字帽子适应之力_太极密录低品",
+            "黄字帽子适应之力_太极密录低品",
+            "黄字帽子适应之力_太极密录低品",
+            "黄字帽子适应之力_太极密录高品",
+            "黄字帽子适应之力_太极密录高品",
+            "黄字帽子适应之力_太极密录高品"
+        ],
         "max_stack": 1,
         "recipes": {}
     },
@@ -5642,11 +5705,22 @@ BUFFS = {
             },
             {
                 "all_critical_power_base": 282
+            },
+            {
+                "all_critical_power_base": 306
+            },
+            {
+                "all_critical_power_base": 329
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "buff_name": "无修·会",
-        "alias_name": "黄字腰坠会效",
+        "alias_name": [
+            "黄字腰坠会效",
+            "黄字腰坠会效",
+            "黄字腰坠会效_太极密录低品",
+            "黄字腰坠会效_太极密录高品"
+        ],
         "max_stack": 5,
         "recipes": {}
     },
@@ -5659,11 +5733,24 @@ BUFFS = {
             {
                 "physical_overcome_base": 282,
                 "magical_overcome_base": 282
+            },
+            {
+                "physical_overcome_base": 306,
+                "magical_overcome_base": 306
+            },
+            {
+                "physical_overcome_base": 329,
+                "magical_overcome_base": 329
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "buff_name": "无修·破",
-        "alias_name": "黄字腰坠破防",
+        "alias_name": [
+            "黄字腰坠破防",
+            "黄字腰坠破防",
+            "黄字腰坠破防_太极密录低品",
+            "黄字腰坠破防_太极密录高品"
+        ],
         "max_stack": 5,
         "recipes": {}
     },
@@ -5674,12 +5761,20 @@ BUFFS = {
             },
             {
                 "all_critical_strike_base": 4391
+            },
+            {
+                "all_critical_strike_base": 4786
+            },
+            {
+                "all_critical_strike_base": 5131
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "alias_name": [
             "黄字鞋子加会心_低品",
-            "黄字鞋子加会心_高品"
+            "黄字鞋子加会心_高品",
+            "黄字鞋子加会心_太极密录低品",
+            "黄字鞋子加会心_太极密录高品"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -5693,12 +5788,22 @@ BUFFS = {
             {
                 "physical_overcome_base": 4391,
                 "magical_overcome_base": 4391
+            },
+            {
+                "physical_overcome_base": 4786,
+                "magical_overcome_base": 4786
+            },
+            {
+                "physical_overcome_base": 5131,
+                "magical_overcome_base": 5131
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "alias_name": [
             "黄字鞋子加破防_低品",
-            "黄字鞋子加破防_高品"
+            "黄字鞋子加破防_高品",
+            "黄字鞋子加破防_太极密录低品",
+            "黄字鞋子加破防_太极密录高品"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -5710,12 +5815,20 @@ BUFFS = {
             },
             {
                 "all_critical_power_base": 114
+            },
+            {
+                "all_critical_power_base": 125
+            },
+            {
+                "all_critical_power_base": 134
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "alias_name": [
             "黄字项链会效_低品",
-            "黄字项链会效_高品"
+            "黄字项链会效_高品",
+            "黄字项链会效_太极密录低品",
+            "黄字项链会效_太极密录高品"
         ],
         "max_stack": 10,
         "recipes": {}
@@ -5729,12 +5842,22 @@ BUFFS = {
             {
                 "physical_attack_power_base": 32,
                 "magical_attack_power_base": 35
+            },
+            {
+                "physical_attack_power_base": 34,
+                "magical_attack_power_base": 39
+            },
+            {
+                "physical_attack_power_base": 37,
+                "magical_attack_power_base": 42
             }
         ],
-        "max_level": 2,
+        "max_level": 4,
         "alias_name": [
             "黄字项链攻击_低品",
-            "黄字项链攻击_高品"
+            "黄字项链攻击_高品",
+            "黄字项链攻击_太极密录低品",
+            "黄字项链攻击_太极密录高品"
         ],
         "max_stack": 10,
         "recipes": {}
@@ -5755,16 +5878,24 @@ BUFFS = {
             },
             {
                 "strain_base": 814
+            },
+            {
+                "strain_base": 922
+            },
+            {
+                "strain_base": 981
             }
         ],
-        "max_level": 5,
+        "max_level": 7,
         "buff_name": "神兵·无双",
         "alias_name": [
             "22000CW无双黄字",
             "17100CW无双黄字",
             "18300CW无双黄字",
             "19500CW无双黄字",
-            "20750CW无双黄字"
+            "20750CW无双黄字",
+            "23500CW无双黄字",
+            "25000CW无双黄字"
         ],
         "max_stack": 5,
         "recipes": {}
@@ -7433,7 +7564,7 @@ BUFFS = {
     },
     20938: {
         "attributes": {
-            "strain_base": 100
+            "strain_base": 115
         },
         "max_level": 1,
         "buff_name": "左旋右转",
@@ -7443,7 +7574,7 @@ BUFFS = {
     },
     23107: {
         "attributes": {
-            "strain_base": 594
+            "strain_base": 683
         },
         "max_level": 1,
         "buff_name": "号令三军",
@@ -7483,7 +7614,7 @@ BUFFS = {
     },
     10208: {
         "attributes": {
-            "strain_base": 660
+            "strain_base": 759
         },
         "max_level": 1,
         "buff_name": "弘法",
@@ -7534,7 +7665,7 @@ BUFFS = {
     },
     24742: {
         "attributes": {
-            "strain_base": 360
+            "strain_base": 414
         },
         "max_level": 1,
         "buff_name": "仙王蛊鼎",
@@ -7544,7 +7675,7 @@ BUFFS = {
     },
     4246: {
         "attributes": {
-            "strain_base": 440
+            "strain_base": 506
         },
         "max_level": 1,
         "buff_name": "朝圣",
@@ -7554,7 +7685,7 @@ BUFFS = {
     },
     8504: {
         "attributes": {
-            "strain_base": 80
+            "strain_base": 92
         },
         "max_level": 1,
         "buff_name": "振奋",
@@ -7574,7 +7705,7 @@ BUFFS = {
     },
     23543: {
         "attributes": {
-            "strain_base": 100
+            "strain_base": 115
         },
         "max_level": 1,
         "buff_name": "庄周梦",
@@ -7611,7 +7742,7 @@ BUFFS = {
     },
     29294: {
         "attributes": {
-            "strain_base": 100
+            "strain_base": 115
         },
         "max_level": 1,
         "buff_name": "秋肃",
@@ -7628,9 +7759,7 @@ BUFFS = {
         "recipes": {}
     },
     20841: {
-        "attributes": {
-            "vitality_gain": 205
-        },
+        "attributes": {},
         "max_level": 1,
         "buff_name": "香稠",
         "alias_name": "香稠提高体质",
@@ -7639,7 +7768,7 @@ BUFFS = {
     },
     9744: {
         "attributes": {
-            "strain_base": 660
+            "strain_base": 759
         },
         "max_level": 1,
         "buff_name": "朝圣",
@@ -8846,7 +8975,8 @@ BUFFS = {
     },
     11809: {
         "attributes": {
-            "all_shield_ignore": 256
+            "all_shield_ignore": 358,
+            "magical_attack_power_gain": 102
         },
         "max_level": 1,
         "buff_name": "倚天",
@@ -8982,7 +9112,8 @@ BUFFS = {
         "attributes": [
             {
                 "physical_critical_strike_rate": 300,
-                "physical_critical_power_rate": 102
+                "physical_critical_power_rate": 102,
+                "strain_gain": 51
             },
             {
                 "physical_critical_strike_rate": 300,
@@ -9019,13 +9150,11 @@ BUFFS = {
         "recipes": {}
     },
     21638: {
-        "attributes": {
-            "all_damage_addition": 72
-        },
+        "attributes": {},
         "max_level": 1,
         "buff_name": "龙驭",
         "alias_name": "[21638]龙驭_灭后增伤",
-        "max_stack": 3,
+        "max_stack": 15,
         "recipes": {}
     },
     12608: {
@@ -9158,7 +9287,7 @@ BUFFS = {
                 "lunar_attack_power_gain": 30
             },
             {
-                "lunar_attack_power_gain": 15
+                "lunar_attack_power_gain": 154
             },
             {
                 "lunar_attack_power_base": 204
@@ -9227,7 +9356,7 @@ BUFFS = {
             10,
             10,
             10,
-            10,
+            1,
             1,
             1,
             1,
@@ -9409,12 +9538,13 @@ BUFFS = {
                 "strain_gain": 307
             },
             {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 51
+                "physical_critical_strike_rate": 1000,
+                "physical_critical_power_rate": 154
             },
             {
-                "physical_critical_strike_rate": 2000,
-                "physical_critical_power_rate": 102
+                "physical_critical_strike_rate": 1000,
+                "physical_critical_power_rate": 154,
+                "physical_attack_power_gain": 154
             },
             {
                 "physical_critical_strike_rate": 2000,
@@ -9502,7 +9632,34 @@ BUFFS = {
         "max_level": 26,
         "buff_name": "莺鸣",
         "alias_name": "藏剑_西子情_莺鸣柳_增加剑气最大值",
-        "max_stack": 1,
+        "max_stack": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
         "recipes": [
             {},
             {},
@@ -10031,7 +10188,7 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "催寒",
         "alias_name": "(10005)(1)弩攻击内功攻击提高5%",
-        "max_stack": 2,
+        "max_stack": 1,
         "recipes": {}
     },
     13165: {
@@ -10082,8 +10239,8 @@ BUFFS = {
     4754: {
         "attributes": [
             {
-                "lunar_attack_power_gain": 51,
-                "solar_attack_power_gain": 51
+                "lunar_attack_power_gain": 205,
+                "solar_attack_power_gain": 205
             },
             {
                 "lunar_attack_power_gain": 102,
@@ -10243,12 +10400,16 @@ BUFFS = {
                 "physical_critical_strike_rate": 2000
             },
             {
-                "physical_critical_strike_rate": 2000,
-                "all_shield_ignore": 440
+                "all_shield_ignore": 512
             }
         ],
         "max_level": 4,
-        "buff_name": "酣畅淋漓",
+        "buff_name": [
+            "酣畅淋漓",
+            "越渊",
+            "越渊",
+            "越渊"
+        ],
         "alias_name": "丐帮_酒中仙_会心减威胁",
         "max_stack": 1,
         "recipes": {}
@@ -11025,11 +11186,14 @@ BUFFS = {
                 "physical_attack_power_gain": 102
             },
             {
-                "physical_attack_power_gain": 307
+                "physical_attack_power_gain": 205
             }
         ],
         "max_level": 2,
-        "buff_name": "太息",
+        "buff_name": [
+            "太息",
+            "游仙"
+        ],
         "alias_name": "荡伞结束加伤害",
         "max_stack": 1,
         "recipes": {}
@@ -11130,7 +11294,7 @@ BUFFS = {
     19253: {
         "attributes": {},
         "max_level": 1,
-        "alias_name": "新澄穆8%",
+        "alias_name": "新澄穆10%",
         "max_stack": 1,
         "recipes": {
             2485: 1,
@@ -11141,7 +11305,7 @@ BUFFS = {
     19254: {
         "attributes": {},
         "max_level": 1,
-        "alias_name": "新澄穆16%",
+        "alias_name": "新澄穆20%",
         "max_stack": 1,
         "recipes": {
             2486: 1,
@@ -11152,7 +11316,7 @@ BUFFS = {
     19255: {
         "attributes": {},
         "max_level": 1,
-        "alias_name": "新澄穆24%",
+        "alias_name": "新澄穆30%",
         "max_stack": 1,
         "recipes": {
             2487: 1,
