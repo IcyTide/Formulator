@@ -15,10 +15,13 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             5010: {}, 5011: {},
             5050: {}, 5051: {},
             5069: {}, 5070: {}, 5071: {},
-            **{recipe_id: {} for recipe_id in range(4965, 4976 + 1)}, 4946: {}, 4947: {},
+            # buff
+            4946: {}, 4947: {}, **{recipe_id: {} for recipe_id in range(4965, 4976 + 1)},
             **{recipe_id: {} for recipe_id in range(3154, 3166 + 1)},
+            # 奇穴
             4950: {},
-            5037: {}, 5038: {}, 5091: {}, 5092: {}, 17348: {}
+            # 装备
+            5037: {}, 5038: {}, 5091: {}, 5092: {}
         },
         CriticalStrikeRecipe_200: {
             4983: {},
@@ -45,14 +48,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         乱天狼对静止目标增加10伤害: {
             4952: {}
-        }
-    },
-    1: {
-        SkillRecipe: {
-            17324: {}, 17326: {}, 17329: {}
-        },
-        CriticalStrikeRecipe_306: {
-            17330: {}
         }
     }
 }

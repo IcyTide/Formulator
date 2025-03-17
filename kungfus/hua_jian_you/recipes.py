@@ -1,14 +1,6 @@
 from general.recipes import *
 
 
-class 混元内功会心提高(NeutralCriticalRecipe):
-    value = (2000, 205)
-
-
-class 故幽加芙蓉会心(NeutralCriticalRecipe):
-    value = (1500, 154)
-
-
 class 新套装加钟林10(ChannelIntervalRecipe):
     value = 1.15
 
@@ -19,7 +11,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             492: {}, 493: {},
             1677: {}, 1678: {}, 1679: {},
             4907: {}, 4908: {}, 4909: {},
-            4849: {}, 3019: {}, 3020: {}, 3235: {}, 3236: {},
+            # 奇穴
+            4661: {},
+            # 装备
             1546: {}, 1516: {}, 1517: {}
         },
         CriticalStrikeRecipe_200: {
@@ -35,12 +29,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_500: {
             1131: {}, 1979: {}
-        },
-        混元内功会心提高: {
-            1295: {}, 5497: {}
-        },
-        故幽加芙蓉会心: {
-            2439: {}, 2440: {}, 2441: {}, 2442: {}, 2443: {}, 3151: {}
         },
         新套装加钟林10: {
             (817, 1): {}

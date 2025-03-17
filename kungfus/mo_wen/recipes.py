@@ -50,7 +50,7 @@ class 阳春白雪_目标90减防(MagicalShieldGainRecipe):
 
 
 class 书离伤害加百分之十五(ChannelIntervalRecipe):
-    value = 1.1
+    value = 1.15
 
 
 class 飞帆_徵运功不被打退伤害提高10(ChannelIntervalRecipe):
@@ -99,7 +99,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             2045: {}, 2046: {},
             2074: {}, 2075: {},
             2089: {}, 2090: {},
-            2927: {}, 2930: {}, 2931: {}, 5335: {}, 5336: {}, 5337: {}, 5338: {}, 5496: {},
+            # 奇穴
+            2927: {}, 2930: {}, 2931: {}, 5335: {}, 5336: {}, 5337: {}, 5338: {},
+            # 装备
             2209: {}, 2210: {}, 2401: {}, 2402: {}
         },
         CriticalStrikeRecipe_200: {
@@ -147,7 +149,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             2974: {}
         },
         流照无视防御: {
-            2975: {}, 2976: {}
+            2975: {}
         },
         响壑徵无视防御秘籍脚本: {
             5583: {}

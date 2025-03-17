@@ -5,7 +5,7 @@ from base.dot import Dot
 DOTS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Dot: {
-            4202: {}, 25725: {}, 25726: {}
+            4202: {}
         }
     }
 }

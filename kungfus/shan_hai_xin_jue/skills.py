@@ -2,7 +2,6 @@ from typing import Dict
 
 from base.skill import Skill, NpcSkill
 
-
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {

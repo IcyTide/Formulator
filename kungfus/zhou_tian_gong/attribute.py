@@ -28,4 +28,3 @@ class Attribute(NeutralAttribute):
             return int(self.surplus_base / (self.surplus_to_pve_addition * 100) * BINARY_SCALE)
         else:
             return 0
-

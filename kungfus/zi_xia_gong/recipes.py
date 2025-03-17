@@ -9,19 +9,18 @@ class 增加会心10会心后伤害20(NeutralCriticalRecipe):
     value = (1000, 102)
 
 
-class 万世增强(NeutralCriticalRecipe):
-    value = (1000, 102)
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
             24: {}, 25: {}, 26: {},
             97: {}, 98: {}, 99: {},
             1581: {}, 1582: {}, 1583: {},
-            3253: {}, 2360: {}, 2361: {}, 2362: {}, 2363: {}, **{recipe_id: {} for recipe_id in range(4467, 4476 + 1)},
-            (1116, 3): {}, (1115, 3): {}, 1216: {}, 2593: {}, 2594: {}, 2595: {}, 2596: {}, 2963: {}, 5756: {},
-            (818, 2): {}, 4602: {}, 1520: {}, 1521: {}
+            # buff
+            3253: {},
+            # 奇穴
+            2360: {}, 2361: {}, 2362: {}, 2363: {}, **{recipe_id: {} for recipe_id in range(4467, 4476 + 1)},
+            # 装备
+            (818, 2): {}, 4602: {}, 1520: {}, 1521: {}, 5756: {}
         },
         CriticalStrikeRecipe_200: {
             19: {},
@@ -46,9 +45,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         增加会心10会心后伤害20: {
             (4092, 3): {}
-        },
-        万世增强: {
-            18694: {}
         }
     },
     1: {

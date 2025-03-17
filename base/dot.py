@@ -22,6 +22,7 @@ class BaseDot(BaseBuff):
     neutral_damage_call: int = 0
     poison_damage_call: int = 0
 
+    active_cof: float = 0.
     _damage_base: List[int] = 0
     _interval: List[int] = []
     interval_add: int = 0

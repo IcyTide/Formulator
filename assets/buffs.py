@@ -7758,14 +7758,6 @@ BUFFS = {
         "max_stack": 100,
         "recipes": {}
     },
-    20841: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "香稠",
-        "alias_name": "香稠提高体质",
-        "max_stack": 1,
-        "recipes": {}
-    },
     9744: {
         "attributes": {
             "strain_base": 759
@@ -8711,16 +8703,6 @@ BUFFS = {
             3253: 1
         }
     },
-    6103: {
-        "attributes": {
-            "neutral_attack_power_gain": 256
-        },
-        "max_level": 1,
-        "buff_name": "有涯",
-        "alias_name": "纯阳_下一招会心提高",
-        "max_stack": 1,
-        "recipes": {}
-    },
     1916: {
         "attributes": {},
         "max_level": 8,
@@ -8973,27 +8955,6 @@ BUFFS = {
         "max_stack": 4,
         "recipes": {}
     },
-    11809: {
-        "attributes": {
-            "all_shield_ignore": 358,
-            "magical_attack_power_gain": 102
-        },
-        "max_level": 1,
-        "buff_name": "倚天",
-        "alias_name": "无视目标内功防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    28116: {
-        "attributes": {
-            "magical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "钟灵",
-        "alias_name": "新新钟灵加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
     1487: {
         "attributes": [
             {
@@ -9036,34 +8997,26 @@ BUFFS = {
         ],
         "recipes": {}
     },
-    9722: {
+    11809: {
         "attributes": {
-            "neutral_critical_strike_rate": 160,
-            "neutral_critical_power_rate": 16
-        },
-        "max_level": 1,
-        "buff_name": "涓流",
-        "alias_name": "涓流_会心几率2%会心效果2%",
-        "max_stack": 10,
-        "recipes": {}
-    },
-    24599: {
-        "attributes": {
-            "neutral_critical_strike_rate": 600,
+            "all_shield_ignore": 358,
             "magical_attack_power_gain": 102
         },
-        "max_level": 4,
-        "buff_name": "溅玉",
-        "alias_name": "花间_雪中行加阳明指伤害",
-        "max_stack": 4,
-        "recipes": [
-            {},
-            {},
-            {},
-            {
-                3236: 1
-            }
-        ]
+        "max_level": 1,
+        "buff_name": "倚天",
+        "alias_name": "无视目标内功防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    28116: {
+        "attributes": {
+            "magical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "钟灵",
+        "alias_name": "新新钟灵加伤害",
+        "max_stack": 1,
+        "recipes": {}
     },
     12588: {
         "attributes": {
@@ -9074,14 +9027,16 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    14636: {
-        "attributes": {},
+    9722: {
+        "attributes": {
+            "neutral_critical_strike_rate": 160,
+            "neutral_critical_power_rate": 16
+        },
         "max_level": 1,
-        "alias_name": "乱洒伤害提高",
-        "max_stack": 1,
-        "recipes": {
-            4849: 1
-        }
+        "buff_name": "涓流",
+        "alias_name": "涓流_会心几率2%会心效果2%",
+        "max_stack": 10,
+        "recipes": {}
     },
     6121: {
         "attributes": [
@@ -9873,6 +9828,15 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    16543: {
+        "attributes": {
+            "pve_addition_base": 205
+        },
+        "max_level": 1,
+        "alias_name": "宠物存在监控BUFF",
+        "max_stack": 1,
+        "recipes": {}
+    },
     12497: {
         "attributes": {
             "poison_attack_power_gain": 154
@@ -9893,83 +9857,6 @@ BUFFS = {
         "alias_name": "嗜蛊_自身无视防御",
         "max_stack": 1,
         "recipes": {}
-    },
-    16103: {
-        "attributes": {
-            "all_damage_addition": 102
-        },
-        "max_level": 1,
-        "buff_name": "引魂",
-        "alias_name": "引魂提高自身技能伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    25769: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "重蛊",
-        "alias_name": "重蛊_额外伤害",
-        "max_stack": 1,
-        "recipes": {
-            3228: 1,
-            3229: 1,
-            3230: 1,
-            3231: 1,
-            3232: 1,
-            3233: 1,
-            3254: 1,
-            3255: 1,
-            3297: 1,
-            3298: 1,
-            3299: 1
-        }
-    },
-    16543: {
-        "attributes": {
-            "pve_addition_base": 205
-        },
-        "max_level": 1,
-        "alias_name": "宠物存在监控BUFF",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    17988: {
-        "attributes": {
-            "poison_critical_strike_rate": 3000
-        },
-        "max_level": 1,
-        "alias_name": "灵蛇会心提高30%",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    16102: {
-        "attributes": {
-            "poison_attack_power_gain": 410
-        },
-        "max_level": 1,
-        "alias_name": "五毒宠物每秒设置位置",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    19513: {
-        "attributes": {},
-        "max_level": 4,
-        "alias_name": "连缘蛊多毒加成",
-        "max_stack": 1,
-        "recipes": [
-            {
-                2513: 1
-            },
-            {
-                2514: 1
-            },
-            {
-                2515: 1
-            },
-            {
-                2516: 1
-            }
-        ]
     },
     3254: {
         "attributes": {
@@ -9993,16 +9880,14 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    9981: {
-        "attributes": {
-            "physical_critical_strike_rate": 1000,
-            "physical_critical_power_rate": 102
-        },
+    17103: {
+        "attributes": {},
         "max_level": 1,
-        "buff_name": "秋风散影",
-        "alias_name": "秋风散影5%会心会笑",
+        "alias_name": "追命无声加追命伤害",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": {
+            5145: 1
+        }
     },
     7659: {
         "attributes": {
@@ -10015,12 +9900,72 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    9981: {
+        "attributes": {
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "buff_name": "秋风散影",
+        "alias_name": "秋风散影5%会心会笑",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    28225: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "蹑景",
+        "alias_name": "蹑景追风1",
+        "max_stack": 1,
+        "recipes": {
+            5533: 1
+        }
+    },
+    28226: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "蹑景",
+        "alias_name": "蹑景追风2",
+        "max_stack": 1,
+        "recipes": {
+            5534: 1
+        }
+    },
+    28227: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "蹑景",
+        "alias_name": "蹑景追风3",
+        "max_stack": 1,
+        "recipes": {
+            5535: 1
+        }
+    },
     10167: {
         "attributes": {},
         "max_level": 1,
         "alias_name": "逐一击破延长buff",
         "max_stack": 5,
         "recipes": {}
+    },
+    10169: {
+        "attributes": {
+            "all_damage_addition": 103
+        },
+        "max_level": 1,
+        "alias_name": "逐一击破伤害加层buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    15945: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "神机",
+        "alias_name": "神机飞返",
+        "max_stack": 1,
+        "recipes": {
+            5090: 1
+        }
     },
     22750: {
         "attributes": {},
@@ -10060,72 +10005,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {
             5759: 1
-        }
-    },
-    15945: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "神机",
-        "alias_name": "神机飞返",
-        "max_stack": 1,
-        "recipes": {
-            5090: 1
-        }
-    },
-    28225: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "蹑景",
-        "alias_name": "蹑景追风1",
-        "max_stack": 1,
-        "recipes": {
-            5533: 1
-        }
-    },
-    28226: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "蹑景",
-        "alias_name": "蹑景追风2",
-        "max_stack": 1,
-        "recipes": {
-            5534: 1
-        }
-    },
-    28227: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "蹑景",
-        "alias_name": "蹑景追风3",
-        "max_stack": 1,
-        "recipes": {
-            5535: 1
-        }
-    },
-    10169: {
-        "attributes": {
-            "all_damage_addition": 103
-        },
-        "max_level": 1,
-        "alias_name": "逐一击破伤害加层buff",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    3276: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "追命无声",
-        "alias_name": "唐门_追命箭_瞬发",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    17103: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "追命无声加追命伤害",
-        "max_stack": 1,
-        "recipes": {
-            5145: 1
         }
     },
     3316: {
@@ -10265,68 +10144,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    28886: {
-        "attributes": {
-            "pve_addition_base": 61
-        },
-        "max_level": 1,
-        "buff_name": "诛邪",
-        "alias_name": "诛邪加非侠士",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    25721: {
-        "attributes": [
-            {
-                "magical_damage_addition": 82
-            },
-            {
-                "magical_damage_addition": 154
-            },
-            {
-                "magical_damage_addition": 307
-            }
-        ],
-        "max_level": 3,
-        "buff_name": [
-            "日月齐光",
-            "日月齐光·贰",
-            "日月齐光·叁"
-        ],
-        "alias_name": "明教_新日月齐光",
-        "max_stack": [
-            3,
-            4,
-            4
-        ],
-        "recipes": {}
-    },
-    4423: {
-        "attributes": {},
-        "max_level": 3,
-        "buff_name": "光明相",
-        "alias_name": [
-            "明教_光明相",
-            "明教_光明相_秘籍_延长",
-            "明教_光明相_业海"
-        ],
-        "max_stack": [
-            3,
-            1,
-            3
-        ],
-        "recipes": [
-            {
-                4545: 1,
-                4546: 1
-            },
-            {},
-            {
-                4545: 1,
-                4546: 1
-            }
-        ]
-    },
     12575: {
         "attributes": {
             "all_shield_ignore": 563
@@ -10364,6 +10181,32 @@ BUFFS = {
         "alias_name": "焚影_冥月渡心_秘籍_破魔增伤",
         "max_stack": 1,
         "recipes": {}
+    },
+    4423: {
+        "attributes": {},
+        "max_level": 3,
+        "buff_name": "光明相",
+        "alias_name": [
+            "明教_光明相",
+            "明教_光明相_秘籍_延长",
+            "明教_光明相_业海"
+        ],
+        "max_stack": [
+            3,
+            1,
+            3
+        ],
+        "recipes": [
+            {
+                4545: 1,
+                4546: 1
+            },
+            {},
+            {
+                4545: 1,
+                4546: 1
+            }
+        ]
     },
     28355: {
         "attributes": {},
@@ -10916,17 +10759,6 @@ BUFFS = {
         "max_stack": 2,
         "recipes": {}
     },
-    9437: {
-        "attributes": {
-            "lunar_attack_power_gain": 102,
-            "strain_gain": 184
-        },
-        "max_level": 1,
-        "buff_name": "参连",
-        "alias_name": "参连_曲风提高阴性内功基础攻击力",
-        "max_stack": 1,
-        "recipes": {}
-    },
     9433: {
         "attributes": {},
         "max_level": 3,
@@ -10947,6 +10779,36 @@ BUFFS = {
                 2141: 1
             }
         ]
+    },
+    9437: {
+        "attributes": {
+            "lunar_attack_power_gain": 102,
+            "strain_gain": 184
+        },
+        "max_level": 1,
+        "buff_name": "参连",
+        "alias_name": "参连_曲风提高阴性内功基础攻击力",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    23101: {
+        "attributes": {
+            "lunar_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "alias_name": "刻梦影子增伤buff",
+        "max_stack": 2,
+        "recipes": {}
+    },
+    12576: {
+        "attributes": {
+            "all_damage_addition": 51
+        },
+        "max_level": 1,
+        "alias_name": "云汉伤害buff",
+        "max_stack": 9,
+        "recipes": {}
     },
     9495: {
         "attributes": {},
@@ -10982,35 +10844,6 @@ BUFFS = {
         "buff_name": "知音妙意",
         "alias_name": "正律和鸣结束会效buff",
         "max_stack": 1,
-        "recipes": {}
-    },
-    23167: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "流照_流照无视防御",
-        "max_stack": 1,
-        "recipes": {
-            2975: 1,
-            2976: 1
-        }
-    },
-    23101: {
-        "attributes": {
-            "lunar_critical_strike_rate": 1000,
-            "magical_critical_power_rate": 102
-        },
-        "max_level": 1,
-        "alias_name": "刻梦影子增伤buff",
-        "max_stack": 2,
-        "recipes": {}
-    },
-    12576: {
-        "attributes": {
-            "all_damage_addition": 51
-        },
-        "max_level": 1,
-        "alias_name": "云汉伤害buff",
-        "max_stack": 9,
         "recipes": {}
     },
     23066: {
@@ -11374,34 +11207,6 @@ BUFFS = {
             }
         ]
     },
-    15893: {
-        "attributes": {
-            "physical_attack_power_gain": 256
-        },
-        "max_level": 1,
-        "buff_name": "忘断",
-        "alias_name": "忘断加隐雷鞭套路",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    15932: {
-        "attributes": {
-            "all_shield_ignore": 614
-        },
-        "max_level": 1,
-        "buff_name": "徵逐",
-        "alias_name": "徵逐无视外防",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    15926: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "百节",
-        "alias_name": "百节隐雷鞭招式伤害提高10%",
-        "max_stack": 3,
-        "recipes": {}
-    },
     15927: {
         "attributes": {},
         "max_level": 1,
@@ -11438,14 +11243,23 @@ BUFFS = {
             4976: 1
         }
     },
-    16596: {
+    15893: {
         "attributes": {
-            "physical_critical_strike_rate": 1500,
-            "physical_critical_power_rate": 150,
-            "physical_attack_power_gain": 154
+            "physical_attack_power_gain": 256
         },
         "max_level": 1,
-        "alias_name": "崔嵬鬼步自身隐身效果",
+        "buff_name": "忘断",
+        "alias_name": "忘断加隐雷鞭套路",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    15932: {
+        "attributes": {
+            "all_shield_ignore": 614
+        },
+        "max_level": 1,
+        "buff_name": "徵逐",
+        "alias_name": "徵逐无视外防",
         "max_stack": 1,
         "recipes": {}
     },
@@ -11629,42 +11443,6 @@ BUFFS = {
         "max_stack": 9,
         "recipes": {}
     },
-    20680: {
-        "attributes": {
-            "magical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "相使",
-        "alias_name": "相使加基础攻击力",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    20696: {
-        "attributes": {
-            "all_shield_ignore": 717
-        },
-        "max_level": 1,
-        "buff_name": "凄骨",
-        "alias_name": "凄骨无视防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    20054: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "奚毒射罔计数",
-        "max_stack": 4,
-        "recipes": {}
-    },
-    20718: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "炮阳强化中和效果",
-        "max_stack": 1,
-        "recipes": {
-            2579: 1
-        }
-    },
     21168: {
         "attributes": {},
         "max_level": 3,
@@ -11683,14 +11461,24 @@ BUFFS = {
             }
         ]
     },
-    21856: {
-        "attributes": {},
+    20680: {
+        "attributes": {
+            "magical_attack_power_gain": 154
+        },
         "max_level": 1,
-        "alias_name": "荆障",
+        "buff_name": "相使",
+        "alias_name": "相使加基础攻击力",
         "max_stack": 1,
-        "recipes": {
-            2858: 1
-        }
+        "recipes": {}
+    },
+    30352: {
+        "attributes": {
+            "all_shield_ignore": 717
+        },
+        "max_level": 1,
+        "alias_name": "凄骨",
+        "max_stack": 1,
+        "recipes": {}
     },
     20699: {
         "attributes": {
@@ -11701,15 +11489,6 @@ BUFFS = {
         "alias_name": "养荣千枝绽蕊加破防",
         "max_stack": 1,
         "recipes": {}
-    },
-    24659: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "应理以药瞬间中和",
-        "max_stack": 1,
-        "recipes": {
-            3173: 1
-        }
     },
     71230: {
         "attributes": {},
@@ -11931,34 +11710,6 @@ BUFFS = {
         },
         "max_level": 1,
         "alias_name": "玉枕_无视防御",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29254: {
-        "attributes": {
-            "magical_attack_power_gain": 205,
-            "strain_rate": 154
-        },
-        "max_level": 1,
-        "buff_name": "神门",
-        "alias_name": "神门增加攻击力",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29237: {
-        "attributes": {
-            "all_damage_addition": 154
-        },
-        "max_level": 1,
-        "buff_name": "出岫",
-        "alias_name": "出岫云散期间增伤",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    28756: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "经脉循行",
         "max_stack": 1,
         "recipes": {}
     },

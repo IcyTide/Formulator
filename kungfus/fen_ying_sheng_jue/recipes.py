@@ -5,14 +5,6 @@ class 明教_秘籍_烈日斩_静止目标加伤害(MoveStateDamageAdditionRecip
     value = 102
 
 
-class 生死劫必会心(SolarLunarCriticalStrikeRecipe):
-    value = 10000
-
-
-class 净世破魔击必会心(SolarLunarCriticalStrikeRecipe):
-    value = 10000
-
-
 class 新明光_阳性终结技增强(SolarAttackPowerGainRecipe):
     value = 246
 
@@ -34,7 +26,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             1014: {}, 1015: {}, 1016: {},
             1051: {}, 1052: {}, 1053: {},
             1621: {}, 1622: {}, 1623: {},
+            # 奇穴
             5149: {}, 5150: {},
+            # 装备
             (948, 2): {}, 1542: {}, 1543: {}
         },
         CriticalStrikeRecipe_200: {
@@ -64,12 +58,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         明教_秘籍_烈日斩_静止目标加伤害: {
             1013: {}
-        },
-        生死劫必会心: {
-            4545: {}
-        },
-        净世破魔击必会心: {
-            4546: {}
         },
         新明光_阳性终结技增强: {
             3222: {}, 3223: {}, 3224: {}

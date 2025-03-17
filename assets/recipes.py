@@ -497,71 +497,6 @@ RECIPES = {
             "recipe_name": "两仪化形伤害提高25%"
         }
     },
-    1116: {
-        3: {
-            "damage_addition": 102,
-            "skill_id": 367,
-            "recipe_type": 367,
-            "recipe_name": "四象伤害3"
-        }
-    },
-    1115: {
-        3: {
-            "damage_addition": 102,
-            "skill_id": 1,
-            "recipe_name": "两仪伤害3"
-        }
-    },
-    1216: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 1,
-            "recipe_name": "气纯_六合伤害提高10%"
-        }
-    },
-    2593: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 1,
-            "recipe_name": "重光飞剑伤害一次递增"
-        }
-    },
-    2594: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 1,
-            "recipe_name": "重光飞剑伤害二次递增"
-        }
-    },
-    2595: {
-        1: {
-            "damage_addition": 461,
-            "skill_id": 1,
-            "recipe_name": "重光飞剑伤害三次递增"
-        }
-    },
-    2596: {
-        1: {
-            "damage_addition": 614,
-            "skill_id": 1,
-            "recipe_name": "重光飞剑伤害四次递增"
-        }
-    },
-    2963: {
-        1: {
-            "damage_addition": 308,
-            "skill_id": 1,
-            "recipe_name": "新无极_太极无极加伤害"
-        }
-    },
-    5756: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 18640,
-            "recipe_type": 18640,
-            "recipe_name": "橙武万世加伤害"
-        }
-    },
     4602: {
         1: {
             "damage_addition": 102,
@@ -584,6 +519,14 @@ RECIPES = {
             "skill_id": 306,
             "recipe_type": 306,
             "recipe_name": "90级气纯橙武属性2"
+        }
+    },
+    5756: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 18640,
+            "recipe_type": 18640,
+            "recipe_name": "橙武万世加伤害"
         }
     },
     19: {
@@ -1004,42 +947,6 @@ RECIPES = {
             "recipe_name": "《百花拂穴手·芙蓉并蒂》参悟绝章"
         }
     },
-    4849: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 182,
-            "recipe_name": "玉石俱焚伤害提高"
-        }
-    },
-    3019: {
-        1: {
-            "damage_addition": 174,
-            "skill_id": 1,
-            "recipe_name": "新雪中行快雪加伤害"
-        }
-    },
-    3020: {
-        1: {
-            "damage_addition": 348,
-            "skill_id": 1,
-            "recipe_name": "新雪中行快雪时晴伤害提高_30%"
-        }
-    },
-    3235: {
-        1: {
-            "damage_addition": 420,
-            "skill_id": 1,
-            "recipe_name": "新雪中行快雪时晴伤害提高_3层"
-        }
-    },
-    3236: {
-        1: {
-            "damage_addition": 696,
-            "skill_id": 2636,
-            "recipe_type": 2636,
-            "recipe_name": "新雪中行快雪时晴伤害提高_4层"
-        }
-    },
     4661: {
         1: {
             "damage_addition": 1741,
@@ -1115,49 +1022,6 @@ RECIPES = {
             "skill_id": 2636,
             "recipe_type": 2636,
             "recipe_name": "小橙武_花间_快雪"
-        }
-    },
-    5497: {
-        1: {
-            "recipe_type": 2636,
-            "recipe_name": "新青歌快雪双会10%"
-        }
-    },
-    2439: {
-        1: {
-            "skill_id": 186,
-            "recipe_type": 186,
-            "recipe_name": "故幽加芙蓉会心"
-        }
-    },
-    2440: {
-        1: {
-            "skill_id": 6134,
-            "recipe_name": "故幽加轻弃商阳会心"
-        }
-    },
-    2441: {
-        1: {
-            "skill_id": 6136,
-            "recipe_name": "故幽加兰摧会心"
-        }
-    },
-    2442: {
-        1: {
-            "skill_id": 6135,
-            "recipe_name": "故幽加钟林会心"
-        }
-    },
-    2443: {
-        1: {
-            "skill_id": 18748,
-            "recipe_name": "故幽加兰摧唯二会心"
-        }
-    },
-    3151: {
-        1: {
-            "recipe_type": 32409,
-            "recipe_name": "故幽加快雪时晴dot会心"
         }
     },
     817: {
@@ -2368,117 +2232,12 @@ RECIPES = {
             "recipe_name": "《引魂蛊术·灵蛊》参悟绝章"
         }
     },
-    3228: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 29573,
-            "recipe_name": "重蛊_伤害提高_篾片"
-        }
-    },
-    3229: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 25044,
-            "recipe_name": "重蛊_伤害提高_连缘"
-        }
-    },
-    3230: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 30918,
-            "recipe_name": "重蛊_伤害提高_连缘尾跳"
-        }
-    },
-    3231: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 32759,
-            "recipe_name": "重蛊_伤害提高_寂灭蛊每跳"
-        }
-    },
-    3232: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 32760,
-            "recipe_name": "重蛊_伤害提高_寂灭蛊尾跳"
-        }
-    },
-    3233: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 32761,
-            "recipe_name": "重蛊_伤害提高_寂灭蛊寂灭"
-        }
-    },
-    3254: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 34849,
-            "recipe_name": "重蛊_怀泽蛊伤害提高"
-        }
-    },
-    3255: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 34668,
-            "recipe_name": "重蛊_怀泽蛊额外伤害提高"
-        }
-    },
-    3297: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 28717,
-            "recipe_name": "重蛊_提高毒手伤害"
-        }
-    },
-    3298: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 18590,
-            "recipe_name": "重蛊_提高灵蛊伤害"
-        }
-    },
-    3299: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 19148,
-            "recipe_name": "重蛊_提高蚀心蛊伤害"
-        }
-    },
     677: {
         2: {
             "damage_addition": 102,
             "skill_id": 2209,
             "recipe_type": 2209,
             "recipe_name": "蝎心攻2"
-        }
-    },
-    2513: {
-        1: {
-            "damage_addition": 819,
-            "skill_id": 25044,
-            "recipe_name": "连缘蛊一毒加成"
-        }
-    },
-    2514: {
-        1: {
-            "damage_addition": 1638,
-            "skill_id": 25044,
-            "recipe_name": "连缘蛊二毒加成"
-        }
-    },
-    2515: {
-        1: {
-            "damage_addition": 2458,
-            "skill_id": 25044,
-            "recipe_name": "连缘蛊三毒加成"
-        }
-    },
-    2516: {
-        1: {
-            "damage_addition": 3277,
-            "skill_id": 25044,
-            "recipe_name": "连缘蛊四毒加成"
         }
     },
     5608: {
@@ -2797,14 +2556,6 @@ RECIPES = {
             "recipe_name": "《百步穿杨·逐星箭》参悟绝章"
         }
     },
-    5090: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 3096,
-            "recipe_type": 3096,
-            "recipe_name": "追命箭减消耗读条"
-        }
-    },
     5145: {
         1: {
             "damage_addition": 205,
@@ -2813,19 +2564,12 @@ RECIPES = {
             "recipe_name": "追命无声追命伤害提高20%"
         }
     },
-    5759: {
+    5090: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 205,
             "skill_id": 3096,
             "recipe_type": 3096,
-            "recipe_name": "橙武追命加伤害无消耗"
-        }
-    },
-    1201: {
-        1: {
-            "damage_addition": 102,
-            "recipe_type": 3096,
-            "recipe_name": "90奇穴_追命箭_加伤害"
+            "recipe_name": "追命箭减消耗读条"
         }
     },
     946: {
@@ -2857,6 +2601,14 @@ RECIPES = {
             "skill_id": 3093,
             "recipe_type": 3093,
             "recipe_name": "90级惊羽橙武属性2"
+        }
+    },
+    5759: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 3096,
+            "recipe_type": 3096,
+            "recipe_name": "橙武追命加伤害无消耗"
         }
     },
     837: {
@@ -2967,20 +2719,6 @@ RECIPES = {
             "recipe_name": "90奇穴_夺魄箭加会心"
         }
     },
-    3167: {
-        1: {
-            "skill_id": 3093,
-            "recipe_type": 3093,
-            "recipe_name": "新声若惊雷无视防御"
-        }
-    },
-    1483: {
-        1: {
-            "skill_id": 3093,
-            "recipe_type": 3093,
-            "recipe_name": "90奇穴_暴雨梨花针减CD"
-        }
-    },
     5533: {
         1: {
             "prepare_frame": -24,
@@ -3002,43 +2740,11 @@ RECIPES = {
             "recipe_name": "蹑景追风3"
         }
     },
-    2864: {
-        1: {
-            "skill_id": 3098,
-            "recipe_type": 3098,
-            "recipe_name": "穿林打叶伤害修正"
-        }
-    },
     4588: {
         1: {
             "skill_id": 3096,
             "recipe_type": 3096,
             "recipe_name": "追命箭无视防御"
-        }
-    },
-    17435: {
-        1: {
-            "damage_addition": 21,
-            "recipe_mask": 1,
-            "recipe_name": "【橙武】【傍身招式】伤害提高2%（夺魄箭+罡风镖·悟）"
-        }
-    },
-    17438: {
-        1: {
-            "recipe_mask": 16,
-            "recipe_name": "【橙武第三条】【绝技】释放绝技后提高8%伤害（百里追魂+流火连星）"
-        }
-    },
-    17439: {
-        1: {
-            "recipe_mask": 64,
-            "recipe_name": "【橙武第四条】释放【对阵招式】降低绝技调息（百里追魂+流火连星）"
-        }
-    },
-    17436: {
-        1: {
-            "recipe_mask": 3,
-            "recipe_name": "【小橙武】【傍身招式】会心提高3%（夺魄箭+罡风镖·悟）"
         }
     },
     868: {
@@ -3604,20 +3310,6 @@ RECIPES = {
             "recipe_name": "《日月净世·烈日斩》人偶图断篇"
         }
     },
-    4545: {
-        1: {
-            "skill_id": 3966,
-            "recipe_type": 3966,
-            "recipe_name": "生死劫必会心"
-        }
-    },
-    4546: {
-        1: {
-            "skill_id": 3967,
-            "recipe_type": 3967,
-            "recipe_name": "净世破魔击必会心"
-        }
-    },
     3222: {
         1: {
             "recipe_type": 3966,
@@ -3726,6 +3418,20 @@ RECIPES = {
             "skill_id": 3962,
             "recipe_type": 3962,
             "recipe_name": "90级明尊橙武属性2"
+        }
+    },
+    4545: {
+        1: {
+            "skill_id": 3966,
+            "recipe_type": 3966,
+            "recipe_name": "生死劫必会心"
+        }
+    },
+    4546: {
+        1: {
+            "skill_id": 3967,
+            "recipe_type": 3967,
+            "recipe_name": "净世破魔击必会心"
         }
     },
     1340: {
@@ -4761,12 +4467,6 @@ RECIPES = {
             "recipe_name": "明心_音套路下不被打退_变徵"
         }
     },
-    5496: {
-        1: {
-            "recipe_type": 14067,
-            "recipe_name": "响壑_徵增加跳数"
-        }
-    },
     2209: {
         1: {
             "damage_addition": 102,
@@ -4976,12 +4676,6 @@ RECIPES = {
         1: {
             "skill_id": 30799,
             "recipe_name": "流照_流照无视90防御"
-        }
-    },
-    2976: {
-        1: {
-            "skill_id": 30801,
-            "recipe_name": "流照_流照音尽无视90防御"
         }
     },
     5583: {
@@ -6418,6 +6112,22 @@ RECIPES = {
             "recipe_name": "《隐雷鞭·隐风雷》参悟绝章"
         }
     },
+    4946: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 22143,
+            "recipe_type": 22143,
+            "recipe_name": "星垂平野伤害提高20%"
+        }
+    },
+    4947: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 22143,
+            "recipe_type": 22143,
+            "recipe_name": "星垂平野伤害提高40%"
+        }
+    },
     4965: {
         1: {
             "damage_addition": 102,
@@ -6512,22 +6222,6 @@ RECIPES = {
             "skill_id": 22358,
             "recipe_type": 22358,
             "recipe_name": "百节斩无常伤害提高30%"
-        }
-    },
-    4946: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 22143,
-            "recipe_type": 22143,
-            "recipe_name": "星垂平野伤害提高20%"
-        }
-    },
-    4947: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 22143,
-            "recipe_type": 22143,
-            "recipe_name": "星垂平野伤害提高40%"
         }
     },
     3154: {
@@ -6674,12 +6368,6 @@ RECIPES = {
             "recipe_name": "凌雪阁大橙武寂洪荒伤害5%"
         }
     },
-    17348: {
-        1: {
-            "recipe_mask": 48,
-            "recipe_name": "【特殊武器】【绝技招式】后加会心会效（凌雪）"
-        }
-    },
     4983: {
         1: {
             "skill_id": 22143,
@@ -6790,25 +6478,6 @@ RECIPES = {
             "skill_id": 22320,
             "recipe_type": 22320,
             "recipe_name": "乱天狼对静止目标"
-        }
-    },
-    17324: {
-        1: {
-            "damage_addition": 21,
-            "recipe_mask": 1,
-            "recipe_name": "【橙武】【傍身招式】伤害提高2%（凌雪·星垂平野+寂洪荒）"
-        }
-    },
-    17326: {
-        1: {
-            "recipe_mask": 16,
-            "recipe_name": "【橙武】释放【绝技招式】伤害提高持续一段时间（凌雪·乱天狼+飞刃回转）"
-        }
-    },
-    17330: {
-        1: {
-            "recipe_mask": 3,
-            "recipe_name": "【小橙武】【傍身招式】会心提高3%（凌雪·星垂平野+寂洪荒）"
         }
     },
     5241: {
@@ -7211,14 +6880,6 @@ RECIPES = {
             "recipe_name": "《凌波飞叶令·银光照雪》参悟断篇"
         }
     },
-    2579: {
-        1: {
-            "damage_addition": 358,
-            "skill_id": 28081,
-            "recipe_type": 28081,
-            "recipe_name": "炮阳中和伤害提高30%"
-        }
-    },
     2731: {
         1: {
             "damage_addition": 51,
@@ -7241,38 +6902,6 @@ RECIPES = {
             "skill_id": 27652,
             "recipe_type": 27652,
             "recipe_name": "灵荆加伤害"
-        }
-    },
-    5363: {
-        1: {
-            "damage_addition": 103,
-            "skill_id": 27669,
-            "recipe_type": 27669,
-            "recipe_name": "青川濯莲加伤害10%"
-        }
-    },
-    2858: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 27652,
-            "recipe_type": 27652,
-            "recipe_name": "荆障加伤害"
-        }
-    },
-    3173: {
-        1: {
-            "damage_addition": 3277,
-            "skill_id": 28081,
-            "recipe_type": 28081,
-            "recipe_name": "应理以药中和提升伤害"
-        }
-    },
-    2541: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 27551,
-            "recipe_type": 27551,
-            "recipe_name": "川谷商陆其根加伤害"
         }
     },
     2839: {
@@ -8233,11 +7862,11 @@ RECIPES = {
             "recipe_name": "《聘风令·劈风令》参悟断篇"
         }
     },
-    5610: {
+    5845: {
         1: {
-            "damage_addition": 205,
-            "skill_id": 38085,
-            "recipe_name": "绝脉引爆伤害提高10%"
+            "damage_addition": -308,
+            "skill_id": 37780,
+            "recipe_name": "劈风令弹射降伤害"
         }
     },
     5620: {
@@ -8245,34 +7874,6 @@ RECIPES = {
             "damage_addition": 205,
             "skill_id": 38452,
             "recipe_name": "骤风共振伤害增加"
-        }
-    },
-    5636: {
-        1: {
-            "damage_addition": 358,
-            "skill_id": 1,
-            "recipe_name": "出岫云散期间加一阳指伤害_断脉"
-        }
-    },
-    5637: {
-        1: {
-            "damage_addition": 358,
-            "skill_id": 1,
-            "recipe_name": "出岫云散期间加一阳指伤害_截阳"
-        }
-    },
-    5638: {
-        1: {
-            "damage_addition": 358,
-            "skill_id": 1,
-            "recipe_name": "出岫云散期间加一阳指伤害_引窍"
-        }
-    },
-    5639: {
-        1: {
-            "damage_addition": 358,
-            "skill_id": 1,
-            "recipe_name": "出岫云散期间加一阳指伤害_破穴"
         }
     },
     5737: {
@@ -8419,24 +8020,6 @@ RECIPES = {
         1: {
             "recipe_type": 37779,
             "recipe_name": "茫渺静止增伤"
-        }
-    },
-    5645: {
-        1: {
-            "skill_id": 38075,
-            "recipe_name": "雾刃二段递增20%"
-        }
-    },
-    5646: {
-        1: {
-            "skill_id": 38076,
-            "recipe_name": "雾刃三段递增20%"
-        }
-    },
-    5647: {
-        1: {
-            "skill_id": 38077,
-            "recipe_name": "雾刃四段递增20%"
         }
     },
     17511: {

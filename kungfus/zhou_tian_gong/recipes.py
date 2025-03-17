@@ -36,18 +36,6 @@ class 芒渺静止增伤(MoveStateDamageAdditionRecipe):
     value = 358
 
 
-class 滃从递增雾刃飞光(ChannelIntervalRecipe):
-    values = {
-        5645: 1.2,
-        5646: 1.2 ** 2,
-        5647: 1.2 ** 3
-    }
-
-    @property
-    def value(self):
-        return self.values[self.recipe_id]
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
@@ -57,7 +45,9 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             5706: {}, 5707: {},
             5712: {}, 5713: {},
             5716: {}, 5717: {},
-            5610: {}, 5620: {}, 5636: {}, 5637: {}, 5638: {}, 5639: {},
+
+            # 奇穴
+            5845: {}, 5620: {},
             5737: {}, 5749: {}, 5750: {}
         },
         CriticalStrikeRecipe_200: {
@@ -93,9 +83,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         芒渺静止增伤: {
             5640: {}
-        },
-        滃从递增雾刃飞光: {
-            5645: {}, 5646: {}, 5647: {}
         }
     },
     1: {

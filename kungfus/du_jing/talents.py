@@ -31,28 +31,18 @@ class 嗜蛊(Gain):
 
 class 蛇悉(Gain):
     def add_dots(self, dots: Dict[int, Dot]):
-        dots[2296].tick_add += 2
-        dots[25917].tick_add += 2
+        for dot_id in (2296, 25917):
+            dots[dot_id].tick_add += 2
 
     def sub_dots(self, dots: Dict[int, Dot]):
-        dots[2296].tick_add -= 2
-        dots[25917].tick_add -= 2
-
-
-class 引魂(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pet_buffs[16102] = {1: 1}
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[2223].pet_buffs.pop(16102)
+        for dot_id in (2296, 25917):
+            dots[dot_id].tick_add -= 2
 
 
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
             6618: Gain("尻尾", recipes=[(677, 2)]),
-            6877: Gain("生发"),
-            6620: Gain("蝎毒")
         },
         {
             6649: Gain("食髓")
@@ -67,27 +57,25 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             6625: 蟾啸("蟾啸"),
-            34388: Gain("重蛊")
         },
         {
-            37952: Gain("不鸣"),
-            34640: Gain("忘情")
+            34640: Gain("忘情"),
+            40069: Gain("裕蛊")
         },
         {
             30088: 嗜蛊("嗜蛊"),
         },
         {
-            18330: Gain("固灵")
+            18330: Gain("固灵"),
+            37351: Gain("释灵")
         },
         {
             25018: Gain("荒息")
         },
         {
-            29545: Gain("篾片蛊"),
             21302: 蛇悉("蛇悉")
         },
         {
-            18325: 引魂("引魂"),
             38581: Gain("急星")
         },
         {

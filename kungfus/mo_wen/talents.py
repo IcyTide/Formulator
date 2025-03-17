@@ -14,6 +14,14 @@ class 刻梦(Gain):
         skills[14082].pet_count = 1
 
 
+class 参连(Gain):
+    def add_skills(self, skills):
+        skills[14070].post_buffs = {9437: {1: 1}}
+
+    def sub_skills(self, skills):
+        skills[14070].post_buffs.pop(9437)
+
+
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
@@ -23,11 +31,10 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             35981: Gain("明津")
         },
         {
-            32485: Gain("弦风"),
             34341: Gain("连徽")
         },
         {
-            30562: Gain("流照"),
+            30562: Gain("流照", recipes=[(2975, 1)]),
             14285: Gain("殊曲")
         },
         {
@@ -49,7 +56,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             18712: Gain("云汉")
         },
         {
-            14350: Gain("参连")
+            14350: 参连("参连")
         },
         {
             34344: Gain("正律和鸣"),

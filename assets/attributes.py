@@ -612,7 +612,7 @@ ATTRIBUTES = {
     10268: {
         "alias_name": "笑尘诀",
         "max_level": 14,
-        "pve_addition_base": 123,
+        "pve_addition_base": 512,
         "physical_attack_power_base": [
             8,
             15,

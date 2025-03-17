@@ -8,4 +8,7 @@ from kungfus.wu_fang.talents import TALENTS
 
 
 def prepare(self, player_id):
-    pass
+    if 28419 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][30352][1] = 1
+    if 28426 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][20699][1] = 1

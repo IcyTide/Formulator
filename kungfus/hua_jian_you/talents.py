@@ -13,14 +13,6 @@ class 钟灵(Gain):
         skills[182].pre_buffs.pop(28116)
 
 
-class 雪中行(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[182].post_buffs[24599] = {i + 1: -i - 1 for i in range(3)}
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[182].post_buffs.pop(24599)
-
-
 class 陶然(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill in skills.values():
@@ -56,7 +48,7 @@ class 忘机(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
-            5756: Gain("烟霞", recipes=[(1295, 1)])
+            32477: Gain("雪中行")
         },
         {
             17510: Gain("倚天"),
@@ -67,14 +59,12 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
         },
         {
             38954: Gain("焚玉"),
-            5762: Gain("青歌", recipes=[(5497, 1)])
         },
         {
-            14635: Gain("踏莲"),
             21744: Gain("折花")
         },
         {
-            32477: 雪中行("雪中行")
+            24912: Gain("丹鼎", recipes=[(4661, 1)])
         },
         {
             16855: Gain("清流")
@@ -87,9 +77,7 @@ TALENTS: Dict[int, List[Dict[int, Gain]]] = {
             26694: Gain("碎玉")
         },
         {
-            30650: Gain("丹青"),
-            32480: Gain("雪弃"),
-            37065: Gain("活络")
+            30650: Gain("丹青")
         },
         {
             37267: Gain("墨海临源"),

@@ -1,7 +1,6 @@
 from general.recipes import *
 
 
-
 class 流血伤害提高10(ChannelIntervalRecipe):
     value = 1.12
 

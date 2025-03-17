@@ -39,22 +39,6 @@ class 夺魄箭_加会心会伤(PhysicalCriticalRecipe):
     value = (1000, 100)
 
 
-class 唐门_新声若惊雷无视防御(PhysicalShieldGainRecipe):
-    value = -410
-
-    def add_skill(self, skill: Skill):
-        if skill.skill_id not in (3093, 6444):
-            super().add_skill(skill)
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id not in (3093, 6444):
-            super().sub_skill(skill)
-
-
-class 唐门_天罗_暴雨梨花针减CD(PhysicalCriticalRecipe):
-    value = (500 * 4, 100 * 4)
-
-
 class 蹑景追风120非侠士效果(PveAdditionRecipe):
     value = 512
 
@@ -65,10 +49,6 @@ class 蹑景追风80非侠士效果(PveAdditionRecipe):
 
 class 蹑景追风60非侠士效果(PveAdditionRecipe):
     value = 410
-
-
-class 穿林打叶伤害修正(ChannelIntervalRecipe):
-    value = 1.5
 
 
 class 唐门_追命箭_忽视50外防(PhysicalShieldGainRecipe):
@@ -93,9 +73,12 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             843: {}, 844: {}, 845: {}, 846: {},
             853: {}, 854: {}, 855: {},
             1661: {}, 1662: {}, 1663: {},
-            5090: {}, 5145: {}, 5759: {},
-            1201: {},
-            946: {}, 1969: {}, 1534: {}, 1535: {}
+            # buff
+            5145: {},
+            # 奇穴
+            5090: {},
+            # 装备
+            946: {}, 1969: {}, 1534: {}, 1535: {}, 5759: {}
         },
         CriticalStrikeRecipe_300: {
             837: {},
@@ -126,12 +109,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         夺魄箭_加会心会伤: {
             1200: {}
         },
-        唐门_新声若惊雷无视防御: {
-            3167: {}
-        },
-        唐门_天罗_暴雨梨花针减CD: {
-            1483: {}
-        },
         蹑景追风120非侠士效果: {
             5533: {}
         },
@@ -141,19 +118,8 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         蹑景追风60非侠士效果: {
             5535: {}
         },
-        穿林打叶伤害修正: {
-            2864: {}
-        },
         唐门_追命箭_忽视50外防: {
             4588: {}
-        }
-    },
-    1: {
-        SkillRecipe: {
-            17435: {}, 17438: {}, 17439: {}
-        },
-        CriticalStrikeRecipe_306: {
-            17436: {}
         }
     }
 }
