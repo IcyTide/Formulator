@@ -10017,16 +10017,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    6105: {
-        "attributes": {
-            "poison_overcome_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "弩心",
-        "alias_name": "唐门_连弩加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
     3468: {
         "attributes": {
             "physical_critical_strike_rate": 1500,
@@ -10038,37 +10028,35 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    6112: {
+    6105: {
         "attributes": {
-            "physical_attack_power_gain": 154,
-            "poison_attack_power_gain": 154
+            "poison_overcome_gain": 154
         },
         "max_level": 1,
-        "buff_name": "千机之威",
-        "alias_name": "唐门_千机变范围加伤害",
+        "buff_name": "弩心",
+        "alias_name": "唐门_连弩加伤害",
         "max_stack": 1,
         "recipes": {}
     },
-    3426: {
+    23081: {
+        "attributes": {
+            "all_damage_addition": 205
+        },
+        "max_level": 1,
+        "alias_name": "神机好穷70以下",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    23082: {
         "attributes": {},
         "max_level": 1,
-        "buff_name": "鬼斧弹药",
-        "alias_name": "唐门_鬼斧神工_计数",
-        "max_stack": 50,
-        "recipes": {
-            4932: 1,
-            4933: 1
-        }
-    },
-    10005: {
-        "attributes": {
-            "all_shield_ignore": 256
-        },
-        "max_level": 1,
-        "buff_name": "催寒",
-        "alias_name": "(10005)(1)弩攻击内功攻击提高5%",
+        "alias_name": "神机好穷50以上",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": {
+            2960: 1,
+            2961: 1,
+            2962: 1
+        }
     },
     13165: {
         "attributes": {},
@@ -10095,25 +10083,15 @@ BUFFS = {
             5459: 1
         }
     },
-    23081: {
+    10005: {
         "attributes": {
-            "all_damage_addition": 205
+            "all_shield_ignore": 256
         },
         "max_level": 1,
-        "alias_name": "神机好穷70以下",
+        "buff_name": "催寒",
+        "alias_name": "(10005)(1)弩攻击内功攻击提高5%",
         "max_stack": 1,
         "recipes": {}
-    },
-    23082: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "神机好穷50以上",
-        "max_stack": 1,
-        "recipes": {
-            2960: 1,
-            2961: 1,
-            2962: 1
-        }
     },
     4754: {
         "attributes": [
@@ -10846,67 +10824,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    23066: {
-        "attributes": {},
-        "max_level": 2,
-        "buff_name": "含风",
-        "alias_name": [
-            "[23066]含风招式增伤",
-            "含风招式增伤"
-        ],
-        "max_stack": 1,
-        "recipes": [
-            {
-                2943: 1,
-                2944: 1,
-                2945: 1
-            },
-            {
-                2946: 1,
-                2947: 1,
-                2948: 1
-            }
-        ]
-    },
-    19510: {
-        "attributes": {
-            "physical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "斩纷",
-        "alias_name": "斩纷加基础攻击",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    19244: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "新砺锋减读条",
-        "max_stack": 1,
-        "recipes": {
-            2474: 1
-        }
-    },
-    29219: {
-        "attributes": {
-            "all_damage_addition": 307
-        },
-        "max_level": 1,
-        "buff_name": "斩狂枭",
-        "alias_name": "新爆体持续监控",
-        "max_stack": 1,
-        "recipes": {
-            3350: 1,
-            3352: 1,
-            3353: 1,
-            3354: 1,
-            3355: 1,
-            3356: 1,
-            3357: 1,
-            3358: 1,
-            3359: 1
-        }
-    },
     29561: {
         "attributes": {
             "all_shield_ignore": 512
@@ -10917,49 +10834,15 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    11222: {
-        "attributes": {},
-        "max_level": 12,
-        "alias_name": "项王击鼎旋转递增实际效果",
+    19510: {
+        "attributes": {
+            "physical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "斩纷",
+        "alias_name": "斩纷加基础攻击",
         "max_stack": 1,
-        "recipes": [
-            {
-                4247: 1
-            },
-            {
-                4248: 1
-            },
-            {
-                4249: 1
-            },
-            {
-                4250: 1
-            },
-            {
-                4251: 1
-            },
-            {
-                4252: 1
-            },
-            {
-                4253: 1
-            },
-            {
-                4254: 1
-            },
-            {
-                4255: 1
-            },
-            {
-                4309: 1
-            },
-            {
-                4310: 1
-            },
-            {
-                4311: 1
-            }
-        ]
+        "recipes": {}
     },
     11221: {
         "attributes": {},
@@ -10990,13 +10873,24 @@ BUFFS = {
             }
         ]
     },
-    19499: {
-        "attributes": {},
+    29219: {
+        "attributes": {
+            "all_damage_addition": 307
+        },
         "max_level": 1,
-        "alias_name": "新砺锋醉斩加25伤害",
+        "buff_name": "斩狂枭",
+        "alias_name": "新爆体持续监控",
         "max_stack": 1,
         "recipes": {
-            2509: 1
+            3350: 1,
+            3352: 1,
+            3353: 1,
+            3354: 1,
+            3355: 1,
+            3356: 1,
+            3357: 1,
+            3358: 1,
+            3359: 1
         }
     },
     71047: {
@@ -11512,6 +11406,52 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    24168: {
+        "attributes": [
+            {
+                "physical_overcome_gain": 51
+            },
+            {
+                "physical_overcome_gain": 51,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 51,
+                "physical_critical_strike_rate": 500,
+                "physical_overcome_gain": 51
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 1000,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_power_rate": 50,
+                "physical_critical_strike_rate": 500,
+                "physical_overcome_gain": 51
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 1000,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 1000,
+                "physical_overcome_gain": 102
+            },
+            {
+                "physical_critical_power_rate": 200,
+                "physical_critical_strike_rate": 2000,
+                "physical_overcome_gain": 205
+            }
+        ],
+        "max_level": 8,
+        "buff_name": "灭影追风",
+        "alias_name": "灭影追风",
+        "max_stack": 1,
+        "recipes": {}
+    },
     24553: {
         "attributes": [
             {
@@ -11538,6 +11478,52 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    24554: {
+        "attributes": [
+            {
+                "physical_overcome_gain": 51
+            },
+            {
+                "physical_overcome_gain": 51,
+                "physical_critical_strike_rate": 500
+            },
+            {
+                "physical_critical_power_rate": 51,
+                "physical_critical_strike_rate": 500,
+                "physical_overcome_gain": 51
+            },
+            {
+                "physical_critical_power_rate": 100,
+                "physical_critical_strike_rate": 1000,
+                "physical_overcome_gain": 102
+            }
+        ],
+        "max_level": 4,
+        "buff_name": "灭影追风",
+        "alias_name": "灭影追风额外降化劲版",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30304: {
+        "attributes": {
+            "all_damage_addition": 31
+        },
+        "max_level": 1,
+        "buff_name": "戗风",
+        "alias_name": "奇穴_戗风_增伤",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    30311: {
+        "attributes": {
+            "all_damage_addition": 154
+        },
+        "max_level": 1,
+        "buff_name": "击懈",
+        "alias_name": "奇穴_击懈_击破弱点增伤",
+        "max_stack": 1,
+        "recipes": {}
+    },
     24209: {
         "attributes": {
             "all_shield_ignore": 256
@@ -11547,23 +11533,6 @@ BUFFS = {
         "alias_name": "无视防御",
         "max_stack": 1,
         "recipes": {}
-    },
-    24557: {
-        "attributes": {},
-        "max_level": 2,
-        "buff_name": "戗风",
-        "alias_name": "打断后撤增加孤风伤害",
-        "max_stack": 1,
-        "recipes": [
-            {
-                3147: 1,
-                5355: 1,
-                5356: 1
-            },
-            {
-                3252: 1
-            }
-        ]
     },
     24752: {
         "attributes": {},
@@ -11578,48 +11547,6 @@ BUFFS = {
         "recipes": {
             5754: 1
         }
-    },
-    24179: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "顾应势纷绞势伤害提高",
-        "max_stack": 1,
-        "recipes": {
-            3012: 1,
-            3013: 1
-        }
-    },
-    24180: {
-        "attributes": {},
-        "max_level": 8,
-        "alias_name": "起落势破绽增伤",
-        "max_stack": 1,
-        "recipes": [
-            {
-                3014: 1
-            },
-            {
-                3016: 1
-            },
-            {
-                3017: 1
-            },
-            {
-                3018: 1
-            },
-            {
-                3028: 1
-            },
-            {
-                3029: 1
-            },
-            {
-                3030: 1
-            },
-            {
-                3031: 1
-            }
-        ]
     },
     71297: {
         "attributes": {

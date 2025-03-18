@@ -31,54 +31,6 @@ class 沧浪三叠双会提高秘籍(PhysicalCriticalRecipe):
             super().sub_skill(skill)
 
 
-class 诀云非侠士(PveAdditionRecipe):
-    value = 1024
-
-
-class 横云断浪流血伤害逐层提高(ChannelIntervalRecipe):
-    values = [1.1, 1.2, 1.3, 1.4, 1.5, 1.6]
-
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (32372, 32874):
-            self.value = self.values[0]
-            super().add_skill(skill)
-        elif skill.skill_id in (32371, 32873):
-            self.value = self.values[1]
-            super().add_skill(skill)
-        elif skill.skill_id in (32370, 32872):
-            self.value = self.values[2]
-            super().add_skill(skill)
-        elif skill.skill_id in (32369, 32871):
-            self.value = self.values[3]
-            super().add_skill(skill)
-        elif skill.skill_id == 32870:
-            self.value = self.values[4]
-            super().add_skill(skill)
-        elif skill.skill_id == 32869:
-            self.value = self.values[5]
-            super().add_skill(skill)
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (32372, 32874):
-            self.value = self.values[0]
-            super().sub_skill(skill)
-        elif skill.skill_id in (32371, 32873):
-            self.value = self.values[1]
-            super().sub_skill(skill)
-        elif skill.skill_id in (32370, 32872):
-            self.value = self.values[2]
-            super().sub_skill(skill)
-        elif skill.skill_id in (32369, 32871):
-            self.value = self.values[3]
-            super().sub_skill(skill)
-        elif skill.skill_id == 32870:
-            self.value = self.values[4]
-            super().sub_skill(skill)
-        elif skill.skill_id == 32869:
-            self.value = self.values[5]
-            super().sub_skill(skill)
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         DotRecipe: {
@@ -94,11 +46,10 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             3065: {}, 3066: {}, 3142: {},
             3133: {}, 3134: {},
             3137: {}, 3138: {},
-            3013: {}, 3012: {}, 3147: {}, 5355: {}, 5356: {}, 3014: {}, 3016: {}, 3017: {}, 3018: {}, 3028: {},
-            3029: {},
-            3030: {}, 3031: {},
-            3010: {}, 5584: {}, 5585: {}, 5586: {}, 3252: {}, 5754: {},
-            3188: {}, 3186: {}, 3187: {}
+            # 奇穴
+            5584: {}, 5585: {}, 5586: {},
+            # 装备
+            3188: {}, 3186: {}, 3187: {}, 5754: {}
         },
         CriticalStrikeRecipe_200: {
             3111: {},
@@ -133,12 +84,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         沧浪三叠双会提高秘籍: {
             3023: {}
-        },
-        诀云非侠士: {
-            5588: {}
-        },
-        横云断浪流血伤害逐层提高: {
-            3033: {}
         }
     },
     1: {

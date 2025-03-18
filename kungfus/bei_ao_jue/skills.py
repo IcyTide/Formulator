@@ -30,19 +30,24 @@ class 闹须弥秘章(Skill):
 SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Skill: {
-            **{skill_id: dict(channel_interval=24) for skill_id in (16419, 16820, 16822)},
-            32823: {}, 16599: {}, 16631: {}, 16794: {}, 17092: {}, 20991: {}, 19424: {}, 34585: {}, 32859: {},
-            37984: {}, 25782: {}, 38533: {}, 38537: {}, 39106: {},
-            **{skill_id: {} for skill_id in (16758, 16759, 16760, 16382)},
-            **{skill_id: {} for skill_id in range(16787, 16791 + 1)},
-            **{skill_id: {} for skill_id in range(16610, 16614 + 1)},
-            **{skill_id: {} for skill_id in range(16913, 16918 + 1)},
-            **{skill_id: {} for skill_id in range(16615, 16619 + 1)},
-            **{skill_id: {} for skill_id in range(16920, 16925 + 1)},
+            # 通用
+            **{skill_id: dict(channel_interval=24) for skill_id in (16419, 16820, 16822)}, 32823: {},
+            # 殷雷腿
+            16599: {}, 16631: {}, **{skill_id: {} for skill_id in (16097, 16753, 16774, 16775)},
+            # 秀明尘身
+            20991: {}, **{skill_id: {} for skill_id in (16758, 16759, 16760, 16382)},
+            **{skill_id: {} for skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424)},
+            # 松烟竹雾
+            17092: {}, **{skill_id: dict(bind_dots={11447: 1}) for skill_id in (17058, 17060)},
             **{skill_id: {} for skill_id in range(16933, 16944 + 1)},
-            **{skill_id: {} for skill_id in (16804, 16803, 16802, 16801, 16800, 17043, 19423)},
-            **{skill_id: {} for skill_id in (16097, 16753, 16774, 16775)},
-            **{skill_id: dict(bind_dots={11447: 1}) for skill_id in (17058, 17060)},
+            # 雪絮金屏
+            16794: {}, **{skill_id: {} for skill_id in range(16787, 16791 + 1)},
+            **{skill_id: {} for skill_id in range(16610, 16614 + 1)},
+            **{skill_id: {} for skill_id in range(16615, 16619 + 1)},
+            # 奇穴
+            38533: {}, 37984: {}, 38537: {}, 34585: {},
+            # 装备
+            25782: {}, 39106: {},
         }
     },
     1: {

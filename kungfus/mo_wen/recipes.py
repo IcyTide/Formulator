@@ -85,11 +85,11 @@ class 响壑徵无视防御秘籍脚本(MagicalShieldGainRecipe):
     value = -410
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id == 14227:
+        if skill.skill_id in (14227, 18859):
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id == 14227:
+        if skill.skill_id in (14227, 18859):
             super().sub_skill(skill)
 
 

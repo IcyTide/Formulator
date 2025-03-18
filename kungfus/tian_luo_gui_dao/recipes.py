@@ -13,10 +13,6 @@ class 鬼斧无视防御(MagicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
-class 神机车无视防御(MagicalShieldGainRecipe):
-    value = -512
-
-
 class 连弩重弩伤害额外提高(ChannelIntervalRecipe):
     value = 1.75
 
@@ -49,19 +45,17 @@ class 神机控制暗藏杀机伤害10(ChannelIntervalRecipe):
     value = 1.1
 
 
-class 暴雨梨花针_加会心(PhysicalCriticalRecipe):
-    value = (1000, 100)
-
-
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
+            # 通用
             834: {}, 835: {}, 836: {},
             868: {}, 869: {}, 870: {}, 871: {}, 872: {},
             884: {}, 885: {}, 886: {},
             1669: {}, 1670: {}, 1671: {},
-            5580: {}, 4932: {}, 4933: {}, 2962: {},
-            1223: {},
+            # 奇穴
+            2962: {}, 1223: {},
+            # 装备
             947: {}, 4120: {}, 1532: {}, 1533: {}
         },
         CriticalStrikeRecipe_200: {
@@ -81,9 +75,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         鬼斧无视防御: {
             4677: {}
         },
-        神机车无视防御: {
-            4930: {}, 4931: {}
-        },
         连弩重弩伤害额外提高: {
             5421: {}
         },
@@ -95,9 +86,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         神机控制暗藏杀机伤害10: {
             2961: {}
-        },
-        暴雨梨花针_加会心: {
-            1204: {}
         }
     },
     1: {

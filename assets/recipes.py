@@ -2835,27 +2835,6 @@ RECIPES = {
             "recipe_name": "《九宫飞星·图穷匕见》参悟绝章"
         }
     },
-    5580: {
-        1: {
-            "damage_addition": -460,
-            "recipe_type": 3367,
-            "recipe_name": "缺固重弩伤害降低"
-        }
-    },
-    4932: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 21854,
-            "recipe_name": "神机车连弩加伤害"
-        }
-    },
-    4933: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 21850,
-            "recipe_name": "神机车重弩加伤害"
-        }
-    },
     2962: {
         1: {
             "damage_addition": 103,
@@ -2936,18 +2915,6 @@ RECIPES = {
             "recipe_name": "鬼斧弩伤害无视防御"
         }
     },
-    4930: {
-        1: {
-            "skill_id": 21854,
-            "recipe_name": "神机车连弩无视防御"
-        }
-    },
-    4931: {
-        1: {
-            "skill_id": 21850,
-            "recipe_name": "神机车重弩无视防御"
-        }
-    },
     5421: {
         1: {
             "skill_id": 3367,
@@ -2974,13 +2941,6 @@ RECIPES = {
             "skill_id": 3111,
             "recipe_type": 3111,
             "recipe_name": "神机控制暗藏杀机加伤害"
-        }
-    },
-    1204: {
-        1: {
-            "skill_id": 3093,
-            "recipe_type": 3093,
-            "recipe_name": "90奇穴_暴雨梨花针加会心"
         }
     },
     17429: {
@@ -4893,198 +4853,6 @@ RECIPES = {
             "recipe_name": "《秀明尘身·上将军印》参悟绝章"
         }
     },
-    2943: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 16085,
-            "recipe_type": 16085,
-            "recipe_name": "新含风醉斩加伤害"
-        }
-    },
-    2944: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 16027,
-            "recipe_type": 16027,
-            "recipe_name": "新含风刀啸加伤害"
-        }
-    },
-    2945: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 16621,
-            "recipe_type": 16621,
-            "recipe_name": "新含风坚壁加伤害"
-        }
-    },
-    2946: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 16085,
-            "recipe_type": 16085,
-            "recipe_name": "新含风醉斩加伤害2"
-        }
-    },
-    2947: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 16027,
-            "recipe_type": 16027,
-            "recipe_name": "新含风刀啸加伤害2"
-        }
-    },
-    2948: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 16621,
-            "recipe_type": 16621,
-            "recipe_name": "新含风坚壁加伤害2"
-        }
-    },
-    3350: {
-        1: {
-            "skill_id": 16602,
-            "recipe_name": "爆体破釜沉舟+10能"
-        }
-    },
-    4247: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高5%"
-        }
-    },
-    4248: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高10%"
-        }
-    },
-    4249: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高15%"
-        }
-    },
-    4250: {
-        1: {
-            "damage_addition": 410,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高20%"
-        }
-    },
-    4251: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高25%"
-        }
-    },
-    4252: {
-        1: {
-            "damage_addition": 614,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高30%"
-        }
-    },
-    4253: {
-        1: {
-            "damage_addition": 717,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高35%"
-        }
-    },
-    4254: {
-        1: {
-            "damage_addition": 819,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高40%"
-        }
-    },
-    4255: {
-        1: {
-            "damage_addition": 922,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害提高45%"
-        }
-    },
-    4309: {
-        1: {
-            "damage_addition": 1024,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害增加100%"
-        }
-    },
-    4310: {
-        1: {
-            "damage_addition": 1126,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害增加110%"
-        }
-    },
-    4311: {
-        1: {
-            "damage_addition": 1229,
-            "skill_id": 16382,
-            "recipe_name": "项王击鼎旋转伤害增加120%"
-        }
-    },
-    3351: {
-        1: {
-            "skill_id": 37979,
-            "recipe_name": "临江上将军印归酣"
-        }
-    },
-    3352: {
-        1: {
-            "skill_id": 16601,
-            "recipe_name": "爆体项王+10能"
-        }
-    },
-    3353: {
-        1: {
-            "skill_id": 17078,
-            "recipe_name": "爆体项王+10能"
-        }
-    },
-    3354: {
-        1: {
-            "skill_id": 17079,
-            "recipe_name": "爆体项王+10能"
-        }
-    },
-    3355: {
-        1: {
-            "skill_id": 16627,
-            "recipe_name": "爆体上将+10能"
-        }
-    },
-    3356: {
-        1: {
-            "skill_id": 37979,
-            "recipe_name": "爆体临江上将+10能"
-        }
-    },
-    3357: {
-        1: {
-            "skill_id": 30526,
-            "recipe_name": "爆体余声+10能"
-        }
-    },
-    3358: {
-        1: {
-            "skill_id": 16479,
-            "recipe_name": "爆体割据+10能"
-        }
-    },
-    3359: {
-        1: {
-            "skill_id": 33123,
-            "recipe_name": "爆体扬刀+10能"
-        }
-    },
     2510: {
         1: {
             "damage_addition": 205,
@@ -5099,20 +4867,6 @@ RECIPES = {
             "skill_id": 16602,
             "recipe_type": 16602,
             "recipe_name": "新冥鼓破釜"
-        }
-    },
-    2509: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 16085,
-            "recipe_type": 16085,
-            "recipe_name": "新砺锋醉斩加伤害"
-        }
-    },
-    2474: {
-        1: {
-            "skill_id": 16085,
-            "recipe_name": "醉斩减读条"
         }
     },
     4257: {
@@ -5168,6 +4922,66 @@ RECIPES = {
             "damage_addition": 1792,
             "recipe_type": 16085,
             "recipe_name": "醉斩白蛇会心递增35%"
+        }
+    },
+    3350: {
+        1: {
+            "skill_id": 16602,
+            "recipe_name": "爆体破釜沉舟+10能"
+        }
+    },
+    3351: {
+        1: {
+            "skill_id": 37979,
+            "recipe_name": "临江上将军印归酣"
+        }
+    },
+    3352: {
+        1: {
+            "skill_id": 16601,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3353: {
+        1: {
+            "skill_id": 17078,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3354: {
+        1: {
+            "skill_id": 17079,
+            "recipe_name": "爆体项王+10能"
+        }
+    },
+    3355: {
+        1: {
+            "skill_id": 16627,
+            "recipe_name": "爆体上将+10能"
+        }
+    },
+    3356: {
+        1: {
+            "skill_id": 37979,
+            "recipe_name": "爆体临江上将+10能"
+        }
+    },
+    3357: {
+        1: {
+            "skill_id": 30526,
+            "recipe_name": "爆体余声+10能"
+        }
+    },
+    3358: {
+        1: {
+            "skill_id": 16479,
+            "recipe_name": "爆体割据+10能"
+        }
+    },
+    3359: {
+        1: {
+            "skill_id": 33123,
+            "recipe_name": "爆体扬刀+10能"
         }
     },
     4290: {
@@ -5382,21 +5196,6 @@ RECIPES = {
             "skill_id": 16085,
             "recipe_type": 16085,
             "recipe_name": "小橙武霸刀属性2"
-        }
-    },
-    4214: {
-        1: {
-            "skill_id": 16601,
-            "recipe_type": 16601,
-            "recipe_name": "虎踞_龙骧虎步会心会效"
-        }
-    },
-    4298: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 16627,
-            "recipe_type": 16627,
-            "recipe_name": "上将军印增加伤害"
         }
     },
     4319: {
@@ -7220,118 +7019,6 @@ RECIPES = {
             "recipe_name": "《流云势法·疾电势》参悟断篇"
         }
     },
-    3013: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 32133,
-            "recipe_type": 32133,
-            "recipe_name": "顾应势伤害提高"
-        }
-    },
-    3012: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 32132,
-            "recipe_type": 32132,
-            "recipe_name": "纷绞势伤害提高"
-        }
-    },
-    3147: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 32145,
-            "recipe_type": 32145,
-            "recipe_name": "孤锋破浪伤害提高"
-        }
-    },
-    5355: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 32144,
-            "recipe_type": 32144,
-            "recipe_name": "横云断浪15%"
-        }
-    },
-    5356: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 32601,
-            "recipe_type": 32601,
-            "recipe_name": "沧浪三叠15%"
-        }
-    },
-    3014: {
-        1: {
-            "damage_addition": 123,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高15%"
-        }
-    },
-    3016: {
-        1: {
-            "damage_addition": 246,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高30%"
-        }
-    },
-    3017: {
-        1: {
-            "damage_addition": 369,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高45%"
-        }
-    },
-    3018: {
-        1: {
-            "damage_addition": 492,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高60%"
-        }
-    },
-    3028: {
-        1: {
-            "damage_addition": 614,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高75%"
-        }
-    },
-    3029: {
-        1: {
-            "damage_addition": 737,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高90%"
-        }
-    },
-    3030: {
-        1: {
-            "damage_addition": 1075,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高105%"
-        }
-    },
-    3031: {
-        1: {
-            "damage_addition": 1229,
-            "skill_id": 32135,
-            "recipe_type": 32135,
-            "recipe_name": "起落势伤害提高120%"
-        }
-    },
-    3010: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 32132,
-            "recipe_type": 32132,
-            "recipe_name": "纷绞势伤害提高10%"
-        }
-    },
     5584: {
         1: {
             "damage_addition": 82,
@@ -7356,21 +7043,6 @@ RECIPES = {
             "recipe_name": "横云8%"
         }
     },
-    3252: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 1,
-            "recipe_name": "孤锋破浪伤害提高30%"
-        }
-    },
-    5754: {
-        1: {
-            "damage_addition": 1331,
-            "skill_id": 32145,
-            "recipe_type": 32145,
-            "recipe_name": "橙武孤锋增伤"
-        }
-    },
     3188: {
         1: {
             "damage_addition": 102,
@@ -7393,6 +7065,14 @@ RECIPES = {
             "skill_id": 32145,
             "recipe_type": 32145,
             "recipe_name": "刀宗大橙武属性加成2"
+        }
+    },
+    5754: {
+        1: {
+            "damage_addition": 1331,
+            "skill_id": 32145,
+            "recipe_type": 32145,
+            "recipe_name": "橙武孤锋增伤"
         }
     },
     3111: {
@@ -7547,19 +7227,6 @@ RECIPES = {
             "skill_id": 32601,
             "recipe_type": 32601,
             "recipe_name": "沧浪三叠双会递增"
-        }
-    },
-    5588: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "诀云非侠士100%"
-        }
-    },
-    3033: {
-        1: {
-            "skill_id": 32144,
-            "recipe_type": 32144,
-            "recipe_name": "横云断浪流血伤害逐层提高"
         }
     },
     17358: {

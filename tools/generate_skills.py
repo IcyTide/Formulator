@@ -250,14 +250,14 @@ class SkillLua:
         if len(args) < 3:
             return
 
-        attr_type, param_1, param_2 = args[1], args[2], args[3]
+        attr_type = args[1]
         if attr := ATTRIBUTE_TYPE_MAP.get(attr_type):
             if "call" in attr:
                 setattr(self, attr, getattr(self, attr) + 1)
             elif "adaptive" in attr:
-                setattr(self, attr, param_2)
+                setattr(self, attr, args[3])
             else:
-                setattr(self, attr, param_1)
+                setattr(self, attr, args[2])
 
     def __call__(self, *args, **kwargs):
         pass

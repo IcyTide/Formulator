@@ -1177,7 +1177,7 @@ ATTRIBUTES = {
     10756: {
         "alias_name": "山海心诀",
         "max_level": 14,
-        "pve_addition_base": 82,
+        "pve_addition_base": 123,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
@@ -1256,7 +1256,7 @@ ATTRIBUTES = {
     10786: {
         "alias_name": "周天功",
         "max_level": 14,
-        "pve_addition_base": 164,
+        "pve_addition_base": 205,
         "magical_attack_power_base": [
             9,
             15,
@@ -1295,7 +1295,7 @@ ATTRIBUTES = {
     102278: {
         "alias_name": "移动端_段氏_心法",
         "max_level": 14,
-        "pve_addition_base": 471,
+        "pve_addition_base": 532,
         "magical_attack_power_base": [
             9,
             15,

@@ -6,7 +6,6 @@ EQUIPMENTS_DIR = os.path.join(ASSETS_DIR, "equipments.json")
 ENCHANTS_DIR = os.path.join(ASSETS_DIR, "enchants.json")
 STONES_DIR = os.path.join(ASSETS_DIR, "stones.json")
 
-
 """ Season Constant """
 
 SPECIAL_ENCHANT_MAP = {
@@ -33,7 +32,7 @@ SPECIAL_ENCHANT_MAP = {
 }
 MIN_EQUIP_LEVEL = 16500
 LAST_SEASON_DIVINE_LEVEL = 12500, 11650
-ENCHANT_START_ID = 12207
+ENCHANT_START_ID = 15778
 
 BUFF_MAX_ATTRIB = 15
 
@@ -333,9 +332,9 @@ MAX_STONE_LEVEL = 6
 
 def EMBED_COF(level):
     if level > 6:
-        return (level * 0.65 - 3.2) * 1.3
+        return (level * 0.65 - 3.2) * 1.3 * 1.15
     else:
-        return level * 0.195
+        return level * 0.195 * 1.15
 
 
 def STRENGTH_COF(level):

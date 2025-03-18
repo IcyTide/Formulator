@@ -1,22 +1,6 @@
 from general.recipes import *
 
 
-class 虎踞_增加会心10(PhysicalCriticalRecipe):
-    value = (1000, 102)
-
-
-class 上将军印无视外防(PhysicalShieldGainRecipe):
-    value = -205
-
-    def add_skill(self, skill: Skill):
-        if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
-            super().add_skill(skill)
-
-    def sub_skill(self, skill: Skill):
-        if skill.skill_id in (16800, 16801, 16802, 16803, 16804, 17043, 19423, 19424):
-            super().sub_skill(skill)
-
-
 class 绝期_闹须弥增加持续伤害(ChannelIntervalRecipe):
     value = 1.7
 
@@ -24,6 +8,7 @@ class 绝期_闹须弥增加持续伤害(ChannelIntervalRecipe):
 RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
     0: {
         SkillRecipe: {
+            # 通用
             4127: dict(clone_id=16629), 4128: dict(clone_id=16629), 4129: dict(clone_id=16629),
             4143: {}, 4144: {}, 4145: {},
             4151: {}, 4152: {}, 4153: {},
@@ -32,10 +17,10 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
             4175: {}, 4176: {}, 4177: {},
             4183: {}, 4184: {}, 4185: {},
             4374: {}, 4375: {}, 4376: {},
-            **{recipe_id: {} for recipe_id in range(2943, 2948 + 1)}, 3350: {},
-            **{recipe_id: {} for recipe_id in range(4247, 4255 + 1)}, 4309: {}, 4310: {}, 4311: {},
+            # 奇穴
+            2510: {}, 2511: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
             **{recipe_id: {} for recipe_id in range(3350, 3359 + 1)},
-            2510: {}, 2511: {}, 2509: {}, 2474: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
+            # 装备
             4290: {}, 4291: {}, 4294: {}, 4295: {}
         },
         CriticalStrikeRecipe_200: {
@@ -70,12 +55,6 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         },
         CriticalStrikeRecipe_500: {
             4296: {}, 4297: {}
-        },
-        虎踞_增加会心10: {
-            4214: {}
-        },
-        上将军印无视外防: {
-            4298: {}
         },
         绝期_闹须弥增加持续伤害: {
             4319: {}, 2833: {}

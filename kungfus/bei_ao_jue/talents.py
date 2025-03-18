@@ -5,20 +5,6 @@ from base.skill import Skill
 from kungfus.bei_ao_jue.skills import 项王击鼎秘章
 
 
-class 含风(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        for skill_id in range(16610, 16614 + 1):
-            skills[skill_id].pre_buffs[23066] = {2: 1}
-        for skill_id in range(16913, 16918 + 1):
-            skills[skill_id].pre_buffs[23066] = {2: 1}
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        for skill_id in range(16610, 16614 + 1):
-            skills[skill_id].pre_buffs.pop(23066)
-        for skill_id in range(16913, 16918 + 1):
-            skills[skill_id].pre_buffs.pop(23066)
-
-
 class 斩纷(Gain):
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id in range(16615, 16619 + 1):
@@ -72,56 +58,41 @@ class 裁魂(Gain):
 TALENTS: Dict[int, List[Dict[int, Gain]]] = {
     0: [
         {
-            17045: Gain("孤漠"),
-            16691: Gain("龙息"),
-            16692: Gain("虎踞", recipes=[(4214, 1)])
+            16691: Gain("龙息")
         },
         {
             16847: Gain("归酣"),
-            16777: Gain("沧雪"),
             16816: Gain("碎影")
         },
         {
-            17042: Gain("阳关", recipes=[(4298, 1)]),
             26904: Gain("冥鼓", recipes=[(2510, 1), (2511, 1)])
         },
         {
-            16799: Gain("霜天"),
             16728: Gain("星火", attributes=dict(strength_gain=102, strain_gain=307)),
         },
         {
-            26735: Gain("砺锋"),
             16724: Gain("击瑕")
         },
         {
-            32857: Gain("见尘"),
             37982: Gain("临江")
         },
         {
-            17047: Gain("分疆"),
-            16733: 斩纷("斩纷"),
-            18625: Gain("百战")
+            16733: 斩纷("斩纷")
         },
         {
-            25258: Gain("掠关"),
-            16779: Gain("化蛟"),
-            34677: Gain("绝河")
+            16779: Gain("化蛟")
         },
         {
-            16748: Gain("逐鹿"),
             38535: Gain("楚歌")
         },
         {
             17056: Gain("绝期", recipes=[(4319, 1), (2833, 1)])
         },
         {
-            25633: 含风("含风"),
-            16893: Gain("重烟"),
             16977: Gain("冷川")
         },
         {
-            21858: Gain("斩狂枭"),
-            16912: Gain("心镜")
+            21858: Gain("斩狂枭")
         }
     ],
     1: [

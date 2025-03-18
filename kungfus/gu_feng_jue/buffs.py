@@ -5,9 +5,10 @@ from base.buff import Buff
 BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
     0: {
         Buff: {
-            24553: {}, 24209: {}, 24557: {}, 24752: {},
-            24179: dict(buff_name="雨积"),
-            24180: dict(buff_name="镇机")
+            # 通用
+            24168: {}, 24553: {}, 24554: {},
+            # 奇穴
+            30304: {}, 30311: {}, 24209: {}, 24752: {}
         }
     },
     1: {
