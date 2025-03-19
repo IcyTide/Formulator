@@ -3,9 +3,7 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(PhysicalAttribute):
-    attribute_id = {
-        0: 10026
-    }
+    attribute_id = 10026
 
     strength_to_physical_attack_power: int = 0
     strength_to_physical_overcome: int = 0

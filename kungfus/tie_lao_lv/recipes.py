@@ -25,7 +25,7 @@ class 天策流血20(ChannelIntervalRecipe):
             super().sub_skill(skill)
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         DotRecipe: {
             -132: {}, -153: {}
@@ -59,7 +59,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "穿云": {
             "增加伤害4%": 339,

@@ -53,7 +53,7 @@ class 山艮状态伤害技能系数提高(ChannelIntervalRecipe):
             super().sub_skill(skill)
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         SkillRecipe: {
             5241: {}, 5242: {}, 5279: {},
@@ -107,7 +107,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "三星临": {
             "增加伤害5%": 5279,

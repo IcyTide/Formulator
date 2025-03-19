@@ -5,7 +5,7 @@ class 提高10会心几率(PhysicalCriticalRecipe):
     value = (1000, 102)
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         SkillRecipe: {
             546: {}, 547: {}, 548: {},
@@ -58,7 +58,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "平湖断月": {
             "增加伤害5%": 548,

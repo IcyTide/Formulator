@@ -23,7 +23,7 @@ class 剑破会心20(LunarCriticalRecipe):
     value = (1000, 102)
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         SkillRecipe: {
             145: {}, 146: {},
@@ -58,7 +58,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "剑气长江": {
             "增加伤害6%": 146,

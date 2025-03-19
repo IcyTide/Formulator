@@ -2,7 +2,7 @@ from typing import Dict, List
 
 from base.gain import Gain
 
-TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+TALENTS: List[Dict[int, Gain]] = {
     0: [
         {
             13317: Gain("刀魂")

@@ -22,30 +22,22 @@ class 跬步判定(Skill):
             parser.refresh_buff(-12551, 5)
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
-    0: {
-        Skill: {
-            # 通用
-            18121: dict(channel_interval=21), 32813: {},
-            # 北冥剑气
-            303: {}, 305: {}, 28381: {}, 896: {},
-            **{skill_id: {} for skill_id in list(range(327, 331 + 1)) + list(range(461, 465 + 1))},
-            **{skill_id: {} for skill_id in range(3439, 3448 + 1)},
-            **{skill_id: {} for skill_id in range(18649, 18653 + 1)}, 22014: {},
-            # 坐忘经
-            2681: dict(post_buffs={2757: {1: 1}}),
-            # 奇穴
-            40158: {}, 36439: {}, 18670: {},
-            **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
-            # 装备
-            25770: {}
-        },
-        跬步判定: {18698: {}}
+SKILLS: Dict[type, Dict[int, dict]] = {
+    Skill: {
+        # 通用
+        18121: dict(channel_interval=21), 32813: {},
+        # 北冥剑气
+        303: {}, 305: {}, 28381: {}, 896: {},
+        **{skill_id: {} for skill_id in list(range(327, 331 + 1)) + list(range(461, 465 + 1))},
+        **{skill_id: {} for skill_id in range(3439, 3448 + 1)},
+        **{skill_id: {} for skill_id in range(18649, 18653 + 1)}, 22014: {},
+        # 坐忘经
+        2681: dict(post_buffs={2757: {1: 1}}),
+        # 奇穴
+        40158: {}, 36439: {}, 18670: {},
+        **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
+        # 装备
+        25770: {}
     },
-    1: {
-        Skill: {
-            100077: {}, 100079: {}, 101571: {}, 101973: {}, 101570: {},
-            **{skill_id: {} for skill_id in range(101613, 101617 + 1)}
-        }
-    }
+    跬步判定: {18698: {}}
 }

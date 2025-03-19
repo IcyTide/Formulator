@@ -42,7 +42,7 @@ class 醍醐灌顶(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             11: dict(channel_interval=27), 233: {}, 236: {}, 243: {}, 271: {}, 14951: {}, 17641: {}, 17642: {},

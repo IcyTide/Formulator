@@ -19,7 +19,7 @@ class Temp2(Skill):
     damage_cof: int = 0
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             1795: dict(channel_interval=32), 18383: dict(channel_interval=21), 1594: {}, 1595: {}, 1598: {}, 1706: {},

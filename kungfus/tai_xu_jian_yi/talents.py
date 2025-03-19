@@ -39,7 +39,7 @@ class 无欲(Gain):
         skills[2681].post_buffs[2757] = {1: 1}
 
 
-TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+TALENTS: List[Dict[int, Gain]] = {
     0: [
         {
             5807: Gain("心固", recipes=[(638, 3)])

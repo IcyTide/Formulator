@@ -43,7 +43,7 @@ class 绝刀破招无视防御(PhysicalShieldGainRecipe):
     value = -1024
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         SkillRecipe: {
             1830: {}, 1831: {}, 1832: {},
@@ -104,7 +104,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "劫刀": {
             "增加伤害5%": 1832,

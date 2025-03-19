@@ -60,7 +60,7 @@ class 载物(Gain):
             skill.post_effects.remove(self.post_effect)
 
 
-TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+TALENTS: List[Dict[int, Gain]] = {
     0: [
         {
             6812: Gain("玄黄", recipes=[(1714, 1)])

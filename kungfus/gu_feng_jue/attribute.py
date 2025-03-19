@@ -3,10 +3,7 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    attribute_id = {
-        0: 10698,
-        1: 101375
-    }
+    attribute_id = 10698
 
     strength_to_physical_attack_power: int = 0
     strength_to_physical_critical_strike: int = 0

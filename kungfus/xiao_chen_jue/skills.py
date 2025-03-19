@@ -31,7 +31,7 @@ class 蛟龙翻江秘章(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             32908: {}, 13520: {}, 34916: {}, 6337: {}, 26703: {}, 32898: {}, 14928: {}, 36570: {}, 28819: {},

@@ -1,4 +1,4 @@
 from typing import Dict
 
-DOTS: Dict[int, Dict[type, Dict[int, dict]]] = {
+DOTS: Dict[type, Dict[int, dict]] = {
 }

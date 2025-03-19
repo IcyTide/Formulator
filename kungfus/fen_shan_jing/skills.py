@@ -27,7 +27,7 @@ class 盾刀(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             13039: dict(channel_interval=24), 36065: {}, 38889: {}, 38890: {}, 38971: {}, 37448: {}, 13463: {},

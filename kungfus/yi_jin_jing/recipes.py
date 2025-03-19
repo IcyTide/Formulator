@@ -9,7 +9,7 @@ class 横扫10会心会效(SolarCriticalRecipe):
     value = (1000, 205)
 
 
-RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] = {
+RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     0: {
         SkillRecipe: {
             233: {}, 234: {}, 235: {},
@@ -53,7 +53,7 @@ RECIPES: Dict[int, Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]]] 
         }
     }
 }
-RECIPE_CHOICES: Dict[int, Dict[str, Dict[str, int]]] = {
+RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     0: {
         "捕风式": {
             "增加伤害15%": 235,

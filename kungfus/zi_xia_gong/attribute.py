@@ -3,9 +3,7 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(NeutralAttribute):
-    attribute_id = {
-        0: 10014
-    }
+    attribute_id = 10014
 
     spirit_to_neutral_attack_power: int = 0
     spirit_to_neutral_critical_strike: int = 0

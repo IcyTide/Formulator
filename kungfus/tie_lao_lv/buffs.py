@@ -2,7 +2,7 @@ from typing import Dict
 
 from base.buff import Buff
 
-BUFFS: Dict[int, Dict[type, Dict[int, dict]]] = {
+BUFFS: Dict[type, Dict[int, dict]] = {
     0: {
         Buff: {
             6121: {}, 6363: {}, 2779: {}, 18222: {},

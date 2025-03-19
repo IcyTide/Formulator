@@ -3,9 +3,7 @@ from base.constant import *
 
 
 class Attribute(HybridAttribute):
-    attribute_id = {
-        0: 10225
-    }
+    attribute_id = 10225
 
     spunk_to_poison_attack_power: int = 0
     spunk_to_physical_critical_strike: int = 0

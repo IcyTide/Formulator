@@ -2,7 +2,6 @@ from collections import defaultdict
 from copy import deepcopy
 from typing import Union
 
-from assets.constant import MOBILE_MAX_TALENTS
 from base.constant import FRAME_PER_SECOND
 from kungfus import *
 from utils.lua import parse_player, parse_actual_damage
@@ -202,8 +201,7 @@ class BaseParser:
             if buff.interval > 0:
                 self.current_buff_intervals[buff_id][buff_level] = self.current_frame + buff.interval + 1
         else:
-            self.current_buff_stacks[buff_id].pop(buff_level, None)
-            self.current_buff_intervals[buff_id].pop(buff_level, None)
+            self.clear_buff(buff_id, buff_level)
 
     def refresh_target_buff(self, buff_id, buff_level, buff_stack=1):
         buff, buff.buff_level = self.current_kungfu.buffs[buff_id], buff_level
@@ -213,13 +211,15 @@ class BaseParser:
             if buff.interval:
                 self.current_target_buff_intervals[buff_id][buff_level] = self.current_frame + buff.interval + 1
         else:
-            self.current_target_buff_stacks[buff_id].pop(buff_level, None)
-            self.current_target_buff_intervals[buff_id].pop(buff_level, None)
+            self.clear_target_buff(buff_id, buff_level)
 
     def clear_buff(self, buff_id, buff_level=None):
         if buff_level:
             self.current_buff_stacks[buff_id].pop(buff_level, None)
             self.current_buff_intervals[buff_id].pop(buff_level, None)
+            if not self.current_buff_stacks[buff_id]:
+                self.current_buff_stacks.pop(buff_id, None)
+                self.current_buff_intervals.pop(buff_id, None)
         else:
             self.current_buff_stacks.pop(buff_id, None)
             self.current_buff_intervals.pop(buff_id, None)
@@ -228,6 +228,9 @@ class BaseParser:
         if buff_level:
             self.current_target_buff_stacks[buff_id].pop(buff_level, None)
             self.current_target_buff_intervals[buff_id].pop(buff_level, None)
+            if not self.current_target_buff_stacks[buff_id]:
+                self.current_target_buff_stacks.pop(buff_id, None)
+                self.current_target_buff_intervals.pop(buff_id, None)
         else:
             self.current_target_buff_stacks.pop(buff_id, None)
             self.current_target_buff_intervals.pop(buff_id, None)
@@ -271,7 +274,6 @@ class Parser(BaseParser):
                 self.select_talents[player_id] = self.parse_talents(talents.values())
                 if player_id not in self.players:
                     self.players[player_id] = deepcopy(SUPPORT_KUNGFU[kungfu_id])
-                self.players[player_id].platform = int(len(self.select_talents[player_id]) == MOBILE_MAX_TALENTS)
                 for talent_id in self.select_talents[player_id]:
                     if (talent_id, 1) not in self.players[player_id].gains:
                         self.players.pop(player_id)
@@ -383,7 +385,7 @@ class Parser(BaseParser):
         if player_id not in self.players:
             return
 
-        unique_id, end_frame = int(detail[2]), int(detail[6])
+        # unique_id, end_frame = int(detail[2]), int(detail[6])
         buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
 
         if buff_id not in self.players[player_id].buffs:
@@ -402,11 +404,7 @@ class Parser(BaseParser):
         if buff_stack:
             if buff.continuous:
                 self.current_buff_intervals.pop(buff_id, None)
-            if buff.unique:
-                buff_stacks[buff_id][buff_level] = buff_stack
-            elif unique_id not in self.id2buff:
-                self.id2buff[unique_id] = (buff_id, buff_level, buff_stack)
-                buff_stacks[buff_id][buff_level] = buff_stacks[buff_id].get(buff_level, 0) + 1
+            buff_stacks[buff_id][buff_level] = buff_stack
             buff.begin(self)
         else:
             if buff.continuous:
@@ -414,13 +412,9 @@ class Parser(BaseParser):
                 return
             if self.begin_shift_buffs[player_id][buff_id].get(buff_level):
                 return
-            if buff.unique:
-                buff_stacks[buff_id].pop(buff_level, None)
-            elif unique_id in self.id2buff:
-                buff_id, buff_level, buff_stack = self.id2buff.pop(unique_id)
-                buff_stacks[buff_id][buff_level] = buff_stacks[buff_id].get(buff_level, 1) - 1
-                if not buff_stacks[buff_id][buff_level]:
-                    buff_stacks[buff_id].pop(buff_level, None)
+            buff_stacks[buff_id].pop(buff_level, None)
+            if not buff_stacks[buff_id]:
+                buff_stacks.pop(buff_id, None)
             buff.end(self)
 
     def parse_damage(self, row):

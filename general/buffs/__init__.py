@@ -1,7 +1,7 @@
 from typing import Dict
 
 from base.buff import Buff
-from general.buffs import consumable, equipment, formation, mobile, team
+from general.buffs import consumable, equipment, formation, team
 
 BUFFS = [
     consumable.BUFFS,
@@ -9,7 +9,7 @@ BUFFS = [
     formation.BUFFS,
     team.BUFFS
 ]
-GENERAL_BUFFS: Dict[int, Buff] = {**mobile.BUFFS}
+GENERAL_BUFFS: Dict[int, Buff] = {}
 for buffs in BUFFS:
     for buff_class, items in buffs.items():
         for buff_id, attrs in items.items():

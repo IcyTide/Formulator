@@ -1,5 +1,3 @@
-from typing import Dict
-
 from assets.attributes import ATTRIBUTES
 from base.constant import *
 from general.buffs import GENERAL_BUFFS
@@ -882,18 +880,16 @@ class Attribute(Major, Minor, Target):
     display_attrs: list = ["strain_base", "strain", "haste_base", "haste", "surplus", "base_weapon_damage",
                            "weapon_damage_rand"]
     recipes: list = []
-    platform: int = 0
 
-    attribute_id: Dict[int, int] = {}
+    attribute_id: int = 0
 
-    def __init__(self, platform: int = 0):
+    def __init__(self):
         self.all_major_base += MAJOR_BASE
         self.target = Target()
-        self.platform = platform
         self.set_asset()
 
     def set_asset(self):
-        for attr, value in ATTRIBUTES.get(self.attribute_id[self.platform]).items():
+        for attr, value in ATTRIBUTES.get(self.attribute_id).items():
             if isinstance(value, list):
                 value = value[-1]
             if hasattr(self, attr):

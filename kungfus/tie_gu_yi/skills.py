@@ -2,7 +2,7 @@ from typing import Dict
 
 from base.skill import Skill
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             13039: dict(channel_interval=24), 38971: {}, 13463: {}, 19409: {}, 13099: {}, 13044: {}, 38973: {},

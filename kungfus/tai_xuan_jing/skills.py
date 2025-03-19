@@ -20,7 +20,7 @@ class 列宿游(Skill):
             super().record(actual_critical_strike, actual_damage, parser)
 
 
-SKILLS: Dict[int, Dict[type, Dict[int, dict]]] = {
+SKILLS: Dict[type, Dict[int, dict]] = {
     0: {
         Skill: {
             25512: dict(channel_interval=16), 24454: {}, 24558: {}, 24870: {}, 25233: {}, 25174: {}, 25837: {},

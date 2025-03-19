@@ -3,9 +3,7 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    attribute_id = {
-        0: 10224
-    }
+    attribute_id = 10224
 
     strength_to_physical_attack_power = 1731 / BINARY_SCALE
     strength_to_physical_critical_strike = 707 / BINARY_SCALE

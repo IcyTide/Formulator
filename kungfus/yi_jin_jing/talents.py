@@ -64,7 +64,7 @@ class 法界(Gain):
         skills[101796].post_target_buffs.pop(70188)
 
 
-TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+TALENTS: List[Dict[int, Gain]] = {
     0: [
         {
             5896: Gain("涅果", recipes=[(959, 3)]),

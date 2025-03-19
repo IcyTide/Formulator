@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 
-from assets.constant import ATTR_TYPE_TRANSLATE, MOBILE_MAX_TALENTS
+from assets.constant import ATTR_TYPE_TRANSLATE
 from base.constant import FRAME_PER_SECOND
 from qt.components.dashboard import DashboardWidget
 from qt.scripts.bonuses import Bonuses
@@ -102,11 +102,9 @@ def dashboard_script(parser: Parser,
             dashboard_widget.pop_warning(f"以下装备特效未支持：{';'.join(not_support_gains)}")
         if not_support_recipes := analyzer.add_recipes(equipment_recipes):
             dashboard_widget.pop_warning(f"以下装备秘籍未支持：{';'.join(not_support_recipes)}")
-        if not kungfu.platform:
-            analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains])
-            analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
-        else:
-            analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains[:MOBILE_MAX_TALENTS]])
+
+        analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains])
+        analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
 
         dashboard_widget.final_attribute.set_content(attr_content(analyzer.attribute))
 

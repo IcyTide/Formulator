@@ -3,9 +3,7 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(PoisonAttribute):
-    attribute_id = {
-        0: 10175
-    }
+    attribute_id = 10175
 
     spirit_to_poison_attack_power: int = 0
     spirit_to_poison_overcome: int = 0

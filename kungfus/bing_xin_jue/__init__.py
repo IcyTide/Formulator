@@ -8,7 +8,6 @@ from kungfus.bing_xin_jue.talents import TALENTS
 
 
 def prepare(self, player_id):
-    if not self.players[player_id].platform:
-        self.buff_stacks[player_id][409][21] = 10
+    self.buff_stacks[player_id][409][21] = 1
     if 24996 in self.select_talents[player_id]:
         self.buff_stacks[player_id][17969][1] = 1

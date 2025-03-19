@@ -2,10 +2,11 @@ from typing import Dict
 
 from base.dot import Dot
 
-DOTS: Dict[int, Dict[type, Dict[int, dict]]] = {
-    0: {
-        Dot: {
-            29350: {}, 19557: {}
-        }
+DOTS: Dict[type, Dict[int, dict]] = {
+    Dot: {
+        # 奇穴
+        29350: {},
+        # 装备
+        19557: {}
     }
 }

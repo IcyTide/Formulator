@@ -8,7 +8,8 @@ from tools.generate_skills import prepare_lua_engine, INCLUDE_LUA, SKILL_TAB, SC
 def prepare_attributes():
     attributes = []
     for kungfu in SUPPORT_KUNGFU.values():
-        for attribute_id in kungfu.attribute.attribute_id.values():
+        attribute_id = kungfu.attribute.attribute_id
+        if attribute_id not in attributes:
             attributes.append(attribute_id)
     return attributes
 

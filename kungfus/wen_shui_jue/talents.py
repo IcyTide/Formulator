@@ -62,7 +62,7 @@ class 飞来闻踪(Gain):
         skills[100807].post_effects.remove(self.post_effect)
 
 
-TALENTS: Dict[int, List[Dict[int, Gain]]] = {
+TALENTS: List[Dict[int, Gain]] = {
     0: [
         {
             5953: Gain("淘尽", recipes=[(1235, 1)])

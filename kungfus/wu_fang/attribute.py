@@ -3,10 +3,7 @@ from base.constant import *
 
 
 class Attribute(PoisonAttribute):
-    attribute_id = {
-        0: 10627,
-        1: 101355
-    }
+    attribute_id = 10627
 
     spirit_to_poison_attack_power: int = 0
     spirit_to_poison_overcome: int = 0

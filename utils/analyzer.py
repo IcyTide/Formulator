@@ -283,7 +283,7 @@ class SkillAnalyzer(BaseAnalyzer):
 class Analyzer(BuffAnalyzer, SkillAnalyzer):
     def __init__(self, kungfu: Kungfu, target_level):
         self.kungfu = kungfu
-        self.attribute = kungfu.attribute(kungfu.platform)
+        self.attribute = kungfu.attribute()
         self.attribute.target.level = target_level
         self.gains = []
         self.recipes = []
