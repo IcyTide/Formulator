@@ -3,10 +3,7 @@ from base.constant import *
 
 
 class Attribute(LunarAttribute):
-    attribute_id = {
-        0: 10081,
-        1: 100410
-    }
+    attribute_id = 10081
 
     spirit_to_lunar_attack_power: int = 0
     spirit_to_lunar_critical_strike: int = 0

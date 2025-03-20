@@ -9,30 +9,30 @@ STONES_DIR = os.path.join(ASSETS_DIR, "stones.json")
 """ Season Constant """
 
 SPECIAL_ENCHANT_MAP = {
-    3: {
-        23500: [15436, 14],
-        0: [15436, 13]
+    "帽子": {
+        0: (15436, 13),
+        23500: (15436, 14)
     },
-    2: {
-        23500: [22151, 14],
-        0: [22151, 13]
+    "上衣": {
+        0: (22151, 13),
+        23500: (22151, 14)
     },
-    6: {
-        23500: [2672],
-        0: [2662]
+    "腰带": {
+        0: (2662,),
+        23500: (2672,)
     },
-    10: {
-        23500: [2673],
-        0: [2663]
+    "护腕": {
+        0: (2663,),
+        23500: (2673,)
     },
-    9: {
-        23500: [2674],
-        0: [2664]
+    "鞋子": {
+        0: (2664,),
+        23500: (2674,)
     }
 }
 MIN_EQUIP_LEVEL = 16500
 LAST_SEASON_DIVINE_LEVEL = 12500, 11650
-ENCHANT_START_ID = 15778
+ENCHANT_START_ID = 12207 # 15778
 
 BUFF_MAX_ATTRIB = 15
 
@@ -67,7 +67,6 @@ EMBED_POSITIONS = {
     "primary_weapon": 3,
     "secondary_weapon": 3
 }
-SPECIAL_ENCHANT_POSITIONS = ["hat", "jacket", "belt", "wrist", "shoes"]
 """ Attrs """
 TANK_ATTR_TYPE_MAP = {
     "atVitalityToPhysicsAttackPowerCof": "vitality_to_physical_attack_power",
@@ -79,6 +78,7 @@ TANK_ATTR_TYPE_MAP = {
     "atVitalityToMagicCriticalStrikeCof": "vitality_to_magical_critical_strike"
 }
 SELF_ATTR_TYPE_MAP = {
+    **TANK_ATTR_TYPE_MAP,
     "atVitalityBase": "vitality_base",
     "atVitalityBasePercentAdd": "vitality_gain",
     "atMaxLifeAdditional": "max_life_add",
@@ -205,9 +205,13 @@ ATTR_TYPE_TRANSLATE = {
     "weapon_damage_rand": "浮动武器伤害",
     "all_major_base": "全属性",
     "agility_base": "身法",
+    "agility_gain": "身法百分比",
     "strength_base": "力道",
+    "strength_gain": "力道百分比",
     "spirit_base": "根骨",
+    "spirit_gain": "根骨百分比",
     "spunk_base": "元气",
+    "spunk_gain": "元气百分比",
     "physical_attack_power_base": "外功攻击",
     "magical_attack_power_base": "内功攻击",
     "lunar_attack_power_base": "阴性攻击",

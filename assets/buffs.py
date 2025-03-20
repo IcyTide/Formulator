@@ -5190,6 +5190,170 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    2686: {
+        "attributes": {
+            "solar_attack_power_gain": 204
+        },
+        "max_level": 4,
+        "buff_name": "擒龙诀",
+        "alias_name": [
+            "金刚诀",
+            "金刚诀",
+            "金刚诀_不回豆",
+            "金刚诀_不回豆回血"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    10023: {
+        "attributes": {
+            "all_damage_addition": 102
+        },
+        "max_level": 1,
+        "buff_name": "伏魔",
+        "alias_name": "易经输出buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24285: {
+        "attributes": {
+            "solar_critical_strike_rate": 600,
+            "solar_critical_power_rate": 62
+        },
+        "max_level": 1,
+        "buff_name": "金刚日轮",
+        "alias_name": "是否在金刚日轮阵阵法内",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    24453: {
+        "attributes": {
+            "surplus_gain": -30
+        },
+        "max_level": 1,
+        "buff_name": "贪破",
+        "alias_name": "易筋经贪破",
+        "max_stack": 10,
+        "recipes": {}
+    },
+    890: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "普渡",
+        "alias_name": "普度四方秘笈",
+        "max_stack": 2,
+        "recipes": {}
+    },
+    19635: {
+        "attributes": [
+            {
+                "solar_damage_cof": 41
+            },
+            {
+                "solar_damage_cof": 82
+            },
+            {
+                "solar_damage_cof": 123
+            }
+        ],
+        "max_level": 3,
+        "alias_name": "明法伤害加成",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    12479: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "普渡",
+        "alias_name": "普渡易伤加强版",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    11979: {
+        "attributes": {
+            "magical_attack_power_gain": 308,
+            "solar_overcome_gain": 308
+        },
+        "max_level": 1,
+        "buff_name": "罗汉金身",
+        "alias_name": "罗汉金身加金刚",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    21859: {
+        "attributes": {
+            "solar_critical_strike_rate": 500,
+            "solar_critical_power_rate": 52
+        },
+        "max_level": 1,
+        "buff_name": "身意",
+        "alias_name": "身意新会心会效果",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    13910: {
+        "attributes": {
+            "all_damage_addition": 205
+        },
+        "max_level": 1,
+        "alias_name": "众嗔韦陀拿云加15%伤害",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    12590: {
+        "attributes": [
+            {
+                "strain_gain": 102
+            },
+            {
+                "strain_gain": 205
+            },
+            {
+                "strain_gain": 307
+            }
+        ],
+        "max_level": 3,
+        "alias_name": "每点禅那加攻击",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    29547: {
+        "attributes": {
+            "all_shield_ignore": 614
+        },
+        "max_level": 1,
+        "alias_name": "新华香常驻无视",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    1919: {
+        "attributes": {},
+        "max_level": 8,
+        "buff_name": [
+            "龙木金藤",
+            "白骨碎云",
+            "燃木",
+            "浮心·劫",
+            "涅槃",
+            "泥犁之狱",
+            "桑莲妙境",
+            "昭佛光"
+        ],
+        "alias_name": [
+            "80橙武_易筋经_攻击回豆",
+            "70橙武_易筋经_攻击回豆",
+            "90橙武_易筋经_攻击回豆",
+            "95橙武_易筋经_攻击回豆",
+            "100橙武_易筋经_攻击回豆",
+            "110橙武_易筋经_攻击回豆",
+            "120橙武_易筋经_攻击回豆",
+            "130橙武_易筋经_攻击回豆"
+        ],
+        "max_stack": 1,
+        "recipes": {
+            2862: 1
+        }
+    },
     1908: {
         "attributes": {
             "all_critical_power_rate": 328
@@ -6202,6 +6366,258 @@ BUFFS = {
             3227: 1
         }
     },
+    8244: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 41
+            },
+            {
+                "physical_attack_power_gain": 61
+            },
+            {
+                "physical_attack_power_gain": 82
+            },
+            {
+                "physical_attack_power_gain": 102
+            }
+        ],
+        "max_level": 5,
+        "buff_name": "血怒",
+        "alias_name": "血怒伤害buff",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    9052: {
+        "attributes": {},
+        "max_level": 9,
+        "alias_name": [
+            "绝返奇穴绝刀伤害提高10%",
+            "绝返奇穴绝刀伤害提高20%",
+            "绝返奇穴绝刀伤害提高30%",
+            "绝返奇穴绝刀伤害提高40%",
+            "绝返奇穴绝刀伤害提高18%",
+            "绝返奇穴绝刀伤害提高36%",
+            "绝返奇穴绝刀伤害提高54%",
+            "绝返奇穴绝刀伤害提高72%",
+            "绝返奇穴绝刀伤害提高120%"
+        ],
+        "max_stack": 1,
+        "recipes": [
+            {
+                2004: 1
+            },
+            {
+                2006: 1
+            },
+            {
+                2007: 1
+            },
+            {
+                2008: 1
+            },
+            {
+                4918: 1
+            },
+            {
+                4919: 1
+            },
+            {
+                4920: 1
+            },
+            {
+                4921: 1
+            },
+            {
+                5725: 1
+            }
+        ]
+    },
+    8385: {
+        "attributes": {
+            "physical_attack_power_gain": 133
+        },
+        "max_level": 1,
+        "buff_name": "血怒",
+        "alias_name": "血怒奇穴加强后",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    17176: {
+        "attributes": {
+            "all_damage_addition": 51
+        },
+        "max_level": 1,
+        "buff_name": "分野",
+        "alias_name": "对静止伤害提高12%",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    14309: {
+        "attributes": {
+            "physical_overcome_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "锋鸣",
+        "alias_name": "血怒外功破防加15%",
+        "max_stack": 1,
+        "recipes": {
+            5735: 1
+        }
+    },
+    27161: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "strain_gain": 307
+        },
+        "max_level": 1,
+        "buff_name": "血怒·惊涌",
+        "alias_name": "惊涌_新血怒",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8474: {
+        "attributes": [
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            },
+            {},
+            {
+                "physical_shield_gain": 102,
+                "lunar_shield_gain": 102,
+                "neutral_shield_gain": 102,
+                "poison_shield_gain": 102,
+                "solar_shield_gain": 102
+            }
+        ],
+        "max_level": 16,
+        "buff_name": [
+            "血云",
+            "太初社稷",
+            "征天",
+            "题龙旐",
+            "千仞",
+            "旧嗜",
+            "朱轩怀雀",
+            "修罗鬼面",
+            "十律守心·猊焰",
+            "十律守心·犴魂",
+            "白狼河北",
+            "四面边声",
+            "孤焰",
+            "致远",
+            "天下宏愿",
+            "驭焰"
+        ],
+        "alias_name": [
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果",
+            "100分山苍云橙武触发buff效果",
+            "100铁骨苍云橙武触发buff效果",
+            "110苍云橙武触发buff效果",
+            "110苍云橙武触发buff效果",
+            "120级分山劲苍云cw",
+            "120级铁骨苍云cw",
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果"
+        ],
+        "max_stack": 1,
+        "recipes": [
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {},
+            {
+                1941: 1
+            },
+            {}
+        ]
+    },
     9433: {
         "attributes": {},
         "max_level": 3,
@@ -6558,6 +6974,92 @@ BUFFS = {
             {}
         ]
     },
+    29835: {
+        "attributes": {
+            "strain_gain": 72
+        },
+        "max_level": 1,
+        "alias_name": "衍天无双叠加",
+        "max_stack": 3,
+        "recipes": {}
+    },
+    18174: {
+        "attributes": {
+            "neutral_attack_power_gain": 308
+        },
+        "max_level": 1,
+        "buff_name": "鬼遁",
+        "alias_name": "引爆魂灯加基础AP",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18002: {
+        "attributes": {
+            "neutral_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "buff_name": "枭神",
+        "alias_name": "双会提高",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    28303: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "重山·一",
+        "alias_name": "重山叠加效果1",
+        "max_stack": 1,
+        "recipes": {
+            5548: 1,
+            5549: 1,
+            5550: 1
+        }
+    },
+    28304: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "重山·二",
+        "alias_name": "重山叠加效果2",
+        "max_stack": 1,
+        "recipes": {
+            5551: 1,
+            5552: 1,
+            5553: 1
+        }
+    },
+    28305: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "重山·三",
+        "alias_name": "重山叠加效果3",
+        "max_stack": 1,
+        "recipes": {
+            5554: 1,
+            5555: 1,
+            5556: 1
+        }
+    },
+    18176: {
+        "attributes": {
+            "all_damage_addition": 102
+        },
+        "max_level": 1,
+        "buff_name": "祝祷",
+        "alias_name": "星运实际伤害治疗加成Buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18021: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "buff_name": "荧入白",
+        "alias_name": "魂阵范围无视目标防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
     21168: {
         "attributes": {},
         "max_level": 3,
@@ -6746,6 +7248,51 @@ BUFFS = {
         "recipes": {
             5754: 1
         }
+    },
+    26857: {
+        "attributes": {
+            "all_damage_addition": 62
+        },
+        "max_level": 1,
+        "buff_name": "承契",
+        "alias_name": "万灵山庄_承契",
+        "max_stack": 5,
+        "recipes": {}
+    },
+    27099: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "all_shield_ignore": 205
+        },
+        "max_level": 1,
+        "buff_name": "诸怀",
+        "alias_name": "诸怀_增益A无视防御",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    27543: {
+        "attributes": {},
+        "max_level": 3,
+        "buff_name": [
+            "雀引昭明",
+            "庄生晓梦",
+            "金乌回首"
+        ],
+        "alias_name": [
+            "万灵山庄橙武效果",
+            "万灵山庄橙武效果",
+            "130级万灵山庄橙武效果"
+        ],
+        "max_stack": 1,
+        "recipes": [
+            {},
+            {
+                5755: 1
+            },
+            {
+                5755: 1
+            }
+        ]
     },
     29243: {
         "attributes": {

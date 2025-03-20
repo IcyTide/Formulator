@@ -22,53 +22,33 @@ class 明法移除(Skill):
         parser.clear_target_buff(self.final_buff)
 
 
-class 罗汉棍法(Skill):
+class 降魔(Skill):
     def record(self, actual_critical_strike, actual_damage, parser):
-        if parser.current_target_buff_stacks[70864].get(1):
-            parser.refresh_target_buff(70188, 15)
+        if parser.current_buff_stacks[13910].get(1):
+            parser.clear_buff(13910)
             super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, 15, -1)
-        else:
-            super().record(actual_critical_strike, actual_damage, parser)
-
-
-class 醍醐灌顶(Skill):
-    def record(self, actual_critical_strike, actual_damage, parser):
-        if buff_stack := parser.current_buff_stacks[70859].get(1):
-            parser.refresh_target_buff(70188, buff_stack * 20)
-            super().record(actual_critical_strike, actual_damage, parser)
-            parser.refresh_target_buff(70188, buff_stack * 20, -1)
+            parser.refresh_buff(13910, 1)
         else:
             super().record(actual_critical_strike, actual_damage, parser)
 
 
 SKILLS: Dict[type, Dict[int, dict]] = {
-    0: {
-        Skill: {
-            11: dict(channel_interval=27), 233: {}, 236: {}, 243: {}, 271: {}, 14951: {}, 17641: {}, 17642: {},
-            19090: {}, 25766: {}, 28619: {}, 32656: {}, 32659: {}, 32660: {}, 32887: {}, 3814: {}, 3816: {}, 28542: {},
-            24883: {}, 24028: {}, 38615: {}, 24886: {},
-            **{skill_id: {} for skill_id in range(3848, 3850 + 1)},
-            **{skill_id: {} for skill_id in range(13681, 13686 + 1)},
-            **{skill_id: {} for skill_id in range(36049, 36051 + 1)},
-            **{skill_id: dict(bind_dots={743: 1}) for skill_id in (3808, 3810, 3830, 28539)},
-            24026: dict(consume_dots={743: 3})
-        },
-        明法判定: {26989: {}},
-        明法移除: {26991: {}}
+    Skill: {
+        # 通用
+        11: dict(channel_interval=27), 19090: {}, 32887: {},
+        # 罗汉棍法
+        236: {}, 17641: {}, 17642: {}, **{skill_id: {} for skill_id in range(3848, 3850 + 1)},
+        **{skill_id: dict(bind_dots={743: 1}) for skill_id in (3808, 3810, 3830)},
+        # 龙爪功
+        14951: {}, 3814: {}, 3816: {}, **{skill_id: {} for skill_id in range(13681, 13686 + 1)},
+        # 袈裟伏魔功
+        28619: {},
+        # 奇穴
+        38615: {}, **{skill_id: {} for skill_id in range(36049, 36051 + 1)}, 32656: {}, 32659: {}, 32660: {},
+        # 装备
+        25766: {},
     },
-    1: {
-        罗汉棍法: {
-            101754: {},
-            **{skill_id: dict(post_target_buffs={70864: {1: 1}}) for skill_id in (101752, 101793)},
-            101756: dict(bind_dots={70852: 1}, pre_target_buffs={70188: {30: 1}}, post_target_buffs={70188: {30: -1}}),
-            101759: dict(pre_target_buffs={70188: {80: 1}}, post_target_buffs={70188: {80: -1}})
-        },
-        醍醐灌顶: {
-            101762: {}
-        },
-        Skill: {
-            101830: {}, 101796: {}, 101832: {}
-        }
-    }
+    明法判定: {26989: {}},
+    明法移除: {26991: {}},
+    降魔: {271: {}}
 }

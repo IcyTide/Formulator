@@ -1,12 +1,22 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QGridLayout, QTabWidget
 
 from assets.constant import MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL, MAX_STONE_LEVEL, MAX_STONE_ATTR
-from assets.constant import POSITION_MAP, EMBED_POSITIONS, STONES_POSITIONS, SPECIAL_ENCHANT_POSITIONS
+from assets.constant import POSITION_MAP, EMBED_POSITIONS, STONES_POSITIONS, SPECIAL_ENCHANT_MAP
+from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.enchants import ENCHANTS
 from assets.equipments import EQUIPMENTS
 from assets.stones import STONES
 from general.gains.equipment import CriticalSet
 from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel, SpinWithLabel
+
+
+
+def build_stones_mapping(node, mapping):
+    if "id" in node:
+        mapping[node["id"]] = [node["level"]] + [ATTR_TYPE_TRANSLATE[attr] for attr in node["attr"]]
+    else:
+        for sub in node.values():
+            build_stones_mapping(sub, mapping)
 
 
 class EquipmentWidget(QWidget):
@@ -48,7 +58,7 @@ class EquipmentWidget(QWidget):
             self.enchant.set_items([""] + list(self.enchant_data))
             input_layout.addWidget(self.enchant, 0, 0, 1, 2)
 
-        if self.position not in SPECIAL_ENCHANT_POSITIONS:
+        if label not in SPECIAL_ENCHANT_MAP:
             self.special_enchant = None
         else:
             self.special_enchant = RadioWithLabel("大附魔")
@@ -66,12 +76,14 @@ class EquipmentWidget(QWidget):
             self.embed_levels.append(embed_level)
             input_layout.addWidget(embed_level, 1, i + 1)
 
+        self.stone_mapping = {}
         if self.position not in STONES_POSITIONS:
-            self.stones_data = None
+            self.stone_data = None
             self.stone_level = None
             self.stone_attrs = None
         else:
-            self.stones_data = STONES
+            self.stone_data = STONES
+            build_stones_mapping(self.stone_data, self.stone_mapping)
             self.stone_level = ComboWithLabel(
                 "五彩石等级", items=[str(i) for i in range(MAX_STONE_LEVEL + 1)]
             )

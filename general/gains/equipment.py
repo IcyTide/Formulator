@@ -254,24 +254,24 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     (38786, 1): TankPendant(),
     **{
-        (15436, i + 1): 大附魔帽(i + 1)
-        for i in range(GENERAL_BUFFS[15436].max_level)
+        (gain_id, gain_level): 大附魔帽(gain_level)
+        for gain_id, gain_level in SPECIAL_ENCHANT_MAP["帽子"].values()
     },
     **{
-        (22151, i + 1): 大附魔衣(i + 1)
-        for i in range(GENERAL_SKILLS[22151].max_level)
+        (gain_id, gain_level): 大附魔衣(gain_level)
+        for gain_id, gain_level in SPECIAL_ENCHANT_MAP["上衣"].values()
     },
     **{
-        tuple(gain_key): 大附魔腰()
-        for gain_key in SPECIAL_ENCHANT_MAP[6].values()
+        gain_key: 大附魔腰()
+        for gain_key in SPECIAL_ENCHANT_MAP["腰带"].values()
     },
     **{
-        tuple(gain_key): 大附魔腕(i + 1)
-        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP[10].values())
+        gain_key: 大附魔腕(i + 1)
+        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP["护腕"].values())
     },
     **{
-        tuple(gain_key): 大附魔鞋(i + 1)
-        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP[9].values())
+        gain_key: 大附魔鞋(i + 1)
+        for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP["鞋子"].values())
     },
     **{
         (gain_id,): TertiaryWeaponGain(i + 1)

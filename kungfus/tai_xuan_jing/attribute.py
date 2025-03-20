@@ -3,10 +3,7 @@ from base.constant import *
 
 
 class Attribute(NeutralAttribute):
-    attribute_id = {
-        0: 10615,
-        1: 101450
-    }
+    attribute_id = 10615
 
     spunk_to_neutral_attack_power: int = 0
     spunk_to_neutral_critical_strike: int = 0

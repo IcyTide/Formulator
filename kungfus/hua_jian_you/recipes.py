@@ -1,6 +1,10 @@
 from general.recipes import *
 
 
+class 混元内功会心提高(NeutralCriticalRecipe):
+    value = (2000, 205)
+
+
 class 新套装加钟林10(ChannelIntervalRecipe):
     value = 1.15
 
@@ -28,6 +32,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     CriticalStrikeRecipe_500: {
         1131: {}, 1979: {}
+    },
+    混元内功会心提高: {
+        5497: {}
     },
     新套装加钟林10: {
         (817, 1): {}

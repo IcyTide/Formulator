@@ -121,7 +121,7 @@ def top_script(
         for label, equipment_widget in equipments_widget.items():
             if equipment_widget.enchant:
                 equipment_widget.enchant.combo_box.setCurrentIndex(0)
-            if equipment_widget.stones_data:
+            if equipment_widget.stone_data:
                 if not (current_index := equipment_widget.stone_level.combo_box.currentIndex()):
                     current_index = MAX_STONE_LEVEL
                 equipment_widget.stone_level.combo_box.setCurrentIndex(current_index)
@@ -135,6 +135,11 @@ def top_script(
                 if enchant := equipment_widget.enchant_mapping.get(select_equipment['enchant']):
                     if enchant in equipment_widget.enchant.items:
                         equipment_widget.enchant.combo_box.setCurrentText(enchant)
+                if stones := equipment_widget.stone_mapping.get(select_equipment.get('stone')):
+                    equipment_widget.stone_level.combo_box.setCurrentIndex(stones[0])
+                    for stone_attr, stone_widget in zip(stones[1:], equipment_widget.stone_attrs):
+                        if stone_attr in stone_widget.items:
+                            stone_widget.combo_box.setCurrentText(stone_attr)
 
         config_widget.show()
         bottom_widget.show()

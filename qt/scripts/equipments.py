@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import Dict, List, Union, Tuple
 
 from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
-from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS
+from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS, SPECIAL_ENCHANT_MAP
 from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
 from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
 from kungfus.wen_shui_jue.gains import SecondaryWeapon
@@ -36,14 +36,15 @@ class Stone:
 
 class Equipment:
     name: str
+    level: int
     base: Dict[str, int]
     magic: Dict[str, int]
     max_strength: int
     embed: Dict[str, int]
     gains: List[int]
     recipes: Dict[int, int]
-    special_enchant: Union[int, Tuple[int, int]]
-    special_enchant_gain: List[List[int]]
+    special_enchant: tuple
+    special_enchant_gain: List[tuple]
     set_id: int
     set_attr: Dict[int, Dict[str, int]]
     set_gain: Dict[int, List[list]]
@@ -60,7 +61,7 @@ class Equipment:
         self.embed_levels = [MAX_EMBED_LEVEL for _ in range(EMBED_POSITIONS[self.position])]
 
         self.enchant = Enchant()
-        self.special_enchant = 0
+        self.special_enchant = tuple()
         if self.position in STONES_POSITIONS:
             self.stone = Stone()
         else:
@@ -68,6 +69,7 @@ class Equipment:
 
     def clear(self):
         self.name = ""
+        self.level = 0
         self.base = {}
         self.magic = {}
         self.embed = {}
@@ -182,7 +184,7 @@ class Equipments:
             if equipment.stone:
                 for attr, value in equipment.stone.attr.items():
                     attrs[attr] += value
-            gains += [tuple(gain) for gain in equipment.gains + equipment.special_enchant_gain]
+            gains += [tuple(gain) for gain in equipment.gains] + equipment.special_enchant_gain
             recipes += [recipe for recipe in equipment.recipes.items()]
             if set_id := equipment.set_id:
                 if set_id not in set_count:
@@ -223,9 +225,10 @@ def equipments_script(equipments_widget: EquipmentsWidget):
     equipments_widget.critical_set_rate.spin_box.valueChanged.connect(critical_set_rate)
 
     def all_special_enchant_update():
+        is_checked = equipments_widget.all_special_enchant.radio_button.isChecked()
         for label, widget in equipments_widget.items():
             if special_enchant := widget.special_enchant:
-                special_enchant.radio_button.setChecked(equipments_widget.all_special_enchant.radio_button.isChecked())
+                special_enchant.radio_button.setChecked(is_checked)
                 special_enchant_update(label)()
 
     equipments_widget.all_special_enchant.radio_button.clicked.connect(all_special_enchant_update)
@@ -320,8 +323,10 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             else:
                 widget.embed_attr.hide()
 
-            if equipment.special_enchant:
-                equipment.special_enchant = tuple(equipment.special_enchant)
+            if special_enchant_map := SPECIAL_ENCHANT_MAP.get(equipment.label):
+                for level, gain in special_enchant_map.items():
+                    if equipment.level > level:
+                        equipment.special_enchant = gain
                 widget.special_enchant.set_text(EQUIPMENT_GAINS[equipment.special_enchant].gain_name)
 
             widget.detail_widget.show()
@@ -348,7 +353,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         equipment = equipments[label]
 
         def inner():
-            if widget.special_enchant and equipment.special_enchant and widget.special_enchant.radio_button.isChecked():
+            if widget.special_enchant and widget.special_enchant.radio_button.isChecked():
                 equipment.special_enchant_gain = [equipment.special_enchant]
             else:
                 equipment.special_enchant_gain = []
@@ -392,10 +397,10 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             if not level:
                 for stone in widget.stone_attrs:
                     stone.set_items([""])
-                widget.stone_attrs[0].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in widget.stones_data])
+                widget.stone_attrs[0].set_items([""] + [ATTR_TYPE_TRANSLATE[k] for k in widget.stone_data])
                 equipment.stone = Stone()
                 return
-            current = widget.stones_data
+            current = widget.stone_data
             i = 0
             while i < len(widget.stone_attrs):
                 attr = ATTR_TYPE_TRANSLATE_REVERSE.get(widget.stone_attrs[i].combo_box.currentText())
@@ -429,7 +434,7 @@ def equipments_script(equipments_widget: EquipmentsWidget):
         equipment_widget.strength_level.combo_box.currentIndexChanged.connect(strength_level_update(equipment_label))
         for n, embed_widget in enumerate(equipment_widget.embed_levels):
             embed_widget.combo_box.currentIndexChanged.connect(embed_level_update(n, equipment_label))
-        if equipment_widget.stones_data:
+        if equipment_widget.stone_data:
             equipment_widget.stone_level.combo_box.currentIndexChanged.connect(stone_update(equipment_label))
             for stone_attr in equipment_widget.stone_attrs:
                 stone_attr.combo_box.currentIndexChanged.connect(stone_update(equipment_label))

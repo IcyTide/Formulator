@@ -35,6 +35,7 @@ TALENTS: List[Dict[int, Gain]] = [
         5659: Gain("大漠")
     },
     {
+        18226: Gain("击水", recipes=[(recipe_id, 1) for recipe_id in (-132, -153)]),
         24896: 龙驭("龙驭")
     },
     {

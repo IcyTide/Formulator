@@ -98,7 +98,7 @@ def get_equip_detail(row):
         "max_strength": int(row.MaxStrengthLevel), "special_enchant": 0, "set_id": 0,
     }
     item_row = ITEM_TAB[ITEM_TAB.ItemID == row.UiID].iloc[0]
-    detail['icon_id'] = item_row['IconID']
+    detail['icon_id'] = int(item_row['IconID'])
     detail['base'] = base_attrs = {}
     detail['magic'] = magic_attrs = {}
     detail['embed'] = embed_attrs = {}
@@ -110,16 +110,16 @@ def get_equip_detail(row):
     for i in range(MAX_BASE_ATTR):
         if not (attr_type := getattr(row, f'Base{i + 1}Type')):
             break
-        if attr_type not in ATTR_TYPE_MAP or attr_type in TARGET_ATTR_TYPE_MAP:
+        if attr_type not in SELF_ATTR_TYPE_MAP:
             continue
-        base_attrs[ATTR_TYPE_MAP[attr_type]] = int(getattr(row, f'Base{i + 1}Max'))
+        base_attrs[SELF_ATTR_TYPE_MAP[attr_type]] = int(getattr(row, f'Base{i + 1}Max'))
     for i in range(MAX_MAGIC_ATTR):
         if not (attr_id := getattr(row, f'Magic{i + 1}Type')):
             break
         attr_row = ATTRIB_TAB[ATTRIB_TAB.ID == attr_id].iloc[0]
         attr = attr_row.ModifyType
-        if attr in ATTR_TYPE_MAP:
-            magic_attrs[ATTR_TYPE_MAP[attr]] = int(attr_row.Param1Max)
+        if attr in SELF_ATTR_TYPE_MAP:
+            magic_attrs[SELF_ATTR_TYPE_MAP[attr]] = int(attr_row.Param1Max)
         elif attr == "atSetEquipmentRecipe":
             recipes[int(attr_row.Param1Max)] = int(attr_row.Param2Max)
         elif attr == "atSkillEventHandler":
@@ -134,11 +134,6 @@ def get_equip_detail(row):
         if attr not in ATTR_TYPE_MAP:
             continue
         embed_attrs[ATTR_TYPE_MAP[attr]] = value
-
-    for k, v in SPECIAL_ENCHANT_MAP.get(row.SubType, {}).items():
-        if detail['level'] > k:
-            detail['special_enchant'] = v
-            break
 
     if row.SkillID:
         gains.append([int(row.SkillID), int(row.SkillLevel)])

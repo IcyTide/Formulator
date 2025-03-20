@@ -20,6 +20,257 @@ RECIPES = {
             "recipe_name": "普通攻击提高伤害"
         }
     },
+    233: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 238,
+            "recipe_type": 238,
+            "recipe_name": "《龙爪功·捕风式》参悟残页"
+        }
+    },
+    234: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 238,
+            "recipe_type": 238,
+            "recipe_name": "《龙爪功·捕风式》参悟断篇"
+        }
+    },
+    235: {
+        1: {
+            "damage_addition": 150,
+            "skill_id": 238,
+            "recipe_type": 238,
+            "recipe_name": "《龙爪功·捕风式》参悟绝章"
+        }
+    },
+    259: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 235,
+            "recipe_type": 235,
+            "recipe_name": "《罗汉棍法·横扫六合》参悟残页"
+        }
+    },
+    268: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 232,
+            "recipe_type": 232,
+            "recipe_name": "《罗汉棍法·普渡四方》参悟残页"
+        }
+    },
+    269: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 232,
+            "recipe_type": 232,
+            "recipe_name": "《罗汉棍法·普渡四方》参悟断篇"
+        }
+    },
+    270: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 232,
+            "recipe_type": 232,
+            "recipe_name": "《罗汉棍法·普渡四方》参悟绝章"
+        }
+    },
+    287: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》参悟残页"
+        }
+    },
+    288: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》参悟断篇"
+        }
+    },
+    289: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》参悟绝章"
+        }
+    },
+    295: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》参悟残页"
+        }
+    },
+    296: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》参悟断篇"
+        }
+    },
+    297: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》参悟绝章"
+        }
+    },
+    1645: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 243,
+            "recipe_type": 243,
+            "recipe_name": "《龙爪功·拿云式》参悟残页"
+        }
+    },
+    1646: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 243,
+            "recipe_type": 243,
+            "recipe_name": "《龙爪功·拿云式》参悟断篇"
+        }
+    },
+    1647: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 243,
+            "recipe_type": 243,
+            "recipe_name": "《龙爪功·拿云式》参悟绝章"
+        }
+    },
+    2862: {
+        1: {
+            "damage_addition": 922,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "大cw韦陀加成"
+        }
+    },
+    959: {
+        3: {
+            "damage_addition": 102,
+            "skill_id": 232,
+            "recipe_type": 232,
+            "recipe_name": "普度加伤害9%"
+        }
+    },
+    818: {
+        5: {
+            "damage_addition": 102,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "PVE6件套_易经"
+        },
+        2: {
+            "damage_addition": 102,
+            "skill_id": 18640,
+            "recipe_type": 18640,
+            "recipe_name": "PVE6件套_气纯"
+        },
+        7: {
+            "damage_addition": 204,
+            "skill_id": 2209,
+            "recipe_type": 2209,
+            "recipe_name": "PVE6件套_毒经"
+        }
+    },
+    1147: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 243,
+            "recipe_type": 243,
+            "recipe_name": "PVE6件套_易经_拿云伤害"
+        }
+    },
+    1512: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 232,
+            "recipe_type": 232,
+            "recipe_name": "90级易筋橙武属性1"
+        }
+    },
+    1513: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "90级易筋橙武属性2"
+        }
+    },
+    285: {
+        1: {
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》秘诀残页"
+        }
+    },
+    290: {
+        1: {
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》秘诀残页"
+        }
+    },
+    286: {
+        1: {
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》秘诀断篇"
+        }
+    },
+    291: {
+        1: {
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》秘诀断篇"
+        }
+    },
+    281: {
+        1: {
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "《龙爪功·守缺式》秘诀绝章"
+        }
+    },
+    292: {
+        1: {
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "《罗汉棍法·韦陀献杵》秘诀绝章"
+        }
+    },
+    1139: {
+        1: {
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "小橙武_易经"
+        }
+    },
+    2299: {
+        1: {
+            "skill_id": 2572,
+            "recipe_type": 2572,
+            "recipe_name": "守缺10%会心会效"
+        }
+    },
+    5157: {
+        1: {
+            "skill_id": 235,
+            "recipe_type": 235,
+            "recipe_name": "横扫加会心减cd"
+        }
+    },
     24: {
         1: {
             "damage_addition": 31,
@@ -208,20 +459,6 @@ RECIPES = {
             "skill_id": 301,
             "recipe_type": 301,
             "recipe_name": "两仪化形伤害提高25%"
-        }
-    },
-    818: {
-        2: {
-            "damage_addition": 102,
-            "skill_id": 18640,
-            "recipe_type": 18640,
-            "recipe_name": "PVE6件套_气纯"
-        },
-        7: {
-            "damage_addition": 204,
-            "skill_id": 2209,
-            "recipe_type": 2209,
-            "recipe_name": "PVE6件套_毒经"
         }
     },
     4602: {
@@ -477,6 +714,12 @@ RECIPES = {
             "recipe_name": "小橙武_花间_快雪"
         }
     },
+    5497: {
+        1: {
+            "recipe_type": 2636,
+            "recipe_name": "新青歌快雪双会10%"
+        }
+    },
     817: {
         1: {
             "skill_id": 189,
@@ -488,6 +731,20 @@ RECIPES = {
             "skill_id": 415,
             "recipe_type": 415,
             "recipe_name": "PVE6件套_傲血"
+        }
+    },
+    -132: {
+        1: {
+            "tick": 5,
+            "buff_id": 12461,
+            "recipe_name": "流血加2跳"
+        }
+    },
+    -153: {
+        1: {
+            "tick": 5,
+            "buff_id": 19317,
+            "recipe_name": "叠加3层且跳数变快"
         }
     },
     338: {
@@ -1887,6 +2144,390 @@ RECIPES = {
             "skill_id": 3960,
             "recipe_type": 3960,
             "recipe_name": "银月斩的会心几率提高10%"
+        }
+    },
+    1830: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》参悟残页"
+        }
+    },
+    1831: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》参悟断篇"
+        }
+    },
+    1832: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》参悟绝章"
+        }
+    },
+    1838: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》参悟残页"
+        }
+    },
+    1839: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》参悟断篇"
+        }
+    },
+    1840: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》参悟绝章"
+        }
+    },
+    1846: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "《苍雪刀·绝刀》参悟残页"
+        }
+    },
+    1847: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "《苍雪刀·绝刀》参悟断篇"
+        }
+    },
+    1852: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13045,
+            "recipe_type": 13045,
+            "recipe_name": "《云城盾·盾压》参悟残页"
+        }
+    },
+    1853: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13045,
+            "recipe_type": 13045,
+            "recipe_name": "《云城盾·盾压》参悟断篇"
+        }
+    },
+    1860: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》参悟残页"
+        }
+    },
+    1861: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》参悟断篇"
+        }
+    },
+    1862: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》参悟绝章"
+        }
+    },
+    1953: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "《破阵令·盾飞》参悟残页"
+        }
+    },
+    1954: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "《破阵令·盾飞》参悟断篇"
+        }
+    },
+    1941: {
+        1: {
+            "damage_addition": 410,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀无消耗秘籍"
+        }
+    },
+    5735: {
+        1: {
+            "damage_addition": 1024,
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "盾飞伤害提高"
+        }
+    },
+    5821: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "麾远_斩刀伤害提高20%"
+        }
+    },
+    1932: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "PVE4件套_分山绝刀"
+        }
+    },
+    1933: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 13045,
+            "recipe_type": 13045,
+            "recipe_name": "PVE4件套_分山盾压"
+        }
+    },
+    1937: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "90橙武分山劲属性1"
+        }
+    },
+    1938: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "90橙武分山劲属性2"
+        }
+    },
+    1833: {
+        1: {
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》秘诀残页"
+        }
+    },
+    1841: {
+        1: {
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》秘诀残页"
+        }
+    },
+    1863: {
+        1: {
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》秘诀残页"
+        }
+    },
+    1955: {
+        1: {
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "《破阵令·盾飞》秘诀残页"
+        }
+    },
+    1834: {
+        1: {
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》秘诀断篇"
+        }
+    },
+    1842: {
+        1: {
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》秘诀断篇"
+        }
+    },
+    1848: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "《苍雪刀·绝刀》秘诀残页"
+        }
+    },
+    1854: {
+        1: {
+            "skill_id": 13045,
+            "recipe_type": 13045,
+            "recipe_name": "《云城盾·盾压》秘诀残页"
+        }
+    },
+    1864: {
+        1: {
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》秘诀断篇"
+        }
+    },
+    1956: {
+        1: {
+            "skill_id": 13050,
+            "recipe_type": 13050,
+            "recipe_name": "《破阵令·盾飞》秘诀断篇"
+        }
+    },
+    1835: {
+        1: {
+            "skill_id": 13052,
+            "recipe_type": 13052,
+            "recipe_name": "《苍雪刀·劫刀》秘诀绝章"
+        }
+    },
+    1843: {
+        1: {
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "《苍雪刀·斩刀》秘诀绝章"
+        }
+    },
+    1849: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "《苍雪刀·绝刀》秘诀断篇"
+        }
+    },
+    1855: {
+        1: {
+            "skill_id": 13045,
+            "recipe_type": 13045,
+            "recipe_name": "《云城盾·盾压》秘诀断篇"
+        }
+    },
+    1865: {
+        1: {
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "《云城盾·盾刀》秘诀绝章"
+        }
+    },
+    1934: {
+        1: {
+            "skill_id": 13044,
+            "recipe_type": 13044,
+            "recipe_name": "小橙武_分山劲"
+        }
+    },
+    1936: {
+        1: {
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "小橙武_分山劲2"
+        }
+    },
+    2004: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高10%"
+        }
+    },
+    2006: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高20%"
+        }
+    },
+    2007: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高30%"
+        }
+    },
+    2008: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝返绝刀伤害提高40%"
+        }
+    },
+    4918: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高18%"
+        }
+    },
+    4919: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高36%"
+        }
+    },
+    4920: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高54%"
+        }
+    },
+    4921: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀伤害提高72%"
+        }
+    },
+    5725: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "怒气上限额外加成"
+        }
+    },
+    5562: {
+        1: {
+            "recipe_type": 13308,
+            "recipe_name": "登锋流血+100"
+        }
+    },
+    1823: {
+        1: {
+            "recipe_type": 13055,
+            "recipe_name": "分野_绝刀加会心会效"
+        }
+    },
+    5745: {
+        1: {
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀无视防御"
+        }
+    },
+    5746: {
+        1: {
+            "skill_id": 38889,
+            "recipe_type": 38889,
+            "recipe_name": "绝刀破招无视防御"
         }
     },
     2045: {
@@ -3624,6 +4265,301 @@ RECIPES = {
             "recipe_name": "乱天狼对静止目标"
         }
     },
+    5241: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》参悟残页"
+        }
+    },
+    5242: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》参悟断篇"
+        }
+    },
+    5279: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》参悟绝章"
+        }
+    },
+    5246: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "《九字诀·兵主逆》参悟断篇"
+        }
+    },
+    5247: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "《九字诀·兵主逆》参悟绝章"
+        }
+    },
+    5280: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "《九字诀·兵主逆》参悟残页"
+        }
+    },
+    5274: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 24379,
+            "recipe_type": 24379,
+            "recipe_name": "《奇门·鬼星开穴》参悟断篇"
+        }
+    },
+    5275: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24379,
+            "recipe_type": 24379,
+            "recipe_name": "《奇门·鬼星开穴》参悟绝章"
+        }
+    },
+    5299: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》参悟残页"
+        }
+    },
+    5300: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》参悟断篇"
+        }
+    },
+    5301: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》参悟绝章"
+        }
+    },
+    5166: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "临伤害提高"
+        }
+    },
+    5170: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "兵伤害提高"
+        }
+    },
+    5321: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "衍天宗PVE套装效果1"
+        }
+    },
+    5322: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "衍天宗PVE套装效果2"
+        }
+    },
+    5325: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "衍天宗大橙武属性加成1"
+        }
+    },
+    5326: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "衍天宗大橙武属性加成2"
+        }
+    },
+    5165: {
+        1: {
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》秘诀残页"
+        }
+    },
+    5250: {
+        1: {
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》秘诀残页"
+        }
+    },
+    5240: {
+        1: {
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》秘诀断篇"
+        }
+    },
+    5244: {
+        1: {
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "《九字诀·兵主逆》秘诀断篇"
+        }
+    },
+    5251: {
+        1: {
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》秘诀断篇"
+        }
+    },
+    5272: {
+        1: {
+            "skill_id": 24379,
+            "recipe_type": 24379,
+            "recipe_name": "《奇门·鬼星开穴》秘诀断篇"
+        }
+    },
+    5245: {
+        1: {
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "《九字诀·兵主逆》秘诀绝章"
+        }
+    },
+    5252: {
+        1: {
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "《九字诀·天斗旋》秘诀绝章"
+        }
+    },
+    5273: {
+        1: {
+            "skill_id": 24379,
+            "recipe_type": 24379,
+            "recipe_name": "《奇门·鬼星开穴》秘诀绝章"
+        }
+    },
+    5278: {
+        1: {
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "《九字诀·三星临》秘诀绝章"
+        }
+    },
+    5327: {
+        1: {
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "衍天宗小CW会心加成"
+        }
+    },
+    5548: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1临"
+        }
+    },
+    5549: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1兵"
+        }
+    },
+    5550: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1斗"
+        }
+    },
+    5551: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山2临"
+        }
+    },
+    5552: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山2兵"
+        }
+    },
+    5553: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山2斗"
+        }
+    },
+    5554: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1临"
+        }
+    },
+    5555: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1兵"
+        }
+    },
+    5556: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "重山1斗"
+        }
+    },
+    5167: {
+        1: {
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "临会心会效提高"
+        }
+    },
+    5179: {
+        1: {
+            "skill_id": 24369,
+            "recipe_type": 24369,
+            "recipe_name": "山艮卦象_临伤害提高"
+        }
+    },
+    5180: {
+        1: {
+            "skill_id": 24371,
+            "recipe_type": 24371,
+            "recipe_name": "山艮卦象_兵伤害提高"
+        }
+    },
+    5181: {
+        1: {
+            "skill_id": 24372,
+            "recipe_type": 24372,
+            "recipe_name": "山艮卦象_斗伤害提高"
+        }
+    },
     2638: {
         1: {
             "damage_addition": 20,
@@ -4227,6 +5163,136 @@ RECIPES = {
             "skill_id": 32601,
             "recipe_type": 32601,
             "recipe_name": "沧浪三叠双会递增"
+        }
+    },
+    5408: {
+        1: {
+            "damage_addition": 20,
+            "skill_id": 35659,
+            "recipe_type": 35659,
+            "recipe_name": "《上弦星流术·劲风簇》参悟残页"
+        }
+    },
+    5409: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 35659,
+            "recipe_type": 35659,
+            "recipe_name": "《上弦星流术·劲风簇》参悟断篇"
+        }
+    },
+    5416: {
+        1: {
+            "damage_addition": 20,
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "《上弦星流术·饮羽簇》参悟残页"
+        }
+    },
+    5417: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "《上弦星流术·饮羽簇》参悟断篇"
+        }
+    },
+    5438: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "万灵山庄pve四件套"
+        }
+    },
+    5461: {
+        1: {
+            "damage_addition": 52,
+            "skill_id": 36157,
+            "recipe_type": 36157,
+            "recipe_name": "万灵山庄大CW属性加成1"
+        }
+    },
+    5462: {
+        1: {
+            "damage_addition": 52,
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "万灵山庄大CW属性加成2"
+        }
+    },
+    5394: {
+        1: {
+            "skill_id": 35659,
+            "recipe_type": 35659,
+            "recipe_name": "《上弦星流术·劲风簇》秘诀残页"
+        }
+    },
+    5414: {
+        1: {
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "《上弦星流术·饮羽簇》秘诀残页"
+        }
+    },
+    5407: {
+        1: {
+            "skill_id": 35659,
+            "recipe_type": 35659,
+            "recipe_name": "《上弦星流术·劲风簇》秘诀断篇"
+        }
+    },
+    5415: {
+        1: {
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "《上弦星流术·饮羽簇》秘诀断篇"
+        }
+    },
+    5463: {
+        1: {
+            "skill_id": 36157,
+            "recipe_type": 36157,
+            "recipe_name": "万灵山庄小CW属性加成"
+        }
+    },
+    5467: {
+        1: {
+            "skill_id": 35661,
+            "recipe_type": 35661,
+            "recipe_name": "《上弦星流术·饮羽簇》人偶图绝章"
+        }
+    },
+    5373: {
+        1: {
+            "skill_id": 35771,
+            "recipe_type": 35771,
+            "recipe_name": "素矰_贯穿10%伤害"
+        }
+    },
+    5369: {
+        1: {
+            "recipe_type": 35659,
+            "recipe_name": "彤弓_劲风簇10%双会"
+        }
+    },
+    5422: {
+        1: {
+            "skill_id": 36157,
+            "recipe_type": 36157,
+            "recipe_name": "贯侯_标鹄伤害增加"
+        }
+    },
+    5748: {
+        1: {
+            "skill_id": 39092,
+            "recipe_name": "佩弦-饮雨簇无视防御"
+        }
+    },
+    5755: {
+        1: {
+            "recipe_type": 35659,
+            "recipe_name": "万灵CW劲风伤害增加"
         }
     },
     5683: {

@@ -3,10 +3,7 @@ from base.constant import *
 
 
 class Attribute(SolarAttribute):
-    attribute_id = {
-        0: 10003,
-        1: 100053
-    }
+    attribute_id = 10003
 
     spunk_to_solar_attack_power: int = 0
     spunk_to_solar_critical_strike: int = 0

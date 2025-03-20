@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from tqdm import tqdm
 
-from assets.constant import ATTR_TYPE_MAP, TARGET_ATTR_TYPE_MAP, ENCHANT_START_ID
+from assets.constant import SELF_ATTR_TYPE_MAP, ENCHANT_START_ID
 from tools import *
 from tools.generate_equipments import POSITION_MAP
 
@@ -13,11 +13,11 @@ def get_enchants_list():
     enchant_tab = ENCHANT_TAB[ENCHANT_TAB.ID >= ENCHANT_START_ID].sort_values("Score", ascending=False)
     results = defaultdict(dict)
     for row in tqdm(enchant_tab.itertuples()):
-        if row.Attribute1ID not in ATTR_TYPE_MAP or row.Attribute1ID in TARGET_ATTR_TYPE_MAP:
+        if row.Attribute1ID not in SELF_ATTR_TYPE_MAP:
             continue
         name = f"{row.Name} {row.AttriName}"
         position = POSITION_MAP[row.DestItemSubType]
-        attr = {ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)}
+        attr = {SELF_ATTR_TYPE_MAP[row.Attribute1ID]: int(row.Attribute1Value1)}
         if row.Time:
             results["consumable"][name] = attr
         else:
@@ -46,7 +46,7 @@ def get_stones_list():
                 level = stone_level_mapping[key]
                 break
         attrs = row.Attribute1ID, row.Attribute2ID, row.Attribute3ID
-        if any(attr and attr not in ATTR_TYPE_MAP for attr in attrs):
+        if any(attr and attr not in SELF_ATTR_TYPE_MAP for attr in attrs):
             continue
         values = row.Attribute1Value1, row.Attribute2Value1, row.Attribute3Value1
         node = result
@@ -54,12 +54,16 @@ def get_stones_list():
         for attr, value in zip(attrs, values):
             if not attr:
                 break
-            attr = ATTR_TYPE_MAP[attr]
+            attr = SELF_ATTR_TYPE_MAP[attr]
             if attr not in node:
                 node[attr] = {}
             node = node[attr]
             attributes[attr] = int(value)
-        node[level] = dict(name=row.Name, level=int(level), attr=attributes)
+        if row.TabIndex:
+            stone_id = int(row.TabIndex) - 1
+        else:
+            stone_id = int(stone_tab.loc[row.Index - 1].TabIndex)
+        node[level] = dict(id=stone_id, name=row.Name, level=int(level), attr=attributes)
     return result
 
 

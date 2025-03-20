@@ -150,7 +150,8 @@ class BaseParser:
 
     @property
     def current_stop_time(self):
-        return round((self.stop_frames[self.current_player] - self.start_frame) / FRAME_PER_SECOND, 3)
+        stop_frame = self.stop_frames.get(self.current_player, self.end_frame)
+        return round((stop_frame - self.start_frame) / FRAME_PER_SECOND, 3)
 
     def reset(self):
         self.current_frame = 0
@@ -250,6 +251,8 @@ class Parser(BaseParser):
             select_equipment = select_equipments[label] = {}
             select_equipment['equipment'] = row[2]
             select_equipment['enchant'] = row[5]
+            if label == "近战武器":
+                select_equipment['stone'] = row[4][-1][1]
         return select_equipments
 
     @staticmethod

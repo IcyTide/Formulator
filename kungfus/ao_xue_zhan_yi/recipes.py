@@ -18,6 +18,9 @@ class 天策流血20(ChannelIntervalRecipe):
 
 
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
+    DotRecipe:{
+      -132: {}, -153: {}
+    },
     SkillRecipe: {
         338: {}, 339: {},
         345: {}, 346: {},
