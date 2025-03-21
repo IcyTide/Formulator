@@ -3,13 +3,10 @@ from base.constant import *
 
 
 class Attribute(PhysicalAttribute):
-    attribute_id = {
-        0: 10144,
-        1: 100725
-    }
+    attribute_id = 10144
 
     agility_to_physical_attack_power = 1843
-    agility_to_physical_overcome = 287 / BINARY_SCALE
+    agility_to_physical_overcome = 287
     recipes = [(1711, 1)]
 
     @property
