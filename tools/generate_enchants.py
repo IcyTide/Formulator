@@ -10,7 +10,7 @@ ENCHANT_TAB = read_tab("settings/item/Enchant.tab").fillna(0)
 
 
 def get_enchants_list():
-    enchant_tab = ENCHANT_TAB[(ENCHANT_TAB.ID >= ENCHANT_START_ID) & (ENCHANT_TAB.DiamondType1 > 0)]
+    enchant_tab = ENCHANT_TAB[(ENCHANT_TAB.ID >= ENCHANT_START_ID) & (ENCHANT_TAB.DiamondType1 == 0)]
     enchant_tab = enchant_tab.sort_values("Score", ascending=False)
     results = defaultdict(dict)
     for row in tqdm(enchant_tab.itertuples()):
