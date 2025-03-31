@@ -199,17 +199,17 @@ class Dot(BaseDot):
 
     def pre_damage(self, attribute: Attribute):
         self.dot_skill.pre_damage(attribute)
-        attribute.all_damage_addition -= self.dot_skill.damage_addition
+        attribute.all_damage_addition -= self.dot_skill.damage_addition_add
         if self.consume_skill:
             self.consume_skill.pre_damage(attribute)
-            attribute.all_damage_addition -= self.consume_skill.damage_addition
+            attribute.all_damage_addition -= self.consume_skill.damage_addition_add
 
     def post_damage(self, attribute: Attribute):
         self.dot_skill.post_damage(attribute)
-        attribute.all_damage_addition += self.dot_skill.damage_addition
+        attribute.all_damage_addition += self.dot_skill.damage_addition_add
         if self.consume_skill:
             self.consume_skill.post_damage(attribute)
-            attribute.all_damage_addition += self.consume_skill.damage_addition
+            attribute.all_damage_addition += self.consume_skill.damage_addition_add
 
     def __call__(self, attribute: Attribute):
         self.pre_damage(attribute)

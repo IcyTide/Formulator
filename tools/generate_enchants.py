@@ -12,7 +12,7 @@ ENCHANT_TAB = read_tab("settings/item/Enchant.tab").fillna(0)
 def get_enchants_list():
     enchant_tab = ENCHANT_TAB[(ENCHANT_TAB.ID >= ENCHANT_START_ID) & (ENCHANT_TAB.DiamondType1 == 0)]
     enchant_tab = enchant_tab.sort_values("Score", ascending=False)
-    results = defaultdict(dict)
+    results = {"consumable": {}}
     for row in tqdm(enchant_tab.itertuples()):
         if row.Attribute1ID not in SELF_ATTR_TYPE_MAP:
             continue
@@ -22,6 +22,8 @@ def get_enchants_list():
         if row.Time:
             results["consumable"][name] = attr
         else:
+            if position not in results:
+                results[position] = {}
             results[position][name] = dict(id=row.ID, score=int(row.Score), attr=attr)
     results["secondary_weapon"] = results["primary_weapon"]
     return results

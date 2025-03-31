@@ -10,7 +10,7 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         # 山海同归契
         35695: dict(pet_buffs={26857: {1: 1}}), 35696: dict(pet_count=3, pet_buffs={26857: {1: 1}}),
         # 奇穴
-        36165: dict(consume_dots={26856: 3}), 36453: {},
+        36165: dict(consume_dots={26856: 3}), 40717: {}, 36453: {},
         # 装备
         36580: {},
     },

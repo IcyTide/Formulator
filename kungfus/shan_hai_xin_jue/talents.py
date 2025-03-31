@@ -52,10 +52,11 @@ TALENTS: List[Dict[int, Gain]] = [
         35729: Gain("鹿蜀")
     },
     {
-        35733: 诸怀("诸怀")
+        35733: 诸怀("诸怀", buff_ids=[27099]),
+        35763: Gain("星烨", buff_ids=[26952])
     },
     {
-        35737: Gain("于狩")
+        35737: Gain("于狩", skill_ids=[40717])
     },
     {
         35745: Gain("卢令", attributes=dict(agility_gain=102, strain_gain=102)),
@@ -71,6 +72,6 @@ TALENTS: List[Dict[int, Gain]] = [
         35736: 桑柘("桑柘")
     },
     {
-        35764: Gain("朝仪万汇")
+        35764: Gain("朝仪万汇", skill_ids=[36453])
     }
 ]

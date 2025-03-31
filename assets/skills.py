@@ -1453,6 +1453,36 @@ SKILLS = {
         "solar_damage_rand": 3,
         "solar_damage_call": 1
     },
+    271: {
+        "alias_name": "韦陀献杵增加伤害_60级内功技能",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 233,
+        "recipe_mask": 0,
+        "channel_interval": [
+            133.87582076022,
+            128.0,
+            36.8,
+            48.0,
+            159.2359894125,
+            64.0,
+            64.0,
+            65.0
+        ],
+        "max_level": 8,
+        "skill_name": "降魔",
+        "solar_damage_base": [
+            6,
+            11,
+            16,
+            21,
+            26,
+            31,
+            36,
+            26
+        ],
+        "solar_damage_call": 1
+    },
     38615: {
         "alias_name": "新布泽额外伤害",
         "kind_type": "SolarMagic",
@@ -1687,36 +1717,6 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 16.0,
         "max_level": 1
-    },
-    271: {
-        "alias_name": "韦陀献杵增加伤害_60级内功技能",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 233,
-        "recipe_mask": 0,
-        "channel_interval": [
-            133.87582076022,
-            128.0,
-            36.8,
-            48.0,
-            159.2359894125,
-            64.0,
-            64.0,
-            65.0
-        ],
-        "max_level": 8,
-        "skill_name": "降魔",
-        "solar_damage_base": [
-            6,
-            11,
-            16,
-            21,
-            26,
-            31,
-            36,
-            26
-        ],
-        "solar_damage_call": 1
     },
     18121: {
         "alias_name": "三柴剑法附带特效表现",
@@ -11091,48 +11091,6 @@ SKILLS = {
         ],
         "poison_damage_call": 1
     },
-    34643: {
-        "alias_name": "蛇影_重蛊dot",
-        "kind_type": "Poison",
-        "platform": 0,
-        "recipe_type": 2211,
-        "recipe_mask": 0,
-        "channel_interval": [
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            90.1692,
-            105.1974,
-            120.2256,
-            135.2538,
-            150.282,
-            165.31019999999998,
-            180.3384,
-            195.3666,
-            210.3948,
-            225.423,
-            240.4512,
-            255.47939999999997,
-            270.5076,
-            285.5358,
-            300.564,
-            315.5922,
-            330.62039999999996,
-            345.64860000000004,
-            360.6768,
-            375.70500000000004,
-            390.7332,
-            405.7614,
-            420.7896,
-            477.56280000000004
-        ],
-        "max_level": 32
-    },
     18700: {
         "alias_name": "百足dot 伤害缩短",
         "kind_type": "Poison",
@@ -11185,25 +11143,6 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 520.0,
         "max_level": 1
-    },
-    25019: {
-        "alias_name": "凤凰蛊宠物额外伤害",
-        "kind_type": "Poison",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 250.0,
-        "max_level": 2,
-        "skill_name": "荒息",
-        "poison_damage_base": [
-            40,
-            66
-        ],
-        "poison_damage_rand": [
-            4,
-            7
-        ],
-        "poison_damage_call": 1
     },
     38456: {
         "alias_name": "蝎心新_额外伤害",
@@ -11297,6 +11236,50 @@ SKILLS = {
         ],
         "poison_damage_call": 1
     },
+    25044: {
+        "alias_name": "万毒子技能",
+        "kind_type": "Poison",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 209.11740300000005,
+        "max_level": 1,
+        "skill_name": "连缘蛊",
+        "poison_damage_base": 40,
+        "poison_damage_rand": 4,
+        "poison_damage_call": 1
+    },
+    30918: {
+        "alias_name": "连缘蛊多一跳",
+        "kind_type": "Poison",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": [
+            232.35267000000005,
+            464.7053400000001,
+            697.0580100000001,
+            929.4106800000002,
+            1161.7633500000002
+        ],
+        "max_level": 5,
+        "skill_name": "连缘蛊",
+        "poison_damage_base": [
+            40,
+            66,
+            89,
+            111,
+            133
+        ],
+        "poison_damage_rand": [
+            4,
+            7,
+            9,
+            11,
+            14
+        ],
+        "poison_damage_call": 1
+    },
     25773: {
         "alias_name": "110级CW新增特效毒经",
         "kind_type": "Poison",
@@ -11345,6 +11328,51 @@ SKILLS = {
         "skill_name": "攻击",
         "poison_damage_base": 40,
         "poison_damage_rand": 4,
+        "poison_damage_call": 1
+    },
+    25019: {
+        "alias_name": "凤凰蛊宠物额外伤害",
+        "kind_type": "Poison",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 250.0,
+        "max_level": 2,
+        "skill_name": "荒息",
+        "poison_damage_base": [
+            40,
+            66
+        ],
+        "poison_damage_rand": [
+            4,
+            7
+        ],
+        "poison_damage_call": 1
+    },
+    22997: {
+        "alias_name": "蛇加距离普通攻击2",
+        "kind_type": "Poison",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 129.0,
+        "max_level": 1,
+        "skill_name": "攻击",
+        "poison_damage_base": 40,
+        "poison_damage_rand": 4,
+        "poison_damage_call": 1
+    },
+    36292: {
+        "alias_name": "宠物_蛇_伤害15尺",
+        "kind_type": "Poison",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 115.0,
+        "max_level": 1,
+        "skill_name": "幻击",
+        "poison_damage_base": 194,
+        "poison_damage_rand": 20,
         "poison_damage_call": 1
     },
     38454: {
@@ -14054,6 +14082,32 @@ SKILLS = {
         ],
         "lunar_damage_call": 1
     },
+    6257: {
+        "alias_name": "明教_生死劫_日_子技能",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 67.2,
+        "max_level": 1,
+        "skill_name": "生死劫·日",
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
+    },
+    6258: {
+        "alias_name": "明教_生死劫_月_子技能",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 67.2,
+        "max_level": 1,
+        "skill_name": "生死劫·月",
+        "lunar_damage_base": 70,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1
+    },
     13359: {
         "alias_name": "明教_银月斩_dot",
         "kind_type": "LunarMagic",
@@ -14561,48 +14615,6 @@ SKILLS = {
         "lunar_damage_rand": 10,
         "lunar_damage_call": 1
     },
-    34361: {
-        "alias_name": "明教_影子日破魔伤害",
-        "kind_type": "SolarMagic",
-        "platform": 0,
-        "recipe_type": 3967,
-        "recipe_mask": 0,
-        "channel_interval": 734.6757039644136,
-        "max_level": 6,
-        "skill_name": "净世破魔击·日悬象",
-        "global_damage_factor": [
-            -985661.44,
-            -796917.76,
-            -482344.95999999996,
-            -41943.04000000004,
-            524288.0,
-            1216348.1600000001
-        ],
-        "solar_damage_base": 98,
-        "solar_damage_rand": 10,
-        "solar_damage_call": 1
-    },
-    34359: {
-        "alias_name": "明教_影子月破魔伤害",
-        "kind_type": "LunarMagic",
-        "platform": 0,
-        "recipe_type": 3967,
-        "recipe_mask": 0,
-        "channel_interval": 244.8919013214713,
-        "max_level": 6,
-        "skill_name": "净世破魔击·月悬象",
-        "global_damage_factor": [
-            -985661.44,
-            -796917.76,
-            -482344.95999999996,
-            -41943.04000000004,
-            524288.0,
-            1216348.1600000001
-        ],
-        "lunar_damage_base": 73,
-        "lunar_damage_rand": 2,
-        "lunar_damage_call": 1
-    },
     34356: {
         "alias_name": "明教_影子烈日斩",
         "kind_type": "SolarMagic",
@@ -14644,6 +14656,108 @@ SKILLS = {
         "lunar_damage_base": 98,
         "lunar_damage_rand": 10,
         "lunar_damage_call": 1
+    },
+    34359: {
+        "alias_name": "明教_影子月破魔伤害",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3967,
+        "recipe_mask": 0,
+        "channel_interval": 244.8919013214713,
+        "max_level": 6,
+        "skill_name": "净世破魔击·月悬象",
+        "global_damage_factor": [
+            -985661.44,
+            -796917.76,
+            -482344.95999999996,
+            -41943.04000000004,
+            524288.0,
+            1216348.1600000001
+        ],
+        "lunar_damage_base": 73,
+        "lunar_damage_rand": 2,
+        "lunar_damage_call": 1
+    },
+    34361: {
+        "alias_name": "明教_影子日破魔伤害",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3967,
+        "recipe_mask": 0,
+        "channel_interval": 734.6757039644136,
+        "max_level": 6,
+        "skill_name": "净世破魔击·日悬象",
+        "global_damage_factor": [
+            -985661.44,
+            -796917.76,
+            -482344.95999999996,
+            -41943.04000000004,
+            524288.0,
+            1216348.1600000001
+        ],
+        "solar_damage_base": 98,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
+    },
+    34362: {
+        "alias_name": "明教_影子月生死劫",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 67.2,
+        "max_level": 6,
+        "skill_name": "生死劫·月悬象",
+        "global_damage_factor": [
+            -985661.44,
+            -796917.76,
+            -482344.95999999996,
+            -41943.04000000004,
+            524288.0,
+            1216348.1600000001
+        ],
+        "lunar_damage_base": 70,
+        "lunar_damage_rand": 10,
+        "lunar_damage_call": 1
+    },
+    34363: {
+        "alias_name": "明教_影子日生死劫",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 67.2,
+        "max_level": 6,
+        "skill_name": "生死劫·日悬象",
+        "global_damage_factor": [
+            -985661.44,
+            -796917.76,
+            -482344.95999999996,
+            -41943.04000000004,
+            524288.0,
+            1216348.1600000001
+        ],
+        "solar_damage_base": 70,
+        "solar_damage_rand": 10,
+        "solar_damage_call": 1
+    },
+    34373: {
+        "alias_name": "明教_生死劫上dot技能_日",
+        "kind_type": "SolarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 2985.84,
+        "max_level": 4
+    },
+    34374: {
+        "alias_name": "明教_生死劫上dot技能_月",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 3966,
+        "recipe_mask": 0,
+        "channel_interval": 2985.84,
+        "max_level": 4
     },
     37336: {
         "alias_name": "崇光斩恶子技能",
@@ -14689,6 +14803,15 @@ SKILLS = {
         "solar_damage_base": 70,
         "solar_damage_rand": 10,
         "solar_damage_call": 1
+    },
+    40655: {
+        "alias_name": "明教_用晦而明技能事件",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 2
     },
     13039: {
         "alias_name": "普通攻击_盾刀攻击",
@@ -30050,6 +30173,20 @@ SKILLS = {
         "physical_damage_base": 10,
         "physical_damage_rand": 5
     },
+    40645: {
+        "alias_name": "承磊_满破_额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 32145,
+        "recipe_mask": 0,
+        "channel_interval": 260.0,
+        "max_level": 1,
+        "skill_name": "承磊·破",
+        "weapon_damage_cof": 3072.0,
+        "physical_damage_call": 1,
+        "physical_damage_base": 450,
+        "physical_damage_rand": 25
+    },
     34695: {
         "alias_name": "刀气爆炸伤害子技能",
         "kind_type": "Physics",
@@ -30297,6 +30434,19 @@ SKILLS = {
         "recipe_mask": 0,
         "channel_interval": 16.0,
         "max_level": 10
+    },
+    40717: {
+        "alias_name": "万灵山庄_于狩额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 40717,
+        "recipe_mask": 0,
+        "channel_interval": 300.0,
+        "max_level": 1,
+        "skill_name": "于狩",
+        "physical_damage_call": 1,
+        "physical_damage_base": 30,
+        "physical_damage_rand": 20
     },
     36453: {
         "alias_name": "万灵山庄_劲风簇不判子弹伤害",

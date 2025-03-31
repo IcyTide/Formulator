@@ -192,11 +192,11 @@ class BaseDamage(BaseSkill):
     @property
     def damage_addition(self):
         if not self._damage_addition:
-            return self.damage_addition_add
+            return 0
         elif self.skill_level > len(self._damage_addition):
-            return self._damage_addition[-1] + self.damage_addition_add
+            return self._damage_addition[-1]
         else:
-            return self._damage_addition[self.skill_level - 1] + self.damage_addition_add
+            return self._damage_addition[self.skill_level - 1]
 
     @damage_addition.setter
     def damage_addition(self, damage_addition):
@@ -204,6 +204,10 @@ class BaseDamage(BaseSkill):
             self._damage_addition = damage_addition
         else:
             self._damage_addition = [damage_addition]
+
+    @property
+    def all_damage_addition(self):
+        return self.damage_addition + self.damage_addition_add
 
     @property
     def pve_addition(self):
@@ -279,12 +283,12 @@ class BaseDamage(BaseSkill):
         return damage, critical_damage
 
     def pre_damage(self, attribute):
-        attribute.all_damage_addition += self.damage_addition
+        attribute.all_damage_addition += self.all_damage_addition
         attribute.pve_addition_base += self.pve_addition
         attribute.target.all_damage_cof += self.damage_cof_add
 
     def post_damage(self, attribute):
-        attribute.all_damage_addition -= self.damage_addition
+        attribute.all_damage_addition -= self.all_damage_addition
         attribute.pve_addition_base -= self.pve_addition
         attribute.target.all_damage_cof -= self.damage_cof_add
 
@@ -1518,6 +1522,7 @@ class NpcSkill(Skill):
 class PetSkill(Skill):
     def call_poison_damage(self, attribute: Attribute):
         attribute.pve_addition_base /= 2
+        attribute.surplus_gain += attribute.poison_attack_power_gain
         attack_power = int(attribute.poison_attack_power * 0.87 + attribute.surplus * DEFAULT_SURPLUS_COF * 59 / 1664)
 
         damage = init_result(
@@ -1530,6 +1535,7 @@ class PetSkill(Skill):
             damage = 0, 0
 
         attribute.pve_addition_base *= 2
+        attribute.surplus_gain -= attribute.poison_attack_power_gain
         return damage
 
 

@@ -4,6 +4,9 @@ from base.dot import Dot
 
 DOTS: Dict[type, Dict[int, dict]] = {
     Dot: {
-        4202: {}
+        # 通用
+        4202: {},
+        # 奇穴
+        25725: {}, 25726: {}
     }
 }

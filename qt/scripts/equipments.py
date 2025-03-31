@@ -97,7 +97,7 @@ class Equipment:
     @property
     def embed_attr(self) -> Dict[str, int]:
         return {
-            k: int(EMBED_COF(self.embed_levels[i]) * self.embed[k] + 0.5)
+            k: int(EMBED_COF(self.embed_levels[i]) * self.embed[k])
             for i, k in enumerate(self.embed) if self.embed_levels[i]
         }
 

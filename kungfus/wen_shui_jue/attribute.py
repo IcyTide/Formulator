@@ -5,8 +5,8 @@ from base.constant import *
 class Attribute(PhysicalAttribute):
     attribute_id = 10144
 
-    agility_to_physical_attack_power = 1843
-    agility_to_physical_overcome = 287
+    agility_to_physical_attack_power: int = 0
+    agility_to_physical_overcome: int = 0
     recipes = [(1711, 1)]
 
     @property

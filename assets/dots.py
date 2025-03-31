@@ -769,6 +769,26 @@ DOTS = {
         ],
         "lunar_damage_call": 1
     },
+    25725: {
+        "buff_name": "靡业报劫·日(DOT)",
+        "alias_name": "明教_新生死劫dot_日",
+        "interval": 32,
+        "tick": 10,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 30,
+        "solar_damage_call": 1
+    },
+    25726: {
+        "buff_name": "靡业报劫·月(DOT)",
+        "alias_name": "明教_新生死劫dot_月",
+        "interval": 32,
+        "tick": 10,
+        "max_stack": 1,
+        "platform": 0,
+        "damage_base": 30,
+        "lunar_damage_call": 1
+    },
     8249: {
         "buff_name": "流血(DOT)",
         "alias_name": "流血",

@@ -17,7 +17,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         4183: {}, 4184: {}, 4185: {},
         4374: {}, 4375: {}, 4376: {},
         # 奇穴
-        2510: {}, 2511: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
+        2510: {}, 2511: {}, 2509: {}, **{recipe_id: {} for recipe_id in range(4257, 4264 + 1)},
         **{recipe_id: {} for recipe_id in range(3350, 3359 + 1)},
         # 装备
         4290: {}, 4291: {}, 4294: {}, 4295: {}

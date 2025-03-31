@@ -112,7 +112,8 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         746: {}, 747: {}, 748: {},
         # 奇穴
-        (677, 2): {}, 5608: {},
+        (677, 2): {}, **{recipe_id: {} for recipe_id in list(range(3228, 3233 + 1)) + [3254, 3255, 3297, 3298, 3299]},
+        5608: {}, **{recipe_id: {} for recipe_id in range(2513, 2516 + 1)},
         # 装备
         1529: {},
     },

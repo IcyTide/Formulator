@@ -4345,12 +4345,15 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    10208: {
-        "attributes": {},
+    6214: {
+        "attributes": {
+            "max_life_add": 2024,
+            "strain_base": 115
+        },
         "max_level": 1,
-        "buff_name": "弘法",
-        "alias_name": "弘法",
-        "max_stack": 1,
+        "buff_name": "禅语",
+        "alias_name": "少林_大狮子吼加血",
+        "max_stack": 100,
         "recipes": {}
     },
     24350: {
@@ -6721,6 +6724,26 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    25769: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "重蛊",
+        "alias_name": "重蛊_额外伤害",
+        "max_stack": 1,
+        "recipes": {
+            3228: 1,
+            3229: 1,
+            3230: 1,
+            3231: 1,
+            3232: 1,
+            3233: 1,
+            3254: 1,
+            3255: 1,
+            3297: 1,
+            3298: 1,
+            3299: 1
+        }
+    },
     22232: {
         "attributes": {
             "all_shield_ignore": 614,
@@ -6731,6 +6754,45 @@ BUFFS = {
         "alias_name": "嗜蛊_自身无视防御",
         "max_stack": 1,
         "recipes": {}
+    },
+    16102: {
+        "attributes": {
+            "poison_attack_power_gain": 410
+        },
+        "max_level": 1,
+        "alias_name": "五毒宠物每秒设置位置",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    16103: {
+        "attributes": {
+            "all_damage_addition": 102
+        },
+        "max_level": 1,
+        "buff_name": "引魂",
+        "alias_name": "引魂提高自身技能伤害",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    19513: {
+        "attributes": {},
+        "max_level": 4,
+        "alias_name": "连缘蛊多毒加成",
+        "max_stack": 1,
+        "recipes": [
+            {
+                2513: 1
+            },
+            {
+                2514: 1
+            },
+            {
+                2515: 1
+            },
+            {
+                2516: 1
+            }
+        ]
     },
     3254: {
         "attributes": {
@@ -6993,6 +7055,22 @@ BUFFS = {
         "max_level": 2,
         "buff_name": "无明业火",
         "alias_name": "明教_无明业火_眩晕",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30644: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "晦明·日",
+        "alias_name": "明教_用晦而明强化_日",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30645: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "晦明·月",
+        "alias_name": "明教_用晦而明强化_月",
         "max_stack": 1,
         "recipes": {}
     },
@@ -7383,6 +7461,15 @@ BUFFS = {
         "alias_name": "冥鼓无视防御",
         "max_stack": 1,
         "recipes": {}
+    },
+    19499: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "新砺锋醉斩加25伤害",
+        "max_stack": 1,
+        "recipes": {
+            2509: 1
+        }
     },
     19510: {
         "attributes": {
@@ -7923,6 +8010,19 @@ BUFFS = {
         "alias_name": "万灵山庄_承契",
         "max_stack": 5,
         "recipes": {}
+    },
+    26952: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": "游雾乘云",
+        "alias_name": "万灵山庄_昌寿乘云",
+        "max_stack": 1,
+        "recipes": [
+            {},
+            {
+                5384: 1
+            }
+        ]
     },
     27099: {
         "attributes": {

@@ -17,6 +17,18 @@ class 明教通用会心10(SolarLunarCriticalRecipe):
     value = (1000, 102)
 
 
+class 增加伤害百分之3(DamageAdditionRecipe):
+    value = 31
+
+
+class 增加伤害百分之4(DamageAdditionRecipe):
+    value = 41
+
+
+class 增加伤害百分之5(DamageAdditionRecipe):
+    value = 51
+
+
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         984: {}, 985: {},
@@ -24,7 +36,6 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1007: {}, 1008: {}, 1009: {},
         1014: {}, 1015: {}, 1016: {},
         1051: {}, 1052: {}, 1053: {},
-        1621: {}, 1622: {}, 1623: {},
         # 奇穴
         5149: {}, 5150: {},
         # 装备
@@ -54,6 +65,15 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1019: {},
         1056: {},
         1148: {}, 1149: {}
+    },
+    增加伤害百分之3: {
+        1621: {}
+    },
+    增加伤害百分之4: {
+        1622: {}
+    },
+    增加伤害百分之5: {
+        1623: {}
     },
     明教_秘籍_烈日斩_静止目标加伤害: {
         1013: {}

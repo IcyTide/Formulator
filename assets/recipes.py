@@ -148,6 +148,22 @@ RECIPES = {
             "recipe_name": "《龙爪功·拿云式》参悟绝章"
         }
     },
+    5779: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 233,
+            "recipe_type": 233,
+            "recipe_name": "众嗔韦陀"
+        }
+    },
+    5780: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 243,
+            "recipe_type": 243,
+            "recipe_name": "众嗔拿云"
+        }
+    },
     2862: {
         1: {
             "damage_addition": 922,
@@ -2620,12 +2636,117 @@ RECIPES = {
             "recipe_name": "蝎心攻2"
         }
     },
+    3228: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 29573,
+            "recipe_name": "重蛊_伤害提高_篾片"
+        }
+    },
+    3229: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 25044,
+            "recipe_name": "重蛊_伤害提高_连缘"
+        }
+    },
+    3230: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 30918,
+            "recipe_name": "重蛊_伤害提高_连缘尾跳"
+        }
+    },
+    3231: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 32759,
+            "recipe_name": "重蛊_伤害提高_寂灭蛊每跳"
+        }
+    },
+    3232: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 32760,
+            "recipe_name": "重蛊_伤害提高_寂灭蛊尾跳"
+        }
+    },
+    3233: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 32761,
+            "recipe_name": "重蛊_伤害提高_寂灭蛊寂灭"
+        }
+    },
+    3254: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 34849,
+            "recipe_name": "重蛊_怀泽蛊伤害提高"
+        }
+    },
+    3255: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 34668,
+            "recipe_name": "重蛊_怀泽蛊额外伤害提高"
+        }
+    },
+    3297: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 28717,
+            "recipe_name": "重蛊_提高毒手伤害"
+        }
+    },
+    3298: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 18590,
+            "recipe_name": "重蛊_提高灵蛊伤害"
+        }
+    },
+    3299: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 19148,
+            "recipe_name": "重蛊_提高蚀心蛊伤害"
+        }
+    },
     5608: {
         1: {
             "damage_addition": 410,
             "skill_id": 2209,
             "recipe_type": 2209,
             "recipe_name": "新蝎心增伤"
+        }
+    },
+    2513: {
+        1: {
+            "damage_addition": 819,
+            "skill_id": 25044,
+            "recipe_name": "连缘蛊一毒加成"
+        }
+    },
+    2514: {
+        1: {
+            "damage_addition": 1638,
+            "skill_id": 25044,
+            "recipe_name": "连缘蛊二毒加成"
+        }
+    },
+    2515: {
+        1: {
+            "damage_addition": 2458,
+            "skill_id": 25044,
+            "recipe_name": "连缘蛊三毒加成"
+        }
+    },
+    2516: {
+        1: {
+            "damage_addition": 3277,
+            "skill_id": 25044,
+            "recipe_name": "连缘蛊四毒加成"
         }
     },
     1529: {
@@ -3419,27 +3540,6 @@ RECIPES = {
             "recipe_name": "《御暗烬灭令·驱夜断愁》参悟绝章"
         }
     },
-    1621: {
-        1: {
-            "skill_id": 3966,
-            "recipe_type": 3966,
-            "recipe_name": "《日月净世·生死劫》参悟残页"
-        }
-    },
-    1622: {
-        1: {
-            "skill_id": 3966,
-            "recipe_type": 3966,
-            "recipe_name": "《日月净世·生死劫》参悟断篇"
-        }
-    },
-    1623: {
-        1: {
-            "skill_id": 3966,
-            "recipe_type": 3966,
-            "recipe_name": "《日月净世·生死劫》参悟绝章"
-        }
-    },
     5149: {
         1: {
             "damage_addition": 256,
@@ -3603,6 +3703,27 @@ RECIPES = {
             "skill_id": 3963,
             "recipe_type": 3963,
             "recipe_name": "小橙武_焚影_日"
+        }
+    },
+    1621: {
+        1: {
+            "skill_id": 3966,
+            "recipe_type": 3966,
+            "recipe_name": "《日月净世·生死劫》参悟残页"
+        }
+    },
+    1622: {
+        1: {
+            "skill_id": 3966,
+            "recipe_type": 3966,
+            "recipe_name": "《日月净世·生死劫》参悟断篇"
+        }
+    },
+    1623: {
+        1: {
+            "skill_id": 3966,
+            "recipe_type": 3966,
+            "recipe_name": "《日月净世·生死劫》参悟绝章"
         }
     },
     1013: {
@@ -4558,6 +4679,14 @@ RECIPES = {
             "skill_id": 16602,
             "recipe_type": 16602,
             "recipe_name": "新冥鼓破釜"
+        }
+    },
+    2509: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 16085,
+            "recipe_type": 16085,
+            "recipe_name": "新砺锋醉斩加伤害"
         }
     },
     4257: {
@@ -6745,6 +6874,13 @@ RECIPES = {
         1: {
             "recipe_type": 35659,
             "recipe_name": "彤弓_劲风簇10%双会"
+        }
+    },
+    5384: {
+        1: {
+            "damage_addition": 717,
+            "recipe_type": 35659,
+            "recipe_name": "劲风簇100%伤害"
         }
     },
     5422: {

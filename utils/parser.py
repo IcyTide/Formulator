@@ -251,7 +251,7 @@ class Parser(BaseParser):
             select_equipment = select_equipments[label] = {}
             select_equipment['equipment'] = row[2]
             select_equipment['enchant'] = row[5]
-            if label == "近战武器":
+            if label == "近战武器" and -1 in row[4]:
                 select_equipment['stone'] = row[4][-1][1]
         return select_equipments
 

@@ -7,7 +7,7 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         # 通用
         26857: {},
         # 奇穴
-        27099: dict(continuous=True),
+        26952: {}, 27099: dict(continuous=True),
         # 装备
         27543: {}
     },

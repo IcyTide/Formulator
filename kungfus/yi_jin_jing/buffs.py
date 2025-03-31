@@ -10,7 +10,8 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         19635: dict(buff_name="普渡", interval=4),
         # 奇穴
         12479: dict(max_stack=3, interval=352), 11979: {}, 21859: {},
-        13910: dict(buff_name="众嗔"), 12590: dict(buff_name="三生", continuous=True), 29547: dict(buff_name="华香"),
+        13910: dict(buff_name="众嗔", begin_frame_shift=-2), 12590: dict(buff_name="三生", continuous=True),
+        29547: dict(buff_name="华香"),
         # 装备
         1919: {}
     }

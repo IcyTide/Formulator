@@ -336,9 +336,10 @@ MAX_STONE_LEVEL = 6
 
 def EMBED_COF(level):
     if level > 6:
-        return (level * 0.65 - 3.2) * 1.3 * 1.15
+        cof =  (level * 0.65 - 3.2) * 1.3
     else:
-        return level * 0.195 * 1.15
+        cof =  level * 0.195 * 1.15
+    return cof / 27800 * 32000
 
 
 def STRENGTH_COF(level):

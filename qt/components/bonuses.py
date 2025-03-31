@@ -89,8 +89,8 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "少林")
 
         tab_layout.addWidget(self.create_single("立地成佛"), 0, 0)
-        tab_layout.addWidget(self.create_stack("弘法"), 1, 0)
-        tab_layout.addWidget(self.create_rate("弘法"), 1, 1)
+        tab_layout.addWidget(self.create_stack("禅语"), 1, 0)
+        tab_layout.addWidget(self.create_rate("禅语"), 1, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
@@ -193,8 +193,8 @@ class TeamGainsWidget(QWidget):
 
         if not self.team_gains["立地成佛"].radio_button.isChecked():
             self.team_gains["立地成佛"].radio_button.click()
-        self.team_gains["弘法"]["stack"].spin_box.setValue(100)
-        self.team_gains["弘法"]["rate"].spin_box.setValue(50)
+        self.team_gains["禅语"]["stack"].spin_box.setValue(100)
+        self.team_gains["禅语"]["rate"].spin_box.setValue(100)
 
         self.team_gains["秋肃"]["stack"].spin_box.setValue(100)
         self.team_gains["秋肃"]["rate"].spin_box.setValue(100)

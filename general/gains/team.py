@@ -74,7 +74,7 @@ TEAM_GAINS: Dict[str, type(TeamGain) | type(TankGain)] = {k: v for k, v in [
     create_team_gain(23107, TeamGain, func=lambda x: (x + x / 2) / 2),
     create_team_gain(6363, TeamGain),
     create_team_gain(-566, TargetTeamGain),
-    create_team_gain(10208, TeamGain),
+    create_team_gain(6214, TeamGain),
     create_team_gain(29294, TeamGain),
     create_team_gain(24350, TeamGain),
     create_team_gain(-378, TeamGain, level=7),

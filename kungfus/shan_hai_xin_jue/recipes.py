@@ -41,6 +41,10 @@ class 贯侯_标鹄伤害增加(PveAdditionRecipe):
             super().sub_skill(skill)
 
 
+class 劲风簇非侠士(PveAdditionRecipe):
+    value = 717
+
+
 class 饮雨簇无视防御(PhysicalShieldGainRecipe):
     value = -666
 
@@ -92,6 +96,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     彤弓_劲风簇10双会: {
         5369: {}
     },
+    劲风簇非侠士: {
+        5384: {}
+    },
     贯侯_标鹄伤害增加: {
         5422: {}
     },
@@ -100,7 +107,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     万灵CW劲风簇伤害提高10: {
         5755: {}
-    }
+    },
 }
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "劲风簇": {

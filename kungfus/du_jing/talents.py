@@ -29,55 +29,64 @@ class 嗜蛊(Gain):
         skills[2226].pre_buffs.pop(22232)
 
 
+class 引魂(Gain):
+    def add_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pet_buffs[16102] = {1: 1}
+
+    def sub_skills(self, skills: Dict[int, Skill]):
+        skills[2223].pet_buffs.pop(16102)
+
+
 class 蛇悉(Gain):
     def add_dots(self, dots: Dict[int, Dot]):
-        for dot_id in (2296, 25917):
-            dots[dot_id].tick_add += 2
+        dots[2296].tick_add += 2
 
     def sub_dots(self, dots: Dict[int, Dot]):
-        for dot_id in (2296, 25917):
-            dots[dot_id].tick_add -= 2
+        dots[2296].tick_add -= 2
 
 
 TALENTS: List[Dict[int, Gain]] = [
     {
-        6618: Gain("尻尾", recipes=[(677, 2)]),
+        6618: Gain("尻尾", skill_ids=[40198], recipes=[(677, 2)]),
     },
     {
-        6649: Gain("食髓")
+        6649: Gain("食髓", skill_ids=[6648])
     },
     {
-        6629: Gain("黯影", recipes=[
+        6629: Gain("黯影", skill_ids=[34389], recipes=[
             (recipe_id, 1) for recipe_id in (1269, 1270, 1271, 1272, 2436, 4550, 3263, 5538)
         ])
     },
     {
-        6879: 虫兽("虫兽")
+        6879: 虫兽("虫兽", buff_ids=[12497])
     },
     {
-        6625: 蟾啸("蟾啸"),
+        6625: 蟾啸("蟾啸", skill_ids=[13473]),
+        34388: Gain("重蛊", buff_ids=[25769])
     },
     {
         40617: Gain("忘情", recipes=[(5891, 1), (5898, 1), (5901, 1)]),
         40069: Gain("裕蛊")
     },
     {
-        30088: 嗜蛊("嗜蛊"),
+        30088: 嗜蛊("嗜蛊", buff_ids=[22232]),
     },
     {
-        18330: Gain("固灵"),
-        37351: Gain("释灵")
+        18330: Gain("固灵", skill_ids=[18700], dot_ids=[12557]),
+        37351: Gain("释灵", skill_ids=[37352], dot_ids=[28210])
     },
     {
-        25018: Gain("荒息")
+        25018: Gain("荒息", skill_ids=[25019])
     },
     {
-        38455: Gain("残香", recipes=[(5608, 1)])
+        38455: Gain("残香", skill_ids=[38454], recipes=[(5608, 1)])
     },
     {
-        38581: Gain("急星")
+        38581: Gain("急星"),
+        18325: 引魂("引魂", skill_ids=[22997, 36292], buff_ids=[16102, 16103])
     },
     {
-        21302: 蛇悉("蛇悉")
+        21302: 蛇悉("蛇悉", skill_ids=[21303]),
+        25043: Gain("连缘蛊", skill_ids=[25044, 30918], buff_ids=[19513])
     }
 ]

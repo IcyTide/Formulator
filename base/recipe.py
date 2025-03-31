@@ -186,6 +186,14 @@ class ChannelIntervalRecipe(SkillRecipe):
         skill.channel_interval_add /= self.value
 
 
+class DamageAdditionRecipe(SkillRecipe):
+    def add_skill(self, skill: Skill):
+        skill.damage_addition += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.damage_addition -= self.value
+
+
 class MoveStateDamageAdditionRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         skill.move_state_damage_addition += self.value
