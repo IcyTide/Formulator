@@ -82,7 +82,7 @@ class 流照无视防御(MagicalShieldGainRecipe):
 
 
 class 响壑徵无视防御秘籍脚本(MagicalShieldGainRecipe):
-    value = -410
+    value = -307
 
     def add_skill(self, skill: Skill):
         if skill.skill_id in (14227, 18859):
@@ -101,7 +101,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         # 奇穴
         2927: {}, 2930: {}, 2931: {}, 5335: {}, 5336: {}, 5337: {}, 5338: {},
         # 装备
-        2209: {}, 2210: {}, 2401: {}, 2402: {}
+        5909: {}, 2210: {}, 2401: {}, 2402: {}
     },
     CriticalStrikeRecipe_200: {
         2047: {},

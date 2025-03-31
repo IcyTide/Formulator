@@ -595,16 +595,6 @@ DOTS = {
         ],
         "poison_damage_call": 1
     },
-    25917: {
-        "buff_name": "蛇影(DOT)",
-        "alias_name": "蛇影_重蛊",
-        "interval": 32,
-        "tick": 6,
-        "max_stack": 2,
-        "platform": 0,
-        "damage_base": 55,
-        "poison_damage_call": 1
-    },
     12557: {
         "buff_name": "百足(DOT)",
         "alias_name": "百足dot_缩短",
@@ -654,7 +644,7 @@ DOTS = {
         "buff_name": "释灵(DOT)",
         "alias_name": "释灵DOT",
         "interval": 16,
-        "tick": 6,
+        "tick": 8,
         "max_stack": 1,
         "platform": 0,
         "damage_base": 180,

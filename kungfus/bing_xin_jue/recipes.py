@@ -23,13 +23,28 @@ class 剑破会心20(LunarCriticalRecipe):
     value = (1000, 102)
 
 
+class 玳弦急曲剑舞减读条新妆(ChannelIntervalRecipe):
+    @property
+    def value(self):
+        return 1 + 0.08 * (self.recipe_level - 1)
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (6234, 6554):
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (6234, 6554):
+            super().sub_skill(skill)
+
+
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         145: {}, 146: {},
         160: {}, 161: {},
         1637: {}, 1638: {}, 1639: {},
         # 奇穴
-        2893: {}, 1254: {}, 3246: {}, 5634: {},
+        2893: {}, 5890: {}, 3246: {},
+        # 装备
         1547: {}, 1524: {}, 1525: {}
     },
     CriticalStrikeRecipe_200: {
@@ -46,7 +61,10 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     剑破会心20: {
         2014: {}, 2015: {}, 2016: {}
-    }
+    },
+    玳弦急曲剑舞减读条新妆: {
+        (5788, recipe_level): {} for recipe_level in range(7)
+    },
 }
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {
     "剑气长江": {

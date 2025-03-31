@@ -4346,13 +4346,11 @@ BUFFS = {
         "recipes": {}
     },
     10208: {
-        "attributes": {
-            "strain_base": 759
-        },
+        "attributes": {},
         "max_level": 1,
         "buff_name": "弘法",
         "alias_name": "弘法",
-        "max_stack": 100,
+        "max_stack": 1,
         "recipes": {}
     },
     24350: {
@@ -5297,13 +5295,14 @@ BUFFS = {
         "recipes": {}
     },
     13910: {
-        "attributes": {
-            "all_damage_addition": 205
-        },
+        "attributes": {},
         "max_level": 1,
         "alias_name": "众嗔韦陀拿云加15%伤害",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": {
+            5779: 1,
+            5780: 1
+        }
     },
     12590: {
         "attributes": [
@@ -5805,7 +5804,7 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "龙驭",
         "alias_name": "[21638]龙驭_灭后增伤",
-        "max_stack": 15,
+        "max_stack": 25,
         "recipes": {}
     },
     244: {
@@ -6333,6 +6332,21 @@ BUFFS = {
             3246: 1
         }
     },
+    12549: {
+        "attributes": {
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 102,
+            "neutral_critical_strike_rate": 1000,
+            "lunar_critical_strike_rate": 1000,
+            "poison_critical_strike_rate": 1000,
+            "solar_critical_strike_rate": 1000,
+            "magical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "alias_name": "10会心会效隐藏buff",
+        "max_stack": 1,
+        "recipes": {}
+    },
     25435: {
         "attributes": [
             {},
@@ -6356,6 +6370,32 @@ BUFFS = {
         "alias_name": "心鼓弦天籁",
         "max_stack": 1,
         "recipes": {}
+    },
+    30274: {
+        "attributes": {},
+        "max_level": 6,
+        "alias_name": "玳弦急曲剑舞减读条（新妆）",
+        "max_stack": 1,
+        "recipes": [
+            {
+                5788: 1
+            },
+            {
+                5788: 2
+            },
+            {
+                5788: 3
+            },
+            {
+                5788: 4
+            },
+            {
+                5788: 5
+            },
+            {
+                5788: 6
+            }
+        ]
     },
     1728: {
         "attributes": [
@@ -6384,11 +6424,11 @@ BUFFS = {
             },
             {
                 "physical_critical_strike_rate": 1000,
-                "physical_critical_power_rate": 154
+                "physical_critical_power_rate": 256
             },
             {
                 "physical_critical_strike_rate": 1000,
-                "physical_critical_power_rate": 154,
+                "physical_critical_power_rate": 256,
                 "physical_attack_power_gain": 154
             },
             {
@@ -6664,7 +6704,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 205
+            "pve_addition_base": 82
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -6957,11 +6997,19 @@ BUFFS = {
         "recipes": {}
     },
     12575: {
-        "attributes": {
-            "all_shield_ignore": 563
-        },
-        "max_level": 1,
-        "alias_name": "明教_背刺破魔伤害增加",
+        "attributes": [
+            {
+                "all_shield_ignore": 307
+            },
+            {
+                "all_shield_ignore": 922
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "明教_用晦而明无视防御1级",
+            "明教_用晦而明无视防御2级"
+        ],
         "max_stack": 1,
         "recipes": {}
     },
@@ -7058,7 +7106,7 @@ BUFFS = {
     },
     8385: {
         "attributes": {
-            "physical_attack_power_gain": 133
+            "physical_attack_power_gain": 154
         },
         "max_level": 1,
         "buff_name": "血怒",
@@ -7262,8 +7310,8 @@ BUFFS = {
     },
     9437: {
         "attributes": {
-            "lunar_attack_power_gain": 102,
-            "strain_gain": 184
+            "lunar_attack_power_gain": 154,
+            "strain_gain": 205
         },
         "max_level": 1,
         "buff_name": "参连",
@@ -7384,15 +7432,7 @@ BUFFS = {
         "alias_name": "新爆体持续监控",
         "max_stack": 1,
         "recipes": {
-            3350: 1,
-            3352: 1,
-            3353: 1,
-            3354: 1,
-            3355: 1,
-            3356: 1,
-            3357: 1,
-            3358: 1,
-            3359: 1
+            3350: 1
         }
     },
     14083: {
@@ -7401,7 +7441,8 @@ BUFFS = {
                 "physical_attack_power_gain": 102
             },
             {
-                "physical_attack_power_gain": 205
+                "physical_attack_power_gain": 205,
+                "strain_gain": 102
             }
         ],
         "max_level": 2,
@@ -7512,7 +7553,8 @@ BUFFS = {
     },
     15893: {
         "attributes": {
-            "physical_attack_power_gain": 256
+            "physical_attack_power_gain": 154,
+            "strain_gain": 102
         },
         "max_level": 1,
         "buff_name": "忘断",
@@ -7726,7 +7768,9 @@ BUFFS = {
         "max_level": 1,
         "alias_name": "养荣千枝绽蕊加破防",
         "max_stack": 1,
-        "recipes": {}
+        "recipes": {
+            5902: 1
+        }
     },
     24168: {
         "attributes": [
@@ -7828,12 +7872,12 @@ BUFFS = {
     },
     30304: {
         "attributes": {
-            "all_damage_addition": 31
+            "all_damage_addition": 41
         },
         "max_level": 1,
         "buff_name": "戗风",
         "alias_name": "奇穴_戗风_增伤",
-        "max_stack": 3,
+        "max_stack": 2,
         "recipes": {}
     },
     30311: {

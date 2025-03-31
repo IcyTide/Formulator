@@ -64,7 +64,7 @@ ATTRIBUTES = {
     10015: {
         "alias_name": "太虚剑意",
         "max_level": 14,
-        "pve_addition_base": 389,
+        "pve_addition_base": 430,
         "agility_to_physical_attack_power": 1731,
         "agility_to_physical_critical_strike": 696,
         "physical_critical_strike_base": [
@@ -103,7 +103,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 440,
+        "pve_addition_base": 451,
         "magical_attack_power_base": [
             10,
             17,
@@ -126,7 +126,7 @@ ATTRIBUTES = {
     10026: {
         "alias_name": "傲血战意",
         "max_level": 14,
-        "pve_addition_base": 430,
+        "pve_addition_base": 225,
         "physical_attack_power_base": [
             9,
             15,
@@ -149,7 +149,7 @@ ATTRIBUTES = {
     10081: {
         "alias_name": "冰心诀",
         "max_level": 14,
-        "pve_addition_base": 82,
+        "pve_addition_base": 102,
         "spirit_to_lunar_attack_power": 2048,
         "spirit_to_lunar_critical_strike": 297,
         "lunar_attack_power_base": [
@@ -172,7 +172,6 @@ ATTRIBUTES = {
     10144: {
         "alias_name": "问水诀",
         "max_level": 14,
-        "pve_addition_base": 61,
         "agility_to_physical_attack_power": 1843,
         "physical_critical_strike_base": [
             12,
@@ -211,7 +210,7 @@ ATTRIBUTES = {
     10175: {
         "alias_name": "毒经",
         "max_level": 14,
-        "pve_addition_base": 205,
+        "pve_addition_base": 82,
         "magical_attack_power_base": [
             10,
             17,
@@ -311,7 +310,7 @@ ATTRIBUTES = {
     10242: {
         "alias_name": "焚影圣诀",
         "max_level": 14,
-        "pve_addition_base": 61,
+        "pve_addition_base": 123,
         "lunar_attack_power_base": [
             11,
             18,
@@ -388,7 +387,7 @@ ATTRIBUTES = {
     10447: {
         "alias_name": "莫问",
         "max_level": 14,
-        "pve_addition_base": 430,
+        "pve_addition_base": 297,
         "magical_attack_power_base": [
             9,
             15,
@@ -427,7 +426,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 471,
+        "pve_addition_base": 256,
         "physical_attack_power_base": [
             9,
             15,
@@ -450,7 +449,7 @@ ATTRIBUTES = {
     10533: {
         "alias_name": "凌海诀",
         "max_level": 14,
-        "pve_addition_base": 328,
+        "pve_addition_base": 287,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
         "physical_critical_strike_base": [
@@ -489,7 +488,7 @@ ATTRIBUTES = {
     10585: {
         "alias_name": "隐龙诀",
         "max_level": 14,
-        "pve_addition_base": 287,
+        "pve_addition_base": 133,
         "agility_to_physical_attack_power": 1772,
         "physical_attack_power_base": [
             8,
@@ -567,7 +566,7 @@ ATTRIBUTES = {
     10627: {
         "alias_name": "无方",
         "max_level": 14,
-        "pve_addition_base": 471,
+        "pve_addition_base": 410,
         "magical_attack_power_base": [
             9,
             16,
@@ -684,7 +683,7 @@ ATTRIBUTES = {
     10786: {
         "alias_name": "周天功",
         "max_level": 14,
-        "pve_addition_base": 205,
+        "pve_addition_base": 103,
         "magical_attack_power_base": [
             9,
             15,

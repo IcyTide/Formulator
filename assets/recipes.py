@@ -697,6 +697,14 @@ RECIPES = {
             "recipe_name": "八荒降低CD"
         }
     },
+    5786: {
+        1: {
+            "damage_addition": 614,
+            "skill_id": 21979,
+            "recipe_type": 21979,
+            "recipe_name": "云中剑加伤害"
+        }
+    },
     5772: {
         1: {
             "damage_addition": 307,
@@ -1356,27 +1364,19 @@ RECIPES = {
             "recipe_name": "剑破虚空伤害提高10%"
         }
     },
-    1254: {
+    5890: {
         1: {
             "damage_addition": 358,
-            "skill_id": 2716,
-            "recipe_name": "剑破加伤害"
+            "skill_id": 40182,
+            "recipe_name": "生莲加伤害"
         }
     },
     3246: {
         1: {
-            "damage_addition": 512,
+            "damage_addition": 717,
             "skill_id": 2707,
             "recipe_type": 2707,
             "recipe_name": "流玉_下一个玳弦急曲加伤害"
-        }
-    },
-    5634: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 2707,
-            "recipe_type": 2707,
-            "recipe_name": "盈袖玳弦急曲伤害提高10%"
         }
     },
     1547: {
@@ -1468,6 +1468,38 @@ RECIPES = {
         1: {
             "skill_id": 9346,
             "recipe_name": "剑破急曲20%会心111"
+        }
+    },
+    5788: {
+        1: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
+        },
+        2: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
+        },
+        3: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
+        },
+        4: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
+        },
+        5: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
+        },
+        6: {
+            "skill_id": 2707,
+            "recipe_type": 2707,
+            "recipe_name": "玳弦急曲剑舞减读条（新妆）"
         }
     },
     546: {
@@ -2759,6 +2791,25 @@ RECIPES = {
             "recipe_name": "毒经橙武持续伤害提高"
         }
     },
+    5891: {
+        1: {
+            "skill_id": 2211,
+            "recipe_type": 2211,
+            "recipe_name": "新忘情蛇影增伤"
+        }
+    },
+    5898: {
+        1: {
+            "skill_id": 13473,
+            "recipe_name": "新忘情蟾啸增伤"
+        }
+    },
+    5901: {
+        1: {
+            "skill_id": 6236,
+            "recipe_name": "新忘情蟾啸dot增伤"
+        }
+    },
     -154: {
         1: {
             "interval": -16,
@@ -3148,6 +3199,14 @@ RECIPES = {
             "recipe_name": "神机控制诡面埋伏加伤害"
         }
     },
+    5920: {
+        1: {
+            "damage_addition": -307,
+            "skill_id": 3111,
+            "recipe_type": 3111,
+            "recipe_name": "暗藏杀机"
+        }
+    },
     1223: {
         1: {
             "damage_addition": 82,
@@ -3292,6 +3351,7 @@ RECIPES = {
         1: {
             "damage_addition": 31,
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》参悟残页"
         }
     },
@@ -3299,6 +3359,7 @@ RECIPES = {
         1: {
             "damage_addition": 41,
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》参悟断篇"
         }
     },
@@ -3306,6 +3367,7 @@ RECIPES = {
         1: {
             "damage_addition": 51,
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》参悟绝章"
         }
     },
@@ -3359,7 +3421,6 @@ RECIPES = {
     },
     1621: {
         1: {
-            "damage_addition": 31,
             "skill_id": 3966,
             "recipe_type": 3966,
             "recipe_name": "《日月净世·生死劫》参悟残页"
@@ -3367,7 +3428,6 @@ RECIPES = {
     },
     1622: {
         1: {
-            "damage_addition": 41,
             "skill_id": 3966,
             "recipe_type": 3966,
             "recipe_name": "《日月净世·生死劫》参悟断篇"
@@ -3375,7 +3435,6 @@ RECIPES = {
     },
     1623: {
         1: {
-            "damage_addition": 51,
             "skill_id": 3966,
             "recipe_type": 3966,
             "recipe_name": "《日月净世·生死劫》参悟绝章"
@@ -3444,6 +3503,7 @@ RECIPES = {
     1010: {
         1: {
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》秘诀残页"
         }
     },
@@ -3485,6 +3545,7 @@ RECIPES = {
     1011: {
         1: {
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》秘诀断篇"
         }
     },
@@ -3547,6 +3608,7 @@ RECIPES = {
     1013: {
         1: {
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "《日月净世·烈日斩》人偶图断篇"
         }
     },
@@ -3558,7 +3620,7 @@ RECIPES = {
     },
     3223: {
         1: {
-            "recipe_type": 3967,
+            "skill_id": 14701,
             "recipe_name": "新明光_日终结加伤害_破魔"
         }
     },
@@ -3589,6 +3651,7 @@ RECIPES = {
     1314: {
         1: {
             "skill_id": 3963,
+            "recipe_type": 3963,
             "recipe_name": "烈日斩的会心几率提高10%"
         }
     },
@@ -4080,12 +4143,12 @@ RECIPES = {
             "recipe_name": "明心_音套路下不被打退_变徵"
         }
     },
-    2209: {
+    5909: {
         1: {
             "damage_addition": 102,
-            "skill_id": 14064,
-            "recipe_type": 14064,
-            "recipe_name": "长歌PVE套装宫、徵伤害提高5%"
+            "skill_id": 40285,
+            "recipe_type": 40285,
+            "recipe_name": "长歌PVE套装剑徵伤害提高10%"
         }
     },
     2210: {
@@ -4483,7 +4546,7 @@ RECIPES = {
     },
     2510: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 512,
             "skill_id": 16601,
             "recipe_type": 16601,
             "recipe_name": "新冥鼓项王"
@@ -4491,7 +4554,7 @@ RECIPES = {
     },
     2511: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 512,
             "skill_id": 16602,
             "recipe_type": 16602,
             "recipe_name": "新冥鼓破釜"
@@ -4986,26 +5049,26 @@ RECIPES = {
     },
     4789: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "skill_id": 20715,
             "recipe_type": 20715,
-            "recipe_name": "海运南冥伤害提高20%"
+            "recipe_name": "海运南冥伤害提高10%"
         }
     },
     4790: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "skill_id": 20083,
             "recipe_type": 20083,
-            "recipe_name": "溟海御波伤害提高20%"
+            "recipe_name": "溟海御波伤害提高10%"
         }
     },
     4791: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 102,
             "skill_id": 20084,
             "recipe_type": 20084,
-            "recipe_name": "逐波灵游伤害提高20%"
+            "recipe_name": "逐波灵游伤害提高10%"
         }
     },
     4816: {
@@ -6825,7 +6888,7 @@ RECIPES = {
     },
     5845: {
         1: {
-            "damage_addition": -308,
+            "damage_addition": -410,
             "recipe_type": 37780,
             "recipe_name": "劈风令弹射降伤害"
         }

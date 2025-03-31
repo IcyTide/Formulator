@@ -93,6 +93,18 @@ class 橙武提高伤害(ChannelIntervalRecipe):
     value = 1.25
 
 
+class 新忘情增伤(ChannelIntervalRecipe):
+    value = 1.6
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id in (6237, 21303, 6236, 13473):
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id in (6237, 21303, 6236, 13473):
+            super().sub_skill(skill)
+
+
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     DotRecipe: {
         -134: dict(clone_id=25917)
@@ -162,6 +174,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     橙武提高伤害: {
         2436: {}
+    },
+    新忘情增伤: {
+        5891: {}, 5898: {}, 5901: {}
     }
 }
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {

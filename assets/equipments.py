@@ -1692,8 +1692,8 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -7502,7 +7502,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2814
+                    2819
                 ]
             ],
             "recipes": {},
@@ -7534,7 +7534,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7565,7 +7565,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7597,7 +7597,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2814
+                    2819
                 ]
             ],
             "recipes": {},
@@ -7629,7 +7629,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7660,7 +7660,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7692,7 +7692,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2814
+                    2819
                 ]
             ],
             "recipes": {},
@@ -7724,7 +7724,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7755,7 +7755,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7787,7 +7787,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2814
+                    2819
                 ]
             ],
             "recipes": {},
@@ -7819,7 +7819,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -7850,7 +7850,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2826
+                    2827
                 ]
             ],
             "recipes": {},
@@ -8424,8 +8424,8 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -22252,8 +22252,8 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -28508,7 +28508,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28540,7 +28540,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28571,7 +28571,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28603,7 +28603,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28635,7 +28635,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28666,7 +28666,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28698,7 +28698,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28730,7 +28730,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28761,7 +28761,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28793,7 +28793,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28825,7 +28825,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -28856,7 +28856,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2815
+                    2820
                 ]
             ],
             "recipes": {},
@@ -29542,8 +29542,8 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -38510,8 +38510,8 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -44015,7 +44015,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44045,7 +44045,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2828
+                    2829
                 ]
             ],
             "recipes": {},
@@ -44075,7 +44075,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44106,7 +44106,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44136,7 +44136,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2828
+                    2829
                 ]
             ],
             "recipes": {},
@@ -44166,7 +44166,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44197,7 +44197,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44227,7 +44227,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2828
+                    2829
                 ]
             ],
             "recipes": {},
@@ -44257,7 +44257,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44288,7 +44288,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -44318,7 +44318,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2828
+                    2829
                 ]
             ],
             "recipes": {},
@@ -44348,7 +44348,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2817
+                    2822
                 ]
             ],
             "recipes": {},
@@ -55726,7 +55726,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55756,7 +55756,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2816
+                    2821
                 ]
             ],
             "recipes": {},
@@ -55786,7 +55786,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55817,7 +55817,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55847,7 +55847,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2816
+                    2821
                 ]
             ],
             "recipes": {},
@@ -55877,7 +55877,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55908,7 +55908,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55938,7 +55938,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2816
+                    2821
                 ]
             ],
             "recipes": {},
@@ -55968,7 +55968,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -55999,7 +55999,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -56029,7 +56029,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2816
+                    2821
                 ]
             ],
             "recipes": {},
@@ -56059,7 +56059,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2824
+                    2825
                 ]
             ],
             "recipes": {},
@@ -62436,7 +62436,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62467,7 +62467,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62496,7 +62496,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62527,7 +62527,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62558,7 +62558,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62587,7 +62587,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62618,7 +62618,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62649,7 +62649,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62678,7 +62678,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62709,7 +62709,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62740,7 +62740,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -62769,7 +62769,7 @@ EQUIPMENTS = {
             },
             "gains": [
                 [
-                    2818
+                    2823
                 ]
             ],
             "recipes": {},
@@ -68735,9 +68735,6 @@ EQUIPMENTS = {
                 ],
                 [
                     2831
-                ],
-                [
-                    2831
                 ]
             ],
             "recipes": {
@@ -70185,9 +70182,6 @@ EQUIPMENTS = {
                 ],
                 [
                     1936
-                ],
-                [
-                    2830
                 ],
                 [
                     2830
