@@ -652,14 +652,14 @@ ENCHANTS = {
             "id": 15982,
             "score": 0,
             "attr": {
-                "magical_overcome_base": 539
+                "magical_overcome_base": 4202
             }
         },
         "荆岫璞玉·暗器（加速） 加速提升539点": {
             "id": 15983,
             "score": 0,
             "attr": {
-                "haste_base": 539
+                "haste_base": 4202
             }
         },
         "荆岫璞玉·暗器（根骨） 根骨提升539点": {

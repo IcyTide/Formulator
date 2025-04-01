@@ -13,7 +13,8 @@ from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel, SpinWi
 
 def build_stones_mapping(node, mapping):
     if "id" in node:
-        mapping[node["id"]] = [node["level"]] + [ATTR_TYPE_TRANSLATE[attr] for attr in node["attr"]]
+        for stone_id in node["id"]:
+            mapping[stone_id] = [node["level"]] + [ATTR_TYPE_TRANSLATE[attr] for attr in node["attr"]]
     else:
         for sub in node.values():
             build_stones_mapping(sub, mapping)

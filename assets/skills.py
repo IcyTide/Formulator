@@ -66,7 +66,7 @@ SKILLS = {
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
-        "max_level": 2,
+        "max_level": 4,
         "skill_name": "破·守山"
     },
     38966: {
@@ -10613,11 +10613,11 @@ SKILLS = {
         "max_level": 5,
         "skill_name": "破",
         "global_damage_factor": [
-            -720371.712,
+            -419430.4,
             -638582.784,
             -392167.424,
             -310378.49600000004,
-            676331.52
+            -531103.744
         ],
         "poison_surplus_call": 1
     },
@@ -11328,25 +11328,6 @@ SKILLS = {
         "skill_name": "攻击",
         "poison_damage_base": 40,
         "poison_damage_rand": 4,
-        "poison_damage_call": 1
-    },
-    25019: {
-        "alias_name": "凤凰蛊宠物额外伤害",
-        "kind_type": "Poison",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 250.0,
-        "max_level": 2,
-        "skill_name": "荒息",
-        "poison_damage_base": [
-            40,
-            66
-        ],
-        "poison_damage_rand": [
-            4,
-            7
-        ],
         "poison_damage_call": 1
     },
     22997: {

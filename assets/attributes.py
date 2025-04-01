@@ -2,7 +2,7 @@ ATTRIBUTES = {
     10003: {
         "alias_name": "易筋经",
         "max_level": 14,
-        "pve_addition_base": 256,
+        "pve_addition_base": 348,
         "spunk_to_solar_attack_power": 2007,
         "spunk_to_solar_critical_strike": 410,
         "magical_attack_power_base": [
@@ -210,7 +210,7 @@ ATTRIBUTES = {
     10175: {
         "alias_name": "毒经",
         "max_level": 14,
-        "pve_addition_base": 82,
+        "pve_addition_base": 215,
         "magical_attack_power_base": [
             10,
             17,
@@ -271,7 +271,7 @@ ATTRIBUTES = {
     10225: {
         "alias_name": "天罗诡道",
         "max_level": 14,
-        "pve_addition_base": 113,
+        "pve_addition_base": 236,
         "physical_critical_strike_base": [
             4,
             7,
@@ -426,7 +426,7 @@ ATTRIBUTES = {
     10464: {
         "alias_name": "北傲诀",
         "max_level": 14,
-        "pve_addition_base": 256,
+        "pve_addition_base": 235,
         "physical_attack_power_base": [
             9,
             15,
@@ -488,7 +488,7 @@ ATTRIBUTES = {
     10585: {
         "alias_name": "隐龙诀",
         "max_level": 14,
-        "pve_addition_base": 133,
+        "pve_addition_base": 164,
         "agility_to_physical_attack_power": 1772,
         "physical_attack_power_base": [
             8,

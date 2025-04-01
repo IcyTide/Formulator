@@ -76,7 +76,7 @@ TALENTS: List[Dict[int, Gain]] = [
         37351: Gain("释灵", skill_ids=[37352], dot_ids=[28210])
     },
     {
-        25018: Gain("荒息", skill_ids=[25019])
+        25018: Gain("荒息")
     },
     {
         38455: Gain("残香", skill_ids=[38454], recipes=[(5608, 1)])

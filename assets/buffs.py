@@ -6707,7 +6707,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 82
+            "pve_addition_base": 215
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -6836,17 +6836,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    9981: {
-        "attributes": {
-            "physical_critical_strike_rate": 1000,
-            "physical_critical_power_rate": 102
-        },
-        "max_level": 1,
-        "buff_name": "秋风散影",
-        "alias_name": "秋风散影5%会心会笑",
-        "max_stack": 1,
-        "recipes": {}
-    },
     28225: {
         "attributes": {},
         "max_level": 1,
@@ -6876,6 +6865,17 @@ BUFFS = {
         "recipes": {
             5535: 1
         }
+    },
+    9981: {
+        "attributes": {
+            "physical_critical_strike_rate": 1000,
+            "physical_critical_power_rate": 102
+        },
+        "max_level": 1,
+        "buff_name": "秋风散影",
+        "alias_name": "秋风散影5%会心会笑",
+        "max_stack": 1,
+        "recipes": {}
     },
     10167: {
         "attributes": {},
@@ -7541,6 +7541,16 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    30396: {
+        "attributes": {
+            "physical_attack_power_gain": 102
+        },
+        "max_level": 1,
+        "buff_name": "太息",
+        "alias_name": "蓬莱_浮游天地_浮空加攻击力",
+        "max_stack": 1,
+        "recipes": {}
+    },
     29344: {
         "attributes": {},
         "max_level": 3,
@@ -7558,16 +7568,6 @@ BUFFS = {
                 5665: 1
             }
         ]
-    },
-    30396: {
-        "attributes": {
-            "physical_attack_power_gain": 102
-        },
-        "max_level": 1,
-        "buff_name": "太息",
-        "alias_name": "蓬莱_浮游天地_浮空加攻击力",
-        "max_stack": 1,
-        "recipes": {}
     },
     13966: {
         "attributes": {

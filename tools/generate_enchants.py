@@ -66,7 +66,10 @@ def get_stones_list():
             stone_id = int(row.TabIndex) - 1
         else:
             stone_id = int(stone_tab.loc[row.Index - 1].TabIndex)
-        node[level] = dict(id=stone_id, name=row.Name, level=int(level), attr=attributes)
+        if level in node:
+            node[level]['id'].append(stone_id)
+        else:
+            node[level] = dict(id=[stone_id], name=row.Name, level=int(level), attr=attributes)
     return result
 
 
