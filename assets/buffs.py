@@ -2395,22 +2395,24 @@ BUFFS = {
                 "surplus_base": 2540
             },
             {
-                "surplus_base": 2769
+                "physical_overcome_base": 2798,
+                "magical_overcome_base": 2798
             },
             {
-                "surplus_base": 2769
+                "all_critical_strike_base": 2798
             },
             {
-                "surplus_base": 2769
+                "surplus_base": 2798
             },
             {
-                "surplus_base": 2969
+                "physical_overcome_base": 3018,
+                "magical_overcome_base": 3018
             },
             {
-                "surplus_base": 2969
+                "all_critical_strike_base": 3018
             },
             {
-                "surplus_base": 2969
+                "surplus_base": 3018
             }
         ],
         "max_level": 12,
@@ -2440,10 +2442,10 @@ BUFFS = {
                 "all_critical_power_base": 282
             },
             {
-                "all_critical_power_base": 306
+                "all_critical_power_base": 310
             },
             {
-                "all_critical_power_base": 329
+                "all_critical_power_base": 335
             }
         ],
         "max_level": 4,
@@ -2468,12 +2470,12 @@ BUFFS = {
                 "magical_overcome_base": 282
             },
             {
-                "physical_overcome_base": 306,
-                "magical_overcome_base": 306
+                "physical_overcome_base": 310,
+                "magical_overcome_base": 310
             },
             {
-                "physical_overcome_base": 329,
-                "magical_overcome_base": 329
+                "physical_overcome_base": 335,
+                "magical_overcome_base": 335
             }
         ],
         "max_level": 4,
@@ -2496,10 +2498,10 @@ BUFFS = {
                 "all_critical_strike_base": 4391
             },
             {
-                "all_critical_strike_base": 4786
+                "all_critical_strike_base": 4838
             },
             {
-                "all_critical_strike_base": 5131
+                "all_critical_strike_base": 5217
             }
         ],
         "max_level": 4,
@@ -2523,12 +2525,12 @@ BUFFS = {
                 "magical_overcome_base": 4391
             },
             {
-                "physical_overcome_base": 4786,
-                "magical_overcome_base": 4786
+                "physical_overcome_base": 4838,
+                "magical_overcome_base": 4838
             },
             {
-                "physical_overcome_base": 5131,
-                "magical_overcome_base": 5131
+                "physical_overcome_base": 5217,
+                "magical_overcome_base": 5217
             }
         ],
         "max_level": 4,
@@ -2550,10 +2552,10 @@ BUFFS = {
                 "all_critical_power_base": 114
             },
             {
-                "all_critical_power_base": 125
+                "all_critical_power_base": 126
             },
             {
-                "all_critical_power_base": 134
+                "all_critical_power_base": 136
             }
         ],
         "max_level": 4,
@@ -2578,7 +2580,7 @@ BUFFS = {
             },
             {
                 "physical_attack_power_base": 34,
-                "magical_attack_power_base": 39
+                "magical_attack_power_base": 38
             },
             {
                 "physical_attack_power_base": 37,
@@ -2613,10 +2615,10 @@ BUFFS = {
                 "strain_base": 814
             },
             {
-                "strain_base": 922
+                "strain_base": 930
             },
             {
-                "strain_base": 981
+                "strain_base": 997
             }
         ],
         "max_level": 7,
@@ -7029,6 +7031,16 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    28886: {
+        "attributes": {
+            "strain_gain": 205
+        },
+        "max_level": 1,
+        "buff_name": "诛邪",
+        "alias_name": "诛邪加无双",
+        "max_stack": 1,
+        "recipes": {}
+    },
     4754: {
         "attributes": [
             {
@@ -7057,6 +7069,28 @@ BUFFS = {
         "alias_name": "明教_无明业火_眩晕",
         "max_stack": 1,
         "recipes": {}
+    },
+    25759: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "明教_新明光日终结加伤害秘籍",
+        "max_stack": 1,
+        "recipes": {
+            3222: 1,
+            3223: 1,
+            3224: 1
+        }
+    },
+    25758: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "明教_新明光月终结加伤害秘籍",
+        "max_stack": 1,
+        "recipes": {
+            3225: 1,
+            3226: 1,
+            3227: 1
+        }
     },
     30644: {
         "attributes": {},
@@ -7090,28 +7124,6 @@ BUFFS = {
         ],
         "max_stack": 1,
         "recipes": {}
-    },
-    25759: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "明教_新明光日终结加伤害秘籍",
-        "max_stack": 1,
-        "recipes": {
-            3222: 1,
-            3223: 1,
-            3224: 1
-        }
-    },
-    25758: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "明教_新明光月终结加伤害秘籍",
-        "max_stack": 1,
-        "recipes": {
-            3225: 1,
-            3226: 1,
-            3227: 1
-        }
     },
     8244: {
         "attributes": [
@@ -7386,6 +7398,34 @@ BUFFS = {
             }
         ]
     },
+    9495: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "明津",
+        "alias_name": "书离_羽施展后徵无视目标50%内功防御等级",
+        "max_stack": 1,
+        "recipes": {
+            2927: 1,
+            2928: 1,
+            2929: 1,
+            2930: 1,
+            2931: 1,
+            5335: 1,
+            5336: 1,
+            5337: 1,
+            5338: 1
+        }
+    },
+    30464: {
+        "attributes": {
+            "all_damage_addition": 31
+        },
+        "max_level": 1,
+        "buff_name": "照月",
+        "alias_name": "照月叠层伤害提高",
+        "max_stack": 10,
+        "recipes": {}
+    },
     9437: {
         "attributes": {
             "lunar_attack_power_gain": 154,
@@ -7415,24 +7455,6 @@ BUFFS = {
         "alias_name": "云汉伤害buff",
         "max_stack": 9,
         "recipes": {}
-    },
-    9495: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "明津",
-        "alias_name": "书离_羽施展后徵无视目标50%内功防御等级",
-        "max_stack": 1,
-        "recipes": {
-            2927: 1,
-            2928: 1,
-            2929: 1,
-            2930: 1,
-            2931: 1,
-            5335: 1,
-            5336: 1,
-            5337: 1,
-            5338: 1
-        }
     },
     25997: {
         "attributes": [

@@ -20,7 +20,7 @@ TALENTS: List[Dict[int, Gain]] = [
         28344: Gain("鸩羽", recipes=[(2549, 1)])
     },
     {
-        40211: Gain("往馥")
+        40211: Gain("往馥", skill_ids=[40212])
     },
     {
         29498: Gain("灵荆")
@@ -30,16 +30,16 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         30507: Gain("渌波"),
-        40194: Gain("六微")
+        40194: Gain("六微", skill_ids=[40208])
     },
     {
-        28413: 相使("相使")
+        28413: 相使("相使", buff_ids=[20680])
     },
     {
-        28419: Gain("凄骨")
+        28419: Gain("凄骨", buff_ids=[30352])
     },
     {
-        38965: Gain("紫伏")
+        38965: Gain("紫伏", skill_ids=[28434])
     },
     {
         36067: Gain("香繁饮露")
@@ -48,6 +48,6 @@ TALENTS: List[Dict[int, Gain]] = [
         28443: Gain("甘遂")
     },
     {
-        28426: Gain("养荣")
+        28426: Gain("养荣", buff_ids=[20699])
     }
 ]

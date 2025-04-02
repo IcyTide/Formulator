@@ -144,7 +144,7 @@ class 大附魔鞋(EquipmentGain):
 
 class TertiaryWeaponGain(EquipmentGain):
     skill_ids = [38966]
-    _damage_base = [86500, 90000]
+    _damage_base = [86500, 90000, 223894, 240000]
 
 
 class HatGain(EquipmentGain):
@@ -192,7 +192,7 @@ class NecklaceGain(EquipmentGain):
 
 
 class OvercomeNecklaceGain(NecklaceGain):
-    scales = [5427, 5648]
+    scales = [5427, 5648, 6060, 6496]
     buff_ids = [29529]
 
     def add_attribute(self, attribute: Attribute):
@@ -201,7 +201,7 @@ class OvercomeNecklaceGain(NecklaceGain):
 
 
 class CriticalNecklaceGain(NecklaceGain):
-    scales = [4748, 4942]
+    scales = [4748, 4942, 5302, 5683]
     buff_ids = [29528]
 
     def add_attribute(self, attribute: Attribute):
@@ -275,35 +275,35 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (gain_id,): TertiaryWeaponGain(i + 1)
-        for i, gain_id in enumerate((2701, 2706))
+        for i, gain_id in enumerate((2701, 2706, 2818, 2823))
     },
     **{
         (gain_id,): HatGain(i + 1)
-        for i, gain_id in enumerate((2698, 2703))
+        for i, gain_id in enumerate((2698, 2703, 2815, 2820))
     },
     **{
         (gain_id,): OvercomePendantGain(i + 1)
-        for i, gain_id in enumerate((2700, 2705))
+        for i, gain_id in enumerate((2700, 2705, 2817, 2822))
     },
     **{
         (gain_id,): CriticalPendantGain(i + 1)
-        for i, gain_id in enumerate((2711, 2712))
+        for i, gain_id in enumerate((2711, 2712, 2828, 2829))
     },
     **{
         (gain_id,): OvercomeNecklaceGain(i + 1)
-        for i, gain_id in enumerate((2699, 2704))
+        for i, gain_id in enumerate((2699, 2704, 2816, 2821))
     },
     **{
         (gain_id,): CriticalNecklaceGain(i + 1)
-        for i, gain_id in enumerate((2707, 2708))
+        for i, gain_id in enumerate((2707, 2708, 2824, 2825))
     },
     **{
         (gain_id,): OvercomeShoesGain(i + 1)
-        for i, gain_id in enumerate((2697, 2702))
+        for i, gain_id in enumerate((2697, 2702, 2814, 2819))
     },
     **{
         (gain_id,): CriticalShoesGain(i + 1)
-        for i, gain_id in enumerate((2709, 2710))
+        for i, gain_id in enumerate((2709, 2710, 2826, 2827))
     },
     **{
         (gain_id,): Gain()
@@ -311,7 +311,7 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     **{
         (gain_id,): DivineGain(i + 1)
-        for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732))
+        for i, gain_id in enumerate((2763, 2764, 2765, 2766, 2732, 2830, 2831))
     },
     (2770,): WinterWeaponGain(),
     (26060, 5): Gain(),

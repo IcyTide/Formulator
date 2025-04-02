@@ -713,14 +713,6 @@ RECIPES = {
             "recipe_name": "八荒降低CD"
         }
     },
-    5786: {
-        1: {
-            "damage_addition": 614,
-            "skill_id": 21979,
-            "recipe_type": 21979,
-            "recipe_name": "云中剑加伤害"
-        }
-    },
     5772: {
         1: {
             "damage_addition": 307,
@@ -1389,7 +1381,7 @@ RECIPES = {
     },
     3246: {
         1: {
-            "damage_addition": 717,
+            "damage_addition": 922,
             "skill_id": 2707,
             "recipe_type": 2707,
             "recipe_name": "流玉_下一个玳弦急曲加伤害"
@@ -4264,6 +4256,30 @@ RECIPES = {
             "recipe_name": "明心_音套路下不被打退_变徵"
         }
     },
+    5833: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 40291,
+            "recipe_type": 40291,
+            "recipe_name": "剑·角伤害提高"
+        }
+    },
+    5834: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 40285,
+            "recipe_type": 40285,
+            "recipe_name": "剑·徵伤害提高"
+        }
+    },
+    5922: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 25225,
+            "recipe_type": 25225,
+            "recipe_name": "剑商20伤害"
+        }
+    },
     5909: {
         1: {
             "damage_addition": 102,
@@ -4448,6 +4464,34 @@ RECIPES = {
             "recipe_name": "新书离_角百分之十伤害"
         }
     },
+    2036: {
+        1: {
+            "skill_id": 14064,
+            "recipe_type": 14064,
+            "recipe_name": "号钟_会心会效10%"
+        }
+    },
+    4561: {
+        1: {
+            "skill_id": 14298,
+            "recipe_type": 14298,
+            "recipe_name": "号钟_变宫会心会效10%"
+        }
+    },
+    2157: {
+        1: {
+            "skill_id": 14302,
+            "recipe_type": 14302,
+            "recipe_name": "号钟_宫会心会效10%"
+        }
+    },
+    2535: {
+        1: {
+            "skill_id": 14449,
+            "recipe_type": 14449,
+            "recipe_name": "号钟_剑宫+会心会效"
+        }
+    },
     2039: {
         1: {
             "skill_id": 14067,
@@ -4462,6 +4506,12 @@ RECIPES = {
             "recipe_name": "飞帆_变徵不被打退伤害提高10%"
         }
     },
+    2975: {
+        1: {
+            "skill_id": 30799,
+            "recipe_name": "流照_流照无视90防御"
+        }
+    },
     2974: {
         1: {
             "skill_id": 14068,
@@ -4469,10 +4519,53 @@ RECIPES = {
             "recipe_name": "师襄_羽无视60防御"
         }
     },
-    2975: {
+    5915: {
         1: {
-            "skill_id": 30799,
-            "recipe_name": "流照_流照无视90防御"
+            "skill_id": 40285,
+            "recipe_type": 40285,
+            "recipe_name": "爻辰剑徵无视防御"
+        }
+    },
+    5836: {
+        1: {
+            "skill_id": 40291,
+            "recipe_type": 40291,
+            "recipe_name": "剑·角双会增加"
+        }
+    },
+    5837: {
+        1: {
+            "skill_id": 14449,
+            "recipe_type": 14449,
+            "recipe_name": "剑·宫双会"
+        }
+    },
+    5838: {
+        1: {
+            "skill_id": 40285,
+            "recipe_type": 40285,
+            "recipe_name": "剑·徵15双会"
+        }
+    },
+    5839: {
+        1: {
+            "skill_id": 14452,
+            "recipe_type": 14452,
+            "recipe_name": "剑·羽双会"
+        }
+    },
+    5840: {
+        1: {
+            "skill_id": 25225,
+            "recipe_type": 25225,
+            "recipe_name": "剑·商双会"
+        }
+    },
+    5841: {
+        1: {
+            "skill_id": 29077,
+            "recipe_type": 29077,
+            "recipe_name": "不愧君双会"
         }
     },
     5583: {
@@ -6301,6 +6394,13 @@ RECIPES = {
             "skill_id": 27652,
             "recipe_type": 27652,
             "recipe_name": "灵荆加伤害"
+        }
+    },
+    5902: {
+        1: {
+            "skill_id": 27556,
+            "recipe_type": 27556,
+            "recipe_name": "川乌移动"
         }
     },
     2643: {

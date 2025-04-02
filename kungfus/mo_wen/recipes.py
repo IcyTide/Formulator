@@ -49,6 +49,10 @@ class 阳春白雪_目标90减防(MagicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
+class 音朗_宫增加10会心会效(LunarCriticalRecipe):
+    value = (1000, 102)
+
+
 class 书离伤害加百分之十五(ChannelIntervalRecipe):
     value = 1.15
 
@@ -65,6 +69,10 @@ class 飞帆_徵运功不被打退伤害提高10(ChannelIntervalRecipe):
             super().sub_skill(skill)
 
 
+class 流照无视防御(MagicalShieldGainRecipe):
+    value = -922
+
+
 class 师襄_羽60无视(MagicalShieldGainRecipe):
     value = -614
 
@@ -77,8 +85,20 @@ class 师襄_羽60无视(MagicalShieldGainRecipe):
             super().sub_skill(skill)
 
 
-class 流照无视防御(MagicalShieldGainRecipe):
-    value = -922
+class 爻辰_剑徵无视防御(MagicalShieldGainRecipe):
+    value = -307
+
+    def add_skill(self, skill: Skill):
+        if skill.skill_id == 40285:
+            super().add_skill(skill)
+
+    def sub_skill(self, skill: Skill):
+        if skill.skill_id == 40285:
+            super().sub_skill(skill)
+
+
+class 音彻加剑音双会(LunarCriticalRecipe):
+    value = (1500, 154)
 
 
 class 响壑徵无视防御秘籍脚本(MagicalShieldGainRecipe):
@@ -99,7 +119,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         2074: {}, 2075: {},
         2089: {}, 2090: {},
         # 奇穴
-        2927: {}, 2930: {}, 2931: {}, 5335: {}, 5336: {}, 5337: {}, 5338: {},
+        2927: {}, 2930: {}, 2931: {}, 5335: {}, 5336: {}, 5337: {}, 5338: {}, 5833: {}, 5834: {}, 5922: {},
         # 装备
         5909: {}, 2210: {}, 2401: {}, 2402: {}
     },
@@ -141,14 +161,23 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     书离伤害加百分之十五: {
         2928: {}, 2929: {}
     },
+    音朗_宫增加10会心会效: {
+        2036: {}, 4561: {}, 2157: {}, 2535: {}
+    },
     飞帆_徵运功不被打退伤害提高10: {
         2039: {}, 4562: {}
+    },
+    流照无视防御: {
+        2975: {}
     },
     师襄_羽60无视: {
         2974: {}
     },
-    流照无视防御: {
-        2975: {}
+    爻辰_剑徵无视防御: {
+        5915: {}
+    },
+    音彻加剑音双会: {
+        recipe_id: {} for recipe_id in range(5836, 5841 + 1)
     },
     响壑徵无视防御秘籍脚本: {
         5583: {}

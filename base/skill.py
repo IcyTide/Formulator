@@ -1402,7 +1402,7 @@ class Skill(Damage):
     key_skill: bool = False
     pet_buffs: dict = None
 
-    pre_effects: list = None
+    _pre_effects: list = None
     pre_buffs: dict = None
     pre_target_buffs: dict = None
     post_effects: list = None
@@ -1413,8 +1413,8 @@ class Skill(Damage):
         if not self.pet_buffs:
             self.pet_buffs = {}
 
-        if not self.pre_effects:
-            self.pre_effects = []
+        if not self._pre_effects:
+            self._pre_effects = [[]]
         if not self.pre_buffs:
             self.pre_buffs = {}
         if not self.pre_target_buffs:
@@ -1425,6 +1425,16 @@ class Skill(Damage):
             self.post_buffs = {}
         if not self.post_target_buffs:
             self.post_target_buffs = {}
+
+    @property
+    def pre_effects(self):
+        if self.skill_level < len(self._pre_effects):
+            return self._pre_effects[self.skill_level]
+        return self._pre_effects[-1]
+
+    @pre_effects.setter
+    def pre_effects(self, pre_effects):
+        self._pre_effects = pre_effects
 
     def pre_record(self, parser):
         for buff_id, buff_levels in self.pre_buffs.items():
