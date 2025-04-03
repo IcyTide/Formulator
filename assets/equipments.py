@@ -1775,6 +1775,44 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘护手_测试用#104666 (30300 破招 无双)": {
+            "id": 104666,
+            "name": "西塞·平塘护手_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6265,
+            "icon_id": 23204,
+            "base": {},
+            "magic": {
+                "vitality_base": 11644,
+                "strength_base": 950,
+                "physical_attack_power_base": 2158,
+                "surplus_base": 7939,
+                "strain_base": 6351
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉护手_测试用#104665 (30300 破招 无双)": {
             "id": 104665,
             "name": "西塞·赤眉护手_测试用",
@@ -3594,6 +3632,45 @@ EQUIPMENTS = {
                 }
             }
         },
+        "孤漠·泛浪护手#101348 (25900 破招 无双)": {
+            "id": 101348,
+            "name": "孤漠·泛浪护手",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23204,
+            "base": {},
+            "magic": {
+                "vitality_base": 9953,
+                "strength_base": 812,
+                "physical_attack_power_base": 1844,
+                "surplus_base": 6786,
+                "strain_base": 5429
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "孤漠·寒鸣护手#101347 (25900 破招 无双)": {
             "id": 101347,
             "name": "孤漠·寒鸣护手",
@@ -5319,6 +5396,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "西塞·平塘护手#101019 (22500 破招 无双)": {
+            "id": 101019,
+            "name": "西塞·平塘护手",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23204,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "strength_base": 705,
+                "physical_attack_power_base": 1602,
+                "surplus_base": 5896,
+                "strain_base": 4716
+            },
+            "embed": {
+                "physical_overcome_base": 321,
+                "surplus_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -8507,6 +8623,44 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘靴_测试用#104728 (30300 破防 无双)": {
+            "id": 104728,
+            "name": "西塞·平塘靴_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6265,
+            "icon_id": 23207,
+            "base": {},
+            "magic": {
+                "vitality_base": 11644,
+                "strength_base": 950,
+                "physical_attack_power_base": 2158,
+                "physical_overcome_base": 7939,
+                "strain_base": 6351
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉靴_测试用#104727 (30300 破防 无双)": {
             "id": 104727,
             "name": "西塞·赤眉靴_测试用",
@@ -10314,6 +10468,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "孤漠·泛浪靴#101410 (25900 破防 无双)": {
+            "id": 101410,
+            "name": "孤漠·泛浪靴",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23207,
+            "base": {},
+            "magic": {
+                "vitality_base": 9953,
+                "strength_base": 812,
+                "physical_attack_power_base": 1844,
+                "physical_overcome_base": 6786,
+                "strain_base": 5429
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -13447,6 +13640,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "西塞·平塘靴#101081 (22500 破防 无双)": {
+            "id": 101081,
+            "name": "西塞·平塘靴",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23207,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "strength_base": 705,
+                "physical_attack_power_base": 1602,
+                "physical_overcome_base": 5896,
+                "strain_base": 4716
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -22335,6 +22567,44 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘护腰_测试用#104697 (30300 会心 无双)": {
+            "id": 104697,
+            "name": "西塞·平塘护腰_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6265,
+            "icon_id": 23208,
+            "base": {},
+            "magic": {
+                "vitality_base": 11644,
+                "strength_base": 950,
+                "physical_attack_power_base": 2158,
+                "physical_critical_strike_base": 7939,
+                "strain_base": 6351
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉护腰_测试用#104696 (30300 会心 无双)": {
             "id": 104696,
             "name": "西塞·赤眉护腰_测试用",
@@ -24036,6 +24306,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "孤漠·泛浪腰带#101379 (25900 会心 无双)": {
+            "id": 101379,
+            "name": "孤漠·泛浪腰带",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23208,
+            "base": {},
+            "magic": {
+                "vitality_base": 9953,
+                "strength_base": 812,
+                "physical_attack_power_base": 1844,
+                "physical_critical_strike_base": 6786,
+                "strain_base": 5429
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -25769,6 +26078,45 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘护腰#101050 (22500 会心 无双)": {
+            "id": 101050,
+            "name": "西塞·平塘护腰",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23208,
+            "base": {},
+            "magic": {
+                "vitality_base": 8647,
+                "strength_base": 705,
+                "physical_attack_power_base": 1602,
+                "physical_critical_strike_base": 5896,
+                "strain_base": 4716
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_attack_power_base": 87
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉护腰#101049 (22500 会心 无双)": {
             "id": 101049,
             "name": "西塞·赤眉护腰",
@@ -26979,6 +27327,38 @@ EQUIPMENTS = {
             "embed": {
                 "strain_base": 321,
                 "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥腰带·刀功#104542 (22200 破招 无双)": {
+            "id": 104542,
+            "name": "醉梦逍遥腰带·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "icon_id": 52,
+            "base": {},
+            "magic": {
+                "vitality_base": 8531,
+                "strength_base": 696,
+                "physical_attack_power_base": 1581,
+                "surplus_base": 5817,
+                "strain_base": 4654
+            },
+            "embed": {
+                "strain_base": 321,
+                "physical_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -29625,6 +30005,44 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘冠_测试用#104759 (30300 破防 无双)": {
+            "id": 104759,
+            "name": "西塞·平塘冠_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6265,
+            "icon_id": 23205,
+            "base": {},
+            "magic": {
+                "vitality_base": 14971,
+                "strength_base": 1221,
+                "physical_attack_power_base": 2774,
+                "physical_overcome_base": 10208,
+                "strain_base": 8166
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉冠_测试用#104758 (30300 破防 无双)": {
             "id": 104758,
             "name": "西塞·赤眉冠_测试用",
@@ -31548,6 +31966,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "孤漠·泛浪冠#101441 (25900 破防 无双)": {
+            "id": 101441,
+            "name": "孤漠·泛浪冠",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23205,
+            "base": {},
+            "magic": {
+                "vitality_base": 12797,
+                "strength_base": 1044,
+                "physical_attack_power_base": 2371,
+                "physical_overcome_base": 8725,
+                "strain_base": 6980
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -34797,6 +35254,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "西塞·平塘冠#101112 (22500 破防 无双)": {
+            "id": 101112,
+            "name": "西塞·平塘冠",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23205,
+            "base": {},
+            "magic": {
+                "vitality_base": 11117,
+                "strength_base": 907,
+                "physical_attack_power_base": 2060,
+                "physical_overcome_base": 7580,
+                "strain_base": 6064
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -38593,6 +39089,44 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘衣_测试用#104790 (30300 会心 无双)": {
+            "id": 104790,
+            "name": "西塞·平塘衣_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6265,
+            "icon_id": 23203,
+            "base": {},
+            "magic": {
+                "vitality_base": 16635,
+                "strength_base": 1357,
+                "physical_attack_power_base": 3082,
+                "physical_critical_strike_base": 11342,
+                "strain_base": 9073
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉衣_测试用#104789 (30300 会心 无双)": {
             "id": 104789,
             "name": "西塞·赤眉衣_测试用",
@@ -40024,6 +40558,45 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     948: 2,
+                    17250: 1
+                }
+            }
+        },
+        "孤漠·泛浪衣#101472 (25900 会心 无双)": {
+            "id": 101472,
+            "name": "孤漠·泛浪衣",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23203,
+            "base": {},
+            "magic": {
+                "vitality_base": 14219,
+                "strength_base": 1160,
+                "physical_attack_power_base": 2635,
+                "physical_critical_strike_base": 9695,
+                "strain_base": 7756
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
                     17250: 1
                 }
             }
@@ -41645,6 +42218,45 @@ EQUIPMENTS = {
                 }
             }
         },
+        "西塞·平塘衣#101143 (22500 会心 无双)": {
+            "id": 101143,
+            "name": "西塞·平塘衣",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 5933,
+            "icon_id": 23203,
+            "base": {},
+            "magic": {
+                "vitality_base": 12352,
+                "strength_base": 1008,
+                "physical_attack_power_base": 2289,
+                "physical_critical_strike_base": 8422,
+                "strain_base": 6738
+            },
+            "embed": {
+                "physical_critical_strike_base": 321,
+                "physical_critical_power_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {
+                2: [
+                    [
+                        1921
+                    ]
+                ]
+            },
+            "set_recipe": {
+                4: {
+                    1548: 1,
+                    17250: 1
+                }
+            }
+        },
         "西塞·赤眉衣#101142 (22500 会心 无双)": {
             "id": 101142,
             "name": "西塞·赤眉衣",
@@ -42855,6 +43467,38 @@ EQUIPMENTS = {
             "embed": {
                 "spunk_base": 41,
                 "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥上衣·刀功#104573 (22200 破防 无双)": {
+            "id": 104573,
+            "name": "醉梦逍遥上衣·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "icon_id": 1048,
+            "base": {},
+            "magic": {
+                "vitality_base": 12188,
+                "strength_base": 994,
+                "physical_attack_power_base": 2258,
+                "physical_overcome_base": 8310,
+                "strain_base": 6648
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -50518,6 +51162,31 @@ EQUIPMENTS = {
         }
     },
     "ring": {
+        "共苍茫·遥_测试用#43878 (22600 会心 破防)": {
+            "id": 43878,
+            "name": "共苍茫·遥_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22600,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18059,
+            "base": {},
+            "magic": {
+                "vitality_base": 8616,
+                "strength_base": 703,
+                "physical_attack_power_base": 1490,
+                "physical_critical_strike_base": 2937,
+                "physical_overcome_base": 2937
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "共苍茫·芥_测试用#43874 (22600 会心 破防 加速)": {
             "id": 43874,
             "name": "共苍茫·芥_测试用",
@@ -51702,6 +52371,31 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "共苍茫·遥_测试用#43877 (20050 会心 破防)": {
+            "id": 43877,
+            "name": "共苍茫·遥_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20050,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18058,
+            "base": {},
+            "magic": {
+                "vitality_base": 7644,
+                "strength_base": 624,
+                "physical_attack_power_base": 1322,
+                "physical_critical_strike_base": 2606,
+                "physical_overcome_base": 2606
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "共苍茫·芥_测试用#43869 (20050 会心 破防 加速)": {
             "id": 43869,
             "name": "共苍茫·芥_测试用",
@@ -51801,6 +52495,35 @@ EQUIPMENTS = {
             },
             "embed": {},
             "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "共苍茫·遥#42883 (19800 特效 会心 破防)": {
+            "id": 42883,
+            "name": "共苍茫·遥",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18059,
+            "base": {},
+            "magic": {
+                "vitality_base": 7549,
+                "strength_base": 616,
+                "physical_attack_power_base": 1305,
+                "physical_critical_strike_base": 2573,
+                "physical_overcome_base": 2573
+            },
+            "embed": {},
+            "gains": [
+                [
+                    2727
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
@@ -52764,6 +53487,31 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "共苍茫·遥_测试用#43876 (17500 会心 破防)": {
+            "id": 43876,
+            "name": "共苍茫·遥_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 17500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18057,
+            "base": {},
+            "magic": {
+                "vitality_base": 6672,
+                "strength_base": 544,
+                "physical_attack_power_base": 1154,
+                "physical_critical_strike_base": 2275,
+                "physical_overcome_base": 2275
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "共苍茫·芥_测试用#43864 (17500 会心 破防 加速)": {
             "id": 43864,
             "name": "共苍茫·芥_测试用",
@@ -52860,6 +53608,31 @@ EQUIPMENTS = {
                 "magical_critical_strike_base": 1668,
                 "magical_overcome_base": 1668,
                 "haste_base": 1516
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "共苍茫·遥#42882 (17250 会心 破防)": {
+            "id": 42882,
+            "name": "共苍茫·遥",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 17250,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18058,
+            "base": {},
+            "magic": {
+                "vitality_base": 6577,
+                "strength_base": 537,
+                "physical_attack_power_base": 1137,
+                "physical_critical_strike_base": 2242,
+                "physical_overcome_base": 2242
             },
             "embed": {},
             "gains": [],
@@ -54291,6 +55064,35 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "醉梦逍遥戒指·刀功#42899 (22200 会心 无双)": {
+            "id": 42899,
+            "name": "醉梦逍遥戒指·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "icon_id": 1231,
+            "base": {},
+            "magic": {
+                "vitality_base": 6094,
+                "strength_base": 497,
+                "physical_attack_power_base": 1129,
+                "physical_critical_strike_base": 4155,
+                "strain_base": 3324
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "至尊御厨戒指·刀功#42898 (22200 会心 无双)": {
             "id": 42898,
             "name": "至尊御厨戒指·刀功",
@@ -54578,6 +55380,31 @@ EQUIPMENTS = {
                     "all_major_base": 543
                 }
             },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "共苍茫·遥#42881 (15500 会心 破防)": {
+            "id": 42881,
+            "name": "共苍茫·遥",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 15500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18057,
+            "base": {},
+            "magic": {
+                "vitality_base": 5909,
+                "strength_base": 482,
+                "physical_attack_power_base": 1022,
+                "physical_critical_strike_base": 2015,
+                "physical_overcome_base": 2015
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
@@ -69041,6 +69868,55 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "暴龙震江_测试用#42157 (25400 特效 会心 破防)": {
+            "id": 42157,
+            "name": "暴龙震江_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25400,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 9301,
+                "weapon_damage_rand": 6201
+            },
+            "magic": {
+                "vitality_base": 23241,
+                "strength_base": 1896,
+                "physical_attack_power_base": 9483,
+                "physical_critical_strike_base": 12149,
+                "physical_overcome_base": 13205
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2831
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏魔悲音_测试用#42155 (25400 特效 会心 破防 加速)": {
             "id": 42155,
             "name": "伏魔悲音_测试用",
@@ -70091,6 +70967,55 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "暴龙震江_测试用#42125 (23700 特效 会心 破防)": {
+            "id": 42125,
+            "name": "暴龙震江_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 23700,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 8678,
+                "weapon_damage_rand": 5786
+            },
+            "magic": {
+                "vitality_base": 21686,
+                "strength_base": 1769,
+                "physical_attack_power_base": 8848,
+                "physical_critical_strike_base": 11336,
+                "physical_overcome_base": 12321
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2830
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏魔悲音_测试用#42123 (23700 特效 会心 破防 加速)": {
             "id": 42123,
             "name": "伏魔悲音_测试用",
@@ -70936,6 +71861,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_critical_power_base": 321,
                 "solar_and_lunar_critical_strike_base": 321,
                 "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "自酌_测试用#41311 (30700 会心 无双)": {
+            "id": 41311,
+            "name": "自酌_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30700,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23057,
+            "base": {
+                "weapon_damage_base": 8094,
+                "weapon_damage_rand": 5396
+            },
+            "magic": {
+                "vitality_base": 20225,
+                "strength_base": 1650,
+                "physical_attack_power_base": 8253,
+                "physical_critical_strike_base": 13790,
+                "strain_base": 13330
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
             },
             "gains": [],
             "recipes": {},
@@ -71813,6 +72770,55 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "暴龙震江#40306 (22000 特效 会心 破防)": {
+            "id": 40306,
+            "name": "暴龙震江",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22000,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 8056,
+                "weapon_damage_rand": 5370
+            },
+            "magic": {
+                "vitality_base": 20130,
+                "strength_base": 1642,
+                "physical_attack_power_base": 8214,
+                "physical_critical_strike_base": 10523,
+                "physical_overcome_base": 11438
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2732
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏魔悲音#40304 (22000 特效 会心 破防 加速)": {
             "id": 40304,
             "name": "伏魔悲音",
@@ -72665,6 +73671,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "褐衣野帽_测试用#41373 (30300 破招 无双)": {
+            "id": 41373,
+            "name": "褐衣野帽_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 9761,
+            "base": {
+                "weapon_damage_base": 7989,
+                "weapon_damage_rand": 5326
+            },
+            "magic": {
+                "vitality_base": 19962,
+                "strength_base": 1629,
+                "physical_attack_power_base": 8145,
+                "surplus_base": 13610,
+                "strain_base": 13157
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "风拂袂_测试用#41371 (30300 破招 无双)": {
             "id": 41371,
             "name": "风拂袂_测试用",
@@ -73374,6 +74412,42 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2811
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "共离樽_测试用#41273 (30300 特效 破防 无双)": {
+            "id": 41273,
+            "name": "共离樽_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 7989,
+                "weapon_damage_rand": 5326
+            },
+            "magic": {
+                "vitality_base": 19962,
+                "strength_base": 1629,
+                "physical_attack_power_base": 8145,
+                "physical_overcome_base": 13610,
+                "strain_base": 13157
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2812
                 ]
             ],
             "recipes": {},
@@ -74125,6 +75199,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "客游棒_测试用#41239 (30300 破招 无双)": {
+            "id": 41239,
+            "name": "客游棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 7989,
+                "weapon_damage_rand": 5326
+            },
+            "magic": {
+                "vitality_base": 19962,
+                "strength_base": 1629,
+                "physical_attack_power_base": 8145,
+                "surplus_base": 13610,
+                "strain_base": 13157
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "浮溪轻剑_测试用#41237 (30300 破招 无双)": {
             "id": 41237,
             "name": "浮溪轻剑_测试用",
@@ -74822,6 +75928,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_critical_power_base": 321,
                 "solar_and_lunar_critical_strike_base": 321,
                 "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "兰穆棒_测试用#41199 (30300 会心 无双)": {
+            "id": 41199,
+            "name": "兰穆棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 30300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 7989,
+                "weapon_damage_rand": 5326
+            },
+            "magic": {
+                "vitality_base": 19962,
+                "strength_base": 1629,
+                "physical_attack_power_base": 8145,
+                "physical_critical_strike_base": 13610,
+                "strain_base": 13157
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
             },
             "gains": [],
             "recipes": {},
@@ -75694,6 +76832,55 @@ EQUIPMENTS = {
                 17239: 1,
                 17336: 1,
                 17342: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暴龙震江#40274 (20750 特效 会心 破防)": {
+            "id": 40274,
+            "name": "暴龙震江",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20750,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 7598,
+                "weapon_damage_rand": 5065
+            },
+            "magic": {
+                "vitality_base": 18986,
+                "strength_base": 1549,
+                "physical_attack_power_base": 7747,
+                "physical_critical_strike_base": 9925,
+                "physical_overcome_base": 10788
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2766
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -76749,6 +77936,55 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "暴龙震江#40242 (19500 特效 会心 破防)": {
+            "id": 40242,
+            "name": "暴龙震江",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 19500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 7140,
+                "weapon_damage_rand": 4760
+            },
+            "magic": {
+                "vitality_base": 17843,
+                "strength_base": 1456,
+                "physical_attack_power_base": 7280,
+                "physical_critical_strike_base": 9327,
+                "physical_overcome_base": 10138
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2765
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏魔悲音#40240 (19500 特效 会心 破防 加速)": {
             "id": 40240,
             "name": "伏魔悲音",
@@ -77601,6 +78837,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "自酌#39380 (26300 会心 无双)": {
+            "id": 39380,
+            "name": "自酌",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 26300,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 18026,
+            "base": {
+                "weapon_damage_base": 6934,
+                "weapon_damage_rand": 4623
+            },
+            "magic": {
+                "vitality_base": 17326,
+                "strength_base": 1414,
+                "physical_attack_power_base": 7070,
+                "physical_critical_strike_base": 11813,
+                "strain_base": 11420
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "眸羽#39378 (26300 会心 无双)": {
             "id": 39378,
             "name": "眸羽",
@@ -78266,6 +79534,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "孤山寒月·金龙_测试用#41807 (25900 破防 无双)": {
+            "id": 41807,
+            "name": "孤山寒月·金龙_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 9172,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "physical_overcome_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -78978,6 +80278,42 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    1194
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "寻踪觅宝·泛游棒_测试用#41161 (25900 特效 破招 无双)": {
+            "id": 41161,
+            "name": "寻踪觅宝·泛游棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 6837,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "surplus_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [
                 [
@@ -79745,6 +81081,42 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "共离樽#39342 (25900 特效 破防 无双)": {
+            "id": 39342,
+            "name": "共离樽",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "physical_overcome_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2656
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "襟宸洒#39340 (25900 特效 破防 无双)": {
             "id": 39340,
             "name": "襟宸洒",
@@ -80489,6 +81861,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "客游棒#39308 (25900 破招 无双)": {
+            "id": 39308,
+            "name": "客游棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "surplus_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "浮溪轻剑#39306 (25900 破招 无双)": {
             "id": 39306,
             "name": "浮溪轻剑",
@@ -81193,6 +82597,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "兰穆棒#39268 (25900 会心 无双)": {
+            "id": 39268,
+            "name": "兰穆棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "physical_critical_strike_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "兰茂轻剑#39266 (25900 会心 无双)": {
             "id": 39266,
             "name": "兰茂轻剑",
@@ -81858,6 +83294,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "褐衣野帽#39164 (25900 破招 无双)": {
+            "id": 39164,
+            "name": "褐衣野帽",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 25900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 9761,
+            "base": {
+                "weapon_damage_base": 6828,
+                "weapon_damage_rand": 4552
+            },
+            "magic": {
+                "vitality_base": 17063,
+                "strength_base": 1392,
+                "physical_attack_power_base": 6962,
+                "surplus_base": 11634,
+                "strain_base": 11246
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -82730,6 +84198,55 @@ EQUIPMENTS = {
                 17239: 1,
                 17336: 1,
                 17342: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暴龙震江#40210 (18300 特效 会心 破防)": {
+            "id": 40210,
+            "name": "暴龙震江",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 18300,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 6701,
+                "weapon_damage_rand": 4467
+            },
+            "magic": {
+                "vitality_base": 16744,
+                "strength_base": 1366,
+                "physical_attack_power_base": 6832,
+                "physical_critical_strike_base": 8753,
+                "physical_overcome_base": 9514
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2764
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -83660,6 +85177,46 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2770
+                ],
+                [
+                    26060,
+                    5
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "青玉夺龙棒#41032 (24500 特效 破招 无双)": {
+            "id": 41032,
+            "name": "青玉夺龙棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 24500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 14636,
+            "base": {
+                "weapon_damage_base": 6459,
+                "weapon_damage_rand": 4306
+            },
+            "magic": {
+                "vitality_base": 16141,
+                "strength_base": 1317,
+                "physical_attack_power_base": 6586,
+                "surplus_base": 11005,
+                "strain_base": 10638
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [
                 [
@@ -84625,6 +86182,55 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "暴龙震江#40178 (17100 特效 会心 破防)": {
+            "id": 40178,
+            "name": "暴龙震江",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 17100,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23395,
+            "base": {
+                "weapon_damage_base": 6261,
+                "weapon_damage_rand": 4174
+            },
+            "magic": {
+                "vitality_base": 15647,
+                "strength_base": 1277,
+                "physical_attack_power_base": 6384,
+                "physical_critical_strike_base": 8179,
+                "physical_overcome_base": 8890
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2738
+                ],
+                [
+                    1939
+                ],
+                [
+                    2763
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "伏魔悲音#40176 (17100 特效 会心 破防 加速)": {
             "id": 40176,
             "name": "伏魔悲音",
@@ -85477,6 +87083,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "壁牙棒_测试用#41129 (23000 会心 无双)": {
+            "id": 41129,
+            "name": "壁牙棒_测试用",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 23000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 6064,
+                "weapon_damage_rand": 4043
+            },
+            "magic": {
+                "vitality_base": 15152,
+                "strength_base": 1236,
+                "physical_attack_power_base": 6183,
+                "physical_critical_strike_base": 10331,
+                "strain_base": 9987
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "穿壁轻剑_测试用#41127 (23000 会心 无双)": {
             "id": 41127,
             "name": "穿壁轻剑_测试用",
@@ -86142,6 +87780,38 @@ EQUIPMENTS = {
                 "spunk_base": 41,
                 "solar_and_lunar_attack_power_base": 97,
                 "solar_and_lunar_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "唤渡棒#40947 (22500 加速 无双)": {
+            "id": 40947,
+            "name": "唤渡棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "haste_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -86821,6 +88491,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "四隅短棒#40901 (22500 破防 无双)": {
+            "id": 40901,
+            "name": "四隅短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "physical_overcome_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "延陵剑#40899 (22500 破防 无双)": {
             "id": 40899,
             "name": "延陵剑",
@@ -87486,6 +89188,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "孤山寒月·金龙#40080 (22500 破防 无双)": {
+            "id": 40080,
+            "name": "孤山寒月·金龙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 9172,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "physical_overcome_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -88197,6 +89931,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "厉霜棒#39124 (22500 破招 无双)": {
+            "id": 39124,
+            "name": "厉霜棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "surplus_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "金塘轻剑#39122 (22500 破招 无双)": {
             "id": 39122,
             "name": "金塘轻剑",
@@ -88894,6 +90660,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_critical_power_base": 321,
                 "solar_and_lunar_critical_strike_base": 321,
                 "spunk_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沉帆棒#39084 (22500 会心 无双)": {
+            "id": 39084,
+            "name": "沉帆棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 23056,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "physical_critical_strike_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
             },
             "gains": [],
             "recipes": {},
@@ -89617,6 +91415,42 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "寻踪觅宝·矫流棒#39046 (22500 特效 破招 无双)": {
+            "id": 39046,
+            "name": "寻踪觅宝·矫流棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 8753,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "surplus_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    1194
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "寻踪觅宝·灵微剑#39044 (22500 特效 破招 无双)": {
             "id": 39044,
             "name": "寻踪觅宝·灵微剑",
@@ -90329,6 +92163,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "唤渡棒#38944 (22500 加速 无双)": {
+            "id": 38944,
+            "name": "唤渡棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "haste_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "strength_base": 41,
+                "physical_attack_power_base": 87,
+                "physical_critical_strike_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "甘风剑#38942 (22500 加速 无双)": {
             "id": 38942,
             "name": "甘风剑",
@@ -91001,6 +92867,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "平流短棒#38906 (22500 会心 无双)": {
+            "id": 38906,
+            "name": "平流短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "physical_critical_strike_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "明祥剑#38904 (22500 会心 无双)": {
             "id": 38904,
             "name": "明祥剑",
@@ -91666,6 +93564,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "四隅短棒#38868 (22500 破防 无双)": {
+            "id": 38868,
+            "name": "四隅短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5932,
+                "weapon_damage_rand": 3955
+            },
+            "magic": {
+                "vitality_base": 14823,
+                "strength_base": 1209,
+                "physical_attack_power_base": 6048,
+                "physical_overcome_base": 10107,
+                "strain_base": 9770
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -92414,6 +94344,42 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {
+                2: {
+                    "all_major_base": 543
+                }
+            },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "醉梦逍遥棒·刀功#40978 (22200 破防 无双)": {
+            "id": 40978,
+            "name": "醉梦逍遥棒·刀功",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 22200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 6228,
+            "icon_id": 4828,
+            "base": {
+                "weapon_damage_base": 5853,
+                "weapon_damage_rand": 3902
+            },
+            "magic": {
+                "vitality_base": 14625,
+                "strength_base": 1193,
+                "physical_attack_power_base": 5968,
+                "physical_overcome_base": 9972,
+                "strain_base": 9639
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -93214,6 +95180,42 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "寻踪觅宝·泛游棒#39014 (21000 特效 破招 无双)": {
+            "id": 39014,
+            "name": "寻踪觅宝·泛游棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 21000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 6837,
+            "base": {
+                "weapon_damage_base": 5536,
+                "weapon_damage_rand": 3691
+            },
+            "magic": {
+                "vitality_base": 13835,
+                "strength_base": 1129,
+                "physical_attack_power_base": 5645,
+                "surplus_base": 9433,
+                "strain_base": 9118
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    1194
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "寻踪觅宝·候岁剑#39012 (21000 特效 破招 无双)": {
             "id": 39012,
             "name": "寻踪觅宝·候岁剑",
@@ -93926,6 +95928,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "壁牙棒#38982 (21000 会心 无双)": {
+            "id": 38982,
+            "name": "壁牙棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 21000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5536,
+                "weapon_damage_rand": 3691
+            },
+            "magic": {
+                "vitality_base": 13835,
+                "strength_base": 1129,
+                "physical_attack_power_base": 5645,
+                "physical_critical_strike_base": 9433,
+                "strain_base": 9118
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "穿壁轻剑#38980 (21000 会心 无双)": {
             "id": 38980,
             "name": "穿壁轻剑",
@@ -94631,6 +96665,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "平流短棒#40598 (20500 会心 无双)": {
+            "id": 40598,
+            "name": "平流短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 11758,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_critical_strike_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_critical_power_base": 321,
+                "physical_critical_strike_base": 321,
+                "strength_base": 41
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "明祥剑#40596 (20500 会心 无双)": {
             "id": 40596,
             "name": "明祥剑",
@@ -95296,6 +97362,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "峰色棒#38730 (20500 破防 无双)": {
+            "id": 38730,
+            "name": "峰色棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20500,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 7862,
+            "base": {
+                "weapon_damage_base": 5405,
+                "weapon_damage_rand": 3603
+            },
+            "magic": {
+                "vitality_base": 13505,
+                "strength_base": 1102,
+                "physical_attack_power_base": 5511,
+                "physical_overcome_base": 9208,
+                "strain_base": 8901
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -95975,6 +98073,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "绮思棒#38692 (20200 破防 无双)": {
+            "id": 38692,
+            "name": "绮思棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 20200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 7862,
+            "base": {
+                "weapon_damage_base": 5325,
+                "weapon_damage_rand": 3550
+            },
+            "magic": {
+                "vitality_base": 13308,
+                "strength_base": 1086,
+                "physical_attack_power_base": 5430,
+                "physical_overcome_base": 9073,
+                "strain_base": 7259
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "襄凝轻剑#38690 (20200 破防 无双)": {
             "id": 38690,
             "name": "襄凝轻剑",
@@ -96647,6 +98777,38 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "豪义短棒·丝路#39454 (19800 破防 无双)": {
+            "id": 39454,
+            "name": "豪义短棒·丝路",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 19800,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 7862,
+            "base": {
+                "weapon_damage_base": 5220,
+                "weapon_damage_rand": 3480
+            },
+            "magic": {
+                "vitality_base": 13044,
+                "strength_base": 1064,
+                "physical_attack_power_base": 5323,
+                "physical_overcome_base": 8894,
+                "strain_base": 8597
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "君子轻剑·丝路#39452 (19800 破防 无双)": {
             "id": 39452,
             "name": "君子轻剑·丝路",
@@ -97312,6 +99474,38 @@ EQUIPMENTS = {
                 "solar_and_lunar_attack_power_base": 97,
                 "spunk_base": 41,
                 "solar_and_lunar_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "酣欢短棒#39492 (18900 破招 无双)": {
+            "id": 39492,
+            "name": "酣欢短棒",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 18900,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 7862,
+            "base": {
+                "weapon_damage_base": 4983,
+                "weapon_damage_rand": 3322
+            },
+            "magic": {
+                "vitality_base": 12451,
+                "strength_base": 1016,
+                "physical_attack_power_base": 5081,
+                "surplus_base": 8490,
+                "strain_base": 8207
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
             },
             "gains": [],
             "recipes": {},
@@ -98198,6 +100392,52 @@ EQUIPMENTS = {
                 17239: 1,
                 17336: 1,
                 17342: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "煞·拾牙#38573 (12500 特效 会心 破防)": {
+            "id": 38573,
+            "name": "煞·拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 17802,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 11438,
+                "strength_base": 933,
+                "physical_attack_power_base": 4667,
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -99138,6 +101378,52 @@ EQUIPMENTS = {
                 17239: 1,
                 17336: 1,
                 17342: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "拾牙#38063 (12500 特效 会心 破防)": {
+            "id": 38063,
+            "name": "拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 12500,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 17802,
+            "base": {
+                "weapon_damage_base": 4576,
+                "weapon_damage_rand": 3051
+            },
+            "magic": {
+                "vitality_base": 11438,
+                "strength_base": 933,
+                "physical_attack_power_base": 4667,
+                "physical_critical_strike_base": 5979,
+                "physical_overcome_base": 6499
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
             },
             "set_attr": {},
             "set_gain": {},
@@ -100130,6 +102416,52 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "拾牙#38032 (11900 特效 会心 破防)": {
+            "id": 38032,
+            "name": "拾牙",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 11900,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 17802,
+            "base": {
+                "weapon_damage_base": 4357,
+                "weapon_damage_rand": 2904
+            },
+            "magic": {
+                "vitality_base": 10888,
+                "strength_base": 888,
+                "physical_attack_power_base": 4443,
+                "physical_critical_strike_base": 5692,
+                "physical_overcome_base": 6187
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [
+                [
+                    2431
+                ],
+                [
+                    1939
+                ]
+            ],
+            "recipes": {
+                1540: 1,
+                1541: 1,
+                17441: 1,
+                17239: 1,
+                17444: 1,
+                17445: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "寄骨#38030 (11900 特效 会心 破防 加速)": {
             "id": 38030,
             "name": "寄骨",
@@ -100960,6 +103292,44 @@ EQUIPMENTS = {
                 1148: 1,
                 1149: 1,
                 17334: 1
+            },
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "雾卷澜阖#37090 (11650 会心 破防)": {
+            "id": 37090,
+            "name": "雾卷澜阖",
+            "school": "丐帮",
+            "kind": "外功",
+            "level": 11650,
+            "max_strength": 8,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 21659,
+            "base": {
+                "weapon_damage_base": 4265,
+                "weapon_damage_rand": 2843
+            },
+            "magic": {
+                "vitality_base": 10660,
+                "strength_base": 870,
+                "physical_attack_power_base": 4350,
+                "physical_critical_strike_base": 5572,
+                "physical_overcome_base": 6057
+            },
+            "embed": {
+                "physical_attack_power_base": 87,
+                "strength_base": 41,
+                "physical_overcome_base": 321
+            },
+            "gains": [],
+            "recipes": {
+                1980: 1,
+                1981: 1,
+                1982: 1,
+                1983: 1,
+                17442: 1
             },
             "set_attr": {},
             "set_gain": {},

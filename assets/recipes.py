@@ -3775,6 +3775,465 @@ RECIPES = {
             "recipe_name": "银月斩的会心几率提高10%"
         }
     },
+    1340: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "《打狗棒法·拨狗朝天》参悟残页"
+        }
+    },
+    1341: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "《打狗棒法·拨狗朝天》参悟断篇"
+        }
+    },
+    1348: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5361,
+            "recipe_type": 5361,
+            "recipe_name": "《打狗棒法·恶狗拦路》参悟残页"
+        }
+    },
+    1349: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5361,
+            "recipe_type": 5361,
+            "recipe_name": "《打狗棒法·恶狗拦路》参悟断篇"
+        }
+    },
+    1350: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5361,
+            "recipe_type": 5361,
+            "recipe_name": "《打狗棒法·恶狗拦路》参悟绝章"
+        }
+    },
+    1355: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5354,
+            "recipe_type": 5354,
+            "recipe_name": "《打狗棒法·横打双獒》参悟残页"
+        }
+    },
+    1356: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5354,
+            "recipe_type": 5354,
+            "recipe_name": "《打狗棒法·横打双獒》参悟断篇"
+        }
+    },
+    1357: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5354,
+            "recipe_type": 5354,
+            "recipe_name": "《打狗棒法·横打双獒》参悟绝章"
+        }
+    },
+    1363: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》参悟残页"
+        }
+    },
+    1364: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》参悟断篇"
+        }
+    },
+    1365: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》参悟绝章"
+        }
+    },
+    1372: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "《降龙掌·亢龙有悔》参悟残页"
+        }
+    },
+    1373: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "《降龙掌·亢龙有悔》参悟断篇"
+        }
+    },
+    1374: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "《降龙掌·亢龙有悔》参悟绝章"
+        }
+    },
+    1384: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》参悟残页"
+        }
+    },
+    1385: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》参悟断篇"
+        }
+    },
+    1386: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》参悟绝章"
+        }
+    },
+    1392: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5260,
+            "recipe_type": 5260,
+            "recipe_name": "《打狗棒法·天下无狗》参悟残页"
+        }
+    },
+    1393: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5260,
+            "recipe_type": 5260,
+            "recipe_name": "《打狗棒法·天下无狗》参悟断篇"
+        }
+    },
+    1394: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5260,
+            "recipe_type": 5260,
+            "recipe_name": "《打狗棒法·天下无狗》参悟绝章"
+        }
+    },
+    1399: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5365,
+            "recipe_type": 5365,
+            "recipe_name": "《降龙掌·狂龙乱舞》参悟残页"
+        }
+    },
+    1400: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5365,
+            "recipe_type": 5365,
+            "recipe_name": "《降龙掌·狂龙乱舞》参悟断篇"
+        }
+    },
+    1401: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5365,
+            "recipe_type": 5365,
+            "recipe_name": "《降龙掌·狂龙乱舞》参悟绝章"
+        }
+    },
+    1406: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5267,
+            "recipe_type": 5267,
+            "recipe_name": "《降龙掌·龙啸九天》参悟残页"
+        }
+    },
+    1407: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5267,
+            "recipe_type": 5267,
+            "recipe_name": "《降龙掌·龙啸九天》参悟断篇"
+        }
+    },
+    1408: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5267,
+            "recipe_type": 5267,
+            "recipe_name": "《降龙掌·龙啸九天》参悟绝章"
+        }
+    },
+    1413: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5262,
+            "recipe_type": 5262,
+            "recipe_name": "《降龙掌·龙跃于渊》参悟残页"
+        }
+    },
+    1414: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5262,
+            "recipe_type": 5262,
+            "recipe_name": "《降龙掌·龙跃于渊》参悟断篇"
+        }
+    },
+    1415: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5262,
+            "recipe_type": 5262,
+            "recipe_name": "《降龙掌·龙跃于渊》参悟绝章"
+        }
+    },
+    1420: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "《降龙掌·龙腾五岳》参悟残页"
+        }
+    },
+    1421: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "《降龙掌·龙腾五岳》参悟断篇"
+        }
+    },
+    1597: {
+        1: {
+            "damage_addition": 31,
+            "skill_id": 5266,
+            "recipe_type": 5266,
+            "recipe_name": "《降龙掌·龙战于野》参悟残页"
+        }
+    },
+    1598: {
+        1: {
+            "damage_addition": 41,
+            "skill_id": 5266,
+            "recipe_type": 5266,
+            "recipe_name": "《降龙掌·龙战于野》参悟断篇"
+        }
+    },
+    1599: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5266,
+            "recipe_type": 5266,
+            "recipe_name": "《降龙掌·龙战于野》参悟绝章"
+        }
+    },
+    1714: {
+        1: {
+            "damage_addition": 102,
+            "recipe_type": 5638,
+            "recipe_name": "丐帮奇穴_亢龙10%伤害"
+        }
+    },
+    5879: {
+        1: {
+            "damage_addition": 205,
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "蜀犬伤害提高"
+        }
+    },
+    1548: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "丐帮PVE套装属性亢龙"
+        }
+    },
+    1540: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "90级丐帮橙武属性1"
+        }
+    },
+    1541: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "90级丐帮橙武属性2"
+        }
+    },
+    1344: {
+        1: {
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "《打狗棒法·拨狗朝天》秘诀残页"
+        }
+    },
+    1600: {
+        1: {
+            "skill_id": 5266,
+            "recipe_type": 5266,
+            "recipe_name": "《降龙掌·龙战于野》秘诀残页"
+        }
+    },
+    1345: {
+        1: {
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "《打狗棒法·拨狗朝天》秘诀断篇"
+        }
+    },
+    1360: {
+        1: {
+            "skill_id": 5354,
+            "recipe_type": 5354,
+            "recipe_name": "《打狗棒法·横打双獒》秘诀残页"
+        }
+    },
+    1366: {
+        1: {
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》秘诀残页"
+        }
+    },
+    1375: {
+        1: {
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "《降龙掌·亢龙有悔》秘诀残页"
+        }
+    },
+    1387: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》秘诀残页"
+        }
+    },
+    1422: {
+        1: {
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "《降龙掌·龙腾五岳》秘诀残页"
+        }
+    },
+    1601: {
+        1: {
+            "skill_id": 5266,
+            "recipe_type": 5266,
+            "recipe_name": "《降龙掌·龙战于野》秘诀断篇"
+        }
+    },
+    1346: {
+        1: {
+            "skill_id": 5258,
+            "recipe_type": 5258,
+            "recipe_name": "《打狗棒法·拨狗朝天》秘诀绝章"
+        }
+    },
+    1361: {
+        1: {
+            "skill_id": 5354,
+            "recipe_type": 5354,
+            "recipe_name": "《打狗棒法·横打双獒》秘诀断篇"
+        }
+    },
+    1367: {
+        1: {
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》秘诀断篇"
+        }
+    },
+    1376: {
+        1: {
+            "skill_id": 5638,
+            "recipe_type": 5638,
+            "recipe_name": "《降龙掌·亢龙有悔》秘诀断篇"
+        }
+    },
+    1388: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》秘诀断篇"
+        }
+    },
+    1423: {
+        1: {
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "《降龙掌·龙腾五岳》秘诀断篇"
+        }
+    },
+    1368: {
+        1: {
+            "skill_id": 5257,
+            "recipe_type": 5257,
+            "recipe_name": "《打狗棒法·蜀犬吠日》秘诀绝章"
+        }
+    },
+    1389: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "《降龙掌·神龙降世》秘诀绝章"
+        }
+    },
+    1424: {
+        1: {
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "《降龙掌·龙腾五岳》秘诀绝章"
+        }
+    },
+    1980: {
+        1: {
+            "skill_id": 5367,
+            "recipe_type": 5367,
+            "recipe_name": "小橙武_丐帮_蛟龙"
+        }
+    },
+    1981: {
+        1: {
+            "skill_id": 5368,
+            "recipe_type": 5368,
+            "recipe_name": "小橙武_丐帮_双龙取水"
+        }
+    },
+    1982: {
+        1: {
+            "skill_id": 5369,
+            "recipe_type": 5369,
+            "recipe_name": "小橙武_丐帮_龙游天地"
+        }
+    },
+    1983: {
+        1: {
+            "skill_id": 5370,
+            "recipe_type": 5370,
+            "recipe_name": "小橙武_丐帮_龙腾五岳"
+        }
+    },
     1830: {
         1: {
             "damage_addition": 31,

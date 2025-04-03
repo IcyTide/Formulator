@@ -7092,6 +7092,28 @@ BUFFS = {
             3227: 1
         }
     },
+    30642: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": "用晦·日",
+        "alias_name": [
+            "明教_用晦而明持续状态_日",
+            "明教_用晦而明持续状态_日强化"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30643: {
+        "attributes": {},
+        "max_level": 2,
+        "buff_name": "用晦·月",
+        "alias_name": [
+            "明教_用晦而明持续状态_月",
+            "明教_用晦而明持续状态_月强化"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
     30644: {
         "attributes": {},
         "max_level": 1,
@@ -7121,6 +7143,90 @@ BUFFS = {
         "alias_name": [
             "明教_用晦而明无视防御1级",
             "明教_用晦而明无视防御2级"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30400: {
+        "attributes": {
+            "physical_critical_strike_rate": 2048,
+            "physical_critical_power_rate": 205
+        },
+        "max_level": 1,
+        "buff_name": "昊破",
+        "alias_name": "醉意加双会",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    6377: {
+        "attributes": {
+            "physical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "无疆",
+        "alias_name": "丐帮_满内力加攻击",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    5994: {
+        "attributes": [
+            {
+                "physical_critical_strike_rate": 2000
+            },
+            {
+                "physical_critical_strike_rate": 2000
+            },
+            {
+                "physical_critical_strike_rate": 2000
+            },
+            {
+                "all_shield_ignore": 512,
+                "pve_addition_base": 184
+            }
+        ],
+        "max_level": 4,
+        "buff_name": [
+            "酣畅淋漓",
+            "越渊",
+            "越渊",
+            "越渊"
+        ],
+        "alias_name": [
+            "丐帮_酒中仙_会心减威胁",
+            "丐帮_酒中仙_会心减威胁",
+            "丐帮_酒中仙_会心减威胁",
+            "丐帮_酒中仙_会心减威胁（实际越渊）"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    12356: {
+        "attributes": [
+            {
+                "all_damage_addition": 51
+            },
+            {
+                "all_damage_addition": 102
+            },
+            {
+                "all_damage_addition": 205
+            },
+            {
+                "all_damage_addition": 154
+            }
+        ],
+        "max_level": 4,
+        "buff_name": [
+            "盈久",
+            "盈久",
+            "含弘",
+            "复礼"
+        ],
+        "alias_name": [
+            "提高自身技能伤害5%",
+            "提高自身技能伤害10%",
+            "提高自身技能伤害15%",
+            "提高自身技能伤害15%复利"
         ],
         "max_stack": 1,
         "recipes": {}

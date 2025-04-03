@@ -130,7 +130,7 @@ class Dot(BaseDot):
         damage_tuple = ((self.buff_id, self.buff_level), (dot_skill_id, dot_skill_level, dot_stack), tuple())
         status_tuple = parser.dot_status
         parser.current_dot_ticks[self.buff_id] -= 1
-        parser.current_last_dot[self.buff_id] = (damage_tuple, status_tuple)
+        parser.current_last_dot[self.buff_id].append((damage_tuple, status_tuple))
         parser.current_records[damage_tuple][status_tuple].append(
             (parser.current_frame - parser.start_frame, actual_critical_strike, actual_damage)
         )

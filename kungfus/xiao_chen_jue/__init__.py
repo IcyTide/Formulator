@@ -8,4 +8,5 @@ from kungfus.xiao_chen_jue.talents import TALENTS
 
 
 def prepare(self, player_id):
-    pass
+    if 6832 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][5994][4] = 1

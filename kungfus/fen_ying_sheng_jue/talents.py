@@ -12,20 +12,20 @@ class 用晦而明(Gain):
         buff_level = 1
         if parser.current_buff_stacks[30644]:
             buff_level = 2
-        parser.refresh_buff(12575, buff_level)
+        parser.refresh_buff(-12575, buff_level)
 
     @staticmethod
     def pre_effect_2(parser):
         if not parser.current_buff_stacks[30643]:
             return
         buff_level = 1
-        if parser.current_buff_stacks[306445]:
+        if parser.current_buff_stacks[30645]:
             buff_level = 2
-        parser.refresh_buff(12575, buff_level)
+        parser.refresh_buff(-12575, buff_level)
 
     @staticmethod
     def post_effect(parser):
-        parser.clear_buff(12501)
+        parser.clear_buff(-12575)
 
     def add_skills(self, skills: Dict[int, Skill]):
         for skill_id, skill in skills.items():
@@ -39,7 +39,8 @@ class 用晦而明(Gain):
                 skill.pre_effects.append(self.pre_effect_2)
             elif skill_id == 32816:
                 skill.pre_effects = [
-                    self.pre_effect_1, self.pre_effect_2, self.pre_effect_1, self.pre_effect_2, self.pre_effect_1
+                    [self.pre_effect_1], [self.pre_effect_2], [self.pre_effect_1], [self.pre_effect_2],
+                    [self.pre_effect_1]
                 ]
             else:
                 continue
@@ -71,7 +72,7 @@ TALENTS: List[Dict[int, Gain]] = [
         34372: Gain("靡业报劫", dot_ids=[25725, 25726], skill_ids=[34373, 34374])
     },
     {
-        17567: 用晦而明("用晦而明", buff_ids=[30642, 30643, 30644, 30645, 12575])},
+        17567: 用晦而明("用晦而明", buff_ids=[30642, 30643, 30644, 30645, -12575])},
     {
         5979: Gain("天地诛戮", buff_ids=[4754])
     },

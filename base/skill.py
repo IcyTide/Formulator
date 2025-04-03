@@ -1,7 +1,7 @@
 from collections import defaultdict
 from copy import deepcopy
 from dataclasses import dataclass
-from typing import List, Dict
+from typing import List, Dict, Union
 
 from assets.skills import SKILLS
 from base.attribute import Attribute, PhysicalAttribute
@@ -16,7 +16,7 @@ class BaseSkill:
     alias_name: str = ""
 
     _bind_dots: List[Dict[int, int]] = []
-    _consume_dots: List[Dict[int, int]] = []
+    _consume_dots: List[Dict[int, Union[int, Dict[int, int]]]] = []
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
@@ -1499,24 +1499,28 @@ class Skill(Damage):
 
     def dot_consume(self, parser):
         for dot_id, dot_tick in self.consume_dots.items():
-            if not (last_dot := parser.current_last_dot.pop(dot_id, None)):
-                return
-            damage_tuple, status_tuple = last_dot
-            dot_tuple, dot_skill_tuple, _ = damage_tuple
-            parser.current_dot_ticks[dot_id] += 1
-            if not dot_tick:
-                consume_tick = parser.current_dot_ticks[dot_id]
+            if isinstance(dot_tick, int):
+                count = 1
             else:
-                consume_tick = min(parser.current_dot_ticks[dot_id], dot_tick)
-            new_damage_tuple = (dot_tuple, dot_skill_tuple, (self.skill_id, self.skill_level, consume_tick))
+                dot_tick, count = dot_tick
+            if len(parser.current_last_dot[dot_id]) < count:
+                continue
             parser.current_damage = dot_id
+            parser.current_dot_ticks[dot_id] += count
             new_status_tuple = parser.dot_status
-            parser.current_damage = self.skill_id
-            parser.current_records[new_damage_tuple][new_status_tuple].append(
-                parser.current_records[damage_tuple][status_tuple].pop()
-            )
-            parser.current_dot_ticks[dot_id] -= consume_tick
+            for i, (damage_tuple, status_tuple) in enumerate(parser.current_last_dot[dot_id][-count:]):
+                dot_tuple, dot_skill_tuple, _ = damage_tuple
+                if not dot_tick:
+                    consume_tick = parser.current_dot_ticks[dot_id]
+                else:
+                    consume_tick = min(parser.current_dot_ticks[dot_id], dot_tick)
+                new_damage_tuple = (dot_tuple, dot_skill_tuple, (self.skill_id, self.skill_level, consume_tick))
+                parser.current_records[new_damage_tuple][new_status_tuple].append(
+                    parser.current_records[damage_tuple][status_tuple].pop(-count + i)
+                )
+                parser.current_dot_ticks[dot_id] -= consume_tick
 
+        parser.current_damage = self.skill_id
 
 class NpcSkill(Skill):
     def call_physical_damage(self, attribute: Attribute):

@@ -1,4 +1,5 @@
 from collections import defaultdict
+
 from copy import deepcopy
 from typing import Union
 
@@ -76,7 +77,7 @@ class BaseParser:
 
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[BUFF_TYPE]]
 
-    last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_ID_TYPE, Tuple[DOT_DAMAGE_TYPE, TOTAL_STATUS_TUPLE]]]]
+    last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_ID_TYPE, List[Tuple[DOT_DAMAGE_TYPE, TOTAL_STATUS_TUPLE]]]]]
 
     start_frame: FRAME_TYPE
     end_frame: FRAME_TYPE
@@ -178,7 +179,7 @@ class BaseParser:
         self.next_pet_buff_stacks = defaultdict(list)
         self.dot_snapshot = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
         self.pet_snapshot = defaultdict(dict)
-        self.last_dot = defaultdict(lambda: defaultdict(dict))
+        self.last_dot = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
 
         self.start_frame = 0
 

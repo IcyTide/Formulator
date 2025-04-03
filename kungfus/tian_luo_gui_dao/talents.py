@@ -4,16 +4,16 @@ from base.gain import Gain
 
 TALENTS: List[Dict[int, Gain]] = [
     {
-        28371: Gain("血影留痕")
+        28371: Gain("血影留痕", skill_ids=[30894])
     },
     {
-        6493: Gain("天风汲雨")
+        6493: Gain("天风汲雨", skill_ids=[30727])
     },
     {
-        6495: Gain("弩击急骤")
+        6495: Gain("弩击急骤", buff_ids=[6105])
     },
     {
-        30921: Gain("擘两分星")
+        30921: Gain("擘两分星", buff_ids=[23081, 23082])
     },
     {
         40275: Gain("天罗地网", recipes=[(5920, 1)])
@@ -22,21 +22,24 @@ TALENTS: List[Dict[int, Gain]] = [
         27267: Gain("神威穿彻")
     },
     {
-        30721: Gain("巧夺天工")
+        30721: Gain("巧夺天工"),
+        18249: Gain("化血迷心", dot_ids=[14611], skill_ids=[21266])
     },
     {
-        14857: Gain("雷甲三铉")
+        14857: Gain("雷甲三铉", buff_ids=[13165, 27405])
     },
     {
-        6508: Gain("千机不殆", recipes=[(1223, 1)])
+        6508: Gain("千机不殆", recipes=[(1223, 1)]),
+        6461: Gain("秋风散影", buff_ids=[9981])
     },
     {
-        34679: Gain("雀引彀中")
+        34679: Gain("雀引彀中", dot_ids=[29549], skill_ids=[38760])
     },
     {
-        14856: Gain("曙色催寒")
+        14856: Gain("曙色催寒", buff_ids=[10005], skill_ids=[15049])
     },
     {
-        30723: Gain("千机连环")
+        30723: Gain("千机连环"),
+        18675: Gain("千秋万劫", skill_ids=[18677, 28441, 29687])
     }
 ]

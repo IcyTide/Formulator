@@ -7,6 +7,6 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         3254: {}, 3316: {}, 3468: {},
         # 奇穴
         6105: {}, 23081: dict(buff_name="擘两分星"), 23082: dict(buff_name="擘两分星"),
-        13165: dict(buff_name="雷甲三铉"), 27405: dict(buff_name="雷甲三铉"), 10005: {},
+        13165: dict(buff_name="雷甲三铉"), 27405: dict(buff_name="雷甲三铉"), 9981: {}, 10005: {},
     }
 }

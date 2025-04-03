@@ -346,6 +346,28 @@ ATTRIBUTES = {
             7604
         ]
     },
+    10268: {
+        "alias_name": "笑尘诀",
+        "max_level": 14,
+        "physical_attack_power_base": [
+            8,
+            15,
+            23,
+            34,
+            45,
+            54,
+            64,
+            76,
+            84,
+            273,
+            420,
+            1602,
+            3621,
+            6839
+        ],
+        "strength_to_physical_attack_power": 1772,
+        "strength_to_physical_overcome": 553
+    },
     10390: {
         "alias_name": "分山劲",
         "max_level": 14,
