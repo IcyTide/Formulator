@@ -5725,93 +5725,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    7671: {
-        "attributes": [
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_critical_power_rate": 102,
-                "strain_gain": 51
-            },
-            {
-                "physical_critical_strike_rate": 300,
-                "physical_critical_power_rate": 51
-            },
-            {
-                "physical_critical_strike_rate": 600,
-                "physical_critical_power_rate": 102
-            },
-            {
-                "physical_critical_strike_rate": 1200,
-                "physical_critical_power_rate": 204
-            }
-        ],
-        "max_level": 4,
-        "buff_name": "牧云",
-        "alias_name": "天策_傲雪白羽_突加狂战buff",
-        "max_stack": [
-            4,
-            1,
-            1,
-            1
-        ],
-        "recipes": {}
-    },
-    12608: {
-        "attributes": {},
-        "max_level": 5,
-        "alias_name": "战意提高招式伤害",
-        "max_stack": 1,
-        "recipes": [
-            {
-                4504: 1,
-                4505: 1,
-                4506: 1,
-                4507: 1
-            },
-            {
-                4504: 2,
-                4505: 2,
-                4506: 2,
-                4507: 2
-            },
-            {
-                4504: 3,
-                4505: 3,
-                4506: 3,
-                4507: 3
-            },
-            {
-                4504: 4,
-                4505: 4,
-                4506: 4,
-                4507: 4
-            },
-            {
-                4504: 5,
-                4505: 5,
-                4506: 5,
-                4507: 5
-            }
-        ]
-    },
-    2779: {
-        "attributes": {
-            "physical_attack_power_gain": 358
-        },
-        "max_level": 1,
-        "buff_name": "渊",
-        "alias_name": "天策_奔雷枪术_龙城铁壁",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    21638: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "龙驭",
-        "alias_name": "[21638]龙驭_灭后增伤",
-        "max_stack": 25,
-        "recipes": {}
-    },
     244: {
         "attributes": {},
         "max_level": 99,
@@ -6084,6 +5997,83 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    21638: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "龙驭",
+        "alias_name": "[21638]龙驭_灭后增伤",
+        "max_stack": 25,
+        "recipes": {}
+    },
+    7671: {
+        "attributes": [
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_critical_power_rate": 102,
+                "strain_gain": 51
+            },
+            {
+                "physical_critical_strike_rate": 300,
+                "physical_critical_power_rate": 51
+            },
+            {
+                "physical_critical_strike_rate": 600,
+                "physical_critical_power_rate": 102
+            },
+            {
+                "physical_critical_strike_rate": 1200,
+                "physical_critical_power_rate": 204
+            }
+        ],
+        "max_level": 4,
+        "buff_name": "牧云",
+        "alias_name": "天策_傲雪白羽_突加狂战buff",
+        "max_stack": [
+            4,
+            1,
+            1,
+            1
+        ],
+        "recipes": {}
+    },
+    12608: {
+        "attributes": {},
+        "max_level": 5,
+        "alias_name": "战意提高招式伤害",
+        "max_stack": 1,
+        "recipes": [
+            {
+                4504: 1,
+                4505: 1,
+                4506: 1,
+                4507: 1
+            },
+            {
+                4504: 2,
+                4505: 2,
+                4506: 2,
+                4507: 2
+            },
+            {
+                4504: 3,
+                4505: 3,
+                4506: 3,
+                4507: 3
+            },
+            {
+                4504: 4,
+                4505: 4,
+                4506: 4,
+                4507: 4
+            },
+            {
+                4504: 5,
+                4505: 5,
+                4506: 5,
+                4507: 5
+            }
+        ]
+    },
     26008: {
         "attributes": {},
         "max_level": 1,
@@ -6092,6 +6082,52 @@ BUFFS = {
         "recipes": {
             3257: 1
         }
+    },
+    2779: {
+        "attributes": {
+            "physical_attack_power_gain": 358
+        },
+        "max_level": 1,
+        "buff_name": "渊",
+        "alias_name": "天策_奔雷枪术_龙城铁壁",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    18222: {
+        "attributes": [
+            {
+                "surplus_gain": 102
+            },
+            {
+                "surplus_gain": 102
+            },
+            {
+                "surplus_gain": 256
+            },
+            {
+                "surplus_gain": 307
+            }
+        ],
+        "max_level": 4,
+        "buff_name": [
+            "大善",
+            "崩决",
+            "怜世人",
+            "严阵"
+        ],
+        "alias_name": [
+            "大善破招叠加",
+            "大善破招叠加",
+            "明尊怜世人破招叠加",
+            "大善破招叠加"
+        ],
+        "max_stack": [
+            5,
+            7,
+            5,
+            5
+        ],
+        "recipes": {}
     },
     409: {
         "attributes": [

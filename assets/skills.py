@@ -8584,31 +8584,6 @@ SKILLS = {
         "physical_damage_base": 70,
         "physical_damage_rand": 5
     },
-    24898: {
-        "alias_name": "马上灭额外伤害",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 423,
-        "recipe_mask": 0,
-        "channel_interval": 42.0,
-        "max_level": 1,
-        "skill_name": "灭",
-        "weapon_damage_cof": 1024.0,
-        "physical_damage_call": 1
-    },
-    36568: {
-        "alias_name": "击水伤害子技能",
-        "kind_type": "Physics",
-        "platform": 0,
-        "recipe_type": 0,
-        "recipe_mask": 0,
-        "channel_interval": 207.9,
-        "max_level": 1,
-        "skill_name": "击水",
-        "physical_damage_call": 1,
-        "physical_damage_base": 78,
-        "physical_damage_rand": 10
-    },
     401: {
         "alias_name": "天策-破风",
         "kind_type": "Physics",
@@ -8649,6 +8624,31 @@ SKILLS = {
         ],
         "max_level": 30,
         "skill_name": "破风"
+    },
+    36568: {
+        "alias_name": "击水伤害子技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 207.9,
+        "max_level": 1,
+        "skill_name": "击水",
+        "physical_damage_call": 1,
+        "physical_damage_base": 78,
+        "physical_damage_rand": 10
+    },
+    24898: {
+        "alias_name": "马上灭额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 423,
+        "recipe_mask": 0,
+        "channel_interval": 42.0,
+        "max_level": 1,
+        "skill_name": "灭",
+        "weapon_damage_cof": 1024.0,
+        "physical_damage_call": 1
     },
     6525: {
         "alias_name": "天策_灭_斩杀额外伤害",
@@ -8926,6 +8926,67 @@ SKILLS = {
         "physical_damage_call": 1,
         "physical_damage_base": 496,
         "physical_damage_rand": 52
+    },
+    13778: {
+        "alias_name": "天策子技能_乘龙箭",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 2603,
+        "recipe_mask": 0,
+        "channel_interval": 160.0,
+        "max_level": 1,
+        "skill_name": "乘龙箭",
+        "physical_damage_call": 1,
+        "physical_damage_base": 218,
+        "physical_damage_rand": 23
+    },
+    24009: {
+        "alias_name": "破军触发伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 77.00000000000001,
+        "max_level": 1,
+        "skill_name": "破军",
+        "weapon_damage_cof": 1024.0,
+        "physical_damage_call": 1,
+        "physical_damage_base": 160,
+        "physical_damage_rand": 317
+    },
+    402: {
+        "alias_name": "天策-定军",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1,
+        "skill_name": "定军",
+        "physical_damage_call": 1,
+        "physical_attack_power_gain": -1024,
+        "physical_damage_base": 20,
+        "physical_damage_rand": 5
+    },
+    24843: {
+        "alias_name": "战疏狂击退以及伤害子技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 24841,
+        "recipe_mask": 0,
+        "channel_interval": [
+            408.1293216000001,
+            816.2586432000002,
+            1224.3879648000004,
+            693.8198467200002,
+            1387.6396934400004,
+            2081.4595401600004
+        ],
+        "max_level": 6,
+        "skill_name": "力破万钧",
+        "physical_damage_call": 1,
+        "physical_damage_base": 160,
+        "physical_damage_rand": 317
     },
     15: {
         "alias_name": "普通攻击-双兵攻击",

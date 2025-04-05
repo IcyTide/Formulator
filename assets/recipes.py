@@ -1308,6 +1308,31 @@ RECIPES = {
             "recipe_name": "小橙武_傲血"
         }
     },
+    4686: {
+        1: {
+            "skill_id": 401,
+            "recipe_type": 401,
+            "recipe_name": "流血伤害提高10%无击水龙吟"
+        }
+    },
+    4687: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "流血伤害提高10%击水龙吟"
+        }
+    },
+    4688: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "流血伤害提高10%无击水战八方"
+        }
+    },
+    4689: {
+        1: {
+            "skill_id": 1,
+            "recipe_name": "流血伤害提高10%击水战八方"
+        }
+    },
     145: {
         1: {
             "damage_addition": 41,
@@ -4737,6 +4762,14 @@ RECIPES = {
             "skill_id": 25225,
             "recipe_type": 25225,
             "recipe_name": "剑商20伤害"
+        }
+    },
+    5835: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 14452,
+            "recipe_type": 14452,
+            "recipe_name": "剑·羽伤害提高"
         }
     },
     5909: {

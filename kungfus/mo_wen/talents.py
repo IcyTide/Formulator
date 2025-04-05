@@ -61,7 +61,8 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         30984: Gain("知止"),
-        40743: Gain("崭芒", recipes=[(5922, 1)])
+        40743: Gain("崭芒", recipes=[(5922, 1)]),
+        25224: Gain("停拍", recipes=[(5835, 1)])
     },
     {
         34344: Gain("正律和鸣", buff_ids=[25997], skill_ids=[34676]),
