@@ -11,7 +11,7 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: {} for skill_id in range(6376, 6380 + 1)},
         13505: {}, **{skill_id: {} for skill_id in range(6381, 6391 + 1)},
         **{skill_id: {} for skill_id in range(13523, 13530 + 1)},
-        **{skill_id: {} for skill_id in range(40184, 40187 + 1)},
+        # **{skill_id: {} for skill_id in range(40184, 40187 + 1)},
         # 降龙掌
         **{skill_id: {} for skill_id in range(8491, 8514 + 1)},
         **{skill_id: {} for skill_id in range(6351, 6374 + 1)},

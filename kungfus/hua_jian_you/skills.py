@@ -40,17 +40,15 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         6693: {}, 14941: {},
         # 百花拂穴手
         182: {}, 186: {}, 6233: {},
-        # 奇穴
-        38955: {}, 26696: {}, 32501: {}, 32629: {}, 30648: {}, 37270: {},
-
-        **{skill_id: dict(bind_dots={711: 1}) for skill_id in (18730, 6136, 39906, 13848)},
-        **{skill_id: dict(bind_dots={714: 1}) for skill_id in (285, 6135, 39907, 13847)},
-        **{skill_id: dict(bind_dots={666: 1}) for skill_id in (180, 6134, 13849)},
         6129: dict(consume_dots=[{}, {711: 0}, {711: 0}, {}, {711: 0}, {711: 0}]),
         6126: dict(consume_dots=[{}, {714: 0}, {714: 0}, {}, {714: 0}, {714: 0}]),
         6128: dict(consume_dots=[{}, {666: 0}, {666: 0}, {}, {666: 0}, {666: 0}]),
+        **{skill_id: dict(bind_dots={711: 1}) for skill_id in (18730, 6136, 39906, 13848)},
+        **{skill_id: dict(bind_dots={714: 1}) for skill_id in (285, 6135, 39907, 13847)},
+        **{skill_id: dict(bind_dots={666: 1}) for skill_id in (180, 6134, 13849)},
         # 奇穴
-        601: dict(consume_dots=[{dot_id: 0} for dot_id in (714, 666, 711, 24158)] * 3),
+        38955: {}, 32501: {}, 601: dict(consume_dots=[{dot_id: 0} for dot_id in (714, 666, 711, 24158)] * 3),
+        32629: {}, 30648: {}, 37270: {},
         # 装备
         25768: {},
     },

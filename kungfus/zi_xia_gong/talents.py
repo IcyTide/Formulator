@@ -20,26 +20,26 @@ TALENTS: List[Dict[int, Gain]] = [
         5823: Gain("心固"),
     },
     {
-        5846: Gain("无形"),
+        5846: Gain("无形", skill_ids=list(range(6091, 6100 + 1))),
         357: Gain("化三清")
     },
     {
-        30821: Gain("绝云")
+        30821: Gain("绝云", skill_ids=[40158])
     },
     {
-        5819: Gain("同尘")
+        5819: Gain("同尘", buff_ids=[9966])
     },
     {
-        18695: Gain("跬步", buff_ids=[-12550, -12551])
+        18695: Gain("跬步", buff_ids=list(range(12779, 12783 + 1)) + [-12550, -12551])
     },
     {
-        32411: Gain("正气")
+        32411: Gain("正气", skill_ids=[36439])
     },
     {
         14834: Gain("抱阳")
     },
     {
-        18679: Gain("浮生")
+        18679: Gain("浮生", skill_ids=[18670])
     },
     {
         24945: Gain("破势", buff_ids=[17918])

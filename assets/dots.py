@@ -1304,8 +1304,14 @@ DOTS = {
         "lunar_damage_call": 1
     },
     23187: {
-        "buff_name": "神兵·宫(DOT)",
-        "alias_name": "莫问cw宫dot",
+        "buff_name": [
+            "神兵·宫(DOT)",
+            "神兵·剑·羽(DOT)"
+        ],
+        "alias_name": [
+            "莫问cw宫dot",
+            "莫问cw剑羽dot"
+        ],
         "interval": 48,
         "tick": 10,
         "max_stack": 3,

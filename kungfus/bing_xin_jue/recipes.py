@@ -26,7 +26,7 @@ class 剑破会心20(LunarCriticalRecipe):
 class 玳弦急曲剑舞减读条新妆(ChannelIntervalRecipe):
     @property
     def value(self):
-        return 1 + 0.08 * (self.recipe_level - 1)
+        return 1 + 0.1 * (self.recipe_level - 1)
 
     def add_skill(self, skill: Skill):
         if skill.skill_id in (6234, 6554):

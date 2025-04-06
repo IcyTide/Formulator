@@ -8,4 +8,5 @@ from kungfus.zi_xia_gong.talents import TALENTS
 
 
 def prepare(self, player_id):
-    self.buff_stacks[player_id][17918][1] = 1
+    if 24945 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][17918][1] = 1

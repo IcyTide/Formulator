@@ -150,7 +150,7 @@ RECIPES = {
     },
     5779: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 307,
             "skill_id": 233,
             "recipe_type": 233,
             "recipe_name": "众嗔韦陀"
@@ -158,7 +158,7 @@ RECIPES = {
     },
     5780: {
         1: {
-            "damage_addition": 205,
+            "damage_addition": 307,
             "skill_id": 243,
             "recipe_type": 243,
             "recipe_name": "众嗔拿云"
@@ -722,7 +722,7 @@ RECIPES = {
     },
     5758: {
         1: {
-            "damage_addition": 307,
+            "damage_addition": 205,
             "skill_id": 2699,
             "recipe_type": 2699,
             "recipe_name": "橙武八荒增伤"
@@ -1827,607 +1827,6 @@ RECIPES = {
             "recipe_name": "层云风车递增25%"
         }
     },
-    2825: {
-        1: {
-            "skill_id": 423,
-            "recipe_type": 423,
-            "recipe_name": "5%大附魔_灭降低2秒CD"
-        }
-    },
-    2826: {
-        1: {
-            "damage_addition": 1230,
-            "skill_id": 27582,
-            "recipe_type": 27582,
-            "recipe_name": "无方小附魔且待加伤"
-        }
-    },
-    2827: {
-        1: {
-            "damage_addition": 4096,
-            "skill_id": 28081,
-            "recipe_type": 28081,
-            "recipe_name": "无方大附魔中和加伤"
-        }
-    },
-    2828: {
-        1: {
-            "skill_id": 25142,
-            "recipe_name": "巨门去掉公共调息"
-        }
-    },
-    2829: {
-        1: {
-            "damage_addition": 1434,
-            "skill_id": 24372,
-            "recipe_type": 24372,
-            "recipe_name": "天斗旋CD降低"
-        }
-    },
-    2830: {
-        1: {
-            "damage_addition": 307,
-            "skill_id": 28082,
-            "recipe_type": 28082,
-            "recipe_name": "灵素大附魔中和加治疗"
-        }
-    },
-    2831: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 3108,
-            "recipe_type": 3108,
-            "recipe_name": "天罗5%大附魔天绝增伤"
-        }
-    },
-    2832: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "《天道剑势·人剑合一》人偶图绝章"
-        }
-    },
-    2833: {
-        1: {
-            "skill_id": 29570,
-            "recipe_name": "强化闹须弥伤害提高"
-        }
-    },
-    2834: {
-        1: {
-            "damage_addition": 256,
-            "skill_id": 3979,
-            "recipe_type": 3979,
-            "recipe_name": "大附魔驱夜加伤害"
-        }
-    },
-    2835: {
-        1: {
-            "damage_addition": 614,
-            "skill_id": 27582,
-            "recipe_type": 27582,
-            "recipe_name": "滞眠且待时休增伤40%"
-        }
-    },
-    2836: {
-        1: {
-            "skill_id": 27652,
-            "recipe_type": 27652,
-            "recipe_name": "芳时荆棘加会心"
-        }
-    },
-    2837: {
-        1: {
-            "skill_id": 27674,
-            "recipe_type": 27674,
-            "recipe_name": "北天药宗战阶4件套"
-        }
-    },
-    2838: {
-        1: {
-            "skill_id": 27642,
-            "recipe_type": 27642,
-            "recipe_name": "北天药宗竞技场4件套"
-        }
-    },
-    2839: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 27556,
-            "recipe_type": 27556,
-            "recipe_name": "北天药宗无方PVE两件套_奚毒10%"
-        }
-    },
-    2840: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 27551,
-            "recipe_type": 27551,
-            "recipe_name": "北天药宗无方PVE两件套_商陆10%"
-        }
-    },
-    2841: {
-        1: {
-            "skill_id": 27556,
-            "recipe_type": 27556,
-            "recipe_name": "北天药宗无方小CW_奚毒会心5%"
-        }
-    },
-    2842: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 27556,
-            "recipe_type": 27556,
-            "recipe_name": "北天药宗无方大橙武奚毒伤害5%"
-        }
-    },
-    2843: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 27554,
-            "recipe_type": 27554,
-            "recipe_name": "北天药宗无方大橙武钩吻伤害5%"
-        }
-    },
-    2844: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 28082,
-            "recipe_type": 28082,
-            "recipe_name": "北天药宗灵素PVE两件套_灵素中和5%"
-        }
-    },
-    2845: {
-        1: {
-            "skill_id": 27632,
-            "recipe_type": 27632,
-            "recipe_name": "北天药宗灵素小CW_赤芍会心5%"
-        }
-    },
-    2846: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 28082,
-            "recipe_type": 28082,
-            "recipe_name": "北天药宗灵素大橙武灵素中和治疗5%"
-        }
-    },
-    2847: {
-        1: {
-            "damage_addition": 51,
-            "skill_id": 27632,
-            "recipe_type": 27632,
-            "recipe_name": "北天药宗灵素大橙武赤芍治疗5%"
-        }
-    },
-    2848: {
-        1: {
-            "prepare_frame": -16,
-            "skill_id": 14064,
-            "recipe_name": "宫降低运功时间"
-        }
-    },
-    2849: {
-        1: {
-            "skill_id": 5257,
-            "recipe_name": "蜀犬大附魔减CD"
-        }
-    },
-    2851: {
-        1: {
-            "skill_id": 16455,
-            "recipe_name": "刀墙无消耗"
-        }
-    },
-    2852: {
-        1: {
-            "damage_addition": -410,
-            "recipe_type": 1,
-            "recipe_name": "无方大附魔沾衣减CD减伤"
-        }
-    },
-    2853: {
-        1: {
-            "skill_id": 18333,
-            "recipe_name": "附魔层云风车消耗增加"
-        }
-    },
-    2854: {
-        1: {
-            "skill_id": 27578,
-            "recipe_name": "无方大附魔沾衣额外施展一次"
-        }
-    },
-    2855: {
-        1: {
-            "skill_id": 1668,
-            "recipe_name": "小附魔减云cd"
-        }
-    },
-    2856: {
-        1: {
-            "skill_id": 28113,
-            "recipe_name": "岚因沾衣中和加人数"
-        }
-    },
-    2857: {
-        1: {
-            "prepare_frame": -128,
-            "skill_id": 27634,
-            "recipe_name": "灵素非战斗复活减读条"
-        }
-    },
-    2858: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 27652,
-            "recipe_type": 27652,
-            "recipe_name": "荆障加伤害"
-        }
-    },
-    2859: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "婆罗门加cd"
-        }
-    },
-    2860: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 365,
-            "recipe_type": 365,
-            "recipe_name": "无我无剑减疗增伤"
-        }
-    },
-    2861: {
-        1: {
-            "skill_id": 14076,
-            "recipe_name": "凝眉青霄飞羽减CD"
-        }
-    },
-    2863: {
-        1: {
-            "skill_id": 3114,
-            "recipe_type": 3114,
-            "recipe_name": "惊鸿四件套减cd属性"
-        }
-    },
-    2864: {
-        1: {
-            "skill_id": 3098,
-            "recipe_type": 3098,
-            "recipe_name": "穿林打叶伤害修正"
-        }
-    },
-    2865: {
-        1: {
-            "damage_addition": 31,
-            "skill_id": 22320,
-            "recipe_type": 22320,
-            "recipe_name": "大附魔乱天狼3%"
-        }
-    },
-    2867: {
-        1: {
-            "skill_id": 2209,
-            "recipe_type": 2209,
-            "recipe_name": "毒经小附魔增伤"
-        }
-    },
-    2868: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "辞零银光驱散"
-        }
-    },
-    2869: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "寸光阴_商hot削弱"
-        }
-    },
-    2870: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "寸光阴_角hot削弱"
-        }
-    },
-    2871: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 14068,
-            "recipe_type": 14068,
-            "recipe_name": "莫问新师襄_连续施展羽增伤"
-        }
-    },
-    2872: {
-        1: {
-            "damage_addition": 1280,
-            "skill_id": 14068,
-            "recipe_type": 14068,
-            "recipe_name": "莫问新师襄_连续施展羽增伤2"
-        }
-    },
-    2873: {
-        1: {
-            "skill_id": 24369,
-            "recipe_type": 24369,
-            "recipe_name": "三星临无视目标化劲"
-        }
-    },
-    2874: {
-        1: {
-            "damage_addition": 133,
-            "skill_id": 28082,
-            "recipe_type": 28082,
-            "recipe_name": "灵素中和加10%疗效"
-        }
-    },
-    2875: {
-        1: {
-            "skill_id": 1580,
-            "recipe_type": 1580,
-            "recipe_name": "玉泉减cd加距离"
-        }
-    },
-    2876: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 569,
-            "recipe_type": 569,
-            "recipe_name": "王母50%治疗量"
-        }
-    },
-    2877: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "夕照加15会心"
-        }
-    },
-    2878: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "云飞加15会心"
-        }
-    },
-    2879: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 565,
-            "recipe_type": 565,
-            "recipe_name": "余寒加回雪治疗"
-        }
-    },
-    2880: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "窃寒银光减CD"
-        }
-    },
-    2881: {
-        1: {
-            "skill_id": 16454,
-            "recipe_type": 16454,
-            "recipe_name": "西楚悲歌减CD"
-        }
-    },
-    2884: {
-        1: {
-            "prepare_frame": -4,
-            "skill_id": 190,
-            "recipe_type": 190,
-            "recipe_name": "兰摧玉折减读条时间"
-        }
-    },
-    2885: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 1,
-            "recipe_name": "银光照雪效果提高20%"
-        }
-    },
-    2886: {
-        1: {
-            "damage_addition": 205,
-            "skill_id": 367,
-            "recipe_type": 367,
-            "recipe_name": "雨集四象加伤害"
-        }
-    },
-    2887: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 27556,
-            "recipe_type": 27556,
-            "recipe_name": "息缠加前两跳伤害"
-        }
-    },
-    2888: {
-        1: {
-            "damage_addition": 1024,
-            "skill_id": 1,
-            "recipe_name": "新冽雪惊鸿掠水增伤"
-        }
-    },
-    2889: {
-        1: {
-            "damage_addition": 410,
-            "skill_id": 27635,
-            "recipe_type": 27635,
-            "recipe_name": "含锋破月35%"
-        }
-    },
-    2890: {
-        1: {
-            "damage_addition": 410,
-            "skill_id": 27637,
-            "recipe_type": 27637,
-            "recipe_name": "飞叶满襟35%"
-        }
-    },
-    2891: {
-        1: {
-            "damage_addition": 1024,
-            "skill_id": 27551,
-            "recipe_type": 27551,
-            "recipe_name": "回风微澜强化商陆"
-        }
-    },
-    2892: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "圣手织天30双会"
-        }
-    },
-    2894: {
-        1: {
-            "skill_id": 558,
-            "recipe_type": 558,
-            "recipe_name": "缠竹减雷霆cd"
-        }
-    },
-    2895: {
-        1: {
-            "damage_addition": 512,
-            "skill_id": 1,
-            "recipe_name": "蛊惑众生生息蛊疗效20%"
-        }
-    },
-    2896: {
-        1: {
-            "skill_id": 16459,
-            "recipe_type": 16459,
-            "recipe_name": "临渊蹈河减CD"
-        }
-    },
-    2897: {
-        1: {
-            "recipe_type": 3096,
-            "recipe_name": "神机锁定追命增强"
-        }
-    },
-    2898: {
-        1: {
-            "recipe_type": 3095,
-            "recipe_name": "神机锁定夺魄增强"
-        }
-    },
-    2899: {
-        1: {
-            "recipe_type": 3098,
-            "recipe_name": "神机锁定穿心增强"
-        }
-    },
-    2901: {
-        1: {
-            "damage_addition": 154,
-            "skill_id": 1,
-            "recipe_name": "变宫伤害提高"
-        }
-    },
-    2902: {
-        1: {
-            "skill_id": 14067,
-            "recipe_type": 14067,
-            "recipe_name": "长清_莫问真·群徵"
-        }
-    },
-    2903: {
-        1: {
-            "skill_id": 14069,
-            "recipe_type": 14069,
-            "recipe_name": "仰止_白送高山"
-        }
-    },
-    2904: {
-        1: {
-            "skill_id": 3105,
-            "recipe_type": 3105,
-            "recipe_name": "瘠薄一层减基础调息"
-        }
-    },
-    2905: {
-        1: {
-            "skill_id": 3105,
-            "recipe_type": 3105,
-            "recipe_name": "瘠薄两层减基础调息"
-        }
-    },
-    2906: {
-        1: {
-            "skill_id": 3105,
-            "recipe_type": 3105,
-            "recipe_name": "瘠薄三层减基础调息"
-        }
-    },
-    2907: {
-        1: {
-            "skill_id": 5638,
-            "recipe_name": "亢龙增加调息"
-        }
-    },
-    2908: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 1,
-            "recipe_name": "挫锐万剑增伤"
-        }
-    },
-    2909: {
-        1: {
-            "skill_id": 1,
-            "recipe_name": "听晓莺鸣柳强化"
-        }
-    },
-    2915: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 28815,
-            "recipe_type": 28815,
-            "recipe_name": "踏斗标记伤害提高"
-        }
-    },
-    2916: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 30797,
-            "recipe_type": 30797,
-            "recipe_name": "太常律增伤百分之十"
-        }
-    },
-    2917: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 22358,
-            "recipe_type": 22358,
-            "recipe_name": "朔乱斩无常10%伤害"
-        }
-    },
-    2918: {
-        1: {
-            "damage_addition": 102,
-            "skill_id": 30797,
-            "recipe_type": 30797,
-            "recipe_name": "太常律增伤百分之十"
-        }
-    },
-    2919: {
-        1: {
-            "recipe_type": 306,
-            "recipe_name": "绝云太极无极加10会效"
-        }
-    },
-    2920: {
-        1: {
-            "skill_id": 29066,
-            "recipe_name": "矢尽兵穷降调息1"
-        }
-    },
-    2921: {
-        1: {
-            "skill_id": 29066,
-            "recipe_name": "矢尽兵穷降调息2"
-        }
-    },
     3280: {
         1: {
             "damage_addition": 307,
@@ -3204,6 +2603,24 @@ RECIPES = {
             "skill_id": 3098,
             "recipe_type": 3098,
             "recipe_name": "《百步穿杨·穿心弩》参悟断篇"
+        }
+    },
+    2897: {
+        1: {
+            "recipe_type": 3096,
+            "recipe_name": "神机锁定追命增强"
+        }
+    },
+    2898: {
+        1: {
+            "recipe_type": 3095,
+            "recipe_name": "神机锁定夺魄增强"
+        }
+    },
+    2899: {
+        1: {
+            "recipe_type": 3098,
+            "recipe_name": "神机锁定穿心增强"
         }
     },
     1200: {
@@ -4086,7 +3503,7 @@ RECIPES = {
     },
     1548: {
         1: {
-            "damage_addition": 102,
+            "damage_addition": 205,
             "skill_id": 5638,
             "recipe_type": 5638,
             "recipe_name": "丐帮PVE套装属性亢龙"
@@ -4750,7 +4167,7 @@ RECIPES = {
     },
     5834: {
         1: {
-            "damage_addition": 154,
+            "damage_addition": 102,
             "skill_id": 40285,
             "recipe_type": 40285,
             "recipe_name": "剑·徵伤害提高"
@@ -4759,9 +4176,8 @@ RECIPES = {
     5922: {
         1: {
             "damage_addition": 205,
-            "skill_id": 25225,
-            "recipe_type": 25225,
-            "recipe_name": "剑商20伤害"
+            "skill_id": 1,
+            "recipe_name": "剑商20伤害（已置空）"
         }
     },
     5835: {
@@ -5607,6 +5023,12 @@ RECIPES = {
         1: {
             "skill_id": 17058,
             "recipe_name": "闹须弥dot增加30%伤害"
+        }
+    },
+    2833: {
+        1: {
+            "skill_id": 29570,
+            "recipe_name": "强化闹须弥伤害提高"
         }
     },
     4717: {
@@ -6895,6 +6317,38 @@ RECIPES = {
             "recipe_name": "川乌移动"
         }
     },
+    2839: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 27556,
+            "recipe_type": 27556,
+            "recipe_name": "北天药宗无方PVE两件套_奚毒10%"
+        }
+    },
+    2840: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 27551,
+            "recipe_type": 27551,
+            "recipe_name": "北天药宗无方PVE两件套_商陆10%"
+        }
+    },
+    2842: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 27556,
+            "recipe_type": 27556,
+            "recipe_name": "北天药宗无方大橙武奚毒伤害5%"
+        }
+    },
+    2843: {
+        1: {
+            "damage_addition": 51,
+            "skill_id": 27554,
+            "recipe_type": 27554,
+            "recipe_name": "北天药宗无方大橙武钩吻伤害5%"
+        }
+    },
     2643: {
         1: {
             "skill_id": 27554,
@@ -6956,6 +6410,13 @@ RECIPES = {
             "skill_id": 28345,
             "recipe_type": 28345,
             "recipe_name": "《凌波飞叶令·银光照雪》秘诀断篇"
+        }
+    },
+    2841: {
+        1: {
+            "skill_id": 27556,
+            "recipe_type": 27556,
+            "recipe_name": "北天药宗无方小CW_奚毒会心5%"
         }
     },
     2549: {
@@ -7616,7 +7077,7 @@ RECIPES = {
     },
     5845: {
         1: {
-            "damage_addition": -410,
+            "damage_addition": -308,
             "recipe_type": 37780,
             "recipe_name": "劈风令弹射降伤害"
         }

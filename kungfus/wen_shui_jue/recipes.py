@@ -20,7 +20,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         2910: {},
         # 奇穴
         4880: {}, 2348: {}, 2883: {}, 2882: {},
-        **{recipe_id: {} for recipe_id in range(2817, 2921 + 1)},
+        **{recipe_id: {} for recipe_id in range(2817, 2821 + 1)},
         **{recipe_id: {} for recipe_id in range(3280, 3282 + 1)},
         # 装备
         (818, 6): {}, 4347: {}, 1536: {}, 1537: {}, 1538: {}, 1539: {}

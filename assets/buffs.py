@@ -2395,24 +2395,24 @@ BUFFS = {
                 "surplus_base": 2540
             },
             {
-                "physical_overcome_base": 2798,
-                "magical_overcome_base": 2798
+                "physical_overcome_base": 2356,
+                "magical_overcome_base": 2356
             },
             {
-                "all_critical_strike_base": 2798
+                "all_critical_strike_base": 2356
             },
             {
-                "surplus_base": 2798
+                "surplus_base": 2356
             },
             {
-                "physical_overcome_base": 3018,
-                "magical_overcome_base": 3018
+                "physical_overcome_base": 2542,
+                "magical_overcome_base": 2542
             },
             {
-                "all_critical_strike_base": 3018
+                "all_critical_strike_base": 2542
             },
             {
-                "surplus_base": 3018
+                "surplus_base": 2542
             }
         ],
         "max_level": 12,
@@ -2442,10 +2442,10 @@ BUFFS = {
                 "all_critical_power_base": 282
             },
             {
-                "all_critical_power_base": 310
+                "all_critical_power_base": 261
             },
             {
-                "all_critical_power_base": 335
+                "all_critical_power_base": 282
             }
         ],
         "max_level": 4,
@@ -2470,12 +2470,12 @@ BUFFS = {
                 "magical_overcome_base": 282
             },
             {
-                "physical_overcome_base": 310,
-                "magical_overcome_base": 310
+                "physical_overcome_base": 261,
+                "magical_overcome_base": 261
             },
             {
-                "physical_overcome_base": 335,
-                "magical_overcome_base": 335
+                "physical_overcome_base": 282,
+                "magical_overcome_base": 282
             }
         ],
         "max_level": 4,
@@ -2498,10 +2498,10 @@ BUFFS = {
                 "all_critical_strike_base": 4391
             },
             {
-                "all_critical_strike_base": 4838
+                "all_critical_strike_base": 4072
             },
             {
-                "all_critical_strike_base": 5217
+                "all_critical_strike_base": 4393
             }
         ],
         "max_level": 4,
@@ -2525,12 +2525,12 @@ BUFFS = {
                 "magical_overcome_base": 4391
             },
             {
-                "physical_overcome_base": 4838,
-                "magical_overcome_base": 4838
+                "physical_overcome_base": 4072,
+                "magical_overcome_base": 4072
             },
             {
-                "physical_overcome_base": 5217,
-                "magical_overcome_base": 5217
+                "physical_overcome_base": 4393,
+                "magical_overcome_base": 4393
             }
         ],
         "max_level": 4,
@@ -2552,10 +2552,10 @@ BUFFS = {
                 "all_critical_power_base": 114
             },
             {
-                "all_critical_power_base": 126
+                "all_critical_power_base": 130
             },
             {
-                "all_critical_power_base": 136
+                "all_critical_power_base": 141
             }
         ],
         "max_level": 4,
@@ -2579,11 +2579,11 @@ BUFFS = {
                 "magical_attack_power_base": 35
             },
             {
-                "physical_attack_power_base": 34,
+                "physical_attack_power_base": 35,
                 "magical_attack_power_base": 38
             },
             {
-                "physical_attack_power_base": 37,
+                "physical_attack_power_base": 38,
                 "magical_attack_power_base": 42
             }
         ],
@@ -5453,6 +5453,26 @@ BUFFS = {
             5756: 1
         }
     },
+    9966: {
+        "attributes": {},
+        "max_level": 4,
+        "alias_name": "六合独尊加伤害实际效果",
+        "max_stack": 1,
+        "recipes": [
+            {
+                2360: 1
+            },
+            {
+                2361: 1
+            },
+            {
+                2362: 1
+            },
+            {
+                2363: 1
+            }
+        ]
+    },
     12779: {
         "attributes": {},
         "max_level": 1,
@@ -5492,36 +5512,6 @@ BUFFS = {
         "alias_name": "移动万世五把剑",
         "max_stack": 1,
         "recipes": {}
-    },
-    9966: {
-        "attributes": {},
-        "max_level": 4,
-        "alias_name": "六合独尊加伤害实际效果",
-        "max_stack": 1,
-        "recipes": [
-            {
-                2360: 1
-            },
-            {
-                2361: 1
-            },
-            {
-                2362: 1
-            },
-            {
-                2363: 1
-            }
-        ]
-    },
-    17918: {
-        "attributes": {},
-        "max_level": 1,
-        "buff_name": "破势",
-        "alias_name": "镇山河增伤",
-        "max_stack": 1,
-        "recipes": {
-            5172: 1
-        }
     },
     12550: {
         "attributes": {},
@@ -5568,6 +5558,16 @@ BUFFS = {
                 4476: 1
             }
         ]
+    },
+    17918: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "破势",
+        "alias_name": "镇山河增伤",
+        "max_stack": 1,
+        "recipes": {
+            5172: 1
+        }
     },
     29204: {
         "attributes": {},
@@ -5671,7 +5671,7 @@ BUFFS = {
     },
     11809: {
         "attributes": {
-            "all_shield_ignore": 358,
+            "all_shield_ignore": 666,
             "magical_attack_power_gain": 102
         },
         "max_level": 1,
@@ -6388,6 +6388,16 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    17969: {
+        "attributes": {
+            "strain_gain": 307
+        },
+        "max_level": 1,
+        "buff_name": "化冰",
+        "alias_name": "心鼓弦天籁",
+        "max_stack": 1,
+        "recipes": {}
+    },
     25435: {
         "attributes": [
             {},
@@ -6399,16 +6409,6 @@ BUFFS = {
         "max_level": 2,
         "buff_name": "剑舞长空",
         "alias_name": "剑破盾",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    17969: {
-        "attributes": {
-            "strain_gain": 307
-        },
-        "max_level": 1,
-        "buff_name": "化冰",
-        "alias_name": "心鼓弦天籁",
         "max_stack": 1,
         "recipes": {}
     },
@@ -6745,7 +6745,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 215
+            "pve_addition_base": 184
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -7080,8 +7080,8 @@ BUFFS = {
     4754: {
         "attributes": [
             {
-                "lunar_attack_power_gain": 205,
-                "solar_attack_power_gain": 205
+                "lunar_attack_power_gain": 154,
+                "solar_attack_power_gain": 154
             },
             {
                 "lunar_attack_power_gain": 102,
@@ -7090,7 +7090,7 @@ BUFFS = {
         ],
         "max_level": 2,
         "buff_name": "诛戮",
-        "alias_name": "明教_镇派_驱夜断愁加攻击",
+        "alias_name": "明教_天地诛戮_驱夜断愁加攻击",
         "max_stack": 1,
         "recipes": {}
     },
@@ -7131,48 +7131,68 @@ BUFFS = {
     30642: {
         "attributes": {},
         "max_level": 2,
-        "buff_name": "用晦·日",
+        "buff_name": [
+            "用晦·日",
+            "晦明·日"
+        ],
         "alias_name": [
             "明教_用晦而明持续状态_日",
             "明教_用晦而明持续状态_日强化"
         ],
-        "max_stack": 1,
+        "max_stack": [
+            1,
+            3
+        ],
         "recipes": {}
     },
     30643: {
         "attributes": {},
         "max_level": 2,
-        "buff_name": "用晦·月",
+        "buff_name": [
+            "用晦·月",
+            "晦明·月"
+        ],
         "alias_name": [
             "明教_用晦而明持续状态_月",
             "明教_用晦而明持续状态_月强化"
         ],
-        "max_stack": 1,
+        "max_stack": [
+            1,
+            3
+        ],
         "recipes": {}
     },
     30644: {
         "attributes": {},
-        "max_level": 1,
-        "buff_name": "晦明·日",
-        "alias_name": "明教_用晦而明强化_日",
+        "max_level": 2,
+        "alias_name": [
+            "明教_净体不畏_日斩增伤",
+            "明教_净体不畏_月斩增伤"
+        ],
         "max_stack": 1,
-        "recipes": {}
+        "recipes": [
+            {
+                5930: 1
+            },
+            {
+                5931: 1
+            }
+        ]
     },
     30645: {
         "attributes": {},
         "max_level": 1,
-        "buff_name": "晦明·月",
-        "alias_name": "明教_用晦而明强化_月",
+        "alias_name": "已废弃_明教_用晦而明强化_月",
         "max_stack": 1,
         "recipes": {}
     },
     12575: {
         "attributes": [
             {
-                "all_shield_ignore": 307
+                "all_shield_ignore": 205
             },
             {
-                "all_shield_ignore": 922
+                "all_shield_ignore": 1024
             }
         ],
         "max_level": 2,
@@ -7185,7 +7205,7 @@ BUFFS = {
     },
     30400: {
         "attributes": {
-            "physical_critical_strike_rate": 2048,
+            "physical_critical_strike_rate": 2000,
             "physical_critical_power_rate": 205
         },
         "max_level": 1,
@@ -7217,7 +7237,7 @@ BUFFS = {
             },
             {
                 "all_shield_ignore": 512,
-                "pve_addition_base": 184
+                "pve_addition_base": 154
             }
         ],
         "max_level": 4,
@@ -7382,61 +7402,20 @@ BUFFS = {
     8474: {
         "attributes": [
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
             {},
-            {
-                "physical_shield_gain": 102,
-                "lunar_shield_gain": 102,
-                "neutral_shield_gain": 102,
-                "poison_shield_gain": 102,
-                "solar_shield_gain": 102
-            },
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
+            {},
             {},
             {
                 "physical_shield_gain": 102,
@@ -7446,7 +7425,7 @@ BUFFS = {
                 "solar_shield_gain": 102
             }
         ],
-        "max_level": 16,
+        "max_level": 17,
         "buff_name": [
             "血云",
             "太初社稷",
@@ -7463,6 +7442,7 @@ BUFFS = {
             "孤焰",
             "致远",
             "天下宏愿",
+            "驭焰",
             "驭焰"
         ],
         "alias_name": [
@@ -7481,38 +7461,56 @@ BUFFS = {
             "120级分山劲苍云cw",
             "120级铁骨苍云cw",
             "苍云橙武触发buff效果",
-            "苍云橙武触发buff效果"
+            "苍云橙武触发buff效果",
+            "苍云橙武触发buff效果（T特效备份）"
         ],
         "max_stack": 1,
         "recipes": [
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
             {
                 1941: 1
             },
-            {},
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
+            {
+                1941: 1
+            },
             {
                 1941: 1
             },
@@ -7560,12 +7558,12 @@ BUFFS = {
     },
     30464: {
         "attributes": {
-            "all_damage_addition": 31
+            "all_damage_addition": 307
         },
         "max_level": 1,
         "buff_name": "照月",
-        "alias_name": "照月叠层伤害提高",
-        "max_stack": 10,
+        "alias_name": "照月伤害提高",
+        "max_stack": 1,
         "recipes": {}
     },
     9437: {
@@ -8007,6 +8005,7 @@ BUFFS = {
             "all_shield_ignore": 717
         },
         "max_level": 1,
+        "buff_name": "凄骨",
         "alias_name": "凄骨",
         "max_stack": 1,
         "recipes": {}
