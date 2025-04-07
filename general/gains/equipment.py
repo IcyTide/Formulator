@@ -144,7 +144,7 @@ class 大附魔鞋(EquipmentGain):
 
 class TertiaryWeaponGain(EquipmentGain):
     skill_ids = [38966]
-    _damage_base = [86500, 90000, 223894, 240000]
+    _damage_base = [86500, 90000, 320423, 345600]
 
 
 class HatGain(EquipmentGain):
@@ -167,6 +167,93 @@ class HatGain(EquipmentGain):
         else:
             self.attr_level = 0
         super().add_attribute(attribute)
+
+
+class WristGain(EquipmentGain):
+    skill_ids = [40789]
+    _damage_base = [403200]
+
+
+class BeltGain_1(EquipmentGain):
+    buff_ids = [30705]
+    _attributes = GENERAL_BUFFS[30705].all_attributes
+
+
+class BeltGain_2(EquipmentGain):
+    buff_ids = [30743]
+    _attributes = [GENERAL_BUFFS[30743].get_attributes(weights=[0] * 3 * level + [1 / 3] * 3) for level in range(1)]
+
+
+class BottomGain_1(EquipmentGain):
+    buff_ids = [30748]
+    _attributes = GENERAL_BUFFS[30748].all_attributes
+
+
+class BottomGain_2(EquipmentGain):
+    attr_level: int
+    threshold = 0.9
+
+    buff_ids = [30749]
+    _attributes = GENERAL_BUFFS[30749].all_attributes
+
+    @property
+    def attributes(self):
+        return self._attributes[self.attr_level - 1]
+
+    def add_attribute(self, attribute: Attribute):
+        if attribute.strain <= self.threshold:
+            self.attr_level = 1
+        else:
+            self.attr_level = 2
+        super().add_attribute(attribute)
+
+
+class BottomGain_3(EquipmentGain):
+    attr_level: int
+    threshold = 0.9
+
+    buff_ids = [30770]
+    _attributes = GENERAL_BUFFS[30770].all_attributes
+
+    @property
+    def attributes(self):
+        return self._attributes[self.attr_level - 1]
+
+    def add_attribute(self, attribute: Attribute):
+        if attribute.strain <= self.threshold:
+            self.attr_level = 1
+        else:
+            self.attr_level = 2
+        super().add_attribute(attribute)
+
+
+class RingGain_1(EquipmentGain):
+    buff_ids = [30755]
+    _attributes = GENERAL_BUFFS[30755].all_attributes
+
+
+class RingGain_2(EquipmentGain):
+    buff_ids = [30756]
+    _attributes = GENERAL_BUFFS[30756].all_attributes
+
+
+class RingGain_3(EquipmentGain):
+    buff_ids = [30757]
+    _attributes = GENERAL_BUFFS[30757].all_attributes
+
+
+class ShoesGain(EquipmentGain):
+    rate = 10 / 20
+
+
+class OvercomeShoesGain(ShoesGain):
+    buff_ids = [29526]
+    _attributes = GENERAL_BUFFS[29526].all_attributes
+
+
+class CriticalShoesGain(ShoesGain):
+    buff_ids = [29524]
+    _attributes = GENERAL_BUFFS[29524].all_attributes
 
 
 class PendantGain(EquipmentGain):
@@ -207,20 +294,6 @@ class CriticalNecklaceGain(NecklaceGain):
     def add_attribute(self, attribute: Attribute):
         self.rate = min(int(attribute.max_critical_strike_base / self.scale), GENERAL_BUFFS[29528].max_stack)
         super().add_attribute(attribute)
-
-
-class ShoesGain(EquipmentGain):
-    rate = 10 / 20
-
-
-class OvercomeShoesGain(ShoesGain):
-    buff_ids = [29526]
-    _attributes = GENERAL_BUFFS[29526].all_attributes
-
-
-class CriticalShoesGain(ShoesGain):
-    buff_ids = [29524]
-    _attributes = GENERAL_BUFFS[29524].all_attributes
 
 
 class WinterWeaponGain(EquipmentGain):
@@ -282,6 +355,50 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i, gain_id in enumerate((2698, 2703, 2815, 2820))
     },
     **{
+        (gain_id,): WristGain(i + 1)
+        for i, gain_id in enumerate((2869,))
+    },
+    **{
+        (gain_id,): BeltGain_1(i + 1)
+        for i, gain_id in enumerate((2870,))
+    },
+    **{
+        (gain_id,): BeltGain_2(i + 1)
+        for i, gain_id in enumerate((2871,))
+    },
+    **{
+        (gain_id,): BottomGain_1(i + 1)
+        for i, gain_id in enumerate((2872,))
+    },
+    **{
+        (gain_id,): BottomGain_2(i + 1)
+        for i, gain_id in enumerate((2873,))
+    },
+    **{
+        (gain_id,): BottomGain_3(i + 1)
+        for i, gain_id in enumerate((2880,))
+    },
+    **{
+        (gain_id,): RingGain_1(i + 1)
+        for i, gain_id in enumerate((2874,))
+    },
+    **{
+        (gain_id,): RingGain_2(i + 1)
+        for i, gain_id in enumerate((2875,))
+    },
+    **{
+        (gain_id,): RingGain_3(i + 1)
+        for i, gain_id in enumerate((2876,))
+    },
+    **{
+        (gain_id,): OvercomeShoesGain(i + 1)
+        for i, gain_id in enumerate((2697, 2702, 2814, 2819))
+    },
+    **{
+        (gain_id,): CriticalShoesGain(i + 1)
+        for i, gain_id in enumerate((2709, 2710, 2826, 2827))
+    },
+    **{
         (gain_id,): OvercomePendantGain(i + 1)
         for i, gain_id in enumerate((2700, 2705, 2817, 2822))
     },
@@ -296,14 +413,6 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (gain_id,): CriticalNecklaceGain(i + 1)
         for i, gain_id in enumerate((2707, 2708, 2824, 2825))
-    },
-    **{
-        (gain_id,): OvercomeShoesGain(i + 1)
-        for i, gain_id in enumerate((2697, 2702, 2814, 2819))
-    },
-    **{
-        (gain_id,): CriticalShoesGain(i + 1)
-        for i, gain_id in enumerate((2709, 2710, 2826, 2827))
     },
     **{
         (gain_id,): Gain()

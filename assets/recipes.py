@@ -3501,6 +3501,14 @@ RECIPES = {
             "recipe_name": "蜀犬伤害提高"
         }
     },
+    4340: {
+        1: {
+            "damage_addition": 614,
+            "skill_id": 8490,
+            "recipe_type": 5638,
+            "recipe_name": "驯致加伤害"
+        }
+    },
     1548: {
         1: {
             "damage_addition": 205,

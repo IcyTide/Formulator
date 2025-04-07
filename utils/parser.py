@@ -78,6 +78,7 @@ class BaseParser:
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[BUFF_TYPE]]
 
     last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_ID_TYPE, List[Tuple[DOT_DAMAGE_TYPE, TOTAL_STATUS_TUPLE]]]]]
+    last_dot_frame: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, FRAME_TYPE]]
 
     start_frame: FRAME_TYPE
     end_frame: FRAME_TYPE
@@ -150,6 +151,10 @@ class BaseParser:
         return self.last_dot[self.current_target][self.current_player]
 
     @property
+    def current_last_dot_frame(self):
+        return self.last_dot_frame[self.current_target][self.current_player]
+
+    @property
     def current_stop_time(self):
         stop_frame = self.stop_frames.get(self.current_player, self.end_frame)
         return round((stop_frame - self.start_frame) / FRAME_PER_SECOND, 3)
@@ -180,6 +185,7 @@ class BaseParser:
         self.dot_snapshot = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
         self.pet_snapshot = defaultdict(dict)
         self.last_dot = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+        self.last_dot_frame = defaultdict(lambda: defaultdict(int))
 
         self.start_frame = 0
 
@@ -452,6 +458,9 @@ class Parser(BaseParser):
             self.stop_frames[self.current_player] = self.current_frame
         elif damage_type == 2:
             damage, damage.buff_level = self.players[player_id].dots[damage_id], damage_level
+            if self.current_last_dot_frame != self.current_frame:
+                self.current_last_dot[damage_id] = []
+                self.last_dot_frame[self.current_target][self.current_player] = self.current_frame
         else:
             return
 

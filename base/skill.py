@@ -1503,12 +1503,14 @@ class Skill(Damage):
                 count = 1
             else:
                 dot_tick, count = dot_tick
-            if len(parser.current_last_dot[dot_id]) < count:
+            if not parser.current_last_dot[dot_id]:
                 continue
+            count = min(len(parser.current_last_dot[dot_id]), count)
             parser.current_damage = dot_id
             parser.current_dot_ticks[dot_id] += count
             new_status_tuple = parser.dot_status
-            for i, (damage_tuple, status_tuple) in enumerate(parser.current_last_dot[dot_id][-count:]):
+            for i in range(count):
+                damage_tuple, status_tuple = parser.current_last_dot[dot_id].pop(-count + i)
                 dot_tuple, dot_skill_tuple, _ = damage_tuple
                 if not dot_tick:
                     consume_tick = parser.current_dot_ticks[dot_id]

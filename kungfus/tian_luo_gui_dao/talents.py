@@ -19,7 +19,8 @@ TALENTS: List[Dict[int, Gain]] = [
         40275: Gain("天罗地网", recipes=[(5920, 1)])
     },
     {
-        27267: Gain("神威穿彻")
+        27267: Gain("神威穿彻"),
+        6451: Gain("聚精凝神", buff_ids=[8210])
     },
     {
         30721: Gain("巧夺天工"),

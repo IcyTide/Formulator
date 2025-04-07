@@ -2372,6 +2372,118 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    30705: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 7617
+            },
+            {
+                "all_critical_strike_base": 3047
+            }
+        ],
+        "max_level": 2,
+        "buff_name": "密玉神山·横·腕",
+        "alias_name": [
+            "PVP附魔2护手拍卖_全会心添加_太极秘录",
+            "PVP附魔2护手战阶_全会心添加_太极秘录"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30743: {
+        "attributes": [
+            {
+                "all_critical_strike_base": 5931
+            },
+            {
+                "physical_overcome_base": 5931,
+                "magical_overcome_base": 5931
+            },
+            {
+                "surplus_base": 5931
+            }
+        ],
+        "max_level": 3,
+        "alias_name": [
+            "精简腰带提高属性_高级版_会心",
+            "精简腰带提高属性_高级版_破防",
+            "精简腰带提高属性_高级版_破招"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30748: {
+        "attributes": {
+            "strain_rate": 22
+        },
+        "max_level": 1,
+        "alias_name": "精简下装提高无双_正常版",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30749: {
+        "attributes": [
+            {
+                "strain_rate": 65
+            },
+            {
+                "physical_overcome_base": 8487,
+                "magical_overcome_base": 8487
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "精简下装适应之力无双_高级版",
+            "精简下装适应之力破防_高级版"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30770: {
+        "attributes": [
+            {
+                "strain_rate": 65
+            },
+            {
+                "all_critical_strike_base": 8487
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "精简下装适应之力无双_高级版",
+            "精简下装适应之力会心_高级版"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30755: {
+        "attributes": {
+            "physical_overcome_base": 1412,
+            "magical_overcome_base": 1412
+        },
+        "max_level": 2,
+        "alias_name": "精简戒指1加破防",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30756: {
+        "attributes": {
+            "all_critical_strike_base": 1412
+        },
+        "max_level": 2,
+        "alias_name": "精简戒指2加会心",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30757: {
+        "attributes": {
+            "surplus_base": 1412
+        },
+        "max_level": 2,
+        "alias_name": "精简戒指3加破招",
+        "max_stack": 1,
+        "recipes": {}
+    },
     29519: {
         "attributes": [
             {
@@ -7684,25 +7796,6 @@ BUFFS = {
             3350: 1
         }
     },
-    14083: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_attack_power_gain": 205,
-                "strain_gain": 102
-            }
-        ],
-        "max_level": 2,
-        "buff_name": [
-            "太息",
-            "游仙"
-        ],
-        "alias_name": "荡伞结束加伤害",
-        "max_stack": 1,
-        "recipes": {}
-    },
     30396: {
         "attributes": {
             "physical_attack_power_gain": 102
@@ -7731,13 +7824,22 @@ BUFFS = {
             }
         ]
     },
-    13966: {
-        "attributes": {
-            "all_shield_ignore": 205
-        },
-        "max_level": 1,
-        "buff_name": "梦悠",
-        "alias_name": "驰风震域奇穴增益",
+    14083: {
+        "attributes": [
+            {
+                "physical_attack_power_gain": 102
+            },
+            {
+                "physical_attack_power_gain": 205,
+                "strain_gain": 102
+            }
+        ],
+        "max_level": 2,
+        "buff_name": [
+            "太息",
+            "游仙"
+        ],
+        "alias_name": "荡伞结束加伤害",
         "max_stack": 1,
         "recipes": {}
     },
@@ -7763,6 +7865,16 @@ BUFFS = {
             4790: 1,
             4791: 1
         }
+    },
+    13966: {
+        "attributes": {
+            "all_shield_ignore": 205
+        },
+        "max_level": 1,
+        "buff_name": "梦悠",
+        "alias_name": "驰风震域奇穴增益",
+        "max_stack": 1,
+        "recipes": {}
     },
     15927: {
         "attributes": {},
