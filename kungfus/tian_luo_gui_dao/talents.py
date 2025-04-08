@@ -34,7 +34,8 @@ TALENTS: List[Dict[int, Gain]] = [
         6461: Gain("秋风散影", buff_ids=[9981])
     },
     {
-        34679: Gain("雀引彀中", dot_ids=[29549], skill_ids=[38760])
+        34679: Gain("雀引彀中", dot_ids=[29549], skill_ids=[38760]),
+        24037: Gain("云奔雨骤", skill_ids=[26900, 26901])
     },
     {
         14856: Gain("曙色催寒", buff_ids=[10005], skill_ids=[15049])

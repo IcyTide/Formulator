@@ -1,8 +1,3 @@
-import re
-
-DAMAGE_RESULT_PATTERN = re.compile(r"\[13\]=(\d+)")
-
-
 def parse(content):
     index = 0
     result = {}
@@ -43,7 +38,12 @@ def parse(content):
                 result[index] = ret
                 ret = {}
             elif num:
-                result[index] = int(num)
+                if num == "true":
+                    result[index] = True
+                elif num == "false":
+                    result[index] = False
+                else:
+                    result[index] = int(num)
                 num = ""
             else:
                 result[index] = string
@@ -55,15 +55,21 @@ def parse(content):
     if ret:
         result[index] = ret
     elif num:
-        result[index] = int(num)
-    else:
+        if num == "true":
+            result[index] = True
+        elif num == "false":
+            result[index] = False
+        else:
+            result[index] = int(num)
+    elif string:
         result[index] = string
     return result
 
 
-def parse_player(lua_data):
-    return parse(lua_data.strip().strip("{}"))
+def parse_lua(lua_data):
+    return parse(lua_data.strip()[1:-1])
 
 
-def parse_actual_damage(lua_data):
-    return sum(int(damage) for damage in DAMAGE_RESULT_PATTERN.findall(lua_data))
+if __name__ == '__main__':
+    r = parse_lua('{117,1073742562,0,1,3404,1,false,3,{[14]=0,[13]=250532,[4]=250532}}')
+    print(r)

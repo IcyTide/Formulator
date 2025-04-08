@@ -97,8 +97,9 @@ def get_equip_detail(row):
         "id": row.ID, "name": row.Name, "school": row.BelongSchool, "kind": row.MagicKind, "level": int(row.Level),
         "max_strength": int(row.MaxStrengthLevel), "special_enchant": 0, "set_id": 0,
     }
-    item_row = ITEM_TAB[ITEM_TAB.ItemID == row.UiID].iloc[0]
-    detail['icon_id'] = int(item_row['IconID'])
+    item_row = ITEM_TAB[ITEM_TAB.ItemID == row.UiID]
+    if not item_row.empty:
+        detail['icon_id'] = int(item_row.iloc[0]['IconID'])
     detail['base'] = base_attrs = {}
     detail['magic'] = magic_attrs = {}
     detail['embed'] = embed_attrs = {}

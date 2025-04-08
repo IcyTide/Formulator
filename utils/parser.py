@@ -5,7 +5,7 @@ from typing import Union
 
 from base.constant import FRAME_PER_SECOND
 from kungfus import *
-from utils.lua import parse_player, parse_actual_damage
+from utils.lua import parse_lua
 
 FRAME_TYPE, SECOND_TYPE = int, int
 PLAYER_ID_TYPE, PLAYER_NAME_TYPE, TARGET_ID_TYPE, PET_ID_TYPE = str, str, str, str
@@ -40,7 +40,7 @@ LABEL_MAPPING = {
 }
 EMBED_MAPPING: Dict[tuple, int] = {(5, 24449 - i): 8 - i for i in range(8)}
 
-IGNORE_TARGETS = ["125406"]
+IGNORE_TARGETS = [125406]
 
 
 class BaseParser:
@@ -267,17 +267,15 @@ class Parser(BaseParser):
         return [row[1] for row in detail]
 
     def parse_player(self, row):
-        detail = row.strip("{}").split(",")
-        player_id, kungfu_id = detail[0], int(detail[3])
+        detail = parse_lua(row)
+        player_id, kungfu_id = detail[0], detail[3]
         if kungfu_id not in SUPPORT_KUNGFU:
             return
         if player_id in self.select_talents and player_id in self.select_equipments:
             return
 
         try:
-            detail = parse_player(row)
             player_name = detail[1]
-
             if equipments := detail.get(5):
                 self.select_equipments[player_id] = self.parse_equipments(equipments.values())
             if talents := detail.get(6):
@@ -296,7 +294,7 @@ class Parser(BaseParser):
             return
 
     def parse_npc(self, row):
-        detail = row.strip("{}").split(",")
+        detail = parse_lua(row)
         npc_id, template_id, employer_id = detail[0], detail[2], detail[3]
         if npc_id in self.id2name or template_id in IGNORE_TARGETS:
             return
@@ -309,19 +307,19 @@ class Parser(BaseParser):
             self.pet2employer[npc_id] = employer_id
 
     def parse_pet(self, row):
-        pet_id = row.strip().strip("{}")
+        pet_id = parse_lua(row)[0]
         if player_id := self.pet2employer.get(pet_id):
             if self.next_pet_buff_stacks[player_id]:
                 self.buff_stacks[pet_id] = self.next_pet_buff_stacks[player_id].pop()
             self.pet_snapshot[pet_id] = deepcopy(self.buff_stacks[player_id])
 
     def prepare_shift_buff(self, row):
-        detail = row.strip("{}").split(",")
+        detail = parse_lua(row)
         player_id = detail[0]
         if player_id not in self.players:
             return
 
-        buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
+        buff_id, buff_stack, buff_level = detail[4], detail[5], detail[8]
         if buff_id not in self.players[player_id].buffs:
             return
         buff = self.players[player_id].buffs[buff_id]
@@ -377,7 +375,7 @@ class Parser(BaseParser):
                     buff_ids.pop(buff_id)
 
     def parse_buff(self, row):
-        detail = row.strip("{}").split(",")
+        detail = parse_lua(row)
         caster_id = detail[0]
         if caster_id in self.pet2employer:
             player_id = self.pet2employer[caster_id]
@@ -396,7 +394,7 @@ class Parser(BaseParser):
             return
 
         # unique_id, end_frame = int(detail[2]), int(detail[6])
-        buff_id, buff_stack, buff_level = int(detail[4]), int(detail[5]), int(detail[8])
+        buff_id, buff_stack, buff_level = detail[4], detail[5], detail[8]
 
         if buff_id not in self.players[player_id].buffs:
             return
@@ -428,7 +426,7 @@ class Parser(BaseParser):
             buff.end(self)
 
     def parse_damage(self, row):
-        detail = row.strip("{}").split(",")
+        detail = parse_lua(row)
         caster_id, target_id = detail[0], detail[1]
         if caster_id in self.pet2employer:
             player_id = self.pet2employer[caster_id]
@@ -440,7 +438,7 @@ class Parser(BaseParser):
         if target_id not in self.id2name:
             return
 
-        react, damage_type, damage_id, damage_level = int(detail[2]), int(detail[3]), int(detail[4]), int(detail[5])
+        react, damage_type, damage_id, damage_level = detail[2], detail[3], detail[4], detail[5]
         if react:
             return
         if damage_id not in self.players[player_id].skills and damage_id not in self.players[player_id].dots:
@@ -468,7 +466,7 @@ class Parser(BaseParser):
             self.current_targets.append(target_id)
 
         if damage.damage_call:
-            actual_critical_strike, actual_damage = detail[6] == "true", parse_actual_damage(row)
+            actual_critical_strike, actual_damage = detail[6], detail[8].get(12, 0)
         else:
             actual_critical_strike, actual_damage = 0, 0
         damage.parse(actual_critical_strike, actual_damage, self)

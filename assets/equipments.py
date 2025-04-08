@@ -644,8 +644,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 11606,
-                "physical_attack_power_base": 4186,
-                "haste_base": 7544,
+                "physical_attack_power_base": 4172,
+                "haste_base": 7597,
                 "strain_base": 8177
             },
             "embed": {
@@ -19817,7 +19817,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "复梦裤_测试用#104962 (30200 精简 会心 破招 破防)": {
+        "复梦裤_测试用#104962 (30200 精简 会心 破招 破防 无双)": {
             "id": 104962,
             "name": "复梦裤_测试用",
             "school": "精简",
@@ -19833,7 +19833,8 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 4813,
                 "physical_critical_strike_base": 7536,
                 "surplus_base": 7536,
-                "physical_overcome_base": 7536
+                "physical_overcome_base": 7536,
+                "strain_base": 7536
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -19862,8 +19863,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 16580,
-                "physical_attack_power_base": 7045,
-                "haste_base": 18539
+                "physical_attack_power_base": 7025,
+                "haste_base": 18615
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -20221,7 +20222,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "然犀裤_测试用#104948 (30200 精简 会心 破招 破防)": {
+        "然犀裤_测试用#104948 (30200 精简 会心 破招 破防 无双)": {
             "id": 104948,
             "name": "然犀裤_测试用",
             "school": "精简",
@@ -20237,7 +20238,8 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 5352,
                 "all_critical_strike_base": 7536,
                 "surplus_base": 7536,
-                "magical_overcome_base": 7536
+                "magical_overcome_base": 7536,
+                "strain_base": 7536
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -20266,8 +20268,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 16580,
-                "magical_attack_power_base": 7834,
-                "haste_base": 18539
+                "magical_attack_power_base": 7811,
+                "haste_base": 18615
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -24870,7 +24872,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "刻花腰带_测试用#104906 (30200 精简 会心 破招 破防)": {
+        "刻花腰带_测试用#104906 (30200 精简 会心 破招 破防 无双)": {
             "id": 104906,
             "name": "刻花腰带_测试用",
             "school": "精简",
@@ -24886,7 +24888,8 @@ EQUIPMENTS = {
                 "physical_attack_power_base": 3369,
                 "physical_critical_strike_base": 5275,
                 "surplus_base": 5275,
-                "physical_overcome_base": 5275
+                "physical_overcome_base": 5275,
+                "strain_base": 5275
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -24915,8 +24918,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 11606,
-                "physical_attack_power_base": 4186,
-                "haste_base": 7544,
+                "physical_attack_power_base": 4172,
+                "haste_base": 7597,
                 "strain_base": 8177
             },
             "embed": {
@@ -25274,7 +25277,7 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松悲腰带_测试用#104892 (30200 精简 会心 破招 破防)": {
+        "松悲腰带_测试用#104892 (30200 精简 会心 破招 破防 无双)": {
             "id": 104892,
             "name": "松悲腰带_测试用",
             "school": "精简",
@@ -25290,7 +25293,8 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 3746,
                 "all_critical_strike_base": 5275,
                 "surplus_base": 5275,
-                "magical_overcome_base": 5275
+                "magical_overcome_base": 5275,
+                "strain_base": 5275
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -60101,8 +60105,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 8290,
-                "physical_attack_power_base": 3523,
-                "haste_base": 9270
+                "physical_attack_power_base": 3512,
+                "haste_base": 9307
             },
             "embed": {},
             "gains": [],
@@ -60465,8 +60469,8 @@ EQUIPMENTS = {
             "base": {},
             "magic": {
                 "vitality_base": 8290,
-                "magical_attack_power_base": 3917,
-                "haste_base": 9270
+                "magical_attack_power_base": 3905,
+                "haste_base": 9307
             },
             "embed": {},
             "gains": [],
@@ -62132,6 +62136,127 @@ EQUIPMENTS = {
                 "magical_attack_power_base": 1465,
                 "magical_critical_strike_base": 4847,
                 "strain_base": 3878
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暮雨结#44202 (25000 无双)": {
+            "id": 44202,
+            "name": "暮雨结",
+            "school": "通用",
+            "kind": "防御",
+            "level": 25000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "base": {},
+            "magic": {
+                "vitality_base": 10138,
+                "strain_base": 3743
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暮雨玉#44200 (25000 会心 无双)": {
+            "id": 44200,
+            "name": "暮雨玉",
+            "school": "通用",
+            "kind": "身法",
+            "level": 25000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1234,
+            "base": {},
+            "magic": {
+                "vitality_base": 6862,
+                "agility_base": 560,
+                "physical_attack_power_base": 1272,
+                "physical_critical_strike_base": 4679,
+                "strain_base": 3743
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暮雨石#44199 (25000 会心 无双)": {
+            "id": 44199,
+            "name": "暮雨石",
+            "school": "通用",
+            "kind": "力道",
+            "level": 25000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1234,
+            "base": {},
+            "magic": {
+                "vitality_base": 6862,
+                "strength_base": 560,
+                "physical_attack_power_base": 1272,
+                "physical_critical_strike_base": 4679,
+                "strain_base": 3743
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暮雨环#44198 (25000 会心 无双)": {
+            "id": 44198,
+            "name": "暮雨环",
+            "school": "通用",
+            "kind": "元气",
+            "level": 25000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1234,
+            "base": {},
+            "magic": {
+                "vitality_base": 6862,
+                "spunk_base": 560,
+                "magical_attack_power_base": 1414,
+                "all_critical_strike_base": 4679,
+                "strain_base": 3743
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "暮雨戒#44197 (25000 会心 无双)": {
+            "id": 44197,
+            "name": "暮雨戒",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 25000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1234,
+            "base": {},
+            "magic": {
+                "vitality_base": 6862,
+                "spirit_base": 560,
+                "magical_attack_power_base": 1414,
+                "magical_critical_strike_base": 4679,
+                "strain_base": 3743
             },
             "embed": {},
             "gains": [],
