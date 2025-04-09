@@ -77,7 +77,8 @@ class BaseParser:
 
     next_pet_buff_stacks: Dict[PLAYER_ID_TYPE, List[BUFF_TYPE]]
 
-    last_dot: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_ID_TYPE, List[Tuple[DOT_DAMAGE_TYPE, TOTAL_STATUS_TUPLE]]]]]
+    last_dot: Dict[
+        TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, Dict[BUFF_ID_TYPE, List[Tuple[DOT_DAMAGE_TYPE, TOTAL_STATUS_TUPLE]]]]]
     last_dot_frame: Dict[TARGET_ID_TYPE, Dict[PLAYER_ID_TYPE, FRAME_TYPE]]
 
     start_frame: FRAME_TYPE
@@ -438,9 +439,10 @@ class Parser(BaseParser):
         if target_id not in self.id2name:
             return
 
-        react, damage_type, damage_id, damage_level = detail[2], detail[3], detail[4], detail[5]
+        react = detail[2]
         if react:
             return
+        damage_id = detail[4]
         if damage_id not in self.players[player_id].skills and damage_id not in self.players[player_id].dots:
             return
 
@@ -451,22 +453,26 @@ class Parser(BaseParser):
         self.current_caster = caster_id
         self.current_target = target_id
         self.current_damage = damage_id
+
+        damage_type, damage_level  = detail[3], detail[5]
+        actual_critical_strike, actual_damage = detail[6], detail[8].get(12, 0)
+        self.record_damage(damage_id, damage_level, damage_type, actual_critical_strike, actual_damage)
+
+    def record_damage(self, damage_id, damage_level, damage_type=1, actual_critical_strike=0, actual_damage=0):
         if damage_type == 1:
-            damage, damage.skill_level = self.players[player_id].skills[damage_id], damage_level
+            damage, damage.skill_level = self.players[self.current_player].skills[damage_id], damage_level
             self.stop_frames[self.current_player] = self.current_frame
         elif damage_type == 2:
-            damage, damage.buff_level = self.players[player_id].dots[damage_id], damage_level
+            damage, damage.buff_level = self.players[self.current_player].dots[damage_id], damage_level
             if self.current_last_dot_frame != self.current_frame:
                 self.current_last_dot[damage_id] = []
                 self.last_dot_frame[self.current_target][self.current_player] = self.current_frame
         else:
             return
 
-        if target_id not in self.current_targets:
-            self.current_targets.append(target_id)
-
         if damage.damage_call:
-            actual_critical_strike, actual_damage = detail[6], detail[8].get(12, 0)
+            if self.current_target not in self.current_targets:
+                self.current_targets.append(self.current_target)
         else:
             actual_critical_strike, actual_damage = 0, 0
         damage.parse(actual_critical_strike, actual_damage, self)

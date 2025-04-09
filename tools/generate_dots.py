@@ -20,7 +20,8 @@ MAX_ATTRIB = 2
 
 def parse_dot(row):
     result = dict(
-        interval=row.Interval, tick=row.Count, max_stack=row.MaxStackNum, platform=row.Platform
+        interval=row.Interval, tick=row.Count, max_stack=row.MaxStackNum, active_cof=row.ActiveCoefficient,
+        platform=row.Platform
     )
     for i in range(MAX_ATTRIB):
         attr, param_1 = row[f"ActiveAttrib{i + 1}"], row[f"ActiveValue{i + 1}A"]
@@ -75,6 +76,7 @@ def collect_result():
 
 def convert_json(result):
     exclude_columns = ["buff_id"]
+    float_columns = ["active_cof"]
     result_json = {}
     for buff_id in result.buff_id.unique().tolist():
         filter_result = result[result.buff_id == buff_id]
@@ -84,7 +86,7 @@ def convert_json(result):
                 continue
             if filter_result[column].isna().all():
                 continue
-            if filter_result[column].dtype == float:
+            if filter_result[column].dtype == float and column not in float_columns:
                 filter_column = filter_result[column].fillna(0).astype(int)
             else:
                 filter_column = filter_result[column]

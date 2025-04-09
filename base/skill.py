@@ -1,7 +1,8 @@
 from collections import defaultdict
+
 from copy import deepcopy
 from dataclasses import dataclass
-from typing import List, Dict, Union
+from typing import List, Dict, Union, Tuple
 
 from assets.skills import SKILLS
 from base.attribute import Attribute, PhysicalAttribute
@@ -17,6 +18,7 @@ class BaseSkill:
 
     _bind_dots: List[Dict[int, int]] = []
     _consume_dots: List[Dict[int, Union[int, Dict[int, int]]]] = []
+    sub_skills: List[Tuple[int, int]] = []
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
@@ -1454,6 +1456,8 @@ class Skill(Damage):
         self.post_record(parser)
         if self.consume_dots:
             self.dot_consume(parser)
+        if self.sub_skills:
+            self.sub_record(parser)
         if self.pet_buffs:
             self.pet_create(parser)
 
@@ -1523,6 +1527,11 @@ class Skill(Damage):
                 parser.current_dot_ticks[dot_id] -= consume_tick
 
         parser.current_damage = self.skill_id
+
+    def sub_record(self, parser):
+        for skill_id, skill_level in self.sub_skills:
+            parser.record_damage(skill_id, skill_level)
+
 
 class NpcSkill(Skill):
     def call_physical_damage(self, attribute: Attribute):

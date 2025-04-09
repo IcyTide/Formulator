@@ -261,11 +261,11 @@ class SkillAnalyzer(BaseAnalyzer):
     def split_damage(self, damage_tuple):
         damage_tuple, dot_skill_tuple, consume_skill_tuple = damage_tuple
         if dot_skill_tuple:
-            dot_id, dot_level = damage_tuple
+            dot_id, dot_level, dot_tick = damage_tuple
             damage, damage.buff_level = self.kungfu.dots[dot_id], dot_level
             dot_skill_id, dot_skill_level, dot_stack = dot_skill_tuple
             dot_skill, dot_skill.skill_level = self.kungfu.skills[dot_skill_id], dot_skill_level
-            damage.dot_skill, damage.dot_stack = dot_skill, dot_stack
+            damage.dot_skill, damage.dot_stack, damage.dot_tick = dot_skill, dot_stack, dot_tick
             if consume_skill_tuple:
                 consume_skill_id, consume_skill_level, consume_tick = consume_skill_tuple
                 consume_skill, consume_skill.skill_level = self.kungfu.skills[consume_skill_id], consume_skill_level

@@ -13,6 +13,7 @@ class BaseDot(BaseBuff):
     dot_skill: Skill = None
     consume_skill: Optional[Skill] = None
 
+    dot_tick: int = 1
     dot_stack: int = 1
     consume_tick: int = 1
 
@@ -116,18 +117,23 @@ class Dot(BaseDot):
 
     @property
     def display_name(self):
+        dot_name = f"{self.buff_name}#{self.buff_id}-{self.buff_level}-{self.dot_tick}"
         if not self.dot_skill:
-            return super().display_name
+            return dot_name
         dot_skill_display_name = f"{self.dot_skill.display_name}-{self.dot_stack}"
         if not self.consume_skill:
-            return f"{super().display_name}({dot_skill_display_name})"
+            return f"{dot_name}({dot_skill_display_name})"
         consume_skill_display_name = f"{self.consume_skill.display_name}-{self.consume_tick}"
-        return f"{super().display_name}({dot_skill_display_name}|{consume_skill_display_name})"
+        return f"{dot_name}({dot_skill_display_name}|{consume_skill_display_name})"
 
     def damage(self, actual_critical_strike, actual_damage, parser):
         dot_skill_id, dot_skill_level = parser.current_dot_skills[self.buff_id]
         dot_stack = min(self.max_stack, parser.current_dot_stacks[self.buff_id])
-        damage_tuple = ((self.buff_id, self.buff_level), (dot_skill_id, dot_skill_level, dot_stack), tuple())
+        if self.active_cof != 1:
+            dot_tick = self.tick - parser.current_dot_ticks[self.buff_id] + 1
+        else:
+            dot_tick = 1
+        damage_tuple = ((self.buff_id, self.buff_level, dot_tick), (dot_skill_id, dot_skill_level, dot_stack), tuple())
         status_tuple = parser.dot_status
         parser.current_dot_ticks[self.buff_id] -= 1
         parser.current_last_dot[self.buff_id].append((damage_tuple, status_tuple))
@@ -141,20 +147,24 @@ class Dot(BaseDot):
     @property
     def physical_attack_power_cof(self):
         if not self.dot_skill.platform:
-            return PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
+            cof =  self.dot_skill.channel_interval
         else:
-            return PHYSICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
+            cof = self.dot_skill.dot_cof
+        cof *= self.active_cof ** (self.dot_tick - 1)
+        return PHYSICAL_DOT_ATTACK_POWER_COF(cof, self.interval, self.origin_tick)
 
     @property
     def magical_attack_power_cof(self):
         if not self.dot_skill.platform:
-            return MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.channel_interval, self.interval, self.origin_tick)
+            cof = self.dot_skill.channel_interval
         else:
-            return MAGICAL_DOT_ATTACK_POWER_COF(self.dot_skill.dot_cof, self.interval, self.origin_tick)
+            cof = self.dot_skill.dot_cof
+        cof *= self.active_cof ** (self.dot_tick - 1)
+        return MAGICAL_DOT_ATTACK_POWER_COF(cof, self.interval, self.origin_tick)
 
     def call_physical_damage(self, attribute: Attribute):
         damage = init_result(
-            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            damage_base=self.damage_base,
             attack_power_cof=self.physical_attack_power_cof, attack_power=attribute.physical_attack_power
         )
         if damage:
@@ -163,7 +173,7 @@ class Dot(BaseDot):
 
     def call_solar_damage(self, attribute: Attribute):
         damage = init_result(
-            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            damage_base=self.damage_base,
             attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.solar_attack_power
         )
         if damage:
@@ -172,7 +182,7 @@ class Dot(BaseDot):
 
     def call_lunar_damage(self, attribute: Attribute):
         damage = init_result(
-            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            damage_base=self.damage_base,
             attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.lunar_attack_power
         )
         if damage:
@@ -181,7 +191,7 @@ class Dot(BaseDot):
 
     def call_neutral_damage(self, attribute: Attribute):
         damage = init_result(
-            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            damage_base=self.damage_base,
             attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.neutral_attack_power
         )
         if damage:
@@ -190,7 +200,7 @@ class Dot(BaseDot):
 
     def call_poison_damage(self, attribute: Attribute):
         damage = init_result(
-            damage_base=self.damage_base, multi_stack=self.buff_stack,
+            damage_base=self.damage_base,
             attack_power_cof=self.magical_attack_power_cof, attack_power=attribute.poison_attack_power
         )
         if damage:
@@ -216,24 +226,24 @@ class Dot(BaseDot):
         total_damage, total_critical_damage = 0, 0
         if self.physical_damage_call:
             damage, critical_damage = self.call_physical_damage(attribute)
-            total_damage += damage * self.physical_damage_call
-            total_critical_damage += critical_damage * self.physical_damage_call
+            total_damage += damage * self.physical_damage_call * self.buff_stack
+            total_critical_damage += critical_damage * self.physical_damage_call * self.buff_stack
         if self.solar_damage_call:
             damage, critical_damage = self.call_solar_damage(attribute)
-            total_damage += damage * self.solar_damage_call
-            total_critical_damage += critical_damage * self.solar_damage_call
+            total_damage += damage * self.solar_damage_call * self.buff_stack
+            total_critical_damage += critical_damage * self.solar_damage_call * self.buff_stack
         if self.lunar_damage_call:
             damage, critical_damage = self.call_lunar_damage(attribute)
-            total_damage += damage * self.lunar_damage_call
-            total_critical_damage += critical_damage * self.lunar_damage_call
+            total_damage += damage * self.lunar_damage_call * self.buff_stack
+            total_critical_damage += critical_damage * self.lunar_damage_call * self.buff_stack
         if self.neutral_damage_call:
             damage, critical_damage = self.call_neutral_damage(attribute)
-            total_damage += damage * self.neutral_damage_call
-            total_critical_damage += critical_damage * self.neutral_damage_call
+            total_damage += damage * self.neutral_damage_call * self.buff_stack
+            total_critical_damage += critical_damage * self.neutral_damage_call * self.buff_stack
         if self.poison_damage_call:
             damage, critical_damage = self.call_poison_damage(attribute)
-            total_damage += damage * self.poison_damage_call
-            total_critical_damage += critical_damage * self.poison_damage_call
+            total_damage += damage * self.poison_damage_call * self.buff_stack
+            total_critical_damage += critical_damage * self.poison_damage_call * self.buff_stack
 
         critical_strike = min(self.dot_skill.critical_strike(attribute), 1)
         expected_damage = total_damage * (1 - critical_strike) + total_critical_damage * critical_strike

@@ -258,6 +258,16 @@ class NeutralCriticalRecipe(SkillRecipe):
         skill.neutral_critical_power_rate_add -= self.value[1]
 
 
+class PoisonCriticalRecipe(SkillRecipe):
+    def add_skill(self, skill: Skill):
+        skill.poison_critical_strike_rate_add += self.value[0]
+        skill.poison_critical_power_rate_add += self.value[1]
+
+    def sub_skill(self, skill: Skill):
+        skill.poison_critical_strike_rate_add -= self.value[0]
+        skill.poison_critical_power_rate_add -= self.value[1]
+
+
 class PoisonCriticalStrikeRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         skill.poison_critical_strike_rate_add += self.value

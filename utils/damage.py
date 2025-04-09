@@ -34,13 +34,13 @@ def surplus_result(surplus_cof, surplus):
 @cache
 def init_result(
         damage_base=0, damage_rand=0, damage_gain=0, attack_power_cof=0, attack_power=0,
-        weapon_damage_cof=0, weapon_damage=0, surplus_cof=0, surplus=0, multi_stack=1
+        weapon_damage_cof=0, weapon_damage=0, surplus_cof=0, surplus=0
 ):
     damage = int(base_result(damage_base, damage_rand, damage_gain))
     damage += int(attack_power_result(attack_power_cof, attack_power))
     damage += int(weapon_damage_result(weapon_damage_cof, weapon_damage))
     damage += int(surplus_result(surplus_cof, surplus))
-    return int(damage) * multi_stack
+    return damage
 
 
 @cache

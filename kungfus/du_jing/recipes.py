@@ -69,6 +69,10 @@ class 蝎心加伤害5(ChannelIntervalRecipe):
             super().sub_skill(skill)
 
 
+class 蝎心加会心(PoisonCriticalRecipe):
+    value = (1000, 100)
+
+
 class 蛇影提高伤害(ChannelIntervalRecipe):
     value = 1.25
 
@@ -157,6 +161,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     蝎心加伤害5: {
         1528: {}
+    },
+    蝎心加会心: {
+        1265: {}, 2427: {}
     },
     蛇影提高伤害: {
         1269: {}

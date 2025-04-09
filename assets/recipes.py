@@ -2280,6 +2280,18 @@ RECIPES = {
             "recipe_name": "90级毒经橙武属性1"
         }
     },
+    1265: {
+        1: {
+            "recipe_type": 2209,
+            "recipe_name": "90奇穴_蝎心加会心"
+        }
+    },
+    2427: {
+        1: {
+            "skill_id": 13476,
+            "recipe_name": "蝎心Dot加会心"
+        }
+    },
     1269: {
         1: {
             "skill_id": 6237,
