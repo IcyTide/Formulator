@@ -4,14 +4,6 @@ from base.gain import Gain
 from base.skill import Skill
 
 
-class 相使(Gain):
-    def add_skills(self, skills: Dict[int, Skill]):
-        skills[27555].pre_buffs = {20680: {1: 1}}
-
-    def sub_skills(self, skills: Dict[int, Skill]):
-        skills[27555].pre_buffs = {}
-
-
 TALENTS: List[Dict[int, Gain]] = [
     {
         38631: Gain("连茹")
@@ -33,7 +25,7 @@ TALENTS: List[Dict[int, Gain]] = [
         40194: Gain("六微", skill_ids=[40208])
     },
     {
-        28413: 相使("相使", buff_ids=[20680])
+        28413: Gain("相使", buff_ids=[20680])
     },
     {
         28419: Gain("凄骨", buff_ids=[30352])

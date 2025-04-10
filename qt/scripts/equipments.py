@@ -1,10 +1,10 @@
 from collections import defaultdict
-from typing import Dict, List, Union, Tuple
+from typing import Dict, List
 
 from assets.constant import ATTR_TYPE_TRANSLATE, ATTR_TYPE_TRANSLATE_REVERSE
 from assets.constant import POSITION_MAP, STONES_POSITIONS, EMBED_POSITIONS, SPECIAL_ENCHANT_MAP
 from assets.constant import STRENGTH_COF, EMBED_COF, MAX_STRENGTH_LEVEL, MAX_EMBED_LEVEL
-from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation, set_critical_set_rate
+from general.gains.equipment import EQUIPMENT_GAINS, set_real_formulation
 from kungfus.wen_shui_jue.gains import SecondaryWeapon
 from qt.components.equipments import EquipmentsWidget
 
@@ -218,11 +218,6 @@ def equipments_script(equipments_widget: EquipmentsWidget):
             set_real_formulation(False)
 
     equipments_widget.real_formulation.radio_button.clicked.connect(real_equipment_gain)
-
-    def critical_set_rate(value):
-        set_critical_set_rate(value / 100)
-
-    equipments_widget.critical_set_rate.spin_box.valueChanged.connect(critical_set_rate)
 
     def all_special_enchant_update():
         is_checked = equipments_widget.all_special_enchant.radio_button.isChecked()

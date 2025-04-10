@@ -67,8 +67,6 @@ class EquipmentGain(Gain):
 
 
 class CriticalSet(EquipmentGain):
-    rate = 0.7
-
     def __init__(self, buff: Buff):
         self.buff_ids = [buff.buff_id]
         self._attributes = [buff.attributes]
@@ -304,10 +302,6 @@ class WinterWeaponGain(EquipmentGain):
 
 def set_real_formulation(tag):
     EquipmentGain.real_formulation = tag
-
-
-def set_critical_set_rate(rate):
-    CriticalSet.rate = rate
 
 
 EQUIPMENT_GAINS: Dict[tuple, Gain] = {

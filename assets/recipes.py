@@ -4080,6 +4080,14 @@ RECIPES = {
             "recipe_name": "绝刀破招无视防御"
         }
     },
+    1879: {
+        1: {
+            "damage_addition": 306,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀_伤害提高30%"
+        }
+    },
     2045: {
         1: {
             "damage_addition": 31,

@@ -8,4 +8,5 @@ from kungfus.tie_gu_yi.talents import TALENTS
 
 
 def prepare(self, player_id):
-    pass
+    if 39045 in self.select_talents[player_id]:
+        self.buff_stacks[player_id][-9889][1] = 1

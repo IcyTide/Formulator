@@ -25,7 +25,7 @@ ATTRIBUTES = {
     10014: {
         "alias_name": "紫霞功",
         "max_level": 14,
-        "pve_addition_base": 174,
+        "pve_addition_base": 317,
         "magical_attack_power_base": [
             9,
             15,
@@ -103,7 +103,7 @@ ATTRIBUTES = {
     10021: {
         "alias_name": "花间游",
         "max_level": 14,
-        "pve_addition_base": 287,
+        "pve_addition_base": 307,
         "magical_attack_power_base": [
             10,
             17,
@@ -412,6 +412,12 @@ ATTRIBUTES = {
             4696
         ]
     },
+    10389: {
+        "alias_name": "铁骨衣",
+        "max_level": 14,
+        "vitality_to_parry": 2304,
+        "vitality_to_physical_attack_power": 41
+    },
     10447: {
         "alias_name": "莫问",
         "max_level": 14,
@@ -711,7 +717,7 @@ ATTRIBUTES = {
     10786: {
         "alias_name": "周天功",
         "max_level": 14,
-        "pve_addition_base": 103,
+        "pve_addition_base": 287,
         "magical_attack_power_base": [
             9,
             15,

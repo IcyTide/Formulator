@@ -42,7 +42,7 @@ class 贯侯_标鹄伤害增加(PveAdditionRecipe):
 
 
 class 劲风簇非侠士(PveAdditionRecipe):
-    value = 717
+    value = 820
 
 
 class 饮雨簇无视防御(PhysicalShieldGainRecipe):

@@ -117,8 +117,6 @@ class EquipmentsWidget(QWidget):
         top_layout.addWidget(self.real_formulation, 3)
         self.all_special_enchant = RadioWithLabel("一键大附魔")
         top_layout.addWidget(self.all_special_enchant, 1)
-        self.critical_set_rate = SpinWithLabel("套装效果", "覆盖(%)", maximum=100, value=100 * CriticalSet.rate)
-        top_layout.addWidget(self.critical_set_rate, 1)
         self.all_strength_level = ComboWithLabel(
             "全部精炼等级", items=[str(i) for i in range(MAX_STRENGTH_LEVEL + 1)], index=MAX_STRENGTH_LEVEL)
         top_layout.addWidget(self.all_strength_level, 1)

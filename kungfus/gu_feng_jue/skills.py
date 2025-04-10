@@ -5,7 +5,8 @@ from base.skill import Skill
 SKILLS: Dict[type, Dict[int, dict]] = {
     Skill: {
         # 通用
-        **{skill_id: dict(channel_interval=24) for skill_id in (32974, 32975)}, 33146: {}, 32510: {},
+        **{skill_id: dict(channel_interval=24) for skill_id in (32974, 32975)}, 33146: {}, 32510: {}, 40358: {},
+        40828: {},
         # 骤雨劲
         32246: {}, 32766: {},
         # 流云势法
@@ -17,7 +18,8 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         # 游风步
         32357: {},
         # 奇穴
-        40645: {}, 34695: {}, 36118: {},
+        40645: {}, **{skill_id: {} for skill_id in list(range(32359, 32361 + 1)) + list(range(32216, 32218 + 1))},
+        34695: {}, 36118: {},
         # 装备
         33239: {}, 33133: dict(bind_dots={24650: 1}),
     }

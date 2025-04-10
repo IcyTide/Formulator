@@ -7,10 +7,12 @@ TALENTS: List[Dict[int, Gain]] = [
         20333: Gain("江汉", recipes=[(5426, 1)])
     },
     {
-        20335: Gain("扶桑", recipes=[(4694, 1)])
+        20335: Gain("扶桑", recipes=[(4694, 1)]),
+        30504: Gain("潮音", skill_ids=[30506])
     },
     {
-        25267: Gain("驾鸾")
+        25267: Gain("驾鸾"),
+        20746: Gain("羽彰", buff_ids=[13560])
     },
     {
         20348: Gain("清源", buff_ids=[29344])
@@ -22,10 +24,12 @@ TALENTS: List[Dict[int, Gain]] = [
         38668: Gain("游仙", buff_ids=[14083])
     },
     {
-        38670: Gain("鸿轨", buff_ids=[29348])
+        38670: Gain("鸿轨", buff_ids=[29348]),
+        20694: Gain("凝气")
     },
     {
-        20351: Gain("藏锋")
+        20351: Gain("藏锋"),
+        32488: Gain("海碧")
     },
     {
         21293: Gain("溯徊", skill_ids=[30503])

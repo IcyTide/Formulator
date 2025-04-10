@@ -138,7 +138,7 @@ class BaseDamage(BaseSkill):
         else:
             channel_interval = self._channel_interval[self.skill_level - 1] * self.channel_interval_add
 
-        return int(channel_interval)
+        return channel_interval
 
     @channel_interval.setter
     def channel_interval(self, channel_interval):

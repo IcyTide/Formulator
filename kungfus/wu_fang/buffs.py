@@ -7,6 +7,6 @@ BUFFS: Dict[type, Dict[int, dict]] = {
         # 通用
         21168: dict(buff_name="植物温性", continuous=True),
         # 奇穴
-        20680: {}, 30352: dict(buff_name="凄骨"), 20699: dict(buff_name="养荣"),
+        20680: dict(begin_frame_shift=-2), 30352: dict(buff_name="凄骨"), 20699: dict(buff_name="养荣"),
     }
 }

@@ -11,7 +11,7 @@ from general.recipes import GENERAL_RECIPES
 from general.skills import GENERAL_SKILLS
 from kungfus import ao_xue_zhan_yi, jing_yu_jue, xiao_chen_jue, bei_ao_jue, gu_feng_jue
 from kungfus import tai_xu_jian_yi, wen_shui_jue, fen_shan_jing, ling_hai_jue, yin_long_jue, shan_hai_xin_jue
-from kungfus import tie_lao_lv, ming_zun_liu_li_ti
+from kungfus import tie_lao_lv, ming_zun_liu_li_ti, tie_gu_yi
 from kungfus import yi_jin_jing, hua_jian_you, tian_luo_gui_dao, fen_ying_sheng_jue, tai_xuan_jing, zhou_tian_gong
 from kungfus import zi_xia_gong, bing_xin_jue, du_jing, mo_wen, wu_fang
 
@@ -150,6 +150,9 @@ SUPPORT_KUNGFU = {
     ),
     10390: Kungfu(
         10390, "分山劲", "苍云", "身法", "外功", "锋凌横绝阵", fen_shan_jing
+    ),
+    10389: Kungfu(
+        10389, "铁骨衣", "苍云", "", "防御", "", tie_gu_yi
     ),
     10447: Kungfu(
         10447, "莫问", "长歌", "根骨", "内功", "万籁金弦阵", mo_wen

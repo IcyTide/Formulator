@@ -2440,7 +2440,7 @@ BUFFS = {
     },
     30748: {
         "attributes": {
-            "strain_rate": 22
+            "strain_base": 2824
         },
         "max_level": 1,
         "alias_name": "精简下装提高无双_正常版",
@@ -2483,28 +2483,44 @@ BUFFS = {
         "recipes": {}
     },
     30755: {
-        "attributes": {
-            "physical_overcome_base": 1412,
-            "magical_overcome_base": 1412
-        },
+        "attributes": [
+            {
+                "physical_overcome_base": 1412,
+                "magical_overcome_base": 1412
+            },
+            {
+                "physical_overcome_base": 2824,
+                "magical_overcome_base": 2824
+            }
+        ],
         "max_level": 2,
         "alias_name": "精简戒指1加破防",
         "max_stack": 1,
         "recipes": {}
     },
     30756: {
-        "attributes": {
-            "all_critical_strike_base": 1412
-        },
+        "attributes": [
+            {
+                "all_critical_strike_base": 1412
+            },
+            {
+                "all_critical_strike_base": 2824
+            }
+        ],
         "max_level": 2,
         "alias_name": "精简戒指2加会心",
         "max_stack": 1,
         "recipes": {}
     },
     30757: {
-        "attributes": {
-            "surplus_base": 1412
-        },
+        "attributes": [
+            {
+                "surplus_base": 1412
+            },
+            {
+                "surplus_base": 2824
+            }
+        ],
         "max_level": 2,
         "alias_name": "精简戒指3加破招",
         "max_stack": 1,
@@ -7655,6 +7671,56 @@ BUFFS = {
             {}
         ]
     },
+    8276: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "怒炎",
+        "alias_name": "绝刀伤害提高30%",
+        "max_stack": 1,
+        "recipes": {
+            1879: 1
+        }
+    },
+    9889: {
+        "attributes": {
+            "all_shield_ignore": 512
+        },
+        "max_level": 1,
+        "buff_name": "蔑视",
+        "alias_name": "蔑视_无视目标30%外防",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8423: {
+        "attributes": {
+            "physical_attack_power_gain": 102,
+            "strain_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "从容",
+        "alias_name": "从容",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    8271: {
+        "attributes": {
+            "physical_attack_power_base": 150
+        },
+        "max_level": 1,
+        "buff_name": "寒甲",
+        "alias_name": "寒甲_反击叠加AP效果",
+        "max_stack": 125,
+        "recipes": {}
+    },
+    17772: {
+        "attributes": {
+            "physical_attack_power_base": 15000
+        },
+        "max_level": 1,
+        "alias_name": "寒甲_3万攻击力",
+        "max_stack": 125,
+        "recipes": {}
+    },
     9433: {
         "attributes": {},
         "max_level": 3,
@@ -7829,6 +7895,20 @@ BUFFS = {
         "max_level": 1,
         "buff_name": "太息",
         "alias_name": "蓬莱_浮游天地_浮空加攻击力",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    13560: {
+        "attributes": [
+            {},
+            {},
+            {
+                "physical_overcome_gain": 205
+            }
+        ],
+        "max_level": 3,
+        "buff_name": "翼绝云天",
+        "alias_name": "翼绝云天每2秒造成一次伤害",
         "max_stack": 1,
         "recipes": {}
     },
@@ -8266,16 +8346,6 @@ BUFFS = {
         "buff_name": "戗风",
         "alias_name": "奇穴_戗风_增伤",
         "max_stack": 2,
-        "recipes": {}
-    },
-    30311: {
-        "attributes": {
-            "all_damage_addition": 154
-        },
-        "max_level": 1,
-        "buff_name": "击懈",
-        "alias_name": "奇穴_击懈_击破弱点增伤",
-        "max_stack": 1,
         "recipes": {}
     },
     24209: {

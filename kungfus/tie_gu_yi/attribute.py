@@ -3,13 +3,11 @@ from base.constant import BINARY_SCALE
 
 
 class Attribute(PhysicalAttribute, TankAttribute):
-    attribute_id = {
-        0: 10389
-    }
+    attribute_id = 10389
 
     _tank_buff_level = 5
-    vitality_to_physical_attack_power: int = 174
-    vitality_to_physical_overcome: int = 147
+    vitality_to_physical_attack_power: int = 0
+    vitality_to_physical_overcome: int = 0
     vitality_to_parry: int = 0
 
     @property
