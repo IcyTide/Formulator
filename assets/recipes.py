@@ -3816,12 +3816,20 @@ RECIPES = {
             "recipe_name": "《破阵令·盾飞》参悟断篇"
         }
     },
-    1941: {
+    5804: {
         1: {
-            "damage_addition": 410,
-            "skill_id": 13055,
-            "recipe_type": 13055,
-            "recipe_name": "绝刀无消耗秘籍"
+            "damage_addition": 102,
+            "skill_id": 13046,
+            "recipe_type": 13046,
+            "recipe_name": "盾猛伤害提高10%"
+        }
+    },
+    5805: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 13054,
+            "recipe_type": 13054,
+            "recipe_name": "斩刀伤害提高10%"
         }
     },
     5735: {
@@ -3870,6 +3878,14 @@ RECIPES = {
             "skill_id": 13054,
             "recipe_type": 13054,
             "recipe_name": "90橙武分山劲属性2"
+        }
+    },
+    1941: {
+        1: {
+            "damage_addition": 410,
+            "skill_id": 13055,
+            "recipe_type": 13055,
+            "recipe_name": "绝刀无消耗秘籍"
         }
     },
     1833: {

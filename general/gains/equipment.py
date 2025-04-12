@@ -173,8 +173,8 @@ class WristGain(EquipmentGain):
 
 
 class BeltGain_1(EquipmentGain):
-    buff_ids = [30705]
-    _attributes = GENERAL_BUFFS[30705].all_attributes
+    buff_ids = [30742]
+    _attributes = GENERAL_BUFFS[30742].all_attributes
 
 
 class BeltGain_2(EquipmentGain):

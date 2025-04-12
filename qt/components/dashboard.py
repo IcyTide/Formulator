@@ -85,6 +85,6 @@ class DashboardWidget(QWidget):
 
     def pop_warning(self, text):
         msg_box = QMessageBox(self)
-        msg_box.setWindowTitle("报告")
+        msg_box.setWindowTitle("可能影响结果的问题")
         msg_box.setText(text)
         msg_box.exec()

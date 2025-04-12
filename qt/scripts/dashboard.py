@@ -98,8 +98,10 @@ def dashboard_script(parser: Parser,
         dashboard_widget.init_attribute.set_content(attr_content(analyzer.attribute))
         analyzer.add_gains(bonuses.gains)
         analyzer.add_attrs(consumables.attrs)
-        analyzer.add_gains(equipment_gains)
-        analyzer.add_recipes(equipment_recipes)
+        if not_support_gains := analyzer.add_gains(equipment_gains):
+            dashboard_widget.pop_warning(f"以下装备特效未支持：{';'.join(not_support_gains)}")
+        if not_support_recipes := analyzer.add_recipes(equipment_recipes):
+            dashboard_widget.pop_warning(f"以下装备秘籍未支持：{';'.join(not_support_recipes)}")
 
         analyzer.add_gains([kungfu.talent_encoder[t] for t in talents.gains])
         analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])

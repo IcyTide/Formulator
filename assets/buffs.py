@@ -2398,21 +2398,14 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    30705: {
-        "attributes": [
-            {
-                "all_critical_strike_base": 7617
-            },
-            {
-                "all_critical_strike_base": 3047
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "密玉神山·横·腕",
-        "alias_name": [
-            "PVP附魔2护手拍卖_全会心添加_太极秘录",
-            "PVP附魔2护手战阶_全会心添加_太极秘录"
-        ],
+    30742: {
+        "attributes": {
+            "all_critical_strike_base": 988,
+            "physical_overcome_base": 988,
+            "magical_overcome_base": 988
+        },
+        "max_level": 1,
+        "alias_name": "精简腰带提高属性_正常版",
         "max_stack": 1,
         "recipes": {}
     },
@@ -7510,16 +7503,6 @@ BUFFS = {
             }
         ]
     },
-    8385: {
-        "attributes": {
-            "physical_attack_power_gain": 154
-        },
-        "max_level": 1,
-        "buff_name": "血怒",
-        "alias_name": "血怒奇穴加强后",
-        "max_stack": 3,
-        "recipes": {}
-    },
     17176: {
         "attributes": {
             "all_damage_addition": 51
@@ -7541,6 +7524,16 @@ BUFFS = {
         "recipes": {
             5735: 1
         }
+    },
+    8385: {
+        "attributes": {
+            "physical_attack_power_gain": 154
+        },
+        "max_level": 1,
+        "buff_name": "血怒",
+        "alias_name": "血怒奇穴加强后",
+        "max_stack": 3,
+        "recipes": {}
     },
     27161: {
         "attributes": {

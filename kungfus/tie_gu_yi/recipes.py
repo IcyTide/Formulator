@@ -29,6 +29,8 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1953: {}, 1954: {},
         # 奇穴
         1879: {},
+        # 装备
+        1932: {}, 1933: {}, 1937: {}, 1938: {}, 1941: {}
     },
     CriticalStrikeRecipe_200: {
         1833: {},

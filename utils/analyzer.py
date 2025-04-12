@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from functools import cached_property
 from typing import Dict, Union, List
 
+from assets.constant import MOBILE_RECIPE_ID_START
 from base.attribute import Attribute
 from base.buff import Buff
 from base.constant import FRAME_PER_SECOND
@@ -299,27 +300,34 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
             self.attribute[attr] -= value
 
     def add_gains(self, gains):
+        not_support_gains = []
         for gain in gains:
             if not isinstance(gain, Gain):
                 if gain not in self.kungfu.gains:
+                    not_support_gains.append(str(gain))
                     continue
                 gain = self.kungfu.gains[gain]
 
             gain.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.add_recipes(gain.recipes)
             self.gains.append(gain)
+        return not_support_gains
 
     def sub_gains(self):
         for gain in self.gains:
             gain.sub(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
 
     def add_recipes(self, recipes):
+        not_support_recipes = []
         for recipe_key in recipes:
             if recipe_key not in self.kungfu.recipes:
+                if recipe_key[0] < MOBILE_RECIPE_ID_START:
+                    not_support_recipes.append(str(recipe_key))
                 continue
             recipe = self.kungfu.recipes[recipe_key]
             recipe.add(self.attribute, self.kungfu.buffs, self.kungfu.dots, self.kungfu.skills)
             self.recipes.append(recipe)
+        return not_support_recipes
 
     def sub_recipes(self):
         for recipe in self.recipes:
