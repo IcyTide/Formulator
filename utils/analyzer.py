@@ -1,4 +1,5 @@
 from collections import defaultdict
+
 from copy import copy
 from dataclasses import dataclass
 from functools import cached_property
@@ -10,7 +11,7 @@ from base.buff import Buff
 from base.constant import FRAME_PER_SECOND
 from base.dot import Dot
 from base.gain import Gain
-from base.skill import Skill, NpcSkill, PetSkill
+from base.skill import Skill, PetSkill
 from kungfus import Kungfu
 
 
@@ -21,6 +22,7 @@ class Detail:
     critical_strike: float = 0.
     expected_damage: float = 0.
 
+    expected_count: float = 0
     timeline: List[tuple] = None
     gradients: Dict[str, float] = None
 
@@ -32,9 +34,13 @@ class Detail:
         if not self.gradients:
             self.gradients = defaultdict(float)
 
-    @cached_property
-    def count(self):
+    @property
+    def actual_count(self):
         return len(self.timeline)
+
+    @cached_property
+    def expected_critical_count(self):
+        return self.critical_strike * self.expected_count
 
     @cached_property
     def actual_critical_count(self):
@@ -42,7 +48,11 @@ class Detail:
 
     @cached_property
     def actual_critical_strike(self):
-        return self.actual_critical_count / self.count
+        return self.actual_critical_count / self.actual_count
+
+    @cached_property
+    def total_expected_damage(self):
+        return self.expected_damage * self.expected_count
 
     @cached_property
     def total_actual_damage(self):
@@ -50,7 +60,7 @@ class Detail:
 
     @cached_property
     def actual_damage(self):
-        return self.total_actual_damage / self.count
+        return self.total_actual_damage / self.actual_count
 
     @property
     def anomaly_detail(self):
@@ -276,13 +286,13 @@ class SkillAnalyzer(BaseAnalyzer):
             damage_name = damage.buff_name
         else:
             skill_id, skill_level = damage_tuple
-            damage, damage.skill_level, = self.kungfu.skills[skill_id], skill_level
+            damage, damage.skill_level = self.kungfu.skills[skill_id], skill_level
             damage_name = damage.skill_name
         return damage, damage_name
 
 
 class Analyzer(BuffAnalyzer, SkillAnalyzer):
-    def __init__(self, kungfu: Kungfu, target_level):
+    def __init__(self, kungfu: Kungfu, target_level: int, start_time: float, end_time: float, record):
         self.kungfu = kungfu
         self.attribute = kungfu.attribute()
         self.attribute.target.level = target_level
@@ -290,6 +300,15 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
         self.recipes = []
 
         self.add_recipes(self.attribute.recipes)
+
+        self.start_time = start_time
+        self.start_frame = int(start_time * FRAME_PER_SECOND)
+        self.end_time = end_time
+        self.end_frame = int(end_time * FRAME_PER_SECOND)
+        self.record = record
+        self.total = Detail()
+        self.details = defaultdict(dict)
+        self.summary = defaultdict(Detail)
 
     def add_attrs(self, attrs):
         for attr, value in attrs.items():
@@ -342,56 +361,100 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
             setattr(self.attribute, attr, origin_value)
         return results
 
-    def analyze_details(self, record, start_frame, end_frame):
-        total = Detail()
-        details = {}
-        summary = defaultdict(Detail)
-        start_frame = int(start_frame * FRAME_PER_SECOND)
-        end_frame = int(end_frame * FRAME_PER_SECOND)
+    def cal_detail(self, damage, status_tuple):
+        damage_detail = self.details[damage.display_name]
+        if "" not in damage_detail:
+            damage_detail[""] = Detail()
+        buffs_tuple = [self.filter_status(status) for status in status_tuple]
 
-        for damage, status in record.items():
+        display_buffs = self.add_buffs(*buffs_tuple, damage)
+        buffs = self.concat_buffs(*display_buffs)
+        if buffs in damage_detail:
+            detail = damage_detail[buffs]
+        else:
+            detail = damage_detail[buffs] = Detail(*damage(self.attribute))
+            detail.gradients = self.cal_delta(damage)
+        self.sub_buffs(*buffs_tuple, damage)
+        return detail
+
+    def analyze_timeline(self, damage, detail, timeline):
+        damage_total = self.details[damage.display_name][""]
+        if isinstance(damage, Skill) and damage.prob:
+            count = 0
+            actual_timeline = []
+            for item in timeline:
+                if item[-1]:
+                    actual_timeline.append(item)
+                else:
+                    count += damage.hit_prob + damage.critical_prob * detail.critical_strike
+            detail.timeline += actual_timeline
+            damage_total.timeline += actual_timeline
+        else:
+            count = len(timeline)
+            detail.timeline += timeline
+            damage_total.timeline += timeline
+        return count
+
+    def analyze_detail(self, damage, detail, count):
+        damage_total = self.details[damage.display_name][""]
+
+        detail.expected_count += count
+        damage_total.expected_count += count
+        damage_total.hit_damage += detail.hit_damage * count
+        damage_total.critical_damage += detail.critical_damage * count
+        damage_total.critical_strike += detail.critical_strike * count
+        damage_total.expected_damage += detail.expected_damage * count
+        for attr, residual_damage in detail.gradients.items():
+            self.total.gradients[attr] += residual_damage * count
+
+    def analyze_total(self, damage, damage_name):
+        damage_total = self.details[damage.display_name][""]
+        if damage_total.expected_count:
+            self.total.expected_damage += damage_total.expected_damage
+            self.summary[damage_name].critical_strike += damage_total.critical_strike
+            self.summary[damage_name].expected_damage += damage_total.expected_damage
+            self.summary[damage_name].expected_count += damage_total.expected_count
+            self.summary[damage_name].timeline += damage_total.timeline
+            damage_total.hit_damage /= damage_total.expected_count
+            damage_total.critical_damage /= damage_total.expected_count
+            damage_total.expected_damage /= damage_total.expected_count
+            damage_total.critical_strike /= damage_total.expected_count
+        else:
+            self.details.pop(damage.display_name)
+
+    def sort_details(self):
+        for detail in self.summary.values():
+            detail.critical_strike /= detail.expected_count
+        self.summary = {
+            damage: detail
+            for damage, detail in
+            sorted(self.summary.items(), key=lambda x: x[1].expected_damage, reverse=True)
+        }
+        self.details = {
+            damage: {
+                buff: detail
+                for buff, detail in
+                sorted(details.items(), key=lambda x: x[1].total_expected_damage, reverse=True)
+            }
+            for damage, details in
+            sorted(self.details.items(), key=lambda x: x[1][""].total_expected_damage, reverse=True)
+        }
+
+    def analyze_details(self):
+
+        for damage, status in self.record.items():
             damage, damage_name = self.split_damage(damage)
             if not damage.activate:
                 continue
-            damage_detail = details[damage.display_name] = {}
-            damage_summary = summary[damage_name]
-            damage_total = damage_detail[""] = Detail()
+
             for status_tuple, timeline in status.items():
-                if not (timeline := [t for t in timeline if start_frame <= t[0] < end_frame]):
+                if not (timeline := [t for t in timeline if self.start_frame <= t[0] <= self.end_frame]):
                     continue
 
-                buffs_tuple = [self.filter_status(status) for status in status_tuple]
+                detail = self.cal_detail(damage, status_tuple)
+                count = self.analyze_timeline(damage, detail, timeline)
+                self.analyze_detail(damage, detail, count)
 
-                display_buffs = self.add_buffs(*buffs_tuple, damage)
-                buffs = self.concat_buffs(*display_buffs)
-                if buffs in damage_detail:
-                    detail = damage_detail[buffs]
-                else:
-                    detail = damage_detail[buffs] = Detail(*damage(self.attribute))
-                    detail.gradients = self.cal_delta(damage)
-                self.sub_buffs(*buffs_tuple, damage)
+            self.analyze_total(damage, damage_name)
 
-                detail.timeline += timeline
-                damage_total.timeline += timeline
-
-                damage_total.hit_damage += detail.hit_damage * len(timeline)
-                damage_total.critical_damage += detail.critical_damage * len(timeline)
-                damage_total.critical_strike += detail.critical_strike * len(timeline)
-                damage_total.expected_damage += detail.expected_damage * len(timeline)
-                for attr, residual_damage in detail.gradients.items():
-                    total.gradients[attr] += residual_damage * len(timeline)
-
-            if damage_total.timeline:
-                total.expected_damage += damage_total.expected_damage
-                damage_summary.critical_strike += damage_total.critical_strike
-                damage_summary.expected_damage += damage_total.expected_damage
-                damage_summary.timeline += damage_total.timeline
-                damage_total.hit_damage /= len(damage_total.timeline)
-                damage_total.critical_damage /= len(damage_total.timeline)
-                damage_total.expected_damage /= len(damage_total.timeline)
-                damage_total.critical_strike /= len(damage_total.timeline)
-            else:
-                details.pop(damage.display_name)
-
-        summary = {damage: detail for damage, detail in summary.items() if detail.count}
-        return total, summary, details
+        self.sort_details()

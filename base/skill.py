@@ -18,7 +18,6 @@ class BaseSkill:
 
     _bind_dots: List[Dict[int, int]] = []
     _consume_dots: List[Dict[int, Union[int, Dict[int, int]]]] = []
-    sub_skills: List[Tuple[int, int]] = []
 
     def set_asset(self, attrs):
         for attr, value in SKILLS.get(self.skill_id, {}).items():
@@ -83,6 +82,9 @@ class BaseDamage(BaseSkill):
     kind_type: str = ""
     platform: int
 
+    hit_prob: float = 0.
+    critical_prob: float = 0.
+
     _prepare_frame: List[int] = []
     _channel_interval: List[int] = []
     _weapon_damage_cof: List[int] = []
@@ -106,6 +108,10 @@ class BaseDamage(BaseSkill):
 
     physical_attack_power_base: List[int] = []
     magical_attack_power_base: List[int] = []
+
+    @property
+    def prob(self):
+        return self.hit_prob or self.critical_prob
 
     @property
     def prepare_frame(self):
@@ -1404,6 +1410,7 @@ class Skill(Damage):
     key_skill: bool = False
     pet_buffs: dict = None
 
+    sub_skills: List[Tuple[int, int]] = None
     _pre_effects: list = None
     pre_buffs: dict = None
     pre_target_buffs: dict = None
@@ -1415,6 +1422,8 @@ class Skill(Damage):
         if not self.pet_buffs:
             self.pet_buffs = {}
 
+        if not self.sub_skills:
+            self.sub_skills = []
         if not self._pre_effects:
             self._pre_effects = [[]]
         if not self.pre_buffs:

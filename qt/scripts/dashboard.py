@@ -25,34 +25,35 @@ def attr_content(attribute):
     return content
 
 
-def summary_content(summary: Dict[str, Detail], total: Detail):
+def summary_content(analyzer: Analyzer):
     content = []
-    total_damage = total.expected_damage
-    for skill in sorted(summary, key=lambda x: summary[x].expected_damage, reverse=True):
-        detail = summary[skill]
-        critical_count = round(detail.critical_strike, 2)
-        critical_rate = round(critical_count / detail.count * 100, 2)
-        hit_count = round(detail.count - critical_count, 2)
+    total_damage = analyzer.total.expected_damage
+    for skill, detail in analyzer.summary.items():
+        critical_rate = round(detail.critical_strike * 100, 2)
+        critical_count = round(detail.expected_critical_count, 2)
         hit_rate = round(100 - critical_rate, 2)
+        hit_count = round(detail.actual_count - critical_count, 2)
         damage = round(detail.expected_damage, 2)
         damage_rate = round(damage / total_damage * 100, 2)
         content.append(
-            [f"{skill}/{detail.count}",
+            [f"{skill}/{round(detail.expected_count, 2)}",
              f"{hit_count}/{hit_rate}%", f"{critical_count}/{critical_rate}%", f"{damage}/{damage_rate}%"]
         )
     return content
 
 
-def gradient_content(total: Detail):
-    content = []
-    for k, v in total.gradients.items():
-        content.append([ATTR_TYPE_TRANSLATE[k], f"{round((v / total.expected_damage - 1) * 100, 2)}%"])
-    return content
+def total_content(analyzer: Analyzer):
+    gradients = []
+    for k, v in analyzer.total.gradients.items():
+        gradients.append([ATTR_TYPE_TRANSLATE[k], f"{round((v / analyzer.total.expected_damage - 1) * 100, 2)}%"])
+
+    dps = str(round(analyzer.total.expected_damage / (analyzer.end_time - analyzer.start_time)))
+    return dps, gradients
 
 
-def anomaly_detect(details: Dict[str, Dict[str, Detail]]):
+def anomaly_detect(analyzer: Analyzer):
     anomaly_details = {}
-    for skill, skill_detail in details.items():
+    for skill, skill_detail in analyzer.details.items():
         anomaly_details[skill] = {}
         for status, detail in skill_detail.items():
             if not status:
@@ -68,13 +69,12 @@ def detail_content(detail: Detail):
     damage_content = [
         ["命中伤害", f"{round(detail.hit_damage)}"],
         ["会心伤害", f"{round(detail.critical_damage)}"],
-        ["期望会心", f"{round(detail.critical_strike * 100, 2)}%"],
-        ["实际会心", f"{round(detail.actual_critical_strike * 100, 2)}%"],
+        ["期望/实际会心", f"{round(detail.critical_strike * 100, 2)}%/{round(detail.actual_critical_strike * 100, 2)}%"],
+        ["期望/实际数量", f"{round(detail.expected_count, 2)}/{detail.actual_count}"],
         ["期望平均伤害", f"{round(detail.expected_damage)}"],
         ["实际平均伤害", f"{round(detail.actual_damage)}"],
-        ["期望总伤害", f"{round(detail.expected_damage * detail.count)}"],
+        ["期望总伤害", f"{round(detail.total_expected_damage)}"],
         ["实际总伤害", f"{round(detail.total_actual_damage)}"],
-        ["数量", f"{detail.count}"]
     ]
     timeline_content = [
         [str(i + 1), str(round(t[0] / FRAME_PER_SECOND, 2)), "会心" if t[1] else "命中", str(t[2])]
@@ -92,7 +92,9 @@ def dashboard_script(parser: Parser,
         kungfu = parser.current_kungfu
 
         target_level = int(dashboard_widget.target_level.combo_box.currentText())
-        analyzer = Analyzer(kungfu, target_level)
+        start_time = dashboard_widget.start_time.spin_box.value()
+        end_time = dashboard_widget.end_time.spin_box.value()
+        analyzer = Analyzer(kungfu, target_level, start_time, end_time, record)
         equipment_attrs, equipment_gains, equipment_recipes = equipments.details
         analyzer.add_attrs(equipment_attrs)
         dashboard_widget.init_attribute.set_content(attr_content(analyzer.attribute))
@@ -107,20 +109,18 @@ def dashboard_script(parser: Parser,
         analyzer.add_recipes([kungfu.recipe_choices[s][r] for e in recipes.recipes for s, r in e])
 
         dashboard_widget.final_attribute.set_content(attr_content(analyzer.attribute))
-
-        start_time = dashboard_widget.start_time.spin_box.value()
-        end_time = dashboard_widget.end_time.spin_box.value()
-        total, summary, details = analyzer.analyze_details(record, start_time, end_time)
+        analyzer.analyze_details()
         analyzer.sub_gains()
         analyzer.sub_recipes()
 
-        dashboard_widget.dps.set_text(str(round(total.expected_damage / (end_time - start_time))))
-        dashboard_widget.gradients.set_content(gradient_content(total))
-        dashboard_widget.summary.set_content(summary_content(summary, total))
+        dps, gradients_content = total_content(analyzer)
+        dashboard_widget.dps.set_text(dps)
+        dashboard_widget.gradients.set_content(gradients_content)
+        dashboard_widget.summary.set_content(summary_content(analyzer))
 
-        dashboard_widget.detail_widget.details = details
+        dashboard_widget.detail_widget.details = analyzer.details
         set_skills()
-        dashboard_widget.anomaly_widget.details = anomaly_detect(details)
+        dashboard_widget.anomaly_widget.details = anomaly_detect(analyzer)
         set_anomaly_skills()
 
     dashboard_widget.formulate_button.clicked.connect(formulate)

@@ -28,10 +28,11 @@ TALENTS: List[Dict[int, Gain]] = [
         34912: Gain("业火麟光", skill_ids=[34674, 37448])
     },
     {
-        13126: Gain("恋战", attributes=dict(all_damage_addition=102))
+        36058: Gain("援戈", skill_ids=[36482, 36065])
     },
     {
-        36058: Gain("援戈", skill_ids=[36482, 36065])
+        38969: Gain("血魄"),
+        13126: Gain("恋战", attributes=dict(all_damage_addition=102))
     },
     {
         13304: Gain("愤恨", buff_ids=[8385]),

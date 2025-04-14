@@ -2,7 +2,6 @@ from typing import Dict, List
 
 from base.gain import Gain
 
-
 TALENTS: List[Dict[int, Gain]] = [
     {
         16691: Gain("龙息")
@@ -33,7 +32,8 @@ TALENTS: List[Dict[int, Gain]] = [
         38535: Gain("楚歌", skill_ids=[38537])
     },
     {
-        17056: Gain("绝期", skill_ids=[34585, 17060], recipes=[(4319, 1), (2833, 1)])
+        17056: Gain("绝期", skill_ids=[34585, 17060], skill_events=[(34585, 1, 306 / 1024, 0, 131084, 0)],
+                    recipes=[(4319, 1), (2833, 1)])
     },
     {
         16977: Gain("冷川")

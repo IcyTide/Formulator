@@ -9,6 +9,7 @@ def prepare_skills():
     skills = []
     for kungfu in SUPPORT_KUNGFU.values():
         for skill_id in kungfu.skills:
+            skill_id = abs(skill_id)
             if skill_id in skills:
                 continue
             skills.append(skill_id)
@@ -169,7 +170,7 @@ class SkillLua:
         return
 
     def __init__(
-            self, skill_id, skill_level, skill_name, kind_type, recipe_type, recipe_mask,
+            self, skill_id, skill_level, skill_name, kind_type, event_mask_1, event_mask_2, recipe_type, recipe_mask,
             weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
     ):
         self.skill_id = skill_id
@@ -177,6 +178,8 @@ class SkillLua:
         if skill_name:
             self.skill_name = skill_name
         self.kind_type = kind_type
+        self.event_mask_1 = event_mask_1
+        self.event_mask_2 = event_mask_2
         self.recipe_type = recipe_type
         self.recipe_mask = recipe_mask
         self.weapon_request = weapon_request
@@ -268,10 +271,10 @@ def parse_lua(skill_id):
     alias_name = skill_row.SkillName
     max_level = int(skill_row.MaxLevel)
     kind_type = skill_row.KindType if pd.notna(skill_row.KindType) else ""
-    recipe_type = skill_row.RecipeType if pd.notna(skill_row.RecipeType) else 0
-    recipe_mask = skill_row.RecipeTagMask if pd.notna(skill_row.RecipeTagMask) else 0
-    # event_mask_1 = int(skill_row.SkillEventMask1) if pd.notna(skill_row.SkillEventMask1) else 0
-    # event_mask_2 = int(skill_row.SkillEventMask2) if pd.notna(skill_row.SkillEventMask2) else 0
+    recipe_type = int(skill_row.RecipeType) if pd.notna(skill_row.RecipeType) else 0
+    recipe_mask = int(skill_row.RecipeTagMask) if pd.notna(skill_row.RecipeTagMask) else 0
+    event_mask_1 = int(skill_row.SkillEventMask1) if pd.notna(skill_row.SkillEventMask1) else 0
+    event_mask_2 = int(skill_row.SkillEventMask2) if pd.notna(skill_row.SkillEventMask2) else 0
     weapon_request = int(skill_row.WeaponRequest)
     use_skill_cof = int(skill_row.UseSkillCoefficient)
     platform = skill_row.Platform
@@ -286,7 +289,8 @@ def parse_lua(skill_id):
     lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path), encoding="utf-8").read()
     lua_code = INCLUDE_PATTERN.sub('', lua_code)
     skill_args = (
-        kind_type, recipe_type, recipe_mask, weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
+        kind_type, event_mask_1, event_mask_2, recipe_type, recipe_mask,
+        weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
     )
     return alias_name, max_level, lua_code, skill_args
 
@@ -333,7 +337,7 @@ def convert_json(result):
             # result[column] = result[column].apply(format_float)
             pass
         elif pd.api.types.is_numeric_dtype(result[column]):
-            result[column] = result[column].astype(int)
+            result[column] = result[column].astype("int64")
     for skill_id in result.skill_id.unique().tolist():
         filter_result = result[result.skill_id == skill_id]
         first_row = filter_result.iloc[0]
