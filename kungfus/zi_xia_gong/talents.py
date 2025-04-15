@@ -33,7 +33,7 @@ TALENTS: List[Dict[int, Gain]] = [
         18695: Gain("跬步", buff_ids=list(range(12779, 12783 + 1)) + [-12550, -12551])
     },
     {
-        32411: Gain("正气", skill_ids=[36439])
+        32411: Gain("正气", skill_ids=[36438])
     },
     {
         14834: Gain("抱阳")

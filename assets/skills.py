@@ -4552,19 +4552,20 @@ SKILLS = {
             1126
         ]
     },
-    36439: {
-        "alias_name": "黑洞实际伤害技能打npc",
+    36438: {
+        "alias_name": "黑洞实际伤害技能打伤害",
         "kind_type": "NeutralMagic",
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 1169,
-        "channel_interval": 739.187064,
+        "channel_interval": 131.0,
         "max_level": 1,
         "skill_name": "颠越苍穹击",
         "neutral_damage_base": 1038,
         "neutral_damage_rand": 104,
-        "neutral_damage_call": 1
+        "neutral_damage_call": 1,
+        "pve_addition": 4300
     },
     18670: {
         "alias_name": "增强六合独尊实际伤害",

@@ -35,7 +35,7 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         2681: dict(post_buffs={2757: {1: 1}}),
         # 奇穴
         **{skill_id: {} for skill_id in range(6091, 6100 + 1)},
-        40158: {}, 36439: {}, 18670: {},
+        40158: {}, 36438: {}, 18670: {},
         # 装备
         25770: {}
     },
