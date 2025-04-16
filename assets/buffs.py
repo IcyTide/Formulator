@@ -8423,6 +8423,17 @@ BUFFS = {
             }
         ]
     },
+    29254: {
+        "attributes": {
+            "magical_attack_power_gain": 205,
+            "strain_rate": 154
+        },
+        "max_level": 1,
+        "buff_name": "神门",
+        "alias_name": "神门增加攻击力",
+        "max_stack": 1,
+        "recipes": {}
+    },
     29243: {
         "attributes": {
             "all_shield_ignore": 410
