@@ -1340,9 +1340,13 @@ BUFFS = {
             {
                 "strain_base": 48,
                 "spunk_base": 16
+            },
+            {
+                "vitality_base": 27,
+                "all_critical_strike_base": 82
             }
         ],
-        "max_level": 98,
+        "max_level": 99,
         "buff_name": [
             "死士",
             "北垣",
@@ -1409,7 +1413,7 @@ BUFFS = {
             "烟光",
             "长明",
             "惊鸿",
-            "萍踪",
+            "昭彻",
             "天明",
             "陨落",
             "末法",
@@ -1441,7 +1445,8 @@ BUFFS = {
             "御霜",
             "悍勇",
             "明净",
-            "萍踪"
+            "萍踪",
+            "昭彻"
         ],
         "alias_name": [
             "死士",
@@ -1541,7 +1546,8 @@ BUFFS = {
             "御霜",
             "悍勇",
             "明净",
-            "萍踪"
+            "萍踪",
+            "昭彻"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -2443,11 +2449,11 @@ BUFFS = {
     30749: {
         "attributes": [
             {
-                "strain_rate": 65
+                "strain_rate": 93
             },
             {
-                "physical_overcome_base": 8487,
-                "magical_overcome_base": 8487
+                "physical_overcome_base": 12152,
+                "magical_overcome_base": 12152
             }
         ],
         "max_level": 2,
@@ -2461,10 +2467,10 @@ BUFFS = {
     30770: {
         "attributes": [
             {
-                "strain_rate": 65
+                "strain_rate": 93
             },
             {
-                "all_critical_strike_base": 8487
+                "all_critical_strike_base": 12152
             }
         ],
         "max_level": 2,
@@ -4634,7 +4640,9 @@ BUFFS = {
         "recipes": {}
     },
     20854: {
-        "attributes": {},
+        "attributes": {
+            "strain_base": 40
+        },
         "max_level": 1,
         "buff_name": "飘黄",
         "alias_name": "飘黄逐云寒蕊提高急速",
@@ -4960,7 +4968,19 @@ BUFFS = {
             }
         ],
         "max_level": 11,
-        "buff_name": "碎星辰",
+        "buff_name": [
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "凭霄破云·碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰"
+        ],
         "alias_name": "碎星辰",
         "max_stack": 1,
         "recipes": [
@@ -6074,7 +6094,7 @@ BUFFS = {
     },
     26444: {
         "attributes": {},
-        "max_level": 33,
+        "max_level": 37,
         "buff_name": [
             "麒麟·幻影",
             "侠行天涯号",
@@ -6106,7 +6126,10 @@ BUFFS = {
             "古舒尔万",
             "松枝跃",
             "机关朱雀",
-            "雪奔奔"
+            "雪奔奔",
+            "醉仙葫芦",
+            "纸行舟",
+            "十万火急"
         ],
         "alias_name": [
             "骑乘2号buff",
@@ -6139,7 +6162,10 @@ BUFFS = {
             "骑乘_先知巴德的牛",
             "骑乘_松鼠雪橇",
             "骑乘_机关鸟",
-            "骑乘_雪奔奔"
+            "骑乘_雪奔奔",
+            "骑乘_醉仙葫芦",
+            "骑乘_纸行舟",
+            "骑乘_十万火急"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -6249,7 +6275,7 @@ BUFFS = {
                 "surplus_gain": 102
             },
             {
-                "surplus_gain": 256
+                "surplus_gain": 410
             },
             {
                 "surplus_gain": 307
@@ -6271,7 +6297,7 @@ BUFFS = {
         "max_stack": [
             5,
             7,
-            5,
+            3,
             5
         ],
         "recipes": {}
@@ -7336,10 +7362,10 @@ BUFFS = {
     12575: {
         "attributes": [
             {
-                "all_shield_ignore": 205
+                "all_shield_ignore": 307
             },
             {
-                "all_shield_ignore": 1024
+                "all_shield_ignore": 922
             }
         ],
         "max_level": 2,
@@ -7384,7 +7410,7 @@ BUFFS = {
             },
             {
                 "all_shield_ignore": 512,
-                "pve_addition_base": 154
+                "pve_addition_base": 61
             }
         ],
         "max_level": 4,
@@ -7420,8 +7446,8 @@ BUFFS = {
         ],
         "max_level": 4,
         "buff_name": [
-            "盈久",
-            "盈久",
+            "含弘",
+            "含弘",
             "含弘",
             "复礼"
         ],

@@ -3,7 +3,7 @@ from typing import Dict
 from base.buff import Buff
 from base.gain import Gain
 from general.buffs import GENERAL_BUFFS
-from general.gains.equipment import EQUIPMENT_GAINS, CriticalSet
+from general.gains.equipment import EQUIPMENT_GAINS
 
 
 class SecondaryWeapon(Gain):
@@ -19,7 +19,6 @@ class SecondaryWeapon(Gain):
 
 
 GAINS = {
-    (1920,): CriticalSet(GENERAL_BUFFS[1955]),
     (2744,): Gain(),
     (2743,): Gain(),
     (1945,): Gain(),
