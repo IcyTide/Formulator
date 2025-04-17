@@ -1,15 +1,15 @@
 EQUIPMENTS = {
     "wrist": {
-        "花棠袖_测试用#104973 (30700 破招 无双)": {
+        "月钟袖#104973 (30700 破招 无双)": {
             "id": 104973,
-            "name": "花棠袖_测试用",
+            "name": "月钟袖",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23149,
+            "icon_id": 24116,
             "base": {},
             "magic": {
                 "vitality_base": 17429,
@@ -32,16 +32,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永袖_测试用#104971 (30700 破防 无双)": {
+        "月霭袖#104971 (30700 破防 无双)": {
             "id": 104971,
-            "name": "花永袖_测试用",
+            "name": "月霭袖",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23149,
+            "icon_id": 24116,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -67,16 +67,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世袖_测试用#104970 (30700 破防 无双)": {
+        "月溪袖#104970 (30700 破防 无双)": {
             "id": 104970,
-            "name": "花世袖_测试用",
+            "name": "月溪袖",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23149,
+            "icon_id": 24116,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -102,16 +102,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念袖_测试用#104969 (30700 破防 无双)": {
+        "月声袖#104969 (30700 破防 无双)": {
             "id": 104969,
-            "name": "花念袖_测试用",
+            "name": "月声袖",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23149,
+            "icon_id": 24116,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -137,16 +137,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深袖_测试用#104968 (30700 破防 无双)": {
+        "月涛袖#104968 (30700 破防 无双)": {
             "id": 104968,
-            "name": "花深袖_测试用",
+            "name": "月涛袖",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23149,
+            "icon_id": 24116,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -172,16 +172,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图护手_测试用#105075 (30200 无双)": {
+        "坠欢袖#105075 (30200 无双)": {
             "id": 105075,
-            "name": "漠图护手_测试用",
+            "name": "坠欢袖",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9686,
+            "icon_id": 13280,
             "base": {},
             "magic": {
                 "vitality_base": 16220,
@@ -196,16 +196,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名护手_测试用#105073 (30200 会心 无双)": {
+        "坠红袖#105073 (30200 会心 无双)": {
             "id": 105073,
-            "name": "漠名护手_测试用",
+            "name": "坠红袖",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9686,
+            "icon_id": 13280,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -224,16 +224,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若护手_测试用#105072 (30200 会心 无双)": {
+        "坠雨袖#105072 (30200 会心 无双)": {
             "id": 105072,
-            "name": "漠若护手_测试用",
+            "name": "坠雨袖",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9686,
+            "icon_id": 13280,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -252,16 +252,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖护手_测试用#105071 (30200 会心 无双)": {
+        "坠露袖#105071 (30200 会心 无双)": {
             "id": 105071,
-            "name": "漠晖护手_测试用",
+            "name": "坠露袖",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9686,
+            "icon_id": 13280,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -280,16 +280,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安护手_测试用#105070 (30200 会心 无双)": {
+        "坠潮袖#105070 (30200 会心 无双)": {
             "id": 105070,
-            "name": "漠安护手_测试用",
+            "name": "坠潮袖",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9686,
+            "icon_id": 13280,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -308,9 +308,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·穷阴护手_测试用#105009 (30200 无双)": {
+        "客行江湖·常盛袖#105009 (30200 无双)": {
             "id": 105009,
-            "name": "客行江湖·穷阴护手_测试用",
+            "name": "客行江湖·常盛袖",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
@@ -332,9 +332,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·泉葩护手_测试用#105007 (30200 会心 无双)": {
+        "客行江湖·日斜袖#105007 (30200 会心 无双)": {
             "id": 105007,
-            "name": "客行江湖·泉葩护手_测试用",
+            "name": "客行江湖·日斜袖",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
@@ -360,9 +360,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·冥绝护手_测试用#105006 (30200 会心 无双)": {
+        "客行江湖·山隈袖#105006 (30200 会心 无双)": {
             "id": 105006,
-            "name": "客行江湖·冥绝护手_测试用",
+            "name": "客行江湖·山隈袖",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
@@ -388,9 +388,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·散秋护手_测试用#105005 (30200 会心 无双)": {
+        "客行江湖·新圃袖#105005 (30200 会心 无双)": {
             "id": 105005,
-            "name": "客行江湖·散秋护手_测试用",
+            "name": "客行江湖·新圃袖",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
@@ -416,9 +416,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·馀散护手_测试用#105004 (30200 会心 无双)": {
+        "客行江湖·繁色袖#105004 (30200 会心 无双)": {
             "id": 105004,
-            "name": "客行江湖·馀散护手_测试用",
+            "name": "客行江湖·繁色袖",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
@@ -444,16 +444,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "锋权护腕_测试用#104939 (30200 精简 破招)": {
+        "归沉寂#104939 (30200 精简 破招)": {
             "id": 104939,
-            "name": "锋权护腕_测试用",
+            "name": "归沉寂",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -474,16 +474,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤飞护腕_测试用#104938 (30200 精简 破招 无双)": {
+        "夜森谒#104938 (30200 精简 破招 无双)": {
             "id": 104938,
-            "name": "孤飞护腕_测试用",
+            "name": "夜森谒",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -505,16 +505,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "攘袂护腕_测试用#104937 (30200 精简 破防 无双)": {
+        "摧千木#104937 (30200 精简 破防 无双)": {
             "id": 104937,
-            "name": "攘袂护腕_测试用",
+            "name": "摧千木",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -536,16 +536,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "紫垣护腕_测试用#104936 (30200 精简 会心 无双)": {
+        "立嵯峨#104936 (30200 精简 会心 无双)": {
             "id": 104936,
-            "name": "紫垣护腕_测试用",
+            "name": "立嵯峨",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -567,16 +567,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "锋权护腕_测试用#104935 (30200 精简 会心 会效 无双)": {
+        "向天歌#104935 (30200 精简 会心 会效 无双)": {
             "id": 104935,
-            "name": "锋权护腕_测试用",
+            "name": "向天歌",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -599,16 +599,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤飞护腕_测试用#104934 (30200 精简 会心 会效 破招)": {
+        "雾海谜#104934 (30200 精简 会心 会效 破招)": {
             "id": 104934,
-            "name": "孤飞护腕_测试用",
+            "name": "雾海谜",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -631,16 +631,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "攘袂护腕_测试用#104933 (30200 精简 加速 无双)": {
+        "苍絮护腕·迅#104933 (30200 精简 加速 无双)": {
             "id": 104933,
-            "name": "攘袂护腕_测试用",
+            "name": "苍絮护腕·迅",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -658,16 +658,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "紫垣护腕_测试用#104932 (30200 精简 破防 破招 无双)": {
+        "岳鸿护腕·绝#104932 (30200 精简 破防 破招 无双)": {
             "id": 104932,
-            "name": "紫垣护腕_测试用",
+            "name": "岳鸿护腕·绝",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -686,16 +686,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "化鹤护腕_测试用#104931 (30200 精简 会心 破招 无双)": {
+        "怒影护腕·明#104931 (30200 精简 会心 破招 无双)": {
             "id": 104931,
-            "name": "化鹤护腕_测试用",
+            "name": "怒影护腕·明",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -714,16 +714,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "锋权护腕_测试用#104930 (30200 精简 会心 破防 无双)": {
+        "川涌护腕·觉#104930 (30200 精简 会心 破防 无双)": {
             "id": 104930,
-            "name": "锋权护腕_测试用",
+            "name": "川涌护腕·觉",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -742,16 +742,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤飞护腕_测试用#104929 (30200 精简 破招 无双)": {
+        "山华护腕·引#104929 (30200 精简 破招 无双)": {
             "id": 104929,
-            "name": "孤飞护腕_测试用",
+            "name": "山华护腕·引",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -769,16 +769,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "攘袂护腕_测试用#104928 (30200 精简 破防 无双)": {
+        "水逝护腕·破#104928 (30200 精简 破防 无双)": {
             "id": 104928,
-            "name": "攘袂护腕_测试用",
+            "name": "水逝护腕·破",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -796,16 +796,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "紫垣护腕_测试用#104927 (30200 精简 会心 无双)": {
+        "云幻护腕·悟#104927 (30200 精简 会心 无双)": {
             "id": 104927,
-            "name": "紫垣护腕_测试用",
+            "name": "云幻护腕·悟",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -823,16 +823,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "化鹤护腕_测试用#104926 (30200 精简 无双)": {
+        "风追护腕·尊#104926 (30200 精简 无双)": {
             "id": 104926,
-            "name": "化鹤护腕_测试用",
+            "name": "风追护腕·尊",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -849,16 +849,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "钗语护腕_测试用#104925 (30200 精简 破招)": {
+        "霞波璨#104925 (30200 精简 破招)": {
             "id": 104925,
-            "name": "钗语护腕_测试用",
+            "name": "霞波璨",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -879,16 +879,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迁莺护腕_测试用#104924 (30200 精简 破招 无双)": {
+        "碎金鳞#104924 (30200 精简 破招 无双)": {
             "id": 104924,
-            "name": "迁莺护腕_测试用",
+            "name": "碎金鳞",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -910,16 +910,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "疏泉护腕_测试用#104923 (30200 精简 破防 无双)": {
+        "千秋事#104923 (30200 精简 破防 无双)": {
             "id": 104923,
-            "name": "疏泉护腕_测试用",
+            "name": "千秋事",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -941,16 +941,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "峰翠护腕_测试用#104922 (30200 精简 会心 无双)": {
+        "潮声叹#104922 (30200 精简 会心 无双)": {
             "id": 104922,
-            "name": "峰翠护腕_测试用",
+            "name": "潮声叹",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -972,16 +972,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "钗语护腕_测试用#104921 (30200 精简 会心 会效 无双)": {
+        "心自宽#104921 (30200 精简 会心 会效 无双)": {
             "id": 104921,
-            "name": "钗语护腕_测试用",
+            "name": "心自宽",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1004,16 +1004,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迁莺护腕_测试用#104920 (30200 精简 会心 会效 破招)": {
+        "浮生若#104920 (30200 精简 会心 会效 破招)": {
             "id": 104920,
-            "name": "迁莺护腕_测试用",
+            "name": "浮生若",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1036,16 +1036,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "疏泉护腕_测试用#104919 (30200 精简 加速 无双)": {
+        "秋叠袖·迅#104919 (30200 精简 加速 无双)": {
             "id": 104919,
-            "name": "疏泉护腕_测试用",
+            "name": "秋叠袖·迅",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1063,16 +1063,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "峰翠护腕_测试用#104918 (30200 精简 破防 破招 无双)": {
+        "无哲袖·绝#104918 (30200 精简 破防 破招 无双)": {
             "id": 104918,
-            "name": "峰翠护腕_测试用",
+            "name": "无哲袖·绝",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1091,16 +1091,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "翠屏护腕_测试用#104917 (30200 精简 会心 破招 无双)": {
+        "云像袖·明#104917 (30200 精简 会心 破招 无双)": {
             "id": 104917,
-            "name": "翠屏护腕_测试用",
+            "name": "云像袖·明",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1119,16 +1119,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "钗语护腕_测试用#104916 (30200 精简 会心 破防 无双)": {
+        "北游袖·觉#104916 (30200 精简 会心 破防 无双)": {
             "id": 104916,
-            "name": "钗语护腕_测试用",
+            "name": "北游袖·觉",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1147,16 +1147,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迁莺护腕_测试用#104915 (30200 精简 破招 无双)": {
+        "太和袖·引#104915 (30200 精简 破招 无双)": {
             "id": 104915,
-            "name": "迁莺护腕_测试用",
+            "name": "太和袖·引",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1174,16 +1174,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "疏泉护腕_测试用#104914 (30200 精简 破防 无双)": {
+        "至道袖·破#104914 (30200 精简 破防 无双)": {
             "id": 104914,
-            "name": "疏泉护腕_测试用",
+            "name": "至道袖·破",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1201,16 +1201,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "峰翠护腕_测试用#104913 (30200 精简 会心 无双)": {
+        "养吾袖·悟#104913 (30200 精简 会心 无双)": {
             "id": 104913,
-            "name": "峰翠护腕_测试用",
+            "name": "养吾袖·悟",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1228,16 +1228,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "翠屏护腕_测试用#104912 (30200 精简 无双)": {
+        "渊默袖·尊#104912 (30200 精简 无双)": {
             "id": 104912,
-            "name": "翠屏护腕_测试用",
+            "name": "渊默袖·尊",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1254,16 +1254,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西护手_测试用#104847 (30200 加速 无双)": {
+        "登科护手#104847 (30200 加速 无双)": {
             "id": 104847,
-            "name": "镇西护手_测试用",
+            "name": "登科护手",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -1280,16 +1280,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁护手_测试用#104845 (30200 破防 无双)": {
+        "标雁护手#104845 (30200 破防 无双)": {
             "id": 104845,
-            "name": "羡雁护手_测试用",
+            "name": "标雁护手",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1308,16 +1308,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深护手_测试用#104844 (30200 破防 无双)": {
+        "寒窗护手#104844 (30200 破防 无双)": {
             "id": 104844,
-            "name": "君深护手_测试用",
+            "name": "寒窗护手",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1336,16 +1336,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑护手_测试用#104843 (30200 破防 无双)": {
+        "云路护手#104843 (30200 破防 无双)": {
             "id": 104843,
-            "name": "青桑护手_测试用",
+            "name": "云路护手",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1364,16 +1364,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春护手_测试用#104842 (30200 破防 无双)": {
+        "文曲护手#104842 (30200 破防 无双)": {
             "id": 104842,
-            "name": "季春护手_测试用",
+            "name": "文曲护手",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1392,16 +1392,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源护手_测试用#104811 (30200 破招 无双)": {
+        "三元护手#104811 (30200 破招 无双)": {
             "id": 104811,
-            "name": "山源护手_测试用",
+            "name": "三元护手",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -1417,16 +1417,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗护手_测试用#104809 (30200 加速 无双)": {
+        "问殿护手#104809 (30200 加速 无双)": {
             "id": 104809,
-            "name": "留诗护手_测试用",
+            "name": "问殿护手",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1445,16 +1445,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月护手_测试用#104808 (30200 加速 无双)": {
+        "礼闱护手#104808 (30200 加速 无双)": {
             "id": 104808,
-            "name": "清月护手_测试用",
+            "name": "礼闱护手",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1473,16 +1473,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山护手_测试用#104807 (30200 加速 无双)": {
+        "封名护手#104807 (30200 加速 无双)": {
             "id": 104807,
-            "name": "游山护手_测试用",
+            "name": "封名护手",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1501,16 +1501,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉护手_测试用#104806 (30200 加速 无双)": {
+        "论策护手#104806 (30200 加速 无双)": {
             "id": 104806,
-            "name": "思玉护手_测试用",
+            "name": "论策护手",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23143,
+            "icon_id": 24110,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1529,16 +1529,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "西塞·沉醉护手_测试用#104681 (30200 破招 无双)": {
+        "天极·云胜护手#104681 (30200 破招 无双)": {
             "id": 104681,
-            "name": "西塞·沉醉护手_测试用",
+            "name": "天极·云胜护手",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6280,
-            "icon_id": 23192,
+            "icon_id": 24011,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1567,16 +1567,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·离巢护手_测试用#104680 (30200 破招 无双)": {
+        "天极·意悠护手#104680 (30200 破招 无双)": {
             "id": 104680,
-            "name": "西塞·离巢护手_测试用",
+            "name": "天极·意悠护手",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6279,
-            "icon_id": 23258,
+            "icon_id": 24071,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1605,16 +1605,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·秋星护手_测试用#104679 (30200 破招 无双)": {
+        "天极·斩妄护手#104679 (30200 破招 无双)": {
             "id": 104679,
-            "name": "西塞·秋星护手_测试用",
+            "name": "天极·斩妄护手",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6278,
-            "icon_id": 23186,
+            "icon_id": 24005,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1643,16 +1643,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·银筱护手_测试用#104677 (30200 破招 无双)": {
+        "天极·悬丝护手#104677 (30200 破招 无双)": {
             "id": 104677,
-            "name": "西塞·银筱护手_测试用",
+            "name": "天极·悬丝护手",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6276,
-            "icon_id": 23276,
+            "icon_id": 24089,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1682,16 +1682,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·清浊护手_测试用#104676 (30200 破招 无双)": {
+        "天极·符烬护手#104676 (30200 破招 无双)": {
             "id": 104676,
-            "name": "西塞·清浊护手_测试用",
+            "name": "天极·符烬护手",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6275,
-            "icon_id": 23270,
+            "icon_id": 24083,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1721,16 +1721,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·麟台护手_测试用#104675 (30200 破招 无双)": {
+        "天极·藏名护手#104675 (30200 破招 无双)": {
             "id": 104675,
-            "name": "西塞·麟台护手_测试用",
+            "name": "天极·藏名护手",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6274,
-            "icon_id": 23210,
+            "icon_id": 24023,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1760,16 +1760,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·川冥护手_测试用#104674 (30200 破招 无双)": {
+        "天极·裂海护手#104674 (30200 破招 无双)": {
             "id": 104674,
-            "name": "西塞·川冥护手_测试用",
+            "name": "天极·裂海护手",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6273,
-            "icon_id": 23222,
+            "icon_id": 24035,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1799,16 +1799,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·流电护手_测试用#104673 (30200 破招 无双)": {
+        "天极·雷壑护手#104673 (30200 破招 无双)": {
             "id": 104673,
-            "name": "西塞·流电护手_测试用",
+            "name": "天极·雷壑护手",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6272,
-            "icon_id": 23161,
+            "icon_id": 23981,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1838,16 +1838,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·青弦护手_测试用#104671 (30200 破招 无双)": {
+        "天极·叹古护手#104671 (30200 破招 无双)": {
             "id": 104671,
-            "name": "西塞·青弦护手_测试用",
+            "name": "天极·叹古护手",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6270,
-            "icon_id": 23282,
+            "icon_id": 24095,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1877,16 +1877,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·旋草护手_测试用#104670 (30200 无双)": {
+        "天极·铸铁护手#104670 (30200 无双)": {
             "id": 104670,
-            "name": "西塞·旋草护手_测试用",
+            "name": "天极·铸铁护手",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6269,
-            "icon_id": 23167,
+            "icon_id": 23987,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -1912,16 +1912,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·行歌护手_测试用#104669 (30200 破招 无双)": {
+        "天极·风旗护手#104669 (30200 破招 无双)": {
             "id": 104669,
-            "name": "西塞·行歌护手_测试用",
+            "name": "天极·风旗护手",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6268,
-            "icon_id": 23167,
+            "icon_id": 23987,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -1951,16 +1951,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·耀光护手_测试用#104668 (30200 无双)": {
+        "天极·燃浊护手#104668 (30200 无双)": {
             "id": 104668,
-            "name": "西塞·耀光护手_测试用",
+            "name": "天极·燃浊护手",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6267,
-            "icon_id": 23216,
+            "icon_id": 24029,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -1986,16 +1986,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·大荒护手_测试用#104667 (30200 破招 无双)": {
+        "天极·月刃护手#104667 (30200 破招 无双)": {
             "id": 104667,
-            "name": "西塞·大荒护手_测试用",
+            "name": "天极·月刃护手",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6266,
-            "icon_id": 23216,
+            "icon_id": 24029,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2024,16 +2024,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·平塘护手_测试用#104666 (30200 破招 无双)": {
+        "天极·醉云护手#104666 (30200 破招 无双)": {
             "id": 104666,
-            "name": "西塞·平塘护手_测试用",
+            "name": "天极·醉云护手",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6265,
-            "icon_id": 23204,
+            "icon_id": 24017,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2062,16 +2062,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·赤眉护手_测试用#104665 (30200 破招 无双)": {
+        "天极·听荷护手#104665 (30200 破招 无双)": {
             "id": 104665,
-            "name": "西塞·赤眉护手_测试用",
+            "name": "天极·听荷护手",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6264,
-            "icon_id": 23173,
+            "icon_id": 23993,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2096,21 +2096,20 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
         },
-        "西塞·江鸥护手_测试用#104664 (30200 破招 无双)": {
+        "天极·锁幽护手#104664 (30200 破招 无双)": {
             "id": 104664,
-            "name": "西塞·江鸥护手_测试用",
+            "name": "天极·锁幽护手",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6263,
-            "icon_id": 23240,
+            "icon_id": 24053,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2140,16 +2139,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·寒蛩护手_测试用#104663 (30200 破招 无双)": {
+        "天极·隐机护手#104663 (30200 破招 无双)": {
             "id": 104663,
-            "name": "西塞·寒蛩护手_测试用",
+            "name": "天极·隐机护手",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6262,
-            "icon_id": 23240,
+            "icon_id": 24053,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2179,16 +2178,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·朝愁护手_测试用#104661 (30200 破招 无双)": {
+        "天极·缠心护手#104661 (30200 破招 无双)": {
             "id": 104661,
-            "name": "西塞·朝愁护手_测试用",
+            "name": "天极·缠心护手",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6260,
-            "icon_id": 23264,
+            "icon_id": 24077,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2218,16 +2217,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·烟蘸袖_测试用#104659 (30200 破招 无双)": {
+        "天极·独明护手#104659 (30200 破招 无双)": {
             "id": 104659,
-            "name": "西塞·烟蘸袖_测试用",
+            "name": "天极·独明护手",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6258,
-            "icon_id": 23228,
+            "icon_id": 24041,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2256,16 +2255,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·冷辉护手_测试用#104658 (30200 破招 无双)": {
+        "天极·忘归护手#104658 (30200 破招 无双)": {
             "id": 104658,
-            "name": "西塞·冷辉护手_测试用",
+            "name": "天极·忘归护手",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6257,
-            "icon_id": 23179,
+            "icon_id": 23999,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2294,16 +2293,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·雪欹护手_测试用#104657 (30200 破招 无双)": {
+        "天极·截云护手#104657 (30200 破招 无双)": {
             "id": 104657,
-            "name": "西塞·雪欹护手_测试用",
+            "name": "天极·截云护手",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6256,
-            "icon_id": 23179,
+            "icon_id": 23999,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2333,16 +2332,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·戈戟护手_测试用#104656 (30200 无双)": {
+        "天极·截岳护手#104656 (30200 无双)": {
             "id": 104656,
-            "name": "西塞·戈戟护手_测试用",
+            "name": "天极·截岳护手",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6255,
-            "icon_id": 23246,
+            "icon_id": 24059,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -2368,16 +2367,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·壮志护手_测试用#104655 (30200 破招 无双)": {
+        "天极·血旌护手#104655 (30200 破招 无双)": {
             "id": 104655,
-            "name": "西塞·壮志护手_测试用",
+            "name": "天极·血旌护手",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6254,
-            "icon_id": 23246,
+            "icon_id": 24059,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2406,16 +2405,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·合章护手_测试用#104653 (30200 破招 无双)": {
+        "天极·砚书护手#104653 (30200 破招 无双)": {
             "id": 104653,
-            "name": "西塞·合章护手_测试用",
+            "name": "天极·砚书护手",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6252,
-            "icon_id": 23252,
+            "icon_id": 24065,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2445,16 +2444,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·恒沙护手_测试用#104652 (30200 无双)": {
+        "天极·梵劫护手#104652 (30200 无双)": {
             "id": 104652,
-            "name": "西塞·恒沙护手_测试用",
+            "name": "天极·梵劫护手",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6251,
-            "icon_id": 23234,
+            "icon_id": 24047,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -2481,16 +2480,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·彼岸护手_测试用#104651 (30200 破招 无双)": {
+        "天极·怒相护手#104651 (30200 破招 无双)": {
             "id": 104651,
-            "name": "西塞·彼岸护手_测试用",
+            "name": "天极·怒相护手",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6250,
-            "icon_id": 23234,
+            "icon_id": 24047,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -2692,16 +2691,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼护手_测试用#106143 (25900 无双)": {
+        "塞上寒威·载彰护腕#106143 (25900 无双)": {
             "id": 106143,
-            "name": "孤山寒月·银狼护手_测试用",
+            "name": "塞上寒威·载彰护腕",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6478,
+            "icon_id": 10417,
             "base": {},
             "magic": {
                 "vitality_base": 14704,
@@ -2716,16 +2715,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃护手_测试用#106141 (25900 破招 无双)": {
+        "塞上寒威·星宇护腕#106141 (25900 破招 无双)": {
             "id": 106141,
-            "name": "孤山寒月·逐刃护手_测试用",
+            "name": "塞上寒威·星宇护腕",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6478,
+            "icon_id": 10417,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2744,16 +2743,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期护手_测试用#106140 (25900 破招 无双)": {
+        "塞上寒威·善诚护腕#106140 (25900 破招 无双)": {
             "id": 106140,
-            "name": "孤山寒月·归期护手_测试用",
+            "name": "塞上寒威·善诚护腕",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6478,
+            "icon_id": 10417,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2772,16 +2771,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生护手_测试用#106139 (25900 破招 无双)": {
+        "塞上寒威·暮赏护腕#106139 (25900 破招 无双)": {
             "id": 106139,
-            "name": "孤山寒月·忧生护手_测试用",
+            "name": "塞上寒威·暮赏护腕",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6478,
+            "icon_id": 10417,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2800,16 +2799,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟护手_测试用#106138 (25900 破招 无双)": {
+        "塞上寒威·披锦护腕#106138 (25900 破招 无双)": {
             "id": 106138,
-            "name": "孤山寒月·风吟护手_测试用",
+            "name": "塞上寒威·披锦护腕",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6478,
+            "icon_id": 10417,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -2828,9 +2827,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·栖遑袖_测试用#104626 (25900 无双)": {
+        "寻踪觅宝·尚同护手#104626 (25900 无双)": {
             "id": 104626,
-            "name": "寻踪觅宝·栖遑袖_测试用",
+            "name": "寻踪觅宝·尚同护手",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
@@ -2858,9 +2857,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·迭微袖_测试用#104624 (25900 破招 无双)": {
+        "寻踪觅宝·巧变护手#104624 (25900 破招 无双)": {
             "id": 104624,
-            "name": "寻踪觅宝·迭微袖_测试用",
+            "name": "寻踪觅宝·巧变护手",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -2892,9 +2891,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·予吉袖_测试用#104623 (25900 破招 无双)": {
+        "寻踪觅宝·劲锐护手#104623 (25900 破招 无双)": {
             "id": 104623,
-            "name": "寻踪觅宝·予吉袖_测试用",
+            "name": "寻踪觅宝·劲锐护手",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -2926,9 +2925,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·月诸袖_测试用#104622 (25900 破招 无双)": {
+        "寻踪觅宝·端本护手#104622 (25900 破招 无双)": {
             "id": 104622,
-            "name": "寻踪觅宝·月诸袖_测试用",
+            "name": "寻踪觅宝·端本护手",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -2960,9 +2959,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·陟南袖_测试用#104621 (25900 破招 无双)": {
+        "寻踪觅宝·多维护手#104621 (25900 破招 无双)": {
             "id": 104621,
-            "name": "寻踪觅宝·陟南袖_测试用",
+            "name": "寻踪觅宝·多维护手",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -3685,7 +3684,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23192,
             "base": {},
             "magic": {
@@ -3701,14 +3700,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -3724,7 +3722,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23258,
             "base": {},
             "magic": {
@@ -3740,14 +3738,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -3763,7 +3760,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23186,
             "base": {},
             "magic": {
@@ -3779,14 +3776,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -3802,7 +3798,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23276,
             "base": {},
             "magic": {
@@ -3818,14 +3814,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -3842,7 +3837,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23270,
             "base": {},
             "magic": {
@@ -3858,14 +3853,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -3882,7 +3876,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23210,
             "base": {},
             "magic": {
@@ -3898,14 +3892,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -3922,7 +3915,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23222,
             "base": {},
             "magic": {
@@ -3938,14 +3931,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -3962,7 +3954,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23161,
             "base": {},
             "magic": {
@@ -3978,14 +3970,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -4002,7 +3993,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23282,
             "base": {},
             "magic": {
@@ -4018,18 +4009,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -4042,7 +4032,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23167,
             "base": {},
             "magic": {
@@ -4077,7 +4067,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23167,
             "base": {},
             "magic": {
@@ -4093,14 +4083,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -4117,7 +4106,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23216,
             "base": {},
             "magic": {
@@ -4152,7 +4141,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23216,
             "base": {},
             "magic": {
@@ -4168,14 +4157,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -4191,7 +4179,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23204,
             "base": {},
             "magic": {
@@ -4207,14 +4195,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -4230,7 +4217,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23173,
             "base": {},
             "magic": {
@@ -4246,18 +4233,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -4270,7 +4255,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23240,
             "base": {},
             "magic": {
@@ -4286,14 +4271,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -4310,7 +4294,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23240,
             "base": {},
             "magic": {
@@ -4326,14 +4310,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -4350,7 +4333,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23264,
             "base": {},
             "magic": {
@@ -4366,14 +4349,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -4390,7 +4372,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23228,
             "base": {},
             "magic": {
@@ -4406,14 +4388,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -4429,7 +4410,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23179,
             "base": {},
             "magic": {
@@ -4445,14 +4426,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -4468,7 +4448,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23179,
             "base": {},
             "magic": {
@@ -4484,14 +4464,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -4508,7 +4487,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23246,
             "base": {},
             "magic": {
@@ -4543,7 +4522,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23246,
             "base": {},
             "magic": {
@@ -4559,14 +4538,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -4582,7 +4560,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23252,
             "base": {},
             "magic": {
@@ -4598,14 +4576,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -4622,7 +4599,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23234,
             "base": {},
             "magic": {
@@ -4658,7 +4635,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23234,
             "base": {},
             "magic": {
@@ -4674,14 +4651,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -5929,7 +5905,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23192,
             "base": {},
             "magic": {
@@ -5945,14 +5921,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -5968,7 +5943,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23258,
             "base": {},
             "magic": {
@@ -5984,14 +5959,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -6007,7 +5981,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23186,
             "base": {},
             "magic": {
@@ -6023,14 +5997,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -6046,7 +6019,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23276,
             "base": {},
             "magic": {
@@ -6062,14 +6035,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -6086,7 +6058,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23270,
             "base": {},
             "magic": {
@@ -6102,14 +6074,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -6126,7 +6097,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23210,
             "base": {},
             "magic": {
@@ -6142,14 +6113,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -6166,7 +6136,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23222,
             "base": {},
             "magic": {
@@ -6182,14 +6152,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -6206,7 +6175,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23161,
             "base": {},
             "magic": {
@@ -6222,14 +6191,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -6246,7 +6214,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23282,
             "base": {},
             "magic": {
@@ -6262,18 +6230,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -6286,7 +6253,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23167,
             "base": {},
             "magic": {
@@ -6321,7 +6288,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23167,
             "base": {},
             "magic": {
@@ -6337,14 +6304,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -6361,7 +6327,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23216,
             "base": {},
             "magic": {
@@ -6396,7 +6362,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23216,
             "base": {},
             "magic": {
@@ -6412,14 +6378,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -6435,7 +6400,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23204,
             "base": {},
             "magic": {
@@ -6451,14 +6416,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -6474,7 +6438,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23173,
             "base": {},
             "magic": {
@@ -6490,18 +6454,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -6514,7 +6476,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23240,
             "base": {},
             "magic": {
@@ -6530,14 +6492,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -6554,7 +6515,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23240,
             "base": {},
             "magic": {
@@ -6570,14 +6531,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -6594,7 +6554,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23264,
             "base": {},
             "magic": {
@@ -6610,14 +6570,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -6634,7 +6593,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23228,
             "base": {},
             "magic": {
@@ -6650,14 +6609,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -6673,7 +6631,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23179,
             "base": {},
             "magic": {
@@ -6689,14 +6647,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -6712,7 +6669,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23179,
             "base": {},
             "magic": {
@@ -6728,14 +6685,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -6752,7 +6708,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23246,
             "base": {},
             "magic": {
@@ -6787,7 +6743,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23246,
             "base": {},
             "magic": {
@@ -6803,14 +6759,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -6826,7 +6781,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23252,
             "base": {},
             "magic": {
@@ -6842,14 +6797,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -6866,7 +6820,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23234,
             "base": {},
             "magic": {
@@ -6902,7 +6856,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23234,
             "base": {},
             "magic": {
@@ -6918,14 +6872,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -8714,16 +8667,16 @@ EQUIPMENTS = {
         }
     },
     "shoes": {
-        "花棠靴_测试用#104985 (30700 无双)": {
+        "月钟履#104985 (30700 无双)": {
             "id": 104985,
-            "name": "花棠靴_测试用",
+            "name": "月钟履",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23152,
+            "icon_id": 24119,
             "base": {},
             "magic": {
                 "vitality_base": 17429,
@@ -8743,16 +8696,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永靴_测试用#104983 (30700 破招 无双)": {
+        "月霭履#104983 (30700 破招 无双)": {
             "id": 104983,
-            "name": "花永靴_测试用",
+            "name": "月霭履",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23152,
+            "icon_id": 24119,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -8778,16 +8731,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世靴_测试用#104982 (30700 破招 无双)": {
+        "月溪履#104982 (30700 破招 无双)": {
             "id": 104982,
-            "name": "花世靴_测试用",
+            "name": "月溪履",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23152,
+            "icon_id": 24119,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -8813,16 +8766,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念靴_测试用#104981 (30700 破招 无双)": {
+        "月声履#104981 (30700 破招 无双)": {
             "id": 104981,
-            "name": "花念靴_测试用",
+            "name": "月声履",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23152,
+            "icon_id": 24119,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -8848,16 +8801,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深靴_测试用#104980 (30700 破招 无双)": {
+        "月涛履#104980 (30700 破招 无双)": {
             "id": 104980,
-            "name": "花深靴_测试用",
+            "name": "月涛履",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23152,
+            "icon_id": 24119,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -8883,16 +8836,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图靴_测试用#105087 (30200 无双)": {
+        "坠欢靴#105087 (30200 无双)": {
             "id": 105087,
-            "name": "漠图靴_测试用",
+            "name": "坠欢靴",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9689,
+            "icon_id": 13283,
             "base": {},
             "magic": {
                 "vitality_base": 16220,
@@ -8905,16 +8858,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名靴_测试用#105085 (30200 会心 无双)": {
+        "坠红靴#105085 (30200 会心 无双)": {
             "id": 105085,
-            "name": "漠名靴_测试用",
+            "name": "坠红靴",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9689,
+            "icon_id": 13283,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -8933,16 +8886,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若靴_测试用#105084 (30200 会心 无双)": {
+        "坠雨靴#105084 (30200 会心 无双)": {
             "id": 105084,
-            "name": "漠若靴_测试用",
+            "name": "坠雨靴",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9689,
+            "icon_id": 13283,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -8961,16 +8914,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖靴_测试用#105083 (30200 会心 无双)": {
+        "坠露靴#105083 (30200 会心 无双)": {
             "id": 105083,
-            "name": "漠晖靴_测试用",
+            "name": "坠露靴",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9689,
+            "icon_id": 13283,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -8989,16 +8942,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安靴_测试用#105082 (30200 会心 无双)": {
+        "坠潮靴#105082 (30200 会心 无双)": {
             "id": 105082,
-            "name": "漠安靴_测试用",
+            "name": "坠潮靴",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9689,
+            "icon_id": 13283,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -9017,9 +8970,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105069 (30200 精简 破防 破招 无双)": {
+        "无修鞋·外·玄#105069 (30200 精简 破防 破招 无双)": {
             "id": 105069,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9049,9 +9002,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105068 (30200 精简 会心 破防 无双)": {
+        "无修鞋·外·玄#105068 (30200 精简 会心 破防 无双)": {
             "id": 105068,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9081,9 +9034,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105067 (30200 精简 会心 无双)": {
+        "无修鞋·外·玄#105067 (30200 精简 会心 无双)": {
             "id": 105067,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9112,9 +9065,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105066 (30200 精简 破防 破招 无双)": {
+        "无修鞋·内·玄#105066 (30200 精简 破防 破招 无双)": {
             "id": 105066,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9144,9 +9097,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105065 (30200 精简 会心 破防 无双)": {
+        "无修鞋·内·玄#105065 (30200 精简 会心 破防 无双)": {
             "id": 105065,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9176,9 +9129,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105064 (30200 精简 会心 无双)": {
+        "无修鞋·内·玄#105064 (30200 精简 会心 无双)": {
             "id": 105064,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9207,9 +9160,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105045 (30200 精简 破防 破招 无双)": {
+        "无修鞋·外·玄#105045 (30200 精简 破防 破招 无双)": {
             "id": 105045,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9239,9 +9192,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105044 (30200 精简 会心 破防 无双)": {
+        "无修鞋·外·玄#105044 (30200 精简 会心 破防 无双)": {
             "id": 105044,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9271,9 +9224,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105043 (30200 精简 会心 无双)": {
+        "无修鞋·外·玄#105043 (30200 精简 会心 无双)": {
             "id": 105043,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -9302,9 +9255,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105042 (30200 精简 破防 破招 无双)": {
+        "无修鞋·内·玄#105042 (30200 精简 破防 破招 无双)": {
             "id": 105042,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9334,9 +9287,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105041 (30200 精简 会心 破防 无双)": {
+        "无修鞋·内·玄#105041 (30200 精简 会心 破防 无双)": {
             "id": 105041,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9366,9 +9319,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105040 (30200 精简 会心 无双)": {
+        "无修鞋·内·玄#105040 (30200 精简 会心 无双)": {
             "id": 105040,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -9397,16 +9350,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西靴_测试用#104859 (30200 无双)": {
+        "登科鞋#104859 (30200 无双)": {
             "id": 104859,
-            "name": "镇西靴_测试用",
+            "name": "登科鞋",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -9422,16 +9375,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁靴_测试用#104857 (30200 会心 无双)": {
+        "标雁鞋#104857 (30200 会心 无双)": {
             "id": 104857,
-            "name": "羡雁靴_测试用",
+            "name": "标雁鞋",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9450,16 +9403,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深靴_测试用#104856 (30200 会心 无双)": {
+        "寒窗鞋#104856 (30200 会心 无双)": {
             "id": 104856,
-            "name": "君深靴_测试用",
+            "name": "寒窗鞋",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9478,16 +9431,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑靴_测试用#104855 (30200 会心 无双)": {
+        "云路鞋#104855 (30200 会心 无双)": {
             "id": 104855,
-            "name": "青桑靴_测试用",
+            "name": "云路鞋",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9506,16 +9459,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春靴_测试用#104854 (30200 会心 无双)": {
+        "文曲鞋#104854 (30200 会心 无双)": {
             "id": 104854,
-            "name": "季春靴_测试用",
+            "name": "文曲鞋",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9534,16 +9487,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源靴_测试用#104823 (30200 加速 无双)": {
+        "三元靴#104823 (30200 加速 无双)": {
             "id": 104823,
-            "name": "山源靴_测试用",
+            "name": "三元靴",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -9559,16 +9512,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗靴_测试用#104821 (30200 加速 无双)": {
+        "问殿靴#104821 (30200 加速 无双)": {
             "id": 104821,
-            "name": "留诗靴_测试用",
+            "name": "问殿靴",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9587,16 +9540,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月靴_测试用#104820 (30200 加速 无双)": {
+        "礼闱靴#104820 (30200 加速 无双)": {
             "id": 104820,
-            "name": "清月靴_测试用",
+            "name": "礼闱靴",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9615,16 +9568,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山靴_测试用#104819 (30200 加速 无双)": {
+        "封名靴#104819 (30200 加速 无双)": {
             "id": 104819,
-            "name": "游山靴_测试用",
+            "name": "封名靴",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9643,16 +9596,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉靴_测试用#104818 (30200 加速 无双)": {
+        "论策靴#104818 (30200 加速 无双)": {
             "id": 104818,
-            "name": "思玉靴_测试用",
+            "name": "论策靴",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23146,
+            "icon_id": 24113,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9671,16 +9624,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "西塞·沉醉靴_测试用#104743 (30200 破防 无双)": {
+        "天极·云胜靴#104743 (30200 破防 无双)": {
             "id": 104743,
-            "name": "西塞·沉醉靴_测试用",
+            "name": "天极·云胜靴",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6280,
-            "icon_id": 23195,
+            "icon_id": 24014,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9709,16 +9662,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·离巢靴_测试用#104742 (30200 破防 无双)": {
+        "天极·意悠靴#104742 (30200 破防 无双)": {
             "id": 104742,
-            "name": "西塞·离巢靴_测试用",
+            "name": "天极·意悠靴",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6279,
-            "icon_id": 23261,
+            "icon_id": 24074,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9747,16 +9700,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·秋星靴_测试用#104741 (30200 破防 无双)": {
+        "天极·斩妄靴#104741 (30200 破防 无双)": {
             "id": 104741,
-            "name": "西塞·秋星靴_测试用",
+            "name": "天极·斩妄靴",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6278,
-            "icon_id": 23189,
+            "icon_id": 24008,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9785,16 +9738,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·银筱履_测试用#104739 (30200 破防 无双)": {
+        "天极·悬丝靴#104739 (30200 破防 无双)": {
             "id": 104739,
-            "name": "西塞·银筱履_测试用",
+            "name": "天极·悬丝靴",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6276,
-            "icon_id": 23279,
+            "icon_id": 24092,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9824,16 +9777,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·清浊靴_测试用#104738 (30200 破防 无双)": {
+        "天极·符烬靴#104738 (30200 破防 无双)": {
             "id": 104738,
-            "name": "西塞·清浊靴_测试用",
+            "name": "天极·符烬靴",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6275,
-            "icon_id": 23273,
+            "icon_id": 24086,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9863,16 +9816,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·麟台靴_测试用#104737 (30200 破防 无双)": {
+        "天极·藏名靴#104737 (30200 破防 无双)": {
             "id": 104737,
-            "name": "西塞·麟台靴_测试用",
+            "name": "天极·藏名靴",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6274,
-            "icon_id": 23213,
+            "icon_id": 24026,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9902,16 +9855,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·川冥靴_测试用#104736 (30200 破防 无双)": {
+        "天极·裂海靴#104736 (30200 破防 无双)": {
             "id": 104736,
-            "name": "西塞·川冥靴_测试用",
+            "name": "天极·裂海靴",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6273,
-            "icon_id": 23225,
+            "icon_id": 24038,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9941,16 +9894,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·流电靴_测试用#104735 (30200 破防 无双)": {
+        "天极·雷壑靴#104735 (30200 破防 无双)": {
             "id": 104735,
-            "name": "西塞·流电靴_测试用",
+            "name": "天极·雷壑靴",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6272,
-            "icon_id": 23164,
+            "icon_id": 23984,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -9980,16 +9933,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·青弦靴_测试用#104733 (30200 破防 无双)": {
+        "天极·叹古靴#104733 (30200 破防 无双)": {
             "id": 104733,
-            "name": "西塞·青弦靴_测试用",
+            "name": "天极·叹古靴",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6270,
-            "icon_id": 23285,
+            "icon_id": 24098,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10019,16 +9972,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·旋草靴_测试用#104732 (30200 破招 无双)": {
+        "天极·铸铁靴#104732 (30200 破招 无双)": {
             "id": 104732,
-            "name": "西塞·旋草靴_测试用",
+            "name": "天极·铸铁靴",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6269,
-            "icon_id": 23170,
+            "icon_id": 23990,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -10056,16 +10009,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·行歌靴_测试用#104731 (30200 破防 无双)": {
+        "天极·风旗靴#104731 (30200 破防 无双)": {
             "id": 104731,
-            "name": "西塞·行歌靴_测试用",
+            "name": "天极·风旗靴",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6268,
-            "icon_id": 23170,
+            "icon_id": 23990,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10095,16 +10048,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·耀光靴_测试用#104730 (30200 破招 无双)": {
+        "天极·燃浊靴#104730 (30200 破招 无双)": {
             "id": 104730,
-            "name": "西塞·耀光靴_测试用",
+            "name": "天极·燃浊靴",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6267,
-            "icon_id": 23219,
+            "icon_id": 24032,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -10132,16 +10085,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·大荒靴_测试用#104729 (30200 破防 无双)": {
+        "天极·月刃靴#104729 (30200 破防 无双)": {
             "id": 104729,
-            "name": "西塞·大荒靴_测试用",
+            "name": "天极·月刃靴",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6266,
-            "icon_id": 23219,
+            "icon_id": 24032,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10170,16 +10123,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·平塘靴_测试用#104728 (30200 破防 无双)": {
+        "天极·醉云靴#104728 (30200 破防 无双)": {
             "id": 104728,
-            "name": "西塞·平塘靴_测试用",
+            "name": "天极·醉云靴",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6265,
-            "icon_id": 23207,
+            "icon_id": 24020,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10208,16 +10161,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·赤眉靴_测试用#104727 (30200 破防 无双)": {
+        "天极·听荷靴#104727 (30200 破防 无双)": {
             "id": 104727,
-            "name": "西塞·赤眉靴_测试用",
+            "name": "天极·听荷靴",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6264,
-            "icon_id": 23176,
+            "icon_id": 23996,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10242,21 +10195,20 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
         },
-        "西塞·江鸥靴_测试用#104726 (30200 破防 无双)": {
+        "天极·锁幽靴#104726 (30200 破防 无双)": {
             "id": 104726,
-            "name": "西塞·江鸥靴_测试用",
+            "name": "天极·锁幽靴",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6263,
-            "icon_id": 23243,
+            "icon_id": 24056,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10286,16 +10238,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·寒蛩靴_测试用#104725 (30200 破防 无双)": {
+        "天极·隐机靴#104725 (30200 破防 无双)": {
             "id": 104725,
-            "name": "西塞·寒蛩靴_测试用",
+            "name": "天极·隐机靴",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6262,
-            "icon_id": 23243,
+            "icon_id": 24056,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10325,16 +10277,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·朝愁履_测试用#104723 (30200 破防 无双)": {
+        "天极·缠心靴#104723 (30200 破防 无双)": {
             "id": 104723,
-            "name": "西塞·朝愁履_测试用",
+            "name": "天极·缠心靴",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6260,
-            "icon_id": 23267,
+            "icon_id": 24080,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10364,16 +10316,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·烟蘸履_测试用#104721 (30200 破防 无双)": {
+        "天极·独明靴#104721 (30200 破防 无双)": {
             "id": 104721,
-            "name": "西塞·烟蘸履_测试用",
+            "name": "天极·独明靴",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6258,
-            "icon_id": 23231,
+            "icon_id": 24044,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10402,16 +10354,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·冷辉履_测试用#104720 (30200 破防 无双)": {
+        "天极·忘归靴#104720 (30200 破防 无双)": {
             "id": 104720,
-            "name": "西塞·冷辉履_测试用",
+            "name": "天极·忘归靴",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6257,
-            "icon_id": 23182,
+            "icon_id": 24002,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10440,16 +10392,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·雪欹履_测试用#104719 (30200 破防 无双)": {
+        "天极·截云靴#104719 (30200 破防 无双)": {
             "id": 104719,
-            "name": "西塞·雪欹履_测试用",
+            "name": "天极·截云靴",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6256,
-            "icon_id": 23182,
+            "icon_id": 24002,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10479,16 +10431,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·戈戟履_测试用#104718 (30200 破招 无双)": {
+        "天极·截岳靴#104718 (30200 破招 无双)": {
             "id": 104718,
-            "name": "西塞·戈戟履_测试用",
+            "name": "天极·截岳靴",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6255,
-            "icon_id": 23249,
+            "icon_id": 24062,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -10516,16 +10468,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·壮志履_测试用#104717 (30200 破防 无双)": {
+        "天极·血旌靴#104717 (30200 破防 无双)": {
             "id": 104717,
-            "name": "西塞·壮志履_测试用",
+            "name": "天极·血旌靴",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6254,
-            "icon_id": 23249,
+            "icon_id": 24062,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10554,16 +10506,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·合章履_测试用#104715 (30200 破防 无双)": {
+        "天极·砚书靴#104715 (30200 破防 无双)": {
             "id": 104715,
-            "name": "西塞·合章履_测试用",
+            "name": "天极·砚书靴",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6252,
-            "icon_id": 23255,
+            "icon_id": 24068,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10593,16 +10545,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·恒沙履_测试用#104714 (30200 破招 无双)": {
+        "天极·梵劫靴#104714 (30200 破招 无双)": {
             "id": 104714,
-            "name": "西塞·恒沙履_测试用",
+            "name": "天极·梵劫靴",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6251,
-            "icon_id": 23237,
+            "icon_id": 24050,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -10631,16 +10583,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·彼岸履_测试用#104713 (30200 破防 无双)": {
+        "天极·怒相靴#104713 (30200 破防 无双)": {
             "id": 104713,
-            "name": "西塞·彼岸履_测试用",
+            "name": "天极·怒相靴",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6250,
-            "icon_id": 23237,
+            "icon_id": 24050,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -10670,9 +10622,9 @@ EQUIPMENTS = {
                 }
             }
         },
-        "无修鞋·外·玄_测试用#105057 (28000 精简 会心 会效 无双)": {
+        "无修鞋·外·玄#105057 (28000 精简 会心 会效 无双)": {
             "id": 105057,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10702,9 +10654,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105056 (28000 精简 破招 无双)": {
+        "无修鞋·外·玄#105056 (28000 精简 破招 无双)": {
             "id": 105056,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10733,9 +10685,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105055 (28000 精简 破防 无双)": {
+        "无修鞋·外·玄#105055 (28000 精简 破防 无双)": {
             "id": 105055,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10764,9 +10716,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105054 (28000 精简 会心 会效 无双)": {
+        "无修鞋·内·玄#105054 (28000 精简 会心 会效 无双)": {
             "id": 105054,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -10796,9 +10748,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105053 (28000 精简 破招 无双)": {
+        "无修鞋·内·玄#105053 (28000 精简 破招 无双)": {
             "id": 105053,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -10827,9 +10779,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105052 (28000 精简 破防 无双)": {
+        "无修鞋·内·玄#105052 (28000 精简 破防 无双)": {
             "id": 105052,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -10858,9 +10810,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105033 (28000 精简 会心 会效 无双)": {
+        "无修鞋·外·玄#105033 (28000 精简 会心 会效 无双)": {
             "id": 105033,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10890,9 +10842,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105032 (28000 精简 破招 无双)": {
+        "无修鞋·外·玄#105032 (28000 精简 破招 无双)": {
             "id": 105032,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10921,9 +10873,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·外·玄_测试用#105031 (28000 精简 破防 无双)": {
+        "无修鞋·外·玄#105031 (28000 精简 破防 无双)": {
             "id": 105031,
-            "name": "无修鞋·外·玄_测试用",
+            "name": "无修鞋·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -10952,9 +10904,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105030 (28000 精简 会心 会效 无双)": {
+        "无修鞋·内·玄#105030 (28000 精简 会心 会效 无双)": {
             "id": 105030,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -10984,9 +10936,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105029 (28000 精简 破招 无双)": {
+        "无修鞋·内·玄#105029 (28000 精简 破招 无双)": {
             "id": 105029,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -11015,9 +10967,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修鞋·内·玄_测试用#105028 (28000 精简 破防 无双)": {
+        "无修鞋·内·玄#105028 (28000 精简 破防 无双)": {
             "id": 105028,
-            "name": "无修鞋·内·玄_测试用",
+            "name": "无修鞋·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -11215,16 +11167,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼靴_测试用#106155 (25900 无双)": {
+        "塞上寒威·载彰靴#106155 (25900 无双)": {
             "id": 106155,
-            "name": "孤山寒月·银狼靴_测试用",
+            "name": "塞上寒威·载彰靴",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6551,
+            "icon_id": 10421,
             "base": {},
             "magic": {
                 "vitality_base": 14704,
@@ -11237,16 +11189,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃靴_测试用#106153 (25900 会心 无双)": {
+        "塞上寒威·星宇靴#106153 (25900 会心 无双)": {
             "id": 106153,
-            "name": "孤山寒月·逐刃靴_测试用",
+            "name": "塞上寒威·星宇靴",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6551,
+            "icon_id": 10421,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -11265,16 +11217,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期靴_测试用#106152 (25900 会心 无双)": {
+        "塞上寒威·善诚靴#106152 (25900 会心 无双)": {
             "id": 106152,
-            "name": "孤山寒月·归期靴_测试用",
+            "name": "塞上寒威·善诚靴",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6551,
+            "icon_id": 10421,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -11293,16 +11245,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生靴_测试用#106151 (25900 会心 无双)": {
+        "塞上寒威·暮赏靴#106151 (25900 会心 无双)": {
             "id": 106151,
-            "name": "孤山寒月·忧生靴_测试用",
+            "name": "塞上寒威·暮赏靴",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6551,
+            "icon_id": 10421,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -11321,16 +11273,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟靴_测试用#106150 (25900 会心 无双)": {
+        "塞上寒威·披锦靴#106150 (25900 会心 无双)": {
             "id": 106150,
-            "name": "孤山寒月·风吟靴_测试用",
+            "name": "塞上寒威·披锦靴",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6551,
+            "icon_id": 10421,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -11349,9 +11301,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·栖遑靴_测试用#104638 (25900 无双)": {
+        "寻踪觅宝·尚同靴#104638 (25900 无双)": {
             "id": 104638,
-            "name": "寻踪觅宝·栖遑靴_测试用",
+            "name": "寻踪觅宝·尚同靴",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
@@ -11377,9 +11329,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·迭微靴_测试用#104636 (25900 会心 无双)": {
+        "寻踪觅宝·巧变靴#104636 (25900 会心 无双)": {
             "id": 104636,
-            "name": "寻踪觅宝·迭微靴_测试用",
+            "name": "寻踪觅宝·巧变靴",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -11411,9 +11363,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·予吉靴_测试用#104635 (25900 会心 无双)": {
+        "寻踪觅宝·劲锐靴#104635 (25900 会心 无双)": {
             "id": 104635,
-            "name": "寻踪觅宝·予吉靴_测试用",
+            "name": "寻踪觅宝·劲锐靴",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -11445,9 +11397,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·月诸靴_测试用#104634 (25900 会心 无双)": {
+        "寻踪觅宝·端本靴#104634 (25900 会心 无双)": {
             "id": 104634,
-            "name": "寻踪觅宝·月诸靴_测试用",
+            "name": "寻踪觅宝·端本靴",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -11479,9 +11431,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·陟南靴_测试用#104633 (25900 会心 无双)": {
+        "寻踪觅宝·多维靴#104633 (25900 会心 无双)": {
             "id": 104633,
-            "name": "寻踪觅宝·陟南靴_测试用",
+            "name": "寻踪觅宝·多维靴",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -11795,7 +11747,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23195,
             "base": {},
             "magic": {
@@ -11811,14 +11763,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -11834,7 +11785,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23261,
             "base": {},
             "magic": {
@@ -11850,14 +11801,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -11873,7 +11823,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23189,
             "base": {},
             "magic": {
@@ -11889,14 +11839,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -11912,7 +11861,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23279,
             "base": {},
             "magic": {
@@ -11928,14 +11877,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -11952,7 +11900,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23273,
             "base": {},
             "magic": {
@@ -11968,14 +11916,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -11992,7 +11939,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23213,
             "base": {},
             "magic": {
@@ -12008,14 +11955,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -12032,7 +11978,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23225,
             "base": {},
             "magic": {
@@ -12048,14 +11994,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -12072,7 +12017,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23164,
             "base": {},
             "magic": {
@@ -12088,14 +12033,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -12112,7 +12056,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23285,
             "base": {},
             "magic": {
@@ -12128,18 +12072,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -12152,7 +12095,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23170,
             "base": {},
             "magic": {
@@ -12189,7 +12132,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23170,
             "base": {},
             "magic": {
@@ -12205,14 +12148,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -12229,7 +12171,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23219,
             "base": {},
             "magic": {
@@ -12266,7 +12208,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23219,
             "base": {},
             "magic": {
@@ -12282,14 +12224,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -12305,7 +12246,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23207,
             "base": {},
             "magic": {
@@ -12321,14 +12262,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -12344,7 +12284,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23176,
             "base": {},
             "magic": {
@@ -12360,18 +12300,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -12384,7 +12322,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23243,
             "base": {},
             "magic": {
@@ -12400,14 +12338,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -12424,7 +12361,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23243,
             "base": {},
             "magic": {
@@ -12440,14 +12377,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -12464,7 +12400,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23267,
             "base": {},
             "magic": {
@@ -12480,14 +12416,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -12504,7 +12439,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23231,
             "base": {},
             "magic": {
@@ -12520,14 +12455,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -12543,7 +12477,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23182,
             "base": {},
             "magic": {
@@ -12559,14 +12493,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -12582,7 +12515,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23182,
             "base": {},
             "magic": {
@@ -12598,14 +12531,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -12622,7 +12554,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23249,
             "base": {},
             "magic": {
@@ -12659,7 +12591,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23249,
             "base": {},
             "magic": {
@@ -12675,14 +12607,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -12698,7 +12629,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23255,
             "base": {},
             "magic": {
@@ -12714,14 +12645,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -12738,7 +12668,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23237,
             "base": {},
             "magic": {
@@ -12776,7 +12706,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23237,
             "base": {},
             "magic": {
@@ -12792,14 +12722,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -14022,9 +13951,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立靴_测试用#104602 (23000 无双)": {
+        "奎岩履#104602 (23000 无双)": {
             "id": 104602,
-            "name": "壁立靴_测试用",
+            "name": "奎岩履",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
@@ -14047,9 +13976,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明靴_测试用#104600 (23000 破防 无双)": {
+        "奎影履#104600 (23000 破防 无双)": {
             "id": 104600,
-            "name": "壁明靴_测试用",
+            "name": "奎影履",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
@@ -14075,9 +14004,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺靴_测试用#104599 (23000 破防 无双)": {
+        "奎刚鞋#104599 (23000 破防 无双)": {
             "id": 104599,
-            "name": "壁邺靴_测试用",
+            "name": "奎刚鞋",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
@@ -14103,9 +14032,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜靴_测试用#104598 (23000 破防 无双)": {
+        "奎元履#104598 (23000 破防 无双)": {
             "id": 104598,
-            "name": "壁镜靴_测试用",
+            "name": "奎元履",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
@@ -14131,9 +14060,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观靴_测试用#104597 (23000 破防 无双)": {
+        "奎灵鞋#104597 (23000 破防 无双)": {
             "id": 104597,
-            "name": "壁观靴_测试用",
+            "name": "奎灵鞋",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
@@ -15444,7 +15373,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23195,
             "base": {},
             "magic": {
@@ -15460,14 +15389,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -15483,7 +15411,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23261,
             "base": {},
             "magic": {
@@ -15499,14 +15427,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -15522,7 +15449,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23189,
             "base": {},
             "magic": {
@@ -15538,14 +15465,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -15561,7 +15487,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23279,
             "base": {},
             "magic": {
@@ -15577,14 +15503,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -15601,7 +15526,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23273,
             "base": {},
             "magic": {
@@ -15617,14 +15542,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -15641,7 +15565,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23213,
             "base": {},
             "magic": {
@@ -15657,14 +15581,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -15681,7 +15604,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23225,
             "base": {},
             "magic": {
@@ -15697,14 +15620,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -15721,7 +15643,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23164,
             "base": {},
             "magic": {
@@ -15737,14 +15659,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -15761,7 +15682,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23285,
             "base": {},
             "magic": {
@@ -15777,18 +15698,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -15801,7 +15721,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23170,
             "base": {},
             "magic": {
@@ -15838,7 +15758,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23170,
             "base": {},
             "magic": {
@@ -15854,14 +15774,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -15878,7 +15797,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23219,
             "base": {},
             "magic": {
@@ -15915,7 +15834,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23219,
             "base": {},
             "magic": {
@@ -15931,14 +15850,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -15954,7 +15872,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23207,
             "base": {},
             "magic": {
@@ -15970,14 +15888,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -15993,7 +15910,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23176,
             "base": {},
             "magic": {
@@ -16009,18 +15926,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -16033,7 +15948,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23243,
             "base": {},
             "magic": {
@@ -16049,14 +15964,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -16073,7 +15987,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23243,
             "base": {},
             "magic": {
@@ -16089,14 +16003,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -16113,7 +16026,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23267,
             "base": {},
             "magic": {
@@ -16129,14 +16042,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -16153,7 +16065,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23231,
             "base": {},
             "magic": {
@@ -16169,14 +16081,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -16192,7 +16103,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23182,
             "base": {},
             "magic": {
@@ -16208,14 +16119,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -16231,7 +16141,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23182,
             "base": {},
             "magic": {
@@ -16247,14 +16157,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -16271,7 +16180,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23249,
             "base": {},
             "magic": {
@@ -16308,7 +16217,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23249,
             "base": {},
             "magic": {
@@ -16324,14 +16233,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -16347,7 +16255,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23255,
             "base": {},
             "magic": {
@@ -16363,14 +16271,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -16387,7 +16294,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23237,
             "base": {},
             "magic": {
@@ -16425,7 +16332,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23237,
             "base": {},
             "magic": {
@@ -16441,14 +16348,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -19216,16 +19122,16 @@ EQUIPMENTS = {
         }
     },
     "bottoms": {
-        "花棠裤_测试用#104991 (30700 破招 无双)": {
+        "月钟下裳#104991 (30700 破招 无双)": {
             "id": 104991,
-            "name": "花棠裤_测试用",
+            "name": "月钟下裳",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23151,
+            "icon_id": 24118,
             "base": {},
             "magic": {
                 "vitality_base": 24898,
@@ -19248,16 +19154,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永裤_测试用#104989 (30700 会心 无双)": {
+        "月霭下裳#104989 (30700 会心 无双)": {
             "id": 104989,
-            "name": "花永裤_测试用",
+            "name": "月霭下裳",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23151,
+            "icon_id": 24118,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -19283,16 +19189,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世裤_测试用#104988 (30700 会心 无双)": {
+        "月溪下裳#104988 (30700 会心 无双)": {
             "id": 104988,
-            "name": "花世裤_测试用",
+            "name": "月溪下裳",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23151,
+            "icon_id": 24118,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -19318,16 +19224,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念裤_测试用#104987 (30700 会心 无双)": {
+        "月声下裳#104987 (30700 会心 无双)": {
             "id": 104987,
-            "name": "花念裤_测试用",
+            "name": "月声下裳",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23151,
+            "icon_id": 24118,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -19353,16 +19259,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深裤_测试用#104986 (30700 会心 无双)": {
+        "月涛下裳#104986 (30700 会心 无双)": {
             "id": 104986,
-            "name": "花深裤_测试用",
+            "name": "月涛下裳",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23151,
+            "icon_id": 24118,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -19388,16 +19294,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图裳_测试用#105093 (30200 破招 无双)": {
+        "坠欢裤#105093 (30200 破招 无双)": {
             "id": 105093,
-            "name": "漠图裳_测试用",
+            "name": "坠欢裤",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9688,
+            "icon_id": 13282,
             "base": {},
             "magic": {
                 "vitality_base": 23171,
@@ -19413,16 +19319,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名裳_测试用#105091 (30200 破招 无双)": {
+        "坠红裤#105091 (30200 破招 无双)": {
             "id": 105091,
-            "name": "漠名裳_测试用",
+            "name": "坠红裤",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9688,
+            "icon_id": 13282,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -19441,16 +19347,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若裳_测试用#105090 (30200 破招 无双)": {
+        "坠雨裤#105090 (30200 破招 无双)": {
             "id": 105090,
-            "name": "漠若裳_测试用",
+            "name": "坠雨裤",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9688,
+            "icon_id": 13282,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -19469,16 +19375,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖裳_测试用#105089 (30200 破招 无双)": {
+        "坠露裤#105089 (30200 破招 无双)": {
             "id": 105089,
-            "name": "漠晖裳_测试用",
+            "name": "坠露裤",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9688,
+            "icon_id": 13282,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -19497,16 +19403,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安裳_测试用#105088 (30200 破招 无双)": {
+        "坠潮裤#105088 (30200 破招 无双)": {
             "id": 105088,
-            "name": "漠安裳_测试用",
+            "name": "坠潮裤",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9688,
+            "icon_id": 13282,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -19525,9 +19431,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·穷阴下裳_测试用#105015 (30200 破招 无双)": {
+        "客行江湖·常盛下裳#105015 (30200 破招 无双)": {
             "id": 105015,
-            "name": "客行江湖·穷阴下裳_测试用",
+            "name": "客行江湖·常盛下裳",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
@@ -19550,9 +19456,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·泉葩下裳_测试用#105013 (30200 破防 无双)": {
+        "客行江湖·日斜下裳#105013 (30200 破防 无双)": {
             "id": 105013,
-            "name": "客行江湖·泉葩下裳_测试用",
+            "name": "客行江湖·日斜下裳",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
@@ -19578,9 +19484,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·冥绝下裳_测试用#105012 (30200 破防 无双)": {
+        "客行江湖·山隈下裳#105012 (30200 破防 无双)": {
             "id": 105012,
-            "name": "客行江湖·冥绝下裳_测试用",
+            "name": "客行江湖·山隈下裳",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
@@ -19606,9 +19512,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·散秋下裳_测试用#105011 (30200 破防 无双)": {
+        "客行江湖·新圃下裳#105011 (30200 破防 无双)": {
             "id": 105011,
-            "name": "客行江湖·散秋下裳_测试用",
+            "name": "客行江湖·新圃下裳",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
@@ -19634,9 +19540,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·馀散下裳_测试用#105010 (30200 破防 无双)": {
+        "客行江湖·繁色下裳#105010 (30200 破防 无双)": {
             "id": 105010,
-            "name": "客行江湖·馀散下裳_测试用",
+            "name": "客行江湖·繁色下裳",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
@@ -19662,22 +19568,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澄潭裤_测试用#104967 (30200 精简 破防 破招)": {
+        "舞金銮#104967 (30200 精简 破防)": {
             "id": 104967,
-            "name": "澄潭裤_测试用",
+            "name": "舞金銮",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
                 "physical_attack_power_base": 5939,
-                "physical_overcome_base": 11304,
-                "surplus_base": 754
+                "physical_overcome_base": 11304
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -19693,22 +19598,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "复梦裤_测试用#104966 (30200 精简 会心 破招)": {
+        "春晨韵#104966 (30200 精简 会心)": {
             "id": 104966,
-            "name": "复梦裤_测试用",
+            "name": "春晨韵",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
                 "physical_attack_power_base": 5939,
-                "physical_critical_strike_base": 11304,
-                "surplus_base": 754
+                "physical_critical_strike_base": 11304
             },
             "embed": {
                 "physical_critical_power_base": 321,
@@ -19724,16 +19628,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "重世裤_测试用#104965 (30200 精简 破招 无双)": {
+        "夏荷谣#104965 (30200 精简 破招 无双)": {
             "id": 104965,
-            "name": "重世裤_测试用",
+            "name": "夏荷谣",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19755,16 +19659,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "涧松裤_测试用#104964 (30200 精简 破防 无双)": {
+        "醉芙蓉#104964 (30200 精简 破防 无双)": {
             "id": 104964,
-            "name": "涧松裤_测试用",
+            "name": "醉芙蓉",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19786,16 +19690,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澄潭裤_测试用#104963 (30200 精简 会心 无双)": {
+        "送寒宵#104963 (30200 精简 会心 无双)": {
             "id": 104963,
-            "name": "澄潭裤_测试用",
+            "name": "送寒宵",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19817,16 +19721,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "复梦裤_测试用#104962 (30200 精简 会心 破招 破防 无双)": {
+        "朔风雪#104962 (30200 精简 会心 破招 破防 无双)": {
             "id": 104962,
-            "name": "复梦裤_测试用",
+            "name": "朔风雪",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19850,16 +19754,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "重世裤_测试用#104961 (30200 精简 加速)": {
+        "虹碎裤·迅#104961 (30200 精简 加速)": {
             "id": 104961,
-            "name": "重世裤_测试用",
+            "name": "虹碎裤·迅",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19876,16 +19780,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "涧松裤_测试用#104960 (30200 精简 破防 破招 无双)": {
+        "苍劲裤·绝#104960 (30200 精简 破防 破招 无双)": {
             "id": 104960,
-            "name": "涧松裤_测试用",
+            "name": "苍劲裤·绝",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19904,16 +19808,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "云合裤_测试用#104959 (30200 精简 会心 破招 无双)": {
+        "霆击裤·明#104959 (30200 精简 会心 破招 无双)": {
             "id": 104959,
-            "name": "云合裤_测试用",
+            "name": "霆击裤·明",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19932,16 +19836,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澄潭裤_测试用#104958 (30200 精简 会心 破防 无双)": {
+        "星锐裤·觉#104958 (30200 精简 会心 破防 无双)": {
             "id": 104958,
-            "name": "澄潭裤_测试用",
+            "name": "星锐裤·觉",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19960,16 +19864,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "复梦裤_测试用#104957 (30200 精简 破招 无双)": {
+        "裂巽裤·引#104957 (30200 精简 破招 无双)": {
             "id": 104957,
-            "name": "复梦裤_测试用",
+            "name": "裂巽裤·引",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -19987,16 +19891,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "重世裤_测试用#104956 (30200 精简 破防 无双)": {
+        "风擂裤·破#104956 (30200 精简 破防 无双)": {
             "id": 104956,
-            "name": "重世裤_测试用",
+            "name": "风擂裤·破",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20014,16 +19918,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "涧松裤_测试用#104955 (30200 精简 会心 无双)": {
+        "飞电裤·悟#104955 (30200 精简 会心 无双)": {
             "id": 104955,
-            "name": "涧松裤_测试用",
+            "name": "飞电裤·悟",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20041,16 +19945,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "云合裤_测试用#104954 (30200 精简 无双)": {
+        "破浪裤·尊#104954 (30200 精简 无双)": {
             "id": 104954,
-            "name": "云合裤_测试用",
+            "name": "破浪裤·尊",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20067,22 +19971,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "喻声裤_测试用#104953 (30200 精简 破防 破招)": {
+        "秋思叹#104953 (30200 精简 破防)": {
             "id": 104953,
-            "name": "喻声裤_测试用",
+            "name": "秋思叹",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
                 "magical_attack_power_base": 6604,
-                "magical_overcome_base": 11304,
-                "surplus_base": 754
+                "magical_overcome_base": 11304
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -20098,22 +20001,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "然犀裤_测试用#104952 (30200 精简 会心 破招)": {
+        "影渐孤#104952 (30200 精简 会心)": {
             "id": 104952,
-            "name": "然犀裤_测试用",
+            "name": "影渐孤",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
                 "magical_attack_power_base": 6604,
-                "all_critical_strike_base": 11304,
-                "surplus_base": 754
+                "all_critical_strike_base": 11304
             },
             "embed": {
                 "all_critical_power_base": 321,
@@ -20129,16 +20031,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尺书裤_测试用#104951 (30200 精简 破招 无双)": {
+        "入小楼#104951 (30200 精简 破招 无双)": {
             "id": 104951,
-            "name": "尺书裤_测试用",
+            "name": "入小楼",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20160,16 +20062,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "鸣驺裤_测试用#104950 (30200 精简 破防 无双)": {
+        "照九州#104950 (30200 精简 破防 无双)": {
             "id": 104950,
-            "name": "鸣驺裤_测试用",
+            "name": "照九州",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20191,16 +20093,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "喻声裤_测试用#104949 (30200 精简 会心 无双)": {
+        "笑东篱#104949 (30200 精简 会心 无双)": {
             "id": 104949,
-            "name": "喻声裤_测试用",
+            "name": "笑东篱",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20222,16 +20124,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "然犀裤_测试用#104948 (30200 精简 会心 破招 破防 无双)": {
+        "满枝春#104948 (30200 精简 会心 破招 破防 无双)": {
             "id": 104948,
-            "name": "然犀裤_测试用",
+            "name": "满枝春",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20255,16 +20157,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尺书裤_测试用#104947 (30200 精简 加速)": {
+        "瑾怀裤·迅#104947 (30200 精简 加速)": {
             "id": 104947,
-            "name": "尺书裤_测试用",
+            "name": "瑾怀裤·迅",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20281,16 +20183,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "鸣驺裤_测试用#104946 (30200 精简 破防 破招 无双)": {
+        "霜心裤·绝#104946 (30200 精简 破防 破招 无双)": {
             "id": 104946,
-            "name": "鸣驺裤_测试用",
+            "name": "霜心裤·绝",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20309,16 +20211,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "宜春裤_测试用#104945 (30200 精简 会心 破招 无双)": {
+        "清影裤·明#104945 (30200 精简 会心 破招 无双)": {
             "id": 104945,
-            "name": "宜春裤_测试用",
+            "name": "清影裤·明",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20337,16 +20239,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "喻声裤_测试用#104944 (30200 精简 会心 破防 无双)": {
+        "苍渊裤·觉#104944 (30200 精简 会心 破防 无双)": {
             "id": 104944,
-            "name": "喻声裤_测试用",
+            "name": "苍渊裤·觉",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20365,16 +20267,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "然犀裤_测试用#104943 (30200 精简 破招 无双)": {
+        "明光裤·引#104943 (30200 精简 破招 无双)": {
             "id": 104943,
-            "name": "然犀裤_测试用",
+            "name": "明光裤·引",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20392,16 +20294,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尺书裤_测试用#104942 (30200 精简 破防 无双)": {
+        "沉浮裤·破#104942 (30200 精简 破防 无双)": {
             "id": 104942,
-            "name": "尺书裤_测试用",
+            "name": "沉浮裤·破",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20419,16 +20321,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "鸣驺裤_测试用#104941 (30200 精简 会心 无双)": {
+        "渊渟裤·悟#104941 (30200 精简 会心 无双)": {
             "id": 104941,
-            "name": "鸣驺裤_测试用",
+            "name": "渊渟裤·悟",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20446,16 +20348,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "宜春裤_测试用#104940 (30200 精简 无双)": {
+        "玄境裤·尊#104940 (30200 精简 无双)": {
             "id": 104940,
-            "name": "宜春裤_测试用",
+            "name": "玄境裤·尊",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20472,16 +20374,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "阵昀裤_测试用#104883 (30200 加速 无双)": {
+        "裁霜裤#104883 (30200 加速 无双)": {
             "id": 104883,
-            "name": "阵昀裤_测试用",
+            "name": "裁霜裤",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -20498,16 +20400,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "临云裤_测试用#104881 (30200 破招 无双)": {
+        "衔月裤#104881 (30200 破招 无双)": {
             "id": 104881,
-            "name": "临云裤_测试用",
+            "name": "衔月裤",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20526,16 +20428,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君信裤_测试用#104880 (30200 破招 无双)": {
+        "饮渌裤#104880 (30200 破招 无双)": {
             "id": 104880,
-            "name": "君信裤_测试用",
+            "name": "饮渌裤",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20554,16 +20456,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清槐裤_测试用#104879 (30200 破招 无双)": {
+        "枕石裤#104879 (30200 破招 无双)": {
             "id": 104879,
-            "name": "清槐裤_测试用",
+            "name": "枕石裤",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20582,16 +20484,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孟春裤_测试用#104878 (30200 破招 无双)": {
+        "塑玉裤#104878 (30200 破招 无双)": {
             "id": 104878,
-            "name": "孟春裤_测试用",
+            "name": "塑玉裤",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20610,16 +20512,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西裤_测试用#104865 (30200 无双)": {
+        "登科下裳#104865 (30200 无双)": {
             "id": 104865,
-            "name": "镇西裤_测试用",
+            "name": "登科下裳",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -20634,16 +20536,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁裤_测试用#104863 (30200 会心 无双)": {
+        "标雁下裳#104863 (30200 会心 无双)": {
             "id": 104863,
-            "name": "羡雁裤_测试用",
+            "name": "标雁下裳",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20662,16 +20564,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深裤_测试用#104862 (30200 会心 无双)": {
+        "寒窗下裳#104862 (30200 会心 无双)": {
             "id": 104862,
-            "name": "君深裤_测试用",
+            "name": "寒窗下裳",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20690,16 +20592,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑裤_测试用#104861 (30200 会心 无双)": {
+        "云路下裳#104861 (30200 会心 无双)": {
             "id": 104861,
-            "name": "青桑裤_测试用",
+            "name": "云路下裳",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20718,16 +20620,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春裤_测试用#104860 (30200 会心 无双)": {
+        "文曲下裳#104860 (30200 会心 无双)": {
             "id": 104860,
-            "name": "季春裤_测试用",
+            "name": "文曲下裳",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20746,16 +20648,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源下裳_测试用#104829 (30200 无双)": {
+        "三元下裳#104829 (30200 无双)": {
             "id": 104829,
-            "name": "山源下裳_测试用",
+            "name": "三元下裳",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -20770,16 +20672,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗下裳_测试用#104827 (30200 加速 无双)": {
+        "问殿下裳#104827 (30200 加速 无双)": {
             "id": 104827,
-            "name": "留诗下裳_测试用",
+            "name": "问殿下裳",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20798,16 +20700,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月下裳_测试用#104826 (30200 加速 无双)": {
+        "礼闱下裳#104826 (30200 加速 无双)": {
             "id": 104826,
-            "name": "清月下裳_测试用",
+            "name": "礼闱下裳",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20826,16 +20728,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山下裳_测试用#104825 (30200 加速 无双)": {
+        "封名下裳#104825 (30200 加速 无双)": {
             "id": 104825,
-            "name": "游山下裳_测试用",
+            "name": "封名下裳",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -20854,16 +20756,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉下裳_测试用#104824 (30200 加速 无双)": {
+        "论策下裳#104824 (30200 加速 无双)": {
             "id": 104824,
-            "name": "思玉下裳_测试用",
+            "name": "论策下裳",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23145,
+            "icon_id": 24112,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -21054,16 +20956,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼裤_测试用#106161 (25900 破招 无双)": {
+        "塞上寒威·载彰下裳#106161 (25900 破招 无双)": {
             "id": 106161,
-            "name": "孤山寒月·银狼裤_测试用",
+            "name": "塞上寒威·载彰下裳",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6479,
+            "icon_id": 10419,
             "base": {},
             "magic": {
                 "vitality_base": 21005,
@@ -21079,16 +20981,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃裤_测试用#106159 (25900 破防 无双)": {
+        "塞上寒威·星宇下裳#106159 (25900 破防 无双)": {
             "id": 106159,
-            "name": "孤山寒月·逐刃裤_测试用",
+            "name": "塞上寒威·星宇下裳",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6479,
+            "icon_id": 10419,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -21107,16 +21009,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期裤_测试用#106158 (25900 破防 无双)": {
+        "塞上寒威·善诚下裳#106158 (25900 破防 无双)": {
             "id": 106158,
-            "name": "孤山寒月·归期裤_测试用",
+            "name": "塞上寒威·善诚下裳",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6479,
+            "icon_id": 10419,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -21135,16 +21037,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生裤_测试用#106157 (25900 破防 无双)": {
+        "塞上寒威·暮赏下裳#106157 (25900 破防 无双)": {
             "id": 106157,
-            "name": "孤山寒月·忧生裤_测试用",
+            "name": "塞上寒威·暮赏下裳",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6479,
+            "icon_id": 10419,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -21163,16 +21065,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟裤_测试用#106156 (25900 破防 无双)": {
+        "塞上寒威·披锦下裳#106156 (25900 破防 无双)": {
             "id": 106156,
-            "name": "孤山寒月·风吟裤_测试用",
+            "name": "塞上寒威·披锦下裳",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6479,
+            "icon_id": 10419,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -22145,9 +22047,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立裤_测试用#104608 (23000 无双)": {
+        "奎岩裤#104608 (23000 无双)": {
             "id": 104608,
-            "name": "壁立裤_测试用",
+            "name": "奎岩裤",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
@@ -22169,9 +22071,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明裤_测试用#104606 (23000 会心 无双)": {
+        "奎影裤#104606 (23000 会心 无双)": {
             "id": 104606,
-            "name": "壁明裤_测试用",
+            "name": "奎影裤",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
@@ -22197,9 +22099,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺裤_测试用#104605 (23000 会心 无双)": {
+        "奎刚裤#104605 (23000 会心 无双)": {
             "id": 104605,
-            "name": "壁邺裤_测试用",
+            "name": "奎刚裤",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
@@ -22225,9 +22127,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜裤_测试用#104604 (23000 会心 无双)": {
+        "奎元裤#104604 (23000 会心 无双)": {
             "id": 104604,
-            "name": "壁镜裤_测试用",
+            "name": "奎元裤",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
@@ -22253,9 +22155,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观裤_测试用#104603 (23000 会心 无双)": {
+        "奎灵裤#104603 (23000 会心 无双)": {
             "id": 104603,
-            "name": "壁观裤_测试用",
+            "name": "奎灵裤",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
@@ -24409,16 +24311,16 @@ EQUIPMENTS = {
         }
     },
     "belt": {
-        "花棠腰带_测试用#104979 (30700 无双)": {
+        "月钟护腰#104979 (30700 无双)": {
             "id": 104979,
-            "name": "花棠腰带_测试用",
+            "name": "月钟护腰",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23153,
+            "icon_id": 24120,
             "base": {},
             "magic": {
                 "vitality_base": 17429,
@@ -24441,16 +24343,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永腰带_测试用#104977 (30700 会心 无双)": {
+        "月霭护腰#104977 (30700 会心 无双)": {
             "id": 104977,
-            "name": "花永腰带_测试用",
+            "name": "月霭护腰",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23153,
+            "icon_id": 24120,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -24476,16 +24378,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世腰带_测试用#104976 (30700 会心 无双)": {
+        "月溪护腰#104976 (30700 会心 无双)": {
             "id": 104976,
-            "name": "花世腰带_测试用",
+            "name": "月溪护腰",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23153,
+            "icon_id": 24120,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -24511,16 +24413,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念腰带_测试用#104975 (30700 会心 无双)": {
+        "月声护腰#104975 (30700 会心 无双)": {
             "id": 104975,
-            "name": "花念腰带_测试用",
+            "name": "月声护腰",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23153,
+            "icon_id": 24120,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -24546,16 +24448,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深腰带_测试用#104974 (30700 会心 无双)": {
+        "月涛护腰#104974 (30700 会心 无双)": {
             "id": 104974,
-            "name": "花深腰带_测试用",
+            "name": "月涛护腰",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23153,
+            "icon_id": 24120,
             "base": {},
             "magic": {
                 "vitality_base": 11798,
@@ -24581,16 +24483,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图腰带_测试用#105081 (30200 无双)": {
+        "坠欢护腰#105081 (30200 无双)": {
             "id": 105081,
-            "name": "漠图腰带_测试用",
+            "name": "坠欢护腰",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9687,
+            "icon_id": 13284,
             "base": {},
             "magic": {
                 "vitality_base": 16220,
@@ -24606,16 +24508,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名腰带_测试用#105079 (30200 破防 无双)": {
+        "坠红护腰#105079 (30200 破防 无双)": {
             "id": 105079,
-            "name": "漠名腰带_测试用",
+            "name": "坠红护腰",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9687,
+            "icon_id": 13284,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -24634,16 +24536,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若腰带_测试用#105078 (30200 破防 无双)": {
+        "坠雨护腰#105078 (30200 破防 无双)": {
             "id": 105078,
-            "name": "漠若腰带_测试用",
+            "name": "坠雨护腰",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9687,
+            "icon_id": 13284,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -24662,16 +24564,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖腰带_测试用#105077 (30200 破防 无双)": {
+        "坠露护腰#105077 (30200 破防 无双)": {
             "id": 105077,
-            "name": "漠晖腰带_测试用",
+            "name": "坠露护腰",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9687,
+            "icon_id": 13284,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -24690,16 +24592,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安腰带_测试用#105076 (30200 破防 无双)": {
+        "坠潮护腰#105076 (30200 破防 无双)": {
             "id": 105076,
-            "name": "漠安腰带_测试用",
+            "name": "坠潮护腰",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9687,
+            "icon_id": 13284,
             "base": {},
             "magic": {
                 "vitality_base": 10980,
@@ -24718,22 +24620,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "含封腰带_测试用#104911 (30200 精简 破防 破招)": {
+        "诉征程#104911 (30200 精简 破防)": {
             "id": 104911,
-            "name": "含封腰带_测试用",
+            "name": "诉征程",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
                 "physical_attack_power_base": 4157,
-                "physical_overcome_base": 7913,
-                "surplus_base": 528
+                "physical_overcome_base": 7913
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -24749,22 +24650,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "刻花腰带_测试用#104910 (30200 精简 会心 破招)": {
+        "悲笳泣#104910 (30200 精简 会心)": {
             "id": 104910,
-            "name": "刻花腰带_测试用",
+            "name": "悲笳泣",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
                 "physical_attack_power_base": 4157,
-                "physical_critical_strike_base": 7913,
-                "surplus_base": 528
+                "physical_critical_strike_base": 7913
             },
             "embed": {
                 "physical_critical_power_base": 321,
@@ -24780,16 +24680,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "垄青腰带_测试用#104909 (30200 精简 破防 无双)": {
+        "寻故乡#104909 (30200 精简 破防 无双)": {
             "id": 104909,
-            "name": "垄青腰带_测试用",
+            "name": "寻故乡",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24811,16 +24711,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烟月腰带_测试用#104908 (30200 精简 会心 无双)": {
+        "征途远#104908 (30200 精简 会心 无双)": {
             "id": 104908,
-            "name": "烟月腰带_测试用",
+            "name": "征途远",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24842,16 +24742,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "含封腰带_测试用#104907 (30200 精简 破招)": {
+        "誓无归#104907 (30200 精简 破招)": {
             "id": 104907,
-            "name": "含封腰带_测试用",
+            "name": "誓无归",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24872,16 +24772,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "刻花腰带_测试用#104906 (30200 精简 会心 破招 破防 无双)": {
+        "战寒风#104906 (30200 精简 会心 破招 破防 无双)": {
             "id": 104906,
-            "name": "刻花腰带_测试用",
+            "name": "战寒风",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24905,16 +24805,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "垄青腰带_测试用#104905 (30200 精简 加速 无双)": {
+        "对江护腰·迅#104905 (30200 精简 加速 无双)": {
             "id": 104905,
-            "name": "垄青腰带_测试用",
+            "name": "对江护腰·迅",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24932,16 +24832,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烟月腰带_测试用#104904 (30200 精简 破防 破招 无双)": {
+        "石行护腰·绝#104904 (30200 精简 破防 破招 无双)": {
             "id": 104904,
-            "name": "烟月腰带_测试用",
+            "name": "石行护腰·绝",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24960,16 +24860,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "醉别腰带_测试用#104903 (30200 精简 会心 破招 无双)": {
+        "舲风护腰·明#104903 (30200 精简 会心 破招 无双)": {
             "id": 104903,
-            "name": "醉别腰带_测试用",
+            "name": "舲风护腰·明",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -24988,16 +24888,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "含封腰带_测试用#104902 (30200 精简 会心 破防 无双)": {
+        "惊眠护腰·觉#104902 (30200 精简 会心 破防 无双)": {
             "id": 104902,
-            "name": "含封腰带_测试用",
+            "name": "惊眠护腰·觉",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25016,16 +24916,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "刻花腰带_测试用#104901 (30200 精简 破招 无双)": {
+        "晴容护腰·引#104901 (30200 精简 破招 无双)": {
             "id": 104901,
-            "name": "刻花腰带_测试用",
+            "name": "晴容护腰·引",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25043,16 +24943,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "垄青腰带_测试用#104900 (30200 精简 破防 无双)": {
+        "分雨护腰·破#104900 (30200 精简 破防 无双)": {
             "id": 104900,
-            "name": "垄青腰带_测试用",
+            "name": "分雨护腰·破",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25070,16 +24970,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烟月腰带_测试用#104899 (30200 精简 会心 无双)": {
+        "灵作护腰·悟#104899 (30200 精简 会心 无双)": {
             "id": 104899,
-            "name": "烟月腰带_测试用",
+            "name": "灵作护腰·悟",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25097,16 +24997,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "醉别腰带_测试用#104898 (30200 精简 无双)": {
+        "光意护腰·尊#104898 (30200 精简 无双)": {
             "id": 104898,
-            "name": "醉别腰带_测试用",
+            "name": "光意护腰·尊",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25123,22 +25023,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "平陌腰带_测试用#104897 (30200 精简 破防 破招)": {
+        "寒峰静#104897 (30200 精简 破防)": {
             "id": 104897,
-            "name": "平陌腰带_测试用",
+            "name": "寒峰静",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
                 "magical_attack_power_base": 4623,
-                "magical_overcome_base": 7913,
-                "surplus_base": 528
+                "magical_overcome_base": 7913
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -25154,22 +25053,21 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松悲腰带_测试用#104896 (30200 精简 会心 破招)": {
+        "伴雪眠#104896 (30200 精简 会心)": {
             "id": 104896,
-            "name": "松悲腰带_测试用",
+            "name": "伴雪眠",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
                 "magical_attack_power_base": 4623,
-                "all_critical_strike_base": 7913,
-                "surplus_base": 528
+                "all_critical_strike_base": 7913
             },
             "embed": {
                 "all_critical_power_base": 321,
@@ -25185,16 +25083,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "经岁腰带_测试用#104895 (30200 精简 破防 无双)": {
+        "共天涯#104895 (30200 精简 破防 无双)": {
             "id": 104895,
-            "name": "经岁腰带_测试用",
+            "name": "共天涯",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25216,16 +25114,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枕簟腰带_测试用#104894 (30200 精简 会心 无双)": {
+        "隐烟霞#104894 (30200 精简 会心 无双)": {
             "id": 104894,
-            "name": "枕簟腰带_测试用",
+            "name": "隐烟霞",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25247,16 +25145,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "平陌腰带_测试用#104893 (30200 精简 破招)": {
+        "醉秋行#104893 (30200 精简 破招)": {
             "id": 104893,
-            "name": "平陌腰带_测试用",
+            "name": "醉秋行",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25277,16 +25175,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松悲腰带_测试用#104892 (30200 精简 会心 破招 破防 无双)": {
+        "天幕远#104892 (30200 精简 会心 破招 破防 无双)": {
             "id": 104892,
-            "name": "松悲腰带_测试用",
+            "name": "天幕远",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25310,16 +25208,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "经岁腰带_测试用#104891 (30200 精简 加速 无双)": {
+        "玄德腰带·迅#104891 (30200 精简 加速 无双)": {
             "id": 104891,
-            "name": "经岁腰带_测试用",
+            "name": "玄德腰带·迅",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25337,16 +25235,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枕簟腰带_测试用#104890 (30200 精简 破防 破招 无双)": {
+        "秀逸腰带·绝#104890 (30200 精简 破防 破招 无双)": {
             "id": 104890,
-            "name": "枕簟腰带_测试用",
+            "name": "秀逸腰带·绝",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25365,16 +25263,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "独还腰带_测试用#104889 (30200 精简 会心 破招 无双)": {
+        "卓然腰带·明#104889 (30200 精简 会心 破招 无双)": {
             "id": 104889,
-            "name": "独还腰带_测试用",
+            "name": "卓然腰带·明",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25393,16 +25291,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "平陌腰带_测试用#104888 (30200 精简 会心 破防 无双)": {
+        "宁远腰带·觉#104888 (30200 精简 会心 破防 无双)": {
             "id": 104888,
-            "name": "平陌腰带_测试用",
+            "name": "宁远腰带·觉",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25421,16 +25319,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松悲腰带_测试用#104887 (30200 精简 破招 无双)": {
+        "茂行腰带·引#104887 (30200 精简 破招 无双)": {
             "id": 104887,
-            "name": "松悲腰带_测试用",
+            "name": "茂行腰带·引",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25448,16 +25346,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "经岁腰带_测试用#104886 (30200 精简 破防 无双)": {
+        "苕之腰带·破#104886 (30200 精简 破防 无双)": {
             "id": 104886,
-            "name": "经岁腰带_测试用",
+            "name": "苕之腰带·破",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25475,16 +25373,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枕簟腰带_测试用#104885 (30200 精简 会心 无双)": {
+        "修扬腰带·悟#104885 (30200 精简 会心 无双)": {
             "id": 104885,
-            "name": "枕簟腰带_测试用",
+            "name": "修扬腰带·悟",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25502,16 +25400,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "独还腰带_测试用#104884 (30200 精简 无双)": {
+        "岚霏腰带·尊#104884 (30200 精简 无双)": {
             "id": 104884,
-            "name": "独还腰带_测试用",
+            "name": "岚霏腰带·尊",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25528,16 +25426,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西腰带_测试用#104853 (30200 破招 无双)": {
+        "登科护腰#104853 (30200 破招 无双)": {
             "id": 104853,
-            "name": "镇西腰带_测试用",
+            "name": "登科护腰",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -25554,16 +25452,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁腰带_测试用#104851 (30200 加速 无双)": {
+        "标雁护腰#104851 (30200 加速 无双)": {
             "id": 104851,
-            "name": "羡雁腰带_测试用",
+            "name": "标雁护腰",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25582,16 +25480,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深腰带_测试用#104850 (30200 加速 无双)": {
+        "寒窗护腰#104850 (30200 加速 无双)": {
             "id": 104850,
-            "name": "君深腰带_测试用",
+            "name": "寒窗护腰",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25610,16 +25508,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑腰带_测试用#104849 (30200 加速 无双)": {
+        "云路护腰#104849 (30200 加速 无双)": {
             "id": 104849,
-            "name": "青桑腰带_测试用",
+            "name": "云路护腰",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25638,16 +25536,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春腰带_测试用#104848 (30200 加速 无双)": {
+        "文曲护腰#104848 (30200 加速 无双)": {
             "id": 104848,
-            "name": "季春腰带_测试用",
+            "name": "文曲护腰",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25666,16 +25564,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源带_测试用#104817 (30200 加速 无双)": {
+        "三元腰带#104817 (30200 加速 无双)": {
             "id": 104817,
-            "name": "山源带_测试用",
+            "name": "三元腰带",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -25692,16 +25590,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗带_测试用#104815 (30200 破防 无双)": {
+        "问殿腰带#104815 (30200 破防 无双)": {
             "id": 104815,
-            "name": "留诗带_测试用",
+            "name": "问殿腰带",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25720,16 +25618,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月带_测试用#104814 (30200 破防 无双)": {
+        "礼闱腰带#104814 (30200 破防 无双)": {
             "id": 104814,
-            "name": "清月带_测试用",
+            "name": "礼闱腰带",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25748,16 +25646,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山带_测试用#104813 (30200 破防 无双)": {
+        "封名腰带#104813 (30200 破防 无双)": {
             "id": 104813,
-            "name": "游山带_测试用",
+            "name": "封名腰带",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25776,16 +25674,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉带_测试用#104812 (30200 破防 无双)": {
+        "论策腰带#104812 (30200 破防 无双)": {
             "id": 104812,
-            "name": "思玉带_测试用",
+            "name": "论策腰带",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23147,
+            "icon_id": 24114,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25804,16 +25702,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "西塞·沉醉护腰_测试用#104712 (30200 会心 无双)": {
+        "天极·云胜腰带#104712 (30200 会心 无双)": {
             "id": 104712,
-            "name": "西塞·沉醉护腰_测试用",
+            "name": "天极·云胜腰带",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6280,
-            "icon_id": 23196,
+            "icon_id": 24015,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25842,16 +25740,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·离巢护腰_测试用#104711 (30200 会心 无双)": {
+        "天极·意悠腰带#104711 (30200 会心 无双)": {
             "id": 104711,
-            "name": "西塞·离巢护腰_测试用",
+            "name": "天极·意悠腰带",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6279,
-            "icon_id": 23262,
+            "icon_id": 24075,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25880,16 +25778,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·秋星护腰_测试用#104710 (30200 会心 无双)": {
+        "天极·斩妄腰带#104710 (30200 会心 无双)": {
             "id": 104710,
-            "name": "西塞·秋星护腰_测试用",
+            "name": "天极·斩妄腰带",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6278,
-            "icon_id": 23190,
+            "icon_id": 24009,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25918,16 +25816,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·银筱腰带_测试用#104708 (30200 会心 无双)": {
+        "天极·悬丝腰带#104708 (30200 会心 无双)": {
             "id": 104708,
-            "name": "西塞·银筱腰带_测试用",
+            "name": "天极·悬丝腰带",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6276,
-            "icon_id": 23280,
+            "icon_id": 24093,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25957,16 +25855,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·清浊护腰_测试用#104707 (30200 会心 无双)": {
+        "天极·符烬腰带#104707 (30200 会心 无双)": {
             "id": 104707,
-            "name": "西塞·清浊护腰_测试用",
+            "name": "天极·符烬腰带",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6275,
-            "icon_id": 23274,
+            "icon_id": 24087,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -25996,16 +25894,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·麟台护腰_测试用#104706 (30200 会心 无双)": {
+        "天极·藏名腰带#104706 (30200 会心 无双)": {
             "id": 104706,
-            "name": "西塞·麟台护腰_测试用",
+            "name": "天极·藏名腰带",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6274,
-            "icon_id": 23214,
+            "icon_id": 24027,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26035,16 +25933,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·川冥护腰_测试用#104705 (30200 会心 无双)": {
+        "天极·裂海腰带#104705 (30200 会心 无双)": {
             "id": 104705,
-            "name": "西塞·川冥护腰_测试用",
+            "name": "天极·裂海腰带",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6273,
-            "icon_id": 23226,
+            "icon_id": 24039,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26074,16 +25972,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·流电护腰_测试用#104704 (30200 会心 无双)": {
+        "天极·雷壑腰带#104704 (30200 会心 无双)": {
             "id": 104704,
-            "name": "西塞·流电护腰_测试用",
+            "name": "天极·雷壑腰带",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6272,
-            "icon_id": 23165,
+            "icon_id": 23985,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26113,16 +26011,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·青弦护腰_测试用#104702 (30200 会心 无双)": {
+        "天极·叹古腰带#104702 (30200 会心 无双)": {
             "id": 104702,
-            "name": "西塞·青弦护腰_测试用",
+            "name": "天极·叹古腰带",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6270,
-            "icon_id": 23286,
+            "icon_id": 24099,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26152,16 +26050,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·旋草腰带_测试用#104701 (30200 无双)": {
+        "天极·铸铁腰带#104701 (30200 无双)": {
             "id": 104701,
-            "name": "西塞·旋草腰带_测试用",
+            "name": "天极·铸铁腰带",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6269,
-            "icon_id": 23171,
+            "icon_id": 23991,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -26187,16 +26085,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·行歌腰带_测试用#104700 (30200 会心 无双)": {
+        "天极·风旗腰带#104700 (30200 会心 无双)": {
             "id": 104700,
-            "name": "西塞·行歌腰带_测试用",
+            "name": "天极·风旗腰带",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6268,
-            "icon_id": 23171,
+            "icon_id": 23991,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26226,16 +26124,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·耀光护腰_测试用#104699 (30200 无双)": {
+        "天极·燃浊腰带#104699 (30200 无双)": {
             "id": 104699,
-            "name": "西塞·耀光护腰_测试用",
+            "name": "天极·燃浊腰带",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6267,
-            "icon_id": 23220,
+            "icon_id": 24033,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -26261,16 +26159,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·大荒护腰_测试用#104698 (30200 会心 无双)": {
+        "天极·月刃腰带#104698 (30200 会心 无双)": {
             "id": 104698,
-            "name": "西塞·大荒护腰_测试用",
+            "name": "天极·月刃腰带",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6266,
-            "icon_id": 23220,
+            "icon_id": 24033,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26299,16 +26197,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·平塘护腰_测试用#104697 (30200 会心 无双)": {
+        "天极·醉云腰带#104697 (30200 会心 无双)": {
             "id": 104697,
-            "name": "西塞·平塘护腰_测试用",
+            "name": "天极·醉云腰带",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6265,
-            "icon_id": 23208,
+            "icon_id": 24021,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26337,16 +26235,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·赤眉护腰_测试用#104696 (30200 会心 无双)": {
+        "天极·听荷腰带#104696 (30200 会心 无双)": {
             "id": 104696,
-            "name": "西塞·赤眉护腰_测试用",
+            "name": "天极·听荷腰带",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6264,
-            "icon_id": 23177,
+            "icon_id": 23997,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26371,21 +26269,20 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
         },
-        "西塞·江鸥护腰_测试用#104695 (30200 会心 无双)": {
+        "天极·锁幽腰带#104695 (30200 会心 无双)": {
             "id": 104695,
-            "name": "西塞·江鸥护腰_测试用",
+            "name": "天极·锁幽腰带",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6263,
-            "icon_id": 23244,
+            "icon_id": 24057,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26415,16 +26312,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·寒蛩护腰_测试用#104694 (30200 会心 无双)": {
+        "天极·隐机腰带#104694 (30200 会心 无双)": {
             "id": 104694,
-            "name": "西塞·寒蛩护腰_测试用",
+            "name": "天极·隐机腰带",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6262,
-            "icon_id": 23244,
+            "icon_id": 24057,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26454,16 +26351,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·朝愁腰带_测试用#104692 (30200 会心 无双)": {
+        "天极·缠心腰带#104692 (30200 会心 无双)": {
             "id": 104692,
-            "name": "西塞·朝愁腰带_测试用",
+            "name": "天极·缠心腰带",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6260,
-            "icon_id": 23268,
+            "icon_id": 24081,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26493,16 +26390,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·烟蘸腰带_测试用#104690 (30200 会心 无双)": {
+        "天极·独明腰带#104690 (30200 会心 无双)": {
             "id": 104690,
-            "name": "西塞·烟蘸腰带_测试用",
+            "name": "天极·独明腰带",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6258,
-            "icon_id": 23232,
+            "icon_id": 24045,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26531,16 +26428,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·冷辉腰带_测试用#104689 (30200 会心 无双)": {
+        "天极·忘归腰带#104689 (30200 会心 无双)": {
             "id": 104689,
-            "name": "西塞·冷辉腰带_测试用",
+            "name": "天极·忘归腰带",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6257,
-            "icon_id": 23183,
+            "icon_id": 24003,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26569,16 +26466,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·雪欹腰带_测试用#104688 (30200 会心 无双)": {
+        "天极·截云腰带#104688 (30200 会心 无双)": {
             "id": 104688,
-            "name": "西塞·雪欹腰带_测试用",
+            "name": "天极·截云腰带",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6256,
-            "icon_id": 23183,
+            "icon_id": 24003,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26608,16 +26505,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·戈戟腰带_测试用#104687 (30200 无双)": {
+        "天极·截岳腰带#104687 (30200 无双)": {
             "id": 104687,
-            "name": "西塞·戈戟腰带_测试用",
+            "name": "天极·截岳腰带",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6255,
-            "icon_id": 23250,
+            "icon_id": 24063,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -26643,16 +26540,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·壮志腰带_测试用#104686 (30200 会心 无双)": {
+        "天极·血旌腰带#104686 (30200 会心 无双)": {
             "id": 104686,
-            "name": "西塞·壮志腰带_测试用",
+            "name": "天极·血旌腰带",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6254,
-            "icon_id": 23250,
+            "icon_id": 24063,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26681,16 +26578,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·合章腰带_测试用#104684 (30200 会心 无双)": {
+        "天极·砚书腰带#104684 (30200 会心 无双)": {
             "id": 104684,
-            "name": "西塞·合章腰带_测试用",
+            "name": "天极·砚书腰带",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6252,
-            "icon_id": 23256,
+            "icon_id": 24069,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26720,16 +26617,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·恒沙腰带_测试用#104683 (30200 无双)": {
+        "天极·梵劫腰带#104683 (30200 无双)": {
             "id": 104683,
-            "name": "西塞·恒沙腰带_测试用",
+            "name": "天极·梵劫腰带",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6251,
-            "icon_id": 23238,
+            "icon_id": 24051,
             "base": {},
             "magic": {
                 "vitality_base": 17145,
@@ -26757,16 +26654,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·彼岸腰带_测试用#104682 (30200 会心 无双)": {
+        "天极·怒相腰带#104682 (30200 会心 无双)": {
             "id": 104682,
-            "name": "西塞·彼岸腰带_测试用",
+            "name": "天极·怒相腰带",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6250,
-            "icon_id": 23238,
+            "icon_id": 24051,
             "base": {},
             "magic": {
                 "vitality_base": 11606,
@@ -26968,16 +26865,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼腰带_测试用#106149 (25900 无双)": {
+        "塞上寒威·载彰腰带#106149 (25900 无双)": {
             "id": 106149,
-            "name": "孤山寒月·银狼腰带_测试用",
+            "name": "塞上寒威·载彰腰带",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6552,
+            "icon_id": 10420,
             "base": {},
             "magic": {
                 "vitality_base": 14704,
@@ -26993,16 +26890,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃腰带_测试用#106147 (25900 破防 无双)": {
+        "塞上寒威·星宇腰带#106147 (25900 破防 无双)": {
             "id": 106147,
-            "name": "孤山寒月·逐刃腰带_测试用",
+            "name": "塞上寒威·星宇腰带",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6552,
+            "icon_id": 10420,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -27021,16 +26918,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期腰带_测试用#106146 (25900 破防 无双)": {
+        "塞上寒威·善诚腰带#106146 (25900 破防 无双)": {
             "id": 106146,
-            "name": "孤山寒月·归期腰带_测试用",
+            "name": "塞上寒威·善诚腰带",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6552,
+            "icon_id": 10420,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -27049,16 +26946,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生腰带_测试用#106145 (25900 破防 无双)": {
+        "塞上寒威·暮赏腰带#106145 (25900 破防 无双)": {
             "id": 106145,
-            "name": "孤山寒月·忧生腰带_测试用",
+            "name": "塞上寒威·暮赏腰带",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6552,
+            "icon_id": 10420,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -27077,16 +26974,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟腰带_测试用#106144 (25900 破防 无双)": {
+        "塞上寒威·披锦腰带#106144 (25900 破防 无双)": {
             "id": 106144,
-            "name": "孤山寒月·风吟腰带_测试用",
+            "name": "塞上寒威·披锦腰带",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6552,
+            "icon_id": 10420,
             "base": {},
             "magic": {
                 "vitality_base": 9953,
@@ -27105,9 +27002,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·栖遑腰带_测试用#104632 (25900 加速 无双)": {
+        "寻踪觅宝·尚同护腰#104632 (25900 加速 无双)": {
             "id": 104632,
-            "name": "寻踪觅宝·栖遑腰带_测试用",
+            "name": "寻踪觅宝·尚同护腰",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
@@ -27137,9 +27034,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·迭微腰带_测试用#104630 (25900 加速 无双)": {
+        "寻踪觅宝·巧变护腰#104630 (25900 加速 无双)": {
             "id": 104630,
-            "name": "寻踪觅宝·迭微腰带_测试用",
+            "name": "寻踪觅宝·巧变护腰",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -27171,9 +27068,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·予吉腰带_测试用#104629 (25900 加速 无双)": {
+        "寻踪觅宝·劲锐护腰#104629 (25900 加速 无双)": {
             "id": 104629,
-            "name": "寻踪觅宝·予吉腰带_测试用",
+            "name": "寻踪觅宝·劲锐护腰",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -27205,9 +27102,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·月诸腰带_测试用#104628 (25900 加速 无双)": {
+        "寻踪觅宝·端本护腰#104628 (25900 加速 无双)": {
             "id": 104628,
-            "name": "寻踪觅宝·月诸腰带_测试用",
+            "name": "寻踪觅宝·端本护腰",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -27239,9 +27136,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·陟南腰带_测试用#104627 (25900 加速 无双)": {
+        "寻踪觅宝·多维护腰#104627 (25900 加速 无双)": {
             "id": 104627,
-            "name": "寻踪觅宝·陟南腰带_测试用",
+            "name": "寻踪觅宝·多维护腰",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -27827,7 +27724,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23196,
             "base": {},
             "magic": {
@@ -27843,14 +27740,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -27866,7 +27762,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23262,
             "base": {},
             "magic": {
@@ -27882,14 +27778,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -27905,7 +27800,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23190,
             "base": {},
             "magic": {
@@ -27921,14 +27816,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -27944,7 +27838,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23280,
             "base": {},
             "magic": {
@@ -27960,14 +27854,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -27984,7 +27877,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23274,
             "base": {},
             "magic": {
@@ -28000,14 +27893,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -28024,7 +27916,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23214,
             "base": {},
             "magic": {
@@ -28040,14 +27932,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -28064,7 +27955,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23226,
             "base": {},
             "magic": {
@@ -28080,14 +27971,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -28104,7 +27994,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23165,
             "base": {},
             "magic": {
@@ -28120,14 +28010,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -28144,7 +28033,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23286,
             "base": {},
             "magic": {
@@ -28160,18 +28049,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -28184,7 +28072,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23171,
             "base": {},
             "magic": {
@@ -28219,7 +28107,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23171,
             "base": {},
             "magic": {
@@ -28235,14 +28123,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -28259,7 +28146,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23220,
             "base": {},
             "magic": {
@@ -28294,7 +28181,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23220,
             "base": {},
             "magic": {
@@ -28310,14 +28197,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -28333,7 +28219,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23208,
             "base": {},
             "magic": {
@@ -28349,14 +28235,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -28372,7 +28257,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23177,
             "base": {},
             "magic": {
@@ -28388,18 +28273,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -28412,7 +28295,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23244,
             "base": {},
             "magic": {
@@ -28428,14 +28311,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -28452,7 +28334,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23244,
             "base": {},
             "magic": {
@@ -28468,14 +28350,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -28492,7 +28373,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23268,
             "base": {},
             "magic": {
@@ -28508,14 +28389,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -28532,7 +28412,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23232,
             "base": {},
             "magic": {
@@ -28548,14 +28428,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -28571,7 +28450,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23183,
             "base": {},
             "magic": {
@@ -28587,14 +28466,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -28610,7 +28488,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23183,
             "base": {},
             "magic": {
@@ -28626,14 +28504,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -28650,7 +28527,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23250,
             "base": {},
             "magic": {
@@ -28685,7 +28562,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23250,
             "base": {},
             "magic": {
@@ -28701,14 +28578,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -28724,7 +28600,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23256,
             "base": {},
             "magic": {
@@ -28740,14 +28616,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -28764,7 +28639,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23238,
             "base": {},
             "magic": {
@@ -28801,7 +28676,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23238,
             "base": {},
             "magic": {
@@ -28817,14 +28692,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -28970,9 +28844,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立袖_测试用#104596 (23000 无双)": {
+        "奎岩护腰#104596 (23000 无双)": {
             "id": 104596,
-            "name": "壁立袖_测试用",
+            "name": "奎岩护腰",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
@@ -28994,9 +28868,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明袖_测试用#104594 (23000 会心 无双)": {
+        "奎影护腰#104594 (23000 会心 无双)": {
             "id": 104594,
-            "name": "壁明袖_测试用",
+            "name": "奎影护腰",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
@@ -29022,9 +28896,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺袖_测试用#104593 (23000 会心 无双)": {
+        "奎刚护腰#104593 (23000 会心 无双)": {
             "id": 104593,
-            "name": "壁邺袖_测试用",
+            "name": "奎刚护腰",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
@@ -29050,9 +28924,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜袖_测试用#104592 (23000 会心 无双)": {
+        "奎元护腰#104592 (23000 会心 无双)": {
             "id": 104592,
-            "name": "壁镜袖_测试用",
+            "name": "奎元护腰",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
@@ -29078,9 +28952,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观袖_测试用#104591 (23000 会心 无双)": {
+        "奎灵护腰#104591 (23000 会心 无双)": {
             "id": 104591,
-            "name": "壁观袖_测试用",
+            "name": "奎灵护腰",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
@@ -30077,7 +29951,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23196,
             "base": {},
             "magic": {
@@ -30093,14 +29967,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -30116,7 +29989,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23262,
             "base": {},
             "magic": {
@@ -30132,14 +30005,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -30155,7 +30027,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23190,
             "base": {},
             "magic": {
@@ -30171,14 +30043,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -30194,7 +30065,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23280,
             "base": {},
             "magic": {
@@ -30210,14 +30081,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -30234,7 +30104,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23274,
             "base": {},
             "magic": {
@@ -30250,14 +30120,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -30274,7 +30143,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23214,
             "base": {},
             "magic": {
@@ -30290,14 +30159,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -30314,7 +30182,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23226,
             "base": {},
             "magic": {
@@ -30330,14 +30198,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -30354,7 +30221,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23165,
             "base": {},
             "magic": {
@@ -30370,14 +30237,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -30394,7 +30260,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23286,
             "base": {},
             "magic": {
@@ -30410,18 +30276,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -30434,7 +30299,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23171,
             "base": {},
             "magic": {
@@ -30469,7 +30334,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23171,
             "base": {},
             "magic": {
@@ -30485,14 +30350,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -30509,7 +30373,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23220,
             "base": {},
             "magic": {
@@ -30544,7 +30408,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23220,
             "base": {},
             "magic": {
@@ -30560,14 +30424,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -30583,7 +30446,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23208,
             "base": {},
             "magic": {
@@ -30599,14 +30462,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -30622,7 +30484,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23177,
             "base": {},
             "magic": {
@@ -30638,18 +30500,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -30662,7 +30522,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23244,
             "base": {},
             "magic": {
@@ -30678,14 +30538,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -30702,7 +30561,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23244,
             "base": {},
             "magic": {
@@ -30718,14 +30577,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -30742,7 +30600,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23268,
             "base": {},
             "magic": {
@@ -30758,14 +30616,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -30782,7 +30639,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23232,
             "base": {},
             "magic": {
@@ -30798,14 +30655,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -30821,7 +30677,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23183,
             "base": {},
             "magic": {
@@ -30837,14 +30693,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -30860,7 +30715,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23183,
             "base": {},
             "magic": {
@@ -30876,14 +30731,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -30900,7 +30754,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23250,
             "base": {},
             "magic": {
@@ -30935,7 +30789,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23250,
             "base": {},
             "magic": {
@@ -30951,14 +30805,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -30974,7 +30827,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23256,
             "base": {},
             "magic": {
@@ -30990,14 +30843,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -31014,7 +30866,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23238,
             "base": {},
             "magic": {
@@ -31051,7 +30903,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23238,
             "base": {},
             "magic": {
@@ -31067,14 +30919,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -33563,16 +33414,16 @@ EQUIPMENTS = {
         }
     },
     "hat": {
-        "花棠冠_测试用#104997 (30700 无双)": {
+        "月钟冠#104997 (30700 无双)": {
             "id": 104997,
-            "name": "花棠冠_测试用",
+            "name": "月钟冠",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23150,
+            "icon_id": 24117,
             "base": {},
             "magic": {
                 "vitality_base": 22409,
@@ -33595,16 +33446,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永冠_测试用#104995 (30700 破招 无双)": {
+        "月霭冠#104995 (30700 破招 无双)": {
             "id": 104995,
-            "name": "花永冠_测试用",
+            "name": "月霭冠",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23150,
+            "icon_id": 24117,
             "base": {},
             "magic": {
                 "vitality_base": 15169,
@@ -33630,16 +33481,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世冠_测试用#104994 (30700 破招 无双)": {
+        "月溪冠#104994 (30700 破招 无双)": {
             "id": 104994,
-            "name": "花世冠_测试用",
+            "name": "月溪冠",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23150,
+            "icon_id": 24117,
             "base": {},
             "magic": {
                 "vitality_base": 15169,
@@ -33665,16 +33516,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念冠_测试用#104993 (30700 破招 无双)": {
+        "月声冠#104993 (30700 破招 无双)": {
             "id": 104993,
-            "name": "花念冠_测试用",
+            "name": "月声冠",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23150,
+            "icon_id": 24117,
             "base": {},
             "magic": {
                 "vitality_base": 15169,
@@ -33700,16 +33551,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深冠_测试用#104992 (30700 破招 无双)": {
+        "月涛冠#104992 (30700 破招 无双)": {
             "id": 104992,
-            "name": "花深冠_测试用",
+            "name": "月涛冠",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23150,
+            "icon_id": 24117,
             "base": {},
             "magic": {
                 "vitality_base": 15169,
@@ -33735,16 +33586,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图冠_测试用#105099 (30200 加速 无双)": {
+        "坠欢帽#105099 (30200 加速 无双)": {
             "id": 105099,
-            "name": "漠图冠_测试用",
+            "name": "坠欢帽",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9684,
+            "icon_id": 13281,
             "base": {},
             "magic": {
                 "vitality_base": 20854,
@@ -33760,16 +33611,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名冠_测试用#105097 (30200 破招 无双)": {
+        "坠红帽#105097 (30200 破招 无双)": {
             "id": 105097,
-            "name": "漠名冠_测试用",
+            "name": "坠红帽",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9684,
+            "icon_id": 13281,
             "base": {},
             "magic": {
                 "vitality_base": 14117,
@@ -33788,16 +33639,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若冠_测试用#105096 (30200 破招 无双)": {
+        "坠雨帽#105096 (30200 破招 无双)": {
             "id": 105096,
-            "name": "漠若冠_测试用",
+            "name": "坠雨帽",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9684,
+            "icon_id": 13281,
             "base": {},
             "magic": {
                 "vitality_base": 14117,
@@ -33816,16 +33667,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖冠_测试用#105095 (30200 破招 无双)": {
+        "坠露帽#105095 (30200 破招 无双)": {
             "id": 105095,
-            "name": "漠晖冠_测试用",
+            "name": "坠露帽",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9684,
+            "icon_id": 13281,
             "base": {},
             "magic": {
                 "vitality_base": 14117,
@@ -33844,16 +33695,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安冠_测试用#105094 (30200 破招 无双)": {
+        "坠潮帽#105094 (30200 破招 无双)": {
             "id": 105094,
-            "name": "漠安冠_测试用",
+            "name": "坠潮帽",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9684,
+            "icon_id": 13281,
             "base": {},
             "magic": {
                 "vitality_base": 14117,
@@ -33872,9 +33723,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105063 (30200 精简 会心 破招 无双)": {
+        "无修冠·外·玄#105063 (30200 精简 会心 破招 无双)": {
             "id": 105063,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -33904,9 +33755,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105062 (30200 精简 会心 会效 无双)": {
+        "无修冠·外·玄#105062 (30200 精简 会心 会效 无双)": {
             "id": 105062,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -33936,9 +33787,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105061 (30200 精简 破防 无双)": {
+        "无修冠·外·玄#105061 (30200 精简 破防 无双)": {
             "id": 105061,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -33967,9 +33818,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105060 (30200 精简 会心 破招 无双)": {
+        "无修冠·内·玄#105060 (30200 精简 会心 破招 无双)": {
             "id": 105060,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -33999,9 +33850,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105059 (30200 精简 会心 会效 无双)": {
+        "无修冠·内·玄#105059 (30200 精简 会心 会效 无双)": {
             "id": 105059,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -34031,9 +33882,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105058 (30200 精简 破防 无双)": {
+        "无修冠·内·玄#105058 (30200 精简 破防 无双)": {
             "id": 105058,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -34062,9 +33913,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105039 (30200 精简 会心 破招 无双)": {
+        "无修冠·外·玄#105039 (30200 精简 会心 破招 无双)": {
             "id": 105039,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -34094,9 +33945,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105038 (30200 精简 会心 会效 无双)": {
+        "无修冠·外·玄#105038 (30200 精简 会心 会效 无双)": {
             "id": 105038,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -34126,9 +33977,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105037 (30200 精简 破防 无双)": {
+        "无修冠·外·玄#105037 (30200 精简 破防 无双)": {
             "id": 105037,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -34157,9 +34008,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105036 (30200 精简 会心 破招 无双)": {
+        "无修冠·内·玄#105036 (30200 精简 会心 破招 无双)": {
             "id": 105036,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -34189,9 +34040,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105035 (30200 精简 会心 会效 无双)": {
+        "无修冠·内·玄#105035 (30200 精简 会心 会效 无双)": {
             "id": 105035,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -34221,9 +34072,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105034 (30200 精简 破防 无双)": {
+        "无修冠·内·玄#105034 (30200 精简 破防 无双)": {
             "id": 105034,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -34252,9 +34103,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·穷阴冠_测试用#105021 (30200 无双)": {
+        "客行江湖·常盛冠#105021 (30200 无双)": {
             "id": 105021,
-            "name": "客行江湖·穷阴冠_测试用",
+            "name": "客行江湖·常盛冠",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
@@ -34277,9 +34128,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·泉葩冠_测试用#105019 (30200 破招 无双)": {
+        "客行江湖·日斜冠#105019 (30200 破招 无双)": {
             "id": 105019,
-            "name": "客行江湖·泉葩冠_测试用",
+            "name": "客行江湖·日斜冠",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
@@ -34305,9 +34156,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·冥绝冠_测试用#105018 (30200 破招 无双)": {
+        "客行江湖·山隈冠#105018 (30200 破招 无双)": {
             "id": 105018,
-            "name": "客行江湖·冥绝冠_测试用",
+            "name": "客行江湖·山隈冠",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
@@ -34333,9 +34184,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·散秋冠_测试用#105017 (30200 破招 无双)": {
+        "客行江湖·新圃冠#105017 (30200 破招 无双)": {
             "id": 105017,
-            "name": "客行江湖·散秋冠_测试用",
+            "name": "客行江湖·新圃冠",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
@@ -34361,9 +34212,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·馀散冠_测试用#105016 (30200 破招 无双)": {
+        "客行江湖·繁色冠#105016 (30200 破招 无双)": {
             "id": 105016,
-            "name": "客行江湖·馀散冠_测试用",
+            "name": "客行江湖·繁色冠",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
@@ -34389,16 +34240,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西帽_测试用#104871 (30200 破招 无双)": {
+        "登科冠#104871 (30200 破招 无双)": {
             "id": 104871,
-            "name": "镇西帽_测试用",
+            "name": "登科冠",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -34415,16 +34266,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁帽_测试用#104869 (30200 加速 无双)": {
+        "标雁冠#104869 (30200 加速 无双)": {
             "id": 104869,
-            "name": "羡雁帽_测试用",
+            "name": "标雁冠",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34443,16 +34294,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深帽_测试用#104868 (30200 加速 无双)": {
+        "寒窗冠#104868 (30200 加速 无双)": {
             "id": 104868,
-            "name": "君深帽_测试用",
+            "name": "寒窗冠",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34471,16 +34322,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑帽_测试用#104867 (30200 加速 无双)": {
+        "云路冠#104867 (30200 加速 无双)": {
             "id": 104867,
-            "name": "青桑帽_测试用",
+            "name": "云路冠",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34499,16 +34350,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春帽_测试用#104866 (30200 加速 无双)": {
+        "文曲冠#104866 (30200 加速 无双)": {
             "id": 104866,
-            "name": "季春帽_测试用",
+            "name": "文曲冠",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34527,16 +34378,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源冠_测试用#104835 (30200 无双)": {
+        "三元冠#104835 (30200 无双)": {
             "id": 104835,
-            "name": "山源冠_测试用",
+            "name": "三元冠",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -34552,16 +34403,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗冠_测试用#104833 (30200 会心 无双)": {
+        "问殿冠#104833 (30200 会心 无双)": {
             "id": 104833,
-            "name": "留诗冠_测试用",
+            "name": "问殿冠",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34580,16 +34431,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月冠_测试用#104832 (30200 会心 无双)": {
+        "礼闱冠#104832 (30200 会心 无双)": {
             "id": 104832,
-            "name": "清月冠_测试用",
+            "name": "礼闱冠",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34608,16 +34459,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山冠_测试用#104831 (30200 会心 无双)": {
+        "封名冠#104831 (30200 会心 无双)": {
             "id": 104831,
-            "name": "游山冠_测试用",
+            "name": "封名冠",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34636,16 +34487,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉冠_测试用#104830 (30200 会心 无双)": {
+        "论策冠#104830 (30200 会心 无双)": {
             "id": 104830,
-            "name": "思玉冠_测试用",
+            "name": "论策冠",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23144,
+            "icon_id": 24111,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34664,16 +34515,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "西塞·沉醉冠_测试用#104774 (30200 破防 无双)": {
+        "天极·云胜冠#104774 (30200 破防 无双)": {
             "id": 104774,
-            "name": "西塞·沉醉冠_测试用",
+            "name": "天极·云胜冠",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6280,
-            "icon_id": 23193,
+            "icon_id": 24012,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34702,16 +34553,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·离巢冠_测试用#104773 (30200 破防 无双)": {
+        "天极·意悠冠#104773 (30200 破防 无双)": {
             "id": 104773,
-            "name": "西塞·离巢冠_测试用",
+            "name": "天极·意悠冠",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6279,
-            "icon_id": 23259,
+            "icon_id": 24072,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34740,16 +34591,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·秋星冠_测试用#104772 (30200 破防 无双)": {
+        "天极·斩妄冠#104772 (30200 破防 无双)": {
             "id": 104772,
-            "name": "西塞·秋星冠_测试用",
+            "name": "天极·斩妄冠",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6278,
-            "icon_id": 23187,
+            "icon_id": 24006,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34778,16 +34629,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·银筱冠_测试用#104770 (30200 破防 无双)": {
+        "天极·悬丝冠#104770 (30200 破防 无双)": {
             "id": 104770,
-            "name": "西塞·银筱冠_测试用",
+            "name": "天极·悬丝冠",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6276,
-            "icon_id": 23277,
+            "icon_id": 24090,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34817,16 +34668,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·清浊冠_测试用#104769 (30200 破防 无双)": {
+        "天极·符烬冠#104769 (30200 破防 无双)": {
             "id": 104769,
-            "name": "西塞·清浊冠_测试用",
+            "name": "天极·符烬冠",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6275,
-            "icon_id": 23271,
+            "icon_id": 24084,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34856,16 +34707,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·麟台冠_测试用#104768 (30200 破防 无双)": {
+        "天极·藏名冠#104768 (30200 破防 无双)": {
             "id": 104768,
-            "name": "西塞·麟台冠_测试用",
+            "name": "天极·藏名冠",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6274,
-            "icon_id": 23211,
+            "icon_id": 24024,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34895,16 +34746,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·川冥冠_测试用#104767 (30200 破防 无双)": {
+        "天极·裂海冠#104767 (30200 破防 无双)": {
             "id": 104767,
-            "name": "西塞·川冥冠_测试用",
+            "name": "天极·裂海冠",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6273,
-            "icon_id": 23223,
+            "icon_id": 24036,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34934,16 +34785,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·流电冠_测试用#104766 (30200 破防 无双)": {
+        "天极·雷壑冠#104766 (30200 破防 无双)": {
             "id": 104766,
-            "name": "西塞·流电冠_测试用",
+            "name": "天极·雷壑冠",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6272,
-            "icon_id": 23162,
+            "icon_id": 23982,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -34973,16 +34824,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·青弦冠_测试用#104764 (30200 破防 无双)": {
+        "天极·叹古冠#104764 (30200 破防 无双)": {
             "id": 104764,
-            "name": "西塞·青弦冠_测试用",
+            "name": "天极·叹古冠",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6270,
-            "icon_id": 23283,
+            "icon_id": 24096,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35012,16 +34863,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·旋草盔_测试用#104763 (30200 加速 无双)": {
+        "天极·铸铁冠#104763 (30200 加速 无双)": {
             "id": 104763,
-            "name": "西塞·旋草盔_测试用",
+            "name": "天极·铸铁冠",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6269,
-            "icon_id": 23168,
+            "icon_id": 23988,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -35048,16 +34899,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·行歌盔_测试用#104762 (30200 破防 无双)": {
+        "天极·风旗冠#104762 (30200 破防 无双)": {
             "id": 104762,
-            "name": "西塞·行歌盔_测试用",
+            "name": "天极·风旗冠",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6268,
-            "icon_id": 23168,
+            "icon_id": 23988,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35087,16 +34938,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·耀光冠_测试用#104761 (30200 加速 无双)": {
+        "天极·燃浊冠#104761 (30200 加速 无双)": {
             "id": 104761,
-            "name": "西塞·耀光冠_测试用",
+            "name": "天极·燃浊冠",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6267,
-            "icon_id": 23217,
+            "icon_id": 24030,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -35123,16 +34974,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·大荒冠_测试用#104760 (30200 破防 无双)": {
+        "天极·月刃冠#104760 (30200 破防 无双)": {
             "id": 104760,
-            "name": "西塞·大荒冠_测试用",
+            "name": "天极·月刃冠",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6266,
-            "icon_id": 23217,
+            "icon_id": 24030,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35161,16 +35012,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·平塘冠_测试用#104759 (30200 破防 无双)": {
+        "天极·醉云冠#104759 (30200 破防 无双)": {
             "id": 104759,
-            "name": "西塞·平塘冠_测试用",
+            "name": "天极·醉云冠",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6265,
-            "icon_id": 23205,
+            "icon_id": 24018,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35199,16 +35050,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·赤眉冠_测试用#104758 (30200 破防 无双)": {
+        "天极·听荷冠#104758 (30200 破防 无双)": {
             "id": 104758,
-            "name": "西塞·赤眉冠_测试用",
+            "name": "天极·听荷冠",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6264,
-            "icon_id": 23174,
+            "icon_id": 23994,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35233,21 +35084,20 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
         },
-        "西塞·江鸥冠_测试用#104757 (30200 破防 无双)": {
+        "天极·锁幽冠#104757 (30200 破防 无双)": {
             "id": 104757,
-            "name": "西塞·江鸥冠_测试用",
+            "name": "天极·锁幽冠",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6263,
-            "icon_id": 23241,
+            "icon_id": 24054,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35277,16 +35127,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·寒蛩冠_测试用#104756 (30200 破防 无双)": {
+        "天极·隐机冠#104756 (30200 破防 无双)": {
             "id": 104756,
-            "name": "西塞·寒蛩冠_测试用",
+            "name": "天极·隐机冠",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6262,
-            "icon_id": 23241,
+            "icon_id": 24054,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35316,16 +35166,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·朝愁冠_测试用#104754 (30200 破防 无双)": {
+        "天极·缠心冠#104754 (30200 破防 无双)": {
             "id": 104754,
-            "name": "西塞·朝愁冠_测试用",
+            "name": "天极·缠心冠",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6260,
-            "icon_id": 23265,
+            "icon_id": 24078,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35355,16 +35205,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·烟蘸钗_测试用#104752 (30200 破防 无双)": {
+        "天极·独明冠#104752 (30200 破防 无双)": {
             "id": 104752,
-            "name": "西塞·烟蘸钗_测试用",
+            "name": "天极·独明冠",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6258,
-            "icon_id": 23229,
+            "icon_id": 24042,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35393,16 +35243,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·冷辉冠_测试用#104751 (30200 破防 无双)": {
+        "天极·忘归冠#104751 (30200 破防 无双)": {
             "id": 104751,
-            "name": "西塞·冷辉冠_测试用",
+            "name": "天极·忘归冠",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6257,
-            "icon_id": 23180,
+            "icon_id": 24000,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35431,16 +35281,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·雪欹冠_测试用#104750 (30200 破防 无双)": {
+        "天极·截云冠#104750 (30200 破防 无双)": {
             "id": 104750,
-            "name": "西塞·雪欹冠_测试用",
+            "name": "天极·截云冠",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6256,
-            "icon_id": 23180,
+            "icon_id": 24000,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35470,16 +35320,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·戈戟战盔_测试用#104749 (30200 加速 无双)": {
+        "天极·截岳冠#104749 (30200 加速 无双)": {
             "id": 104749,
-            "name": "西塞·戈戟战盔_测试用",
+            "name": "天极·截岳冠",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6255,
-            "icon_id": 23247,
+            "icon_id": 24060,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -35506,16 +35356,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·壮志战盔_测试用#104748 (30200 破防 无双)": {
+        "天极·血旌冠#104748 (30200 破防 无双)": {
             "id": 104748,
-            "name": "西塞·壮志战盔_测试用",
+            "name": "天极·血旌冠",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6254,
-            "icon_id": 23247,
+            "icon_id": 24060,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35544,16 +35394,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·合章冠_测试用#104746 (30200 破防 无双)": {
+        "天极·砚书冠#104746 (30200 破防 无双)": {
             "id": 104746,
-            "name": "西塞·合章冠_测试用",
+            "name": "天极·砚书冠",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6252,
-            "icon_id": 23253,
+            "icon_id": 24066,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35583,16 +35433,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·恒沙冠_测试用#104745 (30200 加速 无双)": {
+        "天极·梵劫冠#104745 (30200 加速 无双)": {
             "id": 104745,
-            "name": "西塞·恒沙冠_测试用",
+            "name": "天极·梵劫冠",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6251,
-            "icon_id": 23235,
+            "icon_id": 24048,
             "base": {},
             "magic": {
                 "vitality_base": 22044,
@@ -35620,16 +35470,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·彼岸冠_测试用#104744 (30200 破防 无双)": {
+        "天极·怒相冠#104744 (30200 破防 无双)": {
             "id": 104744,
-            "name": "西塞·彼岸冠_测试用",
+            "name": "天极·怒相冠",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6250,
-            "icon_id": 23235,
+            "icon_id": 24048,
             "base": {},
             "magic": {
                 "vitality_base": 14922,
@@ -35659,9 +35509,9 @@ EQUIPMENTS = {
                 }
             }
         },
-        "无修冠·外·玄_测试用#105051 (28000 精简 会心 破防 无双)": {
+        "无修冠·外·玄#105051 (28000 精简 会心 破防 无双)": {
             "id": 105051,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35691,9 +35541,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105050 (28000 精简 会心 破招 无双)": {
+        "无修冠·外·玄#105050 (28000 精简 会心 破招 无双)": {
             "id": 105050,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35723,9 +35573,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105049 (28000 精简 会心 无双)": {
+        "无修冠·外·玄#105049 (28000 精简 会心 无双)": {
             "id": 105049,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35754,9 +35604,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105048 (28000 精简 会心 破防 无双)": {
+        "无修冠·内·玄#105048 (28000 精简 会心 破防 无双)": {
             "id": 105048,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -35786,9 +35636,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105047 (28000 精简 会心 破招 无双)": {
+        "无修冠·内·玄#105047 (28000 精简 会心 破招 无双)": {
             "id": 105047,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -35818,9 +35668,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105046 (28000 精简 会心 无双)": {
+        "无修冠·内·玄#105046 (28000 精简 会心 无双)": {
             "id": 105046,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -35849,9 +35699,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105027 (28000 精简 会心 破防 无双)": {
+        "无修冠·外·玄#105027 (28000 精简 会心 破防 无双)": {
             "id": 105027,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35881,9 +35731,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105026 (28000 精简 会心 破招 无双)": {
+        "无修冠·外·玄#105026 (28000 精简 会心 破招 无双)": {
             "id": 105026,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35913,9 +35763,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·外·玄_测试用#105025 (28000 精简 会心 无双)": {
+        "无修冠·外·玄#105025 (28000 精简 会心 无双)": {
             "id": 105025,
-            "name": "无修冠·外·玄_测试用",
+            "name": "无修冠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -35944,9 +35794,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105024 (28000 精简 会心 破防 无双)": {
+        "无修冠·内·玄#105024 (28000 精简 会心 破防 无双)": {
             "id": 105024,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -35976,9 +35826,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105023 (28000 精简 会心 破招 无双)": {
+        "无修冠·内·玄#105023 (28000 精简 会心 破招 无双)": {
             "id": 105023,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -36008,9 +35858,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修冠·内·玄_测试用#105022 (28000 精简 会心 无双)": {
+        "无修冠·内·玄#105022 (28000 精简 会心 无双)": {
             "id": 105022,
-            "name": "无修冠·内·玄_测试用",
+            "name": "无修冠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -36211,16 +36061,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼冠_测试用#106167 (25900 加速 无双)": {
+        "塞上寒威·载彰冠#106167 (25900 加速 无双)": {
             "id": 106167,
-            "name": "孤山寒月·银狼冠_测试用",
+            "name": "塞上寒威·载彰冠",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6480,
+            "icon_id": 10422,
             "base": {},
             "magic": {
                 "vitality_base": 18905,
@@ -36236,16 +36086,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃冠_测试用#106165 (25900 会心 无双)": {
+        "塞上寒威·星宇冠#106165 (25900 会心 无双)": {
             "id": 106165,
-            "name": "孤山寒月·逐刃冠_测试用",
+            "name": "塞上寒威·星宇冠",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6480,
+            "icon_id": 10422,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -36264,16 +36114,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期冠_测试用#106164 (25900 会心 无双)": {
+        "塞上寒威·善诚冠#106164 (25900 会心 无双)": {
             "id": 106164,
-            "name": "孤山寒月·归期冠_测试用",
+            "name": "塞上寒威·善诚冠",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6480,
+            "icon_id": 10422,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -36292,16 +36142,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生冠_测试用#106163 (25900 会心 无双)": {
+        "塞上寒威·暮赏冠#106163 (25900 会心 无双)": {
             "id": 106163,
-            "name": "孤山寒月·忧生冠_测试用",
+            "name": "塞上寒威·暮赏冠",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6480,
+            "icon_id": 10422,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -36320,16 +36170,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟冠_测试用#106162 (25900 会心 无双)": {
+        "塞上寒威·披锦冠#106162 (25900 会心 无双)": {
             "id": 106162,
-            "name": "孤山寒月·风吟冠_测试用",
+            "name": "塞上寒威·披锦冠",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6480,
+            "icon_id": 10422,
             "base": {},
             "magic": {
                 "vitality_base": 12797,
@@ -36348,9 +36198,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·栖遑帽_测试用#104644 (25900 加速 无双)": {
+        "寻踪觅宝·尚同冠#104644 (25900 加速 无双)": {
             "id": 104644,
-            "name": "寻踪觅宝·栖遑帽_测试用",
+            "name": "寻踪觅宝·尚同冠",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
@@ -36379,9 +36229,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·迭微帽_测试用#104642 (25900 会心 无双)": {
+        "寻踪觅宝·巧变冠#104642 (25900 会心 无双)": {
             "id": 104642,
-            "name": "寻踪觅宝·迭微帽_测试用",
+            "name": "寻踪觅宝·巧变冠",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -36413,9 +36263,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·予吉帽_测试用#104641 (25900 会心 无双)": {
+        "寻踪觅宝·劲锐冠#104641 (25900 会心 无双)": {
             "id": 104641,
-            "name": "寻踪觅宝·予吉帽_测试用",
+            "name": "寻踪觅宝·劲锐冠",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -36447,9 +36297,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·月诸帽_测试用#104640 (25900 会心 无双)": {
+        "寻踪觅宝·端本冠#104640 (25900 会心 无双)": {
             "id": 104640,
-            "name": "寻踪觅宝·月诸帽_测试用",
+            "name": "寻踪觅宝·端本冠",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -36481,9 +36331,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·陟南帽_测试用#104639 (25900 会心 无双)": {
+        "寻踪觅宝·多维冠#104639 (25900 会心 无双)": {
             "id": 104639,
-            "name": "寻踪觅宝·陟南帽_测试用",
+            "name": "寻踪觅宝·多维冠",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -36935,7 +36785,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23193,
             "base": {},
             "magic": {
@@ -36951,14 +36801,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -36974,7 +36823,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23259,
             "base": {},
             "magic": {
@@ -36990,14 +36839,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -37013,7 +36861,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23187,
             "base": {},
             "magic": {
@@ -37029,14 +36877,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -37052,7 +36899,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23277,
             "base": {},
             "magic": {
@@ -37068,14 +36915,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -37092,7 +36938,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23271,
             "base": {},
             "magic": {
@@ -37108,14 +36954,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -37132,7 +36977,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23211,
             "base": {},
             "magic": {
@@ -37148,14 +36993,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -37172,7 +37016,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23223,
             "base": {},
             "magic": {
@@ -37188,14 +37032,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -37212,7 +37055,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23162,
             "base": {},
             "magic": {
@@ -37228,14 +37071,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -37252,7 +37094,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23283,
             "base": {},
             "magic": {
@@ -37268,18 +37110,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -37292,7 +37133,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23168,
             "base": {},
             "magic": {
@@ -37328,7 +37169,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23168,
             "base": {},
             "magic": {
@@ -37344,14 +37185,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -37368,7 +37208,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23217,
             "base": {},
             "magic": {
@@ -37404,7 +37244,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23217,
             "base": {},
             "magic": {
@@ -37420,14 +37260,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -37443,7 +37282,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23205,
             "base": {},
             "magic": {
@@ -37459,14 +37298,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -37482,7 +37320,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23174,
             "base": {},
             "magic": {
@@ -37498,18 +37336,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -37522,7 +37358,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23241,
             "base": {},
             "magic": {
@@ -37538,14 +37374,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -37562,7 +37397,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23241,
             "base": {},
             "magic": {
@@ -37578,14 +37413,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -37602,7 +37436,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23265,
             "base": {},
             "magic": {
@@ -37618,14 +37452,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -37642,7 +37475,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23229,
             "base": {},
             "magic": {
@@ -37658,14 +37491,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -37681,7 +37513,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23180,
             "base": {},
             "magic": {
@@ -37697,14 +37529,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -37720,7 +37551,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23180,
             "base": {},
             "magic": {
@@ -37736,14 +37567,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -37760,7 +37590,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23247,
             "base": {},
             "magic": {
@@ -37796,7 +37626,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23247,
             "base": {},
             "magic": {
@@ -37812,14 +37642,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -37835,7 +37664,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23253,
             "base": {},
             "magic": {
@@ -37851,14 +37680,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -37875,7 +37703,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23235,
             "base": {},
             "magic": {
@@ -37912,7 +37740,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23235,
             "base": {},
             "magic": {
@@ -37928,14 +37756,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -39165,9 +38992,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立帽_测试用#104614 (23000 无双)": {
+        "奎岩冠#104614 (23000 无双)": {
             "id": 104614,
-            "name": "壁立帽_测试用",
+            "name": "奎岩冠",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
@@ -39190,9 +39017,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明帽_测试用#104612 (23000 破防 无双)": {
+        "奎影帽#104612 (23000 破防 无双)": {
             "id": 104612,
-            "name": "壁明帽_测试用",
+            "name": "奎影帽",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
@@ -39218,9 +39045,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺帽_测试用#104611 (23000 破防 无双)": {
+        "奎刚帽#104611 (23000 破防 无双)": {
             "id": 104611,
-            "name": "壁邺帽_测试用",
+            "name": "奎刚帽",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
@@ -39246,9 +39073,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜帽_测试用#104610 (23000 破防 无双)": {
+        "奎元冠#104610 (23000 破防 无双)": {
             "id": 104610,
-            "name": "壁镜帽_测试用",
+            "name": "奎元冠",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
@@ -39274,9 +39101,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观帽_测试用#104609 (23000 破防 无双)": {
+        "奎灵冠#104609 (23000 破防 无双)": {
             "id": 104609,
-            "name": "壁观帽_测试用",
+            "name": "奎灵冠",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
@@ -40732,7 +40559,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23193,
             "base": {},
             "magic": {
@@ -40748,14 +40575,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -40771,7 +40597,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23259,
             "base": {},
             "magic": {
@@ -40787,14 +40613,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -40810,7 +40635,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23187,
             "base": {},
             "magic": {
@@ -40826,14 +40651,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -40849,7 +40673,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23277,
             "base": {},
             "magic": {
@@ -40865,14 +40689,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -40889,7 +40712,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23271,
             "base": {},
             "magic": {
@@ -40905,14 +40728,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -40929,7 +40751,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23211,
             "base": {},
             "magic": {
@@ -40945,14 +40767,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -40969,7 +40790,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23223,
             "base": {},
             "magic": {
@@ -40985,14 +40806,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -41009,7 +40829,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23162,
             "base": {},
             "magic": {
@@ -41025,14 +40845,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -41049,7 +40868,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23283,
             "base": {},
             "magic": {
@@ -41065,18 +40884,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -41089,7 +40907,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23168,
             "base": {},
             "magic": {
@@ -41125,7 +40943,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23168,
             "base": {},
             "magic": {
@@ -41141,14 +40959,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -41165,7 +40982,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23217,
             "base": {},
             "magic": {
@@ -41201,7 +41018,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23217,
             "base": {},
             "magic": {
@@ -41217,14 +41034,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -41240,7 +41056,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23205,
             "base": {},
             "magic": {
@@ -41256,14 +41072,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -41279,7 +41094,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23174,
             "base": {},
             "magic": {
@@ -41295,18 +41110,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -41319,7 +41132,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23241,
             "base": {},
             "magic": {
@@ -41335,14 +41148,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -41359,7 +41171,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23241,
             "base": {},
             "magic": {
@@ -41375,14 +41187,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -41399,7 +41210,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23265,
             "base": {},
             "magic": {
@@ -41415,14 +41226,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -41439,7 +41249,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23229,
             "base": {},
             "magic": {
@@ -41455,14 +41265,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -41478,7 +41287,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23180,
             "base": {},
             "magic": {
@@ -41494,14 +41303,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -41517,7 +41325,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23180,
             "base": {},
             "magic": {
@@ -41533,14 +41341,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -41557,7 +41364,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23247,
             "base": {},
             "magic": {
@@ -41593,7 +41400,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23247,
             "base": {},
             "magic": {
@@ -41609,14 +41416,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -41632,7 +41438,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23253,
             "base": {},
             "magic": {
@@ -41648,14 +41454,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -41672,7 +41477,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23235,
             "base": {},
             "magic": {
@@ -41709,7 +41514,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23235,
             "base": {},
             "magic": {
@@ -41725,14 +41530,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -44511,16 +44315,16 @@ EQUIPMENTS = {
         }
     },
     "jacket": {
-        "花棠衣_测试用#105003 (30700 加速 无双)": {
+        "月钟衣#105003 (30700 加速 无双)": {
             "id": 105003,
-            "name": "花棠衣_测试用",
+            "name": "月钟衣",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6286,
-            "icon_id": 23148,
+            "icon_id": 24115,
             "base": {},
             "magic": {
                 "vitality_base": 24898,
@@ -44544,16 +44348,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花永衣_测试用#105001 (30700 破防 无双)": {
+        "月霭衣#105001 (30700 破防 无双)": {
             "id": 105001,
-            "name": "花永衣_测试用",
+            "name": "月霭衣",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6284,
-            "icon_id": 23148,
+            "icon_id": 24115,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -44579,16 +44383,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花世衣_测试用#105000 (30700 破防 无双)": {
+        "月溪衣#105000 (30700 破防 无双)": {
             "id": 105000,
-            "name": "花世衣_测试用",
+            "name": "月溪衣",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6283,
-            "icon_id": 23148,
+            "icon_id": 24115,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -44614,16 +44418,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花念衣_测试用#104999 (30700 破防 无双)": {
+        "月声衣#104999 (30700 破防 无双)": {
             "id": 104999,
-            "name": "花念衣_测试用",
+            "name": "月声衣",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6282,
-            "icon_id": 23148,
+            "icon_id": 24115,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -44649,16 +44453,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "花深衣_测试用#104998 (30700 破防 无双)": {
+        "月涛衣#104998 (30700 破防 无双)": {
             "id": 104998,
-            "name": "花深衣_测试用",
+            "name": "月涛衣",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6281,
-            "icon_id": 23148,
+            "icon_id": 24115,
             "base": {},
             "magic": {
                 "vitality_base": 16854,
@@ -44684,16 +44488,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠图衣_测试用#105105 (30200 无双)": {
+        "坠欢衫#105105 (30200 无双)": {
             "id": 105105,
-            "name": "漠图衣_测试用",
+            "name": "坠欢衫",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9685,
+            "icon_id": 13285,
             "base": {},
             "magic": {
                 "vitality_base": 23171,
@@ -44708,16 +44512,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名衣_测试用#105103 (30200 会心 无双)": {
+        "坠红衫#105103 (30200 会心 无双)": {
             "id": 105103,
-            "name": "漠名衣_测试用",
+            "name": "坠红衫",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9685,
+            "icon_id": 13285,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -44736,16 +44540,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若衣_测试用#105102 (30200 会心 无双)": {
+        "坠雨衫#105102 (30200 会心 无双)": {
             "id": 105102,
-            "name": "漠若衣_测试用",
+            "name": "坠雨衫",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9685,
+            "icon_id": 13285,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -44764,16 +44568,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖衣_测试用#105101 (30200 会心 无双)": {
+        "坠露衫#105101 (30200 会心 无双)": {
             "id": 105101,
-            "name": "漠晖衣_测试用",
+            "name": "坠露衫",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9685,
+            "icon_id": 13285,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -44792,16 +44596,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安衣_测试用#105100 (30200 会心 无双)": {
+        "坠潮衫#105100 (30200 会心 无双)": {
             "id": 105100,
-            "name": "漠安衣_测试用",
+            "name": "坠潮衫",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9685,
+            "icon_id": 13285,
             "base": {},
             "magic": {
                 "vitality_base": 15685,
@@ -44820,16 +44624,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西衣_测试用#104877 (30200 破招 无双)": {
+        "登科衣#104877 (30200 破招 无双)": {
             "id": 104877,
-            "name": "镇西衣_测试用",
+            "name": "登科衣",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -44845,16 +44649,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁衣_测试用#104875 (30200 破招 无双)": {
+        "标雁衣#104875 (30200 破招 无双)": {
             "id": 104875,
-            "name": "羡雁衣_测试用",
+            "name": "标雁衣",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -44873,16 +44677,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深衣_测试用#104874 (30200 破招 无双)": {
+        "寒窗衣#104874 (30200 破招 无双)": {
             "id": 104874,
-            "name": "君深衣_测试用",
+            "name": "寒窗衣",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -44901,16 +44705,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑衣_测试用#104873 (30200 破招 无双)": {
+        "云路衣#104873 (30200 破招 无双)": {
             "id": 104873,
-            "name": "青桑衣_测试用",
+            "name": "云路衣",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -44929,16 +44733,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春衣_测试用#104872 (30200 破招 无双)": {
+        "文曲衣#104872 (30200 破招 无双)": {
             "id": 104872,
-            "name": "季春衣_测试用",
+            "name": "文曲衣",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -44957,16 +44761,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源衫_测试用#104841 (30200 无双)": {
+        "三元衣#104841 (30200 无双)": {
             "id": 104841,
-            "name": "山源衫_测试用",
+            "name": "三元衣",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -44981,16 +44785,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗衫_测试用#104839 (30200 加速 无双)": {
+        "问殿衣#104839 (30200 加速 无双)": {
             "id": 104839,
-            "name": "留诗衫_测试用",
+            "name": "问殿衣",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45009,16 +44813,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月衫_测试用#104838 (30200 加速 无双)": {
+        "礼闱衣#104838 (30200 加速 无双)": {
             "id": 104838,
-            "name": "清月衫_测试用",
+            "name": "礼闱衣",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45037,16 +44841,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山衫_测试用#104837 (30200 加速 无双)": {
+        "封名衣#104837 (30200 加速 无双)": {
             "id": 104837,
-            "name": "游山衫_测试用",
+            "name": "封名衣",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45065,16 +44869,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉衫_测试用#104836 (30200 加速 无双)": {
+        "论策衣#104836 (30200 加速 无双)": {
             "id": 104836,
-            "name": "思玉衫_测试用",
+            "name": "论策衣",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23142,
+            "icon_id": 24109,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45093,16 +44897,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "西塞·沉醉衣_测试用#104805 (30200 会心 无双)": {
+        "天极·云胜衣#104805 (30200 会心 无双)": {
             "id": 104805,
-            "name": "西塞·沉醉衣_测试用",
+            "name": "天极·云胜衣",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6280,
-            "icon_id": 23191,
+            "icon_id": 24010,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45131,16 +44935,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·离巢衫_测试用#104804 (30200 会心 无双)": {
+        "天极·意悠衣#104804 (30200 会心 无双)": {
             "id": 104804,
-            "name": "西塞·离巢衫_测试用",
+            "name": "天极·意悠衣",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6279,
-            "icon_id": 23257,
+            "icon_id": 24070,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45169,16 +44973,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·秋星衫_测试用#104803 (30200 会心 无双)": {
+        "天极·斩妄衣#104803 (30200 会心 无双)": {
             "id": 104803,
-            "name": "西塞·秋星衫_测试用",
+            "name": "天极·斩妄衣",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6278,
-            "icon_id": 23185,
+            "icon_id": 24004,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45207,16 +45011,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·银筱衣_测试用#104801 (30200 会心 无双)": {
+        "天极·悬丝衣#104801 (30200 会心 无双)": {
             "id": 104801,
-            "name": "西塞·银筱衣_测试用",
+            "name": "天极·悬丝衣",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6276,
-            "icon_id": 23275,
+            "icon_id": 24088,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45246,16 +45050,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·清浊衣_测试用#104800 (30200 会心 无双)": {
+        "天极·符烬衣#104800 (30200 会心 无双)": {
             "id": 104800,
-            "name": "西塞·清浊衣_测试用",
+            "name": "天极·符烬衣",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6275,
-            "icon_id": 23269,
+            "icon_id": 24082,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45285,16 +45089,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·麟台衫_测试用#104799 (30200 会心 无双)": {
+        "天极·藏名衣#104799 (30200 会心 无双)": {
             "id": 104799,
-            "name": "西塞·麟台衫_测试用",
+            "name": "天极·藏名衣",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6274,
-            "icon_id": 23209,
+            "icon_id": 24022,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45324,16 +45128,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·川冥衫_测试用#104798 (30200 会心 无双)": {
+        "天极·裂海衣#104798 (30200 会心 无双)": {
             "id": 104798,
-            "name": "西塞·川冥衫_测试用",
+            "name": "天极·裂海衣",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6273,
-            "icon_id": 23221,
+            "icon_id": 24034,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45363,16 +45167,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·流电衫_测试用#104797 (30200 会心 无双)": {
+        "天极·雷壑衣#104797 (30200 会心 无双)": {
             "id": 104797,
-            "name": "西塞·流电衫_测试用",
+            "name": "天极·雷壑衣",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6272,
-            "icon_id": 23160,
+            "icon_id": 23980,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45402,16 +45206,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·青弦衫_测试用#104795 (30200 加速 无双)": {
+        "天极·叹古衣#104795 (30200 加速 无双)": {
             "id": 104795,
-            "name": "西塞·青弦衫_测试用",
+            "name": "天极·叹古衣",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6270,
-            "icon_id": 23281,
+            "icon_id": 24094,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45441,16 +45245,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·旋草甲_测试用#104794 (30200 无双)": {
+        "天极·铸铁衣#104794 (30200 无双)": {
             "id": 104794,
-            "name": "西塞·旋草甲_测试用",
+            "name": "天极·铸铁衣",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6269,
-            "icon_id": 23166,
+            "icon_id": 23986,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -45476,16 +45280,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·行歌甲_测试用#104793 (30200 会心 无双)": {
+        "天极·风旗衣#104793 (30200 会心 无双)": {
             "id": 104793,
-            "name": "西塞·行歌甲_测试用",
+            "name": "天极·风旗衣",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6268,
-            "icon_id": 23166,
+            "icon_id": 23986,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45515,16 +45319,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·耀光衣_测试用#104792 (30200 无双)": {
+        "天极·燃浊衣#104792 (30200 无双)": {
             "id": 104792,
-            "name": "西塞·耀光衣_测试用",
+            "name": "天极·燃浊衣",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6267,
-            "icon_id": 23215,
+            "icon_id": 24028,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -45550,16 +45354,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·大荒衣_测试用#104791 (30200 会心 无双)": {
+        "天极·月刃衣#104791 (30200 会心 无双)": {
             "id": 104791,
-            "name": "西塞·大荒衣_测试用",
+            "name": "天极·月刃衣",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6266,
-            "icon_id": 23215,
+            "icon_id": 24028,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45588,16 +45392,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·平塘衣_测试用#104790 (30200 会心 无双)": {
+        "天极·醉云衣#104790 (30200 会心 无双)": {
             "id": 104790,
-            "name": "西塞·平塘衣_测试用",
+            "name": "天极·醉云衣",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6265,
-            "icon_id": 23203,
+            "icon_id": 24016,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45626,16 +45430,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·赤眉衣_测试用#104789 (30200 会心 无双)": {
+        "天极·听荷衣#104789 (30200 会心 无双)": {
             "id": 104789,
-            "name": "西塞·赤眉衣_测试用",
+            "name": "天极·听荷衣",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6264,
-            "icon_id": 23172,
+            "icon_id": 23992,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45660,21 +45464,20 @@ EQUIPMENTS = {
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
         },
-        "西塞·江鸥衣_测试用#104788 (30200 会心 无双)": {
+        "天极·锁幽衣#104788 (30200 会心 无双)": {
             "id": 104788,
-            "name": "西塞·江鸥衣_测试用",
+            "name": "天极·锁幽衣",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6263,
-            "icon_id": 23239,
+            "icon_id": 24052,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45704,16 +45507,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·寒蛩衣_测试用#104787 (30200 会心 无双)": {
+        "天极·隐机衣#104787 (30200 会心 无双)": {
             "id": 104787,
-            "name": "西塞·寒蛩衣_测试用",
+            "name": "天极·隐机衣",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6262,
-            "icon_id": 23239,
+            "icon_id": 24052,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45743,16 +45546,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·朝愁衣_测试用#104785 (30200 会心 无双)": {
+        "天极·缠心衣#104785 (30200 会心 无双)": {
             "id": 104785,
-            "name": "西塞·朝愁衣_测试用",
+            "name": "天极·缠心衣",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6260,
-            "icon_id": 23263,
+            "icon_id": 24076,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45782,16 +45585,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·烟蘸衣_测试用#104783 (30200 加速 无双)": {
+        "天极·独明衣#104783 (30200 加速 无双)": {
             "id": 104783,
-            "name": "西塞·烟蘸衣_测试用",
+            "name": "天极·独明衣",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6258,
-            "icon_id": 23227,
+            "icon_id": 24040,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45820,16 +45623,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·冷辉衣_测试用#104782 (30200 会心 无双)": {
+        "天极·忘归衣#104782 (30200 会心 无双)": {
             "id": 104782,
-            "name": "西塞·冷辉衣_测试用",
+            "name": "天极·忘归衣",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6257,
-            "icon_id": 23178,
+            "icon_id": 23998,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45858,16 +45661,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·雪欹衣_测试用#104781 (30200 会心 无双)": {
+        "天极·截云衣#104781 (30200 会心 无双)": {
             "id": 104781,
-            "name": "西塞·雪欹衣_测试用",
+            "name": "天极·截云衣",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6256,
-            "icon_id": 23178,
+            "icon_id": 23998,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45897,16 +45700,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·戈戟战甲_测试用#104780 (30200 无双)": {
+        "天极·截岳衣#104780 (30200 无双)": {
             "id": 104780,
-            "name": "西塞·戈戟战甲_测试用",
+            "name": "天极·截岳衣",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6255,
-            "icon_id": 23245,
+            "icon_id": 24058,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -45932,16 +45735,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·壮志战甲_测试用#104779 (30200 会心 无双)": {
+        "天极·血旌衣#104779 (30200 会心 无双)": {
             "id": 104779,
-            "name": "西塞·壮志战甲_测试用",
+            "name": "天极·血旌衣",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6254,
-            "icon_id": 23245,
+            "icon_id": 24058,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -45970,16 +45773,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·合章衣_测试用#104777 (30200 会心 无双)": {
+        "天极·砚书衣#104777 (30200 会心 无双)": {
             "id": 104777,
-            "name": "西塞·合章衣_测试用",
+            "name": "天极·砚书衣",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6252,
-            "icon_id": 23251,
+            "icon_id": 24064,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -46009,16 +45812,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·恒沙衣_测试用#104776 (30200 无双)": {
+        "天极·梵劫衣#104776 (30200 无双)": {
             "id": 104776,
-            "name": "西塞·恒沙衣_测试用",
+            "name": "天极·梵劫衣",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6251,
-            "icon_id": 23233,
+            "icon_id": 24046,
             "base": {},
             "magic": {
                 "vitality_base": 24493,
@@ -46045,16 +45848,16 @@ EQUIPMENTS = {
                 }
             }
         },
-        "西塞·彼岸衣_测试用#104775 (30200 会心 无双)": {
+        "天极·怒相衣#104775 (30200 会心 无双)": {
             "id": 104775,
-            "name": "西塞·彼岸衣_测试用",
+            "name": "天极·怒相衣",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 6250,
-            "icon_id": 23233,
+            "icon_id": 24046,
             "base": {},
             "magic": {
                 "vitality_base": 16580,
@@ -46257,16 +46060,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼衣_测试用#106173 (25900 无双)": {
+        "塞上寒威·载彰衣#106173 (25900 无双)": {
             "id": 106173,
-            "name": "孤山寒月·银狼衣_测试用",
+            "name": "塞上寒威·载彰衣",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6553,
+            "icon_id": 10418,
             "base": {},
             "magic": {
                 "vitality_base": 21005,
@@ -46281,16 +46084,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃衣_测试用#106171 (25900 破招 无双)": {
+        "塞上寒威·星宇衣#106171 (25900 破招 无双)": {
             "id": 106171,
-            "name": "孤山寒月·逐刃衣_测试用",
+            "name": "塞上寒威·星宇衣",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6553,
+            "icon_id": 10418,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -46309,16 +46112,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期衣_测试用#106170 (25900 破招 无双)": {
+        "塞上寒威·善诚衣#106170 (25900 破招 无双)": {
             "id": 106170,
-            "name": "孤山寒月·归期衣_测试用",
+            "name": "塞上寒威·善诚衣",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6553,
+            "icon_id": 10418,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -46337,16 +46140,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生衣_测试用#106169 (25900 破招 无双)": {
+        "塞上寒威·暮赏衣#106169 (25900 破招 无双)": {
             "id": 106169,
-            "name": "孤山寒月·忧生衣_测试用",
+            "name": "塞上寒威·暮赏衣",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6553,
+            "icon_id": 10418,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -46365,16 +46168,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟衣_测试用#106168 (25900 破招 无双)": {
+        "塞上寒威·披锦衣#106168 (25900 破招 无双)": {
             "id": 106168,
-            "name": "孤山寒月·风吟衣_测试用",
+            "name": "塞上寒威·披锦衣",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 6553,
+            "icon_id": 10418,
             "base": {},
             "magic": {
                 "vitality_base": 14219,
@@ -46393,9 +46196,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·栖遑衣_测试用#104650 (25900 无双)": {
+        "寻踪觅宝·尚同衫#104650 (25900 无双)": {
             "id": 104650,
-            "name": "寻踪觅宝·栖遑衣_测试用",
+            "name": "寻踪觅宝·尚同衫",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
@@ -46423,9 +46226,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·迭微衣_测试用#104648 (25900 加速 无双)": {
+        "寻踪觅宝·巧变衫#104648 (25900 加速 无双)": {
             "id": 104648,
-            "name": "寻踪觅宝·迭微衣_测试用",
+            "name": "寻踪觅宝·巧变衫",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
@@ -46457,9 +46260,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·予吉衣_测试用#104647 (25900 加速 无双)": {
+        "寻踪觅宝·劲锐衫#104647 (25900 加速 无双)": {
             "id": 104647,
-            "name": "寻踪觅宝·予吉衣_测试用",
+            "name": "寻踪觅宝·劲锐衫",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
@@ -46491,9 +46294,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·月诸衣_测试用#104646 (25900 加速 无双)": {
+        "寻踪觅宝·端本衫#104646 (25900 加速 无双)": {
             "id": 104646,
-            "name": "寻踪觅宝·月诸衣_测试用",
+            "name": "寻踪觅宝·端本衫",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
@@ -46525,9 +46328,9 @@ EQUIPMENTS = {
             },
             "set_recipe": {}
         },
-        "寻踪觅宝·陟南衣_测试用#104645 (25900 加速 无双)": {
+        "寻踪觅宝·多维衫#104645 (25900 加速 无双)": {
             "id": 104645,
-            "name": "寻踪觅宝·陟南衣_测试用",
+            "name": "寻踪觅宝·多维衫",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
@@ -46840,7 +46643,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23191,
             "base": {},
             "magic": {
@@ -46856,14 +46659,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -46879,7 +46681,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23257,
             "base": {},
             "magic": {
@@ -46895,14 +46697,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -46918,7 +46719,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23185,
             "base": {},
             "magic": {
@@ -46934,14 +46735,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -46957,7 +46757,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23275,
             "base": {},
             "magic": {
@@ -46973,14 +46773,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -46997,7 +46796,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23269,
             "base": {},
             "magic": {
@@ -47013,14 +46812,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -47037,7 +46835,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23209,
             "base": {},
             "magic": {
@@ -47053,14 +46851,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -47077,7 +46874,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23221,
             "base": {},
             "magic": {
@@ -47093,14 +46890,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -47117,7 +46913,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23160,
             "base": {},
             "magic": {
@@ -47133,14 +46929,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -47157,7 +46952,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23281,
             "base": {},
             "magic": {
@@ -47173,18 +46968,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -47197,7 +46991,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23166,
             "base": {},
             "magic": {
@@ -47232,7 +47026,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23166,
             "base": {},
             "magic": {
@@ -47248,14 +47042,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -47272,7 +47065,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23215,
             "base": {},
             "magic": {
@@ -47307,7 +47100,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23215,
             "base": {},
             "magic": {
@@ -47323,14 +47116,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -47346,7 +47138,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23203,
             "base": {},
             "magic": {
@@ -47362,14 +47154,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -47385,7 +47176,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23172,
             "base": {},
             "magic": {
@@ -47401,18 +47192,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -47425,7 +47214,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23239,
             "base": {},
             "magic": {
@@ -47441,14 +47230,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -47465,7 +47253,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23239,
             "base": {},
             "magic": {
@@ -47481,14 +47269,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -47505,7 +47292,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23263,
             "base": {},
             "magic": {
@@ -47521,14 +47308,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -47545,7 +47331,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23227,
             "base": {},
             "magic": {
@@ -47561,14 +47347,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -47584,7 +47369,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23178,
             "base": {},
             "magic": {
@@ -47600,14 +47385,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -47623,7 +47407,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23178,
             "base": {},
             "magic": {
@@ -47639,14 +47423,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -47663,7 +47446,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23245,
             "base": {},
             "magic": {
@@ -47698,7 +47481,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23245,
             "base": {},
             "magic": {
@@ -47714,14 +47497,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -47737,7 +47519,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23251,
             "base": {},
             "magic": {
@@ -47753,14 +47535,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -47777,7 +47558,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23233,
             "base": {},
             "magic": {
@@ -47813,7 +47594,7 @@ EQUIPMENTS = {
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23233,
             "base": {},
             "magic": {
@@ -47829,14 +47610,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -47981,9 +47761,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立衫_测试用#104620 (23000 无双)": {
+        "奎岩衣#104620 (23000 无双)": {
             "id": 104620,
-            "name": "壁立衫_测试用",
+            "name": "奎岩衣",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
@@ -48005,9 +47785,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明衫_测试用#104618 (23000 破招 无双)": {
+        "奎影衣#104618 (23000 破招 无双)": {
             "id": 104618,
-            "name": "壁明衫_测试用",
+            "name": "奎影衣",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
@@ -48033,9 +47813,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺衫_测试用#104617 (23000 破招 无双)": {
+        "奎刚衣#104617 (23000 破招 无双)": {
             "id": 104617,
-            "name": "壁邺衫_测试用",
+            "name": "奎刚衣",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
@@ -48061,9 +47841,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜衫_测试用#104616 (23000 破招 无双)": {
+        "奎元衣#104616 (23000 破招 无双)": {
             "id": 104616,
-            "name": "壁镜衫_测试用",
+            "name": "奎元衣",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
@@ -48089,9 +47869,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观衫_测试用#104615 (23000 破招 无双)": {
+        "奎灵衣#104615 (23000 破招 无双)": {
             "id": 104615,
-            "name": "壁观衫_测试用",
+            "name": "奎灵衣",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
@@ -48945,7 +48725,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5948,
+            "set_id": 6280,
             "icon_id": 23191,
             "base": {},
             "magic": {
@@ -48961,14 +48741,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2726
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5737: 1,
@@ -48984,7 +48763,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5947,
+            "set_id": 6279,
             "icon_id": 23257,
             "base": {},
             "magic": {
@@ -49000,14 +48779,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2568
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5438: 1,
@@ -49023,7 +48801,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5946,
+            "set_id": 6278,
             "icon_id": 23185,
             "base": {},
             "magic": {
@@ -49039,14 +48817,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     3188: 1,
@@ -49062,7 +48839,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5944,
+            "set_id": 6276,
             "icon_id": 23275,
             "base": {},
             "magic": {
@@ -49078,14 +48855,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        2125
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     2839: 1,
@@ -49102,7 +48878,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5943,
+            "set_id": 6275,
             "icon_id": 23269,
             "base": {},
             "magic": {
@@ -49118,14 +48894,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1956
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5321: 1,
@@ -49142,7 +48917,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5942,
+            "set_id": 6274,
             "icon_id": 23209,
             "base": {},
             "magic": {
@@ -49158,14 +48933,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1927
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     5037: 1,
@@ -49182,7 +48956,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5941,
+            "set_id": 6273,
             "icon_id": 23221,
             "base": {},
             "magic": {
@@ -49198,14 +48972,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1926
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4816: 1,
@@ -49222,7 +48995,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5940,
+            "set_id": 6272,
             "icon_id": 23160,
             "base": {},
             "magic": {
@@ -49238,14 +49011,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1925
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     4290: 1,
@@ -49262,7 +49034,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5938,
+            "set_id": 6270,
             "icon_id": 23281,
             "base": {},
             "magic": {
@@ -49278,18 +49050,17 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1924
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
-                    2209: 1,
                     2210: 1,
+                    5909: 1,
                     17250: 1
                 }
             }
@@ -49302,7 +49073,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5937,
+            "set_id": 6269,
             "icon_id": 23166,
             "base": {},
             "magic": {
@@ -49337,7 +49108,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5936,
+            "set_id": 6268,
             "icon_id": 23166,
             "base": {},
             "magic": {
@@ -49353,14 +49124,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1923
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1932: 1,
@@ -49377,7 +49147,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5935,
+            "set_id": 6267,
             "icon_id": 23215,
             "base": {},
             "magic": {
@@ -49412,7 +49182,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5934,
+            "set_id": 6266,
             "icon_id": 23215,
             "base": {},
             "magic": {
@@ -49428,14 +49198,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1922
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     948: 2,
@@ -49451,7 +49220,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5933,
+            "set_id": 6265,
             "icon_id": 23203,
             "base": {},
             "magic": {
@@ -49467,14 +49236,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1921
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1548: 1,
@@ -49490,7 +49258,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5932,
+            "set_id": 6264,
             "icon_id": 23172,
             "base": {},
             "magic": {
@@ -49506,18 +49274,16 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1920
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 6,
-                    4347: 1,
                     17250: 1
                 }
             }
@@ -49530,7 +49296,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5931,
+            "set_id": 6263,
             "icon_id": 23239,
             "base": {},
             "magic": {
@@ -49546,14 +49312,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1919
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     946: 1,
@@ -49570,7 +49335,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5930,
+            "set_id": 6262,
             "icon_id": 23239,
             "base": {},
             "magic": {
@@ -49586,14 +49351,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1918
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     947: 1,
@@ -49610,7 +49374,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5928,
+            "set_id": 6260,
             "icon_id": 23263,
             "base": {},
             "magic": {
@@ -49626,14 +49390,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1917
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 7,
@@ -49650,7 +49413,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5926,
+            "set_id": 6258,
             "icon_id": 23227,
             "base": {},
             "magic": {
@@ -49666,14 +49429,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1916
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     1547: 1,
@@ -49689,7 +49451,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5925,
+            "set_id": 6257,
             "icon_id": 23178,
             "base": {},
             "magic": {
@@ -49705,14 +49467,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1915
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 1,
@@ -49728,7 +49489,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5924,
+            "set_id": 6256,
             "icon_id": 23178,
             "base": {},
             "magic": {
@@ -49744,14 +49505,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1914
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 2,
@@ -49768,7 +49528,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5923,
+            "set_id": 6255,
             "icon_id": 23245,
             "base": {},
             "magic": {
@@ -49803,7 +49563,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5922,
+            "set_id": 6254,
             "icon_id": 23245,
             "base": {},
             "magic": {
@@ -49819,14 +49579,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1913
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 2,
@@ -49842,7 +49601,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5920,
+            "set_id": 6252,
             "icon_id": 23251,
             "base": {},
             "magic": {
@@ -49858,14 +49617,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1912
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     817: 1,
@@ -49882,7 +49640,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5919,
+            "set_id": 6251,
             "icon_id": 23233,
             "base": {},
             "magic": {
@@ -49918,7 +49676,7 @@ EQUIPMENTS = {
             "level": 22500,
             "max_strength": 6,
             "special_enchant": 0,
-            "set_id": 5918,
+            "set_id": 6250,
             "icon_id": 23233,
             "base": {},
             "magic": {
@@ -49934,14 +49692,13 @@ EQUIPMENTS = {
             },
             "gains": [],
             "recipes": {},
-            "set_attr": {},
-            "set_gain": {
-                2: [
-                    [
-                        1911
-                    ]
-                ]
+            "set_attr": {
+                2: {
+                    "all_critical_strike_base": 7908,
+                    "all_critical_power_base": 2914
+                }
             },
+            "set_gain": {},
             "set_recipe": {
                 4: {
                     818: 5,
@@ -52133,16 +51890,16 @@ EQUIPMENTS = {
         }
     },
     "pendant": {
-        "已周坠_测试用#43068 (30700 破招 无双)": {
+        "远集坠#43068 (30700 破招 无双)": {
             "id": 43068,
-            "name": "已周坠_测试用",
+            "name": "远集坠",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 12449,
@@ -52158,16 +51915,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄坠_测试用#43066 (30700 会心 无双)": {
+        "载周坠#43066 (30700 会心 无双)": {
             "id": 43066,
-            "name": "澹澄坠_测试用",
+            "name": "载周坠",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -52185,16 +51942,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客坠_测试用#43065 (30700 会心 无双)": {
+        "沉淖坠#43065 (30700 会心 无双)": {
             "id": 43065,
-            "name": "逋客坠_测试用",
+            "name": "沉淖坠",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -52212,16 +51969,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空坠_测试用#43064 (30700 会心 无双)": {
+        "览微坠#43064 (30700 会心 无双)": {
             "id": 43064,
-            "name": "江空坠_测试用",
+            "name": "览微坠",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -52239,16 +51996,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深坠_测试用#43063 (30700 会心 无双)": {
+        "防露坠#43063 (30700 会心 无双)": {
             "id": 43063,
-            "name": "山深坠_测试用",
+            "name": "防露坠",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -52266,9 +52023,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43122 (30200 精简 会心 破防 无双)": {
+        "无修坠·外·玄#43122 (30200 精简 会心 破防 无双)": {
             "id": 43122,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52297,9 +52054,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43121 (30200 精简 会心 无双)": {
+        "无修坠·外·玄#43121 (30200 精简 会心 无双)": {
             "id": 43121,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52327,9 +52084,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43120 (30200 精简 破防 无双)": {
+        "无修坠·外·玄#43120 (30200 精简 破防 无双)": {
             "id": 43120,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52357,9 +52114,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43119 (30200 精简 会心 破防 无双)": {
+        "无修坠·内·玄#43119 (30200 精简 会心 破防 无双)": {
             "id": 43119,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52388,9 +52145,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43118 (30200 精简 会心 无双)": {
+        "无修坠·内·玄#43118 (30200 精简 会心 无双)": {
             "id": 43118,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52418,9 +52175,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43117 (30200 精简 破防 无双)": {
+        "无修坠·内·玄#43117 (30200 精简 破防 无双)": {
             "id": 43117,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52448,9 +52205,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43098 (30200 精简 会心 破防 无双)": {
+        "无修坠·外·玄#43098 (30200 精简 会心 破防 无双)": {
             "id": 43098,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52479,9 +52236,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43097 (30200 精简 会心 无双)": {
+        "无修坠·外·玄#43097 (30200 精简 会心 无双)": {
             "id": 43097,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52509,9 +52266,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43096 (30200 精简 破防 无双)": {
+        "无修坠·外·玄#43096 (30200 精简 破防 无双)": {
             "id": 43096,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -52539,9 +52296,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43095 (30200 精简 会心 破防 无双)": {
+        "无修坠·内·玄#43095 (30200 精简 会心 破防 无双)": {
             "id": 43095,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52570,9 +52327,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43094 (30200 精简 会心 无双)": {
+        "无修坠·内·玄#43094 (30200 精简 会心 无双)": {
             "id": 43094,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52600,9 +52357,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43093 (30200 精简 破防 无双)": {
+        "无修坠·内·玄#43093 (30200 精简 破防 无双)": {
             "id": 43093,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -52630,16 +52387,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "伴月华_测试用#42992 (30200 特效 无双)": {
+        "兴王师#42992 (30200 特效 无双)": {
             "id": 42992,
-            "name": "伴月华_测试用",
+            "name": "兴王师",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22905,
+            "icon_id": 24382,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -52657,16 +52414,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "连天际_测试用#42990 (30200 特效 破防 无双)": {
+        "奉君命#42990 (30200 特效 破防 无双)": {
             "id": 42990,
-            "name": "连天际_测试用",
+            "name": "奉君命",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22903,
+            "icon_id": 24380,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52689,16 +52446,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "雁南归_测试用#42989 (30200 特效 破防 无双)": {
+        "抚旌节#42989 (30200 特效 破防 无双)": {
             "id": 42989,
-            "name": "雁南归_测试用",
+            "name": "抚旌节",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22902,
+            "icon_id": 24379,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52721,16 +52478,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻幽径_测试用#42988 (30200 特效 破防 无双)": {
+        "将相和#42988 (30200 特效 破防 无双)": {
             "id": 42988,
-            "name": "寻幽径_测试用",
+            "name": "将相和",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22901,
+            "icon_id": 24378,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52753,16 +52510,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "画青山_测试用#42987 (30200 特效 破防 无双)": {
+        "授琅钤#42987 (30200 特效 破防 无双)": {
             "id": 42987,
-            "name": "画青山_测试用",
+            "name": "授琅钤",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22900,
+            "icon_id": 24377,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52785,16 +52542,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西坠_测试用#42968 (30200 加速 无双)": {
+        "登科坠#42968 (30200 加速 无双)": {
             "id": 42968,
-            "name": "镇西坠_测试用",
+            "name": "登科坠",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1216,
+            "icon_id": 1219,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -52810,16 +52567,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁坠_测试用#42966 (30200 破招 无双)": {
+        "标雁坠#42966 (30200 破招 无双)": {
             "id": 42966,
-            "name": "羡雁坠_测试用",
+            "name": "标雁坠",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1216,
+            "icon_id": 1219,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52837,16 +52594,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深坠_测试用#42965 (30200 破招 无双)": {
+        "寒窗坠#42965 (30200 破招 无双)": {
             "id": 42965,
-            "name": "君深坠_测试用",
+            "name": "寒窗坠",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1216,
+            "icon_id": 1219,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52864,16 +52621,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑坠_测试用#42964 (30200 破招 无双)": {
+        "云路坠#42964 (30200 破招 无双)": {
             "id": 42964,
-            "name": "青桑坠_测试用",
+            "name": "云路坠",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1216,
+            "icon_id": 1219,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52891,16 +52648,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春坠_测试用#42963 (30200 破招 无双)": {
+        "文曲坠#42963 (30200 破招 无双)": {
             "id": 42963,
-            "name": "季春坠_测试用",
+            "name": "文曲坠",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1216,
+            "icon_id": 1219,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52918,16 +52675,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源坠_测试用#42950 (30200 无双)": {
+        "三元佩#42950 (30200 无双)": {
             "id": 42950,
-            "name": "山源坠_测试用",
+            "name": "三元佩",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1214,
+            "icon_id": 1218,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -52942,16 +52699,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗坠_测试用#42948 (30200 加速 无双)": {
+        "问殿佩#42948 (30200 加速 无双)": {
             "id": 42948,
-            "name": "留诗坠_测试用",
+            "name": "问殿佩",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1214,
+            "icon_id": 1218,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52969,16 +52726,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月坠_测试用#42947 (30200 加速 无双)": {
+        "礼闱佩#42947 (30200 加速 无双)": {
             "id": 42947,
-            "name": "清月坠_测试用",
+            "name": "礼闱佩",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1214,
+            "icon_id": 1218,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -52996,16 +52753,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山坠_测试用#42946 (30200 加速 无双)": {
+        "封名佩#42946 (30200 加速 无双)": {
             "id": 42946,
-            "name": "游山坠_测试用",
+            "name": "封名佩",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1214,
+            "icon_id": 1218,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -53023,16 +52780,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉坠_测试用#42945 (30200 加速 无双)": {
+        "论策佩#42945 (30200 加速 无双)": {
             "id": 42945,
-            "name": "思玉坠_测试用",
+            "name": "论策佩",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1214,
+            "icon_id": 1218,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -53050,9 +52807,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43110 (28000 精简 会心 会效 无双)": {
+        "无修坠·外·玄#43110 (28000 精简 会心 会效 无双)": {
             "id": 43110,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53081,9 +52838,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43109 (28000 精简 会心 破防 无双)": {
+        "无修坠·外·玄#43109 (28000 精简 会心 破防 无双)": {
             "id": 43109,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53112,9 +52869,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43108 (28000 精简 会心 无双)": {
+        "无修坠·外·玄#43108 (28000 精简 会心 无双)": {
             "id": 43108,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53142,9 +52899,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43107 (28000 精简 会心 会效 无双)": {
+        "无修坠·内·玄#43107 (28000 精简 会心 会效 无双)": {
             "id": 43107,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53173,9 +52930,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43106 (28000 精简 会心 破防 无双)": {
+        "无修坠·内·玄#43106 (28000 精简 会心 破防 无双)": {
             "id": 43106,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53204,9 +52961,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43105 (28000 精简 会心 无双)": {
+        "无修坠·内·玄#43105 (28000 精简 会心 无双)": {
             "id": 43105,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53234,9 +52991,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43086 (28000 精简 会心 会效 无双)": {
+        "无修坠·外·玄#43086 (28000 精简 会心 会效 无双)": {
             "id": 43086,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53265,9 +53022,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43085 (28000 精简 会心 破防 无双)": {
+        "无修坠·外·玄#43085 (28000 精简 会心 破防 无双)": {
             "id": 43085,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53296,9 +53053,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·外·玄_测试用#43084 (28000 精简 会心 无双)": {
+        "无修坠·外·玄#43084 (28000 精简 会心 无双)": {
             "id": 43084,
-            "name": "无修坠·外·玄_测试用",
+            "name": "无修坠·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -53326,9 +53083,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43083 (28000 精简 会心 会效 无双)": {
+        "无修坠·内·玄#43083 (28000 精简 会心 会效 无双)": {
             "id": 43083,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53357,9 +53114,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43082 (28000 精简 会心 破防 无双)": {
+        "无修坠·内·玄#43082 (28000 精简 会心 破防 无双)": {
             "id": 43082,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53388,9 +53145,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修坠·内·玄_测试用#43081 (28000 精简 会心 无双)": {
+        "无修坠·内·玄#43081 (28000 精简 会心 无双)": {
             "id": 43081,
-            "name": "无修坠·内·玄_测试用",
+            "name": "无修坠·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -53418,16 +53175,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周坠_测试用#43056 (28000 破招 无双)": {
+        "远集坠#43056 (28000 破招 无双)": {
             "id": 43056,
-            "name": "已周坠_测试用",
+            "name": "远集坠",
             "school": "通用",
             "kind": "防御",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 11354,
@@ -53443,16 +53200,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄坠_测试用#43054 (28000 会心 无双)": {
+        "载周坠#43054 (28000 会心 无双)": {
             "id": 43054,
-            "name": "澹澄坠_测试用",
+            "name": "载周坠",
             "school": "通用",
             "kind": "身法",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -53470,16 +53227,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客坠_测试用#43053 (28000 会心 无双)": {
+        "沉淖坠#43053 (28000 会心 无双)": {
             "id": 43053,
-            "name": "逋客坠_测试用",
+            "name": "沉淖坠",
             "school": "通用",
             "kind": "力道",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -53497,16 +53254,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空坠_测试用#43052 (28000 会心 无双)": {
+        "览微坠#43052 (28000 会心 无双)": {
             "id": 43052,
-            "name": "江空坠_测试用",
+            "name": "览微坠",
             "school": "通用",
             "kind": "元气",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -53524,16 +53281,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深坠_测试用#43051 (28000 会心 无双)": {
+        "防露坠#43051 (28000 会心 无双)": {
             "id": 43051,
-            "name": "山深坠_测试用",
+            "name": "防露坠",
             "school": "通用",
             "kind": "根骨",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -54237,16 +53994,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周坠_测试用#43044 (25500 破招 无双)": {
+        "远集坠#43044 (25500 破招 无双)": {
             "id": 43044,
-            "name": "已周坠_测试用",
+            "name": "远集坠",
             "school": "通用",
             "kind": "防御",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 10341,
@@ -54262,16 +54019,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄坠_测试用#43042 (25500 会心 无双)": {
+        "载周坠#43042 (25500 会心 无双)": {
             "id": 43042,
-            "name": "澹澄坠_测试用",
+            "name": "载周坠",
             "school": "通用",
             "kind": "身法",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -54289,16 +54046,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客坠_测试用#43041 (25500 会心 无双)": {
+        "沉淖坠#43041 (25500 会心 无双)": {
             "id": 43041,
-            "name": "逋客坠_测试用",
+            "name": "沉淖坠",
             "school": "通用",
             "kind": "力道",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -54316,16 +54073,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空坠_测试用#43040 (25500 会心 无双)": {
+        "览微坠#43040 (25500 会心 无双)": {
             "id": 43040,
-            "name": "江空坠_测试用",
+            "name": "览微坠",
             "school": "通用",
             "kind": "元气",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -54343,16 +54100,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深坠_测试用#43039 (25500 会心 无双)": {
+        "防露坠#43039 (25500 会心 无双)": {
             "id": 43039,
-            "name": "山深坠_测试用",
+            "name": "防露坠",
             "school": "通用",
             "kind": "根骨",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -55681,16 +55438,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立戒_测试用#42938 (23000 无双)": {
+        "奎岩坠#42938 (23000 无双)": {
             "id": 42938,
-            "name": "壁立戒_测试用",
+            "name": "奎岩坠",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 2844,
             "base": {},
             "magic": {
                 "vitality_base": 9327,
@@ -55705,16 +55462,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明戒_测试用#42936 (23000 破防 无双)": {
+        "奎影坠#42936 (23000 破防 无双)": {
             "id": 42936,
-            "name": "壁明戒_测试用",
+            "name": "奎影坠",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 2844,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -55732,16 +55489,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺戒_测试用#42935 (23000 破防 无双)": {
+        "奎刚坠#42935 (23000 破防 无双)": {
             "id": 42935,
-            "name": "壁邺戒_测试用",
+            "name": "奎刚坠",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 2844,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -55759,16 +55516,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜戒_测试用#42934 (23000 破防 无双)": {
+        "奎元坠#42934 (23000 破防 无双)": {
             "id": 42934,
-            "name": "壁镜戒_测试用",
+            "name": "奎元坠",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 2844,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -55786,16 +55543,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观戒_测试用#42933 (23000 破防 无双)": {
+        "奎灵坠#42933 (23000 破防 无双)": {
             "id": 42933,
-            "name": "壁观戒_测试用",
+            "name": "奎灵坠",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 2844,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -55813,16 +55570,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周坠_测试用#43032 (22900 破招 无双)": {
+        "远集坠#43032 (22900 破招 无双)": {
             "id": 43032,
-            "name": "已周坠_测试用",
+            "name": "远集坠",
             "school": "通用",
             "kind": "防御",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 9286,
@@ -55838,16 +55595,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄坠_测试用#43030 (22900 会心 无双)": {
+        "载周坠#43030 (22900 会心 无双)": {
             "id": 43030,
-            "name": "澹澄坠_测试用",
+            "name": "载周坠",
             "school": "通用",
             "kind": "身法",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -55865,16 +55622,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客坠_测试用#43029 (22900 会心 无双)": {
+        "沉淖坠#43029 (22900 会心 无双)": {
             "id": 43029,
-            "name": "逋客坠_测试用",
+            "name": "沉淖坠",
             "school": "通用",
             "kind": "力道",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -55892,16 +55649,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空坠_测试用#43028 (22900 会心 无双)": {
+        "览微坠#43028 (22900 会心 无双)": {
             "id": 43028,
-            "name": "江空坠_测试用",
+            "name": "览微坠",
             "school": "通用",
             "kind": "元气",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -55919,16 +55676,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深坠_测试用#43027 (22900 会心 无双)": {
+        "防露坠#43027 (22900 会心 无双)": {
             "id": 43027,
-            "name": "山深坠_测试用",
+            "name": "防露坠",
             "school": "通用",
             "kind": "根骨",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4254,
+            "icon_id": 1221,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -59669,16 +59426,16 @@ EQUIPMENTS = {
         }
     },
     "ring": {
-        "共苍茫·遥_测试用#43878 (22600 会心 破防)": {
+        "愁羁旅·遥#43878 (22600 特效 会心 破防)": {
             "id": 43878,
-            "name": "共苍茫·遥_测试用",
+            "name": "愁羁旅·遥",
             "school": "丐帮",
             "kind": "外功",
             "level": 22600,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18059,
+            "icon_id": 18062,
             "base": {},
             "magic": {
                 "vitality_base": 8616,
@@ -59688,22 +59445,26 @@ EQUIPMENTS = {
                 "physical_overcome_base": 2937
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2848
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·芥_测试用#43874 (22600 会心 破防 加速)": {
+        "愁羁旅·芥#43874 (22600 特效 会心 破防 加速)": {
             "id": 43874,
-            "name": "共苍茫·芥_测试用",
+            "name": "愁羁旅·芥",
             "school": "通用",
             "kind": "身法",
             "level": 22600,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18065,
+            "icon_id": 18062,
             "base": {},
             "magic": {
                 "vitality_base": 8616,
@@ -59714,22 +59475,26 @@ EQUIPMENTS = {
                 "haste_base": 1958
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2848
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·舟_测试用#43873 (22600 会心 破防 加速)": {
+        "愁羁旅·舟#43873 (22600 特效 会心 破防 加速)": {
             "id": 43873,
-            "name": "共苍茫·舟_测试用",
+            "name": "愁羁旅·舟",
             "school": "通用",
             "kind": "力道",
             "level": 22600,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18059,
+            "icon_id": 18062,
             "base": {},
             "magic": {
                 "vitality_base": 8616,
@@ -59740,15 +59505,19 @@ EQUIPMENTS = {
                 "haste_base": 1958
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2848
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·乘_测试用#43872 (22600 会心 破防 加速)": {
+        "愁羁旅·乘#43872 (22600 特效 会心 破防 加速)": {
             "id": 43872,
-            "name": "共苍茫·乘_测试用",
+            "name": "愁羁旅·乘",
             "school": "通用",
             "kind": "元气",
             "level": 22600,
@@ -59766,15 +59535,19 @@ EQUIPMENTS = {
                 "haste_base": 1958
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2848
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·羽_测试用#43871 (22600 会心 破防 加速)": {
+        "愁羁旅·羽#43871 (22600 特效 会心 破防 加速)": {
             "id": 43871,
-            "name": "共苍茫·羽_测试用",
+            "name": "愁羁旅·羽",
             "school": "通用",
             "kind": "根骨",
             "level": 22600,
@@ -59792,22 +59565,26 @@ EQUIPMENTS = {
                 "haste_base": 1958
             },
             "embed": {},
-            "gains": [],
+            "gains": [
+                [
+                    2848
+                ]
+            ],
             "recipes": {},
             "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·穷阴戒_测试用#43074 (30200 破招 无双)": {
+        "客行江湖·常盛指环#43074 (30200 破招 无双)": {
             "id": 43074,
-            "name": "客行江湖·穷阴戒_测试用",
+            "name": "客行江湖·常盛指环",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 1227,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -59821,16 +59598,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·泉葩戒_测试用#43072 (30200 破防 无双)": {
+        "客行江湖·日斜指环#43072 (30200 破防 无双)": {
             "id": 43072,
-            "name": "客行江湖·泉葩戒_测试用",
+            "name": "客行江湖·日斜指环",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 1227,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59846,16 +59623,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·冥绝戒_测试用#43071 (30200 破防 无双)": {
+        "客行江湖·山隈指环#43071 (30200 破防 无双)": {
             "id": 43071,
-            "name": "客行江湖·冥绝戒_测试用",
+            "name": "客行江湖·山隈指环",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 1227,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59871,16 +59648,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·散秋戒_测试用#43070 (30200 破防 无双)": {
+        "客行江湖·新圃指环#43070 (30200 破防 无双)": {
             "id": 43070,
-            "name": "客行江湖·散秋戒_测试用",
+            "name": "客行江湖·新圃指环",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 1227,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59896,16 +59673,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客行江湖·馀散戒_测试用#43069 (30200 破防 无双)": {
+        "客行江湖·繁色指环#43069 (30200 破防 无双)": {
             "id": 43069,
-            "name": "客行江湖·馀散戒_测试用",
+            "name": "客行江湖·繁色指环",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2845,
+            "icon_id": 1227,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59921,16 +59698,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "舫梦戒_测试用#43020 (30200 精简 破招 无双)": {
+        "溪畔行#43020 (30200 精简 破招 无双)": {
             "id": 43020,
-            "name": "舫梦戒_测试用",
+            "name": "溪畔行",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2849,
+            "icon_id": 1232,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59949,16 +59726,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "息机戒_测试用#43019 (30200 精简 破防 无双)": {
+        "芳洲曲#43019 (30200 精简 破防 无双)": {
             "id": 43019,
-            "name": "息机戒_测试用",
+            "name": "芳洲曲",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22891,
+            "icon_id": 1229,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -59977,16 +59754,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "溪雾戒_测试用#43018 (30200 精简 会心 无双)": {
+        "忘蹉跎#43018 (30200 精简 会心 无双)": {
             "id": 43018,
-            "name": "溪雾戒_测试用",
+            "name": "忘蹉跎",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22890,
+            "icon_id": 1228,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60005,23 +59782,24 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "幽岩戒_测试用#43017 (30200 精简 会心 破招 破防)": {
+        "万壑歌#43017 (30200 精简 会心 破招 破防 无双)": {
             "id": 43017,
-            "name": "幽岩戒_测试用",
+            "name": "万壑歌",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1236,
+            "icon_id": 1235,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
                 "physical_attack_power_base": 2406,
                 "physical_critical_strike_base": 3768,
                 "surplus_base": 3768,
-                "physical_overcome_base": 3768
+                "physical_overcome_base": 3768,
+                "strain_base": 3768
             },
             "embed": {},
             "gains": [
@@ -60034,16 +59812,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "舫梦戒_测试用#43016 (30200 精简 会心 会效 无双)": {
+        "千帆竞#43016 (30200 精简 会心 会效 无双)": {
             "id": 43016,
-            "name": "舫梦戒_测试用",
+            "name": "千帆竞",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2849,
+            "icon_id": 24369,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60063,16 +59841,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "息机戒_测试用#43015 (30200 精简 会心 会效 破招)": {
+        "川泽极#43015 (30200 精简 会心 会效 破招)": {
             "id": 43015,
-            "name": "息机戒_测试用",
+            "name": "川泽极",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22891,
+            "icon_id": 24368,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60092,16 +59870,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "溪雾戒_测试用#43014 (30200 精简 加速)": {
+        "蝉鸣戒·迅#43014 (30200 精简 加速)": {
             "id": 43014,
-            "name": "溪雾戒_测试用",
+            "name": "蝉鸣戒·迅",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22890,
+            "icon_id": 4258,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60115,16 +59893,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "幽岩戒_测试用#43013 (30200 精简 破防 破招 无双)": {
+        "秦楼戒·绝#43013 (30200 精简 破防 破招 无双)": {
             "id": 43013,
-            "name": "幽岩戒_测试用",
+            "name": "秦楼戒·绝",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1236,
+            "icon_id": 4257,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60140,16 +59918,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "窗幽戒_测试用#43012 (30200 精简 会心 破招 无双)": {
+        "空翠戒·明#43012 (30200 精简 会心 破招 无双)": {
             "id": 43012,
-            "name": "窗幽戒_测试用",
+            "name": "空翠戒·明",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2856,
+            "icon_id": 22892,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60165,16 +59943,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "舫梦戒_测试用#43011 (30200 精简 会心 破防 无双)": {
+        "醉客戒·觉#43011 (30200 精简 会心 破防 无双)": {
             "id": 43011,
-            "name": "舫梦戒_测试用",
+            "name": "醉客戒·觉",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2849,
+            "icon_id": 2853,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60190,16 +59968,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "息机戒_测试用#43010 (30200 精简 破招 无双)": {
+        "石径戒·引#43010 (30200 精简 破招 无双)": {
             "id": 43010,
-            "name": "息机戒_测试用",
+            "name": "石径戒·引",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22891,
+            "icon_id": 2845,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60214,16 +59992,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "溪雾戒_测试用#43009 (30200 精简 破防 无双)": {
+        "孤蓬戒·破#43009 (30200 精简 破防 无双)": {
             "id": 43009,
-            "name": "溪雾戒_测试用",
+            "name": "孤蓬戒·破",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22890,
+            "icon_id": 1238,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60238,16 +60016,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "幽岩戒_测试用#43008 (30200 精简 会心 无双)": {
+        "湘流戒·悟#43008 (30200 精简 会心 无双)": {
             "id": 43008,
-            "name": "幽岩戒_测试用",
+            "name": "湘流戒·悟",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1236,
+            "icon_id": 1237,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60262,16 +60040,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "窗幽戒_测试用#43007 (30200 精简 无双)": {
+        "雁行戒·尊#43007 (30200 精简 无双)": {
             "id": 43007,
-            "name": "窗幽戒_测试用",
+            "name": "雁行戒·尊",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2856,
+            "icon_id": 1236,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60285,16 +60063,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "希叡戒_测试用#43006 (30200 精简 破招 无双)": {
+        "醉梦乡#43006 (30200 精简 破招 无双)": {
             "id": 43006,
-            "name": "希叡戒_测试用",
+            "name": "醉梦乡",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2854,
+            "icon_id": 22894,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60313,16 +60091,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "砌冷戒_测试用#43005 (30200 精简 破防 无双)": {
+        "映日长#43005 (30200 精简 破防 无双)": {
             "id": 43005,
-            "name": "砌冷戒_测试用",
+            "name": "映日长",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2853,
+            "icon_id": 2851,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60341,16 +60119,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枌榆戒_测试用#43004 (30200 精简 会心 无双)": {
+        "望峰引#43004 (30200 精简 会心 无双)": {
             "id": 43004,
-            "name": "枌榆戒_测试用",
+            "name": "望峰引",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22889,
+            "icon_id": 2847,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60369,23 +60147,24 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "时裁戒_测试用#43003 (30200 精简 会心 破招 破防)": {
+        "云中岳#43003 (30200 精简 会心 破招 破防 无双)": {
             "id": 43003,
-            "name": "时裁戒_测试用",
+            "name": "云中岳",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2848,
+            "icon_id": 2855,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
                 "magical_attack_power_base": 2676,
                 "all_critical_strike_base": 3768,
                 "surplus_base": 3768,
-                "magical_overcome_base": 3768
+                "magical_overcome_base": 3768,
+                "strain_base": 3768
             },
             "embed": {},
             "gains": [
@@ -60398,16 +60177,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "希叡戒_测试用#43002 (30200 精简 会心 会效 无双)": {
+        "如龙势#43002 (30200 精简 会心 会效 无双)": {
             "id": 43002,
-            "name": "希叡戒_测试用",
+            "name": "如龙势",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2854,
+            "icon_id": 24367,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60427,16 +60206,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "砌冷戒_测试用#43001 (30200 精简 会心 会效 破招)": {
+        "锁雾峰#43001 (30200 精简 会心 会效 破招)": {
             "id": 43001,
-            "name": "砌冷戒_测试用",
+            "name": "锁雾峰",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2853,
+            "icon_id": 22893,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60456,16 +60235,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枌榆戒_测试用#43000 (30200 精简 加速)": {
+        "素心戒·迅#43000 (30200 精简 加速)": {
             "id": 43000,
-            "name": "枌榆戒_测试用",
+            "name": "素心戒·迅",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 22889,
+            "icon_id": 1234,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60479,16 +60258,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "时裁戒_测试用#42999 (30200 精简 破防 破招 无双)": {
+        "玄霜戒·绝#42999 (30200 精简 破防 破招 无双)": {
             "id": 42999,
-            "name": "时裁戒_测试用",
+            "name": "玄霜戒·绝",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2848,
+            "icon_id": 2852,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60504,9 +60283,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "对酬戒_测试用#42998 (30200 精简 会心 破招 无双)": {
+        "静照戒·明#42998 (30200 精简 会心 破招 无双)": {
             "id": 42998,
-            "name": "对酬戒_测试用",
+            "name": "静照戒·明",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -60529,9 +60308,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "希叡戒_测试用#42997 (30200 精简 会心 破防 无双)": {
+        "归真戒·觉#42997 (30200 精简 会心 破防 无双)": {
             "id": 42997,
-            "name": "希叡戒_测试用",
+            "name": "归真戒·觉",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -60554,9 +60333,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "砌冷戒_测试用#42996 (30200 精简 破招 无双)": {
+        "秋山戒·引#42996 (30200 精简 破招 无双)": {
             "id": 42996,
-            "name": "砌冷戒_测试用",
+            "name": "秋山戒·引",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -60578,9 +60357,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枌榆戒_测试用#42995 (30200 精简 破防 无双)": {
+        "晨烟戒·破#42995 (30200 精简 破防 无双)": {
             "id": 42995,
-            "name": "枌榆戒_测试用",
+            "name": "晨烟戒·破",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -60602,9 +60381,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "时裁戒_测试用#42994 (30200 精简 会心 无双)": {
+        "秦川戒·悟#42994 (30200 精简 会心 无双)": {
             "id": 42994,
-            "name": "时裁戒_测试用",
+            "name": "秦川戒·悟",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -60626,16 +60405,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "对酬戒_测试用#42993 (30200 精简 无双)": {
+        "玉露戒·尊#42993 (30200 精简 无双)": {
             "id": 42993,
-            "name": "对酬戒_测试用",
+            "name": "玉露戒·尊",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1238,
+            "icon_id": 1233,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60649,16 +60428,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "阵昀戒_测试用#42986 (30200 加速 无双)": {
+        "裁霜戒#42986 (30200 加速 无双)": {
             "id": 42986,
-            "name": "阵昀戒_测试用",
+            "name": "裁霜戒",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1235,
+            "icon_id": 2846,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -60672,16 +60451,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "临云戒_测试用#42984 (30200 加速 无双)": {
+        "衔月戒#42984 (30200 加速 无双)": {
             "id": 42984,
-            "name": "临云戒_测试用",
+            "name": "衔月戒",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1235,
+            "icon_id": 2846,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60697,16 +60476,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君信戒_测试用#42983 (30200 加速 无双)": {
+        "饮渌戒#42983 (30200 加速 无双)": {
             "id": 42983,
-            "name": "君信戒_测试用",
+            "name": "饮渌戒",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1235,
+            "icon_id": 2846,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60722,16 +60501,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清槐戒_测试用#42982 (30200 加速 无双)": {
+        "枕石戒#42982 (30200 加速 无双)": {
             "id": 42982,
-            "name": "清槐戒_测试用",
+            "name": "枕石戒",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1235,
+            "icon_id": 2846,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60747,16 +60526,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孟春戒_测试用#42981 (30200 加速 无双)": {
+        "塑玉戒#42981 (30200 加速 无双)": {
             "id": 42981,
-            "name": "孟春戒_测试用",
+            "name": "塑玉戒",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1235,
+            "icon_id": 2846,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60772,16 +60551,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西戒_测试用#42974 (30200 无双)": {
+        "登科戒#42974 (30200 无双)": {
             "id": 42974,
-            "name": "镇西戒_测试用",
+            "name": "登科戒",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1233,
+            "icon_id": 1231,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -60794,16 +60573,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁戒_测试用#42972 (30200 会心 无双)": {
+        "标雁戒#42972 (30200 会心 无双)": {
             "id": 42972,
-            "name": "羡雁戒_测试用",
+            "name": "标雁戒",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1233,
+            "icon_id": 1231,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60819,16 +60598,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深戒_测试用#42971 (30200 会心 无双)": {
+        "寒窗戒#42971 (30200 会心 无双)": {
             "id": 42971,
-            "name": "君深戒_测试用",
+            "name": "寒窗戒",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1233,
+            "icon_id": 1231,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60844,16 +60623,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑戒_测试用#42970 (30200 会心 无双)": {
+        "云路戒#42970 (30200 会心 无双)": {
             "id": 42970,
-            "name": "青桑戒_测试用",
+            "name": "云路戒",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1233,
+            "icon_id": 1231,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60869,16 +60648,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春戒_测试用#42969 (30200 会心 无双)": {
+        "文曲戒#42969 (30200 会心 无双)": {
             "id": 42969,
-            "name": "季春戒_测试用",
+            "name": "文曲戒",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1233,
+            "icon_id": 1231,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60894,16 +60673,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源指环_测试用#42956 (30200 无双)": {
+        "三元指环#42956 (30200 无双)": {
             "id": 42956,
-            "name": "山源指环_测试用",
+            "name": "三元指环",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1228,
+            "icon_id": 1230,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -60916,16 +60695,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗指环_测试用#42954 (30200 破招 无双)": {
+        "问殿指环#42954 (30200 破招 无双)": {
             "id": 42954,
-            "name": "留诗指环_测试用",
+            "name": "问殿指环",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1228,
+            "icon_id": 1230,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60941,16 +60720,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月指环_测试用#42953 (30200 破招 无双)": {
+        "礼闱指环#42953 (30200 破招 无双)": {
             "id": 42953,
-            "name": "清月指环_测试用",
+            "name": "礼闱指环",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1228,
+            "icon_id": 1230,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60966,16 +60745,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山指环_测试用#42952 (30200 破招 无双)": {
+        "封名指环#42952 (30200 破招 无双)": {
             "id": 42952,
-            "name": "游山指环_测试用",
+            "name": "封名指环",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1228,
+            "icon_id": 1230,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -60991,16 +60770,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉指环_测试用#42951 (30200 破招 无双)": {
+        "论策指环#42951 (30200 破招 无双)": {
             "id": 42951,
-            "name": "思玉指环_测试用",
+            "name": "论策指环",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1228,
+            "icon_id": 1230,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -61016,16 +60795,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·遥_测试用#43877 (20050 会心 破防)": {
+        "愁羁旅·遥#43877 (20050 会心 破防)": {
             "id": 43877,
-            "name": "共苍茫·遥_测试用",
+            "name": "愁羁旅·遥",
             "school": "丐帮",
             "kind": "外功",
             "level": 20050,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18058,
+            "icon_id": 18061,
             "base": {},
             "magic": {
                 "vitality_base": 7644,
@@ -61041,16 +60820,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·芥_测试用#43869 (20050 会心 破防 加速)": {
+        "愁羁旅·芥#43869 (20050 会心 破防 加速)": {
             "id": 43869,
-            "name": "共苍茫·芥_测试用",
+            "name": "愁羁旅·芥",
             "school": "通用",
             "kind": "身法",
             "level": 20050,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18064,
+            "icon_id": 18061,
             "base": {},
             "magic": {
                 "vitality_base": 7644,
@@ -61067,16 +60846,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·舟_测试用#43868 (20050 会心 破防 加速)": {
+        "愁羁旅·舟#43868 (20050 会心 破防 加速)": {
             "id": 43868,
-            "name": "共苍茫·舟_测试用",
+            "name": "愁羁旅·舟",
             "school": "通用",
             "kind": "力道",
             "level": 20050,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18058,
+            "icon_id": 18061,
             "base": {},
             "magic": {
                 "vitality_base": 7644,
@@ -61093,9 +60872,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·乘_测试用#43867 (20050 会心 破防 加速)": {
+        "愁羁旅·乘#43867 (20050 会心 破防 加速)": {
             "id": 43867,
-            "name": "共苍茫·乘_测试用",
+            "name": "愁羁旅·乘",
             "school": "通用",
             "kind": "元气",
             "level": 20050,
@@ -61119,9 +60898,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·羽_测试用#43866 (20050 会心 破防 加速)": {
+        "愁羁旅·羽#43866 (20050 会心 破防 加速)": {
             "id": 43866,
-            "name": "共苍茫·羽_测试用",
+            "name": "愁羁旅·羽",
             "school": "通用",
             "kind": "根骨",
             "level": 20050,
@@ -62144,127 +61923,6 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "暮雨结#44202 (25000 无双)": {
-            "id": 44202,
-            "name": "暮雨结",
-            "school": "通用",
-            "kind": "防御",
-            "level": 25000,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "base": {},
-            "magic": {
-                "vitality_base": 10138,
-                "strain_base": 3743
-            },
-            "embed": {},
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
-        "暮雨玉#44200 (25000 会心 无双)": {
-            "id": 44200,
-            "name": "暮雨玉",
-            "school": "通用",
-            "kind": "身法",
-            "level": 25000,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "icon_id": 1234,
-            "base": {},
-            "magic": {
-                "vitality_base": 6862,
-                "agility_base": 560,
-                "physical_attack_power_base": 1272,
-                "physical_critical_strike_base": 4679,
-                "strain_base": 3743
-            },
-            "embed": {},
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
-        "暮雨石#44199 (25000 会心 无双)": {
-            "id": 44199,
-            "name": "暮雨石",
-            "school": "通用",
-            "kind": "力道",
-            "level": 25000,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "icon_id": 1234,
-            "base": {},
-            "magic": {
-                "vitality_base": 6862,
-                "strength_base": 560,
-                "physical_attack_power_base": 1272,
-                "physical_critical_strike_base": 4679,
-                "strain_base": 3743
-            },
-            "embed": {},
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
-        "暮雨环#44198 (25000 会心 无双)": {
-            "id": 44198,
-            "name": "暮雨环",
-            "school": "通用",
-            "kind": "元气",
-            "level": 25000,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "icon_id": 1234,
-            "base": {},
-            "magic": {
-                "vitality_base": 6862,
-                "spunk_base": 560,
-                "magical_attack_power_base": 1414,
-                "all_critical_strike_base": 4679,
-                "strain_base": 3743
-            },
-            "embed": {},
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
-        "暮雨戒#44197 (25000 会心 无双)": {
-            "id": 44197,
-            "name": "暮雨戒",
-            "school": "通用",
-            "kind": "根骨",
-            "level": 25000,
-            "max_strength": 6,
-            "special_enchant": 0,
-            "set_id": 0,
-            "icon_id": 1234,
-            "base": {},
-            "magic": {
-                "vitality_base": 6862,
-                "spirit_base": 560,
-                "magical_attack_power_base": 1414,
-                "magical_critical_strike_base": 4679,
-                "strain_base": 3743
-            },
-            "embed": {},
-            "gains": [],
-            "recipes": {},
-            "set_attr": {},
-            "set_gain": {},
-            "set_recipe": {}
-        },
         "暮雨结#42920 (25000 无双)": {
             "id": 42920,
             "name": "暮雨结",
@@ -62387,16 +62045,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·遥_测试用#43876 (17500 会心 破防)": {
+        "愁羁旅·遥#43876 (17500 会心 破防)": {
             "id": 43876,
-            "name": "共苍茫·遥_测试用",
+            "name": "愁羁旅·遥",
             "school": "丐帮",
             "kind": "外功",
             "level": 17500,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18057,
+            "icon_id": 18060,
             "base": {},
             "magic": {
                 "vitality_base": 6672,
@@ -62412,16 +62070,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·芥_测试用#43864 (17500 会心 破防 加速)": {
+        "愁羁旅·芥#43864 (17500 会心 破防 加速)": {
             "id": 43864,
-            "name": "共苍茫·芥_测试用",
+            "name": "愁羁旅·芥",
             "school": "通用",
             "kind": "身法",
             "level": 17500,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18063,
+            "icon_id": 18060,
             "base": {},
             "magic": {
                 "vitality_base": 6672,
@@ -62438,16 +62096,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·舟_测试用#43863 (17500 会心 破防 加速)": {
+        "愁羁旅·舟#43863 (17500 会心 破防 加速)": {
             "id": 43863,
-            "name": "共苍茫·舟_测试用",
+            "name": "愁羁旅·舟",
             "school": "通用",
             "kind": "力道",
             "level": 17500,
             "max_strength": 8,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 18057,
+            "icon_id": 18060,
             "base": {},
             "magic": {
                 "vitality_base": 6672,
@@ -62464,9 +62122,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·乘_测试用#43862 (17500 会心 破防 加速)": {
+        "愁羁旅·乘#43862 (17500 会心 破防 加速)": {
             "id": 43862,
-            "name": "共苍茫·乘_测试用",
+            "name": "愁羁旅·乘",
             "school": "通用",
             "kind": "元气",
             "level": 17500,
@@ -62490,9 +62148,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共苍茫·羽_测试用#43861 (17500 会心 破防 加速)": {
+        "愁羁旅·羽#43861 (17500 会心 破防 加速)": {
             "id": 43861,
-            "name": "共苍茫·羽_测试用",
+            "name": "愁羁旅·羽",
             "school": "通用",
             "kind": "根骨",
             "level": 17500,
@@ -62508,6 +62166,128 @@ EQUIPMENTS = {
                 "magical_critical_strike_base": 1668,
                 "magical_overcome_base": 1668,
                 "haste_base": 1516
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沐新晖·御宇#44202 (24000 无双)": {
+            "id": 44202,
+            "name": "沐新晖·御宇",
+            "school": "通用",
+            "kind": "防御",
+            "level": 24000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 2850,
+            "base": {},
+            "magic": {
+                "vitality_base": 9732,
+                "strain_base": 3593
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沐新晖·盛景#44200 (24000 破招 无双)": {
+            "id": 44200,
+            "name": "沐新晖·盛景",
+            "school": "通用",
+            "kind": "身法",
+            "level": 24000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 2850,
+            "base": {},
+            "magic": {
+                "vitality_base": 6588,
+                "agility_base": 537,
+                "physical_attack_power_base": 1221,
+                "surplus_base": 4492,
+                "strain_base": 3593
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沐新晖·皇华#44199 (24000 破招 无双)": {
+            "id": 44199,
+            "name": "沐新晖·皇华",
+            "school": "通用",
+            "kind": "力道",
+            "level": 24000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 2850,
+            "base": {},
+            "magic": {
+                "vitality_base": 6588,
+                "strength_base": 537,
+                "physical_attack_power_base": 1221,
+                "surplus_base": 4492,
+                "strain_base": 3593
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沐新晖·瑞阙#44198 (24000 破招 无双)": {
+            "id": 44198,
+            "name": "沐新晖·瑞阙",
+            "school": "通用",
+            "kind": "元气",
+            "level": 24000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 2850,
+            "base": {},
+            "magic": {
+                "vitality_base": 6588,
+                "spunk_base": 537,
+                "magical_attack_power_base": 1357,
+                "surplus_base": 4492,
+                "strain_base": 3593
+            },
+            "embed": {},
+            "gains": [],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "沐新晖·启运#44197 (24000 破招 无双)": {
+            "id": 44197,
+            "name": "沐新晖·启运",
+            "school": "通用",
+            "kind": "根骨",
+            "level": 24000,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 2850,
+            "base": {},
+            "magic": {
+                "vitality_base": 6588,
+                "spirit_base": 537,
+                "magical_attack_power_base": 1357,
+                "surplus_base": 4492,
+                "strain_base": 3593
             },
             "embed": {},
             "gains": [],
@@ -65908,16 +65688,16 @@ EQUIPMENTS = {
         }
     },
     "necklace": {
-        "已周链_测试用#43062 (30700 加速 无双)": {
+        "远集链#43062 (30700 加速 无双)": {
             "id": 43062,
-            "name": "已周链_测试用",
+            "name": "远集链",
             "school": "通用",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 12449,
@@ -65933,16 +65713,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄链_测试用#43060 (30700 破招 无双)": {
+        "载周链#43060 (30700 破招 无双)": {
             "id": 43060,
-            "name": "澹澄链_测试用",
+            "name": "载周链",
             "school": "通用",
             "kind": "身法",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -65960,16 +65740,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客链_测试用#43059 (30700 破招 无双)": {
+        "沉淖链#43059 (30700 破招 无双)": {
             "id": 43059,
-            "name": "逋客链_测试用",
+            "name": "沉淖链",
             "school": "通用",
             "kind": "力道",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -65987,16 +65767,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空链_测试用#43058 (30700 破招 无双)": {
+        "览微链#43058 (30700 破招 无双)": {
             "id": 43058,
-            "name": "江空链_测试用",
+            "name": "览微链",
             "school": "通用",
             "kind": "元气",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -66014,16 +65794,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深链_测试用#43057 (30700 破招 无双)": {
+        "防露链#43057 (30700 破招 无双)": {
             "id": 43057,
-            "name": "山深链_测试用",
+            "name": "防露链",
             "school": "通用",
             "kind": "根骨",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 8427,
@@ -66041,9 +65821,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43116 (30200 精简 会心 会效 破招)": {
+        "无修链·外·玄#43116 (30200 精简 会心 会效 破招)": {
             "id": 43116,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66072,9 +65852,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43115 (30200 精简 破招 无双)": {
+        "无修链·外·玄#43115 (30200 精简 破招 无双)": {
             "id": 43115,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66102,9 +65882,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43114 (30200 精简 会心 无双)": {
+        "无修链·外·玄#43114 (30200 精简 会心 无双)": {
             "id": 43114,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66132,9 +65912,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43113 (30200 精简 会心 会效 破招)": {
+        "无修链·内·玄#43113 (30200 精简 会心 会效 破招)": {
             "id": 43113,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66163,9 +65943,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43112 (30200 精简 破招 无双)": {
+        "无修链·内·玄#43112 (30200 精简 破招 无双)": {
             "id": 43112,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66193,9 +65973,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43111 (30200 精简 会心 无双)": {
+        "无修链·内·玄#43111 (30200 精简 会心 无双)": {
             "id": 43111,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66223,9 +66003,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43092 (30200 精简 会心 会效 破招)": {
+        "无修链·外·玄#43092 (30200 精简 会心 会效 破招)": {
             "id": 43092,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66254,9 +66034,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43091 (30200 精简 破招 无双)": {
+        "无修链·外·玄#43091 (30200 精简 破招 无双)": {
             "id": 43091,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66284,9 +66064,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43090 (30200 精简 会心 无双)": {
+        "无修链·外·玄#43090 (30200 精简 会心 无双)": {
             "id": 43090,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -66314,9 +66094,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43089 (30200 精简 会心 会效 破招)": {
+        "无修链·内·玄#43089 (30200 精简 会心 会效 破招)": {
             "id": 43089,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66345,9 +66125,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43088 (30200 精简 破招 无双)": {
+        "无修链·内·玄#43088 (30200 精简 破招 无双)": {
             "id": 43088,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66375,9 +66155,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43087 (30200 精简 会心 无双)": {
+        "无修链·内·玄#43087 (30200 精简 会心 无双)": {
             "id": 43087,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -66405,16 +66185,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "阵昀项饰_测试用#42980 (30200 无双)": {
+        "裁霜链#42980 (30200 无双)": {
             "id": 42980,
-            "name": "阵昀项饰_测试用",
+            "name": "裁霜链",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1207,
+            "icon_id": 24373,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -66429,16 +66209,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "临云项饰_测试用#42978 (30200 加速 无双)": {
+        "衔月链#42978 (30200 加速 无双)": {
             "id": 42978,
-            "name": "临云项饰_测试用",
+            "name": "衔月链",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1207,
+            "icon_id": 24373,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66456,16 +66236,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君信项饰_测试用#42977 (30200 加速 无双)": {
+        "饮渌链#42977 (30200 加速 无双)": {
             "id": 42977,
-            "name": "君信项饰_测试用",
+            "name": "饮渌链",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1207,
+            "icon_id": 24373,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66483,16 +66263,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清槐项饰_测试用#42976 (30200 加速 无双)": {
+        "枕石链#42976 (30200 加速 无双)": {
             "id": 42976,
-            "name": "清槐项饰_测试用",
+            "name": "枕石链",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1207,
+            "icon_id": 24373,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66510,16 +66290,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孟春项饰_测试用#42975 (30200 加速 无双)": {
+        "塑玉链#42975 (30200 加速 无双)": {
             "id": 42975,
-            "name": "孟春项饰_测试用",
+            "name": "塑玉链",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1207,
+            "icon_id": 24373,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66537,16 +66317,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西项饰_测试用#42962 (30200 破招 无双)": {
+        "登科项饰#42962 (30200 破招 无双)": {
             "id": 42962,
-            "name": "镇西项饰_测试用",
+            "name": "登科项饰",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1201,
+            "icon_id": 2837,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -66562,16 +66342,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁项饰_测试用#42960 (30200 会心 无双)": {
+        "标雁项饰#42960 (30200 会心 无双)": {
             "id": 42960,
-            "name": "羡雁项饰_测试用",
+            "name": "标雁项饰",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1201,
+            "icon_id": 2837,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66589,16 +66369,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深项饰_测试用#42959 (30200 会心 无双)": {
+        "寒窗项饰#42959 (30200 会心 无双)": {
             "id": 42959,
-            "name": "君深项饰_测试用",
+            "name": "寒窗项饰",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1201,
+            "icon_id": 2837,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66616,16 +66396,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑项饰_测试用#42958 (30200 会心 无双)": {
+        "云路项饰#42958 (30200 会心 无双)": {
             "id": 42958,
-            "name": "青桑项饰_测试用",
+            "name": "云路项饰",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1201,
+            "icon_id": 2837,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66643,16 +66423,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春项饰_测试用#42957 (30200 会心 无双)": {
+        "文曲项饰#42957 (30200 会心 无双)": {
             "id": 42957,
-            "name": "季春项饰_测试用",
+            "name": "文曲项饰",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1201,
+            "icon_id": 2837,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66670,16 +66450,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源链_测试用#42944 (30200 无双)": {
+        "三元链#42944 (30200 无双)": {
             "id": 42944,
-            "name": "山源链_测试用",
+            "name": "三元链",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1200,
+            "icon_id": 1911,
             "base": {},
             "magic": {
                 "vitality_base": 12246,
@@ -66694,16 +66474,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗链_测试用#42942 (30200 破防 无双)": {
+        "问殿链#42942 (30200 破防 无双)": {
             "id": 42942,
-            "name": "留诗链_测试用",
+            "name": "问殿链",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1200,
+            "icon_id": 1911,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66721,16 +66501,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月项链_测试用#42941 (30200 破防 无双)": {
+        "礼闱链#42941 (30200 破防 无双)": {
             "id": 42941,
-            "name": "清月项链_测试用",
+            "name": "礼闱链",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1200,
+            "icon_id": 1911,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66748,16 +66528,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山链_测试用#42940 (30200 破防 无双)": {
+        "封名链#42940 (30200 破防 无双)": {
             "id": 42940,
-            "name": "游山链_测试用",
+            "name": "封名链",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1200,
+            "icon_id": 1911,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66775,16 +66555,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉链_测试用#42939 (30200 破防 无双)": {
+        "论策链#42939 (30200 破防 无双)": {
             "id": 42939,
-            "name": "思玉链_测试用",
+            "name": "论策链",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1200,
+            "icon_id": 1911,
             "base": {},
             "magic": {
                 "vitality_base": 8290,
@@ -66802,9 +66582,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43104 (28000 精简 会心 破招 无双)": {
+        "无修链·外·玄#43104 (28000 精简 会心 破招 无双)": {
             "id": 43104,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -66833,9 +66613,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43103 (28000 精简 破防 无双)": {
+        "无修链·外·玄#43103 (28000 精简 破防 无双)": {
             "id": 43103,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -66863,9 +66643,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43102 (28000 精简 无双)": {
+        "无修链·外·玄#43102 (28000 精简 无双)": {
             "id": 43102,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -66892,9 +66672,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43101 (28000 精简 会心 破招 无双)": {
+        "无修链·内·玄#43101 (28000 精简 会心 破招 无双)": {
             "id": 43101,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -66923,9 +66703,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43100 (28000 精简 破防 无双)": {
+        "无修链·内·玄#43100 (28000 精简 破防 无双)": {
             "id": 43100,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -66953,9 +66733,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43099 (28000 精简 无双)": {
+        "无修链·内·玄#43099 (28000 精简 无双)": {
             "id": 43099,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -66982,9 +66762,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43080 (28000 精简 会心 破招 无双)": {
+        "无修链·外·玄#43080 (28000 精简 会心 破招 无双)": {
             "id": 43080,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -67013,9 +66793,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43079 (28000 精简 破防 无双)": {
+        "无修链·外·玄#43079 (28000 精简 破防 无双)": {
             "id": 43079,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -67043,9 +66823,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·外·玄_测试用#43078 (28000 精简 无双)": {
+        "无修链·外·玄#43078 (28000 精简 无双)": {
             "id": 43078,
-            "name": "无修链·外·玄_测试用",
+            "name": "无修链·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -67072,9 +66852,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43077 (28000 精简 会心 破招 无双)": {
+        "无修链·内·玄#43077 (28000 精简 会心 破招 无双)": {
             "id": 43077,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -67103,9 +66883,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43076 (28000 精简 破防 无双)": {
+        "无修链·内·玄#43076 (28000 精简 破防 无双)": {
             "id": 43076,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -67133,9 +66913,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修链·内·玄_测试用#43075 (28000 精简 无双)": {
+        "无修链·内·玄#43075 (28000 精简 无双)": {
             "id": 43075,
-            "name": "无修链·内·玄_测试用",
+            "name": "无修链·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -67162,16 +66942,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周链_测试用#43050 (28000 加速 无双)": {
+        "远集链#43050 (28000 加速 无双)": {
             "id": 43050,
-            "name": "已周链_测试用",
+            "name": "远集链",
             "school": "通用",
             "kind": "防御",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 11354,
@@ -67187,16 +66967,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄链_测试用#43048 (28000 破招 无双)": {
+        "载周链#43048 (28000 破招 无双)": {
             "id": 43048,
-            "name": "澹澄链_测试用",
+            "name": "载周链",
             "school": "通用",
             "kind": "身法",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -67214,16 +66994,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客链_测试用#43047 (28000 破招 无双)": {
+        "沉淖链#43047 (28000 破招 无双)": {
             "id": 43047,
-            "name": "逋客链_测试用",
+            "name": "沉淖链",
             "school": "通用",
             "kind": "力道",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -67241,16 +67021,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空链_测试用#43046 (28000 破招 无双)": {
+        "览微链#43046 (28000 破招 无双)": {
             "id": 43046,
-            "name": "江空链_测试用",
+            "name": "览微链",
             "school": "通用",
             "kind": "元气",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -67268,16 +67048,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深链_测试用#43045 (28000 破招 无双)": {
+        "防露链#43045 (28000 破招 无双)": {
             "id": 43045,
-            "name": "山深链_测试用",
+            "name": "防露链",
             "school": "通用",
             "kind": "根骨",
             "level": 28000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7686,
@@ -67957,16 +67737,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周链_测试用#43038 (25500 加速 无双)": {
+        "远集链#43038 (25500 加速 无双)": {
             "id": 43038,
-            "name": "已周链_测试用",
+            "name": "远集链",
             "school": "通用",
             "kind": "防御",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 10341,
@@ -67982,16 +67762,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄链_测试用#43036 (25500 破招 无双)": {
+        "载周链#43036 (25500 破招 无双)": {
             "id": 43036,
-            "name": "澹澄链_测试用",
+            "name": "载周链",
             "school": "通用",
             "kind": "身法",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -68009,16 +67789,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客链_测试用#43035 (25500 破招 无双)": {
+        "沉淖链#43035 (25500 破招 无双)": {
             "id": 43035,
-            "name": "逋客链_测试用",
+            "name": "沉淖链",
             "school": "通用",
             "kind": "力道",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -68036,16 +67816,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空链_测试用#43034 (25500 破招 无双)": {
+        "览微链#43034 (25500 破招 无双)": {
             "id": 43034,
-            "name": "江空链_测试用",
+            "name": "览微链",
             "school": "通用",
             "kind": "元气",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -68063,16 +67843,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深链_测试用#43033 (25500 破招 无双)": {
+        "防露链#43033 (25500 破招 无双)": {
             "id": 43033,
-            "name": "山深链_测试用",
+            "name": "防露链",
             "school": "通用",
             "kind": "根骨",
             "level": 25500,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 7000,
@@ -69267,16 +69047,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立链_测试用#42932 (23000 加速 无双)": {
+        "奎岩链#42932 (23000 加速 无双)": {
             "id": 42932,
-            "name": "壁立链_测试用",
+            "name": "奎岩链",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1206,
+            "icon_id": 2833,
             "base": {},
             "magic": {
                 "vitality_base": 9327,
@@ -69292,16 +69072,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明链_测试用#42930 (23000 破防 无双)": {
+        "奎影链#42930 (23000 破防 无双)": {
             "id": 42930,
-            "name": "壁明链_测试用",
+            "name": "奎影链",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1206,
+            "icon_id": 2833,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -69319,16 +69099,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺链_测试用#42929 (23000 破防 无双)": {
+        "奎刚链#42929 (23000 破防 无双)": {
             "id": 42929,
-            "name": "壁邺链_测试用",
+            "name": "奎刚链",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1206,
+            "icon_id": 2833,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -69346,16 +69126,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜链_测试用#42928 (23000 破防 无双)": {
+        "奎元链#42928 (23000 破防 无双)": {
             "id": 42928,
-            "name": "壁镜链_测试用",
+            "name": "奎元链",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1206,
+            "icon_id": 2833,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -69373,16 +69153,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观链_测试用#42927 (23000 破防 无双)": {
+        "奎灵链#42927 (23000 破防 无双)": {
             "id": 42927,
-            "name": "壁观链_测试用",
+            "name": "奎灵链",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 1206,
+            "icon_id": 2833,
             "base": {},
             "magic": {
                 "vitality_base": 6313,
@@ -69400,16 +69180,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "已周链_测试用#43026 (22900 加速 无双)": {
+        "远集链#43026 (22900 加速 无双)": {
             "id": 43026,
-            "name": "已周链_测试用",
+            "name": "远集链",
             "school": "通用",
             "kind": "防御",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 9286,
@@ -69425,16 +69205,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "澹澄链_测试用#43024 (22900 破招 无双)": {
+        "载周链#43024 (22900 破招 无双)": {
             "id": 43024,
-            "name": "澹澄链_测试用",
+            "name": "载周链",
             "school": "通用",
             "kind": "身法",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -69452,16 +69232,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "逋客链_测试用#43023 (22900 破招 无双)": {
+        "沉淖链#43023 (22900 破招 无双)": {
             "id": 43023,
-            "name": "逋客链_测试用",
+            "name": "沉淖链",
             "school": "通用",
             "kind": "力道",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -69479,16 +69259,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江空链_测试用#43022 (22900 破招 无双)": {
+        "览微链#43022 (22900 破招 无双)": {
             "id": 43022,
-            "name": "江空链_测试用",
+            "name": "览微链",
             "school": "通用",
             "kind": "元气",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -69506,16 +69286,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山深链_测试用#43021 (22900 破招 无双)": {
+        "防露链#43021 (22900 破招 无双)": {
             "id": 43021,
-            "name": "山深链_测试用",
+            "name": "防露链",
             "school": "通用",
             "kind": "根骨",
             "level": 22900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 4248,
+            "icon_id": 24371,
             "base": {},
             "magic": {
                 "vitality_base": 6286,
@@ -73527,16 +73307,16 @@ EQUIPMENTS = {
         }
     },
     "tertiary_weapon": {
-        "漠图囊_测试用#41356 (30200 无双)": {
+        "坠欢囊#41356 (30200 无双)": {
             "id": 41356,
-            "name": "漠图囊_测试用",
+            "name": "坠欢囊",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 798,
+            "icon_id": 811,
             "base": {},
             "magic": {
                 "vitality_base": 14696,
@@ -73551,16 +73331,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠名囊_测试用#41354 (30200 会心 无双)": {
+        "坠红囊#41354 (30200 会心 无双)": {
             "id": 41354,
-            "name": "漠名囊_测试用",
+            "name": "坠红囊",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 798,
+            "icon_id": 811,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -73578,16 +73358,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠若囊_测试用#41353 (30200 会心 无双)": {
+        "坠雨囊#41353 (30200 会心 无双)": {
             "id": 41353,
-            "name": "漠若囊_测试用",
+            "name": "坠雨囊",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 798,
+            "icon_id": 811,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -73605,16 +73385,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠晖囊_测试用#41352 (30200 会心 无双)": {
+        "坠露囊#41352 (30200 会心 无双)": {
             "id": 41352,
-            "name": "漠晖囊_测试用",
+            "name": "坠露囊",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 798,
+            "icon_id": 811,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -73632,16 +73412,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "漠安囊_测试用#41351 (30200 会心 无双)": {
+        "坠潮囊#41351 (30200 会心 无双)": {
             "id": 41351,
-            "name": "漠安囊_测试用",
+            "name": "坠潮囊",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 798,
+            "icon_id": 811,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -73659,9 +73439,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41350 (30200 精简 会心 会效 无双)": {
+        "无修囊·外·玄#41350 (30200 精简 会心 会效 无双)": {
             "id": 41350,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73690,9 +73470,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41349 (30200 精简 会心 破招 无双)": {
+        "无修囊·外·玄#41349 (30200 精简 会心 破招 无双)": {
             "id": 41349,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73721,9 +73501,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41348 (30200 精简 无双)": {
+        "无修囊·外·玄#41348 (30200 精简 无双)": {
             "id": 41348,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73750,9 +73530,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41347 (30200 精简 会心 会效 无双)": {
+        "无修囊·内·玄#41347 (30200 精简 会心 会效 无双)": {
             "id": 41347,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -73781,9 +73561,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41346 (30200 精简 会心 破招 无双)": {
+        "无修囊·内·玄#41346 (30200 精简 会心 破招 无双)": {
             "id": 41346,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -73812,9 +73592,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41345 (30200 精简 无双)": {
+        "无修囊·内·玄#41345 (30200 精简 无双)": {
             "id": 41345,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -73841,9 +73621,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41338 (30200 精简 会心 会效 无双)": {
+        "无修囊·外·玄#41338 (30200 精简 会心 会效 无双)": {
             "id": 41338,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73872,9 +73652,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41337 (30200 精简 会心 破招 无双)": {
+        "无修囊·外·玄#41337 (30200 精简 会心 破招 无双)": {
             "id": 41337,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73903,9 +73683,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41336 (30200 精简 无双)": {
+        "无修囊·外·玄#41336 (30200 精简 无双)": {
             "id": 41336,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 30200,
@@ -73932,9 +73712,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41335 (30200 精简 会心 会效 无双)": {
+        "无修囊·内·玄#41335 (30200 精简 会心 会效 无双)": {
             "id": 41335,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -73963,9 +73743,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41334 (30200 精简 会心 破招 无双)": {
+        "无修囊·内·玄#41334 (30200 精简 会心 破招 无双)": {
             "id": 41334,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -73994,9 +73774,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41333 (30200 精简 无双)": {
+        "无修囊·内·玄#41333 (30200 精简 无双)": {
             "id": 41333,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 30200,
@@ -74023,16 +73803,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寥寒囊_测试用#41294 (30200 加速 无双)": {
+        "德厚流光#41294 (30200 加速 无双)": {
             "id": 41294,
-            "name": "寥寒囊_测试用",
+            "name": "德厚流光",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2899,
+            "icon_id": 2903,
             "base": {},
             "magic": {
                 "vitality_base": 14696,
@@ -74046,16 +73826,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "举清囊_测试用#41292 (30200 破招 无双)": {
+        "焚膏继晷#41292 (30200 破招 无双)": {
             "id": 41292,
-            "name": "举清囊_测试用",
+            "name": "焚膏继晷",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2899,
+            "icon_id": 2903,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74073,16 +73853,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "初落囊_测试用#41291 (30200 破招 无双)": {
+        "折冲樽俎#41291 (30200 破招 无双)": {
             "id": 41291,
-            "name": "初落囊_测试用",
+            "name": "折冲樽俎",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2899,
+            "icon_id": 2903,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74100,16 +73880,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迟玉音_测试用#41290 (30200 破招 无双)": {
+        "徙木立信#41290 (30200 破招 无双)": {
             "id": 41290,
-            "name": "迟玉音_测试用",
+            "name": "徙木立信",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2899,
+            "icon_id": 2903,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74127,16 +73907,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "洒宸襟_测试用#41289 (30200 破招 无双)": {
+        "夙夜在公#41289 (30200 破招 无双)": {
             "id": 41289,
-            "name": "洒宸襟_测试用",
+            "name": "夙夜在公",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2899,
+            "icon_id": 2903,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74154,16 +73934,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇西囊_测试用#41222 (30200 无双)": {
+        "登科囊#41222 (30200 无双)": {
             "id": 41222,
-            "name": "镇西囊_测试用",
+            "name": "登科囊",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 806,
+            "icon_id": 804,
             "base": {},
             "magic": {
                 "vitality_base": 14696,
@@ -74176,16 +73956,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "羡雁囊_测试用#41220 (30200 会心 无双)": {
+        "标雁囊#41220 (30200 会心 无双)": {
             "id": 41220,
-            "name": "羡雁囊_测试用",
+            "name": "标雁囊",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 806,
+            "icon_id": 804,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74203,16 +73983,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "君深囊_测试用#41219 (30200 会心 无双)": {
+        "寒窗囊#41219 (30200 会心 无双)": {
             "id": 41219,
-            "name": "君深囊_测试用",
+            "name": "寒窗囊",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 806,
+            "icon_id": 804,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74230,16 +74010,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "青桑囊_测试用#41218 (30200 会心 无双)": {
+        "云路囊#41218 (30200 会心 无双)": {
             "id": 41218,
-            "name": "青桑囊_测试用",
+            "name": "云路囊",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 806,
+            "icon_id": 804,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74257,16 +74037,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "季春囊_测试用#41217 (30200 会心 无双)": {
+        "文曲囊#41217 (30200 会心 无双)": {
             "id": 41217,
-            "name": "季春囊_测试用",
+            "name": "文曲囊",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 806,
+            "icon_id": 804,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74284,16 +74064,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "山源箭囊_测试用#41182 (30200 破招 无双)": {
+        "三元囊#41182 (30200 破招 无双)": {
             "id": 41182,
-            "name": "山源箭囊_测试用",
+            "name": "三元囊",
             "school": "通用",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 805,
+            "icon_id": 803,
             "base": {},
             "magic": {
                 "vitality_base": 14696,
@@ -74309,16 +74089,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "留诗箭囊_测试用#41180 (30200 加速 无双)": {
+        "问殿囊#41180 (30200 加速 无双)": {
             "id": 41180,
-            "name": "留诗箭囊_测试用",
+            "name": "问殿囊",
             "school": "通用",
             "kind": "身法",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 805,
+            "icon_id": 803,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74336,16 +74116,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "清月箭囊_测试用#41179 (30200 加速 无双)": {
+        "礼闱囊#41179 (30200 加速 无双)": {
             "id": 41179,
-            "name": "清月箭囊_测试用",
+            "name": "礼闱囊",
             "school": "通用",
             "kind": "力道",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 805,
+            "icon_id": 803,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74363,16 +74143,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "游山箭囊_测试用#41178 (30200 加速 无双)": {
+        "封名囊#41178 (30200 加速 无双)": {
             "id": 41178,
-            "name": "游山箭囊_测试用",
+            "name": "封名囊",
             "school": "通用",
             "kind": "元气",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 805,
+            "icon_id": 803,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74390,16 +74170,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "思玉箭囊_测试用#41177 (30200 加速 无双)": {
+        "论策囊#41177 (30200 加速 无双)": {
             "id": 41177,
-            "name": "思玉箭囊_测试用",
+            "name": "论策囊",
             "school": "通用",
             "kind": "根骨",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 805,
+            "icon_id": 803,
             "base": {},
             "magic": {
                 "vitality_base": 9948,
@@ -74417,9 +74197,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41344 (28000 精简 会心 破防 无双)": {
+        "无修囊·外·玄#41344 (28000 精简 会心 破防 无双)": {
             "id": 41344,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74448,9 +74228,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41343 (28000 精简 破防 破招 无双)": {
+        "无修囊·外·玄#41343 (28000 精简 破防 破招 无双)": {
             "id": 41343,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74479,9 +74259,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41342 (28000 精简 会心 无双)": {
+        "无修囊·外·玄#41342 (28000 精简 会心 无双)": {
             "id": 41342,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74509,9 +74289,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41341 (28000 精简 会心 破防 无双)": {
+        "无修囊·内·玄#41341 (28000 精简 会心 破防 无双)": {
             "id": 41341,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74540,9 +74320,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41340 (28000 精简 破防 破招 无双)": {
+        "无修囊·内·玄#41340 (28000 精简 破防 破招 无双)": {
             "id": 41340,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74571,9 +74351,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41339 (28000 精简 会心 无双)": {
+        "无修囊·内·玄#41339 (28000 精简 会心 无双)": {
             "id": 41339,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74601,9 +74381,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41332 (28000 精简 会心 破防 无双)": {
+        "无修囊·外·玄#41332 (28000 精简 会心 破防 无双)": {
             "id": 41332,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74632,9 +74412,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41331 (28000 精简 破防 破招 无双)": {
+        "无修囊·外·玄#41331 (28000 精简 破防 破招 无双)": {
             "id": 41331,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74663,9 +74443,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·外·玄_测试用#41330 (28000 精简 会心 无双)": {
+        "无修囊·外·玄#41330 (28000 精简 会心 无双)": {
             "id": 41330,
-            "name": "无修囊·外·玄_测试用",
+            "name": "无修囊·外·玄",
             "school": "精简",
             "kind": "外功",
             "level": 28000,
@@ -74693,9 +74473,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41329 (28000 精简 会心 破防 无双)": {
+        "无修囊·内·玄#41329 (28000 精简 会心 破防 无双)": {
             "id": 41329,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74724,9 +74504,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41328 (28000 精简 破防 破招 无双)": {
+        "无修囊·内·玄#41328 (28000 精简 破防 破招 无双)": {
             "id": 41328,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74755,9 +74535,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无修囊·内·玄_测试用#41327 (28000 精简 会心 无双)": {
+        "无修囊·内·玄#41327 (28000 精简 会心 无双)": {
             "id": 41327,
-            "name": "无修囊·内·玄_测试用",
+            "name": "无修囊·内·玄",
             "school": "精简",
             "kind": "内功",
             "level": 28000,
@@ -74785,16 +74565,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·银狼囊_测试用#41790 (25900 加速 无双)": {
+        "塞上寒威·载彰囊#41790 (25900 加速 无双)": {
             "id": 41790,
-            "name": "孤山寒月·银狼囊_测试用",
+            "name": "塞上寒威·载彰囊",
             "school": "通用",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2900,
+            "icon_id": 801,
             "base": {},
             "magic": {
                 "vitality_base": 12603,
@@ -74808,16 +74588,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·逐刃囊_测试用#41788 (25900 会心 无双)": {
+        "塞上寒威·星宇囊#41788 (25900 会心 无双)": {
             "id": 41788,
-            "name": "孤山寒月·逐刃囊_测试用",
+            "name": "塞上寒威·星宇囊",
             "school": "通用",
             "kind": "身法",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2900,
+            "icon_id": 801,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -74835,16 +74615,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·归期囊_测试用#41787 (25900 会心 无双)": {
+        "塞上寒威·善诚囊#41787 (25900 会心 无双)": {
             "id": 41787,
-            "name": "孤山寒月·归期囊_测试用",
+            "name": "塞上寒威·善诚囊",
             "school": "通用",
             "kind": "力道",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2900,
+            "icon_id": 801,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -74862,16 +74642,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·忧生囊_测试用#41786 (25900 会心 无双)": {
+        "塞上寒威·暮赏囊#41786 (25900 会心 无双)": {
             "id": 41786,
-            "name": "孤山寒月·忧生囊_测试用",
+            "name": "塞上寒威·暮赏囊",
             "school": "通用",
             "kind": "元气",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2900,
+            "icon_id": 801,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -74889,16 +74669,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·风吟囊_测试用#41785 (25900 会心 无双)": {
+        "塞上寒威·披锦囊#41785 (25900 会心 无双)": {
             "id": 41785,
-            "name": "孤山寒月·风吟囊_测试用",
+            "name": "塞上寒威·披锦囊",
             "school": "通用",
             "kind": "根骨",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2900,
+            "icon_id": 801,
             "base": {},
             "magic": {
                 "vitality_base": 8531,
@@ -76494,16 +76274,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁立囊_测试用#41112 (23000 加速 无双)": {
+        "奎岩囊#41112 (23000 加速 无双)": {
             "id": 41112,
-            "name": "壁立囊_测试用",
+            "name": "奎岩囊",
             "school": "通用",
             "kind": "防御",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2903,
+            "icon_id": 808,
             "base": {},
             "magic": {
                 "vitality_base": 11192,
@@ -76517,16 +76297,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁明囊_测试用#41110 (23000 破招 无双)": {
+        "奎影囊#41110 (23000 破招 无双)": {
             "id": 41110,
-            "name": "壁明囊_测试用",
+            "name": "奎影囊",
             "school": "通用",
             "kind": "身法",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2903,
+            "icon_id": 808,
             "base": {},
             "magic": {
                 "vitality_base": 7576,
@@ -76544,16 +76324,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁邺囊_测试用#41109 (23000 破招 无双)": {
+        "奎刚囊#41109 (23000 破招 无双)": {
             "id": 41109,
-            "name": "壁邺囊_测试用",
+            "name": "奎刚囊",
             "school": "通用",
             "kind": "力道",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2903,
+            "icon_id": 808,
             "base": {},
             "magic": {
                 "vitality_base": 7576,
@@ -76571,16 +76351,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁镜囊_测试用#41108 (23000 破招 无双)": {
+        "奎元囊#41108 (23000 破招 无双)": {
             "id": 41108,
-            "name": "壁镜囊_测试用",
+            "name": "奎元囊",
             "school": "通用",
             "kind": "元气",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2903,
+            "icon_id": 808,
             "base": {},
             "magic": {
                 "vitality_base": 7576,
@@ -76598,16 +76378,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁观囊_测试用#41107 (23000 破招 无双)": {
+        "奎灵囊#41107 (23000 破招 无双)": {
             "id": 41107,
-            "name": "壁观囊_测试用",
+            "name": "奎灵囊",
             "school": "通用",
             "kind": "根骨",
             "level": 23000,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 2903,
+            "icon_id": 808,
             "base": {},
             "magic": {
                 "vitality_base": 7576,
@@ -80477,9 +80257,9 @@ EQUIPMENTS = {
         }
     },
     "primary_weapon": {
-        "伏龙阳焰_测试用#42172 (25300 特效 会心 破防 加速)": {
+        "伏龙阳焰#42172 (25300 特效 会心 破防 加速)": {
             "id": 42172,
-            "name": "伏龙阳焰_测试用",
+            "name": "伏龙阳焰",
             "school": "段氏",
             "kind": "内功",
             "level": 25300,
@@ -80531,9 +80311,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "金乌回首_测试用#42171 (25300 特效 会心 破防 加速)": {
+        "金乌回首#42171 (25300 特效 会心 破防 加速)": {
             "id": 42171,
-            "name": "金乌回首_测试用",
+            "name": "金乌回首",
             "school": "万灵",
             "kind": "外功",
             "level": 25300,
@@ -80585,9 +80365,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烛微刀_测试用#42170 (25300 特效 会心 破防 加速)": {
+        "烛微刀#42170 (25300 特效 会心 破防 加速)": {
             "id": 42170,
-            "name": "烛微刀_测试用",
+            "name": "烛微刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 25300,
@@ -80639,9 +80419,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烬灭_测试用#42168 (25300 特效 会心 破防 加速)": {
+        "烬灭#42168 (25300 特效 会心 破防 加速)": {
             "id": 42168,
-            "name": "烬灭_测试用",
+            "name": "烬灭",
             "school": "药宗",
             "kind": "内功",
             "level": 25300,
@@ -80693,9 +80473,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "子不语_测试用#42167 (25300 特效 会心 破防 加速)": {
+        "子不语#42167 (25300 特效 会心 破防 加速)": {
             "id": 42167,
-            "name": "子不语_测试用",
+            "name": "子不语",
             "school": "衍天",
             "kind": "内功",
             "level": 25300,
@@ -80747,9 +80527,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "长安_测试用#42166 (25300 特效 会心 破防 加速)": {
+        "长安#42166 (25300 特效 会心 破防 加速)": {
             "id": 42166,
-            "name": "长安_测试用",
+            "name": "长安",
             "school": "凌雪",
             "kind": "外功",
             "level": 25300,
@@ -80801,9 +80581,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "七月嘉树_测试用#42165 (25300 特效 会心 破防 加速)": {
+        "七月嘉树#42165 (25300 特效 会心 破防 加速)": {
             "id": 42165,
-            "name": "七月嘉树_测试用",
+            "name": "七月嘉树",
             "school": "蓬莱",
             "kind": "外功",
             "level": 25300,
@@ -80855,9 +80635,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧血豪侠_测试用#42164 (25300 特效 会心 破防 加速)": {
+        "碧血豪侠#42164 (25300 特效 会心 破防 加速)": {
             "id": 42164,
-            "name": "碧血豪侠_测试用",
+            "name": "碧血豪侠",
             "school": "霸刀",
             "kind": "外功",
             "level": 25300,
@@ -80909,9 +80689,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "栖贤韵_测试用#42162 (25300 特效 会心 破防 加速)": {
+        "栖贤韵#42162 (25300 特效 会心 破防 加速)": {
             "id": 42162,
-            "name": "栖贤韵_测试用",
+            "name": "栖贤韵",
             "school": "长歌",
             "kind": "内功",
             "level": 25300,
@@ -80963,9 +80743,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "驭焰_测试用#42161 (25300 特效 加速 破招 无双)": {
+        "驭焰#42161 (25300 特效 加速 破招 无双)": {
             "id": 42161,
-            "name": "驭焰_测试用",
+            "name": "驭焰",
             "school": "苍云",
             "kind": "防御",
             "level": 25300,
@@ -81012,9 +80792,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "天下宏愿_测试用#42160 (25300 特效 会心 破防 加速)": {
+        "天下宏愿#42160 (25300 特效 会心 破防 加速)": {
             "id": 42160,
-            "name": "天下宏愿_测试用",
+            "name": "天下宏愿",
             "school": "苍云",
             "kind": "外功",
             "level": 25300,
@@ -81066,9 +80846,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "圣辉月雪_测试用#42159 (25300 特效 加速 破招 无双)": {
+        "圣辉月雪#42159 (25300 特效 加速 破招 无双)": {
             "id": 42159,
-            "name": "圣辉月雪_测试用",
+            "name": "圣辉月雪",
             "school": "明教",
             "kind": "防御",
             "level": 25300,
@@ -81114,9 +80894,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "瀚海引_测试用#42158 (25300 特效 会心 破防 加速)": {
+        "瀚海引#42158 (25300 特效 会心 破防 加速)": {
             "id": 42158,
-            "name": "瀚海引_测试用",
+            "name": "瀚海引",
             "school": "明教",
             "kind": "内功",
             "level": 25300,
@@ -81168,9 +80948,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "暴龙震江_测试用#42157 (25300 特效 会心 破防)": {
+        "暴龙震江#42157 (25300 特效 会心 破防)": {
             "id": 42157,
-            "name": "暴龙震江_测试用",
+            "name": "暴龙震江",
             "school": "丐帮",
             "kind": "外功",
             "level": 25300,
@@ -81221,9 +81001,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏魔悲音_测试用#42155 (25300 特效 会心 破防 加速)": {
+        "伏魔悲音#42155 (25300 特效 会心 破防 加速)": {
             "id": 42155,
-            "name": "伏魔悲音_测试用",
+            "name": "伏魔悲音",
             "school": "藏剑",
             "kind": "外功",
             "level": 25300,
@@ -81275,9 +81055,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "银羽雪辉_测试用#42154 (25300 特效 会心 破防 加速)": {
+        "银羽雪辉#42154 (25300 特效 会心 破防 加速)": {
             "id": 42154,
-            "name": "银羽雪辉_测试用",
+            "name": "银羽雪辉",
             "school": "唐门",
             "kind": "外功",
             "level": 25300,
@@ -81329,9 +81109,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧岚幽炎_测试用#42153 (25300 特效 会心 破防 加速)": {
+        "碧岚幽炎#42153 (25300 特效 会心 破防 加速)": {
             "id": 42153,
-            "name": "碧岚幽炎_测试用",
+            "name": "碧岚幽炎",
             "school": "唐门",
             "kind": "内功",
             "level": 25300,
@@ -81383,9 +81163,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "蜕骨_测试用#42151 (25300 特效 会心 破防 加速)": {
+        "蜕骨#42151 (25300 特效 会心 破防 加速)": {
             "id": 42151,
-            "name": "蜕骨_测试用",
+            "name": "蜕骨",
             "school": "五毒",
             "kind": "内功",
             "level": 25300,
@@ -81437,9 +81217,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "龙鲤_测试用#42149 (25300 特效 会心 破防 加速)": {
+        "龙鲤#42149 (25300 特效 会心 破防 加速)": {
             "id": 42149,
-            "name": "龙鲤_测试用",
+            "name": "龙鲤",
             "school": "七秀",
             "kind": "内功",
             "level": 25300,
@@ -81491,9 +81271,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇恶_测试用#42148 (25300 特效 会心 破防 加速)": {
+        "镇恶#42148 (25300 特效 会心 破防 加速)": {
             "id": 42148,
-            "name": "镇恶_测试用",
+            "name": "镇恶",
             "school": "纯阳",
             "kind": "外功",
             "level": 25300,
@@ -81545,9 +81325,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "仙灵_测试用#42147 (25300 特效 会心 破防 加速)": {
+        "仙灵#42147 (25300 特效 会心 破防 加速)": {
             "id": 42147,
-            "name": "仙灵_测试用",
+            "name": "仙灵",
             "school": "纯阳",
             "kind": "内功",
             "level": 25300,
@@ -81599,9 +81379,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "朱曦重明_测试用#42146 (25300 特效 加速 破招 无双)": {
+        "朱曦重明#42146 (25300 特效 加速 破招 无双)": {
             "id": 42146,
-            "name": "朱曦重明_测试用",
+            "name": "朱曦重明",
             "school": "天策",
             "kind": "防御",
             "level": 25300,
@@ -81647,9 +81427,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "掠炎_测试用#42145 (25300 特效 会心 破防 加速)": {
+        "掠炎#42145 (25300 特效 会心 破防 加速)": {
             "id": 42145,
-            "name": "掠炎_测试用",
+            "name": "掠炎",
             "school": "天策",
             "kind": "外功",
             "level": 25300,
@@ -81701,9 +81481,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "意真_测试用#42143 (25300 特效 会心 破防 加速)": {
+        "意真#42143 (25300 特效 会心 破防 加速)": {
             "id": 42143,
-            "name": "意真_测试用",
+            "name": "意真",
             "school": "万花",
             "kind": "内功",
             "level": 25300,
@@ -81755,9 +81535,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "降魔境_测试用#42142 (25300 特效 加速 破招 无双)": {
+        "降魔境#42142 (25300 特效 加速 破招 无双)": {
             "id": 42142,
-            "name": "降魔境_测试用",
+            "name": "降魔境",
             "school": "少林",
             "kind": "防御",
             "level": 25300,
@@ -81804,9 +81584,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "昭佛光_测试用#42141 (25300 特效 会心 破防 加速)": {
+        "昭佛光#42141 (25300 特效 会心 破防 加速)": {
             "id": 42141,
-            "name": "昭佛光_测试用",
+            "name": "昭佛光",
             "school": "少林",
             "kind": "内功",
             "level": 25300,
@@ -81858,9 +81638,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏龙阳焰_测试用#42140 (23650 特效 会心 破防 加速)": {
+        "伏龙阳焰#42140 (23650 特效 会心 破防 加速)": {
             "id": 42140,
-            "name": "伏龙阳焰_测试用",
+            "name": "伏龙阳焰",
             "school": "段氏",
             "kind": "内功",
             "level": 23650,
@@ -81912,9 +81692,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "金乌回首_测试用#42139 (23650 特效 会心 破防 加速)": {
+        "金乌回首#42139 (23650 特效 会心 破防 加速)": {
             "id": 42139,
-            "name": "金乌回首_测试用",
+            "name": "金乌回首",
             "school": "万灵",
             "kind": "外功",
             "level": 23650,
@@ -81966,9 +81746,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烛微刀_测试用#42138 (23650 特效 会心 破防 加速)": {
+        "烛微刀#42138 (23650 特效 会心 破防 加速)": {
             "id": 42138,
-            "name": "烛微刀_测试用",
+            "name": "烛微刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 23650,
@@ -82020,9 +81800,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "烬灭_测试用#42136 (23650 特效 会心 破防 加速)": {
+        "烬灭#42136 (23650 特效 会心 破防 加速)": {
             "id": 42136,
-            "name": "烬灭_测试用",
+            "name": "烬灭",
             "school": "药宗",
             "kind": "内功",
             "level": 23650,
@@ -82074,9 +81854,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "子不语_测试用#42135 (23650 特效 会心 破防 加速)": {
+        "子不语#42135 (23650 特效 会心 破防 加速)": {
             "id": 42135,
-            "name": "子不语_测试用",
+            "name": "子不语",
             "school": "衍天",
             "kind": "内功",
             "level": 23650,
@@ -82128,9 +81908,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "长安_测试用#42134 (23650 特效 会心 破防 加速)": {
+        "长安#42134 (23650 特效 会心 破防 加速)": {
             "id": 42134,
-            "name": "长安_测试用",
+            "name": "长安",
             "school": "凌雪",
             "kind": "外功",
             "level": 23650,
@@ -82182,9 +81962,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "七月嘉树_测试用#42133 (23650 特效 会心 破防 加速)": {
+        "七月嘉树#42133 (23650 特效 会心 破防 加速)": {
             "id": 42133,
-            "name": "七月嘉树_测试用",
+            "name": "七月嘉树",
             "school": "蓬莱",
             "kind": "外功",
             "level": 23650,
@@ -82236,9 +82016,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧血豪侠_测试用#42132 (23650 特效 会心 破防 加速)": {
+        "碧血豪侠#42132 (23650 特效 会心 破防 加速)": {
             "id": 42132,
-            "name": "碧血豪侠_测试用",
+            "name": "碧血豪侠",
             "school": "霸刀",
             "kind": "外功",
             "level": 23650,
@@ -82290,9 +82070,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "栖贤韵_测试用#42130 (23650 特效 会心 破防 加速)": {
+        "栖贤韵#42130 (23650 特效 会心 破防 加速)": {
             "id": 42130,
-            "name": "栖贤韵_测试用",
+            "name": "栖贤韵",
             "school": "长歌",
             "kind": "内功",
             "level": 23650,
@@ -82344,9 +82124,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "驭焰_测试用#42129 (23650 特效 加速 破招 无双)": {
+        "驭焰#42129 (23650 特效 加速 破招 无双)": {
             "id": 42129,
-            "name": "驭焰_测试用",
+            "name": "驭焰",
             "school": "苍云",
             "kind": "防御",
             "level": 23650,
@@ -82393,9 +82173,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "天下宏愿_测试用#42128 (23650 特效 会心 破防 加速)": {
+        "天下宏愿#42128 (23650 特效 会心 破防 加速)": {
             "id": 42128,
-            "name": "天下宏愿_测试用",
+            "name": "天下宏愿",
             "school": "苍云",
             "kind": "外功",
             "level": 23650,
@@ -82447,9 +82227,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "圣辉月雪_测试用#42127 (23650 特效 加速 破招 无双)": {
+        "圣辉月雪#42127 (23650 特效 加速 破招 无双)": {
             "id": 42127,
-            "name": "圣辉月雪_测试用",
+            "name": "圣辉月雪",
             "school": "明教",
             "kind": "防御",
             "level": 23650,
@@ -82495,9 +82275,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "瀚海引_测试用#42126 (23650 特效 会心 破防 加速)": {
+        "瀚海引#42126 (23650 特效 会心 破防 加速)": {
             "id": 42126,
-            "name": "瀚海引_测试用",
+            "name": "瀚海引",
             "school": "明教",
             "kind": "内功",
             "level": 23650,
@@ -82549,9 +82329,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "暴龙震江_测试用#42125 (23650 特效 会心 破防)": {
+        "暴龙震江#42125 (23650 特效 会心 破防)": {
             "id": 42125,
-            "name": "暴龙震江_测试用",
+            "name": "暴龙震江",
             "school": "丐帮",
             "kind": "外功",
             "level": 23650,
@@ -82602,9 +82382,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "伏魔悲音_测试用#42123 (23650 特效 会心 破防 加速)": {
+        "伏魔悲音#42123 (23650 特效 会心 破防 加速)": {
             "id": 42123,
-            "name": "伏魔悲音_测试用",
+            "name": "伏魔悲音",
             "school": "藏剑",
             "kind": "外功",
             "level": 23650,
@@ -82656,9 +82436,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "银羽雪辉_测试用#42122 (23650 特效 会心 破防 加速)": {
+        "银羽雪辉#42122 (23650 特效 会心 破防 加速)": {
             "id": 42122,
-            "name": "银羽雪辉_测试用",
+            "name": "银羽雪辉",
             "school": "唐门",
             "kind": "外功",
             "level": 23650,
@@ -82710,9 +82490,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧岚幽炎_测试用#42121 (23650 特效 会心 破防 加速)": {
+        "碧岚幽炎#42121 (23650 特效 会心 破防 加速)": {
             "id": 42121,
-            "name": "碧岚幽炎_测试用",
+            "name": "碧岚幽炎",
             "school": "唐门",
             "kind": "内功",
             "level": 23650,
@@ -82764,9 +82544,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "蜕骨_测试用#42119 (23650 特效 会心 破防 加速)": {
+        "蜕骨#42119 (23650 特效 会心 破防 加速)": {
             "id": 42119,
-            "name": "蜕骨_测试用",
+            "name": "蜕骨",
             "school": "五毒",
             "kind": "内功",
             "level": 23650,
@@ -82818,9 +82598,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "龙鲤_测试用#42117 (23650 特效 会心 破防 加速)": {
+        "龙鲤#42117 (23650 特效 会心 破防 加速)": {
             "id": 42117,
-            "name": "龙鲤_测试用",
+            "name": "龙鲤",
             "school": "七秀",
             "kind": "内功",
             "level": 23650,
@@ -82872,9 +82652,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "镇恶_测试用#42116 (23650 特效 会心 破防 加速)": {
+        "镇恶#42116 (23650 特效 会心 破防 加速)": {
             "id": 42116,
-            "name": "镇恶_测试用",
+            "name": "镇恶",
             "school": "纯阳",
             "kind": "外功",
             "level": 23650,
@@ -82926,9 +82706,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "仙灵_测试用#42115 (23650 特效 会心 破防 加速)": {
+        "仙灵#42115 (23650 特效 会心 破防 加速)": {
             "id": 42115,
-            "name": "仙灵_测试用",
+            "name": "仙灵",
             "school": "纯阳",
             "kind": "内功",
             "level": 23650,
@@ -82980,9 +82760,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "朱曦重明_测试用#42114 (23650 特效 加速 破招 无双)": {
+        "朱曦重明#42114 (23650 特效 加速 破招 无双)": {
             "id": 42114,
-            "name": "朱曦重明_测试用",
+            "name": "朱曦重明",
             "school": "天策",
             "kind": "防御",
             "level": 23650,
@@ -83028,9 +82808,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "掠炎_测试用#42113 (23650 特效 会心 破防 加速)": {
+        "掠炎#42113 (23650 特效 会心 破防 加速)": {
             "id": 42113,
-            "name": "掠炎_测试用",
+            "name": "掠炎",
             "school": "天策",
             "kind": "外功",
             "level": 23650,
@@ -83082,9 +82862,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "意真_测试用#42111 (23650 特效 会心 破防 加速)": {
+        "意真#42111 (23650 特效 会心 破防 加速)": {
             "id": 42111,
-            "name": "意真_测试用",
+            "name": "意真",
             "school": "万花",
             "kind": "内功",
             "level": 23650,
@@ -83136,9 +82916,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "降魔境_测试用#42110 (23650 特效 加速 破招 无双)": {
+        "降魔境#42110 (23650 特效 加速 破招 无双)": {
             "id": 42110,
-            "name": "降魔境_测试用",
+            "name": "降魔境",
             "school": "少林",
             "kind": "防御",
             "level": 23650,
@@ -83185,9 +82965,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "昭佛光_测试用#42109 (23650 特效 会心 破防 加速)": {
+        "昭佛光#42109 (23650 特效 会心 破防 加速)": {
             "id": 42109,
-            "name": "昭佛光_测试用",
+            "name": "昭佛光",
             "school": "少林",
             "kind": "内功",
             "level": 23650,
@@ -83239,16 +83019,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "富贵人间_测试用#41326 (30700 会心 无双)": {
+        "不见山#41326 (30700 会心 无双)": {
             "id": 41326,
-            "name": "富贵人间_测试用",
+            "name": "不见山",
             "school": "段氏",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23046,
+            "icon_id": 24206,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83271,16 +83051,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "彩星_测试用#41325 (30700 会心 无双)": {
+        "人事稀#41325 (30700 会心 无双)": {
             "id": 41325,
-            "name": "彩星_测试用",
+            "name": "人事稀",
             "school": "万灵",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23105,
+            "icon_id": 24216,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83303,16 +83083,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "世人_测试用#41324 (30700 会心 无双)": {
+        "著浮名#41324 (30700 会心 无双)": {
             "id": 41324,
-            "name": "世人_测试用",
+            "name": "著浮名",
             "school": "刀宗",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23038,
+            "icon_id": 24205,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83335,16 +83115,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "江湖岁晚_测试用#41322 (30700 会心 无双)": {
+        "霜雪期#41322 (30700 会心 无双)": {
             "id": 41322,
-            "name": "江湖岁晚_测试用",
+            "name": "霜雪期",
             "school": "药宗",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23115,
+            "icon_id": 24220,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83367,16 +83147,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "古人_测试用#41321 (30700 会心 无双)": {
+        "尘外士#41321 (30700 会心 无双)": {
             "id": 41321,
-            "name": "古人_测试用",
+            "name": "尘外士",
             "school": "衍天",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23127,
+            "icon_id": 24219,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83399,16 +83179,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "侠骨_测试用#41320 (30700 会心 无双)": {
+        "玉阶#41320 (30700 会心 无双)": {
             "id": 41320,
-            "name": "侠骨_测试用",
+            "name": "玉阶",
             "school": "凌雪",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23062,
+            "icon_id": 24208,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83431,16 +83211,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "神仙府_测试用#41319 (30700 会心 无双)": {
+        "一色清#41319 (30700 会心 无双)": {
             "id": 41319,
-            "name": "神仙府_测试用",
+            "name": "一色清",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23072,
+            "icon_id": 24210,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83463,16 +83243,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "瑞气_测试用#41318 (30700 会心 无双)": {
+        "千丈奔#41318 (30700 会心 无双)": {
             "id": 41318,
-            "name": "瑞气_测试用",
+            "name": "千丈奔",
             "school": "霸刀",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23013,
+            "icon_id": 24200,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83495,16 +83275,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共奏清音_测试用#41316 (30700 会心 无双)": {
+        "尽春光#41316 (30700 会心 无双)": {
             "id": 41316,
-            "name": "共奏清音_测试用",
+            "name": "尽春光",
             "school": "长歌",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23120,
+            "icon_id": 24218,
             "base": {
                 "weapon_damage_base": 2381,
                 "weapon_damage_rand": 1587
@@ -83527,16 +83307,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "千载_测试用#41315 (30700 破招 无双)": {
+        "寂照#41315 (30700 破招 无双)": {
             "id": 41315,
-            "name": "千载_测试用",
+            "name": "寂照",
             "school": "苍云",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23018,
+            "icon_id": 24201,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83557,16 +83337,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "除恶_测试用#41314 (30700 会心 无双)": {
+        "岩阿#41314 (30700 会心 无双)": {
             "id": 41314,
-            "name": "除恶_测试用",
+            "name": "岩阿",
             "school": "苍云",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23018,
+            "icon_id": 24201,
             "base": {
                 "weapon_damage_base": 7142,
                 "weapon_damage_rand": 4761
@@ -83589,16 +83369,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寒生_测试用#41313 (30700 破招 无双)": {
+        "一念间#41313 (30700 破招 无双)": {
             "id": 41313,
-            "name": "寒生_测试用",
+            "name": "一念间",
             "school": "明教",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23067,
+            "icon_id": 24209,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83619,16 +83399,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "冷露_测试用#41312 (30700 会心 无双)": {
+        "灵焰#41312 (30700 会心 无双)": {
             "id": 41312,
-            "name": "冷露_测试用",
+            "name": "灵焰",
             "school": "明教",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23067,
+            "icon_id": 24209,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83651,16 +83431,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "自酌_测试用#41311 (30700 会心 无双)": {
+        "豪风#41311 (30700 会心 无双)": {
             "id": 41311,
-            "name": "自酌_测试用",
+            "name": "豪风",
             "school": "丐帮",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23057,
+            "icon_id": 24207,
             "base": {
                 "weapon_damage_base": 8094,
                 "weapon_damage_rand": 5396
@@ -83683,16 +83463,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "眸羽_测试用#41309 (30700 会心 无双)": {
+        "风动松涛#41309 (30700 会心 无双)": {
             "id": 41309,
-            "name": "眸羽_测试用",
+            "name": "风动松涛",
             "school": "藏剑",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23033,
+            "icon_id": 24202,
             "base": {
                 "weapon_damage_base": 6190,
                 "weapon_damage_rand": 4126
@@ -83715,16 +83495,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "鬼魅_测试用#41308 (30700 会心 无双)": {
+        "疾雷#41308 (30700 会心 无双)": {
             "id": 41308,
-            "name": "鬼魅_测试用",
+            "name": "疾雷",
             "school": "唐门",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23087,
+            "icon_id": 24213,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83747,16 +83527,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寰区_测试用#41307 (30700 会心 无双)": {
+        "暗芒#41307 (30700 会心 无双)": {
             "id": 41307,
-            "name": "寰区_测试用",
+            "name": "暗芒",
             "school": "唐门",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23087,
+            "icon_id": 24213,
             "base": {
                 "weapon_damage_base": 4761,
                 "weapon_damage_rand": 3174
@@ -83779,16 +83559,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "古调_测试用#41305 (30700 会心 无双)": {
+        "声迟#41305 (30700 会心 无双)": {
             "id": 41305,
-            "name": "古调_测试用",
+            "name": "声迟",
             "school": "五毒",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23107,
+            "icon_id": 24217,
             "base": {
                 "weapon_damage_base": 2381,
                 "weapon_damage_rand": 1587
@@ -83811,16 +83591,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "舞青龙_测试用#41303 (30700 会心 无双)": {
+        "催芳#41303 (30700 会心 无双)": {
             "id": 41303,
-            "name": "舞青龙_测试用",
+            "name": "催芳",
             "school": "七秀",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23077,
+            "icon_id": 24211,
             "base": {
                 "weapon_damage_base": 3095,
                 "weapon_damage_rand": 2063
@@ -83843,16 +83623,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "日月斛光_测试用#41302 (30700 会心 无双)": {
+        "野鹤身#41302 (30700 会心 无双)": {
             "id": 41302,
-            "name": "日月斛光_测试用",
+            "name": "野鹤身",
             "school": "纯阳",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23023,
+            "icon_id": 24204,
             "base": {
                 "weapon_damage_base": 6190,
                 "weapon_damage_rand": 4126
@@ -83875,16 +83655,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "万丈_测试用#41301 (30700 会心 无双)": {
+        "松云#41301 (30700 会心 无双)": {
             "id": 41301,
-            "name": "万丈_测试用",
+            "name": "松云",
             "school": "纯阳",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23023,
+            "icon_id": 24204,
             "base": {
                 "weapon_damage_base": 3095,
                 "weapon_damage_rand": 2063
@@ -83907,16 +83687,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共江山_测试用#41300 (30700 破招 无双)": {
+        "念胡笳#41300 (30700 破招 无双)": {
             "id": 41300,
-            "name": "共江山_测试用",
+            "name": "念胡笳",
             "school": "天策",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23092,
+            "icon_id": 24214,
             "base": {
                 "weapon_damage_base": 8094,
                 "weapon_damage_rand": 5396
@@ -83937,16 +83717,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "天地有时_测试用#41299 (30700 会心 无双)": {
+        "惊宿鸟#41299 (30700 会心 无双)": {
             "id": 41299,
-            "name": "天地有时_测试用",
+            "name": "惊宿鸟",
             "school": "天策",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23092,
+            "icon_id": 24214,
             "base": {
                 "weapon_damage_base": 8094,
                 "weapon_damage_rand": 5396
@@ -83969,16 +83749,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "照树_测试用#41297 (30700 会心 无双)": {
+        "秀色#41297 (30700 会心 无双)": {
             "id": 41297,
-            "name": "照树_测试用",
+            "name": "秀色",
             "school": "万花",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23097,
+            "icon_id": 24215,
             "base": {
                 "weapon_damage_base": 2381,
                 "weapon_damage_rand": 1587
@@ -84001,16 +83781,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "空华_测试用#41296 (30700 破招 无双)": {
+        "善守#41296 (30700 破招 无双)": {
             "id": 41296,
-            "name": "空华_测试用",
+            "name": "善守",
             "school": "少林",
             "kind": "防御",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23082,
+            "icon_id": 24212,
             "base": {
                 "weapon_damage_base": 8094,
                 "weapon_damage_rand": 5396
@@ -84031,16 +83811,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "问师_测试用#41295 (30700 会心 无双)": {
+        "禅月#41295 (30700 会心 无双)": {
             "id": 41295,
-            "name": "问师_测试用",
+            "name": "禅月",
             "school": "少林",
             "kind": "内功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23082,
+            "icon_id": 24212,
             "base": {
                 "weapon_damage_base": 8094,
                 "weapon_damage_rand": 5396
@@ -85444,16 +85224,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "绣白衣_测试用#41388 (30200 破招 无双)": {
+        "虚舟#41388 (30200 破招 无双)": {
             "id": 41388,
-            "name": "绣白衣_测试用",
+            "name": "虚舟",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23047,
+            "icon_id": 23048,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85476,9 +85256,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "檐下偷闲_测试用#41387 (30200 破招 无双)": {
+        "向青皋#41387 (30200 破招 无双)": {
             "id": 41387,
-            "name": "檐下偷闲_测试用",
+            "name": "向青皋",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
@@ -85508,16 +85288,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "轻侠逢_测试用#41386 (30200 破招 无双)": {
+        "惊梦#41386 (30200 破招 无双)": {
             "id": 41386,
-            "name": "轻侠逢_测试用",
+            "name": "惊梦",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 17825,
+            "icon_id": 17824,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85540,16 +85320,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "奇理续命_测试用#41384 (30200 破招 无双)": {
+        "贯众#41384 (30200 破招 无双)": {
             "id": 41384,
-            "name": "奇理续命_测试用",
+            "name": "贯众",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 15879,
+            "icon_id": 15650,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85572,9 +85352,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "熠耀光_测试用#41383 (30200 破招 无双)": {
+        "窥太古#41383 (30200 破招 无双)": {
             "id": 41383,
-            "name": "熠耀光_测试用",
+            "name": "窥太古",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
@@ -85604,16 +85384,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "不望_测试用#41382 (30200 破招 无双)": {
+        "拂星#41382 (30200 破招 无双)": {
             "id": 41382,
-            "name": "不望_测试用",
+            "name": "拂星",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 12367,
+            "icon_id": 12930,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85636,16 +85416,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "乘羽涉海_测试用#41381 (30200 破招 无双)": {
+        "掣沧溟#41381 (30200 破招 无双)": {
             "id": 41381,
-            "name": "乘羽涉海_测试用",
+            "name": "掣沧溟",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 11183,
+            "icon_id": 12929,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85668,16 +85448,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "震九衢_测试用#41380 (30200 破招 无双)": {
+        "震九霄#41380 (30200 破招 无双)": {
             "id": 41380,
-            "name": "震九衢_测试用",
+            "name": "震九霄",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9772,
+            "icon_id": 12928,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85700,16 +85480,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "月洗凡尘_测试用#41378 (30200 破招 无双)": {
+        "冷月无声#41378 (30200 破招 无双)": {
             "id": 41378,
-            "name": "月洗凡尘_测试用",
+            "name": "冷月无声",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9771,
+            "icon_id": 12927,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -85732,16 +85512,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "洗连城_测试用#41377 (30200 无双)": {
+        "寒山草#41377 (30200 无双)": {
             "id": 41377,
-            "name": "洗连城_测试用",
+            "name": "寒山草",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9768,
+            "icon_id": 12926,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85760,16 +85540,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "征鼓动楼_测试用#41376 (30200 破招 无双)": {
+        "汉垒#41376 (30200 破招 无双)": {
             "id": 41376,
-            "name": "征鼓动楼_测试用",
+            "name": "汉垒",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9768,
+            "icon_id": 12926,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -85792,16 +85572,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "独步历_测试用#41375 (30200 无双)": {
+        "慈波流#41375 (30200 无双)": {
             "id": 41375,
-            "name": "独步历_测试用",
+            "name": "慈波流",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9770,
+            "icon_id": 12924,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85820,16 +85600,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "茫沙野_测试用#41374 (30200 破招 无双)": {
+        "清净慧命#41374 (30200 破招 无双)": {
             "id": 41374,
-            "name": "茫沙野_测试用",
+            "name": "清净慧命",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9770,
+            "icon_id": 12924,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85852,16 +85632,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "褐衣野帽_测试用#41373 (30200 破招 无双)": {
+        "眠岳#41373 (30200 破招 无双)": {
             "id": 41373,
-            "name": "褐衣野帽_测试用",
+            "name": "眠岳",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9761,
+            "icon_id": 12925,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -85884,16 +85664,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "风拂袂_测试用#41371 (30200 破招 无双)": {
+        "玉涧#41371 (30200 破招 无双)": {
             "id": 41371,
-            "name": "风拂袂_测试用",
+            "name": "玉涧",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9767,
+            "icon_id": 12918,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -85916,16 +85696,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "修影匿_测试用#41370 (30200 破招 无双)": {
+        "秋山凝怨#41370 (30200 破招 无双)": {
             "id": 41370,
-            "name": "修影匿_测试用",
+            "name": "秋山凝怨",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9763,
+            "icon_id": 12923,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85948,16 +85728,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧叶溅朱_测试用#41369 (30200 破招 无双)": {
+        "湘水深#41369 (30200 破招 无双)": {
             "id": 41369,
-            "name": "碧叶溅朱_测试用",
+            "name": "湘水深",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9763,
+            "icon_id": 12923,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -85980,16 +85760,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "何哀_测试用#41367 (30200 破招 无双)": {
+        "瘴骨沉渊#41367 (30200 破招 无双)": {
             "id": 41367,
-            "name": "何哀_测试用",
+            "name": "瘴骨沉渊",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9762,
+            "icon_id": 12922,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -86012,16 +85792,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "轻姿_测试用#41365 (30200 破招 无双)": {
+        "瑶笼翠#41365 (30200 破招 无双)": {
             "id": 41365,
-            "name": "轻姿_测试用",
+            "name": "瑶笼翠",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9759,
+            "icon_id": 12919,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -86044,16 +85824,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尘世纷_测试用#41364 (30200 破招 无双)": {
+        "隐鹤松#41364 (30200 破招 无双)": {
             "id": 41364,
-            "name": "尘世纷_测试用",
+            "name": "隐鹤松",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9766,
+            "icon_id": 12917,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -86076,16 +85856,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "步云轻_测试用#41363 (30200 破招 无双)": {
+        "拂云游#41363 (30200 破招 无双)": {
             "id": 41363,
-            "name": "步云轻_测试用",
+            "name": "拂云游",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9766,
+            "icon_id": 12917,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -86108,16 +85888,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "将战时_测试用#41362 (30200 无双)": {
+        "寒声柝#41362 (30200 无双)": {
             "id": 41362,
-            "name": "将战时_测试用",
+            "name": "寒声柝",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9764,
+            "icon_id": 12916,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -86136,16 +85916,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "乘纵_测试用#41361 (30200 破招 无双)": {
+        "横行#41361 (30200 破招 无双)": {
             "id": 41361,
-            "name": "乘纵_测试用",
+            "name": "横行",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9764,
+            "icon_id": 12916,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -86168,16 +85948,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "夜微_测试用#41359 (30200 破招 无双)": {
+        "悲沧浪#41359 (30200 破招 无双)": {
             "id": 41359,
-            "name": "夜微_测试用",
+            "name": "悲沧浪",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9760,
+            "icon_id": 12920,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -86200,16 +85980,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "绝峰云_测试用#41358 (30200 无双)": {
+        "云生空相#41358 (30200 无双)": {
             "id": 41358,
-            "name": "绝峰云_测试用",
+            "name": "云生空相",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9765,
+            "icon_id": 12915,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -86229,16 +86009,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松照禅衣_测试用#41357 (30200 破招 无双)": {
+        "寂照#41357 (30200 破招 无双)": {
             "id": 41357,
-            "name": "松照禅衣_测试用",
+            "name": "寂照",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9765,
+            "icon_id": 12915,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -86261,16 +86041,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "竟无归_测试用#41288 (30200 特效 破防 无双)": {
+        "明雪望晴#41288 (30200 特效 破防 无双)": {
             "id": 41288,
-            "name": "竟无归_测试用",
+            "name": "明雪望晴",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23043,
+            "icon_id": 24185,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86297,16 +86077,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "信陵恩_测试用#41287 (30200 特效 破防 无双)": {
+        "云栖抚灵#41287 (30200 特效 破防 无双)": {
             "id": 41287,
-            "name": "信陵恩_测试用",
+            "name": "云栖抚灵",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23101,
+            "icon_id": 24195,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86333,16 +86113,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "无宵忧_测试用#41286 (30200 特效 破防 无双)": {
+        "天容阔#41286 (30200 特效 破防 无双)": {
             "id": 41286,
-            "name": "无宵忧_测试用",
+            "name": "天容阔",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23037,
+            "icon_id": 24184,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86369,16 +86149,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "哀声急_测试用#41284 (30200 特效 破防 无双)": {
+        "空翠拂烟#41284 (30200 特效 破防 无双)": {
             "id": 41284,
-            "name": "哀声急_测试用",
+            "name": "空翠拂烟",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23114,
+            "icon_id": 24198,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86405,16 +86185,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "立长庚_测试用#41283 (30200 特效 破防 无双)": {
+        "太微明序#41283 (30200 特效 破防 无双)": {
             "id": 41283,
-            "name": "立长庚_测试用",
+            "name": "太微明序",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23126,
+            "icon_id": 24197,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86441,16 +86221,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "怨王侯_测试用#41282 (30200 特效 破防 无双)": {
+        "渊影#41282 (30200 特效 破防 无双)": {
             "id": 41282,
-            "name": "怨王侯_测试用",
+            "name": "渊影",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23061,
+            "icon_id": 24187,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86477,16 +86257,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "望海阔_测试用#41281 (30200 特效 破防 无双)": {
+        "月隐轻舟#41281 (30200 特效 破防 无双)": {
             "id": 41281,
-            "name": "望海阔_测试用",
+            "name": "月隐轻舟",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23071,
+            "icon_id": 24189,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86513,16 +86293,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "问沈浮_测试用#41280 (30200 特效 破防 无双)": {
+        "破千山#41280 (30200 特效 破防 无双)": {
             "id": 41280,
-            "name": "问沈浮_测试用",
+            "name": "破千山",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23012,
+            "icon_id": 24179,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86549,16 +86329,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "愿相从_测试用#41278 (30200 特效 破防 无双)": {
+        "沧浪水#41278 (30200 特效 破防 无双)": {
             "id": 41278,
-            "name": "愿相从_测试用",
+            "name": "沧浪水",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23119,
+            "icon_id": 24199,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -86585,16 +86365,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寒关暮_测试用#41277 (30200 特效 无双)": {
+        "孤雪征鸿#41277 (30200 特效 无双)": {
             "id": 41277,
-            "name": "寒关暮_测试用",
+            "name": "孤雪征鸿",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86617,16 +86397,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "欲悲歌_测试用#41276 (30200 特效 破防 无双)": {
+        "残霜埋骨#41276 (30200 特效 破防 无双)": {
             "id": 41276,
-            "name": "欲悲歌_测试用",
+            "name": "残霜埋骨",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -86653,16 +86433,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "叹苦愁_测试用#41275 (30200 特效 无双)": {
+        "风锁雪#41275 (30200 特效 无双)": {
             "id": 41275,
-            "name": "叹苦愁_测试用",
+            "name": "风锁雪",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86685,16 +86465,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "阅世悲_测试用#41274 (30200 特效 破防 无双)": {
+        "沙烬夜#41274 (30200 特效 破防 无双)": {
             "id": 41274,
-            "name": "阅世悲_测试用",
+            "name": "沙烬夜",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86721,16 +86501,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "共离樽_测试用#41273 (30200 特效 破防 无双)": {
+        "黄鹤辞风#41273 (30200 特效 破防 无双)": {
             "id": 41273,
-            "name": "共离樽_测试用",
+            "name": "黄鹤辞风",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23056,
+            "icon_id": 24186,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -86757,16 +86537,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "襟宸洒_测试用#41271 (30200 特效 破防 无双)": {
+        "孤山梅#41271 (30200 特效 破防 无双)": {
             "id": 41271,
-            "name": "襟宸洒_测试用",
+            "name": "孤山梅",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23032,
+            "icon_id": 24181,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -86793,16 +86573,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "秦川月_测试用#41270 (30200 特效 破防 无双)": {
+        "暗潮风#41270 (30200 特效 破防 无双)": {
             "id": 41270,
-            "name": "秦川月_测试用",
+            "name": "暗潮风",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86829,16 +86609,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "蜀道山_测试用#41269 (30200 特效 破防 无双)": {
+        "刃上青#41269 (30200 特效 破防 无双)": {
             "id": 41269,
-            "name": "蜀道山_测试用",
+            "name": "刃上青",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -86865,16 +86645,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "空度夜_测试用#41267 (30200 特效 破防 无双)": {
+        "渡飞花#41267 (30200 特效 破防 无双)": {
             "id": 41267,
-            "name": "空度夜_测试用",
+            "name": "渡飞花",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23106,
+            "icon_id": 24196,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -86901,16 +86681,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "月初生_测试用#41265 (30200 特效 破防 无双)": {
+        "惊鸿照水#41265 (30200 特效 破防 无双)": {
             "id": 41265,
-            "name": "月初生_测试用",
+            "name": "惊鸿照水",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23076,
+            "icon_id": 24190,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -86937,16 +86717,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "迟来客_测试用#41264 (30200 特效 破防 无双)": {
+        "千山玉尘#41264 (30200 特效 破防 无双)": {
             "id": 41264,
-            "name": "迟来客_测试用",
+            "name": "千山玉尘",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -86973,16 +86753,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "如云浮_测试用#41263 (30200 特效 破防 无双)": {
+        "罡风尽#41263 (30200 特效 破防 无双)": {
             "id": 41263,
-            "name": "如云浮_测试用",
+            "name": "罡风尽",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -87009,16 +86789,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "溯极浦_测试用#41262 (30200 特效 无双)": {
+        "青山魂#41262 (30200 特效 无双)": {
             "id": 41262,
-            "name": "溯极浦_测试用",
+            "name": "青山魂",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87041,16 +86821,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "去关河_测试用#41261 (30200 特效 破防 无双)": {
+        "风沙鸣杨#41261 (30200 特效 破防 无双)": {
             "id": 41261,
-            "name": "去关河_测试用",
+            "name": "风沙鸣杨",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87077,16 +86857,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "萝垂带_测试用#41259 (30200 特效 破防 无双)": {
+        "朝濯玉#41259 (30200 特效 破防 无双)": {
             "id": 41259,
-            "name": "萝垂带_测试用",
+            "name": "朝濯玉",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23096,
+            "icon_id": 24194,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -87113,16 +86893,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "念三宝_测试用#41258 (30200 特效 无双)": {
+        "疏暮听蝉#41258 (30200 特效 无双)": {
             "id": 41258,
-            "name": "念三宝_测试用",
+            "name": "疏暮听蝉",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87146,16 +86926,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "度好日_测试用#41257 (30200 特效 破防 无双)": {
+        "镜思尘#41257 (30200 特效 破防 无双)": {
             "id": 41257,
-            "name": "度好日_测试用",
+            "name": "镜思尘",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87182,16 +86962,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "浮溪轻剑_测试用#41255 (30200 破招 无双)": {
+        "穆如轻剑#41255 (30200 破招 无双)": {
             "id": 41255,
-            "name": "浮溪轻剑_测试用",
+            "name": "穆如轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23032,
+            "icon_id": 24181,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -87214,16 +86994,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "云思扇_测试用#41254 (30200 破招 无双)": {
+        "方想扇#41254 (30200 破招 无双)": {
             "id": 41254,
-            "name": "云思扇_测试用",
+            "name": "方想扇",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23043,
+            "icon_id": 24185,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87246,16 +87026,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "幽篁弓_测试用#41253 (30200 破招 无双)": {
+        "灵涧弓#41253 (30200 破招 无双)": {
             "id": 41253,
-            "name": "幽篁弓_测试用",
+            "name": "灵涧弓",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23101,
+            "icon_id": 24195,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87278,16 +87058,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "倾翰刀_测试用#41252 (30200 破招 无双)": {
+        "止风刀#41252 (30200 破招 无双)": {
             "id": 41252,
-            "name": "倾翰刀_测试用",
+            "name": "止风刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23037,
+            "icon_id": 24184,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87310,16 +87090,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "窥岩卷_测试用#41250 (30200 破招 无双)": {
+        "然苍卷#41250 (30200 破招 无双)": {
             "id": 41250,
-            "name": "窥岩卷_测试用",
+            "name": "然苍卷",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23114,
+            "icon_id": 24198,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87342,16 +87122,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "闻传魂灯_测试用#41249 (30200 破招 无双)": {
+        "略星灯#41249 (30200 破招 无双)": {
             "id": 41249,
-            "name": "闻传魂灯_测试用",
+            "name": "略星灯",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23126,
+            "icon_id": 24197,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87374,16 +87154,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "枉隐链刃_测试用#41248 (30200 破招 无双)": {
+        "问义链刃#41248 (30200 破招 无双)": {
             "id": 41248,
-            "name": "枉隐链刃_测试用",
+            "name": "问义链刃",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23061,
+            "icon_id": 24187,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87406,16 +87186,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧涧伞_测试用#41247 (30200 破招 无双)": {
+        "濯波伞#41247 (30200 破招 无双)": {
             "id": 41247,
-            "name": "碧涧伞_测试用",
+            "name": "濯波伞",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23071,
+            "icon_id": 24189,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87438,16 +87218,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "凌寒刀_测试用#41246 (30200 破招 无双)": {
+        "如霆刀#41246 (30200 破招 无双)": {
             "id": 41246,
-            "name": "凌寒刀_测试用",
+            "name": "如霆刀",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23012,
+            "icon_id": 24179,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87470,16 +87250,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "碧缀琴_测试用#41244 (30200 破招 无双)": {
+        "令仪琴#41244 (30200 破招 无双)": {
             "id": 41244,
-            "name": "碧缀琴_测试用",
+            "name": "令仪琴",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23119,
+            "icon_id": 24199,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -87502,16 +87282,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "松门盾刀_测试用#41243 (30200 加速 无双)": {
+        "修能盾刀#41243 (30200 加速 无双)": {
             "id": 41243,
-            "name": "松门盾刀_测试用",
+            "name": "修能盾刀",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87532,16 +87312,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "云屯盾刀_测试用#41242 (30200 破招 无双)": {
+        "鼎胜盾刀#41242 (30200 破招 无双)": {
             "id": 41242,
-            "name": "云屯盾刀_测试用",
+            "name": "鼎胜盾刀",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -87564,16 +87344,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "万感刀_测试用#41241 (30200 加速 无双)": {
+        "幻焱双刀#41241 (30200 加速 无双)": {
             "id": 41241,
-            "name": "万感刀_测试用",
+            "name": "幻焱双刀",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87594,16 +87374,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "千念刀_测试用#41240 (30200 破招 无双)": {
+        "赫曦双刀#41240 (30200 破招 无双)": {
             "id": 41240,
-            "name": "千念刀_测试用",
+            "name": "赫曦双刀",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87626,16 +87406,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "客游棒_测试用#41239 (30200 破招 无双)": {
+        "旨酒棒#41239 (30200 破招 无双)": {
             "id": 41239,
-            "name": "客游棒_测试用",
+            "name": "旨酒棒",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23056,
+            "icon_id": 24186,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87658,16 +87438,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "浮溪轻剑_测试用#41237 (30200 破招 无双)": {
+        "穆如轻剑#41237 (30200 破招 无双)": {
             "id": 41237,
-            "name": "浮溪轻剑_测试用",
+            "name": "穆如轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23032,
+            "icon_id": 24181,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -87690,16 +87470,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "息舟弩_测试用#41236 (30200 破招 无双)": {
+        "竹取弩#41236 (30200 破招 无双)": {
             "id": 41236,
-            "name": "息舟弩_测试用",
+            "name": "竹取弩",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87722,16 +87502,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "十夕弩_测试用#41235 (30200 破招 无双)": {
+        "虬游弩#41235 (30200 破招 无双)": {
             "id": 41235,
-            "name": "十夕弩_测试用",
+            "name": "虬游弩",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -87754,16 +87534,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "皎明笛_测试用#41233 (30200 破招 无双)": {
+        "鸣鹭笛#41233 (30200 破招 无双)": {
             "id": 41233,
-            "name": "皎明笛_测试用",
+            "name": "鸣鹭笛",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23106,
+            "icon_id": 24196,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -87786,16 +87566,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "垂光双剑_测试用#41231 (30200 破招 无双)": {
+        "琼玖双剑#41231 (30200 破招 无双)": {
             "id": 41231,
-            "name": "垂光双剑_测试用",
+            "name": "琼玖双剑",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23076,
+            "icon_id": 24190,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -87818,16 +87598,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "微命剑_测试用#41230 (30200 破招 无双)": {
+        "言旋剑#41230 (30200 破招 无双)": {
             "id": 41230,
-            "name": "微命剑_测试用",
+            "name": "言旋剑",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -87850,16 +87630,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寸心剑_测试用#41229 (30200 破招 无双)": {
+        "瑞君剑#41229 (30200 破招 无双)": {
             "id": 41229,
-            "name": "寸心剑_测试用",
+            "name": "瑞君剑",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -87882,16 +87662,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "白圭枪_测试用#41228 (30200 加速 无双)": {
+        "戎昭枪#41228 (30200 加速 无双)": {
             "id": 41228,
-            "name": "白圭枪_测试用",
+            "name": "戎昭枪",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87912,16 +87692,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "暝投枪_测试用#41227 (30200 破招 无双)": {
+        "赫怒枪#41227 (30200 破招 无双)": {
             "id": 41227,
-            "name": "暝投枪_测试用",
+            "name": "赫怒枪",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -87944,16 +87724,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "览镜笔_测试用#41225 (30200 破招 无双)": {
+        "芃兰笔#41225 (30200 破招 无双)": {
             "id": 41225,
-            "name": "览镜笔_测试用",
+            "name": "芃兰笔",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23096,
+            "icon_id": 24194,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -87976,16 +87756,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "圆法棍_测试用#41224 (30200 加速 无双)": {
+        "苦劫棍#41224 (30200 加速 无双)": {
             "id": 41224,
-            "name": "圆法棍_测试用",
+            "name": "苦劫棍",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88006,16 +87786,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "灵真棍_测试用#41223 (30200 破招 无双)": {
+        "慧觉棍#41223 (30200 破招 无双)": {
             "id": 41223,
-            "name": "灵真棍_测试用",
+            "name": "慧觉棍",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88038,16 +87818,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "兰茂轻剑_测试用#41215 (30200 会心 无双)": {
+        "夕岚轻剑#41215 (30200 会心 无双)": {
             "id": 41215,
-            "name": "兰茂轻剑_测试用",
+            "name": "夕岚轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23032,
+            "icon_id": 24181,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -88070,16 +87850,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "馀樽扇_测试用#41214 (30200 会心 无双)": {
+        "锦章扇#41214 (30200 会心 无双)": {
             "id": 41214,
-            "name": "馀樽扇_测试用",
+            "name": "锦章扇",
             "school": "段氏",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23043,
+            "icon_id": 24185,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88102,16 +87882,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "衣香弓_测试用#41213 (30200 会心 无双)": {
+        "呦鸣弓#41213 (30200 会心 无双)": {
             "id": 41213,
-            "name": "衣香弓_测试用",
+            "name": "呦鸣弓",
             "school": "万灵",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23101,
+            "icon_id": 24195,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88134,16 +87914,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "酌谣刀_测试用#41212 (30200 会心 无双)": {
+        "逆雨刀#41212 (30200 会心 无双)": {
             "id": 41212,
-            "name": "酌谣刀_测试用",
+            "name": "逆雨刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23037,
+            "icon_id": 24184,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88166,16 +87946,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "流黄卷_测试用#41210 (30200 会心 无双)": {
+        "冷翠卷#41210 (30200 会心 无双)": {
             "id": 41210,
-            "name": "流黄卷_测试用",
+            "name": "冷翠卷",
             "school": "药宗",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23114,
+            "icon_id": 24198,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88198,16 +87978,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "广寒灯_测试用#41209 (30200 会心 无双)": {
+        "辰光灯#41209 (30200 会心 无双)": {
             "id": 41209,
-            "name": "广寒灯_测试用",
+            "name": "辰光灯",
             "school": "衍天",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23126,
+            "icon_id": 24197,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88230,16 +88010,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "凋翡链刃_测试用#41208 (30200 会心 无双)": {
+        "心祭链刃#41208 (30200 会心 无双)": {
             "id": 41208,
-            "name": "凋翡链刃_测试用",
+            "name": "心祭链刃",
             "school": "凌雪",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23061,
+            "icon_id": 24187,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88262,16 +88042,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "讵愁伞_测试用#41207 (30200 会心 无双)": {
+        "鉴海伞#41207 (30200 会心 无双)": {
             "id": 41207,
-            "name": "讵愁伞_测试用",
+            "name": "鉴海伞",
             "school": "蓬莱",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23071,
+            "icon_id": 24189,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88294,16 +88074,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "琼珍刀_测试用#41206 (30200 会心 无双)": {
+        "锋持刀#41206 (30200 会心 无双)": {
             "id": 41206,
-            "name": "琼珍刀_测试用",
+            "name": "锋持刀",
             "school": "霸刀",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23012,
+            "icon_id": 24179,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88326,16 +88106,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "行酌琴_测试用#41204 (30200 会心 无双)": {
+        "攸宁琴#41204 (30200 会心 无双)": {
             "id": 41204,
-            "name": "行酌琴_测试用",
+            "name": "攸宁琴",
             "school": "长歌",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23119,
+            "icon_id": 24199,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -88358,16 +88138,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "熠谷盾刀_测试用#41203 (30200 破招 无双)": {
+        "肃烈盾刀#41203 (30200 破招 无双)": {
             "id": 41203,
-            "name": "熠谷盾刀_测试用",
+            "name": "肃烈盾刀",
             "school": "苍云",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88388,16 +88168,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "燃山盾刀_测试用#41202 (30200 会心 无双)": {
+        "执干盾刀#41202 (30200 会心 无双)": {
             "id": 41202,
-            "name": "燃山盾刀_测试用",
+            "name": "执干盾刀",
             "school": "苍云",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23017,
+            "icon_id": 24180,
             "base": {
                 "weapon_damage_base": 7026,
                 "weapon_damage_rand": 4684
@@ -88420,16 +88200,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "川纱刀_测试用#41201 (30200 破招 无双)": {
+        "煜耀双刀#41201 (30200 破招 无双)": {
             "id": 41201,
-            "name": "川纱刀_测试用",
+            "name": "煜耀双刀",
             "school": "明教",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88450,16 +88230,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "边月刀_测试用#41200 (30200 会心 无双)": {
+        "爝火双刀#41200 (30200 会心 无双)": {
             "id": 41200,
-            "name": "边月刀_测试用",
+            "name": "爝火双刀",
             "school": "明教",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23066,
+            "icon_id": 24188,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88482,16 +88262,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "兰穆棒_测试用#41199 (30200 会心 无双)": {
+        "浪尘棒#41199 (30200 会心 无双)": {
             "id": 41199,
-            "name": "兰穆棒_测试用",
+            "name": "浪尘棒",
             "school": "丐帮",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23056,
+            "icon_id": 24186,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88514,16 +88294,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "兰茂轻剑_测试用#41197 (30200 会心 无双)": {
+        "夕岚轻剑#41197 (30200 会心 无双)": {
             "id": 41197,
-            "name": "兰茂轻剑_测试用",
+            "name": "夕岚轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23032,
+            "icon_id": 24181,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -88546,16 +88326,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "折险弩_测试用#41196 (30200 会心 无双)": {
+        "幽芒弩#41196 (30200 会心 无双)": {
             "id": 41196,
-            "name": "折险弩_测试用",
+            "name": "幽芒弩",
             "school": "唐门",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88578,16 +88358,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "照露弩_测试用#41195 (30200 会心 无双)": {
+        "残照弩#41195 (30200 会心 无双)": {
             "id": 41195,
-            "name": "照露弩_测试用",
+            "name": "残照弩",
             "school": "唐门",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23086,
+            "icon_id": 24192,
             "base": {
                 "weapon_damage_base": 4684,
                 "weapon_damage_rand": 3122
@@ -88610,16 +88390,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "幽人笛_测试用#41193 (30200 会心 无双)": {
+        "芃黍笛#41193 (30200 会心 无双)": {
             "id": 41193,
-            "name": "幽人笛_测试用",
+            "name": "芃黍笛",
             "school": "五毒",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23106,
+            "icon_id": 24196,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -88642,16 +88422,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "映雪双剑_测试用#41191 (30200 会心 无双)": {
+        "柔嘉双剑#41191 (30200 会心 无双)": {
             "id": 41191,
-            "name": "映雪双剑_测试用",
+            "name": "柔嘉双剑",
             "school": "七秀",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23076,
+            "icon_id": 24190,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -88674,16 +88454,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "楚泽剑_测试用#41190 (30200 会心 无双)": {
+        "深潭剑#41190 (30200 会心 无双)": {
             "id": 41190,
-            "name": "楚泽剑_测试用",
+            "name": "深潭剑",
             "school": "纯阳",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 6089,
                 "weapon_damage_rand": 4059
@@ -88706,16 +88486,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "朝真剑_测试用#41189 (30200 会心 无双)": {
+        "远浦剑#41189 (30200 会心 无双)": {
             "id": 41189,
-            "name": "朝真剑_测试用",
+            "name": "远浦剑",
             "school": "纯阳",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23022,
+            "icon_id": 24183,
             "base": {
                 "weapon_damage_base": 3044,
                 "weapon_damage_rand": 2030
@@ -88738,16 +88518,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "踏寒枪_测试用#41188 (30200 破招 无双)": {
+        "桓威枪#41188 (30200 破招 无双)": {
             "id": 41188,
-            "name": "踏寒枪_测试用",
+            "name": "桓威枪",
             "school": "天策",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88768,16 +88548,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "东川枪_测试用#41187 (30200 会心 无双)": {
+        "笳声枪#41187 (30200 会心 无双)": {
             "id": 41187,
-            "name": "东川枪_测试用",
+            "name": "笳声枪",
             "school": "天策",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23091,
+            "icon_id": 24193,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88800,16 +88580,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "愁悴笔_测试用#41185 (30200 会心 无双)": {
+        "晏粲笔#41185 (30200 会心 无双)": {
             "id": 41185,
-            "name": "愁悴笔_测试用",
+            "name": "晏粲笔",
             "school": "万花",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23096,
+            "icon_id": 24194,
             "base": {
                 "weapon_damage_base": 2342,
                 "weapon_damage_rand": 1561
@@ -88832,16 +88612,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "渡觉棍_测试用#41184 (30200 破招 无双)": {
+        "慈云棍#41184 (30200 破招 无双)": {
             "id": 41184,
-            "name": "渡觉棍_测试用",
+            "name": "慈云棍",
             "school": "少林",
             "kind": "防御",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -88862,16 +88642,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "灵音棍_测试用#41183 (30200 会心 无双)": {
+        "普济棍#41183 (30200 会心 无双)": {
             "id": 41183,
-            "name": "灵音棍_测试用",
+            "name": "普济棍",
             "school": "少林",
             "kind": "内功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23081,
+            "icon_id": 24191,
             "base": {
                 "weapon_damage_base": 7962,
                 "weapon_damage_rand": 5308
@@ -92480,16 +92260,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·云羽_测试用#41822 (25900 破防 无双)": {
+        "塞上寒威·闲旷#41822 (25900 破防 无双)": {
             "id": 41822,
-            "name": "孤山寒月·云羽_测试用",
+            "name": "塞上寒威·闲旷",
             "school": "段氏",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23050,
+            "icon_id": 23047,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92512,9 +92292,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·飞雀_测试用#41821 (25900 破防 无双)": {
+        "塞上寒威·袅缈#41821 (25900 破防 无双)": {
             "id": 41821,
-            "name": "孤山寒月·飞雀_测试用",
+            "name": "塞上寒威·袅缈",
             "school": "万灵",
             "kind": "外功",
             "level": 25900,
@@ -92544,16 +92324,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·狂沙_测试用#41820 (25900 破防 无双)": {
+        "塞上寒威·锋吟#41820 (25900 破防 无双)": {
             "id": 41820,
-            "name": "孤山寒月·狂沙_测试用",
+            "name": "塞上寒威·锋吟",
             "school": "刀宗",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 17823,
+            "icon_id": 17824,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -92576,16 +92356,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·和方_测试用#41818 (25900 破防 无双)": {
+        "塞上寒威·炉吟#41818 (25900 破防 无双)": {
             "id": 41818,
-            "name": "孤山寒月·和方_测试用",
+            "name": "塞上寒威·炉吟",
             "school": "药宗",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 15879,
+            "icon_id": 15880,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92608,16 +92388,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·玄夜_测试用#41817 (25900 破防 无双)": {
+        "塞上寒威·命仪#41817 (25900 破防 无双)": {
             "id": 41817,
-            "name": "孤山寒月·玄夜_测试用",
+            "name": "塞上寒威·命仪",
             "school": "衍天",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 14438,
+            "icon_id": 14441,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92640,16 +92420,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·血影_测试用#41816 (25900 破防 无双)": {
+        "塞上寒威·劫戮#41816 (25900 破防 无双)": {
             "id": 41816,
-            "name": "孤山寒月·血影_测试用",
+            "name": "塞上寒威·劫戮",
             "school": "凌雪",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 12245,
+            "icon_id": 12369,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -92672,9 +92452,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·琼华_测试用#41815 (25900 破防 无双)": {
+        "塞上寒威·逐蜃#41815 (25900 破防 无双)": {
             "id": 41815,
-            "name": "孤山寒月·琼华_测试用",
+            "name": "塞上寒威·逐蜃",
             "school": "蓬莱",
             "kind": "外功",
             "level": 25900,
@@ -92704,16 +92484,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·怒峰_测试用#41814 (25900 破防 无双)": {
+        "塞上寒威·急裂#41814 (25900 破防 无双)": {
             "id": 41814,
-            "name": "孤山寒月·怒峰_测试用",
+            "name": "塞上寒威·急裂",
             "school": "霸刀",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9173,
+            "icon_id": 10379,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -92736,16 +92516,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·仙音_测试用#41812 (25900 破防 无双)": {
+        "塞上寒威·流徽#41812 (25900 破防 无双)": {
             "id": 41812,
-            "name": "孤山寒月·仙音_测试用",
+            "name": "塞上寒威·流徽",
             "school": "长歌",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9171,
+            "icon_id": 10377,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -92768,16 +92548,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·烟荒_测试用#41811 (25900 无双)": {
+        "塞上寒威·辉烬#41811 (25900 无双)": {
             "id": 41811,
-            "name": "孤山寒月·烟荒_测试用",
+            "name": "塞上寒威·辉烬",
             "school": "苍云",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9182,
+            "icon_id": 10388,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -92796,16 +92576,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·旗影_测试用#41810 (25900 破防 无双)": {
+        "塞上寒威·镇岳#41810 (25900 破防 无双)": {
             "id": 41810,
-            "name": "孤山寒月·旗影_测试用",
+            "name": "塞上寒威·镇岳",
             "school": "苍云",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9182,
+            "icon_id": 10388,
             "base": {
                 "weapon_damage_base": 6025,
                 "weapon_damage_rand": 4017
@@ -92828,16 +92608,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·夕光_测试用#41809 (25900 无双)": {
+        "塞上寒威·冥升#41809 (25900 无双)": {
             "id": 41809,
-            "name": "孤山寒月·夕光_测试用",
+            "name": "塞上寒威·冥升",
             "school": "明教",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9181,
+            "icon_id": 10386,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92856,16 +92636,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·漠风_测试用#41808 (25900 破防 无双)": {
+        "塞上寒威·赤陨#41808 (25900 破防 无双)": {
             "id": 41808,
-            "name": "孤山寒月·漠风_测试用",
+            "name": "塞上寒威·赤陨",
             "school": "明教",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9181,
+            "icon_id": 10386,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92888,16 +92668,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·金龙_测试用#41807 (25900 破防 无双)": {
+        "塞上寒威·阔野#41807 (25900 破防 无双)": {
             "id": 41807,
-            "name": "孤山寒月·金龙_测试用",
+            "name": "塞上寒威·阔野",
             "school": "丐帮",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9172,
+            "icon_id": 10378,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -92920,16 +92700,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·清泉_测试用#41805 (25900 破防 无双)": {
+        "塞上寒威·酒幔#41805 (25900 破防 无双)": {
             "id": 41805,
-            "name": "孤山寒月·清泉_测试用",
+            "name": "塞上寒威·酒幔",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9175,
+            "icon_id": 10380,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -92952,16 +92732,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·烈风_测试用#41804 (25900 破防 无双)": {
+        "塞上寒威·匣鸣#41804 (25900 破防 无双)": {
             "id": 41804,
-            "name": "孤山寒月·烈风_测试用",
+            "name": "塞上寒威·匣鸣",
             "school": "唐门",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9174,
+            "icon_id": 10387,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -92984,16 +92764,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·疾电_测试用#41803 (25900 破防 无双)": {
+        "塞上寒威·绝翎#41803 (25900 破防 无双)": {
             "id": 41803,
-            "name": "孤山寒月·疾电_测试用",
+            "name": "塞上寒威·绝翎",
             "school": "唐门",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9174,
+            "icon_id": 10387,
             "base": {
                 "weapon_damage_base": 4017,
                 "weapon_damage_rand": 2678
@@ -93016,16 +92796,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·蓝翎_测试用#41801 (25900 破防 无双)": {
+        "塞上寒威·碧歌#41801 (25900 破防 无双)": {
             "id": 41801,
-            "name": "孤山寒月·蓝翎_测试用",
+            "name": "塞上寒威·碧歌",
             "school": "五毒",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9180,
+            "icon_id": 10385,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -93048,16 +92828,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·明珠_测试用#41799 (25900 破防 无双)": {
+        "塞上寒威·水碧#41799 (25900 破防 无双)": {
             "id": 41799,
-            "name": "孤山寒月·明珠_测试用",
+            "name": "塞上寒威·水碧",
             "school": "七秀",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9179,
+            "icon_id": 10384,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -93080,16 +92860,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·云霄_测试用#41798 (25900 破防 无双)": {
+        "塞上寒威·云罡#41798 (25900 破防 无双)": {
             "id": 41798,
-            "name": "孤山寒月·云霄_测试用",
+            "name": "塞上寒威·云罡",
             "school": "纯阳",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9169,
+            "icon_id": 10375,
             "base": {
                 "weapon_damage_base": 5222,
                 "weapon_damage_rand": 3481
@@ -93112,16 +92892,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·雪岚_测试用#41797 (25900 破防 无双)": {
+        "塞上寒威·冲和#41797 (25900 破防 无双)": {
             "id": 41797,
-            "name": "孤山寒月·雪岚_测试用",
+            "name": "塞上寒威·冲和",
             "school": "纯阳",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9169,
+            "icon_id": 10375,
             "base": {
                 "weapon_damage_base": 2611,
                 "weapon_damage_rand": 1741
@@ -93144,16 +92924,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·白虎_测试用#41796 (25900 无双)": {
+        "塞上寒威·戟魄#41796 (25900 无双)": {
             "id": 41796,
-            "name": "孤山寒月·白虎_测试用",
+            "name": "塞上寒威·戟魄",
             "school": "天策",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9177,
+            "icon_id": 10382,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -93172,16 +92952,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·川风_测试用#41795 (25900 破防 无双)": {
+        "塞上寒威·戍泣#41795 (25900 破防 无双)": {
             "id": 41795,
-            "name": "孤山寒月·川风_测试用",
+            "name": "塞上寒威·戍泣",
             "school": "天策",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9177,
+            "icon_id": 10382,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -93204,16 +92984,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·花影_测试用#41793 (25900 破防 无双)": {
+        "塞上寒威·砚心#41793 (25900 破防 无双)": {
             "id": 41793,
-            "name": "孤山寒月·花影_测试用",
+            "name": "塞上寒威·砚心",
             "school": "万花",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9178,
+            "icon_id": 10383,
             "base": {
                 "weapon_damage_base": 2008,
                 "weapon_damage_rand": 1339
@@ -93236,16 +93016,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·净土_测试用#41792 (25900 无双)": {
+        "塞上寒威·眠风#41792 (25900 无双)": {
             "id": 41792,
-            "name": "孤山寒月·净土_测试用",
+            "name": "塞上寒威·眠风",
             "school": "少林",
             "kind": "防御",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9170,
+            "icon_id": 10376,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -93265,16 +93045,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·普济_测试用#41791 (25900 破防 无双)": {
+        "塞上寒威·明慈#41791 (25900 破防 无双)": {
             "id": 41791,
-            "name": "孤山寒月·普济_测试用",
+            "name": "塞上寒威·明慈",
             "school": "少林",
             "kind": "内功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9170,
+            "icon_id": 10376,
             "base": {
                 "weapon_damage_base": 6828,
                 "weapon_damage_rand": 4552
@@ -93297,9 +93077,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·群殊扇_测试用#41176 (25900 特效 破招 无双)": {
+        "寻踪觅宝·熙阳扇#41176 (25900 特效 破招 无双)": {
             "id": 41176,
-            "name": "寻踪觅宝·群殊扇_测试用",
+            "name": "寻踪觅宝·熙阳扇",
             "school": "段氏",
             "kind": "内功",
             "level": 25900,
@@ -93333,9 +93113,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·惊鹊弓箭_测试用#41175 (25900 特效 破招 无双)": {
+        "寻踪觅宝·飞鸢弓#41175 (25900 特效 破招 无双)": {
             "id": 41175,
-            "name": "寻踪觅宝·惊鹊弓箭_测试用",
+            "name": "寻踪觅宝·飞鸢弓",
             "school": "万灵",
             "kind": "外功",
             "level": 25900,
@@ -93369,9 +93149,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·潮周刀_测试用#41174 (25900 特效 破招 无双)": {
+        "寻踪觅宝·迅隼刀#41174 (25900 特效 破招 无双)": {
             "id": 41174,
-            "name": "寻踪觅宝·潮周刀_测试用",
+            "name": "寻踪觅宝·迅隼刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 25900,
@@ -93405,9 +93185,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·放夏卷_测试用#41172 (25900 特效 破招 无双)": {
+        "寻踪觅宝·嘉卉卷#41172 (25900 特效 破招 无双)": {
             "id": 41172,
-            "name": "寻踪觅宝·放夏卷_测试用",
+            "name": "寻踪觅宝·嘉卉卷",
             "school": "药宗",
             "kind": "内功",
             "level": 25900,
@@ -93441,9 +93221,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·朗月灯_测试用#41171 (25900 特效 破招 无双)": {
+        "寻踪觅宝·辰耀灯#41171 (25900 特效 破招 无双)": {
             "id": 41171,
-            "name": "寻踪觅宝·朗月灯_测试用",
+            "name": "寻踪觅宝·辰耀灯",
             "school": "衍天",
             "kind": "内功",
             "level": 25900,
@@ -93477,9 +93257,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·负山链刃_测试用#41170 (25900 特效 破招 无双)": {
+        "寻踪觅宝·权变链刃#41170 (25900 特效 破招 无双)": {
             "id": 41170,
-            "name": "寻踪觅宝·负山链刃_测试用",
+            "name": "寻踪觅宝·权变链刃",
             "school": "凌雪",
             "kind": "外功",
             "level": 25900,
@@ -93513,9 +93293,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·异源伞_测试用#41169 (25900 特效 破招 无双)": {
+        "寻踪觅宝·逸翮伞#41169 (25900 特效 破招 无双)": {
             "id": 41169,
-            "name": "寻踪觅宝·异源伞_测试用",
+            "name": "寻踪觅宝·逸翮伞",
             "school": "蓬莱",
             "kind": "外功",
             "level": 25900,
@@ -93549,9 +93329,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·肃思刀_测试用#41168 (25900 特效 破招 无双)": {
+        "寻踪觅宝·赳桓刀#41168 (25900 特效 破招 无双)": {
             "id": 41168,
-            "name": "寻踪觅宝·肃思刀_测试用",
+            "name": "寻踪觅宝·赳桓刀",
             "school": "霸刀",
             "kind": "外功",
             "level": 25900,
@@ -93585,9 +93365,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·衔书琴_测试用#41166 (25900 特效 破招 无双)": {
+        "寻踪觅宝·令仪琴#41166 (25900 特效 破招 无双)": {
             "id": 41166,
-            "name": "寻踪觅宝·衔书琴_测试用",
+            "name": "寻踪觅宝·令仪琴",
             "school": "长歌",
             "kind": "内功",
             "level": 25900,
@@ -93621,9 +93401,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·负山刀盾_测试用#41165 (25900 特效 破招 无双)": {
+        "寻踪觅宝·笃敬盾刀#41165 (25900 特效 破招 无双)": {
             "id": 41165,
-            "name": "寻踪觅宝·负山刀盾_测试用",
+            "name": "寻踪觅宝·笃敬盾刀",
             "school": "苍云",
             "kind": "防御",
             "level": 25900,
@@ -93655,9 +93435,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·成渊刀盾_测试用#41164 (25900 特效 破招 无双)": {
+        "寻踪觅宝·弘毅盾刀#41164 (25900 特效 破招 无双)": {
             "id": 41164,
-            "name": "寻踪觅宝·成渊刀盾_测试用",
+            "name": "寻踪觅宝·弘毅盾刀",
             "school": "苍云",
             "kind": "外功",
             "level": 25900,
@@ -93691,9 +93471,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·自逸双刀_测试用#41163 (25900 特效 破招 无双)": {
+        "寻踪觅宝·奇谲双刀#41163 (25900 特效 破招 无双)": {
             "id": 41163,
-            "name": "寻踪觅宝·自逸双刀_测试用",
+            "name": "寻踪觅宝·奇谲双刀",
             "school": "明教",
             "kind": "防御",
             "level": 25900,
@@ -93725,9 +93505,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·蒲陶双刀_测试用#41162 (25900 特效 破招 无双)": {
+        "寻踪觅宝·魅雾双刀#41162 (25900 特效 破招 无双)": {
             "id": 41162,
-            "name": "寻踪觅宝·蒲陶双刀_测试用",
+            "name": "寻踪觅宝·魅雾双刀",
             "school": "明教",
             "kind": "内功",
             "level": 25900,
@@ -93761,9 +93541,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·泛游棒_测试用#41161 (25900 特效 破招 无双)": {
+        "寻踪觅宝·清飏棒#41161 (25900 特效 破招 无双)": {
             "id": 41161,
-            "name": "寻踪觅宝·泛游棒_测试用",
+            "name": "寻踪觅宝·清飏棒",
             "school": "丐帮",
             "kind": "外功",
             "level": 25900,
@@ -93797,9 +93577,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·候岁剑_测试用#41159 (25900 特效 破招 无双)": {
+        "寻踪觅宝·灵雨轻剑#41159 (25900 特效 破招 无双)": {
             "id": 41159,
-            "name": "寻踪觅宝·候岁剑_测试用",
+            "name": "寻踪觅宝·灵雨轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
@@ -93833,9 +93613,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·声流弩_测试用#41158 (25900 特效 破招 无双)": {
+        "寻踪觅宝·冥矢弩#41158 (25900 特效 破招 无双)": {
             "id": 41158,
-            "name": "寻踪觅宝·声流弩_测试用",
+            "name": "寻踪觅宝·冥矢弩",
             "school": "唐门",
             "kind": "外功",
             "level": 25900,
@@ -93869,9 +93649,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·竹色弩_测试用#41157 (25900 特效 破招 无双)": {
+        "寻踪觅宝·幽棘弩#41157 (25900 特效 破招 无双)": {
             "id": 41157,
-            "name": "寻踪觅宝·竹色弩_测试用",
+            "name": "寻踪觅宝·幽棘弩",
             "school": "唐门",
             "kind": "内功",
             "level": 25900,
@@ -93905,9 +93685,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·碧华笛_测试用#41155 (25900 特效 破招 无双)": {
+        "寻踪觅宝·猗傩笛#41155 (25900 特效 破招 无双)": {
             "id": 41155,
-            "name": "寻踪觅宝·碧华笛_测试用",
+            "name": "寻踪觅宝·猗傩笛",
             "school": "五毒",
             "kind": "内功",
             "level": 25900,
@@ -93941,9 +93721,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·楹铭双剑_测试用#41153 (25900 特效 破招 无双)": {
+        "寻踪觅宝·敏达双剑#41153 (25900 特效 破招 无双)": {
             "id": 41153,
-            "name": "寻踪觅宝·楹铭双剑_测试用",
+            "name": "寻踪觅宝·敏达双剑",
             "school": "七秀",
             "kind": "内功",
             "level": 25900,
@@ -93977,9 +93757,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·折梅剑_测试用#41152 (25900 特效 破招 无双)": {
+        "寻踪觅宝·坤始剑#41152 (25900 特效 破招 无双)": {
             "id": 41152,
-            "name": "寻踪觅宝·折梅剑_测试用",
+            "name": "寻踪觅宝·坤始剑",
             "school": "纯阳",
             "kind": "外功",
             "level": 25900,
@@ -94013,9 +93793,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·北阙剑_测试用#41151 (25900 特效 破招 无双)": {
+        "寻踪觅宝·诚明剑#41151 (25900 特效 破招 无双)": {
             "id": 41151,
-            "name": "寻踪觅宝·北阙剑_测试用",
+            "name": "寻踪觅宝·诚明剑",
             "school": "纯阳",
             "kind": "内功",
             "level": 25900,
@@ -94049,9 +93829,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·振摇枪_测试用#41150 (25900 特效 破招 无双)": {
+        "寻踪觅宝·贵义枪#41150 (25900 特效 破招 无双)": {
             "id": 41150,
-            "name": "寻踪觅宝·振摇枪_测试用",
+            "name": "寻踪觅宝·贵义枪",
             "school": "天策",
             "kind": "防御",
             "level": 25900,
@@ -94083,9 +93863,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·宣光枪_测试用#41149 (25900 特效 破招 无双)": {
+        "寻踪觅宝·节用枪#41149 (25900 特效 破招 无双)": {
             "id": 41149,
-            "name": "寻踪觅宝·宣光枪_测试用",
+            "name": "寻踪觅宝·节用枪",
             "school": "天策",
             "kind": "外功",
             "level": 25900,
@@ -94119,9 +93899,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·丹篆笔_测试用#41147 (25900 特效 破招 无双)": {
+        "寻踪觅宝·环枢笔#41147 (25900 特效 破招 无双)": {
             "id": 41147,
-            "name": "寻踪觅宝·丹篆笔_测试用",
+            "name": "寻踪觅宝·环枢笔",
             "school": "万花",
             "kind": "内功",
             "level": 25900,
@@ -94155,9 +93935,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·箴规棍_测试用#41146 (25900 特效 破招 无双)": {
+        "寻踪觅宝·厚发棍#41146 (25900 特效 破招 无双)": {
             "id": 41146,
-            "name": "寻踪觅宝·箴规棍_测试用",
+            "name": "寻踪觅宝·厚发棍",
             "school": "少林",
             "kind": "防御",
             "level": 25900,
@@ -94189,9 +93969,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·丰灵棍_测试用#41145 (25900 特效 破招 无双)": {
+        "寻踪觅宝·悟和棍#41145 (25900 特效 破招 无双)": {
             "id": 41145,
-            "name": "寻踪觅宝·丰灵棍_测试用",
+            "name": "寻踪觅宝·悟和棍",
             "school": "少林",
             "kind": "内功",
             "level": 25900,
@@ -101462,9 +101242,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "玄壁扇_测试用#41144 (23000 会心 无双)": {
+        "奎安扇#41144 (23000 会心 无双)": {
             "id": 41144,
-            "name": "玄壁扇_测试用",
+            "name": "奎安扇",
             "school": "段氏",
             "kind": "内功",
             "level": 23000,
@@ -101494,9 +101274,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "坞壁弓箭_测试用#41143 (23000 会心 无双)": {
+        "奎福弓#41143 (23000 会心 无双)": {
             "id": 41143,
-            "name": "坞壁弓箭_测试用",
+            "name": "奎福弓",
             "school": "万灵",
             "kind": "外功",
             "level": 23000,
@@ -101526,9 +101306,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "峻壁刀_测试用#41142 (23000 会心 无双)": {
+        "奎雄刀#41142 (23000 会心 无双)": {
             "id": 41142,
-            "name": "峻壁刀_测试用",
+            "name": "奎雄刀",
             "school": "刀宗",
             "kind": "外功",
             "level": 23000,
@@ -101558,9 +101338,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "踏壁卷_测试用#41140 (23000 会心 无双)": {
+        "奎顺卷#41140 (23000 会心 无双)": {
             "id": 41140,
-            "name": "踏壁卷_测试用",
+            "name": "奎顺卷",
             "school": "药宗",
             "kind": "内功",
             "level": 23000,
@@ -101590,9 +101370,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "合壁灯_测试用#41139 (23000 会心 无双)": {
+        "奎星灯#41139 (23000 会心 无双)": {
             "id": 41139,
-            "name": "合壁灯_测试用",
+            "name": "奎星灯",
             "school": "衍天",
             "kind": "内功",
             "level": 23000,
@@ -101622,9 +101402,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "九壁链刃_测试用#41138 (23000 会心 无双)": {
+        "奎武链刃#41138 (23000 会心 无双)": {
             "id": 41138,
-            "name": "九壁链刃_测试用",
+            "name": "奎武链刃",
             "school": "凌雪",
             "kind": "外功",
             "level": 23000,
@@ -101654,9 +101434,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "向壁伞_测试用#41137 (23000 会心 无双)": {
+        "奎捷伞#41137 (23000 会心 无双)": {
             "id": 41137,
-            "name": "向壁伞_测试用",
+            "name": "奎捷伞",
             "school": "蓬莱",
             "kind": "外功",
             "level": 23000,
@@ -101686,9 +101466,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "坚壁刀_测试用#41136 (23000 会心 无双)": {
+        "奎峰刀#41136 (23000 会心 无双)": {
             "id": 41136,
-            "name": "坚壁刀_测试用",
+            "name": "奎峰刀",
             "school": "霸刀",
             "kind": "外功",
             "level": 23000,
@@ -101718,9 +101498,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "东壁琴_测试用#41134 (23000 会心 无双)": {
+        "奎杰琴#41134 (23000 会心 无双)": {
             "id": 41134,
-            "name": "东壁琴_测试用",
+            "name": "奎杰琴",
             "school": "长歌",
             "kind": "内功",
             "level": 23000,
@@ -101750,9 +101530,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "破壁刀盾_测试用#41133 (23000 无双)": {
+        "奎志刀盾#41133 (23000 无双)": {
             "id": 41133,
-            "name": "破壁刀盾_测试用",
+            "name": "奎志刀盾",
             "school": "苍云",
             "kind": "防御",
             "level": 23000,
@@ -101778,9 +101558,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "离壁刀盾_测试用#41132 (23000 会心 无双)": {
+        "奎轩刀盾#41132 (23000 会心 无双)": {
             "id": 41132,
-            "name": "离壁刀盾_测试用",
+            "name": "奎轩刀盾",
             "school": "苍云",
             "kind": "外功",
             "level": 23000,
@@ -101810,9 +101590,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "层壁双刀_测试用#41131 (23000 无双)": {
+        "奎虎双刀#41131 (23000 无双)": {
             "id": 41131,
-            "name": "层壁双刀_测试用",
+            "name": "奎虎双刀",
             "school": "明教",
             "kind": "防御",
             "level": 23000,
@@ -101838,9 +101618,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁语双刀_测试用#41130 (23000 会心 无双)": {
+        "奎龙双刀#41130 (23000 会心 无双)": {
             "id": 41130,
-            "name": "壁语双刀_测试用",
+            "name": "奎龙双刀",
             "school": "明教",
             "kind": "内功",
             "level": 23000,
@@ -101870,9 +101650,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁牙棒_测试用#41129 (23000 会心 无双)": {
+        "奎光棒#41129 (23000 会心 无双)": {
             "id": 41129,
-            "name": "壁牙棒_测试用",
+            "name": "奎光棒",
             "school": "丐帮",
             "kind": "外功",
             "level": 23000,
@@ -101902,9 +101682,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "穿壁轻剑_测试用#41127 (23000 会心 无双)": {
+        "奎才轻剑#41127 (23000 会心 无双)": {
             "id": 41127,
-            "name": "穿壁轻剑_测试用",
+            "name": "奎才轻剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 23000,
@@ -101934,9 +101714,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "列壁弩_测试用#41126 (23000 会心 无双)": {
+        "奎德弩#41126 (23000 会心 无双)": {
             "id": 41126,
-            "name": "列壁弩_测试用",
+            "name": "奎德弩",
             "school": "唐门",
             "kind": "外功",
             "level": 23000,
@@ -101966,9 +101746,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "影壁弩_测试用#41125 (23000 会心 无双)": {
+        "奎城弩#41125 (23000 会心 无双)": {
             "id": 41125,
-            "name": "影壁弩_测试用",
+            "name": "奎城弩",
             "school": "唐门",
             "kind": "内功",
             "level": 23000,
@@ -101998,9 +101778,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "尺壁笛_测试用#41123 (23000 会心 无双)": {
+        "奎辰笛#41123 (23000 会心 无双)": {
             "id": 41123,
-            "name": "尺壁笛_测试用",
+            "name": "奎辰笛",
             "school": "五毒",
             "kind": "内功",
             "level": 23000,
@@ -102030,9 +101810,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "霞壁双剑_测试用#41121 (23000 会心 无双)": {
+        "奎雪双剑#41121 (23000 会心 无双)": {
             "id": 41121,
-            "name": "霞壁双剑_测试用",
+            "name": "奎雪双剑",
             "school": "七秀",
             "kind": "内功",
             "level": 23000,
@@ -102062,9 +101842,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁灵剑_测试用#41120 (23000 会心 无双)": {
+        "奎河剑#41120 (23000 会心 无双)": {
             "id": 41120,
-            "name": "壁灵剑_测试用",
+            "name": "奎河剑",
             "school": "纯阳",
             "kind": "外功",
             "level": 23000,
@@ -102094,9 +101874,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁云剑_测试用#41119 (23000 会心 无双)": {
+        "奎风剑#41119 (23000 会心 无双)": {
             "id": 41119,
-            "name": "壁云剑_测试用",
+            "name": "奎风剑",
             "school": "纯阳",
             "kind": "内功",
             "level": 23000,
@@ -102126,9 +101906,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "亭壁枪_测试用#41118 (23000 无双)": {
+        "奎林枪#41118 (23000 无双)": {
             "id": 41118,
-            "name": "亭壁枪_测试用",
+            "name": "奎林枪",
             "school": "天策",
             "kind": "防御",
             "level": 23000,
@@ -102154,9 +101934,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "赤壁枪_测试用#41117 (23000 会心 无双)": {
+        "奎阳枪#41117 (23000 会心 无双)": {
             "id": 41117,
-            "name": "赤壁枪_测试用",
+            "name": "奎阳枪",
             "school": "天策",
             "kind": "外功",
             "level": 23000,
@@ -102186,9 +101966,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "壁泉笔_测试用#41115 (23000 会心 无双)": {
+        "奎文笔#41115 (23000 会心 无双)": {
             "id": 41115,
-            "name": "壁泉笔_测试用",
+            "name": "奎文笔",
             "school": "万花",
             "kind": "内功",
             "level": 23000,
@@ -102218,9 +101998,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "重壁棍_测试用#41114 (23000 无双)": {
+        "奎海棍#41114 (23000 无双)": {
             "id": 41114,
-            "name": "重壁棍_测试用",
+            "name": "奎海棍",
             "school": "少林",
             "kind": "防御",
             "level": 23000,
@@ -102247,9 +102027,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "悬壁棍_测试用#41113 (23000 会心 无双)": {
+        "奎宇棍#41113 (23000 会心 无双)": {
             "id": 41113,
-            "name": "悬壁棍_测试用",
+            "name": "奎宇棍",
             "school": "少林",
             "kind": "内功",
             "level": 23000,
@@ -121592,9 +121372,9 @@ EQUIPMENTS = {
         }
     },
     "secondary_weapon": {
-        "寂夜听雷_测试用#42156 (25300 特效 会心 破防 加速)": {
+        "寂夜听雷#42156 (25300 特效 会心 破防 加速)": {
             "id": 42156,
-            "name": "寂夜听雷_测试用",
+            "name": "寂夜听雷",
             "school": "藏剑",
             "kind": "外功",
             "level": 25300,
@@ -121646,9 +121426,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寂夜听雷_测试用#42124 (23650 特效 会心 破防 加速)": {
+        "寂夜听雷#42124 (23650 特效 会心 破防 加速)": {
             "id": 42124,
-            "name": "寂夜听雷_测试用",
+            "name": "寂夜听雷",
             "school": "藏剑",
             "kind": "外功",
             "level": 23650,
@@ -121700,16 +121480,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "月寒_测试用#41310 (30700 会心 无双)": {
+        "云作雪#41310 (30700 会心 无双)": {
             "id": 41310,
-            "name": "月寒_测试用",
+            "name": "云作雪",
             "school": "藏剑",
             "kind": "外功",
             "level": 30700,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23031,
+            "icon_id": 24203,
             "base": {
                 "weapon_damage_base": 9523,
                 "weapon_damage_rand": 6348
@@ -121786,16 +121566,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "掩章_测试用#41372 (30200 破招 无双)": {
+        "金泉#41372 (30200 破招 无双)": {
             "id": 41372,
-            "name": "掩章_测试用",
+            "name": "金泉",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9769,
+            "icon_id": 12921,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -121818,16 +121598,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "玉音迟_测试用#41272 (30200 特效 破防 无双)": {
+        "烟雨淬锋#41272 (30200 特效 破防 无双)": {
             "id": 41272,
-            "name": "玉音迟_测试用",
+            "name": "烟雨淬锋",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23030,
+            "icon_id": 24182,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -121854,16 +121634,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "随山重剑_测试用#41256 (30200 破招 无双)": {
+        "穆如重剑#41256 (30200 破招 无双)": {
             "id": 41256,
-            "name": "随山重剑_测试用",
+            "name": "穆如重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23030,
+            "icon_id": 24182,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -121886,16 +121666,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "随山重剑_测试用#41238 (30200 破招 无双)": {
+        "穆如重剑#41238 (30200 破招 无双)": {
             "id": 41238,
-            "name": "随山重剑_测试用",
+            "name": "穆如重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23030,
+            "icon_id": 24182,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -121918,16 +121698,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "柳繁重剑_测试用#41216 (30200 会心 无双)": {
+        "夕岚重剑#41216 (30200 会心 无双)": {
             "id": 41216,
-            "name": "柳繁重剑_测试用",
+            "name": "夕岚重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23030,
+            "icon_id": 24182,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -121950,16 +121730,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "柳繁重剑_测试用#41198 (30200 会心 无双)": {
+        "夕岚重剑#41198 (30200 会心 无双)": {
             "id": 41198,
-            "name": "柳繁重剑_测试用",
+            "name": "夕岚重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 30200,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 23030,
+            "icon_id": 24182,
             "base": {
                 "weapon_damage_base": 9367,
                 "weapon_damage_rand": 6245
@@ -122122,16 +121902,16 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "孤山寒月·瑞光_测试用#41806 (25900 破防 无双)": {
+        "塞上寒威·吟怀#41806 (25900 破防 无双)": {
             "id": 41806,
-            "name": "孤山寒月·瑞光_测试用",
+            "name": "塞上寒威·吟怀",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
             "max_strength": 6,
             "special_enchant": 0,
             "set_id": 0,
-            "icon_id": 9176,
+            "icon_id": 10381,
             "base": {
                 "weapon_damage_base": 8034,
                 "weapon_damage_rand": 5356
@@ -122154,9 +121934,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "寻踪觅宝·舟行重剑_测试用#41160 (25900 特效 破招 无双)": {
+        "寻踪觅宝·灵雨重剑#41160 (25900 特效 破招 无双)": {
             "id": 41160,
-            "name": "寻踪觅宝·舟行重剑_测试用",
+            "name": "寻踪觅宝·灵雨重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 25900,
@@ -122534,9 +122314,9 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
-        "护壁重剑_测试用#41128 (23000 会心 无双)": {
+        "奎辉重剑#41128 (23000 会心 无双)": {
             "id": 41128,
-            "name": "护壁重剑_测试用",
+            "name": "奎辉重剑",
             "school": "藏剑",
             "kind": "外功",
             "level": 23000,

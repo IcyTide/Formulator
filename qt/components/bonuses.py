@@ -163,6 +163,8 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "药宗")
 
         tab_layout.addWidget(self.create_rate("配伍"), 0, 0)
+        tab_layout.addWidget(self.create_stack("飘黄"), 1, 0)
+        tab_layout.addWidget(self.create_rate("飘黄"), 1, 1)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
@@ -219,6 +221,8 @@ class TeamGainsWidget(QWidget):
         self.team_gains["庄周梦"]["rate"].spin_box.setValue(100)
 
         self.team_gains["配伍"]["rate"].spin_box.setValue(100)
+        self.team_gains["飘黄"]["stack"].spin_box.setValue(100)
+        self.team_gains["飘黄"]["rate"].spin_box.setValue(100)
 
     def clear_bonuses(self):
         for bonus in self.team_gains.values():
