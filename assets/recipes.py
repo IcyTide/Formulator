@@ -957,7 +957,7 @@ RECIPES = {
             "recipe_name": "PVE6件套_花间"
         },
         2: {
-            "damage_addition": 102,
+            "damage_addition": 51,
             "skill_id": 415,
             "recipe_type": 415,
             "recipe_name": "PVE6件套_傲血"

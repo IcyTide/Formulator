@@ -483,10 +483,10 @@ class Parser(BaseParser):
             return False
         if buff.recipes:
             return True
-        if buff.attributes:
-            if all("attack_power" in attr for attr in buff.attributes) and not damage.attack_power_call:
+        if buff.attribute_effects:
+            if all("attack_power" in attr for attr in buff.attribute_effects) and not damage.attack_power_call:
                 return False
-            elif all("surplus" in attr for attr in buff.attributes) and not damage.surplus_call:
+            elif all("surplus" in attr for attr in buff.attribute_effects) and not damage.surplus_call:
                 return False
             return True
 

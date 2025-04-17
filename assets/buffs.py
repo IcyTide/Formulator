@@ -1,7 +1,7 @@
 BUFFS = {
     27784: {
         "attributes": {
-            "surplus_base": 2541
+            "surplus_base": 2922
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·煎豆腐。",
@@ -11,7 +11,7 @@ BUFFS = {
     },
     27785: {
         "attributes": {
-            "strain_base": 2541
+            "strain_base": 2922
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·炖豆腐",
@@ -21,7 +21,7 @@ BUFFS = {
     },
     27786: {
         "attributes": {
-            "magical_attack_power_base": 768
+            "magical_attack_power_base": 882
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·小炒青菜",
@@ -31,8 +31,8 @@ BUFFS = {
     },
     27787: {
         "attributes": {
-            "physical_overcome_base": 2541,
-            "magical_overcome_base": 2541
+            "physical_overcome_base": 2922,
+            "magical_overcome_base": 2922
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·清蒸鲈鱼",
@@ -42,7 +42,7 @@ BUFFS = {
     },
     27788: {
         "attributes": {
-            "all_critical_strike_base": 2541
+            "all_critical_strike_base": 2922
         },
         "max_level": 1,
         "buff_name": "刚吃过断浪·炸鱼干",
@@ -68,7 +68,7 @@ BUFFS = {
     },
     27791: {
         "attributes": {
-            "max_life_add": 12711
+            "max_life_add": 14611
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·油炸花生米",
@@ -78,7 +78,7 @@ BUFFS = {
     },
     27792: {
         "attributes": {
-            "physical_attack_power_base": 690
+            "physical_attack_power_base": 793
         },
         "max_level": 1,
         "buff_name": "刚吃过风语·葫芦叫花鸡",
@@ -88,7 +88,7 @@ BUFFS = {
     },
     17347: {
         "attributes": {
-            "strength_base": 86
+            "strength_base": 99
         },
         "max_level": 1,
         "buff_name": "汾酒",
@@ -98,7 +98,7 @@ BUFFS = {
     },
     17348: {
         "attributes": {
-            "strength_base": 172
+            "strength_base": 198
         },
         "max_level": 1,
         "buff_name": "汾酒·今朝醉",
@@ -109,10 +109,10 @@ BUFFS = {
     17349: {
         "attributes": [
             {
-                "strength_base": 258
+                "strength_base": 297
             },
             {
-                "strength_base": 344
+                "strength_base": 396
             }
         ],
         "max_level": 2,
@@ -129,7 +129,7 @@ BUFFS = {
     },
     17350: {
         "attributes": {
-            "agility_base": 86
+            "agility_base": 99
         },
         "max_level": 1,
         "buff_name": "关外白酒",
@@ -139,7 +139,7 @@ BUFFS = {
     },
     17351: {
         "attributes": {
-            "agility_base": 172
+            "agility_base": 198
         },
         "max_level": 1,
         "buff_name": "关外白酒·今朝醉",
@@ -150,10 +150,10 @@ BUFFS = {
     17352: {
         "attributes": [
             {
-                "agility_base": 258
+                "agility_base": 297
             },
             {
-                "agility_base": 344
+                "agility_base": 396
             }
         ],
         "max_level": 2,
@@ -170,7 +170,7 @@ BUFFS = {
     },
     17353: {
         "attributes": {
-            "spirit_base": 86
+            "spirit_base": 99
         },
         "max_level": 1,
         "buff_name": "高粱酒",
@@ -180,7 +180,7 @@ BUFFS = {
     },
     17354: {
         "attributes": {
-            "spirit_base": 172
+            "spirit_base": 198
         },
         "max_level": 1,
         "buff_name": "高粱酒·今朝醉",
@@ -191,10 +191,10 @@ BUFFS = {
     17355: {
         "attributes": [
             {
-                "spirit_base": 258
+                "spirit_base": 297
             },
             {
-                "spirit_base": 344
+                "spirit_base": 396
             }
         ],
         "max_level": 2,
@@ -211,7 +211,7 @@ BUFFS = {
     },
     17356: {
         "attributes": {
-            "spunk_base": 86
+            "spunk_base": 99
         },
         "max_level": 1,
         "buff_name": "状元红",
@@ -221,7 +221,7 @@ BUFFS = {
     },
     17357: {
         "attributes": {
-            "spunk_base": 172
+            "spunk_base": 198
         },
         "max_level": 1,
         "buff_name": "状元红·今朝醉",
@@ -232,10 +232,10 @@ BUFFS = {
     17358: {
         "attributes": [
             {
-                "spunk_base": 258
+                "spunk_base": 297
             },
             {
-                "spunk_base": 344
+                "spunk_base": 396
             }
         ],
         "max_level": 2,
@@ -252,7 +252,7 @@ BUFFS = {
     },
     17359: {
         "attributes": {
-            "haste_base": 677
+            "haste_base": 779
         },
         "max_level": 1,
         "buff_name": "女儿红",
@@ -262,7 +262,7 @@ BUFFS = {
     },
     17360: {
         "attributes": {
-            "haste_base": 1354
+            "haste_base": 1558
         },
         "max_level": 1,
         "buff_name": "女儿红·今朝醉",
@@ -273,10 +273,10 @@ BUFFS = {
     17361: {
         "attributes": [
             {
-                "haste_base": 2031
+                "haste_base": 2337
             },
             {
-                "haste_base": 2708
+                "haste_base": 3116
             }
         ],
         "max_level": 2,
@@ -624,256 +624,256 @@ BUFFS = {
     17365: {
         "attributes": [
             {
-                "surplus_base": -102,
-                "strain_base": 229
+                "surplus_base": -117,
+                "strain_base": 263
             },
             {
-                "surplus_base": -102,
-                "magical_attack_power_base": 69
+                "surplus_base": -117,
+                "magical_attack_power_base": 79
             },
             {
-                "surplus_base": -102,
-                "physical_attack_power_base": 62
+                "surplus_base": -117,
+                "physical_attack_power_base": 71
             },
             {
-                "surplus_base": -102,
-                "physical_overcome_base": 229,
-                "magical_overcome_base": 229
+                "surplus_base": -117,
+                "physical_overcome_base": 263,
+                "magical_overcome_base": 263
             },
             {
-                "surplus_base": -102,
-                "all_critical_strike_base": 229
+                "surplus_base": -117,
+                "all_critical_strike_base": 263
             },
             {
-                "strain_base": -102,
-                "surplus_base": 229
+                "strain_base": -117,
+                "surplus_base": 263
             },
             {
-                "strain_base": -102,
-                "magical_attack_power_base": 69
+                "strain_base": -117,
+                "magical_attack_power_base": 79
             },
             {
-                "strain_base": -102,
-                "physical_attack_power_base": 62
+                "strain_base": -117,
+                "physical_attack_power_base": 71
             },
             {
-                "strain_base": -102,
-                "physical_overcome_base": 229,
-                "magical_overcome_base": 229
+                "strain_base": -117,
+                "physical_overcome_base": 263,
+                "magical_overcome_base": 263
             },
             {
-                "strain_base": -102,
-                "all_critical_strike_base": 229
+                "strain_base": -117,
+                "all_critical_strike_base": 263
             },
             {
-                "max_life_add": -1525,
-                "strain_base": 229
+                "max_life_add": -1753,
+                "strain_base": 263
             },
             {
-                "max_life_add": -1525,
-                "magical_attack_power_base": 69
+                "max_life_add": -1753,
+                "magical_attack_power_base": 79
             },
             {
-                "max_life_add": -1525,
-                "physical_attack_power_base": 62
+                "max_life_add": -1753,
+                "physical_attack_power_base": 71
             },
             {
-                "max_life_add": -1525,
-                "physical_overcome_base": 229,
-                "magical_overcome_base": 229
+                "max_life_add": -1753,
+                "physical_overcome_base": 263,
+                "magical_overcome_base": 263
             },
             {
-                "max_life_add": -1525,
-                "all_critical_strike_base": 229
+                "max_life_add": -1753,
+                "all_critical_strike_base": 263
             },
             {
-                "surplus_base": -1016,
-                "strain_base": 2288
+                "surplus_base": -1168,
+                "strain_base": 2630
             },
             {
-                "surplus_base": -1016,
-                "magical_attack_power_base": 691
+                "surplus_base": -1168,
+                "magical_attack_power_base": 794
             },
             {
-                "surplus_base": -1016,
-                "physical_attack_power_base": 621
+                "surplus_base": -1168,
+                "physical_attack_power_base": 714
             },
             {
-                "surplus_base": -1016,
-                "physical_overcome_base": 2288,
-                "magical_overcome_base": 2288
+                "surplus_base": -1168,
+                "physical_overcome_base": 2630,
+                "magical_overcome_base": 2630
             },
             {
-                "surplus_base": -1016,
-                "all_critical_strike_base": 2288
+                "surplus_base": -1168,
+                "all_critical_strike_base": 2630
             },
             {
-                "strain_base": -1016,
-                "surplus_base": 2288
+                "strain_base": -1168,
+                "surplus_base": 2630
             },
             {
-                "strain_base": -1016,
-                "magical_attack_power_base": 691
+                "strain_base": -1168,
+                "magical_attack_power_base": 794
             },
             {
-                "strain_base": -1016,
-                "physical_attack_power_base": 621
+                "strain_base": -1168,
+                "physical_attack_power_base": 714
             },
             {
-                "strain_base": -1016,
-                "physical_overcome_base": 2288,
-                "magical_overcome_base": 2288
+                "strain_base": -1168,
+                "physical_overcome_base": 2630,
+                "magical_overcome_base": 2630
             },
             {
-                "strain_base": -1016,
-                "all_critical_strike_base": 2288
+                "strain_base": -1168,
+                "all_critical_strike_base": 2630
             },
             {
-                "max_life_add": -15253,
-                "strain_base": 2288
+                "max_life_add": -17534,
+                "strain_base": 2630
             },
             {
-                "max_life_add": -15253,
-                "magical_attack_power_base": 691
+                "max_life_add": -17534,
+                "magical_attack_power_base": 794
             },
             {
-                "max_life_add": -15253,
-                "physical_attack_power_base": 621
+                "max_life_add": -17534,
+                "physical_attack_power_base": 714
             },
             {
-                "max_life_add": -15253,
-                "physical_overcome_base": 2288,
-                "magical_overcome_base": 2288
+                "max_life_add": -17534,
+                "physical_overcome_base": 2630,
+                "magical_overcome_base": 2630
             },
             {
-                "max_life_add": -15253,
-                "all_critical_strike_base": 2288
+                "max_life_add": -17534,
+                "all_critical_strike_base": 2630
             },
             {
-                "surplus_base": -1321,
-                "strain_base": 2974
+                "surplus_base": -1518,
+                "strain_base": 3419
             },
             {
-                "surplus_base": -1321,
-                "magical_attack_power_base": 898
+                "surplus_base": -1518,
+                "magical_attack_power_base": 1032
             },
             {
-                "surplus_base": -1321,
-                "physical_attack_power_base": 807
+                "surplus_base": -1518,
+                "physical_attack_power_base": 928
             },
             {
-                "surplus_base": -1321,
-                "physical_overcome_base": 2974,
-                "magical_overcome_base": 2974
+                "surplus_base": -1518,
+                "physical_overcome_base": 3419,
+                "magical_overcome_base": 3419
             },
             {
-                "surplus_base": -1321,
-                "all_critical_strike_base": 2974
+                "surplus_base": -1518,
+                "all_critical_strike_base": 3419
             },
             {
-                "strain_base": -1321,
-                "surplus_base": 2974
+                "strain_base": -1518,
+                "surplus_base": 3419
             },
             {
-                "strain_base": -1321,
-                "magical_attack_power_base": 898
+                "strain_base": -1518,
+                "magical_attack_power_base": 1032
             },
             {
-                "strain_base": -1321,
-                "physical_attack_power_base": 807
+                "strain_base": -1518,
+                "physical_attack_power_base": 928
             },
             {
-                "strain_base": -1321,
-                "physical_overcome_base": 2974,
-                "magical_overcome_base": 2974
+                "strain_base": -1518,
+                "physical_overcome_base": 3419,
+                "magical_overcome_base": 3419
             },
             {
-                "strain_base": -1321,
-                "all_critical_strike_base": 2974
+                "strain_base": -1518,
+                "all_critical_strike_base": 3419
             },
             {
-                "max_life_add": -19829,
-                "strain_base": 2974
+                "max_life_add": -22794,
+                "strain_base": 3419
             },
             {
-                "max_life_add": -19829,
-                "magical_attack_power_base": 898
+                "max_life_add": -22794,
+                "magical_attack_power_base": 1032
             },
             {
-                "max_life_add": -19829,
-                "physical_attack_power_base": 807
+                "max_life_add": -22794,
+                "physical_attack_power_base": 928
             },
             {
-                "max_life_add": -19829,
-                "physical_overcome_base": 2974,
-                "magical_overcome_base": 2974
+                "max_life_add": -22794,
+                "physical_overcome_base": 3419,
+                "magical_overcome_base": 3419
             },
             {
-                "max_life_add": -19829,
-                "all_critical_strike_base": 2974
+                "max_life_add": -22794,
+                "all_critical_strike_base": 3419
             },
             {
-                "surplus_base": -2032,
-                "strain_base": 4576
+                "surplus_base": -2336,
+                "strain_base": 5260
             },
             {
-                "surplus_base": -2032,
-                "magical_attack_power_base": 1382
+                "surplus_base": -2336,
+                "magical_attack_power_base": 1588
             },
             {
-                "surplus_base": -2032,
-                "physical_attack_power_base": 1242
+                "surplus_base": -2336,
+                "physical_attack_power_base": 1428
             },
             {
-                "surplus_base": -2032,
+                "surplus_base": -2336,
+                "physical_overcome_base": 5260,
+                "magical_overcome_base": 5260
+            },
+            {
+                "surplus_base": -2336,
+                "all_critical_strike_base": 5260
+            },
+            {
+                "strain_base": -2336,
+                "surplus_base": 5260
+            },
+            {
+                "strain_base": -2336,
+                "magical_attack_power_base": 1588
+            },
+            {
+                "strain_base": -2336,
+                "physical_attack_power_base": 1428
+            },
+            {
+                "strain_base": -2032,
                 "physical_overcome_base": 4576,
                 "magical_overcome_base": 4576
             },
             {
-                "surplus_base": -2032,
-                "all_critical_strike_base": 4576
+                "strain_base": -2336,
+                "all_critical_strike_base": 5260
             },
             {
-                "strain_base": -2032,
-                "surplus_base": 4576
+                "max_life_add": -35068,
+                "strain_base": 5260
             },
             {
-                "strain_base": -2032,
-                "magical_attack_power_base": 1382
+                "max_life_add": -35068,
+                "magical_attack_power_base": 1588
             },
             {
-                "strain_base": -2032,
-                "physical_attack_power_base": 1242
+                "max_life_add": -35068,
+                "physical_attack_power_base": 1428
             },
             {
-                "strain_base": -2032,
-                "physical_overcome_base": 4576,
-                "magical_overcome_base": 4576
+                "max_life_add": -35068,
+                "physical_overcome_base": 5260,
+                "magical_overcome_base": 5260
             },
             {
-                "strain_base": -2032,
-                "all_critical_strike_base": 4576
-            },
-            {
-                "max_life_add": -30506,
-                "strain_base": 4576
-            },
-            {
-                "max_life_add": -30506,
-                "magical_attack_power_base": 1382
-            },
-            {
-                "max_life_add": -30506,
-                "physical_attack_power_base": 1242
-            },
-            {
-                "max_life_add": -30506,
-                "physical_overcome_base": 4576,
-                "magical_overcome_base": 4576
-            },
-            {
-                "max_life_add": -30506,
-                "all_critical_strike_base": 4576
+                "max_life_add": -35068,
+                "all_critical_strike_base": 5260
             }
         ],
         "max_level": 60,
@@ -1340,9 +1340,13 @@ BUFFS = {
             {
                 "strain_base": 48,
                 "spunk_base": 16
+            },
+            {
+                "vitality_base": 27,
+                "all_critical_strike_base": 82
             }
         ],
-        "max_level": 98,
+        "max_level": 99,
         "buff_name": [
             "死士",
             "北垣",
@@ -1409,7 +1413,7 @@ BUFFS = {
             "烟光",
             "长明",
             "惊鸿",
-            "萍踪",
+            "昭彻",
             "天明",
             "陨落",
             "末法",
@@ -1441,7 +1445,8 @@ BUFFS = {
             "御霜",
             "悍勇",
             "明净",
-            "萍踪"
+            "萍踪",
+            "昭彻"
         ],
         "alias_name": [
             "死士",
@@ -1541,290 +1546,9 @@ BUFFS = {
             "御霜",
             "悍勇",
             "明净",
-            "萍踪"
+            "萍踪",
+            "昭彻"
         ],
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1428: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "军啸",
-        "alias_name": "T0套装天策外功伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    11378: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "朔气",
-        "alias_name": "T0套装霸刀外功伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1437: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102
-            },
-            {
-                "lunar_critical_strike_rate": 400,
-                "lunar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "嗔怒",
-        "alias_name": "T0套装七秀阴性伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    2557: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 102
-            },
-            {
-                "poison_critical_strike_rate": 400,
-                "poison_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "蛊殇",
-        "alias_name": "T0套装五毒毒性伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    4671: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102,
-                "solar_attack_power_gain": 102
-            },
-            {
-                "solar_critical_strike_rate": 400,
-                "lunar_critical_strike_rate": 400,
-                "solar_critical_power_rate": 41,
-                "lunar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "明尊",
-        "alias_name": "T0套明教内功伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1440: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "怒叱",
-        "alias_name": "T0套装万花混元性伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    3401: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "poison_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 4,
-        "buff_name": "神力",
-        "alias_name": "唐门PVE4件套",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    14353: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "羽念",
-        "alias_name": "蓬莱套装触发加外功攻击",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    9586: {
-        "attributes": [
-            {
-                "lunar_attack_power_gain": 102
-            },
-            {
-                "lunar_critical_strike_rate": 400,
-                "lunar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "挥散",
-        "alias_name": "T0长歌套装10%阴性内功AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    16025: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "雷引",
-        "alias_name": "凌雪阁四件套加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1438: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "剑鸣",
-        "alias_name": "T0套装纯阳外功伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    18555: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "星悬",
-        "alias_name": "衍天宗PVE套装触发效果",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1955: {
-        "attributes": [
-            {
-                "physical_attack_power_gain": 102
-            },
-            {
-                "physical_critical_strike_rate": 400,
-                "physical_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "器攻",
-        "alias_name": "T0套装藏剑外功伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    21758: {
-        "attributes": [
-            {
-                "poison_attack_power_gain": 102
-            },
-            {
-                "poison_critical_strike_rate": 400,
-                "poison_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "断肠",
-        "alias_name": "北天药宗无方PVE4件套",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1436: {
-        "attributes": [
-            {
-                "solar_attack_power_gain": 102
-            },
-            {
-                "solar_critical_strike_rate": 400,
-                "solar_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "佛吼",
-        "alias_name": "T0套装少林阳性伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    1439: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "气涌",
-        "alias_name": "T0套装纯阳混元性伤害招式加AP",
-        "max_stack": 1,
-        "recipes": {}
-    },
-    29597: {
-        "attributes": [
-            {
-                "neutral_attack_power_gain": 102
-            },
-            {
-                "neutral_critical_strike_rate": 400,
-                "neutral_critical_power_rate": 41
-            }
-        ],
-        "max_level": 2,
-        "buff_name": "风泽",
-        "alias_name": "风泽",
         "max_stack": 1,
         "recipes": {}
     },
@@ -2412,14 +2136,14 @@ BUFFS = {
     30743: {
         "attributes": [
             {
-                "all_critical_strike_base": 5931
+                "all_critical_strike_base": 8506
             },
             {
-                "physical_overcome_base": 5931,
-                "magical_overcome_base": 5931
+                "physical_overcome_base": 8506,
+                "magical_overcome_base": 8506
             },
             {
-                "surplus_base": 5931
+                "surplus_base": 8506
             }
         ],
         "max_level": 3,
@@ -2443,11 +2167,11 @@ BUFFS = {
     30749: {
         "attributes": [
             {
-                "strain_rate": 65
+                "strain_rate": 93
             },
             {
-                "physical_overcome_base": 8487,
-                "magical_overcome_base": 8487
+                "physical_overcome_base": 12152,
+                "magical_overcome_base": 12152
             }
         ],
         "max_level": 2,
@@ -2461,10 +2185,10 @@ BUFFS = {
     30770: {
         "attributes": [
             {
-                "strain_rate": 65
+                "strain_rate": 93
             },
             {
-                "all_critical_strike_base": 8487
+                "all_critical_strike_base": 12152
             }
         ],
         "max_level": 2,
@@ -4634,7 +4358,9 @@ BUFFS = {
         "recipes": {}
     },
     20854: {
-        "attributes": {},
+        "attributes": {
+            "strain_base": 40
+        },
         "max_level": 1,
         "buff_name": "飘黄",
         "alias_name": "飘黄逐云寒蕊提高急速",
@@ -4960,7 +4686,19 @@ BUFFS = {
             }
         ],
         "max_level": 11,
-        "buff_name": "碎星辰",
+        "buff_name": [
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "凭霄破云·碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰",
+            "碎星辰"
+        ],
         "alias_name": "碎星辰",
         "max_stack": 1,
         "recipes": [
@@ -6074,7 +5812,7 @@ BUFFS = {
     },
     26444: {
         "attributes": {},
-        "max_level": 33,
+        "max_level": 37,
         "buff_name": [
             "麒麟·幻影",
             "侠行天涯号",
@@ -6106,7 +5844,10 @@ BUFFS = {
             "古舒尔万",
             "松枝跃",
             "机关朱雀",
-            "雪奔奔"
+            "雪奔奔",
+            "醉仙葫芦",
+            "纸行舟",
+            "十万火急"
         ],
         "alias_name": [
             "骑乘2号buff",
@@ -6139,7 +5880,10 @@ BUFFS = {
             "骑乘_先知巴德的牛",
             "骑乘_松鼠雪橇",
             "骑乘_机关鸟",
-            "骑乘_雪奔奔"
+            "骑乘_雪奔奔",
+            "骑乘_醉仙葫芦",
+            "骑乘_纸行舟",
+            "骑乘_十万火急"
         ],
         "max_stack": 1,
         "recipes": {}
@@ -6249,7 +5993,7 @@ BUFFS = {
                 "surplus_gain": 102
             },
             {
-                "surplus_gain": 256
+                "surplus_gain": 410
             },
             {
                 "surplus_gain": 307
@@ -6271,7 +6015,7 @@ BUFFS = {
         "max_stack": [
             5,
             7,
-            5,
+            3,
             5
         ],
         "recipes": {}
@@ -7336,10 +7080,10 @@ BUFFS = {
     12575: {
         "attributes": [
             {
-                "all_shield_ignore": 205
+                "all_shield_ignore": 307
             },
             {
-                "all_shield_ignore": 1024
+                "all_shield_ignore": 922
             }
         ],
         "max_level": 2,
@@ -7384,7 +7128,7 @@ BUFFS = {
             },
             {
                 "all_shield_ignore": 512,
-                "pve_addition_base": 154
+                "pve_addition_base": 61
             }
         ],
         "max_level": 4,
@@ -7420,8 +7164,8 @@ BUFFS = {
         ],
         "max_level": 4,
         "buff_name": [
-            "盈久",
-            "盈久",
+            "含弘",
+            "含弘",
             "含弘",
             "复礼"
         ],

@@ -283,9 +283,6 @@ def parse_lua(skill_id):
     surplus_cof = int(skill_row.SurplusCoefficient) if pd.notna(skill_row.SurplusCoefficient) else 0
     target_file_path = skill_row.ScriptFile.replace('\\','/')
 
-    # temp fix stupid Seasun file missing bug
-    target_file_path = target_file_path.replace('蜀犬吠日_无僵直伤害', '蜀犬吠日_伤害')
-
     lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path), encoding="utf-8").read()
     lua_code = INCLUDE_PATTERN.sub('', lua_code)
     skill_args = (
