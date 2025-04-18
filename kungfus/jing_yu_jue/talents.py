@@ -38,7 +38,7 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         18672: Gain("百里追魂", skill_ids=[33870]),
-        30588: Gain("凝形逐踪", buff_ids=[22750]),
-        34644: Gain("敛影无锋", buff_ids=[22750], skill_ids=[33870])
+        30588: Gain("凝形逐踪", buff_ids=[22750], skill_ids=[30629]),
+        34644: Gain("敛影无锋", buff_ids=[22750], skill_ids=[33870, 30629])
     }
 ]

@@ -27,13 +27,15 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         6818: Gain("雨龙", dot_ids=[6401], skill_ids=[6867]),
-        6824: Gain("驯致", skill_ids=list(range(19430, 19439 + 1)), recipes=[(4340, 1)])
+        6824: Gain("驯致", skill_ids=list(range(19430, 19439 + 1)), recipes=[(4340, 1)]),
+        14633: Gain("亢野", skill_ids=list(range(18909, 18974 + 1)))
     },
     {
         38878: Gain("追远", skill_ids=[38891])
     },
     {
         6814: Gain("复礼", buff_ids=[12356]),
+        6843: Gain("含弘", buff_ids=[12356])
     },
     {
         25197: Gain("祭湘君", skill_ids=[25201, 25202])

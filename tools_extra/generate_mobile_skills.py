@@ -49,7 +49,18 @@ RELATION_FORCE = {};
 GLOBAL = {
     GAME_FPS = 16
 };
-
+SKILL_KIND_TYPE = {
+    PHYSICS = 1,
+    SOLAR_MAGIC = 2,
+    LUNAR_MAGIC = 3,
+    NEUTRAL_MAGIC = 4,
+    POISON = 5,
+};
+PLAYER_ARENA_TYPE = {
+    THERAPY = 1,
+    DPS = 2,
+    T = 3
+};
 ROLE_TYPE = {
     LITTLE_BOY = 2,
     STANDARD_MALE = 3,

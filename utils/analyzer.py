@@ -408,6 +408,10 @@ class Analyzer(BuffAnalyzer, SkillAnalyzer):
             self.total.gradients[attr] += residual_damage * count
 
     def analyze_total(self, damage, damage_name):
+        if not self.details[damage.display_name]:
+            self.details.pop(damage.display_name)
+            return
+
         damage_total = self.details[damage.display_name][""]
         if damage_total.expected_count:
             self.total.expected_damage += damage_total.expected_damage
