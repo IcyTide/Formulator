@@ -2,7 +2,7 @@ from general.recipes import *
 
 
 class 鸿轨_三掌加双会附带破招(PhysicalCriticalRecipe):
-    value = (1500, 154)
+    value = (2000, 205)
 
 
 class 木落双会(PhysicalCriticalRecipe):
