@@ -846,9 +846,9 @@ BUFFS = {
                 "physical_attack_power_base": 1428
             },
             {
-                "strain_base": -2032,
-                "physical_overcome_base": 4576,
-                "magical_overcome_base": 4576
+                "strain_base": -2336,
+                "physical_overcome_base": 5260,
+                "magical_overcome_base": 5260
             },
             {
                 "strain_base": -2336,
@@ -4280,16 +4280,6 @@ BUFFS = {
         "max_stack": 100,
         "recipes": {}
     },
-    4246: {
-        "attributes": {
-            "strain_base": 506
-        },
-        "max_level": 1,
-        "buff_name": "朝圣",
-        "alias_name": "明教_朝圣言_团队增益",
-        "max_stack": 100,
-        "recipes": {}
-    },
     8504: {
         "attributes": {
             "strain_base": 92
@@ -4367,16 +4357,6 @@ BUFFS = {
         "max_stack": 100,
         "recipes": {}
     },
-    9744: {
-        "attributes": {
-            "strain_base": 759
-        },
-        "max_level": 1,
-        "buff_name": "朝圣",
-        "alias_name": "朝圣言30%AP附加无威胁气劲",
-        "max_stack": 100,
-        "recipes": {}
-    },
     16911: {
         "attributes": {
             "all_shield_ignore": 205,
@@ -4399,6 +4379,21 @@ BUFFS = {
         "max_level": 1,
         "alias_name": "泠风解怀加伤害buff",
         "max_stack": 1,
+        "recipes": {}
+    },
+    4246: {
+        "attributes": [
+            {
+                "strain_base": 506
+            },
+            {
+                "strain_base": 759
+            }
+        ],
+        "max_level": 2,
+        "buff_name": "朝圣",
+        "alias_name": "明教_朝圣言_团队增益",
+        "max_stack": 100,
         "recipes": {}
     },
     673: {

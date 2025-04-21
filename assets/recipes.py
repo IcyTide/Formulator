@@ -5203,6 +5203,14 @@ RECIPES = {
             "recipe_name": "翼绝云天伤害提高10%"
         }
     },
+    4724: {
+        1: {
+            "damage_addition": 307,
+            "skill_id": 19818,
+            "recipe_type": 19818,
+            "recipe_name": "木落雁归伤害提高30%"
+        }
+    },
     5663: {
         1: {
             "damage_addition": 307,

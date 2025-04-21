@@ -125,9 +125,9 @@ class TeamGainsWidget(QWidget):
         tabs.addTab(tab, "明教")
 
         tab_layout.addWidget(self.create_single("戒火"), 0, 0)
-        tab_layout.addWidget(self.create_variety(["朝圣", "圣浴明心"]), 1, 0)
-        tab_layout.addWidget(self.create_stack("朝圣"), 1, 1)
-        tab_layout.addWidget(self.create_rate("朝圣"), 1, 2)
+        tab_layout.addWidget(self.create_variety(["朝圣言", "圣浴明心"]), 1, 0)
+        tab_layout.addWidget(self.create_stack("朝圣言"), 1, 1)
+        tab_layout.addWidget(self.create_rate("朝圣言"), 1, 2)
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)

@@ -132,12 +132,12 @@ class 大附魔腰(EquipmentGain):
 
 class 大附魔腕(EquipmentGain):
     skill_ids = [37562]
-    _damage_base = [244355, 281280]
+    _damage_base = [244355, 281280, 748100]
 
 
 class 大附魔鞋(EquipmentGain):
     skill_ids = [37561]
-    _damage_base = [162903, 187520]
+    _damage_base = [162903, 187520, 498800]
 
 
 class TertiaryWeaponGain(EquipmentGain):

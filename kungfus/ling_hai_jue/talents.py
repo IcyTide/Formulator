@@ -8,6 +8,7 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         20335: Gain("扶桑", recipes=[(4694, 1)]),
+        20716: Gain("苍梧", recipes=[(4724, 1)]),
         30504: Gain("潮音", skill_ids=[30506])
     },
     {
