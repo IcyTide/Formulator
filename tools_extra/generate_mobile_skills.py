@@ -213,23 +213,32 @@ def parse_lua(skill_id):
     skill_cof = int(skill_row.SkillCoefficient) if pd.notna(skill_row.SkillCoefficient) else 0
     dot_cof = int(skill_row.DotCoefficient) if pd.notna(skill_row.DotCoefficient) else 0
     surplus_cof = int(skill_row.SurplusCoefficient) if pd.notna(skill_row.SurplusCoefficient) else 0
-    target_file_path = skill_row.ScriptFile.replace('\\', '/')
-    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH, target_file_path), encoding="utf-8").read()
-    lua_code = INCLUDE_PATTERN.sub('', lua_code)
+    lua_path = skill_row.ScriptFile.replace('\\', '/')
     skill_args = (
         kind_type, weapon_request, skill_cof, dot_cof, surplus_cof
     )
-    return alias_name, max_level, lua_code, skill_args
+    return alias_name, max_level, lua_path, skill_args
 
+
+def get_lua_path_name(x):
+    try:
+        return x.split("/")[1].split("_")[1]
+    except:
+        return x
 
 def collect_result():
     result = []
     lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(SKILL_TAB.SkillID):
-        alias_name, max_level, lua_code, skill_args = parse_lua(skill_id)
-        filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
-        if "ApplyByEditor" not in lua_code:
+        alias_name, max_level, lua_path, skill_args = parse_lua(skill_id)
+        if "Default" in lua_path:
             continue
+
+        lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH, lua_path), encoding="utf-8").read()
+        lua_code = INCLUDE_PATTERN.sub('', lua_code)
+
+        filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
+
         lua_engine.execute(lua_code)
         if filter_skill_txt.empty:
             skill_name = None
@@ -239,7 +248,8 @@ def collect_result():
         skill = SkillLua(skill_id, 1, skill_name, *skill_args)
         skill.alias_name = alias_name
         skill.max_level = max_level
-        lua_engine.globals()['ApplyByEditor'](skill)
+        skill.lua_path = get_lua_path_name(lua_path)
+        lua_engine.globals()['GetSkillLevelData'](skill)
 
         if not skill.damage_call:
             del skill.skill_cof
@@ -254,12 +264,13 @@ def collect_result():
         if not skill.dot_cof:
             del skill.dot_cof
         result.append(vars(skill).copy())
-    return pd.DataFrame(result)
+    df = pd.DataFrame(result)
+    return df
 
 
 def generate():
     df = collect_result()
-    df = df[['skill_id', 'skill_name', 'alias_name', 'kind_type', 'skill_cof', 'surplus_cof', 'dot_cof']]
+    df = df[['skill_id', 'skill_name', 'alias_name', "lua_path", 'kind_type', 'skill_cof', 'surplus_cof', 'dot_cof']]
     df.to_csv("assets/mobile_skills.csv", index=False)
 
 

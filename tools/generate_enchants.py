@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 from tqdm import tqdm
 
 from assets.constant import SELF_ATTR_TYPE_MAP, ENCHANT_START_ID
