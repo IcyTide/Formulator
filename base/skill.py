@@ -1519,9 +1519,7 @@ class Skill(Damage):
             if not parser.current_last_dot[dot_id]:
                 continue
             count = min(len(parser.current_last_dot[dot_id]), count)
-            parser.current_damage = dot_id
             parser.current_dot_ticks[dot_id] += count
-            new_status_tuple = parser.dot_status
             for i in range(count):
                 damage_tuple, status_tuple = parser.current_last_dot[dot_id].pop(-count + i)
                 dot_tuple, dot_skill_tuple, _ = damage_tuple
@@ -1530,12 +1528,10 @@ class Skill(Damage):
                 else:
                     consume_tick = min(parser.current_dot_ticks[dot_id], dot_tick)
                 new_damage_tuple = (dot_tuple, dot_skill_tuple, (self.skill_id, self.skill_level, consume_tick))
-                parser.current_records[new_damage_tuple][new_status_tuple].append(
+                parser.current_records[new_damage_tuple][status_tuple].append(
                     parser.current_records[damage_tuple][status_tuple].pop(-count + i)
                 )
                 parser.current_dot_ticks[dot_id] -= consume_tick
-
-        parser.current_damage = self.skill_id
 
     def sub_record(self, parser):
         for skill_id, skill_level in self.sub_skills:

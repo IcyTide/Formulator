@@ -270,7 +270,10 @@ def collect_result():
 
 def generate():
     df = collect_result()
-    df = df[['skill_id', 'skill_name', 'alias_name', "lua_path", 'kind_type', 'skill_cof', 'surplus_cof', 'dot_cof']]
+    df = df[[
+        'skill_id', 'skill_name', 'alias_name', "lua_path", 'kind_type',
+        'weapon_damage_cof', 'skill_cof', 'surplus_cof', 'dot_cof'
+    ]]
     df.to_csv("assets/mobile_skills.csv", index=False)
 
 

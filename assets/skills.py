@@ -29543,6 +29543,15 @@ SKILLS = {
         "channel_interval": 866.4128550000003,
         "max_level": 1
     },
+    40815: {
+        "alias_name": "橙武羽附带羽dot",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 866.4128550000003,
+        "max_level": 1
+    },
     15076: {
         "alias_name": "影子伤害攻击宫伤害",
         "kind_type": "LunarMagic",

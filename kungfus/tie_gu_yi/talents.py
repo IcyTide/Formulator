@@ -37,7 +37,8 @@ TALENTS: List[Dict[int, Gain]] = [
         25715: Gain("高城", attributes=dict(tank_buff_level=1))
     },
     {
-        26897: Gain("鸿烈", skill_ids=[26898])
+        26897: Gain("鸿烈", skill_ids=[26898]),
+        26729: Gain("肃列")
     },
     {
         25213: Gain("断马摧城", skill_ids=[25215]),
