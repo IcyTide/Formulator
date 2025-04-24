@@ -131,12 +131,6 @@ class TeamGainsWidget(QWidget):
 
         tab = QWidget()
         tab_layout = QGridLayout(tab)
-        tabs.addTab(tab, "丐帮")
-
-        tab_layout.addWidget(self.create_single("酣畅淋漓"), 0, 0)
-
-        tab = QWidget()
-        tab_layout = QGridLayout(tab)
         tabs.addTab(tab, "苍云")
 
         tab_layout.addWidget(self.create_single("虚弱"), 0, 0)

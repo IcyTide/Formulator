@@ -10,6 +10,8 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dots={2920: 1}) for skill_id in (6207, 18716)},
         # 西河剑器
         6559: {},
+        # 剑器浑脱
+        568: dict(post_buffs={10240: {1: 5}, 538: {4: 1}}),
         # 奇穴
         6554: {}, **{skill_id: {} for skill_id in range(37317, 37320 + 1)}, 23936: {}, 33140: {},
         30532: {}, 24999: {}, 34612: {}, 35058: {},

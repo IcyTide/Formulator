@@ -9627,6 +9627,18 @@ SKILLS = {
         ],
         "lunar_damage_call": 1
     },
+    568: {
+        "alias_name": "繁音急节",
+        "kind_type": "LunarMagic",
+        "platform": 0,
+        "recipe_type": 568,
+        "recipe_mask": 0,
+        "event_mask_1": 8721,
+        "event_mask_2": 524288,
+        "channel_interval": 16.0,
+        "max_level": 4,
+        "skill_name": "繁音急节"
+    },
     6554: {
         "alias_name": "七秀_玳弦急曲额外伤害",
         "kind_type": "LunarMagic",

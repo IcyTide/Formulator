@@ -66,13 +66,6 @@ class EquipmentGain(Gain):
             setattr(attribute, attr, getattr(attribute, attr) - int(value * self.rate))
 
 
-class CriticalSet(EquipmentGain):
-    def __init__(self, buff: Buff):
-        self.buff_ids = [buff.buff_id]
-        self._attributes = [buff.attributes]
-        super().__init__()
-
-
 class DivineEffect(EquipmentGain):
     skill_ids = []
 
@@ -111,12 +104,12 @@ class TankPendant(EquipmentGain):
     skill_ids = [38787]
 
 
-class 大附魔帽(EquipmentGain):
+class HatSpecialEnchant(EquipmentGain):
     # buff_ids = [15436]
     _attributes = GENERAL_BUFFS[15436].all_attributes
 
 
-class 大附魔衣(EquipmentGain):
+class JacketSpecialEnchant(EquipmentGain):
     _attributes = [
         dict(physical_attack_power_base=physical_attack_power_base, magical_attack_power_base=magical_attack_power_base)
         for physical_attack_power_base, magical_attack_power_base in
@@ -124,18 +117,18 @@ class 大附魔衣(EquipmentGain):
     ]
 
 
-class 大附魔腰(EquipmentGain):
+class BeltSpecialEnchant(EquipmentGain):
     buff_ids = [15455]
     _attributes = [GENERAL_BUFFS[15455].get_attributes(weights=[3, 7])]
     rate = 8 / 30
 
 
-class 大附魔腕(EquipmentGain):
+class WristSpecialEnchant(EquipmentGain):
     skill_ids = [37562]
     _damage_base = [244355, 281280, 748100]
 
 
-class 大附魔鞋(EquipmentGain):
+class ShoesSpecialEnchant(EquipmentGain):
     skill_ids = [37561]
     _damage_base = [162903, 187520, 498800]
 
@@ -322,23 +315,23 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     },
     (38786, 1): TankPendant(),
     **{
-        (gain_id, gain_level): 大附魔帽(gain_level)
+        (gain_id, gain_level): HatSpecialEnchant(gain_level)
         for gain_id, gain_level in SPECIAL_ENCHANT_MAP["帽子"].values()
     },
     **{
-        (gain_id, gain_level): 大附魔衣(gain_level)
+        (gain_id, gain_level): JacketSpecialEnchant(gain_level)
         for gain_id, gain_level in SPECIAL_ENCHANT_MAP["上衣"].values()
     },
     **{
-        gain_key: 大附魔腰()
+        gain_key: BeltSpecialEnchant()
         for gain_key in SPECIAL_ENCHANT_MAP["腰带"].values()
     },
     **{
-        gain_key: 大附魔腕(i + 1)
+        gain_key: WristSpecialEnchant(i + 1)
         for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP["护腕"].values())
     },
     **{
-        gain_key: 大附魔鞋(i + 1)
+        gain_key: ShoesSpecialEnchant(i + 1)
         for i, gain_key in enumerate(SPECIAL_ENCHANT_MAP["鞋子"].values())
     },
     **{

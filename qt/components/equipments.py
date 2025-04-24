@@ -6,8 +6,7 @@ from assets.constant import ATTR_TYPE_TRANSLATE
 from assets.enchants import ENCHANTS
 from assets.equipments import EQUIPMENTS
 from assets.stones import STONES
-from general.gains.equipment import CriticalSet
-from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel, SpinWithLabel
+from qt.components import ComboWithLabel, RadioWithLabel, TableWithLabel
 
 
 

@@ -322,7 +322,6 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 for level, gain in special_enchant_map.items():
                     if equipment.level > level:
                         equipment.special_enchant = gain
-                widget.special_enchant.set_text(EQUIPMENT_GAINS[equipment.special_enchant].gain_name)
 
             widget.detail_widget.show()
 

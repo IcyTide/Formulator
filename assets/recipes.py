@@ -3002,6 +3002,22 @@ RECIPES = {
             "recipe_name": "月斩伤害提高"
         }
     },
+    5930: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 3963,
+            "recipe_type": 3963,
+            "recipe_name": "净体日斩加伤害"
+        }
+    },
+    5931: {
+        1: {
+            "damage_addition": 512,
+            "skill_id": 3960,
+            "recipe_type": 3960,
+            "recipe_name": "净体月斩加伤害"
+        }
+    },
     948: {
         2: {
             "damage_addition": 102,

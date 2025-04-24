@@ -4857,16 +4857,6 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
-    7180: {
-        "attributes": {
-            "physical_critical_strike_rate": 1000
-        },
-        "max_level": 3,
-        "buff_name": "酣畅淋漓",
-        "alias_name": "丐帮_酒中仙小队增强",
-        "max_stack": 1,
-        "recipes": {}
-    },
     8248: {
         "attributes": {
             "physical_shield_gain": -51

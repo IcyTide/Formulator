@@ -7,20 +7,22 @@ from base.skill import Skill
 class 用晦而明(Gain):
     @staticmethod
     def pre_effect_1(parser):
-        if not parser.current_buff_stacks[30642]:
-            return
-        buff_level = 1
-        if parser.current_buff_stacks[30644]:
+        if parser.current_buff_stacks[30642].get(1):
+            buff_level = 1
+        elif parser.current_buff_stacks[30642].get(2):
             buff_level = 2
+        else:
+            return
         parser.refresh_buff(-12575, buff_level)
 
     @staticmethod
     def pre_effect_2(parser):
-        if not parser.current_buff_stacks[30643]:
-            return
-        buff_level = 1
-        if parser.current_buff_stacks[30645]:
+        if parser.current_buff_stacks[30643].get(1):
+            buff_level = 1
+        elif parser.current_buff_stacks[30643].get(2):
             buff_level = 2
+        else:
+            return
         parser.refresh_buff(-12575, buff_level)
 
     @staticmethod
@@ -68,7 +70,7 @@ TALENTS: List[Dict[int, Gain]] = [
         34395: Gain("日月同辉")
     },
     {
-        25166: Gain("净体不畏", buff_ids=[30644, 30645], skill_ids=[26708, 26707]),
+        # 25166: Gain("净体不畏", buff_ids=[30644, 30645], skill_ids=[26708, 26707]),
         34372: Gain("靡业报劫", dot_ids=[25725, 25726], skill_ids=[34373, 34374])
     },
     {
