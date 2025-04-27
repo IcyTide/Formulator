@@ -75,8 +75,13 @@ SKILLS = {
         "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
-        "max_level": 1,
-        "skill_name": "无修·荒",
+        "max_level": 4,
+        "skill_name": [
+            "无修·荒",
+            "无修·荒",
+            "无修·玄",
+            "无修·玄"
+        ],
         "adaptive_damage_call": 1
     },
     40789: {
@@ -9149,6 +9154,51 @@ SKILLS = {
         "physical_attack_power_gain": -1024,
         "physical_damage_base": 20,
         "physical_damage_rand": 5
+    },
+    24894: {
+        "alias_name": "通道乘龙箭伤害子技能",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 2603,
+        "recipe_mask": 0,
+        "event_mask_1": 2097163,
+        "event_mask_2": 536870912,
+        "channel_interval": 342.86560000000014,
+        "max_level": 1,
+        "skill_name": "乘龙箭",
+        "physical_damage_call": 1,
+        "physical_damage_base": 218,
+        "physical_damage_rand": 23
+    },
+    32979: {
+        "alias_name": "箭阵实际伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "event_mask_1": 7,
+        "event_mask_2": 536870912,
+        "channel_interval": 176.02475,
+        "max_level": 1,
+        "skill_name": "飞鸣镝",
+        "physical_damage_call": 1,
+        "physical_damage_base": 78,
+        "physical_damage_rand": 10
+    },
+    32980: {
+        "alias_name": "箭阵引雷伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "event_mask_1": 7,
+        "event_mask_2": 536870912,
+        "channel_interval": 480.06749999999994,
+        "max_level": 1,
+        "skill_name": "飞鸣镝·引爆",
+        "physical_damage_call": 1,
+        "physical_damage_base": 78,
+        "physical_damage_rand": 10
     },
     24843: {
         "alias_name": "战疏狂击退以及伤害子技能",

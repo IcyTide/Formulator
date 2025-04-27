@@ -75,7 +75,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         # buff
         5145: {},
         # 奇穴
-        5090: {},
+        5090: {}, **{recipe_id: {} for recipe_id in range(5533, 5535 + 1)},
         # 装备
         946: {}, 1969: {}, 1534: {}, 1535: {}, 5759: {}
     },
@@ -109,13 +109,13 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         1200: {}
     },
     蹑景追风120非侠士效果: {
-        5533: {}
+        5945: {}
     },
     蹑景追风80非侠士效果: {
-        5534: {}
+        5946: {}
     },
     蹑景追风60非侠士效果: {
-        5535: {}
+        5947: {}
     },
     唐门_追命箭_忽视50外防: {
         4588: {}

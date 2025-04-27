@@ -2495,6 +2495,27 @@ RECIPES = {
             "recipe_name": "追命箭减消耗读条"
         }
     },
+    5533: {
+        1: {
+            "prepare_frame": -24,
+            "skill_id": 3096,
+            "recipe_name": "蹑景追风1"
+        }
+    },
+    5534: {
+        1: {
+            "prepare_frame": -24,
+            "skill_id": 3096,
+            "recipe_name": "蹑景追风2"
+        }
+    },
+    5535: {
+        1: {
+            "prepare_frame": -24,
+            "skill_id": 3096,
+            "recipe_name": "蹑景追风3"
+        }
+    },
     946: {
         1: {
             "damage_addition": 102,
@@ -2642,23 +2663,20 @@ RECIPES = {
             "recipe_name": "90奇穴_夺魄箭加会心"
         }
     },
-    5533: {
+    5945: {
         1: {
-            "prepare_frame": -24,
             "recipe_type": 3096,
             "recipe_name": "蹑景追风1"
         }
     },
-    5534: {
+    5946: {
         1: {
-            "prepare_frame": -24,
             "recipe_type": 3096,
             "recipe_name": "蹑景追风2"
         }
     },
-    5535: {
+    5947: {
         1: {
-            "prepare_frame": -24,
             "recipe_type": 3096,
             "recipe_name": "蹑景追风3"
         }
