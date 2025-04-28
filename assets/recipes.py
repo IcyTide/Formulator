@@ -3916,7 +3916,7 @@ RECIPES = {
     },
     1941: {
         1: {
-            "damage_addition": 410,
+            "damage_addition": 307,
             "skill_id": 13055,
             "recipe_type": 13055,
             "recipe_name": "绝刀无消耗秘籍"

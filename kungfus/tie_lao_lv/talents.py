@@ -29,16 +29,16 @@ TALENTS: List[Dict[int, Gain]] = [
         40300: Gain("振甲")
     },
     {
-        14827: Gain("载戎")
+        14827: Gain("载戎"),
+        24895: Gain("疾雨", skill_ids=[24894]),
+        18557: Gain("流电", skill_ids=[32979, 32980])
     },
     {
         25354: Gain("崩决", buff_ids=[18222]),
         2628: Gain("渊", buff_ids=[2779])
     },
     {
-        18239: Gain("昂如岳"),
-        24895: Gain("疾雨", skill_ids=[24894]),
-        18557: Gain("流电", skill_ids=[32979, 32980])
+        18239: Gain("昂如岳")
     },
     {
         6781: Gain("战心", buff_ids=[26008])

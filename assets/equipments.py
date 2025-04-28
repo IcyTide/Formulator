@@ -184,8 +184,8 @@ EQUIPMENTS = {
             "icon_id": 13280,
             "base": {},
             "magic": {
-                "vitality_base": 16220,
-                "strain_base": 5989
+                "vitality_base": 17145,
+                "strain_base": 6330
             },
             "embed": {
                 "vitality_base": 161
@@ -208,11 +208,11 @@ EQUIPMENTS = {
             "icon_id": 13280,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "agility_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "agility_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -236,11 +236,11 @@ EQUIPMENTS = {
             "icon_id": 13280,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "strength_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "strength_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -264,11 +264,11 @@ EQUIPMENTS = {
             "icon_id": 13280,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spunk_base": 896,
-                "magical_attack_power_base": 2262,
-                "all_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spunk_base": 947,
+                "magical_attack_power_base": 2391,
+                "all_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -292,11 +292,11 @@ EQUIPMENTS = {
             "icon_id": 13280,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spirit_base": 896,
-                "magical_attack_power_base": 2262,
-                "magical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spirit_base": 947,
+                "magical_attack_power_base": 2391,
+                "magical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "magical_critical_strike_base": 321,
@@ -8848,8 +8848,8 @@ EQUIPMENTS = {
             "icon_id": 13283,
             "base": {},
             "magic": {
-                "vitality_base": 16220,
-                "strain_base": 5989
+                "vitality_base": 17145,
+                "strain_base": 6330
             },
             "embed": {},
             "gains": [],
@@ -8870,11 +8870,11 @@ EQUIPMENTS = {
             "icon_id": 13283,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "agility_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "agility_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "agility_base": 41,
@@ -8898,11 +8898,11 @@ EQUIPMENTS = {
             "icon_id": 13283,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "strength_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "strength_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "strength_base": 41,
@@ -8926,11 +8926,11 @@ EQUIPMENTS = {
             "icon_id": 13283,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spunk_base": 896,
-                "magical_attack_power_base": 2262,
-                "all_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spunk_base": 947,
+                "magical_attack_power_base": 2391,
+                "all_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "spunk_base": 41,
@@ -8954,11 +8954,11 @@ EQUIPMENTS = {
             "icon_id": 13283,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spirit_base": 896,
-                "magical_attack_power_base": 2262,
-                "magical_critical_strike_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spirit_base": 947,
+                "magical_attack_power_base": 2391,
+                "magical_critical_strike_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "spirit_base": 41,
@@ -19306,9 +19306,9 @@ EQUIPMENTS = {
             "icon_id": 13282,
             "base": {},
             "magic": {
-                "vitality_base": 23171,
-                "surplus_base": 4278,
-                "strain_base": 8556
+                "vitality_base": 24493,
+                "surplus_base": 4522,
+                "strain_base": 9044
             },
             "embed": {
                 "physical_shield_base": 161
@@ -19331,11 +19331,11 @@ EQUIPMENTS = {
             "icon_id": 13282,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "agility_base": 1280,
-                "physical_attack_power_base": 2906,
-                "surplus_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "agility_base": 1353,
+                "physical_attack_power_base": 3072,
+                "surplus_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "physical_overcome_base": 321,
@@ -19359,11 +19359,11 @@ EQUIPMENTS = {
             "icon_id": 13282,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "strength_base": 1280,
-                "physical_attack_power_base": 2906,
-                "surplus_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "strength_base": 1353,
+                "physical_attack_power_base": 3072,
+                "surplus_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "physical_overcome_base": 321,
@@ -19387,11 +19387,11 @@ EQUIPMENTS = {
             "icon_id": 13282,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "spunk_base": 1280,
-                "magical_attack_power_base": 3232,
-                "surplus_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "spunk_base": 1353,
+                "magical_attack_power_base": 3416,
+                "surplus_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "magical_overcome_base": 321,
@@ -19415,11 +19415,11 @@ EQUIPMENTS = {
             "icon_id": 13282,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "spirit_base": 1280,
-                "magical_attack_power_base": 3232,
-                "surplus_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "spirit_base": 1353,
+                "magical_attack_power_base": 3416,
+                "surplus_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "magical_overcome_base": 321,
@@ -24495,8 +24495,8 @@ EQUIPMENTS = {
             "icon_id": 13284,
             "base": {},
             "magic": {
-                "vitality_base": 16220,
-                "strain_base": 5989
+                "vitality_base": 17145,
+                "strain_base": 6330
             },
             "embed": {
                 "physical_shield_base": 161,
@@ -24520,11 +24520,11 @@ EQUIPMENTS = {
             "icon_id": 13284,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "agility_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_overcome_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "agility_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_overcome_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "strain_base": 321,
@@ -24548,11 +24548,11 @@ EQUIPMENTS = {
             "icon_id": 13284,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "strength_base": 896,
-                "physical_attack_power_base": 2034,
-                "physical_overcome_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "strength_base": 947,
+                "physical_attack_power_base": 2150,
+                "physical_overcome_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "strain_base": 321,
@@ -24576,11 +24576,11 @@ EQUIPMENTS = {
             "icon_id": 13284,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spunk_base": 896,
-                "magical_attack_power_base": 2262,
-                "magical_overcome_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spunk_base": 947,
+                "magical_attack_power_base": 2391,
+                "magical_overcome_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "strain_base": 321,
@@ -24604,11 +24604,11 @@ EQUIPMENTS = {
             "icon_id": 13284,
             "base": {},
             "magic": {
-                "vitality_base": 10980,
-                "spirit_base": 896,
-                "magical_attack_power_base": 2262,
-                "magical_overcome_base": 7486,
-                "strain_base": 5989
+                "vitality_base": 11606,
+                "spirit_base": 947,
+                "magical_attack_power_base": 2391,
+                "magical_overcome_base": 7913,
+                "strain_base": 6330
             },
             "embed": {
                 "strain_base": 321,
@@ -33598,9 +33598,9 @@ EQUIPMENTS = {
             "icon_id": 13281,
             "base": {},
             "magic": {
-                "vitality_base": 20854,
-                "haste_base": 3850,
-                "strain_base": 7700
+                "vitality_base": 22044,
+                "haste_base": 4070,
+                "strain_base": 8139
             },
             "embed": {
                 "vitality_base": 161
@@ -33623,11 +33623,11 @@ EQUIPMENTS = {
             "icon_id": 13281,
             "base": {},
             "magic": {
-                "vitality_base": 14117,
-                "agility_base": 1152,
-                "physical_attack_power_base": 2616,
-                "surplus_base": 9625,
-                "strain_base": 7700
+                "vitality_base": 14922,
+                "agility_base": 1217,
+                "physical_attack_power_base": 2765,
+                "surplus_base": 10174,
+                "strain_base": 8139
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -33651,11 +33651,11 @@ EQUIPMENTS = {
             "icon_id": 13281,
             "base": {},
             "magic": {
-                "vitality_base": 14117,
-                "strength_base": 1152,
-                "physical_attack_power_base": 2616,
-                "surplus_base": 9625,
-                "strain_base": 7700
+                "vitality_base": 14922,
+                "strength_base": 1217,
+                "physical_attack_power_base": 2765,
+                "surplus_base": 10174,
+                "strain_base": 8139
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -33679,11 +33679,11 @@ EQUIPMENTS = {
             "icon_id": 13281,
             "base": {},
             "magic": {
-                "vitality_base": 14117,
-                "spunk_base": 1152,
-                "magical_attack_power_base": 2908,
-                "surplus_base": 9625,
-                "strain_base": 7700
+                "vitality_base": 14922,
+                "spunk_base": 1217,
+                "magical_attack_power_base": 3074,
+                "surplus_base": 10174,
+                "strain_base": 8139
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -33707,11 +33707,11 @@ EQUIPMENTS = {
             "icon_id": 13281,
             "base": {},
             "magic": {
-                "vitality_base": 14117,
-                "spirit_base": 1152,
-                "magical_attack_power_base": 2908,
-                "surplus_base": 9625,
-                "strain_base": 7700
+                "vitality_base": 14922,
+                "spirit_base": 1217,
+                "magical_attack_power_base": 3074,
+                "surplus_base": 10174,
+                "strain_base": 8139
             },
             "embed": {
                 "magical_critical_strike_base": 321,
@@ -44500,8 +44500,8 @@ EQUIPMENTS = {
             "icon_id": 13285,
             "base": {},
             "magic": {
-                "vitality_base": 23171,
-                "strain_base": 8556
+                "vitality_base": 24493,
+                "strain_base": 9044
             },
             "embed": {
                 "magical_shield_base": 161
@@ -44524,11 +44524,11 @@ EQUIPMENTS = {
             "icon_id": 13285,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "agility_base": 1280,
-                "physical_attack_power_base": 2906,
-                "physical_critical_strike_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "agility_base": 1353,
+                "physical_attack_power_base": 3072,
+                "physical_critical_strike_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -44552,11 +44552,11 @@ EQUIPMENTS = {
             "icon_id": 13285,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "strength_base": 1280,
-                "physical_attack_power_base": 2906,
-                "physical_critical_strike_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "strength_base": 1353,
+                "physical_attack_power_base": 3072,
+                "physical_critical_strike_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "physical_critical_strike_base": 321,
@@ -44580,11 +44580,11 @@ EQUIPMENTS = {
             "icon_id": 13285,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "spunk_base": 1280,
-                "magical_attack_power_base": 3232,
-                "all_critical_strike_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "spunk_base": 1353,
+                "magical_attack_power_base": 3416,
+                "all_critical_strike_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "all_critical_strike_base": 321,
@@ -44608,11 +44608,11 @@ EQUIPMENTS = {
             "icon_id": 13285,
             "base": {},
             "magic": {
-                "vitality_base": 15685,
-                "spirit_base": 1280,
-                "magical_attack_power_base": 3232,
-                "magical_critical_strike_base": 10694,
-                "strain_base": 8556
+                "vitality_base": 16580,
+                "spirit_base": 1353,
+                "magical_attack_power_base": 3416,
+                "magical_critical_strike_base": 11304,
+                "strain_base": 9044
             },
             "embed": {
                 "magical_critical_strike_base": 321,

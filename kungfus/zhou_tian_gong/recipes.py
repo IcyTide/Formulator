@@ -14,14 +14,14 @@ class 断脉双会提高10(NeutralCriticalRecipe):
 
 
 class 引窍增幅增加(PveAdditionRecipe):
-    value = 994
+    value = 870
     channel_interval: list
 
     def add_skill(self, skill: Skill):
         if skill.skill_id == 38438:
             super().add_skill(skill)
             new_channel_interval = [
-                1000 * (1 + 0.04 * level) * 0.88 * 0.9 * 0.95 * 0.9 * 0.9 * 0.85 * 0.85
+                1000 * (1 + 0.04 * level) * 0.88 * 0.9 * 0.95 * 0.9 * 0.9 * 0.85 * 0.85 * 1.1
                 for level in range(skill.max_level)
             ]
             self.channel_interval, skill.channel_interval = skill.all_channel_interval, new_channel_interval

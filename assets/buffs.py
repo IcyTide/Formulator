@@ -5264,8 +5264,8 @@ BUFFS = {
             {
                 "neutral_critical_strike_rate": 2500,
                 "magical_critical_power_rate": 256,
-                "neutral_attack_power_gain": 512,
-                "physical_attack_power_gain": 512,
+                "neutral_attack_power_gain": 256,
+                "physical_attack_power_gain": 256,
                 "physical_critical_power_rate": 256,
                 "physical_critical_strike_rate": 2500
             },
@@ -6621,7 +6621,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 184
+            "pve_addition_base": 205
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
@@ -6979,9 +6979,9 @@ BUFFS = {
             "solar_critical_strike_rate": 1000,
             "magical_critical_power_rate": 52
         },
-        "max_level": 2,
+        "max_level": 1,
         "buff_name": "无明业火",
-        "alias_name": "明教_无明业火_眩晕",
+        "alias_name": "明教_无明业火_双会",
         "max_stack": 1,
         "recipes": {}
     },
@@ -7068,7 +7068,7 @@ BUFFS = {
     12575: {
         "attributes": [
             {
-                "all_shield_ignore": 307
+                "all_shield_ignore": 410
             },
             {
                 "all_shield_ignore": 922
