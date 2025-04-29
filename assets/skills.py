@@ -4650,6 +4650,30 @@ SKILLS = {
         ],
         "neutral_damage_call": 1
     },
+    36102: {
+        "alias_name": "六幺有兆伤害子技能",
+        "kind_type": "NeutralMagic",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "event_mask_1": 129,
+        "channel_interval": 1787.5,
+        "max_level": 2,
+        "skill_name": "际地蟠天",
+        "neutral_damage_base": [
+            750,
+            1500
+        ],
+        "neutral_damage_rand": [
+            75,
+            150
+        ],
+        "neutral_damage_call": 1,
+        "neutral_critical_strike_rate": [
+            0,
+            10000
+        ]
+    },
     25770: {
         "alias_name": "110CW新增特效紫霞功",
         "kind_type": "NeutralMagic",
