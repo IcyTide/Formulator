@@ -2776,6 +2776,14 @@ RECIPES = {
             "recipe_name": "《九宫飞星·图穷匕见》参悟绝章"
         }
     },
+    1219: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 3105,
+            "recipe_type": 3105,
+            "recipe_name": "90奇穴_蚀肌弹加伤害"
+        }
+    },
     2962: {
         1: {
             "damage_addition": 103,
@@ -2790,6 +2798,13 @@ RECIPES = {
             "skill_id": 3111,
             "recipe_type": 3111,
             "recipe_name": "暗藏杀机"
+        }
+    },
+    2372: {
+        1: {
+            "damage_addition": 410,
+            "skill_id": 3367,
+            "recipe_name": "毒刹伤害30%"
         }
     },
     1223: {
@@ -2858,6 +2873,13 @@ RECIPES = {
             "recipe_name": "小橙武_天罗"
         }
     },
+    1220: {
+        1: {
+            "skill_id": 3105,
+            "recipe_type": 3105,
+            "recipe_name": "90奇穴_蚀肌弹加会心"
+        }
+    },
     4677: {
         1: {
             "recipe_type": 3367,
@@ -2890,6 +2912,12 @@ RECIPES = {
             "skill_id": 3111,
             "recipe_type": 3111,
             "recipe_name": "神机控制暗藏杀机加伤害"
+        }
+    },
+    5830: {
+        1: {
+            "skill_id": 3367,
+            "recipe_name": "毒刹非侠士"
         }
     },
     984: {

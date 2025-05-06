@@ -1,6 +1,10 @@
 from general.recipes import *
 
 
+class 蚀肌弹_加会心(PhysicalCriticalRecipe):
+    value = (1000, 100)
+
+
 class 鬼斧无视防御(MagicalShieldGainRecipe):
     value = -512
 
@@ -45,6 +49,10 @@ class 神机控制暗藏杀机伤害10(ChannelIntervalRecipe):
     value = 1.1
 
 
+class 毒刹非侠士(PveAdditionRecipe):
+    value = 8192
+
+
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         # 通用
@@ -53,7 +61,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         884: {}, 885: {}, 886: {},
         1669: {}, 1670: {}, 1671: {},
         # 奇穴
-        2962: {}, 5920: {}, 1223: {},
+        1219: {}, 2962: {}, 5920: {}, 2372: {}, 1223: {},
         # 装备
         947: {}, 4120: {}, 1532: {}, 1533: {}
     },
@@ -71,6 +79,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     CriticalStrikeRecipe_500: {
         1146: {}, 1978: {}
     },
+    蚀肌弹_加会心: {
+        1220: {}
+    },
     鬼斧无视防御: {
         4677: {}
     },
@@ -85,6 +96,9 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     神机控制暗藏杀机伤害10: {
         2961: {}
+    },
+    毒刹非侠士: {
+        5830: {}
     }
 }
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {

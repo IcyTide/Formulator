@@ -4,7 +4,9 @@ from base.gain import Gain
 
 TALENTS: List[Dict[int, Gain]] = [
     {
-        28371: Gain("血影留痕", skill_ids=[30894])
+        28371: Gain("血影留痕", skill_ids=[30894]),
+        6490: Gain("天魔蚀肌", recipes=[(1219, 1)]),
+        6491: Gain("毒手尊拳", recipes=[(1220, 1)])
     },
     {
         6493: Gain("天风汲雨", skill_ids=[30727])
@@ -20,17 +22,19 @@ TALENTS: List[Dict[int, Gain]] = [
     },
     {
         27267: Gain("神威穿彻"),
-        6451: Gain("聚精凝神", buff_ids=[8210])
+        6451: Gain("聚精凝神", buff_ids=[8210]),
+        6778: Gain("神机千算", recipes=[(2372, 1)])
     },
     {
         30721: Gain("巧夺天工"),
         18249: Gain("化血迷心", dot_ids=[14611], skill_ids=[21266])
     },
     {
-        14857: Gain("雷甲三铉", buff_ids=[13165, 27405])
+        14857: Gain("雷甲三铉", buff_ids=[13165, 27405]),
+        33134: Gain("杀机断魂", buff_ids=[-24668, 24669, 16234, 16235, 16236], skill_ids=list(range(33142, 33145 + 1)))
     },
     {
-        6508: Gain("千机不殆", recipes=[(1223, 1)]),
+        6508: Gain("千机不殆", recipes=[(1223, 1), (5830, 1)]),
         6461: Gain("秋风散影", buff_ids=[9981])
     },
     {

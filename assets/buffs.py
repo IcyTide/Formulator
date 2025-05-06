@@ -6936,6 +6936,46 @@ BUFFS = {
             5459: 1
         }
     },
+    24668: {
+        "attributes": {
+            "all_damage_addition": 103
+        },
+        "max_level": 1,
+        "alias_name": "杀机断魂增益",
+        "max_stack": 20,
+        "recipes": {}
+    },
+    24669: {
+        "attributes": {},
+        "max_level": 1,
+        "alias_name": "天绝地灭计数",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    16234: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "暗藏杀机A",
+        "alias_name": "暗藏杀机A",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    16235: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "暗藏杀机B",
+        "alias_name": "暗藏杀机B",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    16236: {
+        "attributes": {},
+        "max_level": 1,
+        "buff_name": "暗藏杀机C",
+        "alias_name": "暗藏杀机C",
+        "max_stack": 1,
+        "recipes": {}
+    },
     10005: {
         "attributes": {
             "all_shield_ignore": 256

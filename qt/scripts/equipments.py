@@ -322,7 +322,8 @@ def equipments_script(equipments_widget: EquipmentsWidget):
                 for level, gain in special_enchant_map.items():
                     if equipment.level > level:
                         equipment.special_enchant = gain
-
+                if widget.special_enchant.radio_button.isChecked():
+                    equipment.special_enchant_gain = [equipment.special_enchant]
             widget.detail_widget.show()
 
         return inner

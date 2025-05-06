@@ -13883,6 +13883,21 @@ SKILLS = {
         ],
         "poison_damage_call": 1
     },
+    3367: {
+        "alias_name": "千机变_火器伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 3367,
+        "recipe_mask": 0,
+        "event_mask_1": 785,
+        "event_mask_2": 553648128,
+        "channel_interval": 135.13500000000002,
+        "max_level": 1,
+        "skill_name": "毒刹",
+        "poison_damage_base": 57,
+        "poison_damage_rand": 7,
+        "poison_damage_call": 1
+    },
     3223: {
         "alias_name": "孔雀翎_内功",
         "kind_type": "Physics",
@@ -14334,6 +14349,42 @@ SKILLS = {
             65
         ],
         "poison_damage_call": 1
+    },
+    33145: {
+        "alias_name": "杀机断魂删除增益",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1
+    },
+    33142: {
+        "alias_name": "杀机断魂千机变加增益",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1
+    },
+    33143: {
+        "alias_name": "杀机断魂天绝地灭加增益",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1
+    },
+    33144: {
+        "alias_name": "杀机断魂暗藏杀机加增益",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 1
     },
     4326: {
         "alias_name": "普通攻击-双刀攻击",
