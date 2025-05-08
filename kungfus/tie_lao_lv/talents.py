@@ -19,7 +19,8 @@ TALENTS: List[Dict[int, Gain]] = [
         5695: Gain("望西京")
     },
     {
-        5681: Gain("留侯")
+        5681: Gain("留侯"),
+        18872: Gain("劲风")
     },
     {
         18238: Gain("掠如火")

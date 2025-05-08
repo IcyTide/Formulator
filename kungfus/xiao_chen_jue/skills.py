@@ -19,8 +19,7 @@ SKILLS: Dict[type, Dict[int, dict]] = {
         **{skill_id: dict(bind_dots={6367: 1}) for skill_id in (6853,)},
         # 奇穴
         26703: {}, 25201: {}, 25202: {}, **{skill_id: dict(bind_dots={6401: 1}) for skill_id in (6867,)},
-        **{skill_id: {} for skill_id in range(19430, 19439 + 1)},
-        **{skill_id: {} for skill_id in range(18909, 18974 + 1)},
+        **{skill_id: {} for skill_id in range(19430, 19439 + 1)}, 18913: {},
         38891: {}, 40335: {},
         # 装备
         25779: {},

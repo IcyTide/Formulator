@@ -28,7 +28,7 @@ TALENTS: List[Dict[int, Gain]] = [
     {
         6818: Gain("雨龙", dot_ids=[6401], skill_ids=[6867]),
         6824: Gain("驯致", skill_ids=list(range(19430, 19439 + 1)), recipes=[(4340, 1)]),
-        14633: Gain("亢野", skill_ids=list(range(18909, 18974 + 1)))
+        14633: Gain("亢野", skill_ids=[18913])
     },
     {
         38878: Gain("追远", skill_ids=[38891])

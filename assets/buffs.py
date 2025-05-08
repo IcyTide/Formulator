@@ -7081,30 +7081,6 @@ BUFFS = {
         ],
         "recipes": {}
     },
-    30644: {
-        "attributes": {},
-        "max_level": 2,
-        "alias_name": [
-            "明教_净体不畏_日斩增伤",
-            "明教_净体不畏_月斩增伤"
-        ],
-        "max_stack": 1,
-        "recipes": [
-            {
-                5930: 1
-            },
-            {
-                5931: 1
-            }
-        ]
-    },
-    30645: {
-        "attributes": {},
-        "max_level": 1,
-        "alias_name": "已废弃_明教_用晦而明强化_月",
-        "max_stack": 1,
-        "recipes": {}
-    },
     12575: {
         "attributes": [
             {

@@ -874,8 +874,7 @@ class Attribute(Major, Minor, Target):
     level: int = LEVEL
     grad_attrs: dict = dict(
         surplus_base=MINOR_DELTA,
-        strain_base=MINOR_DELTA,
-        pvx_round=PVX_DELTA
+        strain_base=MINOR_DELTA
     )
     display_attrs: list = ["strain_base", "strain", "haste_base", "haste", "surplus", "base_weapon_damage",
                            "weapon_damage_rand"]
