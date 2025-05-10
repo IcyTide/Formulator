@@ -5450,6 +5450,16 @@ BUFFS = {
             5613: 2
         }
     },
+    17933: {
+        "attributes": {
+            "physical_critical_power_rate": 154
+        },
+        "max_level": 1,
+        "buff_name": "裂云",
+        "alias_name": "叠刃加跑速",
+        "max_stack": 1,
+        "recipes": {}
+    },
     6093: {
         "attributes": {
             "physical_attack_power_gain": 102,
