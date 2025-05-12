@@ -178,7 +178,7 @@ ATTRIBUTES = {
     10144: {
         "alias_name": "问水诀",
         "max_level": 14,
-        "pve_addition_base": 92,
+        "pve_addition_base": 113,
         "agility_to_physical_attack_power": 1843,
         "physical_critical_strike_base": [
             12,
@@ -217,7 +217,7 @@ ATTRIBUTES = {
     10175: {
         "alias_name": "毒经",
         "max_level": 14,
-        "pve_addition_base": 205,
+        "pve_addition_base": 236,
         "magical_attack_power_base": [
             10,
             17,
@@ -240,7 +240,7 @@ ATTRIBUTES = {
     10224: {
         "alias_name": "惊羽诀",
         "max_level": 14,
-        "pve_addition_base": 113,
+        "pve_addition_base": 164,
         "physical_attack_power_base": [
             8,
             13,
@@ -279,7 +279,7 @@ ATTRIBUTES = {
     10225: {
         "alias_name": "天罗诡道",
         "max_level": 14,
-        "pve_addition_base": 287,
+        "pve_addition_base": 205,
         "physical_critical_strike_base": [
             4,
             7,
@@ -318,7 +318,7 @@ ATTRIBUTES = {
     10242: {
         "alias_name": "焚影圣诀",
         "max_level": 14,
-        "pve_addition_base": 41,
+        "pve_addition_base": 82,
         "lunar_attack_power_base": [
             11,
             18,
@@ -485,7 +485,7 @@ ATTRIBUTES = {
     10533: {
         "alias_name": "凌海诀",
         "max_level": 14,
-        "pve_addition_base": 287,
+        "pve_addition_base": 328,
         "agility_to_physical_attack_power": 1802,
         "agility_to_physical_critical_strike": 420,
         "physical_critical_strike_base": [

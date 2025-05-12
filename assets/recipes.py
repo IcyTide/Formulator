@@ -514,7 +514,7 @@ RECIPES = {
     },
     5756: {
         1: {
-            "damage_addition": 512,
+            "damage_addition": 717,
             "skill_id": 18640,
             "recipe_type": 18640,
             "recipe_name": "橙武万世加伤害"
@@ -2640,7 +2640,7 @@ RECIPES = {
     },
     2897: {
         1: {
-            "recipe_type": 3096,
+            "skill_id": 3096,
             "recipe_name": "神机锁定追命增强"
         }
     },

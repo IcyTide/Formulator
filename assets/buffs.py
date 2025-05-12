@@ -6631,7 +6631,7 @@ BUFFS = {
     },
     16543: {
         "attributes": {
-            "pve_addition_base": 205
+            "pve_addition_base": 236
         },
         "max_level": 1,
         "alias_name": "宠物存在监控BUFF",
