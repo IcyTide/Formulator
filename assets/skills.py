@@ -28777,6 +28777,20 @@ SKILLS = {
             10
         ]
     },
+    32593: {
+        "alias_name": "倾波_自身引爆伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "event_mask_1": 4,
+        "channel_interval": 609.1352343749999,
+        "max_level": 1,
+        "skill_name": "倾波",
+        "physical_damage_call": 1,
+        "physical_damage_base": 130,
+        "physical_damage_rand": 5
+    },
     38675: {
         "alias_name": "新青冥持续伤害",
         "kind_type": "Physics",
