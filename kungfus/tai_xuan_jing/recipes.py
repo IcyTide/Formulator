@@ -5,11 +5,11 @@ class 山艮状态伤害技能系数提高叠1(ChannelIntervalRecipe):
     value = 1.074
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().sub_skill(skill)
 
 
@@ -17,11 +17,11 @@ class 山艮状态伤害技能系数提高叠2(ChannelIntervalRecipe):
     value = 1.14815
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().sub_skill(skill)
 
 
@@ -29,11 +29,11 @@ class 山艮状态伤害技能系数提高叠3(ChannelIntervalRecipe):
     value = 1.2223
 
     def add_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().add_skill(skill)
 
     def sub_skill(self, skill: Skill):
-        if skill.skill_id in (24823, 24676, 24813, 34683):
+        if skill.skill_id in (24823, 24676, 24813):
             super().sub_skill(skill)
 
 

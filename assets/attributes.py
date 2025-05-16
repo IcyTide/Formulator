@@ -641,7 +641,7 @@ ATTRIBUTES = {
     10698: {
         "alias_name": "孤锋诀",
         "max_level": 14,
-        "pve_addition_base": 338,
+        "pve_addition_base": 236,
         "physical_critical_strike_base": [
             13,
             23,

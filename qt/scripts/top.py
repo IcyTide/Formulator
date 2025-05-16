@@ -149,7 +149,9 @@ def top_script(
     def select_target(_):
         target_name = top_widget.target_select.combo_box.currentText()
         if target_name:
-            parser.current_target = parser.name2id.get(target_name, "")
+            for target in parser.current_targets:
+                if parser.id2name[target] == target_name:
+                    parser.current_target = target
         else:
             parser.current_target = target_name
 

@@ -35902,6 +35902,35 @@ SKILLS = {
         "physical_damage_base": 37,
         "physical_damage_rand": 5
     },
+    40347: {
+        "alias_name": "聚势摧霆伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 40347,
+        "recipe_mask": 0,
+        "event_mask_1": 523,
+        "channel_interval": 241.20000000000002,
+        "max_level": 1,
+        "skill_name": "聚势摧霆",
+        "physical_damage_call": 1,
+        "pve_addition": 2202,
+        "physical_damage_base": 35,
+        "physical_damage_rand": 5
+    },
+    40720: {
+        "alias_name": "蓄力额外伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 40347,
+        "recipe_mask": 0,
+        "event_mask_1": 523,
+        "channel_interval": 140.70000000000002,
+        "max_level": 1,
+        "skill_name": "聚势",
+        "physical_damage_call": 1,
+        "physical_damage_base": 35,
+        "physical_damage_rand": 5
+    },
     36580: {
         "alias_name": "万灵山庄橙武特效期间额外伤害",
         "kind_type": "Physics",
