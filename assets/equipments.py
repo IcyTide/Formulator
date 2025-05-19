@@ -172,6 +172,121 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "锁南天#106630 (30200 精简 破招 无双)": {
+            "id": 106630,
+            "name": "锁南天",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24110,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "surplus_base": 3165,
+                "strain_base": 6330
+            },
+            "embed": {
+                "vitality_base": 161
+            },
+            "gains": [
+                [
+                    2887
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "镇朔风#106629 (30200 精简 加速 无双)": {
+            "id": 106629,
+            "name": "镇朔风",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24110,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "haste_base": 3165,
+                "strain_base": 6330
+            },
+            "embed": {
+                "magical_shield_base": 161,
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2887
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "破天关#106628 (30200 精简 无双)": {
+            "id": 106628,
+            "name": "破天关",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24110,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "strain_base": 6330
+            },
+            "embed": {
+                "vitality_base": 161
+            },
+            "gains": [
+                [
+                    2887
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "界南北#106627 (30200 精简 无双)": {
+            "id": 106627,
+            "name": "界南北",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24110,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "strain_base": 6330
+            },
+            "embed": {
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2887
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "坠欢袖#105075 (30200 无双)": {
             "id": 105075,
             "name": "坠欢袖",
@@ -19294,6 +19409,121 @@ EQUIPMENTS = {
             "set_gain": {},
             "set_recipe": {}
         },
+        "腾龙脊#106638 (30200 精简 破招 无双)": {
+            "id": 106638,
+            "name": "腾龙脊",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24112,
+            "base": {},
+            "magic": {
+                "vitality_base": 24493,
+                "surplus_base": 4522,
+                "strain_base": 9044
+            },
+            "embed": {
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2889
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "擎天阙#106637 (30200 精简 加速 无双)": {
+            "id": 106637,
+            "name": "擎天阙",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24112,
+            "base": {},
+            "magic": {
+                "vitality_base": 24493,
+                "haste_base": 4522,
+                "strain_base": 9044
+            },
+            "embed": {
+                "vitality_base": 161,
+                "magical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2889
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "镇狂澜#106636 (30200 精简 无双)": {
+            "id": 106636,
+            "name": "镇狂澜",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24112,
+            "base": {},
+            "magic": {
+                "vitality_base": 24493,
+                "strain_base": 9044
+            },
+            "embed": {
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2889
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "奔海沧#106635 (30200 精简 无双)": {
+            "id": 106635,
+            "name": "奔海沧",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24112,
+            "base": {},
+            "magic": {
+                "vitality_base": 24493,
+                "strain_base": 9044
+            },
+            "embed": {
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2889
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
         "坠欢裤#105093 (30200 破招 无双)": {
             "id": 105093,
             "name": "坠欢裤",
@@ -24480,6 +24710,123 @@ EQUIPMENTS = {
                     "strain_base": 2992
                 }
             },
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "靖边尘#106634 (30200 精简 破招 无双)": {
+            "id": 106634,
+            "name": "靖边尘",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24114,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "surplus_base": 3165,
+                "strain_base": 6330
+            },
+            "embed": {
+                "physical_shield_base": 161,
+                "vitality_base": 161
+            },
+            "gains": [
+                [
+                    2888
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "铭烽烟#106633 (30200 精简 加速 无双)": {
+            "id": 106633,
+            "name": "铭烽烟",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24114,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "haste_base": 3165,
+                "strain_base": 6330
+            },
+            "embed": {
+                "magical_shield_base": 161,
+                "physical_shield_base": 161
+            },
+            "gains": [
+                [
+                    2888
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "千秋业#106632 (30200 精简 无双)": {
+            "id": 106632,
+            "name": "千秋业",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24114,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "strain_base": 6330
+            },
+            "embed": {
+                "physical_shield_base": 161,
+                "vitality_base": 161
+            },
+            "gains": [
+                [
+                    2888
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "据雄关#106631 (30200 精简 无双)": {
+            "id": 106631,
+            "name": "据雄关",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 24114,
+            "base": {},
+            "magic": {
+                "vitality_base": 17145,
+                "strain_base": 6330
+            },
+            "embed": {
+                "vitality_base": 161
+            },
+            "gains": [
+                [
+                    2888
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
             "set_gain": {},
             "set_recipe": {}
         },
@@ -59568,6 +59915,112 @@ EQUIPMENTS = {
             "gains": [
                 [
                     2848
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "照孤烽#44209 (30200 精简 破招 无双)": {
+            "id": 44209,
+            "name": "照孤烽",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1233,
+            "base": {},
+            "magic": {
+                "vitality_base": 12246,
+                "surplus_base": 2261,
+                "strain_base": 4522
+            },
+            "embed": {},
+            "gains": [
+                [
+                    2890
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "贯西东#44208 (30200 精简 加速 无双)": {
+            "id": 44208,
+            "name": "贯西东",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1229,
+            "base": {},
+            "magic": {
+                "vitality_base": 12246,
+                "haste_base": 2261,
+                "strain_base": 4522
+            },
+            "embed": {},
+            "gains": [
+                [
+                    2890
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "志沧海#44207 (30200 精简 无双)": {
+            "id": 44207,
+            "name": "志沧海",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 1228,
+            "base": {},
+            "magic": {
+                "vitality_base": 12246,
+                "strain_base": 4522
+            },
+            "embed": {},
+            "gains": [
+                [
+                    2890
+                ]
+            ],
+            "recipes": {},
+            "set_attr": {},
+            "set_gain": {},
+            "set_recipe": {}
+        },
+        "立沧桑#44206 (30200 精简 无双)": {
+            "id": 44206,
+            "name": "立沧桑",
+            "school": "精简",
+            "kind": "防御",
+            "level": 30200,
+            "max_strength": 6,
+            "special_enchant": 0,
+            "set_id": 0,
+            "icon_id": 4258,
+            "base": {},
+            "magic": {
+                "vitality_base": 12246,
+                "strain_base": 4522
+            },
+            "embed": {},
+            "gains": [
+                [
+                    2890
                 ]
             ],
             "recipes": {},

@@ -165,6 +165,12 @@ class WristGain(EquipmentGain):
     _damage_base = [403200]
 
 
+class TankWristGain(EquipmentGain):
+    # skill_ids = [41069]
+    # _damage_base = [352800]
+    pass
+
+
 class BeltGain_1(EquipmentGain):
     buff_ids = [30742]
     _attributes = GENERAL_BUFFS[30742].all_attributes
@@ -173,6 +179,11 @@ class BeltGain_1(EquipmentGain):
 class BeltGain_2(EquipmentGain):
     buff_ids = [30743]
     _attributes = [GENERAL_BUFFS[30743].get_attributes(weights=[0] * 3 * level + [1 / 3] * 3) for level in range(1)]
+
+
+class TankBeltGain(EquipmentGain):
+    buff_ids = [30946]
+    _attributes = GENERAL_BUFFS[30946].all_attributes
 
 
 class BottomGain_1(EquipmentGain):
@@ -218,6 +229,11 @@ class BottomGain_3(EquipmentGain):
         super().add_attribute(attribute)
 
 
+class TankBottomGain(EquipmentGain):
+    # skill_ids = [41073]
+    pass
+
+
 class RingGain_1(EquipmentGain):
     buff_ids = [30755]
     _attributes = GENERAL_BUFFS[30755].all_attributes
@@ -231,6 +247,11 @@ class RingGain_2(EquipmentGain):
 class RingGain_3(EquipmentGain):
     buff_ids = [30757]
     _attributes = GENERAL_BUFFS[30757].all_attributes
+
+
+class TankRingGain(EquipmentGain):
+    buff_ids = [30950]
+    _attributes = GENERAL_BUFFS[30950].all_attributes
 
 
 class ShoesGain(EquipmentGain):
@@ -347,12 +368,20 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i, gain_id in enumerate((2869,))
     },
     **{
+        (gain_id,): TankWristGain(i + 1)
+        for i, gain_id in enumerate((2887,))
+    },
+    **{
         (gain_id,): BeltGain_1(i + 1)
         for i, gain_id in enumerate((2870,))
     },
     **{
         (gain_id,): BeltGain_2(i + 1)
         for i, gain_id in enumerate((2871,))
+    },
+    **{
+        (gain_id,): TankBeltGain(i + 1)
+        for i, gain_id in enumerate((2888,))
     },
     **{
         (gain_id,): BottomGain_1(i + 1)
@@ -367,6 +396,10 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
         for i, gain_id in enumerate((2880,))
     },
     **{
+        (gain_id,): TankBottomGain(i + 1)
+        for i, gain_id in enumerate((2889,))
+    },
+    **{
         (gain_id,): RingGain_1(i + 1)
         for i, gain_id in enumerate((2874,))
     },
@@ -377,6 +410,10 @@ EQUIPMENT_GAINS: Dict[tuple, Gain] = {
     **{
         (gain_id,): RingGain_3(i + 1)
         for i, gain_id in enumerate((2876,))
+    },
+    **{
+        (gain_id,): TankRingGain(i + 1)
+        for i, gain_id in enumerate((2890,))
     },
     **{
         (gain_id,): OvercomeShoesGain(i + 1)

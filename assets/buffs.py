@@ -2243,6 +2243,33 @@ BUFFS = {
         "max_stack": 1,
         "recipes": {}
     },
+    30946: {
+        "attributes": {
+            "surplus_base": 2196
+        },
+        "max_level": 1,
+        "buff_name": "御·破招",
+        "alias_name": "防御腰带特效加破招",
+        "max_stack": 1,
+        "recipes": {}
+    },
+    30950: {
+        "attributes": [
+            {
+                "strain_base": 1412
+            },
+            {
+                "strain_base": 2824
+            }
+        ],
+        "max_level": 2,
+        "alias_name": [
+            "防御戒指特效加无双",
+            "防御戒指特效加无双_双戒指"
+        ],
+        "max_stack": 1,
+        "recipes": {}
+    },
     29519: {
         "attributes": [
             {

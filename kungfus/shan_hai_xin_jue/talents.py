@@ -72,6 +72,7 @@ TALENTS: List[Dict[int, Gain]] = [
         35736: 桑柘("桑柘")
     },
     {
-        35764: Gain("朝仪万汇", skill_ids=[36453])
+        35764: Gain("朝仪万汇", skill_ids=[36453]),
+        40240: Gain("聚势摧霆", skill_ids=[40347, 40720])
     }
 ]
