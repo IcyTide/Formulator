@@ -2,6 +2,7 @@ SKILLS = {
     22151: {
         "alias_name": "输出附魔通用减疗提伤害",
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -44,6 +45,7 @@ SKILLS = {
     29919: {
         "alias_name": "龙门飞剑武器_输出_被动_自适应伤害",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 5,
@@ -60,6 +62,7 @@ SKILLS = {
     38787: {
         "alias_name": "130级防御特效腰坠实际生效子技能",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -69,6 +72,7 @@ SKILLS = {
     38966: {
         "alias_name": "黄字暗器子技能",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 4,
@@ -83,6 +87,7 @@ SKILLS = {
     40789: {
         "alias_name": "精简护手特效伤害子技能",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -92,6 +97,7 @@ SKILLS = {
     37562: {
         "alias_name": "附魔护手伤害子技能",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -101,6 +107,7 @@ SKILLS = {
     37561: {
         "alias_name": "附魔鞋伤害子技能",
         "kind_type": "Adaptive",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -110,6 +117,7 @@ SKILLS = {
     28947: {
         "alias_name": "乱暮浊茵阵五重一击",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 100,
@@ -323,6 +331,7 @@ SKILLS = {
     29541: {
         "alias_name": "飘黄附带额外伤害",
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 32.624572500000006,
@@ -331,6 +340,7 @@ SKILLS = {
     11: {
         "alias_name": "普通攻击-棍攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -343,6 +353,7 @@ SKILLS = {
     19090: {
         "alias_name": "少林武器伤害通用子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19090,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -367,6 +378,7 @@ SKILLS = {
     32887: {
         "alias_name": "少林破招子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 3,
@@ -381,6 +393,7 @@ SKILLS = {
     236: {
         "alias_name": "摩诃无量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -402,6 +415,7 @@ SKILLS = {
     17641: {
         "alias_name": "普度四方一段伤害及表现",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 232,
         "recipe_mask": 0,
         "event_mask_1": 67109425,
@@ -503,6 +517,7 @@ SKILLS = {
     17642: {
         "alias_name": "普度四方二段伤害及表现",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 232,
         "recipe_mask": 0,
         "event_mask_1": 67109425,
@@ -604,6 +619,7 @@ SKILLS = {
     3848: {
         "alias_name": "韦陀献杵无镇派3豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -678,6 +694,7 @@ SKILLS = {
     3849: {
         "alias_name": "韦陀献杵无镇派1豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -721,6 +738,7 @@ SKILLS = {
     3850: {
         "alias_name": "韦陀献杵无镇派2豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -764,6 +782,7 @@ SKILLS = {
     3808: {
         "alias_name": "少林_横扫六合100%",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -836,6 +855,7 @@ SKILLS = {
     3810: {
         "alias_name": "少林_横扫六合200%",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -908,6 +928,7 @@ SKILLS = {
     3830: {
         "alias_name": "少林_横扫六合无镇派",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 235,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -980,6 +1001,7 @@ SKILLS = {
     14951: {
         "alias_name": "捕风正常伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 238,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1066,6 +1088,7 @@ SKILLS = {
     3814: {
         "alias_name": "少林_捣虚式125%",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 2572,
         "recipe_mask": 0,
         "event_mask_1": 16945,
@@ -1102,6 +1125,7 @@ SKILLS = {
     3816: {
         "alias_name": "少林_捣虚式100%",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 2572,
         "recipe_mask": 0,
         "event_mask_1": 16945,
@@ -1138,6 +1162,7 @@ SKILLS = {
     13681: {
         "alias_name": "拿云一段高血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1192,6 +1217,7 @@ SKILLS = {
     13682: {
         "alias_name": "拿云一段低血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1246,6 +1272,7 @@ SKILLS = {
     13683: {
         "alias_name": "拿云二段高血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1300,6 +1327,7 @@ SKILLS = {
     13684: {
         "alias_name": "拿云二段低血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1354,6 +1382,7 @@ SKILLS = {
     13685: {
         "alias_name": "拿云三段高血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1408,6 +1437,7 @@ SKILLS = {
     13686: {
         "alias_name": "拿云三段低血量",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1462,6 +1492,7 @@ SKILLS = {
     28619: {
         "alias_name": "千斤坠伤害子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 32,
@@ -1478,6 +1509,7 @@ SKILLS = {
     271: {
         "alias_name": "韦陀献杵增加伤害_60级内功技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 233,
         "recipe_mask": 0,
         "event_mask_1": 529,
@@ -1509,6 +1541,7 @@ SKILLS = {
     38615: {
         "alias_name": "新布泽额外伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 800.0,
@@ -1519,6 +1552,7 @@ SKILLS = {
     36049: {
         "alias_name": "净果拿云低血量伤害子技能1豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1573,6 +1607,7 @@ SKILLS = {
     36050: {
         "alias_name": "净果拿云低血量伤害子技能2豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1627,6 +1662,7 @@ SKILLS = {
     36051: {
         "alias_name": "净果拿云低血量伤害子技能3豆",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 243,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -1681,6 +1717,7 @@ SKILLS = {
     32656: {
         "alias_name": "金刚日轮阵_阵法内额外龙爪功伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 390.0,
@@ -1691,6 +1728,7 @@ SKILLS = {
     32659: {
         "alias_name": "业因_主因守缺时单体额外伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 2184.0,
@@ -1701,6 +1739,7 @@ SKILLS = {
     32660: {
         "alias_name": "业因_主因横扫时群体额外伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 32,
@@ -1714,6 +1753,7 @@ SKILLS = {
     25766: {
         "alias_name": "110CW新增特效易筋经",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -1725,6 +1765,7 @@ SKILLS = {
     26989: {
         "alias_name": "明法伤害加成判定",
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -1733,6 +1774,7 @@ SKILLS = {
     26991: {
         "alias_name": "明法伤害加成移除",
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -1741,6 +1783,7 @@ SKILLS = {
     18121: {
         "alias_name": "三柴剑法附带特效表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -1753,6 +1796,7 @@ SKILLS = {
     32813: {
         "alias_name": "纯阳_气纯破招子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 7,
@@ -1771,6 +1815,7 @@ SKILLS = {
     303: {
         "alias_name": "三才化生",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 128,
@@ -1831,6 +1876,7 @@ SKILLS = {
     305: {
         "alias_name": "九转归一",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -1844,6 +1890,7 @@ SKILLS = {
     28381: {
         "alias_name": "太极无极普通表现技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 306,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -1852,6 +1899,7 @@ SKILLS = {
     896: {
         "alias_name": "四象轮回_普通",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 367,
         "recipe_mask": 0,
         "event_mask_1": 1073742993,
@@ -1968,6 +2016,7 @@ SKILLS = {
     327: {
         "alias_name": "三才化生_1点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -1998,6 +2047,7 @@ SKILLS = {
     328: {
         "alias_name": "三才化生_2点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2028,6 +2078,7 @@ SKILLS = {
     329: {
         "alias_name": "三才化生_3点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2058,6 +2109,7 @@ SKILLS = {
     330: {
         "alias_name": "三才化生_4点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2088,6 +2140,7 @@ SKILLS = {
     331: {
         "alias_name": "三才化生_5点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2118,6 +2171,7 @@ SKILLS = {
     461: {
         "alias_name": "三才化生_6点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2148,6 +2202,7 @@ SKILLS = {
     462: {
         "alias_name": "三才化生_7点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2178,6 +2233,7 @@ SKILLS = {
     463: {
         "alias_name": "三才化生_8点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2208,6 +2264,7 @@ SKILLS = {
     464: {
         "alias_name": "三才化生_9点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2238,6 +2295,7 @@ SKILLS = {
     465: {
         "alias_name": "三才化生_10点气",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2674,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -2268,6 +2326,7 @@ SKILLS = {
     3439: {
         "alias_name": "两仪化形_正常伤害1豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -2390,6 +2449,7 @@ SKILLS = {
     3440: {
         "alias_name": "两仪化形_正常伤害2豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -2512,6 +2572,7 @@ SKILLS = {
     3441: {
         "alias_name": "两仪化形_正常伤害3豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -2634,6 +2695,7 @@ SKILLS = {
     3442: {
         "alias_name": "两仪化形_正常伤害4豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -2756,6 +2818,7 @@ SKILLS = {
     3443: {
         "alias_name": "两仪化形_正常伤害5豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -2878,6 +2941,7 @@ SKILLS = {
     3444: {
         "alias_name": "两仪化形_正常伤害6豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -3000,6 +3064,7 @@ SKILLS = {
     3445: {
         "alias_name": "两仪化形_正常伤害7豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -3122,6 +3187,7 @@ SKILLS = {
     3446: {
         "alias_name": "两仪化形_正常伤害8豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -3244,6 +3310,7 @@ SKILLS = {
     3447: {
         "alias_name": "两仪化形_正常伤害9豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -3366,6 +3433,7 @@ SKILLS = {
     3448: {
         "alias_name": "两仪化形_正常伤害10豆",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -3488,6 +3556,7 @@ SKILLS = {
     18649: {
         "alias_name": "万世不竭飞剑1单体",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 640,
@@ -3500,6 +3569,7 @@ SKILLS = {
     18650: {
         "alias_name": "万世不竭飞剑2单体",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 640,
@@ -3512,6 +3582,7 @@ SKILLS = {
     18651: {
         "alias_name": "万世不竭飞剑3单体",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 640,
@@ -3524,6 +3595,7 @@ SKILLS = {
     18652: {
         "alias_name": "万世不竭飞剑4单体",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 640,
@@ -3536,6 +3608,7 @@ SKILLS = {
     18653: {
         "alias_name": "万世不竭飞剑5单体",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 640,
@@ -3548,6 +3621,7 @@ SKILLS = {
     22014: {
         "alias_name": "万世不竭二段气剑表现控制",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 18640,
         "recipe_mask": 0,
         "event_mask_1": 656,
@@ -3570,6 +3644,7 @@ SKILLS = {
     2681: {
         "alias_name": "气纯_紫气东来",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 8721,
@@ -3581,6 +3656,7 @@ SKILLS = {
     6091: {
         "alias_name": "纯阳_90级奇穴_两仪矩形AOE1",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -3666,6 +3742,7 @@ SKILLS = {
     6092: {
         "alias_name": "纯阳_90级奇穴_两仪矩形AOE2",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -3751,6 +3828,7 @@ SKILLS = {
     6093: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE3",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -3836,6 +3914,7 @@ SKILLS = {
     6094: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE4",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -3921,6 +4000,7 @@ SKILLS = {
     6095: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE5",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4006,6 +4086,7 @@ SKILLS = {
     6096: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE6",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4091,6 +4172,7 @@ SKILLS = {
     6097: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE7",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4176,6 +4258,7 @@ SKILLS = {
     6098: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE8",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4261,6 +4344,7 @@ SKILLS = {
     6099: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE9",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4346,6 +4430,7 @@ SKILLS = {
     6100: {
         "alias_name": "纯阳_90级奇穴_两仪化形AOE10",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 145,
@@ -4431,6 +4516,7 @@ SKILLS = {
     40158: {
         "alias_name": "气纯气点扩容伤害技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 301,
         "recipe_mask": 0,
         "event_mask_1": 536871569,
@@ -4474,6 +4560,7 @@ SKILLS = {
     36438: {
         "alias_name": "黑洞实际伤害技能打伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 1169,
@@ -4488,6 +4575,7 @@ SKILLS = {
     18670: {
         "alias_name": "增强六合独尊实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 368,
         "recipe_mask": 0,
         "event_mask_1": 1169,
@@ -4565,6 +4653,7 @@ SKILLS = {
     36102: {
         "alias_name": "六幺有兆伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 129,
@@ -4588,6 +4677,7 @@ SKILLS = {
     25770: {
         "alias_name": "110CW新增特效紫霞功",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 65.0,
@@ -4599,6 +4689,7 @@ SKILLS = {
     18698: {
         "alias_name": "跬步_气剑增加四象两仪伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -4607,6 +4698,7 @@ SKILLS = {
     32814: {
         "alias_name": "纯阳_剑纯破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 3,
@@ -4621,6 +4713,7 @@ SKILLS = {
     17689: {
         "alias_name": "三环套月一段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 364,
         "recipe_mask": 0,
         "event_mask_1": 1207960071,
@@ -4737,6 +4830,7 @@ SKILLS = {
     17690: {
         "alias_name": "三环套月二段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 364,
         "recipe_mask": 0,
         "event_mask_1": 1207960071,
@@ -4853,6 +4947,7 @@ SKILLS = {
     21979: {
         "alias_name": "云中剑实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -4870,6 +4965,7 @@ SKILLS = {
     38534: {
         "alias_name": "人剑无气场伤害定身",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 588,
         "recipe_mask": 0,
         "event_mask_1": 134234631,
@@ -4883,6 +4979,7 @@ SKILLS = {
     37453: {
         "alias_name": "人剑Dot添加",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 450.0,
@@ -4891,6 +4988,7 @@ SKILLS = {
     4954: {
         "alias_name": "纯阳_八荒归元_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 2699,
         "recipe_mask": 0,
         "event_mask_1": 1207960075,
@@ -4917,6 +5015,7 @@ SKILLS = {
     14975: {
         "alias_name": "万剑归宗正常AOE伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 311,
         "recipe_mask": 0,
         "event_mask_1": 1075839495,
@@ -5027,6 +5126,7 @@ SKILLS = {
     386: {
         "alias_name": "无我无剑_2点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5149,6 +5249,7 @@ SKILLS = {
     387: {
         "alias_name": "无我无剑_3点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5271,6 +5372,7 @@ SKILLS = {
     388: {
         "alias_name": "无我无剑_4点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5393,6 +5495,7 @@ SKILLS = {
     389: {
         "alias_name": "无我无剑_5点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5515,6 +5618,7 @@ SKILLS = {
     390: {
         "alias_name": "无我无剑_6点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5637,6 +5741,7 @@ SKILLS = {
     391: {
         "alias_name": "无我无剑_7点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5759,6 +5864,7 @@ SKILLS = {
     392: {
         "alias_name": "无我无剑_8点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -5881,6 +5987,7 @@ SKILLS = {
     393: {
         "alias_name": "无我无剑_9点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -6003,6 +6110,7 @@ SKILLS = {
     394: {
         "alias_name": "无我无剑_10点气",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 365,
         "recipe_mask": 0,
         "event_mask_1": 671089159,
@@ -6125,6 +6233,7 @@ SKILLS = {
     600: {
         "alias_name": "太虚剑意_放气暴击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 600,
         "recipe_mask": 0,
         "channel_interval": 140.0,
@@ -6134,6 +6243,7 @@ SKILLS = {
     6076: {
         "alias_name": "纯阳_90级奇穴_无我无剑的AOE1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6219,6 +6329,7 @@ SKILLS = {
     6077: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6304,6 +6415,7 @@ SKILLS = {
     6078: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6389,6 +6501,7 @@ SKILLS = {
     6079: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6474,6 +6587,7 @@ SKILLS = {
     6080: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE5",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6559,6 +6673,7 @@ SKILLS = {
     6081: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE6",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6644,6 +6759,7 @@ SKILLS = {
     6082: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE7",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6729,6 +6845,7 @@ SKILLS = {
     6083: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE8",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6814,6 +6931,7 @@ SKILLS = {
     6084: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE9",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6899,6 +7017,7 @@ SKILLS = {
     6085: {
         "alias_name": "纯阳_90级奇穴_无我无剑AOE10",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -6984,6 +7103,7 @@ SKILLS = {
     26699: {
         "alias_name": "万剑归宗二段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 134218247,
@@ -6999,6 +7119,7 @@ SKILLS = {
     31012: {
         "alias_name": "镜花影延迟实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -7011,6 +7132,7 @@ SKILLS = {
     40752: {
         "alias_name": "剑纯额外伤害通用子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7067,6 +7189,7 @@ SKILLS = {
     6761: {
         "alias_name": "纯阳爆叠刃",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7075,6 +7198,7 @@ SKILLS = {
     21726: {
         "alias_name": "剑纯伤害招式触发额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 215.9,
@@ -7087,6 +7211,7 @@ SKILLS = {
     34693: {
         "alias_name": "剑入_触碰伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 136.0,
@@ -7099,6 +7224,7 @@ SKILLS = {
     34694: {
         "alias_name": "剑入_引爆伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 284.0,
@@ -7111,6 +7237,7 @@ SKILLS = {
     25771: {
         "alias_name": "110CW新增特效太虚剑意",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 65.0,
@@ -7122,6 +7249,7 @@ SKILLS = {
     16: {
         "alias_name": "普通攻击-笔攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -7134,6 +7262,7 @@ SKILLS = {
     32467: {
         "alias_name": "破招_花间游",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 32467,
         "recipe_mask": 0,
         "max_level": 9,
@@ -7154,6 +7283,7 @@ SKILLS = {
     136: {
         "alias_name": "水月无间",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 529,
@@ -7165,6 +7295,7 @@ SKILLS = {
     6693: {
         "alias_name": "万花_商阳指",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 73.6,
@@ -7176,6 +7307,7 @@ SKILLS = {
     14941: {
         "alias_name": "正常阳明指伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 179,
         "recipe_mask": 0,
         "event_mask_1": 16778385,
@@ -7276,6 +7408,7 @@ SKILLS = {
     182: {
         "alias_name": "玉石俱焚",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 657,
@@ -7350,6 +7483,7 @@ SKILLS = {
     186: {
         "alias_name": "芙蓉并蒂",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -7369,6 +7503,7 @@ SKILLS = {
     6233: {
         "alias_name": "万花_快雪时晴伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 2636,
         "recipe_mask": 0,
         "event_mask_1": 83886225,
@@ -7472,6 +7607,7 @@ SKILLS = {
     6129: {
         "alias_name": "万花_90级奇穴_玉石判buff用_711",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7488,6 +7624,7 @@ SKILLS = {
     6126: {
         "alias_name": "万花_90级奇穴_玉石判buff用_714",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7504,6 +7641,7 @@ SKILLS = {
     6128: {
         "alias_name": "万花_90级奇穴_玉石判buff用_666",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7520,6 +7658,7 @@ SKILLS = {
     18730: {
         "alias_name": "万花兰摧玉折单一目标",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
         "recipe_mask": 0,
         "event_mask_1": 17553,
@@ -7550,6 +7689,7 @@ SKILLS = {
     6136: {
         "alias_name": "万花_90级奇穴_刷新兰摧玉折",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
         "recipe_mask": 0,
         "channel_interval": 802.1777696150126,
@@ -7558,6 +7698,7 @@ SKILLS = {
     39906: {
         "alias_name": "新乱洒阳明附带兰摧",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7569,6 +7710,7 @@ SKILLS = {
     13848: {
         "alias_name": "乱洒_阳明附带兰摧",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 190,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7597,6 +7739,7 @@ SKILLS = {
     285: {
         "alias_name": "钟林毓秀_正常DOT",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7631,6 +7774,7 @@ SKILLS = {
     6135: {
         "alias_name": "万花_90级奇穴_刷新钟林毓秀",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
         "recipe_mask": 0,
         "channel_interval": 527.7368610574448,
@@ -7639,6 +7783,7 @@ SKILLS = {
     39907: {
         "alias_name": "新乱洒阳明附带钟林",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7650,6 +7795,7 @@ SKILLS = {
     13847: {
         "alias_name": "乱洒_阳明附带钟林",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 189,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7683,6 +7829,7 @@ SKILLS = {
     180: {
         "alias_name": "商阳指",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
         "recipe_mask": 0,
         "event_mask_1": 17041,
@@ -7724,6 +7871,7 @@ SKILLS = {
     6134: {
         "alias_name": "万花_90级奇穴_刷新商阳指",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
         "recipe_mask": 0,
         "channel_interval": 485.51791217284926,
@@ -7732,6 +7880,7 @@ SKILLS = {
     13849: {
         "alias_name": "乱洒_阳明附带商阳",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 180,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7770,6 +7919,7 @@ SKILLS = {
     38955: {
         "alias_name": "新焚玉阳明后dot附伤",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 300.0,
@@ -7782,6 +7932,7 @@ SKILLS = {
     32501: {
         "alias_name": "新踏歌炸毒后伤害补偿",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -7799,6 +7950,7 @@ SKILLS = {
     601: {
         "alias_name": "花间游_阳明指吞噬",
         "kind_type": "",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7822,6 +7974,7 @@ SKILLS = {
     32629: {
         "alias_name": "花间_丹青气场每秒aoe",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 100.0,
@@ -7843,6 +7996,7 @@ SKILLS = {
     30648: {
         "alias_name": "花间_墨鸟飞掠伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -7856,6 +8010,7 @@ SKILLS = {
     37270: {
         "alias_name": "韵海镜源伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -7879,6 +8034,7 @@ SKILLS = {
     25768: {
         "alias_name": "110CW新增特效花间游",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 100.0,
@@ -7890,6 +8046,7 @@ SKILLS = {
     32630: {
         "alias_name": "花间_丹青气场吞噬子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 100.0,
@@ -7898,6 +8055,7 @@ SKILLS = {
     18722: {
         "alias_name": "兰摧标记触发奇穴效果",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7906,6 +8064,7 @@ SKILLS = {
     14644: {
         "alias_name": "涓流判定目标气血叠加会心效果",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -7914,6 +8073,7 @@ SKILLS = {
     12: {
         "alias_name": "普通攻击-枪攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -7926,6 +8086,7 @@ SKILLS = {
     32820: {
         "alias_name": "天策破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 2,
@@ -7939,6 +8100,7 @@ SKILLS = {
     18207: {
         "alias_name": "穿云二段表现及伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 400,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -8041,6 +8203,7 @@ SKILLS = {
     18208: {
         "alias_name": "穿云一段表现及伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 400,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -8143,6 +8306,7 @@ SKILLS = {
     18603: {
         "alias_name": "龙吟实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 403,
         "recipe_mask": 0,
         "event_mask_1": 4194823,
@@ -8251,6 +8415,7 @@ SKILLS = {
     18591: {
         "alias_name": "破风_无牙璋效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 401,
         "recipe_mask": 0,
         "channel_interval": [
@@ -8290,6 +8455,7 @@ SKILLS = {
     18773: {
         "alias_name": "龙牙伤害实际子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 415,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -8395,6 +8561,7 @@ SKILLS = {
     431: {
         "alias_name": "天策_子技能_突_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 418,
         "recipe_mask": 0,
         "event_mask_2": 536887296,
@@ -8417,6 +8584,7 @@ SKILLS = {
     14882: {
         "alias_name": "突额外击倒2秒",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 418,
         "recipe_mask": 0,
         "event_mask_2": 16384,
@@ -8437,6 +8605,7 @@ SKILLS = {
     701: {
         "alias_name": "天策_子技能_灭_低生命值",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
         "recipe_mask": 0,
         "event_mask_1": 524807,
@@ -8512,6 +8681,7 @@ SKILLS = {
     702: {
         "alias_name": "天策_子技能_灭_高生命值",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
         "recipe_mask": 0,
         "event_mask_1": 524807,
@@ -8587,6 +8757,7 @@ SKILLS = {
     409: {
         "alias_name": "天策_子技能_断魂刺_子弹",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 428,
         "recipe_mask": 0,
         "event_mask_2": 536870912,
@@ -8609,6 +8780,7 @@ SKILLS = {
     37618: {
         "alias_name": "龙吟大漠",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 350.0,
@@ -8622,6 +8794,7 @@ SKILLS = {
     401: {
         "alias_name": "天策-破风",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 401,
         "recipe_mask": 0,
         "event_mask_1": 8388608,
@@ -8663,6 +8836,7 @@ SKILLS = {
     36568: {
         "alias_name": "击水伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 207.9,
@@ -8675,6 +8849,7 @@ SKILLS = {
     24898: {
         "alias_name": "马上灭额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
         "recipe_mask": 0,
         "channel_interval": 42.0,
@@ -8686,6 +8861,7 @@ SKILLS = {
     6525: {
         "alias_name": "天策_灭_斩杀额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
         "recipe_mask": 0,
         "channel_interval": [
@@ -8759,6 +8935,7 @@ SKILLS = {
     6526: {
         "alias_name": "天策_灭_斩杀额外伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 423,
         "recipe_mask": 0,
         "channel_interval": [
@@ -8832,6 +9009,7 @@ SKILLS = {
     15002: {
         "alias_name": "龙牙额外10%伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 415,
         "recipe_mask": 0,
         "channel_interval": [
@@ -8935,6 +9113,7 @@ SKILLS = {
     25772: {
         "alias_name": "110CW新增特效傲血战意",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -8946,6 +9125,7 @@ SKILLS = {
     31031: {
         "alias_name": "龙牙橙武特效龙牙额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 205.0,
@@ -8958,6 +9138,7 @@ SKILLS = {
     13778: {
         "alias_name": "天策子技能_乘龙箭",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 2603,
         "recipe_mask": 0,
         "event_mask_1": 2097163,
@@ -8972,6 +9153,7 @@ SKILLS = {
     24009: {
         "alias_name": "破军触发伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 77.00000000000001,
@@ -8985,6 +9167,7 @@ SKILLS = {
     402: {
         "alias_name": "天策-定军",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 16391,
@@ -8999,6 +9182,7 @@ SKILLS = {
     24894: {
         "alias_name": "通道乘龙箭伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 2603,
         "recipe_mask": 0,
         "event_mask_1": 2097163,
@@ -9013,6 +9197,7 @@ SKILLS = {
     32979: {
         "alias_name": "箭阵实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -9027,6 +9212,7 @@ SKILLS = {
     32980: {
         "alias_name": "箭阵引雷伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -9041,6 +9227,7 @@ SKILLS = {
     24843: {
         "alias_name": "战疏狂击退以及伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 24841,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -9062,6 +9249,7 @@ SKILLS = {
     15: {
         "alias_name": "普通攻击-双兵攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -9074,6 +9262,7 @@ SKILLS = {
     32957: {
         "alias_name": "冰心剑破破招子技能2",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -9084,6 +9273,7 @@ SKILLS = {
     34704: {
         "alias_name": "冰心流玉破招子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -9094,6 +9284,7 @@ SKILLS = {
     32889: {
         "alias_name": "冰心破招子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -9104,6 +9295,7 @@ SKILLS = {
     34611: {
         "alias_name": "钗燕对非侠士追加额外伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -9114,6 +9306,7 @@ SKILLS = {
     40289: {
         "alias_name": "冰心霜降破招子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 6,
@@ -9131,6 +9324,7 @@ SKILLS = {
     40182: {
         "alias_name": "剑破虚空伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2716,
         "recipe_mask": 0,
         "event_mask_1": 577,
@@ -9151,6 +9345,7 @@ SKILLS = {
     6234: {
         "alias_name": "七秀_玳弦急曲_实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2707,
         "recipe_mask": 0,
         "event_mask_1": 81,
@@ -9251,6 +9446,7 @@ SKILLS = {
     30524: {
         "alias_name": "剑气长江伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 561,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -9351,6 +9547,7 @@ SKILLS = {
     3889: {
         "alias_name": "玳弦急曲_点爆",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -9375,6 +9572,7 @@ SKILLS = {
     6207: {
         "alias_name": "七秀_90级奇穴_剑破带dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 137.18133000000003,
@@ -9383,6 +9581,7 @@ SKILLS = {
     18716: {
         "alias_name": "剑气长江带急曲",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 137.18133000000003,
@@ -9391,6 +9590,7 @@ SKILLS = {
     6559: {
         "alias_name": "江海凝光普通",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 553,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -9504,6 +9704,7 @@ SKILLS = {
     568: {
         "alias_name": "繁音急节",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 568,
         "recipe_mask": 0,
         "event_mask_1": 8721,
@@ -9515,6 +9716,7 @@ SKILLS = {
     6554: {
         "alias_name": "七秀_玳弦急曲额外伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 2707,
         "recipe_mask": 0,
         "event_mask_1": 81,
@@ -9586,6 +9788,7 @@ SKILLS = {
     37317: {
         "alias_name": "芳姿畅音_剑破虚空",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 350.0,
@@ -9597,6 +9800,7 @@ SKILLS = {
     37318: {
         "alias_name": "芳姿畅音_玳弦急曲",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -9608,6 +9812,7 @@ SKILLS = {
     37319: {
         "alias_name": "芳姿畅音_剑气长江",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 140.0,
@@ -9619,6 +9824,7 @@ SKILLS = {
     37320: {
         "alias_name": "芳姿畅音_剑影留痕",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 520.0,
@@ -9630,6 +9836,7 @@ SKILLS = {
     23936: {
         "alias_name": "广陵月附带额外伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 17.6,
@@ -9642,6 +9849,7 @@ SKILLS = {
     33140: {
         "alias_name": "盈袖额外伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -9656,6 +9864,7 @@ SKILLS = {
     30532: {
         "alias_name": "新钗燕伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 338.0,
@@ -9668,6 +9877,7 @@ SKILLS = {
     24999: {
         "alias_name": "心鼓弦天籁额外一次伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 81,
@@ -9681,6 +9891,7 @@ SKILLS = {
     34612: {
         "alias_name": "凝华基础伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -9703,6 +9914,7 @@ SKILLS = {
     35058: {
         "alias_name": "凝华对非侠士追加额外伤害子技能拆分段数",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -9725,6 +9937,7 @@ SKILLS = {
     25769: {
         "alias_name": "110CW新增特效冰心诀",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 65.0,
@@ -9736,6 +9949,7 @@ SKILLS = {
     25757: {
         "alias_name": "橙武_冰心诀_无限剑气长江带dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 784.0,
@@ -9744,6 +9958,7 @@ SKILLS = {
     1795: {
         "alias_name": "普通攻击-重剑攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -9756,6 +9971,7 @@ SKILLS = {
     18383: {
         "alias_name": "藏剑三柴剑法有特效",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -9768,6 +9984,7 @@ SKILLS = {
     32821: {
         "alias_name": "藏剑破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 4,
@@ -9783,6 +10000,7 @@ SKILLS = {
     1706: {
         "alias_name": "藏剑_君子风_听雷_问水诀",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1646,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -9900,6 +10118,7 @@ SKILLS = {
     13471: {
         "alias_name": "黄龙吐翠伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1581,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -9995,6 +10214,7 @@ SKILLS = {
     26673: {
         "alias_name": "九溪弥烟伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1579,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -10107,6 +10327,7 @@ SKILLS = {
     1707: {
         "alias_name": "藏剑_君子风_听雷_山居剑意",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1646,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -10224,6 +10445,7 @@ SKILLS = {
     2896: {
         "alias_name": "藏剑_灵锋剑式_夕照雷锋_正常",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1600,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -10326,6 +10548,7 @@ SKILLS = {
     1594: {
         "alias_name": "藏剑_灵峰剑式_子技能_云飞玉皇近距离",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -10375,6 +10598,7 @@ SKILLS = {
     1595: {
         "alias_name": "藏剑_灵峰剑式_子技能_云飞玉皇远距离",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -10441,6 +10665,7 @@ SKILLS = {
     1598: {
         "alias_name": "藏剑_灵峰剑式_子技能_鹤归孤山远距离",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1596,
         "recipe_mask": 0,
         "event_mask_1": 1031,
@@ -10512,6 +10737,7 @@ SKILLS = {
     18317: {
         "alias_name": "厌高_云飞最大伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1593,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -10578,6 +10804,7 @@ SKILLS = {
     18299: {
         "alias_name": "外功招式附带断潮效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -10642,6 +10869,7 @@ SKILLS = {
     18991: {
         "alias_name": "原地风来吴山究极普通伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18333,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -10689,6 +10917,7 @@ SKILLS = {
     1658: {
         "alias_name": "藏剑_君子风_子技能_问水诀_啸日",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -10697,6 +10926,7 @@ SKILLS = {
     1659: {
         "alias_name": "藏剑_君子风_子技能_山居剑意_啸日",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -10705,6 +10935,7 @@ SKILLS = {
     30861: {
         "alias_name": "山倾实际伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 1031,
@@ -10718,6 +10949,7 @@ SKILLS = {
     32967: {
         "alias_name": "鹤归区域落剑伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -10732,6 +10964,7 @@ SKILLS = {
     25776: {
         "alias_name": "110级CW新增特效藏剑",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -10743,6 +10976,7 @@ SKILLS = {
     35051: {
         "alias_name": "藏剑cw特效额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -10762,6 +10996,7 @@ SKILLS = {
     2183: {
         "alias_name": "普通攻击-虫笛攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -10774,6 +11009,7 @@ SKILLS = {
     32818: {
         "alias_name": "毒经破招伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 5,
@@ -10790,6 +11026,7 @@ SKILLS = {
     40066: {
         "alias_name": "毒经_万毒伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 150.0,
@@ -10802,6 +11039,7 @@ SKILLS = {
     9331: {
         "alias_name": "附魔_蝎心正常伤害效果",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2209,
         "recipe_mask": 0,
         "event_mask_1": 8388864,
@@ -10880,6 +11118,7 @@ SKILLS = {
     13472: {
         "alias_name": "毒经_百足瞬间伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
         "recipe_mask": 0,
         "event_mask_1": 17681,
@@ -10963,6 +11202,7 @@ SKILLS = {
     6238: {
         "alias_name": "五毒_百足dot",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11006,6 +11246,7 @@ SKILLS = {
     6236: {
         "alias_name": "五毒_蟾啸dot",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11041,6 +11282,7 @@ SKILLS = {
     6237: {
         "alias_name": "五毒_蛇影dot",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2211,
         "recipe_mask": 0,
         "event_mask_2": 4194304,
@@ -11083,6 +11325,7 @@ SKILLS = {
     18590: {
         "alias_name": "五毒_新蛊毒",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 18584,
         "recipe_mask": 0,
         "event_mask_1": 2114321,
@@ -11096,6 +11339,7 @@ SKILLS = {
     2226: {
         "alias_name": "蛊虫献祭",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2226,
         "recipe_mask": 0,
         "event_mask_1": 529,
@@ -11107,6 +11351,7 @@ SKILLS = {
     2223: {
         "alias_name": "灵蛇引",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 529,
@@ -11118,6 +11363,7 @@ SKILLS = {
     40198: {
         "alias_name": "毒经_尻尾伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17169,
@@ -11131,6 +11377,7 @@ SKILLS = {
     6648: {
         "alias_name": "五毒_对宠物施放吞噬BUFF",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11152,6 +11399,7 @@ SKILLS = {
     34389: {
         "alias_name": "黯影_伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 100.0,
@@ -11164,6 +11412,7 @@ SKILLS = {
     30578: {
         "alias_name": "百足不僵",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11207,6 +11456,7 @@ SKILLS = {
     13473: {
         "alias_name": "毒经_蟾啸_单体瞬间伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17169,
@@ -11301,6 +11551,7 @@ SKILLS = {
     37959: {
         "alias_name": "宠物死亡直接伤害技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 900.0,
@@ -11313,6 +11564,7 @@ SKILLS = {
     18700: {
         "alias_name": "百足dot 伤害缩短",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11356,6 +11608,7 @@ SKILLS = {
     30579: {
         "alias_name": "百足不僵固灵",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2212,
         "recipe_mask": 0,
         "channel_interval": [
@@ -11399,6 +11652,7 @@ SKILLS = {
     37352: {
         "alias_name": "添加释灵",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 693.3333333333334,
@@ -11407,6 +11661,7 @@ SKILLS = {
     38456: {
         "alias_name": "蝎心新_额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 180.0,
@@ -11419,6 +11674,7 @@ SKILLS = {
     25039: {
         "alias_name": "化蝶毒波",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 272,
@@ -11432,6 +11688,7 @@ SKILLS = {
     21303: {
         "alias_name": "蛇影瞬间伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 2211,
         "recipe_mask": 0,
         "event_mask_1": 17681,
@@ -11511,6 +11768,7 @@ SKILLS = {
     25044: {
         "alias_name": "万毒子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 272,
@@ -11525,6 +11783,7 @@ SKILLS = {
     30918: {
         "alias_name": "连缘蛊多一跳",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 272,
@@ -11557,6 +11816,7 @@ SKILLS = {
     25773: {
         "alias_name": "110级CW新增特效毒经",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -11568,6 +11828,7 @@ SKILLS = {
     39036: {
         "alias_name": "毒经橙武蝎心特效额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 1260.0,
@@ -11579,6 +11840,7 @@ SKILLS = {
     2477: {
         "alias_name": "宠物_蛇_伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 131857,
@@ -11592,6 +11854,7 @@ SKILLS = {
     2472: {
         "alias_name": "宠物普通攻击_蛇",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 131857,
@@ -11605,6 +11868,7 @@ SKILLS = {
     2470: {
         "alias_name": "宠物普通攻击_蝎",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 131857,
@@ -11618,6 +11882,7 @@ SKILLS = {
     22997: {
         "alias_name": "蛇加距离普通攻击2",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 2147615505,
@@ -11631,6 +11896,7 @@ SKILLS = {
     36292: {
         "alias_name": "宠物_蛇_伤害15尺",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 131857,
@@ -11644,6 +11910,7 @@ SKILLS = {
     38454: {
         "alias_name": "蝎心吞噬一跳DOT",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -11652,6 +11919,7 @@ SKILLS = {
     3121: {
         "alias_name": "普通攻击-弓攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131587,
@@ -11664,6 +11932,7 @@ SKILLS = {
     32884: {
         "alias_name": "惊羽破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 2,
@@ -11677,6 +11946,7 @@ SKILLS = {
     3187: {
         "alias_name": "逐星箭_子技能_1级",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3101,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -11779,6 +12049,7 @@ SKILLS = {
     3095: {
         "alias_name": "夺魄箭（记得改飞天）",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3095,
         "recipe_mask": 0,
         "event_mask_1": 2692744203,
@@ -11882,6 +12153,7 @@ SKILLS = {
     6920: {
         "alias_name": "唐门_90奇穴_追命箭_正常",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3096,
         "recipe_mask": 0,
         "event_mask_1": 2155873291,
@@ -11984,6 +12256,7 @@ SKILLS = {
     3098: {
         "alias_name": "穿心弩（记得改飞天）",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3098,
         "recipe_mask": 0,
         "event_mask_1": 2684355595,
@@ -11996,6 +12269,7 @@ SKILLS = {
     3222: {
         "alias_name": "孔雀翎_外功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3088,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12009,6 +12283,7 @@ SKILLS = {
     21841: {
         "alias_name": "惊羽_暴雨梨花针6",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12081,6 +12356,7 @@ SKILLS = {
     21840: {
         "alias_name": "惊羽_暴雨梨花针5",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12153,6 +12429,7 @@ SKILLS = {
     3227: {
         "alias_name": "暴雨梨花针_外功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12224,6 +12501,7 @@ SKILLS = {
     8470: {
         "alias_name": "唐门_暴雨外功奇穴4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12296,6 +12574,7 @@ SKILLS = {
     8469: {
         "alias_name": "唐门_暴雨外功奇穴3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12368,6 +12647,7 @@ SKILLS = {
     8468: {
         "alias_name": "唐门_暴雨外功奇穴2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12440,6 +12720,7 @@ SKILLS = {
     8467: {
         "alias_name": "唐门_暴雨外功奇穴1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -12512,6 +12793,7 @@ SKILLS = {
     3094: {
         "alias_name": "心无旁骛",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 536871939,
@@ -12523,6 +12805,7 @@ SKILLS = {
     3291: {
         "alias_name": "追命箭_额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3096,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -12623,6 +12906,7 @@ SKILLS = {
     22789: {
         "alias_name": "穹苍实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -12636,6 +12920,7 @@ SKILLS = {
     37504: {
         "alias_name": "夺魄箭（奇穴移动读条）",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3095,
         "recipe_mask": 0,
         "event_mask_1": 2692744203,
@@ -12739,6 +13024,7 @@ SKILLS = {
     33870: {
         "alias_name": "百里追魂实际伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18674,
         "recipe_mask": 0,
         "event_mask_1": 11,
@@ -12798,6 +13084,7 @@ SKILLS = {
     30629: {
         "alias_name": "神机锁定二段释放",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 2684355075,
@@ -12809,6 +13096,7 @@ SKILLS = {
     25775: {
         "alias_name": "110级CW新增特效惊羽",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -12820,6 +13108,7 @@ SKILLS = {
     3125: {
         "alias_name": "化血镖_外功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3098,
         "recipe_mask": 0,
         "event_mask_1": 16391,
@@ -12846,6 +13135,7 @@ SKILLS = {
     26551: {
         "alias_name": "逐一击破单体判定",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -12854,6 +13144,7 @@ SKILLS = {
     32885: {
         "alias_name": "田螺破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -12864,6 +13155,7 @@ SKILLS = {
     3105: {
         "alias_name": "蚀肌弹",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3105,
         "recipe_mask": 0,
         "event_mask_1": 2684355339,
@@ -12966,6 +13258,7 @@ SKILLS = {
     18776: {
         "alias_name": "蚀肌弹_飞天",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3105,
         "recipe_mask": 0,
         "event_mask_1": 2684355339,
@@ -13068,6 +13361,7 @@ SKILLS = {
     3393: {
         "alias_name": "天女散花_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3106,
         "recipe_mask": 0,
         "event_mask_1": 771,
@@ -13165,6 +13459,7 @@ SKILLS = {
     3126: {
         "alias_name": "化血镖_内功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3106,
         "recipe_mask": 0,
         "channel_interval": [
@@ -13201,6 +13496,7 @@ SKILLS = {
     3313: {
         "alias_name": "暗藏杀机_AOE伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3111,
         "recipe_mask": 0,
         "event_mask_1": 785,
@@ -13213,6 +13509,7 @@ SKILLS = {
     36502: {
         "alias_name": "天绝地灭共享伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3108,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13313,6 +13610,7 @@ SKILLS = {
     3401: {
         "alias_name": "千机变_连弩伤害_普通",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13423,6 +13721,7 @@ SKILLS = {
     3404: {
         "alias_name": "千机变_连弩伤害_高级",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13533,6 +13832,7 @@ SKILLS = {
     3819: {
         "alias_name": "千机变_重弩伤害_普通1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 273,
@@ -13559,6 +13859,7 @@ SKILLS = {
     3824: {
         "alias_name": "千机变_重弩伤害_高级1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 273,
@@ -13585,6 +13886,7 @@ SKILLS = {
     3367: {
         "alias_name": "千机变_火器伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 785,
@@ -13599,6 +13901,7 @@ SKILLS = {
     3223: {
         "alias_name": "孔雀翎_内功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3088,
         "recipe_mask": 0,
         "event_mask_1": 771,
@@ -13612,6 +13915,7 @@ SKILLS = {
     3228: {
         "alias_name": "暴雨梨花针_内功",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 771,
@@ -13684,6 +13988,7 @@ SKILLS = {
     30894: {
         "alias_name": "新血影留痕效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13697,6 +14002,7 @@ SKILLS = {
     30727: {
         "alias_name": "天风汲雨天绝伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3108,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13797,6 +14103,7 @@ SKILLS = {
     21266: {
         "alias_name": "化血镖_内功当前目标",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3106,
         "recipe_mask": 0,
         "channel_interval": [
@@ -13833,6 +14140,7 @@ SKILLS = {
     38760: {
         "alias_name": "雀引实际伤害和控制",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -13857,6 +14165,7 @@ SKILLS = {
     26900: {
         "alias_name": "连弩特殊子弹伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "channel_interval": 267.37935174719996,
@@ -13869,6 +14178,7 @@ SKILLS = {
     26901: {
         "alias_name": "重弩特殊子弹伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "channel_interval": 347.39404498814395,
@@ -13881,6 +14191,7 @@ SKILLS = {
     15049: {
         "alias_name": "弩攻击叠加会心",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -13889,6 +14200,7 @@ SKILLS = {
     31026: {
         "alias_name": "千机连环连弩伤害普通",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13903,6 +14215,7 @@ SKILLS = {
     31027: {
         "alias_name": "千机连环连弩伤害高级",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3367,
         "recipe_mask": 0,
         "event_mask_1": 769,
@@ -13917,6 +14230,7 @@ SKILLS = {
     18677: {
         "alias_name": "千秋万劫打伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18675,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -13931,6 +14245,7 @@ SKILLS = {
     28441: {
         "alias_name": "千秋万劫鸟翔期间打伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 18675,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -13945,6 +14260,7 @@ SKILLS = {
     29687: {
         "alias_name": "天罗5%大附魔吞全部dot效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -13953,6 +14269,7 @@ SKILLS = {
     25774: {
         "alias_name": "110级CW新增特效天罗",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 40.0,
@@ -13964,6 +14281,7 @@ SKILLS = {
     3480: {
         "alias_name": "天罗诡道_内功暴雨额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 3093,
         "recipe_mask": 0,
         "event_mask_1": 259,
@@ -14035,6 +14353,7 @@ SKILLS = {
     33145: {
         "alias_name": "杀机断魂删除增益",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14043,6 +14362,7 @@ SKILLS = {
     33142: {
         "alias_name": "杀机断魂千机变加增益",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14051,6 +14371,7 @@ SKILLS = {
     33143: {
         "alias_name": "杀机断魂天绝地灭加增益",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14059,6 +14380,7 @@ SKILLS = {
     33144: {
         "alias_name": "杀机断魂暗藏杀机加增益",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14067,6 +14389,7 @@ SKILLS = {
     4326: {
         "alias_name": "普通攻击-双刀攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -14079,6 +14402,7 @@ SKILLS = {
     32816: {
         "alias_name": "明教_焚影阳性破招子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 5,
@@ -14108,6 +14432,7 @@ SKILLS = {
     19055: {
         "alias_name": "明教通用外功武器伤害实际效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19055,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14144,6 +14469,7 @@ SKILLS = {
     14701: {
         "alias_name": "净世破魔击·日直接打单目标最大AOE",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
         "recipe_mask": 0,
         "event_mask_1": 536871473,
@@ -14257,6 +14583,7 @@ SKILLS = {
     4476: {
         "alias_name": "明教_净世破魔击_月_伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3967,
         "recipe_mask": 0,
         "event_mask_1": 134218321,
@@ -14370,6 +14697,7 @@ SKILLS = {
     40088: {
         "alias_name": "明教_烈日斩_子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3963,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -14483,6 +14811,7 @@ SKILLS = {
     40089: {
         "alias_name": "明教_银月斩_子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3960,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -14554,6 +14883,7 @@ SKILLS = {
     6257: {
         "alias_name": "明教_生死劫_日_子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "event_mask_1": 536871473,
@@ -14568,6 +14898,7 @@ SKILLS = {
     6258: {
         "alias_name": "明教_生死劫_月_子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "event_mask_1": 134234705,
@@ -14582,6 +14913,7 @@ SKILLS = {
     13359: {
         "alias_name": "明教_银月斩_dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3960,
         "recipe_mask": 0,
         "channel_interval": [
@@ -14610,6 +14942,7 @@ SKILLS = {
     4480: {
         "alias_name": "明教_驱夜断愁_子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3979,
         "recipe_mask": 0,
         "event_mask_1": 81,
@@ -14800,6 +15133,7 @@ SKILLS = {
     18280: {
         "alias_name": "明教_净身明礼_日斩AOE",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -14809,6 +15143,7 @@ SKILLS = {
     18281: {
         "alias_name": "明教_净身明礼_月斩AOE",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -14818,6 +15153,7 @@ SKILLS = {
     26916: {
         "alias_name": "诛邪伤害子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 415.85847187499996,
@@ -14839,6 +15175,7 @@ SKILLS = {
     26708: {
         "alias_name": "净体不畏·日",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 267.29999999999995,
@@ -14852,6 +15189,7 @@ SKILLS = {
     26709: {
         "alias_name": "净体不畏·月",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 267.29999999999995,
@@ -14865,6 +15203,7 @@ SKILLS = {
     18631: {
         "alias_name": "目标是否在背后通用判定",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -14873,6 +15212,7 @@ SKILLS = {
     34985: {
         "alias_name": "明教_降灵尊本体伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 1062.7848000000001,
@@ -14885,6 +15225,7 @@ SKILLS = {
     34348: {
         "alias_name": "明教_影子终结技_日",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 536871473,
@@ -14899,6 +15240,7 @@ SKILLS = {
     34349: {
         "alias_name": "明教_影子终结技_月",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 134234705,
@@ -14913,6 +15255,7 @@ SKILLS = {
     34353: {
         "alias_name": "明教_影子幽月轮",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3959,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -14935,6 +15278,7 @@ SKILLS = {
     34354: {
         "alias_name": "明教_影子赤日轮",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3962,
         "recipe_mask": 0,
         "event_mask_1": 545,
@@ -14957,6 +15301,7 @@ SKILLS = {
     34355: {
         "alias_name": "明教_影子银月斩",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3960,
         "recipe_mask": 0,
         "event_mask_2": 4784130,
@@ -14978,6 +15323,7 @@ SKILLS = {
     34356: {
         "alias_name": "明教_影子烈日斩",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3963,
         "recipe_mask": 0,
         "event_mask_1": 561,
@@ -15000,6 +15346,7 @@ SKILLS = {
     34357: {
         "alias_name": "明教_影子月破魔",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_2": 2,
@@ -15018,6 +15365,7 @@ SKILLS = {
     34359: {
         "alias_name": "明教_影子月破魔伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3967,
         "recipe_mask": 0,
         "event_mask_1": 134218321,
@@ -15040,6 +15388,7 @@ SKILLS = {
     34360: {
         "alias_name": "明教_影子日破魔",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_2": 4,
@@ -15058,6 +15407,7 @@ SKILLS = {
     34361: {
         "alias_name": "明教_影子日破魔伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3967,
         "recipe_mask": 0,
         "event_mask_1": 536871473,
@@ -15080,6 +15430,7 @@ SKILLS = {
     34362: {
         "alias_name": "明教_影子月生死劫",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "event_mask_1": 134234705,
@@ -15102,6 +15453,7 @@ SKILLS = {
     34363: {
         "alias_name": "明教_影子日生死劫",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "event_mask_1": 536871473,
@@ -15124,6 +15476,7 @@ SKILLS = {
     34373: {
         "alias_name": "明教_生死劫上dot技能_日",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "channel_interval": 2654.0800000000004,
@@ -15132,6 +15485,7 @@ SKILLS = {
     34374: {
         "alias_name": "明教_生死劫上dot技能_月",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 3966,
         "recipe_mask": 0,
         "channel_interval": 2654.0800000000004,
@@ -15140,6 +15494,7 @@ SKILLS = {
     37336: {
         "alias_name": "崇光斩恶子技能",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 33,
@@ -15160,6 +15515,7 @@ SKILLS = {
     25777: {
         "alias_name": "110级CW新增特效焚影",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -15171,6 +15527,7 @@ SKILLS = {
     35065: {
         "alias_name": "明教血月cw额外伤害",
         "kind_type": "SolarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -15186,6 +15543,7 @@ SKILLS = {
     32908: {
         "alias_name": "丐帮破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -15196,6 +15554,7 @@ SKILLS = {
     32898: {
         "alias_name": "丐帮额外触发技能通用伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -15228,6 +15587,7 @@ SKILLS = {
     40264: {
         "alias_name": "醉妄",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -15242,6 +15602,7 @@ SKILLS = {
     13520: {
         "alias_name": "恶狗拦路_伤害_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5361,
         "recipe_mask": 0,
         "event_mask_1": 2147501063,
@@ -15282,6 +15643,7 @@ SKILLS = {
     6376: {
         "alias_name": "拨狗朝天_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5258,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -15314,6 +15676,7 @@ SKILLS = {
     6377: {
         "alias_name": "横打双獒_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5354,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -15393,6 +15756,7 @@ SKILLS = {
     6378: {
         "alias_name": "横打双獒_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5354,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -15472,6 +15836,7 @@ SKILLS = {
     6379: {
         "alias_name": "棒打狗头_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -15499,6 +15864,7 @@ SKILLS = {
     6380: {
         "alias_name": "棒打狗头_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -15526,6 +15892,7 @@ SKILLS = {
     13505: {
         "alias_name": "天下无狗_三段_实际伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -15585,6 +15952,7 @@ SKILLS = {
     6381: {
         "alias_name": "天下无狗一段_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -15618,6 +15986,7 @@ SKILLS = {
     6382: {
         "alias_name": "天下无狗一段_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -15678,6 +16047,7 @@ SKILLS = {
     6383: {
         "alias_name": "天下无狗二段_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -15711,6 +16081,7 @@ SKILLS = {
     6384: {
         "alias_name": "天下无狗二段_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -15770,6 +16141,7 @@ SKILLS = {
     6385: {
         "alias_name": "天下无狗二段_伤害3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -15830,6 +16202,7 @@ SKILLS = {
     6386: {
         "alias_name": "天下无狗二段_伤害4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -15889,6 +16262,7 @@ SKILLS = {
     6387: {
         "alias_name": "天下无狗三段_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -15922,6 +16296,7 @@ SKILLS = {
     6388: {
         "alias_name": "天下无狗三段_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -15981,6 +16356,7 @@ SKILLS = {
     6389: {
         "alias_name": "天下无狗三段_伤害3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -16040,6 +16416,7 @@ SKILLS = {
     6390: {
         "alias_name": "天下无狗三段_伤害4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -16099,6 +16476,7 @@ SKILLS = {
     6391: {
         "alias_name": "天下无狗三段_伤害5",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -16158,6 +16536,7 @@ SKILLS = {
     13523: {
         "alias_name": "犬牙交错_伤害1_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 2147484167,
@@ -16171,6 +16550,7 @@ SKILLS = {
     13524: {
         "alias_name": "拨狗朝天_伤害1_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5258,
         "recipe_mask": 0,
         "event_mask_1": 2147483653,
@@ -16250,6 +16630,7 @@ SKILLS = {
     13525: {
         "alias_name": "天下无狗三段_伤害7_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5260,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -16310,6 +16691,7 @@ SKILLS = {
     13526: {
         "alias_name": "蛟龙翻江_伤害3_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16363,6 +16745,7 @@ SKILLS = {
     13527: {
         "alias_name": "双龙取水_伤害1_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5368,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16437,6 +16820,7 @@ SKILLS = {
     13528: {
         "alias_name": "龙游天地_伤害3_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16484,6 +16868,7 @@ SKILLS = {
     13529: {
         "alias_name": "龙腾五岳_伤害1_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5370,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16534,6 +16919,7 @@ SKILLS = {
     13530: {
         "alias_name": "潜龙勿用_伤害7_真实伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5605,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -16568,6 +16954,7 @@ SKILLS = {
     40184: {
         "alias_name": "蜀犬无僵直伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16615,6 +17002,7 @@ SKILLS = {
     40185: {
         "alias_name": "蜀犬无僵直伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16662,6 +17050,7 @@ SKILLS = {
     40186: {
         "alias_name": "蜀犬无僵直伤害3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16709,6 +17098,7 @@ SKILLS = {
     40187: {
         "alias_name": "蜀犬无僵直伤害4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16756,6 +17146,7 @@ SKILLS = {
     13510: {
         "alias_name": "时乘六龙_真是伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13510,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -16812,6 +17203,7 @@ SKILLS = {
     8491: {
         "alias_name": "亢龙有悔合一掌1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16889,6 +17281,7 @@ SKILLS = {
     8492: {
         "alias_name": "亢龙有悔合一掌2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -16966,6 +17359,7 @@ SKILLS = {
     8493: {
         "alias_name": "亢龙有悔合一掌3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17043,6 +17437,7 @@ SKILLS = {
     8494: {
         "alias_name": "亢龙有悔合一掌4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17120,6 +17515,7 @@ SKILLS = {
     8495: {
         "alias_name": "亢龙有悔合一掌5",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17197,6 +17593,7 @@ SKILLS = {
     8496: {
         "alias_name": "亢龙有悔合一掌6",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17273,6 +17670,7 @@ SKILLS = {
     8497: {
         "alias_name": "亢龙有悔合一掌7",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17349,6 +17747,7 @@ SKILLS = {
     8498: {
         "alias_name": "亢龙有悔合一掌8",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17425,6 +17824,7 @@ SKILLS = {
     8499: {
         "alias_name": "亢龙有悔合一掌9",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17501,6 +17901,7 @@ SKILLS = {
     8500: {
         "alias_name": "亢龙有悔合一掌10",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17577,6 +17978,7 @@ SKILLS = {
     8501: {
         "alias_name": "亢龙有悔合一掌11",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17653,6 +18055,7 @@ SKILLS = {
     8502: {
         "alias_name": "亢龙有悔合一掌12",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -17729,6 +18132,7 @@ SKILLS = {
     8503: {
         "alias_name": "亢龙有悔合一掌1增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17806,6 +18210,7 @@ SKILLS = {
     8504: {
         "alias_name": "亢龙有悔合一掌2增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17883,6 +18288,7 @@ SKILLS = {
     8505: {
         "alias_name": "亢龙有悔合一掌3增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -17960,6 +18366,7 @@ SKILLS = {
     8506: {
         "alias_name": "亢龙有悔合一掌4增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18037,6 +18444,7 @@ SKILLS = {
     8507: {
         "alias_name": "亢龙有悔合一掌5增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18114,6 +18522,7 @@ SKILLS = {
     8508: {
         "alias_name": "亢龙有悔合一掌6增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18190,6 +18599,7 @@ SKILLS = {
     8509: {
         "alias_name": "亢龙有悔合一掌7增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18266,6 +18676,7 @@ SKILLS = {
     8510: {
         "alias_name": "亢龙有悔合一掌8增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18342,6 +18753,7 @@ SKILLS = {
     8511: {
         "alias_name": "亢龙有悔合一掌9增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18418,6 +18830,7 @@ SKILLS = {
     8512: {
         "alias_name": "亢龙有悔合一掌10增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18494,6 +18907,7 @@ SKILLS = {
     8513: {
         "alias_name": "亢龙有悔合一掌11增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18570,6 +18984,7 @@ SKILLS = {
     8514: {
         "alias_name": "亢龙有悔合一掌12增强",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -18646,6 +19061,7 @@ SKILLS = {
     6351: {
         "alias_name": "蜀犬吠日_伤害2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18693,6 +19109,7 @@ SKILLS = {
     6352: {
         "alias_name": "蜀犬吠日_伤害3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18740,6 +19157,7 @@ SKILLS = {
     6353: {
         "alias_name": "蜀犬吠日_伤害1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18787,6 +19205,7 @@ SKILLS = {
     6354: {
         "alias_name": "蜀犬吠日_伤害4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5257,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18834,6 +19253,7 @@ SKILLS = {
     6355: {
         "alias_name": "龙跃1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18856,6 +19276,7 @@ SKILLS = {
     6356: {
         "alias_name": "龙跃2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18878,6 +19299,7 @@ SKILLS = {
     6357: {
         "alias_name": "龙跃3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18900,6 +19322,7 @@ SKILLS = {
     6358: {
         "alias_name": "蛟龙1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -18953,6 +19376,7 @@ SKILLS = {
     6359: {
         "alias_name": "蛟龙2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19006,6 +19430,7 @@ SKILLS = {
     6360: {
         "alias_name": "蛟龙3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5367,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -19029,6 +19454,7 @@ SKILLS = {
     6361: {
         "alias_name": "双龙1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5368,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -19059,6 +19485,7 @@ SKILLS = {
     6362: {
         "alias_name": "龙游1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19106,6 +19533,7 @@ SKILLS = {
     6363: {
         "alias_name": "龙游2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19153,6 +19581,7 @@ SKILLS = {
     6364: {
         "alias_name": "龙游3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5369,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -19174,6 +19603,7 @@ SKILLS = {
     6365: {
         "alias_name": "龙腾1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5370,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -19196,6 +19626,7 @@ SKILLS = {
     6366: {
         "alias_name": "龙战1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19246,6 +19677,7 @@ SKILLS = {
     6367: {
         "alias_name": "龙战2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19296,6 +19728,7 @@ SKILLS = {
     6368: {
         "alias_name": "龙战3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5266,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19346,6 +19779,7 @@ SKILLS = {
     6369: {
         "alias_name": "亢龙1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19402,6 +19836,7 @@ SKILLS = {
     6370: {
         "alias_name": "亢龙2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19458,6 +19893,7 @@ SKILLS = {
     6371: {
         "alias_name": "亢龙3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19514,6 +19950,7 @@ SKILLS = {
     6372: {
         "alias_name": "亢龙4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19570,6 +20007,7 @@ SKILLS = {
     6373: {
         "alias_name": "亢龙5",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19626,6 +20064,7 @@ SKILLS = {
     6374: {
         "alias_name": "亢龙6",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19661,6 +20100,7 @@ SKILLS = {
     6853: {
         "alias_name": "丐帮_亢龙DOT",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
         "recipe_mask": 0,
         "event_mask_1": 3,
@@ -19670,6 +20110,7 @@ SKILLS = {
     26703: {
         "alias_name": "新坚冰目标点伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 100.0,
@@ -19682,6 +20123,7 @@ SKILLS = {
     25201: {
         "alias_name": "祭湘君目标点伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -19695,6 +20137,7 @@ SKILLS = {
     25202: {
         "alias_name": "祭湘君亢龙附带额外伤害回蓝",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 250.0,
@@ -19707,6 +20150,7 @@ SKILLS = {
     6867: {
         "alias_name": "丐帮_亢龙DOT_可叠加",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5262,
         "recipe_mask": 0,
         "event_mask_1": 3,
@@ -19716,6 +20160,7 @@ SKILLS = {
     19430: {
         "alias_name": "丐帮3分之一亢龙翻倍",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19793,6 +20238,7 @@ SKILLS = {
     19431: {
         "alias_name": "丐帮3分之一亢龙翻倍1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19870,6 +20316,7 @@ SKILLS = {
     19432: {
         "alias_name": "丐帮3分之一亢龙翻倍2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -19947,6 +20394,7 @@ SKILLS = {
     19433: {
         "alias_name": "丐帮3分之一亢龙翻倍3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20024,6 +20472,7 @@ SKILLS = {
     19434: {
         "alias_name": "丐帮3分之一亢龙翻倍4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20101,6 +20550,7 @@ SKILLS = {
     19435: {
         "alias_name": "亢龙3分之一亢龙不翻倍",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20178,6 +20628,7 @@ SKILLS = {
     19436: {
         "alias_name": "亢龙3分之一亢龙不翻倍1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20255,6 +20706,7 @@ SKILLS = {
     19437: {
         "alias_name": "亢龙3分之一亢龙不翻倍2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20332,6 +20784,7 @@ SKILLS = {
     19438: {
         "alias_name": "亢龙3分之一亢龙不翻倍3",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20409,6 +20862,7 @@ SKILLS = {
     19439: {
         "alias_name": "亢龙3分之一亢龙不翻倍4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20486,6 +20940,7 @@ SKILLS = {
     18913: {
         "alias_name": "远程亢龙50%蓝4",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 5638,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -20506,6 +20961,7 @@ SKILLS = {
     38891: {
         "alias_name": "追远追加伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 500.0,
@@ -20518,6 +20974,7 @@ SKILLS = {
     40335: {
         "alias_name": "潜龙AOE伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -20532,6 +20989,7 @@ SKILLS = {
     25779: {
         "alias_name": "110级CW新增特效丐帮",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -20543,6 +21001,7 @@ SKILLS = {
     13039: {
         "alias_name": "普通攻击_盾刀攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -20555,6 +21014,7 @@ SKILLS = {
     38889: {
         "alias_name": "分山绝刀单独破招",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 38889,
         "recipe_mask": 0,
         "max_level": 9,
@@ -20575,6 +21035,7 @@ SKILLS = {
     38971: {
         "alias_name": "盾舞破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 2,
@@ -20588,6 +21049,7 @@ SKILLS = {
     32745: {
         "alias_name": "苍云破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 9,
@@ -20608,6 +21070,7 @@ SKILLS = {
     19409: {
         "alias_name": "盾压打伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13045,
         "recipe_mask": 0,
         "event_mask_1": 1610613255,
@@ -20697,6 +21160,7 @@ SKILLS = {
     13099: {
         "alias_name": "盾猛基础伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13046,
         "recipe_mask": 0,
         "event_mask_1": 536871428,
@@ -20789,6 +21253,7 @@ SKILLS = {
     13044: {
         "alias_name": "盾刀",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13044,
         "recipe_mask": 0,
         "event_mask_1": 1610613255,
@@ -20906,6 +21371,7 @@ SKILLS = {
     13106: {
         "alias_name": "盾击正常伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -20972,6 +21438,7 @@ SKILLS = {
     13160: {
         "alias_name": "盾击正常伤害换动作",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21038,6 +21505,7 @@ SKILLS = {
     13161: {
         "alias_name": "盾击正常伤害还动作2",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21104,6 +21572,7 @@ SKILLS = {
     13453: {
         "alias_name": "闪刀伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13053,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21176,6 +21645,7 @@ SKILLS = {
     13075: {
         "alias_name": "绝刀全血量",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13055,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21254,6 +21724,7 @@ SKILLS = {
     13092: {
         "alias_name": "斩刀近距离",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13054,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21338,6 +21809,7 @@ SKILLS = {
     28479: {
         "alias_name": "28479 劫刀_伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13052,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21440,6 +21912,7 @@ SKILLS = {
     29188: {
         "alias_name": "斩刀 无割裂无炼狱的流血",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -21477,6 +21950,7 @@ SKILLS = {
     13463: {
         "alias_name": "盾飞子技能正常伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13050,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21539,6 +22013,7 @@ SKILLS = {
     38973: {
         "alias_name": "盾舞实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13048,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -21604,6 +22079,7 @@ SKILLS = {
     29187: {
         "alias_name": "斩刀 无割裂炼狱的流血",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13308,
         "recipe_mask": 0,
         "channel_interval": [
@@ -21641,6 +22117,7 @@ SKILLS = {
     13110: {
         "alias_name": "盾击奇穴正常伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21707,6 +22184,7 @@ SKILLS = {
     13107: {
         "alias_name": "盾击奇穴双倍伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21773,6 +22251,7 @@ SKILLS = {
     13108: {
         "alias_name": "盾击奇穴3倍伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13047,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21839,6 +22318,7 @@ SKILLS = {
     37253: {
         "alias_name": "麾远斩刀远距离附带额外伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -21855,6 +22335,7 @@ SKILLS = {
     37601: {
         "alias_name": "斩刀 无登锋有履刃的流血子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -21892,6 +22373,7 @@ SKILLS = {
     37600: {
         "alias_name": "斩刀 登锋履刃的流血子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13308,
         "recipe_mask": 0,
         "channel_interval": [
@@ -21929,6 +22411,7 @@ SKILLS = {
     34674: {
         "alias_name": "业火麟光之麟光甲每次苍雪刀额外伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 490.77600000000007,
@@ -21942,6 +22425,7 @@ SKILLS = {
     37448: {
         "alias_name": "麟光甲破招追加子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -21952,6 +22436,7 @@ SKILLS = {
     36482: {
         "alias_name": "援戈外功伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 687.2399999999999,
@@ -21965,6 +22450,7 @@ SKILLS = {
     36065: {
         "alias_name": "苍云奇穴破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 5,
@@ -21987,6 +22473,7 @@ SKILLS = {
     38890: {
         "alias_name": "绝刀破招惊涌",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 38889,
         "recipe_mask": 0,
         "max_level": 9,
@@ -22007,6 +22494,7 @@ SKILLS = {
     30925: {
         "alias_name": "阵云结晦一段_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -22023,6 +22511,7 @@ SKILLS = {
     30926: {
         "alias_name": "阵云结晦二段_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -22039,6 +22528,7 @@ SKILLS = {
     30857: {
         "alias_name": "30857 阵云结晦三段_伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -22079,6 +22569,7 @@ SKILLS = {
     25780: {
         "alias_name": "110级CW新增特效分山",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -22090,6 +22581,7 @@ SKILLS = {
     13244: {
         "alias_name": "盾刀第二段AOE伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13044,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -22206,6 +22698,7 @@ SKILLS = {
     13060: {
         "alias_name": "盾刀三段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13044,
         "recipe_mask": 0,
         "event_mask_1": 536871428,
@@ -22322,6 +22815,7 @@ SKILLS = {
     13119: {
         "alias_name": "盾刀四段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 13044,
         "recipe_mask": 0,
         "event_mask_1": 536871428,
@@ -22438,6 +22932,7 @@ SKILLS = {
     40721: {
         "alias_name": "征北_单体强仇技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 16391,
@@ -22452,6 +22947,7 @@ SKILLS = {
     26898: {
         "alias_name": "鸿烈自身范围AOE强仇",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -22465,6 +22961,7 @@ SKILLS = {
     25215: {
         "alias_name": "断马摧城伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 516,
@@ -22517,6 +23014,7 @@ SKILLS = {
     14063: {
         "alias_name": "普通攻击-琴攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -22529,6 +23027,7 @@ SKILLS = {
     32738: {
         "alias_name": "莫问正律破招伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 7,
@@ -22555,6 +23054,7 @@ SKILLS = {
     14474: {
         "alias_name": "宫伤害_实际伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -22647,6 +23147,7 @@ SKILLS = {
     18860: {
         "alias_name": "变宫伤害_实际伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -22739,6 +23240,7 @@ SKILLS = {
     14311: {
         "alias_name": "气略_商dot立刻伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
         "recipe_mask": 0,
         "channel_interval": [
@@ -22763,6 +23265,7 @@ SKILLS = {
     14312: {
         "alias_name": "气略_角dot立刻伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
         "recipe_mask": 0,
         "channel_interval": [
@@ -22787,6 +23290,7 @@ SKILLS = {
     14227: {
         "alias_name": "徵_无递增奇穴通道实际伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14067,
         "recipe_mask": 0,
         "event_mask_1": 1610645585,
@@ -22879,6 +23383,7 @@ SKILLS = {
     14100: {
         "alias_name": "羽无奇穴子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14068,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -22970,6 +23475,7 @@ SKILLS = {
     18859: {
         "alias_name": "变徵_无递增奇穴通道实际伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14067,
         "recipe_mask": 0,
         "event_mask_1": 1610645585,
@@ -23062,6 +23568,7 @@ SKILLS = {
     18656: {
         "alias_name": "剑·宫Aoe实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14449,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23153,6 +23660,7 @@ SKILLS = {
     25225: {
         "alias_name": "剑·商眩晕",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 536870992,
@@ -23245,6 +23753,7 @@ SKILLS = {
     40293: {
         "alias_name": "剑·角实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 40291,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23270,6 +23779,7 @@ SKILLS = {
     40285: {
         "alias_name": "剑·徵实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 40285,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23335,6 +23845,7 @@ SKILLS = {
     18663: {
         "alias_name": "剑羽影子攻击",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14452,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -23426,6 +23937,7 @@ SKILLS = {
     14455: {
         "alias_name": "剑·羽实际伤害技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14452,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23517,6 +24029,7 @@ SKILLS = {
     14494: {
         "alias_name": "阳春白雪实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 593,
@@ -23582,6 +24095,7 @@ SKILLS = {
     14070: {
         "alias_name": "阳春白雪",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17,
@@ -23592,6 +24106,7 @@ SKILLS = {
     14082: {
         "alias_name": "疏影横斜",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 17,
@@ -23603,6 +24118,7 @@ SKILLS = {
     14287: {
         "alias_name": "商_普通dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23639,6 +24155,7 @@ SKILLS = {
     17788: {
         "alias_name": "广雅_刷新普通商Dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23674,6 +24191,7 @@ SKILLS = {
     14291: {
         "alias_name": "角_普通dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23710,6 +24228,7 @@ SKILLS = {
     17792: {
         "alias_name": "广雅_刷新普通角Dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23745,6 +24264,7 @@ SKILLS = {
     14288: {
         "alias_name": "商_缩短间隔dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23781,6 +24301,7 @@ SKILLS = {
     17789: {
         "alias_name": "广雅_刷新缩短间隔商Dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14065,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23816,6 +24337,7 @@ SKILLS = {
     14292: {
         "alias_name": "角_缩短间隔dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -23852,6 +24374,7 @@ SKILLS = {
     17793: {
         "alias_name": "广雅_刷新缩短间隔角Dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14066,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23887,6 +24410,7 @@ SKILLS = {
     34514: {
         "alias_name": "莫问连徽_输出子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 34514,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23920,6 +24444,7 @@ SKILLS = {
     30799: {
         "alias_name": "流照_徵每跳额外伤害造成的伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 30799,
         "recipe_mask": 0,
         "channel_interval": 127.76400000000001,
@@ -23932,6 +24457,7 @@ SKILLS = {
     38015: {
         "alias_name": "争鸣伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 38015,
         "recipe_mask": 0,
         "channel_interval": [
@@ -23947,6 +24473,7 @@ SKILLS = {
     40330: {
         "alias_name": "音彻_伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 280.0,
@@ -23959,6 +24486,7 @@ SKILLS = {
     40811: {
         "alias_name": "崭芒伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 40811,
         "recipe_mask": 0,
         "channel_interval": 784.3499999999999,
@@ -23971,6 +24499,7 @@ SKILLS = {
     29077: {
         "alias_name": "不愧君一段实际伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 536870912,
@@ -24024,6 +24553,7 @@ SKILLS = {
     34676: {
         "alias_name": "莫问正律和鸣完成演奏输出子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -24061,6 +24591,7 @@ SKILLS = {
     25781: {
         "alias_name": "110级CW新增特效莫问",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -24072,6 +24603,7 @@ SKILLS = {
     31008: {
         "alias_name": "瞬发宫伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -24164,6 +24696,7 @@ SKILLS = {
     31138: {
         "alias_name": "瞬发变宫实际伤害子技能",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 14064,
         "recipe_mask": 0,
         "event_mask_1": 1610613329,
@@ -24256,6 +24789,7 @@ SKILLS = {
     31005: {
         "alias_name": "橙武瞬发宫附带宫dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 866.4128550000003,
@@ -24264,6 +24798,7 @@ SKILLS = {
     40815: {
         "alias_name": "橙武羽附带羽dot",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 866.4128550000003,
@@ -24272,6 +24807,7 @@ SKILLS = {
     15076: {
         "alias_name": "影子伤害攻击宫伤害",
         "kind_type": "LunarMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 1,
@@ -24364,6 +24900,7 @@ SKILLS = {
     16419: {
         "alias_name": "双刀普通攻击有特效",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -24377,6 +24914,7 @@ SKILLS = {
     16820: {
         "alias_name": "大刀普通攻击有特效",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -24390,6 +24928,7 @@ SKILLS = {
     16822: {
         "alias_name": "鞘刀和腿普通攻击有特效",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -24403,6 +24942,7 @@ SKILLS = {
     32823: {
         "alias_name": "霸刀破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 5,
@@ -24419,6 +24959,7 @@ SKILLS = {
     16599: {
         "alias_name": "雷走风切普通伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16598,
         "recipe_mask": 0,
         "event_mask_1": 2147484167,
@@ -24466,6 +25007,7 @@ SKILLS = {
     16631: {
         "alias_name": "大刀雷走风切普通伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16629,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -24513,6 +25055,7 @@ SKILLS = {
     16097: {
         "alias_name": "龙骧虎步实际伤害效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16028,
         "recipe_mask": 0,
         "event_mask_1": 2147746311,
@@ -24560,6 +25103,7 @@ SKILLS = {
     16753: {
         "alias_name": "龙骧虎步二段表现技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16028,
         "recipe_mask": 0,
         "event_mask_1": 2147746311,
@@ -24606,6 +25150,7 @@ SKILLS = {
     16774: {
         "alias_name": "大刀龙骧虎步一段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16028,
         "recipe_mask": 0,
         "event_mask_1": 262663,
@@ -24653,6 +25198,7 @@ SKILLS = {
     16775: {
         "alias_name": "大刀龙骧虎步二段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16028,
         "recipe_mask": 0,
         "event_mask_1": 262663,
@@ -24700,6 +25246,7 @@ SKILLS = {
     20991: {
         "alias_name": "破釜正常伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16602,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -24763,6 +25310,7 @@ SKILLS = {
     16758: {
         "alias_name": "项王击鼎一段表现技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
         "recipe_mask": 0,
         "event_mask_1": 603980295,
@@ -24826,6 +25374,7 @@ SKILLS = {
     16759: {
         "alias_name": "项王击鼎二段表现技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
         "recipe_mask": 0,
         "event_mask_1": 603980295,
@@ -24889,6 +25438,7 @@ SKILLS = {
     16760: {
         "alias_name": "项王击鼎三段表现技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
         "recipe_mask": 0,
         "event_mask_1": 603980295,
@@ -24952,6 +25502,7 @@ SKILLS = {
     16382: {
         "alias_name": "项王击鼎AOE实际AOE伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16601,
         "recipe_mask": 0,
         "event_mask_1": 134218247,
@@ -25015,6 +25566,7 @@ SKILLS = {
     16800: {
         "alias_name": "上将军印普通伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25063,6 +25615,7 @@ SKILLS = {
     16801: {
         "alias_name": "上将军印连续命中一次伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25111,6 +25664,7 @@ SKILLS = {
     16802: {
         "alias_name": "上将军印连续命中二次伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25147,6 +25701,7 @@ SKILLS = {
     16803: {
         "alias_name": "上将军印连续命中三次伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25195,6 +25750,7 @@ SKILLS = {
     16804: {
         "alias_name": "上将军印无奇穴伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25243,6 +25799,7 @@ SKILLS = {
     17043: {
         "alias_name": "上将军印连续命中目标四次",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25291,6 +25848,7 @@ SKILLS = {
     19423: {
         "alias_name": "上将军印连续命中五次",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25339,6 +25897,7 @@ SKILLS = {
     19424: {
         "alias_name": "上将军印连续命中六次",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16627,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -25387,6 +25946,7 @@ SKILLS = {
     17092: {
         "alias_name": "碎江天伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16304,
         "recipe_mask": 0,
         "event_mask_1": 15,
@@ -25450,6 +26010,7 @@ SKILLS = {
     17058: {
         "alias_name": "闹须弥一段流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 17057,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -25472,6 +26033,7 @@ SKILLS = {
     17060: {
         "alias_name": "刷新闹须弥伤害效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -25492,6 +26054,7 @@ SKILLS = {
     16933: {
         "alias_name": "擒王六式·一式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25540,6 +26103,7 @@ SKILLS = {
     16934: {
         "alias_name": "擒王六式·一式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25588,6 +26152,7 @@ SKILLS = {
     16935: {
         "alias_name": "擒王六式·二式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25636,6 +26201,7 @@ SKILLS = {
     16936: {
         "alias_name": "擒王六式·二式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25684,6 +26250,7 @@ SKILLS = {
     16937: {
         "alias_name": "擒王六式·三式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25732,6 +26299,7 @@ SKILLS = {
     16938: {
         "alias_name": "擒王六式·三式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25780,6 +26348,7 @@ SKILLS = {
     16939: {
         "alias_name": "擒王六式·四式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25828,6 +26397,7 @@ SKILLS = {
     16940: {
         "alias_name": "擒王六式·四式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25876,6 +26446,7 @@ SKILLS = {
     16941: {
         "alias_name": "擒王六式·五式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25924,6 +26495,7 @@ SKILLS = {
     16942: {
         "alias_name": "擒王六式·五式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -25972,6 +26544,7 @@ SKILLS = {
     16943: {
         "alias_name": "擒王六式·六式子技能A",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -26020,6 +26593,7 @@ SKILLS = {
     16944: {
         "alias_name": "擒王六式·六式子技能B",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16870,
         "recipe_mask": 0,
         "event_mask_1": 5,
@@ -26068,6 +26642,7 @@ SKILLS = {
     16794: {
         "alias_name": "坚壁清野残留效果实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 11,
@@ -26130,6 +26705,7 @@ SKILLS = {
     16787: {
         "alias_name": "坚壁清野5尺实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -26192,6 +26768,7 @@ SKILLS = {
     16788: {
         "alias_name": "坚壁清野10尺实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -26254,6 +26831,7 @@ SKILLS = {
     16789: {
         "alias_name": "坚壁清野15尺实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -26316,6 +26894,7 @@ SKILLS = {
     16790: {
         "alias_name": "坚壁清野20尺实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -26378,6 +26957,7 @@ SKILLS = {
     16791: {
         "alias_name": "坚壁清野25尺实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16621,
         "recipe_mask": 0,
         "event_mask_1": 1035,
@@ -26440,6 +27020,7 @@ SKILLS = {
     16610: {
         "alias_name": "刀啸风吟5尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
         "recipe_mask": 0,
         "event_mask_1": 2147484683,
@@ -26502,6 +27083,7 @@ SKILLS = {
     16611: {
         "alias_name": "刀啸风吟10尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
         "recipe_mask": 0,
         "event_mask_1": 2147484683,
@@ -26564,6 +27146,7 @@ SKILLS = {
     16612: {
         "alias_name": "刀啸风吟15尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
         "recipe_mask": 0,
         "event_mask_1": 2147484683,
@@ -26626,6 +27209,7 @@ SKILLS = {
     16613: {
         "alias_name": "刀啸风吟20尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
         "recipe_mask": 0,
         "event_mask_1": 2147484683,
@@ -26688,6 +27272,7 @@ SKILLS = {
     16614: {
         "alias_name": "刀啸风吟25尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16027,
         "recipe_mask": 0,
         "event_mask_1": 2147484683,
@@ -26750,6 +27335,7 @@ SKILLS = {
     16615: {
         "alias_name": "醉斩白蛇5尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16085,
         "recipe_mask": 0,
         "event_mask_1": 1082379,
@@ -26812,6 +27398,7 @@ SKILLS = {
     16616: {
         "alias_name": "醉斩白蛇10尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16085,
         "recipe_mask": 0,
         "event_mask_1": 1082379,
@@ -26874,6 +27461,7 @@ SKILLS = {
     16617: {
         "alias_name": "醉斩白蛇15尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16085,
         "recipe_mask": 0,
         "event_mask_1": 1082379,
@@ -26936,6 +27524,7 @@ SKILLS = {
     16618: {
         "alias_name": "醉斩白蛇20尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16085,
         "recipe_mask": 0,
         "event_mask_1": 1082379,
@@ -26998,6 +27587,7 @@ SKILLS = {
     16619: {
         "alias_name": "醉斩白蛇25尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 16085,
         "recipe_mask": 0,
         "event_mask_1": 1082379,
@@ -27060,6 +27650,7 @@ SKILLS = {
     38533: {
         "alias_name": "碎影额外伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 950.4000000000001,
@@ -27072,6 +27663,7 @@ SKILLS = {
     37984: {
         "alias_name": "召唤上将二段伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 536871431,
@@ -27086,6 +27678,7 @@ SKILLS = {
     38537: {
         "alias_name": "楚歌_破釜沉舟额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -27108,6 +27701,7 @@ SKILLS = {
     34585: {
         "alias_name": "绝期额外伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 120.0,
@@ -27120,6 +27714,7 @@ SKILLS = {
     25782: {
         "alias_name": "110级CW新增特效霸刀",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 25.0,
@@ -27131,6 +27726,7 @@ SKILLS = {
     39106: {
         "alias_name": "背水沉舟额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 912.3840000000002,
@@ -27143,6 +27739,7 @@ SKILLS = {
     19712: {
         "alias_name": "普通攻击_伞",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -27155,6 +27752,7 @@ SKILLS = {
     32815: {
         "alias_name": "蓬莱破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 6,
@@ -27172,6 +27770,7 @@ SKILLS = {
     19766: {
         "alias_name": "击水三千一段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27283,6 +27882,7 @@ SKILLS = {
     19767: {
         "alias_name": "击水三千二段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27394,6 +27994,7 @@ SKILLS = {
     20014: {
         "alias_name": "击水三千三段表现",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19737,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27505,6 +28106,7 @@ SKILLS = {
     19819: {
         "alias_name": "木落雁归实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19818,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27589,6 +28191,7 @@ SKILLS = {
     20016: {
         "alias_name": "翼绝云天伤害技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19827,
         "recipe_mask": 0,
         "event_mask_1": 11,
@@ -27701,6 +28304,7 @@ SKILLS = {
     31250: {
         "alias_name": "镜壁4尺风车伤害复制",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20259,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27762,6 +28366,7 @@ SKILLS = {
     20052: {
         "alias_name": "浮游天地伤害技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 19828,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -27799,6 +28404,7 @@ SKILLS = {
     20054: {
         "alias_name": "如来神掌实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20053,
         "recipe_mask": 0,
         "event_mask_1": 268435975,
@@ -27861,6 +28467,7 @@ SKILLS = {
     20322: {
         "alias_name": "溟海御波实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20083,
         "recipe_mask": 0,
         "event_mask_1": 268435975,
@@ -27923,6 +28530,7 @@ SKILLS = {
     20323: {
         "alias_name": "逐波灵游实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20084,
         "recipe_mask": 0,
         "event_mask_1": 268435975,
@@ -27985,6 +28593,7 @@ SKILLS = {
     20684: {
         "alias_name": "海运南冥10尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20715,
         "recipe_mask": 0,
         "event_mask_1": 268435975,
@@ -28047,6 +28656,7 @@ SKILLS = {
     20685: {
         "alias_name": "海运南冥5尺伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20715,
         "recipe_mask": 0,
         "event_mask_1": 268435975,
@@ -28109,6 +28719,7 @@ SKILLS = {
     30506: {
         "alias_name": "跃潮额外伤害目标",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 20053,
         "recipe_mask": 0,
         "channel_interval": [
@@ -28169,6 +28780,7 @@ SKILLS = {
     32593: {
         "alias_name": "倾波_自身引爆伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -28182,6 +28794,7 @@ SKILLS = {
     38675: {
         "alias_name": "新青冥持续伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 2475.0,
@@ -28190,6 +28803,7 @@ SKILLS = {
     30503: {
         "alias_name": "惊潮引爆伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28215,6 +28829,7 @@ SKILLS = {
     32595: {
         "alias_name": "怒翼_实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 198.63360000000003,
@@ -28227,6 +28842,7 @@ SKILLS = {
     25783: {
         "alias_name": "110级CW新增特效蓬莱",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -28238,6 +28854,7 @@ SKILLS = {
     26935: {
         "alias_name": "橙武_蓬莱_溟海御波带dot",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 680.0,
@@ -28246,6 +28863,7 @@ SKILLS = {
     22126: {
         "alias_name": "普通攻击_链刃",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -28258,6 +28876,7 @@ SKILLS = {
     32822: {
         "alias_name": "凌雪破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 2,
@@ -28271,6 +28890,7 @@ SKILLS = {
     22170: {
         "alias_name": "星垂平野伤害AOE",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28382,6 +29002,7 @@ SKILLS = {
     22550: {
         "alias_name": "星垂平野二段AOE",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28493,6 +29114,7 @@ SKILLS = {
     22551: {
         "alias_name": "星垂平野三段AOE",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28604,6 +29226,7 @@ SKILLS = {
     22298: {
         "alias_name": "星垂平野链接额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22143,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28714,6 +29337,7 @@ SKILLS = {
     22620: {
         "alias_name": "金戈回澜远距离额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22144,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28797,6 +29421,7 @@ SKILLS = {
     22621: {
         "alias_name": "金戈回澜正常伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22144,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28881,6 +29506,7 @@ SKILLS = {
     22610: {
         "alias_name": "隐风雷短距离伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -28952,6 +29578,7 @@ SKILLS = {
     22611: {
         "alias_name": "隐风雷长距离伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29023,6 +29650,7 @@ SKILLS = {
     22552: {
         "alias_name": "隐风雷双持额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29094,6 +29722,7 @@ SKILLS = {
     22612: {
         "alias_name": "隐风雷长距离额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29165,6 +29794,7 @@ SKILLS = {
     36269: {
         "alias_name": "隐风雷远距离遗恨伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29236,6 +29866,7 @@ SKILLS = {
     36270: {
         "alias_name": "远距离遗恨隐风雷副手伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22321,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29307,6 +29938,7 @@ SKILLS = {
     22328: {
         "alias_name": "寂洪荒普通伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29421,6 +30053,7 @@ SKILLS = {
     22329: {
         "alias_name": "寂洪荒两次伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29534,6 +30167,7 @@ SKILLS = {
     22604: {
         "alias_name": "寂洪荒远距离伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29648,6 +30282,7 @@ SKILLS = {
     22605: {
         "alias_name": "寂洪荒远距离额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29761,6 +30396,7 @@ SKILLS = {
     36267: {
         "alias_name": "寂洪荒远距遗恨伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29875,6 +30511,7 @@ SKILLS = {
     36268: {
         "alias_name": "寂洪荒遗恨远距离副手伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -29988,6 +30625,7 @@ SKILLS = {
     22489: {
         "alias_name": "乱天狼伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30050,6 +30688,7 @@ SKILLS = {
     22490: {
         "alias_name": "乱天狼伤害远距离子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30112,6 +30751,7 @@ SKILLS = {
     22553: {
         "alias_name": "乱天狼双持额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30174,6 +30814,7 @@ SKILLS = {
     22554: {
         "alias_name": "乱天狼远距离额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30236,6 +30877,7 @@ SKILLS = {
     36265: {
         "alias_name": "乱天狼远距离遗恨伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30298,6 +30940,7 @@ SKILLS = {
     36266: {
         "alias_name": "乱天狼远距离遗恨副手伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22320,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30360,6 +31003,7 @@ SKILLS = {
     22359: {
         "alias_name": "斩无常伤害技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22358,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30402,6 +31046,7 @@ SKILLS = {
     22787: {
         "alias_name": "幽冥窥月伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22361,
         "recipe_mask": 0,
         "event_mask_1": 4,
@@ -30438,6 +31083,7 @@ SKILLS = {
     25314: {
         "alias_name": "遗恨伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 206.31,
@@ -30450,6 +31096,7 @@ SKILLS = {
     34981: {
         "alias_name": "凌雪阁跳跃寂洪荒额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 525.0,
@@ -30462,6 +31109,7 @@ SKILLS = {
     22330: {
         "alias_name": "寂洪荒附带持续伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22327,
         "recipe_mask": 0,
         "channel_interval": [
@@ -30504,6 +31152,7 @@ SKILLS = {
     29751: {
         "alias_name": "飞刃回转实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -30517,6 +31166,7 @@ SKILLS = {
     40156: {
         "alias_name": "寂洪荒命中飞刃标记额外造成一次伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -30532,6 +31182,7 @@ SKILLS = {
     22761: {
         "alias_name": "青山共我撞上黑洞大量伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 22603,
         "recipe_mask": 0,
         "event_mask_1": 519,
@@ -30545,6 +31196,7 @@ SKILLS = {
     25784: {
         "alias_name": "110级CW新增特效凌雪阁",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -30556,6 +31208,7 @@ SKILLS = {
     26980: {
         "alias_name": "橙武_凌雪阁_金戈回澜带dot",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 580.8000000000001,
@@ -30564,6 +31217,7 @@ SKILLS = {
     25512: {
         "alias_name": "普通攻击_魂灯",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -30576,6 +31230,7 @@ SKILLS = {
     32886: {
         "alias_name": "衍天破招子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 3,
@@ -30590,6 +31245,7 @@ SKILLS = {
     24558: {
         "alias_name": "临伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -30658,6 +31314,7 @@ SKILLS = {
     24675: {
         "alias_name": "临伤害子技能_水坎",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -30726,6 +31383,7 @@ SKILLS = {
     24676: {
         "alias_name": "临伤害子技能_山艮",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -30794,6 +31452,7 @@ SKILLS = {
     24677: {
         "alias_name": "临伤害子技能_火离",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24369,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -30862,6 +31521,7 @@ SKILLS = {
     24811: {
         "alias_name": "兵_无卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -30933,6 +31593,7 @@ SKILLS = {
     24812: {
         "alias_name": "兵_水坎卦实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31004,6 +31665,7 @@ SKILLS = {
     24813: {
         "alias_name": "兵_山艮卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31075,6 +31737,7 @@ SKILLS = {
     24814: {
         "alias_name": "兵_火离卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24371,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31146,6 +31809,7 @@ SKILLS = {
     24821: {
         "alias_name": "斗_火离卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31220,6 +31884,7 @@ SKILLS = {
     24822: {
         "alias_name": "斗_水坎卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31294,6 +31959,7 @@ SKILLS = {
     24823: {
         "alias_name": "斗_山艮卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31368,6 +32034,7 @@ SKILLS = {
     24824: {
         "alias_name": "斗_无卦象实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31442,6 +32109,7 @@ SKILLS = {
     24454: {
         "alias_name": "卦象·火离实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24431,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31473,6 +32141,7 @@ SKILLS = {
     24870: {
         "alias_name": "鬼星开穴实际伤害技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24379,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31552,6 +32221,7 @@ SKILLS = {
     25233: {
         "alias_name": "鬼星开穴小灯伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24379,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31631,6 +32301,7 @@ SKILLS = {
     28815: {
         "alias_name": "魂灯撞击实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 28815,
         "recipe_mask": 0,
         "channel_interval": [
@@ -31826,6 +32497,7 @@ SKILLS = {
     30847: {
         "alias_name": "天网实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31838,6 +32510,7 @@ SKILLS = {
     37311: {
         "alias_name": "龙回首修饰下鬼星开穴单次伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24379,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31917,6 +32590,7 @@ SKILLS = {
     34683: {
         "alias_name": "衍天宗亘天额外伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 24372,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31930,6 +32604,7 @@ SKILLS = {
     25174: {
         "alias_name": "加强魂阵内触发额外伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 237.60000000000002,
@@ -31942,6 +32617,7 @@ SKILLS = {
     37599: {
         "alias_name": "阵星入舆山打火额外伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -31955,6 +32631,7 @@ SKILLS = {
     25837: {
         "alias_name": "110级CW新增特效衍天",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 50.0,
@@ -31966,6 +32643,7 @@ SKILLS = {
     33588: {
         "alias_name": "衍天宗橙色武器实际上dot技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 33588,
         "recipe_mask": 0,
         "channel_interval": 420.552,
@@ -31980,6 +32658,7 @@ SKILLS = {
     27451: {
         "alias_name": "普通攻击_百草卷",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131075,
@@ -31992,6 +32671,7 @@ SKILLS = {
     32841: {
         "alias_name": "无方破招伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 6,
@@ -32009,6 +32689,7 @@ SKILLS = {
     28081: {
         "alias_name": "无方中和伤害效果",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 28081,
         "recipe_mask": 0,
         "channel_interval": [
@@ -32043,6 +32724,7 @@ SKILLS = {
     27552: {
         "alias_name": "商陆其根伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27551,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32155,6 +32837,7 @@ SKILLS = {
     27555: {
         "alias_name": "钩吻断肠伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27554,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32190,6 +32873,7 @@ SKILLS = {
     27560: {
         "alias_name": "逆乱效果子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27560,
         "recipe_mask": 0,
         "channel_interval": [
@@ -32209,6 +32893,7 @@ SKILLS = {
     27557: {
         "alias_name": "奚毒射罔伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27556,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32255,6 +32940,7 @@ SKILLS = {
     27579: {
         "alias_name": "沾衣未妨目标点伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27578,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32268,6 +32954,7 @@ SKILLS = {
     27584: {
         "alias_name": "且待时休伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27582,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32329,6 +33016,7 @@ SKILLS = {
     28346: {
         "alias_name": "银光照雪单体伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 28345,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32390,6 +33078,7 @@ SKILLS = {
     27539: {
         "alias_name": "惊鸿掠水伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27536,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32451,6 +33140,7 @@ SKILLS = {
     29505: {
         "alias_name": "含锋破月伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27635,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32563,6 +33253,7 @@ SKILLS = {
     29506: {
         "alias_name": "飞叶满襟伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27637,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32675,6 +33366,7 @@ SKILLS = {
     27657: {
         "alias_name": "棘丛于地伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27652,
         "recipe_mask": 0,
         "channel_interval": [
@@ -32709,6 +33401,7 @@ SKILLS = {
     28385: {
         "alias_name": "紫叶沉疴伤害子技能",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32722,6 +33415,7 @@ SKILLS = {
     29535: {
         "alias_name": "逐云毒额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 27674,
         "recipe_mask": 0,
         "channel_interval": [
@@ -32743,6 +33437,7 @@ SKILLS = {
     40212: {
         "alias_name": "往馥额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 300.0,
@@ -32755,6 +33450,7 @@ SKILLS = {
     40208: {
         "alias_name": "沉浮额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 583.2,
@@ -32767,6 +33463,7 @@ SKILLS = {
     28434: {
         "alias_name": "紫伏目标点伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 256,
@@ -32780,6 +33477,7 @@ SKILLS = {
     29698: {
         "alias_name": "110级CW新增特效无方",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 65.0,
@@ -32792,6 +33490,7 @@ SKILLS = {
     29695: {
         "alias_name": "北天药宗无方大CW额外伤害",
         "kind_type": "Poison",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 2200.0,
@@ -32813,6 +33512,7 @@ SKILLS = {
     32974: {
         "alias_name": "横刀单持普通攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -32825,6 +33525,7 @@ SKILLS = {
     32975: {
         "alias_name": "横刀双持普通攻击",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131072,
@@ -32837,6 +33538,7 @@ SKILLS = {
     33146: {
         "alias_name": "刀宗破招子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -32847,6 +33549,7 @@ SKILLS = {
     32510: {
         "alias_name": "破绽实际追加伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1,
         "recipe_mask": 0,
         "channel_interval": [
@@ -32874,6 +33577,7 @@ SKILLS = {
     40358: {
         "alias_name": "观风_击破弱点_造成伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 1,
         "recipe_mask": 0,
         "channel_interval": 504.0,
@@ -32887,6 +33591,7 @@ SKILLS = {
     40828: {
         "alias_name": "刀宗_击破弱点_破招",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 1,
@@ -32897,6 +33602,7 @@ SKILLS = {
     32246: {
         "alias_name": "留客雨实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32146,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -32995,6 +33701,7 @@ SKILLS = {
     32766: {
         "alias_name": "触石雨伤害效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33018,6 +33725,7 @@ SKILLS = {
     32149: {
         "alias_name": "行云势实际伤害一段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
         "recipe_mask": 0,
         "event_mask_1": 67108871,
@@ -33126,6 +33834,7 @@ SKILLS = {
     32150: {
         "alias_name": "行云势实际伤害二段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
         "recipe_mask": 0,
         "event_mask_1": 67108871,
@@ -33234,6 +33943,7 @@ SKILLS = {
     32151: {
         "alias_name": "行云势实际伤害三段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32132,
         "recipe_mask": 0,
         "event_mask_1": 67108871,
@@ -33342,6 +34052,7 @@ SKILLS = {
     32154: {
         "alias_name": "决云势实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32134,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33369,6 +34080,7 @@ SKILLS = {
     32167: {
         "alias_name": "断云势实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32135,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33429,6 +34141,7 @@ SKILLS = {
     32348: {
         "alias_name": "断云势逆斩杀伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32135,
         "recipe_mask": 0,
         "channel_interval": [
@@ -33487,6 +34200,7 @@ SKILLS = {
     32602: {
         "alias_name": "沧浪三叠扇形子技能一段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33579,6 +34293,7 @@ SKILLS = {
     32603: {
         "alias_name": "沧浪三叠扇形子技能二段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33671,6 +34386,7 @@ SKILLS = {
     32604: {
         "alias_name": "沧浪三叠扇形子技能三段",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33763,6 +34479,7 @@ SKILLS = {
     32891: {
         "alias_name": "破浪三式额外25%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33816,6 +34533,7 @@ SKILLS = {
     32892: {
         "alias_name": "破浪三式额外30%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33869,6 +34587,7 @@ SKILLS = {
     32234: {
         "alias_name": "破浪三式二式实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33937,6 +34656,7 @@ SKILLS = {
     32235: {
         "alias_name": "破浪三式常规无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -33990,6 +34710,7 @@ SKILLS = {
     32236: {
         "alias_name": "破浪三式额外5%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34043,6 +34764,7 @@ SKILLS = {
     32237: {
         "alias_name": "破浪三式额外10%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34096,6 +34818,7 @@ SKILLS = {
     32238: {
         "alias_name": "破浪三式额外15%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34149,6 +34872,7 @@ SKILLS = {
     32239: {
         "alias_name": "破浪三式额外20%无视减伤",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32145,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34202,6 +34926,7 @@ SKILLS = {
     32372: {
         "alias_name": "横云断浪一层流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
         "recipe_mask": 0,
         "channel_interval": [
@@ -34228,6 +34953,7 @@ SKILLS = {
     32371: {
         "alias_name": "横云断浪二层流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
         "recipe_mask": 0,
         "channel_interval": [
@@ -34254,6 +34980,7 @@ SKILLS = {
     32370: {
         "alias_name": "横云断浪三层流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
         "recipe_mask": 0,
         "channel_interval": [
@@ -34280,6 +35007,7 @@ SKILLS = {
     32369: {
         "alias_name": "横云断浪四层流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32144,
         "recipe_mask": 0,
         "channel_interval": [
@@ -34306,6 +35034,7 @@ SKILLS = {
     32357: {
         "alias_name": "门派轻功后撤伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 6,
@@ -34319,6 +35048,7 @@ SKILLS = {
     40645: {
         "alias_name": "承磊_满破_额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34333,6 +35063,7 @@ SKILLS = {
     32359: {
         "alias_name": "沧浪三叠连击一段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34425,6 +35156,7 @@ SKILLS = {
     32360: {
         "alias_name": "沧浪三叠连击二段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34517,6 +35249,7 @@ SKILLS = {
     32361: {
         "alias_name": "沧浪三叠连击三段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34609,6 +35342,7 @@ SKILLS = {
     32216: {
         "alias_name": "沧浪三叠一段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34701,6 +35435,7 @@ SKILLS = {
     32217: {
         "alias_name": "沧浪三叠二段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34793,6 +35528,7 @@ SKILLS = {
     32218: {
         "alias_name": "沧浪三叠三段实际伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 32601,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34885,6 +35621,7 @@ SKILLS = {
     34695: {
         "alias_name": "刀气爆炸伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 7,
@@ -34898,6 +35635,7 @@ SKILLS = {
     36118: {
         "alias_name": "刀宗墨圈子伤害子技能1",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 288.75,
@@ -34913,6 +35651,7 @@ SKILLS = {
     33239: {
         "alias_name": "刀宗新cw特效行云额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -34924,6 +35663,7 @@ SKILLS = {
     33133: {
         "alias_name": "刀气流血效果",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 330.0,
@@ -34932,6 +35672,7 @@ SKILLS = {
     35894: {
         "alias_name": "普通攻击_弓箭",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131586,
@@ -34944,6 +35685,7 @@ SKILLS = {
     36177: {
         "alias_name": "万灵山庄_破招伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 3,
@@ -34958,6 +35700,7 @@ SKILLS = {
     36157: {
         "alias_name": "万灵山庄_贯侯引爆额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 36157,
         "recipe_mask": 0,
         "channel_interval": 553.7664,
@@ -34970,6 +35713,7 @@ SKILLS = {
     35771: {
         "alias_name": "万灵山庄_通用上一层贯穿",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35771,
         "recipe_mask": 0,
         "channel_interval": 138.7888425,
@@ -34978,6 +35722,7 @@ SKILLS = {
     35866: {
         "alias_name": "万灵山庄_劲风簇伤害子技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35659,
         "recipe_mask": 0,
         "event_mask_1": 67109387,
@@ -35025,6 +35770,7 @@ SKILLS = {
     39092: {
         "alias_name": "万灵集雨簇伤害真正子技能下发",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35661,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -35088,6 +35834,7 @@ SKILLS = {
     36579: {
         "alias_name": "万灵山庄橙武额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 60.0,
@@ -35099,6 +35846,7 @@ SKILLS = {
     35695: {
         "alias_name": "引风唤灵",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_2": 524288,
@@ -35109,6 +35857,7 @@ SKILLS = {
     35696: {
         "alias_name": "弛律召野",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_2": 524288,
@@ -35119,6 +35868,7 @@ SKILLS = {
     36165: {
         "alias_name": "万灵山庄_引爆贯穿",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 16.0,
@@ -35127,6 +35877,7 @@ SKILLS = {
     40717: {
         "alias_name": "万灵山庄_于狩额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 40717,
         "recipe_mask": 0,
         "channel_interval": 300.0,
@@ -35139,6 +35890,7 @@ SKILLS = {
     36453: {
         "alias_name": "万灵山庄_劲风簇不判子弹伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 35659,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -35153,6 +35905,7 @@ SKILLS = {
     40347: {
         "alias_name": "聚势摧霆伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 40347,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -35167,6 +35920,7 @@ SKILLS = {
     40720: {
         "alias_name": "蓄力额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 40347,
         "recipe_mask": 0,
         "event_mask_1": 523,
@@ -35180,6 +35934,7 @@ SKILLS = {
     36580: {
         "alias_name": "万灵山庄橙武特效期间额外伤害",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 234.0,
@@ -35191,6 +35946,7 @@ SKILLS = {
     36056: {
         "alias_name": "万灵山庄_召唤兽践踏技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35227,6 +35983,7 @@ SKILLS = {
     36057: {
         "alias_name": "万灵山庄_召唤兽控制技能",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35263,6 +36020,7 @@ SKILLS = {
     36111: {
         "alias_name": "万灵山庄_追击型普攻",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35299,6 +36057,7 @@ SKILLS = {
     36112: {
         "alias_name": "万灵山庄_强击型普攻",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35335,6 +36094,7 @@ SKILLS = {
     36113: {
         "alias_name": "万灵山庄_飞行型普攻",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35371,6 +36131,7 @@ SKILLS = {
     36114: {
         "alias_name": "万灵山庄_防御型普攻",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": [
@@ -35407,6 +36168,7 @@ SKILLS = {
     38034: {
         "alias_name": "普通攻击_扇子",
         "kind_type": "Physics",
+        "platform": 0,
         "recipe_type": 11,
         "recipe_mask": 0,
         "event_mask_1": 131586,
@@ -35419,6 +36181,7 @@ SKILLS = {
     38093: {
         "alias_name": "引窍破招伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "max_level": 51,
@@ -35481,6 +36244,7 @@ SKILLS = {
     38083: {
         "alias_name": "破穴实际伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 38008,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35493,6 +36257,7 @@ SKILLS = {
     38084: {
         "alias_name": "断脉实际伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 38006,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35505,6 +36270,7 @@ SKILLS = {
     38085: {
         "alias_name": "绝脉层数消除后造成伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 38085,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35528,6 +36294,7 @@ SKILLS = {
     38090: {
         "alias_name": "截阳实际伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 38007,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35540,6 +36307,7 @@ SKILLS = {
     38438: {
         "alias_name": "引窍伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 38009,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35604,6 +36372,7 @@ SKILLS = {
     37804: {
         "alias_name": "骤风实际伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 37779,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35625,6 +36394,7 @@ SKILLS = {
     37816: {
         "alias_name": "劈风令纯伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 37780,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35637,6 +36407,7 @@ SKILLS = {
     38452: {
         "alias_name": "劈风令骤风共振",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 37780,
         "recipe_mask": 0,
         "channel_interval": 315.0576000000001,
@@ -35648,6 +36419,7 @@ SKILLS = {
     38447: {
         "alias_name": "抟风令拉人实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 37781,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35660,6 +36432,7 @@ SKILLS = {
     38453: {
         "alias_name": "抟风令击倒",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 37781,
         "recipe_mask": 0,
         "channel_interval": 512.0,
@@ -35671,6 +36444,7 @@ SKILLS = {
     38016: {
         "alias_name": "雾刃飞光一段",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 600.0,
@@ -35682,6 +36456,7 @@ SKILLS = {
     38075: {
         "alias_name": "雾刃飞光二段纯伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35694,6 +36469,7 @@ SKILLS = {
     38076: {
         "alias_name": "雾刃飞光三段纯伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35706,6 +36482,7 @@ SKILLS = {
     38077: {
         "alias_name": "雾刃飞光四段纯伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35718,6 +36495,7 @@ SKILLS = {
     38531: {
         "alias_name": "封府实际伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35730,6 +36508,7 @@ SKILLS = {
     39340: {
         "alias_name": "纷飙伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 704.0,
@@ -35741,6 +36520,7 @@ SKILLS = {
     38557: {
         "alias_name": "催烟群攻伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35753,6 +36533,7 @@ SKILLS = {
     38590: {
         "alias_name": "雾分身伤害子技能",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "event_mask_1": 144,
@@ -35765,6 +36546,7 @@ SKILLS = {
     39081: {
         "alias_name": "段氏橙武额外伤害",
         "kind_type": "NeutralMagic",
+        "platform": 0,
         "recipe_type": 0,
         "recipe_mask": 0,
         "channel_interval": 65.0,

@@ -339,7 +339,7 @@ def convert_json(result):
         filter_result = result[result.skill_id == skill_id]
         first_row = filter_result.iloc[0]
         result_json[skill_id] = dict(
-            alias_name=first_row.alias_name, kind_type=first_row.kind_type,
+            alias_name=first_row.alias_name, kind_type=first_row.kind_type, platform=int(first_row.platform),
             recipe_type=int(first_row.recipe_type), recipe_mask=int(first_row.recipe_mask),
         )
         for column in result.columns:
