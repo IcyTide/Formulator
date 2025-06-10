@@ -5,6 +5,14 @@ class 提高10会心几率(PhysicalCriticalRecipe):
     value = (1000, 102)
 
 
+class 提高15会心几率(PhysicalCriticalStrikeRecipe):
+    value = 1500
+
+
+class 听雷10会心会效(PhysicalCriticalRecipe):
+    value = (1000, 102)
+
+
 RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     SkillRecipe: {
         546: {}, 547: {}, 548: {},
@@ -19,7 +27,7 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
         # buff
         2910: {},
         # 奇穴
-        4880: {}, 2348: {}, 2883: {}, 2882: {},
+        3178: {}, 4880: {}, 2348: {}, 2883: {}, 2882: {},
         **{recipe_id: {} for recipe_id in range(2817, 2821 + 1)},
         **{recipe_id: {} for recipe_id in range(3280, 3282 + 1)},
         # 装备
@@ -50,6 +58,12 @@ RECIPES: Dict[type(Recipe), Dict[Union[int, Tuple[int, int]], dict]] = {
     },
     提高10会心几率: {
         1235: {}, 1236: {}
+    },
+    提高15会心几率: {
+        2445: {}, 2446: {}
+    },
+    听雷10会心会效: {
+        2740: {}
     }
 }
 RECIPE_CHOICES: Dict[str, Dict[str, int]] = {

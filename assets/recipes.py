@@ -1755,6 +1755,14 @@ RECIPES = {
             "recipe_name": "听晓加断潮伤害"
         }
     },
+    3178: {
+        1: {
+            "damage_addition": 102,
+            "skill_id": 1646,
+            "recipe_type": 1646,
+            "recipe_name": "重剑听雷伤害10%"
+        }
+    },
     4880: {
         1: {
             "damage_addition": 102,
@@ -2011,6 +2019,29 @@ RECIPES = {
             "skill_id": 1593,
             "recipe_type": 1593,
             "recipe_name": "云飞会心提高10%"
+        }
+    },
+    2445: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 1593,
+            "recipe_type": 1593,
+            "recipe_name": "云飞15会心15伤害"
+        }
+    },
+    2446: {
+        1: {
+            "damage_addition": 154,
+            "skill_id": 1600,
+            "recipe_type": 1600,
+            "recipe_name": "夕照15会心15伤害"
+        }
+    },
+    2740: {
+        1: {
+            "skill_id": 1646,
+            "recipe_type": 1646,
+            "recipe_name": "撼岳山居听雷加10%伤害"
         }
     },
     -134: {

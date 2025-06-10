@@ -202,6 +202,14 @@ class MoveStateDamageAdditionRecipe(SkillRecipe):
         skill.move_state_damage_addition -= self.value
 
 
+class PhysicalCriticalStrikeRecipe(SkillRecipe):
+    def add_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_add += self.value
+
+    def sub_skill(self, skill: Skill):
+        skill.physical_critical_strike_rate_add -= self.value
+
+
 class PhysicalCriticalRecipe(SkillRecipe):
     def add_skill(self, skill: Skill):
         skill.physical_critical_strike_rate_add += self.value[0]
