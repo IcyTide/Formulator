@@ -913,6 +913,10 @@ class TankAttribute(Attribute):
     _tank_buff_id: int = 0
     _tank_buff_level: int = 0
 
+    def __init__(self):
+        super().__init__()
+        self.grad_attrs = dict(vitality_base=VITALITY_DELTA, **self.grad_attrs)
+
     @property
     def tank_buff_id(self):
         return self._tank_buff_id
