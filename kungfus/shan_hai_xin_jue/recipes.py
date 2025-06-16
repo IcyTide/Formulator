@@ -30,7 +30,7 @@ class 彤弓_劲风簇10双会(PhysicalCriticalRecipe):
 
 
 class 贯侯_标鹄伤害增加(PveAdditionRecipe):
-    value = 205
+    value = 338
 
     def add_skill(self, skill: Skill):
         if skill.skill_id == 36157:

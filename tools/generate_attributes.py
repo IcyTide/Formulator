@@ -2,7 +2,7 @@ from tqdm import tqdm
 
 from kungfus import SUPPORT_KUNGFU
 from tools import *
-from tools.generate_skills import prepare_lua_engine, INCLUDE_LUA, SKILL_TAB, SCRIPTS_PATH, INCLUDE_PATTERN
+from tools.generate_skills import prepare_lua_engine, execute_lua, INCLUDE_LUA, SKILL_TAB, SCRIPTS_PATH
 
 
 def prepare_attributes():
@@ -137,17 +137,16 @@ def parse_lua(attribute_id):
     max_level = int(attribute_row.MaxLevel)
     platform = attribute_row.Platform
     target_file_path = attribute_row.ScriptFile.replace('\\','/')
-    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path), encoding="utf-8").read()
-    lua_code = INCLUDE_PATTERN.sub('', lua_code)
-    return max_level, lua_code, (attribute_id, platform, alias_name)
+    lua_path = os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path)
+    return max_level, lua_path, (attribute_id, platform, alias_name)
 
 
 def collect_result():
     result = []
     lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(prepare_attributes()):
-        max_level, lua_code, attribute_args = parse_lua(skill_id)
-        lua_engine.execute(lua_code)
+        max_level, lua_path, attribute_args = parse_lua(skill_id)
+        execute_lua(lua_engine, lua_path)
         for level in range(max_level):
             level += 1
 

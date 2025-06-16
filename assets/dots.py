@@ -1616,7 +1616,7 @@ DOTS = {
         "buff_name": "逆乱(DOT)",
         "alias_name": "逆乱",
         "interval": 32,
-        "tick": 7,
+        "tick": 8,
         "max_stack": 8,
         "active_cof": 1.0,
         "platform": 0,

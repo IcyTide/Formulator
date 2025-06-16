@@ -43,13 +43,16 @@ TALENTS: List[Dict[int, Gain]] = [
         18679: Gain("浮生", skill_ids=[18670])
     },
     {
-        24945: Gain("破势", buff_ids=[17918])
+        24945: Gain("破势", buff_ids=[17918]),
+        32412: Gain("星辰", skill_ids=[32414])
     },
     {
-        23614: Gain("归元")
+        23614: Gain("归元"),
+        14836: Gain("自化", skill_ids=[20955])
     },
     {
         14613: 固本("固本"),
-        36099: Gain("际地蟠天", skill_ids=[36102])
+        36099: Gain("际地蟠天", skill_ids=[36102]),
+        23969: Gain("剑出鸿蒙", skill_ids=[28590])
     }
 ]

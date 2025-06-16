@@ -1,8 +1,8 @@
-import lupa.lua54 as lupa
 from tqdm import tqdm
 
 from kungfus import SUPPORT_KUNGFU
 from tools import *
+from tools.generate_skills import prepare_lua_engine, execute_lua, INCLUDE_LUA
 
 
 def prepare_skills():
@@ -33,61 +33,24 @@ ATTRIBUTE_TYPE = {
 }
 ATTRIBUTE_TYPE_CODE = "\n".join(f'{k}={i},' for i, k in enumerate(ATTRIBUTE_TYPE))
 ATTRIBUTE_TYPE_MAP = {i: v for i, v in enumerate(ATTRIBUTE_TYPE.values())}
-INCLUDE_LUA = """
-function GetEditorString(param_1, param_2)
-    return true;
-end
-function GetDesertHorseList()
-    return {};
-end
-function IsClient()
-    return true;
-end
-
-ABSORB_ATTRIBUTE_SHIELD_TYPE = {};
-RELATION_FORCE = {};
-GLOBAL = {
-    GAME_FPS = 16
-};
+INCLUDE_LUA = INCLUDE_LUA + """
 SKILL_KIND_TYPE = {
-    PHYSICS = 1,
-    SOLAR_MAGIC = 2,
-    LUNAR_MAGIC = 3,
-    NEUTRAL_MAGIC = 4,
-    POISON = 5,
+    PHYSICS = 0,
+    SOLAR_MAGIC = 1,
+    LUNAR_MAGIC = 2,
+    NEUTRAL_MAGIC = 3,
+    POISON = 4,
 };
 PLAYER_ARENA_TYPE = {
-    THERAPY = 1,
-    DPS = 2,
-    T = 3
+    DPS = 0,
+    T = 1,
+    THERAPY = 2
 };
-ROLE_TYPE = {
-    LITTLE_BOY = 2,
-    STANDARD_MALE = 3,
-    LITTLE_GIRL = 4,
-    STANDARD_FEMALE = 5,
-};
-BUFF_COMPARE_FLAG = {};
-SKILL_COMPARE_FLAG = {};
-ATTRIBUTE_EFFECT_MODE = {};
 """ + f"""
 ATTRIBUTE_TYPE = {{
 {ATTRIBUTE_TYPE_CODE}
 }};
 """
-
-INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')
-
-
-def prepare_lua_engine(preset_lua):
-    engine = lupa.LuaRuntime()
-    engine.execute(preset_lua)
-    with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="utf-8") as f:
-        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
-    with open(os.path.join(BASE_DIR, "scripts/include/NewSkill.lh"), encoding="utf-8") as f:
-        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
-    return engine
-
 
 SKILL_TAB = read_tab("settings/skill_mobile/skills.tab")
 SKILL_TXT = read_tab("ui/Scheme/case_mobile/skill.txt")
@@ -234,12 +197,9 @@ def collect_result():
         if "Default" in lua_path:
             continue
 
-        lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH, lua_path), encoding="utf-8").read()
-        lua_code = INCLUDE_PATTERN.sub('', lua_code)
-
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
 
-        lua_engine.execute(lua_code)
+        execute_lua(lua_engine, os.path.join(BASE_DIR, SCRIPTS_PATH, lua_path))
         if filter_skill_txt.empty:
             skill_name = None
         else:

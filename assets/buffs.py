@@ -4218,15 +4218,15 @@ BUFFS = {
     6363: {
         "attributes": [
             {
-                "physical_overcome_gain": 205,
-                "physical_attack_power_gain": 205
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 307
             },
             {
                 "physical_critical_strike_rate": 3000
             },
             {
-                "physical_overcome_gain": 205,
-                "physical_attack_power_gain": 205,
+                "physical_overcome_gain": 256,
+                "physical_attack_power_gain": 307,
                 "physical_critical_strike_rate": 3000
             },
             {
@@ -5096,16 +5096,47 @@ BUFFS = {
         "recipes": {}
     },
     2686: {
-        "attributes": {
-            "solar_attack_power_gain": 204
-        },
-        "max_level": 4,
+        "attributes": [
+            {
+                "solar_attack_power_gain": 204
+            },
+            {
+                "solar_attack_power_gain": 204
+            },
+            {
+                "solar_attack_power_gain": 204
+            },
+            {
+                "solar_attack_power_gain": 204
+            },
+            {
+                "solar_attack_power_gain": 204,
+                "solar_critical_strike_rate": 1000
+            },
+            {
+                "solar_attack_power_gain": 204,
+                "solar_critical_strike_rate": 1000
+            },
+            {
+                "solar_attack_power_gain": 204,
+                "solar_critical_strike_rate": 1000
+            },
+            {
+                "solar_attack_power_gain": 204,
+                "solar_critical_strike_rate": 1000
+            }
+        ],
+        "max_level": 8,
         "buff_name": "擒龙诀",
         "alias_name": [
             "金刚诀",
             "金刚诀",
             "金刚诀_不回豆",
-            "金刚诀_不回豆回血"
+            "金刚诀_不回豆回血",
+            "金刚诀",
+            "金刚诀",
+            "金刚诀",
+            "金刚诀"
         ],
         "max_stack": 1,
         "recipes": {}

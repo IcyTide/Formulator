@@ -1,3 +1,6 @@
+import os.path
+import subprocess
+
 import lupa.lua54 as lupa
 from tqdm import tqdm
 
@@ -87,6 +90,10 @@ function IsClient()
     return true;
 end
 
+function Include(param)
+    return true;
+end
+
 ABSORB_ATTRIBUTE_SHIELD_TYPE = {};
 RELATION_FORCE = {};
 GLOBAL = {
@@ -114,12 +121,22 @@ INCLUDE_PATTERN = re.compile(r'Include\("([^"]+)"\)')
 def prepare_lua_engine(preset_lua):
     engine = lupa.LuaRuntime()
     engine.execute(preset_lua)
-    with open(os.path.join(BASE_DIR, "scripts/include/Skill.lh"), encoding="utf-8") as f:
-        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
-    with open(os.path.join(BASE_DIR, "scripts/include/NewSkill.lh"), encoding="utf-8") as f:
-        engine.execute(INCLUDE_PATTERN.sub('', f.read()))
+    execute_lua(engine, os.path.join(BASE_DIR, "scripts/include/Skill.lh"))
+    execute_lua(engine, os.path.join(BASE_DIR, "scripts/include/NewSkill.lh"))
     return engine
 
+
+def execute_lua(engine, lua_path):
+    try:
+        with open(lua_path, encoding="utf-8") as f:
+            lua_code = f.read()
+        engine.execute(lua_code)
+    except:
+        lua_code = subprocess.run(
+            ["java", "-jar", "unluac.jar", "--rawstring", os.path.abspath(lua_path)],
+            stdout=subprocess.PIPE, text=True
+        ).stdout
+        engine.execute(INCLUDE_PATTERN.sub('', lua_code))
 
 SKILL_TAB = read_tab("settings/skill/skills.tab")
 SKILL_TAB['Platform'] = 0
@@ -283,22 +300,21 @@ def parse_lua(skill_id):
     surplus_cof = int(skill_row.SurplusCoefficient) if pd.notna(skill_row.SurplusCoefficient) else 0
     target_file_path = skill_row.ScriptFile.replace('\\','/')
 
-    lua_code = open(os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path), encoding="utf-8").read()
-    lua_code = INCLUDE_PATTERN.sub('', lua_code)
+    lua_path = os.path.join(BASE_DIR, SCRIPTS_PATH[platform], target_file_path)
     skill_args = (
         kind_type, event_mask_1, event_mask_2, recipe_type, recipe_mask,
         weapon_request, use_skill_cof, platform, skill_cof, dot_cof, surplus_cof
     )
-    return alias_name, max_level, lua_code, skill_args
+    return alias_name, max_level, lua_path, skill_args
 
 
 def collect_result():
     result = []
     lua_engine = prepare_lua_engine(INCLUDE_LUA)
     for skill_id in tqdm(prepare_skills()):
-        alias_name, max_level, lua_code, skill_args = parse_lua(skill_id)
+        alias_name, max_level, lua_path, skill_args = parse_lua(skill_id)
         filter_skill_txt = SKILL_TXT[SKILL_TXT.SkillID == skill_id]
-        lua_engine.execute(lua_code)
+        execute_lua(lua_engine, lua_path)
         for skill_level in range(max_level):
             skill_level += 1
             if filter_skill_txt.empty:
