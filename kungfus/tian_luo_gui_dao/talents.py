@@ -9,7 +9,9 @@ TALENTS: List[Dict[int, Gain]] = [
         6491: Gain("毒手尊拳", recipes=[(1220, 1)])
     },
     {
-        6493: Gain("天风汲雨", skill_ids=[30727])
+        6493: Gain("天风汲雨", skill_ids=[30727]),
+        6443: Gain("暴雨梨花"),
+        18237: Gain("千回百转")
     },
     {
         6495: Gain("弩击急骤", buff_ids=[6105])

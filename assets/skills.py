@@ -28491,6 +28491,30 @@ SKILLS = {
         "physical_damage_base": 55,
         "physical_damage_rand": 5
     },
+    21933: {
+        "alias_name": "霸刀特殊武器_银雷伤害",
+        "kind_type": "Physics",
+        "platform": 0,
+        "recipe_type": 0,
+        "recipe_mask": 0,
+        "channel_interval": 16.0,
+        "max_level": 10,
+        "skill_name": "银雷贯体",
+        "weapon_damage_cof": 1024.0,
+        "physical_damage_call": 1,
+        "physical_damage_base": [
+            24073,
+            31932,
+            43016,
+            389166,
+            1065022,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
     19712: {
         "alias_name": "普通攻击_伞",
         "kind_type": "Physics",
